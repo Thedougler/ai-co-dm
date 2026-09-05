@@ -3,7 +3,7 @@ name: wiki-lint
 description: >-
   Health-check the ai-co-dm LLM wiki: inbox rot, hot drift, broken wikilinks,
   orphans, dupes, missing index links, prep/log mash, narration leaks. Use for
-  audit, lint, health check, "what's rotting", or Organizer deep passes. Default
+  audit, lint, health check, "what's rotting", or Linter wakes. Default
   report + propose; auto-fix only safe reversible link/index edits. Not for
   inventing campaign fiction (Co-DM) or redesigning the fleet (Ops).
 ---
@@ -12,7 +12,7 @@ description: >-
 
 Surgical health audit. Prefer `./scripts/qmd` + indexes over reading the whole tree.
 
-**Vault:** `/Users/nick/Documents/ai-co-dm`. Schema: [[AGENTS]]. Schedule owner: **Organizer**.
+**Vault:** `/Users/nick/Documents/ai-co-dm`. Schema: [[AGENTS]]. Checklist owner: **Linter**. Organizer may request a pass; structural doctrine stays with Organizer.
 
 Do **not** run generic PKM 17-step audits, `wiki/.state.json` checks, or `~/.obsidian-wiki` config protocols. Use the checklist below.
 

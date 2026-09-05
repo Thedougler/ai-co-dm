@@ -23,7 +23,7 @@ Obsidian LLM wiki for Nick's home D&D. **Markdown is the product.**
 - No parallel DB/app. Vault *is* the system.
 - No prep/log mash (`session-prep` disposable; `session` durable).
 - No secrets/DCs/unearned names in `[!narration]`.
-- No “update the whole wiki” — surgical page sets only. Hygiene → **Organizer**; don’t full-wiki rewrite.
+- No “update the whole wiki” — surgical page sets only. Lint/audit → **Linter**; structure/MOCs/inbox → **Organizer**; don’t full-wiki rewrite.
 - No full-transcript handoffs. No re-ls when `hot` + qmd suffice.
 - No silent overwrite of canon — flag in the note / ask Co-DM|Nick.
 
@@ -50,7 +50,7 @@ Obsidian LLM wiki for Nick's home D&D. **Markdown is the product.**
 | Find vault facts | `qmd-retrieval` |
 | LLM-wiki pattern / ingest·query·lint doctrine | `llm-wiki` |
 | Ingest source → typed notes | `wiki-ingest` |
-| Wiki health / orphans / hot drift | `wiki-lint` → **Organizer** |
+| Wiki health / orphans / hot drift | `wiki-lint` → **Linter** |
 | Player-facing prose / `[!narration]` | `theatre-of-the-mind` → **Visualizer** |
 | Session pacing | `session-beats` |
 | Places | `place-design` |
@@ -69,7 +69,8 @@ Packet only: `goal` · `allowed paths` · `type` · `constraints` · `do not re-
 | **Visualizer** | TotM / `[!narration]` only |
 | **Homebrewer** | Mechanical homebrew |
 | **Researcher** | Prior art (web); not vault canon |
-| **Organizer** | Indexes/MOCs, inbox drain, orphan/dupe proposals, hot drift |
+| **Organizer** | Indexes/MOCs, inbox drain, structure doctrine, hot refresh |
+| **Linter** | `wiki-lint` checklist/audit (report + propose) |
 | **Skill-Creator** | `.agent/skills/` |
 | **Ops** | Fleet, AGENTS, templates, qmd, routines |
 
