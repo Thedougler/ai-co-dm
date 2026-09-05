@@ -8,7 +8,7 @@ tags: [location]
 ---
 # Aruhe / Hungry Isle
 > [!narration] Narration
-> _Visualizer: place portrait pending._
+> Aruhe, the Hungry Isle, is a Midchain wilderness of shore, scrub, tracks, and higher ground where the island eats what lands on it. Its open-water approach reaches survey ground and a proposed Tangle anchor, with the landing edge offering a route back to the sea.
 ## At a glance
 The Hungry Isle eats what lands; the cold open pairs a purple Grung with wolfrabbits. It is a survey destination and proposed [[Tangle]] anchor, with [[Nona Black-Jaw]] asking Perrin to survey it.
 ## Five-sentence kernel

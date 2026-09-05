@@ -11,8 +11,7 @@ tags: [npc]
 # Master Kyzil
 
 > [!narration] Narration
-> _Visualizer: standalone portrait pending._
->
+> Master Kyzil is a Sentinel master with a direct, exacting voice. He trains on the rooftops of Ponte Bassa and keeps watch on the Drowned Maw’s moods.
 ## Hook
 Get Crissdalynn’s Maw map completed so the Sentinel pilgrimage can judge whether her exile ends before [[Countless]] claims its meaning.
 ## Identity and public function

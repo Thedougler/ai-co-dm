@@ -11,8 +11,7 @@ tags: [npc]
 # Umberlee / Branca
 
 > [!narration] Narration
-> _Visualizer: standalone portrait pending._
->
+> Branca is a Waveservant priestess whose voice carried one unmistakable command: “Bring me the pearl.”
 ## Hook
 Return [[Pearl of Souls]] to [[Umberlee]]; the possessed Waveservant vessel delivered one command: **Bring me the pearl.**
 ## Identity and public function

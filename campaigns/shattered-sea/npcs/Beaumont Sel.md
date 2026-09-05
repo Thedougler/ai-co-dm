@@ -11,8 +11,7 @@ tags: [npc]
 # Beaumont Sel
 
 > [!narration] Narration
-> _Visualizer: standalone portrait pending._
->
+> Beaumont Sel is a smuggler and Passage contact who moves people through colonial pressure. He works through trusted introductions and routes that keep the network connected.
 ## Hook
 Move people through colonial pressure without letting the Passage collapse; his immediate handle is the crew’s access aboard [[Saltwright]].
 ## Identity and public function

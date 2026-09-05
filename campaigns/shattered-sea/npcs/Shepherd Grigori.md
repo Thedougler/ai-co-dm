@@ -11,8 +11,7 @@ tags: [npc]
 # Shepherd Grigori
 
 > [!narration] Narration
-> _Visualizer: standalone portrait pending._
->
+> Shepherd Grigori is a quiet passenger and healer, known by the bread and herbs he carries. When he works, red light can shine from his wrist.
 ## Hook
 Stay free long enough to reach a port where the galley rule can release him, while the Crown’s accusation and Hound of Tyr hunt remain active.
 ## Identity and public function

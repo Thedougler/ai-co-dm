@@ -8,7 +8,7 @@ tags: [location]
 ---
 # Midchain
 > [!narration] Narration
-> _Visualizer: place portrait pending._
+> Midchain is a crowded chain of small tropical islands, free ports, reefs, and local councils. Low islands and busy jetties break into reef channels marked by flags and pilots, while surf on coral, brine, pitch, wet sailcloth, and cooking smoke follow the routes between them.
 ## At a glance
 Densely packed small tropical islands, free ports, reefs, and local councils; feels busy beyond enforcement.
 ## Five-sentence kernel

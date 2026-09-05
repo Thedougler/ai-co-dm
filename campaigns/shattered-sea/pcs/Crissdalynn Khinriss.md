@@ -9,8 +9,7 @@ tags: [pc]
 # Crissdalynn Khinriss
 
 > [!narration] Narration
-> _Visualizer: standalone portrait pending._
->
+> Crissdalynn Khinriss is a young aarakocra with blue-black feathers that catch an iridescent sheen. Geometric leather, a chart satchel, spread wings, and hooked talons give her the recognizable look of a traveling mapmaker and martial student.
 ## Player-facing summary
 Fourteen-year-old Aarakocra Kensei Monk: blue-black iridescent feathers, geometric leather, chart satchel, talons, and wings.
 ## Bonds / ideals that matter

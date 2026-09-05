@@ -11,8 +11,7 @@ tags: [npc]
 # Osset
 
 > [!narration] Narration
-> _Visualizer: standalone portrait pending._
->
+> Osset is a rogue Sentinel with falcon features, a name tied to the Nightmantle and other unusual items.
 ## Hook
 Trace the rogue Sentinel’s interest in [[Nightmantle]] and the other linked items; Osset’s next move and current location are UNKNOWN.
 ## Identity and public function

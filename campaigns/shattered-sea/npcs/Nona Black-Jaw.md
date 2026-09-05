@@ -11,8 +11,7 @@ tags: [npc]
 # Nona Black-Jaw
 
 > [!narration] Narration
-> _Visualizer: standalone portrait pending._
->
+> Nona Black-Jaw is a practical Calveno host who keeps a guarded door and a sending stone close at hand. Bodyguards Enzo and Ruk are part of the household that surrounds her, linking kitchen warmth with Passage business.
 ## Hook
 Secure Perrin’s survey of [[Aruhe - Hungry Isle]] while turning the 314+ missing-persons case into a route the Passage can act on.
 ## Identity and public function
