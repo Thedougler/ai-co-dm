@@ -74,6 +74,8 @@ legendary_actions:
 # Great Crown Squid
 
 > [!narration] Narration
+> The great crown squid hangs sixty to eighty feet across the crowns: a swollen clear body of gas chambers, eight thick arms braced on trunks with gripping pads and hooked suckers, and a forest of finer hunting lines under the beak — some finger-thin, some rope-thick, dozens of feet long. It flows from tree to tree almost silently. When something moves below, the huge principal eyes roll inside the translucent head toward it without the body shifting.
+
 
 
 ## At the table
