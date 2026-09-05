@@ -1,0 +1,89 @@
+---
+name: session-beats
+description: >-
+  Pace and run exciting TTRPG sessions with a Beat Chart adapted for player
+  agency. Use when planning or running a session, one-shot, adventure arc,
+  or expedition evening: Hook, alternating Developments and Cliffhangers,
+  Climax, and Resolution — as a situation palette and pacing dial, not a
+  railroad. Use when the table feels flat, overly linear, or when action and
+  downtime need balancing without forcing outcomes.
+---
+
+# Session beats
+
+Use a Beat Chart as a pacing palette, never as a script. Prepare pressures,
+factions, clues, locations, offers, and hazards that can become beats. Let what
+players do select which prepared situation fires, what it means, and whether a
+new situation replaces it. Never force the next scene because a slot is empty.
+
+## Run the chart
+
+1. **State the promise and starting situation.** Name the experience, question,
+   pressure, and player-created goals that matter now. Keep hidden truth,
+   mechanics, clocks, and unused possibilities in GM notes.
+2. **Set a flexible budget.** Treat roughly 30 minutes of real play as one Beat.
+   Reserve Hook, Climax, and Resolution for about 90 minutes together; fill
+   additional time with alternating Development/Cliffhanger pairs. Adjust for
+   table speed, not the clock alone.
+3. **Prepare situations, not outcomes.** For each candidate, record trigger,
+   actors, stakes, visible information, at least two viable responses, and what
+   changes afterward. Mark the candidate as a Hook, Development, Cliffhanger,
+   Climax, or Resolution only when it fires.
+4. **Fire one Hook at the start.** Present an actionable problem, offer, threat,
+   discovery, or opening. If the Hook is action-heavy, make the next beat a
+   Development; if it is cerebral or conversational, make the next beat a
+   Cliffhanger. Offer choices whenever the fiction allows them.
+5. **Alternate the middle.** Use Developments for non-action change—clues,
+   talk, revelation, planning, or character change. Use Cliffhangers for action,
+   peril, pursuit, fights, ambushes, and immediate obstacles. Do not place two
+   Developments or two Cliffhangers consecutively. A player-caused pause,
+   detour, or departure is not a license to force the next prepared beat.
+6. **Recompute after every beat.** Update actors, knowledge, resources, routes,
+   clocks, relationships, and player goals. Drop obsolete candidates, promote
+   emergent situations, and change labels or order as the new state demands.
+   Treat a failed beat as a real world change, not a cue to replay it.
+7. **Build fair obstacles.** Put enough clues in the current or earlier fiction
+   for a Trap or Puzzle to have a solution; provide multiple approaches where
+   possible. Resolve Contests with transparent player skill, choices, or rolls,
+   never GM fiat. Give players a chance to notice Betrayal or Sabotage before
+   it becomes irreversible. Keep Second Chance, Back from Dead, and Heroes
+   Escape rare, costly, and unable to erase meaningful consequences.
+8. **Escalate pressure without stacking fights.** Early opposition may be weak,
+   partial, or avoidable; later opposition may be tougher or more consequential.
+   Keep Cliffhangers short and legible, save the strongest pressure for the
+   Climax, and interleave social, investigative, travel, and recovery beats.
+9. **Earn the Climax.** Before an action Climax, end the preceding beat with a
+   Development; before a cerebral Climax, end it with a Cliffhanger. Define the
+   Climax as the highest-stakes confrontation the players' choices made
+   inevitable. Negotiation, retreat, prevention, sacrifice, or reframing can be
+   the climax; do not require a final battle.
+10. **Resolve the changed world.** Follow Climax with one Resolution. Show the
+    consequences of player choices, including costs, altered relationships,
+    opened routes, unresolved danger, or new opportunities. Make any sequel
+    follow the fiction; do not preserve an antagonist merely to demand a rematch.
+
+## Agency gates
+
+- Prepare situations and clocks, not required outcomes.
+- Offer two or more meaningful options when the fiction supports them: routes,
+  alliances, bargains, fights, retreats, investigation, or refusal.
+- Let players ignore a Development, fail a Cliffhanger, or pursue a goal they
+  create. Apply visible consequences and recompute; do not hide a correct path.
+- Let the chart shrink, branch, pause, or end early when the new state warrants it.
+- Make player-facing prose a theatre-of-the-mind handoff. Use dungeon-design
+  for sites, routes, pressure procedures, and decision graphs. Retrieve setting
+  canon with qmd-retrieval; if the vault is silent, use a marked stub rather
+  than inventing canon. Never paste WotC proprietary text.
+
+## Beat order audit
+
+Before play, write `Hook → (D/C pairs as needed) → Climax → Resolution` and mark
+whether the Hook, each transition, and the Climax prelude satisfy the polarity
+rules. During play, cross out or rewrite candidates after each recompute. A
+chart is healthy when it creates pressure and openings without deciding what
+players must choose.
+
+Read [references/agency.md](references/agency.md) for the recompute loop and
+anti-railroad tests. Use [references/beat-types.md](references/beat-types.md)
+for practical cards, then copy [references/session-skeleton.md](references/session-skeleton.md)
+for preparation. Run [evals/evals.json](evals/evals.json) against drafts.
