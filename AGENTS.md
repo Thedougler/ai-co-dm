@@ -27,3 +27,20 @@ This repo is an Obsidian LLM wiki for home D&D campaigns. Treat markdown as the 
 1. Read [[00 Home]] and the active campaign hub.
 2. Capture ephemeral stuff under `inbox/`, then file into the campaign.
 3. After a session, add `sessions/NNNN-title.md` and bump the campaign hub.
+
+## Search (QMD)
+
+Agents find content with **qmd** against the project-local index in `.qmd/` (not the global Shattered Sea index). Run commands from the vault root.
+
+| Collection | Covers |
+|---|---|
+| `wiki` | campaign notes, hubs, lexicon, templates, inbox, AGENTS/README |
+| `skills` | `.agent/skills/**` (dotdir; separate collection) |
+
+Protocol: load `.agent/skills/qmd-retrieval/SKILL.md`. Short form:
+
+1. `qmd search` / `qmd query` with `-c wiki` or `-c skills`
+2. `qmd get` / `qmd multi-get` full docs (snippets are leads only)
+3. After markdown writes: `qmd update` then `qmd embed` when vectors matter
+
+Optional MCP: `qmd mcp` from vault root — see `.agent/skills/qmd/references/mcp-setup.md`.

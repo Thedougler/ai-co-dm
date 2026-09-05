@@ -1,0 +1,15 @@
+collections:
+  wiki:
+    path: /Users/nick/Documents/ai-co-dm
+    pattern: "**/*.md"
+    context:
+      "": "ai-co-dm Obsidian LLM wiki: campaigns, lexicon, templates, inbox, AGENTS.md, README. Public vault for Nick home D&D. Prefer -c wiki for co-DM / homebrew wiki lookups."
+  skills:
+    path: /Users/nick/Documents/ai-co-dm/.agent/skills
+    pattern: "**/*.md"
+    context:
+      "": Agent skills for ai-co-dm (theatre-of-the-mind, qmd, qmd-retrieval). Use when looking up how agents should write or search.
+models:
+  embed: hf:ggml-org/embeddinggemma-300M-GGUF/embeddinggemma-300M-Q8_0.gguf
+  generate: hf:tobil/qmd-query-expansion-1.7B-gguf/qmd-query-expansion-1.7B-q4_k_m.gguf
+  rerank: hf:ggml-org/Qwen3-Reranker-0.6B-Q8_0-GGUF/qwen3-reranker-0.6b-q8_0.gguf
