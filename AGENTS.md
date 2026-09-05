@@ -53,6 +53,7 @@ Obsidian LLM wiki for Nick's home D&D. **Markdown is the product.**
 | Ingest source → typed notes | `wiki-ingest` → **Ingest** |
 | Wiki health / orphans / hot drift | `wiki-lint` → **Linter** |
 | Player-facing prose / `[!narration]` | `theatre-of-the-mind` → **Visualizer** |
+| Audit player-facing TotM / read-aloud | **Writing-Evaluator** (critique only; packets Skill-Creator on skill gaps) |
 | Session pacing | `session-beats` |
 | Places | `place-design` |
 | Dungeons | `dungeon-design` |
@@ -67,7 +68,8 @@ Packet only: `goal` · `allowed paths` · `type` · `constraints` · `do not re-
 | Bot | Owns |
 |---|---|
 | **Co-DM** | Continuity, prep/log, vault canon, rulings |
-| **Visualizer** | TotM / `[!narration]` only |
+| **Visualizer** | TotM / `[!narration]` write only |
+| **Writing-Evaluator** | Audit player-facing TotM / read-aloud; Skill-Creator improves `theatre-of-the-mind` from audits |
 | **Homebrewer** | Mechanical homebrew |
 | **Researcher** | Prior art (web); not vault canon |
 | **Organizer** | Indexes/MOCs, structure doctrine, hot refresh, light inbox triage |
