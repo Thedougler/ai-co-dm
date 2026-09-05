@@ -4,17 +4,20 @@
 
 ```bash
 npm install -g @tobilu/qmd
-qmd collection add ~/path/to/markdown --name myknowledge
-qmd embed
+./scripts/qmd collection add ~/path/to/markdown --name myknowledge
+./scripts/qmd embed
 ```
 
 ## Configure MCP Client
+
+These examples use the repo-local launcher and assume the MCP client starts
+with the vault root as its working directory.
 
 **Claude Code** (`~/.claude/settings.json`):
 ```json
 {
   "mcpServers": {
-    "qmd": { "command": "qmd", "args": ["mcp"] }
+    "qmd": { "command": "./scripts/qmd", "args": ["mcp"] }
   }
 }
 ```
@@ -23,7 +26,7 @@ qmd embed
 ```json
 {
   "mcpServers": {
-    "qmd": { "command": "qmd", "args": ["mcp"] }
+    "qmd": { "command": "./scripts/qmd", "args": ["mcp"] }
   }
 }
 ```
@@ -33,7 +36,7 @@ qmd embed
 {
   "mcp": {
     "servers": {
-      "qmd": { "command": "qmd", "args": ["mcp"] }
+      "qmd": { "command": "./scripts/qmd", "args": ["mcp"] }
     }
   }
 }
@@ -42,9 +45,9 @@ qmd embed
 ## HTTP Mode
 
 ```bash
-qmd mcp --http              # Port 8181
-qmd mcp --http --daemon     # Background
-qmd mcp stop                # Stop daemon
+./scripts/qmd mcp --http              # Port 8181
+./scripts/qmd mcp --http --daemon     # Background
+./scripts/qmd mcp stop                # Stop daemon
 ```
 
 ## Tools
@@ -97,6 +100,6 @@ Index health and collections. No params.
 
 ## Troubleshooting
 
-- **Not starting**: `which qmd`, `qmd mcp` manually
-- **No results**: `qmd collection list`, `qmd embed`
+- **Not starting**: `./scripts/qmd --version`, `./scripts/qmd mcp` manually
+- **No results**: `./scripts/qmd collection list`, `./scripts/qmd embed`
 - **Slow first search**: Normal, models loading (~3GB)

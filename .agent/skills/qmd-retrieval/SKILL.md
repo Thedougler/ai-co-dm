@@ -14,7 +14,7 @@ instead of other QMD indexes on the machine.
 
 Snippets are leads only. Fetch full docs before claiming facts.
 
-Also load `.agent/skills/qmd/SKILL.md` (bootstrap → `qmd skill show`) for CLI details.
+Also load `.agent/skills/qmd/SKILL.md` (bootstrap → `./scripts/qmd skill show`) for CLI details.
 
 ## Collections
 
@@ -29,19 +29,19 @@ Dotdirs are not covered by the `wiki` collection — that is why `skills` is sep
 
 ### 1. Known path or wikilink
 ```bash
-qmd get "qmd://wiki/00-Home.md" --full
-qmd get "#docid" --full
+./scripts/qmd get "qmd://wiki/00-Home.md" --full
+./scripts/qmd get "#docid" --full
 ```
 
 ### 2. Exact names — BM25
 ```bash
-qmd search "house tone" -c wiki -n 5
-qmd search "theatre of the mind" -c skills -n 5
+./scripts/qmd search "house tone" -c wiki -n 5
+./scripts/qmd search "theatre of the mind" -c skills -n 5
 ```
 
 ### 3. Conceptual — hybrid (write intent yourself)
 ```bash
-qmd query $'intent: Find the campaign hub index, not templates.\nlex: campaigns hub index\nvec: list of active D&D campaigns in the wiki' -c wiki -n 5
+./scripts/qmd query $'intent: Find the campaign hub index, not templates.\nlex: campaigns hub index\nvec: list of active D&D campaigns in the wiki' -c wiki -n 5
 ```
 
 ### 4. Unsure which collection
@@ -49,23 +49,23 @@ Omit `-c`, or search both: `-c wiki -c skills`.
 
 Then:
 ```bash
-qmd multi-get "#abc123,#def456" --format md
+./scripts/qmd multi-get "#abc123,#def456" --format md
 ```
 
 ## After writes
 
-When you add or edit vault markdown and `qmd` is available:
+When you add or edit vault markdown and QMD is available:
 
 ```bash
-qmd update
-qmd embed -c wiki   # or -c skills if skills changed
+./scripts/qmd update
+./scripts/qmd embed -c wiki   # or -c skills if skills changed
 ```
 
 If refresh fails, keep the markdown write and report QMD status separately. The vault is source of truth.
 
 ## MCP (optional)
 
-From the vault root: `qmd mcp` (stdio) or `qmd mcp --http`. See `.agent/skills/qmd/references/mcp-setup.md`.
+From the vault root: `./scripts/qmd mcp` (stdio) or `./scripts/qmd mcp --http`. See `.agent/skills/qmd/references/mcp-setup.md`.
 Grok Bots should prefer CLI via Shell on macbook.lan with cwd = vault root.
 
 ## Pitfalls

@@ -43,8 +43,22 @@ Agents find content with **qmd** against the project-local index in `.qmd/` (not
 
 Protocol: load `.agent/skills/qmd-retrieval/SKILL.md`. Short form:
 
-1. `qmd search` / `qmd query` with `-c wiki` or `-c skills`
-2. `qmd get` / `qmd multi-get` full docs (snippets are leads only)
-3. After markdown writes: `qmd update` then `qmd embed` when vectors matter
+1. `./scripts/qmd search` / `./scripts/qmd query` with `-c wiki` or `-c skills`
+2. `./scripts/qmd get` / `./scripts/qmd multi-get` full docs (snippets are leads only)
+3. After markdown writes: `./scripts/qmd update` then `./scripts/qmd embed` when vectors matter
 
-Optional MCP: `qmd mcp` from vault root — see `.agent/skills/qmd/references/mcp-setup.md`.
+Optional MCP: `./scripts/qmd mcp` from vault root — see `.agent/skills/qmd/references/mcp-setup.md`.
+
+## Agent skills
+
+### Issue tracker
+
+Issues are tracked in this repository’s GitHub Issues. See `docs/agents/issue-tracker.md`.
+
+### Triage labels
+
+Triage uses the five default canonical labels. See `docs/agents/triage-labels.md`.
+
+### Domain docs
+
+This repository uses a single-context domain-doc layout. See `docs/agents/domain.md`.

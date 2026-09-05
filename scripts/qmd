@@ -1,0 +1,104 @@
+#!/bin/sh
+
+# Run the globally installed QMD CLI with the Node major version required by
+# its native dependencies. Keep this launcher independent of QMD's package
+# layout so it remains useful when the global package is upgraded.
+set -eu
+
+canonical_path() {
+  target=$1
+
+  case $target in
+    /*) ;;
+    *) target=$PWD/$target ;;
+  esac
+
+  while [ -L "$target" ]; do
+    link=$(readlink "$target") || return 1
+    case $link in
+      /*) target=$link ;;
+      *) target=$(dirname "$target")/$link ;;
+    esac
+  done
+
+  directory=$(
+    CDPATH=
+    export CDPATH
+    cd -P "$(dirname "$target")" 2>/dev/null && pwd -P
+  ) || return 1
+  printf '%s/%s\n' "$directory" "$(basename "$target")"
+}
+
+node_26() {
+  [ -x "$1" ] || return 1
+
+  version=$("$1" --version 2>/dev/null) || return 1
+  case $version in
+    v26.*|26.*) return 0 ;;
+  esac
+  return 1
+}
+
+launcher_path=$(canonical_path "$0") || {
+  printf '%s\n' 'ai-co-dm: unable to resolve the QMD launcher path.' >&2
+  exit 127
+}
+
+node_bin=
+for candidate in \
+  /opt/homebrew/opt/node@26/bin/node \
+  /usr/local/opt/node@26/bin/node
+do
+  if node_26 "$candidate"; then
+    node_bin=$candidate
+    break
+  fi
+done
+
+if [ -z "$node_bin" ]; then
+  saved_ifs=$IFS
+  IFS=:
+  for directory in ${PATH:-}; do
+    [ -n "$directory" ] || directory=.
+    for candidate in "$directory/node26" "$directory/node"; do
+      if node_26 "$candidate"; then
+        node_bin=$candidate
+        break 2
+      fi
+    done
+  done
+  IFS=$saved_ifs
+fi
+
+if [ -z "$node_bin" ]; then
+  printf '%s\n' 'ai-co-dm: Node.js 26 was not found.' >&2
+  printf '%s\n' 'Install Node.js 26 or put a Node 26 binary (node26 or node) on PATH, then retry ./scripts/qmd.' >&2
+  exit 127
+fi
+
+node_directory=$(dirname "$node_bin")
+export PATH="$node_directory${PATH:+:$PATH}"
+
+qmd_bin=
+saved_ifs=$IFS
+IFS=:
+for directory in ${PATH:-}; do
+  [ -n "$directory" ] || directory=.
+  candidate="$directory/qmd"
+  [ -x "$candidate" ] || continue
+
+  candidate_path=$(canonical_path "$candidate") || continue
+  [ "$candidate_path" = "$launcher_path" ] && continue
+
+  qmd_bin=$candidate
+  break
+done
+IFS=$saved_ifs
+
+if [ -z "$qmd_bin" ]; then
+  printf '%s\n' 'ai-co-dm: the installed qmd executable was not found.' >&2
+  printf '%s\n' 'Install @tobilu/qmd globally or put its bin directory on PATH, then retry ./scripts/qmd.' >&2
+  exit 127
+fi
+
+exec "$qmd_bin" "$@"

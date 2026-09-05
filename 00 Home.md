@@ -20,4 +20,4 @@ See [[campaigns/00 Campaigns]].
 
 ## Status
 
-Add your campaigns under `campaigns/` and link them from [[campaigns/00 Campaigns]].
+Active campaign: [[campaigns/shattered-sea/00 Shattered Sea]].
