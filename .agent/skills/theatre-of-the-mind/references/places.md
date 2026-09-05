@@ -32,9 +32,10 @@ When the job is only the object inside the place, start in [humans.md](humans.md
 Use a neutral player reference with no viewer, party, current inhabitants,
 encounter, plot, or camera. Cover overall form and scale, topology and vertical
 relationships, major established public landmarks, established/public
-approaches, sensory character, and recognizable public hazard manifestations
-(large submerged shapes under clear water are ok if stocked as public fiction —
-do not name DM roster or Hunger rules). Include established physical geography
+approaches, and sensory character. Public hazard manifestations mean stable
+ecology facts the parent already states as always-true public appearance, not a
+staged one-shot motion. Do not invent shadow-turn mystery. Do not name DM roster
+or Hunger rules. Include established physical geography
 even when it spans a large region; a compact overview may help, but it is not a
 required first section or universal order.
 
@@ -53,7 +54,7 @@ the parent's headings or a fixed contract order.
 
 ### Kernel voice vs drawable lake (cold portrait)
 
-**Wilderness / lake recipe (no table state → cold portrait; with table state → seated survey):** seat a camera → scale + drawable landmarks and routes (near/far) → one secondary sense → optional located change (motion under clear water). Telegraph big underwater life as **signs** (body-relation scale, motion, stillness) — not creature names or Hunger rules.
+**Wilderness / lake recipe:** no table state → cold portrait of **stable geography** only (camera → scale + landmarks/routes → one secondary sense → stop). With table state → seated survey; only then may a **supplied** current motion appear (and it is not required). Do not invent a mystery sting or fake reaction-point drama on a wiki Appearance block. Large life belongs in Who is here / secrets / encounter staging unless the parent states a stable public ecology fact (not a one-shot turn-then-still beat).
 
 **Kernel → narration map (ban left column in `[!narration]`):**
 
@@ -61,18 +62,23 @@ the parent's headings or a fixed contract order.
 |---|---|
 | rest / direction / promise | shores, channels, paths you can walk or drink from |
 | Hunger / unclaimed / claim | omit (or a currently perceivable consequence only) |
-| “enormous life” theme | drawable motion/scale (boat-length shadow, channel-wide turn) |
+| “enormous life” theme | omit from cold Appearance; stage in encounter / Who is here (or one stable always-true ecology fact if parent states it, never a turn-then-still sting) |
 | Function / Conflict / Promise / Aspects / Player verbs | stay in DM / Aspects / secrets — never Appearance |
 
 **Weak: design kernel / metaphysics**
 
 > A clear inland lake where cool drinkable water meets long submerged movement beneath the surface. Shores and channels offer rest and direction; river valleys feed in, and enormous life turns beneath the clarity when the water stays unclaimed.
 
-**Strong: camera, scale, routes, sense, optional sign (kitchen-table; no em dash)**
+**Strong: camera, scale, routes, sense (stable geography only)**
 
-> From wet stone at the shore, the lake opens clear. Near the bank the bottom shows through; farther out the blue goes dark. Where the rivers open into the lake, the water runs slow and wide; a channel keeps on toward the Grove. Cool air lifts off the water. Farther out a boat-length shadow turns under the glass-clear surface, then the water goes still.
+> Wet stone holds the shore. The lake water is clear enough that stones on the bottom show near the bank, then the blue deepens and goes dark. Rivers open into the lake in slow wide mouths, and a channel keeps on toward the Grove. Cool air comes off the water.
 
-Hunger, possession, Squid/otter names, and “unclaimed” stay in DM sections. Steal the coverage move, not this sentence order or punctuation.
+Hunger, possession, Squid/otter names, underwater mystery beats, and “unclaimed” stay in DM / encounter sections. Steal the coverage move, not this sentence order.
+
+**Weak: invented mystery closer on a cold portrait**
+
+> …Cool air comes off the water. Out past the shallows a boat-length shadow turns under the clear surface, then everything goes still.
+
 
 **Cold place audit (fail any):**
 
@@ -83,11 +89,12 @@ Hunger, possession, Squid/otter names, and “unclaimed” stay in DM sections. 
 5. One secondary sense (cool air, wet stone)?
 6. Zero theme verbs (rest / direction / promise / unclaimed)?
 7. Zero unearned creature names / Hunger / DCs?
-8. Life-under = visible signs + scale relation only?
-9. Stops at a player opening (drink / shore / route / watch the sign)?
+8. No invented mystery closer / staged located-change unless table state supplies that motion?
+9. Stops on stable geography at a player opening (drink / shore / route), not a fake encounter beat?
 10. Kernel fields outside `[!narration]`?
 11. Zero em dashes (`—`) in player prose?
 12. Kitchen-table landmark nouns (no river cuts / workshop hydrology)?
+13. Large life only as stable public ecology (if parent states it) or deferred to DM/encounter — never a turn-then-still sting?
 
 ## Arrival — published boxed text
 

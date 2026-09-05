@@ -69,14 +69,17 @@ completed haul is a fail.
 
 **Hard mode gate for location/site `[!narration]`:** if the request is filling
 or rewriting `[!narration]` on a location note and no party position or other
-current table state is supplied, the mode is **standalone cold place portrait**.
-Ban place-design kernel fields and schema voice in player prose: Function,
-Fantastic, Conflict, Promise, Trajectory, Aspects, Player verbs, Hunger /
-possession metaphysics, and rule-talk like `unclaimed` / `claim`. “Ordinary
-observable function” means a drawable use of a landmark (drink from clear
-water, walk a shore channel) — never thematic Function (“offer rest and
-direction”). Design kernels stay upstream (`place-design`); TotM renders
-geography.
+current table state is supplied, the mode is **standalone cold place portrait**
+of **stable public geography** (form, topology, approaches, sensory). Ban
+place-design kernel fields and schema voice: Function, Fantastic, Conflict,
+Promise, Trajectory, Aspects, Player verbs, Hunger / possession metaphysics,
+and rule-talk like `unclaimed` / `claim`. Ban invented mystery closers and
+staged located-change drama (shadow turns then still, something watches then
+vanishes) unless current table state supplies that motion. Creature signs and
+encounter pressure belong to a **situated** first look. “Ordinary observable
+function” means a drawable use of a landmark (drink from clear water, walk a
+shore channel), never thematic Function (“offer rest and direction”). Design
+kernels stay upstream (`place-design`); TotM renders geography.
 
 - **Situated moment:** write from the supplied table state and viewpoint. Route
   by surface below, preserve the current environment and motion, and stop at

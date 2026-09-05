@@ -248,11 +248,11 @@
     {
       "id": 25,
       "prompt": "Using Clear Lake parent (clear drinkable inland lake; shores/channels; river valleys in; Grove shore route; cool water/wet stone; fiction-only huge submerged life + otter; Hunger/possession in DM notes), write location `[!narration]` with no party/table state.",
-      "expected_output": "Cold place portrait: camera/spine on shore or water; drawable scale; landmarks/routes (river mouths, Grove channel); secondary sense; optional underwater signs with scale relation; no kernel/Hunger/names.",
+      "expected_output": "Cold place portrait: stable geography only (shore, depth cue, river mouths, Grove channel, cool air). No invented shadow-then-still mystery; Hunger/names/kernel/em dash/cuts still out.",
       "expectations": [
-        "Fails rest/direction/unclaimed/claim/kernel labels; enormous life with no drawable sign; missing scale/topology/landmarks.",
-        "Fails em dash (`\u2014`) or writerly hydrology (`river cuts`, embouchure, thalweg).",
-        "Passes camera + scale + landmarks/routes in kitchen-table nouns + secondary sense; life-under as signs only; Hunger/names out."
+        "Fails rest/direction/unclaimed/kernel; em dash; river cuts; invented mystery closer (shadow turns then still).",
+        "Passes shore/depth/river mouths/Grove channel/cool air as stable geography; stops without staged encounter drama.",
+        "Keeps Hunger/names and underwater mystery beats out of Appearance unless table state supplies motion."
       ]
     }
   ]

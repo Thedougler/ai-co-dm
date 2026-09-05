@@ -139,6 +139,11 @@ awareness as prose payload (`before anyone understands`, `you realize too late`,
 claim/unclaimed metaphysics, or other private campaign rules into Appearance or
 cold place portraits. Keep them in DM sections / `[!secret]-`.
 
+**Invented event fail:** do not narrate a perceivable one-shot event (shadow
+turns then still, something flees then vanishes) that the parent did not
+establish as stable public appearance or that current table state did not
+supply. Cold portraits stay on durable geography.
+
 NPC and faction behavior may pursue established goals. The world may change
 because of a resolved mechanic or an established pressure. A player-facing
 surface stops at the next meaningful decision; do not append an “if they hold”

@@ -18,9 +18,11 @@ table state is supplied, force **standalone portrait**. Do not promote parent
 tactics or signature moves into a situated ambush.
 
 If the job is `[!narration]` on a location/site owning page and no current table
-state is supplied, force **standalone place portrait**. Do not promote
-place-design kernels (Function / Fantastic / Conflict / Promise / Trajectory /
-Aspects / Player verbs) or Hunger/possession rule-talk into the callout.
+state is supplied, force **standalone place portrait** of stable public
+geography. Do not promote place-design kernels (Function / Fantastic / Conflict /
+Promise / Trajectory / Aspects / Player verbs), Hunger/possession rule-talk, or
+invented mystery/located-change closers. Optional motion under water is only for
+**situated** survey when table state supplies current motion.
 
 - **Situated moment:** use the supplied viewpoint and current table state, then
   route to the matching contract below. A loaded first look is one complete

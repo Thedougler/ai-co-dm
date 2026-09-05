@@ -158,7 +158,8 @@ evidence.
 | offer rest and direction / provide shelter (as theme) / stays unclaimed / claim the water | pointable shore, channel, cool water, wet stone; no kernel metaphysics |
 | em dash (`—`) or en-dash used as stylish pause in player prose | period, comma, or parenthesis |
 | river cuts / embouchure / thalweg / other workshop geography | river mouths, where the rivers open into the lake, lake edge |
-| enormous life / long submerged movement (no body) | visible signs only: boat-length shadow, channel-wide turn, stillness after motion — scale via body relation; never Hunger or roster names in Appearance |
+| invented mystery closer (`shadow turns, then still` / `then everything goes still`) on cold place portrait | cut; stable geography only unless table state supplies current motion |
+| enormous life theme with no parent-stable ecology fact | defer to DM/encounter; do not invent a motion sting |
 | spins like a meditation focus / as a focus for prayer (as the description) | how it physically spins, wobbles, sits, or weighs; cover names stay Identified/DM |
 | the very X / ancient and unknowable | the weed, date stamp, open mouth, or other noun |
 | walking deadwood / shield-leaves / the Quiet | the plain body or plant, then the likeness |
@@ -209,7 +210,7 @@ evidence.
 | an established full scene ends at its first micro-opening | include all relevant visible subjects and relationships before the natural stop |
 | a portrait or first look is one dry identifying sentence | expand into connected prose covering silhouette/scale, defining parts or topology, ordinary behavior/use, and one supported sensory fact |
 | item-page `[!narration]` is only 1–2 dry sentences | expand to ~3 connected sentences with missing visual material/wear/silhouette nouns — never pad with glitter negation or cover-story similes |
-| location `[!narration]` is place-design kernel or schema verbs with no landmark | rewrite as cold place portrait: form/scale, topology/approaches, sensory, optional public hazard manifestation |
+| location `[!narration]` is place-design kernel or schema verbs with no landmark | rewrite as cold place portrait: form/scale, topology/approaches, sensory; no invented mystery closer |
 | facts arrive as a telegram or bullet-shaped clauses | join owned details into flowing sentences with concrete verbs |
 | only sight is used when another sense is established | fold in the supported sound, smell, temperature, or texture on the thing that owns it |
 | the draft is long but still not drawable | replace register and synonyms with missing nouns, relationships, and anchors — do not add more adjectives |
