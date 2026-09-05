@@ -7,6 +7,8 @@ visibility: dm
 tags: [location]
 ---
 # Warren
+> [!narration] Narration
+> Beneath Calveno’s Le Paludi, Warren is a Rattkin settlement and the deepest Passage anchor: low passages join homes, stores, and hidden runs, with hand marks guiding turns. Murmurs, taps, water overhead, damp earth, food, and canal water belong to a refuge reached by a learned descent.
 ## At a glance
 Rattkin settlement and deepest [[Passage]] anchor beneath Calveno; feels communal, hidden, and taught by elders.
 ## Aspects

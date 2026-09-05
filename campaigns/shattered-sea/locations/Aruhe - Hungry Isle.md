@@ -7,6 +7,8 @@ visibility: dm
 tags: [location]
 ---
 # Aruhe / Hungry Isle
+> [!narration] Narration
+> Aruhe, the Hungry Isle, is a Midchain wilderness of shore, scrub, tracks, and higher ground where the island eats what lands on it. Its open-water approach reaches survey ground and a proposed Tangle anchor, with the landing edge offering a route back to the sea.
 ## At a glance
 Survey destination and proposed [[Tangle]] anchor; its cold open pairs a purple Grung with wolfrabbits.
 ## Aspects
