@@ -53,7 +53,8 @@ Obsidian LLM wiki for Nick's home D&D. **Markdown is the product.**
 | Ingest source → typed notes | `wiki-ingest` → **Ingest** |
 | Wiki health / orphans / hot drift | `wiki-lint` → **Linter** |
 | Player-facing prose / `[!narration]` | `theatre-of-the-mind` → **Visualizer** |
-| Audit player-facing TotM / read-aloud | **Writing-Evaluator** (critique only; packets Skill-Creator on skill gaps) |
+| Audit player-facing TotM / read-aloud | **Writing-Evaluator** (critique only) |
+| TotM fail → skill fix → rewrite loop | Evaluator fail → **Skill-Creator** → **Visualizer** → Evaluator again |
 | Session pacing | `session-beats` |
 | Places | `place-design` |
 | Dungeons | `dungeon-design` |
@@ -68,15 +69,25 @@ Packet only: `goal` · `allowed paths` · `type` · `constraints` · `do not re-
 | Bot | Owns |
 |---|---|
 | **Co-DM** | Continuity, prep/log, vault canon, rulings |
-| **Visualizer** | TotM / `[!narration]` write only |
-| **Writing-Evaluator** | Audit player-facing TotM / read-aloud; Skill-Creator improves `theatre-of-the-mind` from audits |
+| **Visualizer** | TotM / `[!narration]` write only (incl. rewrite after Skill-Creator clears a failed block) |
+| **Writing-Evaluator** | Audit player-facing TotM / read-aloud; on **fail**, packet improvement advice → **Skill-Creator** |
+| **Skill-Creator** | `.agent/skills/`; on Evaluator fail: implement TotM fix, **delete failed `[!narration]`**, ping **Visualizer** to rewrite, Evaluator re-audits |
 | **Homebrewer** | Mechanical homebrew; convert prose monster stats → Fantasy Statblocks fence |
 | **Researcher** | Prior art (web); not vault canon |
 | **Organizer** | Indexes/MOCs, structure doctrine, hot refresh, light inbox triage |
 | **Ingest** | `wiki-ingest` — inbox/URL/paste → typed linked notes; prior context via `-c legacy-ss` (read-only) |
 | **Linter** | `wiki-lint` checklist/audit (report + propose) |
-| **Skill-Creator** | `.agent/skills/` |
 | **Ops** | Fleet, AGENTS, templates, qmd, routines |
+
+## TotM fail loop
+
+1. **Writing-Evaluator** fails player-facing prose → packets **Skill-Creator** with improvement advice (examples, expected vs actual, which TotM section, proposed eval).
+2. **Skill-Creator** implements the skill change in `.agent/skills/theatre-of-the-mind/`, proves it, `./scripts/after-write`.
+3. **Skill-Creator** removes the failed `[!narration]` (or equivalent read-aloud) from the note — leave an empty `> [!narration] Narration` stub.
+4. **Skill-Creator** pings **Visualizer** with path + constraints; Visualizer rewrites using the updated skill only.
+5. **Writing-Evaluator** re-audits the new block.
+
+Do not skip Skill-Creator and have Visualizer patch prose ad hoc after a fail.
 
 ## Layout
 
