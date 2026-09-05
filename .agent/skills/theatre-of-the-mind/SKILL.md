@@ -33,10 +33,14 @@ mood claims to fake completeness.
 Length still follows the moment: a hit, reveal, or dialogue turn may be one
 tight line; a `[!narration]` portrait, room/place first look, creature first
 sight, or recap is usually one coherent spoken block (often a short paragraph
-of several connected sentences). Do **not** use the hit-line license to compress
-a creature first look into a resolved-snatch telegram. Stop at the next
-meaningful player opening — for a creature first look, that is the reaction
-point (telegraph), never after the haul.
+of several connected sentences). **Item and creature page `[!narration]`** cold
+portraits usually run about **three connected sentences** covering
+silhouette/scale, material/parts/wear, and one stable sensory or physical
+behavior — not a one- or two-line stub. Fill missing visual nouns; do not pad
+with purple, mood-by-negation, or cover-story similes. Do **not** use the
+hit-line license to compress a creature first look into a resolved-snatch
+telegram. Stop at the next meaningful player opening — for a creature first
+look, that is the reaction point (telegraph), never after the haul.
 Do not force every surface into a spoken block, a fixed beat, or a located
 change.
 

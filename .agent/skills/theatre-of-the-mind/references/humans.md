@@ -15,17 +15,19 @@ recognized/used, or recurrent/intelligent. End on a fact or affordance the
 current player can use.
 
 For a standalone item portrait, use the cold player-appearance layer by
-default: common whole/type, silhouette and scale, material/construction/parts,
-then one or two stable sensory or ordinary physical behaviors in concrete
-nouns and verbs (cool quartz, worn four faces, spins true on its point, denser
-heft than glass). Include all supplied state variants, such as buoyancy, a
-hollow response when tapped, or a cut-open structure, as clearly general
-description rather than a current inspection. Keep Appearance/Cold Portrait,
-Identified Properties, and DM Lore/Secret separate; effects, durations, speeds,
-rarity, attunement, curses, biology, history, diegetic cover names
-("meditation focus"), and magic that "answers" contact require an explicit
-identified-properties request or stay in DM text. Mood-by-negation and
-cover-story similes are not physical behaviors — cut them.
+default. **Coverage + length floor:** about three connected sentences that
+cover (1) silhouette/scale/whole type, (2) material, parts, and visible wear,
+(3) one stable sensory or ordinary physical behavior — in concrete nouns and
+verbs (cloudy quartz, dulled corners on four faces, cool to the touch, spins
+true then settles with a short wobble). Include all supplied state variants,
+such as buoyancy, a hollow response when tapped, or a cut-open structure, as
+clearly general description rather than a current inspection. Keep
+Appearance/Cold Portrait, Identified Properties, and DM Lore/Secret separate;
+effects, durations, speeds, rarity, attunement, curses, biology, history,
+diegetic cover names ("meditation focus"), and magic that "answers" contact
+require an explicit identified-properties request or stay in DM text.
+Mood-by-negation and cover-story similes are not physical behaviors — cut them.
+Do not stop at a two-sentence telegram when visual room remains.
 
 When the job is a room, hall, city, wilderness, or first look at a location, start in [places.md](places.md). A shop, tavern, or service request follows the Business route in [surfaces.md](surfaces.md); use place passages for its spatial setting only when that is the requested job. Those passages are published boxed text and live-table prose quoted for analysis; generated prose must be fresh.
 

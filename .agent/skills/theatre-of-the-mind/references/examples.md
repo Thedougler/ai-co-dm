@@ -41,13 +41,17 @@ If silhouette, translucent mantle, and braced arms already carry the picture, cu
 
 ## Item mood fluff vs concrete behavior
 
-**Weak — cover-story simile + mood-by-negation**
+**Weak — cover-story / mood pad**
 
 > A thumb-sized quartz top with four worn faces, always cool to the touch. It spins like a meditation focus and answers contact with quiet weight rather than glitter.
 
-**Strong — drawable physical facts only**
+**Weak — under-written (concrete but too short)**
 
-> A thumb-sized quartz top with four worn faces, always cool to the touch. On a flat surface it spins true on its point; the stone feels denser in the hand than glass of the same size.
+> A thumb-sized quartz top with four worn faces stays cool to the touch. Spun on a flat surface, it turns on its point with a short even wobble before it settles.
+
+**Strong — ~three sentences visual + behavior**
+
+> A thumb-sized four-sided quartz top, cloudy and faintly milk-white, sits easily between finger and thumb. Its faces are worn smooth, corners dulled from handling, and the stone stays cool. Spun on a flat surface it turns on its point with a short even wobble before it settles.
 
 Cover story ("meditation focus") and Long Sight / visions stay out of cold Appearance unless identified properties are granted.
 

@@ -112,6 +112,7 @@ identifying clauses.
 | --- | --- |
 | Hit, reveal, dialogue turn, micro-update | One tight line |
 | `[!narration]` portrait (place, NPC, creature, item, vehicle, business) | Short paragraph of connected prose; drawable whole after one hearing |
+| Item/creature page cold `[!narration]` | ~three connected sentences: silhouette/scale, material/parts/wear, sensory or ordinary physical behavior — expand thin drafts with visual nouns, not purple |
 | Loaded spatial first look | One complete spoken block of the relevant visible state |
 | Recap | Past-tense paragraph of play-made truths + tonight's handle |
 | Handout | Scannable diegetic layout, not spoken-block geometry |
@@ -198,6 +199,7 @@ evidence.
 | a handle arrives before its trait | show the stable trait while the body moves; let players name or reuse it afterward |
 | an established full scene ends at its first micro-opening | include all relevant visible subjects and relationships before the natural stop |
 | a portrait or first look is one dry identifying sentence | expand into connected prose covering silhouette/scale, defining parts or topology, ordinary behavior/use, and one supported sensory fact |
+| item-page `[!narration]` is only 1–2 dry sentences | expand to ~3 connected sentences with missing visual material/wear/silhouette nouns — never pad with glitter negation or cover-story similes |
 | facts arrive as a telegram or bullet-shaped clauses | join owned details into flowing sentences with concrete verbs |
 | only sight is used when another sense is established | fold in the supported sound, smell, temperature, or texture on the thing that owns it |
 | the draft is long but still not drawable | replace register and synonyms with missing nouns, relationships, and anchors — do not add more adjectives |

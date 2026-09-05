@@ -238,11 +238,11 @@
     {
       "id": 24,
       "prompt": "Using Fate Spinner parent (thumb-sized quartz four-sided top, worn faces, always cool; Kyzil cover \"meditation focus\"; actual Long Sight magic is DM/identified), write item-page `[!narration]` cold portrait. No identified-properties request.",
-      "expected_output": "Concrete whole/scale/material/parts + cool and any supplied physical spin/heft behavior in drawable nouns/verbs; cover story and effects out of cold portrait.",
+      "expected_output": "~Three connected sentences of drawable visual detail (silhouette/scale, material/wear) plus allowed physical behavior; cover story and effects out; no mood-by-negation.",
       "expectations": [
-        "Fails rather than glitter / mood-by-negation; like a meditation focus as the spin description; quiet weight/glitter purple; Long Sight/visions in Appearance.",
-        "Passes with concrete drawable physical facts only.",
-        "Keeps cover story and magic effects out of cold Appearance."
+        "Fails rather than glitter / mood-by-negation; like a meditation focus as description; Long Sight/visions in Appearance.",
+        "Fails if only \u22642 dry sentences with no extra visual material/wear/silhouette (under-written stub).",
+        "Passes with ~three connected sentences of drawable visual + physical behavior; cover/effects still out."
       ]
     }
   ]

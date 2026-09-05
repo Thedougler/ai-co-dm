@@ -11,7 +11,6 @@ tags: [item, sentinel, relic, soul-incarnate]
 # Fate Spinner
 
 > [!narration] Narration
-> A thumb-sized quartz top with four worn faces stays cool to the touch. Spun on a flat surface, it turns on its point with a short even wobble before it settles.
 
 
 
