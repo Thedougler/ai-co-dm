@@ -9,6 +9,8 @@ visibility: dm
 tags: [npc]
 ---
 # Umberlee / Branca
+> [!narration] Narration
+> Branca is a Waveservant priestess whose voice carried one unmistakable command: “Bring me the pearl.”
 ## Hook
 The possessed Waveservant priestess delivered one command: **Bring me the pearl.**
 ## Drive

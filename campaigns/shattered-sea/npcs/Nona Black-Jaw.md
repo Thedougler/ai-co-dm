@@ -9,6 +9,8 @@ visibility: dm
 tags: [npc]
 ---
 # Nona Black-Jaw
+> [!narration] Narration
+> Nona Black-Jaw is a practical Calveno host who keeps a guarded door and a sending stone close at hand. Bodyguards Enzo and Ruk are part of the household that surrounds her, linking kitchen warmth with Passage business.
 ## Hook
 Nona’s survey favour points Perrin toward [[Aruhe - Hungry Isle]] while her missing-persons desk tracks 314+ taken from [[Mercatura]].
 ## Look / voice

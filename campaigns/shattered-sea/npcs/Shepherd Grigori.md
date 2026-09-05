@@ -9,6 +9,8 @@ visibility: dm
 tags: [npc]
 ---
 # Shepherd Grigori
+> [!narration] Narration
+> Shepherd Grigori is a quiet passenger and healer, known by the bread and herbs he carries. When he works, red light can shine from his wrist.
 ## Hook
 The Crown blames Grigori for Surety’s destruction; a [[Hound of Tyr]] hunts him aboard [[HCS Ordinance]].
 ## Look / voice
