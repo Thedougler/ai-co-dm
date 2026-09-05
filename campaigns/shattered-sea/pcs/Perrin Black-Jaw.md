@@ -7,6 +7,8 @@ visibility: dm
 tags: [pc]
 ---
 # Perrin Black-Jaw
+> [!narration] Narration
+> Perrin Black-Jaw is a fancy-rat Rattkin with a black head, white body, and long pink tail. He keeps his attention on people, exits, and edges before he commits, giving the small figure an alert, deliberate manner.
 ## Player-facing summary
 Rattkin fancy-rat with a black head, white body, long pink tail; College of Lore Bard with a Pact of the Blade Warlock dip. Reads people, exits, and edges before he commits.
 ## Bonds / ideals that matter

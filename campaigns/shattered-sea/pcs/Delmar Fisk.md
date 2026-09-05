@@ -7,6 +7,8 @@ visibility: dm
 tags: [pc]
 ---
 # Delmar Fisk
+> [!narration] Narration
+> Delmar Fisk is a human swashbuckler who presents himself as the youngest admiral on the sea. Charm carries his introductions, while a fist-sized black pearl marks him as the bearer of something few would mistake for an ordinary keepsake.
 ## Player-facing summary
 Human Swashbuckler Rogue; self-appointed youngest admiral, hiding damage behind charm.
 ## Bonds / ideals that matter

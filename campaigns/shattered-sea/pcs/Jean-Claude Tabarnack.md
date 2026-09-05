@@ -7,6 +7,8 @@ visibility: dm
 tags: [pc]
 ---
 # Jean-Claude Tabarnack
+> [!narration] Narration
+> Jean-Claude Tabarnack is a three-foot grung in electric-blue skin, his body marked by scars. A red beret and false moustache—his “Corto di Velo” disguise—make his bright silhouette hard to confuse with anyone else.
 ## Player-facing summary
 Three-foot electric-blue Grung Gloom Stalker Ranger, scarred, in a red beret with false moustache “Corto di Velo.”
 ## Bonds / ideals that matter
