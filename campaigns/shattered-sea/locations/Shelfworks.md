@@ -7,16 +7,64 @@ visibility: dm
 tags: [location]
 ---
 # Shelfworks
+> [!narration] Narration
+> _Visualizer: place portrait pending._
 ## At a glance
 Salvage shelf holding ruins of [[Antheri]] above the trench; feels lucrative, unstable, and older than the charts.
+## Five-sentence kernel
+- **Function:** A salvage site where Antheri remnants become components, claims, and clues above the Maw.
+- **Fantastic:** Ruins stand on a shelf over a trench whose pressure can change every fragment’s value.
+- **Conflict:** Salvagers, claimants, Maw danger, and Antheri/planar consequences compete for the same material.
+- **Promise:** Study, salvage, and exploit ruins while deciding what belongs to the sea, a patron, or the next machine.
+- **Trajectory:** A goldrush grows, the shelf fails, or a recovered component answers something below.
+## 3Fs and contradiction
+- **Fantastic:** an ancient ruin is a working resource at the edge of planar danger.
+- **Familiar:** broken masonry, tools, rope, cargo, claims, unstable ground.
+- **Functional:** salvage converts evidence into leverage and risk.
+- **Contradiction:** the safer a fragment is to remove, the less it reveals in place.
+- **Signatures:** Antheri components; shelf edge over Maw; claim marks and salvage lines.
+## Current situation
+- **Canon:** salvage shelf and Antheri ruins above Maw; Catarina salvaged components here in 1488 DR, helping start a goldrush.
+- **DM seed (unconfirmed):** crane/line, claim field, ruin face, and descent point are runnable nodes; exact architecture open.
 ## Aspects
-Antheri ruins, salvage claims, trench edge
+`claim line, unstable salvage, old machine over new danger`
 ## Senses
-- Salt, weather, work, and warning signs shaped by the site.
+- **Sight:** broken structures, lines, tools, debris, water below, competing marks.
+- **Sound:** strain, stone shift, winches, spray, and calls across shelf.
+- **Smell/touch:** salt, wet stone, oil, dust, vibration.
+## Topology
+- `[[Calven and Calveno]] -- salvage contract (legal access, debt/claim) --> Shelfworks`.
+- `Shelfworks -- shelf path (exposed, quick) --> ruin face`.
+- `ruin face -- line/crane (costly, lifts evidence) --> claim field`.
+- `claim field -- descent (danger, Maw information) --> [[Drowned Maw]]`.
+- **Loop:** contract → shelf → ruin → claim field → return line.
+- **Bypass:** observe from vessel or take an existing component; safer, less historical information.
+- **Retreat:** contract route to Calveno or vessel before shelf pressure rises.
+- **Vertical connection:** top shelf, hanging line, and trench descent are distinct commitments.
+## Player verbs
+`salvage, study, claim, cut, brace, bargain, descend, reroute a line, return evidence`.
 ## Who is here
-- See linked factions and NPCs below.
+- Salvage crews and claimants (**DM seed, unconfirmed**); [[Antheri]] traces; Calveno interests; Catarina’s established salvage history.
+## Information economy
+- **Secret:** Antheri material connects shelf to Maw pressure.
+- **Witness:** salvager or Calveno claimant explains goldrush (**seed**).
+- **Trace:** matching component, old cut, impossible wear, line leading below.
+- **Spatial pattern:** ruin fragments align toward trench feature.
+- **Failure cost:** lost tool, damaged fragment, changed claim, or exposure; clue remains altered.
+## Pressure
+Stable → Strained → Contested → Transformed: working shelf → cracks/claims → crews dispute salvage → shelf breaks, closes, or becomes active Maw route.
+## Location moves
+**Move:** claim mark changes after high-value fragment; access dispute; bargain/share/reveal provenance; Calveno claim persists.
+
+**Move:** line fails from weight, storm, or Maw shift; route/fragment moves; brace/follow/let descend; shelf topology changes.
+
+**Move:** component answers after Study/Utilize or Maw step; sound/light/current response; record/disconnect/pursue; attention rises.
 ## Connections
-- [[Drowned Maw]]
-- [[Calven and Calveno]]
+- [[Drowned Maw]] · [[Calven and Calveno]] · [[High Eyrie]] · [[Antheri]]
 ## Hooks
-- Treat this as a node for travel, debts, and discoveries.
+- Salvage goldrush, Antheri truth, Maw mapping, practical invention.
+## Secrets (DM)
+- Exact ruins, salvage owners, component effects, and shelf failure timing are **DM seed (unconfirmed)**.
+## Mechanics and return
+- Exposed shelf uses cover, climbing, Difficult Terrain, hazard telegraphs; Study/Utilize for salvage. Failure costs position/resources, not all evidence.
+- **Return state:** claim marks, removed components, lines, damage, faction knowledge, Maw clock.

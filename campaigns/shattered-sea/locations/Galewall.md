@@ -7,15 +7,62 @@ visibility: dm
 tags: [location]
 ---
 # Galewall
+> [!narration] Narration
+> _Visualizer: place portrait pending._
 ## At a glance
 Permanent storm belt separating charted homeland from the Scatter; feels like weather made into a wall.
+## Five-sentence kernel
+- **Function:** A weather boundary separating charted homeland from the Scatter and framing the campaign’s remoteness.
+- **Fantastic:** Storm is a geographic border, not a passing condition.
+- **Conflict:** return-seekers, outward voyagers, and whatever maintains the belt want incompatible passages.
+- **Promise:** Read weather as terrain, choose whether to cross, and make crossing change the map.
+- **Trajectory:** no easy return remains, or a discovered window makes both sides reachable.
+## 3Fs and contradiction
+- **Fantastic:** permanent weather creates a wall.
+- **Familiar:** wind, rain, waves, damaged gear, horizon loss.
+- **Functional:** routes, timing, and vessel capability determine access.
+- **Contradiction:** isolates the Scatter yet proves connection is possible.
+- **Signatures:** unbroken storm; lost horizon; route markers erased by weather.
+## Current situation
+- **Canon:** permanent storm belt separating charted homeland from Scatter; no easy return.
+- **DM seed (unconfirmed):** safe window, lee route, and storm interior are possible nodes; no route is canon.
 ## Aspects
-unbroken storms, lost horizons, no easy return
+`storm border, lost horizon, one-way decisions`
 ## Senses
-- Salt, weather, work, and warning signs shaped by the site.
+- **Sight:** cloud wall, broken visibility, white water, occasional gaps.
+- **Sound:** wind, rain, hull strain, voices swallowed by weather.
+- **Touch/smell:** spray, cold, salt, shifting pressure.
+## Topology
+- `charted homeland -- approach (increasing exposure, commitment) --> Galewall edge`.
+- `edge -- storm interior (slow, dangerous, reveals weather) --> Scatter/sea`.
+- `edge -- retreat window (time-sensitive, safest early) --> homeland`.
+- **Bypass:** magic/flight/teleport or wait for window; costs exposure, supplies, and what is left behind.
+- **Loop:** approach → edge → interior → a different exit/window.
+- **Vertical/environmental connection:** sea, cloud, and wind layers offer routes only when fiction supports them.
+## Player verbs
+`observe, wait, reef, steer, anchor, cross, turn back, map, exploit a break`.
 ## Who is here
-- See linked factions and NPCs below.
+- Vessels/crews attempting crossings (**specific parties DM seed, unconfirmed**); no permanent faction established.
+## Information economy
+- **Secret:** whether passage is possible and its cost.
+- **Witness:** sailor report (**seed**).
+- **Trace:** wreckage, drift, storm rhythm, chart damage (**seed**).
+- **Spatial pattern:** repeated gaps or wind shifts (**seed**).
+- **Failure cost:** supplies, position, damage, lost time; partial crossing clue remains.
+## Pressure
+Calm edge → Rising → Wall → Window/Breakdown: weather thickens, route closes, exposure peaks, opportunity or isolation persists.
+## Location moves
+**Move:** window closes after delay/storm step; retreat/crossing choice sharpens; shelter or map a new edge; old timing invalid.
+
+**Move:** debris reveals route after Study; visible drift line; follow or mark; crossing gains costed lead.
+
+**Move:** vessel separates after failed navigation; sightline breaks; signal/reunite/exploit; return state records changed trust/resources.
 ## Connections
-- [[Shattered Sea]]
+- [[Shattered Sea]] · [[Crown Islands]]
 ## Hooks
-- Treat this as a node for travel, debts, and discoveries.
+- Crossing, return, weather mapping, and the meaning of “no easy return.”
+## Secrets (DM)
+- Storm cause, safe routes, Scatter geography, and permanent inhabitants are **DM seed (unconfirmed)**.
+## Mechanics and return
+- Travel, visibility, cover, wind, Difficult Terrain, hazard telegraphs; failure costs time/position/resources. Do not arbitrarily negate flight/teleport.
+- **Return state:** crossing progress, weather signs, supplies, damage, and whether a window remains.
