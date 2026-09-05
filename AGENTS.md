@@ -67,7 +67,24 @@ Obsidian LLM wiki for Nick's home D&D. **Markdown is the product.**
 
 ## Handoffs (one specialist per wake)
 
-Packet only: `goal` · `allowed paths` · `type` · `constraints` · `do not re-read whole campaign`
+### Packet standard
+
+Every specialist wake uses this packet (schema only):
+
+`task_id` · `goal` · `allowed paths` · `type` · `source root` (concrete path/URL or `none`) · `constraints` · `status` (`active` | `hold` | `cancelled` | `done`) · `supersedes` (prior `task_id` or `none`) · `do not re-read whole campaign`
+
+Rules:
+- One specialist per wake.
+- New packet for the same work must `supersedes` the prior `task_id` and set the old packet `status` to `cancelled` or `hold`.
+- Parallel writers must not share the same note body (especially `[!narration]`).
+- Co-DM orchestrates; specialists execute.
+
+### Routine ownership
+
+- **Ops** — fleet standing routines (healthchecks, cadence, scripts wiring).
+- **Organizer** — `wiki-health` structure/MOCs/hot pass (not ingest drain).
+- **Linter** — lint / wiki-lint checklist.
+- **dr eggbot** — CreateAgent only; do not duplicate healthchecks onto other bots.
 
 | Bot | Owns |
 |---|---|
