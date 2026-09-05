@@ -80,7 +80,8 @@ Packet only: `goal` · `allowed paths` · `type` · `constraints` · `do not re-
 | **Organizer** | Indexes/MOCs, structure doctrine, hot refresh, light inbox triage |
 | **Ingest** | `wiki-ingest` — inbox/URL/paste → typed linked notes; prior context via `-c legacy-ss` (read-only) |
 | **Linter** | `wiki-lint` checklist/audit (report + propose) |
-| **Ops** | Fleet, AGENTS, templates, qmd, routines |
+| **Team-Leader** | Roster health, routing/persona tweaks, collision triage across bots (not CreateAgent — eggbot; not AGENTS/scripts/qmd infra — Ops) |
+| **Ops** | Fleet infra, AGENTS, templates, qmd, routines, lints |
 
 ## TotM fail loop
 
