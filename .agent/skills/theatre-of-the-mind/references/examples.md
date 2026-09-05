@@ -39,6 +39,20 @@ Human table examples live in [humans.md](humans.md). Published boxed text and li
 If silhouette, translucent mantle, and braced arms already carry the picture, cut the camouflage sentence instead of restating it in purple.
 
 
+## Item mood fluff vs concrete behavior
+
+**Weak — cover-story simile + mood-by-negation**
+
+> A thumb-sized quartz top with four worn faces, always cool to the touch. It spins like a meditation focus and answers contact with quiet weight rather than glitter.
+
+**Strong — drawable physical facts only**
+
+> A thumb-sized quartz top with four worn faces, always cool to the touch. On a flat surface it spins true on its point; the stone feels denser in the hand than glass of the same size.
+
+Cover story ("meditation focus") and Long Sight / visions stay out of cold Appearance unless identified properties are granted.
+
+
+
 
 **Weak — terse encyclopedia line (incomplete picture)**
 

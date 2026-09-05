@@ -234,6 +234,16 @@
         "Passes with concrete drawable camouflage cue on the body, or justified cut.",
         "Does not stack purple synonyms to fake completeness."
       ]
+    },
+    {
+      "id": 24,
+      "prompt": "Using Fate Spinner parent (thumb-sized quartz four-sided top, worn faces, always cool; Kyzil cover \"meditation focus\"; actual Long Sight magic is DM/identified), write item-page `[!narration]` cold portrait. No identified-properties request.",
+      "expected_output": "Concrete whole/scale/material/parts + cool and any supplied physical spin/heft behavior in drawable nouns/verbs; cover story and effects out of cold portrait.",
+      "expectations": [
+        "Fails rather than glitter / mood-by-negation; like a meditation focus as the spin description; quiet weight/glitter purple; Long Sight/visions in Appearance.",
+        "Passes with concrete drawable physical facts only.",
+        "Keeps cover story and magic effects out of cold Appearance."
+      ]
     }
   ]
 }

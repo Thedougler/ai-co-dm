@@ -148,6 +148,8 @@ evidence.
 | words hung in the air | the unfinished sentence or cut it |
 | tapestry, testament, dance of light, weight of history | the object doing the work |
 | skin takes branch and leaf / becomes the trees / is the canopy | named color/material match on the skin, or cut |
+| rather than glitter / not flashy / without dazzle / quiet weight rather than X | a positive drawable sensory or physical fact, or cut |
+| spins like a meditation focus / as a focus for prayer (as the description) | how it physically spins, wobbles, sits, or weighs; cover names stay Identified/DM |
 | the very X / ancient and unknowable | the weed, date stamp, open mouth, or other noun |
 | walking deadwood / shield-leaves / the Quiet | the plain body or plant, then the likeness |
 | a room, object, or handout as a literary block | its branch payload and usable arrangement |
@@ -187,6 +189,9 @@ evidence.
 | a trembling line has no catch or place | name its target and location, or cut it as mood |
 | a first look resolves a hit | show the reaching line or buildup; resolve contact after the declared action |
 | camouflage/mood claim with no drawable sensory fact (`skin takes branch and leaf`, `becomes the canopy`, `merges with the green`) | concrete match on the body (named colors/materials/mottle) folded onto a verb, or cut if the body picture already carries |
+| item/mood line uses negation of absent flash (`rather than glitter`) or abstract quiet weight | cool heft, worn faces, spins true / wobbles on the point — positive concrete behavior |
+| cover-story or function label stands in for physical behavior (`like a meditation focus`) | drawable verb of what the object does; diegetic cover names only when Identified/granted |
+| cold item portrait lets the object "answer" contact with magic tone | Appearance: sensory/physical only; effects → Identified Properties / DM |
 | monster `[!narration]` finishes Hookline/Reel, grab, bite, or haul | cold portrait of body/behavior, or situated telegraph only (e.g. hanging line snaps taut); no ankle/boot/haul |
 | first look narrates `anyone understands` / PC feelings / freeze-frame past contact | cut cognition; stop before resolved contact |
 | a body part arrives before its owner | name the body, familiar size, and silhouette first |

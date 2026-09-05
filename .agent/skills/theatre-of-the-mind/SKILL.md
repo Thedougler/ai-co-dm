@@ -152,6 +152,9 @@ wrapper follows the host or page request; do not force an encounter question.
   signature or camouflage claim must be **drawable evidence** (named color,
   material, edge, mismatch a looker could miss) — not a purple merge
   (`takes branch and leaf`, `becomes the canopy`, `merges with the green`).
+  Do not fake completeness with **mood-by-negation** (`rather than glitter`,
+  `not flashy`, `without dazzle`) or a **cover-story simile** that replaces a
+  drawable physical behavior (`spins like a meditation focus`).
 - Prefer flowing prose over bullet-shaped sentences. Fold color, material,
   posture, and minor anatomy onto the body or place that owns them. A portrait
   or first look should leave a drawable whole after one hearing; a single dry
