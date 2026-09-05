@@ -9,7 +9,7 @@ tags: [location, sentinel, schism]
 # High Eyrie
 
 > [!narration] Narration
-> A two-hundred-foot basalt sea-stack in the far northeast Crown Islands, overlooking the Drowned Maw. Low walls and blunt roofs shed the wind; doorways turn from the gusts; no banners fly. Cantilevered training terraces open on three sides into salt air and distant water.
+> _Visualizer: geography ingest pending._
 
 
 ## At a glance
@@ -44,3 +44,6 @@ A 200-foot basalt sea-stack far northeast in the [[Crown Islands]], overlooking 
 - The seal beneath the summit is tied to [[Soul Incarnate]].
 - Current Sentinel leadership knows only that the founding documents are very old, not that they concern a conscious being.
 - The full monastery interior and the route to the seal are unknown.
+
+## Geography ingest — position
+High Eyrie is off the far northeastern edge of the Crown row, not a conventional harbour: a two-hundred-foot basalt stack where the Sentinels have kept their monastery and observation ledgers for two centuries. They have refused three Dravosi deals.

@@ -8,7 +8,7 @@ tags: [location]
 ---
 # Crown Islands
 > [!narration] Narration
-> _Visualizer: place portrait pending._
+> _Visualizer: geography ingest pending._
 ## At a glance
 Five large mountainous northern islands with fortified deep-water harbours and pale stone forts; feels occupied and watchful.
 ## Five-sentence kernel
@@ -69,3 +69,8 @@ Quiet → Alert → Contested → Transformed: legal traffic → raised inspecti
 ## Mechanics and return
 - Influence for papers; cover and terrain for fort approaches; flight, teleport, and stealth remain useful with honest exposure/cost.
 - **Return state:** record who has the crew’s name, which harbour is safe, and occupation pressure.
+
+## Geography ingest — the northern arc
+The Crown Islands are the broad-shouldered northern arc: forested highlands, deep harbours, pale stone forts, southern coasts facing [[Central Strait]], and northern coasts taking open swell. The [[Greyteeth]] are long pale reef ridges between the islands; pilots charge accordingly. An adult blue dragon uses those reefs as cover, while the Crown leaves that arrangement unwritten.
+
+West to east: [[Calder's Tooth and Port Tidefall]] is the western door; [[Calven and Calveno]] sits about three days east of Tidefall; [[Harwick]] is the army and shipyard island; [[Aldenmere]] is the quiet farm island; [[Stenmark]] is the last Dravosi flag before [[Drowned Maw]]. [[High Eyrie]] is a two-hundred-foot basalt stack off the far northeastern edge. Calder's Tooth is not always counted among the five proper Crown Isles.

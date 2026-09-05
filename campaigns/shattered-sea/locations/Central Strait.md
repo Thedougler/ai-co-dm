@@ -8,7 +8,7 @@ tags: [location]
 ---
 # Central Strait
 > [!narration] Narration
-> _Visualizer: place portrait pending._
+> _Visualizer: geography ingest pending._
 ## At a glance
 The primary shipping corridor between the two arcs; feels like a moving border.
 ## Five-sentence kernel
@@ -68,3 +68,6 @@ Quiet → Alert → Contested → Transformed: routine traffic → signals multi
 ## Mechanics and return
 - Travel, cover, Study/Utilize for route and paperwork. Failure costs time/position/exposure, never the only clue.
 - **Return state:** record lane used, witnesses, and current pressure state.
+
+## Geography ingest — working road
+The Strait is the shipping road between the two green arcs. [[Calder's Tooth and Port Tidefall]] owns the western mouth: every hull is supposed to stop, answer questions, and show papers. [[Nimmik Vollask]] works the water, and patrol cutters own the official lane; smart captains leave it when pilots and risk allow. The Strait's northern view is Crown water and Greyteeth; its southern exits feed the pilot-named bands of the [[Midchain]].

@@ -8,7 +8,7 @@ tags: [location]
 ---
 # Calder's Tooth / Port Tidefall
 > [!narration] Narration
-> _Visualizer: place portrait pending._
+> _Visualizer: geography ingest pending._
 ## At a glance
 Calder’s Tooth guards the western mouth of the Central Strait; Port Tidefall requires every ship to stop and show papers.
 ## Five-sentence kernel

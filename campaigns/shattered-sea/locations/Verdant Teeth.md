@@ -8,7 +8,7 @@ tags: [location, region, grung, verdant-teeth]
 ---
 # Verdant Teeth
 > [!narration] Narration
-> Rainforest comes down to the tide. Pale reef rings the channels. Small hulls work the gaps, and a dart that snaps short of the bow is the closest thing to a welcome.
+> _Visualizer: geography ingest pending._
 
 ## At a glance
 Five country-scale rainforest islands held by Grung clans: lush, wet, layered, and theocratic. Sanctioned beaches are interfaces, not invitations; the interior is closed.
@@ -55,3 +55,6 @@ The Grung clans' historical crime against a far-Midchain druid and her companion
 
 ## Return state
 Track which beach is open, which patrol has moved, whether the fleet has departed, what the party learned about the captive pipeline, and whether the congregation or water route gained or lost ground.
+
+## Geography ingest — five-island shape
+The Teeth are five country-scale rainforest islands, close enough that facing shores are hours apart but whose interiors take weeks. Jungle reaches the tide, pale reef rings the channels, and beach trade is selective; interiors remain closed. From west to east: [[Veth]] is the largest and has one sanctioned western beach; [[Sorn]] is the Botukuri farm heart with a purple garrison; [[Karath]] is loud, blackwater, chemical, and faces [[Aruhe - Hungry Isle]] across a channel about half a mile wide at the closest edge; [[Dreth]] is drowned forest with no named shoreline; [[Orak]] is raised karst linked to Dreth by shallows and a flooded channel. The five are not a generic island chain: each is country-scale and the beach is an interface, not an invitation.

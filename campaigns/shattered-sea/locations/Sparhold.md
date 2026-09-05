@@ -7,6 +7,9 @@ visibility: dm
 tags: [location]
 ---
 # Sparhold
+> [!narration] Narration
+> _Visualizer: geography ingest pending._
+
 ## At a glance
 The next stop on the raiding-fleet trail; details remain open. The settlement is a place to ask where the taken went while every answer can make someone richer, safer, or more exposed.
 ## Five-sentence kernel
@@ -86,3 +89,6 @@ Advance on public accusation, rest after confirmed sighting, lost witness, or vi
 - **Return state:** route, party reputation, witness status, trail clock, town posture, next offer.
 ## Table presentation
 - Narration intentionally left to Visualizer; no player-facing portrait supplied here.
+
+## Geography ingest — island versus market
+**Sparhold Isle** is the half-mile, cut-over islet at the southern lip of the Northern Midchain strip. **Sparhold** is the timber fortress-market on the harbour slope of that islet, closest harbour to the Teeth and cheaper/looser than [[Kalowe]]. The local spar stand was cut down when the walls went up; crews now cut the fringe of the Teeth. This note is the fortress-market, not the whole islet; use [[Sparhold Isle]] for the landform.

@@ -7,6 +7,9 @@ visibility: dm
 tags: [location, ley-line, sentinel]
 ---
 # Yssenmoor
+> [!narration] Narration
+> _Visualizer: geography ingest pending._
+
 
 ## At a glance
 A place over a hidden ley line that reacts to [[Fate Spinner]]; feels like an unresolved point of contact between old power and a watchful relic.
@@ -37,3 +40,6 @@ A place over a hidden ley line that reacts to [[Fate Spinner]]; feels like an un
 
 ## Secrets (DM)
 The place’s settlement, terrain, routes, and exact ley-line behavior are unknown beyond the hidden line and the reaction described above.
+
+## Geography ingest — physical approach
+Yssenmoor is three miles of unclaimed bog under fog that does not lift. Sound arrives before its source, [[Sir Quackers the Fowl]] holds it, and there is no dry landing. These physical facts coexist with the hidden ley line and [[Fate Spinner]] reaction already recorded here.

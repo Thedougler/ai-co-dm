@@ -8,7 +8,7 @@ tags: [location]
 ---
 # Drowned Maw
 > [!narration] Narration
-> The Drowned Maw is a deep trench at the edge of the charts where currents reverse. Storm, broken horizon, dark water, and lines pulled sideways surround glimpses of unknown-quarry stone; a descent reaches a trench shelf before the water turns back toward the fissure and seal.
+> _Visualizer: geography ingest pending._
 ## At a glance
 A deep trench at the edge of charts where currents reverse and sailors refuse to say what lies beyond; feels hungry and load-bearing.
 ## Five-sentence kernel
@@ -69,3 +69,6 @@ A deep trench at the edge of charts where currents reverse and sailors refuse to
 ## Mechanics and return
 - Storm/trench use Difficult Terrain, cover, travel, hazard telegraphs; Study/Utilize can map or anchor. No single roll blocks return.
 - **Return state:** retain coordinates, spent line/boat resources, faction knowledge, and fissure clock.
+
+## Geography ingest — Tail and Outer Reach
+The northern and southern arcs pinch together into the [[Tail]] before the Maw: fewer islands, taller sharper cliffs, cold trench-coloured water, late fog, and lying compasses. The Maw is a trench-floor puncture into the Elemental Plane of Water, a hole in one place rather than a wall around the ocean. [[Fathomrush]] stages dives on [[Shelfworks]] to the west; Antheri works climb the western wall in three tiers. Past the Maw is [[Outer Reach]], with no resupply or pilot-trusted landmark, reversing currents, and stone that turns up without a known quarry. Fisk's five ships were lost when the trench opened beneath them at once.

@@ -8,7 +8,7 @@ tags: [location]
 ---
 # Galewall
 > [!narration] Narration
-> _Visualizer: place portrait pending._
+> _Visualizer: geography ingest pending._
 ## At a glance
 Permanent storm belt separating charted homeland from the Scatter; feels like weather made into a wall.
 ## Five-sentence kernel
@@ -66,3 +66,6 @@ Calm edge → Rising → Wall → Window/Breakdown: weather thickens, route clos
 ## Mechanics and return
 - Travel, visibility, cover, wind, Difficult Terrain, hazard telegraphs; failure costs time/position/resources. Do not arbitrarily negate flight/teleport.
 - **Return state:** crossing progress, weather signs, supplies, damage, and whether a window remains.
+
+## Geography ingest — crossing scale
+The Galewall is a permanent stacked storm belt and the last weather still belonging to the charted homelands. A good pilot takes about three weeks to cross; roughly one ship in three does not finish. Beyond it, water goes cold and the [[Ashwalls]] rise as volcanic spires.

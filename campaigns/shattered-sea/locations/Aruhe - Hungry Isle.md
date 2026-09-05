@@ -8,7 +8,7 @@ tags: [location, region, aruhe, hungry-isle]
 ---
 # Aruhe / Hungry Isle
 > [!narration] Narration
-> A country-scale island in the eastern Midchain: roughly five hundred miles end to end and about a hundred fifty across at the waist. From offshore it reads as a green nation behind a jagged reef and stone rim — canopy, basalt, terraces, grass, and rivers — with no towns, fields, roads, or smoke. One boat gap opens the western edge; the heart sits hundreds of miles inland.
+> _Visualizer: geography ingest pending._
 
 
 ## At a glance
@@ -116,3 +116,6 @@ Advance on plucking, uprooting, trapping, fishing for self, killing to carry fle
 - Treat the island as a country-scale wilderness; distances are meaningful even when child nodes connect conceptually. Use Study/Search/Utilize for maps, signs, water, basalt, and ecological boundaries.
 - Do not write fruit or beast stat blocks here. Creature and fruit mechanics are deferred; their fiction names above are the play-facing roster.
 - **Return state:** reef approach, claimed/released living things, survey marks, route knowledge, niche pressure, anchor verdict, and who can safely pass.
+
+## Geography ingest — continuity note
+The dump confirms Aruhe's near-edge geography: from [[Karath]], its landing is one reef gap and a short shingle beach, close enough at the channel to seem swimmable, but Karath is only near Aruhe's rim. The island's heart remains hundreds of miles inland. Grung patrol the western reefs but will not set foot on the sand; a wrecked raiding hull sits above the tideline. Nothing here is a town: the island's bands (Old Gardens, Quiet, Grasslands, Rot, Clear Lake, and Grove) and lava tubes are an ecological country, not settlements.

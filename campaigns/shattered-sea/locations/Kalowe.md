@@ -1,15 +1,43 @@
 ---
 type: location
 campaign: shattered-sea
-kind: site
-region: unknown
+kind: settlement
+region: Western Midchain
 visibility: dm
-tags: [location, red-lady]
+tags: [location, free-port]
 ---
 # Kalowe
+> [!narration] Narration
+> _Visualizer: geography ingest pending._
 
-## Status
-Stub. After the [[Red Lady - Dead Lady]] sank, [[Master Kyzil]] tracked current and weather and searched Kalowe and [[Tidefall]] before finding [[Crissdalynn Khinriss]] in [[Calveno]].
+## At a glance
+Three reef-linked islets joined by stone bridges, ringed by reef with one navigable gap; feels crowded, practical, and deliberately unpapered.
 
-## Unknown
-Place function, exact position, inhabitants, routes, and present conditions are unknown.
+## Aspects
+`one navigable gap, seized fort council, every hull pays the shrine`
+
+## Senses
+- **Sight:** reef water, stone bridges, a compact town, dry-dock masts, and the seized fort on the height.
+- **Sound:** hulls in the gap, dock work, council traffic, and shrine collections.
+- **Smell:** salt, pitch, reef water, and dry-dock smoke.
+
+## Who is here
+- The Chain Council sits in the seized fort; Kalowe refuses to seat a local ruler.
+- The Waveservant shrine at the gap collects from every hull.
+- About 1,800 residents live there; the number more than doubles when the dry dock is full.
+
+## Connections
+- → [[Midchain]]
+- → [[Central Strait]] via pilot routes
+- → [[Penance Bar]] · [[Ashkevet]] · [[Sabrique]]
+
+## Hooks
+- Take a paying hull through the one navigable gap without answering Crown papers.
+- Find out what still rings the yard bell at [[Ashkevet]].
+- Decide what the Chain Council's refusal to seat a ruler costs during a crisis.
+
+## Secrets (DM)
+Kalowe's free-port posture is practical rather than empty of power: pilots, the Chain Council, and the shrine each control a different part of arrival. The exact fort hierarchy remains open.
+
+## Legacy continuity
+After the *[[Red Lady - Dead Lady]]* sank, [[Master Kyzil]] tracked current and weather and searched Kalowe and [[Tidefall]] before finding [[Crissdalynn Khinriss]] in [[Calveno]].

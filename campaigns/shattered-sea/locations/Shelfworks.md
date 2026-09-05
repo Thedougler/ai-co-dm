@@ -8,7 +8,7 @@ tags: [location]
 ---
 # Shelfworks
 > [!narration] Narration
-> _Visualizer: place portrait pending._
+> _Visualizer: geography ingest pending._
 ## At a glance
 Salvage shelf holding ruins of [[Antheri]] above the trench; feels lucrative, unstable, and older than the charts.
 ## Five-sentence kernel
@@ -68,3 +68,6 @@ Stable → Strained → Contested → Transformed: working shelf → cracks/clai
 ## Mechanics and return
 - Exposed shelf uses cover, climbing, Difficult Terrain, hazard telegraphs; Study/Utilize for salvage. Failure costs position/resources, not all evidence.
 - **Return state:** claim marks, removed components, lines, damage, faction knowledge, Maw clock.
+
+## Geography ingest — field approach
+The Shelfworks are the Antheri salvage field on the Maw's western shelf, about forty feet down, then a drop nobody likes to look at. The wreck of the *Red Lady* lies on the eastern edge. [[Fathomrush]] is the boomtown staging dives; the [[Tail]]'s unnamed staging island performs the last-supplies and last-hands role before the trench under another name.

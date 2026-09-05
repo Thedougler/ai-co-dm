@@ -8,7 +8,7 @@ tags: [location]
 ---
 # Shattered Sea
 > [!narration] Narration
-> The Shattered Sea is a roughly 60,000-square-mile archipelago weeks beyond the last charted Faerûn coast, split into two island arcs by a working shipping corridor. Mountainous Crown Islands, reef-fringed Midchain free ports, and the Central Strait lead toward charts cut short by permanent weather, reversed currents, and the boundary of the Drowned Maw.
+> _Visualizer: geography ingest pending._
 ## At a glance
 A roughly 60,000-square-mile archipelago weeks beyond the last charted Faerûn coast; two island arcs and a shipping corridor make every crossing a negotiation. Feels remote, exposed, and politically unfinished.
 ## Five-sentence kernel
@@ -69,3 +69,14 @@ A roughly 60,000-square-mile archipelago weeks beyond the last charted Faerûn c
 - Rest is safe only inside a claimed harbour or a vessel’s established routine; otherwise advance a relevant clock when time matters.
 - Use travel, cover, Difficult Terrain, and Search/Study/Influence/Utilize as appropriate; fair DCs never erase a required revelation.
 - **Return state:** record route changes, faction knowledge, spent supplies, clock positions, and the next unresolved offer.
+
+
+## Geography ingest — corridor overview
+The Shattered Sea is a long, bent west–east corridor in open ocean south of Chult, roughly 60,000 square miles across. The route reads west to east as [[Galewall]] → [[Ashwalls]] → the [[Verdant Scatter]] (the Crown Islands north of [[Central Strait]], the [[Midchain]] south) → [[Tail]] → [[Drowned Maw]] and the [[Outer Reach]].
+
+- [[Galewall]] is a permanent stacked storm belt: a good-pilot crossing takes about three weeks and roughly one ship in three fails to finish.
+- [[Ashwalls]] are cold-water volcanic spires: last solid ground westbound and the first safe lee eastbound. Wreck survivors and apparent rescuers make the lee dangerous.
+- South of the Midchain, the seasonal [[Doldrums]] slide 50–100 miles; a black dragon works the still channels and westbound captains use them to bypass Strait inspection.
+- Eastward, both arcs pinch into the [[Tail]], then the cold, sharp approach to the Maw. Past the trench is [[Outer Reach]]: no trusted landmark, reversing currents, and no resupply.
+
+The sea is not empty between the named hubs: reefs, deep cuts, and small particular islands make unofficial routes valuable to whoever learned them first.

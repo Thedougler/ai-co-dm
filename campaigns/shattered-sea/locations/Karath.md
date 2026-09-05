@@ -8,7 +8,7 @@ tags: [location, region, grung, karath, aruhe]
 ---
 # Karath
 > [!narration] Narration
-> Bare shore, reef, rainforest flush to the water. The river coming out is the color of tea left a week. A dart snaps short of the bow before anyone can hail.
+> _Visualizer: geography ingest pending._
 
 ## At a glance
 Karath is the Grung raid and hatchery island, and [[Aruhe - Hungry Isle]]'s near neighbor across a channel about half a mile wide at the closest edge. It is close to Aruhe's rim, not to Aruhe's heart; the island is country-scale in its own right.
@@ -53,3 +53,6 @@ Karath is the Grung raid and hatchery island, and [[Aruhe - Hungry Isle]]'s near
 
 ## Secrets (DM)
 Karath's gold reagent farms are secret even from lower castes. Simone has **never received Karath toxin**; her stalled partial gold is not proof that she controls or succeeded in the Karath process.
+
+## Geography ingest — dual continuity
+This note keeps Karath's two established relationships together: it is the eastern [[Verdant Teeth]] island with blackwater, raids, hatchery/toxin work, and no sanctioned landing; it is also [[Aruhe - Hungry Isle]]'s near-edge channel neighbor, about half a mile away at the closest point. That distance reaches Aruhe's rim only; it does not make Karath a shortcut to the island's heart. The Aruhe-facing proximity explains continuity of patrol pressure without merging the two islands.
