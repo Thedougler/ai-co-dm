@@ -11,6 +11,8 @@ tags: [item, sentinel, relic, soul-incarnate]
 # Fate Spinner
 
 > [!narration] Narration
+> A thumb-sized four-sided top sits small enough to pinch between two fingers. Quartz fills each face; the corners have dulled and the edges worn smooth from handling. It stays cool in the palm, and spun on a flat surface it turns on its point with a short even wobble before it settles.
+
 
 
 
