@@ -1,9 +1,26 @@
 ---
 name: obsidian-markdown
-description: Create and edit Obsidian Flavored Markdown with wikilinks, embeds, callouts, properties, and other Obsidian-specific syntax. Use when working with .md files in Obsidian, or when the user mentions wikilinks, callouts, frontmatter, tags, embeds, or Obsidian notes.
+description: >
+  Format every ai-co-dm vault markdown note with Obsidian Flavored Markdown
+  (wikilinks, embeds, callouts, properties). Use whenever creating or editing
+  any .md in the wiki — campaigns, lexicon, templates, inbox, hubs — before
+  or while writing. Required for all vault document writes.
 ---
 
 # Obsidian Flavored Markdown Skill
+
+
+## ai-co-dm adaptation (read first)
+
+Vault: `/Users/nick/Documents/ai-co-dm` (Obsidian vault). Schema: [[AGENTS]].
+
+- **Always** use `[[wikilinks]]` for vault notes (app setting: wikilinks on). Markdown links only for external URLs.
+- Frontmatter must include AGENTS fields when applicable: `type`, `campaign`, `status`, `tags`, `visibility` — not only `title`/`tags`/`aliases`. See [[AGENTS]] `type` enum.
+- Leading player-facing block: `> [!narration] Narration` (TotM / Visualizer). Empty ok.
+- House monsters: Fantasy Statblocks fence (` ```statblock `) **first** after frontmatter — see `templates/Monster.md` + `./scripts/lint-statblocks`.
+- Attachments/embeds live under `attachments/`; new scratch notes under `inbox/`.
+- Progressive load: this `SKILL.md` for day-to-day; open `references/` only when syntax is unclear.
+- Do not invent a parallel `wiki/` tree. Do not paste WotC book text.
 
 Create and edit valid Obsidian Flavored Markdown. Obsidian extends CommonMark and GFM with wikilinks, embeds, callouts, properties, comments, and other syntax. This skill covers only Obsidian-specific extensions -- standard Markdown (headings, bold, italic, lists, quotes, code blocks, tables) is assumed knowledge.
 

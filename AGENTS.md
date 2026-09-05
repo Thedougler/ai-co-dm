@@ -15,7 +15,7 @@ Obsidian LLM wiki for Nick's home D&D. **Markdown is the product.**
 1. This file + [[00 Home]] + [[campaigns/shattered-sea/hot]] (not the whole tree).
 2. **Hard gate:** qmd via skill `qmd-retrieval` (`./scripts/qmd`). Collections: `wiki` · `skills` · `legacy-ss` (read-only prior Shattered Sea). Snippets ≠ facts. `SKILL.md` only unless stuck.
 3. Missing canon → ask Nick / Co-DM. No silent contradiction.
-4. New entity → copy `templates/` match; fill only what play needs; link nearest index/MOC.
+4. New entity → copy `templates/` match; fill only what play needs; link nearest index/MOC. Format with skill `obsidian-markdown` (wikilinks, callouts, properties).
 
 ## Hard don'ts
 
@@ -29,6 +29,7 @@ Obsidian LLM wiki for Nick's home D&D. **Markdown is the product.**
 
 ## Write
 
+- **Format:** every vault `.md` uses skill `obsidian-markdown` (Obsidian Flavored Markdown — wikilinks, embeds, callouts, properties). Load `SKILL.md` on any create/edit; `references/` only if stuck.
 - **Create vs update:** qmd for existing entity first; update in place; new note only if no hit; link nearest index/MOC.
 - Wikilinks; one topic/note; stub > empty folder.
 - Frontmatter: `type`, `campaign`, `status`, `tags`, `visibility: table | dm`.
@@ -44,10 +45,11 @@ Obsidian LLM wiki for Nick's home D&D. **Markdown is the product.**
 
 ## Skills (progressive)
 
-**Always-on:** this table. **On match:** that skill’s `SKILL.md` only. **On demand:** `references/` when the skill says.
+**Always-on:** this table + `obsidian-markdown` for every wiki `.md` write. **On match:** that skill’s `SKILL.md` only. **On demand:** `references/` when the skill says.
 
 | Job | Skill |
 |---|---|
+| Format any vault `.md` (Obsidian) | `obsidian-markdown` — **required on every wiki write** |
 | Find vault facts | `qmd-retrieval` |
 | LLM-wiki pattern / doctrine | `llm-wiki` |
 | Ingest source → typed notes | `wiki-ingest` → **Ingest** |
