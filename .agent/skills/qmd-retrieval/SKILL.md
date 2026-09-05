@@ -54,6 +54,8 @@ Then:
 
 ## After writes
 
+Prefer `./scripts/after-write "why"` (qmd update + embed + commit/push). Manual fallback:
+
 When you add or edit vault markdown and QMD is available:
 
 ```bash

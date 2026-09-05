@@ -7,6 +7,8 @@ visibility: dm
 tags: [campaign]
 ---
 # The Shattered Sea
+
+**Agents boot:** [[campaigns/shattered-sea/hot]]
 > [!narration] Narration
 > An archipelago beyond the last charted coast: every harbor offers shelter, a bill, and a question about who sets the price.
 ## Premise

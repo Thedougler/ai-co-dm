@@ -1,0 +1,62 @@
+#!/bin/sh
+# Post-write sync for ai-co-dm Grok Bots.
+# From vault root: ./scripts/after-write "commit message"
+# Flags: --no-embed | --dry-run
+set -eu
+
+ROOT=$(CDPATH= cd -P "$(dirname "$0")/.." && pwd -P)
+cd "$ROOT"
+
+DO_EMBED=1
+DRY=0
+MSG=""
+
+while [ $# -gt 0 ]; do
+  case "$1" in
+    --no-embed) DO_EMBED=0; shift ;;
+    --dry-run) DRY=1; shift ;;
+    -h|--help)
+      printf '%s\n' "Usage: ./scripts/after-write [--no-embed] [--dry-run] \"commit message\""
+      exit 0
+      ;;
+    *)
+      if [ -n "$MSG" ]; then
+        printf '%s\n' "ai-co-dm: unexpected arg: $1" >&2
+        exit 2
+      fi
+      MSG=$1
+      shift
+      ;;
+  esac
+done
+
+if [ -z "$MSG" ] && [ "$DRY" -eq 0 ]; then
+  printf '%s\n' "ai-co-dm: commit message required (or pass --dry-run)." >&2
+  exit 2
+fi
+
+printf '%s\n' "== qmd update =="
+./scripts/qmd update
+
+if [ "$DO_EMBED" -eq 1 ]; then
+  printf '%s\n' "== qmd embed =="
+  ./scripts/qmd embed --no-gpu 2>/dev/null || ./scripts/qmd embed
+fi
+
+if [ "$DRY" -eq 1 ]; then
+  printf '%s\n' "== dry-run: git status =="
+  git status --short
+  exit 0
+fi
+
+printf '%s\n' "== git commit + push =="
+git add -A
+if git diff --cached --quiet; then
+  printf '%s\n' "nothing to commit."
+  exit 0
+fi
+
+git commit -m "$MSG"
+git push -u origin HEAD
+git status -sb
+git log -1 --oneline

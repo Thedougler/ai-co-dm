@@ -13,6 +13,7 @@ See [[campaigns/00 Campaigns]].
 
 ## Quick links
 
+- **Boot (agents):** [[campaigns/shattered-sea/hot]]
 - [[lexicon/00 Lexicon]]
 - [[templates/00 Templates]]
 - [[inbox/00 Inbox]]
@@ -20,4 +21,4 @@ See [[campaigns/00 Campaigns]].
 
 ## Status
 
-Active campaign: [[campaigns/shattered-sea/00 Shattered Sea]].
+Active campaign: [[campaigns/shattered-sea/hot]] → [[campaigns/shattered-sea/00 Shattered Sea]].
