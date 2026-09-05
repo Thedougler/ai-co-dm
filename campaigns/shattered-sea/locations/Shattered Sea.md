@@ -9,6 +9,8 @@ tags: [location]
 # Shattered Sea
 > [!narration] Narration
 > The Shattered Sea is a roughly 60,000-square-mile archipelago weeks beyond the last charted Faerûn coast, split into two island arcs by a working shipping corridor. Mountainous Crown Islands, reef-fringed Midchain free ports, and the Central Strait lead toward charts cut short by permanent weather, reversed currents, and the boundary of the Drowned Maw.
+> [!narration] Narration
+> The Shattered Sea is a roughly 60,000-square-mile archipelago weeks beyond the last charted Faerûn coast, split into two island arcs by a working shipping corridor. Mountainous Crown Islands, reef-fringed Midchain free ports, and the Central Strait lead toward charts cut short by permanent weather, reversed currents, and the boundary of the Drowned Maw.
 ## At a glance
 A roughly 60,000-square-mile archipelago weeks beyond the last charted Faerûn coast; feels remote, exposed, and politically unfinished.
 ## Aspects
