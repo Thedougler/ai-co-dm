@@ -23,6 +23,24 @@ Other surfaces stop at their own player opening.
 
 Human table examples live in [humans.md](humans.md). Published boxed text and live-table place passages live in [places.md](places.md). Creature and fight lines live in [experts.md](experts.md). Person first looks live in [npcs.md](npcs.md). The ear and the slop gate live in [voice.md](voice.md).
 
+
+## Complete picture vs stub (default for `[!narration]`)
+
+**Weak — terse encyclopedia line (incomplete picture)**
+
+> An owl aarakocra with frost on his feathers who never raises his voice.
+
+**Strong — flowing prose, same facts, drawable whole**
+
+> A snowy-owl aarakocra stands at human height, feathers gone past white with age and altitude so frost seems to cling in the down. Cold air hangs close to the body. When he speaks, the voice stays low and even — and a demand is never repeated twice.
+
+**Weak — verbose, says little**
+
+> There is a profound, almost haunting sense of ancient cold about this enigmatic avian figure, as if the very weight of winter itself were embodied in his mysterious presence.
+
+**Strong again:** keep the middle example. Completeness is drawable coverage in connected sentences; verbosity is register without new nouns.
+
+
 ## Arrival
 
 **Weak — catalog and grid**

@@ -1,6 +1,14 @@
 ---
 name: theatre-of-the-mind
-description: Write all player-facing prose for TTRPG play. Use for descriptions, spoken narration, boxed or read-aloud text, NPC dialogue, recaps, combat updates, handouts, rendered player text, scenes, rooms, wilderness, travel, vehicles, businesses, objects, creatures, people, visions, transitions, reveals, and live table, chat, or play-by-post output. Use this skill whenever text crosses the DM/player boundary, including `[!narration]` and player-safe renderer surfaces.
+description: >-
+  Write all player-facing prose for TTRPG play. Use for descriptions, spoken
+  narration, boxed or read-aloud text, NPC dialogue, recaps, combat updates,
+  handouts, rendered player text, scenes, rooms, wilderness, travel, vehicles,
+  businesses, objects, creatures, people, visions, transitions, reveals, and
+  live table, chat, or play-by-post output. Use whenever text crosses the
+  DM/player boundary, including `[!narration]` and player-safe renderer
+  surfaces. Prefer complete, natural flowing prose that paints a drawable
+  picture — not telegram stubs and not verbose padding.
 ---
 
 # Theatre of the mind
@@ -12,10 +20,22 @@ and hidden truth outside that prose in `[!mechanic]` and collapsed
 `[!secret]-` callouts.
 
 Narration controls attention. Give the player a concrete thing, body, or
-change they can point at and act on. Length follows the moment and the surface;
-a first look may be a paragraph, while a hit or dialogue turn may be one line.
-Stop at the next meaningful player opening. Do not force every surface into a
-spoken block, a fixed beat, or a located change.
+change they can point at and act on — and write it as **natural flowing prose**
+that paints a complete picture for that surface, not a telegram of facts.
+
+**Complete picture, not pad.** Cover every relevant player-visible fact the
+surface owes (subject, relationships, senses the viewpoint can use, motion or
+stable behavior). Join those facts into connected sentences with plain nouns
+and concrete verbs. Do not stop at a single encyclopedic clause when the
+picture is still incomplete. Do not add purple adjectives, theme sentences, or
+mood claims to fake completeness.
+
+Length still follows the moment: a hit, reveal, or dialogue turn may be one
+tight line; a `[!narration]` portrait, room/place first look, creature first
+sight, or recap is usually one coherent spoken block (often a short paragraph
+of several connected sentences). Stop at the next meaningful player opening.
+Do not force every surface into a spoken block, a fixed beat, or a located
+change.
 
 When the user requests a full or loaded first look, produce one coherent spoken
 block containing every relevant subject and relationship currently perceivable:
@@ -114,6 +134,11 @@ wrapper follows the host or page request; do not force an encounter question.
   comparison when it makes the thing memorable. Give one setting-specific
   signature property — material, practice, sound, behavior, or contradiction —
   to a usable noun or affordance. Generic mood must come from evidence.
+- Prefer flowing prose over bullet-shaped sentences. Fold color, material,
+  posture, and minor anatomy onto the body or place that owns them. A portrait
+  or first look should leave a drawable whole after one hearing; a single dry
+  identifying sentence is usually too thin unless the surface is a hit, reveal,
+  or dialogue turn.
 - Characters perceive; players interpret. Never narrate a PC's feeling,
   thought, choice, route, conclusion, or unresolved outcome. Show the resolved
   stimulus, behavior, and consequence, then leave the next player response
@@ -162,12 +187,17 @@ explicitly requested doorway-only snapshot may be intentionally partial.
 
 Choose the branch, select the facts that pass the boundary, and draft only to
 its natural stop. Keep a signature property tied to an affordance, not floating
-as decoration. Read the result aloud once. Ask the branch's questions from
+as decoration. Draft in connected prose first — whole picture, then trim —
+rather than starting from a one-line stub and padding.
+
+Read the result aloud once. Ask the branch's questions from
 [references/surfaces.md](references/surfaces.md), then run the slop and thin
-gates in [references/voice.md](references/voice.md). Cut isolated details,
-private metaphors, premature labels, unsupported mechanics, and future
-outcomes; add the missing noun, relationship, access, or opening when the
-player cannot act on the line.
+gates in [references/voice.md](references/voice.md). Fail the draft if a
+player hearing it once cannot sketch or distinguish the subject. Cut
+telegram lists, isolated details, private metaphors, premature labels,
+unsupported mechanics, and future outcomes. Cut purple register that adds no
+drawable fact. Add the missing noun, relationship, second sense, access, or
+opening when the picture or agency is incomplete — never by stacking synonyms.
 
 For spatial narration, use third person and present tense by default. For
 other surfaces, follow their contract: dialogue can be quoted, recaps use

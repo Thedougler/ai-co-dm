@@ -82,8 +82,10 @@ become the subject. Generic mood is not evidence.
   recognizable structure as well as wording. Reference examples teach moves,
   not lines to echo.
 - Avoid telegram rhythm and isolated detail. Join claws, spit, eyes, color, or
-  a marking to the sentence that already owns the body; reserve a short line
-  for the actual payload, reveal, attack, or answerable turn.
+  a marking to the sentence that already owns the body. Portraits and first
+  looks should read as spoken prose someone could deliver at the table without
+  sounding like a card text. Reserve a short line for the actual payload,
+  reveal, attack, or answerable turn — not for the whole subject.
 - When several bodies must be distinguished, show a stable visible trait while
   the body moves. The handle waits until the trait is seen or a player names
   it; position or what the body is currently doing is not a durable name.
@@ -98,11 +100,26 @@ become the subject. Generic mood is not evidence.
 
 ## Rhythm and memorability
 
-Length follows attention. Use a medium breath when a few related details belong
-to one subject; use a short line for a reveal, decision, attack, or answerable
-turn; use a list or compact layout for a handout when that is what rereading
-needs. Do not turn three anchors, four to eight sentences, or any sentence
-count into a cognitive law.
+Length follows attention — but **attention needs a complete picture**, not a
+stub.
+
+Write natural flowing prose: connected sentences that seat the subject, relate
+its parts, and carry at least one second sense or motion/behavior when the
+canon supports it. Prefer one coherent spoken block over a string of clipped
+identifying clauses.
+
+| Surface | Default breath |
+| --- | --- |
+| Hit, reveal, dialogue turn, micro-update | One tight line |
+| `[!narration]` portrait (place, NPC, creature, item, vehicle, business) | Short paragraph of connected prose; drawable whole after one hearing |
+| Loaded spatial first look | One complete spoken block of the relevant visible state |
+| Recap | Past-tense paragraph of play-made truths + tonight's handle |
+| Handout | Scannable diegetic layout, not spoken-block geometry |
+
+Do not turn three anchors, four to eight sentences, or any sentence count into
+a law. Do not “fix” thin with purple adjectives, stacked synonyms, or theme
+sentences. Completeness is coverage of supported drawable facts in flowing
+prose; verbosity is words that do not change what a player can draw or do.
 
 For a spatial first look, broad orientation and close inspection are separate
 scales. Keep one frame, one unit system, and a manageable selection of anchors;
@@ -113,11 +130,12 @@ A spatial ending follows the complete visible state and may be pressure,
 opportunity, micro-reveal, or located motion. Other branches stop on their own
 opening, not on a forced movement.
 
-Read the line aloud once. If the player cannot name the branch's payload, add
-the missing noun, owner, state, relationship, access, or answerable opening. If
-the player has to remember a catalog, cut texture, duplicate subjects, and
-isolated body facts. If the line claims a fact no one could access, cut it or
-route it to the owning content-stock skill; qualification cannot create
+Read the result aloud once. If the player cannot sketch or distinguish the
+subject, or cannot name the branch's payload, add the missing noun, owner,
+state, relationship, second sense, access, or answerable opening. If the player
+has to remember a catalog of orphaned body facts, join them to their owners or
+cut texture and duplicates. If the line claims a fact no one could access, cut
+it or route it to the owning content-stock skill; qualification cannot create
 evidence.
 
 ## Slop gate
@@ -170,9 +188,14 @@ evidence.
 | a body part arrives before its owner | name the body, familiar size, and silhouette first |
 | a handle arrives before its trait | show the stable trait while the body moves; let players name or reuse it afterward |
 | an established full scene ends at its first micro-opening | include all relevant visible subjects and relationships before the natural stop |
+| a portrait or first look is one dry identifying sentence | expand into connected prose covering silhouette/scale, defining parts or topology, ordinary behavior/use, and one supported sensory fact |
+| facts arrive as a telegram or bullet-shaped clauses | join owned details into flowing sentences with concrete verbs |
+| only sight is used when another sense is established | fold in the supported sound, smell, temperature, or texture on the thing that owns it |
+| the draft is long but still not drawable | replace register and synonyms with missing nouns, relationships, and anchors — do not add more adjectives |
 
 Adding purple prose to fix thin is not the fix. Add the missing noun or
-relationship. Adding mechanics to fix uncertainty breaks the player boundary.
+relationship, then keep the prose flowing. Adding mechanics to fix uncertainty
+breaks the player boundary.
 
 After both gates, read once more for weight. A whole sentence belongs to a
 usable anchor, body, payload, or live opening — not to a claw, eye, color, or

@@ -184,6 +184,36 @@
         "Makes the relationships drawable: the party's west entrance, routes, cover, Jori's position/action, and the hounds' movement from cistern toward Jori are not isolated catalog facts.",
         "Excludes the hidden silver ring, mechanics, and future outcomes, and does not stop at an early micro-opening before the complete visible state is conveyed."
       ]
+    },
+    {
+      "id": 19,
+      "prompt": "Write a `[!narration]` standalone player portrait for Talon Vantyrus from these public facts only: snowy-owl aarakocra; feathers bled past white with age and altitude; faint frost tang; cold air clings close; never raises his voice; never repeats a demand twice. Do not invent a scene.",
+      "expected_output": "A short paragraph of connected flowing prose covering silhouette, defining traits, sensory fact, and characteristic behavior \u2014 not a single dry identifying sentence and not purple mood padding.",
+      "expectations": [
+        "Uses connected flowing prose (multiple sentences or one rich multi-clause spoken block), not a telegram stub.",
+        "After one hearing a player could sketch/distinguish him (owl silhouette/scale + frost/cold + voice habit).",
+        "Does not add purple theme sentences, invented scene, or unearned interior motive."
+      ]
+    },
+    {
+      "id": 20,
+      "prompt": "Improve this `[!narration]` without inventing canon: 'Delmar Fisk\u2019s named musket, carried with admiral confidence and the history of a marriage. He named it for Serafina.' Parent also establishes: long-barreled naval musket; polished wood and brass fittings; engraved plate near the lock reads The Duchess; carried as if it were still on a flagship rail.",
+      "expected_output": "Expands into complete flowing portrait using only supplied facts; joins appearance, fittings, nameplate, and carrying manner \u2014 not more adjectives on the stub.",
+      "expectations": [
+        "Result is fuller drawable prose than the two-sentence stub, covering weapon form and nameplate.",
+        "Does not invent combat bonuses, scene, or Serafina biography beyond the name.",
+        "Avoids purple padding that adds no new drawable noun."
+      ]
+    },
+    {
+      "id": 21,
+      "prompt": "Write a combat hit update only: the PC's cutlass connects with a Grung raider's shoulder and green blood hits the deck.",
+      "expected_output": "One tight line for the hit surface \u2014 short is correct here; do not inflate into a portrait paragraph.",
+      "expectations": [
+        "Stays a short hit/update line.",
+        "Names owner, contact, and visible consequence.",
+        "Does not expand into a full creature portrait or purple combat poetry."
+      ]
     }
   ]
 }
