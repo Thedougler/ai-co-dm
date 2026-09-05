@@ -7,8 +7,8 @@ tags: [story, recap]
 ---
 # Story so far
 > [!narration] Narration
-> _Visualizer: player-safe recap narration placeholder; leave this block empty until rendered._
->
+> The crew crossed Calveno’s sewers, survived the Mercatura crisis, and stopped Solange Barret’s ritual beneath the city, leaving Otar dead and the bombs behind. The Pearl of Souls drew Umberlee’s demand while Grung operations, the Passage, Fieschi’s credit, Grigori’s healing, and the Sentinels’ secrets carried forward.
+> In the next season, the crew reached Aruhe, travelled the Midchain aboard Uncertainty, and faced the route choice between Sparhold and the Hungry Isle while the taken, the Maw, Simone’s hunters, Grigori, and the Red Wake remained unresolved.
 ## Season 1 — closed
 - The crew came together in [[Calven and Calveno]], crossing sewer routes and colonial obligations while the [[Passage]] moved them through danger.
 - [[Delmar Fisk]]'s stolen [[Pearl of Souls]] made the crew a target for [[Umberlee]] and connected personal losses to the [[Drowned Maw]].
