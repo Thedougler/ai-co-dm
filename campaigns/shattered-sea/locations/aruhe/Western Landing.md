@@ -8,7 +8,8 @@ tags: [location, aruhe, landing, reef]
 ---
 # Western Landing
 > [!narration] Narration
-> _Visualizer: Aruhe ingest pending._
+> A jagged coral reef stands about half a mile offshore. At low tide the teeth show, and one boat gap leads to a short shingle beach that takes only minutes to cross end to end. Elsewhere the coast is cliffs, coves, or beaches trapped behind reef; surf works the coral and salt spray carries over loose stone.
+
 
 ## At a glance
 A jagged coral reef lies about half a mile offshore; low tide exposes teeth and one boat gap leads to a short shingle beach that takes minutes to cross end-to-end. Elsewhere the coast is cliffs, coves, or beaches trapped behind reef.

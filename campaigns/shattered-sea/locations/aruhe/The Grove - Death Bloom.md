@@ -8,7 +8,8 @@ tags: [location, aruhe, grove, death-bloom]
 ---
 # The Grove / Death Bloom
 > [!narration] Narration
-> _Visualizer: Aruhe ingest pending._
+> A restrained node where one tree, graves, and earth meet. Roots and soil bind living wood to the dead; a bloom sits apart from the island’s surrounding excess. Deliberate quiet holds here while distant life continues beyond the boundary.
+
 
 ## At a glance
 A restrained node where one tree, graves, and earth meet. The Grove / Death Bloom expresses restraint against the island's broader excess.

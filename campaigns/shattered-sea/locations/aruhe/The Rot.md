@@ -8,7 +8,8 @@ tags: [location, aruhe, rot, decay]
 ---
 # The Rot
 > [!narration] Narration
-> _Visualizer: Aruhe ingest pending._
+> A decaying niche where fallen growth, dark soil, and feeding traces meet. Soft ground covers harder volcanic channels; wet decay and rich earth mark a boundary between silent rainforest, the Grove, and breaches into stone below. Rot here is a working abundance, not scarcity.
+
 
 ## At a glance
 A decaying ecological region where fallen life, soil, and the island's excess meet. It is a clue-rich boundary between the Quiet, the Grove, and the volcanic underworld.

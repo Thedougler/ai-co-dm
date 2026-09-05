@@ -9,7 +9,8 @@ tags: [npc, aruhe, blight]
 ---
 # The Blight
 > [!narration] Narration
-> _Visualizer: Aruhe ingest pending._
+> A druidic presence joined to Aruhe, felt as rooted attention and answered boundaries rather than a face behind a court. Pressure gathers where the Grove restrains excess and where a claim on living things draws aligned local hunger — not a hive-mind chorus.
+
 
 ## Hook
 A druidic presence joined to Aruhe tests whether the survey can connect the island without turning it into a possession.

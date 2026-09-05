@@ -9,7 +9,8 @@ tags: [lore, aruhe, hunger-rule]
 ---
 # Aruhe Hunger Rule
 > [!narration] Narration
-> _Visualizer: Aruhe ingest pending._
+> Aruhe tolerates crossing, watching, sheltering, and passage. Pluck, uproot, trap, fish for yourself, or kill to carry flesh, and surrounding life converges in hostility — aligned hunger, not one mind. Loose stone, shed shell, and free-flowing spring, stream, or cave seepage stay usable where they are.
+
 
 ## Summary
 Aruhe tolerates crossing, watching, sheltering, and passage. It reacts to **possession** of living things: pluck, uproot, trap, fish for oneself, or kill to carry flesh. Loose stone, a shed shell, and free-flowing spring, stream, or cave seepage are not possessions and are safe to use. Living things belong where they are; when someone claims a living thing, surrounding life converges in hostility—not as a hive mind, but as aligned hunger.

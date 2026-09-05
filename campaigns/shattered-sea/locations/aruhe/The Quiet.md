@@ -8,7 +8,8 @@ tags: [location, aruhe, rainforest, quiet]
 ---
 # The Quiet
 > [!narration] Narration
-> _Visualizer: Aruhe ingest pending._
+> A rainforest belt where sound falls away because small life has been eaten out. Dense green holds little darting motion; wet leaves and close air sit over soil barely disturbed by insects or birds. The silence is a boundary clue, not empty atmosphere.
+
 
 ## At a glance
 A rainforest region where silence is ecological: small life has been eaten out. The absence is an operational clue, not merely atmosphere.

@@ -8,7 +8,8 @@ tags: [location, aruhe, terraces, gardens]
 ---
 # Old Gardens
 > [!narration] Narration
-> _Visualizer: Aruhe ingest pending._
+> Miles of ancient terraces climb inland from the landing, human-scale geometry under fruit and flowers grown past ordinary size. In the afternoon the air turns sugar-sour. Weathered work of unknown builders still holds the lines.
+
 
 ## At a glance
 Miles of ancient terraces run inland from the landing, made by unknown builders and now crowded with extreme fruit and flowers. In the afternoon the air carries a sugar-sour smell.

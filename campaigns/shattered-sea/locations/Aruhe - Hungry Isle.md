@@ -8,7 +8,8 @@ tags: [location, region, aruhe, hungry-isle]
 ---
 # Aruhe / Hungry Isle
 > [!narration] Narration
-> _Visualizer: Aruhe ingest pending._
+> A country-scale island in the eastern Midchain: roughly five hundred miles end to end and about a hundred fifty across at the waist. From offshore it reads as a green nation behind a jagged reef and stone rim — canopy, basalt, terraces, grass, and rivers — with no towns, fields, roads, or smoke. One boat gap opens the western edge; the heart sits hundreds of miles inland.
+
 
 ## At a glance
 A country-scale island in the eastern Midchain: roughly 500 miles end-to-end and about 150 miles across at its waist. From offshore it looks like a green nation behind a rim of reef and stone, with no towns, fields, roads, or smoke; [[Karath]] is close to one edge, not to the heart hundreds of miles inland.

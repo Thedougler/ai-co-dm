@@ -8,7 +8,8 @@ tags: [location, aruhe, lake, water]
 ---
 # Clear Lake
 > [!narration] Narration
-> _Visualizer: Aruhe ingest pending._
+> A clear inland lake where cool drinkable water meets long submerged movement beneath the surface. Shores and channels offer rest and direction; river valleys feed in, and enormous life turns beneath the clarity when the water stays unclaimed.
+
 
 ## At a glance
 A clear inland lake where water offers rest and direction, but fishing for oneself crosses the Hunger Rule. The lake is a meeting point for river valleys, large water life, and the Grove route.

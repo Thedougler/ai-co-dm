@@ -8,7 +8,8 @@ tags: [location, midchain, karath]
 ---
 # Karath
 > [!narration] Narration
-> _Visualizer: Aruhe ingest pending._
+> An eastern Midchain neighbor across a channel about half a mile wide at its closest point to Aruhe. The water makes the Hungry Isle’s western rim look near while the island’s heart remains hundreds of miles inland. Karath is an edge reference, not a shortcut to the center.
+
 
 ## At a glance
 An eastern Midchain neighbor near one edge of [[Aruhe - Hungry Isle]]. At one closest point the channel is about 0.5 miles wide; Karath is close to an edge, not to Aruhe's heart hundreds of miles inland.
