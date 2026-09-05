@@ -13,7 +13,7 @@ Obsidian LLM wiki for Nick's home D&D. **Markdown is the product.**
 ## Boot
 
 1. This file + [[00 Home]] + [[campaigns/shattered-sea/hot]] (not the whole tree).
-2. **Hard gate:** qmd via skill `qmd-retrieval` (`./scripts/qmd`). Snippets ≠ facts. `SKILL.md` only unless stuck.
+2. **Hard gate:** qmd via skill `qmd-retrieval` (`./scripts/qmd`). Collections: `wiki` · `skills` · `legacy-ss` (read-only prior Shattered Sea). Snippets ≠ facts. `SKILL.md` only unless stuck.
 3. Missing canon → ask Nick / Co-DM. No silent contradiction.
 4. New entity → copy `templates/` match; fill only what play needs; link nearest index/MOC.
 
@@ -71,7 +71,7 @@ Packet only: `goal` · `allowed paths` · `type` · `constraints` · `do not re-
 | **Homebrewer** | Mechanical homebrew |
 | **Researcher** | Prior art (web); not vault canon |
 | **Organizer** | Indexes/MOCs, structure doctrine, hot refresh, light inbox triage |
-| **Ingest** | `wiki-ingest` — inbox/URL/paste → typed linked notes |
+| **Ingest** | `wiki-ingest` — inbox/URL/paste → typed linked notes; prior context via `-c legacy-ss` (read-only) |
 | **Linter** | `wiki-lint` checklist/audit (report + propose) |
 | **Skill-Creator** | `.agent/skills/` |
 | **Ops** | Fleet, AGENTS, templates, qmd, routines |

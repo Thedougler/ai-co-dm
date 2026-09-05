@@ -9,6 +9,11 @@ collections:
     pattern: "**/*.md"
     context:
       "": Agent skills for ai-co-dm (theatre-of-the-mind, qmd, qmd-retrieval). Use when looking up how agents should write or search.
+  legacy-ss:
+    path: /Users/nick/shattered-sea/wiki/shattered-sea
+    pattern: "**/*.md"
+    context:
+      "": READ-ONLY legacy Shattered Sea Campaign OS wiki (~/shattered-sea/wiki/shattered-sea). Prior context for Ingest/Co-DM. Never write here — compile into ai-co-dm campaigns/shattered-sea instead.
 models:
   embed: hf:ggml-org/embeddinggemma-300M-GGUF/embeddinggemma-300M-Q8_0.gguf
   generate: hf:tobil/qmd-query-expansion-1.7B-gguf/qmd-query-expansion-1.7B-q4_k_m.gguf

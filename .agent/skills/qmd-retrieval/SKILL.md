@@ -22,8 +22,9 @@ Also load `.agent/skills/qmd/SKILL.md` (bootstrap → `./scripts/qmd skill show`
 |---|---|---|
 | `wiki` | vault markdown (hubs, campaigns, lexicon, templates, inbox, README, AGENTS) | campaign / table / wiki truth |
 | `skills` | `.agent/skills/**/*.md` | how agents should write or search |
+| `legacy-ss` | `/Users/nick/shattered-sea/wiki/shattered-sea/**` | READ-ONLY prior Shattered Sea Campaign OS context (Ingest) |
 
-Dotdirs are not covered by the `wiki` collection — that is why `skills` is separate.
+Dotdirs are not covered by the `wiki` collection — that is why `skills` is separate. Never write under the legacy path; compile into `campaigns/shattered-sea/`.
 
 ## Protocol (stop when answered)
 
@@ -37,6 +38,7 @@ Dotdirs are not covered by the `wiki` collection — that is why `skills` is sep
 ```bash
 ./scripts/qmd search "house tone" -c wiki -n 5
 ./scripts/qmd search "theatre of the mind" -c skills -n 5
+./scripts/qmd search "Pearl of Souls" -c legacy-ss -n 5
 ```
 
 ### 3. Conceptual — hybrid (write intent yourself)
@@ -74,5 +76,5 @@ Grok Bots should prefer CLI via Shell on macbook.lan with cwd = vault root.
 
 - Do not invent canon when search returns nothing — say so.
 - Do not answer from snippets alone.
-- Prefer `-c wiki` for campaign facts; `-c skills` for procedure.
+- Prefer `-c wiki` for live vault facts; `-c skills` for procedure; `-c legacy-ss` for prior Shattered Sea only (read-only).
 - Never paste WotC proprietary book text; follow [[AGENTS]].

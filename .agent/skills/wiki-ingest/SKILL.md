@@ -30,15 +30,22 @@ Do **not** create `wiki/`, `raw/`, `sources/`, `concepts/`, `entities/`, or `sta
 ## Process
 
 1. **Accept** — `inbox/` path, URL (fetch), or paste. Outside-vault file → short capture under `inbox/` first.
-2. **Orient** — [[AGENTS]] boot + campaign `hot.md`. `qmd search` / `query` for existing entities (create-vs-update).
+2. **Orient** — [[AGENTS]] boot + campaign `hot.md`. `qmd search` / `query` `-c wiki` for existing entities (create-vs-update). For Shattered Sea prior context also search `-c legacy-ss` (path `/Users/nick/shattered-sea/wiki/shattered-sea` — **read-only**; never write there).
 3. **Classify** — which `type`s? Prefer patching owners over minting siblings. New notes from matching `templates/`.
 4. **Distill** — surgical page set (usually 1–5). Wikilinks + frontmatter. `[!narration]` empty unless Visualizer is in the loop.
 5. **Index** — link from nearest hub/MOC/`hot` if pressure or quests changed.
 6. **Drain** — remove or mark filed the `inbox/` capture.
 7. **Persist** — `./scripts/after-write "ingest: …"`.
 
+## Legacy Shattered Sea
+
+- Collection: `legacy-ss` via `./scripts/qmd search "…" -c legacy-ss` (cwd = vault root).
+- Use to pull prior NPCs/places/items/factions into ai-co-dm notes.
+- **Read-only.** Compile into `campaigns/shattered-sea/` (+ lexicon as needed). Do not edit the legacy tree.
+
 ## Hard don'ts
 
+- No writes under `/Users/nick/shattered-sea/` (legacy is reference only).
 - No parallel `wiki/` · `sources/` · `concepts/` tree.
 - No WotC book paste; no real player PII.
 - No silent canon overwrite — flag / ask Co-DM|Nick.
