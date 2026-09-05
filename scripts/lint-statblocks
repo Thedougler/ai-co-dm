@@ -1,0 +1,128 @@
+#!/usr/bin/env python3
+"""Detect monster notes not using Fantasy Statblocks (```statblock) format.
+
+Scans vault markdown with frontmatter `type: monster`.
+Skips hubs (`00 …`) and `templates/`.
+
+Statuses:
+  ok                         — has a ```statblock fence
+  prose_not_fantasy_statblock — house/prose AC·HP block without ```statblock (fail)
+  missing_statblock          — no fence and no prose block (stub / pending; warn)
+
+Exit 1 if any prose_not_fantasy_statblock (use --strict to also fail on missing).
+
+Usage (vault root):
+  ./scripts/lint-statblocks
+  ./scripts/lint-statblocks --json
+  ./scripts/lint-statblocks --strict
+"""
+from __future__ import annotations
+
+import argparse
+import json
+import re
+import sys
+from pathlib import Path
+
+ROOT = Path(__file__).resolve().parents[1]
+STATBLOCK_FENCE = re.compile(r"^```statblock\b", re.I | re.M)
+TYPE_MONSTER = re.compile(r"^type:\s*monster\s*$", re.I | re.M)
+
+PROSE_MARKERS = [
+    re.compile(r"^##\s+Stat block\b", re.I | re.M),
+    re.compile(r"\*\*Armor Class\*\*", re.I),
+    re.compile(r"\*\*Hit Points\*\*", re.I),
+    re.compile(r"\*\*AC\*\*.*\*\*HP\*\*", re.I | re.S),
+    re.compile(r"^\|\s*STR\s*\|\s*DEX\s*\|\s*CON\s*\|", re.I | re.M),
+    re.compile(r"^###\s+(Actions|Traits|Reactions|Legendary Actions)\b", re.I | re.M),
+]
+
+
+def iter_monster_notes() -> list[Path]:
+    out: list[Path] = []
+    for path in ROOT.rglob("*.md"):
+        rel = path.relative_to(ROOT).as_posix()
+        if rel.startswith(
+            (".agent/", "node_modules/", ".git/", "inbox/", "templates/", "docs/")
+        ):
+            continue
+        if path.name.startswith("00 "):
+            continue
+        try:
+            text = path.read_text(encoding="utf-8")
+        except OSError:
+            continue
+        if not TYPE_MONSTER.search(text):
+            continue
+        out.append(path)
+    return sorted(out)
+
+
+def classify(text: str) -> str:
+    if STATBLOCK_FENCE.search(text):
+        return "ok"
+    if any(p.search(text) for p in PROSE_MARKERS):
+        return "prose_not_fantasy_statblock"
+    return "missing_statblock"
+
+
+def main() -> int:
+    ap = argparse.ArgumentParser(description=__doc__)
+    ap.add_argument("--json", action="store_true")
+    ap.add_argument(
+        "--strict",
+        action="store_true",
+        help="also fail when type:monster has no ```statblock (stubs)",
+    )
+    args = ap.parse_args()
+
+    findings = []
+    ok = 0
+    for path in iter_monster_notes():
+        kind = classify(path.read_text(encoding="utf-8"))
+        rel = path.relative_to(ROOT).as_posix()
+        if kind == "ok":
+            ok += 1
+            continue
+        findings.append({"path": rel, "status": kind})
+
+    fails = [
+        f
+        for f in findings
+        if f["status"] == "prose_not_fantasy_statblock"
+        or (args.strict and f["status"] == "missing_statblock")
+    ]
+
+    if args.json:
+        print(json.dumps({"ok": ok, "findings": findings, "failing": fails}, indent=2))
+    else:
+        print(f"fantasy-statblock ok: {ok}")
+        print(f"findings: {len(findings)} (failing: {len(fails)})")
+        for f in findings:
+            tag = "FAIL" if f in fails else "warn"
+            print(f"  [{tag}/{f['status']}] {f['path']}")
+        if fails:
+            print(
+                "\nConvert house prose to Fantasy Statblocks:\n"
+                "```statblock\n"
+                "name: Creature\n"
+                "size: Medium\n"
+                "type: beast\n"
+                "alignment: unaligned\n"
+                "ac: 12\n"
+                "hp: 10\n"
+                "hit_dice: 2d8\n"
+                "speed: 30 ft.\n"
+                "stats: [10, 10, 10, 10, 10, 10]\n"
+                "cr: 0\n"
+                "actions:\n"
+                "  - name: Bite\n"
+                '    desc: "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 5 (1d6 + 2) piercing."\n'
+                "```"
+            )
+
+    return 1 if fails else 0
+
+
+if __name__ == "__main__":
+    sys.exit(main())

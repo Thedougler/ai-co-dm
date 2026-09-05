@@ -70,7 +70,7 @@ Packet only: `goal` · `allowed paths` · `type` · `constraints` · `do not re-
 | **Co-DM** | Continuity, prep/log, vault canon, rulings |
 | **Visualizer** | TotM / `[!narration]` write only |
 | **Writing-Evaluator** | Audit player-facing TotM / read-aloud; Skill-Creator improves `theatre-of-the-mind` from audits |
-| **Homebrewer** | Mechanical homebrew |
+| **Homebrewer** | Mechanical homebrew; convert prose monster stats → Fantasy Statblocks fence |
 | **Researcher** | Prior art (web); not vault canon |
 | **Organizer** | Indexes/MOCs, structure doctrine, hot refresh, light inbox triage |
 | **Ingest** | `wiki-ingest` — inbox/URL/paste → typed linked notes; prior context via `-c legacy-ss` (read-only) |
@@ -86,5 +86,5 @@ Packet only: `goal` · `allowed paths` · `type` · `constraints` · `do not re-
 | `campaigns/` · `templates/` · `lexicon/` · `inbox/` · `attachments/` | Wiki (Obsidian: new notes → inbox, embeds → attachments) |
 | `.obsidian/` | Human vault config + Statblocks/Leaflet (ignore workspace) |
 | `.agent/skills/` | Procedures |
-| `scripts/after-write` · `scripts/qmd` | Agent CLI |
+| `scripts/after-write` · `scripts/qmd` · `scripts/lint-statblocks` | Agent CLI |
 | `docs/agents/` | Eng triage — skip for table work |
