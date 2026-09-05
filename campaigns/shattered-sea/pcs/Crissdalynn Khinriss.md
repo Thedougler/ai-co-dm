@@ -4,27 +4,33 @@ campaign: shattered-sea
 player: Courtney
 status: active
 visibility: dm
-tags: [pc]
+tags: [pc, sentinel, schism]
 ---
 # Crissdalynn Khinriss
 
 > [!narration] Narration
-> Crissdalynn Khinriss is a young aarakocra with blue-black feathers that catch an iridescent sheen. Geometric leather, a chart satchel, spread wings, and hooked talons give her the recognizable look of a traveling mapmaker and martial student.
+> _Visualizer: portrait pending after schism ingest._
+
 ## Player-facing summary
-Fourteen-year-old Aarakocra Kensei Monk: blue-black iridescent feathers, geometric leather, chart satchel, talons, and wings.
+Fourteen-year-old aarakocra Kensei Monk: blue-black iridescent feathers, geometric leather, chart satchel, talons, and wings.
+
 ## Bonds / ideals that matter
-Trained by [[Sentinels of the Eyrie]]. [[Master Kyzil]] assigned the hardest pilgrimage: map [[Drowned Maw]] from inside a storm. Exile ends when the map is complete. Sole survivor with Delmar of the [[Red Lady - Dead Lady]] sinking.
-## Spotlight wants
-Cartography, tactical mapping, and finding friends’ weak points before a fight. She once lifted a whip-shark off a hull.
+Trained by the [[Sentinels of the Eyrie]]. Exiled at 14 for treating craft too carelessly, not from malice. [[Master Kyzil]] assigned the hardest pilgrimage: map the [[Drowned Maw]] from inside a storm. He told her the pilgrimage is not over and will not explain how.
+
 ## Lightning rods
-- [[Master Kyzil]], [[Talon Vantyrus]], and [[Countless]]
-- [[Nightmantle]] and rogue Sentinel [[Osset]]
-- [[Fate Spinner]]
-- [[Drowned Maw]] and the map's reversed currents, unknown-quarry stone, and post-wreck behaviour
+- [[Master Kyzil]], [[Talon Vantyrus]], [[Countless]], and the [[Sentinel Schism]]
+- [[Nightmantle]] and the Osset alias
+- [[Fate Spinner]] and partial [[Long Sight]]
+- [[Drowned Maw]], [[Yssenmoor]], and the map’s reversed currents, unknown-quarry stone, and post-wreck behavior
+
 ## Gear that matters
-[[Fate Spinner]]; [[Nightmantle]], a cursed cloak traced to rogue Sentinel [[Osset]]. Charting tools and the pilgrimage map are the practical keys to the Maw assignment.
+[[Fate Spinner]]: Kyzil’s “meditation focus,” actually a relic older than the non-intervention oath. It enables partial Long Sight and reacts to the hidden ley line beneath Yssenmoor. [[Nightmantle]] is a cursed cloak sourced through Osset; Crissdalynn has never heard the name Osset.
+
+## Current pressure
+[[Countless]] is closing through the [[Long Sight Hunt]], while [[Talon Vantyrus]] uses covert Osset channels. Kyzil arranged the partial Long Sight leak because of the danger but never explained it.
+
 ## Session deltas
-Unknown: the vault does not yet record a completed Maw map or the outcome of the exile condition.
+The vault does not record a completed Maw map or the outcome of the exile condition. Exact current position after the Calveno contact is unknown.
 
 > [!secret]- DM anchors
-> The map may be useful to [[Talon Vantyrus]] and [[Countless]], but what the Maw reveals and what the Sentinel seal contains remain unresolved.
+> [[Talon Vantyrus]] wants the Soul Incarnate transformation technique sealed beneath [[High Eyrie]]. The Fate Spinner imprint from Yssenmoor may crack access. Do not assume Crissdalynn knows the alias or the full stakes.

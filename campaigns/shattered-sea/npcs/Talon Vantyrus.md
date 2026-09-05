@@ -6,53 +6,47 @@ role: villain
 location: unknown
 faction: Countless
 visibility: dm
-tags: [npc]
+tags: [npc, sentinel, schism]
 ---
 # Talon Vantyrus
 
+> [!narration] Narration
+> _Visualizer: portrait pending after schism ingest._
+
 ## Hook
-Use the Sentinel crack and what Crissdalynn’s map may represent to advance [[Countless]] through the [[Drowned Maw]] seal.
+The former Sentinel master is alive, leads [[Countless]], and is trying to reach the transformation technique sealed beneath [[High Eyrie]].
+
 ## Identity and public function
-Former teacher of [[Master Kyzil]], believed dead by the Sentinels; now master of a splinter order tied to the Maw.
+Snowy-owl Sentinel master who became the order’s schism leader and founded [[Countless]]. The Sentinels do not know he is alive or active. **Osset is Talon Vantyrus**: Osset is his falcon-featured grey-market and pilgrim-route guise, not another person.
+
 ## Look / voice
-- **Visual:** Current appearance and location are unknown; the repeatable public sign is Countless activity around the Maw seal.
-- **Behavior:** Tests or advances the seal through agents and pressure rather than presenting himself openly; exact actions are unknown.
-- **Voice principle:** Teacherly certainty applied to dangerous boundary-breaking; exact voice is unknown.
-- **Sample line:** “A seal is only a lesson until someone asks what it keeps out.”
+- **Snowy-owl face:** Feathers bled past white by age and altitude; a faint frost tang; cold air clings around him.
+- **Osset guise:** Falcon-featured, used on grey-market and pilgrim routes.
+- **Behavior:** Never raises his voice and never repeats a demand twice.
+- **Voice principle:** Tenure chair crossed with heretic abbot.
+- **Sample line:** Unknown; do not invent dialogue beyond the voice principle.
+
 ## Drive
-**Want:** Advance the Countless plan through the Sentinel crack using the map’s possible meaning. **Fear:** Exact fear is unknown; the plan depends on a boundary that may resist him. **Method:** Splinter teachings, Countless agents, the Maw, and pressure through Crissdalynn’s pilgrimage.
+**Want:** The Soul Incarnate transformation technique sealed in the Sentinel founding documents. **Method:** Use [[Countless]], the Fate Spinner imprint from [[Yssenmoor]], and the crack in the seal to reach it. **Limit:** A plea that stops harm now can move him; appeals to patience or doctrine close the talk.
+
 ## Public face vs secret
-**Public:** Believed dead by the Sentinels. **Secret:** He leads Countless through a crack in their seal and is tied to the Maw. The true contents of the seal and Talon’s final objective are UNKNOWN.
-## Leverage / need / cost
-- **Leverage:** Countless, a crack in the Sentinel seal, former teacherly authority, and interest in Crissdalynn’s map.
-- **Need:** Access to the crack and a usable interpretation of the map; how necessary either is remains partly unknown.
-- **Cost of cooperation:** Any bargain legitimizes a splinter order and risks the Maw boundary.
-## Limit and productive contradiction
-He has capacity and a plan, but the seal and map can resist interpretation. He is both Kyzil’s former teacher and the threat that makes Kyzil’s secrecy costly.
-## Relationships / PC invitations
-- [[Crissdalynn Khinriss]]: map and possible key; offer her a choice about who owns its meaning.
-- [[Master Kyzil]]: former student; his silence and loyalty are pressure points.
-- [[Perrin Black-Jaw]]: wreck survivor; his testimony may challenge Talon’s reading of the Maw.
-- [[Delmar Fisk]]: Pearl bearer tied to the Maw; the Pearl may create a competing route.
-- [[Jean-Claude Tabarnack]] and [[Catarina Da'Virelli]]: scouts and makers who can expose visible signs of the plan.
+**Public face:** As Osset, a falcon-featured grey-market and pilgrim-route contact; Session 08 placed him twice in [[Calveno]], including a torn page at Prospero Morsani’s Cabinet. Lavinia Sordi named him as the source of [[Nightmantle]]. **Secret:** Osset is Vantyrus, founder and leader of Countless, closing on [[Crissdalynn Khinriss]] through the Countless [[Long Sight Hunt]] and covert Osset channels. He does not know [[Master Kyzil]] is in Calveno.
+
+## Relationships / knowledge gaps
+- [[Master Kyzil]]: former student and the gifted student who refused to break with him. Kyzil believes Vantyrus departed decades ago and does not know Osset is Vantyrus.
+- [[Crissdalynn Khinriss]]: Fate Spinner carrier and target of the Long Sight Hunt; Crissdalynn has never heard the name Osset.
+- [[Countless]]: founded and led by Vantyrus.
+- [[Nightmantle]]: Lavinia Sordi named Vantyrus’s Osset guise as its source.
+- [[Talon Skarn]]: apprentice under the Rule of Two; exact personal want beyond Vantyrus’s goals is unknown.
+
 ## Resources
-Countless agents, splinter teachings, access to the Sentinel crack, and a plan tied to the Maw.
-## Villain front
-- **Goal:** Open a path through the Maw seal.
-- **Why:** Exact purpose is UNKNOWN; the established desire is to break the old boundary through Countless.
-- **Method:** Use the Sentinel crack and Crissdalynn’s map.
-- **Lie / line:** Lie UNKNOWN; teacherly claims about what the seal protects are suspect until tested.
-- **Line / stop condition:** UNKNOWN; player actions can still redirect, expose, or interrupt the plan.
-- **Assets:** Countless, splinter teachings, the crack, and the map’s possible significance.
-- **Vulnerabilities:** Dependence on an interruptible crack/map sequence; exact weakness is UNKNOWN.
-- **Plan clock:** Crissdalynn’s pilgrimage reveals the crack → Countless claims a piece of the map → the seal answers Talon.
+Countless, covert Osset channels, hired blades and paid contacts, grey-market and pilgrim routes, and knowledge of the Soul Incarnate technique’s seal.
+
 ## Next move / interrupt point
-Advance the smallest Countless move that protects access to the crack, with uncertainty about what the party knows. Players can secure the map, expose the splinter order, aid Sentinel investigation, or pursue a third path. If ignored, the seal cracks further and the Maw becomes less containable.
-## Activity log
-| When/scene | Action taken | New information | Relationship change | Next move |
-| --- | --- | --- | --- | --- |
-| Unknown; no dated activity log in vault | Leads Countless through a crack in the Sentinel seal | Crissdalynn’s map may represent a way through | Kyzil’s former teacher becomes an active threat | Advance the three-step seal clock |
+Sweep routes and waystations for Fate Spinner carriers, close on Crissdalynn, and read the Fate Spinner imprint when the crack and ley-line signature align. Players can expose the alias, protect Crissdalynn, interrupt the Long Sight Hunt, or reach the founding documents first.
+
 ## Appearances
-- [[campaigns/shattered-sea/story/00 Story so far]]
-- [[Sentinels and Countless]]
+- Session 08: Osset guise in Calveno; exact scene file unavailable.
 - [[Countless through the Maw seal]]
+- [[Long Sight Hunt]]
+- [[Rule of Two]]

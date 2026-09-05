@@ -1,35 +1,36 @@
 ---
 type: faction
 campaign: shattered-sea
-kind: military
+kind: breakaway order
 status: active
 visibility: dm
-tags: [faction]
+tags: [faction, countless, schism]
 ---
 # Countless
+
 > [!narration] Narration
-> Countless is a splinter order claiming the Sentinels’ legacy and presenting itself as the faction willing to act. Secrecy, splinter teachings, Maw pressure, and claims on maps or Sentinel history are its public tools.
-## Public goal
-Claim the Sentinels' legacy and end the silence around the old seal, presenting the splinter order as the people willing to act.
+> _Visualizer: portrait pending after schism ingest._
 
-## Secret goal
-Advance [[Talon Vantyrus]]'s plan through a crack in the Sentinels' seal, possibly using [[Crissdalynn Khinriss]]'s map to open a path through the Maw.
+## Public face
+Breakaways from the Sentinels who kept martial reach and dropped discipline. Their public face is absence from every ledger: taken names, no records, and a shared title of **Talon**.
 
-## Methods
-Secrecy, splinter teachings, pressure through the Maw, and claims on map fragments or Sentinel history. Countless turns withheld knowledge into recruitment and action.
+## Goal and method
+They bend fate for themselves and ensure nothing is counted against them. Hired blades and paid contacts receive one job each and never know who ordered it. Countless sweeps pilgrim routes, grey markets, and Sentinel waystations for Fate Spinner carriers.
 
-## Faces
-- Leader / visible agent: [[Talon Vantyrus]]
-- Other faces: not established; the order is known through its splinter claim and pressure
+## Leadership
+- Founder and leader: [[Talon Vantyrus]] (also the Osset guise)
+- Apprentice: [[Talon Skarn]]
 
-## Reach / resources
-Unknown but linked to the seal, Sentinel history, the Maw crack, and whatever map material Countless can claim.
+## Immediate objective
+[[Long Sight Hunt]]: locate [[Crissdalynn Khinriss]], or any Sentinel who recently visited [[Yssenmoor]], once [[Uncertainty]] enters Midchain waters.
+
+## Rule of Two
+An apprentice openly schemes to overthrow the master; the master teaches treating the scheme as a standing threat. Survival is the verdict. Power is taken by force, not inherited.
+
+## Resources and limits
+Hired blades, paid contacts, covert routes, taken names, and the ability to avoid ledgers. No records and one-job contacts limit what any individual Countless agent knows.
 
 ## Relations
 - Rival: [[Sentinels of the Eyrie]]
-- Uneasy: [[Waveservants]]
-- Party: rival; the crew can still bargain, expose, or redirect the plan
-
-## Clocks
-- [[Countless through the Maw seal]]: pilgrimage reveals the crack, Countless claims a map piece, and the seal answers Talon.
-- [[Sentinels and Countless]]: the crew's choice about secrecy or access changes Countless' leverage.
+- Target: [[Crissdalynn Khinriss]]
+- Internal pressure: [[Rule of Two]]

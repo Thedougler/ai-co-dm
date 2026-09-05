@@ -3,42 +3,35 @@ type: quest
 campaign: shattered-sea
 status: open
 visibility: dm
-tags: [quest]
+tags: [quest, schism]
 ---
 # Sentinels and Countless
+
 ## Current status
-Open. The Sentinel secret and [[Talon Vantyrus]]'s plan remain unresolved.
+Open. The Sentinel doctrine, the schism’s third-name error, the Long Sight Hunt, and [[Talon Vantyrus]]’s Soul Incarnate plan remain unresolved.
 
 ## Patron
 [[Master Kyzil]]
 
 ## Objective
-Uncover what the [[Sentinels of the Eyrie]] keep secret, then stop, redirect, or understand Talon's plan through [[Crissdalynn Khinriss]] before the seal cracks further.
+Uncover what the [[Sentinels of the Eyrie]] record and refuse to interpret, then stop, redirect, or understand Vantyrus’s plan through [[Crissdalynn Khinriss]] before the seal cracks.
 
 ## Stakes
-The seal cracks further and the Maw becomes less containable. The crew must decide whether secrecy, access, or a third path best protects the people living with the Maw.
+The crew must decide whether record, moral duty, or a third path best protects people living with the Maw. Osset = Vantyrus is a hidden identity; Kyzil’s mistaken three-faction model may leave Crissdalynn in the crossfire.
 
 ## Nodes
-- [[High Eyrie]]: Sentinel watch and guarded records
-- [[Countless]]: splinter order and rival claim
-- [[Talon Vantyrus]]: active planner
-- [[Crissdalynn Khinriss]]: map and key
-- [[Master Kyzil]]: fear and authority
+- [[High Eyrie]]: watch, ledgers, training, and summit seal
+- [[Sentinels of the Eyrie]]: record without conclusion
+- [[Countless]]: breakaways, Rule of Two, and ledgerless hunt
+- [[Talon Vantyrus]] / [[Osset]]: canonical leader and alias
+- [[Talon Skarn]]: apprentice threat
+- [[Crissdalynn Khinriss]]: pilgrim and Fate Spinner carrier
+- [[Yssenmoor]]: ley-line signature
 
-## Conclusions → clues
-### Conclusion: the splinter order's aim
-1. Kyzil's fear shows the Sentinels expect more than a routine dispute.
-2. Talon's survival keeps the plan active after earlier resistance.
-3. A crack in the seal makes the plan actionable rather than merely ideological.
-
-### Conclusion: Sentinel secrecy is part of the obstacle
-1. High Eyrie keeps the old seal and its history guarded.
-2. Crissdalynn's map can reveal what the Sentinels have not made public.
-3. Countless uses the gap between what is known and what is withheld.
+## Linked fronts
+[[Long Sight Hunt]] · [[Rule of Two]] · [[Schism's Third Name]] · [[Soul Incarnate's Watch]] · [[Countless through the Maw seal]]
 
 ## Rewards
-- The seal's history and a live choice about its future.
+- The Sentinel record and a live choice about interpreting it.
 - A changed relationship with the Sentinels, Countless, or Crissdalynn.
-
-## Linked
-[[Countless through the Maw seal]] · [[Complete the Maw map pilgrimage]] · [[Sentinels of the Eyrie]] · [[Countless]]
+- Knowledge of the Soul Incarnate seal, if play earns it.

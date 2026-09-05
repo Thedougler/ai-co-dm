@@ -1,37 +1,40 @@
 ---
 type: faction
 campaign: shattered-sea
-kind: military
+kind: monastic order
 status: active
 visibility: dm
-tags: [faction]
+tags: [faction, sentinel, schism]
 ---
 # Sentinels of the Eyrie
+
 > [!narration] Narration
-> The Sentinels of the Eyrie watch the Maw and oppose Waveservant influence. Pilgrimage, maps, monastic discipline, and guarded knowledge define the order’s public work.
-## Public goal
-Watch the Maw and oppose the Waveservants' influence.
+> _Visualizer: portrait pending after schism ingest._
 
-## Secret goal
-Keep the old seal and its history from becoming public until they know what it means, even if that secrecy leaves others unable to judge the danger.
+## Public purpose
+Aarakocra monks who have held [[High Eyrie]] for two centuries. They predate the Dravosi, are non-aligned, and turned away three Dravosi leaders. Their sole purpose is to watch the [[Drowned Maw]] and record.
 
-## Methods
-Pilgrimage, maps, monastic discipline, and guarded knowledge. Under pressure, the Sentinels grant a narrow truth, move the map or pilgrim, and keep the next record closed.
+## Doctrine
+**Record without conclusion.** Note time, weather, position, water, and what occurred. Never record why. Do not interpret, intervene, or act. The observation ledgers may be the only continuous record of the Maw.
+
+## Training
+- Apprentices land, move, and hold still in peak wind on cantilevered terraces open on three sides. Fair is not the standard; exact is.
+- Every apprentice earns [[Long Reach]]; this is a martial technique, not a full mechanical homebrew here.
+- [[Long Sight]] is rarer, withheld from most, and poorly understood.
+
+## Hidden foundation
+Beneath the summit is a seal tied to founding documents about [[Soul Incarnate]]. Current leadership does **not** know the documents describe a conscious being; they know only that the documents are very old.
+
+## Schism
+A snowy-owl senior master, later [[Talon Vantyrus]], argued that non-intervention was cowardice and asked gifted barn-owl student [[Master Kyzil]] to break with him. Kyzil refused. Vantyrus left, the order closed ranks, and younger members—including [[Crissdalynn Khinriss]]—were never told the schism happened.
 
 ## Faces
-- Leader / teacher: [[Master Kyzil]]
-- Pilgrim / map bearer: [[Crissdalynn Khinriss]]
-- Rogue member: [[Osset]]
+- Senior master: [[Master Kyzil]]
+- Former master / founder of [[Countless]]: [[Talon Vantyrus]]
+- Pilgrim: [[Crissdalynn Khinriss]]
 
-## Reach / resources
-[[High Eyrie]], training, the Maw watch, pilgrimage routes, and the records that explain the seal.
+## Resources and limits
+[[High Eyrie]], the observation ledgers, monastic training, pilgrimage routes, and guarded founding documents. The order’s doctrine forbids interpretation and intervention, even when pressure makes that refusal costly.
 
-## Relations
-- Rival: [[Countless]]
-- Complicated: [[Waveservants]]
-- Party: complicated; Crissdalynn is part of the crew while the order withholds history
-
-## Clocks
-- [[Complete the Maw map pilgrimage]]: the map can reveal the crack.
-- [[Sentinels and Countless]]: secrecy and Countless access become a public choice.
-- [[Countless through the Maw seal]]: the seal answers pressure through the map.
+## Linked fronts
+- [[Long Sight Hunt]] · [[Rule of Two]] · [[Schism's Third Name]] · [[Soul Incarnate's Watch]]

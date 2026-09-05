@@ -3,51 +3,51 @@ type: npc
 campaign: shattered-sea
 status: alive
 role: mentor
-location: High Eyrie
+location: Calveno
 faction: Sentinels of the Eyrie
 visibility: dm
-tags: [npc]
+tags: [npc, sentinel, schism]
 ---
 # Master Kyzil
 
 > [!narration] Narration
-> Master Kyzil is a Sentinel master with a direct, exacting voice. He trains on the rooftops of Ponte Bassa and keeps watch on the Drowned Maw’s moods.
+> _Visualizer: portrait pending after schism ingest._
+
 ## Hook
-Get Crissdalynn’s Maw map completed so the Sentinel pilgrimage can judge whether her exile ends before [[Countless]] claims its meaning.
+The senior master is in [[Calveno]], investigating a foul wind from the south while insisting [[Crissdalynn Khinriss]]’s pilgrimage is not over.
+
 ## Identity and public function
-Sentinel master, pilgrimage authority, and watcher of the [[Drowned Maw]].
+Senior master of the [[Sentinels of the Eyrie]], a disciplined anxious guardian whose perfect composure masks worry. He asks questions rather than giving orders; concern becomes action.
+
 ## Look / voice
-- **Visual:** Rooftop sparring on a Calveno rooftop, with the Maw watch always in the edge of his attention.
-- **Behavior:** Corrects a stance or route with the same precision; pauses when the Maw’s behaviour changes.
-- **Voice principle:** Direct imperatives and exact terms; no comfort before the next task is named.
-- **Sample line:** “Map what is there, not what the Sentinels wish were there.”
+- **Visual:** Barn owl; pale gold, dry-straw feathers.
+- **Behavior:** Smooths his robes, then refolds his wings right-over-left without realizing it.
+- **Voice principle:** Questions before orders; exact and controlled.
+- **Sample line:** “The pilgrimage is not over.”
+
 ## Drive
-**Want:** Watch the Maw and force Crissdalynn to become the cartographer she claims to be. **Fear:** The Maw grew unruly after the wreck and the seal may be less reliable than the Sentinels admit. **Method:** Pilgrimage conditions, training, and controlled disclosure.
+**Want:** Protect the Sentinels’ watch and understand the foul wind from the south. **Fear:** The Maw’s danger is moving while the order’s doctrine leaves him unable to name why. **Method:** Track currents and weather, investigate, and press the pilgrimage without explaining how.
+
 ## Public face vs secret
-**Public:** Exacting Sentinel master and mentor. **Secret:** He senses foulness from the south and believes the Maw changed after the wreck. What the Sentinels sealed, and what he knows of Talon’s survival, remain unknown.
-## Leverage / need / cost
-- **Leverage:** Pilgrimage authority, Sentinel training, Maw-watch knowledge, and the power to judge the exile condition.
-- **Need:** A map made from inside the storm and a student capable of reading it honestly.
-- **Cost of cooperation:** Crissdalynn must accept danger and the order’s conditions; Kyzil will not soften the assignment for convenience.
-## Limit and productive contradiction
-He can demand a map but cannot make it truthful. He protects the order’s boundary while suspecting its silence is part of the danger.
-## Attitude / request posture / influence
-Indifferent-to-friendly and **willing** to discuss the pilgrimage, **hesitant** about Sentinel secrets. A completed map, observed Maw evidence, or a precise challenge moves him; vague appeals to mercy do not.
+**Public:** Senior Sentinel master and guardian of the order’s record. **Secret:** He senses [[Talon Vantyrus]] and [[Talon Skarn]] in the Midchain without knowing who they are. The current leadership does not know the founding seal concerns a conscious being.
+
+## Schism knowledge
+Kyzil stayed when his snowy-owl senior master, later Talon Vantyrus, left after arguing that non-intervention was cowardice. Vantyrus asked gifted barn-owl student Kyzil to break with him; Kyzil refused. Kyzil knows the name Osset as the schism’s “third name,” but does **not** know Osset = Vantyrus. He believes Vantyrus departed decades ago and has no idea Vantyrus is alive, active, or leading Countless.
+
+## Current actions
+After the Red Lady sank, Kyzil tracked current and weather, searched [[Kalowe]] and [[Tidefall]], and found Crissdalynn in [[Calveno]]. He dove from the sun and knocked her 20 feet. He is now stationed in Calveno investigating the foul wind from the south.
+
 ## Relationships / PC invitations
-- [[Crissdalynn Khinriss]]: student and exile; offer a test that proves her own reading.
-- [[Perrin Black-Jaw]]: outsider with wreck experience; ask what he saw before the sea took [[Vestra]].
-- [[Delmar Fisk]]: survivor of the [[Red Lady - Dead Lady]] sinking; compare his memory with Crissdalynn’s map.
-- [[Jean-Claude Tabarnack]]: scout; ask him to watch the route rather than interpret the seal.
-- [[Catarina Da'Virelli]]: instrument-maker; ask what salvage could record Maw conditions without magic.
+- [[Crissdalynn Khinriss]]: staked his reputation on her hardest pilgrimage; told her it is not over and will not explain how.
+- [[Jean-Claude Tabarnack]], [[Catarina Da'Virelli]], [[Delmar Fisk]], and [[Perrin Black-Jaw]]: knows them from the Session 04 spar.
+- [[Talon Vantyrus]]: former teacher, believed departed; the identity gap is actionable.
+- [[Sentinels of the Eyrie]]: senior master who preserves the record while worrying about its cost.
+
 ## Resources
-Sentinel authority and training, the High Eyrie watch, pilgrimage terms, and access to Crissdalynn’s order records.
-## Next move / if ignored
-Withhold judgement on Crissdalynn’s exile and continue the Maw watch. If ignored, [[Countless]] gets more room to pursue the map while Sentinel secrecy accumulates pressure.
-## Activity log
-| When/scene | Action taken | New information | Relationship change | Next move |
-| --- | --- | --- | --- | --- |
-| Unknown; no dated activity log in vault | Assigned the Maw pilgrimage to Crissdalynn | Maw behaviour changed after the wreck; southern foulness sensed | Student remains under exile condition | Await map and watch the seal |
-## Appearances
-- [[campaigns/shattered-sea/story/00 Story so far]]
-- [[Complete the Maw map pilgrimage]]
-- [[Sentinels and Countless]]
+Sentinel authority, observation ledgers, training, and the ability to direct or withhold pilgrimage judgement. He has no confirmed knowledge of Vantyrus’s present identity or Countless leadership.
+
+## Next move / interrupt point
+Continue the Calveno investigation and refuse to declare Crissdalynn’s pilgrimage complete. Players can give him evidence, challenge the third-name assumption, or force the distinction between recording and acting.
+
+## Do not
+Do not reveal Osset = Vantyrus to Kyzil unless play earns it; do not give him knowledge of the Soul Incarnate as a conscious being.
