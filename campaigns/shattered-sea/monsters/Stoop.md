@@ -13,7 +13,7 @@ tags: [monster, technique, sentinel]
 > _A peregrine line — wings pin, body drops, talons snatch, then the sky takes them back. TotM pending._
 
 ## At the table
-**NPC / monster technique** (not a PC subclass feature). Add to a flying aarakocra elite or Sentinel antagonist. Brief named it for **Talon Skarn**; vault villain is [[Talon Vantyrus]] — use the package on whoever plays the peregrine diver; don’t invent identity.
+**NPC / monster technique** (not a PC subclass feature). Primary user: [[Talon Skarn]] (peregrine apprentice of [[Talon Vantyrus]]). Reusable on other diving flyers only if play needs it — do not reassign Skarn’s signature to Vantyrus.
 
 **Tell:** wings pin to the body; a whistling dive line.
 
