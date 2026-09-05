@@ -2,7 +2,7 @@
 type: location
 campaign: shattered-sea
 kind: waterway
-region: Verdant Teeth
+region: verdant-teeth
 visibility: dm
 tags: [location, grung, dreth, orak, channel]
 ---

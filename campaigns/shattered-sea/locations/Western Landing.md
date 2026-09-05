@@ -2,7 +2,7 @@
 type: location
 campaign: shattered-sea
 kind: site
-region: Aruhe / Hungry Isle
+region: aruhe
 visibility: dm
 tags: [location, aruhe, landing, reef]
 ---
@@ -32,7 +32,7 @@ A jagged coral reef lies about half a mile offshore; low tide exposes teeth and 
 ## Topology
 - `[[Sparhold]] -- established open-water route --> Western Landing`.
 - `[[Karath]] -- near-edge channel at one closest point --> western edge; not the island's heart`.
-- `Western Landing -- boat gap and short beach --> [[aruhe/Old Gardens]]`.
+- `Western Landing -- boat gap and short beach --> [[Old Gardens]]`.
 - `Western Landing -- offshore observation / water retreat --> [[Uncertainty]]`.
 - **Bypass:** Observe from offshore; safer, less informative.
 - **Retreat:** The boat gap before an unreturned claim or commitment.

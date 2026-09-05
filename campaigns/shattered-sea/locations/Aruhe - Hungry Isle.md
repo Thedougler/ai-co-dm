@@ -39,22 +39,22 @@ A country-scale island in the eastern Midchain: roughly 500 miles end-to-end and
 
 ## Senses
 - **Sight:** Green canopy, basalt and stone rim, jagged coral reef, terraces, grasslands, river valleys, and no towns, fields, roads, or smoke.
-- **Sound:** Surf and reef movement at the edge; rainforest silence in [[aruhe/The Quiet]]; region-specific calls and cave echoes elsewhere.
-- **Smell / touch:** Afternoon sugar-sour air in [[aruhe/Old Gardens]], wet soil, flowers, river water, basalt, and vent heat.
+- **Sound:** Surf and reef movement at the edge; rainforest silence in [[The Quiet]]; region-specific calls and cave echoes elsewhere.
+- **Smell / touch:** Afternoon sugar-sour air in [[Old Gardens]], wet soil, flowers, river water, basalt, and vent heat.
 
 ## Topology / survey map
-- `[[Sparhold]] -- open-water route (direct, exposed, preserves the established route) --> [[aruhe/Western Landing]]`.
+- `[[Sparhold]] -- open-water route (direct, exposed, preserves the established route) --> [[Western Landing]]`.
 - `[[Karath]] -- near-edge channel (about 0.5 mi at one closest point; does not shorten the island's interior) --> Aruhe's western edge`.
-- `[[aruhe/Western Landing]] -- one boat gap through jagged reef; short shingle beach --> [[aruhe/Old Gardens]]`.
-- `[[aruhe/Old Gardens]] -- terrace route (abundant, exposed, information-rich) --> [[aruhe/Grasslands - River Valleys]]`.
-- `[[aruhe/Old Gardens]] -- green route (sheltered, quiet, loses small-life signs) --> [[aruhe/The Quiet]]`.
-- `[[aruhe/The Quiet]] -- silence boundary (rainforest, small life eaten out) --> [[aruhe/The Rot]]`.
-- `[[aruhe/Grasslands - River Valleys]] -- water route (drinkable flow, crossing and observation rather than possession) --> [[aruhe/Clear Lake]]`.
-- `[[aruhe/Grasslands - River Valleys]] -- open route (fast sightlines, exposed to large life) --> [[aruhe/The Grove - Death Bloom]]`.
-- `[[aruhe/The Rot]] -- decay route (dangerous, clue-rich) --> [[aruhe/The Grove - Death Bloom]]`.
-- `[[aruhe/The Rot]] -- subsurface breach (vertical, committing, volcanic) --> [[aruhe/Lava Tubes]]`.
-- `[[aruhe/Clear Lake]] -- watercourse and shore route (restful but tempting to fish) --> [[aruhe/The Grove - Death Bloom]]`.
-- `[[aruhe/The Grove - Death Bloom]] -- root and grave route (restrained, deliberate) --> [[aruhe/Lava Tubes]]`.
+- `[[Western Landing]] -- one boat gap through jagged reef; short shingle beach --> [[Old Gardens]]`.
+- `[[Old Gardens]] -- terrace route (abundant, exposed, information-rich) --> [[Grasslands - River Valleys]]`.
+- `[[Old Gardens]] -- green route (sheltered, quiet, loses small-life signs) --> [[The Quiet]]`.
+- `[[The Quiet]] -- silence boundary (rainforest, small life eaten out) --> [[The Rot]]`.
+- `[[Grasslands - River Valleys]] -- water route (drinkable flow, crossing and observation rather than possession) --> [[Clear Lake]]`.
+- `[[Grasslands - River Valleys]] -- open route (fast sightlines, exposed to large life) --> [[The Grove - Death Bloom]]`.
+- `[[The Rot]] -- decay route (dangerous, clue-rich) --> [[The Grove - Death Bloom]]`.
+- `[[The Rot]] -- subsurface breach (vertical, committing, volcanic) --> [[Lava Tubes]]`.
+- `[[Clear Lake]] -- watercourse and shore route (restful but tempting to fish) --> [[The Grove - Death Bloom]]`.
+- `[[The Grove - Death Bloom]] -- root and grave route (restrained, deliberate) --> [[Lava Tubes]]`.
 - **Loop:** Western Landing → Old Gardens → Grasslands / river valleys → Clear Lake → Grove / Death Bloom → Lava Tubes → Rot → Quiet → Old Gardens; the exact walk is long and country-scale.
 - **Bypass:** Observe from offshore, use an existing free-flowing spring/stream/cave seepage, or survey from the edge; safer, but less certain about the heart.
 - **Retreat:** Return along an unclaimed route to the landing and sea. A possession claim turns retreat into a pressure problem, not a simple withdrawal.
@@ -72,7 +72,7 @@ A country-scale island in the eastern Midchain: roughly 500 miles end-to-end and
 ## Ecology and balance
 - **Old volcanic body:** Basalt, vents, and lava tubes run beneath soil; no single master predator controls the island.
 - **Niches:** The island is too much of everything, not a place of lack. Boundaries between niches are part of its balance.
-- **The Quiet:** Rainforest silence means small life has been eaten out; [[aruhe/The Quiet]] is not merely a quiet road.
+- **The Quiet:** Rainforest silence means small life has been eaten out; [[The Quiet]] is not merely a quiet road.
 - **The Grove / Death Bloom:** A tree, graves, and earth meet in a restrained node rather than expressing the island's full excess.
 
 ## Information economy

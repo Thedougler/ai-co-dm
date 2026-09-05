@@ -2,7 +2,7 @@
 type: location
 campaign: shattered-sea
 kind: site
-region: Aruhe / Hungry Isle
+region: aruhe
 visibility: dm
 tags: [location, aruhe, lake, water]
 ---
@@ -33,8 +33,8 @@ A clear inland lake where water offers rest and direction, but fishing for onese
 - **Touch / smell:** Cool drinkable water, wet stone, and lake air.
 
 ## Topology
-- `[[aruhe/Grasslands - River Valleys]] -- free-flowing water route --> Clear Lake`.
-- `Clear Lake -- shore and watercourse route --> [[aruhe/The Grove - Death Bloom]]`.
+- `[[Grasslands - River Valleys]] -- free-flowing water route --> Clear Lake`.
+- `Clear Lake -- shore and watercourse route --> [[The Grove - Death Bloom]]`.
 - **Bypass:** Stay on the river valley edge, avoiding the lake's large-life signs.
 - **Retreat:** Return along the water without fishing, trapping, or carrying flesh.
 

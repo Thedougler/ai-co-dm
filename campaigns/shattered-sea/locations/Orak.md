@@ -2,7 +2,7 @@
 type: location
 campaign: shattered-sea
 kind: region
-region: Verdant Teeth
+region: verdant-teeth
 visibility: dm
 tags: [location, grung, verdant-teeth, orak, karst]
 ---

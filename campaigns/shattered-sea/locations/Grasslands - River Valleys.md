@@ -2,7 +2,7 @@
 type: location
 campaign: shattered-sea
 kind: region
-region: Aruhe / Hungry Isle
+region: aruhe
 visibility: dm
 tags: [location, aruhe, grasslands, rivers]
 ---
@@ -30,9 +30,9 @@ Open grasslands break into river valleys that carry clear, free-flowing water ac
 - **Touch / smell:** Sun-warmed grass, wet banks, fresh water, and animal musk.
 
 ## Topology
-- `[[aruhe/Old Gardens]] -- terrace descent --> Grasslands / River Valleys`.
-- `Grasslands / River Valleys -- water route --> [[aruhe/Clear Lake]]`.
-- `Grasslands / River Valleys -- open route --> [[aruhe/The Grove - Death Bloom]]`.
+- `[[Old Gardens]] -- terrace descent --> Grasslands / River Valleys`.
+- `Grasslands / River Valleys -- water route --> [[Clear Lake]]`.
+- `Grasslands / River Valleys -- open route --> [[The Grove - Death Bloom]]`.
 - **Bypass:** Stay on a ridge or grass edge, losing water and cover.
 - **Retreat:** Follow a stream back toward terraces without damming, trapping, or fishing.
 

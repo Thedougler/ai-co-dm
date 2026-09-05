@@ -2,7 +2,7 @@
 type: location
 campaign: shattered-sea
 kind: region
-region: Aruhe / Hungry Isle
+region: aruhe
 visibility: dm
 tags: [location, aruhe, rot, decay]
 ---
@@ -30,9 +30,9 @@ A decaying ecological region where fallen life, soil, and the island's excess me
 - **Smell / touch:** Wet decay, rich earth, and soft ground over harder volcanic channels.
 
 ## Topology
-- `[[aruhe/The Quiet]] -- silence boundary --> The Rot`.
-- `The Rot -- living/decay route --> [[aruhe/The Grove - Death Bloom]]`.
-- `The Rot -- subsurface breach --> [[aruhe/Lava Tubes]]`.
+- `[[The Quiet]] -- silence boundary --> The Rot`.
+- `The Rot -- living/decay route --> [[The Grove - Death Bloom]]`.
+- `The Rot -- subsurface breach --> [[Lava Tubes]]`.
 - **Bypass:** Circle the boundary through grassland, losing decay clues.
 - **Retreat:** Follow the known Quiet edge before the ground or life converges.
 

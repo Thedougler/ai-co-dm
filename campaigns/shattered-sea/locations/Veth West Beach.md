@@ -2,7 +2,7 @@
 type: location
 campaign: shattered-sea
 kind: site
-region: Veth
+region: verdant-teeth
 visibility: dm
 tags: [location, grung, beach, trade]
 ---

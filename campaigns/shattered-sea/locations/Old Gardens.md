@@ -2,7 +2,7 @@
 type: location
 campaign: shattered-sea
 kind: site
-region: Aruhe / Hungry Isle
+region: aruhe
 visibility: dm
 tags: [location, aruhe, terraces, gardens]
 ---
@@ -30,9 +30,9 @@ Miles of ancient terraces run inland from the landing, made by unknown builders 
 - **Smell:** Strong sugar-sour smell in the afternoon.
 
 ## Topology
-- `[[aruhe/Western Landing]] -- short beach then inland ascent --> Old Gardens`.
-- `Old Gardens -- terrace route --> [[aruhe/Grasslands - River Valleys]]`.
-- `Old Gardens -- green route --> [[aruhe/The Quiet]]`.
+- `[[Western Landing]] -- short beach then inland ascent --> Old Gardens`.
+- `Old Gardens -- terrace route --> [[Grasslands - River Valleys]]`.
+- `Old Gardens -- green route --> [[The Quiet]]`.
 - **Bypass:** Follow a terrace edge without entering planted abundance.
 - **Retreat:** Descend to the beach; do not make a harvest claim on the way out.
 

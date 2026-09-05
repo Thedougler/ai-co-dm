@@ -22,11 +22,11 @@ Five country-scale rainforest islands held by Grung clans: lush, wet, layered, a
 - **Trajectory:** If nobody intervenes, the fleet and captive pipeline consolidate while water losses make patrols and censure harsher.
 
 ## Geography and topology
-- [[verdant-teeth/Veth|Veth]] — largest western island; one twenty-stride beach, blue go-betweens, no pier, and a vertical closed interior.
-- [[verdant-teeth/Sorn|Sorn]] — farm heart; Botukuri flood-pulse lanes and [[Sorn Guarded Beach]].
+- [[Veth|Veth]] — largest western island; one twenty-stride beach, blue go-betweens, no pier, and a vertical closed interior.
+- [[Sorn|Sorn]] — farm heart; Botukuri flood-pulse lanes and [[Sorn Guarded Beach]].
 - [[Karath]] — eastern raid and hatchery island, an Aruhe near neighbor with tannin rivers and secret gold reagent farms inland.
-- [[verdant-teeth/Dreth|Dreth]] — permanently drowned forest, timber works, and no charted shoreline.
-- [[verdant-teeth/Orak|Orak]] — high karst twin to Dreth; sinkholes, clefts, and wet dark nests.
+- [[Dreth|Dreth]] — permanently drowned forest, timber works, and no charted shoreline.
+- [[Orak|Orak]] — high karst twin to Dreth; sinkholes, clefts, and wet dark nests.
 - [[Dreth-Orak Channel]] — forbidden flooded channel joining the eastern pair.
 
 `Midchain -- exposed reef approach --> sanctioned beach -- blue or purple interface --> island route -- closed interior --> clan work / sacred ground.`

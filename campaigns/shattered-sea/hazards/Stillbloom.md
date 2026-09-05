@@ -1,6 +1,7 @@
 ---
 type: lore
 campaign: shattered-sea
+region: aruhe
 status: provisional
 visibility: dm
 tags: [hazard, aruhe]

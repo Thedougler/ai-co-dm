@@ -2,7 +2,7 @@
 type: location
 campaign: shattered-sea
 kind: site
-region: Aruhe / Hungry Isle
+region: aruhe
 visibility: dm
 tags: [location, aruhe, rainforest, quiet]
 ---
@@ -30,9 +30,9 @@ A rainforest region where silence is ecological: small life has been eaten out. 
 - **Touch / smell:** Wet leaves, close air, and soil with too few small-life disturbances.
 
 ## Topology
-- `[[aruhe/Old Gardens]] -- sheltered green route --> The Quiet`.
-- `The Quiet -- silence boundary --> [[aruhe/The Rot]]`.
-- `The Quiet -- return by terrace edge --> [[aruhe/Old Gardens]]`.
+- `[[Old Gardens]] -- sheltered green route --> The Quiet`.
+- `The Quiet -- silence boundary --> [[The Rot]]`.
+- `The Quiet -- return by terrace edge --> [[Old Gardens]]`.
 - **Bypass:** Remain on the terrace or grassland edge; safer, less informative.
 
 ## Who is here
@@ -44,7 +44,7 @@ A rainforest region where silence is ecological: small life has been eaten out. 
 
 ## Hooks
 - Determine what the silence has eaten without treating the missing life as a puzzle with a single named predator.
-- Use the boundary toward [[aruhe/The Rot]] as directional evidence.
+- Use the boundary toward [[The Rot]] as directional evidence.
 - Test whether shelter is passage or possession before resting.
 
 ## Secrets (DM)

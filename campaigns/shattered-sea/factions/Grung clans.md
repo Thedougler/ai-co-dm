@@ -55,11 +55,11 @@ The exact nature of the gold presence is **UNKNOWN**. The older vault called [[A
 
 ## Territory and islands
 The five country-scale rainforest islands are one closed system, but their functions differ:
-- [[verdant-teeth/Veth|Veth]] — largest; western beach trade strip, blue go-betweens, no pier.
-- [[verdant-teeth/Sorn|Sorn]] — farm heart; Botukuri flood-pulse agriculture and Simone's guarded beach.
+- [[Veth|Veth]] — largest; western beach trade strip, blue go-betweens, no pier.
+- [[Sorn|Sorn]] — farm heart; Botukuri flood-pulse agriculture and Simone's guarded beach.
 - [[Karath]] — raid and hatchery island, near [[Aruhe - Hungry Isle]], with tannin rivers and secret gold reagent farms inland.
-- [[verdant-teeth/Dreth|Dreth]] — no charted shoreline; trunks stand in tide and timber work moves through drowned forest.
-- [[verdant-teeth/Orak|Orak]] — high karst twin to Dreth; sinkholes, clefts, and wet dark nests.
+- [[Dreth|Dreth]] — no charted shoreline; trunks stand in tide and timber work moves through drowned forest.
+- [[Orak|Orak]] — high karst twin to Dreth; sinkholes, clefts, and wet dark nests.
 
 The [[Veth West Beach]] is a specific sanctioned site. The [[Dreth-Orak Channel]] is a forbidden flooded crossing, not a normal strait.
 

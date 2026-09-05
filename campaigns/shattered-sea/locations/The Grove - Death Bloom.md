@@ -2,7 +2,7 @@
 type: location
 campaign: shattered-sea
 kind: site
-region: Aruhe / Hungry Isle
+region: aruhe
 visibility: dm
 tags: [location, aruhe, grove, death-bloom]
 ---
@@ -30,10 +30,10 @@ A restrained node where one tree, graves, and earth meet. The Grove / Death Bloo
 - **Smell / touch:** Soil, bloom, roots, and the boundary between damp earth and living wood.
 
 ## Topology
-- `[[aruhe/Grasslands - River Valleys]] -- open route --> The Grove / Death Bloom`.
-- `[[aruhe/Clear Lake]] -- shore/watercourse route --> The Grove / Death Bloom`.
-- `[[aruhe/The Rot]] -- decay route --> The Grove / Death Bloom`.
-- `The Grove / Death Bloom -- root/grave route --> [[aruhe/Lava Tubes]]`.
+- `[[Grasslands - River Valleys]] -- open route --> The Grove / Death Bloom`.
+- `[[Clear Lake]] -- shore/watercourse route --> The Grove / Death Bloom`.
+- `[[The Rot]] -- decay route --> The Grove / Death Bloom`.
+- `The Grove / Death Bloom -- root/grave route --> [[Lava Tubes]]`.
 - **Bypass:** Circle the Grove and lose its restraint clue.
 - **Retreat:** Return by water or grassland before an anchor test becomes a claim.
 

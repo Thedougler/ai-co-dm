@@ -2,7 +2,7 @@
 type: location
 campaign: shattered-sea
 kind: dungeon
-region: Aruhe / Hungry Isle
+region: aruhe
 visibility: dm
 tags: [location, aruhe, lava-tubes, underworld]
 ---
@@ -30,9 +30,9 @@ An underworld of old volcanic tubes beneath Aruhe's soil, connected to basalt an
 - **Touch / smell:** Rough volcanic rock, warm vents, damp seepage, and mineral air.
 
 ## Topology
-- `[[aruhe/The Rot]] -- subsurface breach --> Lava Tubes`.
-- `[[aruhe/The Grove - Death Bloom]] -- root/grave descent --> Lava Tubes`.
-- `Lava Tubes -- cave seepage route (drinkable when free-flowing) --> [[aruhe/Clear Lake]]`.
+- `[[The Rot]] -- subsurface breach --> Lava Tubes`.
+- `[[The Grove - Death Bloom]] -- root/grave descent --> Lava Tubes`.
+- `Lava Tubes -- cave seepage route (drinkable when free-flowing) --> [[Clear Lake]]`.
 - **Bypass:** Remain on the surface; safer, loses volcanic and underworld information.
 - **Retreat:** Return through the entry breach before a cave-life claim or route collapse changes the cost.
 

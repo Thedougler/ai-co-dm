@@ -2,7 +2,7 @@
 type: location
 campaign: shattered-sea
 kind: site
-region: Sorn
+region: verdant-teeth
 visibility: dm
 tags: [location, grung, beach, sorn, botukuri]
 ---

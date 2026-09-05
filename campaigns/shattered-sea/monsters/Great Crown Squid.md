@@ -1,6 +1,7 @@
 ---
 type: monster
 campaign: shattered-sea
+region: aruhe
 role: solo
 cr: 17
 source: house (wiki creature.aruhe-crown-squid, upgraded)
