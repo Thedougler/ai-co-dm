@@ -8,7 +8,8 @@ tags: [location, settlement, maw, salvage]
 ---
 # Fathomrush
 > [!narration] Narration
-> _Visualizer: geography ingest pending._
+> A dive-staging port of gear stacks, winches, and crews looking east toward the shelf. Wet rope, hot iron, salt, and salvage oil mark the last honest gossip and supplies before the trench drop.
+
 
 ## At a glance
 A boomtown staging dives on the [[Shelfworks]], the Antheri salvage field above the Maw; feels temporary, lucrative, and one bad line from empty.

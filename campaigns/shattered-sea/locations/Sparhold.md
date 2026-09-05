@@ -8,7 +8,8 @@ tags: [location]
 ---
 # Sparhold
 > [!narration] Narration
-> _Visualizer: geography ingest pending._
+> A Midchain stop on the Grung raiding-fleet trail, between open approach and the water toward Aruhe. Arrivals get counted; departure news is the scarce cargo. Local berths and holdfasts remain thin on the chart — the trailhead pressure does not.
+
 
 ## At a glance
 The next stop on the raiding-fleet trail; details remain open. The settlement is a place to ask where the taken went while every answer can make someone richer, safer, or more exposed.

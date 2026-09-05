@@ -8,7 +8,8 @@ tags: [location]
 ---
 # Central Strait
 > [!narration] Narration
-> _Visualizer: geography ingest pending._
+> The shared shipping corridor between Crown harbours and Midchain traffic. Sails, patrol craft, and signal flags crowd a moving border of lanes and papers; horns and rigging strain carry over salt and tar. The shortest route leaves the longest record.
+
 ## At a glance
 The primary shipping corridor between the two arcs; feels like a moving border.
 ## Five-sentence kernel

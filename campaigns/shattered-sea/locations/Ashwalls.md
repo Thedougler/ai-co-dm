@@ -8,7 +8,8 @@ tags: [location, region, volcanic, crossing]
 ---
 # Ashwalls
 > [!narration] Narration
-> _Visualizer: geography ingest pending._
+> Black volcanic spires in the Galewall’s lee: steam vents, warm cave mouths, and wrecks jammed in the stone. Sulfur, salt, and hot rock hang over surf and boarding calls. Shelter here is real — and not every useful handhold is a rescue.
+
 
 ## At a glance
 Cold-water volcanic spires: last solid ground heading west and first safe lee returning east; feels hot, sulfurous, and opportunistic.

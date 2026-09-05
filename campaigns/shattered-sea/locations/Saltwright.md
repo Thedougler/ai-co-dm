@@ -8,7 +8,8 @@ tags: [location]
 ---
 # Saltwright
 > [!narration] Narration
-> _Visualizer: place portrait pending._
+> A working hull marked by boarding scars and smuggler routes. Deck, cargo, and lines remember an escape through Dravosi attention; the ship itself is both passage and evidence.
+
 ## At a glance
 Vessel that carried the party through a Dravosi boarding fight; feels like a remembered escape route.
 ## Five-sentence kernel

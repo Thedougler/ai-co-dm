@@ -8,7 +8,8 @@ tags: [location, region, tail, maw]
 ---
 # Tail
 > [!narration] Narration
-> _Visualizer: geography ingest pending._
+> Sharp cliffs, late fog, and cold dark water at the last landmarks before the trench. Sparse staging traffic works under cliff faces where compasses lie and the air tastes of brine and wet stone.
+
 
 ## At a glance
 The eastern pinch where both arcs become fewer, taller islands and cold trench-coloured water; feels like land narrowing into a warning.

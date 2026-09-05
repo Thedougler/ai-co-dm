@@ -8,7 +8,8 @@ tags: [location, region, outer-reach]
 ---
 # Outer Reach
 > [!narration] Narration
-> _Visualizer: geography ingest pending._
+> Cold water beyond the Maw with stone that has no known quarry and no reliable landmark. Currents reverse under the hull; stories stop mid-sentence. There is no resupply out here.
+
 
 ## At a glance
 Water past the [[Drowned Maw]], with no resupply or pilot-trusted landmark; feels directionless, reversing, and unwilling to finish a story.

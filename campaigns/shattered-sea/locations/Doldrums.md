@@ -8,7 +8,8 @@ tags: [location, region, weather]
 ---
 # Doldrums
 > [!narration] Narration
-> _Visualizer: geography ingest pending._
+> Seasonal still channels where sails hang slack and voices carry a quarter mile clean. Hot water and held canvas mark a calm captains use as a back door — if they know which week the water stays quiet.
+
 
 ## At a glance
 Seasonal calm channels south of the Midchain, sliding 50–100 miles with the season; feels silent, exposed, and watched.

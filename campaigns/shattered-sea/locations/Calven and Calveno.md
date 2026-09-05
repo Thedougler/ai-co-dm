@@ -8,7 +8,8 @@ tags: [location]
 ---
 # Calven / Calveno
 > [!narration] Narration
-> _Visualizer: geography ingest pending._
+> A canal city where harbour flags, bridges, and ledger traffic share the same water. Locks and poles sound over algae and wet stone; public canals move cargo and credit while lower routes sink toward sewer damp. Colonial order and ordinary trade use one network of lanes.
+
 ## At a glance
 Calven is the oldest-settled Crown Island; Calveno is its great canal city, with Dravosi flags at harbour and Tessarine money underneath.
 ## Five-sentence kernel

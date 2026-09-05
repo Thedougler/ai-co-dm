@@ -9,7 +9,8 @@ tags: [location, sentinel, schism]
 # High Eyrie
 
 > [!narration] Narration
-> _Visualizer: geography ingest pending._
+> A two-hundred-foot basalt sea-stack in the far northeast Crown Islands, overlooking the Drowned Maw. Low walls and blunt roofs shed the wind; doorways turn from the gusts; no banners fly. Cantilevered training terraces open on three sides into salt air and distant water.
+
 
 
 ## At a glance

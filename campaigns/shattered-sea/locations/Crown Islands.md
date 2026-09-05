@@ -8,7 +8,8 @@ tags: [location]
 ---
 # Crown Islands
 > [!narration] Narration
-> _Visualizer: geography ingest pending._
+> A mountainous island chain where pale stone forts sit over deep-water harbour mouths. Steep green slopes, flags, bells, and inspection boats make Dravosi law legible from the waterline. The most secure arc of the Scatter is also the least private.
+
 ## At a glance
 Five large mountainous northern islands with fortified deep-water harbours and pale stone forts; feels occupied and watchful.
 ## Five-sentence kernel

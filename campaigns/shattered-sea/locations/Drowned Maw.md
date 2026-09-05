@@ -8,7 +8,8 @@ tags: [location]
 ---
 # Drowned Maw
 > [!narration] Narration
-> _Visualizer: geography ingest pending._
+> A deep trench at the chart edge where currents reverse and storm walls break the horizon. Dark water, cold spray, and lines pulled sideways mark a place sailors refuse to name even while systems depend on it. Unknown-quarry stone and pressure changes show through the weather.
+
 ## At a glance
 A deep trench at the edge of charts where currents reverse and sailors refuse to say what lies beyond; feels hungry and load-bearing.
 ## Five-sentence kernel

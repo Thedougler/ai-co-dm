@@ -8,7 +8,8 @@ tags: [location, midchain, moucheron]
 ---
 # Murrat
 > [!narration] Narration
-> _Visualizer: geography ingest pending._
+> From the water the reef looks empty; under dense canopy, cliff hollows and rope bridges hold Moucheron kin-villages. Limestone, wet rope, and leaf mould mark longer eastern reef than a first glance admits. Outsiders are hunted.
+
 
 ## At a glance
 A mile-and-a-half limestone reef that looks empty until canopy closes twenty feet inland; feels hunted before the first rope bridge.

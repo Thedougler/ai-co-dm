@@ -8,7 +8,8 @@ tags: [location]
 ---
 # Galewall
 > [!narration] Narration
-> _Visualizer: geography ingest pending._
+> A permanent storm belt that separates charted homeland from the Scatter. Cloud wall, white water, and lost horizon turn weather into a geographic border; wind and spray erase route markers as fast as ships can make them.
+
 ## At a glance
 Permanent storm belt separating charted homeland from the Scatter; feels like weather made into a wall.
 ## Five-sentence kernel

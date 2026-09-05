@@ -8,7 +8,8 @@ tags: [location, crown-islands, farm]
 ---
 # Aldenmere
 > [!narration] Narration
-> _Visualizer: geography ingest pending._
+> Farms and a stone town sit on a narrow inlet beside a mile-wide tidal mere. Reeds hold frogs and water; wet earth and farm smoke hang over a place locals refuse to enter casually. Storm gaps sometimes show the island when charts say they should not.
+
 
 ## At a glance
 The quiet Crown island of rolling farms, a stone town, and a tidal mere that never quite drains; feels pastoral until the reeds move.

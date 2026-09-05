@@ -8,7 +8,8 @@ tags: [location]
 ---
 # Midchain
 > [!narration] Narration
-> _Visualizer: geography ingest pending._
+> A crowded middle sea of low islands, coral reefs, and free-port jetties. Pilots call depths while council bells and dock offers compete; brine, fruit, and pitch ride the air. Local knowledge opens channels that distant law never maps the same way twice.
+
 ## At a glance
 Densely packed small tropical islands, free ports, reefs, and local councils; feels busy beyond enforcement.
 ## Five-sentence kernel

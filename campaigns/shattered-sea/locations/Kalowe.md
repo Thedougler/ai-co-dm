@@ -8,7 +8,8 @@ tags: [location, free-port]
 ---
 # Kalowe
 > [!narration] Narration
-> _Visualizer: geography ingest pending._
+> One navigable reef gap opens on a compact town of stone bridges, dry-dock masts, and a seized fort on the height. Every hull pays the shrine at the gap; the Chain Council sits in the fort and seats no local ruler. Salt, pitch, and dry-dock smoke hang over roughly eighteen hundred residents — more when the yard is full.
+
 
 ## At a glance
 Three reef-linked islets joined by stone bridges, ringed by reef with one navigable gap; feels crowded, practical, and deliberately unpapered.

@@ -8,7 +8,8 @@ tags: [location, reef, crown-islands]
 ---
 # Greyteeth
 > [!narration] Narration
-> _Visualizer: geography ingest pending._
+> Pale ridges and reef breaks open to northern swell. Surf works stone while local pilots sell routes through charts that lie; salt and fish hang over wrecks that may be navigation — or protected passage.
+
 
 ## At a glance
 Long pale reef ridges breaking the surface between Crown Islands; feels chart-hostile and deliberately used.

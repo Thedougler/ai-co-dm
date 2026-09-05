@@ -8,7 +8,8 @@ tags: [location, crown-islands, naval]
 ---
 # Harwick
 > [!narration] Narration
-> _Visualizer: geography ingest pending._
+> A Crown naval anchorage with Yard walls, market wharf, timber hills, and eastern marsh. Shipbuilding and army orders sound over pitch and salt; nobody swims off the wharf. Older stands stay uncut while licensed timber moves through the gates.
+
 
 ## At a glance
 The second-largest Crown Island and the army place: a southwest bight, shipyard, hilltop Admiralty, and licensed timber hills; feels disciplined, timber-scented, and dangerous at the wharf.

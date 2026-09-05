@@ -8,7 +8,8 @@ tags: [location, region, scatter]
 ---
 # Verdant Scatter
 > [!narration] Narration
-> _Visualizer: geography ingest pending._
+> Two green island arcs of the Scatter: Crown forts and Midchain crowded small ground joined by reef, sails, and unofficial routes. Surf and inspection calls share the same brine as wet timber and forest cargo.
+
 
 ## At a glance
 The inhabited chain between the Galewall/Ashwalls and the Tail/Maw, with Crown water north and Midchain south; feels crowded, green, and only partly charted.
