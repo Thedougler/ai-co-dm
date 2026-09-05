@@ -1,0 +1,214 @@
+#!/usr/bin/env python3
+"""Lint ai-co-dm vault notes against obsidian-markdown hard rules.
+
+Checks (FAIL unless noted):
+  md_internal_link     — [text](….md) / relative .md path instead of [[wikilink]]
+  title_only_frontmatter — frontmatter has title/date but no AGENTS `type` (entity dirs)
+  dc_in_narration      — DC/numbers leak inside [!narration] callout
+  forbidden_tree       — vault has wiki/ · concepts/ · sources/ dirs (scaffold anti-pattern)
+
+Also prints a reminder to run ./scripts/lint-statblocks for monster fences.
+
+Skips: .agent/ .git/ .obsidian/ .qmd/ node_modules/ docs/ scripts examples in fences.
+
+Usage (vault root):
+  ./scripts/lint-obsidian-markdown
+  ./scripts/lint-obsidian-markdown --json
+  ./scripts/lint-obsidian-markdown --strict   # also fail title_only (default: warn)
+"""
+from __future__ import annotations
+
+import argparse
+import json
+import re
+import sys
+from pathlib import Path
+
+ROOT = Path(__file__).resolve().parents[1]
+
+SKIP_PREFIXES = (
+    ".agent/",
+    ".git/",
+    ".obsidian/",
+    ".qmd/",
+    "node_modules/",
+    "docs/",
+    "scripts/",
+)
+SKIP_FILES = {"README.md"}  # GitHub-facing; md links ok there
+
+ENTITY_PREFIXES = ("campaigns/", "lexicon/", "templates/")
+FORBIDDEN_DIRS = ("wiki", "concepts", "sources")
+
+# Markdown link to a .md target that is not http(s)
+MD_LINK = re.compile(
+    r"(?<!!)\[([^\]]*)\]\((?!https?://)(?!mailto:)([^)]+\.md(?:#[^)]*)?)\)",
+    re.I,
+)
+# also catch path-only without .md if it looks like vault path
+MD_LINK_PATH = re.compile(
+    r"(?<!!)\[([^\]]*)\]\((?!https?://)(?!mailto:)((?:campaigns|lexicon|templates|inbox|attachments)/[^)]+)\)",
+    re.I,
+)
+
+FRONTMATTER = re.compile(r"^---\s*\n(.*?)\n---\s*\n", re.S)
+TYPE_LINE = re.compile(r"^type:\s*\S+", re.M | re.I)
+TITLE_OR_DATE = re.compile(r"^(title|date|created|updated):\s*", re.M | re.I)
+
+# Strip fenced code so examples don't false-positive
+FENCE = re.compile(r"```[\s\S]*?```")
+
+NARRATION_BLOCK = re.compile(
+    r">\s*\[!narration\][^\n]*\n(?:>(?:[^\n]*)\n)*",
+    re.I,
+)
+DC_IN_TEXT = re.compile(
+    r"\bDC\s*\d+\b|\bdifficulty class\b|\bpassive perception\s*\d+",
+    re.I,
+)
+
+
+def strip_fences(text: str) -> str:
+    return FENCE.sub("\n", text)
+
+
+def iter_notes() -> list[Path]:
+    out: list[Path] = []
+    for path in ROOT.rglob("*.md"):
+        rel = path.relative_to(ROOT).as_posix()
+        if any(rel.startswith(p) for p in SKIP_PREFIXES):
+            continue
+        if path.name in SKIP_FILES:
+            continue
+        out.append(path)
+    return sorted(out)
+
+
+def check_forbidden_trees() -> list[dict]:
+    findings = []
+    for name in FORBIDDEN_DIRS:
+        p = ROOT / name
+        if p.is_dir():
+            findings.append(
+                {
+                    "path": name + "/",
+                    "status": "forbidden_tree",
+                    "detail": f"parallel {name}/ tree — use campaigns/ lexicon/ inbox/",
+                }
+            )
+    return findings
+
+
+def check_file(path: Path) -> list[dict]:
+    rel = path.relative_to(ROOT).as_posix()
+    try:
+        text = path.read_text(encoding="utf-8")
+    except OSError:
+        return []
+    body = strip_fences(text)
+    findings: list[dict] = []
+
+    for m in MD_LINK.finditer(body):
+        findings.append(
+            {
+                "path": rel,
+                "status": "md_internal_link",
+                "detail": f"[{m.group(1)}]({m.group(2)}) → use [[wikilink]]",
+            }
+        )
+    for m in MD_LINK_PATH.finditer(body):
+        # avoid dup if already caught by .md rule
+        target = m.group(2)
+        if target.lower().endswith(".md") or ".md#" in target.lower():
+            continue
+        findings.append(
+            {
+                "path": rel,
+                "status": "md_internal_link",
+                "detail": f"[{m.group(1)}]({target}) → use [[wikilink]]",
+            }
+        )
+
+    # title-only frontmatter in entity dirs
+    if any(rel.startswith(p) for p in ENTITY_PREFIXES) and not path.name.startswith("00 "):
+        fm = FRONTMATTER.match(text)
+        if fm:
+            block = fm.group(1)
+            if TITLE_OR_DATE.search(block) and not TYPE_LINE.search(block):
+                findings.append(
+                    {
+                        "path": rel,
+                        "status": "title_only_frontmatter",
+                        "detail": "has title/date but no AGENTS type: — add type/campaign/visibility",
+                    }
+                )
+        # notes with no frontmatter at all under campaigns (warn)
+        elif rel.startswith("campaigns/") and path.name != "hot.md":
+            findings.append(
+                {
+                    "path": rel,
+                    "status": "missing_frontmatter",
+                    "detail": "no YAML frontmatter — add AGENTS type fields",
+                }
+            )
+
+    for nb in NARRATION_BLOCK.finditer(text):
+        chunk = nb.group(0)
+        if DC_IN_TEXT.search(chunk):
+            findings.append(
+                {
+                    "path": rel,
+                    "status": "dc_in_narration",
+                    "detail": "DC / difficulty in [!narration] — move to [!mechanic] or [!secret]-",
+                }
+            )
+
+    return findings
+
+
+def main() -> int:
+    ap = argparse.ArgumentParser(description=__doc__)
+    ap.add_argument("--json", action="store_true")
+    ap.add_argument(
+        "--strict",
+        action="store_true",
+        help="also fail title_only_frontmatter and missing_frontmatter",
+    )
+    args = ap.parse_args()
+
+    findings = check_forbidden_trees()
+    for path in iter_notes():
+        findings.extend(check_file(path))
+
+    warn_statuses = {"title_only_frontmatter", "missing_frontmatter"}
+    fails = [
+        f
+        for f in findings
+        if f["status"] not in warn_statuses
+        or args.strict
+    ]
+    # under --strict all findings fail; default: warns stay warn
+    if not args.strict:
+        fails = [f for f in findings if f["status"] not in warn_statuses]
+
+    if args.json:
+        print(
+            json.dumps(
+                {"findings": findings, "failing": fails, "count": len(findings)},
+                indent=2,
+            )
+        )
+    else:
+        print(f"obsidian-markdown findings: {len(findings)} (failing: {len(fails)})")
+        for f in findings:
+            tag = "FAIL" if f in fails else "warn"
+            print(f"  [{tag}/{f['status']}] {f['path']}: {f['detail']}")
+        print("\nAlso run: ./scripts/lint-statblocks  # monster Fantasy Statblocks")
+        if fails:
+            print("Skill: .agent/skills/obsidian-markdown/")
+
+    return 1 if fails else 0
+
+
+if __name__ == "__main__":
+    sys.exit(main())

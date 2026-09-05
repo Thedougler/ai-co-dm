@@ -20,6 +20,7 @@ on every vault `.md` write; open `references/` only when stuck.
 - **Monsters:** Fantasy Statblocks fence (```` ```statblock ````) **first** after frontmatter — see `templates/Monster.md` + `./scripts/lint-statblocks`. Never prose AC/HP tables before the fence. No WotC book paste.
 - **Paths:** scratch → `inbox/`; media embeds from `attachments/`. No parallel `wiki/` · `concepts/` · `sources/` tree.
 - **Finish:** `./scripts/after-write "why"`.
+- **Lint:** `./scripts/lint-obsidian-markdown` (and `./scripts/lint-statblocks` for monsters).
 
 ## Write workflow
 
