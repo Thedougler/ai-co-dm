@@ -48,6 +48,7 @@ Obsidian LLM wiki for Nick's home D&D. **Markdown is the product.**
 | Job | Skill |
 |---|---|
 | Find vault facts | `qmd-retrieval` |
+| LLM-wiki pattern / ingest·query·lint doctrine | `llm-wiki` |
 | Player-facing prose / `[!narration]` | `theatre-of-the-mind` → **Visualizer** |
 | Session pacing | `session-beats` |
 | Places | `place-design` |
