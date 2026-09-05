@@ -11,7 +11,8 @@ tags: [npc, fisk, fortune-teller]
 # Serafina Windfall Fisk
 
 > [!narration] Narration
-> _Visualizer: standalone portrait pending._
+> An aasimar fortune-teller with a tarot case and Delmar Fisk’s open marriage. She arrives exactly where she is needed — or seems to — and treats distance as part of the work rather than a failure of it.
+
 
 ## Hook
 Delmar's wife is a fortune-teller who may arrive exactly where the crew's next truth hurts most.

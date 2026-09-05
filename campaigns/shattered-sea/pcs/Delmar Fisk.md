@@ -9,7 +9,8 @@ tags: [pc]
 # Delmar Atticus Fisk
 
 > [!narration] Narration
-> _Visualizer: PC ingest pending._
+> A human swashbuckler who styles himself the youngest admiral: scarlet coat, easy smile, and the habit of standing where wreckage and crew pressure meet. He carries a named musket and rapier — The Duchess and The Baroness — like pieces of the role he puts on when the crew needs an admiral.
+
 
 ## Player-facing summary
 Human Swashbuckler Rogue; self-appointed youngest admiral, smiling through wreckage and crew pressure.

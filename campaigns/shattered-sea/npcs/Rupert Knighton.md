@@ -11,7 +11,8 @@ tags: [npc, knighton, crown]
 # Rupert Knighton
 
 > [!narration] Narration
-> _Visualizer: standalone portrait pending._
+> House Knighton authority who gives warnings before a dangerous route rather than a clean exit. The house name and shipping pressure travel with him; his personal manner is not yet fixed.
+
 
 ## Hook
 Rupert's warning put Catarina at a fork before the Calveno sewer crisis; his house can turn that warning into pursuit.

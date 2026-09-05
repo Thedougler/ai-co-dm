@@ -9,7 +9,8 @@ tags: [pc, grung, botukuri, twiceborn]
 # Jean-Claude Tabarnack
 
 > [!narration] Narration
-> _Visualizer: PC ingest pending._
+> A three-foot electric-blue Grung, scarred and hard to mistake, in a red beret and false moustache he calls Corto di Velo. Kin can read the hat as a Twiceborn censure sign and walk past rather than claim him.
+
 
 ## Player-facing summary
 Three-foot electric-blue Grung Gloom Stalker Ranger, scarred, wearing a red beret and the false moustache called Corto di Velo.

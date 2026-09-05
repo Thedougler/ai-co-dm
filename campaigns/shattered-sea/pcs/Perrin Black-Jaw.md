@@ -9,7 +9,8 @@ tags: [pc]
 # Perrin Black-Jaw
 
 > [!narration] Narration
-> _Visualizer: PC ingest pending._
+> A three-foot fancy-rat Rattkin who reads people, exits, and edges before he commits. Charm and leverage come first; the next step waits until the room has been counted.
+
 
 ## Player-facing summary
 Three-foot fancy-rat Rattkin; College of Lore Bard with a Pact of the Blade Warlock dip. Reads people, exits, and edges before committing.

@@ -11,8 +11,8 @@ tags: [npc]
 # Fisk’s Captains
 
 > [!narration] Narration
-> _Visualizer: standalone portrait pending._
->
+> Five captains of Delmar Fisk’s lost Fleet — Rael Corven, Maren, Detto Kalash, Sienne Orre, and Bastian Ookage — remembered as the crew that went down with the ships. Their bodies are gone; the names remain.
+
 ## Hook
 Protect Delmar’s crew values and react when passage, survival, or coercion is threatened from inside the [[Pearl of Souls]].
 ## Identity and public function

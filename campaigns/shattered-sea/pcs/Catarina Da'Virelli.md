@@ -9,7 +9,8 @@ tags: [pc]
 # Catarina Da'Virelli
 
 > [!narration] Narration
-> _Visualizer: PC ingest pending._
+> A white-haired, frail human artificer who keeps referral-only Cat’s Curios. An owl named Strix and the eldritch cannon Ragnetto mark the workshop; she treats beggars and nobles to the same sentence and refuses to pretend a prototype works.
+
 
 ## Player-facing summary
 White-haired, frail human Artillerist Artificer; owner of referral-only Cat's Curios, with owl Strix and eldritch cannon [[Ragnetto]].

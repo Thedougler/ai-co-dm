@@ -11,7 +11,8 @@ tags: [npc, black-jaw, vestra, missing]
 # Vincenzo
 
 > [!narration] Narration
-> _Visualizer: standalone portrait pending._
+> Black-Jaw patriarch with an old dock-crew cadence. He built and captained the family brig Vestra; his chair at family meals stays empty.
+
 
 ## Hook
 Perrin's dead grandfather's cadence is the family voice that Auralis cannot replace.

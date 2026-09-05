@@ -11,7 +11,8 @@ tags: [npc, dead, grung, captive]
 # Pell
 
 > [!narration] Narration
-> _Visualizer: standalone portrait pending._
+> A gnome captive and Jean-Claude’s friend. The name remains after the body does not — a debt the pipeline still touches.
+
 
 ## Hook
 Pell's death is the debt Jean-Claude cannot pay back; any captive pipeline lead touches it.

@@ -10,6 +10,10 @@ tags: [item, delmar, firearm]
 ---
 # The Duchess
 
+> [!narration] Narration
+> Delmar Fisk’s named musket, carried with admiral confidence and the history of a marriage. He named it for Serafina.
+
+
 ## Look
 Delmar's named musket, carried with the confidence of an admiral and the history of a marriage.
 

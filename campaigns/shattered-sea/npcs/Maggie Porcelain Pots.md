@@ -11,7 +11,8 @@ tags: [npc, delmar, past]
 # Maggie Porcelain Pots
 
 > [!narration] Narration
-> _Visualizer: standalone portrait pending._
+> A dragonborn remembered as Delmar Fisk’s first love. She left him with a shiner; her presence is still a name that can pull him toward home or keep him off it.
+
 
 ## Hook
 Delmar's first love is a name that can pull him toward home or keep him away from it.
