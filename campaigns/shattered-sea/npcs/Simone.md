@@ -9,10 +9,8 @@ visibility: dm
 tags: [npc]
 ---
 # Simone
-
 > [!narration] Narration
-> _Visualizer: standalone portrait pending._
->
+> Simone is a hunter who pursues Jean-Claude with tinctures and Dravosi alchemist gas. Her prepared compounds and controlled, familial wording can turn quickly into terms and threats.
 ## Hook
 Close on Jean-Claude with tinctures and Dravosi alchemist gas before the hidden stock aboard [[Uncertainty]] can be turned against her hunters.
 ## Identity and public function

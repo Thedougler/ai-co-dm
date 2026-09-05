@@ -7,8 +7,6 @@ visibility: dm
 tags: [location]
 ---
 # Sparhold
-> [!narration] Narration
-> _Visualizer: place portrait pending._
 ## At a glance
 The next stop on the raiding-fleet trail; details remain open. The settlement is a place to ask where the taken went while every answer can make someone richer, safer, or more exposed.
 ## Five-sentence kernel

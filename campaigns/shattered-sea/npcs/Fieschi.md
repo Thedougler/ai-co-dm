@@ -9,10 +9,8 @@ visibility: dm
 tags: [npc]
 ---
 # Fieschi
-
 > [!narration] Narration
-> _Visualizer: standalone portrait pending._
->
+> Fieschi is a Concordat patron and civic protector, marked by a diamond ring and the townhouse at Casa Falier. He turns protection into a named obligation, speaking in formal terms that make every favor sound like a contract.
 ## Hook
 Keep Calveno’s public order functioning by making the crew’s Defender status useful enough to justify its debt.
 ## Identity and public function

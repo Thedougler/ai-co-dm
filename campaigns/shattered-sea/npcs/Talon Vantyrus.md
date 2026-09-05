@@ -10,9 +10,6 @@ tags: [npc]
 ---
 # Talon Vantyrus
 
-> [!narration] Narration
-> _Visualizer: standalone portrait pending._
->
 ## Hook
 Use the Sentinel crack and what Crissdalynn’s map may represent to advance [[Countless]] through the [[Drowned Maw]] seal.
 ## Identity and public function
