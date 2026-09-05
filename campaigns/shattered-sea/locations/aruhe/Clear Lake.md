@@ -8,6 +8,8 @@ tags: [location, aruhe, lake, water]
 ---
 # Clear Lake
 > [!narration] Narration
+> Wet stone holds the shore. The lake water is clear enough that stones on the bottom show near the bank, then the blue deepens and goes dark. Rivers open into the lake in slow wide mouths, and a channel keeps on toward the Grove. Cool air comes off the water. Out past the shallows a boat-length shadow turns under the clear surface, then everything goes still.
+
 
 
 
