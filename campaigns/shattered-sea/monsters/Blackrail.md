@@ -1,6 +1,7 @@
 ---
 type: monster
 campaign: shattered-sea
+region: aruhe
 role: bruiser
 cr: 9
 source: house (wiki creature.blackrail; chassis filled provisional — wiki block incomplete)
@@ -49,7 +50,8 @@ actions:
 # Blackrail
 
 > [!narration] Narration
-> _Dust jumps in rings. Then a rolling clatter of hard points on stone. Antennae longer than a man. A wet black-red head rounds the wall sideways — it's running on the wall. The body follows. And follows._
+> Dust jumps in rings on the stone. A wet black-red head longer than a man's forearm rounds the wall sideways, antennae trailing ahead of it. Forty feet of hard-plated cave centipede follow, running on floor and wall alike, points clattering in a rolling rhythm.
+
 
 ## At the table
 **Oncoming train.** Warning first (vibration → dust → rattle), then commit down the tube. **Tell:** rhythmic tremors ~30 seconds out.

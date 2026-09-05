@@ -10,7 +10,8 @@ tags: [monster, technique, countless]
 # Stoop
 
 > [!narration] Narration
-> A high dive that starts when wings pin tight to the body and a whistling line cuts down. The striker tears a held item free and climbs away before the scramble settles.
+> Wings pin tight to the body, then a whistling dive line cuts straight down from high altitude. At the bottom the striker tears a held item free and climbs away before the scramble settles.
+
 
 
 ## Fiction

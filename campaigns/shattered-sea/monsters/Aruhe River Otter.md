@@ -1,6 +1,7 @@
 ---
 type: monster
 campaign: shattered-sea
+region: aruhe
 role: controller
 cr: 4
 source: house (wiki creature.aruhe-river-otter; individual chassis filled provisional)
@@ -50,7 +51,8 @@ bonus_actions:
 # Aruhe River Otter
 
 > [!narration] Narration
-> _A sleek dark shape surfaces thirty feet out — twelve feet nose to tail, chocolate-black, pale throat-mark like a fingerprint. It chirrups. Another head. Then another. Something tugs your rope._
+> A twelve-foot otter, chocolate-black with a pale throat mark like a fingerprint, surfaces clean and chirrups. Other dark heads rise nearby along the waterline. The family watches from the river, sleek and quiet, then slips under again.
+
 
 ## At the table
 **Not a fair fight first.** Escalation ladder: Watch → steal gear → test reactions → dunk-and-release → **Hunt Switch** if harmed / pup touched / overstayed.

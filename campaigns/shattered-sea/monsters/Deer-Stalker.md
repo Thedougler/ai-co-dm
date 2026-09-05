@@ -1,6 +1,7 @@
 ---
 type: monster
 campaign: shattered-sea
+region: aruhe
 role: ambusher
 cr: 5
 source: house (wiki creature.deer-stalker, upgraded)
@@ -60,7 +61,8 @@ reactions:
 # Deer-Stalker
 
 > [!narration] Narration
-> _A deer on a carcass, hips turned wrong, taller than a man. Forelimbs end in claws. It crashes into the brush too loud — then minutes later the same shape is already in the trees: chin dripping, eyes forward, not blinking._
+> A deer stands over a carcass taller than a man, hips turned wrong, forelimbs ending in claws. It crashes into the brush too loud, then minutes later the same shape is already in the trees, chin dripping, eyes forward, not blinking.
+
 
 ## At the table
 **Tactic:** interrupt meal → loud bolt (ruse) → night return with Borrowed Voice → Snatch from the Dim on isolated quarry. **Tell:** motionless "sick deer" that doesn't lean with the wind; voice looping a word wrong.

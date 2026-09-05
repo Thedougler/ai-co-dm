@@ -1,6 +1,7 @@
 ---
 type: monster
 campaign: shattered-sea
+region: aruhe
 role: skirmisher
 cr: 2
 source: house (wiki creature.wolfrabbit, upgraded)
@@ -50,7 +51,8 @@ reactions:
 # Wolfrabbit
 
 > [!narration] Narration
-> _Wolf-sized rabbits — long ears, whiskers, twitching nose — with hunting-cat musculature under the fur. Dark striping, red eyes, blood-matted muzzle. Packs of four to six at dawn and dusk._
+> Wolf-sized rabbits with long ears and hunting-cat muscle under the fur. Dark striping crosses the coat; red eyes and blood-matted muzzles mark the pack. Four to six move the terrace brush at dawn and dusk.
+
 
 ## At the table
 **Tactic:** elevation Pouncing Bound → prone → Pack Rend Bites. **Tell:** thirty-foot silent launch from terrace brush.

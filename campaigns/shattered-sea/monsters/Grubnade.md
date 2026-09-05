@@ -1,6 +1,7 @@
 ---
 type: monster
 campaign: shattered-sea
+region: aruhe
 role: minion
 cr: 0
 source: house (wiki creature.grubnade, upgraded)
@@ -37,7 +38,8 @@ actions:
 # Grubnade
 
 > [!narration] Narration
-> _A fat cream-green caterpillar longer than a thumb, chewing a flower. When the branch moves it stops, pulls tight, two dark lines race under the skin, it hisses and swells. **Pop.** Fire where your hand was — and scorched finger-joint young wriggling twenty feet away._
+> A fat cream-green caterpillar longer than a thumb chews a flower. When the branch moves it stops, pulls tight, two dark lines race under the skin, and it hisses and swells. Then it bursts, and scorched finger-joint young wriggle across the leaves twenty feet away.
+
 
 ## At the table
 **Living trap, not a combatant.** Harmless until touched. Disturbed → detonates end of turn. Explosion = reproduction.

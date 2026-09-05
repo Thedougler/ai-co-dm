@@ -1,6 +1,7 @@
 ---
 type: monster
 campaign: shattered-sea
+region: aruhe
 role: brute
 cr: 11
 source: house (2024 Roc chassis, SRD peer)
@@ -57,7 +58,8 @@ reactions:
 # Bloodhawk of Aruhe
 
 > [!narration] Narration
-> _A four-winged shadow above the canopy: charcoal feathers bleeding into crimson tips, a toothed beak, and sickle claws big enough to pin a whale. TotM creature portrait — Visualizer pass welcome._
+> A four-winged hawk the size of a small ship hangs above the canopy: charcoal feathers bleeding into crimson tips, a toothed beak, and sickle claws that could pin a whale. When it commits, the wings fold and the crimson tips flash before the dive.
+
 
 ## At the table
 **Tactic:** Dive → grab → haul aloft → rake. **Tell:** wings fold and crimson tips flash before a dive.
