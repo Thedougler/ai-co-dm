@@ -5,4 +5,4 @@ tags: [campaigns]
 
 # Campaigns
 
-- [[campaigns/ember-road/00 Campaign|Ember Road]] (sample)
+_No campaigns listed yet. Drop each campaign in its own folder and link it here._

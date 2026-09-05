@@ -9,7 +9,7 @@ Wiki for creating, running, and managing home D&D campaigns.
 
 ## Campaigns
 
-- [[campaigns/ember-road/00 Campaign|Ember Road]] (sample)
+See [[campaigns/00 Campaigns]].
 
 ## Quick links
 
@@ -20,4 +20,4 @@ Wiki for creating, running, and managing home D&D campaigns.
 
 ## Status
 
-Active campaign: **Ember Road** (example content — replace with your real table).
+Add your campaigns under `campaigns/` and link them from [[campaigns/00 Campaigns]].

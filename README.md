@@ -23,5 +23,3 @@ See [AGENTS.md](AGENTS.md). Short version: use wikilinks, keep notes small, upda
 | `templates/` | New-note templates |
 | `lexicon/` | Shared terms, house rules pointers |
 | `inbox/` | Scratch captures before filing |
-
-Sample campaign: [[campaigns/ember-road/00 Campaign]].
