@@ -7,3 +7,4 @@ tags: [index, monster]
 ---
 # Monsters
 - [[Bloodhawk of Aruhe]]
+- [[Stoop]]

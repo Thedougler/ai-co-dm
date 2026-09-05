@@ -7,3 +7,4 @@ tags: [index, item]
 ---
 # Items
 - [[Pearl of Souls]] · [[Fate Spinner]] · [[Nightmantle]] · [[Lamarae's Fang]] · [[Truth Stone]]
+- [[Long Reach]] · [[Long Sight]]
