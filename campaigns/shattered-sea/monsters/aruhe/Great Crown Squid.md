@@ -74,6 +74,8 @@ legendary_actions:
 # Great Crown Squid
 
 > [!narration] Narration
+> A great crown squid is a gargantuan tree-living cephalopod sixty to eighty feet from the tip of its broad clear mantle to the ends of its eight principal arms. The mantle hangs swollen with gas chambers more than solid flesh, a translucent lobed bulk like a seed pod crossed with a spider’s abdomen. Eight thick arms brace separate trunks on gripping pads and hooked suckers; under the beak a forest of finer hunting lines hangs down — some finger-thin, some rope-thick, dozens of feet long. Among foliage its skin takes branch and leaf. It does not swing or roar. It flows from tree to tree almost silently, and when something moves below, the huge principal eyes roll inside the translucent mantle toward it without the body shifting.
+
 
 ## At the table
 **Tactic:** watch → select isolated prey → Hookline → Reel → Beak. **Tell:** principal eyes roll inside the translucent mantle toward a target without the body moving.
