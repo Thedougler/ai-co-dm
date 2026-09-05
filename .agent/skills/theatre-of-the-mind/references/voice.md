@@ -151,7 +151,7 @@ evidence.
 | skin takes branch and leaf / becomes the trees / is the canopy | named color/material match on the skin, or cut |
 | rather than glitter / not flashy / without dazzle / quiet weight rather than X | a positive drawable sensory or physical fact, or cut |
 | offer rest and direction / provide shelter (as theme) / stays unclaimed / claim the water | pointable shore, channel, cool water, wet stone — no kernel metaphysics |
-| enormous life / long submerged movement (no body) | huge shapes under clear water, scale cue (wagon-long, deeper than a mast) — or cut |
+| enormous life / long submerged movement (no body) | visible signs only: boat-length shadow, channel-wide turn, stillness after motion — scale via body relation; never Hunger or roster names in Appearance |
 | spins like a meditation focus / as a focus for prayer (as the description) | how it physically spins, wobbles, sits, or weighs; cover names stay Identified/DM |
 | the very X / ancient and unknowable | the weed, date stamp, open mouth, or other noun |
 | walking deadwood / shield-leaves / the Quiet | the plain body or plant, then the likeness |

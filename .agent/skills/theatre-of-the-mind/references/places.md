@@ -53,15 +53,39 @@ the parent's headings or a fixed contract order.
 
 ### Kernel voice vs drawable lake (cold portrait)
 
+**Wilderness / lake recipe (no table state → cold portrait; with table state → seated survey):** seat a camera → scale + drawable landmarks and routes (near/far) → one secondary sense → optional located change (motion under clear water). Telegraph big underwater life as **signs** (body-relation scale, motion, stillness) — not creature names or Hunger rules.
+
+**Kernel → narration map (ban left column in `[!narration]`):**
+
+| Kernel / theme | Player prose |
+|---|---|
+| rest / direction / promise | shores, channels, paths you can walk or drink from |
+| Hunger / unclaimed / claim | omit (or a currently perceivable consequence only) |
+| “enormous life” theme | drawable motion/scale (boat-length shadow, channel-wide turn) |
+| Function / Conflict / Promise / Aspects / Player verbs | stay in DM / Aspects / secrets — never Appearance |
+
 **Weak — design kernel / metaphysics**
 
 > A clear inland lake where cool drinkable water meets long submerged movement beneath the surface. Shores and channels offer rest and direction; river valleys feed in, and enormous life turns beneath the clarity when the water stays unclaimed.
 
-**Strong — form, topology, sensory, optional public hazard shape**
+**Strong — camera, scale, routes, sense, optional sign**
 
-> Clear inland water stretches between wet-stone shores and channels, wide enough that far banks sit a long walk away. River valleys feed in as open mouths of slow water; a shore path continues toward the Grove route. The water is cool and drinkable. Under the glass-clear surface, shapes larger than a wagon turn without breaking into the air.
+> From a wet-stone shore the lake opens clear and deep enough to read the bottom near the bank before the blue goes dark. River cuts feed in as slow open mouths; a channel continues toward the Grove route. Cool air comes off the water. Farther out a boat-length shadow turns under the glass-clear surface, then the water goes still.
 
 Hunger, possession, Squid/otter names, and “unclaimed” stay in DM sections.
+
+**Cold place audit (fail any):**
+
+1. Frame chosen (survey / approach) or cold portrait without inventing a party?
+2. Camera / organizing spine seats the water or shore?
+3. Scale drawable (walk, far bank, depth cue)?
+4. ≤5 pointable landmarks/routes?
+5. One secondary sense (cool air, wet stone)?
+6. Zero theme verbs (rest / direction / promise / unclaimed)?
+7. Zero unearned creature names / Hunger / DCs?
+8. Life-under = visible signs + scale relation only?
+9. Stops at a player opening (drink / shore / route / watch the sign)?
+10. Kernel fields outside `[!narration]`?
 
 ## Arrival — published boxed text
 

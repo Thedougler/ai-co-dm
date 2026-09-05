@@ -248,11 +248,11 @@
     {
       "id": 25,
       "prompt": "Using Clear Lake parent (clear drinkable inland lake; shores/channels; river valleys in; Grove shore route; cool water/wet stone; fiction-only huge submerged life + otter; Hunger/possession in DM notes), write location `[!narration]` with no party/table state.",
-      "expected_output": "Cold place portrait with drawable water+shore scale, in/out approaches, concrete sensory, optional visible large submerged shapes without naming Squid/Hunger; conflict/possession stays out.",
+      "expected_output": "Cold place portrait: camera/spine on shore or water; drawable scale; landmarks/routes (river mouths, Grove channel); secondary sense; optional underwater signs with scale relation; no kernel/Hunger/names.",
       "expectations": [
-        "Fails rest and direction / unclaimed / claim / kernel labels / enormous life without drawable body; no scale/topology/landmarks.",
-        "Passes with form/scale, topology/approaches, sensory character, optional public hazard shapes.",
-        "Keeps Hunger/possession and named DM roster out of Appearance."
+        "Fails rest/direction/unclaimed/claim/kernel labels; enormous life with no drawable sign; missing scale/topology/landmarks.",
+        "Passes camera + scale + \u22645 landmarks/routes + secondary sense; life-under as signs only (boat-length shadow etc.).",
+        "Keeps Hunger/possession and Squid/otter names out of Appearance; stops at player opening."
       ]
     }
   ]
