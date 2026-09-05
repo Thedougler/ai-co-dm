@@ -1,43 +1,41 @@
 ---
 name: wiki-lint
-description: >
-  Health-check the ai-co-dm LLM wiki: orphans, broken wikilinks, hot drift,
-  prep/log mash, missing index links, duplicate entities, inbox rot. Use for
-  audit, lint, health check, "what's rotting", or Organizer deep passes.
-  Prefer report + propose; auto-fix only safe reversible link/index edits.
-  Not for inventing campaign fiction (Co-DM) or redesigning the fleet (Ops).
+description: >-
+  Health-check the ai-co-dm LLM wiki: inbox rot, hot drift, broken wikilinks,
+  orphans, dupes, missing index links, prep/log mash, narration leaks. Use for
+  audit, lint, health check, "what's rotting", or Organizer deep passes. Default
+  report + propose; auto-fix only safe reversible link/index edits. Not for
+  inventing campaign fiction (Co-DM) or redesigning the fleet (Ops).
 ---
 
-# Wiki lint — ai-co-dm
+# Wiki lint
 
 Surgical health audit. Prefer `./scripts/qmd` + indexes over reading the whole tree.
 
-**Vault:** `/Users/nick/Documents/ai-co-dm`. Schema: [[AGENTS]]. Hygiene owner on schedule: **Organizer**.
+**Vault:** `/Users/nick/Documents/ai-co-dm`. Schema: [[AGENTS]]. Schedule owner: **Organizer**.
 
-Upstream: Tedydev-web/llm-wiki-skills `wiki-lint` + Ar9av consolidate idea (see `UPSTREAM_SKILL.md`, `references/`). Remap away from `wiki/` · `state.json` · 17 generic PKM steps — run the **ai-co-dm checklist** below. Full upstream step list only if Nick asks (`references/audit-steps.md`).
+Do **not** run generic PKM 17-step audits, `wiki/.state.json` checks, or `~/.obsidian-wiki` config protocols. Use the checklist below.
 
 ## Checklist (in order)
 
-1. **Inbox rot** — age / unfiled captures under `inbox/` (exclude promoted provenance).
-2. **Hot drift** — `campaigns/shattered-sea/hot.md` vs campaign hub pressure/quests.
-3. **Broken wikilinks** — targets missing (rg / qmd); fix obvious typos or propose.
-4. **Orphans** — notes with no inbound links (exclude hubs/templates/lexicon/skills). Propose link, merge, or prune.
+1. **Inbox rot** — unfiled captures under `inbox/`.
+2. **Hot drift** — `campaigns/<slug>/hot.md` vs hub pressure/quests (default: shattered-sea).
+3. **Broken wikilinks** — missing targets (rg / qmd); fix obvious typos or propose.
+4. **Orphans** — no inbound links (exclude hubs/templates/lexicon/skills). Propose link, merge, or prune.
 5. **Dupes** — same entity name/`type` near-matches via qmd. Propose survivor path.
-6. **Index gaps** — new typed notes not on nearest `00` MOC.
-7. **Prep/log mash** — `session-prep` content living in `session` logs or vice versa.
+6. **Index gaps** — typed notes missing from nearest `00` MOC.
+7. **Prep/log mash** — `session-prep` living in `session` (or reverse).
 8. **Narration boundary** — `[!narration]` leaking DCs/secrets/unearned names (sample recent).
 9. **qmd freshness** — if git moved and index stale, note `./scripts/after-write` / `./scripts/qmd update`.
 
+Structural checks first. LLM judgment only on contradiction/dupe clusters — do not load every page body.
+
 ## Modes
 
-- **Report (default):** short list — finding · path · fix. Quiet if clean (no filler).
-- **Safe auto:** missing index one-liners, obvious link repairs, hot refresh when hub clearly drifted. Then `./scripts/after-write "lint: …"`.
+- **Report (default):** finding · path · fix. Quiet if clean.
+- **Safe auto:** missing index one-liners, obvious link repairs, hot refresh when hub clearly drifted → `./scripts/after-write "lint: …"`.
 - **Propose only:** deletes, renames, campaign splits, mass consolidations — wait for Nick/Co-DM.
 
-## Context discipline
+## Handoffs
 
-Do not load every page body. Structural checks first (`references/structural-vs-llm-checks.md` mindset). LLM judgment only on contradiction/dupe clusters.
-
-## Fleet handoff
-
-Bottleneck is AGENTS/scripts/qmd/routines/skills → packet **Ops**. Fiction gap → **Co-DM**. Pattern debate → `llm-wiki` skill.
+AGENTS/scripts/qmd/routines/skills bottleneck → **Ops**. Fiction gap → **Co-DM**. Pattern debate → `llm-wiki`.

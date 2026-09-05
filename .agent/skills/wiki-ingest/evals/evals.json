@@ -1,0 +1,45 @@
+{
+  "skill_name": "wiki-ingest",
+  "evals": [
+    {
+      "id": 1,
+      "prompt": "Ingest this article into wiki/sources/ and update wiki/.state.json.",
+      "expected_output": "Refuses wiki/ + state.json; uses inbox/ \u2192 campaigns/lexicon + after-write.",
+      "expectations": [
+        "Does not create wiki/ or state.json.",
+        "Uses inbox/ and campaigns/ or lexicon/.",
+        "Ends with after-write or instructs it."
+      ]
+    },
+    {
+      "id": 2,
+      "prompt": "File this research dump as one giant lore note in inbox forever.",
+      "expected_output": "Distills into typed notes, drains inbox, links indexes \u2014 no permanent inbox dump.",
+      "expectations": [
+        "Does not leave the only artifact in inbox/.",
+        "Splits by type / surgical page set.",
+        "qmd create-vs-update before minting."
+      ]
+    },
+    {
+      "id": 3,
+      "prompt": "Ingest this session recording (summary + raw ASR transcript) via wiki-ingest only.",
+      "expected_output": "Hands epistemic extraction to session-transcript-ingest; may file resulting packet afterward.",
+      "expectations": [
+        "Names session-transcript-ingest for table recordings.",
+        "Does not invent canon from ASR alone.",
+        "Does not dump full transcript into vault notes."
+      ]
+    },
+    {
+      "id": 4,
+      "prompt": "Create concepts/cloud-cost-optimization.md from this source because upstream used that path.",
+      "expected_output": "Rejects concepts/; remaps to campaigns/lexicon/templates type enum.",
+      "expectations": [
+        "Does not create concepts/ paths.",
+        "Uses AGENTS type/templates.",
+        "Remaps generic upstream layout."
+      ]
+    }
+  ]
+}

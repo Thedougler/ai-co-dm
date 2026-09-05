@@ -1,1 +1,0 @@
-Upstream Tedydev references. Path names (`raw/`, `wiki/`, `state.json`) are **not** ai-co-dm layout — remap via parent SKILL.md adaptation. Prefer SKILL.md process over these unless debugging upstream behavior.

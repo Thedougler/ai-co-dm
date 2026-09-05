@@ -1,39 +1,40 @@
 ---
 name: wiki-ingest
-description: >
-  Distill a source into the ai-co-dm Obsidian LLM wiki. Use when Nick drops files
-  or text into inbox/, pastes an article/URL/session evidence, says ingest/process/
-  add to wiki/file this, or wants Research findings compiled into campaign notes.
-  Not for mechanical homebrew math (Homebrewer) or player-facing TotM prose alone
-  (Visualizer). Not for full-wiki rewrites (Organizer/wiki-lint).
+description: >-
+  Distill a source into typed ai-co-dm vault notes. Use when Nick drops files or
+  text into inbox/, pastes an article/URL/session evidence, says ingest/process/
+  file this/add to wiki, or wants research compiled into campaign notes. Not for
+  homebrew math (Homebrewer), TotM prose alone (Visualizer), full-wiki rewrites
+  (Organizer / wiki-lint), or session-transcript epistemic packets
+  (session-transcript-ingest — hand off when the source is a table recording).
 ---
 
-# Wiki ingest — ai-co-dm
+# Wiki ingest
 
-Compile a source into typed, linked vault notes. Distill and integrate — do not dump a summary into `inbox/` forever.
+Compile a source into linked vault notes. Distill and integrate — do not leave a summary rotting in `inbox/`.
 
-**Vault:** `/Users/nick/Documents/ai-co-dm` (cwd). Schema: [[AGENTS]]. Pattern: skill `llm-wiki` (adaptation section only unless teaching).
-
-Upstream inspiration: Tedydev-web/llm-wiki-skills `wiki-ingest` (see `UPSTREAM_SKILL.md` + `references/`). Do **not** use their `raw/` · `wiki/` · `state.json` layout.
+**Vault:** `/Users/nick/Documents/ai-co-dm`. Schema: [[AGENTS]]. Doctrine: `llm-wiki`. Find: `qmd-retrieval`.
 
 ## Map
 
-| Generic | ai-co-dm |
+| Need | Here |
 |---|---|
-| `raw/` staging | `inbox/` |
+| Staging | `inbox/` |
 | Compiled pages | `campaigns/<slug>/…`, `lexicon/` |
-| Schema | [[AGENTS]] + `templates/` |
+| Schema / templates | [[AGENTS]] + `templates/` |
 | Index / hot | campaign `00` indexes + `hot.md` |
 | Query before write | `./scripts/qmd` + `qmd-retrieval` |
 
+Do **not** create `wiki/`, `raw/`, `sources/`, `concepts/`, `entities/`, or `state.json`.
+
 ## Process
 
-1. **Accept source** — path under `inbox/`, URL (fetch), or pasted text. If URL/file outside vault, stage a short capture under `inbox/` first.
-2. **Orient** — read [[AGENTS]] boot + [[campaigns/shattered-sea/hot]] (or named campaign). `./scripts/qmd search` / `query` for existing entities (create-vs-update).
-3. **Classify** — which `type`s does this touch? Prefer patching owners over minting siblings. Use matching `templates/` for new notes.
-4. **Distill** — write/update only the surgical page set (often 1–5 notes). Wikilinks; frontmatter; `[!narration]` empty or hand Visualizer if player-facing prose is needed.
-5. **Index** — link from nearest hub/MOC/`hot` if pressure/quests changed.
-6. **Drain** — remove or mark filed the `inbox/` capture; never leave a second wiki in inbox.
+1. **Accept** — `inbox/` path, URL (fetch), or paste. Outside-vault file → short capture under `inbox/` first.
+2. **Orient** — [[AGENTS]] boot + campaign `hot.md`. `qmd search` / `query` for existing entities (create-vs-update).
+3. **Classify** — which `type`s? Prefer patching owners over minting siblings. New notes from matching `templates/`.
+4. **Distill** — surgical page set (usually 1–5). Wikilinks + frontmatter. `[!narration]` empty unless Visualizer is in the loop.
+5. **Index** — link from nearest hub/MOC/`hot` if pressure or quests changed.
+6. **Drain** — remove or mark filed the `inbox/` capture.
 7. **Persist** — `./scripts/after-write "ingest: …"`.
 
 ## Hard don'ts
@@ -41,9 +42,6 @@ Upstream inspiration: Tedydev-web/llm-wiki-skills `wiki-ingest` (see `UPSTREAM_S
 - No parallel `wiki/` · `sources/` · `concepts/` tree.
 - No WotC book paste; no real player PII.
 - No silent canon overwrite — flag / ask Co-DM|Nick.
-- No full mechanical homebrew blocks — packet to **Homebrewer**.
-- No dumping whole sources as one giant note — atomic by type.
-
-## When stuck
-
-Read `references/ingest-walkthrough.md` for upstream narrative (remap paths). Ignore `state-json-spec.md` / promote-qa unless Nick asks for that sidecar model.
+- No full mechanical homebrew — packet **Homebrewer**.
+- No one giant dump note — atomic by `type`.
+- Table session recordings → `session-transcript-ingest` (epistemic layers), then file results here if needed.
