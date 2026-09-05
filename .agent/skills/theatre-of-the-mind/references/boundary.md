@@ -135,6 +135,10 @@ hauled aloft, or other completed contact/injury before the table can act.
 awareness as prose payload (`before anyone understands`, `you realize too late`,
 `nobody notices until…`). Show the observable telegraph; let players react.
 
+**Unearned campaign-rule fail:** do not put Hunger / possession frameworks,
+claim/unclaimed metaphysics, or other private campaign rules into Appearance or
+cold place portraits. Keep them in DM sections / `[!secret]-`.
+
 NPC and faction behavior may pursue established goals. The world may change
 because of a resolved mechanic or an established pressure. A player-facing
 surface stops at the next meaningful decision; do not append an “if they hold”

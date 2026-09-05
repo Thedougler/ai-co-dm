@@ -17,6 +17,11 @@ If the job is `[!narration]` on a creature/monster owning page and no current
 table state is supplied, force **standalone portrait**. Do not promote parent
 tactics or signature moves into a situated ambush.
 
+If the job is `[!narration]` on a location/site owning page and no current table
+state is supplied, force **standalone place portrait**. Do not promote
+place-design kernels (Function / Fantastic / Conflict / Promise / Trajectory /
+Aspects / Player verbs) or Hunger/possession rule-talk into the callout.
+
 - **Situated moment:** use the supplied viewpoint and current table state, then
   route to the matching contract below. A loaded first look is one complete
   spoken block of every relevant currently perceivable subject, relationship,
@@ -86,11 +91,14 @@ The fields below are coverage dimensions, not a required output sequence.
 - **Place or region:** give neutral structure, overall form and scale,
   topology and vertical relationships, major established public landmarks,
   established/public approaches, sensory character, and recognizable public
-  hazard manifestations. Keep current inhabitants, encounters, plot, hidden or
-  unconfirmed routes, exact mechanics, named hidden threats, tactics, and
-  future outcomes out. Large regions may use a compact overview followed by
-  coherent paragraphs; coverage is the supplied public descriptive identity,
-  not every source section.
+  hazard manifestations. “Ordinary observable function” is a landmark use
+  (drink, shore path), never design-kernel Function. Ban schema verbs with no
+  landmark (`offer rest and direction`, `provide shelter` as theme). Keep
+  current inhabitants, encounters, plot, Hunger/possession metaphysics, hidden
+  or unconfirmed routes, exact mechanics, named hidden threats, tactics, design
+  commentary, and future outcomes out. Large regions may use a compact overview
+  followed by coherent paragraphs; coverage is the supplied public descriptive
+  identity, not every source section.
 
 ## Spatial contract
 

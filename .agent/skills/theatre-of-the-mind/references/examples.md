@@ -39,6 +39,15 @@ Human table examples live in [humans.md](humans.md). Published boxed text and li
 If silhouette, translucent mantle, and braced arms already carry the picture, cut the camouflage sentence instead of restating it in purple.
 
 
+
+## Place kernel vs geography (location `[!narration]`)
+
+See also the lake Weak/Strong pair in [places.md](places.md).
+
+**Weak:** `offer rest and direction`, `stays unclaimed`, `enormous life` with no body.
+
+**Strong:** clear water + shore scale, river mouths / channels, cool drinkable water, wet stone, optional huge shapes under glass-clear surface — stop. No Hunger/claim talk.
+
 ## Item mood fluff vs concrete behavior
 
 **Weak — cover-story / mood pad**

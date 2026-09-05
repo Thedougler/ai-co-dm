@@ -67,6 +67,17 @@ tactics, Hookline/Reel, ambush scripts, and “open with…” running notes sta
 snatch inside the callout. Inventing a trailing PC, ankle/boot contact, or
 completed haul is a fail.
 
+**Hard mode gate for location/site `[!narration]`:** if the request is filling
+or rewriting `[!narration]` on a location note and no party position or other
+current table state is supplied, the mode is **standalone cold place portrait**.
+Ban place-design kernel fields and schema voice in player prose: Function,
+Fantastic, Conflict, Promise, Trajectory, Aspects, Player verbs, Hunger /
+possession metaphysics, and rule-talk like `unclaimed` / `claim`. “Ordinary
+observable function” means a drawable use of a landmark (drink from clear
+water, walk a shore channel) — never thematic Function (“offer rest and
+direction”). Design kernels stay upstream (`place-design`); TotM renders
+geography.
+
 - **Situated moment:** write from the supplied table state and viewpoint. Route
   by surface below, preserve the current environment and motion, and stop at
   that surface's natural player opening. On a creature first look, the opening

@@ -244,6 +244,16 @@
         "Fails if only \u22642 dry sentences with no extra visual material/wear/silhouette (under-written stub).",
         "Passes with ~three connected sentences of drawable visual + physical behavior; cover/effects still out."
       ]
+    },
+    {
+      "id": 25,
+      "prompt": "Using Clear Lake parent (clear drinkable inland lake; shores/channels; river valleys in; Grove shore route; cool water/wet stone; fiction-only huge submerged life + otter; Hunger/possession in DM notes), write location `[!narration]` with no party/table state.",
+      "expected_output": "Cold place portrait with drawable water+shore scale, in/out approaches, concrete sensory, optional visible large submerged shapes without naming Squid/Hunger; conflict/possession stays out.",
+      "expectations": [
+        "Fails rest and direction / unclaimed / claim / kernel labels / enormous life without drawable body; no scale/topology/landmarks.",
+        "Passes with form/scale, topology/approaches, sensory character, optional public hazard shapes.",
+        "Keeps Hunger/possession and named DM roster out of Appearance."
+      ]
     }
   ]
 }

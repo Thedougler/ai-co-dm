@@ -32,14 +32,36 @@ When the job is only the object inside the place, start in [humans.md](humans.md
 Use a neutral player reference with no viewer, party, current inhabitants,
 encounter, plot, or camera. Cover overall form and scale, topology and vertical
 relationships, major established public landmarks, established/public
-approaches, sensory character, and recognizable public hazard manifestations.
-Include established physical geography even when it spans a large region; a
-compact overview may help, but it is not a required first section or universal
-order. Exclude rumors unless attributed, hidden or earned routes, exact
-mechanics, named hidden creatures or threats, tactics, design commentary, and
-future outcomes. Use this portrait contract as an unordered coverage audit, not
-a prose outline; choose an organizing spine independently rather than replaying
+approaches, sensory character, and recognizable public hazard manifestations
+(large submerged shapes under clear water are ok if stocked as public fiction —
+do not name DM roster or Hunger rules). Include established physical geography
+even when it spans a large region; a compact overview may help, but it is not a
+required first section or universal order.
+
+**Hard fail — design commentary:** do not narrate place-design kernels
+(Function, Fantastic, Conflict, Promise, Trajectory), Aspects tags, Player verb
+lists, or metaphysics (`offer rest and direction`, `when the water stays
+unclaimed`, possession/Hunger rule-talk). “Observable function” ≠ design
+Function. Fail if the prose has no pointable landmarks/scale/topology.
+
+Exclude rumors unless attributed, hidden or earned routes, exact mechanics,
+named hidden creatures or threats, tactics, design commentary, and future
+outcomes. Use this portrait contract as an unordered coverage audit, not a
+prose outline; choose an organizing spine independently rather than replaying
 the parent's headings or a fixed contract order.
+
+
+### Kernel voice vs drawable lake (cold portrait)
+
+**Weak — design kernel / metaphysics**
+
+> A clear inland lake where cool drinkable water meets long submerged movement beneath the surface. Shores and channels offer rest and direction; river valleys feed in, and enormous life turns beneath the clarity when the water stays unclaimed.
+
+**Strong — form, topology, sensory, optional public hazard shape**
+
+> Clear inland water stretches between wet-stone shores and channels, wide enough that far banks sit a long walk away. River valleys feed in as open mouths of slow water; a shore path continues toward the Grove route. The water is cool and drinkable. Under the glass-clear surface, shapes larger than a wagon turn without breaking into the air.
+
+Hunger, possession, Squid/otter names, and “unclaimed” stay in DM sections.
 
 ## Arrival — published boxed text
 

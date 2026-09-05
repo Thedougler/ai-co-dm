@@ -8,7 +8,6 @@ tags: [location, aruhe, lake, water]
 ---
 # Clear Lake
 > [!narration] Narration
-> A clear inland lake where cool drinkable water meets long submerged movement beneath the surface. Shores and channels offer rest and direction; river valleys feed in, and enormous life turns beneath the clarity when the water stays unclaimed.
 
 
 ## At a glance

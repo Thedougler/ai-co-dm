@@ -150,6 +150,8 @@ evidence.
 | tapestry, testament, dance of light, weight of history | the object doing the work |
 | skin takes branch and leaf / becomes the trees / is the canopy | named color/material match on the skin, or cut |
 | rather than glitter / not flashy / without dazzle / quiet weight rather than X | a positive drawable sensory or physical fact, or cut |
+| offer rest and direction / provide shelter (as theme) / stays unclaimed / claim the water | pointable shore, channel, cool water, wet stone — no kernel metaphysics |
+| enormous life / long submerged movement (no body) | huge shapes under clear water, scale cue (wagon-long, deeper than a mast) — or cut |
 | spins like a meditation focus / as a focus for prayer (as the description) | how it physically spins, wobbles, sits, or weighs; cover names stay Identified/DM |
 | the very X / ancient and unknowable | the weed, date stamp, open mouth, or other noun |
 | walking deadwood / shield-leaves / the Quiet | the plain body or plant, then the likeness |
@@ -200,6 +202,7 @@ evidence.
 | an established full scene ends at its first micro-opening | include all relevant visible subjects and relationships before the natural stop |
 | a portrait or first look is one dry identifying sentence | expand into connected prose covering silhouette/scale, defining parts or topology, ordinary behavior/use, and one supported sensory fact |
 | item-page `[!narration]` is only 1–2 dry sentences | expand to ~3 connected sentences with missing visual material/wear/silhouette nouns — never pad with glitter negation or cover-story similes |
+| location `[!narration]` is place-design kernel or schema verbs with no landmark | rewrite as cold place portrait: form/scale, topology/approaches, sensory, optional public hazard manifestation |
 | facts arrive as a telegram or bullet-shaped clauses | join owned details into flowing sentences with concrete verbs |
 | only sight is used when another sense is established | fold in the supported sound, smell, temperature, or texture on the thing that owns it |
 | the draft is long but still not drawable | replace register and synonyms with missing nouns, relationships, and anchors — do not add more adjectives |
