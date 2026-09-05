@@ -9,7 +9,22 @@ visibility: dm
 tags: [npc]
 ---
 # Geoffrey Draves
+
+> [!narration] Narration
+> _Visualizer: standalone portrait pending._
+>
 ## Hook
-Defected deckhand from the Saltwright fight.
-## Drive
-Unknown; potential witness to the boarding action.
+Preserve his safety while deciding what to reveal about the [[Saltwright]] boarding action; he is a potential witness, not a solved source.
+## Want / leverage / limit
+- **Want:** Unknown; immediate pressure is safety and whether to speak.
+- **Leverage:** Firsthand knowledge of the boarding action.
+- **Limit:** Faction, loyalties, current location, and reliability are unknown.
+## Public vs secret
+Publicly a defected deckhand; what he knows and why he defected remain unknown.
+## Relationships
+[[Barnaby Rook]], [[Saltwright]], and the crew as possible witnesses or protectors.
+## Next move / if ignored
+Stay quiet or move away from the fight; exact next move is unknown.
+## Appearances
+- [[campaigns/shattered-sea/story/00 Story so far]]
+- [[Saltwright]]
