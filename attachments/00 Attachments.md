@@ -18,7 +18,7 @@ Image and media assets for the vault. Obsidian drops new files here (`attachment
 [[attachments/shattered-sea/map.png|Campaign map]]
 ```
 
-Prefer path under `attachments/` so agents and git stay unambiguous. Bare `![[map.png]]` works in Obsidian if the name is unique — still prefer the full vault-relative path when writing as an agent.
+Prefer path under `attachments/` so agents and git stay unambiguous. Bare filename embeds work in Obsidian if the name is unique — agents should still write the full `attachments/…` path.
 
 ## Layout
 
