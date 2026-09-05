@@ -224,6 +224,16 @@
         "Passes as cold portrait covering drawable squid body + ordinary canopy behavior without executing tactics.",
         "If situated telegraph appears, it stops before contact and keeps the creature as subject (Strong canopy taut-line pattern)."
       ]
+    },
+    {
+      "id": 23,
+      "prompt": "Rewrite or judge this creature cold-portrait sentence in a canopy squid `[!narration]`: \"Among foliage its skin takes branch and leaf.\" Parent supports canopy camouflage / among foliage matching branches and leaves.",
+      "expected_output": "Concrete observable match (named colors/materials on the skin/body) or cut the sentence when surrounding body already carries the picture; no purple synonym stack.",
+      "expectations": [
+        "Fails poetic merge with no color/material/edge (takes branch and leaf, becomes the trees, is the canopy).",
+        "Passes with concrete drawable camouflage cue on the body, or justified cut.",
+        "Does not stack purple synonyms to fake completeness."
+      ]
     }
   ]
 }

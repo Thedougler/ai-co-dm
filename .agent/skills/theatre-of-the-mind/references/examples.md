@@ -26,6 +26,20 @@ Human table examples live in [humans.md](humans.md). Published boxed text and li
 
 ## Complete picture vs stub (default for `[!narration]`)
 
+## Camouflage: drawable miss-cue vs purple merge
+
+**Weak — poetic merge, no picture**
+
+> Among foliage its skin takes branch and leaf.
+
+**Strong — concrete match (or cut)**
+
+> Among the leaves its hide mottles bark-brown and pale underside green until the mantle edge is easy to miss.
+
+If silhouette, translucent mantle, and braced arms already carry the picture, cut the camouflage sentence instead of restating it in purple.
+
+
+
 **Weak — terse encyclopedia line (incomplete picture)**
 
 > An owl aarakocra with frost on his feathers who never raises his voice.

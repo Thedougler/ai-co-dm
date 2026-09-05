@@ -37,7 +37,9 @@ Familiar size and kind.
 Two or three observable facts that will still be true after it moves, folded
 onto the one verb the body is doing. Posture carries table meaning — watching
 the path, weight on one foot, wings half-spread for balance. Camouflage is what
-a looker would miss — moss on the wings blending into the leaves. Color
+a looker would miss — a concrete miss-cue (moss on the wings into the leaves;
+skin mottled bark-brown and pale leaf-underside). Never a poetic merge with no
+color, material, or edge (`takes branch and leaf`, `becomes the canopy`). Color
 attaches to that verb: red eyes fix on the path. Do not stack four motion verbs
 on the same body, and do not give claws, spit, or eyes their own sentences.
 Kitchen-table body first — swollen clear body, not swollen lobed mantle. Save
@@ -217,7 +219,7 @@ A playable fight still names what the table must be able to point at. "Water tic
 - Silhouette first when the viewpoint does not already have a name — a bird as tall as a horse on one long foot; a man-sized bundle of dead branches; big as a wolf, built like a hyena; pig faces on human bodies. Shape, scale, posture, then the wrong fact.
 - Then two or three stable facts a person could point at after the body moves — three arms, half-jaw, white blaze, kinked tail, rust-red insides of the ears, green fire in the sockets — folded onto the verb, not isolated as their own sentences.
 - Leave one body fact for motion. Wooden fingers belong on the tighten, not on the establishing shot.
-- What it is doing — aiming, lunging, looking for an exit, turning toward the open grass — in the same breath as the body, not as its name. That verb is the table meaning. Color and anatomy ride that breath. Camouflage is a missed look, not geometry.
+- What it is doing — aiming, lunging, looking for an exit, turning toward the open grass — in the same breath as the body, not as its name. That verb is the table meaning. Color and anatomy ride that breath. Camouflage is a missed look with a drawable cue, not geometry and not purple merge.
 - Several bodies enter by trait and motion. The handle waits.
 - A delayed reveal of the worst body is earned by cutting detail before it, not by stacking more pictures in front of it.
 - Reuse the same landmark on the next line.

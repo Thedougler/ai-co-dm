@@ -147,6 +147,7 @@ evidence.
 | the air is thick / crackles / charged | smoke, heat, quiet, or a sourced sound |
 | words hung in the air | the unfinished sentence or cut it |
 | tapestry, testament, dance of light, weight of history | the object doing the work |
+| skin takes branch and leaf / becomes the trees / is the canopy | named color/material match on the skin, or cut |
 | the very X / ancient and unknowable | the weed, date stamp, open mouth, or other noun |
 | walking deadwood / shield-leaves / the Quiet | the plain body or plant, then the likeness |
 | a room, object, or handout as a literary block | its branch payload and usable arrangement |
@@ -185,6 +186,7 @@ evidence.
 | a boundary hangs on an unseen thing | show the surface, edge, or landmark that owns the boundary |
 | a trembling line has no catch or place | name its target and location, or cut it as mood |
 | a first look resolves a hit | show the reaching line or buildup; resolve contact after the declared action |
+| camouflage/mood claim with no drawable sensory fact (`skin takes branch and leaf`, `becomes the canopy`, `merges with the green`) | concrete match on the body (named colors/materials/mottle) folded onto a verb, or cut if the body picture already carries |
 | monster `[!narration]` finishes Hookline/Reel, grab, bite, or haul | cold portrait of body/behavior, or situated telegraph only (e.g. hanging line snaps taut); no ankle/boot/haul |
 | first look narrates `anyone understands` / PC feelings / freeze-frame past contact | cut cognition; stop before resolved contact |
 | a body part arrives before its owner | name the body, familiar size, and silhouette first |
