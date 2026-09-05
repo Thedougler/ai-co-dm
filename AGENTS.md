@@ -125,6 +125,6 @@ Do not skip Skill-Creator and have Visualizer patch prose ad hoc after a fail.
 ## Region subfolder policy (proposal)
 
 - Prefer flat typed buckets: `campaigns/<slug>/{npcs,locations,factions,...}/Note.md`.
-- Keep NPC/place region identity in frontmatter (for example, `region:`), not nested folders.
+- Record NPC/place location and region in frontmatter (for example, `location:` and `region:`), not nested folders.
 - Treat region clusters such as Aruhe and Verdant Teeth as MOC/hub notes plus tags/frontmatter, rather than `locations/aruhe/...` nesting.
 - Leave existing nested notes in place for now; migrate opportunistically when touching them. No mass rename or move in this pass.
