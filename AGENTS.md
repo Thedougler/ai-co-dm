@@ -1,64 +1,101 @@
 # Agent guide — ai-co-dm
 
-This repo is an Obsidian LLM wiki for home D&D campaigns. Treat markdown as the product.
+Obsidian LLM wiki for Nick's home D&D. **Markdown is the product.** Humans and Grok Bots share one vault.
 
-## Do
+| | |
+|---|---|
+| Local | `/Users/nick/Documents/ai-co-dm` |
+| Remote | `https://github.com/Thedougler/ai-co-dm` |
+| Active campaign | [[campaigns/shattered-sea/00 Shattered Sea]] |
 
-- Prefer wikilinks: `[[Note Name]]` or `[[path/Note Name]]`.
-- One topic per note. Split when a note grows past ~screenful of actionable content.
-- Put YAML frontmatter on structured notes (`type`, `campaign`, `status`, `tags`).
-- When adding a note, link it from the nearest index (campaign hub, sessions list, NPC index).
-- Use stubs: a short note with links beats an empty folder.
-- Keep player-facing vs DM-only clear in frontmatter (`visibility: table | dm`).
-- New notes: copy from `templates/` matching `type`. Fill only what play needs.
-- Content notes open with `> [!narration] Narration` (player-safe). Fill via `.agent/skills/theatre-of-the-mind`; leave empty if unused. Dialogue: `Narration — speaker`.
+Grok Bots: run Shell on **macbook.lan** with cwd = vault root. Always **commit and push** after vault writes.
 
-## Don't
+## Boot (before you invent)
 
-- Don't paste WotC proprietary book text. Paraphrase house rulings; link to legal sources if needed.
-- Don't put real player full names, emails, phones, or addresses in this public repo. Use first names or handles.
-- Don't invent a parallel database or app layer unless Nick asks. The vault *is* the system.
-- Don't rename campaign folders casually; update inbound links if you must.
-- Don't mash session prep into the session log. Prep is disposable (`session-prep`); logs are durable (`session`).
+1. Read this file + [[00 Home]] + the active campaign hub.
+2. **Search before write** — `.agent/skills/qmd-retrieval` + `./scripts/qmd` (see Search).
+3. Missing canon → ask Nick / Co-DM. Do not silently invent facts that contradict the wiki.
+4. New entity → copy matching `templates/` note; fill only what play needs; link from the nearest index.
 
-## Note types
+## Hard don'ts
 
-`type` frontmatter values: `hub` | `campaign` | `session-prep` | `session` | `npc` | `pc` | `location` | `faction` | `quest` | `front` | `encounter` | `item` | `monster` | `lore` | `template` | `lexicon`.
+- No WotC proprietary book paste. Paraphrase; link SRD / page refs.
+- No real player PII (handles / first names only).
+- No parallel DB/app layer unless Nick asks. The vault *is* the system.
+- No prep/log mash: `session-prep` disposable; `session` durable.
+- No DM secrets / DCs / unearned names inside `[!narration]` — TotM rules.
+- No casual campaign-folder renames without fixing inbound links.
 
-## Workflow
+## Write
 
-1. Read [[00 Home]] and the active campaign hub.
-2. Capture ephemeral stuff under `inbox/`, then file into the campaign.
-3. Before a session, use [[templates/Session prep]]. After, use [[templates/Session log]] and bump the campaign hub.
-4. Find content with **qmd** (see Search below) before inventing facts.
+- Wikilinks: `[[Note]]` / `[[path/Note]]`. One topic per note; stub > empty folder.
+- Frontmatter: `type`, `campaign`, `status`, `tags`, `visibility: table | dm`.
+- Content notes open with `> [!narration] Narration` (player-safe). Fill via `.agent/skills/theatre-of-the-mind` (or hand to Visualizer). Leave empty if unused. Dialogue: `Narration — speaker`.
+- After session: [[templates/Session log]] + bump campaign hub. Before: [[templates/Session prep]].
+- Capture scraps in `inbox/`, then file. After writes: `./scripts/qmd update` (+ `embed` if vectors matter), then **commit + push**.
+
+### `type` enum
+
+`hub` | `campaign` | `session-prep` | `session` | `npc` | `pc` | `location` | `faction` | `quest` | `front` | `encounter` | `item` | `monster` | `lore` | `template` | `lexicon`
 
 ## Search (QMD)
 
-Agents find content with **qmd** against the project-local index in `.qmd/` (not the global Shattered Sea index). Run commands from the vault root.
+Project-local index: `.qmd/` (not the global Shattered Sea index). From vault root only:
 
 | Collection | Covers |
 |---|---|
 | `wiki` | campaign notes, hubs, lexicon, templates, inbox, AGENTS/README |
-| `skills` | `.agent/skills/**` (dotdir; separate collection) |
+| `skills` | `.agent/skills/**` |
 
-Protocol: load `.agent/skills/qmd-retrieval/SKILL.md`. Short form:
+```bash
+./scripts/qmd search "…" -c wiki -n 5
+./scripts/qmd query $'intent: …\nlex: …\nvec: …' -c wiki -n 5
+./scripts/qmd get "#docid" --full
+./scripts/qmd update && ./scripts/qmd embed
+```
 
-1. `./scripts/qmd search` / `./scripts/qmd query` with `-c wiki` or `-c skills`
-2. `./scripts/qmd get` / `./scripts/qmd multi-get` full docs (snippets are leads only)
-3. After markdown writes: `./scripts/qmd update` then `./scripts/qmd embed` when vectors matter
+Snippets are leads — fetch full docs before claiming facts. Skill: `.agent/skills/qmd-retrieval`. Optional MCP: `./scripts/qmd mcp` (see `.agent/skills/qmd/references/mcp-setup.md`).
 
-Optional MCP: `./scripts/qmd mcp` from vault root — see `.agent/skills/qmd/references/mcp-setup.md`.
+## Skills (`.agent/skills/`)
 
-## Agent skills
+Load the skill before the job. Prefer delete/clarify over essay.
 
-### Issue tracker
+| Job | Skill |
+|---|---|
+| Find vault facts | `qmd-retrieval` (+ `qmd` bootstrap) |
+| Player-facing prose / `[!narration]` | `theatre-of-the-mind` |
+| Session pacing | `session-beats` |
+| Places / sites | `place-design` |
+| Dungeons / megadungeons | `dungeon-design` |
+| NPCs / villains | `npc-design` |
+| Monsters (5.5e) | `homebrew-monsters-5e` |
+| Magic items (5.5e) | `dnd-5e-magic-item-design` |
 
-Issues are tracked in this repository’s GitHub Issues. See `docs/agents/issue-tracker.md`.
+## Who does what (fleet)
 
-### Triage labels
+| Bot | Owns |
+|---|---|
+| **Co-DM** | Campaign continuity, prep/log, vault canon, table rulings |
+| **Visualizer** | TotM narration blocks only |
+| **Homebrewer** | Mechanical homebrew (subclass/monster/item/spell/feat) |
+| **Researcher** | Prior art / expert DM advice (web); not vault canon |
+| **Skill-Creator** | Skills under `.agent/skills/` |
+| **Ops** | Fleet, AGENTS.md, templates, qmd, routines |
 
-Triage uses the five default canonical labels. See `docs/agents/triage-labels.md`.
+Hand off at anti-job boundaries. Don't redesign the fleet unless you are Ops.
 
-### Domain docs
+## Layout
 
-This repository uses a single-context domain-doc layout. See `docs/agents/domain.md`.
+| Path | Purpose |
+|---|---|
+| `00 Home.md` | Hub |
+| `campaigns/` | One folder per campaign |
+| `templates/` | New-note skeletons |
+| `lexicon/` | Shared terms / house tone |
+| `inbox/` | Scratch → file soon |
+| `.agent/skills/` | Agent skills (source of truth) |
+| `docs/agents/` | Eng-skill plumbing only (issues/triage/domain) — ignore for table work |
+
+## Engineering skills only
+
+If a coding/triage skill points here: `docs/agents/issue-tracker.md`, `triage-labels.md`, `domain.md`. Table/campaign bots can skip.
