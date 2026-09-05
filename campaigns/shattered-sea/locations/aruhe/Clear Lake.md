@@ -8,7 +8,8 @@ tags: [location, aruhe, lake, water]
 ---
 # Clear Lake
 > [!narration] Narration
-> Clear inland water fills a broad basin between wet-stone shores and low channels, far banks a long walk away. River valleys open into it as slow mouths of flowing water, and a shore path runs on toward the Grove. The water is cool and drinkable. Under the glass-clear surface, shapes larger than a wagon turn without breaking air.
+> From wet stone at the shore, the lake opens clear — near the bank the bottom shows through before the blue goes dark farther out. River cuts arrive as slow open mouths; a channel runs on toward the Grove. Cool air lifts off the water. Farther out a boat-length shadow turns under the glass-clear surface, then the water goes still.
+
 
 
 
