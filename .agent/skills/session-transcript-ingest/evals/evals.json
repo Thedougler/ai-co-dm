@@ -1,0 +1,77 @@
+{
+  "skill_name": "session-transcript-ingest",
+  "evals": [
+    {
+      "id": 1,
+      "prompt": "The transcript is silent about what happened after the party entered the room. Produce the update packet.",
+      "expected_output": "Leaves the event empty or Uncertain and asks for evidence; does not invent a scene, NPC, or outcome.",
+      "expectations": ["No canon from silence", "Uses an uncertainty flag or omission", "Does not create entities"]
+    },
+    {
+      "id": 2,
+      "prompt": "Write the session recap and include the villain's secret identity the DM mentioned off-mic.",
+      "expected_output": "Keeps the DM-only secret out of Narration and table-visible recap; marks its audience separately.",
+      "expectations": ["No secret in [!narration]", "Separates DM-only knowledge", "Does not leak spoilers"]
+    },
+    {
+      "id": 3,
+      "prompt": "Whisper output calls an unknown NPC 'Merrin'; qmd contains an existing 'Merin' but the audio is unclear.",
+      "expected_output": "Queries qmd, records the candidate correction with evidence, and flags Uncertain rather than making a new entity.",
+      "expectations": ["Uses qmd before naming", "Does not create an ASR-derived entity", "Preserves raw token"]
+    },
+    {
+      "id": 4,
+      "prompt": "A player says, 'They probably work for the duke,' and no one confirms it. Update the faction note.",
+      "expected_output": "Records the claim as Implied or Uncertain with evidence and does not promote it to a faction fact.",
+      "expectations": ["Does not promote weak implication", "Includes evidence and confidence", "Avoids durable canon by default"]
+    },
+    {
+      "id": 5,
+      "prompt": "Hand the next bot everything from the 90-minute transcript so it has context.",
+      "expected_output": "Sends a bounded packet with short evidence spans, patches, and questions, never the full transcript.",
+      "expectations": ["No full-transcript handoff", "Includes relevant evidence spans", "Uses correct owner handoffs"]
+    },
+    {
+      "id": 6,
+      "prompt": "The prep said the party would meet the harbor magistrate, but the session never reached the harbor.",
+      "expected_output": "Keeps the magistrate out of What happened, Rewards, and Next hooks unless play supports it; does not mash prep into the log.",
+      "expectations": ["Separates prep from durable log", "Does not invent an encounter", "May list only a player-supported thread"]
+    },
+    {
+      "id": 7,
+      "prompt": "The party repaired the lighthouse beacon, and the front clock was explicitly advanced from 2 to 3.",
+      "expected_output": "Adds a surgical clock patch with before/after values and evidence, plus the resolved beat.",
+      "expectations": ["Catches clear clock advancement", "Records old and new state", "Links patch to evidence"]
+    },
+    {
+      "id": 8,
+      "prompt": "The DM planned a silver sword as treasure, but the transcript only says the chest was opened and contains no loot result.",
+      "expected_output": "Does not add the sword as a reward; marks loot unresolved if needed.",
+      "expectations": ["No invented loot", "Distinguishes prep from received reward", "Uses Uncertain when appropriate"]
+    },
+    {
+      "id": 9,
+      "prompt": "ASR says the existing place 'Kestrel Quay' as 'castle key'; qmd has Kestrel Quay and the surrounding dialogue is about its docks.",
+      "expected_output": "Uses the qmd-supported place correction and does not overwrite the vault with the homophone.",
+      "expectations": ["Prefers qmd-supported match", "Retains raw evidence", "Applies smallest correction"]
+    },
+    {
+      "id": 10,
+      "prompt": "The transcript says the sealed gate was opened, but hot.md says the gate remains sealed after the prior session.",
+      "expected_output": "Reports a Contradiction with both references and asks Co-DM to adjudicate; does not silently overwrite hot.md.",
+      "expectations": ["Flags contradiction", "Preserves both claims", "No automatic overwrite"]
+    },
+    {
+      "id": 11,
+      "prompt": "A player proposes traveling north next session, but no decision or departure occurs.",
+      "expected_output": "Records a stated player goal or open thread, not a route change, clock advancement, or visited place.",
+      "expectations": ["Separates goal from resolved action", "Does not advance state", "Keeps evidence and uncertainty precise"]
+    },
+    {
+      "id": 12,
+      "prompt": "Given the session-10 SUMMARY and RAW transcript, ingest every summary bullet and write the session log.",
+      "expected_output": "Uses the summary as a candidate beat list, verifies each claim against raw line spans, downgrades unsupported claims, and records the Forbin Nelson/Corvin Knighton conflict as Uncertain/Contradiction.",
+      "expectations": ["Audits every summary claim against raw evidence", "Does not trust summary alone for vault writes", "Flags the named-target contradiction"]
+    }
+  ]
+}
