@@ -7,6 +7,53 @@ source: house (2024 Roc chassis, SRD peer)
 visibility: dm
 tags: [monster, aruhe]
 ---
+
+```statblock
+layout: Basic 5e Layout
+name: Bloodhawk
+size: Gargantuan
+type: monstrosity
+alignment: unaligned
+ac: "15 (natural armor)"
+hp: 248
+hit_dice: 16d20 + 80
+speed: 20 ft., fly 120 ft.
+stats: [28, 10, 20, 3, 12, 9]
+saves:
+  - dexterity: 4
+  - constitution: 9
+  - wisdom: 5
+skillsaves:
+  - Perception: 9
+senses: passive Perception 19
+languages: "—"
+cr: 11
+traits:
+  - name: Four-Winged Lift
+    desc: "The bloodhawk flies at full speed while grappling one creature. It can grapple a Gargantuan creature; while doing so, its flying speed is halved."
+  - name: Blood-Red Vigil
+    desc: "The bloodhawk has advantage on Wisdom (Perception) checks that rely on sight."
+  - name: Sculpted Predator
+    desc: "The bloodhawk's weapon attacks are magical."
+actions:
+  - name: Multiattack
+    desc: "The bloodhawk makes two attacks using Beak or Sickle Claw. It can replace one attack with Talon Grab."
+  - name: Beak
+    desc: "Melee Weapon Attack: +13 to hit, reach 10 ft., one target. Hit: 28 (3d12 + 9) piercing damage, and the target must succeed on a DC 17 Constitution saving throw or take 5 (1d10) piercing damage at the start of each of its turns (serrated wound). A creature can take an action to stanch the wound, ending the effect. Magical healing also ends it."
+  - name: Sickle Claw
+    desc: "Melee Weapon Attack: +13 to hit, reach 10 ft., one target. Hit: 22 (3d8 + 9) slashing damage, or 31 (5d8 + 9) if the target is Grappled by the bloodhawk."
+  - name: Talon Grab
+    desc: "Melee Weapon Attack: +13 to hit, reach 5 ft., one target. Hit: 23 (4d6 + 9) slashing damage. If the target is Huge or smaller, it has the Grappled condition (escape DC 19). Until the grapple ends, the target has the Restrained condition, and the bloodhawk can't use Talon Grab on another target."
+  - name: Canopy Dive (Recharge 5–6)
+    desc: "The bloodhawk flies up to its speed toward one creature it can see at least 30 feet below it. If it moves at least 40 feet straight toward that target, it makes one Beak attack against it with advantage. On a hit, the attack deals an extra 14 (4d6) piercing damage."
+bonus_actions:
+  - name: Haul Aloft
+    desc: "If the bloodhawk is grappling a creature, it flies up to half its flying speed without provoking opportunity attacks from that creature."
+reactions:
+  - name: Wing Buffet
+    desc: "Trigger: The bloodhawk is hit by a ranged attack while flying and isn't grappling a Gargantuan creature. Response: The attacker must reroll the attack and use the new roll."
+```
+
 # Bloodhawk of Aruhe
 
 > [!narration] Narration
@@ -33,48 +80,6 @@ Cloud-canopy nests and open water on [[Aruhe - Hungry Isle]]. Hungry ground belo
 - Crimson primary feathers (ritual / trophy).
 - Nest material high in the canopy (surveyors may want a look).
 - Optional: a branded band or fetish marking the druid lich’s sculpting (**brief-canon**; not yet on the Aruhe location note).
-
-## Stat block (house)
-**Bloodhawk**  
-*Gargantuan Monstrosity, Unaligned*
-
-**Armor Class** 15 (natural armor)  
-**Hit Points** 248 (16d20 + 80)  
-**Speed** 20 ft., fly 120 ft.
-
-| STR | DEX | CON | INT | WIS | CHA |
-|---|---|---|---|---|---|
-| 28 (+9) | 10 (+0) | 20 (+5) | 3 (−4) | 12 (+1) | 9 (−1) |
-
-**Saving Throws** Dex +4, Con +9, Wis +5  
-**Skills** Perception +9  
-**Senses** Passive Perception 19  
-**Languages** —  
-**Challenge** 11 (XP 7,200; PB +4)
-
-### Traits
-**Four-Winged Lift.** The bloodhawk flies at full speed while grappling one creature. It can grapple a Gargantuan creature; while doing so, its flying speed is halved.
-
-**Blood-Red Vigil.** The bloodhawk has advantage on Wisdom (Perception) checks that rely on sight.
-
-**Sculpted Predator.** The bloodhawk’s weapon attacks are magical.
-
-### Actions
-**Multiattack.** The bloodhawk makes two attacks using Beak or Sickle Claw. It can replace one attack with Talon Grab.
-
-**Beak.** *Melee Weapon Attack:* +13 to hit, reach 10 ft., one target. *Hit:* 28 (3d12 + 9) piercing damage, and the target must succeed on a DC 17 Constitution saving throw or take 5 (1d10) piercing damage at the start of each of its turns (serrated wound). A creature can take an action to stanch the wound, ending the effect. Magical healing also ends it.
-
-**Sickle Claw.** *Melee Weapon Attack:* +13 to hit, reach 10 ft., one target. *Hit:* 22 (3d8 + 9) slashing damage, or 31 (5d8 + 9) if the target is Grappled by the bloodhawk.
-
-**Talon Grab.** *Melee Weapon Attack:* +13 to hit, reach 5 ft., one target. *Hit:* 23 (4d6 + 9) slashing damage. If the target is Huge or smaller, it has the Grappled condition (escape DC 19). Until the grapple ends, the target has the Restrained condition, and the bloodhawk can’t use Talon Grab on another target.
-
-**Canopy Dive (Recharge 5–6).** The bloodhawk flies up to its speed toward one creature it can see at least 30 feet below it. If it moves at least 40 feet straight toward that target, it makes one Beak attack against it with advantage. On a hit, the attack deals an extra 14 (4d6) piercing damage.
-
-### Bonus Actions
-**Haul Aloft.** If the bloodhawk is grappling a creature, it flies up to half its flying speed without provoking opportunity attacks from that creature.
-
-### Reactions
-**Wing Buffet.** *Trigger:* The bloodhawk is hit by a ranged attack while flying and isn’t grappling a Gargantuan creature. *Response:* The attacker must reroll the attack and use the new roll.
 
 ## Running notes
 - **Default:** Dive if ready → Talon Grab → Haul Aloft → Sickle on the grappled target.

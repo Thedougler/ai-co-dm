@@ -7,6 +7,33 @@ source: house (wiki creature.grubnade, upgraded)
 visibility: dm
 tags: [monster, aruhe]
 ---
+
+```statblock
+layout: Basic 5e Layout
+name: Grubnade
+size: Tiny
+type: monstrosity
+alignment: unaligned
+ac: 11
+hp: 1
+hit_dice: "1"
+speed: 10 ft., climb 10 ft.
+stats: [2, 12, 10, 1, 10, 2]
+senses: passive Perception 10
+languages: "—"
+cr: 0
+traits:
+  - name: Harmless Until Touched
+    desc: "The grubnade doesn't attack creatures and normally ignores anything that remains more than a few inches away. It becomes disturbed if a creature touches or picks it up, if it takes any damage, if a creature deliberately shakes or crushes the plant supporting it, or if its space is subjected to significant fire, thunder, or bludgeoning damage. Normal footsteps nearby do not trigger it."
+  - name: Thermal Runaway
+    desc: "When disturbed, the grubnade's body visibly swells and hisses. It detonates at the end of the current turn."
+  - name: Blast-Birth
+    desc: "Immediately after the grubnade detonates, 1d4 + 1 juvenile grubnades are hurled 10–30 feet in different directions and land harmlessly in nearby vegetation. Juveniles are Tiny, translucent, and roughly finger-joint sized. They cannot detonate. After seven days of feeding, each becomes a mature grubnade."
+actions:
+  - name: Chemical Burst
+    desc: "When the grubnade detonates, each creature within 5 feet of it must succeed on a DC 12 Dexterity saving throw or take 7 (2d6) fire damage, taking half as much on a success. Unattended flammable objects in the area ignite. The burst is a brief fireball roughly five feet across — a flash of burning aerosol, not sustained flame."
+```
+
 # Grubnade
 
 > [!narration] Narration
@@ -25,28 +52,6 @@ Thermal Runaway · Chemical Burst · Blast-Birth (1d4+1 juveniles)
 
 ## Terrain / friends
 Old Gardens primary; Quiet leaves with neat bites and five-foot scorch rings. Learned predators refuse it (Wolfrabbit, Deer-Stalker, Otter, Terror-Bird).
-
-## Stat block (house)
-**Grubnade**  
-*Tiny Monstrosity, Unaligned*
-
-**AC** 11 · **HP** 1 · **Speed** 10 ft., climb 10 ft.
-
-| STR | DEX | CON | INT | WIS | CHA |
-|---|---|---|---|---|---|
-| 2 (−4) | 12 (+1) | 10 (+0) | 1 (−5) | 10 (+0) | 2 (−4) |
-
-**Senses** Passive Perception 10 · **CR** 0 (XP 0 or 10; PB +2)
-
-### Traits
-**Harmless Until Touched.** Doesn't attack. Disturbed if touched/picked up, damaged, its plant is shaken/crushed, or its space takes significant fire/thunder/bludgeoning. Footsteps nearby don't trigger it.
-
-**Thermal Runaway.** When disturbed, body swells and hisses; detonates at the **end of the current turn**.
-
-**Blast-Birth.** After detonation, **1d4 + 1** juveniles hurl 10–30 feet into vegetation. Juveniles: Tiny, can't detonate; mature after ~7 days feeding.
-
-### Actions
-**Chemical Burst (detonation).** Each creature within 5 feet makes a DC 12 Dexterity save, taking 7 (2d6) fire damage on a failure or half on a success. Unattended flammables ignite. Brief flash, not sustained flame. The grubnade dies.
 
 ## Running notes
 Make it cute first. Delay to end of turn is the whole encounter. After one pop, no check to remember. DC 12 Perception to notice in dense foliage; DC 13 Nature reservoirs; DC 15 Nature brood chambers.

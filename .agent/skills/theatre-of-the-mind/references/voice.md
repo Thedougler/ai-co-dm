@@ -185,6 +185,8 @@ evidence.
 | a boundary hangs on an unseen thing | show the surface, edge, or landmark that owns the boundary |
 | a trembling line has no catch or place | name its target and location, or cut it as mood |
 | a first look resolves a hit | show the reaching line or buildup; resolve contact after the declared action |
+| monster `[!narration]` finishes Hookline/Reel, grab, bite, or haul | cold portrait of body/behavior, or situated telegraph only (e.g. hanging line snaps taut); no ankle/boot/haul |
+| first look narrates `anyone understands` / PC feelings / freeze-frame past contact | cut cognition; stop before resolved contact |
 | a body part arrives before its owner | name the body, familiar size, and silhouette first |
 | a handle arrives before its trait | show the stable trait while the body moves; let players name or reuse it afterward |
 | an established full scene ends at its first micro-opening | include all relevant visible subjects and relationships before the natural stop |

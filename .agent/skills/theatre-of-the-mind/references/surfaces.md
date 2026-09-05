@@ -13,6 +13,10 @@ template.
 
 Choose the mode before choosing the surface:
 
+If the job is `[!narration]` on a creature/monster owning page and no current
+table state is supplied, force **standalone portrait**. Do not promote parent
+tactics or signature moves into a situated ambush.
+
 - **Situated moment:** use the supplied viewpoint and current table state, then
   route to the matching contract below. A loaded first look is one complete
   spoken block of every relevant currently perceivable subject, relationship,
@@ -47,7 +51,7 @@ is contract coverage, not a dump of every parent heading.
 | Vehicle | Use the spatial/entity hybrid: camera, silhouette and scale, how the vehicle occupies or moves through its environment, only a currently observable or established route/state, a supported boarding or access interface, one operational signature, and the current affordance or handoff. Name both ends of a relationship when needed (for example, “the crane swings over the cargo deck”). Do not infer party size or a boarding restriction; state a restriction only when current perception or established canon supports it. Source silence is not evidence of absence: do not narrate no gangway, empty dock, closed access, missing staff, or missing route unless the viewpoint/current state or parent positively establishes that absence. Do not turn this sequence into a formula or invent an interface missing from the parent. | Stop at the supported access point, operating problem, arrival, or opening the players can use; a natural handoff need not be a question. |
 | Object, item, or landmark | Route by interaction state: visible, held/inspected, recognized/used, or recurrent/intelligent. Name the object, its current affordance, and only facts the access gate supports. Holding an intact object exposes its exterior and contact, not its interior, underside, function, history, contents, taste, or magic. | Stop at the affordance, question, or unresolved result that calls for a declared interaction. |
 | Business, shop, tavern, or service | State only an established purpose or offer, a visible/current interface, and a usable signature that does business work. Translate supported purpose/current table state into concrete nouns and verbs; people may be shown using established benches, vessels, tools, or services when canon says they are present. Never recite subtype, opening-hours metadata, clientele taxonomy, “population,” schema labels, or abstract service fields. Never infer shelves, a counter, proprietor, menu, rooms, hours, quest, stock, or biography. If first-sight stock is missing, invoke the owning craft or `fleshing-out-content`; if unavailable, report the insufficiency outside player-facing prose. If no supported interface or action exists, give only safe established identification outside narration or route upstream; do not fabricate a handoff. If the parent contradicts itself, surface the conflict for content repair and limit safe prose to unquestionably established facts. Source silence is not a genre default. | Stop at the supported service interface, offer, pressure, or handoff; if no interface or action is supported, stop outside player-facing prose or route upstream. |
-| Creature or monster | Make the requested creature or group the grammatical and attentional subject; habitat gets only enough seat to locate its entrance or motion. Show observable body, behavior, posture, and sensory effects actually experienced. For a group, use a collective noun, one supported formation or motion, and one supported visible consequence. Convert supported numeric scale into a drawable body relation where possible without inventing a comparison. Separate visible manifestation, a qualified inference, and mechanic/secret text. Telegraph danger through buildup; do not recite exact aura radius, DC, condition, HP, or hidden ability without earned knowledge. | Stop at the creature's reaction point, a player choice, or the next live opening. |
+| Creature or monster | Make the requested creature or group the grammatical and attentional subject; habitat gets only enough seat to locate its entrance or motion. Show observable body, behavior, posture, and sensory effects actually experienced. For a group, use a collective noun, one supported formation or motion, and one supported visible consequence. Convert supported numeric scale into a drawable body relation where possible without inventing a comparison. Separate visible manifestation, a qualified inference, and mechanic/secret text. Telegraph danger through buildup; do not recite exact aura radius, DC, condition, HP, or hidden ability without earned knowledge. On a first look, do not resolve Hookline/Reel, claw, bite, grab, or other contact. | **Reaction point (hard):** stop *before* resolved contact. Max first-look danger is a visible telegraph — hanging line snaps taut over the trail, weight shifts, posture coils — with the creature as subject. Fail if ankle/boot is seized, feet leave the ground, haul completes, or PC cognition is narrated. Then a player choice or next live opening. |
 | Person or NPC | Give a reusable **Face**, the established current objective, an action or physical cue, and one sourced sense when useful. Do not invent a motive the viewpoint cannot know. | Stop when the person looks up, changes action, offers an opening, or waits for the players. |
 | Dialogue | Give the speaker's want now, tactic or physical cue, and one utterance that asks, presses, offers, answers, or threatens. Accents are optional. Keep the response opening answerable. | Stop after that beat; separate later aside, warning, or thank-you so players can interrupt. |
 | Combat update | Name the acting body, its intent or resolved action, position in the established field, causal fictional change, and the next live actor, threat, or opening. Keep routine hits short; put damage numbers and procedure in mechanics. A dramatic outcome may invite bounded player authorship without dictating a PC's injury or emotion. | Stop at the next turn, threat, opening, or bounded question. |
@@ -73,11 +77,12 @@ The fields below are coverage dimensions, not a required output sequence.
   is explicitly granted.
 - **Creature:** make a species identity card: stable body plan and silhouette,
   scale, one supplied persistent marker or material, ordinary observable
-  behavior, and habitat only as stable ecology. A response state reports the
-  observable stimulus and response, then stops. Do not add an unseen agent,
-  cause, direction, meaning, threat, or tactical interpretation, including a
-  hedge. Do not invent a marker from a name alone. See the creature-response
-  gate in [boundary.md](boundary.md).
+  behavior, and habitat only as stable ecology. Keep signature moves, tactics,
+  and ambush scripts out of the cold `[!narration]` block. A response state
+  reports the observable stimulus and response, then stops. Do not add an
+  unseen agent, cause, direction, meaning, threat, or tactical interpretation,
+  including a hedge. Do not invent a marker from a name alone. See the
+  creature-response gate in [boundary.md](boundary.md).
 - **Place or region:** give neutral structure, overall form and scale,
   topology and vertical relationships, major established public landmarks,
   established/public approaches, sensory character, and recognizable public

@@ -7,6 +7,46 @@ source: house (wiki creature.wolfrabbit, upgraded)
 visibility: dm
 tags: [monster, aruhe]
 ---
+
+```statblock
+layout: Basic 5e Layout
+name: Wolfrabbit
+size: Medium
+type: monstrosity
+alignment: unaligned
+ac: "14 (natural armor)"
+hp: 45
+hit_dice: 6d10 + 12
+speed: 40 ft.
+stats: [16, 18, 14, 4, 14, 6]
+skillsaves:
+  - Perception: 4
+  - Stealth: 6
+senses: darkvision 60 ft., passive Perception 14
+languages: "—"
+cr: 2
+traits:
+  - name: Standing Leap
+    desc: "The wolfrabbit can long jump up to 30 feet and high jump up to 15 feet, with or without a running start. It can jump over creatures smaller than itself, and nonmagical difficult terrain on the ground does not cost it additional movement while jumping."
+  - name: Pack Rend
+    desc: "Once per turn when the wolfrabbit hits a Prone creature with its Bite, the attack deals an extra 4 (1d8) piercing damage if another wolfrabbit is within 5 feet of the target."
+  - name: Blood-Scented
+    desc: "The wolfrabbit has advantage on Wisdom (Perception) checks made to locate a creature that is below its hit point maximum."
+actions:
+  - name: Bite
+    desc: "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 9 (1d12 + 3) piercing damage."
+  - name: Raking Claws
+    desc: "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 8 (2d4 + 3) slashing damage."
+  - name: Pouncing Bound
+    desc: "The wolfrabbit leaps up to 30 feet to an unoccupied space it can see and makes one Raking Claws attack against a creature within 5 feet of where it lands. If the wolfrabbit began the leap at least 20 feet from the target and the attack hits, the target must succeed on a DC 13 Strength saving throw or fall Prone. If the target remains standing after the attack, the wolfrabbit can immediately leap up to 10 feet to an unoccupied space it can see. This movement does not provoke an opportunity attack from that target."
+bonus_actions:
+  - name: Devour the Pack
+    desc: "The wolfrabbit tears into the corpse of another wolfrabbit within 5 feet that died since the end of the wolfrabbit's previous turn. The corpse is mangled and cannot be used for this ability again. The wolfrabbit gains 7 temporary hit points and becomes Frenzied until the end of its next turn. While Frenzied, its speed increases by 10 feet and its Bite deals an extra 3 (1d6) piercing damage."
+reactions:
+  - name: Frenzy Toward the Fallen
+    desc: "When another wolfrabbit the wolfrabbit can see within 30 feet drops to 0 hit points, the wolfrabbit can immediately leap up to 15 feet toward that creature without provoking opportunity attacks."
+```
+
 # Wolfrabbit
 
 > [!narration] Narration
@@ -30,40 +70,6 @@ Pouncing Bound · Pack Rend · Devour the Pack (cannibalize fallen ally)
 
 ## Loot / aftermath
 Warren burrows in terrace stone. Nothing of value.
-
-## Stat block (house)
-**Wolfrabbit**  
-*Medium Monstrosity, Unaligned*
-
-**AC** 14 (natural armor) · **HP** 45 (6d10 + 12) · **Speed** 40 ft.
-
-| STR | DEX | CON | INT | WIS | CHA |
-|---|---|---|---|---|---|
-| 16 (+3) | 18 (+4) | 14 (+2) | 4 (−3) | 14 (+2) | 6 (−2) |
-
-**Skills** Perception +4, Stealth +6  
-**Senses** darkvision 60 ft., Passive Perception 14  
-**CR** 2 (XP 450; PB +2)
-
-### Traits
-**Standing Leap.** Long jump 30 ft., high jump 15 ft., with or without a running start. Can jump over creatures smaller than itself; nonmagical difficult terrain doesn't cost extra movement while jumping.
-
-**Pack Rend.** Once per turn when it hits a Prone creature with Bite and another wolfrabbit is within 5 feet of the target, the Bite deals an extra 4 (1d8) piercing damage.
-
-**Blood-Scented.** Advantage on Wisdom (Perception) checks to locate a creature below its hit point maximum.
-
-### Actions
-**Bite.** *Melee Weapon Attack:* +5 to hit, reach 5 ft. *Hit:* 9 (1d12 + 3) piercing damage.
-
-**Raking Claws.** *Melee Weapon Attack:* +5 to hit, reach 5 ft. *Hit:* 8 (2d4 + 3) slashing damage.
-
-**Pouncing Bound.** Leap up to 30 feet to an unoccupied space; make one Raking Claws attack against a creature within 5 feet of the landing. If the leap began ≥20 feet from the target and the attack hits, the target makes a DC 13 Strength save or falls Prone. If the target remains standing, the wolfrabbit can immediately leap up to 10 feet (no opportunity attack from that target).
-
-### Bonus Actions
-**Devour the Pack.** Tear into another wolfrabbit's corpse within 5 feet that died since the end of this wolfrabbit's previous turn (corpse usable once). Gain 7 temporary HP and become Frenzied until the end of its next turn (speed +10 ft.; Bite deals extra 3 (1d6) piercing).
-
-### Reactions
-**Frenzy Toward the Fallen.** When another wolfrabbit it can see within 30 feet drops to 0 HP, leap up to 15 feet toward that creature without provoking opportunity attacks.
 
 ## Running notes
 Opener: Bound from elevation. Focus Prone targets. On a kill in the pack, Devour cascades. Exit: break off pursuit once the party leaves the terrace line.

@@ -7,6 +7,46 @@ source: house (wiki creature.aruhe-river-otter; individual chassis filled provis
 visibility: dm
 tags: [monster, aruhe]
 ---
+
+```statblock
+layout: Basic 5e Layout
+name: Aruhe River Otter
+size: Large
+type: monstrosity
+alignment: unaligned
+ac: 15
+hp: 76
+hit_dice: 9d10 + 27
+speed: 20 ft., swim 40 ft.
+stats: [18, 16, 16, 6, 14, 8]
+skillsaves:
+  - Athletics: 6
+  - Perception: 4
+  - Stealth: 5
+senses: darkvision 60 ft., passive Perception 14
+languages: "—"
+cr: 4
+traits:
+  - name: Hold Breath
+    desc: "The otter can hold its breath for 30 minutes."
+  - name: Family Memory
+    desc: "The family remembers fire, ropes, and who enters the water (DM tags)."
+  - name: Watery Ambush
+    desc: "Hunt mode only. The otter has advantage on attack rolls against creatures in the water if at least one other otter is within 10 feet of the target."
+actions:
+  - name: Multiattack (Hunt)
+    desc: "The otter makes one Bite attack and one Tail attack."
+  - name: Bite
+    desc: "Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 14 (2d8 + 4) piercing damage, and if the target is Medium or smaller it has the Grappled condition (escape DC 14)."
+  - name: Tail
+    desc: "Melee Weapon Attack: +6 to hit, reach 10 ft., one target. Hit: 11 (2d6 + 4) bludgeoning damage."
+  - name: Dunk (Recharge 5–6)
+    desc: "One creature Grappled by the otter is pulled up to 20 feet and shoved underwater (or held under if already in water). The target has the Restrained condition until the grapple ends."
+bonus_actions:
+  - name: Tug Toy (Play mode only)
+    desc: "Contested Athletics or Sleight of Hand against a held or worn object within 5 feet (or a trailing rope). On a success, the otter takes the object and swims 10 feet; no damage."
+```
+
 # Aruhe River Otter
 
 > [!narration] Narration
@@ -32,40 +72,6 @@ Play ladder · Coordinated dunk · Hunt Switch (silent military coordination)
 1. Entering the water is participating.  
 2. What comes from the river belongs to the family.  
 3. Responding to play teaches a new game.
-
-## Stat block (house) — adult individual
-*Wiki had family-procedure without full numbers; chassis below is provisional CR 4 for one adult.*
-
-**Aruhe River Otter**  
-*Large Monstrosity, Unaligned*
-
-**AC** 15 · **HP** 76 (9d10 + 27) · **Speed** 20 ft., swim 40 ft.
-
-| STR | DEX | CON | INT | WIS | CHA |
-|---|---|---|---|---|---|
-| 18 (+4) | 16 (+3) | 16 (+3) | 6 (−2) | 14 (+2) | 8 (−1) |
-
-**Skills** Athletics +6, Perception +4, Stealth +5  
-**Senses** darkvision 60 ft., Passive Perception 14  
-**CR** 4 (XP 1,100; PB +2)
-
-### Traits
-**Hold Breath.** 30 minutes.  
-**Family Memory.** The family remembers fire, ropes, and who enters water (DM tags).  
-**Watery Ambush.** Advantage on attack rolls against creatures in the water if at least one other otter is within 10 feet of the target (**Hunt mode only**).
-
-### Actions
-**Multiattack (Hunt).** Bite and Tail.  
-**Bite.** +6 to hit, reach 5 ft. *Hit:* 14 (2d8 + 4) piercing, and Medium/smaller Grappled (escape DC 14).  
-**Tail.** +6 to hit, reach 10 ft. *Hit:* 11 (2d6 + 4) bludgeoning.  
-**Dunk (Recharge 5–6).** One Grappled creature is pulled up to 20 feet and shoved underwater (or held under if already in water). Target is Restrained by the otter until grapple ends.
-
-### Bonus Actions (Play mode only)
-**Tug Toy.** Contested Athletics or Sleight of Hand vs a held/worn object within 5 feet (or trailing rope). On success, the otter takes the object and swims 10 feet; no damage.
-
-## Hunt Switch
-**Triggers:** damage a family member; touch a pup; >10 minutes in water; repeated spell tests; enter a den.  
-**Effect:** play ends; silent flanking/dunks/lethal bites. ~5 minutes after threat gone, pups wrestle again.
 
 ## Running notes
 Stage 1–3: one family initiative, no damage. Stage 4: dunk theater. Stage 5: full Hunt Multiattack. Show a Deer-Stalker head as tug-of-war before the party ever fights them.

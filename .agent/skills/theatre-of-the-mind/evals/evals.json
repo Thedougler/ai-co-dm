@@ -214,6 +214,16 @@
         "Names owner, contact, and visible consequence.",
         "Does not expand into a full creature portrait or purple combat poetry."
       ]
+    },
+    {
+      "id": 22,
+      "prompt": "Using campaigns/shattered-sea/monsters/aruhe/Great Crown Squid.md (or stripped parent facts: gargantuan canopy squid; translucent/glass-pale mantle; eight arms; hanging wet hooklines; plate eyes; Hookline/Reel tactics and 'Open with surveillance' in DM notes), write the page's `[!narration]` player block. No party position, initiative, or declared action is supplied.",
+      "expected_output": "Standalone cold portrait (silhouette/scale/arms/lines/eyes/ordinary canopy behavior) in flowing prose; tactics stay out. If wrongly situated, stop at visible telegraph only (e.g. hanging line snaps taut over trail) with the creature as grammatical subject \u2014 never resolved contact.",
+      "expectations": [
+        "Fails if ankle, boot, feet leave the ground, already aloft/hauled, 'anyone understands'/PC feelings, resolved Hookline/Reel contact, or an invented trailing PC.",
+        "Passes as cold portrait covering drawable squid body + ordinary canopy behavior without executing tactics.",
+        "If situated telegraph appears, it stops before contact and keeps the creature as subject (Strong canopy taut-line pattern)."
+      ]
     }
   ]
 }

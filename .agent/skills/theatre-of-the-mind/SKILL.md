@@ -33,7 +33,10 @@ mood claims to fake completeness.
 Length still follows the moment: a hit, reveal, or dialogue turn may be one
 tight line; a `[!narration]` portrait, room/place first look, creature first
 sight, or recap is usually one coherent spoken block (often a short paragraph
-of several connected sentences). Stop at the next meaningful player opening.
+of several connected sentences). Do **not** use the hit-line license to compress
+a creature first look into a resolved-snatch telegram. Stop at the next
+meaningful player opening — for a creature first look, that is the reaction
+point (telegraph), never after the haul.
 Do not force every surface into a spoken block, a fixed beat, or a located
 change.
 
@@ -51,9 +54,21 @@ limited view.
 Before surface routing, decide whether the request is a **situated moment** or a
 **standalone portrait**:
 
+**Hard mode gate for creature/monster owning-page `[!narration]`:** if the
+request is filling or rewriting `[!narration]` on a creature or monster note
+and no party position, initiative, declared action, or other current table
+state is supplied, the mode is **standalone cold portrait**. Signature moves,
+tactics, Hookline/Reel, ambush scripts, and “open with…” running notes stay in
+`[!mechanic]` / `[!secret]-` / DM sections — they must not become a situated
+snatch inside the callout. Inventing a trailing PC, ankle/boot contact, or
+completed haul is a fail.
+
 - **Situated moment:** write from the supplied table state and viewpoint. Route
   by surface below, preserve the current environment and motion, and stop at
-  that surface's natural player opening.
+  that surface's natural player opening. On a creature first look, the opening
+  is the **reaction point**: visible telegraph or buildup only — not resolved
+  contact, haul, or PC injury (see [references/surfaces.md](references/surfaces.md)
+  and [references/boundary.md](references/boundary.md)).
 - **Standalone portrait:** describe one item, creature, place, vehicle,
   business, person, or other subject as a self-contained player reference. Do
   not invent a party, encounter, specific environment, viewer or camera,

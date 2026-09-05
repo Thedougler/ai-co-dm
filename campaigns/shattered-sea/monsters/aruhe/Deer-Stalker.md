@@ -7,6 +7,56 @@ source: house (wiki creature.deer-stalker, upgraded)
 visibility: dm
 tags: [monster, aruhe]
 ---
+
+```statblock
+layout: Basic 5e Layout
+name: Deer-Stalker
+size: Large
+type: monstrosity
+alignment: unaligned
+ac: "15 (natural armor)"
+hp: 85
+hit_dice: 10d10 + 30
+speed: 40 ft., climb 20 ft.
+stats: [16, 20, 16, 6, 18, 6]
+saves:
+  - dexterity: 8
+  - wisdom: 7
+skillsaves:
+  - Stealth: 10
+  - Perception: 7
+  - Survival: 7
+senses: darkvision 120 ft., passive Perception 17
+languages: "—"
+cr: 5
+traits:
+  - name: Wasting Stillness
+    desc: "The deer-stalker can take the Hide action as a bonus action while in dim light, darkness, or natural foliage. If it has not moved since the start of its previous turn, it has advantage on Dexterity (Stealth) checks, and a creature searching for it cannot benefit from hearing when making its Wisdom (Perception) check. While motionless, the deer-stalker is indistinguishable from a sick deer until it speaks, attacks, or a creature sees its clawed forelimbs or forward-set eyes up close."
+  - name: Shadow Cover
+    desc: "The deer-stalker's movement makes no sound. While in dim light or darkness, moving at half its speed or less does not reveal its position to a creature from which it is hidden unless that creature sees it. The deer-stalker will not willingly enter bright light before it has hit a creature during this hunt."
+  - name: This Meal
+    desc: "When the deer-stalker first notices a creature that interrupted its feeding, or when it needs a new quarry, it chooses one creature it can see as its quarry — preferring the most isolated creature or the one that last touched its meal. It knows the direction of its quarry while the quarry is within 1 mile, and it has advantage on Wisdom (Survival) checks made to track that creature and on Wisdom (Perception) checks to hear it. Once on each of the deer-stalker's turns, when it hits its quarry with an attack while fewer than two conscious creatures other than the quarry are within 10 feet of the quarry, the attack deals an extra 7 (2d6) damage. The deer-stalker chooses a new quarry when the current quarry dies, when two or more conscious creatures other than the quarry are within 10 feet of the quarry at the start of the deer-stalker's turn, or when the deer-stalker ends its turn more than 1 mile from the quarry."
+  - name: Famished
+    desc: "The deer-stalker is Famished until it uses Feed or spends 1 minute consuming a carcass. While it is not Famished, Lost Nerve treats two qualifying creatures as enough to force a retreat."
+  - name: Lost Nerve
+    desc: "At the start of its turn, if three or more hostile creatures that are not unconscious are within 30 feet of it (two or more if it is not Famished), the deer-stalker must take the Dash or Hide action and move away. It can drag one grappled creature with it without reducing its speed. This trait does not apply if the deer-stalker has reduced a creature to 0 hit points since the start of its last turn."
+actions:
+  - name: Multiattack
+    desc: "The deer-stalker makes two Claw attacks."
+  - name: Claw
+    desc: "Melee Weapon Attack: +8 to hit, reach 10 ft., one target. Hit: 12 (2d6 + 5) slashing damage. If the target is Medium or smaller, the deer-stalker can grapple it (escape DC 14) instead of dealing the attack's slashing damage. The deer-stalker can grapple only one creature at a time."
+  - name: Snatch from the Dim (Recharge 5–6)
+    desc: "The deer-stalker can use this action only while hidden in dim light, darkness, or natural foliage. It moves up to its speed without provoking opportunity attacks and makes one Claw attack. On a hit, the attack deals its normal damage and, if the target is Medium or smaller, the target is also grappled (escape DC 14). The deer-stalker can then move up to half its speed, carrying a grappled creature with it without reducing its speed. If the target is the deer-stalker's quarry, This Meal can apply."
+  - name: Feed
+    desc: "The deer-stalker feeds on a carcass or on one unconscious or dead creature within 5 feet of it. It is no longer Famished. A creature the deer-stalker is feeding on that is at 0 hit points has disadvantage on death saving throws until the deer-stalker stops feeding or is moved away."
+bonus_actions:
+  - name: Borrowed Voice
+    desc: "The deer-stalker reproduces a sound it has heard, including a voice. The sound originates from its space and does not automatically reveal the deer-stalker if it is hidden, though a creature that hears the sound knows the direction. The deer-stalker prefers sounds that previously caused a specific creature to move toward their source, and it uses them out of context, looping a word or stretching a phrase. A creature that can see the original speaker knows the sound is an imitation. A creature that heard the original sound has advantage on a DC 14 Wisdom (Insight) check to recognize the imitation. After the deer-stalker uses a given sound without drawing a creature closer, it abandons that sound."
+reactions:
+  - name: Silent Retreat
+    desc: "When the deer-stalker is hit by an attack, if three or more hostile creatures that are not unconscious are within 30 feet of it, or if it is not Famished, it can move up to half its speed without provoking opportunity attacks. If it ends this movement in dim light, darkness, or natural foliage, it can immediately attempt to Hide."
+```
+
 # Deer-Stalker
 
 > [!narration] Narration
@@ -28,47 +78,6 @@ Quiet → Rot; Grasslands cover. Skirts [[Razer-Grass]] and [[Grubnade]]. Yields
 
 ## Loot / aftermath
 Interrupted kill site; sweet rot; nothing worth keeping.
-
-## Stat block (house)
-**Deer-Stalker**  
-*Large Monstrosity, Unaligned*
-
-**AC** 15 · **HP** 85 (10d10 + 30) · **Speed** 40 ft., climb 20 ft.
-
-| STR | DEX | CON | INT | WIS | CHA |
-|---|---|---|---|---|---|
-| 16 (+3) | 20 (+5) | 16 (+3) | 6 (−2) | 18 (+4) | 6 (−2) |
-
-**Saving Throws** Dex +8, Wis +7  
-**Skills** Perception +7, Stealth +10, Survival +7  
-**Senses** darkvision 120 ft., Passive Perception 17  
-**CR** 5 (XP 1,800; PB +3)
-
-### Traits
-**Wasting Stillness.** Can Hide as a bonus action in dim light, darkness, or natural foliage. If it hasn't moved since the start of its previous turn, advantage on Stealth; searchers can't use hearing for Perception against it. Motionless, it is indistinguishable from a sick deer until it speaks, attacks, or someone sees the clawed forelimbs / forward eyes up close.
-
-**Shadow Cover.** Movement is silent. In dim light or darkness, moving at half speed or less doesn't reveal it while hidden unless seen. It won't willingly enter bright light before it has hit a creature this hunt.
-
-**This Meal.** When it notices a creature that interrupted its feeding (or needs new quarry), it chooses one seen creature as quarry (prefer most isolated or who last touched the meal). Knows quarry's direction within 1 mile; advantage on Survival to track and Perception to hear it. Once per turn when it hits its quarry and fewer than two other conscious creatures are within 10 feet of the quarry, the hit deals extra 7 (2d6) damage. New quarry when current dies, when ≥2 other conscious creatures are within 10 feet of quarry at start of its turn, or when it ends a turn >1 mile away.
-
-**Famished.** Famished until it uses Feed or spends 1 minute on a carcass. While not Famished, Lost Nerve treats two qualifying creatures as enough to force retreat.
-
-**Lost Nerve.** At the start of its turn, if three or more hostile non-unconscious creatures are within 30 feet (two if not Famished), it must Dash or Hide and move away (can drag one grappled creature at full speed). Doesn't apply if it reduced a creature to 0 HP since the start of its last turn.
-
-### Actions
-**Multiattack.** Two Claw attacks.
-
-**Claw.** *Melee Weapon Attack:* +8 to hit, reach 10 ft. *Hit:* 12 (2d6 + 5) slashing damage. Instead of damage, can grapple Medium or smaller (escape DC 14). One grapple at a time.
-
-**Snatch from the Dim (Recharge 5–6).** Only while hidden in dim light, darkness, or foliage. Move up to its speed without provoking; one Claw attack. On a hit, normal damage and Medium/smaller also grappled (escape DC 14); then move up to half speed carrying the grappled creature. This Meal can apply.
-
-**Feed.** Feed on a carcass or an unconscious/dead creature within 5 feet. No longer Famished. A creature at 0 HP being fed on has disadvantage on death saves until feeding stops.
-
-### Bonus Actions
-**Borrowed Voice.** Reproduce a heard sound/voice from its space (doesn't auto-reveal if hidden; listeners know direction). Prefers sounds that previously drew a creature closer; uses them wrong (looped word, stretched phrase). Seeing the original speaker knows it's fake; hearing the original: advantage on DC 14 Insight to spot the imitation. Abandons a lure that stops drawing anyone.
-
-### Reactions
-**Silent Retreat.** When hit, if ≥3 hostile non-unconscious creatures are within 30 feet (or if not Famished), move half speed without provoking; if ending in dim/dark/foliage, can Hide.
 
 ## Running notes
 Meeting = carcass interrupt. Crash away → return. Prefer one awake PC. Three ready threats = leave. Answering a lure isn't cursed; walking to it is.

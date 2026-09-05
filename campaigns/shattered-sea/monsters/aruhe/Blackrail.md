@@ -7,6 +7,45 @@ source: house (wiki creature.blackrail; chassis filled provisional — wiki bloc
 visibility: dm
 tags: [monster, aruhe]
 ---
+
+```statblock
+layout: Basic 5e Layout
+name: Blackrail
+size: Huge
+type: monstrosity
+alignment: unaligned
+ac: "16 (natural armor)"
+hp: 178
+hit_dice: 17d12 + 68
+speed: 60 ft., climb 60 ft.
+stats: [22, 14, 18, 1, 14, 4]
+saves:
+  - dexterity: 6
+  - constitution: 8
+  - wisdom: 6
+skillsaves:
+  - Perception: 6
+senses: "tremorsense 120 ft. (while both it and a creature touch cave stone), passive Perception 16"
+languages: "—"
+cr: 9
+traits:
+  - name: Spider Climb
+    desc: "The blackrail climbs difficult surfaces, including ceilings, without an ability check."
+  - name: Blind Beyond Light
+    desc: "The blackrail's eyesight is poor. Flight, silence, water, or breaking contact with the rock interferes with its hunting."
+  - name: Tunnel Body
+    desc: "The blackrail cannot enter spaces narrower than 5 feet. At the end of a Tunnel Rush, if it moved 30 or more feet straight, it can't turn more than 90 degrees until the start of its next turn."
+actions:
+  - name: Multiattack
+    desc: "The blackrail makes two Mandible attacks, or one Mandible attack and one Pin."
+  - name: Mandible
+    desc: "Melee Weapon Attack: +10 to hit, reach 10 ft., one target. Hit: 17 (2d10 + 6) piercing damage plus 10 (3d6) poison damage."
+  - name: Tunnel Rush (Recharge 5–6)
+    desc: "The blackrail moves up to its speed in a straight line through a passage. Each creature in that path must make a DC 16 Dexterity saving throw. On a failed save, a creature takes 27 (5d10) bludgeoning damage, has the Prone condition, and is either pushed with the blackrail to the end of the move or pinned under a segment (Restrained, escape DC 16). On a successful save, a creature takes half damage and can dive into an alcove or side passage if one is within 5 feet."
+  - name: Pin
+    desc: "One Medium or smaller creature within 5 feet must succeed on a DC 16 Strength saving throw or have the Restrained condition from body segments (escape DC 16). While Restrained this way, the target takes 14 (4d6) poison damage at the start of each of its turns. The blackrail can restrain up to three creatures and can move at half speed while carrying pinned prey."
+```
+
 # Blackrail
 
 > [!narration] Narration
@@ -27,39 +66,6 @@ Tunnel Rush · Pin + venom · tremorsense telegraph
 
 ## Terrain / friends
 Cave main tubes. Diet: cave bats, fallen surface animals. Juveniles present ⇒ adult likely elsewhere.
-
-## Stat block (house)
-*Wiki listed traits/actions without full numbers — provisional CR 9 chassis below.*
-
-**Blackrail**  
-*Huge Monstrosity, Unaligned*
-
-**AC** 16 (natural armor) · **HP** 178 (17d12 + 68) · **Speed** 60 ft., climb 60 ft.
-
-| STR | DEX | CON | INT | WIS | CHA |
-|---|---|---|---|---|---|
-| 22 (+6) | 14 (+2) | 18 (+4) | 1 (−5) | 14 (+2) | 4 (−3) |
-
-**Saving Throws** Dex +6, Con +8, Wis +6  
-**Skills** Perception +6  
-**Senses** tremorsense 120 ft. (while both it and a creature touch cave stone), Passive Perception 16  
-**CR** 9 (XP 5,000; PB +4)
-
-### Traits
-**Spider Climb.** Climbs difficult surfaces, including ceilings, without an ability check.
-
-**Blind Beyond Light.** Eyesight poor. Flight, silence, water, or breaking contact with the rock interferes with hunting.
-
-**Tunnel Body.** Cannot enter spaces narrower than 5 feet. At the end of a Tunnel Rush, if it moved 30+ feet straight, it can't turn more than 90 degrees until the start of its next turn.
-
-### Actions
-**Multiattack.** Two Mandible attacks, or one Mandible and one Pin.
-
-**Mandible.** *Melee Weapon Attack:* +10 to hit, reach 10 ft. *Hit:* 17 (2d10 + 6) piercing damage plus 10 (3d6) poison damage.
-
-**Tunnel Rush (Recharge 5–6).** Move up to its speed in a straight line through a passage. Each creature in that path makes a DC 16 Dexterity save. Failure: 27 (5d10) bludgeoning damage, Prone, and either pushed with the blackrail to the end of the move or pinned under a segment (Restrained, escape DC 16). Success: half damage and the creature can dive into an alcove/side passage if one is within 5 feet.
-
-**Pin.** One Medium or smaller creature within 5 feet makes a DC 16 Strength save or is Restrained by body segments (escape DC 16). While Restrained this way, the target takes 14 (4d6) poison damage at the start of each of its turns (forcipule venom). The blackrail can restrain up to three creatures. It can move at half speed while carrying pinned prey.
 
 ## Running notes
 Listen → Approach (telegraph) → Rush/Pin → haul prey somewhere quiet. Counterplay: side crawlways, break stone contact, silence, water, Ready before it rounds the bend.

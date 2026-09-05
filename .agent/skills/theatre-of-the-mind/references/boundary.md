@@ -104,8 +104,10 @@ On a first look at a monster, expose only body, visible behavior, posture, and
 sensory effects actually experienced. Do not announce an exact 30-foot aura or
 suffocation before contact merely because the stat block contains them.
 Telegraph danger with an observable buildup — breath frosting, moths dropping,
-grass paling, a cough after someone enters — then resolve the mechanic when the
-table acts. A later public reveal may state the rule in the appropriate wrapper.
+grass paling, a hanging line snapping taut, a cough after someone enters —
+then resolve the mechanic when the table acts. Do not resolve Hookline/Reel,
+grab, bite, or haul on the first look. A later public reveal may state the rule
+in the appropriate wrapper.
 
 ## Creature response state
 
@@ -124,6 +126,14 @@ Never write what a PC thinks, feels, wants, decides, intends, remembers
 incorrectly, concludes, or chooses to investigate. Do not narrate a route,
 trust, surrender, victory, death, or other unresolved outcome. Show the
 stimulus and leave the response to the player.
+
+**Freeze-frame fail:** do not continue past the reaction point on a first look
+— no ankle/boot already seized, feet already leaving the ground, body already
+hauled aloft, or other completed contact/injury before the table can act.
+
+**Remote-control cognition fail:** do not narrate table understanding or PC
+awareness as prose payload (`before anyone understands`, `you realize too late`,
+`nobody notices until…`). Show the observable telegraph; let players react.
 
 NPC and faction behavior may pursue established goals. The world may change
 because of a resolved mechanic or an established pressure. A player-facing

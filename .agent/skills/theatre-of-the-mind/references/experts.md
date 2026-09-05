@@ -44,12 +44,16 @@ Kitchen-table body first — swollen clear body, not swollen lobed mantle. Save
 one striking fact for the first movement. Keep visible manifestation,
 permissible inference, and mechanic/secret separate. Exact aura radius, DC,
 condition, HP, or hidden ability belongs outside first-look prose unless it is
-known or earned. Stop at the reaction point or next opening, not a forced
-located change. A first look may take the Angry GM rat floor — several small
-visible facts hung on one body across the scene — not five facts dumped in the
-establishing shot, and not five short sentences that isolate each fact. Do not
-resolve a hit or contact before the table acts; show the reaching line, posture,
-or buildup, then resolve the contact in the next branch.
+known or earned. **Hard stop — reaction point:** on a first look, stop *before*
+resolved contact (Alexandrian reaction point / freeze-frame). Max danger is a
+visible telegraph — taut hanging line over the trail, coiling posture, reaching
+limb not yet closed — with the creature as grammatical subject. Fail if the
+draft finishes Hookline/Reel, puts a hook through a boot, lifts feet off the
+ground, or narrates PC cognition. A first look may take the Angry GM rat floor
+— several small visible facts hung on one body across the scene — not five facts
+dumped in the establishing shot, and not five short sentences that isolate each
+fact. Resolve contact only after a declared action or in a later combat-update
+branch — never inside cold `[!narration]` or the establishing shot.
 
 If time or habitat leads while the requested creature remains a generic noun,
 run the thin gate again: move the body to the grammatical subject and cut any
