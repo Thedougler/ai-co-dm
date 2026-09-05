@@ -1,0 +1,29 @@
+---
+type: location
+campaign: shattered-sea
+kind: site
+region: Sorn
+visibility: dm
+tags: [location, grung, beach, sorn, botukuri]
+---
+# Sorn Guarded Beach
+> [!narration] Narration
+> Reef, pale sand, and lanes of crop standing in water. A long-hut sits on the sand. Purple watches the treeline while the forest takes the next row.
+
+## Function
+Sorn's held landing and Simone's post. The last hundred yards are recut as policy; the interior is not open.
+
+## Routes and choices
+- Wait offshore, then trade on the sand through blue intermediaries.
+- Ask for [[Simone]] or the Botukuri and risk making the family hunt visible.
+- Enter the first lanes and become a trespasser in flood-pulse agriculture.
+- Retreat before the water rises; the same route may be a channel later.
+
+## Who is here
+A purple garrison, Botukuri farmers, blue intermediaries, and [[Simone]]. The post is a long-hut and watch, not a town or fort. Raids do not launch from here.
+
+## Clues and hazards
+The dark band behind the first rows is the take-back: last season's field under vine. Flood pulse moves creatures and boats; extra inland patrols signal Jean-Claude's hunt. Toxin trade and substitute-gold evidence point toward Dravosi buyers and Karath's absent reagent.
+
+## Linked
+- [[Sorn]] · [[Verdant Teeth]] · [[Simone]] · [[Jean-Claude Tabarnack]] · [[Grung clans]]

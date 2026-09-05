@@ -1,45 +1,55 @@
 ---
 type: location
 campaign: shattered-sea
-kind: site
-region: Midchain
+kind: region
+region: Verdant Teeth / eastern Midchain
 visibility: dm
-tags: [location, midchain, karath]
+tags: [location, region, grung, karath, aruhe]
 ---
 # Karath
 > [!narration] Narration
-> An eastern Midchain neighbor across a channel about half a mile wide at its closest point to Aruhe. The water makes the Hungry Isle’s western rim look near while the island’s heart remains hundreds of miles inland. Karath is an edge reference, not a shortcut to the center.
-
+> Bare shore, reef, rainforest flush to the water. The river coming out is the color of tea left a week. A dart snaps short of the bow before anyone can hail.
 
 ## At a glance
-An eastern Midchain neighbor near one edge of [[Aruhe - Hungry Isle]]. At one closest point the channel is about 0.5 miles wide; Karath is close to an edge, not to Aruhe's heart hundreds of miles inland.
+Karath is the Grung raid and hatchery island, and [[Aruhe - Hungry Isle]]'s near neighbor across a channel about half a mile wide at the closest edge. It is close to Aruhe's rim, not to Aruhe's heart; the island is country-scale in its own right.
 
 ## Five-sentence kernel
-- **Function:** A nearby Midchain reference point and possible edge-to-edge route for Aruhe surveys.
-- **Fantastic:** A channel narrow enough to make Aruhe look close while the island remains country-scale beyond the rim.
-- **Conflict:** Navigators may mistake proximity for access, while Aruhe's reef edge and Hunger Rule make the actual crossing consequential.
-- **Promise:** Use a neighboring island to measure scale, approach, and route assumptions.
-- **Trajectory:** If treated as a shortcut to Aruhe's heart, the survey begins with the wrong map; careful use keeps Karath an edge reference.
-
-## Aspects
-`near-edge neighbor, half-mile channel, false shortcut`
+- **Function:** A closed Grung island for raids, captive processing, hatchery enlargement, toxin work, and hidden gold-reagent production.
+- **Fantastic:** Tannin-black rivers, giant vermin pens, captive casters, and a gold-making diet source are folded into rainforest warfare.
+- **Conflict:** The clans need secrecy and labor while captives, lower castes, outsiders, and Aruhe's proximity make the pipeline unstable.
+- **Promise:** Trace a raid from reef gap to river, choose between rescue and exposure, and decide what a half-mile channel is actually worth.
+- **Trajectory:** Unchecked, Karath becomes a sharper supply island: more captives, more hatchery giants, and more aggressive water denial.
 
 ## Topology
-- `[[Midchain]] -- eastern chain route --> Karath`.
-- `Karath -- channel about 0.5 mi at one closest point --> [[Aruhe - Hungry Isle]]`.
-- `Karath -- near-edge reference (not inland shortcut) --> [[aruhe/Western Landing]]`.
+- `[[Midchain]] -- eastern chain route (raid reports, exposed) --> Karath reef gaps.`
+- `Karath reef gaps -- no sanctioned landing (dart and bow fire) --> tannin mouths.`
+- `tannin mouths -- wet cuts / flooded routes --> hatchery huts and captive pens.`
+- `hatchery works -- guarded interior (closed, hidden) --> gold reagent farms.`
+- `Karath -- half-mile closest channel --> [[Aruhe - Hungry Isle]] western edge.`
+- **Bypass:** remain offshore or approach through another Tooth; faster than inland entry, poorer information.
+- **Retreat:** reverse the reef gap or swim the channel only if the party has made the water survivable; neither route is safe by default.
 
-## Who is here
-- No Karath settlement, ecology, or named resident is established by this ingest.
+## People and work
+- Grung clans hold everything beyond the tree line and permit no sanctioned landing.
+- Fighting-age captives from raids enter a slavery pipeline. Captive casters are kept slow on toxin; a measured antidote lets them touch the Weave but not keep it.
+- Hatchery crews use captive casters to enlarge giant toads, snakes, and spiders in wet pens. These are worked animals, not an invitation to invent a new monster ecology.
+- Gold caste agents guard secret reagent farms inland. The farms grow the rare toxin needed for gold-tier color; they are not public shrines.
 
-## Hooks
-- Compare charts and sightings with the known Aruhe scale.
-- Correct the assumption that a close edge makes the island's heart nearby.
-- Use Karath to frame an approach without inventing a Karath town or culture.
+## Signatures and hazards
+- Tannin rivers and bracket fungus mark chemical pressure.
+- Reef gaps answer an unapproved hull with darts and arrows, not a warning hail.
+- Wet cuts flood in minutes; movement becomes wading, swimming, climbing, or retreat.
+- Giant vermin emerge from hatchery pens; gold patrols protect the farms.
+
+## Clues and consequences
+- A raid trail, captive testimony, or unusual poison can connect Midchain losses to Karath.
+- Physical traces at tannin mouths point to hatchery work; a caster's measured antidote points to the captive pipeline.
+- A diet/sealing trace that does not match public caste teaching points toward the gold farms.
+- Exposing the farms may fracture lower-caste trust; rescuing captives may make the fleet strike sooner.
+
+## Links
+- [[Verdant Teeth]] · [[Grung clans]] · [[Aruhe - Hungry Isle]] · [[Sorn]] · [[Dreth]]
+- [[The taken 314]] · [[Pursue the Grung raiding fleet]] · [[Grung Color and the Sealing Rite]]
 
 ## Secrets (DM)
-- Exact position of the closest channel and Karath's own details remain open.
-
-## Mechanics and return
-- Keep the channel distance approximate as given; no Karath encounter or settlement mechanics are established.
-- **Return state:** chart correction, approach assumptions, and route choice.
+Karath's gold reagent farms are secret even from lower castes. Simone has **never received Karath toxin**; her stalled partial gold is not proof that she controls or succeeded in the Karath process.

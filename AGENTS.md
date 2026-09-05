@@ -49,6 +49,8 @@ Obsidian LLM wiki for Nick's home D&D. **Markdown is the product.**
 |---|---|
 | Find vault facts | `qmd-retrieval` |
 | LLM-wiki pattern / ingest·query·lint doctrine | `llm-wiki` |
+| Ingest source → typed notes | `wiki-ingest` |
+| Wiki health / orphans / hot drift | `wiki-lint` → **Organizer** |
 | Player-facing prose / `[!narration]` | `theatre-of-the-mind` → **Visualizer** |
 | Session pacing | `session-beats` |
 | Places | `place-design` |

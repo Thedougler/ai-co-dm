@@ -2,69 +2,56 @@
 type: location
 campaign: shattered-sea
 kind: region
-region: middle Midchain
+region: Midchain
 visibility: dm
-tags: [location]
+tags: [location, region, grung, verdant-teeth]
 ---
 # Verdant Teeth
 > [!narration] Narration
-> _Visualizer: place portrait pending._
+> Rainforest comes down to the tide. Pale reef rings the channels. Small hulls work the gaps, and a dart that snaps short of the bow is the closest thing to a welcome.
+
 ## At a glance
-Five country-scale rainforest islands held by Grung clans; feels lush, layered, and theocratic.
+Five country-scale rainforest islands held by Grung clans: lush, wet, layered, and theocratic. Sanctioned beaches are interfaces, not invitations; the interior is closed.
+
 ## Five-sentence kernel
-- **Function:** A five-island Grung stronghold and source of the raiding fleet’s reach.
-- **Fantastic:** Rainforest scale, caste authority, and the constructed demigod Auralis make geography part of theology.
-- **Conflict:** Grung clans protect their communities and mandate while raids, captives, outsiders, and internal authority pull against one another.
-- **Promise:** Read a vast living stronghold, trace command and supply, and choose whether contact is rescue, diplomacy, or intrusion.
-- **Trajectory:** Raiding power consolidates or fractures when the taken, Auralis’s mandate, and outside pressure meet.
-## 3Fs and contradiction
-- **Fantastic:** five country-scale rainforests operate as one theocratic reach.
-- **Familiar:** canopy, rivers, paths, camps, and social hierarchy.
-- **Functional:** clan routes, tinctures, caste signals, and strongholds enable movement.
-- **Contradiction:** a mandate to protect communities is used to justify taking people.
-- **Signatures:** rainforest layers; gold-caste markers; constructed Auralis imagery/authority.
-## Current situation
-- **Canon:** five islands; Grung clans; gold caste; Auralis; raiding fleet; 314+ taken fighting-age people; [[Sparhold]] is trail stop before this stronghold.
-- **DM seed (unconfirmed):** island-to-island route, stronghold names, and internal dissent are not established.
-## Aspects
-`rainforest scale, gold caste, mandate made material`
-## Senses
-- **Sight:** canopy levels, wet paths, colour/caste signs, water routes, and hidden clearings.
-- **Sound:** insects, rain, movement above/below, calls, and ritual/work rhythms.
-- **Smell:** wet earth, plant sap, tinctures, smoke, and brine fading inland.
-## Topology (nodes beyond broad canon are seeds)
-- `Midchain -- sea approach (exposed, reads shore activity) --> outer island edge`.
-- `outer edge -- river/canopy route (slow, information-rich, clan attention) --> clan route`.
-- `clan route -- caste/ritual gate (social, legitimacy cost) --> stronghold`.
-- `stronghold -- fleet supply route (directional, defended) --> departure coast`.
-- **Loop:** shore → river/canopy → stronghold → another coast route.
-- **Bypass:** remain at sea or follow a local clan route; safety trades away context.
-- **Retreat:** reverse the river/shore route or return to Midchain; attention may follow.
-- **Vertical connection:** canopy, ground, and water routes provide different visibility and social risk.
-## Player verbs
-`observe, navigate, bargain, disguise, rescue, follow, map, disrupt supply, ask what protection means`.
+- **Function:** A five-island Grung stronghold, farm, hatchery, and launch system for the raiding fleet.
+- **Fantastic:** Rainforest, flooded forest, karst, poison ecology, and caste authority operate as one living closed interior.
+- **Conflict:** The clans defend community and sacred mandate while raids, captives, toxin trade, outsiders, and declining water power pull the system apart.
+- **Promise:** Read command and supply through terrain, negotiate at the sand, and choose whether rescue, diplomacy, or intrusion is worth the route cost.
+- **Trajectory:** If nobody intervenes, the fleet and captive pipeline consolidate while water losses make patrols and censure harsher.
+
+## Geography and topology
+- [[verdant-teeth/Veth|Veth]] — largest western island; one twenty-stride beach, blue go-betweens, no pier, and a vertical closed interior.
+- [[verdant-teeth/Sorn|Sorn]] — farm heart; Botukuri flood-pulse lanes and [[Sorn Guarded Beach]].
+- [[Karath]] — eastern raid and hatchery island, an Aruhe near neighbor with tannin rivers and secret gold reagent farms inland.
+- [[verdant-teeth/Dreth|Dreth]] — permanently drowned forest, timber works, and no charted shoreline.
+- [[verdant-teeth/Orak|Orak]] — high karst twin to Dreth; sinkholes, clefts, and wet dark nests.
+- [[Dreth-Orak Channel]] — forbidden flooded channel joining the eastern pair.
+
+`Midchain -- exposed reef approach --> sanctioned beach -- blue or purple interface --> island route -- closed interior --> clan work / sacred ground.`
+
+The cluster loops by water and canopy routes, but every route has a different cost: beach trade is safest but shallow; a Veth climb is informative but exposed; Dreth-Orak is hidden and committing; Karath's channel toward Aruhe is close at the edge but does not reach Aruhe's heart.
+
 ## Who is here
-- [[Grung clans]], gold caste, Auralis’s constructed authority, raiding fleet; exact clan roster and strongholds **DM seed (unconfirmed)**.
+- [[Grung clans]] — primary inhabitants, caste society, patrols, farms, fleet, and theology.
+- [[Auralis]] — public theocratic claim and private apex presence; exact nature UNKNOWN.
+- [[Simone]] and her Sorn garrison; [[Felix Aho]], [[Ruma Delacroix]], [[Solange Barret]], [[Bazzoth]], [[Vashu the Weeping Veil]], and [[Ozzeth]] as named faces of varying certainty.
+- Beach traders, captives, and the 314+ taken fighting-age people move through the system without owning it.
+
 ## Information economy
-- **Secret:** command structure behind raids is unknown.
-- **Witness:** clan face, captive, or raiding crew explains one motive/route.
-- **Trace:** tincture, fleet supply, caste mark, or route wear.
-- **Document/symbol:** Auralis mandate and clan sign reveal authority without resolving its truth.
-- **Failure cost:** attention, wrong route, social offence, or delayed rescue; essential direction survives.
+- **Operational:** A blue go-between can explain beach terms; a captive or deserter can explain why interior routes close; a physical toxin trace can point toward Karath or a shipment.
+- **Historical:** Twiceborn censure, Botukuri farming, and the old Aruhe wound survive in colors, hats, soil, and clan silence.
+- **Directional:** Veth points toward the closed canopy; Sorn toward Botukuri lanes; Karath toward hatchery and reagent supply; Dreth-Orak toward forbidden water and patrols.
+
 ## Pressure
-Quiet → Alert → Contested → Transformed: clan routine → outsider/raid response → stronghold/fleet disputed → authority or route changes.
-## Location moves
-**Move:** clan route closes. **Trigger:** outsider exposure or failed bargain. **Result:** canopy/water path changes. **Opportunity:** follow supply or negotiate with another caste. **Consequence:** old route becomes evidence, not access.
+Quiet → alert → contested → transformed. The fleet's water loss makes every approach more defensive. A broken beach rule closes a route; a captive witness opens a route but accelerates patrols; exposing gold farms risks caste fracture; losing a proa makes the remaining fleet more aggressive.
 
-**Move:** raiding fleet departs. **Trigger:** Taken 314 clock step. **Result:** supplies and witnesses relocate. **Opportunity:** rescue, track, or expose departure. **Consequence:** next raid becomes clearer or stronger.
+## Links
+- [[Grung clans]] · [[Auralis]] · [[The taken 314]] · [[Pursue the Grung raiding fleet]]
+- [[Aruhe - Hungry Isle]] · [[Grung and the Making of Aruhe]] · [[Warren]] · [[Sparhold]]
 
-**Move:** Auralis mandate is publicly invoked. **Trigger:** contested authority. **Result:** caste signs and ritual response organize movement. **Opportunity:** challenge, interpret, or leverage mandate. **Consequence:** internal coalition shifts.
-## Connections
-- [[Midchain]] · [[Sparhold]] · [[Grung clans]] · [[Warren]]
-## Hooks
-- Trace 314+ taken people, understand raiding command, and decide what rescue costs.
 ## Secrets (DM)
-- Exact clan politics, Auralis’s nature, island names, and stronghold geography are **DM seed (unconfirmed)** except the established public summary.
-## Mechanics and return
-- Rainforest and wet routes may be Difficult Terrain; use cover, Search/Study/Influence/Utilize. Flight, climb, and stealth gain access but create visible exposure/traces.
-- **Return state:** route knowledge, clan stance, fleet status, captive leads, and pressure state.
+The Grung clans' historical crime against a far-Midchain druid and her companion is the reason [[Aruhe - Hungry Isle]] exists as it does today. The full origin is in [[Grung and the Making of Aruhe]] and [[The Blight]]. Do not put the confession in the public narration.
+
+## Return state
+Track which beach is open, which patrol has moved, whether the fleet has departed, what the party learned about the captive pipeline, and whether the congregation or water route gained or lost ground.
