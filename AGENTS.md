@@ -23,7 +23,7 @@ Obsidian LLM wiki for Nick's home D&D. **Markdown is the product.**
 - No parallel DB/app. Vault *is* the system.
 - No prep/log mash (`session-prep` disposable; `session` durable).
 - No secrets/DCs/unearned names in `[!narration]`.
-- No “update the whole wiki” — surgical page sets only. Hygiene → **Organizer**; don’t full-wiki rewrite.
+- No “update the whole wiki” — surgical page sets only. Ingest → **Ingest**; lint/audit → **Linter**; structure/MOCs → **Organizer**; don’t full-wiki rewrite.
 - No full-transcript handoffs. No re-ls when `hot` + qmd suffice.
 - No silent overwrite of canon — flag in the note / ask Co-DM|Nick.
 
@@ -34,7 +34,8 @@ Obsidian LLM wiki for Nick's home D&D. **Markdown is the product.**
 - Frontmatter: `type`, `campaign`, `status`, `tags`, `visibility: table | dm`.
 - Leading `> [!narration] Narration` — TotM / **Visualizer**. Empty ok.
 - Session: [[templates/Session prep]] → run → [[templates/Session log]]; move still-relevant prep forward.
-- Scraps → `inbox/`, then file (Organizer drains on schedule).
+- Scraps → `inbox/`, then **Ingest** (`wiki-ingest`). Table recordings → `session-transcript-ingest` first, then Ingest if filing remains.
+- Canon owner remains **Co-DM** — Ingest compiles sources; does not silently invent table truth.
 - Finish with: `./scripts/after-write "short why"`.
 
 ### `type` enum
@@ -48,6 +49,9 @@ Obsidian LLM wiki for Nick's home D&D. **Markdown is the product.**
 | Job | Skill |
 |---|---|
 | Find vault facts | `qmd-retrieval` |
+| LLM-wiki pattern / doctrine | `llm-wiki` |
+| Ingest source → typed notes | `wiki-ingest` → **Ingest** |
+| Wiki health / orphans / hot drift | `wiki-lint` → **Linter** |
 | Player-facing prose / `[!narration]` | `theatre-of-the-mind` → **Visualizer** |
 | Session pacing | `session-beats` |
 | Places | `place-design` |
@@ -66,7 +70,9 @@ Packet only: `goal` · `allowed paths` · `type` · `constraints` · `do not re-
 | **Visualizer** | TotM / `[!narration]` only |
 | **Homebrewer** | Mechanical homebrew |
 | **Researcher** | Prior art (web); not vault canon |
-| **Organizer** | Indexes/MOCs, inbox drain, orphan/dupe proposals, hot drift |
+| **Organizer** | Indexes/MOCs, structure doctrine, hot refresh, light inbox triage |
+| **Ingest** | `wiki-ingest` — inbox/URL/paste → typed linked notes |
+| **Linter** | `wiki-lint` checklist/audit (report + propose) |
 | **Skill-Creator** | `.agent/skills/` |
 | **Ops** | Fleet, AGENTS, templates, qmd, routines |
 
