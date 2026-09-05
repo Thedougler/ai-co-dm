@@ -80,3 +80,8 @@ Densely packed small tropical islands, free ports, reefs, and local councils; fe
 ## Mechanics and return
 - Reef routes are Difficult Terrain for vessels; failure costs time or position, not the only clue. Use Study/Influence/Utilize for charts, tokens, signals.
 - **Return state:** update which councils know the crew, which channel is open, and the current pressure state.
+
+## Aruhe / Karath link
+- [[Karath]] is an eastern Midchain neighbor near one edge of [[Aruhe - Hungry Isle]]. At one closest point the channel is about 0.5 miles wide; Karath is close to an edge, while Aruhe's heart is hundreds of miles inland.
+- `Midchain -- near-edge channel (about 0.5 mi at one closest point) --> [[Karath]]`.
+- The established `[[Sparhold]] → [[Aruhe - Hungry Isle]]` route remains the active approach; Karath is not a shortcut to the island's heart.

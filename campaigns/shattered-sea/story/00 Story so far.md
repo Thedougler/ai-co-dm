@@ -17,9 +17,9 @@ tags: [story, recap]
 - [[Nona Black-Jaw]]'s Passage network, [[Fieschi]]'s credit, [[Shepherd Grigori]]'s unexplained healing, and the Sentinels' secrets survived the finale.
 
 ## Season 2 — open state
-- A cold open established [[Aruhe - Hungry Isle]] as the Hungry Isle: purple Grung and wolfrabbits, and ground that eats what lands — not yet a confirmed party landing.
+- A cold open established [[Aruhe - Hungry Isle]] as the Hungry Isle: purple Grung and wolfrabbits, and ground that eats what lands — not yet a confirmed party landing. The island's country-scale geography is now known: roughly 500 miles end-to-end, about 150 miles at the waist, with [[Karath]] close to one edge but the heart hundreds of miles inland.
 - The crew travels aboard [[Uncertainty]] into the Midchain sandbox, bound for [[Sparhold]] with Aruhe beyond it.
 - [[Nona Black-Jaw]] expects Perrin to survey Aruhe as a [[Tangle]] anchor; the 314+ taken by the Grung fleet, the Pearl at the bottom of the Maw, Simone's hunters, the Crown hunt for Grigori, and the Red Wake remain in motion.
 
 ## Open handle
-Next pressure is the Midchain route aboard [[Uncertainty]] toward [[Sparhold]], then [[Aruhe - Hungry Isle]], while the taken people, the Pearl, the Maw seal, Simone, Grigori, and the Red Wake remain unresolved.
+Next pressure is the Midchain route aboard [[Uncertainty]] toward [[Sparhold]], then [[Aruhe - Hungry Isle]], while the taken people, the Pearl, the Maw seal, Simone, Grigori, and the Red Wake remain unresolved. The cold open remains a cold open; the ingest expands the island's scale and ecology without detailing the purple Grung.
