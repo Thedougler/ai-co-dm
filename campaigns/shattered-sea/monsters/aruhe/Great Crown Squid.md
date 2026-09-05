@@ -74,7 +74,6 @@ legendary_actions:
 # Great Crown Squid
 
 > [!narration] Narration
-> _The branch above you changes color. It is not a branch. Something closes around your ankle — wet tightening, then a hook through the boot. Your feet leave the ground. You are thirty feet up before anyone understands._
 
 ## At the table
 **Tactic:** watch → select isolated prey → Hookline → Reel → Beak. **Tell:** principal eyes roll inside the translucent mantle toward a target without the body moving.
