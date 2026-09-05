@@ -48,6 +48,7 @@ The Hungry Isle eats what lands; the cold open pairs a purple Grung with wolfrab
 ## Who is here
 - Purple Grung and wolfrabbits are established cold-open subjects; Nona’s assignment and Perrin’s favour are established.
 - **DM seed (unconfirmed):** no resident settlement, clan, or named island guardian is established; do not add one as canon.
+- **Brief-canon (Homebrewer):** [[Bloodhawk of Aruhe]] — lich-sculpted four-winged apex nester in the interior cloud canopy; not yet confirmed in play.
 ## Information economy
 - **Required secret:** what kind of landing/anchor the island will accept.
 - **Witness/behaviour:** purple Grung and wolfrabbit responses to ground and marks.

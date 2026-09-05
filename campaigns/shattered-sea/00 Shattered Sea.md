@@ -37,6 +37,7 @@ Open [[quests]]:
 - Factions: [[campaigns/shattered-sea/factions/00 Factions]]
 - Quests: [[campaigns/shattered-sea/quests/00 Quests]]
 - Items: [[campaigns/shattered-sea/items/00 Items]]
+- Monsters: [[campaigns/shattered-sea/monsters/00 Monsters]]
 ## Open clocks / fronts
 - Every harbor's tribute may be helping hold the [[Drowned Maw]] fissure shut; rates, forms, currents, and the Pearl can move this clock.
 - The Grung raiding fleet has taken 314+ fighting-age people; the trail points toward [[Sparhold]] while Crown protection can become occupation.
