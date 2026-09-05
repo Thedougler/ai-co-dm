@@ -32,6 +32,7 @@ Obsidian LLM wiki for Nick's home D&D. **Markdown is the product.**
 - **Format:** every vault `.md` uses skill `obsidian-markdown` (Obsidian Flavored Markdown — wikilinks, embeds, callouts, properties). Load `SKILL.md` on any create/edit; `references/` only if stuck.
 - **Create vs update:** qmd for existing entity first; update in place; new note only if no hit; link nearest index/MOC.
 - Wikilinks; one topic/note; stub > empty folder.
+- **Images:** store under `attachments/` (use `attachments/<campaign>/` when campaign-specific). Embed `![[attachments/…]]` or wikilink `[[attachments/…]]` — never bare disk paths or `![](file:///…)` for vault art.
 - Frontmatter: `type`, `campaign`, `status`, `tags`, `visibility: table | dm`.
 - Leading `> [!narration] Narration` — TotM / **Visualizer**. Empty ok.
 - Session: [[templates/Session prep]] → run → [[templates/Session log]]; move still-relevant prep forward.

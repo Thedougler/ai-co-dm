@@ -15,6 +15,8 @@ Vault defaults (committed in `.obsidian/app.json`): new notes → `inbox/`, atta
 
 Local-only (gitignored): workspace layout, graph layout, plugin `data.json`, `.trash/`, `.qmd/*.sqlite`.
 
+**Images:** drop into `attachments/` (or `attachments/<campaign>/`). In notes use `![[attachments/…]]` embeds or `[[attachments/…]]` wikilinks. See [[attachments/00 Attachments]].
+
 ## Agent conventions
 
 See [AGENTS.md](AGENTS.md). Short version: use wikilinks, keep notes small, update indexes when you add pages, never paste proprietary book text, no real player PII in this public repo. Agents ignore Obsidian UI chrome — markdown is the product.

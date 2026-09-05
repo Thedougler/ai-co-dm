@@ -18,7 +18,7 @@ on every vault `.md` write; open `references/` only when stuck.
 - **Frontmatter (AGENTS):** include when applicable — `type`, `campaign`, `status`, `tags`, `visibility: table | dm`. Prefer AGENTS fields over generic `title`-only notes. `type` enum: `hub` | `campaign` | `session-prep` | `session` | `npc` | `pc` | `location` | `faction` | `quest` | `front` | `encounter` | `item` | `monster` | `lore` | `template` | `lexicon`.
 - **Player prose:** leading `> [!narration] Narration` (TotM / Visualizer). Empty stub ok. No secrets/DCs/unearned names inside it.
 - **Monsters:** Fantasy Statblocks fence (```` ```statblock ````) **first** after frontmatter — see `templates/Monster.md` + `./scripts/lint-statblocks`. Never prose AC/HP tables before the fence. No WotC book paste.
-- **Paths:** scratch → `inbox/`; media embeds from `attachments/`. No parallel `wiki/` · `concepts/` · `sources/` tree.
+- **Paths:** scratch → `inbox/`; **images/media** under `attachments/` (campaign subfolders ok). Embed with `![[attachments/…]]`; wikilink with `[[attachments/…]]`. See [[attachments/00 Attachments]] + [references/EMBEDS.md](references/EMBEDS.md). No parallel `wiki/` · `concepts/` · `sources/` tree.
 - **Finish:** `./scripts/after-write "why"`.
 - **Lint:** `./scripts/lint-obsidian-markdown` (and `./scripts/lint-statblocks` for monsters).
 
@@ -45,15 +45,18 @@ on every vault `.md` write; open `references/` only when stuck.
 
 Block id on a paragraph: `text ^block-id`. For lists/quotes, put `^id` on its own line after the block.
 
-### Embeds
+### Images & embeds
 
 ```markdown
+![[attachments/shattered-sea/map.png]]              Embed image
+![[attachments/shattered-sea/map.png|400]]          Embed + width
+[[attachments/shattered-sea/map.png]]               Wikilink to asset
+[[attachments/shattered-sea/map.png|Campaign map]]
 ![[Note Name]]
 ![[Note Name#Heading]]
-![[attachments/image.png|300]]
 ```
 
-More: [references/EMBEDS.md](references/EMBEDS.md).
+More: [references/EMBEDS.md](references/EMBEDS.md) · hub [[attachments/00 Attachments]].
 
 ### Callouts
 
@@ -99,3 +102,5 @@ Types and tags: [references/PROPERTIES.md](references/PROPERTIES.md).
 | Secrets inside `[!narration]` | `[!secret]-` or DM sections |
 | New `wiki/` or `concepts/` folders | `campaigns/` · `lexicon/` · `inbox/` |
 | WotC book paste | paraphrase / house / SRD link in `source` |
+| `![](…)` / absolute disk paths for vault art | `![[attachments/…]]` / `[[attachments/…]]` |
+| Broken image wikilink | fix path or add file under `attachments/` |
