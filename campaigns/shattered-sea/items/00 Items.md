@@ -10,3 +10,7 @@ tags: [index, item]
 - [[Long Reach]] · [[Long Sight]]
 ## Aruhe
 - [[Redheart Berry]] · [[Rotheart]]
+
+## Ingest additions
+- [[The Duchess]] · [[The Baroness]] · [[Delmar's Blunderbuss]] · [[Ragnetto]]
+- [[Dragonhide Belt]] · [[Flying Boots]] · [[The Snap]]

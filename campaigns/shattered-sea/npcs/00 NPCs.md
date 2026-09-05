@@ -12,3 +12,6 @@ tags: [index, npc]
 - [[Bazzoth]] · [[Fisk's Captains]] · [[Auralis]] · [[Enzo]] · [[Ruk]] · [[Vashu the Weeping Veil]] · [[Ozzeth]]
 - [[The Blight]]
 - Alias stub: [[Osset]] → [[Talon Vantyrus]]
+
+## Ingest additions
+- [[Serafina Windfall Fisk]] · [[Maggie Porcelain Pots]] · [[Pell]] · [[Vincenzo]] · [[Rupert Knighton]]

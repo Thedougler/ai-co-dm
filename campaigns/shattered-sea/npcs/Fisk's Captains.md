@@ -30,3 +30,10 @@ Remain trapped and silent until a recorded trigger occurs; no independent off-sc
 ## Appearances
 - [[campaigns/shattered-sea/story/00 Story so far]]
 - [[Bring the Pearl of Souls to Umberlee]]
+
+## Ingest delta
+- The five voices are Rael Corven, Maren, Detto Kalash, Sienne Orre, and Bastian Ookage.
+- [[Delmar Fisk]] wants them released or restored; individual voices may not agree on what that means.
+
+> [!secret]- Provenance
+> Legacy context: /Users/nick/shattered-sea/wiki/shattered-sea/pc.delmar-fisk.md.

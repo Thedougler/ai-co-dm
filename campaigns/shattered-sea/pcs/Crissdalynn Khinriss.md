@@ -9,29 +9,34 @@ tags: [pc, sentinel, schism]
 # Crissdalynn Khinriss
 
 > [!narration] Narration
-> A fourteen-year-old aarakocra with blue-black iridescent feathers, geometric leather, a chart satchel at her side, and talons ready for work. Wings and careful footing mark a pilgrim trained for wind and maps.
-
+> _Visualizer: PC ingest pending._
 
 ## Player-facing summary
 Fourteen-year-old aarakocra Kensei Monk: blue-black iridescent feathers, geometric leather, chart satchel, talons, and wings.
 
 ## Bonds / ideals that matter
-Trained by the [[Sentinels of the Eyrie]]. Exiled at 14 for treating craft too carelessly, not from malice. [[Master Kyzil]] assigned the hardest pilgrimage: map the [[Drowned Maw]] from inside a storm. He told her the pilgrimage is not over and will not explain how.
+- Trained by the [[Sentinels of the Eyrie]], then exiled at fourteen for careless craft rather than malice.
+- The price of home is a finished map of the [[Drowned Maw]]. The map is unfinished; the exile is not resolved.
+- [[Master Kyzil]] gave her [[Fate Spinner]] and confirmed the survivors she can count, but has not asked about the two missing Sentinels.
+- [[Delmar Fisk]] is her fixed point. She pulled him through thirty feet of water and will not abandon him.
+
+## Spotlight wants
+Exploration, cartography under pressure, open-air combat, protecting the crew, and forcing the Sentinel pilgrimage toward a real answer. She insists she is a cartographer first and a fighter second.
 
 ## Lightning rods
-- [[Master Kyzil]], [[Talon Vantyrus]], [[Countless]], and the [[Sentinel Schism]]
-- [[Nightmantle]] and the Osset alias
-- [[Fate Spinner]] and partial [[Long Sight]]
-- [[Drowned Maw]], [[Yssenmoor]], and the map’s reversed currents, unknown-quarry stone, and post-wreck behavior
+- [[Master Kyzil]], [[Sentinel Schism]], and the two missing Sentinels
+- [[Fate Spinner]], [[Long Sight]], and the unfinished Maw map
+- [[Nightmantle]] and its sale as a cloak of protection
+- [[Delmar Fisk]], [[Perrin Black-Jaw]], and [[Jean-Claude Tabarnack]]
 
 ## Gear that matters
-[[Fate Spinner]]: Kyzil’s “meditation focus,” actually a relic older than the non-intervention oath. It enables partial Long Sight and reacts to the hidden ley line beneath Yssenmoor. [[Nightmantle]] is a cursed cloak sourced through Osset; Crissdalynn has never heard the name Osset.
-
-## Current pressure
-[[Countless]] is closing through the [[Long Sight Hunt]], while [[Talon Vantyrus]] uses covert Osset channels. Kyzil arranged the partial Long Sight leak because of the danger but never explained it.
+- [[Fate Spinner]] — Kyzil's supposed meditation focus and a partial Long Sight conduit.
+- [[Nightmantle]] — a cloak sold as protection; its cursed nature and provenance remain pressure.
+- [[Dragonhide Belt]] — Delmar's thank-you gift; fiction detail only.
+- Chart satchel and unfinished [[Drowned Maw]] map.
 
 ## Session deltas
-The vault does not record a completed Maw map or the outcome of the exile condition. Exact current position after the Calveno contact is unknown.
+No darkvision; Jean-Claude's darkness blinds her. She blocked Perrin from killing a man, vouched for Jean-Claude to Kyzil, and has repeatedly chosen crew protection with one breath left.
 
 > [!secret]- DM anchors
-> [[Talon Vantyrus]] wants the Soul Incarnate transformation technique sealed beneath [[High Eyrie]]. The Fate Spinner imprint from Yssenmoor may crack access. Do not assume Crissdalynn knows the alias or the full stakes.
+> Kyzil has not asked Crissdalynn about the two missing Sentinels. The Maw map remains unfinished and her pilgrimage remains open. Nightmantle is the cloak sold as protection, not a resolved safe item; preserve the existing Fate Spinner and Sentinel schism pressure. Legacy provenance for the map, missing Sentinels, Kyzil's gift, and Nightmantle wording: /Users/nick/shattered-sea/wiki/shattered-sea/pc.crissdalynn-khinriss.md.

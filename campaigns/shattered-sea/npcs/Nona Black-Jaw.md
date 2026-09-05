@@ -51,3 +51,10 @@ Send a short request through the sending stone for the Aruhe survey, then redire
 - [[campaigns/shattered-sea/story/00 Story so far]]
 - [[Pursue the Grung raiding fleet]]
 - [[Survey Aruhe as a Tangle anchor]]
+
+## Ingest delta
+- Perrin’s Aruhe survey remains an owed Tangle anchor, not his actual job or spotlight.
+- His current chase is the [[Vestra]] wreck and the [[Auralis]] voice; he has not told Nona the whole of that problem.
+
+> [!secret]- Provenance
+> This delta compiles the 2026-09-05 PC deep-dive; legacy context: /Users/nick/shattered-sea/wiki/shattered-sea/pc.perrin-black-jaw.md.

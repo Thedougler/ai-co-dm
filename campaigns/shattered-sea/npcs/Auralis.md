@@ -26,3 +26,10 @@ Auralis does not get a new mechanical package here. Keep its nature as a DM ques
 ## Linked
 - [[Grung clans]] · [[Grung Color and the Sealing Rite]] · [[Verdant Teeth]]
 - [[Perrin Black-Jaw]] · [[Pearl signal across the boundary]]
+
+## Ingest delta
+- [[Perrin Black-Jaw]] uses Auralis as a handle for the incomplete voice that followed the [[Vestra]] sinking.
+- The voice has manifested as trench-cold pressure, pale lights without a face, and one instruction: “Grow.” Its exact nature and wants remain unknown.
+
+> [!secret]- Provenance
+> Legacy context for Perrin and the pact: /Users/nick/shattered-sea/wiki/shattered-sea/pc.perrin-black-jaw.md.

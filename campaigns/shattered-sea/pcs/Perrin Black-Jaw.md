@@ -9,22 +9,34 @@ tags: [pc]
 # Perrin Black-Jaw
 
 > [!narration] Narration
-> Perrin Black-Jaw is a fancy-rat Rattkin with a black head, white body, and long pink tail. He keeps his attention on people, exits, and edges before he commits, giving the small figure an alert, deliberate manner.
+> _Visualizer: PC ingest pending._
+
 ## Player-facing summary
-Rattkin fancy-rat with a black head, white body, long pink tail; College of Lore Bard with a Pact of the Blade Warlock dip. Reads people, exits, and edges before he commits.
+Three-foot fancy-rat Rattkin; College of Lore Bard with a Pact of the Blade Warlock dip. Reads people, exits, and edges before committing.
+
 ## Bonds / ideals that matter
-Grandfather Vincenzo built and captained the family brig [[Vestra]]. Something massive rose and took it; Perrin carries guilt for the crew he believes died. [[Nona Black-Jaw]] tasked him with surveying [[Aruhe - Hungry Isle]] as a [[Tangle]] anchor.
+- [[Vestra]] was the family brig built and captained by [[Vincenzo]]. Something massive took it; Perrin believes he was the only survivor.
+- [[Nona Black-Jaw]] gave him an Aruhe survey obligation as a [[Tangle]] anchor. It is a debt, not his actual job or central chase.
+- He will not traffic people or mistreat anyone who cannot fight back. His loyalty is to the Black-Jaw Run, not to an abstract people.
+- The new voice is a problem he is trying to interview: rare, incomplete contact with the handle [[Auralis]].
+
 ## Spotlight wants
-People-reading, leadership, social leverage, and discovering what happened to Vestra; the Aruhe survey gives those strengths a live route into play.
+Find out who or what has been talking since the [[Vestra]] sank, and whether that voice caused the wreck, saved him, or was merely present. He wants a usable answer about Auralis and the wreck while leading through charm, leverage, and exits. The Aruhe survey stays as Nona's obligation, not the spotlight.
+
 ## Lightning rods
-- [[Nona Black-Jaw]] and [[Rattkin Runs and Black-Jaw Run]]
-- [[Auralis]] and [[Pearl of Souls]]
-- [[Aruhe - Hungry Isle]] and its proposed [[Tangle]] anchor
-- Any lead about the wreck of [[Vestra]] or its crew
+- [[Auralis]], [[Vestra]], and any surviving face from the brig
+- [[Nona Black-Jaw]], the Black-Jaw Run, and [[Tangle]] obligations
+- [[Uncertainty]] and the next impossible instruction
+- [[Delmar Fisk]], [[Crissdalynn Khinriss]], and [[Jean-Claude Tabarnack]]
+
 ## Gear that matters
-Manta cloak lost in the wreck; Perrin credits it for the pact without knowing the true source. The [[Pearl of Souls]] remains a pressure point through Delmar and Umberlee.
+- Replacement cloak of protection — the manta cloak went down with the [[Vestra]]; the replacement story no longer fits cleanly.
+- [[The Snap]] — wrist-shield and hand drum.
+- [[Flying Boots]] — Perrin passed them to [[Delmar Fisk]].
+- Pact blade and voice — fiction-facing liabilities, not new mechanics.
+
 ## Session deltas
-Mortis: disadvantage on Strength; bonus to Charisma. Warlock pact forged in the wreck with [[Auralis]].
+A contact once put Perrin inside a sixty-foot body and said “Grow.” He renamed the prize cutter [[Uncertainty]] after that. When he dropped to zero under Calveno, the patron spoke and he got up different. He has not told Nona the whole of it.
 
 > [!secret]- DM anchors
-> The pact source is Auralis, not the manta cloak; Perrin does not know this. The vault does not establish what happened to Vestra's crew beyond Perrin's belief that they died.
+> Auralis is a handle, not a solved identity or stat block. Perrin does not know whether it sank the Vestra, saved him, or was only present; he does not know why it would need him. Keep Nona's Aruhe survey as an obligation while the real spotlight remains Auralis/Vestra. Legacy provenance for the Vestra, Auralis pact, Uncertainty renaming, and Aruhe obligation: /Users/nick/shattered-sea/wiki/shattered-sea/pc.perrin-black-jaw.md.

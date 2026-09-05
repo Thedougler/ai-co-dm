@@ -9,22 +9,35 @@ tags: [pc]
 # Catarina Da'Virelli
 
 > [!narration] Narration
-> Catarina Da'Virelli is a frail human with white hair and a sharp, practical presence. She runs the referral-only Cat’s Curios, where unusual salvage and working inventions find a place, and her owl Strix and eldritch cannon Ragnetto are familiar companions.
+> _Visualizer: PC ingest pending._
+
 ## Player-facing summary
-White-haired, frail human Artillerist Artificer; owner of referral-only Cat’s Curios, with eldritch cannon [[Ragnetto]] and owl [[Strix]].
+White-haired, frail human Artillerist Artificer; owner of referral-only Cat's Curios, with owl Strix and eldritch cannon [[Ragnetto]].
+
 ## Bonds / ideals that matter
-Joined during Calveno’s sewer raid. Dreams of a first flying machine requiring no magic. In 1488 DR, salvaged Antheri components from [[Shelfworks]], helping start a goldrush.
+- Raiders took her as a child; her father made a distraction and she jumped from cliffs into water. She has not seen him since.
+- A sealed flask preserves the unresolved question of her father's fate; his opinion still matters most.
+- She joined during the Calveno sewer crisis after [[Rupert Knighton]] warned her off.
+- She wants a first flying machine that uses no magic, and a legacy that leaves the world better.
+
 ## Spotlight wants
-Invention, salvage, practical problem-solving, and making impossible machines work. [[Ragnetto]] and [[Strix]] give those experiments a visible face.
+Invention, salvage, exact problem-solving, and making dangerous prototypes answer to evidence. Her Crown contract and declined Tessarine orders turn useful work into a choice about ownership and harm.
+
 ## Lightning rods
-- [[Dravosi Crown]] fleet contract for ship upgrades and soldier gear
+- [[Ragnetto]], [[Strix]], and Cat's Curios
 - [[Shelfworks]] and [[Antheri]] salvage
-- [[Ragnetto]] and [[Strix]]
-- The tension between a no-magic flying machine and a binding Crown contract
+- [[Dravosi Crown]] contract for ship upgrades and soldier kit
+- [[Tessarine Concordat]] salvage orders she declined
+- [[Rupert Knighton]] and the sealed flask
+
 ## Gear that matters
-[[Ragnetto]], [[Strix]], salvaged Antheri components, and referral-only access through Cat’s Curios.
+- [[Ragnetto]] — eldritch cannon and familiar workshop face; no new mechanics here.
+- Catarina-enchanted [[Delmar's Blunderbuss]].
+- Salvaged Antheri components and the unfinished flying-machine work.
+- Sealed flask from her father.
+
 ## Session deltas
-Mortis: sharp Intelligence, physical weakness. Binding Crown contract offers money and protection; she refuses to discuss details. The vault does not record the contract's exact terms.
+She refuses to pretend a prototype works, treats beggars and nobles to the same sentence, and keeps the dark-alloy Antheri cabinet trade-only. The Crown contract is secret pressure, not a resolved allegiance.
 
 > [!secret]- DM anchors
-> The Crown contract is a pressure point, not a resolved allegiance. Keep its exact obligations unknown until play establishes them.
+> Catarina's father is missing after the cliff jump; the sealed flask is the surviving link. Rupert Knighton warned her away from the sewers. She has a Crown contract for ship upgrades and soldier kit, and she declined Tessarine Concordat orders; keep the exact terms and reasons unresolved. Legacy provenance for the father, flask, Rupert warning, Crown contract, Tessarine orders, and Ragnetto: /Users/nick/shattered-sea/wiki/shattered-sea/pc.catarina-davirelli.md.

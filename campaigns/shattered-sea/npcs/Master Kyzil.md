@@ -52,3 +52,11 @@ Continue the Calveno investigation and refuse to declare Crissdalynn’s pilgrim
 
 ## Do not
 Do not reveal Osset = Vantyrus to Kyzil unless play earns it; do not give him knowledge of the Soul Incarnate as a conscious being.
+
+## Ingest delta
+- [[Crissdalynn Khinriss]] still has an unfinished [[Drowned Maw]] map and an open pilgrimage.
+- Kyzil confirmed the survivors she can count but has not asked about the two missing Sentinels.
+- His gift, [[Fate Spinner]], remains the dreidel/meditation focus with existing Sentinel schism pressure intact.
+
+> [!secret]- Provenance
+> Legacy context: /Users/nick/shattered-sea/wiki/shattered-sea/pc.crissdalynn-khinriss.md.

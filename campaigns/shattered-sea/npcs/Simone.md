@@ -57,3 +57,10 @@ Simone can close the beach, call purple support, identify Grung toxin, report a 
 ## Linked
 - [[Grung clans]] · [[Grung Color and the Sealing Rite]] · [[Karath]] · [[Sorn]]
 - [[The taken 314]] · [[Simone's hunters]] · [[Jean-Claude Tabarnack]]
+
+## Ingest delta
+- If Simone catches [[Jean-Claude Tabarnack]], she would offer him a return and rule-together arrangement; Jean-Claude does not know this.
+- Twenty vials of Simone toxin remain hidden in [[Uncertainty]] cargo, unknown to the crew.
+
+> [!secret]- Provenance
+> Legacy context: /Users/nick/shattered-sea/wiki/shattered-sea/pc.jean-claude-tabarnack.md.

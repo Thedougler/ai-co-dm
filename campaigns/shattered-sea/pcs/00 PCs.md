@@ -11,3 +11,6 @@ tags: [index, pc]
 - [[Crissdalynn Khinriss]] — Aarakocra Kensei Monk; Courtney
 - [[Jean-Claude Tabarnack]] — Electric-blue Grung Gloom Stalker Ranger; Chad
 - [[Catarina Da'Virelli]] — Human Artillerist Artificer; Kaitlin
+
+## Ingest additions
+- [[Delmar Fisk|Delmar Atticus Fisk]] — full-name normalization; deep-dive filed.
