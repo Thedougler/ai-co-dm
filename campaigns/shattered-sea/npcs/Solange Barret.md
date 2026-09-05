@@ -3,29 +3,27 @@ type: npc
 campaign: shattered-sea
 status: dead
 role: villain
-location: Mercatura
-faction: unknown
+location: [[Mercatura]]
+faction: UNKNOWN
 visibility: dm
-tags: [npc]
+tags: [npc, red, calveno-raid]
 ---
 # Solange Barret
-
 > [!narration] Narration
-> _Visualizer: standalone portrait pending._
->
+> _Visualizer: Grung ingest pending._
+
 ## Hook
-Her ritual under [[Mercatura]] created the Season 1 crisis; Solange is dead and the present objective is to understand only what the surviving evidence supports.
+Solange's red-caste identity remains part of the Calveno raid record; she is dead, so play uses the ritual evidence and what her color sign meant, not a new present-tense agenda.
+
+## Caste and record
+**Red caste.** The vault establishes the color and her role in the Mercatura crisis, but not the complete red office or its relation to Twiceborn censure.
+
 ## Want / leverage / limit
-- **Want:** Ritual motive unknown; no present-tense want remains established.
-- **Leverage:** Historical ritual evidence and the relationship to [[Otar the Foul]].
-- **Limit:** Dead; the vault records no surviving agency or motive.
-## Public vs secret
-Ritualist linked to the crisis; whether she created or unleashed Otar is recorded as a relationship, not a solved explanation.
+- **Want:** No present-tense want is established; ritual motive remains UNKNOWN.
+- **Leverage:** Historical ritual evidence and her relationship to [[Otar the Foul]].
+- **Limit:** Dead; no surviving agency is established.
+
 ## Relationships
 - [[Otar the Foul]]: created or unleashed the horror.
 - [[Mercatura]]: ritual site.
-## Next move / if ignored
-None established; the Season 1 thread is closed with Otar dead and the Mercatura bombs closed.
-## Appearances
-- [[campaigns/shattered-sea/story/00 Story so far]]
-- [[Mercatura and Otar]]
+- [[Grung clans]]: color connection only; do not invent a chain of command.

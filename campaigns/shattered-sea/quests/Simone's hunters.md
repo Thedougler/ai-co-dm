@@ -3,41 +3,44 @@ type: quest
 campaign: shattered-sea
 status: open
 visibility: dm
-tags: [quest]
+tags: [quest, grung, simone, jean-claude]
 ---
 # Simone's hunters
 ## Current status
-Open. Simone's hunters are closing on [[Jean-Claude Tabarnack]], and the cargo remains uncertain.
+Open. Simone's hunters are closing on [[Jean-Claude Tabarnack]]; the cargo, the report, the Dravosi sale, and the missing Karath toxin all remain actionable.
 
 ## Patron
 None; the pressure follows the crew.
 
 ## Objective
-Survive or confront [[Simone]] and the hunters closing on Jean-Claude, learn what they are pursuing, and decide what to do with the tincture and gas trail.
+Survive or confront [[Simone]] on [[Sorn]], learn what she reported and what she is trying to contain, and decide what to do with the tincture, gas, and family trail.
 
 ## Stakes
-Tincture, gas, family history, and Jean-Claude's hidden past reach the crew. A failed response can expose Jean-Claude or put the crew's cargo and route under someone else's control.
+Simone is a compact purple officer with stalled partial gold. She sells clan toxin to the [[Dravosi Crown]] as a substitute for gold reagent, never got Karath toxin, and hunts Jean-Claude as a leak. A failed response can expose Jean-Claude, the cargo, the captive pipeline, or the crew's route.
 
 ## Nodes
-- [[Jean-Claude Tabarnack]]: target and hidden past
-- [[Simone]]: hunter and Grung connection
+- [[Jean-Claude Tabarnack]]: Botukuri blue scout, Pell's ally, and reported target
+- [[Simone]]: Sorn officer, sister, toxin seller, and hunter
+- [[Sorn]]: guarded beach and Botukuri farm heart
+- [[Karath]]: absent toxin supply and pipeline lead
 - [[Uncertainty]]: crew vessel and cargo
-- [[Grung clans]]: tinctures and clan hierarchy
+- [[Grung clans]]: caste, sealing rite, censure, and hierarchy
 
 ## Conclusions → clues
 ### Conclusion: what Simone wants
-1. Her continued pursuit identifies Jean-Claude as more than a random target.
-2. The tinctures show what kind of leverage the hunters carry.
-3. Dravosi alchemist gas connects the hunt to a wider Grung and colonial pressure rather than a private quarrel alone.
+1. Her report and continued pursuit identify Jean-Claude as a leak, not a random target.
+2. Her stalled color and lack of Karath toxin expose a limit inside the caste system.
+3. The Dravosi substitute-gold sale connects family pressure to colonial pressure.
 
 ### Conclusion: the cargo is part of the danger
 1. Twenty hidden vials remain in cargo under [[Uncertainty]].
-2. Simone's tincture trail makes the vials actionable evidence.
-3. Jean-Claude's family history explains why possession, concealment, or disclosure changes the hunt.
+2. Simone's toxin trail makes the vials actionable evidence.
+3. Jean-Claude's red beret, Botukuri past, and Twiceborn reading explain why a kin encounter can become a social breach.
 
 ## Rewards
 - Safety or leverage for Jean-Claude.
-- A clearer relationship between Simone, the tinctures, and the Grung operations.
+- A clearer relationship between Simone, the toxin trade, Karath, and Grung operations.
+- A choice about exposing or preserving the report.
 
 ## Linked
-[[The taken 314]] · [[Grung clans]] · [[The Red Wake]]
+[[The taken 314]] · [[Grung clans]] · [[Karath]] · [[Jean-Claude Tabarnack]]

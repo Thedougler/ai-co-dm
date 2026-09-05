@@ -3,59 +3,56 @@ type: npc
 campaign: shattered-sea
 status: alive
 role: rival
-location: unknown
-faction: unknown
+location: [[Sorn]]
+faction: [[Grung clans]]
 visibility: dm
-tags: [npc]
+tags: [npc, grung, sorn, simone, toxin]
 ---
-# Simone
+# Simone Tabarnack
 > [!narration] Narration
-> Simone is a hunter who pursues Jean-Claude with tinctures and Dravosi alchemist gas. Her prepared compounds and controlled, familial wording can turn quickly into terms and threats.
-## Hook
-Close on Jean-Claude with tinctures and Dravosi alchemist gas before the hidden stock aboard [[Uncertainty]] can be turned against her hunters.
-## Identity and public function
-Jean-Claude’s sister, household seller, and active hunter; a recurring pressure face rather than a known faction leader.
-## Look / voice
-- **Visual:** Established visual details are unknown; use tincture vials and alchemist gas as the repeatable table-facing props.
-- **Behavior:** Leaves or pursues through prepared compounds rather than an open challenge; exact hunting pattern is unknown.
-- **Voice principle:** Controlled, familial wording that turns quickly into terms and threats; exact voice is unknown.
-- **Sample line:** “You can keep running, Jean-Claude. The vials only need one good chance.”
-## Drive
-**Want:** Catch Jean-Claude. **Fear:** Unknown; wider motive is not established. **Method:** Tinctures, Dravosi alchemist gas, hunters, and the 20 hidden vials in cargo.
-## Public face vs secret
-**Public:** A sister pursuing a fugitive with alchemical tools. **Secret:** She sold the household; her wider motive, allegiance, and reason for the sale remain UNKNOWN.
+> _Visualizer: Grung ingest pending._
 
-> [!secret]- Unresolved motive
-> Do not decide why Simone sold the household or what she intends after catching Jean-Claude. The playable evidence is pursuit, tinctures, gas, and the hidden vials.
-## Leverage / need / cost
-- **Leverage:** 20 hidden vials aboard [[Uncertainty]], tinctures, gas, and hunters.
-- **Need:** Jean-Claude’s location and a way to control the encounter; the broader need is unknown.
-- **Cost of cooperation:** Any bargain risks exposing Jean-Claude’s family history and the crew to alchemical gas.
-## Limit and productive contradiction
-She can prepare a hunt but cannot guarantee Jean-Claude’s location. She is both family and hunter, making recognition a potential opening rather than a solved motive.
-## Attitude / request posture / influence
-Hostile and **unwilling** to release Jean-Claude. Proof that a deal secures access to him may create hesitation; moral appeals alone have unknown effect.
-## Relationships / PC invitations
-- [[Jean-Claude Tabarnack]]: target and brother; offer him a choice about flight, confrontation, or disclosure.
-- [[Catarina Da'Virelli]]: alchemical and artificer expertise can identify the vials without deciding Simone’s motive.
-- [[Perrin Black-Jaw]]: people-reading and Passage ties can trace a hunter’s pressure.
-- [[Delmar Fisk]]: crew command can decide whether to risk cargo and passage for Jean-Claude.
-- [[Crissdalynn Khinriss]]: scouting can find an approach without forcing a fight.
-## Resources
-Hunters, tinctures, Dravosi alchemist gas, and 20 hidden vials in [[Uncertainty]]’s cargo.
-## Villain front
-- **Goal:** Catch Jean-Claude; what follows is UNKNOWN.
-- **Why:** UNKNOWN beyond the established family history and pursuit.
-- **Method:** Tinctures, gas, hunters, and pressure on the crew.
-- **Lie / line / vulnerability:** Lie and stop condition UNKNOWN; vulnerability is the need to locate Jean-Claude and protect the hidden stock.
-- **Connection to the party:** Jean-Claude is a crew member; the cargo makes the hunt a shared risk.
-- **Plan clock:** Hidden vials discovered or secured → a hunter’s approach becomes actionable → gas or tincture is deployed → public family history reaches the crew. Exact timing is UNKNOWN.
-## Next move / interrupt point
-Continue closing on Jean-Claude through the tincture trail. Players can inspect or move the vials, expose the hunt, misdirect the hunters, or bargain for time. If ignored, the hunters remain active and the family history may reach the crew through the compounds.
+## Hook
+Meet Simone on Sorn's guarded beach as a compact purple officer whose stalled color and missing Karath supply make her a live contradiction: clan enforcer, toxin seller, and family leak-hunter.
+
+## Identity and public function
+Simone Tabarnack is a compact **purple-caste officer** on [[Sorn]]. Her caste is visible as shape and bearing before it is explained: a body trained and sealed for the officer role, not a birthright claim. She holds the guarded beach, sells Grung toxin to the [[Dravosi Crown]] as a substitute for gold reagent, and hunts her brother [[Jean-Claude Tabarnack]] as a leak.
+
+She reported Jean-Claude. She never received Karath toxin.
+
+## Look / voice
+- **Visual anchor:** compact purple officer; purple-black skin carries bands and dots of stalled partial gold.
+- **Repeatable behavior:** checks the beach, her stock, and any story about Jean-Claude as if each were a leak to close.
+- **Voice principle:** short, controlled statements; family language becomes an officer's report when resisted.
+- **Sample line:** “You read the color. Read the report.”
+
+## Drive
+- **Want:** close the Jean-Claude leak and keep her Sorn post and toxin trade intact.
+- **Fear:** exposure of the substitute-gold trade, the missing Karath toxin, or the report that turned Jean-Claude into a target.
+- **Method:** guarded-beach authority, clan toxin, Dravosi contacts, reports, and hunters.
+- **Limit:** her gold change stalled; she does not have Karath toxin; the beach is a post, not the whole clan interior.
+- **Contradiction:** she enforces a color-and-sealing order that has left her visibly between colors, while selling the substance that lets a foreign power imitate the order's apex.
+
+## Public face vs secret
+- **Public:** purple Sorn officer, beach gatekeeper, and legitimate toxin seller to the Dravosi Crown.
+- **Secret:** she sells toxin as a substitute gold-reagent; her skin shows bands and dots of stalled partial gold; she reported Jean-Claude and now hunts him as the leak. She never got the Karath toxin that might have completed the process.
+- **Do not decide:** whether she believes the gold story, whether she regrets selling the household, and what she would do if Jean-Claude stopped running.
+
+## Relationships
+- [[Jean-Claude Tabarnack]]: brother, reported subject, and leak she is hunting.
+- [[Grung clans]]: officer and partial-gold problem inside the caste system.
+- [[Dravosi Crown]]: buyer of substitute-gold toxin; the sale is leverage and exposure.
+- [[Sorn Guarded Beach]]: post and controlled interface.
+- [[Felix Aho]] · [[Ruma Delacroix]] · [[Bazzoth]]: named clan operatives; exact trust between them is UNKNOWN.
+
+## Resources and play
+Simone can close the beach, call purple support, identify Grung toxin, report a movement, or send hunters after Jean-Claude. Cooperation can trade time or information, but the cost is a clearer trail and a stronger claim on the family story. Players can expose the sale, protect the leak, follow the missing Karath supply, or force the question of what “gold” means.
+
 ## Activity log
-| When/scene | Action taken | New information | Relationship change | Next move |
+| When/scene | Action | New information | Relationship change | Next move |
 | --- | --- | --- | --- | --- |
-| Unknown; no dated activity log in vault | Pursued Jean-Claude with tinctures and Dravosi gas | 20 vials are hidden in Uncertainty’s cargo | Family pressure is now a crew problem | Continue the hunt; motive remains unknown |
-## Appearances
-- [[campaigns/shattered-sea/story/00 Story so far]]
-- [[Simone's hunters]]
+| Current ingest | Holds Sorn beach, sells substitute-gold toxin, hunts Jean-Claude | Reported him; never got Karath toxin; color stalled at partial gold | Family pursuit becomes a clan/Crown problem | Find the leak and protect the sale |
+
+## Linked
+- [[Grung clans]] · [[Grung Color and the Sealing Rite]] · [[Karath]] · [[Sorn]]
+- [[The taken 314]] · [[Simone's hunters]] · [[Jean-Claude Tabarnack]]
