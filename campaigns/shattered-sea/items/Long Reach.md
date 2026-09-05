@@ -11,7 +11,8 @@ tags: [item, sentinel, technique]
 # Long Reach
 
 > [!narration] Narration
-> A Sentinel martial habit earned on wind-open terraces: breath, stance, and strike timed to peak gust so the blow lands past ordinary wingspan. Exact is the measure; fair is not.
+> A Sentinel strike that lands past ordinary wingspan. Breath and stance lock to the peak of a gust on a wind-open terrace. The timing is exact; the blow answers that measure.
+
 
 
 ## Fiction

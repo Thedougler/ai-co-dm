@@ -1,6 +1,7 @@
 ---
 type: item
 campaign: shattered-sea
+region: aruhe
 kind: consumable
 rarity: rare
 attunement: false
@@ -11,7 +12,8 @@ tags: [item, aruhe, consumable]
 # Redheart Berry
 
 > [!narration] Narration
-> _Fist-sized, deep red to near-black. Juice stains before the skin breaks. The flesh inside looks like a fresh wound and a ripe berry at once._
+> A child-fist berry, deep red to near-black. Juice stains before the skin breaks. Inside, the wet flesh looks like a fresh wound and a ripe berry at once.
+
 
 ## Look
 Child-fist berry; bloodlike juice; wet reactive red flesh.

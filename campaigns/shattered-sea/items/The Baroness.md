@@ -11,7 +11,8 @@ tags: [item, delmar, rapier]
 # The Baroness
 
 > [!narration] Narration
-> Delmar Fisk’s named rapier: a precise counterpoint to the musket he calls The Duchess. Style and authority travel together when it clears the scabbard.
+> Delmar Fisk's named rapier, The Baroness. A long slender blade sized for one hand. Drawn, it clears the scabbard in a clean precise line.
+
 
 
 ## Look

@@ -1,6 +1,7 @@
 ---
 type: item
 campaign: shattered-sea
+region: aruhe
 kind: consumable
 rarity: very rare
 attunement: false
@@ -11,7 +12,8 @@ tags: [item, aruhe, consumable]
 # Rotheart
 
 > [!narration] Narration
-> _Black-hearted fruit on the sickest trees. Pulp the colour of old blood, warm, faintly pulsing. Eating it feels like the plant's last defiance._
+> Black-hearted fruit on the sickest trees of the Rot. The pulp is the colour of old blood, warm to the touch, and faintly pulsing. It grows deep in that decay belt.
+
 
 ## Look
 Warm, dark, faintly pulsing pulp; grows deep in the Rot.
