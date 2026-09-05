@@ -1,58 +1,38 @@
-# Callouts Reference
+# Callouts
 
-## Basic Callout
+## ai-co-dm house callouts
+
+```markdown
+> [!narration] Narration
+> Player-facing TotM prose. Empty stub ok.
+
+> [!mechanic]
+> Table procedure, DCs, HP, conditions — not player-safe.
+
+> [!secret]- Title
+> Collapsed (`-`). Hidden truth / unearned lore. Never inside narration.
+```
+
+## Syntax
 
 ```markdown
 > [!note]
-> This is a note callout.
+> Body.
 
-> [!info] Custom Title
-> This callout has a custom title.
+> [!warning] Custom Title
+> Body.
 
-> [!tip] Title Only
-```
-
-## Foldable Callouts
-
-```markdown
 > [!faq]- Collapsed by default
-> This content is hidden until expanded.
+> Body.
 
 > [!faq]+ Expanded by default
-> This content is visible but can be collapsed.
+> Body.
+
+> [!question] Outer
+> > [!note] Nested
+> > Inner
 ```
 
-## Nested Callouts
+## Built-in types
 
-```markdown
-> [!question] Outer callout
-> > [!note] Inner callout
-> > Nested content
-```
-
-## Supported Callout Types
-
-| Type | Aliases | Color / Icon |
-|------|---------|-------------|
-| `note` | - | Blue, pencil |
-| `abstract` | `summary`, `tldr` | Teal, clipboard |
-| `info` | - | Blue, info |
-| `todo` | - | Blue, checkbox |
-| `tip` | `hint`, `important` | Cyan, flame |
-| `success` | `check`, `done` | Green, checkmark |
-| `question` | `help`, `faq` | Yellow, question mark |
-| `warning` | `caution`, `attention` | Orange, warning |
-| `failure` | `fail`, `missing` | Red, X |
-| `danger` | `error` | Red, zap |
-| `bug` | - | Red, bug |
-| `example` | - | Purple, list |
-| `quote` | `cite` | Gray, quote |
-
-## Custom Callouts (CSS)
-
-```css
-.callout[data-callout="custom-type"] {
-  --callout-color: 255, 0, 0;
-  --callout-icon: lucide-alert-circle;
-}
-```
+`note` · `abstract`/`summary`/`tldr` · `info` · `todo` · `tip`/`hint`/`important` · `success`/`check`/`done` · `question`/`help`/`faq` · `warning`/`caution`/`attention` · `failure`/`fail`/`missing` · `danger`/`error` · `bug` · `example` · `quote`/`cite`

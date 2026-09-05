@@ -1,70 +1,26 @@
-# Embeds Reference
+# Embeds
 
-## Embed Notes
+Prefer files under `attachments/` for vault media.
 
 ```markdown
 ![[Note Name]]
 ![[Note Name#Heading]]
 ![[Note Name#^block-id]]
+![[attachments/image.png]]
+![[attachments/image.png|300]]
+![[attachments/image.png|640x480]]
+![[attachments/doc.pdf#page=3]]
+![[attachments/audio.mp3]]
 ```
 
-## Embed Images
+External images (rare): `![Alt|300](https://…)`
 
-```markdown
-![[image.png]]
-![[image.png|640x480]]    Width x Height
-![[image.png|300]]        Width only (maintains aspect ratio)
-```
+List embed: put `^list-id` on its own line after the list, then `![[Note#^list-id]]`.
 
-## External Images
-
-```markdown
-![Alt text](https://example.com/image.png)
-![Alt text|300](https://example.com/image.png)
-```
-
-## Embed Audio
-
-```markdown
-![[audio.mp3]]
-![[audio.ogg]]
-```
-
-## Embed PDF
-
-```markdown
-![[document.pdf]]
-![[document.pdf#page=3]]
-![[document.pdf#height=400]]
-```
-
-## Embed Bases
-
-```markdown
-![[BaseFile.base]]
-![[BaseFile.base#View Name]]
-```
-
-## Embed Lists
-
-```markdown
-![[Note#^list-id]]
-```
-
-Where the list has a block ID:
-
-```markdown
-- Item 1
-- Item 2
-- Item 3
-
-^list-id
-```
-
-## Embed Search Results
+Search embed (Obsidian UI):
 
 ````markdown
 ```query
-tag:#project status:done
+tag:#project
 ```
 ````

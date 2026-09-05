@@ -1,61 +1,43 @@
-# Properties (Frontmatter) Reference
+# Properties (frontmatter)
 
-Properties use YAML frontmatter at the start of a note:
+YAML between `---` at the top of the note.
 
-```yaml
----
-title: My Note Title
-date: 2024-01-15
-tags:
-  - project
-  - important
-aliases:
-  - My Note
-  - Alternative Name
-cssclasses:
-  - custom-class
-status: in-progress
-rating: 4.5
-completed: false
-due: 2024-02-01T14:30:00
----
-```
+## ai-co-dm required / usual
 
-## Property Types
+| Field | Notes |
+|---|---|
+| `type` | AGENTS enum: `hub` \| `campaign` \| `session-prep` \| `session` \| `npc` \| `pc` \| `location` \| `faction` \| `quest` \| `front` \| `encounter` \| `item` \| `monster` \| `lore` \| `template` \| `lexicon` |
+| `campaign` | e.g. `shattered-sea` |
+| `status` | as used by the note (live, stub, …) |
+| `tags` | YAML list |
+| `visibility` | `table` \| `dm` |
+| `aliases` | optional alternate link names |
+
+Monster extras often include `role`, `cr`, `source` (see `templates/Monster.md`).
+
+## Obsidian defaults
+
+`tags` · `aliases` · `cssclasses`
+
+## Types
 
 | Type | Example |
-|------|---------|
-| Text | `title: My Title` |
-| Number | `rating: 4.5` |
+|---|---|
+| Text | `campaign: shattered-sea` |
+| Number | `cr: 17` |
 | Checkbox | `completed: true` |
-| Date | `date: 2024-01-15` |
-| Date & Time | `due: 2024-01-15T14:30:00` |
-| List | `tags: [one, two]` or YAML list |
-| Links | `related: "[[Other Note]]"` |
-
-## Default Properties
-
-- `tags` - Note tags (searchable, shown in graph view)
-- `aliases` - Alternative names for the note (used in link suggestions)
-- `cssclasses` - CSS classes applied to the note in reading/editing view
+| Date | `date: 2026-09-05` |
+| List | `tags: [npc, aruhe]` |
+| Link | `related: "[[Other Note]]"` |
 
 ## Tags
 
-```markdown
-#tag
-#nested/tag
-#tag-with-dashes
-#tag_with_underscores
-```
-
-Tags can contain: letters (any language), numbers (not first character), underscores `_`, hyphens `-`, forward slashes `/` (for nesting).
-
-In frontmatter:
+Inline `#tag` / `#nested/tag`. Frontmatter:
 
 ```yaml
----
 tags:
-  - tag1
-  - nested/tag2
----
+  - npc
+  - aruhe
 ```
+
+Letters, numbers (not first), `_`, `-`, `/` for nesting.
