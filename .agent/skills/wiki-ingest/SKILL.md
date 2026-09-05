@@ -13,7 +13,7 @@ description: >-
 
 Compile a source into linked vault notes. Distill and integrate — do not leave a summary rotting in `inbox/`.
 
-**Vault:** `/Users/nick/Documents/ai-co-dm`. Schema: [[AGENTS]]. Doctrine: `llm-wiki`. Find: `qmd-retrieval`.
+**Vault:** `/Users/nick/Documents/ai-co-dm`. Schema: [[AGENTS]]. Owner bot: **Ingest**. Doctrine: `llm-wiki`. Find: `qmd-retrieval`.
 
 ## Map
 
