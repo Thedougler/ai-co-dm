@@ -9,8 +9,6 @@ visibility: dm
 tags: [npc, grung, blue]
 ---
 # Ruma Delacroix
-> [!narration] Narration
-> _Visualizer: Grung ingest pending._
 
 ## Hook
 A blue Grung operative who stood down can offer a Warren lead if the crew first decides whether standing down was trust, fear, or positioning.

@@ -10,7 +10,8 @@ tags: [npc, grung, sorn, simone, toxin]
 ---
 # Simone Tabarnack
 > [!narration] Narration
-> _Visualizer: Grung ingest pending._
+> A compact purple Grung officer on Sorn’s guarded beach. Purple-black skin carries bands and dots of unfinished gold. She checks the sand, her toxin stock, and any story about Jean-Claude as if each were a leak to close. Her speech stays short and controlled; family talk turns into an officer’s report when pressed.
+
 
 ## Hook
 Meet Simone on Sorn's guarded beach as a compact purple officer whose stalled color and missing Karath supply make her a live contradiction: clan enforcer, toxin seller, and family leak-hunter.

@@ -8,8 +8,6 @@ visibility: dm
 tags: [lore, grung, aruhe, origin, secret]
 ---
 # Grung and the Making of Aruhe
-> [!narration] Narration
-> _Visualizer: Grung ingest pending._
 
 ## Summary (DM secret)
 Hundreds of years ago, Grung captured a druid from a far Midchain island. They tortured her, drove her mad, and killed her companion when the two escaped to Aruhe. That violence is why [[Aruhe - Hungry Isle]] exists as it does today: its joined ecology, hunger response, and living boundaries are the aftermath and continuation of that wound.

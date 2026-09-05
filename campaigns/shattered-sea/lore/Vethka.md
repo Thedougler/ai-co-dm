@@ -9,7 +9,8 @@ tags: [lore, grung, vethka, war-proa]
 ---
 # Vethka
 > [!narration] Narration
-> _Visualizer: Grung ingest pending._
+> Narrow Grung war proas built for reef gaps and flooded channels. Where an ordinary keel becomes a liability, a Vethka still works the water.
+
 
 ## Fiction stub
 **Vethka** is the Grung term used here for their war proas: narrow craft that can work reef gaps and flooded channels where an ordinary keel becomes a liability. They are part of the clans' water war and raiding reach.

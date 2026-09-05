@@ -8,7 +8,8 @@ tags: [faction, grung, verdant-teeth, theocracy, poison]
 ---
 # Grung clans
 > [!narration] Narration
-> _Visualizer: Grung ingest pending._
+> Three-foot amphibious people of the Verdant Teeth: leaping climbers with poisonous skin, a daily soak that seals diet into the body, and colors — gold, red, purple, blue, green — that show what a body currently carries. They trade at sanctioned beaches and keep the rainforest interior closed. The public story is protection, community, and serene gold decrees under the name Auralis.
+
 
 The Grung clans hold the interior of the [[Verdant Teeth]] behind a strict closed-interior rule. Their public story is protection: protect Grung communities, preserve the decrees of [[Auralis]], and keep outsiders from ground that belongs to the clans. Their water power is shrinking, so every beach, toxin shipment, captive, and raid now carries more pressure.
 

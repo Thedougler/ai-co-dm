@@ -10,7 +10,8 @@ tags: [npc, red, calveno-raid]
 ---
 # Solange Barret
 > [!narration] Narration
-> _Visualizer: Grung ingest pending._
+> A red-caste Grung remembered from the Mercatura crisis. The color and the ritual evidence remain in the record; the body does not. No present-tense agenda survives her.
+
 
 ## Hook
 Solange's red-caste identity remains part of the Calveno raid record; she is dead, so play uses the ritual evidence and what her color sign meant, not a new present-tense agenda.

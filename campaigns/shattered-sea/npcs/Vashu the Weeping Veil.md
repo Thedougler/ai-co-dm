@@ -9,8 +9,6 @@ visibility: dm
 tags: [npc, grung]
 ---
 # Vashu the Weeping Veil
-> [!narration] Narration
-> _Visualizer: Grung ingest pending._
 
 ## Stub
 Named Grung clan face. Caste, island, office, want, and history are **UNKNOWN**.

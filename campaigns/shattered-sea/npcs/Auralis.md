@@ -10,7 +10,8 @@ tags: [npc, grung, unknown, theocracy]
 ---
 # Auralis
 > [!narration] Narration
-> _Visualizer: Grung ingest pending._
+> The name the Grung clans give their theocratic mandate: a serene, unanswerable authority spoken through gold, congregation, and sacred ground in the Verdant Teeth. Decrees organize the clans there; the force thins away from the islands. What the presence is remains unanswered.
+
 
 ## Function
 Auralis is the name the Grung clans give their theocratic mandate: a serene, unanswerable apex presence whose decrees organize the congregation and whose authority is strongest on sacred ground in the [[Verdant Teeth]].

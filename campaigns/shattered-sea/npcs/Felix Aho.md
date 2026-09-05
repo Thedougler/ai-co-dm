@@ -9,8 +9,6 @@ visibility: dm
 tags: [npc, grung, green]
 ---
 # Felix Aho
-> [!narration] Narration
-> _Visualizer: Grung ingest pending._
 
 ## Hook
 A green Grung operative in [[Warren]] can provide or withhold a lead on the raiding fleet and the 314+ taken people.

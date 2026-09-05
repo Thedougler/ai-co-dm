@@ -9,8 +9,6 @@ visibility: dm
 tags: [npc, grung]
 ---
 # Bazzoth
-> [!narration] Narration
-> _Visualizer: Grung ingest pending._
 
 ## Hook
 Provide or withhold a Warren lead on Grung operations and the missing fighting-age people.

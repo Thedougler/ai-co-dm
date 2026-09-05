@@ -9,7 +9,8 @@ tags: [lore, grung, caste, sealing-rite]
 ---
 # Grung Color and the Sealing Rite
 > [!narration] Narration
-> _Visualizer: Grung ingest pending._
+> Grung color is made, not born. Diet plus a daily one-hour soak seals gold, red, purple, blue, or green into the body as social evidence of what it currently carries. A red hat can mark Twiceborn censure — kin read the sign and walk past rather than claim the wearer.
+
 
 ## Summary
 Grung color caste is made and maintained through diet plus a daily sealing rite, not inherited as a birthright. A Grung eats a specific diet, then spends one hour soaking; the soak is bodily maintenance and ritual discipline, not magic. Gold, red, purple, blue, and green are the known colors. Color is social evidence of what a body has taken in and sealed, not proof of ancestry or moral worth.
