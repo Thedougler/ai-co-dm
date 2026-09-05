@@ -8,8 +8,7 @@ tags: [faction]
 ---
 # Passage
 > [!narration] Narration
-> _Visualizer: public-face portrait placeholder; fill only when the Passage is encountered._
->
+> The Passage moves people and goods where official routes cannot. Smuggling, safe kitchens, family ties, and coded trust are the network’s visible means of keeping movement open.
 ## Public goal
 Move people and goods where official routes cannot.
 

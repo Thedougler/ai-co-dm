@@ -8,8 +8,7 @@ tags: [faction]
 ---
 # Tessarine Concordat
 > [!narration] Narration
-> _Visualizer: public-face portrait placeholder; fill only when the Concordat is encountered._
->
+> The Tessarine Concordat makes trade and credit reliable across the islands. Loans, trade credit, property, public debts, and administrators make its influence visible.
 ## Public goal
 Make trade and credit reliable across the islands.
 

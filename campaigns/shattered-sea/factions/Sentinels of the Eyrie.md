@@ -8,8 +8,7 @@ tags: [faction]
 ---
 # Sentinels of the Eyrie
 > [!narration] Narration
-> _Visualizer: public-face portrait placeholder; fill only when the Sentinels are encountered._
->
+> The Sentinels of the Eyrie watch the Maw and oppose Waveservant influence. Pilgrimage, maps, monastic discipline, and guarded knowledge define the order’s public work.
 ## Public goal
 Watch the Maw and oppose the Waveservants' influence.
 

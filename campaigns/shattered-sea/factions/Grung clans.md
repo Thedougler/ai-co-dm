@@ -8,8 +8,7 @@ tags: [faction]
 ---
 # Grung clans
 > [!narration] Narration
-> _Visualizer: public-face portrait placeholder; fill only when the Grung clans are encountered._
->
+> The Grung clans present themselves as protectors of Grung communities and Auralis’s mandate. Clan hierarchy, tinctures, raids, and rainforest strongholds give that public claim its reach.
 ## Public goal
 Protect Grung communities and the mandate of [[Auralis]].
 

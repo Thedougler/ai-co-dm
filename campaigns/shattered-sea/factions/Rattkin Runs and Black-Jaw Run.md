@@ -8,8 +8,7 @@ tags: [faction]
 ---
 # Rattkin Runs / Black-Jaw Run
 > [!narration] Narration
-> _Visualizer: public-face portrait placeholder; fill only when the Rattkin Runs are encountered._
->
+> The Rattkin Runs and Black-Jaw Run keep Rattkin families connected and alive. Family Runs, couriers, ships, and community obligations carry people through routes governed by coded trust.
 ## Public goal
 Keep Rattkin families connected and alive.
 

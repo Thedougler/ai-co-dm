@@ -8,8 +8,7 @@ tags: [faction]
 ---
 # Countless
 > [!narration] Narration
-> _Visualizer: public-face portrait placeholder; fill only when Countless is encountered._
->
+> Countless is a splinter order claiming the Sentinels’ legacy and presenting itself as the faction willing to act. Secrecy, splinter teachings, Maw pressure, and claims on maps or Sentinel history are its public tools.
 ## Public goal
 Claim the Sentinels' legacy and end the silence around the old seal, presenting the splinter order as the people willing to act.
 

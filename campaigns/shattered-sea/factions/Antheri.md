@@ -8,8 +8,7 @@ tags: [faction]
 ---
 # Antheri
 > [!narration] Narration
-> _Visualizer: public-face portrait placeholder; fill only when Antheri ruins or records are encountered._
->
+> Antheri survive as a public record rather than a living faction: builders of a city in the Maw’s western wall and a route toward the Elemental Plane of Water. Their public face is ruins, records, and salvage at Shelfworks.
 ## Public goal
 No living public spokesman remains; the surviving public record presents Antheri as builders of a western-wall city and a route toward the Elemental Plane of Water.
 

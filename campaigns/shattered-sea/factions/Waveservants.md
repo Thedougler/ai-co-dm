@@ -8,8 +8,7 @@ tags: [faction]
 ---
 # Waveservants
 > [!narration] Narration
-> _Visualizer: public-face portrait placeholder; fill only when the Waveservants are encountered._
->
+> The Waveservants maintain respectful passage and safe harbour through tribute to Umberlee. Harbour clergy collect coin, rope, fish bones, compass needles, or spoken promises, keeping the ritual interface visible.
 ## Public goal
 Maintain respectful passage and safe harbour through tribute to [[Umberlee]].
 

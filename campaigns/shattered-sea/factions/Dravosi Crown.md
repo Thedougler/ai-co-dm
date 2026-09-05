@@ -8,8 +8,7 @@ tags: [faction]
 ---
 # Dravosi Crown
 > [!narration] Narration
-> _Visualizer: public-face portrait placeholder; fill only when the Crown is encountered._
->
+> The Dravosi Crown secures the western approach through naval law, inspections, and garrisons. Papers, harbour stops, boarding parties, and soldiers make its authority visible across the sea.
 ## Public goal
 Secure the western approach and make the sea legible through naval law, inspections, and garrisons.
 
