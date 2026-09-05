@@ -9,7 +9,8 @@ tags: [pc, sentinel, schism]
 # Crissdalynn Khinriss
 
 > [!narration] Narration
-> _Visualizer: portrait pending after schism ingest._
+> A fourteen-year-old aarakocra with blue-black iridescent feathers, geometric leather, a chart satchel at her side, and talons ready for work. Wings and careful footing mark a pilgrim trained for wind and maps.
+
 
 ## Player-facing summary
 Fourteen-year-old aarakocra Kensei Monk: blue-black iridescent feathers, geometric leather, chart satchel, talons, and wings.

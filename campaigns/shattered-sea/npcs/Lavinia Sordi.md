@@ -10,9 +10,6 @@ tags: [npc, session-08]
 ---
 # Lavinia Sordi
 
-> [!narration] Narration
-> _Visualizer: portrait pending after schism ingest._
-
 ## Handle
 Session 08 contact. Named the Osset guise of [[Talon Vantyrus]] as the source of [[Nightmantle]].
 

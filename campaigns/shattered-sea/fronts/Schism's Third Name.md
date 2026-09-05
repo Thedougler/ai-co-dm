@@ -8,9 +8,6 @@ tags: [front, schism, mystery]
 ---
 # Schism's Third Name
 
-> [!narration] Narration
-> _Visualizer: portrait pending after schism ingest._
-
 ## Impending doom
 [[Master Kyzil]] acts on a false three-faction model long enough for [[Talon Vantyrus]]’s Osset identity to remain hidden and for Countless to close on [[Crissdalynn Khinriss]].
 

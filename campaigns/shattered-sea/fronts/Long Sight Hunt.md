@@ -8,9 +8,6 @@ tags: [front, schism]
 ---
 # Long Sight Hunt
 
-> [!narration] Narration
-> _Visualizer: portrait pending after schism ingest._
-
 ## Impending doom
 [[Countless]] locates [[Crissdalynn Khinriss]], or any Sentinel who recently visited [[Yssenmoor]], once [[Uncertainty]] enters Midchain waters.
 

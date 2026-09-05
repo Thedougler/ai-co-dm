@@ -11,7 +11,8 @@ tags: [npc, alias, sentinel, schism]
 # Osset
 
 > [!narration] Narration
-> _Visualizer: portrait pending after schism ingest._
+> A falcon-featured contact on grey-market and pilgrim routes. He turns up where torn pages, cloaks, and quiet introductions change hands, then moves on without lingering.
+
 
 ## Alias redirect
 **Osset = [[Talon Vantyrus]].** Use [[Talon Vantyrus]] as the canonical note. Osset is Vantyrus’s falcon-featured grey-market and pilgrim-route guise.

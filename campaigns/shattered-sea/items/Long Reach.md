@@ -11,7 +11,8 @@ tags: [item, sentinel, technique]
 # Long Reach
 
 > [!narration] Narration
-> _Visualizer: portrait pending after schism ingest._
+> A Sentinel martial habit earned on wind-open terraces: breath, stance, and strike timed to peak gust so the blow lands past ordinary wingspan. Exact is the measure; fair is not.
+
 
 ## Fiction
 Every Sentinel apprentice earns Long Reach, a martial technique learned through exact movement, breath, and stance in peak wind. It answers the order’s training rather than a found object. Fiction only: a trained Sentinel can strike beyond ordinary wingspan.

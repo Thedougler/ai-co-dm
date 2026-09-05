@@ -10,7 +10,8 @@ tags: [monster, technique, countless]
 # Stoop
 
 > [!narration] Narration
-> _Visualizer: portrait pending after schism ingest._
+> A high dive that starts when wings pin tight to the body and a whistling line cuts down. The striker tears a held item free and climbs away before the scramble settles.
+
 
 ## Fiction
 [[Talon Skarn]]’s signature dive: from high altitude, he tears a held item free and climbs away. He tests opponents with it and only enters the fight once the crew physically reaches Midchain.

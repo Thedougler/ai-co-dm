@@ -8,9 +8,6 @@ tags: [lore, sentinel, schism]
 ---
 # Sentinel Schism
 
-> [!narration] Narration
-> _Visualizer: portrait pending after schism ingest._
-
 ## Summary
 The question was whether the Sentinels’ fate was to record without conclusion or whether moral duty required them to act. A snowy-owl senior master, later [[Talon Vantyrus]], called non-intervention cowardice and asked gifted barn-owl student [[Master Kyzil]] to break with him. Kyzil refused; Vantyrus left; the order closed ranks. Younger members, including [[Crissdalynn Khinriss]], were never told the schism happened.
 

@@ -10,9 +10,6 @@ tags: [item, sentinel, technique]
 ---
 # Long Sight
 
-> [!narration] Narration
-> _Visualizer: portrait pending after schism ingest._
-
 ## Fiction
 A rarer Sentinel discipline, withheld from most and poorly understood even within the order. [[Crissdalynn Khinriss]] has only a partial leak arranged by [[Master Kyzil]] because of the danger; it is carried through the [[Fate Spinner]], not established as full mastery.
 

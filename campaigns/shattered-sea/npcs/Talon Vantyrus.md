@@ -11,7 +11,8 @@ tags: [npc, sentinel, schism]
 # Talon Vantyrus
 
 > [!narration] Narration
-> _Visualizer: portrait pending after schism ingest._
+> A snowy-owl aarakocra whose feathers have bled past white with age and altitude. A faint frost tang hangs on him, and cold air clings close to the body. He never raises his voice, and he never repeats a demand twice.
+
 
 ## Hook
 The former Sentinel master is alive, leads [[Countless]], and is trying to reach the transformation technique sealed beneath [[High Eyrie]].

@@ -8,9 +8,6 @@ tags: [front, seal, soul-incarnate]
 ---
 # Countless through the Maw seal
 
-> [!narration] Narration
-> _Visualizer: portrait pending after schism ingest._
-
 ## Impending doom
 [[Talon Vantyrus]] uses the [[Fate Spinner]] imprint from [[Yssenmoor]] to crack the seal beneath [[High Eyrie]] and reach the Soul Incarnate transformation technique in the Sentinel founding documents.
 

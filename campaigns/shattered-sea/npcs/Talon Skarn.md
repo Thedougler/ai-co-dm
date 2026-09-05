@@ -11,7 +11,8 @@ tags: [npc, countless, schism]
 # Talon Skarn
 
 > [!narration] Narration
-> _Visualizer: portrait pending after schism ingest._
+> A lean peregrine about five feet tall, knife-folded, with a blue-grey crest and a black stripe cutting through amber eyes. A notch gaps the left primary where three feathers never grew back. Twin daggers ride in reverse grip; when he tests someone, his wings pin and a whistling dive line follows.
+
 
 ## Hook
 Vantyrus’s apprentice is openly testing the master he intends to kill, and will only enter the fight once the crew physically reaches the Midchain.

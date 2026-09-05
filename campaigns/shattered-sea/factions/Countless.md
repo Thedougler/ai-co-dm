@@ -9,7 +9,8 @@ tags: [faction, countless, schism]
 # Countless
 
 > [!narration] Narration
-> _Visualizer: portrait pending after schism ingest._
+> Breakaways from the Sentinels who kept martial reach and dropped the ledgers. Names go missing; agents share the title Talon. Hired blades and paid contacts get one job each and never learn who ordered it.
+
 
 ## Public face
 Breakaways from the Sentinels who kept martial reach and dropped discipline. Their public face is absence from every ledger: taken names, no records, and a shared title of **Talon**.

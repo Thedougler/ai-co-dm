@@ -8,9 +8,6 @@ tags: [front, schism]
 ---
 # Rule of Two
 
-> [!narration] Narration
-> _Visualizer: portrait pending after schism ingest._
-
 ## Impending doom
 [[Talon Skarn]] kills [[Talon Vantyrus]], or Vantyrus kills Skarn, while [[Crissdalynn Khinriss]] is caught in the crossfire.
 

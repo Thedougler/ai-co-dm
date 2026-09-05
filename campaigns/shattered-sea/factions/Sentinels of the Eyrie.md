@@ -9,7 +9,8 @@ tags: [faction, sentinel, schism]
 # Sentinels of the Eyrie
 
 > [!narration] Narration
-> _Visualizer: portrait pending after schism ingest._
+> Aarakocra monks who have held High Eyrie for two centuries, non-aligned and older than Dravosi rule. Their work is to watch the Drowned Maw and write what happens: time, weather, position, water, and occurrence — never why. Exact movement in peak wind is the training standard; fair is not.
+
 
 ## Public purpose
 Aarakocra monks who have held [[High Eyrie]] for two centuries. They predate the Dravosi, are non-aligned, and turned away three Dravosi leaders. Their sole purpose is to watch the [[Drowned Maw]] and record.

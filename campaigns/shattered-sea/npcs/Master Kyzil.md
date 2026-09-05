@@ -11,7 +11,8 @@ tags: [npc, sentinel, schism]
 # Master Kyzil
 
 > [!narration] Narration
-> _Visualizer: portrait pending after schism ingest._
+> A barn-owl Sentinel with pale gold feathers the color of dry straw. He smooths his robes, then refolds his wings right-over-left without noticing. Questions come before orders, exact and controlled.
+
 
 ## Hook
 The senior master is in [[Calveno]], investigating a foul wind from the south while insisting [[Crissdalynn Khinriss]]’s pilgrimage is not over.

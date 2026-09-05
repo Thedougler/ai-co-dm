@@ -11,7 +11,8 @@ tags: [npc, ley-line]
 # Sir Quackers the Fowl
 
 > [!narration] Narration
-> _Visualizer: portrait pending after schism ingest._
+> A duck at Yssenmoor who has died and come back countless times over centuries. Once a wizard’s familiar, he stays on that ground and treats strange reactions as puzzles he does not yet solve.
+
 
 ## Hook
 A duck on the hidden ley line beneath [[Yssenmoor]] is edging toward demigodhood without understanding what the [[Fate Spinner]] reaction means.

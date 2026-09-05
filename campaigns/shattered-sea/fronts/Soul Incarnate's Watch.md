@@ -8,9 +8,6 @@ tags: [front, soul-incarnate, seal]
 ---
 # Soul Incarnate's Watch
 
-> [!narration] Narration
-> _Visualizer: portrait pending after schism ingest._
-
 ## Trigger
 This front activates if [[Crissdalynn Khinriss]] completes the Maw pilgrimage.
 

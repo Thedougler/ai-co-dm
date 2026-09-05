@@ -8,9 +8,6 @@ tags: [lore, sentinel, seal]
 ---
 # Soul Incarnate
 
-> [!narration] Narration
-> _Visualizer: portrait pending after schism ingest._
-
 ## Summary
 Founding documents sealed beneath [[High Eyrie]] describe a transformation technique connected to Soul Incarnate. The current Sentinels know only that the documents are very old and do not know they concern a conscious being. [[Talon Vantyrus]] wants the transformation technique. The [[Fate Spinner]]’s reaction at [[Yssenmoor]] carries the signature Vantyrus recognizes.
 

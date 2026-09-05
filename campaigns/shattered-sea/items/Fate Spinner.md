@@ -11,7 +11,8 @@ tags: [item, sentinel, relic, soul-incarnate]
 # Fate Spinner
 
 > [!narration] Narration
-> _Visualizer: portrait pending after schism ingest._
+> A thumb-sized quartz top with four worn faces, always cool to the touch. It spins like a meditation focus and answers contact with quiet weight rather than glitter.
+
 
 ## Fiction
 A thumb-sized quartz four-sided top with worn faces, always cool. [[Master Kyzil]] gave it to [[Crissdalynn Khinriss]] before her pilgrimage as a “meditation focus.” It is actually older than the Sentinels’ non-intervention oath. It watches and acts.

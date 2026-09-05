@@ -8,9 +8,6 @@ tags: [location, ley-line, sentinel]
 ---
 # Yssenmoor
 
-> [!narration] Narration
-> _Visualizer: portrait pending after schism ingest._
-
 ## At a glance
 A place over a hidden ley line that reacts to [[Fate Spinner]]; feels like an unresolved point of contact between old power and a watchful relic.
 
