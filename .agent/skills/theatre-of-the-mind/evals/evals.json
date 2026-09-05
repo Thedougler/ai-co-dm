@@ -251,8 +251,8 @@
       "expected_output": "Cold place portrait: camera/spine on shore or water; drawable scale; landmarks/routes (river mouths, Grove channel); secondary sense; optional underwater signs with scale relation; no kernel/Hunger/names.",
       "expectations": [
         "Fails rest/direction/unclaimed/claim/kernel labels; enormous life with no drawable sign; missing scale/topology/landmarks.",
-        "Passes camera + scale + \u22645 landmarks/routes + secondary sense; life-under as signs only (boat-length shadow etc.).",
-        "Keeps Hunger/possession and Squid/otter names out of Appearance; stops at player opening."
+        "Fails em dash (`\u2014`) or writerly hydrology (`river cuts`, embouchure, thalweg).",
+        "Passes camera + scale + landmarks/routes in kitchen-table nouns + secondary sense; life-under as signs only; Hunger/names out."
       ]
     }
   ]

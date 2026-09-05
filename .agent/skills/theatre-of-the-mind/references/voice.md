@@ -21,9 +21,14 @@ the description.
 
 Write so a player can hear it once and know what they can point at, understand,
 or answer. Use the concrete noun and verb first; let one setting-specific
-signature property do memorable work. Plain word before specialist word. One
+signature property do memorable work. Plain word before specialist word
+(**kitchen-table** for places too: river mouths, wet stone, far bank). One
 unusual comparison can sharpen a picture, but a private metaphor must not
 become the subject. Generic mood is not evidence.
+
+**Hard ban in player-facing prose:** the em dash (`—`) and en-dash clones used
+as AI slop punctuation. Prefer period, comma, or parenthesis. Do not echo
+example sentence architecture from references.
 
 - Keep the sentence shape appropriate to the surface. A spatial first look may
   seat a camera and place a live handle; an object may need only state plus
@@ -150,7 +155,9 @@ evidence.
 | tapestry, testament, dance of light, weight of history | the object doing the work |
 | skin takes branch and leaf / becomes the trees / is the canopy | named color/material match on the skin, or cut |
 | rather than glitter / not flashy / without dazzle / quiet weight rather than X | a positive drawable sensory or physical fact, or cut |
-| offer rest and direction / provide shelter (as theme) / stays unclaimed / claim the water | pointable shore, channel, cool water, wet stone — no kernel metaphysics |
+| offer rest and direction / provide shelter (as theme) / stays unclaimed / claim the water | pointable shore, channel, cool water, wet stone; no kernel metaphysics |
+| em dash (`—`) or en-dash used as stylish pause in player prose | period, comma, or parenthesis |
+| river cuts / embouchure / thalweg / other workshop geography | river mouths, where the rivers open into the lake, lake edge |
 | enormous life / long submerged movement (no body) | visible signs only: boat-length shadow, channel-wide turn, stillness after motion — scale via body relation; never Hunger or roster names in Appearance |
 | spins like a meditation focus / as a focus for prayer (as the description) | how it physically spins, wobbles, sits, or weighs; cover names stay Identified/DM |
 | the very X / ancient and unknowable | the weed, date stamp, open mouth, or other noun |

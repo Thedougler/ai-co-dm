@@ -46,7 +46,7 @@ See also the lake Weak/Strong pair in [places.md](places.md).
 
 **Weak:** `offer rest and direction`, `stays unclaimed`, `enormous life` with no body.
 
-**Strong:** clear water + shore scale, river mouths / channels, cool drinkable water, wet stone, optional huge shapes under glass-clear surface — stop. No Hunger/claim talk.
+**Strong:** clear water + shore scale, river mouths / channels, cool drinkable water, wet stone, optional huge shapes under glass-clear surface. Stop. No Hunger/claim talk. No em dashes. Kitchen-table nouns only.
 
 ## Item mood fluff vs concrete behavior
 

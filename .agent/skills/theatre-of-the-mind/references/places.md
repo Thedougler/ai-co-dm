@@ -64,15 +64,15 @@ the parent's headings or a fixed contract order.
 | “enormous life” theme | drawable motion/scale (boat-length shadow, channel-wide turn) |
 | Function / Conflict / Promise / Aspects / Player verbs | stay in DM / Aspects / secrets — never Appearance |
 
-**Weak — design kernel / metaphysics**
+**Weak: design kernel / metaphysics**
 
 > A clear inland lake where cool drinkable water meets long submerged movement beneath the surface. Shores and channels offer rest and direction; river valleys feed in, and enormous life turns beneath the clarity when the water stays unclaimed.
 
-**Strong — camera, scale, routes, sense, optional sign**
+**Strong: camera, scale, routes, sense, optional sign (kitchen-table; no em dash)**
 
-> From a wet-stone shore the lake opens clear and deep enough to read the bottom near the bank before the blue goes dark. River cuts feed in as slow open mouths; a channel continues toward the Grove route. Cool air comes off the water. Farther out a boat-length shadow turns under the glass-clear surface, then the water goes still.
+> From wet stone at the shore, the lake opens clear. Near the bank the bottom shows through; farther out the blue goes dark. Where the rivers open into the lake, the water runs slow and wide; a channel keeps on toward the Grove. Cool air lifts off the water. Farther out a boat-length shadow turns under the glass-clear surface, then the water goes still.
 
-Hunger, possession, Squid/otter names, and “unclaimed” stay in DM sections.
+Hunger, possession, Squid/otter names, and “unclaimed” stay in DM sections. Steal the coverage move, not this sentence order or punctuation.
 
 **Cold place audit (fail any):**
 
@@ -86,6 +86,8 @@ Hunger, possession, Squid/otter names, and “unclaimed” stay in DM sections.
 8. Life-under = visible signs + scale relation only?
 9. Stops at a player opening (drink / shore / route / watch the sign)?
 10. Kernel fields outside `[!narration]`?
+11. Zero em dashes (`—`) in player prose?
+12. Kitchen-table landmark nouns (no river cuts / workshop hydrology)?
 
 ## Arrival — published boxed text
 
