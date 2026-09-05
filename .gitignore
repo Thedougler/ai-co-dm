@@ -1,9 +1,20 @@
+# Obsidian — local / machine state (share config + plugin code)
 .obsidian/workspace.json
 .obsidian/workspace-mobile.json
-.obsidian/cache
+.obsidian/workspaces.json
+.obsidian/graph.json
+.obsidian/cache/
+.obsidian/plugins/*/data.json
+.obsidian/*.bak
+
+# Obsidian / OS junk
 .trash/
 .DS_Store
+**/.DS_Store
 *.tmp
+Thumbs.db
+
+# qmd local indexes (keep .qmd/index.yml)
 .qmd/index.sqlite
 .qmd/*.sqlite
 .qmd/*.sqlite-*

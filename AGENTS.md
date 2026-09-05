@@ -81,7 +81,8 @@ Packet only: `goal` · `allowed paths` · `type` · `constraints` · `do not re-
 | Path | Purpose |
 |---|---|
 | `campaigns/<id>/hot.md` | Boot “now” |
-| `campaigns/` · `templates/` · `lexicon/` · `inbox/` | Wiki |
+| `campaigns/` · `templates/` · `lexicon/` · `inbox/` · `attachments/` | Wiki (Obsidian: new notes → inbox, embeds → attachments) |
+| `.obsidian/` | Human vault config + Statblocks/Leaflet (ignore workspace) |
 | `.agent/skills/` | Procedures |
 | `scripts/after-write` · `scripts/qmd` | Agent CLI |
 | `docs/agents/` | Eng triage — skip for table work |
