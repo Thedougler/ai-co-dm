@@ -26,7 +26,7 @@ Do **not** run generic PKM 17-step audits, `wiki/.state.json` checks, or `~/.obs
 6. **Index gaps** — typed notes missing from nearest `00` MOC.
 7. **Prep/log mash** — `session-prep` living in `session` (or reverse).
 8. **Narration boundary** — `[!narration]` leaking DCs/secrets/unearned names (sample recent).
-9. **Monster statblocks** — run `./scripts/lint-statblocks`. FAIL = prose/house AC·HP without Fantasy Statblocks fence (code fence language `statblock`). Warn = stub with no block. Convert via **Homebrewer**; do not invent CR math in lint.
+9. **Monster statblocks** — run `./scripts/lint-statblocks`. FAIL = prose/house AC·HP without Fantasy Statblocks fence, or fence not first after frontmatter. Warn = stub with no block. Convert via **Homebrewer**; do not invent CR math in lint.
 10. **qmd freshness** — if git moved and index stale, note `./scripts/after-write` / `./scripts/qmd update`.
 
 Structural checks first. LLM judgment only on contradiction/dupe clusters — do not load every page body.

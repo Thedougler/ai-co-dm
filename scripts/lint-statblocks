@@ -5,9 +5,10 @@ Scans vault markdown with frontmatter `type: monster`.
 Skips hubs (`00 …`) and `templates/`.
 
 Statuses:
-  ok                         — has a ```statblock fence
+  ok                          — ```statblock is first body content after frontmatter
   prose_not_fantasy_statblock — house/prose AC·HP block without ```statblock (fail)
-  missing_statblock          — no fence and no prose block (stub / pending; warn)
+  statblock_not_first         — has ```statblock but something precedes it (fail)
+  missing_statblock           — no fence and no prose block (stub / pending; warn)
 
 Exit 1 if any prose_not_fantasy_statblock (use --strict to also fail on missing).
 
@@ -58,12 +59,23 @@ def iter_monster_notes() -> list[Path]:
     return sorted(out)
 
 
+FRONTMATTER = re.compile(r"^---\s*\n.*?\n---\s*\n", re.S)
+
+def body_after_frontmatter(text: str) -> str:
+    m = FRONTMATTER.match(text)
+    return text[m.end() :] if m else text
+
 def classify(text: str) -> str:
-    if STATBLOCK_FENCE.search(text):
-        return "ok"
-    if any(p.search(text) for p in PROSE_MARKERS):
-        return "prose_not_fantasy_statblock"
-    return "missing_statblock"
+    if not STATBLOCK_FENCE.search(text):
+        if any(p.search(text) for p in PROSE_MARKERS):
+            return "prose_not_fantasy_statblock"
+        return "missing_statblock"
+    body = body_after_frontmatter(text).lstrip("\n")
+    # First non-empty line must open a ```statblock fence
+    first = next((ln for ln in body.splitlines() if ln.strip()), "")
+    if not STATBLOCK_FENCE.match(first):
+        return "statblock_not_first"
+    return "ok"
 
 
 def main() -> int:
@@ -89,7 +101,7 @@ def main() -> int:
     fails = [
         f
         for f in findings
-        if f["status"] == "prose_not_fantasy_statblock"
+        if f["status"] in ("prose_not_fantasy_statblock", "statblock_not_first")
         or (args.strict and f["status"] == "missing_statblock")
     ]
 
@@ -103,7 +115,7 @@ def main() -> int:
             print(f"  [{tag}/{f['status']}] {f['path']}")
         if fails:
             print(
-                "\nConvert house prose to Fantasy Statblocks:\n"
+                "\nConvert house prose to Fantasy Statblocks (fence FIRST after frontmatter):\n"
                 "```statblock\n"
                 "name: Creature\n"
                 "size: Medium\n"
