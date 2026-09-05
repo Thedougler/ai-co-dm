@@ -21,7 +21,7 @@ In 1495 DR, the crew works a roughly 60,000-square-mile archipelago south of Chu
 ## Current arc
 **Season 2: Midchain sandbox → [[Sparhold]] → [[Aruhe - Hungry Isle]].** The crew travels aboard [[Uncertainty]] with open routes, faction obligations, and live ways to change which pressure reaches them first.
 ## Pressure
-Active [[fronts]]:
+Active [[campaigns/shattered-sea/fronts/00 Fronts|fronts]]:
 - [[Maw fissure and the tribute system]] — tribute and the Pearl may be holding the fissure shut.
 - [[The taken 314]] — the Grung fleet’s 314+ taken people and the Crown’s response.
 - [[Long Sight Hunt]] — Countless watchers hunt Fate Spinner carriers.
@@ -32,7 +32,7 @@ Active [[fronts]]:
 Dormant:
 - [[Soul Incarnate's Watch]] — triggers if Crissdalynn completes the Maw pilgrimage.
 
-Open [[quests]]:
+Open [[campaigns/shattered-sea/quests/00 Quests|quests]]:
 - [[Bring the Pearl of Souls to Umberlee]] · [[Pursue the Grung raiding fleet]] · [[Survey Aruhe as a Tangle anchor]]
 - [[Complete the Maw map pilgrimage]] · [[Simone's hunters]] · [[Grigori and the Crown hunt]]
 - [[The Red Wake]] · [[Sentinels and Countless]] · [[Pearl signal across the boundary]]
