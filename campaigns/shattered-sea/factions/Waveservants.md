@@ -7,13 +7,30 @@ visibility: dm
 tags: [faction]
 ---
 # Waveservants
+> [!narration] Narration
+> _Visualizer: public-face portrait placeholder; fill only when the Waveservants are encountered._
+>
 ## Public goal
 Maintain respectful passage and safe harbour through tribute to [[Umberlee]].
+
 ## Secret goal
-Keep the tribute system functioning; it may be holding the [[Drowned Maw]] fissure shut.
+Keep the tribute system functioning because it may be holding the [[Drowned Maw]] fissure shut, even when that makes the clergy complicit in exploitation.
+
 ## Methods
-Every harbour pays a same-rate tribute: coin, rope, fish bones, compass needles, or a spoken promise. Blessing acknowledges respect; it never promises safety.
+Every harbour pays a same-rate tribute: coin, rope, fish bones, compass needles, or a spoken promise. Blessing acknowledges respect; it never promises safety. Under pressure, clergy change the form or rate and use port infrastructure to keep collection visible.
+
 ## Faces
-- [[Umberlee / Branca]]
+- Religious face: [[Umberlee / Branca]]
+- Operatives: harbour clergy and tribute collectors
+
 ## Reach / resources
-Port infrastructure, clergy, and a sea-wide ritual bureaucracy.
+Port infrastructure, clergy, and a sea-wide ritual bureaucracy. Their reach is strongest where a harbour still accepts the tribute interface.
+
+## Relations
+- Complicated: [[Dravosi Crown]]
+- Rival / uneasy: [[Countless]]
+- Party: complicated; the crew needs passage while questioning the cost
+
+## Clocks
+- [[Maw fissure and the tribute system]]: tribute rates or forms change, currents reverse, and the Pearl draws an answer.
+- [[Pearl signal across the boundary]]: the signal strains the system they claim to maintain.

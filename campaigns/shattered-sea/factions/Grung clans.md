@@ -7,14 +7,31 @@ visibility: dm
 tags: [faction]
 ---
 # Grung clans
+> [!narration] Narration
+> _Visualizer: public-face portrait placeholder; fill only when the Grung clans are encountered._
+>
 ## Public goal
 Protect Grung communities and the mandate of [[Auralis]].
+
 ## Secret goal
-The gold caste’s theocratic mandate and constructed demigod authority support raiding and control; exact command structure is unknown.
+The gold caste's theocratic mandate and constructed demigod authority support raiding and control; exact command structure is unknown.
+
 ## Methods
-Clan hierarchy, tinctures, raids, and rainforest strongholds.
+Clan hierarchy, tinctures, raids, and rainforest strongholds. Under pressure, a clan can protect its own story or let the fleet and its operatives carry the blame.
+
 ## Faces
-- [[Simone]]
-- [[Felix Aho]] · [[Ruma Delacroix]] · [[Bazzoth]]
+- Religious / hunter face: [[Simone]]
+- Operatives: [[Felix Aho]], [[Ruma Delacroix]], and [[Bazzoth]]
+
 ## Reach / resources
-The five islands of [[Verdant Teeth]], a raiding fleet, and 314+ taken fighting-age people.
+The five islands of [[Verdant Teeth]], a raiding fleet, tinctures, and 314+ taken fighting-age people.
+
+## Relations
+- Rival: [[Dravosi Crown]]
+- Complicated: [[Passage]]
+- Party: rival; individual clans and captives can still create separate bargains
+
+## Clocks
+- [[The taken 314]]: the fleet moves people toward [[Sparhold]] while Crown inspections tighten.
+- [[Pursue the Grung raiding fleet]]: Warren activity and Simone's pursuit make the clan structure actionable.
+- [[Simone's hunters]]: tincture, gas, and family history bring the faction's pressure aboard [[Uncertainty]].

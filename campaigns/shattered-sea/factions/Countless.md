@@ -7,13 +7,30 @@ visibility: dm
 tags: [faction]
 ---
 # Countless
+> [!narration] Narration
+> _Visualizer: public-face portrait placeholder; fill only when Countless is encountered._
+>
 ## Public goal
-Unknown; a splinter order with a claim on the Sentinels’ legacy.
+Claim the Sentinels' legacy and end the silence around the old seal, presenting the splinter order as the people willing to act.
+
 ## Secret goal
-Advance [[Talon Vantyrus]]’s plan through a crack in the Sentinels’ seal, possibly using Crissdalynn’s map.
+Advance [[Talon Vantyrus]]'s plan through a crack in the Sentinels' seal, possibly using [[Crissdalynn Khinriss]]'s map to open a path through the Maw.
+
 ## Methods
-Secrecy, splinter teachings, and pressure through the Maw.
+Secrecy, splinter teachings, pressure through the Maw, and claims on map fragments or Sentinel history. Countless turns withheld knowledge into recruitment and action.
+
 ## Faces
-- [[Talon Vantyrus]]
+- Leader / visible agent: [[Talon Vantyrus]]
+- Other faces: not established; the order is known through its splinter claim and pressure
+
 ## Reach / resources
-Unknown; linked to the seal and Sentinel history.
+Unknown but linked to the seal, Sentinel history, the Maw crack, and whatever map material Countless can claim.
+
+## Relations
+- Rival: [[Sentinels of the Eyrie]]
+- Uneasy: [[Waveservants]]
+- Party: rival; the crew can still bargain, expose, or redirect the plan
+
+## Clocks
+- [[Countless through the Maw seal]]: pilgrimage reveals the crack, Countless claims a map piece, and the seal answers Talon.
+- [[Sentinels and Countless]]: the crew's choice about secrecy or access changes Countless' leverage.

@@ -7,16 +7,29 @@ visibility: dm
 tags: [faction]
 ---
 # Tessarine Concordat
+> [!narration] Narration
+> _Visualizer: public-face portrait placeholder; fill only when the Concordat is encountered._
+>
 ## Public goal
 Make trade and credit reliable across the islands.
+
 ## Secret goal
 Rule through obligation; six of seven Calveno Council seats answer through debt.
+
 ## Methods
-Loans, trade credit, property, public debts, and administrators.
+Loans, trade credit, property, public debts, and administrators. When pressured, the Concordat offers relief that creates a longer obligation rather than using open force.
+
 ## Faces
-- [[Fieschi]]
+- Leader / council face: [[Fieschi]]
+- Operatives: administrators and creditors in [[Calven and Calveno]]
+
 ## Reach / resources
-Money, [[Calven and Calveno]], and long-term debt.
+Money, [[Calven and Calveno]], long-term debt, and the leverage of public contracts.
+
 ## Relations
 - Rival: [[Dravosi Crown]]
-- Party: complicated
+- Party: complicated; the crew can use credit while resisting the debt it creates
+
+## Clocks
+- Debt turns a council seat into a standing obligation.
+- [[The taken 314]]: Crown control and Concordat credit compete to define who can move people and goods.
