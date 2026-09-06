@@ -17,8 +17,8 @@ Leading words:
 - **horizon** — detail decreases with distance from current play
 - **season** — a campaign-scale chapter with a function and a question
 
-The contract lives on `kind: campaign-plan` subtype `full-campaign`.
-Chapters live on `kind: season` pages. This skill owns the DM
+The contract lives on the existing `type: campaign` hub and `hot.md`.
+Chapters live in the existing story, hot, and session-prep notes. This skill owns the DM
 conversation that produces those decisions.
 
 Ambiguity about the DM's intention is a defect. Uncertainty about what
@@ -33,8 +33,8 @@ players will do is a feature.
 For an existing campaign, read before proposing:
 
 - the `campaign-plan` page with subtype `full-campaign`
-- `kind: season` pages whose `season_status` is `active`
-- active `kind: front` pages
+- the current campaign story and active session-prep pages
+- active front notes
 - PC pages and the campaign-plan Party Goals
 
 For a new campaign, begin with the DM's stated concept.
@@ -76,17 +76,17 @@ decision settled or marked provisional.
 
 ### 3. Write
 
-Decisions feed existing kinds through their schemas:
+Decisions feed existing kinds through existing templates and the type enum:
 
 | Decision | Target | Schema |
 |---|---|---|
-| Premise, promise, tone, anchors, ending intent, runtime | `campaign-plan` subtype `full-campaign` | `_system/schemas/campaign-plan/` |
-| Season function, question, range, transitions | `kind: season` in `campaign/` | `_system/schemas/season/` |
-| Faction fronts surfaced | `kind: front` / faction pages | `_system/schemas/front/`, `_system/schemas/faction/` |
-| Named place anchor with no page | spatial kind via `writing-places` | `_system/schemas/location/` (or settlement, region, route) |
-| Named dungeon complex with no page | `dungeon` via `writing-dungeons` | `_system/schemas/dungeon/` |
-| Named notable object with no page | `item` via `writing-items` | `_system/schemas/item/` |
-| Named conveyance with no page | `vehicle` via `writing-vehicles` | `_system/schemas/vehicle/` |
+| Premise, promise, tone, anchors, ending intent, runtime | `campaign-plan` subtype `full-campaign` | `templates/` |
+| Season function, question, range, transitions | campaign story or session-prep note in `campaigns/<slug>/` | `templates/` |
+| Faction fronts surfaced | front note / faction pages | `templates/`, `templates/` |
+| Named place anchor with no page | spatial kind via `place-design` | `templates/` (or settlement, region, route) |
+| Named dungeon complex with no page | `dungeon` via `dungeon-design` | `templates/` |
+| Named notable object with no page | `item` via `dnd-5e-magic-item-design` | `templates/` |
+| Named conveyance with no page | `vehicle` via `vehicle-design` | `templates/` |
 
 Update the existing full-campaign plan in place. Never mint a second
 `full-campaign` page for one campaign.

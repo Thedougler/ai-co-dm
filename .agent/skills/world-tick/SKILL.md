@@ -1,13 +1,13 @@
 ---
 name: world-tick
-description: Post-session world advancement ritual — walks through active factions, NPCs, and plot threads one at a time, collaborates with the DM on each thread's offscreen goal, uses a real d20 roll to resolve it, then writes all changes directly to every relevant wiki page. Run once after each session to advance the living world. Trigger on "world tick", "advance the world", "between sessions", "offscreen actions", "faction tick", "what happened while we played", or any request to update the world state after a session.
+description: Post-session world advancement ritual — walks through active factions, NPCs, and plot threads one at a time, collaborates with the DM on each thread's offscreen goal, uses a real d20 roll to resolve it, then stages reviewed ledger lines and applies only approved surgical changes. Run after session-wrapup when off-screen advancement is wanted. Trigger on "world tick", "advance the world", "between sessions", "offscreen actions", "faction tick", "what moved while the party was elsewhere", or any request to update the world state after a session.
 ---
 
 # World Tick
 
 The world didn't pause while the party played. Now you find out what happened offscreen.
 
-This is a collaborative ritual — efficient, methodical, one thread at a time. You read the situation, propose what that faction or NPC was trying to do, the DM confirms or redirects, the dice decide the outcome, and you write every change directly to the wiki. No gaps, no deferred updates, no vague notes.
+This is a collaborative ritual — efficient, methodical, one thread at a time. You read the situation, propose what that faction or NPC was trying to do, the DM confirms or redirects, the dice decide the outcome, and you stage a reviewed ledger proposal before any write. No gaps, no deferred updates, no vague notes.
 
 ## Canon Discipline
 
@@ -30,8 +30,8 @@ When in doubt: read the file, then speak. Never the other way around.
 
 Look for the most recent session material in this order:
 
-1. `content/shattered-sea/private/sessions/` — agent-facing session summary (preferred)
-2. `content/shattered-sea/sessions/` — player-facing recap as fallback
+1. `campaigns/<campaign>/sessions/` — agent-facing session summary (preferred)
+2. `campaigns/<campaign>/sessions/` — player-facing recap as fallback
 
 If neither exists, ask:
 
@@ -43,7 +43,7 @@ Accept whatever they provide. You need: who the party engaged with, what locatio
 
 ## Step 2: Identify Active Threads
 
-Read `content/shattered-sea/situations/index.md` alongside the recap. Then read the situation file for any thread you're considering before proposing it — don't propose a thread based on the index summary alone.
+Read `campaigns/<campaign>/fronts/00 Fronts.md` alongside the recap. Then read the situation file for any thread you're considering before proposing it — don't propose a thread based on the index summary alone.
 
 **Only tick threads the party has touched.** A faction the party has never encountered doesn't get a turn — their drama belongs to a session where it can matter. The world tick is about consequences the players can feel, not background noise they'll never see.
 
@@ -99,7 +99,7 @@ Be specific and interesting. Every result — including setbacks — should shif
 
 Follow faction logic, not narrative convenience. The Takowan rolls a 4 while mapping Passage contacts? It doesn't just fail quietly — a contact noticed the questions, word is moving, and the next person the Takowan approaches will be warned. The world is honest, and honesty is more interesting than managed drama.
 
-Keep tone consistent with the campaign. The Shattered Sea has weight and consequence; outcomes should feel earned and real, not dramatic for its own sake. Read the situation file's voice before writing the result.
+Keep tone consistent with the campaign; outcomes have weight and consequence; outcomes should feel earned and real, not dramatic for its own sake. Read the situation file's voice before writing the result.
 
 **What the result must not do:**
 - Reference DM design notes as established world facts — if it hasn't happened in a session log, it hasn't happened
@@ -107,24 +107,17 @@ Keep tone consistent with the campaign. The Shattered Sea has weight and consequ
 - State or imply where the party goes next — you don't know that
 - Invent NPC knowledge, locations, or status not supported by their file
 
-### 3d. Write Immediately
+### 3d. Stage the reviewed change
 
-Update every relevant page before moving to the next thread:
+Add the proposed change to `inbox/world-tick-<YYYY-MM-DD>.md` before moving to the next thread:
 
-- **Situation file** — update the Current State section; append a `### World Tick — [YYYY-MM-DD]` entry in the session log
-- **NPC files** — update status, location, relationships, or active goal if they were involved
-- **Faction files** — update resources, power, active goal, or known state
-- **Location files** — update Current Hooks if the action changed the situation on the ground
-
-Set `updated: YYYY-MM-DD` on every page you touch.
-
-Do not leave gaps. If something changed, find every page that reflects that thing and update it. A faction that lost a resource should show that loss. An NPC who moved should show where they are now.
+Do not edit the owning pages during this pass. The inbox ledger carries the proposed before/after state, evidence, and fill warning for later confirmation.
 
 ### 3e. Confirm and Continue
 
-After writing:
+After staging the proposal:
 
-> "Done — [one sentence on what changed]. Next up: [Thread Name]. Ready?"
+> "Staged — [one sentence on the proposed change]. Next up: [Thread Name]. Ready?"
 
 Wait for go, then move to the next thread.
 
@@ -132,8 +125,8 @@ Wait for go, then move to the next thread.
 
 ## Step 4: Close Out
 
-After all threads are ticked:
+Close out by marking each ledger line with its evidence, the proposed before/after state, and any unresolved fill confirmation. Do not apply it in this skill until Nick/Co-DM approves the ledger.
 
-1. Update `content/shattered-sea/situations/index.md` if any threads resolved, escalated, or changed status
-2. Refresh `content/hot.md` with the new world state
-3. Commit: `git add content/ && git commit -m "world-tick: [session number or date] offscreen advancement"`
+## ai-co-dm write boundary
+
+Stage proposed advances in `inbox/world-tick-<YYYY-MM-DD>.md` after triage and per-thread review. Do not write a front, faction, NPC, location, or `hot.md` until Nick/Co-DM confirms the interpretation. Once approved, apply only confirmed surgical changes, run `./scripts/after-write`, and return a bounded receipt. Never assume a destination, add a new front, or use a raw transcript as evidence.

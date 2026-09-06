@@ -6,7 +6,7 @@ wiki conventions. The workflow lives in `../SKILL.md`.
 ## Repo integration
 
 A cold open is one Hook beat page, instantiated from the beat template in
-`_system/schemas/` at `canon: provisional`, and composed against its session's
+`templates/` at `canon: provisional`, and composed against its session's
 Beat Chart by `writing-session-beats`.
 
 - Each step is **narration, then one `[!mechanic]`** whose table holds the group

@@ -15,7 +15,7 @@ players meaningful things to pursue without prescribing the route.
 **Island** is the method. The page is `type: front, quest, or encounter (choose the existing owner)` when another
 page, a future session, or a Beat Chart must refer to this topology as
 a node. A night-only pressure stays a session-plan Situations section.
-There is no `kind: narrative-island`.
+There is no `type: narrative-island`; use the nearest existing `type` and template.
 
 The island owns **situation topology**: what is happening, who wants
 what, why it matters, how it changes, how the PCs can engage, and what
@@ -150,8 +150,7 @@ If a named conveyance must be cited as a node and has no page, invoke
 `vehicle-design`. If a node exists but has no presence, invoke
 `flesh-out`.
 
-List playable `kind: location` sites in `locations:`; wikilink other
-spatial kinds in the body.
+List playable `type: location` sites in a `locations:` property when the existing template supports it; wikilink other spatial notes in the body.
 
 **Complete when** a DM can scan the page and run the situation.
 

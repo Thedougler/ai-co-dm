@@ -1,17 +1,15 @@
 ---
-name: prep-faction
+name: faction-prep
 description: >
-  Create or expand a faction wiki page for the Shattered Sea campaign. Triggers: "create a page
+  Create or expand a runnable faction note in an ai-co-dm campaign. Triggers: "create a page
   for [faction]", "detail [faction]", "who runs [organization]". Checks index.md for existing
   stubs before creating, and decides whether the faction warrants a clock in hot.md. Full trigger
   list in the skill body.
 ---
 
-> **Shared prep conventions** — stub check, interview + PC-connection requirement, combat calibration, prose pass, and filing — live in [`prep-family-standards`](../ttrpg-llm-wiki-init/references/prep-family-standards.md). Read it before generating; this file covers only what's specific to this content type.
 
 ## When to use
 
-Full trigger set: "create a page for [faction]", "detail [faction]", "who runs [organization]", "expand [faction]'s entry", "I need a faction that...", "what does [group] want", "add a faction clock", "flesh out [organization]".
 ## Faction Page Structure
 
 **Frontmatter:** universal/entity fields auto-fill. Author the domain values: `status` (`active | dormant | dissolved`) and a `summary` of 2 sentences (what they want + how they operate).
@@ -32,24 +30,15 @@ party, it gets a clock in `hot.md`. Add it there after writing the page.
 
 ## Filing
 
-- Page path: `wiki/entities/factions/{slug}.md`
-- Add to `wiki/index.md` under `## entities/factions`
-- If faction gets a clock: add entry to `wiki/hot.md` faction clocks block
+- Page path: `campaigns/<slug>/factions/<Name>.md`
+- Add to `campaigns/<slug>/factions/00 Factions.md` under `## entities/factions`
+- If faction gets a clock: add entry to `hot.md` faction clocks block
 - Add reciprocal links to all referenced entities
 
-Load `ttrpg-writing` before writing any prose. **DM-facing reference** throughout — all
+Load `obsidian-markdown` before writing any prose. **DM-facing reference** throughout — all
 faction content is DM-only operational reference.
 
----
 
-## Reference Files
+## Sibling boundaries
 
-| File | Read when |
-|---|---|
-| `references/FACTION.md` | Full faction page template, clock format, quality bar |
-| `references/faction-simulation.md` | Faction off-screen behavior and simulation heuristics |
-| `../ttrpg-writing/references/dm-reference-standards.md` | Writing all faction prose — agenda, methods, membership |
-| `../ttrpg-writing/references/callout-standard.md` | Callout type enforcement and conversion |
-| `../ttrpg-writing/references/NAMES.md` | Naming a new faction — linguistic roots by culture |
-| `../ttrpg-llm-wiki-init/references/auto-correct.md` | Fixing structural issues during or after content creation |
-| `../ttrpg-llm-wiki-init/references/wikilink-standards.md` | Creating or fixing wikilinks |
+Use `npc-design` for faction faces, `narrative-islands` for competing forces, and `world-tick` for reviewed off-screen advancement. Do not roll or canonize a future move during faction prep. Run `./scripts/after-write` after vault writes.

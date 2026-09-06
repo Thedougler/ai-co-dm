@@ -1,0 +1,1140 @@
+## qmd://legacy-ss/location-umberlee-shrine-vel-orn.md
+
+**docid:** `#8aaf21`
+
+**Title:** Umberlee's Hidden Shrine
+
+**Context:** READ-ONLY legacy Shattered Sea Campaign OS wiki (~/shattered-sea/wiki/shattered-sea). Prior context for Ingest/Co-DM. Never write here — compile into ai-co-dm campaigns/shattered-sea instead.
+
+```
+1: ---
+2: id: location.umberlee-shrine-vel-orn
+3: kind: location
+4: subtype: building
+5: scope: setting
+6: campaign: shattered-sea
+7: audience: [agent, dm]
+8: canon: true
+9: status: active
+10: importance: supporting
+11: schema: location@2
+12: created: 2026-08-20
+13: updated: 2026-08-20
+14: aliases:
+15:   - "Umberlee's Hidden Shrine"
+16:   - "Vel-Orn Shrine"
+17:   - "Umberlee's Blue Shrine"
+18:   - "The Blue Shrine"
+19:   - "Vafnar"
+20: sources: [_raw/umberlee-shrine.md]
+21: tags: [horror, maritime, mystery, faith]
+22: adjacent_to: []
+23: near:
+24:   - "[[location.keth-naar|Keth-Naar]]"
+25: north_of: []
+26: south_of: []
+27: east_of: []
+28: west_of: []
+29: geo_anchor: false
+30: npcs: []
+31: factions:
+32:   - "[[faction.waveservants|Waveservants]]"
+33: ---
+34: 
+35: # Umberlee's Hidden Shrine
+36: 
+37: [[deity.umberlee|Umberlee]]'s shrine on Vel-Orn, cut into black stone in the Sunken Crown where five small islands ring the Blue Hole. Not a bright harbour shrine collecting routine tribute, this shrine grows older and quieter, reaching toward the drowned instead of the living.
+38: 
+39: ## At a Glance
+40: 
+41: | Field | Detail |
+42: |---|---|
+43: | Type | Shrine |
+44: | Location | Vel-Orn, the Sunken Crown |
+45: | Governed By | [[faction.waveservants\|Waveservants]] |
+46: | Public Access | Hidden; dangerous reef approach; requires a guide or prior knowledge |
+47: | Known For | Ledger of drowned names and water-debt, black stone, the vanished [[item.pearl-of-souls\|Pearl of Souls]] |
+48: 
+49: ## Geography
+50: 
+51: A shrine carved into black stone on Vel-Orn's cliff face, accessible only by difficult skiff landing at timed surge. Salt and tide have worn the entrance smooth. Kelp wraps the pillars. No freshwater or shelter exists outside.
+52: 
+53: - North: Ral-Arn
+54: - East: Meth-Var
+55: - South: Dath-Mar
+56: - West: [[location.keth-naar|Keth-Naar]]
+57: 
+58: ## The Shrine
+59: 
+60: The shrine entrance is a mouth in the cliff face, worn smooth by salt spray and years of tide. Kelp wraps the pillars. Candles burn inside where wind should have killed them, and the shrine smells of brine, tallow, and wet stone, with something much older underneath. Sound behaves strangely here: footsteps soften to nothing. The shrine marks debts, keeps drowned names, and preserves an older [[deity.umberlee|Umberlee]] worship of the Blue Hole. Inside, a ledger chamber holds names, tokens, coins, fish bones, carved shells, and bits of ship or [[character-option.sailor|Sailor]] preserved as witness. Every object documents a death.
+61: 
+62: Not on colonial charts. Reaching it requires prior knowledge, a guide, or difficult navigation. Vel-Orn's approach is sheer, reef-bound, and unfriendly to casual landings.
+63: 
+64: The deepest chamber formerly held the [[item.pearl-of-souls|Pearl of Souls]] over a tidal pool built to its requirements. [[faction.fisks-fleet|Fisk's fleet]] stole the Pearl before the campaign, triggering their own destruction. (See [[faction.fisks-fleet|Fisk's Fleet]] and [[item.pearl-of-souls|Pearl of Souls]] for details on the theft and aftermath.) The shrine's protective function over the Sunken Crown blessing is now failing. [[deity.umberlee|Umberlee]] has stopped waiting on the debt and collects it off the water herself; see [[situation.the-red-wake|The Red Wake]]. [[pc.delmar-fisk|Delmar Fisk]] experiences dread near this shrine.
+65: 
+66: Sessions sometimes call this shrine "Vafnar," an in-fiction mishearing of the name.
+67: 
+68: ## Shrine Rooms
+69: 
+70: - **Tide Gate**: marks all who enter. [[pc.delmar-fisk|Delmar]]'s candle gutters as he crosses.
+71: - **Ledger Chamber**: holds [[faction.fisks-fleet|Fisk's fleet]] scored as one breath.
+72: - **Pearl Chamber**: the Pearl's absence registers as pressure and silence. *Detect magic* finds nothing.
+73: - **War Room**: maps and records of the theft. Fisk's name in the margin.
+74: 
+75: ## Notable NPCs
+76: 
+77: A Senior Waveservant tends this shrine, thirty years at the post, with salt-grey skin and eyes that don't track normally. To [[pc.delmar-fisk|Delmar]] Fisk: *"The Pearl knows your name. [[deity.umberlee|Umberlee]] is patient. You have a debt, and the debt grows with every tide."* To anyone from [[location.keth-naar|Keth-Naar]]: *"You came to ask why the seas turned. This is where the anger began."*
+78: 
+79: [[location.keth-naar|Keth-Naar]]'s elders carry this shrine's crisis on their own island's page, where the ration timeline and the hunters' split over open water are recorded. [[npc.elder-anton|Elder Anton]] names the shrine directly as "the disruption origin" in his own Relationships.
+80: 
+81: ## Hooks
+82: 
+83: - The [[item.pearl-of-souls|Pearl of Souls]] rested here before Fisk's crew stole it, triggering the storm that sank his fleet.
+84: - [[location.keth-naar|Keth-Naar]] uses this shrine to petition [[deity.umberlee|Umberlee]] for terms. The Pearl's absence now breaks that function.
+85: 
+86: ## Session Log
+87: 
+88: **Session 04, Day 2** (`vault/episodes/004/transcript-day-2.md:93`). The DM's own Pearl Summons note names "the five captains / Vel Orn story" as background withheld at the time of session play. This ties the shrine directly to [[pc.delmar-fisk|Delmar Fisk]]'s backstory and [[faction.fisks-fleet|Fisk's Fleet]]'s destruction, corroborating this page at `canon` (pile-table rung 2) even though the specific site name stayed DM-only in play.
+89: 
+```
+
+## qmd://legacy-ss/location-waveservant-shrine.md
+
+**docid:** `#d8b3f5`
+
+**Title:** Waveservant Shrine, Calveno
+
+**Context:** READ-ONLY legacy Shattered Sea Campaign OS wiki (~/shattered-sea/wiki/shattered-sea). Prior context for Ingest/Co-DM. Never write here — compile into ai-co-dm campaigns/shattered-sea instead.
+
+```
+1: ---
+2: id: location.waveservant-shrine
+3: kind: location
+4: subtype: shrine
+5: scope: setting
+6: campaign: shattered-sea
+7: audience: [agent, dm]
+8: canon: provisional
+9: status: active
+10: importance: supporting
+11: schema: location@2
+12: created: 2026-07-30
+13: updated: 2026-08-19
+14: aliases:
+15:   - Waveservant Shrine, Calveno
+16:   - Calveno Waveservant Shrine
+17: sources:
+18:   - _raw/waveservant-shrine.md
+19: tags: [maritime, faith]
+20: within: location.mercatura
+21: adjacent_to: []
+22: near: []
+23: north_of: []
+24: south_of: [region.central-strait]
+25: east_of: []
+26: west_of: []
+27: geo_anchor: false
+28: npcs:
+29:   - npc.branca
+30: factions:
+31:   - faction.waveservants
+32: look_canon: provisional
+33: reference_images: []
+34: player_images: []
+35: ---
+36: 
+37: # Waveservant Shrine, Calveno
+38: 
+39: > [!narration] Arrival
+40: > A low arch of pale stone on the [[location.mercatura|Mercatura]] canal in [[settlement.calveno|Calveno]], deep enough to block wind but shallow enough for passersby on boats to see inside. Water flows in from the channel to fill a basin. Tallow candles burn behind glass. The tribute terms face the canal, not the door.
+41: 
+42: A shrine to [[deity.umberlee|Umberlee]] on the [[location.mercatura|Mercatura]] canal in [[settlement.calveno|Calveno]]. It sits in a pale stone arch. Boats passing can read the tribute terms posted outside. In a city where all dealings happen openly, the shrine fits the culture perfectly: captains may pay before sailing or after returning, but they must pay.
+43: 
+44: ## At a Glance
+45: 
+46: | Field | Detail |
+47: |---|---|
+48: | Type | Shrine |
+49: | Location | [[settlement.calveno\|Calveno]], [[location.mercatura\|Mercatura]] canal front |
+50: | Operated By | [[faction.waveservants\|The Waveservants]] |
+51: | Public Access | Open to anyone approaching by canal or on foot along [[location.mercatura\|The Mercatura]] |
+52: | Known For | Canal-fed basin, tribute terms facing outward, commerce culture |
+53: 
+54: ## Senses
+55: 
+56: - **Signature:** Tallow candles behind glass, salt water lapping in the canal-fed basin, tribute terms turned toward the boats.
+57: - **Footing:** Pale stone arch, shallow enough for canal traffic to see inside; wind-blocked, open to the water.
+58: 
+59: ## Features
+60: 
+61: - **The tribute basin:**
+62:   - **Obvious:** A basin filled from the channel, candles, and a senior [[faction.waveservants|Waveservant]] who takes tribute and keeps records.
+63:   - **Reveals:** A junior keeps the candles and basin clean. The senior takes tribute and writes it all down — who paid, who skipped.
+64:   - **Logic:** [[settlement.calveno|Calveno]] values open dealings; this shrine is formal, like the city. Anyone can come by water or foot. Those who skip payment face the same reckoning as other defaults here.
+65:   - **Consequence:** The shrine writes everything down. Skipping tribute is a public record, not a private sin.
+66: - **The appointment ledger:**
+67:   - **Obvious:** This shrine handles [[deity.umberlee|Umberlee]]'s appointments — a Waveservant here can handle her claims politely, before worse comes.
+68:   - **Reveals:** One waited for [[pc.delmar-fisk|Delmar]], not sleeping until he came; he tricked past her. [[npc.branca|Branca]] took the vigil next.
+69:   - **Logic:** [[deity.umberlee|Umberlee]]'s claims are delivered as scheduling, not threat.
+70: 
+71: ## Geography
+72: 
+73: - **North:** Moretti & Sons
+74: - **East:** [[region.harwick|Harwick]]
+75: - **South:** [[region.central-strait|The Central Strait]]
+76: - **West:** [[location.the-bridge|The Bridge]]
+77: 
+78: ## Hazards
+79: 
+80: > [!danger] Active Hazards
+81: > None physical. The record is the danger: a skipped tribute becomes a documented default, and [[deity.umberlee|Umberlee]]'s claim can arrive politely at any time.
+82: 
+83: ## Inhabitants
+84: 
+85: - [[npc.branca|Branca]] — senior Waveservant and [[deity.umberlee|Umberlee]]'s appointment-keeper. Held her vigil at this shrine through Session 04 Day 1, refusing to leave until [[pc.delmar-fisk|Delmar]] arrived.
+86: - Junior Waveservant — keeps the candles and basin clean. Unminted.
+87: - A Waveservant stopped [[pc.delmar-fisk|Delmar]] and [[pc.crissdalynn-khinriss|Crissdalynn]] in [[location.mercatura|The Mercatura]] during Session 03. She waited here "all day," not sleeping until [[pc.delmar-fisk|Delmar]] came.
+88: 
+89: ## Secrets
+90: 
+91: > [!secret]- Hidden Details
+92: > [[settlement.calveno|Calveno]] keeps records of captains who skip tribute. This shrine writes things down more than other ports do. A Waveservant here can meet those who owe [[deity.umberlee|Umberlee]] debts — gently, before worse comes.
+93: 
+94: ## If Left Alone
+95: 
+96: [[location.calveno-la-vasca|The Basin]] fills with canal water. A Waveservant keeps the tally of tribute and defaults. [[deity.umberlee|Umberlee]]'s appointments are delivered on schedule; a skipped claim escalates to the next person. ^[inferred]
+97: 
+98: ## Session Log
+99: 
+100: - **Session 03** (`vault/episodes/003/transcript.md:126,199,228`): a Waveservant stops [[pc.delmar-fisk|Delmar]] and [[pc.crissdalynn-khinriss|Crissdalynn]]. She says she'll wait at the shrine all day. She won't sleep until [[pc.delmar-fisk|Delmar]] comes. [[pc.delmar-fisk|Delmar]] tricks her into leaving.
+101: - **Session 04, Day 1** (`vault/episodes/004/transcript-day-1.md:58`, "[[npc.branca|Branca]]'s Vigil"): [[npc.branca|Branca]] refuses to leave after finding [[pc.delmar-fisk|Delmar]]. He rejected her. Her vigil leads to the Pearl Summons scene on Day 2.
+102: 
+```
+
+## qmd://legacy-ss/settlement-kalowe.md
+
+**docid:** `#9537d9`
+
+**Title:** Kalowe
+
+**Context:** READ-ONLY legacy Shattered Sea Campaign OS wiki (~/shattered-sea/wiki/shattered-sea). Prior context for Ingest/Co-DM. Never write here — compile into ai-co-dm campaigns/shattered-sea instead.
+
+```
+1: ---
+2: id: settlement.kalowe
+3: kind: settlement
+4: subtype: port-town
+5: scope: setting
+6: campaign: shattered-sea
+7: audience: [agent, dm]
+8: canon: provisional
+9: status: active
+10: importance: major
+11: schema: settlement@2
+12: created: 2026-08-17
+13: updated: 2026-08-18
+14: aliases:
+15:   - "Kalowe"
+16:   - "Kalowe Free Port"
+17: sources:
+18:   - _archive/kalowe-2.md
+19:   - _archive/kalowe-narration-appearance.md
+20:   - _archive/kalowe-banner.webp
+21:   - _archive/peoples-of-the-shattered-sea.md
+22:   - _archive/midchain-west.md
+23:   - _archive/chain-council.md
+24: tags: []
+25: within: region.midchain-west
+26: adjacent_to: []
+27: near: []
+28: north_of: []
+29: south_of: []
+30: east_of: []
+31: west_of: []
+32: geo_anchor: true
+33: factions:
+34:   - "[[faction.rattkin|Rattkin]]"
+35:   - "[[faction.chain-council|Chain Council]]"
+36:   - "[[faction.waveservants|Waveservants]]"
+37: npcs: []
+38: look_canon: provisional
+39: reference_images: []
+40: player_images: []
+41: summary: "The Midchain's free port: an Island Council dry dock that takes any paying hull and asks nothing about its cargo or paperwork."
+42: provenance: {extracted: 0.82, inferred: 0.13, ambiguous: 0.05}
+43: base_confidence: 0.37
+44: lifecycle: draft
+45: lifecycle_changed: 2026-08-18
+46: tier: core
+47: ---
+48: 
+49: # Kalowe
+50: 
+51: > [!narration] Atmosphere
+52: > Stone bridges cross waters between three islands, each crowded with cranes and rope. A reef blocks the outer waters and leaves an anchorage smooth enough for damaged hulls to rest. Voices call in a dozen tongues: dock workers counting loads, captains naming rates. Overhead the tools rattle on metal and wood. The air tastes of rope-tar, salt, and wood-smoke. Alleys between warehouses and repair sheds stay busy even when the quay is not.
+53: >
+54: > Reef-gap traffic, shrine tribute, dock fiefs that do not share a single throat. Fort on the height — seized as neutral ground after the mutiny — where the [[faction.chain-council|Chain Council]] sits because Kalowe will not seat a local ruler.
+55: 
+56: ## Overview
+57: 
+58: [[region.midchain|Midchain]] free port. Softest of the little kingdoms: it bends toward shared rule and still bristles at [[faction.chain-council|the Council]]'s presence. Founding myth, generations worn: a tyrant (the Grask, in the oldest telling) personally held the reef-gap toll — the same chokepoint that is now the Waveservant tribute point. His dock bosses mutinied together; no one of them could have done it alone. Power stayed split so there would never be one throat to cut again.
+59: 
+60: Roughly 500 ft. across three reef-linked islets joined by stone bridges, the whole site ringed by a reef with a single navigable gap. The largest islet sits at dock level, crowded with cranes, warehouses, and the main dry dock, where repairs run around the clock. The other two rise only slightly higher, threaded by repair sheds and [[vehicle.the-narrow|The Narrow]] alleys where [[character-option.rogue|Rogue]] crews hide. Open water gives clear sight lines between islets; bridges bottleneck the rest, and the dock bosses watch every crossing. The reef gap is the only way in or out by sea, marked by the [[location.kalowe-waveservant-shrine|Waveservant Shrine]] where every hull pays toll. Population roughly 1,800 who call the docks home, more than double that whenever a fleet works the dry docks.
+61: 
+62: ## Districts
+63: 
+64: - **Reef-gap / shrine:** Toll that became tribute. [[faction.waveservants|Waveservants]], not a prince. The [[location.kalowe-waveservant-shrine|Waveservant Shrine]] sits in the main causeway wall; every arriving hull pays.
+65: - **Dock fiefs:** Nine Island Council votes. Deliberately no single seat.
+66: - **The Run:** large [[faction.rattkin|Rattkin]] presence. [[region.midchain|Midchain]] demography (sketch, not census): humans common not dominant; tortle, orc, [[faction.rattkin|Rattkin]], [[faction.lizardfolk|Lizardfolk]] common; [[creature.grung|Grung]] present as blue-caste traders at the designated beaches on [[region.veth|Veth]] and [[region.sorn|Sorn]], not residents. [[region.karath|Karath]], [[region.dreth|Dreth]], and [[region.orak|Orak]] have no beach a Kalowe hull is welcome on.
+67: 
+68: Minted venues within the three islets: [[location.fifitas-slip|Fifita's Slip]], [[location.grimaldis-dispensary|Grimaldi's Dispensary]], [[location.the-flat-water|The Flat Water]], [[location.the-mud-pits|The Mud Pits]], [[location.kalowe-waveservant-shrine|Waveservant Shrine]], [[location.taufa-fifita-and-sons|Taufa Fifita & Sons]], and [[location.vask-reclaimed-goods|Vask's Reclaimed Goods]]. [[location.ormssons-fittings|Ormsson's Fittings]] and [[location.wibowos-provisions|Wibowo's Provisions]] stay unminted texture.
+69: 
+70: ## Power Structure
+71: 
+72: - **Ruler/Authority:** None local. Island Council, nine votes. [[faction.chain-council|Chain Council]] meets on seized neutral ground.
+73: - **Rivals/Opposition:** Dock bosses who bother to show up do the work; the rest let it stay slow and a little lawless.
+74: - **Factions at play:** [[faction.chain-council|Chain Council]] ([[region.midchain|Midchain]] posture: warn outsiders of risk; do not save them from their choices). [[faction.rattkin|Rattkin]] Run. [[faction.waveservants|Waveservants]] at the reef-gap shrine.
+75: 
+76: [[region.midchain|Midchain]] principle this place demonstrates: every island is its own little kingdom. [[region.murrat|Murrat]] is the sharp end of that (civilized laws, zero mercy for trespass); Kalowe is the soft end.
+77: 
+78: ## Economy
+79: 
+80: Free-port trade, reef-knowledge, dock rents. The gap still extracts — as shrine tribute, not a tyrant's purse. Getting repairs, supplies, information, passage, or hired hands means negotiating with at least one broker or dock boss: the Island Council, a harbor boss, [[npc.beaumont-sel|Beaumont Sel]] (unminted), [[faction.five-blades|Five Blades]], or the shrine keepers. Gold talks louder than papers, and a reputation earned on one island spreads quickly across all three.
+81: 
+82: Ships fleeing [[settlement.tidefall|Port Tidefall]] (unminted), [[character-option.rogue|Rogue]] crews, stolen goods, and outlaws all wash up here. The free port takes any paying hull without asking about its cargo or its paperwork. [[npc.beaumont-sel|Beaumont Sel]] (unminted) stays here when he's ashore. [[faction.five-blades|Five Blades]] hire out from Kalowe as a [[creature.moucheron|Moucheron]] crew, and their first job came in Session 02.
+83: 
+84: ## Defenses
+85: 
+86: The reef and whoever holds the gap today. No centralized garrison implied.
+87: 
+88: > [!danger] If Attacked
+89: > Fiefs do not rally as one throat. Ships scatter; dock bosses protect their own slips first.
+90: 
+91: ## Rumors
+92: 
+93: - A red ship out of fog that takes a boat whole ([[vehicle.dead-lady|The Dead Lady]]). Nobody connects it to [[pc.delmar-fisk|Delmar]] yet.
+94: - A boy king south of here who kills with a word ([[region.halewick|Halewick]], [[situation.isle-of-cursed-speech|Isle of Cursed Speech]]). Partially true; death toll inflates.
+95: - *"Don't grask on me, I know what this dock's worth."* — Local slang.
+96: - **Grask:** tyrant with no earned standing; "too big for his britches." Noun, verb, insult. Among [[region.midchain|Midchain]] locals, affectionate in-group use exists. Serious faux pas for anyone not from [[region.midchain|The Midchain]] to use it that way.
+97: - Something red takes ships whole out past [[region.drowned-maw|the Maw]]-lanes and leaves the hulls drifting empty (Taken Whole, the same rumor as [[vehicle.dead-lady|The Dead Lady]]). ^[inferred]
+98: 
+99: > [!secret]- Secrets
+100: > The [[faction.chain-council|Chain Council]] sits here *because* Kalowe refuses a local ruler. Governance is slow on purpose.
+101: >
+102: > The toll at the reef gap predates [[deity.umberlee|Umberlee]]'s claim on it. A [[faction.dravosi-crown|Dravosi]] warship once blocked the main dry dock on a false repair claim while its crew mapped Passage spies across the causeways — [[faction.the-passage|The Passage]] is why [[location.taufa-fifita-and-sons|Fifita's]] quiet paper referral matters. ^[inferred]
+103: 
+104: ## Hooks
+105: 
+106: Five named threads run at Kalowe but have no minted pages: [[vehicle.the-bad-receipt|The Bad Receipt]]'s Cache, The Captain's Map, The Merrow's Prize, The Sawek Bounty, and Takowan and Ship Disguise. They surface on the venue pages: the cache and the Merrow's Prize at [[location.the-flat-water|The Flat Water]], the Captain's Map at [[location.grimaldis-dispensary|Grimaldi's Dispensary]], and the ship-disguise story in the shrine's reef-gap history.
+107: 
+```
+
+## qmd://legacy-ss/calveno-raid/location-mercatura.md
+
+**docid:** `#3de7c9`
+
+**Title:** The Mercatura
+
+**Context:** READ-ONLY legacy Shattered Sea Campaign OS wiki (~/shattered-sea/wiki/shattered-sea). Prior context for Ingest/Co-DM. Never write here — compile into ai-co-dm campaigns/shattered-sea instead.
+
+```
+1: ---
+2: id: location.mercatura
+3: kind: location
+4: subtype: market
+5: scope: setting
+6: campaign: shattered-sea
+7: audience: [agent, dm]
+8: canon: established
+9: status: active
+10: importance: major
+11: schema: location@2
+12: created: 2026-08-19
+13: updated: 2026-08-19
+14: aliases:
+15:   - The Mercatura
+16:   - Mercatura
+17: sources:
+18:   - sessions/evidence.s08-recap.txt
+19:   - _raw/mercatura.md
+20: tags: [commerce]
+21: within: settlement.calveno
+22: adjacent_to: []
+23: near: []
+24: north_of: []
+25: south_of: [region.central-strait]
+26: east_of: []
+27: west_of: []
+28: geo_anchor: false
+29: npcs:
+30:   - npc.branca
+31:   - npc.iacopo-fieschi
+32: factions: []
+33: look_canon: provisional
+34: reference_images: []
+35: player_images: []
+36: ---
+37: 
+38: # The Mercatura
+39: 
+40: > [!narration] Arrival
+41: > The smell arrives before anything else does. Salt, wet rope, and something frying in oil two boats over.
+42: >
+43: > Then the noise, and it does not let up. The canal runs inland ahead of you, wide enough for four hulls abreast, and barges crowd the loading stones two and three deep along both banks. Voices cross the water in every direction. Rigging creaks. Somebody is calling the price of salt fish down the whole length of it.
+44: >
+45: > A crier works the edge of the walkway with a chalk board under his arm, and the crowd parts around him without looking.
+46: >
+47: > Behind you, at the harbour end, one building stands a full storey above its neighbours. Pale stone, blank from the waterline to the roof. Clerks come down its steps in pairs, ledgers under their arms, and walk past everyone who tries to catch them.
+48: >
+49: > A bargeman on the nearest hull has been watching you since you arrived, and now he raises a hand and waves you over.
+50: 
+51: ## At a Glance
+52: 
+53: | Field | Detail |
+54: |---|---|
+55: | Type | Canal district, [[settlement.calveno\|Calveno]]'s trading heart and its way in from the sea |
+56: | Within | [[settlement.calveno\|Calveno]] |
+57: | Ruled By | No magistrate of its own; the Canal Commission licenses frontage and moorings, and [[faction.chain-council\|the Council]]'s word arrives through [[npc.iacopo-fieschi\|Iacopo Fieschi]] |
+58: | Population | Roughly 1,100 living above the shopfronts, tripled by daylight with crews, porters and factors' clerks who sleep elsewhere |
+59: | Known For | Deals struck at full volume in open air, [[deity.umberlee\|Umberlee]]'s tribute paid in public view, and a pale unmarked house whose clerks write down every deal on the water |
+60: 
+61: ## Senses
+62: 
+63: - **Signature:** The noise never lets up — voices across the water, rigging creaks, prices called the length of the canal.
+64: - **Footing:** Fish oil and spilled brine slick the flagstones; rope grooves worn a hand deep into the loading stones will turn an ankle.
+65: 
+66: ## Geography
+67: 
+68: The canal runs roughly 1,400 ft. inland from the harbour mouth, four hulls wide at the loading stones and narrowing to two where frontages crowd the eastern end. Sight lines run the length of the water.
+69: 
+70: - **North:** [[region.calven|Calven]] (shallows end)
+71: - **East:** [[region.harwick|Harwick]]
+72: - **South:** [[region.central-strait|Central Strait]] (harbour mouth)
+73: - **West:** [[location.the-bridge|The Bridge]]
+74: 
+75: ## Features
+76: 
+77: - **The canal:** roughly 1,400 ft. running inland from the harbour mouth, four hulls wide at the loading stones and two where the frontages crowd in at the eastern end. Sight lines run the length of the water and stop nowhere else.
+78: - **[[location.waveservant-shrine|The Waveservant Shrine]]:** open to the water halfway up the canal, its tribute terms turned outward to face the boats. Captains settle with [[deity.umberlee|Umberlee]] on the way out or on the way back in with everyone watching which they chose. The shrine's record has [[pc.delmar-fisk|Delmar]] down as owing, and [[npc.branca|Branca]] has the patience to wait on the water for as long as it takes.
+79: - **[[faction.tessarine-concordat|Tessarine]] Factor House:** the pale, unmarked stone building at the harbour end, tallest on the block. No sign names it; every [[settlement.calveno|Calveno]] regular already knows. Clerks move in and out on a fixed schedule, ledgers under their arms, and never linger on the canal steps to talk.
+80: - **Moretti & Sons Chandlery:** the main ship outfitter, flush with the canal front, holding a disputed crate three years unclaimed.
+81: - **[[location.casa-falier|Casa Falier]]:** a stripped four-storey canal house deeded to the crew in settlement, staff retained.
+82: 
+83: ## Districts
+84: 
+85: | District | Detail |
+86: |---|---|
+87: | Moretti & Sons Chandlery | The main ship outfitter, flush with the canal front, holding a disputed crate three years unclaimed. |
+88: | [[location.waveservant-shrine\|Waveservant Shrine]] | [[deity.umberlee\|Umberlee]]'s tribute shrine, open to the canal, terms posted outward. |
+89: | [[location.casa-falier\|Casa Falier]] | A stripped four-storey canal house deeded to the crew in settlement, staff retained. |
+90: 
+91: ## Hazards
+92: 
+93: > [!danger] Active Hazards
+94: > Slick flagstones and rope-grooved loading stones. The canal punishes those who keep their voice down: a deal shouted across open water has forty witnesses, and forty witnesses pass for a contract here.
+95: 
+96: ## Inhabitants
+97: 
+98: - [[npc.giacomo-moretti|Giacomo Moretti]] keeps the chandlery and the crate nobody has come for, and has never lost a prank in twenty years of the Accord.
+99: - [[npc.branca|Branca]] holds the shrine for the [[faction.waveservants|Waveservants]] and keeps the record of who has paid [[deity.umberlee|Umberlee]] and who has not.
+100: - [[npc.iacopo-fieschi|Iacopo Fieschi]] is [[faction.tessarine-concordat|the Concordat]]'s public face on this canal, and settles by letter, never by force.
+101: - **[[deity.umberlee|Umberlee]]'s servant** — Waited in the Mercatura for [[pc.delmar-fisk|Delmar]] at the [[location.kalowe-waveservant-shrine|Waveservant Shrine]], saying she would not sleep until he came. [[pc.delmar-fisk|Delmar]] talked past her (Session 03).
+102: 
+```
+
+## qmd://legacy-ss/settlement-tidefall.md
+
+**docid:** `#4016b8`
+
+**Title:** settlement-tidefall.md
+
+**Context:** READ-ONLY legacy Shattered Sea Campaign OS wiki (~/shattered-sea/wiki/shattered-sea). Prior context for Ingest/Co-DM. Never write here — compile into ai-co-dm campaigns/shattered-sea instead.
+
+> File too large (12KB > 10KB). Use 'qmd get qmd://legacy-ss/settlement-tidefall.md' to retrieve.
+
+## qmd://legacy-ss/pearl-and-the-maw/item-pearl-of-souls.md
+
+**docid:** `#a761f0`
+
+**Title:** Pearl of Souls
+
+**Context:** READ-ONLY legacy Shattered Sea Campaign OS wiki (~/shattered-sea/wiki/shattered-sea). Prior context for Ingest/Co-DM. Never write here — compile into ai-co-dm campaigns/shattered-sea instead.
+
+```
+1: ---
+2: id: item.pearl-of-souls
+3: kind: item
+4: subtype: artifact
+5: scope: campaign
+6: campaign: shattered-sea
+7: audience: [agent, dm]
+8: canon: provisional
+9: status: active
+10: importance: key
+11: schema: item@1
+12: created: 2026-08-17
+13: updated: 2026-08-19
+14: aliases:
+15:   - "Pearl of Souls"
+16: sources:
+17:   - _archive/pearl-of-souls.md
+18:   - _archive/halewick.md
+19:   - _raw/fisks-fleet.md
+20:   - _raw/rael-corven.md
+21:   - _raw/maren.md
+22:   - _raw/detto-kalash.md
+23:   - _raw/sienne-orre.md
+24:   - _raw/bastian-ookage.md
+25: tags: []
+26: rarity: artifact
+27: attunement: false
+28: npcs:
+29:   - "[[npc.aldric-drave|Aldric Drave]]"
+30:   - "[[npc.auralis|Auralis Guardian]]"
+31:   - "[[npc.rael-corven|Rael Corven]]"
+32:   - "[[npc.maren|Maren]]"
+33:   - "[[npc.detto-kalash|Detto Kalash]]"
+34:   - "[[npc.sienne-orre|Sienne Orre]]"
+35:   - "[[npc.bastian-ookage|Bastian Ookage]]"
+36: locations:
+37:   - "[[region.drowned-maw|The Drowned Maw]]"
+38:   - "[[region.shelfworks|The Shelfworks]]"
+39: relationships:
+40:   - target: "[[deity.umberlee|Umberlee]]"
+41:     type: related_to
+42:   - target: "[[faction.chain-council|Chain Council]]"
+43:     type: related_to
+44:   - target: "[[npc.aldric-drave|Aldric Drave]]"
+45:     type: related_to
+46:   - target: "[[faction.fisks-fleet|Fisk's Fleet]]"
+47:     type: related_to
+48: provenance:
+49:   extracted: 0.88
+50:   inferred: 0.08
+51:   ambiguous: 0.04
+52: base_confidence: 0.37
+53: lifecycle: draft
+54: lifecycle_changed: 2026-08-19
+55: tier: core
+56: ---
+57: 
+58: # Pearl of Souls
+59: 
+60: > [!narration] Appearance
+61: > A fist-sized black pearl. Iridescent sheen that will not stay still. Anyone who senses death feels it before they see it.
+62: 
+63: *Wondrous item, artifact.* One of seven instruments of [[deity.umberlee|Umberlee]]. The other six are unfound. It sat in a [[location.kalowe-waveservant-shrine|Waveservant Shrine]] for years.
+64: 
+65: ## Properties
+66: 
+67: - **Type:** Wondrous / divine instrument
+68: - **Rarity:** Artifact
+69: - **Attunement:** No
+70: - Collects souls of anyone who drowns near it. Continuous. No activation. A trapped soul does not leave by normal means. Value in source: 800,000 gp. No charges or save DCs in the drop.
+71: 
+72: ## History
+73: 
+74: [[faction.waveservants|Waveservants]] guarded it. [[pc.delmar-fisk|Delmar]] Fisk stole it from a shrine. [[deity.umberlee|Umberlee]] sank all five of his ships. The wreck sits at [[vehicle.red-lady|The Red Lady]] site on the eastern [[region.shelfworks|The Shelfworks]], inside [[region.drowned-maw|The Drowned Maw]] below the planar boundary. [[deity.umberlee|Umberlee]]'s claim stops there. She cannot retrieve her own Pearl.
+75: 
+76: The Pearl still works. It holds Fisk's crews and those killed by the [[creature.leviathan|Leviathan]]. [[deity.umberlee|Umberlee]] bound the five captains to Fisk, the sole survivor; their minds ride his. Their crews stay in the Pearl.
+77: 
+78: The Pearl stores untapped soul-power and signals across the boundary to the [[region.elemental-plane-of-water|Elemental Plane of Water]]. [[creature.leviathan|the Leviathan]] followed that signal. Everything drawn to the fissure answers it, including [[npc.auralis|Auralis]], who woke when the signal crossed. What has come through is the smallest of what wants in. Recovering the Pearl stops the signal. Leaving it calls something larger to the next fissure.
+79: 
+80: The signal also thins and aligns distant planar boundaries as its pressure grows. About three weeks ago an alignment landed on [[region.halewick|Halewick]], on the boundary between ordinary Common and Truespeak — the source of the island's cursed speech. First landing, not unique.
+81: 
+82: The [[faction.tessarine-concordat|Tessarine Concordat]] used the [[faction.chain-council|Chain Council]] to have [[faction.fisks-fleet|Fisk's Fleet]] steal it before [[npc.aldric-drave|Aldric Drave]] could. They sold [[deity.umberlee|Umberlee]]'s wrath. They wanted control.
+83: 
+84: ## Mechanics
+85: 
+86: Passive collection only. Source is silent on charges, DCs, and activation. Decide before recovery who can access the stored souls. This artifact is never a neutral trophy.
+87: 
+88: ## Quirks
+89: 
+90: Anyone who senses death feels it first.
+91: 
+92: > [!secret]- Secrets
+93: > Below [[region.drowned-maw|the Maw]] boundary [[deity.umberlee|Umberlee]] cannot take it back. Aldric could use it to grow past bloodline phylacteries. Recovering it is Season 1's most important action in the draft.
+94: 
+```
+
+## qmd://legacy-ss/pearl-and-the-maw/event-delmar-umberlee-bargain.md
+
+**docid:** `#bc94eb`
+
+**Title:** Delmar's Bargain
+
+**Context:** READ-ONLY legacy Shattered Sea Campaign OS wiki (~/shattered-sea/wiki/shattered-sea). Prior context for Ingest/Co-DM. Never write here — compile into ai-co-dm campaigns/shattered-sea instead.
+
+```
+1: ---
+2: id: event.delmar-umberlee-bargain
+3: kind: event
+4: subtype: supernatural
+5: scope: campaign
+6: campaign: shattered-sea
+7: audience: [agent, dm]
+8: canon: established
+9: status: active
+10: importance: major
+11: schema: event@2
+12: created: 2026-08-18
+13: updated: 2026-08-18
+14: aliases:
+15:   - Delmar's Bargain
+16:   - The Shrine Bargain
+17: sources:
+18:   - "[[session-report.004]]"
+19: summary: Delmar tells the crew about the Pearl. Umberlee kills and returns Branca. Price is the Pearl.
+20: tags: []
+21: phase: occurred
+22: resolution: dm
+23: time_precision: relative
+24: after:
+25:   - event.voyage-to-calveno
+26: before:
+27:   - event.calveno-sewer-raid
+28: npcs: []
+29: locations: []
+30: factions:
+31:   - "[[faction.waveservants|Waveservants]]"
+32:   - "[[faction.chain-council|Chain Council]]"
+33: sessions: []
+34: ---
+35: 
+36: # Delmar's Bargain
+37: 
+38: ## Trigger
+39: 
+40: [[pc.delmar-fisk|Delmar]] told the crew he had been a real admiral, stole the [[item.pearl-of-souls|Pearl of Souls]] from [[location.umberlee-shrine-vel-orn|Vafnar]] on a [[faction.chain-council|Chain Council]] commission, and lost [[faction.fisks-fleet|the Fleet]] to [[region.drowned-maw|the Maw]]. He then went to the harbor shrine.
+41: 
+42: ## If Uninterrupted
+43: 
+44: [[deity.umberlee|Umberlee]] keeps the appointment until he brings the Pearl or dies owing it.
+45: 
+46: ## What Could Prevent It
+47: 
+48: - Never going to the shrine (the servant was already not sleeping).
+49: - Offering something she would take instead — she refused to talk commissioners until the Pearl is in hand.
+50: 
+51: ## What Happened
+52: 
+53: - **Summary:** [[deity.umberlee|Umberlee]] took [[npc.branca|Branca]]'s body, killed her, and brought her back. Price: the Pearl for [[pc.delmar-fisk|Delmar]]'s life. He offered the Pearl and the commissioners. She read it and said *Bring me the pearl. We will talk then.*
+54: - **Outcome:** Bargain open. Crew knows. [[pc.crissdalynn-khinriss|Crissdalynn]] dropped him the next morning for going alone.
+55: 
+56: > [!narration] As It Was Witnessed
+57: > A priestess's mouth, not her voice. Death to prove a point, then breath again. *Bring me the pearl. We will talk then.*
+58: 
+59: ## Participants
+60: 
+61: - [[pc.delmar-fisk|Delmar]] — confessed; countered; still owes the Pearl.
+62: - [[pc.crissdalynn-khinriss|Crissdalynn]] · [[pc.jean-claude-tabarnack|Jean-Claude]] · [[pc.perrin-black-jaw|Perrin]] — heard [[faction.fisks-fleet|the Fleet]] story on the walk to the harbor.
+63: - [[deity.umberlee|Umberlee]] — spoke through [[npc.branca|Branca]].
+64: - [[npc.branca|Branca]] — killed and returned. Unminted. Status after the shrine not in the recap. ^[ambiguous]
+65: - [[faction.waveservants|Waveservants]] — shrine staff.
+66: 
+67: ## Location
+68: 
+69: - **Primary:** Waveservant harbor shrine, [[settlement.calveno|Calveno]] (settlement unminted). Approached from [[location.mercatura|The Mercatura]].
+70: 
+71: ## Consequences
+72: 
+73: - **Immediate:** Pearl debt is party knowledge. [[deity.umberlee|Umberlee]] will talk commissioners only after delivery.
+74: - **Ripple effects:** Feeds [[situation.the-red-wake|The Red Wake]]. [[npc.branca|Branca]] is a living proof.
+75: 
+76: ## Aftermath
+77: 
+78: The shrine appointment is not closed. The Pearl is not in [[settlement.calveno|Calveno]].
+79: 
+```
+
+## qmd://legacy-ss/pearl-and-the-maw/vehicle-dead-lady.md
+
+**docid:** `#0d7738`
+
+**Title:** The Dead Lady
+
+**Context:** READ-ONLY legacy Shattered Sea Campaign OS wiki (~/shattered-sea/wiki/shattered-sea). Prior context for Ingest/Co-DM. Never write here — compile into ai-co-dm campaigns/shattered-sea instead.
+
+```
+1: ---
+2: id: vehicle.dead-lady
+3: kind: vehicle
+4: subtype: ship
+5: scope: campaign
+6: campaign: shattered-sea
+7: audience: [agent, dm]
+8: canon: provisional
+9: status: active
+10: importance: supporting
+11: schema: vehicle@1
+12: created: 2026-08-17
+13: updated: 2026-08-17
+14: aliases:
+15:   - "The Dead Lady"
+16: sources:
+17:   - _archive/dead-lady-escalation.md
+18:   - _archive/umberlee.md
+19:   - _archive/red-lady.md
+20: tags: []
+21: ship_class: null
+22: crew_capacity: null
+23: cargo_capacity: null
+24: speed: null
+25: npcs: []
+26: locations: []
+27: statblocks: []
+28: factions: []
+29: ---
+30: 
+31: # The Dead Lady
+32: 
+33: [[deity.umberlee|Umberlee]]'s collection hull. When [[pc.delmar-fisk|Delmar]]'s Pearl deadline passes with no movement toward [[region.drowned-maw|the Maw]], she does not wait out staged escalation. She takes payment herself.
+34: 
+35: ## Overview
+36: 
+37: Dumping cargo is tribute — the shrine basin without a priest, and without consent. Every ship she takes: no survivors, no negotiation. Boat left adrift, holds emptied over the side, crew dead. The drowned crew of the *[[vehicle.red-lady|Red Lady]]* still work her decks — spectral, silent, recognizable to anyone who sailed with Fisk.
+38: 
+39: For now: fisherman's stories. A red ship out of fog. Nobody has connected it to [[pc.delmar-fisk|Delmar]]. First hear it at [[settlement.kalowe|Kalowe]] — tavern and dock, no single owner.
+40: 
+41: > [!narration] Overview
+42: > *Red out of fog. An empty boat left spinning. Holds open to the sea.*
+43: 
+44: ## Stats
+45: 
+46: Unminted. Do not invent AC/HP here.
+47: 
+48: ## Notes
+49: 
+50: Old tithe-ghost hook is cleared. This rumor has that space.
+51: 
+```
+
+## qmd://legacy-ss/vehicle-red-lady.md
+
+**docid:** `#f931b7`
+
+**Title:** The Red Lady
+
+**Context:** READ-ONLY legacy Shattered Sea Campaign OS wiki (~/shattered-sea/wiki/shattered-sea). Prior context for Ingest/Co-DM. Never write here — compile into ai-co-dm campaigns/shattered-sea instead.
+
+```
+1: ---
+2: id: vehicle.red-lady
+3: kind: vehicle
+4: subtype: ship
+5: scope: campaign
+6: campaign: shattered-sea
+7: audience: [agent, dm]
+8: canon: provisional
+9: status: destroyed
+10: importance: key
+11: schema: vehicle@1
+12: created: 2026-08-17
+13: updated: 2026-08-19
+14: aliases:
+15:   - The Red Lady
+16:   - Red Lady
+17: sources:
+18:   - _archive/red-lady.md
+19:   - _archive/red-lady-narration-appearance.md
+20:   - _raw/fisks-fleet.md
+21:   - _raw/rael-corven.md
+22:   - _raw/maren.md
+23:   - _raw/detto-kalash.md
+24:   - _raw/sienne-orre.md
+25:   - _raw/bastian-ookage.md
+26:   - _raw/delmar-fisk-voice-script.md
+27: tags: []
+28: ship_class: Brigantine (privateer-rigged)
+29: crew_capacity: 24
+30: cargo_capacity: 45 tons
+31: speed: 90 miles/day (good wind)
+32: npcs:
+33:   - "[[npc.rael-corven|Rael Corven]]"
+34:   - "[[npc.maren|Maren]]"
+35:   - "[[npc.detto-kalash|Detto Kalash]]"
+36:   - "[[npc.sienne-orre|Sienne Orre]]"
+37:   - "[[npc.bastian-ookage|Bastian Ookage]]"
+38: locations:
+39:   - "[[region.shelfworks|The Shelfworks]]"
+40:   - "[[region.drowned-maw|The Drowned Maw]]"
+41: statblocks: []
+42: factions:
+43:   - "[[faction.chain-council|Chain Council]]"
+44: relationships:
+45:   - target: "[[item.pearl-of-souls|Pearl of Souls]]"
+46:     type: related_to
+47:   - target: "[[vehicle.dead-lady|The Dead Lady]]"
+48:     type: related_to
+49:   - target: "[[faction.chain-council|Chain Council]]"
+50:     type: related_to
+51:   - target: "[[pc.delmar-fisk|Delmar Atticus Fisk]]"
+52:     type: related_to
+53:   - target: "[[pc.crissdalynn-khinriss|Crissdalynn Khinriss]]"
+54:     type: related_to
+55: provenance:
+56:   extracted: 0.9
+57:   inferred: 0.07
+58:   ambiguous: 0.03
+59: base_confidence: 0.37
+60: lifecycle: draft
+61: lifecycle_changed: 2026-08-19
+62: tier: supporting
+63: ---
+64: 
+65: # The Red Lady
+66: 
+67: ```statblock
+68: name: red lady
+69: size: Gargantuan
+70: type: vehicle
+71: ac: 12
+72: hp: 230
+73: ```
+74: 
+75: > [!narration] Overview
+76: > Two-masted brigantine riding low. Hull stained a deep even red from waterline to rail — the colour is in the wood, not on it. Seven cannon ports a side. Swivel mounts at bow and stern. A pale wooden cloaked woman at the prow, one hand open. Long, clean-lined, built to chase, fight, and keep going. Tar, salt, and old powder in the grain. She looks ready to sail even when she is not.
+77: 
+78: Built by the [[faction.chain-council|Chain Council]]. [[pc.delmar-fisk|Delmar]] Fisk admiral, [[npc.rael-corven|Rael Corven]] flag captain, [[pc.crissdalynn-khinriss|Crissdalynn Khinriss]] navigator and crow for nearly two years. Led five ships into [[region.drowned-maw|The Drowned Maw]]: *Red Lady*, *[[vehicle.the-narrow|The Narrow]]*, *[[vehicle.heft|Heft]]*, *[[vehicle.fernen|Fernen]]*, *[[vehicle.loud-argument|Loud Argument]]*. Fog swallowed all five. A rogue trench opened; they went 80 feet down. [[pc.crissdalynn-khinriss|Crissdalynn]] dove from the nest and flew Fisk clear. This one did not survive.
+79: 
+80: Wreck: eastern [[region.shelfworks|The Shelfworks]], below [[deity.umberlee|Umberlee]]'s reach. [[item.pearl-of-souls|Pearl of Souls]] still aboard. Fleet Room: who hired the theft — coded logs, keys, notes. [[npc.rael-corven|Rael]]'s Cloak of Useful Things went down with her.
+81: 
+82: [[vehicle.dead-lady|The Dead Lady]] is [[deity.umberlee|Umberlee]]'s raised copy.
+83: 
+84: ## Stats
+85: 
+86: | Property | Value |
+87: |---|---|
+88: | **Class** | Privateer brigantine |
+89: | **Status** | Destroyed (wreck) |
+90: | **Crew** | 8 min / 24 full |
+91: | **Cargo** | 45 tons |
+92: | **Speed** | 90 / 45 mi/day |
+93: | **Guns** | 12 cannon (7/side); 2 swivels |
+94: 
+95: Pre-wreck facilities: captain's cabin + iron lockbox (magazine key, DC 18 thieves' tools); signal station; Fleet Intelligence Room (2 units); navigator's station with partial Maw bathymetry; surgeon; magazine; galley.
+96: 
+97: ## Crew
+98: 
+99: - **Admiral:** [[pc.delmar-fisk|Delmar Fisk]] (survived)
+100: - **Flag captain:** [[npc.rael-corven|Rael Corven]] (deceased — soul in [[pc.delmar-fisk|Delmar]] via Mortis)
+101: - **Navigator/crow:** [[pc.crissdalynn-khinriss|Crissdalynn Khinriss]] (survived)
+102: - Every new hand went through [[npc.rael-corven|Rael]]'s program.
+103: 
+104: ## Cargo
+105: 
+106: - **Still aboard:** Pearl. Encoded fleet hire records. [[npc.rael-corven|Rael]]'s cloak.
+107: - **Salvage race:** 8–10 crew gathering in [[settlement.calveno|Calveno]]; Batta Zusto brokers; Savia Brentino and [[faction.the-tangle|The Tangle]] have noticed the money. Mid-size cargo ship, diving gear, 10–14 day trip. [[settlement.tidefall|Tidefall]] trader paid; name is not in [[settlement.calveno|Calveno]]. Commission clock 8–10 days from party arrival. Parallel unrelated buyer asking the same month.
+108: 
+109: ## Connections
+110: 
+111: - [[faction.fisks-fleet|Fisk's Fleet]]: Flagship
+112: - [[vehicle.the-narrow|The Narrow]]: Fleet scout sloop
+113: - [[vehicle.heft|Heft]]: Fleet heavy brig
+114: - [[vehicle.fernen|Fernen]]: Fleet brigantine
+115: - [[vehicle.loud-argument|Loud Argument]]: Fleet gun brig
+116: 
+117: ## Continuity
+118: 
+119: Session 04: [[pc.delmar-fisk|Delmar]] confessed the five-ship Council commission and that the Pearl is recoverable from this wreck.
+120: 
+```
+
+## qmd://legacy-ss/pearl-and-the-maw/region-drowned-maw.md
+
+**docid:** `#260b99`
+
+**Title:** The Drowned Maw
+
+**Context:** READ-ONLY legacy Shattered Sea Campaign OS wiki (~/shattered-sea/wiki/shattered-sea). Prior context for Ingest/Co-DM. Never write here — compile into ai-co-dm campaigns/shattered-sea instead.
+
+```
+1: ---
+2: id: region.drowned-maw
+3: kind: region
+4: subtype: trench
+5: scope: setting
+6: campaign: shattered-sea
+7: audience: [agent, dm]
+8: canon: provisional
+9: status: active
+10: importance: key
+11: schema: region@2
+12: created: 2026-08-17
+13: updated: 2026-08-15
+14: aliases:
+15:   - "The Drowned Maw"
+16:   - "the Maw"
+17: sources:
+18:   - _archive/antheri.md
+19:   - _archive/umberlee-pearl-fissure-erosion.md
+20:   - _archive/magic-in-the-shattered-sea.md
+21:   - _archive/pearl-of-souls.md
+22:   - _archive/shelfworks.md
+23:   - _archive/leviathan.md
+24:   - _archive/drowned-maws-open-shelf.md
+25:   - _archive/whip-shark.md
+26:   - _archive/high-eyries-storm-door.md
+27:   - _archive/tidefall.md
+28:   - _raw/fisks-fleet.md
+29:   - _raw/rael-corven.md
+30:   - _raw/maren.md
+31:   - _raw/detto-kalash.md
+32:   - _raw/sienne-orre.md
+33:   - _raw/bastian-ookage.md
+34:   - "agent:campaign-overview Shattered Sea campaign overview"
+35: tags: []
+36: within: null
+37: adjacent_to: [region.shelfworks, region.midchain-east, region.the-tail, region.elemental-plane-of-water]
+38: near: []
+39: north_of: []
+40: south_of: []
+41: east_of: []
+42: west_of: []
+43: geo_anchor: true
+44: factions:
+45:   - "[[faction.antheri|The Antheri]]"
+46:   - "[[faction.fisks-fleet|Fisk's Fleet]]"
+47: creatures:
+48:   - "[[creature.leviathan|Leviathan]]"
+49:   - "[[creature.whip-shark|Whip Shark]]"
+50: ---
+51: 
+52: # The Drowned Maw
+53: 
+54: Trench-floor fissure. Local breach of the Border Ethereal into the [[region.elemental-plane-of-water|Elemental Plane of Water]]. Not a special wall around water — a puncture in one place. The trench marking the edge of the charts entirely.
+55: 
+56: ## Overview
+57: 
+58: [[faction.antheri|The Antheri]] built into the western wall. Three tiers: [[region.shelfworks|Shelfworks]] 60–200 ft (salvage, damaged by salvage and incursion); Mid-Works 200–500 ft (residential, soul-pledge language in the structure); Deep Works past 500 ft (pristine, soul-pledge chamber, fissure terminus). Water breathing is not enough in the Deep Works. Elemental diffusion: Constitution saves, exhaustion, spells falter, instruments lie.
+59: 
+60: The [[item.pearl-of-souls|Pearl of Souls]] is a battery of soul-power broadcasting across the boundary. What has come through so far ([[creature.leviathan|Leviathan]], Ridgeback, Krakling — unminted) are small enough to fit a [[vehicle.the-narrow|Narrow]] crack. Something larger pushes from the other side. Istishia is a cosmological address, not a committed villain.
+61: 
+62: > [!narration] Overview
+63: > *Pressure that does not match the depth. Instruments that stop agreeing. Water that tastes like water and is not hers.*
+64: 
+65: ## Wrecks
+66: 
+67: [[faction.fisks-fleet|Fisk's Fleet]] was destroyed here when [[deity.umberlee|Umberlee]] opened the Maw beneath all five ships simultaneously. Fog closed in thick enough that the sea itself went invisible, surrounding all five ships at once, and a rogue trench opened beneath them — all five plunged eighty feet down before the walls closed over them.
+68: 
+69: - [[vehicle.red-lady|Red Lady]] — flagship, wreck on eastern [[region.shelfworks|Shelfworks]], Pearl still aboard
+70: - [[vehicle.the-narrow|The Narrow]] — scout sloop, lost with all hands
+71: - [[vehicle.heft|Heft]] — heavy brig, lost with all hands
+72: - [[vehicle.fernen|Fernen]] — brigantine, lost with all hands
+73: - [[vehicle.loud-argument|Loud Argument]] — gun brig, lost with all hands
+74: 
+75: ## Notes
+76: 
+77: [[deity.umberlee|Umberlee]]'s claim stops at this water as it becomes elemental. Only she feels the loss. Detect Magic near a conduit: no school; air under strain. See [[rule.magic-traditions|Three Traditions]].
+78: 
+79: [[settlement.tidefall|Port Tidefall]]'s garrison has been staging for the Maw: extra companies arrived at [[location.fort-crestwall|Fort Crestwall]] under Admiralty-sealed orders, and a supply manifest shows reef-diving equipment and underwater charges bound for the Maw (see [[settlement.tidefall|Tidefall]]'s Garrison Status).
+80: 
+81: > [!secret]- Secrets
+82: > The tribute system may be holding the fissure shut. Beyond the Maw lies [[region.outer-reach|the Outer Reach]], which no colonial power has charted. Stone with no known quarry and currents that reverse against the charted tide tables turn up next to a slower accumulation of missing ships and unread old records.
+```
+
+## qmd://legacy-ss/kill-the-shepherd/situation-the-hound-of-tyr.md
+
+**docid:** `#1f19bb`
+
+**Title:** The Hound of Tyr
+
+**Context:** READ-ONLY legacy Shattered Sea Campaign OS wiki (~/shattered-sea/wiki/shattered-sea). Prior context for Ingest/Co-DM. Never write here — compile into ai-co-dm campaigns/shattered-sea instead.
+
+```
+1: ---
+2: id: situation.the-hound-of-tyr
+3: kind: situation
+4: subtype: hunt
+5: scope: campaign
+6: campaign: shattered-sea
+7: audience:
+8:   - agent
+9:   - dm
+10: canon: established
+11: status: active
+12: importance: major
+13: schema: situation@1
+14: created: 2026-08-17
+15: updated: 2026-08-19
+16: aliases:
+17:   - The Hound of Tyr
+18:   - The Hound of God
+19: sources:
+20:   - _archive/the-hound-of-god.md
+21:   - _raw/threads.md
+22: summary: Session 09's Ordinance inspection redirected Malone to Calveno; his live hunt now works backward through Midchain courts toward Grigori.
+23: tags: []
+24: dramatic_question: Will Malone kill Grigori before the Crown confirms the heresy — and what happens to the crew caught in the crossfire?
+25: fronts: []
+26: clocks: []
+27: locations:
+28:   - "[[location.blackrule|Blackrule]]"
+29:   - "[[region.midchain|The Midchain]]"
+30:   - "[[settlement.sarns-landing|Sarn's Landing]]"
+31:   - "[[settlement.calveno|Calveno]]"
+32: beats: []
+33: npcs:
+34:   - "[[npc.aleksander-malone|Aleksander Malone]]"
+35:   - "[[npc.shepherd-grigori|Shepherd Grigori]]"
+36: factions:
+37:   - "[[faction.dravosi-crown|The Dravosi Crown]]"
+38:   - "[[faction.khlysty|Khlysty]]"
+39: hooks: []
+40: relationships:
+41:   - target: "[[npc.aleksander-malone|Aleksander Malone]]"
+42:     type: related_to
+43:   - target: "[[npc.shepherd-grigori|Shepherd Grigori]]"
+44:     type: related_to
+45:   - target: "[[faction.khlysty|Khlysty]]"
+46:     type: related_to
+47: provenance:
+48:   extracted: 0.9
+49:   inferred: 0.08
+50:   ambiguous: 0.02
+51: base_confidence: 0.37
+52: tier: supporting
+53: ---
+54: 
+55: # The Hound of Tyr
+56: 
+57: ## Situation
+58: 
+59: **Session 09 fired the inspection; [[npc.aleksander-malone|Aleksander Malone]] is now hunting [[npc.shepherd-grigori|Grigori]] through [[region.midchain|Midchain]] courts on his own authority.**
+60: 
+61: - **Dramatic question:** Will [[npc.aleksander-malone|Malone]] kill [[npc.shepherd-grigori|Grigori]] before [[faction.dravosi-crown|the Crown]] confirms the heresy — and what happens to the crew caught in the crossfire?
+62: - **If ignored:** [[npc.aleksander-malone|Malone]] closes the trail without the crew. He reaches [[npc.shepherd-grigori|Grigori]] and kills him the way he did at [[settlement.sarns-landing|Sarn's Landing]]. The crew hears after. [[faction.dravosi-crown|the Crown]]'s [[situation.answer-heresy|official heresy clock]] never triggers — [[npc.aleksander-malone|Malone]] acted first.
+63: 
+64: > [!secret]- What is actually happening
+65: > [[npc.aleksander-malone|Malone]] is a heresy-hunter for [[faction.dravosi-crown|the Crown]] (or was — he acts on his own authority now). Session 09's [[vehicle.hcs-ordinance|Ordinance]] inspection established the port and ship class, but not the *[[vehicle.uncertainty|Uncertainty]]*'s crew. The crew transported [[npc.shepherd-grigori|Grigori]] and dropped him in [[settlement.calveno|Calveno]]. [[npc.aleksander-malone|Malone]] does not know. He hunts heretics, not thieves, and does not care about the *[[vehicle.uncertainty|Uncertainty]]* theft or [[npc.rupert-knighton|Rupert Knighton]]'s heir. His fast clock is 0/4 courts investigated.
+66: 
+67: ## Forces
+68: 
+69: | Actor | Wants | Why | Next action | Tell |
+70: | --- | --- | --- | --- | --- |
+71: | [[npc.aleksander-malone\|Aleksander Malone]] | [[npc.shepherd-grigori\|Grigori]] dead | Heresy | Walk [[region.midchain\|Midchain]] courts backward | Scripture-cadenced certainty; no interrogation; no negotiation |
+72: | [[faction.dravosi-crown\|Dravosi Crown]] | A long leash | [[settlement.sarns-landing\|Sarn's Landing]] taught them a short one | Hold him in reserve | [[location.blackrule\|Blackrule]] between hunts |
+73: | [[npc.shepherd-grigori\|Shepherd Grigori]] | Stay below threshold | [[faction.khlysty\|Khlysty]] threads | Move | Healer who already sailed with them |
+74: 
+75: ## Gravity
+76: 
+77: - [[pc.delmar-fisk|Delmar]] — admiral on record; the *[[vehicle.uncertainty|Uncertainty]]* is the captured cutter; exposure is existential even though [[npc.aleksander-malone|Malone]] is not looking for thieves.
+78: - [[pc.perrin-black-jaw|Perrin]] — dormant Crown thread: [[situation.answer-heresy|Answer the Next Confirmed Heresy]] waits on confirming his pact with [[npc.auralis|Auralis]].
+79: - [[pc.crissdalynn-khinriss|Crissdalynn]], [[pc.jean-claude-tabarnack|Jean-Claude]], [[pc.catarina-davirelli|Catarina]] — sailed with [[npc.shepherd-grigori|Grigori]] and dropped him in [[settlement.calveno|Calveno]].
+80: 
+81: Decline is letting the hunt finish off-screen.
+82: 
+83: ## Bridges
+84: 
+85: - **Courts:** each household narrows geography the crew sailed with [[npc.shepherd-grigori|Grigori]] aboard.
+86: - **The Inspection:** fired Session 09. [[vehicle.hcs-ordinance|Ordinance]] under [[npc.corbin-knighton|Corbin Knighton]] boarded the *[[vehicle.uncertainty|Uncertainty]]*; [[npc.aleksander-malone|Malone]] asked after [[npc.shepherd-grigori|Grigori]], and the crew pointed him at [[settlement.calveno|Calveno]].
+87: - **The Army/Not the Heir:** [[npc.shepherd-grigori|Grigori]]'s flock ([[situation.growing-flock|The Growing Flock]]) and army ([[situation.grigori-ascension|Grigori's Ascension]]) remain behind the hunt. If [[npc.aleksander-malone|Malone]] kills him, the master dies — but the bound heirs remain.
+88: 
+89: ## Affordances
+90: 
+91: - The crew knows where [[npc.shepherd-grigori|Grigori]] is ([[settlement.calveno|Calveno]] → [[region.midchain|Midchain]]). [[npc.aleksander-malone|Malone]] does not.
+92: - The *[[vehicle.hcs-ordinance|Ordinance]]* inspection gives the crew a chance to misdirect, delay, or warn.
+93: - [[npc.shepherd-grigori|Grigori]]'s [[faction.khlysty|Khlysty]] threads can lead to [[faction.khlysty|The Flock]] or the Army; [[npc.aleksander-malone|Malone]] may follow them.
+94: - [[npc.aleksander-malone|Malone]]'s leash is loose. The [[faction.dravosi-crown|Crown]] may pull him back, or decide the result is useful.
+95: 
+96: ## Tide
+97: 
+98: - **Cause:** [[npc.aleksander-malone|Malone]] decided to act. [[npc.shepherd-grigori|Grigori]] is a heretic; [[faction.dravosi-crown|the Crown]]'s confirmation is a formality he skips.
+99: - **What changes:** 0/4 segments. Each segment is one court or household investigated; the geography of the trail shrinks.
+100: - **Visible evidence:** A heresy-hunter pronouncing what he knows aloud, bodies left at [[region.midchain|Midchain]] courts, and the *[[vehicle.hcs-ordinance|Ordinance]]* shadowing the route.
+101: - **What opens or closes:** [[npc.shepherd-grigori|Grigori]]'s life, [[faction.dravosi-crown|the Crown]]'s official process, and the crew's deniability all close if the hunt finishes.
+102: 
+103: ## Wake
+104: 
+105: If [[npc.aleksander-malone|Malone]] kills [[npc.shepherd-grigori|Grigori]], the Army/Flock loses its master. The bound heirs remain, but the [[faction.khlysty|Khlysty]] may fracture or a lieutenant may rise. The crew's delivery of [[npc.shepherd-grigori|Grigori]] to [[settlement.calveno|Calveno]] becomes the trail [[npc.aleksander-malone|Malone]] follows to them.
+106: 
+107: ## Beat Chart
+108: 
+109: Omit until [[npc.aleksander-malone|Malone]]'s next court investigation is a minted beat.
+110: 
+```
+
+## qmd://legacy-ss/schism-of-the-eyrie/faction-sentinels-of-the-eyrie.md
+
+**docid:** `#4f5973`
+
+**Title:** Sentinels of the Eyrie
+
+**Context:** READ-ONLY legacy Shattered Sea Campaign OS wiki (~/shattered-sea/wiki/shattered-sea). Prior context for Ingest/Co-DM. Never write here — compile into ai-co-dm campaigns/shattered-sea instead.
+
+```
+1: ---
+2: id: faction.sentinels-of-the-eyrie
+3: kind: faction
+4: subtype: order
+5: scope: setting
+6: campaign: null
+7: audience: [agent, dm]
+8: canon: provisional
+9: status: active
+10: importance: major
+11: schema: faction@1
+12: created: 2026-07-30
+13: updated: 2026-08-15
+14: aliases: [Sentinels of the Eyrie, The Sentinels]
+15: sources: ["agent:campaign-overview Shattered Sea campaign overview"]
+16: tags: [faction, sentinels, eyrie, record-keepers, non-aligned, drowned-maw]
+17: npcs: []
+18: locations: ["[[location.high-eyrie|High Eyrie]]"]
+19: settlements: []
+20: allied_factions: []
+21: rival_factions: []
+22: look_canon: provisional
+23: reference_images: []
+24: player_images: []
+25: ---
+26: 
+27: # Sentinels of the Eyrie
+28: 
+29: ## Overview
+30: 
+31: The Sentinels of the Eyrie watch [[region.drowned-maw|The Drowned Maw]] and record what they see from [[location.high-eyrie|the High Eyrie]]. Non-aligned record-keepers — they serve neither Crown nor Concordat.
+32: 
+33: ## Goals
+34: 
+35: - **Stated goal:** Watch [[region.drowned-maw|The Drowned Maw]], record observations, maintain the long watch.
+36: - **True goal:** Source is silent — possibly monitoring the fissure, waiting for something specific.
+37: - **Immediate objective:** Maintain observation posts, record all traffic and phenomena at [[region.drowned-maw|the Maw]].
+38: 
+39: ## Methods
+40: 
+41: Passive observation, meticulous record-keeping, non-interference. They do not engage in colonial politics.
+42: 
+43: > [!tip] Running This Faction
+44: > Quiet, patient, obsessive about accuracy. They trade information but never allegiance. Their records are the only continuous log of [[region.drowned-maw|the Maw]]'s behaviour.
+45: 
+46: ## Resources
+47: 
+48: - [[location.high-eyrie|the High Eyrie]]: elevated observation post overlooking [[region.drowned-maw|The Drowned Maw]].
+49: - Archives: generations of observational data on Maw currents, phenomena, traffic.
+50: - Neutrality: respected by all powers because they favour none.
+51: 
+52: ## Leadership
+53: 
+54: Source is silent on specific leaders.
+55: - Succession: Source is silent.
+56: 
+57: ## Relationships
+58: 
+59: - `[[location.high-eyrie]]` — Their base of operations.
+60: - `[[region.drowned-maw]]` — The object of their watch.
+61: - `[[faction.dravosi-crown]]` — Tolerated, not allied.
+62: - `[[faction.tessarine-concordat]]` — Tolerated, not allied.
+63: - `[[faction.waveservants]]` — Source is silent on relationship.
+64: 
+65: ## If Unopposed
+66: 
+67: They continue the long watch. Their archives become the only truth about what lies beyond the charts.
+68: 
+69: > [!danger] Escalation
+70: > If [[region.drowned-maw|the Maw]]'s behaviour threatens the integrity of their records or the Eyrie itself, they will act — but only to preserve the watch, not to influence outcomes.
+71: 
+72: > [!secret]- Secrets
+73: > Their records may contain the only data on what lies beyond [[region.drowned-maw|The Drowned Maw]]. They may know whether the tribute system actually holds the fissure shut.
+```
+

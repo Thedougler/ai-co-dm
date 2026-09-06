@@ -53,13 +53,13 @@ Reduce to one sentence: *Characters encounter [problem] caused by
 
 Classify its dominant form and the kind it writes:
 
-* **Trap** — intentional mechanism → `kind: trap`
-* **Puzzle** — understanding or manipulation is the obstacle → `kind: trial` subtype `puzzle`
-* **Hazard** — ongoing environmental danger → `kind: hazard`
-* **Trial** — structured test of competence, judgment, or sacrifice → `kind: trial`
+* **Trap** — intentional mechanism → the existing trap or hazard note type
+* **Puzzle** — understanding or manipulation is the obstacle → the existing trial or encounter note type
+* **Hazard** — ongoing environmental danger → the existing hazard note type
+* **Trial** — structured test of competence, judgment, or sacrifice → the existing trial or encounter note type
 * **Composite** — one page of the dominant form, linking the others
 
-There is no `kind: puzzle`.
+There is no standalone puzzle type; use the existing challenge or hazard template.
 
 Establish: default state, activation condition, stakes, what changes
 once engaged, reset/persistence behavior, what success makes possible,

@@ -1,7 +1,7 @@
 ---
-name: writing-cold-opens
+name: cold-opens
 description: >-
-  Write or revise a cold open in this Campaign OS vault: a cinematic pre-Hook
+  Write or revise a cold open in this ai-co-dm vault: a cinematic pre-Hook
   prelude the table plays from a borrowed NPC, ally, rival, or villain POV. Use
   when prepping a session opener that runs before the PCs' own Hook, a
   temporary-NPC-control scene, an alternate-POV or villain-POV opener, events
@@ -37,8 +37,8 @@ unless the request establishes another count.
 | `references/cold-open-page.md` | the page skeleton, the repo's beat-page integration (group check, picture-then-check steps, labeled landings), and wiki conventions |
 | `references/cold-open-gates.md` | the completion gate every finished cold open passes |
 
-Sibling authorities: `writing-hook-beats` owns Hook beats the party plays as
-themselves; `writing-session-beats` owns the main session's Beat Chart;
+Sibling authorities: `session-beats` owns Hook beats the party plays as
+themselves; `session-beats` owns the main session's Beat Chart;
 `theatre-of-the-mind` owns every player-facing paragraph this skill produces.
 
 ## Workflow
@@ -125,7 +125,7 @@ cost rather than halting the sequence. Consequence dimensions and failure
 patterns: `references/cold-open-patterns.md`.
 
 Use the campaign's established group-check or table procedure. If no
-`kind: ruling` exists for this, name the check the fiction demands and
+an existing ruling note exists for this, name the check the fiction demands and
 leave the math to the DM.
 
 **Complete when:** every check advances the fiction, every result changes at
@@ -147,7 +147,7 @@ check, communicates the handoff, escalates, or lands the ending.
 ### 7. Write for spoken delivery
 
 If the POV, place, or threat still has no pictureable facts, invoke
-`fleshing-out-content` on that parent first. Then chain-load
+`flesh-out` on that parent first. Then chain-load
 `theatre-of-the-mind` for the read-aloud text. Narration is written
 for the DM to **say**: concrete sensory information, active events, short
 paragraphs, visible threats, one strong image over several decorative details,
@@ -182,9 +182,8 @@ distinguishable on the page.
 
 ### 10. Write the page and pass the gate
 
-Instantiate `_system/schemas/beat/template.md` with `subtype: hook` and
+Instantiate `templates/Session prep.md` with `subtype: hook` and
 `framing: borrowed-pov`. Put spoken text in `[!narration]`. Follow
-`references/cold-open-page.md` for the step skeleton. Run `npm run doctor`
-from `_system/scripts/`. Run `references/cold-open-gates.md`.
+from `scripts/`. Run `references/cold-open-gates.md`.
 
 **Complete when:** doctor is clean and every gate passes.

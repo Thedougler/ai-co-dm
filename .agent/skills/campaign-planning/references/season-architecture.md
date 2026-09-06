@@ -1,8 +1,8 @@
 # Season Architecture
 
 Full construction method for step 4 of the campaign-planning workflow.
-Season pages are `kind: season` pages owned by
-`_system/schemas/season/` — this reference covers the
+Season pages are campaign story or session-prep note pages owned by
+`templates/` — this reference covers the
 architectural decisions that produce them, not their page format.
 
 ## What a season is

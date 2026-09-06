@@ -1,6 +1,6 @@
 # Narrative Islands: Design Reference
 
-This reference defines the structural model behind Campaign OS narrative islands.
+This reference defines the structural model behind ai-co-dm narrative islands.
 
 Use it when:
 

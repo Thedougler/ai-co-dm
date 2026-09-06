@@ -40,4 +40,3 @@ when every item passes.
 ## Persistence
 
 - Runtime-dependent outcomes stay unresolved until play establishes them.
-- The page passes `npm run doctor` from `_system/scripts/`.
