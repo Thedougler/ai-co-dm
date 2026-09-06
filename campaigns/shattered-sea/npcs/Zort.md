@@ -10,8 +10,8 @@ tags: [npc, broker, midchain]
 ---
 # Zort
 > [!narration] Narration
-> Armless Zort trades in contacts, offering a Midchain reptile lead in exchange for a prosthetic.
-> _Visualizer: story ingest pending._
+> Armless Zort deals in contacts from Calveno. He trades a Midchain reptile lead for a prosthetic.
+
 ## Current situation
 The crew accepted the trade; Zort's contact is [[Roka Sten]] in [[Sparhold]].
 ## Hook

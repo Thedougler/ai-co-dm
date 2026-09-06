@@ -10,8 +10,7 @@ tags: [npc, surety, blade]
 ---
 # Mira
 > [!narration] Narration
-> Mira is the unresolved name on a blade recovered with Rook's letters and coin.
-> _Visualizer: story ingest pending._
+
 ## Current situation
 The blade marked for Mira is aboard the crew's story; no identity or meeting is established.
 ## Hook

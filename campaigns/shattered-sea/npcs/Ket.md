@@ -10,8 +10,8 @@ tags: [npc, moucheron, surety]
 ---
 # Ket
 > [!narration] Narration
-> Ket is a starving Moucheron Rook kept as a specimen until the new crew fed him and let him fly home toward Murrat.
-> _Visualizer: story ingest pending._
+> A starving Moucheron Rook, kept as a specimen until fed and freed. Thin wings and hunger mark him; he was let go to fly toward Murrat.
+
 ## Current situation
 Freed during the taking of [[HCS Surety]]; his return to Murrat is not confirmed on-page.
 ## Hook

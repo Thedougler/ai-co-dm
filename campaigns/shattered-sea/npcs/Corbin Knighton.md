@@ -10,8 +10,8 @@ tags: [npc, crown, knighton, ordinance]
 ---
 # Corbin Knighton
 > [!narration] Narration
-> Corbin Knighton commands the ninety-six-gun [[HCS Ordinance]] under Knighton colors, and reins in his own hound when an inspection threatens to become a needless execution.
-> _Visualizer: story ingest pending._
+> Corbin Knighton commands the ninety-six-gun HCS Ordinance under Knighton colors. When an inspection turns toward needless killing, he reins his own hound back.
+
 ## Current situation
 He intercepted [[Uncertainty]] while hunting [[Shepherd Grigori]], then stood off and returned toward Calveno after the crew's cover held. He remains a Crown pressure point, not a resolved enemy.
 ## Hook
