@@ -16,11 +16,13 @@ A bounded player-facing rendering of a finished session log; it does not cascade
 ## Inputs
 
 One of:
-- A file in `inbox/` (e.g. `inbox/Session-04-Notes.md`) — raw session notes
-- Pasted text in the conversation — the DM's notes from the session
-- A request like "process session 4" — look for the most recent unprocessed inbox file
+- An approved session log under `campaigns/<campaign>/sessions/`
+- A bounded evidence packet from `session-transcript-ingest` or
+  `reconciling-session-evidence`
+- A request like "process session 4" — locate the approved log after wrap-up
 
-If no notes are provided, ask for them.
+Raw notes, recordings, and transcripts must go through the ingest/reconciliation
+path first; do not use them directly as recap input.
 
 ## Workflow
 
@@ -48,3 +50,12 @@ Create `campaigns/<campaign>/sessions/Session <NN> - Recap.md` following the est
 ## Finish
 
 Run `./scripts/lint-obsidian-markdown` on the recap, then `./scripts/after-write` after any write. Commit only when the caller explicitly requests it.
+
+## Post-session wiki spine
+
+Run after `session-wrapup`, ideally within 24 hours. Keep the durable dump to
+about 15 minutes: who acted, what decisions changed, and which threads remain
+open. Compare the player recap with the approved log without promoting a
+contradiction. The recap is only the short player-facing rendering; typed NPC,
+place, loot, or other canon belongs to the owning notes, and faction clocks/world
+tick belong to `world-tick`.

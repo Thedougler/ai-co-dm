@@ -70,3 +70,16 @@ shorter and more useful than the conversation; do not transcribe the thread.
 - [ ] Provenance and uncertainty are visible; contradictions are not silently overwritten.
 - [ ] Nearest index/hot changed only when the content warrants it.
 - [ ] `after-write` ran (or its failure is reported).
+
+## World-bible spine
+
+Use crystallization to make one small habit durable: after play, capture who,
+decisions, and open threads within 24 hours, then patch only the affected typed
+owners. Keep a lean hub with PCs, active versus past NPCs, locations, factions,
+and living handouts; put expendable material in a junk drawer or inbox rather
+than bloating the hub. For locations, file information from obvious surface to
+deeper use to secrets last. Responsive systems (relationships, clocks, and
+independent moves) supply depth; do not manufacture lore to fill sections.
+
+Keep notes atomic and modular, link the nearest Organizer MOC, and preserve an
+empty `[!narration]` block for Visualizer. Never crystallize a raw transcript.

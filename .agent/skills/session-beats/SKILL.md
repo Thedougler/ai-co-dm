@@ -103,3 +103,31 @@ Read [references/agency.md](references/agency.md) for the recompute loop and
 anti-railroad tests. Use [references/beat-types.md](references/beat-types.md)
 for practical cards, then copy [references/session-skeleton.md](references/session-skeleton.md)
 for preparation. Run [evals/evals.json](evals/evals.json) against drafts.
+
+## Session ritual
+
+**Pre-session (30-40 minutes):** review PC goals/abilities and attach at least
+one possible limelight moment to each PC; pick a strong purposeful start from the
+cliffhanger or agreed plan; prepare a floating bank of about ten secrets/clues;
+write a hiccup list; keep a parachute file of off-map one-shots; and leave the
+chart as a skeleton. Prep only what is uncomfortable to improvise, as modular
+pieces findable in under 30 seconds.
+
+**In session:** use shorthand, keep clocks/fronts visible as scales, and give
+players useful roles (watcher, caller, mapper, negotiator, recorder) when a
+procedure benefits from them. If an optional recording exists, route it through
+`session-transcript-ingest`; never make a transcript the session plan or handoff.
+
+## Table-craft gates
+
+Practice **silence discipline**: state the actionable situation, ask what the
+players do, and wait. Do not panic-fill a quiet table; players learn that play
+advances when they act. If they choose not to act, show the visible consequence
+of inaction and return the decision, rather than inventing a rescue or forcing a
+beat. Keep the flexible prep toolbox ready so waiting is safe for the DM.
+
+Before play, audit: spotlight players, pause when they should drive, build rails
+from stated PC backstory and public stakes, honor the agreed tone, frame one
+striking image with visible energy, and ensure every choice or silence has an
+echo in the fiction. Cinematic framing never moves secrets or DCs into
+`[!narration]`.

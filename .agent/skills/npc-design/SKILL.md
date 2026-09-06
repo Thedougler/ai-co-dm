@@ -118,3 +118,12 @@ play, audit: Can the table tell what this NPC wants? What can players change?
 What happens if they ignore them? What is the cost of cooperation? What is the
 limit or contradiction? What will the NPC do next, and how can players
 interrupt it?
+
+## GM-prep and world-bible gates
+
+Prep only what the DM cannot comfortably improvise: a want, leverage, limit,
+signals, next move, and one or two modular responses. Keep active NPCs distinct
+from past/inactive figures and show how play changed a recurring NPC. File durable
+improvisations as typed atomic owner notes; link the nearest MOC and keep
+Organizer responsible for index structure. Secrets and unearned names stay out of
+`[!narration]`, and a DM should recover the actionable card in under 30 seconds.

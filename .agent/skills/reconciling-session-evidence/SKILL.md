@@ -59,3 +59,12 @@ Raw evidence is intact; corrections are traceable; uncertain readings remain unc
 claims are marked; OOC/speculation stays out of canon; clear improvisation is retained; every durable
 claim has one owner and provenance; time, event, PC, and session-log bounds agree or show an explicit
 gate/diagnostic. Report accepted patches, retained evidence, conflicts, and gates.
+
+## Post-session synthesis gate
+
+After reconciliation, support the short wiki spine: within 24 hours capture who
+acted, decisions that became true, and open threads in roughly 15 minutes. Promote
+improvised NPCs, places, loot, and other durable facts only to their typed atomic
+owners, preserving provenance and uncertainty. Compare a player recap only after
+the evidence-backed log exists; route faction clocks and off-screen movement to
+`world-tick`. Never use raw transcript wording as the vault's durable prose.

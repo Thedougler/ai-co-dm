@@ -152,3 +152,14 @@ attempt.
 - A table recording belongs to **session-transcript-ingest** before filing.
 - Never file a thin 1–5-note skim when the decomposition checklist requires
   more coverage, and never replace multiple entities with one dump note.
+
+## World-bible filing gates
+
+The compiled bible should stay lean and findable: maintain a hub for PCs, active
+versus past NPCs, locations, factions, and living handouts, with a small junk
+drawer for material not yet worth an atomic note. File location knowledge in the
+order **obvious -> deeper -> secrets**. Prefer depth from responsive systems: who moves, which clock advances,
+and what relationship changes, over decorative lore.
+Start with one habit: after each session, capture who/decisions/open threads
+within 24 hours and patch only the typed owners that play changed. The nearest
+MOC/index is Organizer territory; do not stage unrelated vault junk.

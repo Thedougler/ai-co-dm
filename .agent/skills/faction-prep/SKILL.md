@@ -10,6 +10,19 @@ description: >
 
 ## When to use
 
+Use for a faction's current agenda, active relationships, independent movement,
+clock, or DM-ready toolbox. Use `npc-design` for a face, `narrative-islands` for
+competing forces in one situation, and `world-tick` for reviewed advancement.
+
+## GM-prep gates
+
+Prepare the faction as a living system, not a plot device. Distinguish active
+NPCs/factions from past or inactive ones; record who wants what, what changes if
+ignored, and the next visible move. Maintain a compact faction relationship
+matrix when several factions matter. Keep only the facts the DM will not
+improvise, use modular offers/tells, and make the page findable in under 30
+seconds. Link the nearest atomic MOC/index; Organizer owns MOC structure.
+
 ## Faction Page Structure
 
 **Frontmatter:** universal/entity fields auto-fill. Author the domain values: `status` (`active | dormant | dissolved`) and a `summary` of 2 sentences (what they want + how they operate).
@@ -42,3 +55,11 @@ faction content is DM-only operational reference.
 ## Sibling boundaries
 
 Use `npc-design` for faction faces, `narrative-islands` for competing forces, and `world-tick` for reviewed off-screen advancement. Do not roll or canonize a future move during faction prep. Run `./scripts/after-write` after vault writes.
+
+## Momentum and politics gate
+
+Every active faction needs an independent next move, including what happens if
+the party goes quiet. Let strongholds, routes, resources, and relationships
+produce politics: control should alter offers, access, reputation, and pressure,
+not merely change a map label. Make the consequence of inaction visible and
+interruptible; never turn a faction clock into a hidden punishment.

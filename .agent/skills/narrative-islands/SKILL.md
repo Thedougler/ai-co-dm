@@ -186,9 +186,28 @@ on one delegates the whole frame to that skill.
 
 `NI: <situation premise + pressure + if-ignored change + table-open question>`
 
+## GM-prep gates
+
+A situation is a toolbox of actors, locations, motivations, and pressures in
+tension, not a screenplay. Prepare only the uncertain pieces: a skeleton of
+states, modular clues, likely hiccups, and a few independent moves. Keep secrets
+floating across multiple clue vectors rather than assigning each to one room.
+Before play, check that each PC has at least one possible limelight connection,
+that the opening is purposeful, and that a parachute situation exists if the
+party leaves the prepared area. Keep the page atomic and link its nearest
+Organizer-owned hub/MOC.
+
 ## References
 
 | File | Read when |
 |---|---|
 | `references/narrative-islands.md` | Converting linear adventures, diagnosing rails, repairing static islands |
 | `references/workflow-detail.md` | Element catalogs, island audit |
+
+## Eruptible-conflict gate
+
+Make each island able to erupt without a scripted trigger: competing actors keep
+moving, pressure has visible tells, and a PC arrival, choice, or silence can
+collide with the current state. Consequences of inaction should be real but
+legible. Let strongholds, routes, and relationships create political leverage,
+and keep at least one interruptible off-ramp for an unexpected approach.

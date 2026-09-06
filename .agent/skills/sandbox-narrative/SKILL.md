@@ -45,3 +45,21 @@ and post-play truth to `reconciling-session-evidence`.
 
 `narrative-islands` owns situation topology; `session-beats` owns beat composition; `run-guide`
 owns table assembly; `encounter-prep` owns encounter procedure. This skill audits those outputs.
+
+## Session-prep ritual
+
+Use this audit to keep a 30-40 minute prep pass honest: review PC goals and
+abilities, provide a purposeful start, bank floating secrets/clues, list hiccups,
+attach one possible limelight moment per PC, and keep a parachute file for an
+off-map one-shot. Test the skeleton, not a screenplay. Prep only uncomfortable
+improvisation; keep pieces modular and findable in under 30 seconds. Do not
+stage unrelated vault junk or change canon in this audit.
+
+## Momentum and silence gate
+
+Every choice and every meaningful silence should echo through changed position,
+knowledge, resources, relationships, or clocks. Give factions and strongholds
+independent momentum, with consequences of inaction visible early enough to
+choose. Design conflicts to be **eruptible**: actors, pressures, and tells can
+collide when the PCs arrive, without waiting for a scripted cue. A quiet table
+gets a pause and a clear opening, not panic-filled narration.

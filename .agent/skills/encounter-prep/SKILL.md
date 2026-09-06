@@ -80,3 +80,19 @@ structure. Finish writes with `./scripts/after-write "add encounter procedure"`.
 
 `npc-design`, `place-design`, `dungeon-design`, `dnd-5e-magic-item-design`, `run-guide`, and
 `homebrew-monsters-5e` own their respective handoffs.
+
+## Table-prep gate
+
+For a session-only encounter, include at least one possible limelight angle per
+PC when the fiction supports it, a strong/purposeful entry from the current
+cliffhanger or agreed plan, and a short hiccup/fallback note. Keep the encounter
+as modular situation cards findable in under 30 seconds; do not script a sequence
+of player choices. Secrets remain DM-only and out of `[!narration]`.
+
+## Public-stakes roll gate
+
+When a decision is huge, declare the stakes and consequences before rolling. Use
+an open roll when that matches the table's established convention, so everyone
+can see what the decision risks; never hide a decisive outcome behind an
+unannounced DC or secret punishment. The roll changes the situation either way,
+and the players retain the choice to act, wait, bargain, or walk away.

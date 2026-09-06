@@ -106,6 +106,23 @@ Triggers and procedure: `references/replanning.md`.
 
 `references/quality-gate.md` before declaring planning complete.
 
+## GM-prep gates
+
+Campaign architecture is a **situation toolbox**, not a screenplay: keep actors,
+locations, and motivations in tension so play can produce dominoes. Before a
+session, spend roughly 30-40 minutes on only what the DM is not comfortable
+improvising:
+
+1. Review each PC's goals and abilities for limelight opportunities.
+2. Choose a strong, purposeful start from the cliffhanger or agreed plan.
+3. Bank about ten floating secrets/clues; do not glue each to one location.
+4. List likely hiccups, one limelight moment per PC, and a parachute file of
+   off-map one-shots.
+5. Leave the session as a skeleton/framework, not a plotted sequence.
+
+Keep notes modular and findable in under 30 seconds. One topic per atomic note;
+link the nearest hub/MOC and leave index structure to Organizer.
+
 ## References
 
 | File | Content |
@@ -114,3 +131,12 @@ Triggers and procedure: `references/replanning.md`.
 | `references/season-architecture.md` | Season construction, horizon, transitions |
 | `references/replanning.md` | When and how to re-plan |
 | `references/quality-gate.md` | Verification checklist |
+
+## Backstory and tone gates
+
+Treat PC-interview answers as campaign bones: who wronged or loved each PC,
+who hunts them, and what they owe can seed optional rails, public stakes, and
+living relationships. Keep the player's response open; a backstory rail is a
+pressure source, not a required destination. Confirm Session 0 tone and table
+boundaries before architecture, and do not let cinematic framing smuggle in a
+promise the group did not agree to.

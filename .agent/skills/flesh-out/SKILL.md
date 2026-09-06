@@ -251,8 +251,23 @@ Out of scope: `[!narration]` and any sentence the table hears;
 minting a new kind owner; rewriting mechanics; prescribing player
 feeling or method; a universal presence section.
 
+## Prep boundary
+
+Flesh out only the facts the DM is not comfortable improvising. Treat the result
+as a modular toolbox: a signature, a few anchors, reactions, and discoverable
+layers that can be lifted into different situations. Keep the page atomic and
+make the table-facing path recoverable in under 30 seconds. Do not turn an
+elaboration pass into a plot, exhaustive lore dump, or fixed scene sequence.
+
 ## References
 
 | File | Read when |
 |---|---|
 | `references/registers.md` | A specific emotion or kind needs presence work |
+
+## Energy and restraint gate
+
+Stock one striking, supported image and visible motion or behavior when those
+facts help the table act. Do not turn silence into an excuse to inventory every
+object or fill every pause with prose. Flexible, sparse facts let the DM wait for
+player action while the world remains legible.

@@ -130,3 +130,22 @@ Close out by marking each ledger line with its evidence, the proposed before/aft
 ## ai-co-dm write boundary
 
 Stage proposed advances in `inbox/world-tick-<YYYY-MM-DD>.md` after triage and per-thread review. Do not write a front, faction, NPC, location, or `hot.md` until Nick/Co-DM confirms the interpretation. Once approved, apply only confirmed surgical changes, run `./scripts/after-write`, and return a bounded receipt. Never assume a destination, add a new front, or use a raw transcript as evidence.
+
+## Session-to-world spine
+
+Run this after `session-wrapup` when off-screen movement is wanted. Within 24
+hours, make the durable post-session dump in roughly 15 minutes: who acted, what
+decisions landed, and which threads remain live. Update the vault bible only for
+supported improvised NPCs, places, loot, or other canon, using typed atomic notes;
+then advance reviewed faction clocks/world state. Keep the player recap separate,
+compare it with the DM log when useful, and leave unresolved evidence gated rather
+than inventing continuity.
+
+## Momentum and echo gate
+
+For each touched thread, record the echo of both action and inaction: what the
+party changed, what they left exposed, what independent factions did next, and
+which visible consequence or opportunity will meet them later. Strongholds and
+resources are political leverage, not static scenery. Advance living factions
+from their established motives, then route reviewed clock changes through the
+existing ledger and approval boundary.

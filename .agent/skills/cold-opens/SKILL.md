@@ -187,3 +187,19 @@ Instantiate `templates/Session prep.md` with `subtype: hook` and
 from `scripts/`. Run `references/cold-open-gates.md`.
 
 **Complete when:** doctor is clean and every gate passes.
+
+## Strong-start gate
+
+The opener must be purposeful, not merely cinematic: connect it to the
+cliffhanger or agreed plan, make the immediate situation actionable, and hand a
+changed pressure into the main PCs. It is one modular Hook in the session
+skeleton, not a plotted prelude. Keep a fallback parachute file for an off-map
+one-shot if the party's chosen direction makes the prepared opener irrelevant.
+
+## Tone and energy gate
+
+Confirm the session's agreed tone before choosing the cold open's register. Make
+the start purposeful and visibly energetic through one striking, supported
+image and an actionable pressure, not an inventory of cinematic details. Keep
+secrets, DCs, and hidden mechanics outside `[!narration]`; dramatic framing may
+show effects and choices without exposing the answer.

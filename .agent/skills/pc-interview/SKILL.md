@@ -40,3 +40,15 @@ Do not set player audience, combat statistics, inventory, or unstated feelings.
 Write one note in `campaigns/<campaign>/pcs/`, run applicable Obsidian/frontmatter lint, and finish
 with `./scripts/after-write "capture PC interview"`. Report unanswered questions and any owner
 work deferred.
+
+## Campaign-bone gate
+
+Use stated backstory to seed campaign bones, not to script outcomes. Extract who
+wronged the PC, who they loved, who hunts them, and what they owe; turn those
+facts into optional public stakes, relationships, and pressures that other
+skills can make playable. Never force the PC to care, choose, forgive, or follow
+one rail.
+
+Before or during a Session 0 interview, confirm the table's tone agreement and
+record only agreed tone/boundary information supported by the vault schema. A
+cinematic promise must serve that agreement, not override it.

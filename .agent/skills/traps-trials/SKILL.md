@@ -219,6 +219,14 @@ from the page alone.
 
 Run `references/quality-gate.md` before finishing.
 
+## Table-prep gate
+
+Prepare only the challenge facts the DM will not improvise: a compact mechanism,
+telegraphs, affordances, costs, and recovery states. Keep them modular and
+findable in under 30 seconds; attach at least one contribution/limelight route per
+PC when the situation permits. Keep secrets in DM sections, never `[!narration]`,
+and link the challenge's atomic owner through the nearest MOC.
+
 ## References
 
 | File | Contents |

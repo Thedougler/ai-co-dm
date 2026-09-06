@@ -72,3 +72,26 @@ unrelated live table tooling, or turn a multi-session arc into one guide.
 
 Finish vault writes with `./scripts/after-write "add run guide"`; a failed after-write means the
 write is not complete.
+
+## GM-prep gates
+
+Build the guide from a 30-40 minute prep ritual, not a plot: review PC goals and
+abilities, attach at least one limelight opportunity per PC, choose a strong start
+from the cliffhanger or agreed plan, bank roughly ten floating secrets/clues, list
+hiccups, and keep a parachute file of off-map one-shots. Render only the
+skeleton needed to run tonight. Every item should be modular and recoverable in
+under 30 seconds; if it is not needed at the table, leave it on the owner page.
+
+## Table-craft gates
+
+Add a **silence protocol** to the dashboard: present one concrete situation and
+public stakes, ask what the players do, then wait. Do not fill a lull with NPC
+monologue or a new beat. If the party stays silent, advance only a visible,
+independent pressure and show the consequence of inaction. Preserve a limelight
+opening for each PC rather than assigning one player the whole scene.
+
+For a huge decision, state the stakes and consequence before the roll; use an
+open roll when that matches the table's established convention. The audit is:
+spotlight players; silence when they should drive; use PC backstory rails and
+public stakes; honor tone and cinematic-but-safe framing; and give every choice
+or silence an echo.

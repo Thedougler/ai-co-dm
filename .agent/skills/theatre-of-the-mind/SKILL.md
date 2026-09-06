@@ -324,3 +324,13 @@ For spatial narration, use third person and present tense by default. For
 other surfaces, follow their contract: dialogue can be quoted, recaps use
 past tense, and handouts retain their diegetic owner's voice. Draft layers,
 staging cards, analysis, and routing labels stay off the player-facing page.
+
+## Cinematic framing gate
+
+Cinematic framing is a **shot**, not an inventory: choose one striking,
+supported image and make visible energy or movement legible when the table state
+supports it. Do not enumerate every object, narrate mood as instruction, or use
+cinematic language to manufacture drama. The `[!narration]` surface remains
+player-safe: no secrets, DCs, hidden mechanics, unearned identities, or private
+stakes. Keep dramatic pressure in what can be perceived and acted on; put the
+rest in DM procedure or secret callouts.

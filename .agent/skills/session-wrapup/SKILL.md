@@ -52,8 +52,25 @@ between specialists.
 - Use `qmd-retrieval` for lookup and `obsidian-markdown` for every vault note
   write. Never paste WotC text or invent setting canon.
 
+## Post-session ritual
+
+Aim to capture the durable dump within 24 hours and keep the first pass to about
+15 minutes: **who acted, what decisions landed, and which threads remain**. Then
+update the vault bible surgically: improvised NPCs, places, loot, and other
+lasting facts become typed atomic notes or updates on their existing owners. Keep
+unused prep disposable, compare the short player recap when available, and hand
+reviewed faction clocks or off-screen movement to `world-tick`. The session log
+is the evidence spine; it is not a raw transcript.
+
 > **Attribution and license.** Adapted from AntTheLimey/gm-apprentice's
 > `session-wrapup` skill under **CC BY-SA 4.0**. Adapted for ai-co-dm by
 > Nick Davenock, including path/schema remapping and local handoff rules.
 > This adapted material remains available under **CC BY-SA 4.0**; see the
 > vendor `LICENSE` and `ATTRIBUTION.md` for the license and attribution terms.
+
+## Echo capture
+
+In the durable log, retain the consequences of action **and inaction**: what the
+party changed, what they left unattended, and which living faction or pressure
+moved in response. Keep those echoes as evidence-backed threads for `world-tick`,
+not as a retrofitted plot or hidden punishment.

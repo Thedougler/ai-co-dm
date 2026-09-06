@@ -69,3 +69,14 @@ Progressive load: this file for doctrine. Open `references/karpathy-pattern.md` 
 - [ ] Is Organizer the right owner (indexes/MOCs/inbox)?
 - [ ] Would a new folder duplicate `campaigns/` or `lexicon/`?
 - [ ] If yes to any parallel-tree temptation → stop; remap to the table above.
+
+## Lean world-bible habit
+
+A useful bible has a hub for PCs, active versus past NPCs, locations, factions,
+and living handouts, plus a lean junk drawer for unfiled material. Let
+responsive systems (relationships, clocks, and independent faction/NPC moves) create
+depth before adding lore. Organize location notes from obvious surface to deeper
+interaction to secrets last. Start with one habit: within 24 hours of a session,
+spend about 15 minutes capturing who, decisions, and open threads, then patch only
+changed typed owners. Keep every note atomic and link the nearest Organizer MOC;
+never stage unrelated vault junk.

@@ -149,3 +149,13 @@ Handoff deep dungeon or megadungeon graphs to `dungeon-design`; player-facing
 prose to `theatre-of-the-mind`; session pacing to `session-beats`; and vault
 canon retrieval to `qmd-retrieval`. Do not invent setting canon when the vault is
 silent—mark a stub.
+
+## World-bible and prep gates
+
+Keep location notes modular and table-findable in under 30 seconds. Key the place
+from **obvious surface -> deeper interaction -> secrets last**; secrets remain DM
+truth and never enter `[!narration]`. A location earns depth from responsive
+systems: inhabitants move, factions react, routes change, and clocks advance-not
+from a larger lore block. Prepare only the topology, affordances, clues, and
+pressure the DM will not improvise, then link the atomic note to the nearest MOC
+or hub rather than creating parallel structure.
