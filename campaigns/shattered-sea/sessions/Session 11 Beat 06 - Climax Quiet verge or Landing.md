@@ -14,7 +14,6 @@ beat: 6
 L1 run card. Parent control panel: [[Session 11 run]]. Chart: palette, not railroad.
 
 > [!narration] Narration
-> At the Quiet verge birdsong dies into denser green, or past the reef gap a cutter silhouette holds off for pickup. Soft landing is in reach.
 
 
 **Now:** Highest stakes site their choices made inevitable: Quiet verge **or** Landing pickup.

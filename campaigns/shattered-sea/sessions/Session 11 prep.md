@@ -13,7 +13,6 @@ tags: [session-prep, aruhe]
 Disposable. Rewrite next time; do not treat as canon.
 
 > [!narration] Narration
-> Open thermal above the canopy. The Crown Squid still holds the tree line when a Bloodhawk folds its wings and crimson tips flash on the dive. Pressure fills the open sky. Closed canopy and deep grass wait below as cover from the stoop.
 
 
 
