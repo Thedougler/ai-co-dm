@@ -54,7 +54,7 @@ reactions:
 # Snakewood
 
 > [!narration] Narration
-> _Visualizer: Aruhe fauna pending._
+> _Visualizer: Aruhe flora pending._
 
 ## At the table
 **Tactic:** rest as a vine bundle → braid-wedge clap → haul up → digest in the canopy. **Tell:** trails swing wide around ordinary-looking canopy; antlers, boots, and feathers remain on the floor.
@@ -102,3 +102,6 @@ Quiet / Rot canopy. Adults live farther in so they do not replace the vine lashe
 
 ## Provenance
 Wiki `creature.snakewood` + [[inbox/2026-09-05-aruhe-living-stock|living-stock 2026-09-05]]. Blight gardens pressure; does not possess. House adult math clarified for the 2024/2025 rules basis; no WotC proprietary text copied.
+
+## Ingest provenance
+- Legacy provenance: `/Users/nick/shattered-sea/wiki/shattered-sea/aruhe-hungry-isle/creature-snakewood.md`.

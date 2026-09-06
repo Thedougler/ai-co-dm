@@ -8,7 +8,7 @@ tags: [index, monster]
 # Monsters
 ## Aruhe - claims map roster
 - **Beach / reef gap:** [[Reef Skull|Reef Skulls]] - [[Small Blood Hawk|Small Blood Hawks]]
-- **Old Gardens / first terraces:** [[Wolfrabbit]] - [[Grinning Ape|Grinning Apes]] - [[Vine Lash|Vine Lashes]] - [[Grubnade]] - [[Unsaid Macaw|Unsaid Macaws]] - [[Snakewood]]
+- **Old Gardens / first terraces:** [[Wolfrabbit]] - [[Grinning Ape|Grinning Apes]] - [[Vine Lash|Vine Lashes]] - [[Grubnade]] - [[Unsaid Macaw|Unsaid Macaws]] - [[Young Snakewood]] - [[Snakewood]]
 - **Quiet / Rot floor:** [[Great Crown Squid]] - [[Deer-Stalker]] - [[Thornback|Thornbacks]] - [[Bear-Elk]] - [[Strangler Fig|Strangler Figs]] - [[Corpsewood]] - [[Silence Moths]]
 - **Grass / river / lake:** [[Terror-Bird|Terror-Birds]] - [[Bloodhawk]] - [[Aruhe River Otter]]
 - **Under-island:** [[Cave Bats]] - [[Root Roaches]] - [[Glass Crickets]] - [[Blackrail]]

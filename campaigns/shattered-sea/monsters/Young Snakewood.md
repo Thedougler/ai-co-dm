@@ -47,7 +47,7 @@ actions:
 # Young Snakewood
 
 > [!narration] Narration
-> _Visualizer: Aruhe fauna pending._
+> _Visualizer: Aruhe flora pending._
 
 ## At the table
 **Tactic:** ordinary terrace vines → one braid-wedge snap → short haul into the low canopy. **Tell:** five or six stems tighten together, and tiny flowers appear inside the closing jaw.
@@ -94,3 +94,6 @@ First terraces and orchard edges, where connected low branches provide the skele
 
 ## Provenance
 New typed note from the authoritative [[inbox/2026-09-05-aruhe-living-stock|living-stock 2026-09-05]] ecology and the existing `creature.snakewood` entry. Blight gardens pressure; does not possess. House math is a 2024/2025 variant; no WotC proprietary text copied.
+
+## Ingest provenance
+- Young terrace ecology promoted from `/Users/nick/shattered-sea/wiki/shattered-sea/aruhe-hungry-isle/creature-snakewood.md`; source paste 2026-09-05.

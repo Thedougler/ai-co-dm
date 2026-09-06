@@ -13,7 +13,7 @@ tags: [item, aruhe, consumable]
 
 > [!narration] Narration
 > A pale green melon floats at the river margin, its rind dimpled like a pair of lungs.
-> Its flesh is a lattice of air cells that trembles when the current turns.
+> Its air-cell flesh trembles when the current turns.
 
 
 ## Look
