@@ -40,3 +40,7 @@ Surgical updates only. Move still-relevant prep forward; don’t reload the vaul
 
 ## Remote Maw pressure
 - [[Fathomrush]] / [[Calder's Tooth and Port Tidefall]] — Eastern Midchain dive staging and sealed Crestwall orders are live pressure ahead of the crew; the Maw is not behind them.
+
+## Crown ingest
+- [[Dravosi Crown]] — fleet, inspection law, and hidden Founder pressure now shape the western approach.
+- [[Calder's Tooth and Port Tidefall]] — Governor Voss remains outside Admiralty-sealed Maw orders.

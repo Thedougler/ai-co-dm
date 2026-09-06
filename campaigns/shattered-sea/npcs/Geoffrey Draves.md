@@ -1,33 +1,24 @@
 ---
 type: npc
 campaign: shattered-sea
-status: unknown
-role: contact
-location: Saltwright
-faction: unknown
+status: alive
+role: defector / heir candidate
+location: [[Calder's Tooth and Port Tidefall]]
+faction: [[Dravosi Crown]]
 visibility: dm
-tags: [npc]
+tags: [npc, crown, draves, defector]
 ---
 # Geoffrey Draves
-
-## Art
-![[attachments/shattered-sea/portraits/geoffrey-draves-portrait.webp]]
-
 > [!narration] Narration
-> _Visualizer: standalone portrait pending._
->
-## Hook
-Preserve his safety while deciding what to reveal about the [[Saltwright]] boarding action; he is a potential witness, not a solved source.
-## Want / leverage / limit
-- **Want:** Unknown; immediate pressure is safety and whether to speak.
-- **Leverage:** Firsthand knowledge of the boarding action.
-- **Limit:** Faction, loyalties, current location, and reliability are unknown.
-## Public vs secret
-Publicly a defected deckhand; what he knows and why he defected remain unknown.
+> _Visualizer: Crown ingest pending._
+
+## Current situation
+Geoffrey is nineteen, a carpenter, and a defector. He put a sword down rather than die underpaid on a privateer's cutter. [[Aldous Draves]], the Tidefall import factor, placed him there.
+
+## Bloodline pressure
+The Draves branch is favoured by [[Aldric Drave]]. Geoffrey is therefore more than a witness to the Crown's maritime service: he is a live point in the founder's bloodline map. Geoffrey need not know that secret for the pressure to be real.
+
 ## Relationships
-[[Barnaby Rook]], [[Saltwright]], and the crew as possible witnesses or protectors.
-## Next move / if ignored
-Stay quiet or move away from the fight; exact next move is unknown.
-## Appearances
-- [[campaigns/shattered-sea/story/00 Story so far]]
-- [[Saltwright]]
+[[Aldous Draves]] · [[Aldric Drave]] · [[Barnaby Rook]] · [[Dravosi Crown]]
+
+**Provenance:** Dump source 2026-09-05; legacy `/Users/nick/shattered-sea/wiki/shattered-sea/boarding-of-the-surety/npc-geoffrey-draves.md`, `/Users/nick/shattered-sea/wiki/shattered-sea/boarding-of-the-surety/event-taking-of-the-surety.md`.

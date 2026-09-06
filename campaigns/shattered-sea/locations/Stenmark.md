@@ -8,31 +8,24 @@ tags: [location, crown-islands, cold-water, watch]
 ---
 # Stenmark
 > [!narration] Narration
-> Stenmark is a long north-south island with a gentle harbour face and thin farmland under a sheer east cliff. Scatter blue-green turns trench-dark off that drop. A Crown signal station watches from the height over cold brine and cliff wind.
-
+> _Visualizer: Crown ingest pending._
 
 ## At a glance
-The last Dravosi flag before the Maw: a long north–south island with a gentle harbour face and a sheer cold-water drop; feels like a signal station at the end of law.
+The easternmost Crown island: stone cliffs, cold deep water, a harbour face, thin farmland, and a signal station watching the discoloured water where the [[Drowned Maw]] begins.
+
+## Crown watch
+Stenmark is the last Dravosi flag before the Maw. Its signal station watches the approaches, but the dump says its logs hide patterns [[Harwick]] has not noticed. Keep the pattern unnamed until play establishes it.
 
 ## Aspects
 `signal cliff, cold shelf, Greyteeth approach`
 
-## Senses
-- Harbour town, thin farmland, sheer east face, and Scatter blue-green turning trench-dark.
-- Signal logs, surf, and harpy calls.
-- Cold brine, cliff wind, and fish.
-
 ## Who is here
-- Crown signal station watchers.
-- Harpies on the east face.
-- Giant sharks on the shelf and fishers who name the wake but will not use the word.
+Crown signal watchers, fishers, harbour workers, cliff life, and whatever the discoloured water refuses to name.
 
 ## Connections
 - → [[Crown Islands]] · [[Greyteeth]] · [[Drowned Maw]] · [[High Eyrie]]
 
-## Hooks
-- Read the station log of colour, fog, compass, and unnamed things.
-- Cross the worst Greyteeth approaches under the last Dravosi flag.
-
 ## Secrets (DM)
-The wake-maker under the cliff and the station watchers' withheld name are deliberately unresolved.
+The signal-log pattern and the name withheld by station watchers remain unresolved. Do not calculate or explain the Maw from this note.
+
+**Provenance:** Dump source 2026-09-05; legacy `/Users/nick/shattered-sea/wiki/shattered-sea/region-stenmark.md`.

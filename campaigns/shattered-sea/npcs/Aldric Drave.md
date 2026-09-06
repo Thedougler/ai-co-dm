@@ -1,28 +1,35 @@
 ---
 type: npc
 campaign: shattered-sea
-status: rumored
-role: rumored hierarch
-location: unknown
-faction: unknown
+status: secret
+role: founder-lich
+location: Fort Crestwall / Crown bloodline
+faction: [[Dravosi Crown]]
 visibility: dm
-tags: [npc, rumor, hierarch]
+tags: [npc, crown, drave, founder, lich, bloodline]
 ---
 # Aldric Drave
-
 > [!narration] Narration
-> _Visualizer: NPC ingest pending._
+> _Visualizer: Crown ingest pending._
 
-## Stub / whisper only
-Tessarine whispers describe Aldric Drave as a possible Hierarch with the same blood-anchor weakness Grigori carries. This is a rumor only: his existence, nature, location, and relationship to Grigori are not confirmed.
+## Canon delta
+The old Hierarch whisper is superseded. The dump establishes Aldric as the secret founder-lich of the Dravosi Crown's colonial project, predating the Crown's landfall in the Verdant Scatter.
 
-## Link to Grigori
-Grigori's arrogance prevents him from hearing the whisper as evidence of another Hierarch; he hears only a warning about his own limits.
+## The private founder
+Aldric built the colonial project as a bloodline map. Every noble house the Crown raised carries some of him. Ledgers, lineage books, and deep archive files chart the living descendants; a factor such as [[Aldous Draves]] can spend decades learning to read the system without knowing its founder.
 
-## Open question
-Is Aldric Drave real, and if so, is he another Hierarch or only a distorted court rumor?
+He favours the Draves branch. [[Geoffrey Draves]] is a nineteen-year-old carpenter who defected rather than die underpaid on a privateer's cutter; Aldous placed him at Tidefall. House Knighton sits close enough to the same web that a commodore and a clerk can share a surname-pattern without sharing a dinner table.
 
-## Pearl pressure
-The Concordat used the Chain Council as a cut-out because it feared Aldric could use the Pearl to grow past the limits of his bloodline phylacteries. This is a Concordat fear and motive, not confirmation of Aldric's actual capability; his existence and nature remain the existing rumor.
+## Crestwall vaults
+Aldric keeps sealed vaults in the cliffs beneath [[Fort Crestwall]]. Two garrison detachments hold the fort on orders [[Governor Voss]] never saw. The Governor is not part of this secret and the public service does not know Aldric exists.
 
-**Provenance:** Dump source 2026-09-05; legacy `/Users/nick/shattered-sea/wiki/shattered-sea/npc-aldric-drave.md`, `/Users/nick/shattered-sea/wiki/shattered-sea/faction-tessarine-concordat.md`.
+> [!secret]- Return through the line
+> Destroying Aldric's body does not end him. He returns through descendants, selecting the strongest sorcerer left in the line, inhabiting that heir, and beginning another roughly three-century cycle. Do not calculate a lich or dragon lifecycle from this note; the cycle is a story pressure, not a rules engine.
+
+## Related note: Grigori
+The earlier Grigori comparison was a rumor's shape, not the truth of Aldric's identity. [[Grigori]]'s arrogance and blindness keep him from hearing the Hierarch whisper as evidence of another power; he hears only a warning about his own limits. Preserve that arrogance/blindness relationship as related material, not as Aldric's origin.
+
+## What the public knows
+Nothing reliable. [[Barnaby Rook]] served the bureaucracy Aldric built and never learned the founder's name. [[Aleksander Malone]], [[Corbin Knighton]], and [[Governor Voss]] likewise operate without public knowledge of Aldric.
+
+**Provenance:** Dump source staged at [[inbox/archive/FILED-2026-09-05-dravosi-crown.md]]. Legacy rumor-only context: `/Users/nick/shattered-sea/wiki/shattered-sea/npc-aldric-drave.md`; related `/Users/nick/shattered-sea/wiki/shattered-sea/kill-the-shepherd/creature-hierarch.md`, `/Users/nick/shattered-sea/wiki/shattered-sea/location-fort-crestwall.md`.

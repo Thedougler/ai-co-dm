@@ -2,41 +2,23 @@
 type: npc
 campaign: shattered-sea
 status: alive
-role: rival
-location: unknown
-faction: House Knighton
+role: commodore
+location: [[Calder's Tooth and Port Tidefall]] / fleet
+faction: [[Dravosi Crown]]
 visibility: dm
-tags: [npc, knighton, crown]
+tags: [npc, crown, knighton, fleet]
 ---
 # Rupert Knighton
-
 > [!narration] Narration
-> House Knighton authority who gives warnings before a dangerous route rather than a clean exit. The house name and shipping pressure travel with him; his personal manner is not yet fixed.
+> _Visualizer: Crown ingest pending._
 
+## Office
+Rupert is the commodore behind [[Corbin Knighton]]: last-resort fleet, no shouting, no theatrical threat. Officers say he replaces rather than threatens. He calls the vessels under him Knights instead of names.
 
-## Hook
-Rupert's warning put Catarina at a fork before the Calveno sewer crisis; his house can turn that warning into pursuit.
+## Pressure
+House Knighton sits near the Crown's hidden noble web, but the dump does not establish Rupert's knowledge of [[Aldric Drave]]. Keep the family proximity distinct from the founder secret.
 
-## Look / voice
-- House Knighton authority; personal manner is not established.
-- Gives warnings before a dangerous route rather than offering a clean exit.
-- Connected to Crown and knightly shipping pressure.
+## Linked
+[[HCS Ordinance]] · [[Corbin Knighton]] · [[Dravosi Crown]] · [[Calder's Tooth and Port Tidefall]]
 
-## Drive
-Protect House Knighton interests and control what moves through its waters. Exact want and method remain open.
-
-## Public face vs secret
-**Public:** Knighton authority who warned Catarina away from the sewers. **Secret:** The vault does not establish what he knows about Catarina's Crown contract or whether he will pursue the crew.
-
-## Relationships
-- [[Catarina Da'Virelli]]: warned her off the sewers; she refused the out.
-- [[Dravosi Crown]]: connected through current Crown pressure; exact relationship unresolved.
-
-## Resources
-House Knighton name, ships, and the ability to turn a warning into an active search; no specific force is assigned here.
-
-## Appearances
-- None recorded in the current vault.
-
-> [!secret]- Provenance
-> Legacy source: /Users/nick/shattered-sea/wiki/shattered-sea/pc.catarina-davirelli.md and /Users/nick/shattered-sea/wiki/shattered-sea/boarding-of-the-surety/event-taking-of-the-surety.md.
+**Provenance:** Dump source 2026-09-05; legacy `/Users/nick/shattered-sea/wiki/shattered-sea/boarding-of-the-surety/npc-capn-gorgeous.md`, `/Users/nick/shattered-sea/wiki/shattered-sea/boarding-of-the-surety/event-taking-of-the-surety.md`.

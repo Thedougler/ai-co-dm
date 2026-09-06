@@ -4,75 +4,28 @@ campaign: shattered-sea
 kind: settlement
 region: Crown Islands
 visibility: dm
-tags: [location]
+tags: [location, calven, calveno, tessarine, dravosi-crown]
 ---
-# Calven / Calveno
+# Calven and Calveno
 > [!narration] Narration
-> Calven is the oldest-settled Crown Island, and Calveno is its canal city of water lanes, bridges, and harbour flags. Locks and poles work the same water that carries ledgers and traffic. Salt and algae hang at the lock walls you can walk.
-
+> _Visualizer: Crown ingest pending._
 
 ## At a glance
-Calven is the oldest-settled Crown Island; Calveno is its great canal city, with Dravosi flags at harbour and Tessarine money underneath.
-## Five-sentence kernel
-- **Function:** A canal city where colonial authority, credit, Passage routes, and ordinary trade overlap.
-- **Fantastic:** Canals make obligation and escape share the same water.
-- **Conflict:** Dravosi law, Tessarine credit, Passage protection, and residents claim different uses for Calveno.
-- **Promise:** Follow a clue through canals, ledgers, and obligations; choose which authority to owe.
-- **Trajectory:** Another crisis turns debt and safety into a single instrument of control.
-## 3Fs and contradiction
-- **Fantastic:** Harbour flags and underground influence rule the same city.
-- **Familiar:** bridges, canals, markets, offices, and back routes.
-- **Functional:** cargo, credit, sewer routes, and favours keep the city alive.
-- **Contradiction:** public order exists because hidden routes absorb disorder.
-- **Signatures:** canal gates; Dravosi flags over Tessarine accounts; a safe route that costs a favour.
-## Current situation
-- **Canon:** connects [[Warren]] under Le Paludi, [[Mercatura]], [[Casa Falier]], [[Ponte Bassa]], and [[Shelfworks]]. Season 1 crossed sewer routes and colonial obligations; Otar is dead beneath Mercatura.
-- **DM seed (unconfirmed):** canal access is keyed by debts, work schedules, and family favours rather than one master map.
-## Aspects
-`canal threshold, debt ledger, public order over hidden movement`
-## Senses
-- **Sight:** water lanes, bridges, harbour flags, ledgers, and traffic.
-- **Sound:** locks, poles, merchants, bells, and official calls.
-- **Smell:** salt, algae, wet stone, cooking, and sewer damp.
-## Topology
-- `Harbour -- Dravosi inspection (official, recorded) --> Calveno`.
-- `Calveno -- canals (visible, fast, toll/credit) --> Mercatura / Casa Falier / Ponte Bassa`.
-- `Calveno -- Le Paludi descent (hidden, hazardous, Passage knowledge) --> [[Warren]]`.
-- `Calveno -- salvage contracts (legal claim, information) --> [[Shelfworks]]`.
-- **Loop:** harbour → public canal → Ponte Bassa → Le Paludi → another Calveno entry.
-- **Bypass:** sewer/Passage route avoids a public gate for trust and danger.
-- **Retreat:** safe kitchen, canal berth, or Warren contact; each is a relationship.
-- **Vertical connection:** canals above, sewer and Warren below; descending changes visibility.
-## Player verbs
-`question, bargain, follow a ledger, bribe, reroute, hide, rescue, expose, repay`.
-## Who is here
-- [[Dravosi Crown]], [[Tessarine Concordat]], [[Passage]], [[Nona Black-Jaw]], [[Fieschi]], city workers, merchants.
-- **DM seed (unconfirmed):** canal keeper and creditor’s clerk carry pressure without inventing named NPCs.
-## Information economy
-- **Secret:** protection and obligation are intertwined systems.
-- **Witness:** Nona/Passage knows routes; Fieschi/creditor knows accounts; worker knows physical shortcut.
-- **Trace:** cargo seal, canal wear, or recent sewer disturbance.
-- **Document:** harbour paper conflicts with Tessarine credit record.
-- **Failure cost:** debt, delay, closed gate, or lost privacy.
-## Pressure
-Quiet → Alert → Contested → Transformed: trade → searches/rates → rival routes occupied → city route or ownership changes.
-## Location moves
-**Move:** canal gate closes after theft/raid; public route slows; Passage offers a hidden route; closure persists until paid, proved, or changed.
+Calven is older, lower, and wetter: marsh, tidal flats, farms on a middle plateau, and one city on the only solid ground that would take a foundation. Calveno's harbour flies the Dravosi flag; the money does not.
 
-**Move:** Tessarine creditor calls a debt; berth/property changes hands; bargain or expose a rival obligation; relationship persists.
+## Control
+The [[Dravosi Crown]] owns the visible harbour authority and rates ships. Tessarine houses hold six of seven Council seats and wrote the ledgers first. The city talks Italian in its canals—Alvise, Lavinia, Grimani, Sordi—because the [[Tessarine Concordat]]'s records outlast the flag. Under Le Paludi, [[Rattkin]] have been in the old drains longer than either colonial power and prefer the official story to stay that way.
 
-**Move:** Mercatura aftermath resurfaces; official searches spread below; Warren shelters people but loses a route.
+## Geography and play
+- Calven's northern and western flats flood and drain with the tide; foot travel needs local guidance.
+- Calveno stands on the southeast coast, with canals, bridges, harbour flags, and credit records.
+- [[Warren]] and Le Paludi sit below the public city; Passage routes trade privacy for trust and danger.
+- A harbour paper can conflict with a Tessarine credit record; either can close a gate.
+
+## Crown rivalry
+The Crown inspects and the Concordat invoices. Both collect from the same fishermen and pay [[Umberlee]] as infrastructure. Crown toxin substitute stock has appeared in Calveno's sewers; [[Simone]] is the named pipeline face, and [[Lavinia Sordi]] left a Crown prison records desk over it.
+
 ## Connections
-- [[Warren]] · [[Mercatura]] · [[Casa Falier]] · [[Ponte Bassa]] · [[Shelfworks]]
-## Hooks
-- Season 1 debts, Passage obligations, Grung trail, and whether credit protects anyone.
-## Secrets (DM)
-- Exact canal layout, council seats, and current ownership are **DM seed (unconfirmed)**; Otar’s death and named sites are established.
-## Mechanics and return
-- Canals/sewers use Difficult Terrain and cover; Study/Influence/Utilize can replace a single key. Failure costs time/trust/position.
-- **Return state:** record opened gates, called debts, moved witnesses, and the route Calveno expects.
+- → [[Crown Islands]] · [[Calder's Tooth and Port Tidefall]] · [[Harwick]] · [[Central Strait]] · [[Warren]] · [[Mercatura]]
 
-## Waveservant harbour shrine
-On the [[Mercatura]] canal, a pale stone arch is shallow enough for boats to read the tribute terms posted toward the water, not the door. A basin fills from the channel; tallow candles burn behind glass. The senior records who paid and who skipped while a junior keeps the candles and basin clean. [[Umberlee - Branca]] keeps her appointment here.
-
-**Provenance:** Dump source 2026-09-05; legacy `/Users/nick/shattered-sea/wiki/shattered-sea/location-waveservant-shrine.md`, `/Users/nick/shattered-sea/wiki/shattered-sea/calveno-raid/location-mercatura.md`.
+**Provenance:** Dump source 2026-09-05; legacy `/Users/nick/shattered-sea/wiki/shattered-sea/region-calven.md`, `/Users/nick/shattered-sea/wiki/shattered-sea/calveno-raid/settlement-calveno.md`, `/Users/nick/shattered-sea/wiki/shattered-sea/calveno-raid/location-le-paludi.md`.

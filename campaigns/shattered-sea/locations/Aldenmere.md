@@ -8,31 +8,24 @@ tags: [location, crown-islands, farm]
 ---
 # Aldenmere
 > [!narration] Narration
-> Aldenmere is rolling farms and a stone town around a mile-wide tidal mere that never quite drains. Frogs and toads call from reeds along a narrow inlet. Wet earth and reed rot sit under farm smoke you can walk the shore path through.
-
+> _Visualizer: Crown ingest pending._
 
 ## At a glance
-The quiet Crown island of rolling farms, a stone town, and a tidal mere that never quite drains; feels pastoral until the reeds move.
+A quiet Crown island of farms, hedges, fishing, and a roughly mile-wide tidal mere that shallows in summer and deepens in spring.
+
+## Crown presence
+The [[Dravosi Crown]] claims Aldenmere, sends a revenue officer twice a year for the fishing tithe, and leaves. There is no standing fortress or heavy military presence in the dump. The quiet is administrative rather than independent.
 
 ## Aspects
-`permanent mere, reed life, storm-gap sighting`
-
-## Senses
-- Farms, stone town, narrow inlet, and a mile-wide tidal mere.
-- Frogs, toads, and water in reeds.
-- Wet earth, reed rot, and farm smoke.
+`tidal mere, hedged farms, quiet flag`
 
 ## Who is here
-- Giant frogs and toads in the reeds.
-- An aging crocodile population in the inlet.
-- A tithe officer twice a year.
+Fishing and farming families, a twice-yearly Crown revenue officer, and the local life of reeds, frogs, toads, crocodiles, and fish.
 
 ## Connections
-- → [[Crown Islands]] · [[Harwick]] · [[Calven and Calveno]]
+- → [[Crown Islands]] · [[Harwick]] · [[Stenmark]] · [[Calven and Calveno]]
 
-## Hooks
-- Learn why locals refuse the mere.
-- Test whether the *Uncertainty* really saw the island through a storm gap.
+> [!secret]- Three refused deals
+> [[High Eyrie]] is the named Sentinel refusal. The dump asserts that the Crown has offered the Sentinels three deals and all three were refused; it does not turn Aldenmere into a party to those negotiations.
 
-## Secrets (DM)
-The *Uncertainty* may have seen Aldenmere on a storm run toward Calveno, but the gap closed before certainty. Locals do not explain the water.
+**Provenance:** Dump source 2026-09-05; legacy `/Users/nick/shattered-sea/wiki/shattered-sea/region-aldenmere.md`.

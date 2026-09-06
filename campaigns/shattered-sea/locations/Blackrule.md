@@ -1,16 +1,20 @@
 ---
 type: location
 campaign: shattered-sea
-status: active
+kind: site
+region: Midchain
 visibility: dm
-tags: [location, chapterhouse, malone]
+tags: [location, chapterhouse, malone, dravosi-crown]
 ---
 # Blackrule
+> [!narration] Narration
+> _Visualizer: Crown ingest pending._
 
-## Note
-A chapterhouse in the southern Midchain, carved from volcanic terrace-rock. One narrow stair rises from a landing that fits a single small boat. There is no flag, banner, or staff; one hall serves as chapel and barracks, with Tyr's scales cut into the altar stone and an oiled weapon rack waiting for the next case. The nearest steps are eroding past repair.
+A chapterhouse carved from volcanic terrace-rock. One narrow stair rises from a landing that fits a single small boat; one hall serves as chapel and barracks, with Tyr's scales cut into the altar stone.
 
-[[Aleksander Malone]] chose Blackrule for himself. He trains alone on its highest terrace, leaves when heresy is confirmed, and returns when the work is done.
+[[Aleksander Malone]] chose Blackrule for himself. He trains alone, leaves when formal heresy is confirmed, and returns when the work is done. The Crown does not use it as an ordinary station.
 
 ## Linked
-[[Aleksander Malone]] · [[Tyr]] · [[Midchain]]
+[[Aleksander Malone]] · [[Tyr]] · [[Midchain]] · [[Dravosi Crown]]
+
+**Provenance:** Dump source 2026-09-05; legacy `/Users/nick/shattered-sea/wiki/shattered-sea/kill-the-shepherd/location-blackrule.md`.

@@ -4,36 +4,28 @@ campaign: shattered-sea
 kind: region
 region: Crown Islands
 visibility: dm
-tags: [location, crown-islands, naval]
+tags: [location, crown-islands, naval, dravosi-crown]
 ---
 # Harwick
 > [!narration] Narration
-> Harwick is the second-largest Crown Island: a southwest bight of Ship-of-the-Line anchorage, Yard walls, and a market wharf under timber hills. Shipbuilding and army orders sound over the eastern marsh. The wharf is walkable; the water off it is not for swimming.
-
+> _Visualizer: Crown ingest pending._
 
 ## At a glance
-The second-largest Crown Island and the army place: a southwest bight, shipyard, hilltop Admiralty, and licensed timber hills; feels disciplined, timber-scented, and dangerous at the wharf.
+The army island of the [[Dravosi Crown]], named from the old *hær-wīc*, where the Naval Yard, Admiralty, Harwick Town, and the Bight make a fortified machine of deep water.
 
-## Aspects
-`naval anchorage, licensed timber, marsh bypass`
+## The Yard and Admiralty
+The Naval Yard occupies the sheltered southwest Bight: dry docks cut into rock, covered slipways, timber, pitch, and cordage. It has built every class of Crown warship for six generations. The Admiralty sits behind the same walls and controls patrol orders, charts, commissions, and sealed orders. Nothing past the Yard gate opens without Admiralty say-so.
 
-## Senses
-- Ship-of-the-Line anchorage, Yard walls, market wharf, timber hills, and eastern marsh.
-- Shipbuilding, army orders, and marsh birds.
-- Timber, pitch, salt, and marsh.
+## The Bight and town
+The Bight is the largest anchorage in the Scatter that will take a ship of the line. Harwick Town fills the eastern edge with chandlers, rope-makers, tar, lodging, drink, and the naval rating pool's barracks. The northern coast takes open swell; eastern marsh channels offer small craft a way around the Yard's entry points. Hunter sharks work the slipway scraps. No Harwick sailor swims off the wharf.
 
 ## Who is here
-- The Admiralty and Naval Yard.
-- Harwick Town workers.
-- Wolves in older stands; nobody swims off the wharf.
+Naval ratings, officers, shipwrights, Admiralty staff, civilians who service the fleet, fishing hamlets, and the Crown's fleet command. [[HCS Sovereign]] and [[HCS Ordinance]] were built here.
 
 ## Connections
-- → [[Crown Islands]] · [[Calven and Calveno]] · [[Aldenmere]] · [[Central Strait]]
-
-## Hooks
-- Move through the Yard wall and market wharf.
-- Use the eastern marsh route around the Yard gates.
-- Learn why older timber stands remain uncut.
+- → [[Crown Islands]] · [[Calven and Calveno]] · [[Aldenmere]] · [[Central Strait]] · [[Outer Reach]]
 
 ## Secrets (DM)
-The Yard has built Crown warships for six generations. Exact officers, garrison, and marsh route remain open.
+Sealed orders can move a captain, company, or vessel without a civic petition. The Admiralty and [[Governor Voss]]'s civic authority are deliberately separate systems.
+
+**Provenance:** Dump source 2026-09-05; legacy `/Users/nick/shattered-sea/wiki/shattered-sea/region-harwick.md`.

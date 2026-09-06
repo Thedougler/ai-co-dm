@@ -7,16 +7,13 @@ tags: [index, faction]
 ---
 # Factions
 - [[Dravosi Crown]] · [[Tessarine Concordat]] · [[Khlysty / the Flock]] · [[Waveservants]]
-- [[Passage]] · [[Sentinels of the Eyrie]] · [[Countless]]
-- [[Grung clans]] · [[Rattkin Runs and Black-Jaw Run]] · [[Antheri]]
-- [[Tangle]] · [[Umberlee]]
-- Related lore: [[Sentinel Schism]] · [[Soul Incarnate]]
-- Grung lore: [[Grung Color and the Sealing Rite]] · [[Grung and the Making of Aruhe]] · [[Vethka]]
+- [[Passage]] · [[Sentinels of the Eyrie]] · [[Countless]] · [[Grung clans]]
+- [[Rattkin Runs and Black-Jaw Run]] · [[Antheri]] · [[Tangle]] · [[Umberlee]]
 
-## Drowned Maw ingest
-- [[Antheri]] · [[Sunkline]] · [[Voyvode]] · [[Waveservants]] · [[Sentinels of the Eyrie]]
-- [[Tessarine Concordat]] · [[Chain Council]] · [[Umberlee]]
+## Crown ingest
+- [[Dravosi Crown]] — colonial naval polity, Tyr court law, fleet, Crown Islands, and secret bloodline founder.
+- [[Tessarine Concordat]] — light rivalry refresh: Crown inspects; Concordat invoices.
+- Related: [[Aldric Drave]] · [[Aleksander Malone]] · [[Simone]]
 
-## Umberlee / Waveservants ingest
-- [[Umberlee]] — sea deity, tribute theology, Maw boundary, Tithe, and collection hull.
-- [[Waveservants]] — neutral same-rate harbour clergy and tribute network.
+## Related lore
+- [[Sentinel Schism]] · [[Soul Incarnate]] · [[Grung Color and the Sealing Rite]] · [[Grung and the Making of Aruhe]] · [[Vethka]]

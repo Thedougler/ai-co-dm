@@ -4,35 +4,25 @@ campaign: shattered-sea
 kind: region
 region: between Crown Islands
 visibility: dm
-tags: [location, reef, crown-islands]
+tags: [location, reef, crown-islands, secret-arrangement]
 ---
 # Greyteeth
 > [!narration] Narration
-> Greyteeth are long pale reef ridges breaking the surface between the Crown Islands. Surf hits stone where northern swell runs open. Pilot boats work the breaks when a hull needs a priced path through.
-
+> _Visualizer: Crown ingest pending._
 
 ## At a glance
-Long pale reef ridges breaking the surface between Crown Islands; feels chart-hostile and deliberately used.
+Long pale reef ridges breaking the surface between the Crown Islands; three generations of charts have failed to make them ordinary water.
 
-## Aspects
-`broken charts, pilot price, blue-dragon cover`
+## Arrangement (fiction only)
+An adult blue dragon works the northern Greyteeth. Captains who fly the right flags and keep an open chest on deck survive runs that Crown ledgers file as wrecks. This is a fictional in-world arrangement, not a real-world claim or a dragon mechanics brief.
 
-## Senses
-- Pale ridges, reef breaks, and open northern swell.
-- Surf on stone and warning calls.
-- Salt, wet reef, and fish.
+## Keep unresolved
+The dragon's name, exact flags, chest contents, route, and agreement remain unnamed. Local pilots are still necessary; shore control does not make the reefs safe.
 
 ## Who is here
-- Local pilots.
-- An adult blue dragon using the reefs as cover.
-- Captains flying the right flags and leaving an open chest.
+Local pilots, Crown patrols, pirates using the distress-signal gap, and captains trying to decide whether a wreck was navigation failure or protected passage.
 
 ## Connections
-- → [[Crown Islands]] · [[Central Strait]] · [[Stenmark]]
+- → [[Crown Islands]] · [[Central Strait]] · [[Stenmark]] · [[Dravosi Crown]]
 
-## Hooks
-- Pay for a route through the ridges.
-- Decide whether a wreck is navigation failure or a protected passage.
-
-## Secrets (DM)
-The Crown does not put the dragon arrangement in writing; exact flags, tribute, and routes remain unconfirmed.
+**Provenance:** Dump source 2026-09-05; legacy `/Users/nick/shattered-sea/wiki/shattered-sea/region-crown-islands.md`.

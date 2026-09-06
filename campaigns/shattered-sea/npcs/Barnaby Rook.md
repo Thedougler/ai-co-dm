@@ -2,37 +2,23 @@
 type: npc
 campaign: shattered-sea
 status: alive
-role: rival
-location: Saltwright
-faction: Dravosi Crown
+role: privateer / bureaucratic instrument
+location: Tidefall / sea
+faction: [[Dravosi Crown]]
 visibility: dm
-tags: [npc]
+tags: [npc, crown, privateer, rook]
 ---
 # Barnaby Rook
-
-## Art
-![[attachments/shattered-sea/portraits/barnaby-rook-portrait.webp]]
-
 > [!narration] Narration
-> _Visualizer: standalone portrait pending._
->
-## Hook
-Enforce Dravosi Crown interests at sea after leading the boarding party that hit [[Saltwright]].
-## Look / voice
-- **Visual:** Crown boarding gear is a safe reversible cue; exact appearance is unknown.
-- **Behavior:** Boards, searches, and uses authority before offering terms.
-- **Voice principle:** Command-first, procedural, and brief.
-- **Sample line:** “By Crown authority, make the deck easy to inspect.”
-## Want / leverage / limit
-- **Want:** Secure Crown interests and control the Saltwright incident’s consequences.
-- **Leverage:** Dravosi authority, a boarding party, and fleet backing.
-- **Limit:** He cannot make a contested boarding disappear if witnesses and Passage contacts compare accounts.
-## Public vs secret
-Public Crown officer; private orders and personal motive are unknown.
+> _Visualizer: Crown ingest pending._
+
+## Function
+A hard privateer and bureaucratic tool working the Tidefall shakedown. His papers look official and read vague. He boards, searches, and uses authority before offering terms.
+
+## Founder blindness
+Rook served the bureaucracy [[Aldric Drave]] built and never learned Aldric's name. The public service does not know its founder; Rook's ignorance is evidence of the archive's success, not evidence that Aldric is absent.
+
 ## Relationships
-[[Saltwright]], [[Beaumont Sel]], [[Geoffrey Draves]], [[Dravosi Crown]], and the crew.
-## Next move / if ignored
-Press the Crown’s claim through maritime authority; exact next action is unknown.
-## Appearances
-- [[campaigns/shattered-sea/story/00 Story so far]]
-- [[Saltwright]]
+[[Dravosi Crown]] · [[Geoffrey Draves]] · [[Saltwright]] · [[Rupert Knighton]] · [[Aldric Drave]] (unknown to Rook)
+
+**Provenance:** Dump source 2026-09-05; legacy `/Users/nick/shattered-sea/wiki/shattered-sea/boarding-of-the-surety/npc-barnaby-rook.md`, `/Users/nick/shattered-sea/wiki/shattered-sea/boarding-of-the-surety/event-taking-of-the-surety.md`, `/Users/nick/shattered-sea/wiki/shattered-sea/boarding-of-the-surety/situation-crown-search.md`.
