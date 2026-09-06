@@ -1,7 +1,7 @@
 ---
 type: location
 campaign: 
-kind: # site | settlement | region | dungeon | planar | vehicle
+kind: # site | settlement | region | dungeon | planar
 region: 
 visibility: dm
 tags: [location]

@@ -14,6 +14,7 @@ Copy one (or Obsidian Templates → folder `templates/`). One note per entity. E
 - [[templates/PC]]
 - [[templates/NPC]]
 - [[templates/Location]]
+- [[templates/Vehicle]]
 - [[templates/Faction]]
 - [[templates/Quest]]
 
