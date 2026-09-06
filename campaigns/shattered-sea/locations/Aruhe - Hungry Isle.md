@@ -30,9 +30,11 @@ A country-scale island in the eastern Midchain: roughly 500 miles end-to-end and
 - **Signatures:** a jagged reef rim with one boat gap; ancient terraces and extreme fruit; silence or converging life where a claim is made.
 
 ## Current situation
-- The new geography is authoritative: Aruhe is country-scale, old volcanic, and eastern Midchain; its western side comes near [[Karath]] at one edge across a channel about half a mile wide at its closest.
-- The cold open remains canon: a purple Grung and wolfrabbits are present, but this ingest does not detail the Grung.
-- [[Nona Black-Jaw]] has asked [[Perrin Black-Jaw]] to survey Aruhe as a [[Tangle]] anchor. The landing is not yet a confirmed party landing.
+- [[Uncertainty]] is at/around Aruhe and remains mobile rather than anchoring in.
+- Two Aruhe survivors are aboard. They report roughly 100–150 people came off the raid ships, most are dead, the island is taking the rest, fruit and island stuff kill people, open-water fishing seemed safer, and Grung are specifically marked.
+- A landing party found terraces, wolfrabbits, black lotus, spore plants, dangerous caterpillars, blood and skulls at fruit sites, and at least six dead near taking-places.
+- Jean-Claude killed a spore plant; an invisible [[Great Crown Squid]] rose from the canopy, cut Delmar, and tried to pull people in. Illusion and flight got the party back over the terraces. The squid stopped at the tree line.
+- Inland survivors remain inland. The wreck field and taking-places are active survey pressure, not a resolved rescue.
 
 ## Aspects
 `reef-rimmed nation, abundance with a boundary, niches in balance`

@@ -33,11 +33,12 @@ Swashbuckling, charm under pressure, crew drama, and the hard choice between giv
 - [[The Duchess]] — named musket.
 - [[The Baroness]] — named rapier.
 - [[Delmar's Blunderbuss]] — Catarina-enchanted blunderbuss.
+- [[Lamarae’s Fang]] — whip-shark-bone blade received from Catarina after the Ordinance encounter.
 - Borrowed [[Flying Boots]], passed to him by Perrin.
 - [[Pearl of Souls]] — the captains prison and the Umberlee debt.
 
 ## Session deltas
-The brass flagon snaps Delmar back when a captains voice runs too long. Voice bleed can grey his hair and make him answer to the wrong name. His scarlet admiral coat remains a role he puts on when the crew needs an admiral.
+The brass flagon snaps Delmar back when a captains voice runs too long. Voice bleed can grey his hair and make him answer to the wrong name. His scarlet admiral coat remains a role he puts on when the crew needs an admiral. The Great Crown Squid cut him at Aruhe; Crissdalynn’s illusion and flight got him back over the terraces.
 
 > [!secret]- DM anchors
 > Delmar's full name is Delmar Atticus Fisk. The five captains are Rael Corven, Maren, Detto Kalash, Sienne Orre, and Bastian Ookage; the current vault page keeps their individual wants unresolved. Serafina does not know about the voices. Legacy provenance for the name, wife, named weapons, and voice pressure: /Users/nick/shattered-sea/wiki/shattered-sea/pc.delmar-fisk.md.

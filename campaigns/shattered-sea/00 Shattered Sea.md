@@ -19,12 +19,12 @@ In 1495 DR, the crew works a roughly 60,000-square-mile archipelago south of Chu
 - Safety / lines: unknown
 - House tone: [[lexicon/House tone]]
 ## Current arc
-**Season 2: Midchain sandbox → [[Sparhold]] → [[Aruhe - Hungry Isle]].** The crew travels aboard [[Uncertainty]] with open routes, faction obligations, and live ways to change which pressure reaches them first.
+**Season 2: at/around [[Aruhe - Hungry Isle]].** The crew is aboard mobile [[Uncertainty]] after the first chosen stop of [[Sparhold]]; the wreck field, Aruhe survivors, taking-places, and crown squid now set the immediate pressure.
 ## Pressure
 Active [[campaigns/shattered-sea/fronts/00 Fronts|fronts]]:
 - [[Maw fissure and the tribute system]] — tribute and the Pearl may be holding the fissure shut.
-- [[The taken 314]] — the Grung fleet’s 314+ taken people and the Crown’s response.
-- [[Long Sight Hunt]] — Countless watchers hunt Fate Spinner carriers.
+- [[The taken 314]] — the Grung fleet’s 314+ taken people, the Aruhe dead, and the Crown’s response.
+- [[Long Sight Hunt]] — Countless watchers and Vantyrus pursue Fate Spinner carriers.
 - [[Rule of Two]] — Skarn and Vantyrus turn the schism inward, with Crissdalynn in the crossfire.
 - [[Schism's Third Name]] — Kyzil mistakes Osset for a third actor; Osset = Vantyrus.
 - [[Countless through the Maw seal]] — Vantyrus seeks the Soul Incarnate transformation technique.
@@ -50,5 +50,5 @@ Open [[campaigns/shattered-sea/quests/00 Quests|quests]]:
 - Hazards: [[campaigns/shattered-sea/hazards/00 Hazards]]
 ## Open clocks / fronts
 - Every harbor’s tribute may be helping hold the [[Drowned Maw]] fissure shut; rates, forms, currents, and the Pearl can move this clock.
-- The Grung raiding fleet has taken 314+ fighting-age people; the trail points toward [[Sparhold]] while Crown protection can become occupation.
-- The [[Sentinel Schism]] has split record from duty; [[Talon Vantyrus]] and [[Countless]] are probing the seal through [[Crissdalynn Khinriss]].
+- The Grung raiding fleet has taken 314+ fighting-age people; the wreck field is the live Season 2 job, while the Karath captive pipeline remains south of Aruhe.
+- The [[Sentinel Schism]] has split record from duty; [[Talon Vantyrus]] and [[Countless]] are probing the seal through [[Crissdalynn Khinriss]] and the Fate Spinner.

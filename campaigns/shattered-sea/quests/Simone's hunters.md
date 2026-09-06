@@ -7,7 +7,7 @@ tags: [quest, grung, simone, jean-claude]
 ---
 # Simone's hunters
 ## Current status
-Open. Simone's hunters are closing on [[Jean-Claude Tabarnack]]; the cargo, the report, the Dravosi sale, and the missing Karath toxin all remain actionable.
+Open. [[Simone]]'s hunters still close on [[Jean-Claude Tabarnack]] while the crew is at Aruhe. The cargo, report, Dravosi sale, and missing Karath toxin remain actionable; the wreck field may expose more of the same pipeline.
 
 ## Patron
 None; the pressure follows the crew.
@@ -23,6 +23,7 @@ Simone is a compact purple officer with stalled partial gold. She sells clan tox
 - [[Simone]]: Sorn officer, sister, toxin seller, and hunter
 - [[Sorn]]: guarded beach and Botukuri farm heart
 - [[Karath]]: absent toxin supply and pipeline lead
+- [[Aruhe - Hungry Isle]]: current wreck field and survivor lead
 - [[Uncertainty]]: crew vessel and cargo
 - [[Grung clans]]: caste, sealing rite, censure, and hierarchy
 
@@ -43,4 +44,4 @@ Simone is a compact purple officer with stalled partial gold. She sells clan tox
 - A choice about exposing or preserving the report.
 
 ## Linked
-[[The taken 314]] · [[Grung clans]] · [[Karath]] · [[Jean-Claude Tabarnack]]
+[[The taken 314]] · [[Grung clans]] · [[Karath]] · [[Jean-Claude Tabarnack]] · [[Aruhe - Hungry Isle]]

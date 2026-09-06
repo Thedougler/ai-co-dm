@@ -37,7 +37,7 @@ Find out who or what has been talking since the [[Vestra]] sank, and whether tha
 - Pact blade and voice — fiction-facing liabilities, not new mechanics.
 
 ## Session deltas
-A contact once put Perrin inside a sixty-foot body and said “Grow.” He renamed the prize cutter [[Uncertainty]] after that. When he dropped to zero under Calveno, the patron spoke and he got up different. He has not told Nona the whole of it.
+A contact once put Perrin inside a sixty-foot body and said “Grow.” He renamed the prize cutter [[Uncertainty]] after that. When he dropped to zero under Calveno, the patron spoke and he got up different. He has not told Nona the whole of it. He is now at Aruhe with the survey obligation active, after a landing party was driven back by the canopy’s crown squid.
 
 > [!secret]- DM anchors
 > Auralis is a handle, not a solved identity or stat block. Perrin does not know whether it sank the Vestra, saved him, or was only present; he does not know why it would need him. Keep Nona's Aruhe survey as an obligation while the real spotlight remains Auralis/Vestra. Legacy provenance for the Vestra, Auralis pact, Uncertainty renaming, and Aruhe obligation: /Users/nick/shattered-sea/wiki/shattered-sea/pc.perrin-black-jaw.md.

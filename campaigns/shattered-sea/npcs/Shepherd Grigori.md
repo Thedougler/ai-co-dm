@@ -13,7 +13,10 @@ tags: [npc]
 > [!narration] Narration
 > Shepherd Grigori is a quiet passenger and healer, known by the bread and herbs he carries. When he works, red light can shine from his wrist.
 ## Hook
-Stay free long enough to reach a port where the galley rule can release him, while the Crown’s accusation and Hound of Tyr hunt remain active.
+Stay free long enough to reach a port where the galley rule can release him, while the Crown’s accusation, the Hound of Tyr, and Vantyrus’s competing hunt remain active.
+
+## Last session delta
+Grigori warned that [[Talon Vantyrus]] had sent a ship for [[Crissdalynn Khinriss]]’s [[Fate Spinner]], tied that hunt to the Osset schism, named Delmar’s Umberlee curse, and asked the crew to hurt [[Corbin Knighton]] without killing or breaking him; nobody accepted the bargain.
 ## Identity and public function
 Quiet passenger and healer aboard [[Uncertainty]]; the Crown blames him for Surety’s destruction. His nature is **UNKNOWN**.
 ## Look / voice

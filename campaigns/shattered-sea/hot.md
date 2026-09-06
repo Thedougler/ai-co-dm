@@ -10,17 +10,16 @@ visibility: dm
 **Boot here.** One page. Do not ls-walk the campaign. qmd for anything not listed.
 
 ## Now
-- Arc: Midchain sandbox → [[Sparhold]] → [[Aruhe - Hungry Isle]] (aboard [[Uncertainty]])
-- Hub: [[campaigns/shattered-sea/00 Shattered Sea]]
-- Story: [[campaigns/shattered-sea/story/00 Story so far]]
+- **Arc:** Crew at/around [[Aruhe - Hungry Isle]] aboard mobile [[Uncertainty]]. Sparhold was the first chosen stop and may be passed or remain a parallel lead.
+- **Hub:** [[campaigns/shattered-sea/00 Shattered Sea]]
+- **Story:** [[campaigns/shattered-sea/story/00 Story so far]]
 
 ## Live pressure
-- [[Maw fissure and the tribute system]]
-- [[The taken 314]]
-- [[Long Sight Hunt]]
-- [[Rule of Two]]
-- [[Schism's Third Name]]
-- [[Countless through the Maw seal]]
+- [[Survey Aruhe as a Tangle anchor]] — inland survivors, taking-places, and the crown squid at the tree line.
+- [[Pursue the Grung raiding fleet]] — the hurricane wreck field is this season's live job; Karath holds the bulk of the taken south.
+- [[The taken 314]] — 314+ missing; Aruhe confirms the raid's lethal island edge while the captive pipeline remains unresolved.
+- [[Grigori and the Crown hunt]] — Corbin and Malone are in Calveno with a story to test and a hunt for Grigori.
+- [[Long Sight Hunt]] · [[Rule of Two]] · [[Schism's Third Name]] · [[Countless through the Maw seal]]
 
 ## Dormant pressure
 - [[Soul Incarnate's Watch]] — triggers if Crissdalynn completes the Maw pilgrimage.
