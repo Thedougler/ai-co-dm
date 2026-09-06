@@ -46,6 +46,10 @@ Obsidian LLM wiki for Nick's home D&D. **Markdown is the product.**
 
 ## Skills (progressive)
 
+**Two roots:**
+- `.agent/skills/` — vault / D&D fleet skills (this table’s default path).
+- `.agents/skills/` — Matt Pocock process skills (grill, domain-modeling, TDD, etc.). Load when the job matches; do not confuse with `.agent/skills/`.
+
 **Always-on:** this table + `obsidian-markdown` for every wiki `.md` write. **On match:** that skill’s `SKILL.md` only. **On demand:** `references/` when the skill says.
 
 `session-wrapup` / `campaign-qa`: AntTheLimey/gm-apprentice (CC-BY-SA). `wiki-triage` / `llm-wiki-eval`: po4yka-llm-wiki-skills (MIT). `wiki-crystallize` / `wiki-integrate`: vanillaflava (MIT). `defuddle`: kepano adapt — see skill. See each skill’s attribution block.
@@ -72,6 +76,9 @@ Obsidian LLM wiki for Nick's home D&D. **Markdown is the product.**
 | Session pacing | `session-beats` |
 | Post-session durable log + surgical canon | `session-wrapup` → **Co-DM** / **Session-Planner** (complements `session-transcript-ingest`) |
 | Canon / graph QA | `campaign-qa` → **Co-DM** / **Session-Planner** / **Organizer** (hygiene stays `wiki-lint`) |
+| Design grill / stress-test a plan | `.agents/skills/grilling` (entry: `grill-me`) → **Session-Planner** / **Co-DM** / designers — **default** before locking a session plan or big design |
+| Grill + write glossary / ADRs as you go | `.agents/skills/grill-with-docs` (= grilling + domain-modeling) |
+| Domain model / terminology / ADR sharpening | `.agents/skills/domain-modeling` → **Co-DM** / **Organizer** / **Session-Planner** — prefer `lexicon/` + AGENTS `type` enum for campaign language; eng-style `CONTEXT.md`/`docs/adr/` only if Nick asks |
 | Places | `place-design` |
 | Dungeons | `dungeon-design` |
 | NPCs | `npc-design` |
@@ -102,7 +109,7 @@ Rules:
 | Bot | Owns |
 |---|---|
 | **Co-DM** | Continuity, prep/log, vault canon, rulings |
-| **Session-Planner** | User-facing session plan + design grill; packets specialists to scaffold prep/build content (not mid-session Co-DM; not TotM/homebrew/ingest) |
+| **Session-Planner** | User-facing session plan + design grill; **default** `.agents/skills/grilling` (`grill-me`) before locking a plan; use `grill-with-docs` / `domain-modeling` when sharpening terms; packets specialists to scaffold prep/build (not mid-session Co-DM; not TotM/homebrew/ingest) |
 | **Visualizer** | TotM / `[!narration]` write only (incl. rewrite after Skill-Creator clears a failed block) |
 | **Writing-Evaluator** | Audit player-facing TotM / read-aloud; on **fail**, packet improvement advice → **Skill-Creator** |
 | **Skill-Creator** | `.agent/skills/`; on Evaluator fail: implement TotM fix, **delete failed `[!narration]`**, ping **Visualizer** to rewrite, Evaluator re-audits |
@@ -132,7 +139,8 @@ Do not skip Skill-Creator and have Visualizer patch prose ad hoc after a fail.
 | `campaigns/<id>/hot.md` | Boot “now” |
 | `campaigns/` · `templates/` · `lexicon/` · `inbox/` · `attachments/` | Wiki (Obsidian: new notes → inbox, embeds → attachments) |
 | `.obsidian/` | Human vault config + Statblocks/Leaflet (ignore workspace) |
-| `.agent/skills/` | Procedures |
+| `.agent/skills/` | Vault / D&D fleet procedures |
+| `.agents/skills/` | Matt Pocock process skills (grill, domain-modeling, …) — not qmd `skills` collection |
 | `scripts/after-write` · `scripts/qmd` · `scripts/lint-statblocks` · `scripts/lint-obsidian-markdown` · `scripts/lint-fat-notes` | Agent CLI |
 | `docs/agents/` | Eng triage — skip for table work |
 
