@@ -104,7 +104,7 @@ This repo is an **Obsidian prose wiki**, not an application codebase. Prefer vau
 | Player-facing post-session recap | `session-recap` → **Co-DM** / **Session-Planner** (after `session-wrapup`) |
 | Presence/elaboration pass | `flesh-out` → **Co-DM** (DM facts before TotM) |
 | Borrowed-POV session opener | `cold-opens` → **Visualizer** (borrowed-POV prose); plan → **Session-Planner** |
-| One-session DM run guide | `run-guide` → **Session-Planner** (L0+L1 dashboard + chrono cards); **Co-DM** L2 only — never dual L0/L1 packets on same paths |
+| One-session DM run guide | `run-guide` → **Session-Planner** (cockpit: Glance + live cards with embeds); **Co-DM** L2 only — never dual L0/L1 packets on same paths |
 | Conservative wikilink repair | `cross-linker` → **Organizer** (link hygiene); lint assist → **Linter** |
 | Thread-driven journey legs | `travel-events` → **Co-DM** / **Session-Planner** |
 | Encounter prep (combat/social/exploration/hybrid) | `encounter-prep` → **Co-DM** / **Session-Planner**; monster math → **Monster-Brewer** |

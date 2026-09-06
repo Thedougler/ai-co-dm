@@ -6,8 +6,9 @@ Skips hubs (`00 …`) and `templates/`.
 
 Statuses:
   ok                          — ```statblock is first body content after frontmatter
+                                (optional `## Statblock` heading immediately above the fence)
   prose_not_fantasy_statblock — house/prose AC·HP block without ```statblock (fail)
-  statblock_not_first         — has ```statblock but something precedes it (fail)
+  statblock_not_first         — has ```statblock but something else precedes it (fail)
   missing_statblock           — no fence and no prose block (stub / pending; warn)
 
 Exit 1 if any prose_not_fantasy_statblock (use --strict to also fail on missing).
@@ -27,6 +28,7 @@ from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
 STATBLOCK_FENCE = re.compile(r"^```statblock\b", re.I | re.M)
+STATBLOCK_HEADING = re.compile(r"^##\s+Statblock\s*$", re.I)
 TYPE_MONSTER = re.compile(r"^type:\s*monster\s*$", re.I | re.M)
 
 PROSE_MARKERS = [
@@ -71,11 +73,17 @@ def classify(text: str) -> str:
             return "prose_not_fantasy_statblock"
         return "missing_statblock"
     body = body_after_frontmatter(text).lstrip("\n")
-    # First non-empty line must open a ```statblock fence
-    first = next((ln for ln in body.splitlines() if ln.strip()), "")
-    if not STATBLOCK_FENCE.match(first):
+    nonempty = [ln for ln in body.splitlines() if ln.strip()]
+    if not nonempty:
+        return "missing_statblock"
+    first = nonempty[0]
+    if STATBLOCK_FENCE.match(first):
+        return "ok"
+    if STATBLOCK_HEADING.match(first):
+        if len(nonempty) > 1 and STATBLOCK_FENCE.match(nonempty[1]):
+            return "ok"
         return "statblock_not_first"
-    return "ok"
+    return "statblock_not_first"
 
 
 def main() -> int:

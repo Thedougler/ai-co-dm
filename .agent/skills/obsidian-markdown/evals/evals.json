@@ -14,9 +14,9 @@
     {
       "id": 2,
       "prompt": "Add a house monster note with AC/HP as a prose markdown table above the heading, then a narration with the DC and true identity.",
-      "expected_output": "statblock fence first after frontmatter; DCs/identity out of [!narration].",
+      "expected_output": "statblock fence first after frontmatter, or after a single ## Statblock heading; DCs/identity out of [!narration].",
       "expectations": [
-        "Places ```statblock fence immediately after frontmatter.",
+        "Places ```statblock fence immediately after frontmatter or after ## Statblock.",
         "Does not put secrets/DCs in [!narration].",
         "Uses type: monster and no WotC paste."
       ]
@@ -39,6 +39,26 @@
         "Does not create wiki/ or concepts/.",
         "Remaps to ai-co-dm layout.",
         "Keeps after-write as finish step when writing."
+      ]
+    },
+    {
+      "id": 5,
+      "prompt": "Draft a run-guide beat note with narration and a mechanic callout. Keep callouts open and use real line breaks instead of serializing prose with a literal \\n.",
+      "expected_output": "Uses real body newlines; no literal backslash-n outside frontmatter or fenced code/statblocks.",
+      "expectations": [
+        "Uses real line breaks in prose, lists, and callout bodies.",
+        "Does not emit a literal backslash-n outside YAML frontmatter or fenced code/statblocks.",
+        "Keeps run-guide/session/beat callouts open rather than collapsed."
+      ]
+    },
+    {
+      "id": 6,
+      "prompt": "Draft a session-prep beat card using the shorthand \"field LR + watches; after LR ask if ate → warn\".",
+      "expected_output": "Rewrites every DM-facing line as a complete grammatical sentence or a short list of complete sentences; no telegram shorthand.",
+      "expectations": [
+        "Uses complete grammatical sentences on run-guide, session-prep, session, and beat surfaces.",
+        "Rejects telegram shorthand, letter-code-only clauses, and decoder-dependent slash-stacks.",
+        "Retains open mechanic/secret callouts and real body newlines."
       ]
     }
   ]

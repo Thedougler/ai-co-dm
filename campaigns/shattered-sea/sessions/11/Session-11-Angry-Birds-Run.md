@@ -11,64 +11,88 @@ cssclasses: [session-surface]
 
 # Session 11 — Run
 
-Plan: [[Session-11-Angry-Birds]]. This file is the table walk. Owners stay on their pages.
-
 ## L0 · Glance
 
-- **Stakes:** Leave the hunt and land in the first river valley, or stay in the air and take hits.
-- **Strong start:** Mid-air over [[Old Gardens]], still at the height of the [[Great Crown Squid]].
-- **Active pressure:** An adult [[Bloodhawk]] and her young are already stooping. The squid is the chosen prey.
-- **Limelight:** [[Crissdalynn Khinriss]] is on the wing. [[Delmar Fisk]] in the [[Flying Boots]] is the other magnet.
-- **Parachute:** Go quiet and drop into the grass and river of [[Grasslands - River Valleys]].
-
-**Silence:** Present the stoop, ask what they do, then wait. If they stay silent, the hawk follows the squid down through this air and anyone still high takes the next hit.
+- **Stakes:** Leave the hunt and land in the first river valley, or stay in this air and take hits.
+- **Goal / exit:** A quiet drop into grass and moving water. This is not a fight to the death.
+- **Danger:** An adult bloodhawk is already stooping. Time spent high, loud, or obvious costs hits.
+- **Silence:** Present the stoop, ask what they do, then wait. If they freeze, tick the clock.
+- **Situation magnets:** Anyone still at squid height and visible. Anyone in flying boots who stays high. Anyone who attacks, flares, or screams.
 
 ## Now
 
-The crew is still in the air over the old terraces. The squid is ahead in the last trees. A charcoal hawk is dropping out of the sun with her young. The first stoop is already going at the squid.
+The crew is still in the air over the old terraces, at the height of the squid. The squid is ahead in the last trees. A charcoal hawk and her young are already dropping out of the sun. The first stoop is at the squid.
 
 > [!narration] Narration
-> The old terrace woods and mangroves still lie under them, thin coastal cover at the same height they held when they left the squid. Ahead, a long dark mantle pulls through the last of the trees, glass-pale where the sun hits it, thick arms taking separate crowns. A moving bar of dark runs across that floor. Out of the sun a charcoal hawk drops, wings eighty feet across and pinning tight, crimson-black flight feathers, shaggy red nape, cream hook of a beak, talons as big as a rowboat. Her young hold the same line behind her. The first stoop goes at the squid they have not left yet.
+> The old terrace woods and mangroves still lie under them, thin coastal cover at the same height they held when they left the squid. Ahead, a long dark mantle pulls through the last of the trees, glass-pale where the sun hits it, thick arms taking separate crowns. A moving bar of dark runs across that floor. Out of the sun a charcoal hawk drops, wings eighty feet across and pinning tight, crimson-black flight feathers, shaggy red nape, cream hook of a beak, talons as big as a rowboat. Her head never turns from that mantle. Her young hold the same line behind her. The first stoop goes at the squid they have not left yet.
 
-## Scene menu
+> [!question] Ask
+> What do you do?
 
-- **Live:** Bloodhawk stoop over the terrace line. The exit is a landing in moving water and tall grass.
-- Later cards stay on [[Session-11-Angry-Birds]] until they are written here.
+## Be ready for
 
-## 1. Bloodhawk stoop — [[Bloodhawk]]
+| Intent | Approach | DC | Success | Partial | Failure |
+| --- | --- | --- | --- | --- | --- |
+| Escape the hunt | Dive quiet into canopy or grass | Dexterity (Stealth) DC 14, or no roll if they enter a no-stoop band this round | They land under cover. She stays on the squid. | They drop after one pass. | They stay visible. Tick the clock. |
+| Save or distract the squid | Attack, flare, noise, or spell | The attack roll, or Charisma (Intimidation) DC 16 to pull her eye | She redirects for one tick. | A young stoops at the noisy flier. | The adult grabs the loudest airborne target. |
+| Reach beach or ship | Fast exposed flight toward [[Uncertainty]] | Dexterity (Acrobatics) DC 14 to stay low enough | They arrive hurt or scattered. The hunt still crosses that air. | One hit on each exposed flier. | Grab or a forced landing short of the beach. |
+| Hide in canopy or grass | Break line of sight and stay down | Dexterity (Stealth) DC 14 | She cannot stoop. The clock stops. | A rough landing. Someone is prone or separated. | Lost gear or position. Still in the stoop lane. |
 
-**Now:** The crew shares the air with the squid and the stooping hawks over [[Old Gardens]].
-**Say/show:** The charcoal hawk is already dropping. The first stoop is at the squid, not yet at them.
-**Ask/offer:** They can go quiet and drop away from both animals, stay glued to the squid, hit the hawk, fly toward the young, or force a line toward the beach and [[Uncertainty]].
-**Opposition/pressure:** The adult is hunting the squid. Time in the air costs hits. An obvious flier draws a stoop.
-**Resolve:** This is not a fight to the death. A quiet drop lands them. An attack or a cling lets her take a character if she can.
-**On success/partial/failure:** Quiet drop: they land and she stays on the squid. Partial: they drop after taking a pass. Failure: she grabs a character (Talon Grab, then Haul Aloft).
-**If ignored:** She follows the squid down. Anyone still high stays in the hunt.
-**Move on to:** They hit moving water and tall grass in the first river valley. Off-ramp: a forced line to the beach still crosses her hunt.
+Unforeseen intents use the same want: she is hunting the squid. Rule from zones, the clock, and whether the approach puts someone high, loud, or on the squid.
 
-### Run now
+> [!mechanic] Threat clock
+> One tick is one round anyone remains high, loud, or in the open. Advance on a freeze, a failed check, or a choice to stay airborne.
+>
+> | Tick | What happens |
+> | --- | --- |
+> | 1 | The adult stoops at the squid. The crew can see cover below. |
+> | 2 | The two young stoop at exposed fliers or at anyone who just attacked. |
+> | 3 | The adult makes Talon Grab against the loudest or highest target. |
+> | 4 | If anyone is still airborne and obvious, they are grabbed, scattered, or crash-landed. |
 
-#### Immediate
-- The adult [[Bloodhawk]] and her young are already in the stoop.
-- The [[Great Crown Squid]] is still ahead in the last trees.
-- Thin coastal woods, mangroves, and old terrace stone sit below them, then the first grass-and-river valley.
-- The beach and [[Uncertainty]] still share this air if anyone forces a line that way.
+### Zones
 
-#### Hidden
+| Band | What is there | Moves / cover |
+| --- | --- | --- |
+| High air | Squid height. The stoop lane. | One dive move reaches canopy line. |
+| Canopy line | Last trees. The squid is here. | Thin cover. She still stoops if you stay on top. |
+| Terrace woods | Old gardens, mangroves, stone. | One more move down. |
+| Grass and river | First river valley. Eight-foot grass. Moving water. | **No-stoop.** Quiet drop ends the hunt for anyone who stays here. |
+| Beach line | Still this air, toward the ship. | Exposed. Crossing it keeps you in the hunt. |
+
+### Round script
+
+- **R1:** The adult hits the squid. The two young shadow her line.
+- **R2:** The young stoop at exposed fliers or at whoever just made themselves a problem.
+- **R3:** The adult grabs the biggest or loudest airborne target (Talon Grab, then Haul Aloft).
+- **Bloodied:** She releases a humanoid problem and climbs for the cloud line.
+- **Cover reached:** She will not stoop closed canopy or eight-foot grass. The young follow her off anyone who stays down.
+- **Minions:** Two young, one pressure group. They hit what she flushes or what rises. If a player targets one, it is a real bird: one solid hit scatters that young; they are not a second boss.
+
+### Roster
+
+![[Bloodhawk#Statblock]]
+
+![[Bloodhawk#At the table]]
+
+- **Scene dials:** Easy: Multiattack only, no Canopy Dive recharge. She will not stoop closed canopy or eight-foot grass. Bloodied: stop grabbing, climb.
+- **Young:** Two birds, same no-stoop rule, no separate fence.
+
+The squid is fleeing through the last trees, not fighting the party unless someone stays glued to it.
+
+![[Great Crown Squid#Statblock]]
+
+Anyone in the boots who stays high is an obvious airborne target.
+
+![[Flying Boots]]
+
 > [!secret] DM truth
-> The adult is hunting the squid. The young are learning the stoop and will hit whatever she flushes. The crew is not the chosen meal unless they make themselves one. She will follow the squid down. She will also take a character who draws that attention. She does not care about the beach, the ship, or the rest of the night.
+> The adult is hunting the squid. The crew is not the chosen meal unless they make themselves one.
 
-#### Run
-> [!mechanic] Procedure
-> This is not a fight to the death with either animal. If they go quiet and drop away from both animals, they land and the hawk stays on the squid. If they attack the hawk or stay glued to the squid, she takes a character if she can (Talon Grab, then Haul Aloft). If they force a line back to the beach, she still hunts the squid across that air and hits anyone who stays in it. Time in the air costs hits. Use the easy dial on [[Bloodhawk]] (Multiattack only, no Dive recharge) unless they keep hanging in the open after the first pass.
+> [!success] Landing
+> They hit moving water and tall grass in the first river valley of [[Grasslands - River Valleys]]. Everyone who dropped is wet. Anyone who failed a landing check is prone. The group is together unless a grab succeeded; a grabbed character is missing until the hawk releases or they escape. The squid is crashing on through the last trees, not in this grass. The hawks stay on the squid unless someone is still high. [[Uncertainty]] and the beach are behind the terrace line, not in sight from the bowl unless someone looks back up.
+^landing
 
-#### If violence starts
-She opens on the squid. The young hit whatever the parent flushes. The opening tell is wings pinning and crimson tips flashing. She will not stoop closed canopy or eight-foot grass. When bloodied, she stops grabbing and climbs for the cloud line.
+## Backup
 
-#### If ignored
-She follows the squid down through this air. Anyone still high stays in the hunt.
-
-### DM reference
-- [[Bloodhawk]] · [[Great Crown Squid]] · [[Old Gardens]] · [[Grasslands - River Valleys]]
-- [[Crissdalynn Khinriss]] · [[Delmar Fisk]] · [[Flying Boots]] · [[Uncertainty]]
-- Plan: [[Session-11-Angry-Birds]]
+[[Old Gardens]] · [[Grasslands - River Valleys]] · [[Uncertainty]] · [[Session-11-Angry-Birds]]

@@ -1,97 +1,107 @@
 ---
 name: run-guide
 description: >-
-  Assemble a table-ready, DM-only running guide for one session or adventure from existing
-  session prep, beats, fronts, and owner pages. Use for "run tonight", "build a run guide",
-  or a session-prep document that is hard to scan. Not beat composition, canon invention,
-  player-facing prose craft, or session reconciliation.
+  Assemble a table-ready, DM-only cockpit for one session or one 30-minute beat
+  from existing prep and owner pages. Use for "run tonight", "build a run guide",
+  or a session-prep document that is hard to scan. Not beat composition, canon
+  invention, player-facing prose craft, or session reconciliation.
 ---
 
 # Run Guide
 
-Build one control panel the DM can run from without hunting through the vault. The guide is a
-renderer: canonical facts remain on their owner pages, while the guide supplies the walk through
-those facts. A missing owner or missing prep is a diagnostic, not permission to invent canon.
+Build one **cockpit** the DM can run from Reading view without hunting the vault
+and without maintaining a second copy of monster math. Owners stay canon.
+Combat and item numbers **embed**. Scene procedure (clock, zones, tells, landing)
+is written here. A missing owner is a diagnostic, not permission to invent canon.
 
-## Contract
-
-A finished guide opens with a one-screen dashboard; covers one playable session (normally 3–5
-hours) in no more than 5–7 scene cards; keeps cards self-contained at the table; offers a menu
-of world states and pressures rather than a plotted sequence; separates DM-only facts from
-player-facing narration; and ends with reference material, surprise procedure, and unused
-possibilities.
+**Sole-authority:** a tired DM at minute 90 can run this slice without opening
+another note. A bare `[[Bloodhawk]]` with no embed fails. Copied AC/HP tables fail.
 
 ## Workflow
 
-1. **Ground.** Read `campaigns/<campaign>/hot.md`, the relevant note from `templates/Session prep.md`,
-   the latest session log, and only the linked active fronts, quests, NPCs, places, encounters,
-   items, and PCs needed to interpret tonight. Use `qmd-retrieval`; do not read the whole campaign.
-2. **Diagnose.** Inventory every beat and named entity. Mark each `ready`, `missing owner`,
-   `missing prep`, or `proposal`; invoke the owning skill instead of inventing canon. Choose 2–3
-   threads and vary register across social, exploration, danger, revelation, and aftermath.
-3. **Dashboard.** Put current state, stakes, strong start, active pressure strip, overdue spotlight
-   PC attached to a real pressure, optional clock/day tracker, and quick roster first. No dashboard
-   image.
-4. **Map.** Order 5–7 cards by likely play and label edges as world states (for example, “the gate
-   is open”), never as required player decisions. Keep unused possibilities and exits last.
-5. **Write cards.** Use one H2 per node and the card below; drop empty sections.
+1. **Ground.** Read `hot.md`, tonight's session prep, the latest log, and only
+   the linked owners needed to interpret this slice. `qmd-retrieval`. Completion:
+   every named actor, place, and item has an owner path or is marked unknown.
 
-```markdown
-## N. Title — [[owner|source]]
-**When:** world-state that makes this node live
-**Pressure:** what is already in motion
-**Stakes:** what changes if engaged or ignored
-**PC connection:** named PC and specific thread, tension, or resource
-> [!narration] Narration
-> Only what the table can perceive now; read or adapt.
-### Immediate
-- actors, exits, objects, clues, and choices available now
-### Hidden
-> [!secret]- DM truth, trigger, and how it can surface
-### Run
-- one consequential check/procedure: trigger, DC/source, success, failure, fail-forward
-### If violence starts
-- opening behavior, terrain, morale, retreat, and opposition goal
-### If ignored
-- one-step independent movement of the pressure
-**Move on when:** a state changes → [[next-owner|next card]]
-```
+2. **Diagnose.** Mark each beat `ready`, `missing owner`, `missing prep`, or
+   `proposal`. Missing stock → owning skill (`encounter-prep`, `session-beats`,
+   `theatre-of-the-mind`). Choose live beats. Completion: no invented canon.
 
-6. **Gate.** Use `theatre-of-the-mind` for every spoken change of place, first sight, or changed
-   object; use `obsidian-markdown` for links/callouts; inline only compact rules or stat lines and
-   link the owner for depth. Verify every card has pressure, actionable surface, PC connection,
-   consequence, and a usable next state.
+3. **Write one cockpit per live beat** in play order (below). Delete empty
+   sections. One opposition want, said once. Completion: every field that this
+   slice will use is present; nothing is restated later as a second framework.
 
-## Handoffs and exclusions
+4. **Table gate.** Reading view shows Glance, narration, Ask, Be ready for,
+   clock, zones, round script, **embeds**, landing. Silence is on the dashboard.
+   Completion: no click-away to fight; no dual Now/Run-now card; no Scene menu
+   on a 30-minute card; no copied stat numbers.
 
-`session-beats` owns missing beats/charts; `encounter-prep` owns reusable or complex encounters;
-`visual-aids` owns approved images; `theatre-of-the-mind` owns player-facing prose;
-`session-transcript-ingest` and `reconciling-session-evidence` own post-play evidence. Do not
-create a second canon copy, move Campaign Now, write player decisions/feelings, add any live table tooling
-unrelated live table tooling, or turn a multi-session arc into one guide.
+5. **File.** `obsidian-markdown` (wikilinks, open callouts, `session-surface`,
+   real newlines). TotM for `[!narration]`. `./scripts/after-write` on named paths.
 
-Finish vault writes with `./scripts/after-write "add run guide"`; a failed after-write means the
-write is not complete.
+## Cockpit (the only card)
 
-## GM-prep gates
+Frontmatter: `type: session-prep` (or `encounter`), `cssclasses: [session-surface]`,
+`visibility: dm`.
 
-Build the guide from a 30-40 minute prep ritual, not a plot: review PC goals and
-abilities, attach at least one limelight opportunity per PC, choose a strong start
-from the cliffhanger or agreed plan, bank roughly ten floating secrets/clues, list
-hiccups, and keep a parachute file of off-map one-shots. Render only the
-skeleton needed to run tonight. Every item should be modular and recoverable in
-under 30 seconds; if it is not needed at the table, leave it on the owner page.
+| Order | Field | Shape |
+|---|---|---|
+| 1 | **Glance** | `## L0 · Glance` bullets: stakes, goal, exit, danger, Silence, **situation magnets** (airborne and visible, spectacle). Not a named-PC roster. |
+| 2 | **Now** | One paragraph. Current situation once. |
+| 3 | **Read aloud** | Open `> [!narration] Narration`. Three **tells** as perceivable facts. |
+| 4 | **Ask** | `> [!question] Ask` — “What do you do?” Then wait. |
+| 5 | **Be ready for** | Table: intent \| approach (skill) \| DC \| success \| partial \| failure. DM-private. Not a menu to read. |
+| 6 | **Threat clock** | Table inside open `> [!mechanic] Threat clock`. Name the tick (round / hesitation / exposed flier). 3–4 ticks. |
+| 7 | **Zones** | Table: band \| what’s there \| moves to cover / no-stoop. |
+| 8 | **Round script** | Bullets: R1 position, R2 escape/pressure, R3 explode or grab; bloodied; cover-reached; minions. |
+| 9 | **Roster embeds** | `![[Monster#Statblock]]` and item headings. Scene dials as bullets beside the embed. |
+| 10 | **Landing payload** | Open `> [!success] Landing` plus `^landing` so the next card can `![[this-note#^landing]]`. |
+| 11 | **Backup** | Extra wikilinks only. Combat owners already embedded. |
 
-## Table-craft gates
+One open `> [!secret] DM truth` for the opposition want. No-stoop, bloodied, and
+morale sit as bullets next to the embed.
 
-Add a **silence protocol** to the dashboard: present one concrete situation and
-public stakes, ask what the players do, then wait. Do not fill a lull with NPC
-monologue or a new beat. If the party stays silent, advance only a visible,
-independent pressure and show the consequence of inaction. Preserve a limelight
-opening for each PC rather than assigning one player the whole scene.
+**Ask vs Be ready for.** Describe the situation, ask, wait. Anticipated intents
+live in the table so unforeseen approaches can still be ruled from want + zones
++ clock (intention / approach).
 
-For a huge decision, state the stakes and consequence before the roll; use an
-open roll when that matches the table's established convention. The audit is:
-spotlight players; silence when they should drive; use PC backstory rails and
-public stakes; honor tone and cinematic-but-safe framing; and give every choice
-or silence an echo.
+**Tells.** Any conclusion the table must be able to reach gets three independent
+visible tells in narration or Now (Three Clue Rule).
+
+**Landing.** Wet, prone, separated, hidden, damage, sight of ship, where the
+opposition goes — the next scene’s opening state, not a place name.
+
+## Embed roster
+
+- Tight heading embed: `![[Bloodhawk#Statblock]]`. Optional `![[Bloodhawk#At the table]]` for tactic/tell.
+- Item limits: `![[Flying Boots#Charges / limits]]` or the whole note when that note is already short.
+- Do not `![[Bloodhawk]]` the full ecology essay.
+- Do not copy AC, HP, +hit, damage, or grab DCs onto the run card.
+- Scene-only dials (easy Multiattack, young count, this slice’s no-stoop) are bullets beside the embed.
+- If the owner lacks `## Statblock`, add that heading above the fence on the owner (no math rewrite), then embed.
+
+`theatre-of-the-mind` owns narration. `obsidian-markdown` owns embed syntax and
+open callouts. This skill owns field order.
+
+## Whole-session branch
+
+When rendering a **full** 3–5 hour night (not a single 30-minute beat), open with
+Glance for the first live card, then 5–7 cockpits in likely-play order. Put a
+floating secrets bank, parachute, and treasure **after** the live cards, as
+bullets that link owners — not a second card schema. Still no densify/WIP dump.
+Still no Scene menu that is only prep-management.
+
+## Handoffs
+
+`session-beats` owns missing beat charts. `encounter-prep` owns reusable encounter
+stock (clock, zones, round script, embed targets). TotM owns player-facing prose.
+Do not invent canon, copy owner essays, or write player decisions.
+
+Finish with `./scripts/after-write "add run guide" -- path1 [path2…]`.
+
+## Attribution
+
+Cockpit order and sole-authority: Colville prep; Arcane Library (write for the DM).
+Intention/approach: Angry GM; Alexandrian *Art of Rulings*. Round script: Colville
+action-oriented monsters via Sly Flourish (CC BY-NC). Tells: Alexandrian Three
+Clue Rule. Zones: Runehammer. Strong start / silence: Lazy DM. No WotC paste.

@@ -64,7 +64,7 @@ Do not spawn copy-writer for ops, ingest, or math.
 2. **Choose band + surface.** L0 glance / L1 at the table / L2 deep / `[!narration]` / handout. Load:
    - `.agent/skills/obsidian-markdown/SKILL.md` on every vault write
    - `.agent/skills/theatre-of-the-mind/SKILL.md` when text crosses the player boundary
-   - `.agent/skills/run-guide/SKILL.md` only when filling a run card (keep the schema; write the words)
+   - `.agent/skills/run-guide/SKILL.md` when filling a run card (write the **cockpit**; roster is `![[Note#Statblock]]`, never a copied AC/HP table or a dual Now/Run-now card)
    - `qmd-retrieval` for facts
    Completion: one band and one surface named before drafting.
 
@@ -81,7 +81,7 @@ Match `docs/obsidian-presentation.md` and the note's template. Delete unused sec
 | Band | Copy job | Length |
 |---|---|---|
 | **L0 · At a glance** | What is this *now*? Hook, identity, Look/voice, `[!narration]` | Complete sentences for a five-second glance. Enough to improv. |
-| **L1 · At the table** | What to run, say, or choose | Complete grammatical sentences. Scannable bold heads. Enough to run without filling gaps. |
+| **L1 · At the table** | What to run, say, or choose | Complete grammatical sentences. Scannable bold heads. Run cards use the **cockpit** (Glance → Ask → Be ready for → clock → zones → embeds → landing). |
 | **L2 · Deep** | Bank: relationships, resources, clue *content* | Usable facts. Not a biography since birth. Not a room-by-room novel. |
 | **`[!narration]` / boxed** | Seen-in-a-glance; player-safe | TotM: flowing spoken block. Item/creature cold portraits ~three connected sentences. Typical read-aloud 50–70 words. |
 
@@ -112,9 +112,9 @@ Dynamic elements that may have moved live in DM text unless current table state 
 - **Location / vehicle:** *This* place, not the concept of a lake. Playable aspects. Senses. Sequenced keys.
 - **Faction:** Public mask, concrete method, one tell a bystander could notice. L1 = how they operate now.
 - **Quest / front:** Stakes, clock, visible sign, consequence if ignored — complete sentences.
-- **Item / monster:** Drawable fiction. Numbers stay in the statblock / identified layer.
+- **Item / monster:** Drawable fiction. Numbers stay on the owner. Run cards **embed** `![[Name#Statblock]]` or the item's limits heading; scene dials are bullets beside the embed.
 - **Lore:** One concrete manifestation a DM can put on the table.
-- **Session / recap:** Play-made truths + tonight's handle. Recaps in past tense.
+- **Session / recap / run card:** Play-made truths + tonight's handle. Recaps in past tense. Run cards: **Ask** “What do you do?”, **Be ready for** table (not a player menu), situation magnets (not a named-PC roster), landing payload. One current-situation paragraph. Three **tells** in narration for any conclusion the table must reach.
 
 House tone (`lexicon/House tone.md`): **deadly, political, weird** in that order. Attach the strange to a noun and a consequence.
 
@@ -124,7 +124,7 @@ House tone (`lexicon/House tone.md`): **deadly, political, weird** in that order
 - Missing **stock** (NPC design, place kernel, encounter math) → owning craft skill; write copy only after stock exists.
 - **Monster / item math** → Monster-Brewer / Item-Brewer / Homebrewer.
 - **MOCs, indexes, hot structure** → Organizer.
-- **Run-guide L0/L1 schema** → Session-Planner; you fill words inside that schema.
+- **Run-guide cockpit** → Session-Planner owns schema; you fill words, callouts, tables, and embeds inside it.
 - TotM fail loop unchanged: Writing-Evaluator → Skill-Creator → Visualizer.
 
 ## Attribution

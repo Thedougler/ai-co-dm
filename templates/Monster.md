@@ -8,6 +8,8 @@ visibility: dm
 tags: [monster]
 ---
 
+## Statblock
+
 ```statblock
 name: {{name}}
 size: Medium
@@ -29,26 +31,39 @@ actions:
 
 # {{name}}
 
+## L0 · At a glance
+
 > [!narration] Narration
 > _Creature first look or cold species portrait. Theatre of the mind (Creature)._
 >
-## At the table
-One-line tactic + tell (what players notice before math).
 
-## Role / dials
-How to use as easy / hard / horde. What to cut when bloodied.
+### At the table
 
-## Signature moves
-2–4 verbs. Paraphrase; no copyrighted block text.
+One-line tactic and tell (what players notice before math).
 
-## Terrain / allies
+## L1 · At the table
+
+### Role / dials
+
+How to use as easy, hard, or horde. What to cut when bloodied.
+
+### Signature moves
+
+Two to four verbs. Paraphrase; no copyrighted block text.
+
+## L2 · Deep
+
+### Terrain / allies
+
 Where it shines; common allies.
 
-## Loot / aftermath
+### Loot / aftermath
+
 - 
 
-## Do not
-- Paste Monster Manual / proprietary stat blocks
-- Put anything before the `statblock` fence (it must be first after frontmatter)
-- Write house math as prose `**AC**` / `**Armor Class**` tables — use the fence (`./scripts/lint-statblocks`)
-- Novel ecology essays unless the table needs them (put deep lore in [[Lore]])
+## Constraints
+
+- Do not paste Monster Manual or proprietary stat blocks.
+- Put nothing before the `statblock` fence (it must be first after frontmatter).
+- Do not write house math as prose `**AC**` tables — use the fence (`./scripts/lint-statblocks`).
+- Novel ecology essays belong in [[Lore]] unless the table needs them here.

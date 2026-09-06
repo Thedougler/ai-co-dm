@@ -50,19 +50,20 @@ clock is only suspense when players can perceive and influence its direction.
 
 ## Output
 
-Use `templates/Encounter.md` for reusable notes; inline this structure in session prep/run guides
-for one-time scenes:
+Use `templates/Encounter.md` for reusable notes. A session-only scene that will be
+run tonight is a **cockpit** (`run-guide`); emit the stock that cockpit inlines:
 
 1. **Brief:** who, where, why now, visible pressure and fuse.
-2. **Roster:** existing statblock links, roles, tactics, morale, and retreat/negotiation thresholds;
-   route new creatures to `homebrew-monsters-5e`.
-3. **Terrain:** 2–3 actionable features available to more than one side.
-4. **Opening/escalation:** what opposition does before and after engagement; show the fuse advancing on delay.
-5. **Pressure valve:** party weakness that creates tension without removing agency.
-6. **Advantage window:** party strength that can matter if noticed or exploited.
-7. **Resolution:** checks/DC source, information, success, failure, and fail-forward.
-8. **Stakes:** specific durable changes for broad outcomes.
-9. **If ignored/bypassed:** one-step independent consequence.
+2. **Roster embeds:** `![[Monster#Statblock]]` targets, roles, morale/retreat thresholds;
+   route new creatures to `homebrew-monsters-5e`. Do not copy AC/HP onto the encounter
+   card and do not leave a bare `[[Monster]]` as the only combat reference.
+3. **Zones:** 3–5 named bands (not a grid); moves to cover; features both sides can use.
+4. **Threat clock:** named tick; 3–4 ticks; what opposition does if the party delays.
+5. **Round script:** R1 position, R2 escape/pressure, R3 explode or grab; bloodied; cover-reached; minion line.
+6. **Tells:** three independent player-visible clues for any conclusion the table must reach.
+7. **Be ready for:** likely intents with approach, DC, success/partial/failure — not a menu to read aloud.
+8. **Landing payload:** the next scene’s opening state (bodies, wet, separated, where opposition goes).
+9. **If ignored:** one-step independent consequence (also tick 1 of the clock).
 
 For combat compare action economy, burst/sustained damage, control, terrain, escape, and party
 resources against the actual group. Cite the current public rules source or approved benchmark;
@@ -85,9 +86,9 @@ structure. Finish writes with `./scripts/after-write "add encounter procedure"`.
 
 For a session-only encounter, include at least one possible limelight angle per
 PC when the fiction supports it, a strong/purposeful entry from the current
-cliffhanger or agreed plan, and a short hiccup/fallback note. Keep the encounter
-as modular situation cards findable in under 30 seconds; do not script a sequence
-of player choices. Secrets remain DM-only and out of `[!narration]`.
+cliffhanger or agreed plan, and a short hiccup/fallback note. Keep the encounter as a modular cockpit findable in under 30 seconds; do not
+script a sequence of player choices. Secrets remain DM-only and out of
+`[!narration]`. Hand the finished scene to `run-guide` for field order and OFM.
 
 ## Public-stakes roll gate
 
