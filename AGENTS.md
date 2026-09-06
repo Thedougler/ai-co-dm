@@ -55,6 +55,10 @@ Obsidian LLM wiki for Nick's home D&D. **Markdown is the product.**
 | LLM-wiki pattern / doctrine | `llm-wiki` |
 | Ingest source → typed notes | `wiki-ingest` → **Ingest** |
 | Wiki health / orphans / hot drift | `wiki-lint` → **Linter** |
+| Citation / claim audit (one note) | `wiki-audit` → **Organizer** / **Linter** |
+| Merge / split dupes + fix links/indexes | `wiki-merge` → **Organizer** |
+| Stale / contradiction sweep | `wiki-update` → **Organizer** / **Co-DM** (confirm-before-write) |
+| Answer from vault (qmd; optional file-back) | `wiki-query` → **Co-DM** / **Organizer** |
 | Player-facing prose / `[!narration]` | `theatre-of-the-mind` → **Visualizer** |
 | Audit player-facing TotM / read-aloud | **Writing-Evaluator** (critique only) |
 | TotM fail → skill fix → rewrite loop | Evaluator fail → **Skill-Creator** → **Visualizer** → Evaluator again |
