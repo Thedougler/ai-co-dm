@@ -386,6 +386,17 @@
       "prompt": "Using Yssenmoor public facts, write cold location `[!narration]` with no table state. The parent supports quartz spin and ordinary ground; the duck miracle `has died and reformed` is Secrets/DM only.",
       "expected_output": "Pass with quartz spin tied to ordinary ground; fail any miracle/lore closer. The duck claim stays in Secrets/DM.",
       "expectations": ["Uses quartz spin and ordinary ground as drawable public facts.", "Rejects the duck has died and reformed and any lore miracle in cold narration.", "Stops on stable geography or a usable affordance."]
+    },
+    {
+      "id": 42,
+      "prompt": "Rewrite this failed Razer-Grass cold `[!narration]` using the hazard parent: `The valley turns winter-white. Waist-high stalks glitter — but the glitter does not move with the wind. No frost on your breath.` The parent establishes discrete waist-high colonies, opaline glass armor, contact cuts, fixed sparkles, old blood on lower blades, and a glassy tinkle in wind. No table state is supplied.",
+      "expected_output": "A passing cold hazard portrait makes the waist-high Razer-Grass patch the subject in about three connected sentences, with drawable opaline/glass stalks and a cut-ready edge plus one positive sensory or Detection signal. It does not use a valley camera, italic wrapper, em dash, frost riddle, or mood-by-negation, and stops before contact, Shatter, Glass Bloom, or aftermath.",
+      "expectations": [
+        "Makes the hazard body or patch the grammatical and attentional subject rather than opening on an invented valley camera or treating it as a place spine.",
+        "Includes positive, drawable glass or opaline material and hard/cut-ready stalk details; fixed sparkle, a glassy tinkle, or old blood may supply the sensory telegraph.",
+        "Fails `no frost`, `does not move with the wind`, `rather than glitter`, em dash punctuation, and italic underscore wrapping; positive glass/cut telegraph must carry the picture.",
+        "Keeps creature Hookline/Reel contact film, exact mechanics, Shatter, Glass Bloom, and scripted aftermath out of the cold narration."
+      ]
     }
   ]
 }

@@ -95,6 +95,26 @@ renders geography. Examples teach moves, not sentence architecture to echo.
 
 Cold-place sweep bans: never use the rigid definition -> smell hang-over -> use/closer formula. Do not close on a thesis (treated as a border), leak Aspects/secrets (charts get wrong, Hunger/free-flow ownership), or use opaque caste/jargon nouns (Purple watch, Unknown-quarry stone). Darts, a blue watcher, and similar staged hostility require current table state unless the parent explicitly establishes stable public ecology without encounter film. A dual-title note must publicly render both halves or be retitled. Keep vehicle access kitchen-table (lines, rail, hold), never boarding interface in player prose. Keep lore miracles such as the duck has died and reformed in Secrets/DM. The cold spine is already this place plus body-scale geography and a drawable affordance, and it stops on stable geography.
 
+**Hard mode gate for hazard notes (`[!narration]` on a hazard page):** if no
+current table state is supplied, write a **standalone cold hazard portrait**.
+The hazard body or patch is the grammatical and attentional subject. Do not
+route it through the creature contract (no Hookline/Reel-style contact film)
+or the place contract (no invented valley camera and no lake/terrain spine).
+Usually use about three connected sentences to make the patch drawable: form
+and scale, positive material or construction, and one positive sensory or
+physical warning. Glass, opaline faces, hard edges, cut-ready stalks, a
+tinkle, fixed sparkle, or established blood are the kind of concrete
+telegraph that earns space; choose only facts the parent supports. A public or
+earned Detection fact may feed Appearance when it is perceivable, but DCs,
+private mechanics, and hidden causes stay out.
+
+Hazard cold narration must not use frost riddles or mood-by-negation (`no frost`,
+`does not move with the wind`, `rather than glitter`), an em dash, an italic
+underscore wrapper, or a sweeping landscape camera. Stop at the visible
+hazard and its player-facing affordance or danger. Do not narrate resolved
+contact, Shatter, Glass Bloom, or a scripted aftermath; those belong to the
+table state or mechanic layer.
+
 
 **Hard mode gate for technique notes (`kind: technique` or technique tags):** if
 the request is filling or rewriting `[!narration]` on a technique note and no

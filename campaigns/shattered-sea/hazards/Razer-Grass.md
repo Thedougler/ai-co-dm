@@ -9,7 +9,6 @@ tags: [hazard, aruhe]
 # Razer-Grass
 
 > [!narration] Narration
-> _The valley turns winter-white. Waist-high stalks glitter — but the glitter doesn't move with the wind. No frost on your breath._
 
 ## At the table
 Grass armored in opaline glass. Contact cuts. Breaking is worse. Fire is the wrong answer.
