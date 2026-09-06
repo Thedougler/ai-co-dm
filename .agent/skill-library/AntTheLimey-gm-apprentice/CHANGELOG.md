@@ -1,0 +1,3379 @@
+# Changelog
+
+All notable changes to this project will be documented in this file.
+
+The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/),
+and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
+
+---
+
+## [1.9.5] — 2026-09-03
+
+### Added
+
+- **Standard Session Wrap-Up template.** Wrap-ups now have a canonical
+  structure — `skills/shared/templates/session-wrap.md`, provisioned into
+  vaults as `_Templates/_Template_Session_WrapUp.md` — synthesized from 42
+  wrap-ups across three long-running campaign vaults. Two player-facing
+  sections (`## Narrative Recap`, lifted by the publish tool as the
+  session's site recap, and the optional `## Memorable Moments`), then one
+  `## GM Notes` H2 wrapped in a single `<!-- gm-only -->` fence holding
+  every Keeper-facing subsection: PC Carry-Forward (per-PC
+  `#### [[Name]] (Player)` blocks with labelled bullets), What Carries
+  Forward, World State (fixed save-state labels), Keeper Checklist,
+  conditional Name Conflicts / Cross-Entity Claims / World Fact Findings,
+  Quality Notes, and a new Handoff to session-prep. Frontmatter gains
+  `session_number`, `play_date`, `in_game_date`, `source_document`, and
+  `reconciled` (stamped by reconcile at promotion, so an AUTHORITATIVE
+  wrap-up that never went through review is detectable). Reconcile now
+  also records a Promotion list (every entity moved DRAFT→AUTHORITATIVE)
+  in Reconciliation Context.
+- **campaign-qa Wrap-Up Conformance check**
+  (`references/checks/wrapup-conformance.md`, run from Graph Health and
+  Full Audit): finds frontmatter drift, Keeper-facing sections sitting at
+  `##` outside `## GM Notes` (which can publish to player sites), missing
+  gm-only fences, and filename drift — all repairs content-preserving and
+  routed through the fix-or-dismiss workflow.
+- **Migration 1.9.4 → 1.9.5**: normalizes existing wrap-up frontmatter,
+  re-nests Keeper-facing sibling H2s under `## GM Notes` (extending the
+  1.8.52 Reconciliation Context repair), and fences the block; body-format
+  harmonization stays opt-in via the new QA check.
+
+### Changed
+
+- `session-prep/references/session-templates.md` and
+  `shared/session-document-chain.md` now defer to the shared template as
+  the single wrap-up spec (the two previously documented divergent
+  structures); session-wrapup's Handoff Contract adds Memorable Moments,
+  Name Conflicts, Cross-Entity Claims, and Handoff to session-prep rows,
+  and Quick Bullets becomes optional. session-prep reads the new
+  `### Handoff to session-prep` first when gathering last-session context,
+  and `in_game_dates` on wrap-ups is registered as a deprecated rename.
+
+---
+
+## [1.9.4] — 2026-08-30
+
+### Fixed
+
+- **GURPS physical description leads the sheet instead of hiding mid-column
+  (#187).** `parseSenses` read the `### Appearance & Social` sub-table in
+  preference to `### Senses`, so height, weight, build, hair, eyes, skin and
+  handedness shipped under the heading "Senses & Checks", buried in one of the
+  two masonry columns — and any real Senses table was shadowed. The sub-table
+  now parses into its own identity model and renders as a full-width band above
+  the two-column flow, recognised keys first, sheet-specific extras (Race,
+  Nationality, …) following in source order; `parseSenses` is narrowed to
+  `Senses` / `Senses & Checks` / `Senses and Checks`. Applies to every GURPS
+  sheet, PCs and NPCs. Every recognised identity sub-table merges into the band
+  (not just the first found), a plain `appearance:` string joins it instead of
+  silently shadowing an `identity:` map, table columns beyond the second are
+  kept, a header-less senses table no longer loses its first row, a
+  `Sense | Check` header is not stored as a sense, and numeric `0` /
+  `false` identity values render instead of being dropped as blank.
+- **GURPS table cells are no longer double-escaped (#188).** Cell text was
+  pulled out of already-rendered HTML with its entities intact, then correctly
+  escaped again at render — so a height of `6'2"` shipped as `6’2&quot;`, and
+  any cell with `" & ' < >` (weapon notes, equipment names, skill specialties)
+  showed literal entity text. Entities are decoded at the parse boundary so
+  escaping happens once, at render; every interpolation in the GURPS blocks was
+  audited to confirm that single-escape invariant (the local review round also
+  caught — and reverted — a double-escape the audit itself had introduced on
+  the load-out heading). The decoder rejects lone-surrogate code points and
+  resolves only its own named entities, so `&constructor;` and friends stay
+  literal.
+- **Banner clicks reach the banner image (#183).** `.hero-banner-overlay`
+  stacked above `.hero-banner-img` with no `pointer-events` rule, swallowing
+  every click over the title area — the lightbox never opened exactly where a
+  reader clicks, and on a short `cover`-cropped banner the lightbox is the only
+  way to see a wide map at all. The overlay is now out of hit-testing, with
+  interactive children (links, buttons, inputs) restored.
+- **`mobrpg sync` no longer pushes mangled image embeds (#184).** The push
+  rewrite had no notion of the `!` embed prefix, so `![[map.png]]` became the
+  literal `!map.png` and `![[map.svg|697]]` became `!697` (an embed's pipe is a
+  display width, not an alias) — junk text filed into the world owner's review
+  queue under the collaborator's name. Embeds are dropped at the push boundary
+  (they reference vault attachments with no upstream counterpart), and a new
+  `sync --show-body` flag prints each push's exact outgoing markdown so the dry
+  run can be inspected without reconstructing the payload by hand.
+- **A guessed location routing is no longer learned back as canon (#182).**
+  `map init`/`map sync` learned location bindings from `determined` blocks that
+  the tool itself had written from its own routing guess, making a wrong route
+  self-confirming forever. Learning now requires the block to agree with the
+  node's `element_kind`, and — when live listings are available — with the
+  linked element's actual upstream kind. `adopt` also checks the sibling
+  location kind before reporting "no live match": an exact-named element of the
+  other kind is reported as its own `kind mismatch` outcome naming the
+  `locationRouting` entry to fix, instead of being buried among vault-only
+  notes. A failed live listing degrades learning to the agreement gate with a
+  warning instead of silently discarding every ratified binding, `map sync`
+  notes any canon binding it replaces, and `adopt` treats a failed sibling
+  listing as the error it is rather than reporting a false "no live match".
+- **`link-orphans` fills the empty `parent_location:` scalar when it writes a
+  `part_of` edge (#186)**, so an import groups correctly on the published
+  site's location index instead of only in the graph. Every empty YAML spelling
+  is filled, the Optional key is inserted when absent, an authored value is
+  never touched — and an authored value that disagrees with the new edge is
+  surfaced in the report instead of silently shipping split. Only the opening
+  frontmatter block is read or written, so a body line starting with
+  `parent_location:` is never mistaken for the scalar.
+
+### Changed
+
+- **`mobrpg write` refuses to overwrite existing vault notes (#186).** It had
+  no existence check, no `--execute` gate, and no dry-run — any note whose path
+  matched an entity in the extract was replaced wholesale, hand-authored prose
+  and `## GM Notes` included, while the docs grouped it with the reassuring
+  "only ever write local vault files" set. Existing notes are now skipped and
+  counted, `--overwrite` restores the old behaviour explicitly, entities of
+  kinds `write` cannot map are counted instead of dropped without a trace,
+  filename collisions (distinct names slugging to one file) are reported
+  instead of silently losing a record, and
+  the README and `llms.txt` spell out the danger, note that `images` is
+  pull-only (#185), and document exactly which fields `link-orphans` populates.
+
+---
+
+## [1.9.3] — 2026-08-28
+
+### Fixed
+
+- **A change-request reply no longer self-destructs after ten minutes (#176).**
+  Finalized inbox entries were stored with a 300s/600s KV TTL, so an answer
+  written while the player had put the phone down was deleted before it was
+  read — and a missing key was reported as `handled`, indistinguishable from an
+  answered one, so the widget dropped the request in silence. Handled entries now
+  linger 24h and replies 7 days; a missing or unreadable entry reports
+  `status: gone`, which the widget surfaces to the player as "expired — please
+  send it again" instead of nothing. `inbox reply` (and `handled`/`flag`) now
+  report the outcome of their own write and exit 1 when nothing was written,
+  and inbox commands run outside the site directory fail naming the missing
+  `wrangler.toml` rather than tracing.
+- **GURPS sheet sections are no longer dropped silently (#177).** Section
+  headings match loosely (case, punctuation, `&`/`and`), and a combined
+  `## Melee & Ranged` (or `## Weapons`) section feeds both the melee and ranged
+  tables, each routed by its own header row — previously it matched nothing and
+  the combat tab rendered empty. The build now warns per page when a
+  weapons-titled section yields no rows, when a Skills/Techniques/Spells section
+  is present but empty, and when tables under a `###` subheading were excluded
+  from those sections (naming the subheading), so an unrendered table is a
+  five-second heading fix instead of a mid-combat mystery.
+- **`gm-publish flush --help` prints help instead of flushing (#178).** Every
+  subcommand now honours `--help`/`-h` with no side effects, `flush` and the
+  `setup-*` commands reject unknown arguments with usage and exit 1 rather than
+  falling through to execution, and `flush --dry-run` (`-n`) prints the same
+  per-PC `✓ Name — HP 10→13` lines without writing.
+- **`mobrpg suggest` no longer 400s a whole batch on an already-claimed create,
+  and `--write-back` stamps only what the server accepted (#179).** Before
+  building batches it checks the live world for net-new entities that already
+  exist upstream without a `mobrpg:` node, holds them, and points at
+  `mobrpg adopt`; a bare HTTP 400 now carries the same hint. With `--execute
+  --write-back`, pending nodes are written per batch after the POST succeeds and
+  never for externalRefs the server refused, so a failed batch no longer leaves
+  its entities marked `pending` and unsubmittable.
+- **`stamp_entities.py` preserves the vault's `asOfSession` shape (#180).**
+  `--session` is a free string written verbatim — a bare number stays bare, a
+  label such as `"Chapter 4, Session 9"` is quoted — and a file whose existing
+  value has the other shape is refused (with an `ERROR` line) unless
+  `--force-shape`, so a wrap-up stamp can no longer flatten a label vault to
+  bare integers and drop the chapter. session-wrapup Step 3c and
+  `vault-access.md` now say so.
+
+---
+
+## [1.9.2] — 2026-08-23
+
+### Fixed
+
+- **An `advice` or `rejected` change-request reply is no longer invisible to the
+  player (#174).** Only an `applied` reply reloaded the page, so a player whose
+  widget had collapsed never learned an answer had arrived — one re-submitted the
+  same question 90 seconds later, then found the reply only by refreshing and
+  opening the History modal by hand. A reply now surfaces three ways, any one of
+  which survives a player who submitted and looked away: an unread badge on the
+  💬 History button (with `aria-live` and an `aria-label` count), the widget
+  re-expanded with the reply inline (truncated past 240 characters, pointing at
+  History for the rest), and an unread marker in the document title. Opening the
+  log is what marks replies read; log entries written before this change carry no
+  `read` flag and deliberately count as unread.
+
+---
+
+## [1.9.1] — 2026-08-23
+
+### Fixed
+
+- **`mobrpg suggest` no longer ships unescaped vault text inside the reified-Event
+  blurb.** The one-line description on a reified relationship Event is one of the
+  two descriptions the CLI hand-builds as HTML (the other is the empty-description
+  stub); it interpolated a vault-authored `description:` straight into `<p>…</p>`
+  with no escaping. An edge described as `Ran the docks & bar` shipped an undefined
+  HTML entity, and anything angle-bracketed was swallowed as a tag by the renderer.
+  The text is now escaped before interpolation.
+
+---
+
+## [1.9.0] — 2026-07-26
+
+Graduates the mobRPG integration CLI (`tools/mobrpg/`) into the repo as a
+**fully native** Python `mobrpg` command: every verb is a native subcommand
+sharing one stdlib-only client — there is no shell-out fallback layer and no
+prototype scripts left in the package. The centrepiece is a new
+last-writer-wins (LWW) sync model that reconciles a linked note's description
+prose with its mobRPG element from timestamps alone — no content hashes, no
+frozen baselines, no three-way merges. Suggestions are the only path that
+changes mobRPG canon: the world owner accepts or dismisses each one, so the
+CLI never overwrites a live element directly.
+
+### Added
+
+- **`mobrpg sync` verb — timestamp last-writer-wins description sync.** For each
+  linked note it compares the note file's mtime, the node's recorded
+  `last_synced`, and the server element's `lastModified`, then decides
+  skip / pull / push per note inside a ±skew window (default 120s). A **pull**
+  overwrites the note's canon prose wholesale with the converted server
+  description — preserving the `## GM Notes` tail verbatim — and stamps
+  `last_synced`. A **push** (or a both-dirty tie the GM must adjudicate) files
+  one reviewable `UpdateElement` suggestion and marks the node
+  `review_state: pending`; it never writes upstream directly. Dry-run by
+  default; `--execute` gates every file write and suggestion submit.
+- **Native `write`, `images`, and `link-orphans` verbs** — the extract→vault
+  materializer, the entity-image downloader, and the orphan auto-linker are now
+  first-class Python subcommands. `link-orphans` uses suggestions as its push
+  path and no longer emits a generated curl script.
+- **Link rewriting across the boundary.** On push, `[[wikilinks]]` to linked
+  targets become mobRPG `…/world/{world}/link/{eid}` URLs (bare text when the
+  target isn't linked); `.md` links are flattened. On pull, known element URLs
+  come back as `[[wikilinks]]`.
+- **`mobrpg auth` verb** — managed credential setup replacing the hand-managed
+  `credentials.csv` + `MOBRPG_TOKEN` dance. `import <credentials.csv>` verifies a
+  website-issued token via `whoami` and stores it in a user-level config
+  (`~/.config/mobrpg` on POSIX, `%APPDATA%\mobrpg` on Windows, `0600` on POSIX);
+  `status`, `refresh`, and `logout` manage it. Tokens are never printed. New
+  `mobrpg/config.py` store and a portable `skill/references/auth-setup.md`
+  (one-URL download preferred, manual CSV fallback).
+- **`mobrpg adopt` verb** — stamps `mobrpg:` nodes onto unlinked notes by matching
+  them to live mobRPG elements by normalized name (aliases included); one match is
+  accepted with the real `element_id`, ambiguous/unmatched are reported never
+  guessed. A dup-safe replacement for the retired crosswalk/backfill flow.
+- **`mobrpg --version` / `-V`** — reports the package version (`0.1.0`), which is
+  intentionally independent of the marketplace plugin version.
+- **Ontology shipped as package data** — `gm-apprentice-ontology.json` now lives
+  inside `mobrpg/` and loads via `importlib.resources`, lazily: a missing file
+  affects only the `map` verb, not the whole CLI. This makes a non-editable wheel
+  install work (previously every verb died with `FileNotFoundError`).
+- **Prod-write safety banner** retained on every run.
+
+### Changed
+
+- **Suggestions are the only path that changes mobRPG canon.** `suggest` builds
+  the full datatype graph per entity (element + classifier Types via Attribute
+  edges + reified relationship Events); `sync` files `UpdateElement` suggestions
+  for newer vault prose. In both cases the world owner accepts or dismisses the
+  suggestion in mobRPG — accept makes the vault the new canon, dismiss leaves
+  mobRPG as canon. The CLI never overwrites a live element directly.
+- **GM Notes stay local to the vault by design.** The `## GM Notes` tail of a
+  note is never pushed to mobRPG (verification found the server's
+  `NoteableService.getNote` has no hidden-note check, so a pushed hidden note
+  would be readable). GM Notes remain vault-local until mobRPG enforces
+  hidden-note access server-side.
+- **README + Quickstart overhaul.** README leads with Installation, the skill
+  list, and an inline Quickstart; the long Obsidian setup walkthrough is
+  condensed to a short Vaults note. The Quickstart is rewritten to start from
+  the-midwife (which scaffolds the vault) and flow through ttrpg-expert →
+  session-prep → session-play → session-wrapup, with campaign-organizer/qa
+  reframed as as-needed upkeep. Both now list all five systems (Pathfinder 2e
+  was missing) and drop the redundant install/pick-system/Obsidian steps.
+- **`client.get_access_token()` precedence** — `MOBRPG_TOKEN` env still wins, then
+  the managed config, then `MOBRPG_EMAIL`/`MOBRPG_PASSWORD`, else a helpful error.
+- **`sync`'s never-synced verdict is `baseline`, and vault-only sections are
+  configurable via `vaultOnlySections`.** A note whose `last_synced` is still
+  empty has no LWW baseline, so timestamps decide nothing — content decides
+  instead: matching prose just stamps in sync, an empty scaffold pulls the
+  server description, anything else keeps the authored body and only adopts
+  the stamp. This replaces a manufactured push on every newly-linked note. The
+  vault-only section list (`## GM Notes` plus session-bookkeeping headings)
+  keeps its default but a vault can replace it with a top-level
+  `"vaultOnlySections"` array in `_meta/mobrpg-map.json`.
+
+### Removed
+
+- **The hash/baseline canon-boundary machinery** — the `pull-desc` and
+  `suggest-desc` verbs, the three-way `merge3` merge, the `content_hash` scalar
+  and the four `canon_*` node scalars, and the canon fence. The `sync` verb
+  replaces all of it with timestamp LWW.
+- **The shell-out fallback layer** — the `FALLBACK` subprocess dispatch and every
+  legacy prototype script (`smoketest.py`, `etl_extract.py`,
+  `push_suggestions.py`, and the shelled-out `write` / `merge` / `link-orphans` /
+  `push` / `types` / `links` / `images` scripts). Every verb is native; `push`,
+  `types`, and `links` are absorbed into `suggest`'s full-graph build, and
+  `merge` is gone.
+- **Legacy crosswalk** — the `backfill`/`sync` (crosswalk-era) verbs, all
+  `--crosswalk` inputs, and the packaged `canticle-regency-crosswalk.json`. Ids
+  resolve only from `mobrpg:` nodes; `images` derives its id→file map from nodes.
+
+### Fixed
+
+- **A faction's `part_of` scalar is derived from its edge.** `write`
+  emitted `part_of: ""` hardcoded while preserving the `part_of` relationship,
+  so an imported faction with a real parent body shipped with the scalar and the
+  edge disagreeing. The location branch already derived `parent_location` from
+  the edge; the faction branch now does the same. The compact type-field summary
+  in `entity-schema.md` was also missing `part_of` for Faction/Organization,
+  which is what made it look like there was no scalar at all.
+- **`link-orphans` cannot be walked out of its folder.** The note path was built
+  from the extract-supplied entity name. The "gate" naming rule matches on
+  `startswith` plus a substring rather than a full match, so a name could
+  satisfy it *and* carry `../` segments — resolving onto an existing file
+  outside the kind's folder, which was then rewritten. The candidate is now
+  resolved against the folder root and skipped if it escapes.
+- **`link-orphans` dry-run predicts what `--execute` will do.** The
+  "is there anywhere to write this?" check ran only under `--execute`, so a
+  preview listed a note as linked that the real run would refuse and report as
+  unwritable. The note is read and validated in both modes now; only the write
+  itself is gated.
+- **`link-orphans` escapes `--systems` names before matching.** They are
+  interpolated straight into the moon/planet/body/belt patterns, so an operator
+  passing a name carrying a regex metacharacter ("St.John", "Alpha (Prime)")
+  matched the wrong things, or raised `re.error` outright.
+- **A note is only marked `pending` once its suggestion really lands.** `sync
+  --execute` wrote every push note with `review_state: pending` and a
+  `pending_ref` *before* submitting the batch. If the submit failed, or the
+  server bounced a row whose externalRef was already claimed by a terminal
+  suggestion, the note pointed at an `upd/` row that did not exist — and nothing
+  could clear it: `plan` held the note on every later run, and `pull-canon` only
+  adjudicates a row matching `pending_ref`. Local-only writes (pull / in-sync /
+  baseline) still go first; the pending mark now happens after the submit and
+  skips any ref the server refused, which is reported.
+- **`catalog` fetches every page.** It requested page zero only and printed a
+  "there may be more" hint on a full page. A truncated list is read as "that
+  type doesn't exist yet", which is exactly what leads to minting a duplicate,
+  so it now follows `page.totalPages` and reports a mid-pagination failure
+  instead of printing a partial catalog as if it were complete.
+- **`pull` no longer turns an API failure into missing canon.** `_list_all` and
+  `_get_one` caught bare `Exception` and returned `[]` / `{}`, so a failed read
+  produced a successful-looking extract with entities missing or blank. Only the
+  documented empty-body case (`ValueError`) is tolerated now; `ApiError`
+  propagates to the handler that already aborts without writing. `_list_all`
+  also follows `totalPages` rather than reading a single `size=500` page.
+- **Creature types survive the pull.** `creature/type` was traversed for the
+  extract's `types` section but never indexed, so a creature's `Attribute` edge
+  to its type could not be resolved and the classifier was dropped in silence.
+  The indexed set and the skip set are now the same list.
+- **A failed relation read is no longer reported as "no relations".**
+  `rel_baseline._get_relations` swallowed `ApiError`, which made
+  `pull_canon._canon_determined`'s "could not tell" branch unreachable — a
+  failed read came back as `{}` and `run_refresh` then reported every existing
+  classifier as "local-only (canon silent)", the exact misreport it exists to
+  prevent. It also left `fetch_upstream` building the baseline index from
+  partial results, so `suggest` re-proposed edges mobRPG already held.
+- **`link-orphans` reports an edge it could not write.** A note whose
+  frontmatter had neither `relationships: []` nor a `relationships:` block fell
+  through a no-op `re.sub`, was rewritten byte-identical, and was still counted
+  as linked — the relationship was lost and the report claimed otherwise. The
+  substitutions are also function-form now, so a backslash in the JSON-encoded
+  description is not eaten as a replacement-template escape.
+- **A tight markdown heading is no longer swallowed into a paragraph.**
+  `md_to_html` required a heading to be alone in its blank-line-delimited block,
+  but a heading ends at its newline — so `## Overview` followed directly by
+  prose emitted a literal `## Overview` inside `<p>`.
+  `normalize_html_for_compare` strips `<h1..h6>` but cannot strip that, so two
+  identical descriptions compared as different.
+- **`images` validates the URL and contains the write.** Image URLs come from
+  the world API and went unchecked into `urlopen`, which speaks `file:` — so
+  `images --execute` could be steered into reading local files. Only https (and
+  loopback http, for the dev preset) is fetched, and credentials in the URL are
+  refused. The API-supplied name and the extension carved off the URL are both
+  reduced to one safe filename component, and the destination is confirmed
+  inside `_attachments/` before anything is written.
+- **UTF-8 is pinned on every text file the CLI reads or writes.** Ten sites
+  opened text at the platform default encoding while writing non-ASCII content
+  (`ensure_ascii=False` dumps, mobRPG names, vault prose) — wrong decoding on a
+  non-UTF-8 locale, and disagreeing with `vault.py`/`suggest.py`, which already
+  read the map as UTF-8. Several also leaked the handle.
+- **The mobRPG CI job pins `wheel`.** `test_packaging` builds a real wheel with
+  `--no-isolation`, and setuptools only grew a native `bdist_wheel` in 70.1, so
+  the macOS 3.10 leg aborted with "Missing dependencies: wheel" while every
+  other leg happened to ship a newer setuptools. The workflow also drops the
+  persisted checkout credentials and declares `contents: read`.
+- **Docs corrected against the shipped contract.** `part_of` maps to a
+  container-first `Link`, not `Parent` (`Parent`/`Child`/`Spouse` are genealogy
+  between people); the ontology export now says the four affiliation event types
+  are chosen from both endpoint kinds and degrade to `Generic` otherwise;
+  `llms.txt` no longer calls `map` and `images` read-only when `map init`/`map
+  sync` and `images --execute` write locally; the migration note no longer reads
+  as though the current `sync` verb was removed; and the re-parenting procedure
+  no longer applies location fields to faction membership, which is edge-only.
+  `llms.txt` also no longer claims every mutating verb is dry-run by default —
+  `pull` and `write` have no `--execute` flag and write as soon as they run.
+- **An element deleted upstream stays deleted.** `suggest` held a note whose node
+  carried a `pending` or `dismissed` review_state, but not a `deleted` one — and
+  `deleted` carries no `element_id`, so the note read as net-new and was re-filed
+  on every run, silently reversing the GM's decision to remove the element. It is
+  the same class of durable "no" as a dismissal and is now held alongside them.
+  `write_back`'s guard had the same gap from the other side: with no `element_id`
+  the accepted branch never covered a `deleted` node, so a fresh `pending` node
+  would erase the deletion record and its `review_note`.
+- **An affiliation eventType off the person/group grid degrades to `Generic`.**
+  `Reign`/`Employ`/`Membership`/`Leadership` *are* mobRPG's person↔group join —
+  the GUI builds them from a Person plus a Political or Organization and offers
+  no other shape. When the grid declined an edge, `resolve_event_type` still fell
+  through to the flat predicate table, which maps `owns`/`serves` by predicate
+  alone and cannot see the endpoints; a `Person owns Item` edge was pushed as a
+  `Reign` event nothing in a world could have produced. Off-grid affiliation
+  types now resolve to `Generic`, which is how mobRPG already carries every
+  non-group edge, with the predicate on the event title. Both directions share
+  `resolve_event_type`, so `pull-canon --baseline` looks up the same answer and
+  the edges still reconcile. With no kinds to judge by, the flat mapping stands.
+- **Interposing a new container no longer leaves it childless.** Creating an
+  entity that sits *between* an existing parent and its existing children — a
+  district between a station and its venues, a cell between a faction and its
+  members — never prompted anyone to re-point the children, so the container
+  landed as a leaf at the same level as the things it contains. Nothing surfaced
+  it either: the children's own files were untouched and still said what they
+  said yesterday. `shared/relationship-normalization.md` gains the re-point
+  procedure (list candidates → GM confirms each → update the child), and
+  session-wrapup routes new container entities through it.
+- **Containment is two fields and they must agree.** `parent_location:` (the
+  frontmatter scalar the site groups by) and the `part_of` edge (the graph edge
+  every query, campaign-qa, and the mobRPG sync read) are independent; neither
+  implies the other. Writing only the scalar leaves a note correctly nested on
+  the published site while being an orphan in the graph — the state all three
+  Entertainment District venues were in. Documented in
+  `shared/relationship-normalization.md`, with a campaign-qa graph-health check
+  for each direction of the mismatch plus one for childless interposed
+  containers.
+- **campaign-qa now flags an affiliation authored from both sides** — `A serves
+  B` on A and `B employs A` on B are both in-vocabulary base predicates, so the
+  off-vocabulary and stored-inverse checks miss them, but it is one fact written
+  twice and it pushes as two events.
+- **Person↔group affiliation events now follow mobRPG's own construct.** mobRPG
+  derives an affiliation's event type from what the edge points AT — its GUI
+  offers Reign/Employ only on a Political element and Leadership/Membership only
+  on an Organization. `suggest` used a flat predicate→eventType table that knew
+  nothing about the endpoints, so `serves` fired `Employ` at Corvid Financial and
+  Kinetic Logistics, both Organizations: a pairing the GUI cannot produce. Events
+  are now resolved through that grid from the endpoints' real kinds (canon
+  `element_kind` for a linked note, the proposed kind for a net-new one) and named
+  the way mobRPG names them — person first, mobRPG's own title word and
+  preposition (`"Marek Solano, Member of Corvid Financial"`, not
+  `"Marek Solano, serves Corvid Financial"`), including for edges authored
+  group-first like `Corvid Financial employs Marek Solano`. A per-world
+  `relationshipTypes` entry overrides the grid only when it *differs* from the
+  ontology default, since `map init`/`map sync` write an entry for every predicate
+  they discover. The rel/ externalRef is unchanged, so nothing re-files as net-new.
+- **Edges to accented entities are no longer silently dropped.** `suggest._key`
+  stripped `[^a-z0-9]`, which treats the two unicode normal forms differently: a
+  combining accent is removed but its base letter survives (NFD `Róbert` →
+  `robert`), while a precomposed letter is removed whole (NFC `Róbert` →
+  `rbert`). macOS stores filenames NFD-decomposed and a `[[wikilink]]` typed into
+  a note is NFC, so every edge pointing at an accented entity failed to resolve
+  and was reported "target not a world element" — 5 of the Dead End vault's
+  entities, including Opeyemi Tichá, who is already linked upstream. Keys now
+  decompose and drop combining marks, so both forms fold to the same value. This
+  is the same root cause as the publish-side issue #139.
+- **Push and reconcile resolve an edge's type through one entry point.**
+  `suggest` emitted the grid's type while `pull-canon --baseline` still looked the
+  edge up under the flat predicate mapping, so any affiliation the grid regraded
+  could never reconcile: it stayed `event_id`-less and every later run re-proposed
+  an event mobRPG already held. Both now call `map_cmd.resolve_event_type`.
+  Stamping a baseline also refreshes the row's recorded `event_type`, since
+  leaving `event_type: Employ` beside the id of a Membership event writes a fact
+  the match just disproved.
+- **Duplicate affiliation halves collapse before submit** — an affiliation
+  authored on both endpoints (`Marek serves Corvid` on the person, `Corvid employs
+  Marek` on the organization) pushed as two separate Employ events. Storage is
+  single-direction by rule, so the second half is now dropped and reported.
+  Scoped to Reign/Employ/Membership/Leadership: two `Generic` events between the
+  same pair are two different facts and both survive.
+- **The push report says when the grid disagrees with the predicate map** —
+  regrades (`Membership -> Employ` because the target is a Political) and
+  endpoint pairs mobRPG could not build (`Item -> Organization` for an `owns`
+  edge stored inverse) are both surfaced instead of silently emitted.
+- **`pull-canon` no longer scaffolds junk vault notes** — `_scaffoldable`
+  rejected reified-relationship refs (`rel/`) but let description-suggestion refs
+  (`desc/`, minted by the retired `suggest-desc`) through, so an accepted
+  `space_game:desc/Items & Artifacts/Type II3-A` card scaffolded a stub at a
+  spurious top-level `desc/` folder for an element that was already linked. Both
+  reserved roots are now rejected, and scaffolding additionally requires the ref's
+  first path segment to be a directory the vault already has — so the next verb to
+  mint a new ref namespace can't repeat this. Refs that don't qualify are printed
+  under `NOT SCAFFOLDED`, never silently created (#140).
+- **`pull-canon` scaffolded every note as a Person** — `_fetch_live` never carried
+  the element kind or name into its live summaries, so `scaffold_note` fell through
+  to its `Person`/`npc` defaults and a name derived from the ref path for *every*
+  note it created. Both now come from the accepted card's own payload.
+- **Upstream deletions outside the review queue are reconcilable** — the
+  accepted-element verification only ever saw elements that came through review, so
+  an element deleted directly in mobRPG was reported by `whats-new` under GONE and
+  then never flagged on its node. New `pull-canon --reconcile-deletions` is that
+  report's write side. It reads live ids through a strict paginated fetcher that
+  raises rather than fail soft, and aborts on an unreadable or empty world instead
+  of flagging every linked node deleted off a failed read. A kind whose endpoint
+  answers with an empty body (how this API reports "no elements of this kind")
+  contributes no ids rather than aborting (#141).
+- **mobRPG duplicate re-push guard** — `suggest` no longer re-files entities that
+  already carry a `pending` or `dismissed` `mobrpg:` node review_state (a suggestion
+  is already in the reviewer's queue, or was rejected). `node_index` returns the
+  submitted set; `partition_entities` holds them out of net-new and reports `[held]`.
+- **mobRPG containment edge direction** — `suggest` now emits spatial containment
+  relations (`part_of`/`located_at`/`headquartered_at`) container-first to match
+  mobRPG's `Link` convention, instead of subordinate-first (which landed
+  `planet part_of system` as "planet is the system's parent"). The reversed-
+  predicate set is derived from the ontology (asymmetric `Link` predicates).
+- **Credential CSV gitignore gap** — `credentials*.csv` is now ignored in the
+  prototype so a stray token file can never be committed. Untracked stale run
+  artifacts (`*_out/`, `space_vault_preview/`, `space_extract.json`).
+
+Release-blocker pass (data-corruption and integrity fixes found in a four-way
+adversarial review of the branch, each fixed test-first):
+
+- **Intraword `_` no longer mangles descriptions** (`md.py`) — `snake_case`,
+  `file_name`, and URLs kept their underscores instead of sprouting `<em>` spans;
+  `_` emphasis now requires flanking whitespace/punctuation (CommonMark rule).
+  Previously this malformed HTML went straight into `_create(description=...)`.
+- **`suggest._read` frontmatter split** — replaced the banned
+  `str.split("---", 2)` with the shared `_split_frontmatter`; a note opening with
+  `---` and no closing fence no longer raises `ValueError` and aborts the whole
+  `suggest` run, and `--- inline ---` notes parse correctly.
+- **`sex` classifier sanitizer bypass** (`suggest.py`, `map_cmd.py`) — the gender
+  name now runs through `classifier_name()` like every other classifier, so markup
+  (`male [[note]]`) can no longer leak upstream into a pushed `CreateElement` name.
+- **`_split_frontmatter` thematic-break misclassification** (`node.py`) — a note
+  with no YAML frontmatter whose body opens with a `---` thematic break is no
+  longer treated as having frontmatter, so `write_node` stops splicing the
+  `mobrpg:` block into prose (reachable via `suggest --write-back` and `pull-canon`).
+- **Frontmatter fence newline** (`node.py`) — a rebuilt body that lost its leading
+  newline no longer glues onto the closing `---` fence (`---## Overview`); exactly
+  one separator is guaranteed.
+- **Link href double-escape** (`md.py`) — a link URL is no longer HTML-escaped a
+  second time, which had accreted an extra `amp;` on every round-trip.
+- **`md.py` table cells honor escaped `\|`** — cells split on unescaped pipes only,
+  so escaped pipes no longer cause a column-count mismatch in pushed tables.
+- **Full-page pagination warning** (`map_cmd.py`, `suggest.py`) — a world with more
+  than the `?size=500` page limit now warns rather than silently minting duplicates.
+- **Atomic, private credential write** (`config.py`) — credentials are written to a
+  `0600` temp file and renamed into place, closing the brief world-readable window
+  on a pre-existing loose-perm `credentials.json`; Windows write path now tested.
+- **`auth status` stale-token warning** — warns when a `MOBRPG_TOKEN` env var is set
+  and would override the imported identity that `status` displays.
+
+Second fix round (a four-way adversarial review of the post-LWW-rework
+`sync`/`suggest` path, 2026-08-11, each fixed test-first):
+
+- **Vault-only sections generalize past `## GM Notes`** — `## Notes`,
+  `## Appearances`, and `## Source References` are session bookkeeping, not
+  canon prose, and pushing them buried the world owner's review queue in
+  churn; they're now vault-only by default too, and every `pull` dry-run row
+  prints the canon line-count it's about to trade so a shrinking pull gets
+  read before it's confirmed (#146).
+- **A never-synced note no longer manufactures a push** — with no LWW
+  baseline to compare against, `sync` now decides from content instead of
+  timestamps (match → stamp in sync, empty scaffold → pull, else → stamp
+  only), and a heading left with no body (`## Properties` with nothing under
+  it) is dropped from the push candidate rather than sent as description
+  content (#147).
+- **`map sync` folds case/whitespace/unicode when matching vocab keys** — a
+  casing or whitespace-only difference (`Chitinoteuthis` vs
+  `chitinoteuthis `) previously split one vault term into a stale map entry
+  plus an unbound duplicate; `whats-new` also distinguishes vocab that's
+  recorded-but-unbound from genuinely new (#148).
+- **`sync`/`suggest` send raw Markdown, not lossy HTML** — omitting
+  `descriptionType` silently selected Html, forcing every pushed description
+  through the CLI's own `md_to_html`; both verbs now set
+  `descriptionType: "Markdown"` and send the cleaned markdown verbatim (the
+  drift compare still happens in HTML space to avoid false positives) (#150).
+- **Update suggestions get their own `upd/<relpath>#<hash>` externalRef** —
+  reusing the note's create-time ref meant only the first `UpdateElement` a
+  GM ever accepted actually reached them; a per-content-hash ref under its
+  own namespace lets identical re-pushed prose correct an open proposal in
+  place while edited prose mints a fresh one, and `pull-canon` now
+  adjudicates only the row matching the node's `pending_ref` (#151).
+- **`submit-batch` reports stored/corrected/already-claimed distinctly** —
+  a plain aggregate "N stored" count hid rows a terminal (Accepted/Dismissed)
+  suggestion had already swallowed; those are now named and flagged as
+  proposals the GM will never see (#152).
+- **`pull-canon` gates accepted element_ids on world liveness** — a
+  still-Accepted create could re-stamp a dead `element_id` onto a node
+  `--reconcile-deletions` had already flagged deleted; the main pass now
+  checks the same live element-id set and treats absence as authoritative
+  (#153).
+- **A note's create ref no longer hijacks the update it is waiting on** — a
+  terminal Accepted/Dismissed row at the note's plain create ref ran the
+  element-level adjudication over a node holding a `pending_ref`, stamping a
+  verdict the GM gave to different content and stranding the claim. While a
+  push is in flight the create row stands down; deletion stays authoritative.
+- **Section boundaries are fence-aware** — a ``` block under `## GM Notes`
+  whose first line began `## ` (a quoted stat block) ended the vault-only
+  section early and leaked every GM line below it into the push candidate. A
+  `##` line inside a fence is code, not a heading, in both the vault-only
+  split and the empty-heading strip.
+- **`map sync` preserves hand-authored top-level map keys** — the merge
+  rebuilt the map from the fresh discovery alone, silently deleting a vault's
+  `vaultOnlySections` list; the next `sync` then reverted to the default
+  sections with no warning.
+- **`suggest` strips the vault's configured sections from create
+  descriptions** — the create path hardcoded the four default headings, so a
+  custom vault-only section that `sync` kept local was published verbatim the
+  first time an entity was pushed. Both push paths now read the same
+  `vaultOnlySections` loader.
+
+---
+
+## [1.8.53] — 2026-08-22
+
+Landing page selection: the config that controlled it did nothing, and the
+scoring it fell back on could not be steered (#169). Publish tool 1.11.25.
+
+### Fixed
+
+- **`publish.landing.*` is read at last.** `build.js` has always consulted
+  `publishConfig.landing`, but `loadPublishConfig` built its result from a key
+  whitelist that `landing` was not on — so the key was permanently `undefined`
+  and every knob under it was silently ignored. The landing page was fixed at 6
+  NPCs / 4 locations / window 3 regardless of what the GM configured, in either
+  `_meta/vault-config.md` or `vault.config.json`. It now merges per key, publish
+  block first, so setting one value does not reset the others. This also
+  revives `max_events` and `explore_descriptions`, which the landing template
+  read from the same dead key.
+- **Landing ties break deterministically.** The sort had no secondary key, and
+  `Array.prototype.sort` is stable, so equally-scoring entities kept vault scan
+  order — meaning which ones survived the cut was decided by where their files
+  sat on disk. Invisible to the GM and unchangeable by anything they could
+  author. Ties now break by title: not more "relevant", but explainable, and
+  `featured_*` is the supported way to override it.
+
+### Added
+
+- **`featured_npcs`, `featured_locations`, `quick_links`.** Pinned entries lead
+  their section in the order given, with recency filling the remaining slots. A
+  pinned entity appears even if it scores nothing, so an NPC no session has
+  mentioned yet is still featurable. A name that resolves to no published page
+  prints a build warning rather than vanishing — silence there would repeat the
+  exact complaint this fixes. `quick_links` renders a short row of pinned
+  destinations near the top of the landing page.
+
+### Note
+
+The same issue reported that recency scoring compares an entity's **H1 title**
+against wiki-link targets, so entities whose display title differs from their
+filename can never be featured. That does not reproduce: `scanner.js` sets
+`page.title` to the **filename base** (the H1 goes to `displayTitle`, which
+recency never reads), and the mention pattern already stops its capture at the
+`|`. An NPC filed as `Margaret_Cavendish.md` with H1 `Margaret "Meg" Cavendish`,
+referenced only as `[[Margaret_Cavendish|Meg]]`, scores and is returned. The
+scoring path was left alone; the two fixes above are what actually produced the
+reported symptom.
+
+---
+
+## [1.8.52] — 2026-08-21
+
+GM content reaching player-facing sites, found while publishing a live Call of
+Cthulhu campaign with a traitor PC (#166, #167, #168). Publish tool 1.11.24.
+
+### Added
+
+- **`publish: false` and `publish: stub`** (#167). There was no file-level
+  exclusion at all — `exclude_dirs` works per directory, `exclude_sections` per
+  heading, `exclude_fields` per field, and nothing per file. A wholly
+  Keeper-facing page in an otherwise publishable folder had to be fenced
+  section by section and re-audited after every edit. `publish: false` emits no
+  page in any mode, while still parsing the file so links to it render as plain
+  text rather than breaking. `publish: stub` keeps the page for navigation —
+  the chapter-overview case, where the page is needed but its body is a GM
+  bible — and emits only the sections named in `publish_include_sections`,
+  which defaults to none so a stub opts content *in*.
+- **`publish_exclude_fields`** (#166). Hides named fields on one file, merged
+  over the vault's global `exclude_fields`. Excluding `occupation`
+  campaign-wide to hide one traitor's true allegiance would have stripped it
+  from every honest NPC. A per-file entry is deliberately *not* re-admitted by
+  a config-level `overrides.fields.*.include`: where the two disagree, hiding
+  wins.
+- **`gm_only: true` on a single relationship edge** (#166). Some edges are
+  themselves the secret — a loyal-seeming escort who `serves` the cult leader.
+  The edge is dropped from the page, the relationship graph and the search
+  index.
+
+### Fixed
+
+- **Section filtering survives CRLF line endings.** The heading pattern ends in
+  `$` and `.` does not match `\r`, so on a vault authored on Windows (or checked
+  out with `core.autocrlf`) **no heading matched at all** and `exclude_sections`
+  excluded nothing. `processContent` strips `\r` before rendering, which kept
+  the page itself safe and hid the bug — but the published view used for the
+  search index, backlinks and recency does not, so `## GM Notes` prose reached
+  the search index verbatim. Both section filters normalize line endings first.
+- **`publish: stub` reduces a PC's story companion too.** The story is a
+  separate file paired in by the scanner and rendered on its own page, so
+  reducing only the entity page left a stubbed PC publishing its complete story
+  one URL over.
+- **Field exclusion now reaches the derived views** (#166). Frontmatter
+  filtering ran *after* backlinks, the search index and the relationship graphs
+  had already been built from the raw frontmatter — so excluding a field
+  removed it from the page and left it in every view derived from it.
+  Excluding `relationships` still drew the Connections graph with the secret
+  targets as node labels; excluding `occupation` still shipped it as the
+  search-index subtitle. The published view is now computed once, immediately
+  after the link map, and everything derived is built from that.
+
+- **`<!-- gm-only -->` fences nest.** The markers were tracked with a boolean,
+  so the *first* closer ended the outer block and everything after it
+  published. Wrapping a region that already contained inner fences therefore
+  protected only as far as the first inner `<!-- /gm-only -->` — with balanced
+  markers, no warning, and no way to tell from the source that it had failed.
+  Silent under-protection is the worst failure mode for the one primitive whose
+  whole job is hiding things. An inner block now closes only itself.
+  `<!-- spoiler -->` gets the same fix, from the same shared implementation.
+- **A marker inside a code example is documentation, not a directive.** Only a
+  line starting with exactly three backticks counted as a code fence, so a
+  `<!-- /gm-only -->` shown inside a `~~~` block, a ` ```` `-length fence, or a
+  fence indented by up to three spaces was obeyed as a real closer — ending the
+  enclosing block early and publishing the rest. Fence tracking now follows
+  CommonMark: a fence closes only on the same character, at least as long as
+  the opener, with nothing but whitespace after it. This repo's own
+  documentation demonstrates these markers inside fenced examples, so it is a
+  shape that occurs in practice.
+- **A `<!-- /gm-only -->` with nothing open is reported.** It used to be a
+  silent no-op. It is now counted and warned about at build time, and the
+  unclosed-marker warning says how many blocks were left open — so an
+  unbalanced file is visible instead of quietly publishing or quietly
+  truncating.
+- **`## Reconciliation Context` is written under `## GM Notes`.** Every item in
+  it is Keeper-facing — GM decisions and rationale, unplayed-prep dispositions,
+  and the World Evolution block describing what the factions did off-screen.
+  As a sibling H2 it published; in one vault it revealed an antagonist's
+  position the party had not discovered, across 9 wrap-up files. Adding it to
+  the default `exclude_sections` does not fix this, because a vault that sets
+  its own list keeps that list as written — which is precisely the failure the
+  1.8.3 two-primitive standard was introduced to end. `reconcile.md` now writes
+  it as a `###` under `## GM Notes` (with its subsections demoted to `####`),
+  and the session-plan template does the same. Readers accept both forms, so an
+  un-migrated vault keeps working.
+
+### Changed
+
+- **Migration 1.8.51 → 1.8.52** re-nests existing `## Reconciliation Context`
+  sections under `## GM Notes`, creating the container where absent. A pure
+  structural move, applied after preview confirmation like the 1.8.3
+  re-nesting.
+
+---
+
+## [1.8.51] — 2026-08-17
+
+Two session-prep bugs found in one live prep pass: the wrong session picked
+in vaults whose numbering restarts each chapter, and a chapter's midwife
+design never read at all.
+
+### Fixed
+
+- `session-prep`: `session_context.py` chose "just played" by taking a
+  vault-wide `max()` over `session_number`. Where numbering restarts per
+  chapter that is not a campaign-wide ordinal, so a finished chapter's
+  higher-numbered session won permanently and the bundle handed back a
+  months-stale wrap-up, the wrong PC world-state, and a meaningless "no
+  existing plan" — all of it reading as authoritative. Selection now
+  follows the campaign overview's `last_session`, falling back to the most
+  recent `play_date`, and the session-anchored lookups (wrap-up, upcoming
+  plan) are scoped to the selected session's chapter — the rest of the bundle
+  stays vault-wide, which is correct for PCs, flags, and the overview. A
+  document that names no chapter no longer outranks the chapter's own by
+  sorting earlier, and a chapter ref written as a path keys the same as one
+  written as a folder name. Sessions are keyed on `(chapter, number)` rather than
+  the bare integer, which two chapters could silently collide on depending
+  on directory walk order. Where the answer is ambiguous — a stale overview
+  pointer, a number appearing in more than one chapter — the bundle now says
+  so instead of choosing quietly (#162).
+- `session-prep`/`session-play`: neither skill ever read `_midwife/`. Step
+  10c scanned only `Chapters/{chapter}/Planning/` and matched on `plan_type`
+  frontmatter, so a chapter whose forward design lived in `_midwife/` was
+  reported as having no plans and scene structure was generated from
+  scratch, contradicting a day-by-day timeline already sitting in the vault.
+  Both skills now read `_midwife/{chapter-slug}/` by path rather than
+  frontmatter — those files carry none by design — with `timeline.md`
+  surfaced before scene design begins. `vault-structure.md` now states both
+  halves of the posture: `campaign-qa` ignores `_midwife/` for auditing,
+  prep and play read it for design. An empty result is no longer written up
+  as a vault gap, which was a claim about the vault when the real cause was
+  a scan that never opened the directory (#163).
+
+- `session-prep`/`campaign-qa`: a quoted wikilink reaches the frontmatter
+  reader as a one-item list (`"[[Note]]"` parses as a YAML flow sequence),
+  so reading `last_session` as a string silently disabled the
+  authoritative-metadata path entirely. `wikilink_target` now unwraps it.
+- `campaign-qa`: `vault_check.py stale-drafts` carried the same flat
+  assumption, measuring every draft against the vault-wide highest session
+  number. In a restarting vault that made the live chapter's newest content
+  read as many sessions old and told the GM to "promote to AUTHORITATIVE or
+  delete" it. Staleness is now measured within a chapter; a draft that names
+  no chapter in such a vault is reported as undatable rather than judged
+  against an unrelated chapter's count.
+
+---
+
+## [1.8.50] — 2026-08-17
+
+Publish tool 1.11.23. The five follow-up bugs left open by the 1.8.49
+review, closed as one pass.
+
+### Fixed
+
+- `publish-site`: `data-character` was emitted without unicode
+  normalization, so an accented PC's change requests could fail to match
+  back to their vault note — the one place a normal-form mismatch survived
+  #139's sweep into a runtime comparison rather than a build-time one. The
+  flush side was suspected too and turns out to be safe already: it keys on
+  `slugify(title)`, which strips combining marks (#158).
+- `publish-site`: `flush` and backend setup still spawned wrangler with no
+  timeout, so a hung call blocked them indefinitely. Both now route through
+  `runCommand` on the same 60s bound the inbox poll received in 1.8.49, and
+  the constant moved to `run-command.js` instead of being copied a third
+  time. `runCommand` gained a `cwd` passthrough, which is why backend setup
+  had its own raw spawn (#160). The wrappers also dropped `runCommand`'s
+  `error`, and a timed-out spawn leaves stdout and stderr empty — so the new
+  bound turned a hang into a blank message indistinguishable from a silent
+  success. All three now carry it, and the KV adapter and setup diagnostics
+  fall back to it through a shared `failureDetail`.
+- `publish-site`: card initials and relationship-graph labels counted UTF-16
+  code units, so a decomposed accent dropped off an initial ("Bestia Ñu"
+  showed "BN") and cost a label one of its fifteen characters, truncating
+  names that fit composed. Both now measure graphemes, which also keeps
+  astral characters whole (#157).
+- `publish-site`: a session filed in one chapter's folder while its
+  `chapter:` ref named another was listed under **both** chapters. Each
+  session now resolves to exactly one chapter — an exact title beats a loose
+  containment, longest title breaks a tie — and that ref outranks the
+  folder, with folder grouping still the fallback when a ref names no
+  chapter on the page. The ref test that compared ref-inside-chapter-title
+  is gone: it ran opposite to both sibling copies of this matcher and let
+  `[[Vienna]]` claim "Vienna" and "The Vienna Files" at once. Filed as
+  unreachable dead code (#156) — the clauses are reachable, and deleting
+  them left the suite green, so the gap was coverage.
+
+### Removed
+
+- `publish-site`: `scoreNPCs` and its only reader `IMPORTANCE_TAGS`. Nothing
+  but its own test called it — `scoreByRecency` superseded it — and it
+  carried an unfixed copy of the #139 ref-matching bug, so reviving it would
+  have reintroduced a defect the rest of the tool no longer has (#155).
+
+---
+
+## [1.8.49] — 2026-08-12
+
+Publish tool 1.11.22. Published-site content-leak and encoding bugs fixed,
+relationship-predicate validation added to the vault-authoring gate, and a
+guarded lifecycle helper for ephemeral e2e test resources.
+
+### Fixed
+
+- `publish-site`: HTML comments (`<!-- ... -->`) were never stripped from
+  `publishedMarkdown`, so authoring notes leaked onto the homepage's
+  "Latest Session" teaser and into every story-spine page body. Added
+  `stripHtmlComments` to that chain, plus a site-wide regression test
+  asserting no generated `.html` contains a comment (#149).
+- `publish-site`: hand-built link destinations were not percent-encoded, so
+  any output path containing a space or parenthesis (vault subfolder names,
+  attachment filenames) rendered as literal bracket text instead of a link,
+  and the typographer separately mangled a leading `../` into `…/`.
+  Generalized the image-only `encodeImageUrl` into `encodeHref` and routed
+  every hand-built href through it across templates, the relationship
+  graph, breadcrumbs, and the context sidebar; `encodeImageUrl` stays as an
+  alias so existing image call sites are unchanged. Also fixed the
+  client-side search overlay (`js/search.js`), which built result links
+  from the same raw, unencoded path — there a stray `#` or `?` could
+  truncate or corrupt the link rather than just look odd (#145).
+- `publish-site`: manifest matching and slugs were Unicode-normalization-
+  naive, so an NFC manifest entry never matched an NFD-decomposed scanned
+  path and accented pages silently never rendered. Canonicalized to NFC at
+  the manifest/scanner comparison boundary and strip combining marks in
+  `slugify`; `overrides.fields` keys are now canonicalized the same way at
+  config load. **Slugs change for every page whose name carries an accent
+  that decomposes into a combining mark** (`é`, `á`, `ñ`, `ü`, …);
+  characters with no such decomposition (`ø`, `ł`, `đ`, `ß`) are
+  unaffected and keep their old slug — `Bjørn` still slugs to `bj-rn`.
+  Two pages in one folder can now collide where they used to slug apart
+  (`Renée` and `Renee` both give `renee.html`); the scan warns when that
+  happens, and the later page wins.
+  The manifest only ever filtered pages on `mode: player` sites, so on
+  `mode: full` sites (and on `mode: player` sites where the manifest and
+  scanned path already agreed) accented pages always rendered — just at
+  the mangled slug the old naive `slugify` produced (`gonz-lez` for
+  "González"). Every one of those pages now renders at the corrected slug
+  (`gonzalez`) instead, so existing links and bookmarks to them break.
+  Pages that never rendered at all (`mode: player` sites where the
+  manifest and scanned path normalization forms mismatched) start
+  rendering for the first time, at the same corrected slug. Vaults with
+  manually-pinned NFD manifest entries should update them to NFC now that
+  matching no longer needs the workaround (#139).
+  The same normalization now covers every other table keyed by
+  author-typed text, not just the manifest: `buildLinkMap` (page titles
+  and aliases), `scanAttachments` (attachment basenames), `buildBacklinks`,
+  and the relationship graph's title map. A `[[wikilink]]`, `portrait:`
+  value, relationship target, or `![[embed]]` typed in a different normal
+  form than the file it names used to render as plain text or vanish
+  silently; each of those tables now canonicalizes keys and lookups, so
+  the whole boundary is covered rather than the manifest alone. Only
+  comparison keys are canonicalized — stored output paths and attachment
+  `relPath`s keep their exact bytes, so this stays orthogonal to the
+  `encodeHref` percent-encoding above (#139).
+  The `Map`/`Set`/`===` comparisons that no lookup table can cover are
+  normalized at their call sites too: recency scoring (an accented NPC
+  mentioned in the latest session never scored, so it never reached the
+  landing page's recent cards), wrap-up↔session pairing in both
+  `recency.js` and `story-spine.js` (a session's narrative recap silently
+  vanished from the Story page), the flat-vault chapter↔session match, and
+  the chapter page's constituent-sessions sidebar (#139).
+  The same sweep then ran over `lib/templates/`, where seven more live
+  comparisons of the same shape were fixed: an accented location page lost
+  its "Places Within", "Known Figures" and "What Happened Here" rollups; an
+  accented faction page lost its members list; the locations index rendered
+  a child as a root sibling instead of nesting it, and split one parent
+  region into two headings; the landing page featured a *different* session
+  than the campaign overview names, recap and link included; and a PC's
+  route map listed one location twice. An eighth copy of the chapter
+  matcher (`sessionsForChapter`) was normalized alongside its two live
+  siblings so the three cannot drift, but its ref clauses are unreachable
+  today and nothing about the rendered site changes. The search index is
+  built NFC and the search box normalizes its query to match, so a note
+  typed with decomposed accents is findable. A three-way differential build
+  test
+  (all-NFD, all-NFC, and the two forms mixed in one vault) now asserts the
+  generated site is byte-identical across all three, which is what proves
+  the class closed rather than a reading of the code (#139).
+- `publish-site`: the built-in default `exclude_sections` had drifted from
+  the scaffold template, and `## Reconciliation Context` /
+  `## Handoff to Reconcile` — written automatically by `reconcile` and
+  `session-wrapup` — were publishing GM plot state to players. Both lists
+  now carry the same six entries (`GM Notes`, `DM Notes`, `Player Notes`,
+  `Source References`, `Reconciliation Context`, `Handoff to Reconcile`).
+  The built-in default was previously just `GM Notes`, so a hand-configured
+  site with **no** exclude-sections list in either config file also stops
+  publishing `## DM Notes`, `## Player Notes` and `## Source References`
+  from this release — not only the two reconcile sections. Sites
+  scaffolded before this release already carry those four in
+  `vault.config.json`'s `excludeSections`, so the default never applied
+  to them and nothing changes for them until the reconcile pair is added
+  by hand; new scaffolds get all six.
+  **Existing sites with an explicit exclude-sections list do not pick
+  this up automatically** — add `Reconciliation Context` and `Handoff to
+  Reconcile` by hand, either to `excludeSections` in `vault.config.json`
+  or to `publish.exclude_sections` in the vault's `vault-config.md` (the
+  two union, so either works). Also corrected `configuration.md`'s
+  Precedence section, which described strict shadowing when list settings
+  actually union across both config sources (#144).
+- `publish-site`: `publish.overrides` advertised three keys but the build
+  only ever read `overrides.fields`; a top-level `overrides.exclude` or
+  `overrides.include` was a silent no-op. Dropped both from the defaults,
+  and a config that still carries one now warns instead of ignoring it.
+  `configuration.md` documents the real shape — per-file field
+  re-admission keyed by vault-relative path — with a copyable example,
+  and no longer implies whole-file include/exclude lives there (it lives
+  in the publish manifest). A malformed block (`overrides: fields`, or a
+  non-map `overrides.fields`) is now reported once with the expected
+  shape instead of being walked per character into invented keys.
+  `configuration.md` also drops its claim that a per-PC `crest`
+  frontmatter value overrides `publish.sheet_crest` — nothing reads
+  `frontmatter.crest`; the crest is campaign-wide.
+  A malformed *per-file* entry under `overrides.fields` is now caught the
+  same way: an `include` written as a bare string made `filterFields` do
+  substring matching (`include: sec` re-admitting `secrets`), and any
+  other truthy non-list threw mid-build. Each bad entry is named, warned
+  about once, and dropped, so the exclusions stay in force. An explicitly
+  falsy `fields:` value reaches that validator now too — `||` used to swap
+  `fields: false` for the default before anything could report it.
+- `publish-site`: a relationship whose `description:` is a YAML block
+  scalar (`description: |`) put its indented prose back into the
+  predicate scan, so a line of narration beginning `type:` was reported as
+  an off-vocabulary predicate and failed both `validate_schema.py` and
+  `vault_check.py` on a perfectly valid note. Block-scalar content is now
+  skipped by column across the whole frontmatter walk. `scalar_value`
+  separately accepted a quoted scalar with trailing junk (`type: "npc"
+  trailing` validated as an `npc`); the closing quote must now be the last
+  thing on the line apart from blanks or a comment, and it is found past
+  `\"`/`''` escapes so a value like `"5'4\" - 6'0\""` survives whole
+  instead of truncating at the first inner quote.
+- `publish-site`: the landing page picked its "Latest Session" recap with
+  a substring test, so `[[Session 10]]` answered a lookup for `Session 1`
+  and the wrong session's narrative recap went out. The wrap-up's
+  `session:` ref is now parsed as a wikilink and compared for exact
+  equality, and that lookup runs *before* the `session_number` fallback,
+  which chapters make ambiguous by restarting the count. The looser
+  "ref mentions the session inside longer prose" match is kept as a last
+  resort but can no longer run on into a longer number. NFC
+  canonicalization at the comparison boundary is unchanged (#139).
+- `publish-site`: `inbox pull` spawned `wrangler` with no timeout, so a
+  hung network turn froze the change-request watcher before it could tick
+  `.watcher-heartbeat` — a live-but-stalled loop looked exactly like a
+  dead one, which is the single thing the heartbeat exists to tell apart.
+  Every wrangler call the inbox CLI makes is now bounded at 60s via the
+  shared `runCommand`, so a hang surfaces as a failed poll and the loop's
+  existing failure streak reports it. The documented fallback loop also
+  clamps `WATCHER_SLEEP` once up front: `${WATCHER_SLEEP:-30}` covered
+  unset and empty but not `0` (a flat-out poll against Cloudflare KV) or a
+  non-numeric value (`sleep` fails, loop keeps polling).
+- `publish-site`: the e2e resource helper's cleanup called `wrangler kv
+  namespace delete` and `wrangler pages project delete` without their
+  non-interactive confirmation flags. Both prompt by default, and cleanup
+  runs unattended, so the prompt would hang or read EOF as "no" and leak
+  the resource it was meant to remove. Added `--skip-confirmation` and
+  `--yes` respectively (the two commands spell it differently).
+
+### Added
+
+- `campaign-qa`: relationship predicates are now validated against the
+  authoritative vocabulary in
+  `skills/shared/gm-apprentice-ontology.json`. `vault_check.py
+  relationships` (also folded into `vault_check.py all`) and a parallel
+  check in `scripts/validate_schema.py` flag off-vocabulary predicates
+  with nearest-match suggestions; campaign-qa's graph-health checks now
+  run the audit. `skills/shared/templates/plan.md`'s example relationship
+  swaps its blank `type: ""` for a real predicate (`located_at`), which
+  the new check would otherwise flag on day one. **Expect a burst of
+  errors on the first run after upgrading:** every plan note already
+  scaffolded from the old template carries that blank `type: ""` and
+  reports as a `blank relationship type` ERROR. That is the check working
+  — fill each one in with a sanctioned predicate from the ontology, or
+  drop the placeholder edge (#130).
+- `tools/publish/lib/e2e-resources.js`: a guarded lifecycle helper for
+  ephemeral test resources used by the Cloudflare setup flow's e2e tests.
+  Names are always `e2e-<runId>-<label>`; cleanup deletes only records the
+  factory itself minted (checked by object identity, not name-prefix
+  matching); there is no list-and-delete or delete-by-title API at all;
+  dry-run reports without calling `wrangler`. Motivated by an incident
+  where an ad-hoc cleanup sweep deleted a production KV namespace. Policy
+  documented in `cloudflare-pages.md` (#142).
+
+### Changed
+
+- `publish-site` skill docs: added watcher-resilience guidance for the
+  change-request loop (persistent monitor primitive preferred, a
+  documented shell-loop fallback, a heartbeat liveness artifact, failure
+  emission, request-id dedup, capped backoff) and pointers to the
+  manifest spec at the top of the relevant `SKILL.md` capability entries.
+  Also clarified the manifest's actual semantics in
+  `content-filtering.md`: it's an inclusion filter only on `mode: player`
+  sites — checking a box under `## Excluded` or `## Needs Decision` never
+  publishes a file — and `mode: full` ignores the manifest entirely
+  (#143, #136).
+
+---
+
+## [1.8.48] — 2026-07-26
+
+Publish tool 1.11.21. Keeper callouts no longer leak onto the published site.
+
+### Fixed
+
+- `publish-site`: Obsidian callouts (`> [!type] Title`) rendered in full onto
+  the player site — the tool had no callout stripping, so Keeper-facing callouts
+  (Campaign Design Decisions, Alert Levels, Keeper-Only notes, Canon State) were
+  published verbatim (#137). Added a native `exclude_callouts` option
+  (`publish.exclude_callouts` / `excludeCallouts`): `true` strips every callout,
+  an array of types strips only those. Wired through `processContent`, the PC
+  accordion path (`extractSections`), and the `publishedMarkdown` precompute so
+  callout text also stays out of search, backlinks, and excerpts. Plain
+  blockquotes carry no `[!type]` marker and are preserved.
+
+### Changed
+
+- `publish-site`: scaffolded `vault.config.json` now defaults `excludeCallouts`
+  to `true`. Documented in `content-filtering.md` and `configuration.md`.
+
+---
+
+## [1.8.47] — 2026-07-23
+
+Publish tool 1.11.20. Players' live HP/FP now sync from the site's KV store back
+into the vault sheets: the `flush` command is system-aware and gains a GURPS
+writeback, and `session-wrapup` pulls live state before processing.
+
+### Added
+
+- `publish-site`: GURPS live-state flush — `gm-publish flush` now syncs players'
+  current HP/FP from KV back into the vault `## Current Status` block, updating an
+  existing `**HP:**` / `**FP:**` line or injecting one with the sheet-derived max.
+- `publish-site`: standalone `references/live-state-flush.md` documenting the
+  Tier-2a pull; `session-wrapup` now pulls live state before processing when the
+  campaign publishes a Tier-2 site.
+
+### Changed
+
+- `publish-site`: `flush` is now system-aware — it routes each PC to the GURPS or
+  CoC writeback (previously CoC-only, a silent no-op for GURPS sheets).
+
+---
+
+## [1.8.46] — 2026-07-22
+
+Publish tool 1.11.19. The live status bar and change-request inbox are now
+one-command setups, and the PC roster ships as a static initiative table on
+every site.
+
+### Added
+
+- `gm-publish setup-status-bar` and `gm-publish setup-inbox` — idempotent,
+  preflight-gated commands that turn on the live status bar (Tier 2a) and the
+  at-table change-request inbox (Tier 2b) end-to-end: create or reuse the
+  `INBOX` KV namespace, patch `wrangler.toml` (name-alignment + the
+  `[[kv_namespaces]]` block), flip the matching `backend` flag in
+  `vault.config.json`, rebuild, and deploy — one command, no manual
+  `wrangler.toml` editing. Each probes the Cloudflare token's KV permission
+  before touching anything, mapping `code: 10000` to the one-line fix (add
+  **Account · Workers KV Storage · Edit**). `setup-inbox` requires and ensures
+  the same KV namespace (inbox ⇒ KV) and is infra-only — it does not open a
+  session. The `publish-site` skill docs (`SKILL.md`, `setup-wizard.md`,
+  `cloudflare-pages.md`) point at both commands as the primary path, with the
+  existing manual steps kept as the documented fallback.
+- The PC roster / party board now renders as a static initiative table on any
+  site, even with no backend configured — useful with zero setup, and it goes
+  live (phone-updatable, real time) once `setup-status-bar` is run.
+
+### Fixed
+
+- `wrangler.toml`'s `name` is aligned to the Cloudflare project before a bare
+  `wrangler pages deploy`, so `setup-status-bar` / `setup-inbox` (and the
+  wizard's own deploy step) never target the wrong Pages project.
+
+## [1.8.45] — 2026-07-22
+
+Publish tool 1.11.18. Tier-1 sites no longer ship the change-request inbox's
+KV binding or Cloudflare Functions.
+
+### Fixed
+
+- Tier-1 (static) sites no longer scaffold or deploy the change-request inbox's
+  KV binding or Cloudflare Functions: `gm-publish init` ships a minimal
+  `wrangler.toml` (keeping `pages_build_output_dir` for a clean bare
+  `wrangler pages deploy`) with no `[[kv_namespaces]]` block and no `functions/`,
+  and the build-time Function re-sync is gated on the site's backend flags. This
+  removes a placeholder KV binding that shipped to every site. `vault.config.json`
+  (which holds a local absolute path) is now gitignored by the scaffold.
+
+## [1.8.44] — 2026-07-22
+
+Publish tool 1.11.17. Publish-site setup is now preflight-first and
+Cloudflare-default.
+
+### Changed
+
+- publish-site first-time setup is now preflight-first and Cloudflare-default:
+  `gm-publish doctor` clears missing tools/credentials before anything is
+  built, Cloudflare Pages is the recommended host with a token-only
+  credential dance (Account ID auto-derived), setup resumes from
+  `publish.setup_progress` if interrupted, and the flow verifies the
+  deployed URL is actually live before declaring success. GitHub Pages
+  remains fully supported.
+
+## [1.8.43] — 2026-07-21
+
+Publish tool 1.11.17. `gm-publish doctor` preflight + Cloudflare credential setup.
+
+### Added
+
+- `gm-publish doctor` — a preflight subcommand that checks Node ≥22, git, and
+  (per host) `gh` or `wrangler` including auth state, with an exact one-line fix
+  for each miss and a `--json` mode the publish-site skill can act on.
+  `doctor --set-cloudflare-creds` reads a Cloudflare API token from stdin and
+  writes it (plus the auto-derived Account ID from `wrangler whoami`) into the
+  correct shell file for the OS/shell — `~/.zshenv`, `~/.bashrc`, or Windows
+  `setx` — without ever echoing the token.
+
+## [1.8.42] — 2026-07-21
+
+Publish tool 1.11.16. Backend-capability flags + graceful-hide of optional UI.
+
+### Added
+
+- `vault.config.json` gains a `backend` block with `statusBar` and `inbox`
+  flags. The published site now renders the live status bar / status panel /
+  party board only when `statusBar` is on, and the change-request chatbox only
+  when `inbox` is on. New sites scaffold with both off (a static, Tier-1 site);
+  existing deployed sites with no explicit flags auto-detect each capability
+  from their Cloudflare Functions plus a real KV namespace id, so their UI is
+  unaffected by the upgrade.
+
+### Fixed
+
+- Static sites no longer ship a change-request chatbox that 404s on submit, nor
+  a live status bar / party board with no backend behind it. Each optional UI is
+  now emitted only when its corresponding backend flag is enabled — nothing dead
+  is rendered.
+
+---
+
+## [1.8.41] — 2026-07-21
+
+Ports the mobRPG node schema into the shipped entity schema and settles the
+`mobrpg:` node as the single source of truth for mobRPG sync — the sidecar
+crosswalk is retired.
+
+### Added
+
+- **`mobrpg:` node schema** documented in `skills/shared/entity-schema.md`: the
+  machine-managed, regenerable sync ledger the `mobrpg` CLI writes for entities
+  synced to a mobRPG world (identity anchors, `review_state`, `content_hash`,
+  `determined` classifiers, reified-Event relationship ids). Never
+  hand-authored; top-line frontmatter stays the source of truth. Registered as
+  a `1.8.40 → 1.8.41` migration.
+
+### Changed
+
+- **mobRPG CLI (`tools/mobrpg/`) resolves all element/event ids from
+  the vault's own `mobrpg:` nodes** — the sole source of truth. `suggest` drops
+  `--crosswalk` and the packaged default; `images` derives its id→file map from
+  nodes.
+
+### Removed
+
+- **The legacy sidecar crosswalk and every path that read it.** Removed the
+  `backfill` and `sync` verbs, the packaged `canticle-regency-crosswalk.json`,
+  and all `--crosswalk` inputs. The hand-vendored crosswalks had drifted (wrong
+  ids/kinds/paths) and were never tied to the ontology; nodes replace them.
+
+## [1.8.40] — 2026-07-21
+
+Publish tool 1.11.15. Documents index grouped by character (#96).
+
+### Added
+
+- The **Documents** section index now groups handouts into headed sections, one per character the document concerns — mirroring the Factions/Locations grouped-listing pattern instead of falling through to a flat A–Z card grid. The grouping key is frontmatter `about` (narrative handouts) or `practitioner` (mechanical/reference cards), resolved from a `[[wiki-link]]` to a plain name; documents with neither land in a trailing **Other Documents** group. Character groups sort alphabetically, "Other" always last, cards alphabetical within a group. Reuses the existing `intel-section`/`card-grid` styling, so no CSS changes (#96).
+- `documents` section-title key for the genre presets — scifi "Files & Dossiers", military "Dossiers & Records", horror "Documents & Evidence", fantasy "Records & Correspondence" — with an explicit `section_titles.documents` override winning over the genre default (#96).
+
+### Fixed
+
+- Grouped index filtering: when the name filter hides every card in a group, the group's heading now collapses too instead of lingering over an empty grid (#96).
+
+The relationship-ontology cluster: land the ontology, enforce it, author against it.
+
+### Added
+
+- `skills/shared/gm-apprentice-ontology.json` — the reconciled relationship-ontology export (77 predicates + the mobRPG projection: `mobrpg_event_type` and `mobrpg_relation_type`), landed on main from the previously-gitignored prototype directory. `entity-schema.md` is the authoritative vocabulary; this export is generated from it (#124).
+- `scripts/validate_ontology.py`, wired into CI — fails the build if the predicate set in `entity-schema.md` and the ontology export ever diverge, or if a predicate's mobRPG mapping falls outside the declared enums. This is the drift check the three-copies problem needed (#123).
+- `skills/shared/relationship-normalization.md` — one narrative-verb → sanctioned-predicate and inverse-normalization table (`owned_by A→B` ⇒ `owns B→A`), shared by the skills that write relationship edges and the QA pass that repairs them.
+
+- Relationship-writing skills now author `type:` from the controlled vocabulary instead of freeform-inventing predicates (which left ~a third of a real vault's edges off-ontology and pushed junk Generic nodes to mobRPG): session-wrapup, session-play, the-midwife handoff, and campaign-organizer's repair path all point at `_meta/relationship-types.md` + the normalization map (#120).
+- campaign-qa graph-health gains a strict **vocabulary-conformance** check — off-vocabulary, inverse-stored (wrong-direction), blank/malformed, and non-entity-target edges — separate from the existing vagueness/duplication checks (#120, #123).
+- `entity-schema.md` now documents the authority relationship (schema is the source of truth; the JSON export is generated) and resolves the Sequencing question. Narrative sequencing is not a relationship predicate — it is **node-based flow** (Alexandrian node design / Twine's passage graph), modelled as a **`leads_to` frontmatter field** (an array of wiki-links; two or more targets is a branch). The Clue type already carried `leads_to`; this adds the same field to the **Plan** type (schema, `plan.md` template, `validate_schema.py`, and a migration converting legacy `precedes`/`alternative_to`/`leads_to` sequencing edges onto it). session-prep reads it to find the next plan node(s)/branches. `precedes` folds into `leads_to`; `alternative_to` is emergent from multiple targets — neither is a predicate or a field.
+
+---
+
+## [1.8.38] — 2026-07-20
+
+Publish tool 1.11.14. A publish-site bug-sweep.
+
+### Fixed
+
+- Inbox CLI crashed the whole `inbox pull` on any absent/orphaned KV key: wrangler's missing-key 404 embeds the REST endpoint URL (`.../storage/kv/namespaces/<id>/values/<key>`), and the `namespaces` substring tripped the `namespace` operational signal, so every missing key threw instead of returning `null`. A single TTL-reaped or orphaned `config:req-index` id then took down the entire at-table request queue. The error is now classified on the human-readable prose only (URLs stripped first), and a regression test covers the missing-key-404 case (#118).
+- GURPS PC renderer: the Ranged Attacks table now surfaces the current skill level the way Melee does — the trailing to-hit number is wrapped in `<span class="wp-tohit">` and each row carries `data-weapon-key`, and `buildWeapons` feeds ranged weapons into the live to-hit map (parry stays `null` for them). Ranged to-hit was previously inert on every sheet; no client change was needed (#119).
+- A played session/chapter present in the vault but absent from `_meta/publish-manifest.md` silently never published (the manifest is an allowlist and session-wrapup never registers the files it writes), so the landing "Latest Session" block pointed at the previous session while showing the new date. The build now warns on a `session`/`session_wrap`/`chapter` file that is in neither the manifest's Publishing nor Excluded list — the manifest parser now also reads the Excluded section, so a deliberate exclusion is not mistaken for an oversight (#101).
+- GURPS Load-Outs: the `### Load-Outs` feature had no PC-template guidance and no migration, so legacy sheets used ad-hoc equipment sections that silently rendered nothing. Documented a worked `### Load-Outs` example in `pc-gurps-4e.md`, added a migration to detect and convert/flag legacy equipment sections, and hardened the load-out-name parser so bold inside a table cell can no longer be read as a load-out name (#106).
+- CoC investigator sheet: a legacy sheet whose body structure diverges from the documented contract parsed to a near-empty model and rendered mostly blank with no signal. The build now warns when a CoC PC parses no characteristics, and a migration detects divergent sheets to convert or flag (#107).
+
+### Added
+
+- Scene skeleton gains a **Behaviours** field — what the situation and its NPCs do on their own, independent of the players, and how it escalates if the PCs do nothing ("what happens here if they never show up?"). This is the load-bearing element of situation-based design that our operational scene template had distilled away: the reference layer already taught it (Sly Flourish's situation checklist, the Alexandrian's proactive nodes, PbtA Fronts' clocks — all attributed), but the `## Planned Scenes` skeleton the GM fills in only captured how a scene opens (Slice A's situation objective + named initiator) and how players branch, never the engine that runs regardless of player choice. It is the durable form of the failure report's RC1 fix ("an engine that runs entirely on NPC behaviour and survives any player choice"). Added to the `## Planned Scenes` skeleton and the standalone scene-note template in `session-prep/references/session-templates.md`, and as a craft rule in session-prep step 14.
+- Scene skeleton also gains a **Complications** field — the 2–3 curveballs a GM holds ready to spike tension (a rival arrives, a PC is recognised, the timer is discovered), distinct from Behaviours (the situation's default motion) and Branching (the players' own choices). The standalone scene-note template already had a `## Complications` section; the operative `## Planned Scenes` skeleton did not, so it only half-carried Sly Flourish's five-field situation checklist (Location · Inhabitants · Behaviours · Goal · Complications). Together with Behaviours this completes that mapping in the skeleton the GM actually fills.
+- No new sources for either field — Sly Flourish, The Alexandrian, and Fronts (Apocalypse World) are all already in `ATTRIBUTION.md`.
+
+---
+
+## [1.8.36] — 2026-07-19
+
+### Changed
+
+- Session-plan quality guardrails (failure-report Slice C, reframed): the failure report's RC5 (a table-note claim laundered into an AUTHORITATIVE file) and RC6 (a plan trusting its own stale PC-state snapshot) are one problem — the plan mints a private copy of authority and then trusts the copy. The fix is single-source-of-truth plus one human checkpoint, not perpetual re-verification. session-prep step 12 no longer re-reads each PC's `## Current Status` (already carried by the `session_context.py` bundle; the durable arc/backstory data still gets a targeted read) and now writes `## PC Roster & Arcs` by **reference, not copy** — mutable state points at the PC's live `## Current Status` instead of transcribing a snapshot that goes stale. session-wrapup gains a **cross-entity claim checkpoint**: an incidental aside in table shorthand about a *different* existing entity is surfaced for a one-time GM confirm or marked `<!-- UNVERIFIED -->` (which `reconcile` already gates on), rather than silently folded into that entity's file. Recommendations 7, 8, and 10 as originally written are withdrawn (re-read/distrust is a token sink and does not catch an error that lives inside an authoritative source). Edits in `session-prep` and `session-wrapup`.
+
+---
+
+## [1.8.35] — 2026-07-19
+
+### Changed
+
+- session-prep now draws the session out of the GM instead of generating it: a new up-front Session Intent step, an elicited Intent → Spotlight → Scenes sequence (seeds to react to, propose-before-write at the premise, not the finished scene), and a stance preamble transplanted from the-midwife ("spark, shape, refine, never decide for them").
+- session-prep's Verify half is now assistance, not enforcement — the apprentice silently fixes table pipes, offers a clock for multi-day plans, and raises only real read-aloud issues conversationally; the GM never sees an ERROR/WARNING report.
+- Scene length is now earn-your-length with a soft ~1,200-word bloat nudge, replacing the fixed 400-600-word per-scene cap (`scenario-writing.md`, session-prep step 15). Preamble (~1,000-word) and recap (≤150-word) caps stay.
+- `vault_check.py` gains `tables`, `timeline`, and `read-aloud` checks reworked for the assistance model: `timeline` is an INFO cue (offer to build a clock), and the high-precision read-aloud blockquote signal replaces the dropped noisy plan-wide agency PC-subject scan.
+
+### Added
+
+- `## Session Intent` and `## Open Questions` sections in the session-plan template; a hard guard so headless / "just do it" runs cannot silently produce a creative spine (they stop-and-ask or file the spine under Open Questions marked apprentice-guessed); and a light resumable-prep marker so interrupted weekly prep resumes without re-asking.
+
+---
+
+## [1.8.34] — 2026-07-19
+
+### Changed
+
+- Session-plan quality guardrails (failure-report Slice A): scene objectives are now framed as situations rather than authorial theses, and every scene must name the NPC or schedule that initiates it ("why would this PC go there"); added a 400-600-word per-scene budget and a ~1,000-word preamble cap enforced by the session-prep audit; banned self-documentation (edit-history notes) in session plans; reframed the player-agency rule as scene engineering (a PC-predicted engine is fragile) alongside the ethics framing; and made "no pipe inside a markdown table cell" a hard formatting rule. Edits in `session-prep`, `ttrpg-expert` (`scenario-writing.md`, `continuity-engine.md`), `shared/session-principles.md`, and `docs/file-format-standards.md`.
+
+---
+
+## [1.8.33] — 2026-07-19
+
+Publish tool 1.11.12.
+
+### Fixed
+
+- Cloudflare Pages Functions added or fixed in a newer plugin version never reached sites scaffolded before they existed: `init` copies them once and refuses to run over an existing site, and neither `build` nor the version repoint touched `functions/`. Sites therefore 404'd on new API routes (e.g. `/api/loadout-list`). `build` now syncs the plugin-owned scaffold Functions into the site on every run — copying missing files and overwriting stale ones to match the running plugin version (byte comparison, so an in-sync site produces no churn) (#115).
+
+---
+
+## [1.8.32] — 2026-07-19
+
+Publish tool 1.11.11.
+
+### Fixed
+
+- CoC investigator-sheet crest/seal (`publish.sheet_crest`) never rendered: the config loader's field-by-field allow-list silently dropped the key, so it never reached the renderer. `loadPublishConfig` now carries `sheet_crest` (publish block first, then the `vault.config.json` fallback), and it is documented in the publish-site configuration reference (#112).
+
+---
+
+## [1.8.31] — 2026-07-18
+
+Publish tool 1.11.10.
+
+### Added
+
+- Read-only CoC investigator party board on the roster page: per-PC HP/SAN/MP/Luck, DEX, optional Reputation (Regency), and the five condition badges. Reuses the roster-index/`getStates` fan-out and the 60s adaptive poller (no `kv.list`). The party board is now system-aware via a shared spine (`js/party-core.js`) + per-system skins dispatched by `lib/party-board-registry.js`.
+
+---
+
+## [1.8.30] — 2026-07-18
+
+Publish tool 1.11.9.
+
+### Added
+
+- `flush` command: writes each player's current KV live-state (HP/MP/SAN/Luck, Reputation, and Status conditions) back into the CoC vault sheets, keeping the build-time fallback seed fresh past KV's 30-day TTL. Run automatically when the change-request loop stops, or ad hoc; idempotent, edits vault source only (no rebuild/deploy). Skill experience ticks are left for Advancement.
+
+---
+
+## [1.8.29] — 2026-07-18
+
+Publish tool 1.11.8.
+
+### Added
+
+- Shared live-state store (`js/live-state.js`) that persists per-device sheet
+  state to Cloudflare KV with a localStorage fallback, behind one opaque-blob
+  interface reused by every system's live client.
+- Call of Cthulhu investigator sheet live tracking: HP/MP pips, SAN/Luck/
+  Reputation steppers, condition chips, and per-skill experience ticks now
+  persist and restore across reloads (`js/coc-live.js`).
+
+### Changed
+
+- Unified live-state persistence across systems: current state now lives in KV,
+  with localStorage and then the vault's authored values as fallbacks, and is no
+  longer discarded on a site rebuild. The GURPS live client and party board were
+  migrated onto the shared store, so a stale-build member now shows current KV
+  values rather than authored defaults.
+
+---
+
+## [1.8.28] — 2026-07-18
+
+Publish tool 1.11.7.
+
+### Fixed
+
+- GURPS party board no longer exhausts the Cloudflare KV free-tier list quota.
+  The board polled `/api/loadout-list` every 5 seconds and that endpoint ran a
+  `kv.list()` on every poll; the free tier allows only 1,000 list operations per
+  day, so a single open party-board tab drained the day's quota in about 1h23m
+  (after which the board silently stopped updating until UTC midnight). The
+  loadout Functions now maintain a per-campaign `roster:<campaignId>` index on
+  write and read party state with plain `kv.get()` calls — **zero `kv.list()`** —
+  and the board polls every 60 seconds only while a game is actively running
+  (activity = a player edit advancing state, a keypress/pointer press, or the tab
+  becoming visible), going dormant after 15 idle minutes and never fetching while
+  the tab is hidden. Migration is self-healing and needs no backfill: the roster
+  starts empty and each player is registered the first time they save (the roster
+  key's TTL is refreshed on every save so it never expires under an active
+  party); pre-existing per-player keys stay valid.
+- Change-request inbox no longer runs a `kv.list()` on every poll of the GM
+  loop. `readPending` now reads a single `config:req-index` key and fetches each
+  request by id; `enqueue` maintains the index. The index is seeded once from a
+  single `kv.list()` the first time it is missing, so a site upgraded from an
+  earlier deployment recovers any in-flight pending requests without losing them,
+  and never lists again afterwards.
+- **Existing deployed sites keep running the old, quota-burning Functions until
+  updated** — re-copy `functions/api/loadout-core.mjs`, `functions/api/loadout.js`,
+  `functions/api/loadout-list.js`, `functions/api/inbox-core.mjs`, and
+  `js/gurps-party.js` from the scaffold and redeploy (see the Cloudflare Pages
+  guide). Closing the party-board tab stops the loadout burn immediately in the
+  meantime.
+
+---
+
+## [1.8.27] — 2026-07-18
+
+Publish tool 1.11.6.
+
+### Added
+
+- CoC 7e investigator sheet: the publish tool now renders Call of Cthulhu PCs as
+  an authentic Regency-parchment dossier (the CoC analogue of the GURPS sheet).
+  It reads the PC's body tables into a structured model and shows the full
+  alphabetical skill list (Regular / ½ / ⅕, always complete, untouched skills at
+  their base default), a live status bar (HP/MP pip tracks, Sanity bar with
+  starting marker, Luck/Reputation steppers, and the five condition chips), folio
+  tabs (Character Sheet / Investigator's Record / Equipment & Wealth / Story /
+  Journey), a backstory strip drawn from the Background section, a portrait
+  cameo, and a configurable Order crest. The masthead era line shows the
+  campaign's `setting_year`. Interactive controls (pips, steppers, chips,
+  experience boxes) respond locally this release; persistence and recompute
+  follow in a later release.
+
+### Changed
+
+- Change-request widget (all PC sheets): the correspondence history now opens in
+  a modal dialog (backdrop / Esc / click-away to close) instead of an inline
+  panel, and the compose box stays collapsed until asked for. On CoC pages the
+  modal picks up the parchment styling; other systems get a neutral modal.
+
+---
+
+## [1.8.26] — 2026-07-17
+
+Publish tool 1.11.5.
+
+### Changed
+
+- Change-request widget (PC sheets): the message box is now large by default
+  (~8rem, ~9rem on phones) with the browser's native drag-resize handle, the
+  fiddly slim expand/contract button is gone, and the Send button is a proper
+  tap target (full-width on mobile). The chat-history button ("💬 History") is
+  now always visible instead of only appearing once a device already has
+  messages, so players can find past replies on a fresh phone.
+- Change-request message box now uses the theme's card surface and text colours
+  (`--bg-card`/`--text`) instead of a hardcoded white background, so typed text
+  is readable on dark genre themes.
+- GURPS party board (GM screen) redesign: character portraits now render as
+  circular thumbnails (initials fallback); Basic Speed — the initiative sort
+  key — is its own column and the redundant rank/number column is gone; Move
+  shows current/basic (e.g. `3/6`) so encumbrance/condition loss is visible at a
+  glance. The board still auto-refreshes from live KV state.
+
+### Fixed
+
+- GURPS party board: HP and FP collapsed into a single cell because the status
+  panel's `.gl-vital { display: inline-flex }` rule also matched the board's
+  `<td class="gl-vital">` cells, knocking them out of the table's column layout.
+  Scoped that rule to the status panel (`.gl-vitals .gl-vital`) and the
+  min-width rule to `.gl-party-table .gl-vital`.
+- GURPS party board: portrait thumbnails rendered as a clipped sliver because
+  `height: 100%` didn't resolve against the avatar's `display: grid` track. The
+  thumbnail wrapper is now a plain block so the image fills the circle.
+
+- GURPS status panel: the REELING and TIRED badges (and the effects row) were
+  permanently visible even at full HP/FP. They are rendered with the `hidden`
+  attribute and toggled by the live client, but the author `.gl-badge { display:
+  inline-block }` rule outranked the user-agent `[hidden] { display: none }`, so
+  `hidden` never took effect. Added a `[hidden] { display: none !important }`
+  safeguard for the live-toggled panel elements; badges now show only when a PC
+  is actually below ⅓ HP (Reeling) or ⅓ FP (Tired).
+
+## [1.8.25] — 2026-07-16
+
+Publish tool 1.11.4.
+
+### Added
+
+- GURPS live GM dashboard (SP3): the PC roster page now leads with a read-only,
+  initiative-ordered party-status board showing every GURPS PC's current HP/FP
+  and condition-adjusted Move/Dodge/ST with Reeling/Tired badges, auto-refreshing
+  (~5s) from the Cloudflare KV `loadout:` keys via a new read-only
+  `/api/loadout-list` Function. Reuses the SP1/SP2 recalc math; writes nothing.
+
+## [1.8.24] — 2026-07-15
+
+Publish tool 1.11.3.
+
+### Added
+
+- GURPS PC sheets — live in-session HP/FP with condition penalties: players edit
+  current HP and FP in a persistent status panel above the tabs, and the sheet
+  derives Reeling (current HP below ⅓ max → halve Move and Dodge) and Tired
+  (current FP below ⅓ max → halve Move, Dodge, and ST), rounded up and cumulative
+  when both apply. The halved Move/Dodge/ST update everywhere they appear, and a
+  before → after delta line plus Reeling/Tired badges show only while a condition
+  is active. HP/FP persist per player alongside the loadout (Cloudflare KV +
+  localStorage). ST-based quantities (Basic Lift, encumbrance, damage) are not
+  cascaded, per RAW.
+
+### Changed
+
+- The GURPS inline status pips (previously rendered twice, in the Character Sheet
+  and Combat tabs) are replaced by a single persistent status panel above the tab
+  bar.
+
+## [1.8.23] — 2026-07-13
+
+Publish tool 1.11.2.
+
+### Added
+
+- GURPS PC sheets — live in-session equipment loadout: players toggle gear on/off
+  and Move, Dodge, encumbrance level, skill levels, and weapon to-hit/Parry
+  recalculate instantly in the browser. Move and Dodge update everywhere they
+  appear on the sheet — the Attributes block, the status line, the Combat defense
+  chips, and the encumbrance readout (shown as current / base) — so no stat is
+  left frozen. Toggle state persists to Cloudflare KV (`/api/loadout`) with a
+  localStorage cache and a Reset control.
+
+### Fixed
+
+- `ENC_PENALIZED_SKILLS` now includes the fencing skills (Rapier, Saber,
+  Smallsword, Main-Gauche), which take a penalty equal to encumbrance level.
+
+## [1.8.22] — 2026-07-12
+
+### Changed
+- The change-request loop now trusts the player by default: XP grants and
+  narrative edits always apply, and a player can push an unaffordable change
+  through by adding "GM said OK" (or "do it anyway") — the change applies with
+  Unspent Points shown as a deficit, and every override is logged to the GM's
+  terminal. Ambiguous requests still ask which was meant. The widget hints at
+  the override.
+
+## [1.8.21] — 2026-07-12
+
+### Added
+
+- Two-way comms on the change-request channel: players can ask questions and get
+  a brief, player-safe answer, and every message now returns a response to a
+  per-device chat log (💬) on the sheet — including a plain-language explanation
+  (with point math) when a change can't be applied. The widget reloads only when
+  a change actually applied; advice and refusals update the log without a reload.
+
+### Changed
+
+- Widget input shows its example as helper text (not a placeholder), with a
+  roomier, resizable box. The mobile back-to-top button is centered and more
+  transparent.
+
+## [1.8.20] — 2026-07-12
+
+### Added
+
+- At-table player change requests. Players submit natural-language character-sheet
+  edits from the published site via a collapsed request bar on each PC page (the
+  character sheet render itself is unchanged), gated by a 4-character session code
+  remembered for 72 hours, with the page auto-refreshing when a change goes live.
+  A Cloudflare Pages Function validates the code and queues requests in KV; new
+  sites scaffold the Function and a `wrangler.toml` KV binding automatically.
+- publish-site "start your checking loop" workflow: a dedicated, unattended session
+  that drains the request queue on a self-paced ~60s loop, applies clean GURPS 4e
+  edits to the vault (validated against ttrpg-expert's point-cost references),
+  batches one rebuild + redeploy per tick, marks requests handled only after a
+  successful deploy, and flags edge cases for the GM. GURPS 4e for this release.
+
+## [1.8.19] — 2026-07-10
+
+Publish tool 1.11.1.
+
+### Added
+
+- **Cloudflare Pages as an alternative deploy target.** A new `host`
+  field in `vault.config.json` (`github-pages`, the default when absent,
+  or `cloudflare-pages`) selects where the site is deployed. The built
+  `docs/` folder is identical for both, so only the final step differs:
+  GitHub Pages keeps using `git push`; Cloudflare uses
+  `wrangler pages deploy docs/`. publish-site's routine-update deploy
+  branches on `host` and, for Cloudflare, checks credentials with
+  `wrangler whoami` first and degrades gracefully — if the token isn't
+  set up or the deploy fails, it points the GM at the setup guide rather
+  than surfacing a raw error. New `references/cloudflare-pages.md` covers
+  creating a least-privilege API token, saving it in `~/.zshenv` (not
+  `~/.zshrc`, which non-interactive deploys skip), the first deploy,
+  custom domains, and troubleshooting. The setup wizard gains a
+  host-selection step; `docs/publish-tool.md` compares the two hosts. The
+  build warns when `host: cloudflare-pages` is paired with a leftover
+  `github.io` `siteUrl` (which would break the 404 page). GitHub Pages
+  behaviour is unchanged, and the two hosts can run in parallel.
+
+## [1.8.18] — 2026-07-10
+
+Publish tool 1.11.0.
+
+### Added
+
+- **Section index banners.** `publish.banners` attaches a hero image or a
+  clickable map to the top of a section index, or a conventional
+  `_banner.*` file in the section's vault folder is picked up with no
+  config at all. An SVG with no click-through target is inlined, so its
+  internal `<a>` elements stay live — a star map whose nodes link to
+  entity pages keeps working, which an `<img>` could not do and an outer
+  anchor would have swallowed. A banner declaring a `link` renders as an
+  `<img>` inside an `<a>` instead. Assets copy to `docs/images/banners/`;
+  a path resolving outside the vault, or a missing file, warns and is
+  skipped rather than failing the build. Assets are namespaced by section
+  (`docs/images/banners/<section>/`), since the conventional `_banner.*`
+  filename is identical in every section folder. (#95)
+
+## [1.8.17] — 2026-07-09
+
+Publish tool 1.10.0.
+
+### Added
+
+- **Opt-in WebP image optimization.** `publish.images.optimize` re-encodes
+  PNG/JPEG attachments to WebP as they're copied, resizing to
+  `max_width` (default 1600) at `quality` (default 82). On a
+  portrait-heavy vault this cut 164 MB of images to 11 MB. The pass runs
+  before any page renders, so the swapped extension flows into `<img src>`
+  at emission time rather than being rewritten into generated HTML
+  afterwards. Requires the `cwebp` binary; without it the build warns and
+  copies originals. Images that would grow when re-encoded keep their
+  original bytes. (#91)
+- **Pivot grouping for the Locations index.** `publish.locations.group_by`
+  gives each matching `location_type` — a star system, say — its own
+  section, instead of one deep tree rooted at a single political node. The
+  scaffolding above the pivot collapses into a context caption; every
+  location below it stays a first-class row with its own thumbnail and
+  type badge, children nested beneath it. Locations outside any pivot
+  collect under `ungrouped_label`. Defaults on for the `scifi` genre, and
+  falls back to the flat view when fewer than two locations match. (#93)
+
+### Fixed
+
+- **`css/overrides.css` is now wired into the build.** `gm-publish init`
+  scaffolded it, but nothing copied or linked it, so the one file that
+  looked like the customization seam did nothing — and `theme.css`, the
+  only file that would have worked, is regenerated every build. It is now
+  copied into `docs/css/` and linked last in `<head>`, after `theme.css`
+  and the genre overlay, so site rules win the cascade. Sites without one
+  emit no link tag. (#92)
+- **Portraits resolve through the scanner's image map.** `portraitImg`
+  built its output path from the `portrait:` frontmatter string, so a
+  `portrait:` that omitted its subdirectory pointed at a file the build
+  had copied elsewhere.
+
+## [1.8.16] — 2026-07-09
+
+Publish tool 1.9.0. Fixes the eight open publish-site issues.
+
+### Added
+
+- **Obsidian callouts render as styled callouts.** `> [!type] Title`
+  blockquotes become `<div class="callout callout-{type}">` with a title
+  row, instead of leaking the literal `[!type]` marker as body text. A
+  shared markdown renderer (`lib/markdown.js`) now backs both the page
+  and index-page renderers. (#86a)
+- **Aggregate `characters/index.html`.** The homepage "Characters" card
+  pointed at a page that was never generated; the index now exists and
+  lists PCs and NPCs together. (#84)
+- **Warning for unmatched manifest entries.** A Publishing entry that
+  resolves to no scanned vault file now prints a warning instead of
+  silently dropping the page. (#80)
+
+### Fixed
+
+- **HTML comments no longer reach the published site.** `<!-- ... -->`
+  was HTML-escaped and printed as visible body text, leaking private
+  authoring notes (including "needs GM confirmation" flags) onto
+  player-facing pages. Comments are now stripped before render, outside
+  fenced code blocks, with a warning on an unclosed comment. (#85)
+- **Manifest Publishing entries tolerate inline comments.** `- [x] path
+  — note` silently published nothing, because the whole line was matched
+  against the vault path. The comment is now stripped, matching how the
+  Excluded section is annotated. (#80)
+- **Image embeds render as images.** `![[Some Image.png]]` produced a
+  markdown link with an unencoded space, which markdown-it could not
+  parse, so it fell through as literal text and the typographer rewrote
+  the leading `../` into `…/`. Destinations are now percent-encoded, in
+  embeds and in portrait `src` attributes alike. (#86b)
+- **Wikilinks in frontmatter fields resolve.** `summary:`, `occupation:`
+  and friends leaked literal `[[…]]` while the same links resolved in
+  body prose. (#86c)
+- **Inline embeds are deduped against the frontmatter portrait.** An
+  `![[X.png]]` embed that resolves to the page's `portrait:` is skipped,
+  so authors can keep the embed for Obsidian's reading view without
+  publishing the image twice. (#88)
+- **Pull-quote excerpts are sanitized.** They no longer include section
+  headings, raw image markdown, HTML comments (whole or truncated), or
+  callout markers, and de-linking a wikilink no longer leaves a stray
+  space ("Magellan 's"). (#87)
+- **Timeline nav link and `events/` redirect point at the real page.**
+  Both hard-coded a root `timeline.html` that is only written when dated
+  events exist; with an authored timeline elsewhere (e.g.
+  `campaign/timeline.html`) the global nav dangled on nearly every page.
+  The target is now computed once, and `events/` gets a real index when
+  no timeline exists at all. (#83)
+- **The NPC listing's session filter no longer treats `lastUpdated` as a
+  session.** It fell back to that field when `asOfSession` was empty, so a
+  maintenance date (`2026-07-05`) appeared in the "filter by session"
+  dropdown and was sorted against `Session N`. An entity with no
+  `asOfSession` is simply not session-filterable, and an ISO date written
+  directly into `asOfSession` is ignored. (#89)
+- **GURPS `parseTechniques()` no longer merges sub-tables.** Descriptive
+  helper tables under a `###` subheading were force-fit into the
+  Name/Default/Lvl/Pts grid. Techniques, Skills and Spells now read only
+  tables above the first subheading. (#82)
+- A missing image embed no longer emits a visible `<!-- image not found -->`
+  paragraph; it is dropped, with a build warning.
+- PC sheets resolve image embeds before wikilinks, so an `![[image.png]]`
+  on a character sheet is no longer flattened to literal text.
+- A non-image transclusion (`![[Some Note]]`) degrades to a link instead
+  of becoming an `<img>` whose `src` points at an HTML page.
+- `world_domain` pages render their `portrait:` frontmatter, which every
+  other entity template already did.
+- Unclosed `<!-- gm-only -->`, `<!-- spoiler -->` and comment markers now
+  print the build warning they always recorded; it was being discarded.
+- `<!-- ... -->` inside a `~~~` fenced block containing a nested ```` ``` ````
+  line is no longer stripped.
+
+### Changed
+
+- The NPC listing's last column is now headed **As of Session** rather than
+  "Last Updated". It always showed `asOfSession` first and was sorted and
+  filtered as a session; the header was the part that was wrong.
+- Pull-quote excerpts derive from a page's published markdown rather than
+  from its rendered HTML — the same source backlinks, search and recency
+  already read, and the reason the sanitization above is not a regex pass
+  over the renderer's own output. `publishedSource()` is now a single
+  shared helper instead of four near-identical copies.
+
+## [1.8.15] — 2026-07-09
+
+### Added
+
+- **Pathfinder 2e (Remaster) system support** — new
+  `systems/pf2e/` knowledge base for ttrpg-expert, sourced
+  entirely from ORC-licensed material (Player Core, Player
+  Core 2, GM Core, Monster Core, Monster Core 2) with all
+  descriptive text paraphrased. Core five files (mechanics,
+  character generation, rules reference, session procedures
+  with DC/encounter-XP/treasure GM math tables, character
+  sheet) plus index+shard fan-outs: spells by rank
+  (cantrips + ranks 1-10, ~408 Player Core spells), monsters
+  by level band (243 curated Monster Core creatures across
+  6 shards), feats by category (general+skill, ancestry,
+  class, archetype), all 24 ORC-remastered classes,
+  ancestries/heritages/backgrounds, all 43 conditions, and
+  Player Core equipment. Routed through ttrpg-expert
+  SKILL.md/INDEX.md and session-play; `pf2e` added to the
+  publish `system` enum; PF2e tone row in shared-patterns.
+- **PF2e PC sheet template** (`skills/shared/templates/pc-pf2e.md`)
+  — Remaster attribute modifiers, TEML skill ranks, hero
+  points, spellcasting by rank, invested items, and the
+  standard Current Status block.
+- **PF2e character sheet renderer** (publish tool 1.8.0) —
+  `pc-pf2e.js` renders attribute cards, skill-rank pills,
+  class features, hero points, and spell slots by rank;
+  registered for `pf2e`, `pathfinder-2e`, and `pathfinder`
+  system identifiers, with unit tests.
+- **PF2e benchmark questions** — five routing/quality probes
+  in `tests/benchmark-questions/ttrpg-expert.md`.
+- **PF2e ORC attribution** — ORC Notice and per-book
+  attribution recorded in `ATTRIBUTION.md`; personal
+  reference directory gitignored at
+  `systems/pf2e/personal/`.
+
+---
+
+## [1.8.14] — 2026-07-08
+
+### Fixed
+
+- **GURPS Techniques level renders from `Base`/`Current` columns**
+  (publish tool 1.7.1) — the Techniques table parser now resolves the
+  displayed level with the same column priority as Skills
+  (`Current` > `Effective` > `Base` > `Level`), so sheets using the
+  1.8.12-style header no longer publish a blank `Lvl` cell. The
+  Skills, Techniques, and Spells table parsers now share one
+  column-resolution helper so they can't drift apart, and the
+  frontmatter paths for all three share a matching level fallback
+  (`current` > `level` > `effective` > `base`, skipping blank
+  values). Legacy `Effective`/`Skill Level` sheets are unaffected.
+  (#78)
+
+---
+
+## [1.8.13] — 2026-07-07
+
+### Added
+
+- **`scifi` theme preset** (publish tool 1.7.0) — worn space-noir:
+  rust-black background, K-star amber accent, terminal cyan secondary,
+  condensed technical headings, with a light "station work order"
+  variant. Aliases: `sci-fi`, `science-fiction`, `space`,
+  `space-opera`, `space-noir`. Section titles: "Star Charts" /
+  "Powers & Interests" / "Hardware & Equipment" / "Xenofauna".
+- **Theme showcase** — `scripts/build-theme-showcase.mjs` builds the
+  benchmark campaign once per preset; a new Pages workflow publishes
+  the gallery on pushes to main.
+- **NPC table avatars** — the NPC listing's Name column shows portrait
+  thumbnails with an initials fallback; sorting is unaffected.
+
+### Fixed
+
+- **Location card excerpts** no longer render raw markdown and can
+  never surface excluded-section (GM Notes) content — location
+  sub-location cards and the location/NPC/PC pull-quotes route
+  through one shared helper that also truncates cleanly at word
+  boundaries with an ellipsis.
+- **Locations index renders the full hierarchy** — deep trees (depth
+  ≥ 2) now appear recursively inside their root cards instead of being
+  silently dropped; children of unpublished parents still float up as
+  roots, and empty region headings are gone.
+- **Relationship graphs exclude index pages** — authored section
+  indexes (e.g. `_World/index.md`) no longer wire every entity into
+  one hub.
+
+## [1.8.12] — 2026-07-06
+
+### Added
+
+- **GURPS skill-level verification** — `gurps_check.py` gains a
+  `skills` check: point cost + difficulty → relative level via the
+  B170 closed form (WARNING on mismatch), attribute + relative level
+  → Base (INFO residual — a Talent may explain), and a naive Current
+  tripwire (Base − enc level for Climbing/Stealth/Swimming/Judo/
+  Karate, INFO with an Armor Familiarity MA49 hint). The script
+  computes closed-form arithmetic only; perk and Talent
+  reconciliation belongs to the model's verification pass.
+- **Skills table Base/Current columns** (migration 1.8.11 → 1.8.12)
+  — the GURPS PC template's Skills table renames `Effective` →
+  `Base` and appends `Current` (what you roll now under the declared
+  `Enc:`). Old-format sheets keep working in both the checker and
+  the publish tool.
+- **Publish tool 1.6.1** — renders `Current` as the displayed skill
+  level with `base N` alongside when they differ.
+
+### Changed
+
+- GURPS character-generation and character-sheet references extend
+  the verification loop with a reconciliation pass: resolve `skills`
+  residuals against the sheet's Advantages & Perks and Talents
+  before escalating to the GM.
+
+## [1.8.11] — 2026-07-06
+
+### Added
+
+- **Portrait thumbnails on listing cards** (publish tool 1.6.0) — the
+  Locations and Factions index pages now render a thumbnail when an
+  entity has a `portrait:`, with text-only fallback; the generic
+  character card's portrait now resolves through the image map instead
+  of emitting an unresolvable vault-relative path.
+- **Genre-aware section titles** — section index h1s ("Theater of
+  Operations", "Intelligence Briefing", "Armory & Acquisitions",
+  "Bestiary") are now driven by the theme genre preset with neutral
+  defaults, overridable via `publish.section_titles` in
+  `_meta/vault-config.md`.
+- **Heritages and World index pages** — `DIR_LABELS` gained both
+  sections, so their nav links (already present) stop pointing at
+  missing index pages.
+- **Scanner warning for unmapped directories** — typed pages in a
+  directory missing from `folderMap` now produce a one-per-directory
+  warning instead of being silently skipped.
+
+### Changed
+
+- The setup scaffold's default `folderMap` now maps `Chapters` →
+  `chapters`, so sessions, chapters, and wrap-ups publish out of the
+  box.
+- Faction listings honor the legacy camelCase `factionType` field, and
+  parentless locations group by `location_type` instead of dumping
+  into "Other".
+- Documented the recap-surfacing rule (session index + chapter +
+  wrap-up must all publish) in publish-site troubleshooting, and the
+  listing grouping keys in the schema reference.
+- **Authored section index pages now win** — a vault page that slugs
+  to a section index (e.g. `_World/index.md` → `world/index.html`)
+  is kept as-is instead of being silently overwritten by the
+  auto-generated section index.
+
+---
+
+## [1.8.10] — 2026-07-05
+
+### Added
+
+- **GURPS sheet arithmetic checker** — new bundled utility
+  `skills/shared/scripts/gurps_check.py` (with pure-formula core
+  `gurps_calc.py`) verifies a GURPS PC markdown sheet against Basic
+  Set arithmetic and reports advisory deltas: Basic Lift and the
+  encumbrance table (B15/B17), carried load vs the Current Status
+  `Enc:` line, Move/Dodge per level, secondary characteristics,
+  Parry/Block (B375–B376), a point-budget audit, and the
+  thrust/swing damage chain via closed-form B16 formulas with B269
+  dice-equivalence (so `2d+5` and `3d+1` compare equal). Read-only
+  and stdlib-only; wired into ttrpg-expert's GURPS chargen and
+  character-sheet references. The parser also accepts parenthetical
+  attribute labels like `ST (Strength)`. Damage formulas validated
+  against a GCS-derived oracle at development time — GCS is not a
+  dependency.
+
+---
+
+## [1.8.9] — 2026-07-05
+
+### Added
+
+- **Current-encumbrance-row highlighting from markdown tables**
+  (publish tool 1.5.1) — the GURPS sheet's Encumbrance block now
+  flags the character's current level when the sheet is written as
+  a plain markdown table, not just from a frontmatter
+  `encumbrance:` array. Two detection paths, in priority order: an
+  explicit marker on the Level cell (trailing `*` — canonical —
+  `←`, or `(current)`), stripped from the displayed text; otherwise
+  the `**Enc:**` value in `## Current Status` is matched against
+  the level names (case-insensitive, parentheticals like `(1)`
+  ignored; a bare number matches the row's parenthetical level
+  number). At most one row is ever flagged, whatever the source.
+  Sheets with an explicit frontmatter `current: true` keep it;
+  sheets with neither a marker nor a matching status value render
+  exactly as before — the status fallback applies to frontmatter
+  arrays without a `current` flag too.
+  The GURPS PC template documents the marker and gains an
+  `**Enc:**` line in its Current Status block. Sites pinned to an
+  earlier published tool need to move to ≥1.5.1 to pick this up.
+
+## [1.8.8] — 2026-07-05
+
+### Changed
+
+- **Extracted the-midwife's conditional sections into reference
+  files** — Phase 4 (Scaffold & Handoff) plus the Adventure Brief
+  Template (~8.2 KB) move to `references/scaffold-handoff.md`, and
+  Worldbuilding Mode (~1.8 KB) moves to
+  `references/worldbuilding-mode.md`. `SKILL.md` (22.3 KB → 13.0 KB,
+  −42%) keeps the phase goal and mode trigger as routing stubs, so
+  Discover/Shape/Structure conversations — the majority of midwife
+  turns — no longer load scaffold or worldbuilding procedure.
+  Moved content is unchanged from the prior sections apart from
+  the fix below and de-duplicated trigger/goal lines that now
+  live only in the SKILL.md stubs.
+- **Closed the "extract remaining conditional reference chunks"
+  roadmap item** — the reconcile world-evolution step and
+  session-prep world-threads/narrative-plans chunks were measured
+  and skipped: the reconcile 6.5 offer runs on every reconcile
+  (only the acceptance body is conditional, and splitting it risks
+  missed `world_evolved` bookkeeping), and the session-prep steps
+  (0.8/1.0 KB behind different guards) net under ~160 tokens each.
+
+### Fixed
+
+- **Phase 4 now delivers the world facts Woven Worldbuilding
+  promises** — the Woven Worldbuilding section has always said
+  accumulated world facts "are written to `_World/` domain files
+  during the Scaffold phase," but no Phase 4 step actually did
+  it. New Step 2c in `references/scaffold-handoff.md` flushes
+  captured facts to `_World/` domain files and deferred flags to
+  `_World/_flags.md`, creating stubs per the campaign-organizer
+  conventions when needed.
+
+## [1.8.7] — 2026-07-05
+
+### Changed
+
+- **Split `campaign-qa/references/check-procedures.md` into eight
+  per-check files** under `references/checks/` (canon-audit,
+  timeline-validation, name-similarity, clue-redundancy,
+  graph-health, stale-draft-detection, legacy-canon-field-repair,
+  open-spoilers). `check-procedures.md` is now a thin index. A
+  single-mode audit reads only its one check file (~1–6 KB) instead
+  of the whole 22.9 KB reference; `campaign-qa/SKILL.md` routing and
+  Full Audit updated to read the per-check files. Content is
+  byte-identical to the prior sections.
+- **Extracted the PC body-structure block into
+  `shared/pc-body-structure.md`** — the PC body-heading hierarchy,
+  the `## Current Status` block spec, and the Story Companion
+  Convention (~4.9 KB) move out of `shared/entity-schema.md`
+  (24.8 KB → 20.5 KB, −17%). Entity work that doesn't touch PC files
+  no longer loads the PC-body content. `entity-schema.md` keeps a
+  breadcrumb; consumers re-pointed (session-wrapup, the-midwife, all
+  six `pc-*` templates). Content preserved verbatim across the split.
+
+## [1.8.6] — 2026-07-05
+
+### Changed
+
+- **Version check reads `shared/migrations.md` frontmatter only**
+  (Read with a 10-line limit) in all eight consuming skills — the
+  file is 16 KB of append-only migration history, and the check
+  needs one frontmatter field. Saves roughly 4k tokens on nearly
+  every skill invocation. Compaction plan Phase 0.
+
+## [1.8.5] — 2026-07-04
+
+### Added
+
+- **Two more bundled vault utilities** targeting the weekly session
+  loop (the largest recurring token/time cost):
+  `session_context.py` emits session-prep's entire standard
+  read-set in one call — latest Wrap-Up, active PC `## Current
+  Status` blocks, the upcoming session's Plan, deferred world
+  flags, and the campaign overview — replacing a dozen-plus
+  separate reads per prep (verified on a real 15-session vault in
+  0.3s); `stamp_entities.py` batch-stamps `asOfSession`,
+  `lastUpdated`, and the chapter-tag swap across all active PC
+  sheets for session-wrapup Step 3c, dry-run by default and
+  surgical (only the targeted frontmatter lines change).
+- **Incremental audits**: `vault_check.py changed --since N` lists
+  entities touched at or after session N via session-anchored
+  fields; campaign-qa's Canon Audit gains a documented incremental
+  mode (audit the delta plus its backlink neighborhood) so audit
+  cost scales with what changed, not vault size.
+- Regression coverage: new `tests/fixtures/mini-vault-prep/`
+  fixture and 17 new checks (context bundle content and
+  exclusions, changed-since listing, stamper dry-run/write/body
+  preservation).
+
+### Fixed
+
+- docs/campaign-organizer.md no longer claims Weave-mode link
+  discovery uses Smart Connections — link discovery uses the
+  bundled utilities in every environment.
+- Session-number parsing hardened against real-vault free text:
+  compound references ("Chapter 3, Session 7") key on the session
+  number, and date-bearing values ("Reconstructed 2026-07-04")
+  parse as unknown instead of session 2026 — affecting
+  stale-DRAFT and changed-since semantics.
+
+## [1.8.4] — 2026-07-04
+
+### Added
+
+- **Three bundled vault utilities** under `skills/shared/scripts/`
+  (Python 3 standard library only, shipped in every skill zip):
+  `graph_check.py` reports orphans, unresolved and ambiguous
+  links, dead ends, and backlinks in one deterministic pass —
+  handling aliases, `[[Name|alias]]`, anchors, embeds, quoted
+  frontmatter links, and space/underscore/case variants;
+  `vault_search.py` is index-free BM25 ranked search with context
+  snippets for prose queries; `vault_check.py` covers entity
+  schema validation (required fields, enums, legacy fields,
+  unquoted frontmatter links), duplicate/confusable name and
+  alias detection (document-chain and numbered-structural
+  families filtered), `_meta/index.md` drift in both directions,
+  and stale-DRAFT sweeps. Benchmarked on a 705-note vault:
+  identical results to per-query LLM approaches in under a
+  second, versus 50–125 seconds and ~40–56k tokens.
+- **Validation loops for entity creation** (top roadmap item):
+  session-wrapup, vault-ingest, and campaign-organizer now run
+  `vault_check.py frontmatter` on folders they touch and fix
+  ERRORs before presenting results; campaign-qa's name-similarity
+  and stale-DRAFT procedures and campaign-organizer's Validate
+  mode prefer the utilities over manual passes.
+- Schema rules and the frontmatter parser extracted to
+  `skills/shared/scripts/schema_rules.py` — single source of
+  truth shared by `scripts/validate_schema.py` and the bundled
+  utilities.
+- Fixture-based regression tests for all utilities
+  (`tests/test_vault_utilities.py`, `tests/fixtures/mini-vault/`,
+  `tests/fixtures/mini-vault-schema/`), wired into CI.
+
+### Changed
+
+- **Vault access no longer uses the Obsidian MCP server stack.**
+  `shared/filesystem-mode.md` is rewritten and renamed to
+  `shared/vault-access.md`, the Vault Access Reference: plain filesystem tools plus the bundled utilities —
+  no server, no app dependency, no mode split. Obsidian is a
+  viewer, never a requirement. campaign-organizer, campaign-qa,
+  the shared session principles, and the QA check procedures now
+  point at the shared reference instead of restating detection.
+- campaign-qa's Graph Health procedure prefers one `graph_check.py`
+  pass over hand-building a link map with Grep.
+- README setup instructions replace the MCP server / Local REST API
+  configuration with the bundled-utilities section and a migration
+  note for users carrying the old MCP plugins and `.mcp.json` entry.
+
+### Removed
+
+- All references to the archived Obsidian MCP server, MCP Tools
+  plugin, and Local REST API plugin across skills, docs, README, and
+  ROADMAP. Neither plugin is required or recommended any longer.
+
+## [1.8.3] — 2026-07-04
+
+### Added
+
+- **`## GM Notes` is now the single canonical heading for whole-section
+  GM-only content**, replacing the exact-heading-string-list approach
+  (`exclude_sections`) that couldn't generalize — a production vault
+  had grown that list to 47 one-off entries and was still leaking.
+  Anything that used to get its own top-level heading (Keeper
+  Checklist, World State, Source References, tactical notes, etc.)
+  becomes a subsection nested under `## GM Notes` instead; the publish
+  tool's heading filter is already level-aware, so this needed no
+  filtering-code changes.
+- **`<!-- spoiler -->` marker** for narrative content that's hidden
+  only until it's revealed in play, distinct from permanently-hidden
+  `<!-- gm-only -->` content. `reconcile` gains a step asking the GM,
+  per session, whether any spoilers in entities touched that session
+  were revealed — if so, the fence is stripped and the content becomes
+  permanently public prose.
+- **campaign-qa: two new checks** — un-fenced GM-only content
+  (headings or bold-paragraph lines that look GM-only but sit outside
+  any hiding mechanism) and an open-spoilers audit listing every
+  currently-pending `<!-- spoiler -->` block for GM review.
+- Migration entry backfilling existing vaults: re-nests every heading
+  already in a vault's `exclude_sections` list under `## GM Notes`,
+  with a GM-confirmed batch for bold-wrapped headings, bold-paragraph
+  pseudo-headings, and callout-only-marked content that exact-string
+  matching can't catch.
+
+### Fixed
+
+- `exclude_fields` had the same config-shadowing bug already fixed for
+  `exclude_sections`/`exclude_dirs` in previous work — a field named
+  only in `vault.config.json` was silently never stripped. Now unions
+  both sources like its siblings. Defaults gain `gm_notes` and
+  `prep_notes` (real, populated fields that were never excluded);
+  `secrets`/`current_plan`/`plan_progress` stay in the list even
+  though unused, since removing them could strip less than some vault
+  depends on.
+- Landing page session recap extraction read raw markdown instead of
+  the publish-filtered view, so it could quote GM-only content; also
+  fixed matching the wrong chapter's wrap-up when two chapters share a
+  session number, and wikilink targets rendering with literal
+  underscores instead of spaces.
+- Portrait-less entity hero banners rendered their initials avatar as
+  a clipped sliver overlapping the entity name instead of stacking
+  above it.
+- NPC portraits rendered as a cropped hero-banner background — showing
+  only a thin band around the image's 25%-height line, with no way to
+  view the full portrait — because the with-portrait branch used the
+  same landscape-oriented layout as location art instead of the
+  portrait-shaped card PC pages already use. Also, hero images
+  (portraits included) weren't wired into the site's click-to-enlarge
+  lightbox at all, since the binding only looked inside `.content`.
+
+### Removed
+
+- `PUBLISH_SITE_BUGS_SPEC.md` — verified against current code that
+  every item in it (a narrative-IA redesign and eight defects) already
+  shipped in previous releases.
+
+## [1.8.2] — 2026-07-03
+
+### Added
+
+- **Schema Mirror Sync** — every vault migration pass now diffs
+  `_meta/entity-types.md`'s Type-Specific Fields entries against
+  the canonical ones in `shared/entity-schema.md`, for every
+  built-in type, regardless of which versioned migration entries
+  are pending. Missing or stale entries are offered as opt-in
+  Content items, the same way stale `_Templates/` files already
+  are.
+- **campaign-qa: Ambiguous Links check** — Graph Health now flags
+  bare wikilinks whose basename matches more than one file in the
+  vault, not just links pointing at nothing. Obsidian resolves
+  these silently and unpredictably; this catches them before they
+  cause a GM to read the wrong session's recap.
+- Migration `1.8.0 → 1.8.2` backfills two known drift points:
+  the Event field rename from 1.4.22 (`date` → `in_game_date`)
+  never reached `_meta/entity-types.md`, and no migration ever
+  added a `character-story` entry to it. It also renames every
+  Session Wrap-Up file to a chapter-disambiguated filename
+  (`Chapter_CC_Session_NN_Wrap_Up.md`) and repairs every
+  reference to it — the old chapter-free filename guaranteed a
+  basename collision the first time any campaign ran a second
+  chapter with per-session wrap-ups.
+
+### Fixed
+
+- `shared/entity-schema.md`'s Type-Specific Fields summary was
+  missing compact entries for `character-story`, `plan`,
+  `heritage`, `world_domain`, and `world_flags` — types that
+  already have real templates and are in active use, but were
+  never added to the summary section that vaults mirror.
+- `campaign-qa`'s Story file recency check and `vault-ingest`'s
+  classification heuristic both still referenced the pre-1.4.22
+  wrap-up type name `session-wrap-up` instead of the current
+  `session_wrap`, silently failing against every vault using the
+  current (correct) type.
+
+## [1.8.1] — 2026-07-02
+
+### Fixed
+
+- **Story spine wiki-links:** `buildStorySpine` rendered recap markdown
+  to HTML without running `resolveWikiLinks`, so story unit pages
+  showed raw `[[wiki-link]]` text. Recaps now resolve against their
+  unit's `story/` output path before rendering, matching the PC-page
+  flow.
+- **Wrap-up matching in flat `Sessions/` folders:** `wrapUpForUnit`
+  tried the same-folder heuristic before the ref index, so vaults where
+  every session and wrap-up shares one `Sessions/` folder had every
+  story unit pull the first wrap-up's recap. Exact `session:`/`chapter:`
+  ref matches now win; the folder heuristic only applies when the
+  folder contains exactly one wrap-up.
+
+## [1.8.0] — 2026-07-02
+
+### Changed
+
+- **`canon_status` is now the single canonical field name** for canon
+  status (DRAFT / AUTHORITATIVE / SUPERSEDED / STUB). Three names for
+  the same field had accumulated since the first release —
+  `canon_status`, `source_confidence`, and a bare `confidence` row in
+  the entity-schema Universal Fields table — and vaults collected
+  whichever name was current when each file was written. All templates,
+  skill references, the validator, and CI now write and require
+  `canon_status` exclusively; "confidence" naming is gone from code
+  identifiers, UI labels, and prose (`shared/canon-confidence.md` is now
+  `shared/canon-status.md`, publish tool exports `getCanonStatus` /
+  `canonStatusBadge`, NPC index column reads "Canon Status").
+- **Migration 1.7.10 → 1.8.0 sweeps the whole vault** on the next skill
+  invocation after updating: legacy keys are renamed to `canon_status`,
+  duplicate fields collapse to one (never leaving two `canon_status:`
+  lines in a file), and value conflicts are kept on the `canon_status`
+  value and reported for GM review. campaign-qa gains a permanent
+  Legacy Canon Field Repair check so reintroduced legacy names are
+  caught on every full QA pass.
+- Publish tool bumped to 1.4.0: reads `canon_status` first, with the
+  legacy names still honored at read time so unmigrated vaults publish
+  correctly.
+
+### Fixed
+
+- **SUPERSEDED leak:** a file whose only canon field was the legacy bare
+  `confidence: SUPERSEDED` was published as a live page instead of being
+  filtered and redirected to its successor.
+- **Missing draft badges:** items/NPC index pages read only
+  `confidence`/`canon_status` and ignored `source_confidence`, so files
+  written by the current schema never showed their Draft/Stub badge.
+- Schema validator now rejects legacy field names with a pointer to the
+  1.8.0 migration instead of silently accepting them.
+
+## [1.7.10] — 2026-06-30
+
+### Added
+
+- **Published sites now have a "Story" section** — a curated, prose-first
+  reading layer over the narrative that already lives in a vault, alongside
+  the unchanged reference Wiki. A `/story.html` landing presents two
+  branches:
+  - **The Campaign Saga** — dedicated story pages built from each unit's
+    `Narrative Recap`, walked in order with prev/next (cover to cover). The
+    spine is *adaptive*: a chapter contributes one page, or one page per
+    session, depending on where its recaps live. Chapters/sessions with no
+    recap are omitted (no dead pages).
+  - **Character Stories** — a dedicated prose page per PC built from
+    `*_Story.md`, grouped Current / Retired / Fallen; the PC stat-sheet's
+    Story tab now links to it.
+  - The recap is found by heading wherever it lives — a separate wrap-up
+    file or embedded in the session/chapter file — and matched even when
+    decorated (e.g. `What Happened — Narrative Recap`). Units are paired by
+    folder proximity (robust to free-form title refs). Story pages are built
+    only from the published view (gm-only/excluded sections stripped), so no
+    spoilers leak, and a vault with no narrative gets no Story section at all.
+  - New modules: `lib/story-spine.js` (pure spine builder),
+    `lib/templates/story.js`, `lib/templates/story-landing.js`. The "Story"
+    nav points at the landing when a Story section exists.
+
+### Changed
+
+- `gm-apprentice-publish` bumped to 1.3.2.
+
+---
+
+## [1.7.9] — 2026-06-30
+
+### Fixed
+
+- **Excluded sections no longer leak when both config sources are set
+  (B8).** `_meta/vault-config.md`'s `exclude_sections`/`exclude_dirs`
+  silently shadowed `vault.config.json`'s lists (an `A || B`), so a section
+  listed only in the JSON — e.g. `Source References` — was never stripped.
+  The two sources are now unioned (case-insensitive dedupe), falling back to
+  defaults only when neither is set.
+- **Derived widgets no longer leak GM-only names (B6).** "NPCs in Play"
+  (recency) and the relationship graph (via backlinks) scanned raw page
+  markdown, surfacing entities mentioned only in `<!-- gm-only -->` blocks or
+  excluded sections. Each page's "published view" (those stripped) is now
+  computed once and used by backlinks and recency; graph edges derive from
+  backlinks, so they are covered too.
+- **Cross-subtree links no longer 404 (B3).** `wiki.js`, `location.js`, and
+  `npc.js` passed a page's file path where `relativePath` expects a
+  directory, adding an extra `../` that dropped a path segment (e.g. cross-
+  chapter links lost `chapters/`). Added a `relativeHref(fromFile, toFile)`
+  helper and routed all file-to-file links through it.
+- **Wikilinks no longer render as raw underscore slugs (B1).** Body links
+  showed `Lord_Percival_Harcourt`; display text is now humanized (underscores
+  to spaces) for resolved and unresolved links, leaving explicit aliases
+  untouched.
+- **The 404 page is themed (B4).** It loaded `style.css` + `theme.css` but
+  not `css/themes/<genre>.css`, so it fell back to default accents; the genre
+  overlay link is now emitted.
+- **Breadcrumb dead-links removed.** Breadcrumbs linked every last directory
+  segment to `index.html`, but only top-level dirs get one — chapter
+  subfolders 404'd; those segments are now plain text. The `parent_location`
+  breadcrumb also used the root-relative output path as a same-dir href
+  (resolving to `locations/locations/…`); it is now made relative.
+- **More raw-slug surfaces humanized.** Beyond body wikilinks (B1), event
+  participant/location links and item holder/origin links showed raw
+  underscore slugs; all now humanize via a shared `humanizeName` helper,
+  preserving explicit aliases. Against the Canticle vault this drives broken
+  links from 586 (pre-fix) to 15 and raw-slug links from 2043 to 0 (the
+  remaining 14 broken are relationship-graph SVG node paths, tracked
+  separately).
+- **Sparse sidebars no longer squeeze the article (B2).** A page with a
+  single small sidebar box still reserved the full 18rem column; sidebars
+  with ≤1 section now collapse to a single comfortably-wide column.
+
+### Changed
+
+- `gm-apprentice-publish` bumped to 1.3.1.
+
+---
+
+## [1.7.8] — 2026-06-29
+
+### Fixed
+
+- **Publish build no longer fails on a clean install with "Cannot find
+  module 'gray-matter'".** The `gm-apprentice-publish` tool is distributed
+  by git-copying the repo into the plugin cache; a site pins it with a
+  `file:` dependency, which npm satisfies by symlinking the cached copy.
+  Node then resolves the tool's `require()`s from the cache, where
+  `npm install` never runs — so its runtime deps were absent. The tool now
+  **vendors** its production dependencies (`gray-matter`, `lunr`,
+  `markdown-it` + transitive) as committed files, so a fresh install builds
+  with no manual steps and offline. A root `.gitignore` negation tracks the
+  subtree; `tools/publish/README.md` documents re-vendoring.
+- **Stale build-tool version pins no longer fail silently.** A bare
+  `/plugin` update drops a new version into the cache but leaves existing
+  sites pinned to the old one, so builds kept using the old renderer (e.g.
+  the new Phoenix GURPS sheet didn't appear). The build CLI now detects this
+  drift at startup — comparing the version it runs as against the newest
+  installed in the cache — and prints a loud warning naming the exact `file:`
+  path to switch to. The publish-site routine-update flow (capability 2) and
+  troubleshooting guide were tightened to repoint reliably and verify the
+  repoint took effect.
+
+### Added
+
+- `tools/publish/lib/version-check.js` — `detectVersionDrift()`, with unit
+  coverage for semver comparison, no-drift, dev-checkout, and non-semver
+  sibling cases.
+- Build CLI preflight that reports missing runtime dependencies with
+  actionable remediation instead of a raw stack trace.
+- `clean-install` integration test (mirrors a git-copy cache + symlinked
+  site, fully offline) and a `runtime-deps` test that fails if any declared
+  dependency is not both requireable and git-tracked.
+
+### Changed
+
+- **Committed fully to the plugin-cache distribution model for the publish
+  tool.** The build tool ships inside the plugin and is driven from the
+  plugin cache, never the npm registry (which lagged at 1.2.1 and risked
+  version skew between the renderer and the skill). `init` now auto-pins a
+  new site's `package.json` to the exact cache version it ran from — the
+  scaffold default changed from `"latest"` to a self-referential `file:`
+  pin — so a new site needs no manual repoint and no registry round-trip.
+  The publish-site SKILL, setup wizard, and tool README were updated to
+  drive `init` from the cache and to stop pointing users at npm.
+- `gm-apprentice-publish` bumped to 1.3.0; lockfile version realigned to
+  1.3.0 (it was stale at 1.2.1, two patches behind the previous
+  `package.json` value of 1.2.3).
+
+---
+
+## [1.7.7] — 2026-06-29
+
+### Added
+
+- **GURPS character sheets now publish as a complete Phoenix-style record.**
+  A new `tools/publish/lib/templates/gurps/` module replaces the previous
+  thin renderer. It reads standard markdown-table vault format (with optional
+  frontmatter overrides) and produces three output payloads assembled by the
+  PC shell:
+  - **Character Sheet** — 2-column block flow: attributes/secondary/derived,
+    lifting feats + slam derived tables, active defenses + hit-location DR,
+    senses + checks, encumbrance ramp, reaction modifiers, cultural
+    familiarities + languages, advantages/perks/disadvantages/quirks/templates,
+    skills with effective levels + footnote legend + parry/block sub-lines,
+    techniques, spells, points summary, melee + ranged attack tables, grimoire.
+  - **Combat tab** — dedicated dashboard tab with current status banner,
+    active defenses, melee and ranged attack tables, combat action chains +
+    multi-action chains, and a collapsible rules-reference appendix (hit
+    location B552, size/speed-range B550) with source citation. Appears only
+    for GURPS vaults; non-GURPS PCs are unaffected.
+  - **Equipment tab** — Phoenix-styled inventory table + per-load-out tables
+    with totals footer. Parses `## Equipment` and `### Encumbrance` / `### Load-Outs`
+    subsections from the PC body.
+  - Always-on footnote legend, page citations (`{p. Bxxx}`), and parry/block
+    sub-lines on skill rows. Dark/light theming via CSS variables. Print styles
+    force all tabs visible and rules-reference open.
+  - Parser hardening: header-row guard, cost-column auto-detection, encumbrance
+    subsection fallback, skill cross-reference to active defenses and melee
+    weapon parry values.
+
+---
+
+## [1.7.6] — 2026-06-28
+
+### Fixed
+
+- **Non-Earth campaign dates are no longer corrupted.** Three skills told
+  agents that `in_game_date` "must be parseable by JS `new Date()`"
+  (`session-wrapup`, `vault-ingest`, and the shared
+  `session-document-chain.md`). That was wrong: the published timeline
+  parser (`tools/publish/lib/timeline.js`) anchors on a 4-digit year and
+  accepts ISO, month-name, and seasonal forms — it does not require a
+  `new Date()`-parseable string. A compliant agent following the old rule
+  would *fabricate* a Gregorian date for a fantasy/sci-fi calendar (e.g.
+  rewriting "14th of Flamerule, 1492 DR" as "July 14, 1492"), silently
+  losing the campaign's real date. The rule now says to record non-Earth
+  dates in the world's own format and never invent a Gregorian date to
+  satisfy the parser. `play_date` is clarified as `YYYY-MM-DD`.
+
+---
+## [1.7.5] — 2026-06-27
+
+### Changed
+
+- **The PC `## Current Status` block is now load-bearing.** PR #57 made it
+  a canonical, cumulative PC body block but left it read only by the
+  website and the GM. Four skills now consume it: **session-prep** folds
+  each active PC's `Open threads` into its Threads review (fixing
+  "thread-decay" — a thread no longer vanishes just because it fell out of
+  the last session's carry-forward) and reads `Open threads` /
+  `Knows (exclusive)` in its per-PC arc check; **the-midwife** mines it for
+  new-chapter hooks; **ttrpg-expert** routes its arc/thread commands
+  through it; **campaign-qa** gains a Canon Audit consistency check
+  (missing/empty block on an active PC, or an `Open threads` item the
+  timeline shows resolved). The read contract lives in
+  `ttrpg-expert/arc-spotlight-reference.md` and `continuity-engine.md`
+  (the bottom-level references the others already load), with a
+  `Consumed by:` pointer in `shared/entity-schema.md`. A new
+  `tests/test_current_status_consumers.py` regression (run in CI) fails if
+  any consumer is silently un-wired. No schema or template change.
+
+## [1.7.4] — 2026-06-26
+
+### Fixed
+
+- **session-wrapup now keeps PC entity sheets current.** Wrap-up advanced
+  each active PC's Story file (Step 3b) and the campaign overview (Step 4b)
+  every session, but never the PC's own entity sheet — so its `asOfSession`,
+  `lastUpdated`, chapter `tags`, and especially the player-facing
+  `## Current Status` block froze at whatever session it was last hand-edited.
+  Because `## Current Status` publishes (it sits outside the `<!-- gm-only -->`
+  fence), the live character page rendered a stale status that contradicted
+  the current Story narrative on the same page. A new **Step 3c (PC Sheet
+  Refresh)** reconciles those fields and the `## Current Status` block every
+  wrap-up, skipping `dead` PCs.
+
+### Added
+
+- **`## Current Status` is now a canonical PC body section.** Documented in
+  `shared/entity-schema.md` and added to all six `pc-*` templates as a
+  skill-maintained, player-facing block holding the PC's **cumulative living
+  state** in labelled fields (`Location`, `Condition`, `Carrying`,
+  `Open threads`, `Knows (exclusive)`) — the counterpart to the protected
+  `## Notes`/`## GM Notes`. Each wrap-up reconciles it cumulatively:
+  unresolved `Open threads` carry forward across sessions, new ones are
+  added, resolved ones removed — so a single read of the latest sheet gives
+  the always-current state without walking old wrap-ups. Existing sheets
+  self-heal on their next wrap-up.
+- **PC freshness check** (`validate_schema.py freshness <vault>`): flags
+  active PC entity sheets whose `asOfSession` lags the campaign overview's,
+  with a Python regression suite (`tests/test_pc_freshness.py`) and fixture.
+  Pointed at a vault with the old behaviour it fails; after a wrap-up it
+  passes — guarding the drift from returning.
+
+---
+
+## [1.7.3] — 2026-06-26
+
+### Fixed
+
+- **"NPCs in Play" now reflects who's actually in recent play.** `scoreByRecency`
+  identified recent sessions by `session_number`, which breaks when a chapter
+  restarts numbering (Calcutta 1–3 ranked below Vienna 12–14), so the landing
+  surfaced old NPCs. It now selects recent sessions by `play_date`, scores
+  mentions from the paired **wrap-up recaps** (the session index pages are thin
+  stubs), counts sessions that are still in the `wrap-up` state (played but not yet
+  reviewed), and **recency-weights** so the latest session counts most. Terminal-status
+  entities (dead, destroyed, …) are no longer hidden outright — they appear when
+  they feature in the **latest** session (e.g. an NPC who just died) and are
+  otherwise retired from the list.
+
+---
+
+## [1.7.2] — 2026-06-26
+
+### Fixed
+
+- **Landing page reflects authoritative campaign state.** The hero (in-game date
+  and session count) and the *Latest Session* card now read `current_game_date`,
+  `sessions_played`, `last_session`, and `last_play_date` from the `_Campaign`
+  overview frontmatter (maintained by `session-wrapup`) instead of re-deriving
+  them by scanning session pages. The overview is located by its
+  `type: campaign_overview` frontmatter — not by filename, so a renamed overview
+  such as `Campaign_Overview_Updated` still works — and is read from the full
+  vault corpus, so it applies even though the overview is normally excluded from
+  publishing. `getLatestSession` now sorts by `play_date` (most recently played),
+  with `session_number` only as a tiebreak, so chapters that restart session
+  numbering no longer surface the wrong "latest" session. All fields fall back to
+  the previous behaviour when absent.
+
+### Internal
+
+- `build` now exposes the full scanned corpus to the landing template, kept
+  separate from the manifest publish-filter that governs what is rendered.
+
+---
+
+## [1.7.1] — 2026-06-06
+
+### Added
+
+- **Content-fidelity shared rule** — `skills/shared/content-fidelity.md`
+  establishes preserve-by-default for content-moving operations: moving
+  existing prose preserves it verbatim; authoring new prose is an explicit,
+  justified exception. Includes the block/seam test for mixed operations.
+- **Compactor rationale category** — the skill-compactor now treats rule
+  rationale ("why") as a preserved category, so the reasoning behind a rule
+  is not stripped as verbose connective tissue.
+
+### Changed
+
+- **Fidelity guards across skills** — the-midwife (plan promotion, brief
+  synthesis), campaign-organizer (Organize, Dissect, Weave), session-wrapup
+  (recap, character story, new entities, timeline), vault-ingest (synthesis,
+  backstory entries), and session-prep now carry explicit preserve-guards or
+  grudging authoring carve-outs pointing at `content-fidelity.md`.
+- **campaign-organizer Dissect** — removed the "body summary" instruction;
+  each entity now carries its source slice verbatim rather than condensing it.
+
+---
+
+## [1.7.0] — 2026-05-30
+
+### Added
+
+- **Plan entity type** — new `plan` entity under `narrative`
+  hierarchy with `plan_type` discriminator (arc, scene,
+  investigation, timeline). Plans live in `Planning/` under
+  their chapter directory, capturing the GM's narrative
+  planning content (scene designs, arc structures,
+  investigation flows, timelines) as first-class vault entities.
+- **Plan template** — `skills/shared/templates/plan.md` added
+  as canonical template for plan entities
+- **Midwife plan promotion** — Phase 4 handoff now promotes
+  narrative planning content from `_midwife/` to vault
+  `Planning/` folder alongside existing entity promotion
+- **Session prep plan surfacing** — context gathering reads
+  `Planning/` and surfaces relevant scene plans for the
+  upcoming session
+- **Session play plan lookup** — scene plans accessible via
+  mid-game routing table
+- **Campaign QA plan validation** — graph health checks
+  validate plan entity frontmatter and references
+- **Vault ingest plan support** — planning content from
+  external sources can be ingested as plan entities
+- **Schema validation** — `validate_schema.py` validates
+  plan entities (required fields, plan_type enum)
+- **Migration 1.6.6 → 1.7.0** — documents structural and
+  content changes for existing vaults
+
+---
+
+## [1.6.6] — 2026-05-28
+
+### Added
+
+- **World evolution in reconcile** — reconcile step 5.5
+  offers faction turns, consequence surfacing, foreshadowing
+  review, and discovery state updates after session confidence
+  is promoted. Gated to most recent session only.
+- **`world-evolution` entity source** — entities created by
+  the world-evolution procedure are tagged with
+  `source: "world-evolution"` for provenance tracking
+- **`world_evolved` session field** — session index records
+  when world-evolution has run, preventing duplicate offers
+
+### Removed
+
+- **campaign-tracker.md references** — removed dead reference
+  from campaign-organizer. The file was never created; its
+  functionality is covered by the entity schema and session
+  document chain.
+- **Tracking templates** — replaced consequence tracker,
+  foreshadowing log, campaign tracker, and per-PC discovery
+  state templates in world-evolution.md with a pointer to the
+  entity schema where these are now tracked
+
+### Changed
+
+- **world-evolution.md** — Storage Checkpoint and timeline
+  entry marked standalone-only (reconcile skips both). Filing
+  protocol updated for reconcile handoff.
+
+## [1.6.5] — 2026-05-22
+
+### Added
+
+- **Heritage page template** — stat card (lifespan, maturity,
+  height), notable traits badges, portrait, relationship graph,
+  and context sidebar for published heritage pages
+- **World domain page template** — rules sidebar (hideable via
+  `publish_rules: false`), summary subtitle for world domain
+  pages
+- **World nav group entries** — World Overview and Heritages
+  added to the World navigation group
+- **Vault config template** — `_World` and `Heritages` folder
+  mappings added to scaffold template
+
+### Fixed
+
+- **Landing page recap** — now extracts narrative from the
+  session's Wrap-Up file instead of the session index
+- **Landing page recap link** — points to the Wrap-Up page
+  instead of the session index
+- **Wrap-up sidebar suppression** — wrap-up pages no longer
+  show a "Mentioned In" backlinks sidebar that compressed
+  content
+- **World flags exclusion** — `_flags.md` (`type: world_flags`)
+  is skipped during build instead of generating an error page
+
+### Fixed (upstream from publish-patches-1.5.1)
+
+- **Session count includes reviewed status** — landing page hero
+  now counts both `played` and `reviewed` sessions; supports
+  `total_sessions` config override
+- **Chapter status fallback** — chapters with `status: complete`
+  in frontmatter render correctly even without published session
+  index files
+- **Scanner uses frontmatter title** — `displayTitle` prefers
+  frontmatter `title` over filename, fixing redundant session
+  titles on chapter index pages
+
+---
+
+## [1.6.4] — 2026-05-22
+
+### Added
+
+- **Session-prep deferred flag surfacing** — world threads
+  gaining traction are surfaced during prep (awareness only,
+  no prompts)
+- **Campaign-QA world consistency audits** — heritage
+  consistency, geographic plausibility, economic coherence,
+  timeline contradictions, and deferred flag review
+- **World audit criteria reference** — hard checks vs soft
+  checks, scoping rules, output format
+
+---
+
+## [1.6.3] — 2026-05-22
+
+### Added
+
+- **Session-wrapup world fact detection** — scans session notes
+  for unrecognized heritages, place names, cultural practices,
+  deity names, and other world facts; stages findings for
+  reconcile review
+- **Reconcile step 2.5** — world fact review with three-state
+  prompts (canon/ignore/defer) during post-session reconciliation
+- **Reconcile step 5 world-rule validation** — checks entities
+  against `_World/` rules during promotion to AUTHORITATIVE
+- **Deferred flag accumulation** — mention counting and
+  resurfacing for deferred world facts
+- **World fact detection heuristics** — signal/noise distinction
+  reference for session-wrapup scanning
+
+---
+
+## [1.6.2] — 2026-05-22
+
+### Added
+
+- **Entity validation against world rules** — campaign-organizer
+  checks NPCs, locations, and factions against `_World/` domain
+  rules during creation and updates
+- **Three-state flag prompts** — violations surface as advisory
+  prompts with canon/ignore/defer responses
+- **Ad-hoc bootstrap** — world infrastructure created on demand
+  when validation needs a domain file that doesn't exist yet
+
+---
+
+## [1.6.1] — 2026-05-22
+
+### Added
+
+- **Midwife standalone worldbuilding mode** — why-chain
+  conversations for fleshing out world domains, with per-domain
+  question banks, cross-domain implication surfacing, and
+  Second-Order Notes
+- **Midwife woven worldbuilding** — one-question why-chain
+  prompts during adventure creation when world facts are implied
+- **Worldbuilding reference files** — question banks (10
+  domains), cross-domain implication matrix, spiral/iceberg
+  principles, pitfall avoidance
+- **TTRPG-expert worldbuilding advisory** — principles reference
+  with per-system notes and midwife handoff
+- **Worldbuilding benchmarks** — A1-A6 purposeful worldbuilding
+  and C2 adventure creation regression
+
+---
+
+## [1.6.0] — 2026-05-22
+
+### Added
+
+- **Heritage entity type** — first-class vault entity for species/ancestry
+  definitions with lifespan ranges, maturity age, notable traits, and
+  Second-Order Notes
+- **`_World/` vault layer** — 10 domain files for world rules (heritages,
+  geography, history, politics, economics, magic/technology, cosmology,
+  culture, ecology, language), each with machine-checkable rules
+- **Three-state flag system** — `_flags.md` tracks world facts as canon,
+  ignored, or deferred with accumulation and resurfacing
+- **Organization hierarchy** — `part_of` field on faction/organization
+  entities enables nested political, military, and religious structures
+- **Era field** — optional `era` universal field for temporal referencing
+  against world history eras
+- **World structural templates** — world-index, world-flags, world-domain,
+  heritage, and faction templates in `skills/shared/templates/`
+- **Schema validation** — `heritage`, `world_domain`, `world_flags` types
+  and `WORLD_DOMAIN_STATUS` enum in `validate_schema.py`
+- **Benchmark fixtures** — `_World/` and `Heritages/` test data in
+  benchmark campaign
+
+---
+
+## [1.5.3] — 2026-05-16
+
+### Added
+
+- **Gotchas sections** — consolidated critical constraints with inline
+  reasoning added to vault-ingest (5) and the-midwife (4). Placed
+  before workflow steps to front-load common failure modes.
+- **Validation loops** — inline self-check steps after entity creation
+  in vault-ingest and the-midwife. Re-read file, compare frontmatter
+  against template, verify type/confidence/wiki-links, fix before
+  proceeding.
+- **Why-reasoning** — downstream-consequence explanations added to bare
+  directives in vault-ingest (vault dependency) and the-midwife
+  (session-prep invocation).
+- **Benchmark questions** — new test suites for vault-ingest (4 Qs) and
+  the-midwife (4 Qs), matching the existing session-wrapup and
+  campaign-organizer format.
+
+---
+
+## [1.5.2] — 2026-05-12
+
+### Added
+
+- **Campaign overview template** — new `campaign_overview` entity type
+  with frontmatter for game date, session tracking, and narrative
+  position (arc/chapter progress).
+- **Session-wrapup auto-updates** — campaign overview mechanical fields
+  (game date, session count, last session, last play date) updated
+  after each wrap-up with GM confirmation.
+- **The-midwife integration** — creates campaign overview during vault
+  scaffolding, populated from the adventure brief conversation.
+- **Publish tool rendering** — campaign landing page shows new sections
+  (Premise, Setting, Key Themes, Key Factions) with game date and
+  current arc param cards.
+
+### Changed
+
+- Publish tool landing page replaces Known Threats / Key Organizations
+  / Key Individuals sections with Setting and Key Factions.
+
+---
+
+## [1.5.1] — 2026-05-09
+
+### Added
+
+- **the-midwife skill** — guided adventure creation through
+  creative conversation. Handles greenfield campaigns and
+  existing vault continuations (new chapters, arcs, prequels,
+  time jumps). Produces an adventure brief and scaffolds the
+  vault for Session 0 handoff.
+- **adventure-brief entity type** — new entity under
+  `narrative (abstract)` for structured adventure design
+  documents with scope, shape, and continuation metadata.
+- **Adventure Shapes framework** — structural skeleton
+  taxonomy (linear, branching, hub-and-spoke, open-node,
+  sandbox) in scenario-writing reference.
+- **CATS pitch method** — Concept/Aim/Tone/Subject session 0
+  pitch framework in gm-session-patterns reference.
+- **One-shot and few-shot structural guidance** — conception-
+  phase constraints and principles in scenario-writing
+  reference.
+- **Victory-state antagonist design** — reverse-engineering
+  villain plans from victory state in scenario-writing
+  reference.
+- **Playability stress test** — checklist for testing RPG
+  viability of adventure concepts.
+- **Midwife workspace** — per-adventure working directories
+  with automatic topic splitting, shared seed bank, and
+  context-aware reading. Replaces monolithic
+  `_midwife-notes.md`. Supports multiple adventures in
+  parallel.
+- **Adventures/ subfolder convention** — adventure briefs
+  now live in `Adventures/{adventure-name}/` subdirectories.
+- **`_midwife/` vault folder** — creative workspace added
+  to vault structure for midwife working files.
+
+## [1.5.0] — 2026-05-09
+
+### Added
+
+- **FitD: gathering-information.md** — SRD gathering info mechanics:
+  effect levels, action-specific questions, long-term projects, GM
+  guidance for calibrating disclosure
+- **FitD: cohorts.md** — consolidated cohort rules: gang types, experts,
+  edges/flaws, cohort harm, supervised vs unsupervised use, elite
+  upgrades
+- **FitD: gm-techniques.md** — practical GM reference: consequence
+  fiction with original examples, devil's bargain design, position/effect
+  3×3 matrix, clock patterns and anti-patterns
+- **FitD: rituals-crafting.md depth pass** — 4 original example rituals
+  (ward, compulsion, divination, transformation) and 4 sample
+  alchemicals/gadgets with drawbacks
+- **Personal reference file routing** — ttrpg-expert, session-play,
+  session-prep, and session-wrapup skills now discover and use
+  `systems/*/personal/` directories for setting-specific content
+
+### Changed
+
+- **FitD copyright compliance** — stripped Doskvol setting IP from all
+  public FitD files. Named factions, NPCs, heritage regions, and
+  setting descriptions removed or genericized. Faction mechanics, crew
+  frameworks, and playbook role descriptions preserved as SRD content.
+- **FitD: factions.md** — retitled "Faction Mechanics", reduced from
+  171 to 77 lines. Named factions removed; faction status table, tier
+  rules, claims, and faction turn procedure retained.
+- **FitD: setting-doskvol.md deleted** — pure setting IP, replaced by
+  personal reference files
+
+### Removed
+
+- **FitD: setting-doskvol.md** — Doskvol setting content (not covered by
+  CC-BY 3.0 SRD license)
+
+---
+
+## [1.4.22] — 2026-05-08
+
+### Fixed
+
+- **Timeline date parsing** — timeline now reads `in_game_date` (falling
+  back to `date` for pre-migration vaults). Vague dates like "Autumn 1813"
+  now parse to approximate months instead of defaulting to January 1.
+- **Chapter-session matching** — chapter pages now find their sessions via
+  three-stage matching (exact filename, filename with spaces, display title
+  substring). Previously failed when session `chapter:` values didn't
+  exactly match the chapter page title.
+- **Genre preset override** — custom theme.css no longer stomps genre
+  preset colors when no custom palette is provided. Config sets palette to
+  null instead of spreading defaults.
+- **Stale npm detection** — publish-site routine updates now check the
+  build tool version against the plugin cache and auto-update the `file:`
+  dependency path if stale.
+
+### Changed
+
+- **Schema: event `date` → `in_game_date`** — event entity frontmatter
+  field renamed for consistency. Migration 1.4.22 auto-applies the rename.
+- **Schema: session `planned_date`/`actual_date` → `play_date`** — two
+  legacy fields consolidated into one. Migration 1.4.22 picks the
+  `actual_date` value (or `planned_date` if that's all that exists) and
+  removes both old fields.
+- **Session wrap-up conventions** — standardized filename
+  (`Session_NN_Wrap_Up.md`), frontmatter type (`session_wrap`), and date
+  format guidance (JS-parseable values only).
+- **Publish tool field references** — landing page, location pages, badges,
+  and event sorting all use new field names with backward-compatible
+  fallbacks.
+
+### Added
+
+- **Migration 1.4.22** in `shared/migrations.md` — structural renames for
+  event and session date fields; opt-in wrap-up `type` standardization
+- **Deprecation warnings** in `validate_schema.py` — flags `date` on events
+  and `planned_date`/`actual_date` on sessions
+- **`session_wrap` type** recognized in schema validation alongside legacy
+  `session-wrap-up`
+
+## [1.4.21] — 2026-05-06
+
+### Added
+
+- **Story progression page** (chapters index) — chapter cards with session lists, status badges
+- **Bestiary page** (creatures index) — dossier cards with threat/status badges, abilities/weaknesses pills
+- **Theater of Operations** (locations index) — region-grouped layout with parent/child nesting
+- **Intelligence Briefing** (factions index) — cards grouped by type with goals, leadership, connections
+- **Armory & Acquisitions** (items index) — manifest rows grouped by item type with holder/origin/TL
+- **Campaign deep dive** — extracted sections from campaign overview with resolved wikilinks
+- **GURPS combat stats bar** on PC sheets — HP, FP, Speed, Move, Dodge, Parries, skills
+- **Events index redirect** to timeline page
+- **Schema change procedure** checklist (`docs/schema-change-procedure.md`)
+- **`in_game_date` array support** for multi-day sessions in timeline
+
+### Fixed
+
+- PC portrait now constrained card layout instead of full-width crop
+- Tab-tag clicks now open corresponding accordion section on PC pages
+- Empty Relationships/Appearances boxes hidden on PC pages
+- Weapons/encumbrance sections moved to Equipment tab (not Sheet)
+- Bestiary badges now labeled "Threat:" / "Status:" for clarity
+- Nav label "Chapters" renamed to "Story"
+- Integration test updated for new locations/creatures page structure
+
+### Changed
+
+- Publish tool npm package bumped to 1.2.1 (patch: QA fixes + index page overhauls)
+
+## [1.4.20] — 2026-05-04
+
+### Added
+
+- **Dark-first responsive CSS** with CSS custom properties and mobile-first breakpoints
+- **4 genre preset themes** (horror, fantasy, noir, military) with dark + light mode variants
+- **Semantic top navigation** with 4 groups: Story, Characters, World, Reference
+- **Breadcrumbs** on all entity pages with path-based crumb generation
+- **Backlink resolution engine** — scans wiki-links to build reverse index
+- **Recency scoring engine** — weights entities by recent session mentions
+- **Full-text search** with lunr.js (Cmd+K overlay, lazy-loaded index)
+- **Image lightbox** — pure JS lightbox for all content images
+- **8-zone landing page** — hero, recap, team, in memoriam, NPCs, locations, events, explore
+- **Index pages** with pill filters, name search, sort controls, and type-specific layouts
+- **Context sidebar** on all entity pages showing backlinks, relationships, and parent entity
+- **Location pages** with 6-zone layout: hero banner, pull-quote, sub-locations, NPCs, events
+- **NPC pages** with 6-zone layout: portrait banner, location card, relationship web, story arc
+- **PC pages** with cinematic hero banner and 4-tab layout (Sheet, Equipment, Story, Journey)
+- **4 system-specific character sheet renderers** — CoC 7e, GURPS 4e, D&D 5e, FitD
+- **SVG relationship graphs** with 2-hop radial layout on all entity pages
+- **Campaign timeline** — full-page SVG with zoom controls and landing strip
+- **Story/chapter nav** with prev/next links and enriched sidebar (NPCs, events, sessions)
+- **Client-side index filters** — pill toggle, name input, sort-select for index pages
+- **session-wrapup** gmassistant.app passthrough — when Play Notes are a gmassistant.app export (detected by `## Memorable Moments` heading), adopts the app's narrative summary verbatim and uses its structured NPC/Location/Item sections as entity input instead of regenerating from scratch
+
+### Fixed
+
+- `getLatestSession` now includes `reviewed` sessions (not just `played`)
+- `formatDate` no longer shifts dates by timezone offset (UTC parsing fix)
+
+### Changed
+
+- Publish tool npm package bumped to 1.2.0 (minor: new features, no breaking changes)
+- Location, NPC, PC, and wiki templates fully rewritten with modern layouts
+
+## [1.4.19] — 2026-05-03
+
+### Added
+
+- Confidence badges in published sites (Draft, Stub, Superseded)
+- `exclude_drafts` publish config option to filter DRAFT entities from sites
+- Stale DRAFT detection in campaign-qa (WARNING after 3+ sessions)
+- SUPERSEDED entities must declare `superseded_by` (enforced in CI)
+- Session 4 + confidence test entities in benchmark campaign
+
+### Fixed
+
+- Publish tool now reads `source_confidence` field (was checking nonexistent `canon_status`)
+- SUPERSEDED link-map redirect now works against real vault entities
+
+## [1.4.18] — 2026-05-03
+
+### Changed
+
+- **session-play enrichment** — expanded from 80 to 129 lines with direct routing for common mid-game needs (rules disputes, improv NPCs, spotlight management, combat pacing, scene recovery)
+- Added Common Mid-Game Lookups routing table pointing to exact files and sections in ttrpg-expert
+- Added Capture Shorthand section documenting entity extraction markers (`NEW-NPC:`, `NEW-LOC:`, `UPDATE:`, etc.) that session-wrapup expects
+- Explicit companion reference to `active-play-management.md` for GM-craft advice during play
+
+### Removed
+
+- Fix 9 (Filesystem Mode Honest Labeling) dropped from Fix and Fortify design spec
+
+---
+
+## [1.4.17] — 2026-05-03
+
+### Changed
+
+- **D&D monster data enrichment** — 235 monster stat blocks expanded with full SRD 5.2 combat data: ability scores, attack bonuses, damage dice, save DCs, traits, and legendary actions
+- Monster CR 11+ split into `cr11-16` and `cr17-plus` sub-files for headroom
+- ATTRIBUTION.md updated with expanded SRD 5.2 content note
+
+### Fixed
+
+- Enricher script: combat traits (Heated Body, Trampling Charge) no longer stripped in normal mode
+- Enricher script: two-stage save abilities (Paralyzing Breath, Petrifying Breath) now fully parsed
+- Enricher script: spellcasting-style actions (Ice Wall, Hellfire Spellcasting) now rendered correctly
+- Enricher script: SRD path configurable via CLI argument; size limit aligned to 25 KiB
+- Corrupted spell rows fixed: Forcecage, Fly, Knock, Moonbeam, Freedom of Movement, Greater Invisibility
+- Missing magic item effects restored: Ring of Telekinesis, Wand of Fear, Belt of Dwarvenkind
+- CI lint: `find` command no longer fails when `references/` directory is absent
+- Missing migration registry entries for 1.4.16 and 1.4.17 added
+
+---
+
+## [1.4.16] — 2026-05-03
+
+### Added
+
+- **D&D response templates** — spell lookup/browse, magic item lookup/browse, and monster standard/boss templates added to index file headers
+
+---
+
+## [1.4.15] — 2026-05-02
+
+### Changed
+
+- **D&D reference decomposition** — spells.md (79KB), magic-items.md (40KB), and monsters.md (23KB) split into compact indexes + sub-files; no sub-file exceeds 25KB
+- CI enforces 25KB reference file size limit
+
+---
+
+## [1.4.14] — 2026-05-02
+
+### Fixed
+
+- Migration version auto-synced from plugin.json at build time
+- Content filtering now makes deterministic decisions for cut/skipped/modified scenes
+
+### Added
+
+- Reconcile fast-path for straightforward sessions
+- Proof-run infrastructure: 5-run statistical benchmark with median/IQR analysis
+- CI checks: migration version sync, content filtering validation
+
+---
+
+## [1.4.13] — 2026-05-02
+
+### Fixed
+
+- **Session-prep: GM approval gate** — Step 13 (Scene Design) now
+  proposes each scene to the GM before writing it to the Plan file.
+  The GM approves, tweaks, or rejects each scene individually.
+
+---
+
+## [1.4.12] — 2026-05-01
+
+### Added
+
+- **Development workflow** — CLAUDE.md now documents the required
+  branch → implement → version bump → changelog → review → PR → merge
+  sequence for all non-trivial changes
+- **PR discipline checks** — CI warns on missing version bumps and
+  changelog updates; blocks on broken build script output
+
+---
+
+## [1.4.11] — 2026-05-01
+
+### Added
+
+- **Automated releases** — GitHub Action creates tagged releases with
+  skill zips on version bump; skill zips attached as release assets
+  for users who can't install plugins
+- **Build script** — `scripts/build-skill-zips.sh` packages each skill
+  as a self-contained zip with shared references bundled
+- **Individual skill upload docs** — README and quickstart updated with
+  instructions for uploading skill zips to Claude Desktop
+
+### Fixed
+
+- **ttrpg-expert description** — trimmed to 983 chars to fit the
+  1024-character limit for skill descriptions
+- **Claude Desktop install instructions** — updated for the new
+  Cowork > Customize > Personal plugins UI flow
+- **Stale skill counts** — README Obsidian section and quickstart now
+  reference all 8 skills
+
+---
+
+## [1.4.10] — 2026-05-01
+
+### Fixed
+
+- **GURPS PC template** — Skills and Spells sections now enforce single alphabetized tables with no category sub-headings
+- **Mobile: accordion table scroll** — Wide tables inside accordion sections scroll horizontally on mobile instead of overflowing
+- **Mobile: back-to-top button** — Fixed-position button appears after 400px scroll on all published pages
+
+---
+
+## [1.4.9] — 2026-04-26
+
+### Added
+
+- **Vault versioning and migration system** — vaults now track `gm_apprentice_version` in vault-config; every vault-aware skill checks the version on first invocation and runs campaign-organizer's migration workflow if the vault is behind the plugin version
+- **Migration registry** — `skills/shared/migrations.md` defines the current version and per-version migration steps in three categories: structural (auto), content (opt-in), and tooling (opt-in)
+- **Publish site directory in vault-config** — `publish.site_dir` field stores the site repo path so the publish-site skill reads it directly instead of asking each session
+- **Vault-config field documentation** — entity schema now documents all vault-config frontmatter fields
+
+---
+
+## [1.4.8] — 2026-04-26
+
+### Added
+
+- **Tabbed PC page layout** — published PC pages now show Character Sheet and Story in a two-tab layout with hash-based routing (`#sheet`, `#story`) for direct-linking
+- **Story companion rendering** — `{Name}_Story.md` files auto-discovered alongside PC files and rendered as prose narrative in the Story tab; validated via `type: character-story` frontmatter
+- **System renderer registry** — dispatch architecture (`pc-registry.js`) decouples layout from system-specific rendering; ships with default renderer, ready for per-system overrides
+- **Enhanced stat sheet CSS** — alternating row shading, monospace numeric values, responsive table collapsing, serif prose sections, print styles for tabbed layout
+
+### Changed (publish tool)
+
+- Publish tool version bumped to 1.1.0
+
+---
+
+## [1.4.7] — 2026-04-26
+
+### Added
+
+- **Story lifecycle** — session-wrapup Step 3b writes per-PC character story entries after each session; vault-ingest reconstructs consolidated backstory entries from historical material and recognizes wrap-up files as a source type; campaign-qa Graph Health validates story file existence and recency for active PCs
+
+---
+
+## [1.4.6] — 2026-04-25
+
+### Added
+
+- **Character sheet templates** — 8 canonical vault templates in `skills/shared/templates/` covering GURPS 4e, CoC 7e (base + Regency variant), D&D 5e 2024, FitD (scoundrel + crew), and a generic fallback
+- **Character story format** — `skills/shared/character-story-format.md` defines companion story file structure, narrative voice by campaign genre, writing rules, and append protocol
+- **PC body structure in entity schema** — canonical heading hierarchy (Stat Sheet → Background → System Sections → Equipment → Notes → GM Notes) and story companion convention documented in `entity-schema.md`
+
+---
+
+## [1.4.5] — 2026-04-25
+
+### Added
+
+- **Skill taxonomy table** in README — documents all skill categories, roles, and boundaries with the advisor/doer distinction
+- **ttrpg-expert capabilities table** in `docs/ttrpg-expert.md` — maps all 18 functions to their reference files
+- **the-midwife** added to roadmap — planned adventure creation skill with guided creative persona
+- vault-ingest added to README Skills table (was missing)
+
+### Changed
+
+- ttrpg-expert description rewritten to clarify advisor-only role with zero dependencies on other skills
+- Removed all remaining hardcoded model names: inline `**Model:** Sonnet` from vault-ingest Phases 1-2, `Sonnet/Haiku` from session-wrapup sub-agent guidance
+
+---
+
+## [1.4.4] — 2026-04-25
+
+### Added
+
+- **vault-ingest image handling** — images arriving via folder, one-at-a-time, or mixed batch are classified, filed to the correct `_attachments/` subfolder, and linked to entities via `portrait` frontmatter or `![[embed]]` body syntax
+  - Format conversion (best-effort via `sips`/`magick`, skip with message if unavailable)
+  - Filename-based entity matching (exact slug → batch → suffix strip)
+  - Duplicate detection (identical files skipped, different-content conflicts flagged for GM)
+  - Keeper interview questions for unmatched images and portrait selection
+  - New reference: `skills/vault-ingest/references/image-handling.md`
+- Roadmap item: remove model-specific prescriptions from all skills
+
+### Changed
+
+- vault-ingest model selection table uses complexity guidance (Light/Heavy) instead of hardcoded model names
+- Classification taxonomy Image/map row expanded with supported formats and reference pointer
+
+---
+
+## [1.4.3] — 2026-04-23
+
+### Added
+
+- **displayTitle + template overhaul** — `displayTitle` on all page objects, data-driven `display_meta` PC meta row, Team/Fallen landing split with SVG status icons
+- `display_meta` field added to PC entity schema and publish-site schema reference
+- Character generation references updated with `display_meta` defaults
+
+### Changed
+
+- All publish templates switched to `displayTitle` for rendering
+- Landing page roster split into The Team and The Fallen sections
+- Relationship link display text replaces underscores with spaces
+
+---
+
+## [1.4.2] — 2026-04-22
+
+### Added
+
+- **vault-ingest skill** — ingests old campaign materials (notes, character sheets, images, transcripts, spreadsheets) into a structured vault via a six-phase pipeline: survey, sort, extract, keeper interview, synthesize, review
+  - Classification taxonomy, keeper interview technique, and synthesis templates as references
+  - Benchmark questions and campaign fixtures
+- **Session document chain** — standardised naming and type conventions for session files (Plan, Play Notes, Wrap-Up)
+  - Shared reconcile procedure for GM review workflow
+  - All three session skills updated for document chain
+  - Benchmark campaign converted to document chain format
+
+### Changed
+
+- Plugin description updated for seven-skill lineup
+- vault-structure.md updated with `_inbox/` and document chain naming
+
+---
+
+## [1.4.1] — 2026-04-21
+
+### Added
+
+- **Arc-spotlight reference** — pure GM framework reference for dramatic arc planning, spotlight rotation, and session pacing
+- Creative planning benchmark questions for session-prep
+
+### Changed
+
+- **session-prep refactored** — unified gather-plan-verify workflow replacing the older session-planner approach
+  - Prep note template rewritten with progressive write sections
+  - System-specific arc drivers folded into session-procedures files
+- ttrpg-expert routing updated for advisor/doer split
+- Compaction pass on arc-spotlight-reference and session-prep workflow
+
+### Removed
+
+- `skills/session-prep/references/session-planner.md` — replaced by arc-spotlight-reference + unified workflow
+
+---
+
+## [1.4.0] — 2026-04-20
+
+### Added
+
+- **session-prep skill** — dedicated between-sessions preparation with two-phase reconcile/prep-forward workflow, status-gated reconciliation (`played` → `reviewed`), and sub-agent opportunity for parallel vault reads
+- **session-play skill** — speed-optimised at-the-table assistant for quick lookups, rules questions, on-the-fly content generation, and play note capture
+- **session-wrapup skill** — post-session processor turning raw play notes into canon: narrative recaps, entity creation, event decomposition, timeline updates, and carry-forward package
+- **Shared session-principles** (`skills/shared/session-principles.md`) — common rules, vault integration, and canon workflow shared across all three session skills
+- **Benchmark infrastructure** — per-skill benchmark questions and 3-run blind A/B evaluation results for the session split
+
+### Changed
+
+- **session-lifecycle replaced** — the monolithic 491-line skill is split into three focused skills (402 total lines, 18% reduction) with quality improvement confirmed across 3 benchmark runs
+- Plugin description updated to reflect the six-skill lineup
+- campaign-qa companion skill references updated for the three-way split
+- campaign-organizer, ttrpg-expert references updated
+- User-facing docs split into per-skill pages (`docs/session-prep.md`, `docs/session-play.md`, `docs/session-wrapup.md`)
+- `docs/campaign-lifecycle.md` and `docs/quickstart.md` updated for new skill names
+
+### Removed
+
+- `skills/session-lifecycle/` — replaced by session-prep, session-play, session-wrapup
+- `docs/session-lifecycle.md` — replaced by per-skill docs
+
+---
+
+## [1.3.1] — 2026-04-19
+
+### Added
+
+- **Event dedicated template** — site template, vault template, and session-lifecycle event decomposition
+  - `parseParticipant()` supports three formats: `[[Entity]] (role)`, `[[Entity|Display]] (role)`, plain text
+  - Location wiki-link alias parsing (`[[Target|Display]]`)
+  - Event threshold criteria for coarse-grained event decomposition in wrap-up
+  - CSS: outcome callout and participants list styling
+
+### Changed
+
+- Entity schema: `eventType` renamed to `event_type`, `significance` field removed
+- Session-lifecycle wrap-up: timeline entries now use linked vs inline format
+- Roadmap: favicon generation demoted, event template marked completed
+
+---
+
+## [1.3.0] — 2026-04-19
+
+### Added
+
+- **publish-site skill** — new skill guiding the vault-to-website publishing workflow
+- **gm-apprentice-publish npm package (v1.0.0)** — static site generator featuring:
+  - Dashboard landing page and PC roster cards
+  - NPC scoring and player-mode content/image filtering
+  - Themed 404 page
+  - Wiki-link resolution and image embed support
+  - Relationship rendering
+  - Configurable folder mapping and attachment directory
+  - CLI entry point
+- Pulp Cthulhu variant added to roadmap backlog
+
+### Fixed
+
+- Path traversal guard — bidirectional vault boundary check prevents escaping the vault root
+- XSS prevention — HTML escaping applied across all site generator templates
+
+---
+
+## [1.2.0] — 2026-04-12
+
+### Added
+
+- **Regency Cthulhu variant** — skills overlay, occupations, equipment, chargen rules, GM guidance, routing, and benchmark question sets
+- **Shared references directory** (`skills/shared/`) — deduplicated entity schema, frontmatter conventions, file format standards, and RPG terminology available to all skills
+- **Benchmark infrastructure** — synthetic campaign, question sets, and baselines under `tests/`
+- **CI checks** — markdown lint, consistency checks, and relative path validation
+- **CLAUDE.md** — copyright compliance rules, GURPS usage constraints, commit conventions, and roadmap workflow
+- **Force-ranked ROADMAP.md** backlog with scoring formula
+- Image attachment support for campaign-organizer
+- Installation instructions for all platforms (Claude Code, Desktop, VS Code, Cursor, JetBrains)
+- Cross-routing prompts in all reference and framework files
+
+### Changed
+
+- Compacted 20+ reference and framework files (30–60% token reduction)
+- campaign-qa and session-lifecycle now fall back to filesystem when no vault path is configured
+
+---
+
+## [1.1.0] — 2026-04-06
+
+### Added
+
+- Initial public release
+- Four skills: `ttrpg-expert`, `campaign-organizer`, `campaign-qa`, `session-lifecycle`
+- System support: Call of Cthulhu 7e, GURPS 4e, Forged in the Dark, D&D 5e 2024
+- GURPS archetype chargen kits and reference files
+- Plugin marketplace packaging (`.claude-plugin/plugin.json`, `marketplace.json`)
+
+---
+
+[1.7.1]: https://github.com/AntTheLimey/gm-apprentice/compare/v1.7.0...v1.7.1
+[1.7.0]: https://github.com/AntTheLimey/gm-apprentice/releases/tag/v1.7.0
+[1.6.6]: https://github.com/AntTheLimey/gm-apprentice/compare/v1.6.5...v1.6.6
+[1.6.5]: https://github.com/AntTheLimey/gm-apprentice/compare/v1.6.4...v1.6.5
+[1.6.4]: https://github.com/AntTheLimey/gm-apprentice/compare/v1.6.3...v1.6.4
+[1.6.3]: https://github.com/AntTheLimey/gm-apprentice/compare/v1.6.2...v1.6.3
+[1.6.2]: https://github.com/AntTheLimey/gm-apprentice/compare/v1.6.1...v1.6.2
+[1.6.1]: https://github.com/AntTheLimey/gm-apprentice/compare/v1.6.0...v1.6.1
+[1.6.0]: https://github.com/AntTheLimey/gm-apprentice/compare/v1.5.3...v1.6.0
+[1.5.3]: https://github.com/AntTheLimey/gm-apprentice/compare/v1.5.2...v1.5.3
+[1.5.2]: https://github.com/AntTheLimey/gm-apprentice/compare/v1.5.1...v1.5.2
+[1.5.1]: https://github.com/AntTheLimey/gm-apprentice/compare/v1.5.0...v1.5.1
+[1.5.0]: https://github.com/AntTheLimey/gm-apprentice/compare/v1.4.22...v1.5.0
+[1.4.22]: https://github.com/AntTheLimey/gm-apprentice/compare/v1.4.21...v1.4.22
+[1.4.19]: https://github.com/AntTheLimey/gm-apprentice/compare/v1.4.18...v1.4.19
+[1.4.18]: https://github.com/AntTheLimey/gm-apprentice/compare/v1.4.17...v1.4.18
+[1.4.17]: https://github.com/AntTheLimey/gm-apprentice/compare/v1.4.16...v1.4.17
+[1.4.16]: https://github.com/AntTheLimey/gm-apprentice/compare/v1.4.15...v1.4.16
+[1.4.15]: https://github.com/AntTheLimey/gm-apprentice/compare/v1.4.14...v1.4.15
+[1.4.14]: https://github.com/AntTheLimey/gm-apprentice/compare/v1.4.13...v1.4.14
+[1.4.13]: https://github.com/AntTheLimey/gm-apprentice/compare/v1.4.12...v1.4.13
+[1.4.12]: https://github.com/AntTheLimey/gm-apprentice/compare/v1.4.11...v1.4.12
+[1.4.11]: https://github.com/AntTheLimey/gm-apprentice/compare/v1.4.10...v1.4.11
+[1.4.10]: https://github.com/AntTheLimey/gm-apprentice/compare/v1.4.9...v1.4.10
+[1.4.9]: https://github.com/AntTheLimey/gm-apprentice/compare/v1.4.8...v1.4.9
+[1.4.8]: https://github.com/AntTheLimey/gm-apprentice/compare/v1.4.7...v1.4.8
+[1.4.7]: https://github.com/AntTheLimey/gm-apprentice/compare/v1.4.6...v1.4.7
+[1.4.6]: https://github.com/AntTheLimey/gm-apprentice/compare/v1.4.5...v1.4.6
+[1.4.5]: https://github.com/AntTheLimey/gm-apprentice/compare/v1.4.4...v1.4.5
+[1.4.4]: https://github.com/AntTheLimey/gm-apprentice/compare/v1.4.3...v1.4.4
+[1.4.3]: https://github.com/AntTheLimey/gm-apprentice/compare/v1.4.2...v1.4.3
+[1.4.2]: https://github.com/AntTheLimey/gm-apprentice/compare/v1.4.1...v1.4.2
+[1.4.1]: https://github.com/AntTheLimey/gm-apprentice/compare/v1.4.0...v1.4.1
+[1.4.0]: https://github.com/AntTheLimey/gm-apprentice/compare/v1.3.1...v1.4.0
+[1.3.1]: https://github.com/AntTheLimey/gm-apprentice/compare/v1.3.0...v1.3.1
+[1.3.0]: https://github.com/AntTheLimey/gm-apprentice/compare/v1.2.0...v1.3.0
+[1.2.0]: https://github.com/AntTheLimey/gm-apprentice/compare/v1.1.0...v1.2.0
+[1.1.0]: https://github.com/AntTheLimey/gm-apprentice/releases/tag/v1.1.0

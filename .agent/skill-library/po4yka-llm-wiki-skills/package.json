@@ -1,0 +1,75 @@
+{
+  "name": "llm-wiki-starter",
+  "version": "1.1.0",
+  "description": "One-command bootstrap for a local-first LLM-Wiki vault.",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/po4yka/llm-wiki-skills.git"
+  },
+  "type": "module",
+  "bin": {
+    "llm-wiki-starter": "bin/llm-wiki-starter.mjs"
+  },
+  "files": [
+    "bin/",
+    "profiles/external-starter/",
+    "scripts/build-external.mjs",
+    "scripts/redact-preview.mjs",
+    "skills/llm-wiki-zero-to-working-wiki/",
+    "skills/llm-wiki-setup/",
+    "skills/wiki-triage/",
+    "skills/wiki-ingest/",
+    "skills/wiki-query/",
+    "skills/wiki-lint/",
+    "skills/llm-wiki-privacy-redactor/",
+    "skills/llm-wiki-export-publish/",
+    "skills/llm-wiki-security-review/",
+    "templates/external-starter/",
+    "templates/schemas/page.schema.json",
+    "templates/wiki/index.md",
+    "templates/wiki/log.md"
+  ],
+  "engines": {
+    "node": ">=18"
+  },
+  "scripts": {
+    "validate": "npm run validate:skills && npm run validate:skill-self-containment && npm run validate:manifest && npm run validate:links && npm run validate:agent-safety && npm run validate:skill-smells && npm run validate:claim-anchors && npm run validate:schema-drift && npm run validate:quality-policy && npm run validate:quality-ratchet && npm run validate:docs-metadata && npm run validate:templates && npm run validate:domain-packs && npm run validate:router && npm run validate:coverage && npm run check:examples && npm run test:redaction && npm run test:starter",
+    "validate:skills": "node scripts/validate-skills.mjs",
+    "validate:skill-self-containment": "node scripts/validate-skill-self-containment.mjs",
+    "validate:manifest": "node scripts/validate-skills-manifest.mjs",
+    "validate:links": "node scripts/validate-markdown-links.mjs",
+    "validate:agent-safety": "node scripts/validate-agent-safety.mjs",
+    "validate:skill-smells": "node scripts/validate-skill-smells.mjs",
+    "validate:claim-anchors": "node scripts/validate-claim-anchors.mjs",
+    "validate:schema-drift": "node scripts/validate-schema-drift.mjs",
+    "validate:quality-policy": "node scripts/validate-quality-policy.mjs",
+    "validate:quality-ratchet": "node scripts/validate-quality-ratchet.mjs",
+    "validate:docs-metadata": "node scripts/validate-docs-metadata.mjs",
+    "validate:templates": "node scripts/validate-templates.mjs",
+    "validate:domain-packs": "node scripts/validate-domain-packs.mjs",
+    "validate:router": "node scripts/validate-skill-router.mjs",
+    "validate:coverage": "node scripts/validate-coverage.mjs",
+    "check:skill-versions": "node scripts/check-skill-version-bumps.mjs",
+    "lint:markdown": "npx --yes markdownlint-cli2@0.23.0 \"**/*.md\" \"#node_modules\"",
+    "catalog:generate": "node scripts/generate-skills-catalog.mjs && node scripts/generate-skills-catalog-md.mjs && node scripts/generate-catalog-mirrors.mjs",
+    "check:examples": "node scripts/check-examples.mjs",
+    "smoke:skills": "node scripts/smoke-skills-distribution.mjs",
+    "refresh:source-report": "node scripts/source-refresh-scan.mjs",
+    "refresh:ecosystem-report": "node scripts/ecosystem-refresh-scaffold.mjs",
+    "refresh:reports": "npm run refresh:source-report && npm run refresh:ecosystem-report",
+    "redact:preview": "node scripts/redact-preview.mjs",
+    "external:build": "node scripts/build-external.mjs",
+    "release:notes": "node scripts/generate-release-notes.mjs",
+    "release:artifacts": "node scripts/generate-release-artifacts.mjs",
+    "test:starter": "node scripts/test-starter-cli.mjs",
+    "test:redaction": "node scripts/test-redact-preview.mjs",
+    "test:product-e2e": "node scripts/test-product-e2e.mjs"
+  },
+  "dependencies": {
+    "skills": "1.5.22"
+  },
+  "devDependencies": {
+    "markdownlint-cli2": "0.23.2"
+  }
+}

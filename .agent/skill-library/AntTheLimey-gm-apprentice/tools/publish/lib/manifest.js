@@ -1,0 +1,99 @@
+const fs = require('fs');
+const path = require('path');
+const matter = require('gray-matter');
+const { canonicalNfc } = require('./unicode');
+
+// Manifest entries are vault-relative paths, optionally annotated with an inline
+// `— comment` (the Excluded section uses these throughout). Keep only the path, so an
+// annotated Publishing entry still matches a scanned file instead of silently
+// blackholing the page.
+//
+// The path is anchored on its file extension rather than split on the first dash: vault
+// filenames legitimately contain " — " ("Items/Six — Field Sundries.md"), and splitting on
+// the dash would truncate them into the very blackhole this exists to prevent. The lazy
+// prefix stops at the first extension that leaves only a comment (or nothing) behind, so
+// both "Six — Field Sundries.md" and "Foo.md — see Bar.md" resolve correctly.
+const ENTRY_RE = /^(.*?\.\w+)(?:\s+(?:—|–|--)\s+.*)?$/;
+
+// Normalize a vault-relative path to NFC for equality comparisons (#139). build.js compares
+// manifest entries against scanned paths with exact-string `Set.has()`, so without a shared
+// normal form a manifest entry can silently fail to match the page it names. Both sides of
+// every such comparison must run through this helper. See lib/unicode.js for why the two
+// normal forms of one visible name differ, and for the other comparison boundaries.
+function canonicalPath(entry) {
+  return canonicalNfc(entry);
+}
+
+function stripInlineComment(entry) {
+  const trimmed = String(entry).trim();
+  const match = ENTRY_RE.exec(trimmed);
+  return canonicalPath(match ? match[1] : trimmed);
+}
+
+function parseManifest(markdown) {
+  const { data, content } = matter(markdown);
+  const publishing = [];
+  const needsDecision = [];
+  const resolved = [];
+  const excluded = [];
+
+  const checkedPattern = /^- \[[xX]\]\s+(.+)$/;
+  const uncheckedPattern = /^- \[ \]\s+(.+)$/;
+
+  let currentSection = null;
+  for (const line of content.replace(/\r/g, '').split('\n')) {
+    const sectionMatch = line.match(/^## (.+)/);
+    if (sectionMatch) {
+      const title = sectionMatch[1].trim();
+      if (title.startsWith('Publishing')) currentSection = 'publishing';
+      else if (title.startsWith('Needs Decision')) currentSection = 'needs_decision';
+      else if (title.startsWith('Excluded')) currentSection = 'excluded';
+      else currentSection = null;
+      continue;
+    }
+
+    if (currentSection === 'publishing') {
+      const match = line.match(checkedPattern);
+      if (match) publishing.push(stripInlineComment(match[1]));
+    }
+
+    if (currentSection === 'needs_decision') {
+      const unchecked = line.match(uncheckedPattern);
+      if (unchecked) needsDecision.push(stripInlineComment(unchecked[1]));
+      const checked = line.match(checkedPattern);
+      if (checked) resolved.push(stripInlineComment(checked[1]));
+    }
+
+    // Collect the Excluded file paths so the build can tell a *deliberately* excluded file
+    // from one that is simply absent from the manifest — only the latter is a forgot-to-register
+    // warning (#101). Two shapes appear: the documented `- [x] path — reason` checkbox lines
+    // (same as Publishing, see publish-site/references/content-filtering.md) and a grouped
+    // `- Reason: …` category with indented `  - path` bullets. Handle both; skip Reason bullets.
+    if (currentSection === 'excluded') {
+      const checkboxed = line.match(checkedPattern);
+      if (checkboxed) {
+        excluded.push(stripInlineComment(checkboxed[1]));
+      } else {
+        const bullet = line.match(/^\s+-\s+(.+)$/);
+        if (bullet && !/^reason:/i.test(bullet[1].trim())) excluded.push(stripInlineComment(bullet[1]));
+      }
+    }
+  }
+
+  return {
+    meta: data,
+    publishing,
+    needsDecision,
+    resolved,
+    excluded,
+  };
+}
+
+function loadManifest(vaultPath) {
+  const manifestPath = path.join(vaultPath, '_meta', 'publish-manifest.md');
+  if (!fs.existsSync(manifestPath)) return null;
+  const raw = fs.readFileSync(manifestPath, 'utf-8');
+  return parseManifest(raw);
+}
+
+module.exports = { parseManifest, loadManifest, stripInlineComment, canonicalPath };

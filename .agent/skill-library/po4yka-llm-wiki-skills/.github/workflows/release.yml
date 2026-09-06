@@ -1,0 +1,211 @@
+name: Release
+
+on:
+  push:
+    tags:
+      - 'v*'
+      - '*.*.*'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: release-${{ github.ref }}
+  cancel-in-progress: false
+
+jobs:
+  package:
+    name: Validate and package skills
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7
+        with:
+          fetch-depth: 0
+          persist-credentials: false
+
+      - name: Set up Node.js
+        uses: actions/setup-node@820762786026740c76f36085b0efc47a31fe5020 # v6
+        with:
+          node-version: 22
+          package-manager-cache: false
+
+      - name: Validate skills pack
+        run: npm run validate
+
+      - name: Validate npm starter package
+        run: npm pack --dry-run
+
+      - name: Resolve release identity
+        id: release
+        run: |
+          package_version="$(node -p "require('./package.json').version")"
+          release_tag="${GITHUB_REF_NAME}"
+          if [[ "${GITHUB_REF_TYPE}" != "tag" ]]; then
+            release_tag="v${package_version}"
+          fi
+          if [[ ! "${release_tag}" =~ ^v[0-9]+\.[0-9]+\.[0-9]+$ ]] || [[ "${release_tag#v}" != "${package_version}" ]]; then
+            echo "Release tag must be v${package_version}."
+            exit 1
+          fi
+          echo "tag=${release_tag}" >> "${GITHUB_OUTPUT}"
+
+      - name: Find previous release tag
+        id: previous-release
+        run: |
+          current_tag=""
+          if [[ "${GITHUB_REF_TYPE}" == "tag" ]]; then
+            current_tag="${GITHUB_REF_NAME}"
+          fi
+
+          previous_tag=""
+          while IFS= read -r candidate; do
+            if [[ ! "${candidate}" =~ ^v?[0-9]+\.[0-9]+\.[0-9]+([.-][0-9A-Za-z.-]+)?$ ]]; then
+              continue
+            fi
+            if [[ "${candidate}" == "${current_tag}" ]]; then
+              continue
+            fi
+            previous_tag="${candidate}"
+            break
+          done < <(git tag --merged HEAD --sort=-version:refname)
+
+          echo "ref=${previous_tag}" >> "${GITHUB_OUTPUT}"
+          if [[ -n "${previous_tag}" ]]; then
+            echo "Comparing skill versions against ${previous_tag}."
+          else
+            echo "No previous release tag found; treating this as the first release."
+          fi
+
+      - name: Check skill version bumps
+        if: steps.previous-release.outputs.ref != ''
+        env:
+          SKILL_VERSION_STRICT: '1'
+          SKILL_VERSION_BASE_REF: ${{ steps.previous-release.outputs.ref }}
+        run: npm run check:skill-versions -- --strict
+
+      - name: Record first-release version check
+        if: steps.previous-release.outputs.ref == ''
+        run: echo "Skipping version comparison because no previous release tag exists."
+
+      - name: Set up Go
+        uses: actions/setup-go@b7ad1dad31e06c5925ef5d2fc7ad053ef454303e # v7.0.0
+        with:
+          go-version: stable
+          cache: false
+
+      - name: Run actionlint
+        run: |
+          go install github.com/rhysd/actionlint/cmd/actionlint@v1.7.12
+          "$(go env GOPATH)/bin/actionlint"
+
+      - name: Run Gitleaks CLI
+        run: |
+          go install github.com/zricethezav/gitleaks/v8@v8.30.1
+          "$(go env GOPATH)/bin/gitleaks" detect --source . --no-git --redact --verbose
+
+      - name: Generate catalogs
+        run: npm run catalog:generate
+
+      - name: Generate release notes
+        env:
+          RELEASE_TAG: ${{ steps.release.outputs.tag }}
+        run: npm run release:notes -- "${RELEASE_TAG}"
+
+      - name: Build release archive
+        env:
+          RELEASE_TAG: ${{ steps.release.outputs.tag }}
+        run: |
+          mkdir -p dist
+          git archive --format=zip --output="dist/llm-wiki-external-starter-${RELEASE_TAG}.zip" HEAD \
+            README.md \
+            AGENTS.md \
+            CLAUDE.md \
+            CONTRIBUTING.md \
+            SECURITY.md \
+            LICENSE \
+            CHANGELOG.md \
+            skills.sh.json \
+            skill-router.json \
+            quality-baseline.json \
+            package.json \
+            package-lock.json \
+            bin \
+            profiles \
+            .markdownlint-cli2.jsonc \
+            .github \
+            policies \
+            scripts \
+            skills \
+            docs \
+            templates \
+            domain-packs \
+            benchmarks \
+            examples
+
+      - name: Generate dependency manifest
+        env:
+          RELEASE_TAG: ${{ steps.release.outputs.tag }}
+        run: npm sbom --package-lock-only --omit=dev --sbom-format=spdx > "dist/llm-wiki-external-starter-${RELEASE_TAG}.spdx.json"
+
+      - name: Generate release manifest and checksum
+        env:
+          RELEASE_TAG: ${{ steps.release.outputs.tag }}
+        run: npm run release:artifacts -- "${RELEASE_TAG}"
+
+      - name: Verify release metadata
+        env:
+          RELEASE_TAG: ${{ steps.release.outputs.tag }}
+        working-directory: dist
+        run: |
+          sha256sum --check "llm-wiki-external-starter-${RELEASE_TAG}.zip.sha256"
+          node -e 'JSON.parse(require("fs").readFileSync(process.argv[1]))' "release-manifest-${RELEASE_TAG}.json"
+          node -e 'JSON.parse(require("fs").readFileSync(process.argv[1]))' "llm-wiki-external-starter-${RELEASE_TAG}.spdx.json"
+
+      - name: Extract release archive
+        env:
+          RELEASE_TAG: ${{ steps.release.outputs.tag }}
+        run: |
+          mkdir -p "${RUNNER_TEMP}/release-archive"
+          unzip -q "dist/llm-wiki-external-starter-${RELEASE_TAG}.zip" -d "${RUNNER_TEMP}/release-archive"
+
+      - name: Validate packaged archive
+        working-directory: ${{ runner.temp }}/release-archive
+        run: npm run validate
+
+      - name: Smoke-test packaged archive
+        working-directory: ${{ runner.temp }}/release-archive
+        run: npm run smoke:skills
+
+      - name: Upload release artifacts
+        uses: actions/upload-artifact@043fb46d1a93c77aae656e7c1c64a875d1fc6a0a # v7
+        with:
+          name: release-artifacts
+          path: |
+            dist/llm-wiki-external-starter-${{ steps.release.outputs.tag }}.zip
+            dist/llm-wiki-external-starter-${{ steps.release.outputs.tag }}.zip.sha256
+            dist/llm-wiki-external-starter-${{ steps.release.outputs.tag }}.spdx.json
+            dist/release-manifest-${{ steps.release.outputs.tag }}.json
+            dist/CHANGELOG-${{ steps.release.outputs.tag }}.md
+            dist/skills-catalog.json
+            dist/release-notes-${{ steps.release.outputs.tag }}.md
+          if-no-files-found: error
+
+      - name: Create GitHub release
+        if: startsWith(github.ref, 'refs/tags/')
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          RELEASE_TAG: ${{ steps.release.outputs.tag }}
+        run: |
+          gh release create "${RELEASE_TAG}" \
+            "dist/llm-wiki-external-starter-${RELEASE_TAG}.zip" \
+            "dist/llm-wiki-external-starter-${RELEASE_TAG}.zip.sha256" \
+            "dist/llm-wiki-external-starter-${RELEASE_TAG}.spdx.json" \
+            "dist/release-manifest-${RELEASE_TAG}.json" \
+            "dist/CHANGELOG-${RELEASE_TAG}.md" \
+            dist/skills-catalog.json \
+            "dist/release-notes-${RELEASE_TAG}.md" \
+            --title "LLM-Wiki External Starter ${RELEASE_TAG}" \
+            --notes-file "dist/release-notes-${RELEASE_TAG}.md"

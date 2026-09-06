@@ -1,0 +1,79 @@
+# Dependencies
+node_modules/
+
+# OS
+.DS_Store
+
+# Editor
+*.swp
+*.swo
+*~
+
+# Skill-creator eval workspaces
+*-workspace/
+evals/
+
+# Go build artifacts
+bin/
+!tools/publish/bin/
+*.exe
+gca-converter-*
+
+# Converter output (user-specific data)
+data/
+
+# Backup copies of refactored files
+_backup/
+
+# Git worktrees
+.worktrees/
+
+# Claude Code local settings
+.claude/
+
+# Skill zip distribution files (built by scripts/build-skill-zips.sh)
+dist/
+
+# Python bytecode (from scripts/ and tests/)
+__pycache__/
+*.pyc
+
+# Personal GURPS reference files (not for distribution)
+skills/ttrpg-expert/systems/gurps-4e/personal/
+
+# Personal reference files per system (not for distribution)
+skills/ttrpg-expert/systems/coc-7e/personal/
+skills/ttrpg-expert/systems/fitd/personal/
+skills/ttrpg-expert/systems/dnd-5e-2024/personal/
+skills/ttrpg-expert/systems/pf2e/personal/
+
+# Specs, plans, and design docs (local development artifacts)
+docs/superpowers/
+docs/plans/
+.superpowers/
+
+# Test results (run-specific artifacts)
+tests/compaction/
+tests/proof-runs/
+tests/benchmark-results/
+
+# Keep benchmark infrastructure tracked
+!tests/benchmark-campaign/
+!tests/benchmark-questions/
+!tests/baselines/
+
+# Vendored runtime deps for the publish tool — committed on purpose.
+# The plugin cache is a git copy of this repo, and a site's `file:` pin symlinks the tool
+# out of that cache, so Node resolves the tool's require()s from the cache location. The
+# deps must travel with it or builds fail with "Cannot find module". This negation is LAST
+# so it overrides the earlier node_modules/, dist/, and bin/ rules for this one subtree.
+# See tools/publish/README.md ("Vendored dependencies").
+!tools/publish/node_modules/
+!tools/publish/node_modules/**
+# ...but never the npm-generated cruft: .bin holds machine-local (absolute-target)
+# symlinks that would ship as dangling links, and .package-lock.json is regenerable.
+tools/publish/node_modules/.bin/
+tools/publish/node_modules/.cache/
+tools/publish/node_modules/.vite/
+tools/publish/node_modules/.package-lock.json
+tools/publish/node_modules/**/.package-lock.json

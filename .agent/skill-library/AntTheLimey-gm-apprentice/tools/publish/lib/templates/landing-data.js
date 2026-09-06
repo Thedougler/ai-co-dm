@@ -1,0 +1,230 @@
+const { canonicalNfc, graphemes } = require('../unicode');
+const { parseWikiRef } = require('../processor');
+
+function getLatestSession(pages) {
+  const played = pages.filter(
+    p => p.frontmatter.type === 'session' && (p.frontmatter.status === 'played' || p.frontmatter.status === 'reviewed')
+  );
+  if (played.length === 0) return null;
+  // "Latest" = most recently played (by play_date), not highest session_number — chapters can
+  // restart numbering. Fall back to session_number only when play dates tie or are absent.
+  played.sort((a, b) => {
+    const da = new Date(a.frontmatter.play_date || a.frontmatter.actual_date || 0).getTime() || 0;
+    const db = new Date(b.frontmatter.play_date || b.frontmatter.actual_date || 0).getTime() || 0;
+    if (db !== da) return db - da;
+    return (b.frontmatter.session_number || 0) - (a.frontmatter.session_number || 0);
+  });
+  return played[0];
+}
+
+function stripWikiLinks(text) {
+  return text.replace(/\[\[([^\]|]+)\|([^\]]+)\]\]/g, '$2')
+    .replace(/\[\[([^\]]+)\]\]/g, (m, target) => target.replace(/_/g, ' '));
+}
+
+function extractRecap(page) {
+  if (!page) return null;
+  // Prefer the published view (gm-only blocks + excluded sections stripped) so the
+  // landing recap can never quote Keeper-only content.
+  const md = page.publishedMarkdown || page.markdown;
+  if (!md) return null;
+
+  // Wrap-ups title this section in variants — "Narrative Recap", "What Happened —
+  // Narrative Recap", numbered forms — so match any H2 containing the phrase.
+  const recapMatch = md.match(/^##\s+.*Narrative Recap.*$/m);
+  let paragraph;
+
+  if (recapMatch) {
+    const after = md.slice(recapMatch.index + recapMatch[0].length);
+    const nextHeading = after.search(/^## /m);
+    const section = nextHeading === -1 ? after : after.slice(0, nextHeading);
+    const paragraphs = section.split(/\n\n+/).map(p => p.trim()).filter(Boolean);
+    paragraph = paragraphs.find(p => !/^#{1,6}\s/.test(p) && !p.startsWith('>')) || null;
+  } else {
+    // Tolerate blank lines before the H1, and never surface a bare heading or a
+    // blockquote as "the recap" — take the first real prose paragraph.
+    const withoutH1 = md.replace(/^\s*# .+\n+/, '');
+    const paragraphs = withoutH1.split(/\n\n+/).map(p => p.trim()).filter(Boolean);
+    paragraph = paragraphs.find(p => !/^#{1,6}\s/.test(p) && !p.startsWith('>')) || null;
+  }
+
+  if (!paragraph) return null;
+
+  paragraph = stripWikiLinks(paragraph);
+
+  if (paragraph.length > 500) {
+    const truncated = paragraph.slice(0, 500);
+    const lastSpace = truncated.lastIndexOf(' ');
+    paragraph = (lastSpace > 0 ? truncated.slice(0, lastSpace) : truncated) + '…';
+  }
+
+  return paragraph;
+}
+
+function getInitials(name) {
+  if (!name) return '';
+  const words = name.split(/\s+/).filter(Boolean);
+  // First *grapheme*, not first code unit: w[0] dropped a decomposed accent and
+  // would halve an astral character (#157).
+  return words.slice(0, 2).map(w => (graphemes(w)[0] || '').toUpperCase()).join('');
+}
+
+function getPCs(pages) {
+  return pages
+    .filter(p => p.frontmatter.type === 'pc')
+    .sort((a, b) => (a.title || '').localeCompare(b.title || ''));
+}
+
+const PATRON_TAGS = new Set(['employer', 'patron']);
+const ANTAGONIST_TAGS = new Set(['villain', 'antagonist']);
+const COMPANION_TAGS = new Set(['companion', 'ally']);
+const THREAT_TAGS = new Set(['super', 'fragment-empowered']);
+
+function inferNPCRole(npc, sessionCount) {
+  const tags = new Set(npc.frontmatter.tags || []);
+  const rels = npc.frontmatter.relationships || [];
+
+  if ([...PATRON_TAGS].some(t => tags.has(t)) || rels.some(r => r.type === 'employs')) return 'Patron';
+  if ([...ANTAGONIST_TAGS].some(t => tags.has(t))) return 'Antagonist';
+  if ([...COMPANION_TAGS].some(t => tags.has(t))) return 'Companion';
+  if ([...THREAT_TAGS].some(t => tags.has(t))) return 'Threat';
+  if (rels.some(r => r.type === 'leads' || r.type === 'commands')) return 'Leader';
+  if (sessionCount >= 2) return 'Recurring';
+  return 'NPC';
+}
+
+const EXPLORE_DESCRIPTIONS = {
+  horror: {
+    characters: 'The investigators and their allies — and the things that hunt them.',
+    locations: 'From candlelit parlours to fog-shrouded ruins.',
+    story: 'The unfolding mystery, session by session.',
+    factions: 'Secret societies, cults, and hidden powers.',
+    items: 'Artefacts, tomes, and things best left undiscovered.',
+    creatures: 'Horrors lurking in the dark.',
+    events: 'Key moments in the investigation.',
+  },
+  fantasy: {
+    characters: 'Heroes, villains, and the folk who inhabit this world.',
+    locations: 'Kingdoms, dungeons, and the wild places between.',
+    story: 'The saga of adventure, chapter by chapter.',
+    factions: 'Guilds, orders, and powers vying for influence.',
+    items: 'Legendary weapons, enchanted relics, and mundane gear.',
+    creatures: 'Beasts, monsters, and mythical beings.',
+    events: 'Battles, discoveries, and turning points.',
+  },
+  noir: {
+    characters: 'Scoundrels, fixers, and the desperate.',
+    locations: 'Rain-slicked streets and smoke-filled back rooms.',
+    story: 'The score, the job, the aftermath.',
+    factions: 'Gangs, crews, and institutions.',
+    items: 'Tools of the trade — from lockpicks to ledgers.',
+    creatures: 'Strange entities and supernatural threats.',
+    events: 'Heists, betrayals, and consequences.',
+  },
+  military: {
+    characters: 'Operatives, contacts, and targets.',
+    locations: 'Theatres of operation and safe houses.',
+    story: 'Mission logs and after-action reports.',
+    factions: 'Units, agencies, and hostile forces.',
+    items: 'Equipment, ordnance, and intelligence assets.',
+    creatures: 'Unknown threats and anomalies.',
+    events: 'Operations, engagements, and incidents.',
+  },
+  scifi: {
+    characters: 'Crews, fixers, and the corporate machines they answer to.',
+    locations: 'Stations, systems, and the lanes between them.',
+    story: 'The job, the truth, and the fallout, session by session.',
+    factions: 'Corporations, syndicates, and powers in the dark.',
+    items: 'Hardware, ships, and tech best kept off the manifest.',
+    creatures: 'What the void holds — known and otherwise.',
+    events: 'Contacts, incidents, and points of no return.',
+  },
+};
+
+const DEFAULT_DESCRIPTIONS = {
+  characters: 'The people who drive this story.',
+  locations: 'The places where events unfold.',
+  story: 'The narrative arc of the campaign.',
+  factions: 'Groups and organisations at play.',
+  items: 'Notable objects and equipment.',
+  creatures: 'Monsters and non-human entities.',
+  events: 'Key moments and turning points.',
+};
+
+function getExploreDescriptions(genre, overrides) {
+  const base = (genre && EXPLORE_DESCRIPTIONS[genre]) || DEFAULT_DESCRIPTIONS;
+  return { ...base, ...(overrides || {}) };
+}
+
+function getRecentEvents(pages, max) {
+  return pages
+    .filter(p => p.frontmatter.type === 'event' && (p.frontmatter.in_game_date || p.frontmatter.date))
+    .sort((a, b) => {
+      const da = new Date(a.frontmatter.in_game_date || a.frontmatter.date);
+      const db = new Date(b.frontmatter.in_game_date || b.frontmatter.date);
+      return db - da;
+    })
+    .slice(0, max || 4);
+}
+
+// Does `ref` name `title` as a whole title, rather than as the prefix of a longer one?
+// "Session 1" is a substring of "Session 10", so a bare `includes` picks the wrong
+// wrap-up; require the character after the match not to continue the word.
+function refMentions(ref, title) {
+  const at = ref.indexOf(title);
+  if (at === -1) return false;
+  const after = ref.charAt(at + title.length);
+  return after === '' || !/[0-9A-Za-z]/.test(after);
+}
+
+function getLatestWrapUp(pages, session) {
+  if (!session) return null;
+  const wrapTypes = new Set(['session-wrap-up', 'session_wrap', 'session-wrapup']);
+  const wrapUps = pages.filter(p => wrapTypes.has(p.frontmatter.type));
+
+  // Chapters restart session numbering, so a bare session_number match can return
+  // ANOTHER chapter's wrap-up (Vienna Session 4 shadowing Calcutta Session 4). A
+  // wrap-up lives in the same session folder as its index file — prefer that match
+  // before falling back to session_number.
+  const sessionDir = session.sourcePath
+    ? String(session.sourcePath).replace(/[^\\/]+$/, '')
+    : null;
+  if (sessionDir) {
+    for (const wu of wrapUps) {
+      if (wu.sourcePath && String(wu.sourcePath).startsWith(sessionDir)) return wu;
+    }
+  }
+
+  // NFC both sides (#139): the wrap-up's session ref is author-typed, the session title is a
+  // filename. A mismatch drops the landing page's narrative recap back to the session body.
+  const sessionTitle = canonicalNfc(session.title || '');
+  const refOf = (wu) =>
+    canonicalNfc(parseWikiRef(wu.frontmatter.session || wu.title || '').target);
+
+  // An explicit `session:` ref names one session, so it outranks session_number, which
+  // chapters make ambiguous by restarting the count.
+  if (sessionTitle) {
+    for (const wu of wrapUps) {
+      if (refOf(wu) === sessionTitle) return wu;
+    }
+  }
+
+  const num = session.frontmatter.session_number;
+  if (num != null) {
+    for (const wu of wrapUps) {
+      if (wu.frontmatter.session_number === num) return wu;
+    }
+  }
+
+  // Last resort: a ref that mentions the session inside longer prose ("Recap for
+  // Session 05 extras"). Guarded against the digit run-on that made "Session 1" match
+  // "[[Session 10]]" and put the wrong recap on the landing page.
+  if (sessionTitle) {
+    for (const wu of wrapUps) {
+      if (refMentions(refOf(wu), sessionTitle)) return wu;
+    }
+  }
+  return null;
+}
+
+module.exports = { getLatestSession, getLatestWrapUp, extractRecap, getInitials, getPCs, inferNPCRole, getRecentEvents, getExploreDescriptions };

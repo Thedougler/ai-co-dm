@@ -1,0 +1,65 @@
+const { publishedSource } = require('./processor');
+const { canonicalNfc } = require('./unicode');
+const lunr = require('lunr');
+
+function stripMarkdown(md) {
+  return (md || '')
+    .replace(/^#+\s+.*/gm, '')
+    .replace(/\[\[([^\]|]+)(?:\|([^\]]+))?\]\]/g, (_, t, d) => d || t)
+    .replace(/!\[.*?\]\(.*?\)/g, '')
+    .replace(/\[([^\]]+)\]\([^)]+\)/g, '$1')
+    .replace(/[*_~`#>]/g, '')
+    .replace(/\n+/g, ' ')
+    .trim();
+}
+
+function getSubtitle(fm) {
+  return fm.occupation || fm.location_type || fm.faction_type || fm.factionType || fm.event_type || fm.type || '';
+}
+
+// Search results must reflect only what readers can see, so prefer each page's published
+// view (gm-only + spoiler content stripped) over its raw markdown when available.
+const publishedText = publishedSource;
+
+function buildSearchIndex(pages) {
+  const documents = {};
+
+  for (const page of pages) {
+    const fm = page.frontmatter || {};
+
+    documents[page.outputPath] = {
+      title: page.displayTitle || '',
+      type: fm.type || '',
+      subtitle: getSubtitle(fm),
+      href: page.outputPath,
+    };
+  }
+
+  const idx = lunr(function() {
+    this.ref('id');
+    this.field('title', { boost: 10 });
+    this.field('aliases', { boost: 5 });
+    this.field('type', { boost: 2 });
+    this.field('body');
+
+    for (const page of pages) {
+      const fm = page.frontmatter;
+      this.add({
+        id: page.outputPath,
+        title: canonicalNfc(page.displayTitle),
+        aliases: Array.isArray(fm.aliases) ? canonicalNfc(fm.aliases.join(' ')) : '',
+        type: fm.type || '',
+        // NFC before slicing (#139): the cut lands on a different character otherwise, so two
+        // spellings of one vault index different amounts of text as well as different terms.
+        body: canonicalNfc(stripMarkdown(publishedText(page))).slice(0, 500),
+      });
+    }
+  });
+
+  return {
+    index: idx.toJSON(),
+    documents,
+  };
+}
+
+module.exports = { buildSearchIndex };

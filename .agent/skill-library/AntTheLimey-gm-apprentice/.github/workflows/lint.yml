@@ -1,0 +1,181 @@
+name: Lint
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+
+jobs:
+  markdown-lint:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: markdownlint
+        uses: DavidAnson/markdownlint-cli2-action@v19
+        with:
+          globs: |
+            skills/**/*.md
+            docs/**/*.md
+            !docs/plans/**
+            tests/**/*.md
+            !tests/benchmark-content-fidelity/results/**
+            README.md
+
+  consistency-checks:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: No hardcoded absolute paths
+        run: |
+          if grep -rn --exclude-dir=plans '/Users/' skills/ docs/ tests/ README.md 2>/dev/null; then
+            echo "::error::Found hardcoded absolute paths"
+            exit 1
+          fi
+
+      - name: Schema field naming consistency
+        run: |
+          if git grep -nE '^[[:space:]]*(source_confidence|confidence):' -- \
+            skills tests tools/publish/test/fixtures \
+            ':!tests/proof-runs' ':!tests/benchmark-results' \
+            ':!tests/benchmark-content-fidelity/results' \
+            ':!tests/fixtures/mini-vault-schema'; then
+            echo "::error::Found legacy canon-status field — use 'canon_status:' instead"
+            exit 1
+          fi
+
+      - name: Reference file size limit
+        run: |
+          SEARCH_DIRS=""
+          for d in skills/ttrpg-*/systems skills/ttrpg-*/references; do
+            [ -d "$d" ] && SEARCH_DIRS="$SEARCH_DIRS $d"
+          done
+          if [ -z "$SEARCH_DIRS" ]; then
+            echo "No reference directories found, skipping"
+            exit 0
+          fi
+          OVERSIZED=$(find $SEARCH_DIRS \
+            -name '*.md' -not -name 'SKILL.md' \
+            -not -path '*/personal/*' -size +25k 2>/dev/null)
+          if [ -n "$OVERSIZED" ]; then
+            echo "::error::Files exceed 25KB limit (split into sub-files):"
+            echo "$OVERSIZED"
+            exit 1
+          fi
+
+      - name: Relative path validation
+        run: |
+          errors=0
+          while IFS= read -r file; do
+            dir=$(dirname "$file")
+            grep -oP '`(\.\./[^`]+\.md)`' "$file" | tr -d '`' | while read -r ref; do
+              target="$dir/$ref"
+              if [ ! -f "$target" ]; then
+                echo "::error file=$file::Broken relative path: $ref (resolved to $target)"
+                errors=$((errors + 1))
+              fi
+            done
+          done < <(find skills/ docs/ tests/ -name '*.md' -not -path '*/personal/*')
+          if [ "$errors" -gt 0 ]; then
+            exit 1
+          fi
+
+      - name: Migration version matches plugin version
+        continue-on-error: true
+        run: |
+          PLUGIN_VERSION=$(jq -r '.version' .claude-plugin/plugin.json)
+          MIGRATION_VERSION=$(grep -m1 'current_version:' \
+            skills/shared/migrations.md | sed 's/.*"\(.*\)".*/\1/')
+          if [ "$PLUGIN_VERSION" != "$MIGRATION_VERSION" ]; then
+            echo "::warning::plugin.json ($PLUGIN_VERSION) != migrations.md ($MIGRATION_VERSION)"
+            echo "Build will auto-stamp, but source files are out of sync"
+          fi
+
+  schema-validation:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Validate campaign entity schemas
+        run: python scripts/validate_schema.py tests/benchmark-campaign
+
+      - name: Validate content filtering rules
+        run: python scripts/validate_schema.py filtering tests/benchmark-campaign
+
+      - name: Validate relationship-ontology copies agree
+        run: python scripts/validate_ontology.py
+
+      - name: Plan leads_to field validation
+        run: python tests/test_plan_leads_to.py
+
+      - name: PC entity-sheet freshness regression
+        run: python tests/test_pc_freshness.py
+
+      - name: PC Current Status consumer regression
+        run: python tests/test_current_status_consumers.py
+
+      - name: Vault utility regression
+        run: python tests/test_vault_utilities.py
+
+      - name: gurps-check tests
+        run: python tests/test_gurps_check.py
+
+      - name: Vault check assistance regression
+        run: python tests/test_vault_check.py
+
+      - name: Relationship predicate vocabulary regression
+        run: python tests/test_relationship_predicates.py
+
+  pr-discipline:
+    if: github.event_name == 'pull_request'
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Check version bump
+        continue-on-error: true
+        run: |
+          PR_VERSION=$(jq -r '.version' .claude-plugin/plugin.json)
+          git fetch origin main --quiet
+          MAIN_VERSION=$(git show origin/main:.claude-plugin/plugin.json | jq -r '.version')
+          if [ "$PR_VERSION" = "$MAIN_VERSION" ]; then
+            echo "::warning::No version bump detected — no release will be created on merge"
+            exit 1
+          fi
+
+      - name: Check changelog updated
+        continue-on-error: true
+        run: |
+          PR_VERSION=$(jq -r '.version' .claude-plugin/plugin.json)
+          MAIN_VERSION=$(git show origin/main:.claude-plugin/plugin.json | jq -r '.version')
+          if [ "$PR_VERSION" != "$MAIN_VERSION" ]; then
+            if ! git diff origin/main -- CHANGELOG.md | grep -Eq "^\+## \[$PR_VERSION\]"; then
+              echo "::warning::Version bumped to $PR_VERSION but no CHANGELOG entry for this version"
+              exit 1
+            fi
+          fi
+
+      - name: Test build script
+        run: |
+          ./scripts/build-skill-zips.sh
+          ZIP_COUNT=$(ls dist/*.zip 2>/dev/null | wc -l | xargs)
+          if [ "$ZIP_COUNT" -ne 9 ]; then
+            echo "::error::Expected 9 skill zips, got $ZIP_COUNT"
+            exit 1
+          fi
+          for z in dist/*.zip; do
+            if ! unzip -l "$z" | grep -q 'SKILL.md'; then
+              echo "::error::$(basename "$z") missing SKILL.md"
+              exit 1
+            fi
+          done
+          echo "All $ZIP_COUNT skill zips valid"

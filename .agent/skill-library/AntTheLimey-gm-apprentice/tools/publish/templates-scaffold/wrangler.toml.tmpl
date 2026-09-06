@@ -1,0 +1,7 @@
+# Cloudflare Pages config for a static (Tier-1) site. `pages_build_output_dir`
+# makes `wrangler pages deploy` publish the built docs/ folder. The change-request
+# inbox / live status bar add their KV namespace binding here on opt-in
+# (gm-publish setup-inbox / setup-status-bar).
+name = "{{PACKAGE_NAME}}"
+pages_build_output_dir = "docs"
+compatibility_date = "2024-11-01"

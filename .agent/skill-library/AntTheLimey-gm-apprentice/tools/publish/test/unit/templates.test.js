@@ -1,0 +1,571 @@
+const { describe, it } = require('node:test');
+const assert = require('node:assert');
+const { canonStatusBadge, getCanonStatus, metadataBadgesFor, cssPath, rootPath } = require('../../lib/templates/base');
+const { parseParticipant } = require('../../lib/templates/event');
+const { formatDate } = require('../../lib/templates/landing');
+
+describe('formatDate', () => {
+  it('does not shift date for bare date string', () => {
+    const result = formatDate('2026-04-26');
+    assert.ok(result.includes('26'), `Expected day 26 in "${result}"`);
+    assert.ok(result.includes('April'), `Expected April in "${result}"`);
+  });
+
+  it('returns null for falsy input', () => {
+    assert.strictEqual(formatDate(null), null);
+    assert.strictEqual(formatDate(undefined), null);
+  });
+
+  it('returns string for invalid date', () => {
+    assert.strictEqual(formatDate('not-a-date'), 'not-a-date');
+  });
+});
+
+describe('getCanonStatus', () => {
+  it('reads the canonical canon_status field', () => {
+    assert.strictEqual(getCanonStatus({ canon_status: 'STUB' }), 'STUB');
+  });
+
+  it('prefers canon_status over legacy fields', () => {
+    assert.strictEqual(getCanonStatus({ canon_status: 'AUTHORITATIVE', source_confidence: 'DRAFT', confidence: 'STUB' }), 'AUTHORITATIVE');
+  });
+
+  it('falls back to legacy source_confidence', () => {
+    assert.strictEqual(getCanonStatus({ source_confidence: 'DRAFT' }), 'DRAFT');
+  });
+
+  it('falls back to legacy bare confidence', () => {
+    assert.strictEqual(getCanonStatus({ confidence: 'DRAFT' }), 'DRAFT');
+  });
+
+  it('returns null when no canon field present', () => {
+    assert.strictEqual(getCanonStatus({}), null);
+  });
+});
+
+describe('canonStatusBadge', () => {
+  it('returns badge for STUB via source_confidence', () => {
+    const result = canonStatusBadge({ source_confidence: 'STUB' });
+    assert.ok(result.includes('badge-stub'));
+    assert.ok(result.includes('Stub'));
+  });
+
+  it('returns badge for STUB via canon_status fallback', () => {
+    const result = canonStatusBadge({ canon_status: 'STUB' });
+    assert.ok(result.includes('badge-stub'));
+  });
+
+  it('returns badge for DRAFT', () => {
+    const result = canonStatusBadge({ source_confidence: 'DRAFT' });
+    assert.ok(result.includes('badge-draft'));
+    assert.ok(result.includes('Draft'));
+  });
+
+  it('returns badge for SUPERSEDED', () => {
+    const result = canonStatusBadge({ source_confidence: 'SUPERSEDED' });
+    assert.ok(result.includes('badge-superseded'));
+    assert.ok(result.includes('Superseded'));
+  });
+
+  it('returns empty string for AUTHORITATIVE', () => {
+    assert.strictEqual(canonStatusBadge({ source_confidence: 'AUTHORITATIVE' }), '');
+  });
+
+  it('returns empty string when no canon-status field', () => {
+    assert.strictEqual(canonStatusBadge({}), '');
+  });
+});
+
+describe('metadataBadgesFor', () => {
+  it('renders event badges', () => {
+    const fm = { type: 'event', event_type: 'Combat', date: '1943-05-01' };
+    const result = metadataBadgesFor(fm);
+    assert.ok(result.includes('Combat'));
+    assert.ok(result.includes('1943-05-01'));
+  });
+
+  it('strips wiki-link brackets', () => {
+    const fm = { type: 'event', location: '[[Berlin]]' };
+    const result = metadataBadgesFor(fm);
+    assert.ok(result.includes('Berlin'));
+    assert.ok(!result.includes('[['));
+  });
+
+  it('returns empty for unknown type', () => {
+    const fm = { type: 'unknown' };
+    assert.strictEqual(metadataBadgesFor(fm), '');
+  });
+});
+
+describe('cssPath', () => {
+  it('handles root level', () => {
+    assert.strictEqual(cssPath('index.html'), 'css/style.css');
+  });
+
+  it('handles one level deep', () => {
+    assert.strictEqual(cssPath('factions/index.html'), '../css/style.css');
+  });
+
+  it('handles two levels deep', () => {
+    assert.strictEqual(cssPath('characters/pcs/john.html'), '../../css/style.css');
+  });
+});
+
+describe('rootPath', () => {
+  it('handles root level', () => {
+    assert.strictEqual(rootPath('index.html'), './');
+  });
+
+  it('handles nested paths', () => {
+    assert.strictEqual(rootPath('characters/pcs/john.html'), '../../');
+  });
+});
+
+describe('parseParticipant', () => {
+  it('parses [[Entity]] (annotation)', () => {
+    const result = parseParticipant('[[Anna_Lindqvist]] (rescued)');
+    assert.strictEqual(result.target, 'Anna_Lindqvist'); // raw target preserved for lookup
+    assert.strictEqual(result.display, 'Anna Lindqvist'); // display humanized (no underscores)
+    assert.strictEqual(result.annotation, 'rescued');
+    assert.strictEqual(result.isLink, true);
+  });
+
+  it('parses [[Entity|Display Name]] (annotation)', () => {
+    const result = parseParticipant('[[Anna_Lindqvist|Anna Lindqvist]] (rescued from control)');
+    assert.strictEqual(result.target, 'Anna_Lindqvist');
+    assert.strictEqual(result.display, 'Anna Lindqvist');
+    assert.strictEqual(result.annotation, 'rescued from control');
+    assert.strictEqual(result.isLink, true);
+  });
+
+  it('parses [[Entity]] without annotation', () => {
+    const result = parseParticipant('[[Emma_Wentworth]]');
+    assert.strictEqual(result.target, 'Emma_Wentworth');
+    assert.strictEqual(result.display, 'Emma Wentworth');
+    assert.strictEqual(result.annotation, '');
+    assert.strictEqual(result.isLink, true);
+  });
+
+  it('parses plain text with annotation', () => {
+    const result = parseParticipant('Every active PC (present)');
+    assert.strictEqual(result.target, '');
+    assert.strictEqual(result.display, 'Every active PC');
+    assert.strictEqual(result.annotation, 'present');
+    assert.strictEqual(result.isLink, false);
+  });
+
+  it('parses plain text without annotation', () => {
+    const result = parseParticipant('Allied soldiers');
+    assert.strictEqual(result.target, '');
+    assert.strictEqual(result.display, 'Allied soldiers');
+    assert.strictEqual(result.annotation, '');
+    assert.strictEqual(result.isLink, false);
+  });
+
+  it('handles annotation with special characters', () => {
+    const result = parseParticipant('[[Klaus_Bauer]] (attacker — escaped)');
+    assert.strictEqual(result.target, 'Klaus_Bauer');
+    assert.strictEqual(result.annotation, 'attacker — escaped');
+    assert.strictEqual(result.isLink, true);
+  });
+
+  it('trims surrounding whitespace before parsing', () => {
+    const result = parseParticipant('  [[Hero]] (led the assault)  ');
+    assert.strictEqual(result.target, 'Hero');
+    assert.strictEqual(result.display, 'Hero');
+    assert.strictEqual(result.annotation, 'led the assault');
+    assert.strictEqual(result.isLink, true);
+  });
+
+  it('keeps an explicit alias verbatim (does not over-humanize)', () => {
+    const result = parseParticipant('[[Anna_Lindqvist|Madame A_B]]');
+    assert.strictEqual(result.display, 'Madame A_B', 'explicit alias preserved as written');
+  });
+});
+
+describe('location parent breadcrumb relative href (B-batch2)', () => {
+  const { locationTemplate } = require('../../lib/templates/location');
+  const mockNavFor = () => '';
+  const mockConfig = { siteTitle: 'Test', attachmentsDir: '_attachments' };
+
+  it('makes the parent_location breadcrumb relative to the page (no doubled dir)', () => {
+    const page = {
+      title: 'British_Museum', displayTitle: 'British Museum',
+      outputPath: 'locations/british-museum.html',
+      frontmatter: { type: 'location', parent_location: '[[London]]' },
+    };
+    const processed = { html: '<p>x</p>', relationships: '' };
+    const context = { pages: [], linkMap: { London: 'locations/london.html' }, publishConfig: {} };
+    const html = locationTemplate(page, processed, mockNavFor, mockConfig, {}, context);
+    assert.ok(html.includes('href="london.html"'), 'parent crumb should be relative to locations/');
+    assert.ok(!html.includes('href="locations/london.html"'), 'must not use the root-relative path as a same-dir href');
+  });
+
+  it('parses an aliased parent_location (resolves link, labels with the alias)', () => {
+    const page = {
+      title: 'Reading_Room', displayTitle: 'Reading Room',
+      outputPath: 'locations/reading-room.html',
+      frontmatter: { type: 'location', parent_location: '[[British_Museum|the Museum]]' },
+    };
+    const processed = { html: '<p>x</p>', relationships: '' };
+    const context = { pages: [], linkMap: { British_Museum: 'locations/british-museum.html' }, publishConfig: {} };
+    const html = locationTemplate(page, processed, mockNavFor, mockConfig, {}, context);
+    assert.ok(html.includes('href="british-museum.html"'), 'aliased parent ref still resolves');
+    assert.ok(html.includes('the Museum'), 'alias used as label');
+    assert.ok(!html.includes('British_Museum|'), 'pipe/target not rendered as text');
+  });
+});
+
+describe('item template holder/origin humanization (B-batch2)', () => {
+  const { itemTemplate } = require('../../lib/templates/item');
+  const mockNavFor = () => '';
+  const mockConfig = { siteTitle: 'Test', attachmentsDir: '_attachments' };
+
+  it('humanizes the current_holder link text but keeps the link resolved', () => {
+    const page = {
+      title: 'Cursed_Locket', displayTitle: 'Cursed Locket', outputPath: 'items/cursed-locket.html',
+      frontmatter: { type: 'item', current_holder: '[[Lord_Percival_Harcourt]]' },
+    };
+    const processed = { html: '<p>x</p>', relationships: '' };
+    const linkMap = { 'Lord_Percival_Harcourt': 'characters/npcs/lord-percival-harcourt.html' };
+    const html = itemTemplate(page, processed, mockNavFor, mockConfig, {}, linkMap, {});
+    assert.ok(html.includes('>Lord Percival Harcourt</a>'), 'holder display humanized');
+    assert.ok(!html.includes('>Lord_Percival_Harcourt<'), 'no raw slug in holder text');
+    assert.ok(html.includes('lord-percival-harcourt.html'), 'link still resolves');
+  });
+
+  it('parses an aliased holder ref (target for lookup, alias for display)', () => {
+    const page = {
+      title: 'Locket', displayTitle: 'Locket', outputPath: 'items/locket.html',
+      frontmatter: { type: 'item', current_holder: '[[Lord_Percival_Harcourt|Lord Percival]]' },
+    };
+    const processed = { html: '<p>x</p>', relationships: '' };
+    const linkMap = { 'Lord_Percival_Harcourt': 'characters/npcs/lord-percival-harcourt.html' };
+    const html = itemTemplate(page, processed, mockNavFor, mockConfig, {}, linkMap, {});
+    assert.ok(html.includes('>Lord Percival</a>'), 'explicit alias used as label');
+    assert.ok(html.includes('lord-percival-harcourt.html'), 'aliased ref still resolves the link');
+    assert.ok(!html.includes('Harcourt|Lord'), 'pipe/target+alias not rendered as text');
+  });
+});
+
+describe('PC template display_meta', () => {
+  const { pcTemplate } = require('../../lib/templates/pc');
+
+  const mockNavFor = () => '';
+  const mockConfig = { siteTitle: 'Test', attachmentsDir: '_attachments' };
+
+  it('renders display_meta fields when set', () => {
+    const page = {
+      title: 'Test_Hero',
+      displayTitle: 'Test Hero',
+      outputPath: 'characters/pcs/test-hero.html',
+      frontmatter: {
+        type: 'pc',
+        player_name: 'Alice',
+        status: 'active',
+        point_total: 200,
+        age: 34,
+        TL: 8,
+        display_meta: ['point_total', 'age', 'TL'],
+      },
+    };
+    const processed = { html: '', relationships: '' };
+    const html = pcTemplate(page, processed, [], mockNavFor, mockConfig, {});
+    assert.ok(html.includes('Point Total'), 'Should render point_total label as title case');
+    assert.ok(html.includes('200'), 'Should render point_total value');
+    assert.ok(html.includes('Age'), 'Should render age label');
+    assert.ok(html.includes('34'), 'Should render age value');
+    assert.ok(html.includes('TL'), 'Should render TL label');
+    assert.ok(html.includes('8'), 'Should render TL value');
+  });
+
+  it('falls back to occupation/age/nationality when display_meta not set', () => {
+    const page = {
+      title: 'Fallback Hero',
+      displayTitle: 'Fallback Hero',
+      outputPath: 'characters/pcs/fallback-hero.html',
+      frontmatter: {
+        type: 'pc',
+        player_name: 'Bob',
+        status: 'active',
+        occupation: 'Detective',
+        age: 42,
+        nationality: 'British',
+      },
+    };
+    const processed = { html: '', relationships: '' };
+    const html = pcTemplate(page, processed, [], mockNavFor, mockConfig, {});
+    assert.ok(html.includes('Occupation'), 'Should show occupation label');
+    assert.ok(html.includes('Detective'), 'Should show occupation value');
+    assert.ok(html.includes('Age'), 'Should show age label');
+    assert.ok(html.includes('42'), 'Should show age value');
+    assert.ok(html.includes('Nationality'), 'Should show nationality label');
+    assert.ok(html.includes('British'), 'Should show nationality value');
+  });
+
+  it('skips missing fields silently', () => {
+    const page = {
+      title: 'Sparse Hero',
+      displayTitle: 'Sparse Hero',
+      outputPath: 'characters/pcs/sparse-hero.html',
+      frontmatter: {
+        type: 'pc',
+        player_name: 'Carol',
+        status: 'active',
+        display_meta: ['occupation', 'age', 'missing_field'],
+        occupation: 'Spy',
+      },
+    };
+    const processed = { html: '', relationships: '' };
+    const html = pcTemplate(page, processed, [], mockNavFor, mockConfig, {});
+    assert.ok(html.includes('Occupation'), 'Should show occupation');
+    assert.ok(html.includes('Spy'), 'Should show occupation value');
+    assert.ok(!html.includes('Missing Field'), 'Should not show missing_field label');
+  });
+
+  it('uses displayTitle in h1 and page title', () => {
+    const page = {
+      title: 'Captain_Hero',
+      displayTitle: 'Captain Hero',
+      outputPath: 'characters/pcs/captain-hero.html',
+      frontmatter: { type: 'pc', player_name: 'Dan', status: 'active' },
+    };
+    const processed = { html: '', relationships: '' };
+    const html = pcTemplate(page, processed, [], mockNavFor, mockConfig, {});
+    assert.ok(html.includes('<h1>Captain Hero</h1>'), 'Should use displayTitle in h1');
+  });
+});
+
+describe('displayTitle usage', () => {
+  const { npcTemplate } = require('../../lib/templates/npc');
+  const { wikiTemplate } = require('../../lib/templates/wiki');
+
+  const mockNavFor = () => '';
+  const mockConfig = { siteTitle: 'Test', attachmentsDir: '_attachments' };
+
+  it('npc template uses displayTitle in heading', () => {
+    const page = {
+      title: 'Captain_James',
+      displayTitle: 'Captain James',
+      outputPath: 'characters/npcs/captain-james.html',
+      frontmatter: { type: 'npc' },
+    };
+    const processed = { html: '<p>Content</p>', relationships: '' };
+    const html = npcTemplate(page, processed, mockNavFor, mockConfig, {});
+    assert.ok(html.includes('<h1>Captain James'), 'Should use displayTitle in h1');
+    assert.ok(!html.includes('<h1>Captain_James'), 'Should not use raw title in h1');
+  });
+
+  it('npc template with a portrait uses the cinematic card, not the cropped banner (B-portrait)', () => {
+    // Regression: NPC portraits (portrait-orientation) rendered as a cropped
+    // hero-banner background — only a thin band around 25% height survived.
+    // The cinematic layout shows the full portrait beside the name instead.
+    const page = {
+      title: 'Thomas_Wyndham',
+      displayTitle: 'Thomas Wyndham',
+      outputPath: 'characters/npcs/thomas-wyndham.html',
+      frontmatter: { type: 'npc', portrait: '_attachments/characters/thomas-wyndham.png' },
+    };
+    const processed = { html: '<p>Content</p>', relationships: '' };
+    const imageMap = { 'thomas-wyndham.png': true };
+    const html = npcTemplate(page, processed, mockNavFor, mockConfig, imageMap);
+    assert.ok(html.includes('class="hero-cinematic"'), 'Should use hero-cinematic, not hero-banner, when a portrait exists');
+    assert.ok(html.includes('class="hero-cinematic-img"'), 'Portrait image should use the cinematic (not banner) class');
+    assert.ok(!html.includes('hero-banner-img'), 'Should not use the banner crop class when a portrait exists');
+  });
+
+  it('wiki template uses displayTitle in heading', () => {
+    const page = {
+      title: 'Old_Fortress',
+      displayTitle: 'Old Fortress',
+      outputPath: 'locations/old-fortress.html',
+      frontmatter: { type: 'document' },
+    };
+    const processed = { html: '<p>Content</p>', relationships: '' };
+    const html = wikiTemplate(page, processed, mockNavFor, mockConfig, {});
+    assert.ok(html.includes('Old Fortress'), 'Should use displayTitle');
+    assert.ok(!html.includes('Old_Fortress'), 'Should not use raw title');
+  });
+
+  it('flags a sparse sidebar (≤1 section) for single-column layout (B2)', () => {
+    const page = {
+      title: 'Spot', displayTitle: 'Spot', outputPath: 'locations/spot.html',
+      frontmatter: { type: 'location' },
+    };
+    const processed = { html: '<p>x</p>', relationships: '' };
+    const context = {
+      publishConfig: { _backlinks: { Spot: [
+        { title: 'S1', displayTitle: 'Session 1', outputPath: 'sessions/s1.html', type: 'session' },
+      ] } },
+      linkMap: {}, pages: [],
+    };
+    const html = wikiTemplate(page, processed, mockNavFor, mockConfig, {}, context);
+    assert.ok(html.includes('content-with-sidebar'), 'should render the sidebar layout');
+    assert.ok(html.includes('content-sidebar-sparse'), 'a one-section sidebar should be flagged sparse');
+  });
+
+  it('does not flag a rich sidebar (≥2 sections)', () => {
+    const page = {
+      title: 'Spot', displayTitle: 'Spot', outputPath: 'locations/spot.html',
+      frontmatter: { type: 'location', relationships: { ally: ['[[Bob]]'] } },
+    };
+    const processed = { html: '<p>x</p>', relationships: '' };
+    const context = {
+      publishConfig: { _backlinks: { Spot: [
+        { title: 'S1', displayTitle: 'Session 1', outputPath: 'sessions/s1.html', type: 'session' },
+      ] } },
+      linkMap: { Bob: 'characters/npcs/bob.html' }, pages: [],
+    };
+    const html = wikiTemplate(page, processed, mockNavFor, mockConfig, {}, context);
+    assert.ok(html.includes('content-with-sidebar'), 'should render the sidebar layout');
+    assert.ok(!html.includes('content-sidebar-sparse'), 'two sections should not be flagged sparse');
+  });
+});
+
+describe('PC template tabbed layout', () => {
+  const { pcTemplate } = require('../../lib/templates/pc');
+
+  const mockNavFor = () => '';
+  const mockConfig = { siteTitle: 'Test', attachmentsDir: '_attachments' };
+
+  it('renders tab bar with 4 tabs', () => {
+    const page = {
+      title: 'Hero',
+      displayTitle: 'Hero',
+      outputPath: 'characters/pcs/hero.html',
+      frontmatter: { type: 'pc', player_name: 'Alice', status: 'active' },
+    };
+    const processed = { html: '', relationships: '' };
+    const sections = [{ id: 'stat-sheet', title: 'Stat Sheet', html: '<p>Stats</p>' }];
+    const storyHtml = '<h3>Session 1 — The Start</h3><p>Adventure begins.</p>';
+    const html = pcTemplate(page, processed, sections, mockNavFor, mockConfig, {}, storyHtml);
+    assert.ok(html.includes('tab-bar'), 'Should have tab bar');
+    assert.ok(html.includes('Character Sheet'), 'Should have Sheet tab');
+    assert.ok(html.includes('Equipment'), 'Should have Equipment tab');
+    assert.ok(html.includes('Story'), 'Should have Story tab');
+    assert.ok(html.includes('Journey'), 'Should have Journey tab');
+    assert.ok(html.includes('tab-sheet'), 'Should have sheet tab panel');
+    assert.ok(html.includes('tab-story'), 'Should have story tab panel');
+    assert.ok(html.includes('tab-equipment'), 'Should have equipment tab panel');
+    assert.ok(html.includes('tab-journey'), 'Should have journey tab panel');
+    assert.ok(html.includes('Adventure begins'), 'Should contain story content');
+  });
+
+  it('always renders tab bar even without storyHtml', () => {
+    const page = {
+      title: 'Solo',
+      displayTitle: 'Solo',
+      outputPath: 'characters/pcs/solo.html',
+      frontmatter: { type: 'pc', player_name: 'Bob', status: 'active' },
+    };
+    const processed = { html: '', relationships: '' };
+    const sections = [{ id: 'stat-sheet', title: 'Stat Sheet', html: '<p>Stats</p>' }];
+    const html = pcTemplate(page, processed, sections, mockNavFor, mockConfig, {});
+    assert.ok(html.includes('tab-bar'), 'Should have tab bar');
+    assert.ok(html.includes('tab-story'), 'Should have story panel');
+    assert.ok(html.includes('No story content available'), 'Should show placeholder story text');
+    assert.ok(html.includes('accordion'), 'Should still have accordion sections');
+  });
+
+  it('includes hash-based tab routing script for all 4 tabs', () => {
+    const page = {
+      title: 'Hero',
+      displayTitle: 'Hero',
+      outputPath: 'characters/pcs/hero.html',
+      frontmatter: { type: 'pc', player_name: 'Alice', status: 'active' },
+    };
+    const processed = { html: '', relationships: '' };
+    const storyHtml = '<p>Story content</p>';
+    const html = pcTemplate(page, processed, [], mockNavFor, mockConfig, {}, storyHtml);
+    assert.ok(html.includes('location.hash'), 'Should have hash routing');
+    assert.ok(html.includes('sheet'), 'Should reference sheet hash');
+    assert.ok(html.includes('equipment'), 'Should reference equipment hash');
+    assert.ok(html.includes('story'), 'Should reference story hash');
+    assert.ok(html.includes('journey'), 'Should reference journey hash');
+  });
+
+  it('renders story as prose flow', () => {
+    const page = {
+      title: 'Hero',
+      displayTitle: 'Hero',
+      outputPath: 'characters/pcs/hero.html',
+      frontmatter: { type: 'pc', player_name: 'Alice', status: 'active' },
+    };
+    const processed = { html: '', relationships: '' };
+    const storyHtml = '<h3>Session 1 — The Start</h3><p>Adventure begins.</p>';
+    const html = pcTemplate(page, processed, [], mockNavFor, mockConfig, {}, storyHtml);
+    assert.ok(html.includes('story-prose'), 'Should have prose flow container');
+  });
+
+  it('Story tab links to the dedicated story page when one exists', () => {
+    const page = { title: 'Hero', displayTitle: 'Hero', outputPath: 'characters/pcs/hero.html', frontmatter: { type: 'pc', player_name: 'A', status: 'active' } };
+    const processed = { html: '', relationships: '' };
+    const sections = [];
+    const html = pcTemplate(page, processed, sections, mockNavFor, mockConfig, {}, '<p>inline</p>', { storyHref: 'story/characters/hero.html' });
+    assert.match(html, /href="\.\.\/\.\.\/story\/characters\/hero\.html"/);
+    assert.ok(!html.includes('<p>inline</p>'), 'prose is no longer inlined when a story page exists');
+  });
+});
+
+describe('PC renderer registry', () => {
+  const { getRenderer } = require('../../lib/templates/pc-registry');
+
+  it('returns null for unknown system', () => {
+    assert.strictEqual(getRenderer('unknown-system'), null);
+  });
+
+  it('returns null for null system', () => {
+    assert.strictEqual(getRenderer(null), null);
+  });
+
+  it('returns null for undefined system', () => {
+    assert.strictEqual(getRenderer(undefined), null);
+  });
+});
+
+describe('DIR_LABELS section coverage', () => {
+  const { DIR_LABELS } = require('../../lib/templates/base');
+  it('includes heritages and world so their index pages generate (nav already links them)', () => {
+    assert.strictEqual(DIR_LABELS['heritages'], 'Heritages');
+    assert.strictEqual(DIR_LABELS['world'], 'World');
+  });
+});
+
+describe('location sub-location card excerpts (shared helper)', () => {
+  const { locationTemplate } = require('../../lib/templates/location');
+  const mockNavFor = () => '';
+  const mockConfig = { siteTitle: 'Test', attachmentsDir: '_attachments' };
+
+  const parent = {
+    title: 'Sector_7G', displayTitle: 'Sector 7-G',
+    outputPath: 'locations/sector-7g.html',
+    frontmatter: { type: 'location' }, markdown: '',
+  };
+  const sparseChild = {
+    title: 'Nova_Nexus', displayTitle: 'Nova Nexus',
+    outputPath: 'locations/nova-nexus.html',
+    frontmatter: { type: 'location', parent_location: '[[Sector_7G]]' },
+    markdown: '## Overview\n\n## GM Notes\n\nThe owner launders syndicate money through the bar.\n',
+  };
+  const proseChild = {
+    title: 'Docking_Ring', displayTitle: 'Docking Ring',
+    outputPath: 'locations/docking-ring.html',
+    frontmatter: { type: 'location', parent_location: '[[Sector_7G]]' },
+    markdown: '## Overview\n\nCargo moves at all hours here. Nobody asks questions.\n',
+  };
+  const ctx = { pages: [parent, sparseChild, proseChild], linkMap: {},
+    publishConfig: { exclude_sections: ['GM Notes'], _backlinks: {} } };
+
+  it('renders a clean prose excerpt without markdown markers', () => {
+    const html = locationTemplate(parent, { html: '<p>x</p>', relationships: '' },
+      mockNavFor, mockConfig, {}, ctx);
+    assert.ok(html.includes('Cargo moves at all hours here.'));
+    assert.ok(!html.includes('## Overview'), 'no raw heading in excerpt');
+  });
+
+  it('sparse child with only GM-Notes prose leaks nothing', () => {
+    const html = locationTemplate(parent, { html: '<p>x</p>', relationships: '' },
+      mockNavFor, mockConfig, {}, ctx);
+    assert.ok(!html.includes('launders'), 'GM-only content must not surface');
+  });
+});

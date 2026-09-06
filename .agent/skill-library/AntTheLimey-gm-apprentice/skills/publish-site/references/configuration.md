@@ -1,0 +1,292 @@
+# Configuration Reference
+
+Publish settings are split between two files. Understanding
+which file owns which setting prevents confusion.
+
+## `_meta/vault-config.md` (in the vault)
+
+YAML frontmatter under `publish:`. This is the authoritative
+source for content filtering and theming. Values here take
+precedence over `vault.config.json` for scalar settings; the
+exclude **lists** union across both files rather than shadowing
+each other — see § Precedence.
+
+| Setting | Key path | Description |
+|---------|----------|-------------|
+| Publish mode | `publish.mode` | `player` or `full` |
+| Excluded sections | `publish.exclude_sections` | H2 headings to strip (default: `["GM Notes", "DM Notes", "Player Notes", "Source References", "Reconciliation Context", "Handoff to Reconcile"]`) |
+| Excluded callouts | `publish.exclude_callouts` | Strip Obsidian callouts (`> [!type]`): `true` for all, or an array of types (default: `false`; scaffolded sites set `true`) |
+| Excluded fields | `publish.exclude_fields` | Frontmatter fields to strip (default: `["secrets", "current_plan", "plan_progress", "gm_notes", "prep_notes"]`) |
+| Excluded directories | `publish.exclude_dirs` | Vault directories to skip (default: `["_meta", "_Templates"]`) |
+| Landing NPC count | `publish.landing.max_npcs` | Cards in "NPCs in Play" (default: `6`) |
+| Landing location count | `publish.landing.max_locations` | Cards in "Latest Locations" (default: `4`) |
+| Landing recency window | `publish.landing.recency_window` | How many recent sessions feed the scoring (default: `3`) |
+| Featured NPCs | `publish.landing.featured_npcs` | Pin NPCs to the front of their section, in order (see § Pinning landing entries) |
+| Featured locations | `publish.landing.featured_locations` | Same, for locations |
+| Quick links | `publish.landing.quick_links` | A short row of pinned links near the top of the landing page |
+| Campaign image | `publish.theme.campaign_image` | Vault-relative path to hero image |
+| Theme palette | `publish.theme.palette` | Colour scheme (primary, accent, background, text) |
+| Theme fonts | `publish.theme.fonts` | Heading and body font families |
+| Theme genre | `publish.theme.genre` | Genre tag for theming hints |
+| 404 message | `publish.four_oh_four.message` | Custom in-world 404 text |
+| Per-file field overrides | `publish.overrides.fields` | Re-admit an excluded frontmatter field for one named file (see § Per-file field overrides) |
+| Section index titles | `publish.section_titles` | Override h1 titles on the Locations/Factions/Items/Creatures index pages |
+| Exclude drafts | `publish.exclude_drafts` | When `true`, DRAFT entities are excluded entirely (default: `false`) |
+| Image optimization | `publish.images` | Opt-in WebP re-encoding of copied images (default: off) |
+| Section banners | `publish.banners` | Hero image or clickable map at the top of a section index |
+| Locations grouping | `publish.locations` | Pivot the Locations index on a `location_type` (default: genre-derived) |
+| CoC sheet crest | `publish.sheet_crest` | Vault-relative image for the Order crest / wax seal in the CoC investigator-sheet masthead. Renders only when set and the image exists. Campaign-wide — there is no per-PC override |
+| Setting year | `setting_year` | Fallback in-game date on the landing page (used only when the campaign overview has no `current_game_date`) |
+
+> **Landing page state.** The landing hero (in-game date, session count) and the
+> *Latest Session* card are driven by the **`_Campaign` overview frontmatter** —
+> `current_game_date`, `sessions_played`, `last_session`, `last_play_date` — which
+> the `session-wrapup` skill keeps current. The overview is located by its
+> `type: campaign_overview` frontmatter (not by filename, so a renamed overview
+> still resolves) and is read from the full vault corpus, so it applies even
+> though the overview is normally excluded from publishing. `setting_year` and
+> `total_sessions` remain as fallbacks when those fields are absent.
+
+### Section index titles
+
+Section index pages (Locations, Factions, Items, Creatures) use neutral
+titles by default. Genre presets restyle them: `military` gives "Theater
+of Operations", "Intelligence Briefing", "Armory & Acquisitions",
+"Bestiary"; `scifi` gives "Star Charts", "Powers & Interests",
+"Hardware & Equipment", "Xenofauna"; `fantasy` and `horror` use
+"Bestiary" for creatures. Override any of them in
+`_meta/vault-config.md`:
+
+```yaml
+publish:
+  section_titles:
+    locations: "Star Charts"
+    factions: "Powers & Syndicates"
+```
+
+Valid keys: `locations`, `factions`, `items`, `creatures`.
+
+### Theme genre presets
+
+`publish.theme.genre` accepts: `fantasy` (aliases: `adventure`),
+`horror` (`gothic`, `cthulhu`), `noir` (`industrial`, `heist`),
+`military` (`tactical`, `modern`), and `scifi` (`sci-fi`,
+`science-fiction`, `space`, `space-opera`, `space-noir`). A preset
+supplies the palette and fonts; a custom `publish.theme.palette`
+overrides the preset colors. A live gallery of all presets built over
+the same campaign is published from the repo's theme-showcase workflow.
+
+### Image optimization
+
+Off by default — images are copied byte-for-byte. When enabled, PNG and
+JPEG attachments are re-encoded to WebP as they're copied, and the
+`<img src>` is written to match:
+
+```yaml
+publish:
+  images:
+    optimize: true    # default false
+    format: webp      # the only supported target today
+    max_width: 1600   # 0 disables resizing
+    quality: 82
+```
+
+Needs the `cwebp` binary on `PATH` (`brew install webp`, `apt install
+webp`). Without it the build warns and copies the originals, so a
+missing encoder never breaks a build. Images that would grow when
+re-encoded keep their original bytes; SVG, GIF, WebP and AVIF are always
+passed through. On a portrait-heavy campaign this is the biggest single
+weight on the site — one real vault went from 164 MB to 11 MB.
+
+### Section index banners
+
+A hero image or clickable map at the top of a section index. Either drop
+a `_banner.*` file into the section's vault folder
+(`Locations/_banner.svg`), or name one explicitly:
+
+```yaml
+publish:
+  banners:
+    locations:
+      image: _attachments/sector-map.webp
+      link: _attachments/sector-map.svg    # optional click-through
+      alt: Sector 7-G star chart
+    factions: _attachments/factions-hero.svg   # shorthand
+```
+
+Keys are output directories (`locations`, `factions`), not vault
+folders. Config wins over the conventional file.
+
+An **SVG with no `link` is inlined**, so its internal `<a>` elements stay
+live — a star map whose nodes link to entity pages keeps working. Write
+those hrefs relative to the index page (`corwin-system.html`). Anything
+with a `link` renders as an `<img>` inside an `<a>`, since an outer
+anchor would swallow an SVG's own links.
+
+Assets are copied to `docs/images/banners/<section>/`, namespaced so two
+sections' `_banner.*` files can't collide. A path resolving outside the
+vault, or a missing file, warns and is skipped rather than failing the
+build.
+
+### Locations index grouping
+
+When a campaign's geography funnels through one political root
+(`Republic → Sector → System → planet`), the default listing is a single
+deep tree. Pivot grouping makes each mid-level node its own section
+instead:
+
+```yaml
+publish:
+  locations:
+    group_by: system                    # matched against location_type
+    ungrouped_label: Deep Space & Routes
+```
+
+`group_by` is a case-insensitive substring of `location_type`, so
+`system` matches both `system` and `star system`. The `scifi` genre
+defaults it to `system`; every other genre leaves grouping off. Set
+`group_by: false` to turn a genre default back off.
+
+Locations with no matching ancestor collect under `ungrouped_label`. The
+scaffolding above the pivot (the Republic, the Sector) is demoted to a
+small context caption rather than rendered as tree rows. Grouping is
+skipped — falling back to the flat view — when fewer than two locations
+match the pivot, since one section is not a grouping.
+
+### Pinning landing entries
+
+The landing page picks NPCs and locations by a recency score — how often
+an entity appears in the last few sessions. That is a reasonable default
+and a poor editor: a GM who knows which five NPCs matter this session
+cannot express it, and entities tied on score are separated by nothing
+more meaningful than where their files sit on disk.
+
+`featured_npcs` / `featured_locations` pin entries to the front of their
+section, in the order listed, with recency filling whatever slots remain
+up to `max_npcs` / `max_locations`. A pinned entity appears even if it
+scores nothing — an NPC no session has mentioned yet is still featurable.
+
+```yaml
+publish:
+  landing:
+    max_npcs: 6
+    featured_npcs: ["Hugh_Cavendish", "Margaret_Cavendish"]
+    featured_locations: ["Cavendish_Compound"]
+    quick_links: ["Calcutta_City_Map", "Calcutta_Season_Calendar"]
+```
+
+Name entities the same way a wiki-link does — the filename form, not the
+display title. A name that resolves to no published page prints a build
+warning rather than being dropped in silence; if it is spelled right, the
+page is probably excluded from the site.
+
+Entities left unpinned still sort by score, and ties now break by title,
+so the selection is at least reproducible and explainable.
+
+### Per-file field overrides
+
+`exclude_fields` strips a frontmatter field from every page. When one
+page needs a stripped field back, name that page under
+`publish.overrides.fields` and list the fields to re-admit:
+
+```yaml
+publish:
+  exclude_fields: [secrets, gm_notes]
+  overrides:
+    fields:
+      "Characters/NPCs/Vex Ambrose.md":
+        include: [secrets]
+```
+
+The key is the **vault-relative path** of the note, extension included —
+not its title, and not a glob. `include` is an allowlist checked against
+`exclude_fields`: it re-admits a field that would otherwise be stripped,
+and naming a field that isn't excluded does nothing. There is no
+per-file `exclude`; to strip a field from one page only, remove it from
+that page's frontmatter.
+
+`fields` is the only key under `overrides` that the build reads. Whole
+files are included or excluded through the publish manifest
+(`_meta/publish-manifest.md`), not here — see
+`content-filtering.md`. A build warns on any other
+`publish.overrides.*` key rather than ignoring it silently.
+
+## `vault.config.json` (in the site repo)
+
+JSON file in the site directory. Controls paths, URLs, and
+display settings that are specific to the generated site.
+
+| Setting | Key | Description |
+|---------|-----|-------------|
+| Vault path | `vaultPath` | Path to the vault directory |
+| Output directory | `outputDir` | Where generated HTML is written |
+| Site title | `siteTitle` | Name shown in nav bar and browser tab |
+| Landing tagline | `landingTagline` | One-sentence hook on the homepage |
+| Host | `host` | Where the site is deployed: `github-pages` (default, or when absent) or `cloudflare-pages`. See `cloudflare-pages.md`. |
+| Site URL | `siteUrl` | Canonical base URL. For `cloudflare-pages` this **must** be the Cloudflare URL (e.g. `https://<project>.pages.dev`) — Cloudflare serves at the root, so a leftover `github.io` URL breaks the 404 page. |
+| Cloudflare project | `cloudflarePagesProject` | Optional. Cloudflare Pages project name for deploys. Defaults to the site directory's folder name. |
+| Attachments directory | `attachmentsDir` | Subfolder in vault holding images |
+| Folder map | `folderMap` | Maps vault folders to site output paths |
+| Exclude directories | `excludeDirs` | Unioned with `publish.exclude_dirs` in `vault-config.md` (see § Precedence) |
+| Exclude sections | `excludeSections` | Unioned with `publish.exclude_sections` in `vault-config.md` (see § Precedence) |
+| Exclude fields | `excludeFields` | Unioned with `publish.exclude_fields` in `vault-config.md` (see § Precedence) |
+| Exclude callouts | `excludeCallouts` | Fallback if `vault-config.md` doesn't set `publish.exclude_callouts`. `true` strips all callouts, or an array of types |
+| Preserve directories | `preserveDirs` | Output subdirectories to keep across builds |
+
+## Precedence
+
+Three different rules apply, depending on the setting.
+
+**List settings** — `exclude_sections`, `exclude_fields`, `exclude_dirs`
+— are **unioned**, not overridden. If `publish.exclude_sections` (etc.)
+in `vault-config.md` and the matching `excludeSections`/`excludeFields`/
+`excludeDirs` in `vault.config.json` both supply a list, the two lists
+are merged (case-insensitively deduplicated, first-seen casing kept), so
+a section/field/directory named in only one file is still excluded —
+neither file shadows the other. The built-in default list is used only
+when **neither** file provides a list for that setting; as soon as
+either does, the default stops applying on its own (it is not unioned
+in alongside them).
+
+**`vault-config.md`-only settings** — `mode`, `exclude_drafts`,
+`theme`, `four_oh_four`, `overrides`, `section_titles`, and
+`setting_year` — are never read from `vault.config.json` at all: the
+`vault-config.md` value applies when set, otherwise the built-in
+default (`setting_year` has none — unset just means unset). Putting
+them in the JSON file does nothing.
+
+`publish.system` is *almost* one of them: the build reads it from
+`vault-config.md` only, but the `flush` command falls back to a
+top-level `system` in `vault.config.json` when `publish.system` is
+unset, to pick the GURPS vs CoC writeback. Set it in `vault-config.md`
+and both agree; if a legacy site has it only in the JSON, leave it
+there — deleting it would change what `flush` writes back.
+
+**Scalar and passthrough settings** — `sheet_crest`, `exclude_callouts`,
+`backend.statusBar`/`backend.inbox`, and the per-key settings inside
+`images`, `banners`, and `locations` — follow simple precedence: the
+`vault-config.md` `publish.*` value wins when set, `vault.config.json`
+is used only as a fallback when `vault-config.md` doesn't set it, and
+where the setting has a built-in default (`exclude_callouts` and the
+`images` keys) that default applies only when neither file sets it.
+`sheet_crest`, `banners`, `locations` and `backend.*` have no built-in
+default at all — unset stays unset, deliberately, so the build can tell
+"never configured" apart from "configured off".
+
+---
+
+## Content Filtering: DRAFT Entities
+
+```yaml
+publish:
+  exclude_drafts: false
+```
+
+When `true`, entities with `canon_status: DRAFT` are
+excluded entirely from the published site — they won't appear
+in navigation, index pages, or as individual pages. Wiki-links
+to excluded DRAFT entities will not resolve.
+
+Default `false` — DRAFT entities publish normally with a visible
+"Draft" badge, letting players see work-in-progress content
+while knowing it's unconfirmed.

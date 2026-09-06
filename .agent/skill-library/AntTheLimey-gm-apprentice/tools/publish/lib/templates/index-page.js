@@ -1,0 +1,1130 @@
+const { createRenderer } = require('../markdown');
+const mdRenderer = createRenderer();
+const { escapeHtml, relativePath, resolveWikiLinks, renderMetaValue, plainMetaValue, encodeHref } = require('../processor');
+const { baseShell, cssPath, rootPath, clientScripts, portraitImg, getCanonStatus } = require('./base');
+const { generateBreadcrumbs, renderBreadcrumbs } = require('../breadcrumbs');
+const { getInitials } = require('./landing-data');
+const { canonicalNfc, nfcLookupTable } = require('../unicode');
+
+const GENRE_SECTION_TITLES = {
+  military: {
+    locations: 'Theater of Operations',
+    factions: 'Intelligence Briefing',
+    items: 'Armory & Acquisitions',
+    creatures: 'Bestiary',
+    documents: 'Dossiers & Records',
+  },
+  fantasy: { creatures: 'Bestiary', documents: 'Records & Correspondence' },
+  horror: { creatures: 'Bestiary', documents: 'Documents & Evidence' },
+  scifi: {
+    locations: 'Star Charts',
+    factions: 'Powers & Interests',
+    items: 'Hardware & Equipment',
+    creatures: 'Xenofauna',
+    documents: 'Files & Dossiers',
+  },
+};
+
+const DEFAULT_SECTION_TITLES = {
+  locations: 'Locations',
+  factions: 'Factions & Organizations',
+  items: 'Items & Artifacts',
+  creatures: 'Creatures',
+  documents: 'Documents',
+};
+
+function sectionTitle(key, publishConfig) {
+  const overrides = (publishConfig && publishConfig.section_titles) || {};
+  const genre = (publishConfig && publishConfig._genrePreset) || null;
+  const genreTitles = (genre && GENRE_SECTION_TITLES[genre]) || {};
+  return overrides[key] || genreTitles[key] || DEFAULT_SECTION_TITLES[key];
+}
+
+function relHref(page, indexDir) {
+  const out = page.outputPath;
+  const prefix = indexDir + '/';
+  const rel = out.startsWith(prefix) ? out.substring(prefix.length) : out.split('/').pop();
+  return encodeHref(rel);
+}
+
+function buildPillFilters(pages, dir) {
+  const pills = ['All'];
+  if (dir === 'characters' || dir.startsWith('characters')) {
+    const types = new Set();
+    for (const p of pages) types.add(p.frontmatter.type);
+    pills.push(...Array.from(types).sort());
+  } else if (dir === 'locations') {
+    const types = new Set();
+    for (const p of pages) {
+      if (p.frontmatter.location_type) types.add(p.frontmatter.location_type);
+    }
+    pills.push(...Array.from(types).sort());
+  } else {
+    const types = new Set();
+    for (const p of pages) {
+      if (p.frontmatter.type) types.add(p.frontmatter.type);
+    }
+    if (types.size > 1) pills.push(...Array.from(types).sort());
+  }
+  return pills;
+}
+
+function buildLocationTree(pages) {
+  const nodes = pages.map(p => ({ page: p, children: [] }));
+  // Keyed NFC and wrapped (#139): the parent_location ref read below is author-typed while
+  // these keys come from filenames, so a mismatch silently renders the child as a root
+  // sibling instead of nesting it.
+  const byTitle = {};
+  for (const n of nodes) byTitle[canonicalNfc(n.page.title)] = n;
+  for (const n of nodes) {
+    const display = canonicalNfc(n.page.displayTitle);
+    if (!(display in byTitle)) byTitle[display] = n;
+  }
+  const lookup = nfcLookupTable(byTitle);
+  const roots = [];
+  for (const n of nodes) {
+    const parentRef = n.page.frontmatter.parent_location;
+    if (parentRef) {
+      const parentTitle = String(parentRef).replace(/\[\[|\]\]/g, '').trim();
+      const parentNode = lookup[parentTitle];
+      if (parentNode && parentNode !== n) {
+        parentNode.children.push(n);
+        continue;
+      }
+    }
+    roots.push(n);
+  }
+  return roots;
+}
+
+function renderLocationTreeHTML(nodes, depth, indexDir) {
+  if (nodes.length === 0) return '';
+  const items = nodes.slice()
+    .sort((a, b) => a.page.displayTitle.localeCompare(b.page.displayTitle))
+    .map(node => {
+    const p = node.page;
+    const childrenHtml = node.children.length > 0
+      ? `<div class="location-tree-children">${renderLocationTreeHTML(node.children, depth + 1, indexDir)}</div>`
+      : '';
+    return `<div class="location-tree-item" style="padding-left:${depth * 1.5}rem">
+  <a href="${escapeHtml(relHref(p, indexDir))}">${escapeHtml(p.displayTitle)}</a>
+  ${p.frontmatter.location_type ? `<span class="sidebar-badge">${escapeHtml(p.frontmatter.location_type)}</span>` : ''}
+</div>${childrenHtml}`;
+  }).join('\n');
+  return items;
+}
+
+// The location_type that becomes a top-level section, per genre. A space campaign's
+// geography funnels through one political root (Republic → Sector → System → body), so the
+// star system — not the polity — is the unit a reader actually navigates by.
+const GENRE_LOCATION_PIVOT = {
+  scifi: 'system',
+};
+
+const DEFAULT_UNGROUPED_LABEL = 'Deep Space & Routes';
+
+/**
+ * Resolve the pivot grouping for the Locations index, or null to keep the flat region view.
+ * An explicit `group_by` always wins, including a falsy one, which turns grouping off for a
+ * genre that would otherwise default it on.
+ */
+function resolveLocationGrouping(publishConfig) {
+  const locations = (publishConfig && publishConfig.locations) || {};
+  const genre = (publishConfig && publishConfig._genrePreset) || null;
+  const pivot = Object.prototype.hasOwnProperty.call(locations, 'group_by')
+    ? locations.group_by
+    : GENRE_LOCATION_PIVOT[genre];
+  if (!pivot) return null;
+  return {
+    pivot: String(pivot).toLowerCase(),
+    ungroupedLabel: locations.ungrouped_label || DEFAULT_UNGROUPED_LABEL,
+  };
+}
+
+function isPivotNode(node, pivot) {
+  return String(node.page.frontmatter.location_type || '').toLowerCase().includes(pivot);
+}
+
+function subtreeSize(node) {
+  return 1 + node.children.reduce((sum, c) => sum + subtreeSize(c), 0);
+}
+
+/**
+ * Split the location forest into pivot sections plus everything that hangs outside one.
+ *
+ * A non-pivot node with a pivot somewhere beneath it is *scaffolding* — the political chain
+ * above the systems. It never renders as a row; it survives only as each section's context
+ * caption. A subtree with no pivot anywhere in it (routes, anomalies) is a leftover, and is
+ * captured at its topmost node so it renders exactly once.
+ *
+ * @returns {{sections: Array<{node: object, ancestors: object[]}>, leftoverRoots: object[]}}
+ */
+function partitionByPivot(roots, pivot) {
+  const out = { sections: [], leftoverRoots: [] };
+
+  // Returns whether this node, or anything under it, is a pivot.
+  function classify(node, ancestors) {
+    if (isPivotNode(node, pivot)) {
+      // Don't descend: a pivot nested inside another pivot's subtree stays a nested row
+      // rather than becoming a competing top-level section.
+      out.sections.push({ node, ancestors });
+      return true;
+    }
+    const childHasPivot = node.children.map(child => classify(child, ancestors.concat(node)));
+    if (!childHasPivot.some(Boolean)) return false;
+    node.children.forEach((child, i) => {
+      if (!childHasPivot[i]) out.leftoverRoots.push(child);
+    });
+    return true;
+  }
+
+  for (const root of roots) {
+    if (!classify(root, [])) out.leftoverRoots.push(root);
+  }
+  return out;
+}
+
+function renderContextCaption(ancestors) {
+  if (!ancestors.length) return '';
+  const trail = ancestors.map(a => escapeHtml(a.page.displayTitle)).join(' &rsaquo; ');
+  return `<p class="loc-context">${trail}</p>`;
+}
+
+function renderGroupedLocationsPage(pages, indexDir, imageMap, grouping) {
+  const roots = buildLocationTree(pages);
+  const { sections, leftoverRoots } = partitionByPivot(roots, grouping.pivot);
+
+  // One pivot is not a grouping — it's the same single deep tree with a new heading. Fall
+  // back rather than pretend.
+  if (sections.length < 2) return null;
+
+  const outputPath = indexDir + '/index.html';
+  const byTitle = (a, b) => a.page.displayTitle.localeCompare(b.page.displayTitle);
+
+  // Every location is a first-class row: its own thumbnail, its own badge, its children
+  // nested beneath it even when it is an only child. Collapsing a single-child chain into a
+  // breadcrumb would swallow real bodies — a planet, an asteroid belt — into scaffolding and
+  // make them read unlike their sibling bodies. Grouping by system already keeps this shallow.
+  function renderNode(node) {
+    const p = node.page;
+    const locType = p.frontmatter.location_type || '';
+    const thumb = portraitImg(p.frontmatter, outputPath, imageMap);
+    // An invisible spacer, not a dashed placeholder box: rows stay aligned without drawing
+    // attention to an entity that simply has no portrait yet.
+    const thumbHtml = thumb
+      ? `<span class="loc-node-thumb">${thumb}</span>`
+      : '<span class="loc-node-thumb loc-node-thumb-empty" aria-hidden="true"></span>';
+
+    const childrenHtml = node.children.length
+      ? `<div class="loc-node-children">${node.children.slice().sort(byTitle).map(renderNode).join('\n')}</div>`
+      : '';
+
+    return `<div class="loc-node">
+  <div class="loc-node-row">
+    ${thumbHtml}
+    <a class="loc-node-name" href="${escapeHtml(relHref(p, indexDir))}">${escapeHtml(p.displayTitle)}</a>
+    ${locType ? `<span class="loc-type-badge">${escapeHtml(locType)}</span>` : ''}
+  </div>
+  ${childrenHtml}
+</div>`;
+  }
+
+  function renderSection({ node, ancestors }, { caption }) {
+    const p = node.page;
+    const locType = p.frontmatter.location_type || '';
+    const thumb = portraitImg(p.frontmatter, outputPath, imageMap);
+    const count = subtreeSize(node);
+    const rows = node.children.slice().sort(byTitle).map(renderNode).join('\n');
+
+    // The system heading a section is a location like any other, so it reserves the same
+    // thumbnail slot. Without the spacer, a portrait-less system's title sits flush left
+    // while its neighbours' titles are pushed right by their thumbnails — and in a grid of
+    // section cards that misalignment reads across the whole page.
+    const thumbHtml = thumb
+      ? `<span class="loc-system-thumb">${thumb}</span>`
+      : '<span class="loc-system-thumb loc-system-thumb-empty" aria-hidden="true"></span>';
+
+    return `<section class="loc-system">
+  <header class="loc-system-header">
+    ${thumbHtml}
+    <h2 class="loc-system-title"><a href="${escapeHtml(relHref(p, indexDir))}">${escapeHtml(p.displayTitle)}</a></h2>
+    ${locType ? `<span class="loc-type-badge">${escapeHtml(locType)}</span>` : ''}
+    <span class="loc-system-count">${count} location${count !== 1 ? 's' : ''}</span>
+  </header>
+  ${caption ? renderContextCaption(ancestors) : ''}
+  <div class="loc-system-body">${rows}</div>
+</section>`;
+  }
+
+  // When every system hangs off the same political chain, the chain is page context, not
+  // per-section context. Say it once above the sections instead of on every card.
+  const chainOf = s => s.ancestors.map(a => a.page.displayTitle).join(' > ');
+  const sharedChain = sections.every(s => chainOf(s) === chainOf(sections[0]))
+    ? sections[0].ancestors
+    : null;
+  const pageCaption = sharedChain && sharedChain.length ? renderContextCaption(sharedChain) : '';
+
+  const sectionsHtml = sections
+    .slice()
+    .sort((a, b) => byTitle(a.node, b.node))
+    .map(section => renderSection(section, { caption: !sharedChain }))
+    .join('\n');
+
+  const ungroupedHtml = leftoverRoots.length
+    ? `<section class="loc-system loc-system-ungrouped">
+  <header class="loc-system-header">
+    <span class="loc-system-thumb loc-system-thumb-empty" aria-hidden="true"></span>
+    <h2 class="loc-system-title">${escapeHtml(grouping.ungroupedLabel)}</h2>
+    <span class="loc-system-count">${leftoverRoots.length} entr${leftoverRoots.length !== 1 ? 'ies' : 'y'}</span>
+  </header>
+  <div class="loc-system-body">${leftoverRoots.slice().sort(byTitle).map(renderNode).join('\n')}</div>
+</section>`
+    : '';
+
+  return `<div class="locations-page locations-grouped">
+  ${pageCaption}
+  <div class="loc-system-grid">${sectionsHtml}\n${ungroupedHtml}</div>
+</div>`;
+}
+
+function renderLocationsPage(pages, indexDir, imageMap = {}, publishConfig = null) {
+  const grouping = resolveLocationGrouping(publishConfig);
+  if (grouping) {
+    const grouped = renderGroupedLocationsPage(pages, indexDir, imageMap, grouping);
+    if (grouped) return grouped;
+  }
+
+  const roots = buildLocationTree(pages);
+
+  // Group ROOT cards: by the (unpublished) parent name if one was
+  // declared, else by location_type, else "Other" — same region
+  // semantics as before, but only true roots get cards now.
+  const byRegion = {};
+  for (const node of roots) {
+    const p = node.page;
+    const parentRef = p.frontmatter.parent_location;
+    const locType = String(p.frontmatter.location_type || '').trim();
+    // NFC (#139): this is a grouping key built from an author-typed ref, so two spellings of
+    // one parent name would otherwise render as two separate regions with the same heading.
+    const region = parentRef
+      ? canonicalNfc(String(parentRef).replace(/\[\[|\]\]/g, '').trim())
+      : (locType || 'Other');
+    if (!byRegion[region]) byRegion[region] = [];
+    byRegion[region].push(node);
+  }
+
+  const regionOrder = Object.keys(byRegion).sort((a, b) => {
+    if (a === 'Other') return 1;
+    if (b === 'Other') return -1;
+    return byRegion[b].length - byRegion[a].length;
+  });
+
+  function renderLocationCard(node) {
+    const p = node.page;
+    const fm = p.frontmatter;
+    const locType = fm.location_type || '';
+    const firstSeen = fm.first_appearance || fm.createdSession || '';
+    const firstSeenClean = String(firstSeen).replace(/\[\[|\]\]/g, '').trim();
+
+    const childrenHtml = node.children.length > 0
+      ? `<div class="loc-children">${renderLocationTreeHTML(node.children, 0, indexDir)}</div>`
+      : '';
+
+    const thumb = portraitImg(fm, indexDir + '/index.html', imageMap);
+
+    return `<div class="loc-card">
+  ${thumb ? `<div class="loc-card-thumb">${thumb}</div>` : ''}
+  <div class="loc-card-main">
+    <h3><a href="${escapeHtml(relHref(p, indexDir))}">${escapeHtml(p.displayTitle)}</a></h3>
+    <div class="loc-card-meta">
+      ${locType ? `<span class="loc-type-badge">${escapeHtml(locType)}</span>` : ''}
+      ${firstSeenClean ? `<span class="loc-first-seen">${escapeHtml(firstSeenClean)}</span>` : ''}
+    </div>
+  </div>
+  ${childrenHtml}
+</div>`;
+  }
+
+  const sections = regionOrder.map(region => {
+    const cards = byRegion[region]
+      .sort((a, b) => a.page.displayTitle.localeCompare(b.page.displayTitle))
+      .map(node => renderLocationCard(node))
+      .join('\n');
+
+    return `<section class="loc-region">
+  <h2 class="loc-region-title">${escapeHtml(region)}</h2>
+  <div class="loc-region-grid">${cards}</div>
+</section>`;
+  }).join('\n');
+
+  return `<div class="locations-page">${sections}</div>`;
+}
+
+function renderChapterList(pages, indexDir) {
+  const chapters = pages
+    .filter(p => p.frontmatter.type === 'chapter')
+    .sort((a, b) => (a.frontmatter.sort_order || 0) - (b.frontmatter.sort_order || 0));
+
+  const sessions = pages
+    .filter(p => p.frontmatter.type === 'session')
+    .sort((a, b) => (a.frontmatter.session_number || 0) - (b.frontmatter.session_number || 0));
+
+  if (chapters.length === 0 && sessions.length === 0) return '';
+
+  // The third copy of the chapter matcher (story-spine.js and build.js hold the
+  // others). Author-typed ref vs filename-derived title on both substring tests, so
+  // both sides are canonicalized to NFC (#139). Kept in the same normal form as its
+  // two live siblings so the three cannot drift.
+  //
+  // #156 filed these two ref tests as unreachable. They are not: the index page is
+  // built from every page under `chapters/`, subfolders included, so a session in one
+  // chapter's folder whose `chapter:` ref names another reaches both tests. Deleting
+  // them leaves the whole suite green, which is what made them look dead.
+  const CHAPTER_PREFIX = /^chapter\s+\d+\s*[-–—:]\s*/i;
+  const bare = (s) => s.replace(CHAPTER_PREFIX, '').trim();
+  const refOf = (session) => canonicalNfc(
+    String(session.frontmatter.chapter || '').replace(/\[\[|\]\]/g, '').split('|')[0].trim()
+  ).toLowerCase();
+
+  // How strongly a ref names this chapter. 2 = the two titles are the same once a
+  // "Chapter 3 — " prefix is discounted on either side. 1 = the chapter's own title
+  // appears inside a longer ref ("Chapter 1 — London: The Orphean Society" naming
+  // "London") — the direction both sibling matchers implement. 0 = no claim.
+  //
+  // The reverse of that substring test, ref-inside-title, is deliberately absent: it
+  // is what let `[[Vienna]]` claim both "Vienna" and "The Vienna Files", and it is
+  // also the one direction neither sibling uses.
+  function refScore(ref, chapter) {
+    if (!ref) return 0;
+    const titles = [chapter.displayTitle, chapter.frontmatter.title]
+      .filter(Boolean)
+      .map(t => canonicalNfc(String(t)).toLowerCase());
+    if (titles.some(t => bare(ref) === bare(t))) return 2;
+    if (titles.some(t => t && ref.includes(t))) return 1;
+    return 0;
+  }
+
+  // Resolve each session to at most ONE chapter up front. Scoring rather than
+  // first-match-wins so an exact title beats a loose containment, and the longest
+  // title breaks a tie as the most specific claim. Without this a ref that matched
+  // two chapters put the session under both.
+  const resolvedChapter = new Map();
+  for (const s of sessions) {
+    const ref = refOf(s);
+    if (!ref) continue;
+    let best = null;
+    let bestScore = 0;
+    let bestLen = -1;
+    for (const c of chapters) {
+      const score = refScore(ref, c);
+      if (!score) continue;
+      const len = canonicalNfc(String(c.displayTitle || '')).length;
+      if (score > bestScore || (score === bestScore && len > bestLen)) {
+        best = c;
+        bestScore = score;
+        bestLen = len;
+      }
+    }
+    if (best) resolvedChapter.set(s.outputPath, best);
+  }
+
+  // An explicit ref outranks the folder. Before this, a session filed under Calcutta
+  // but tagged `chapter: [[Vienna]]` matched the ref test for Vienna *and* the folder
+  // test for Calcutta, and was listed under both chapters. A ref that names no chapter
+  // on the page resolves to nothing, so those sessions still fall back to their folder.
+  function sessionsForChapter(chapter) {
+    const chFolder = chapter.outputPath.split('/').slice(0, -1).join('/');
+    return sessions.filter(s => {
+      const resolved = resolvedChapter.get(s.outputPath);
+      if (resolved) return resolved === chapter;
+      return s.outputPath.startsWith(chFolder + '/');
+    });
+  }
+
+  function statusBadge(chapter, chSessions) {
+    const allPlayed = chSessions.length > 0 && chSessions.every(s => s.frontmatter.status === 'played' || s.frontmatter.status === 'reviewed');
+    const anyPlayed = chSessions.some(s => s.frontmatter.status === 'played' || s.frontmatter.status === 'reviewed');
+    if (allPlayed) return '<span class="chapter-status chapter-complete">Complete</span>';
+    if (anyPlayed) return '<span class="chapter-status chapter-active">In Progress</span>';
+    const chStatus = String(chapter.frontmatter.status || '').toLowerCase();
+    if (chStatus === 'complete' || chStatus === 'completed') return '<span class="chapter-status chapter-complete">Complete</span>';
+    if (chStatus === 'active' || chStatus === 'in-progress' || chStatus === 'in_progress') return '<span class="chapter-status chapter-active">In Progress</span>';
+    return '<span class="chapter-status chapter-upcoming">Upcoming</span>';
+  }
+
+  const chapterCards = chapters.map((ch, i) => {
+    const num = ch.frontmatter.sort_order || i + 1;
+    const title = ch.frontmatter.title || ch.displayTitle.replace(/^Chapter \d+\s*[-–—]\s*/i, '');
+    const overview = ch.frontmatter.overview || '';
+    const chSessions = sessionsForChapter(ch);
+    const badge = statusBadge(ch, chSessions);
+
+    const sessionItems = chSessions.map(s => {
+      const sNum = s.frontmatter.session_number || '';
+      const sTitle = s.displayTitle.replace(/^Session \d+\s*[-–—]\s*/i, '');
+      const played = s.frontmatter.status === 'played' || s.frontmatter.status === 'reviewed';
+      const statusIcon = played ? '&#10003;' : '&#9702;';
+      const statusClass = played ? 'session-played' : 'session-pending';
+      return `<li class="${statusClass}">
+  <span class="session-icon">${statusIcon}</span>
+  <a href="${escapeHtml(relHref(s, indexDir))}">${escapeHtml(`Session ${sNum}`)}${sTitle ? ` — ${escapeHtml(sTitle)}` : ''}</a>
+</li>`;
+    }).join('\n');
+
+    const sessionList = sessionItems
+      ? `<ol class="chapter-sessions">${sessionItems}</ol>`
+      : '';
+
+    return `<article class="chapter-card">
+  <div class="chapter-card-header">
+    <span class="chapter-number">${escapeHtml(String(num))}</span>
+    <div class="chapter-card-title">
+      <h2><a href="${escapeHtml(relHref(ch, indexDir))}">${escapeHtml(title)}</a></h2>
+      ${badge}
+    </div>
+  </div>
+  ${overview ? `<p class="chapter-overview">${escapeHtml(overview)}</p>` : ''}
+  ${sessionList}
+</article>`;
+  }).join('\n');
+
+  const orphanSessions = sessions.filter(s => {
+    return !chapters.some(ch => sessionsForChapter(ch).includes(s));
+  });
+  let orphanHtml = '';
+  if (orphanSessions.length > 0) {
+    const items = orphanSessions.map(s => {
+      const sNum = s.frontmatter.session_number || '';
+      const sTitle = s.displayTitle.replace(/^Session \d+\s*[-–—]\s*/i, '');
+      return `<li><a href="${escapeHtml(relHref(s, indexDir))}">${escapeHtml(`Session ${sNum}`)}${sTitle ? ` — ${escapeHtml(sTitle)}` : ''}</a></li>`;
+    }).join('\n');
+    orphanHtml = `<div class="chapter-card"><h3>Other Sessions</h3><ul>${items}</ul></div>`;
+  }
+
+  return `<div class="story-progression">${chapterCards}\n${orphanHtml}</div>`;
+}
+
+function renderBestiary(pages, indexDir) {
+  const creatures = pages
+    .filter(p => p.frontmatter.type === 'creature')
+    .sort((a, b) => a.displayTitle.localeCompare(b.displayTitle));
+
+  if (creatures.length === 0) return '<p class="text-muted">No creatures encountered yet.</p>';
+
+  function threatLevel(fm) {
+    const abilities = fm.abilities || [];
+    if (abilities.length >= 5) return { label: 'EXTREME', cls: 'threat-extreme' };
+    if (abilities.length >= 3) return { label: 'HIGH', cls: 'threat-high' };
+    if (abilities.length >= 1) return { label: 'MODERATE', cls: 'threat-moderate' };
+    return { label: 'UNKNOWN', cls: 'threat-unknown' };
+  }
+
+  function creatureStatus(fm) {
+    const s = (fm.status || '').toLowerCase();
+    if (s === 'dead' || s === 'killed' || s === 'destroyed') return { label: 'KILLED', cls: 'creature-killed' };
+    if (s === 'alive' || s === 'active') return { label: 'ACTIVE', cls: 'creature-active' };
+    return { label: 'UNKNOWN', cls: 'creature-unknown' };
+  }
+
+  const cards = creatures.map(p => {
+    const fm = p.frontmatter;
+    const threat = threatLevel(fm);
+    const status = creatureStatus(fm);
+    const creatureType = fm.creature_type || fm.subtype || '';
+    const location = fm.location ? String(fm.location).replace(/\[\[|\]\]/g, '').trim() : '';
+    const firstSeen = fm.first_appearance ? String(fm.first_appearance).replace(/\[\[|\]\]/g, '').trim() : '';
+
+    const abilities = (fm.abilities || []).map(a =>
+      `<span class="bestiary-ability">${escapeHtml(a)}</span>`
+    ).join('\n');
+
+    const weaknesses = (fm.weaknesses || []).map(w =>
+      `<span class="bestiary-weakness">${escapeHtml(w)}</span>`
+    ).join('\n');
+
+    const metaItems = [];
+    if (creatureType) metaItems.push(`<span class="bestiary-meta-item"><span class="label">Type</span> ${escapeHtml(creatureType)}</span>`);
+    if (location) metaItems.push(`<span class="bestiary-meta-item"><span class="label">Location</span> ${escapeHtml(location)}</span>`);
+    if (firstSeen) metaItems.push(`<span class="bestiary-meta-item"><span class="label">First Encountered</span> ${escapeHtml(firstSeen)}</span>`);
+
+    return `<article class="bestiary-card">
+  <div class="bestiary-header">
+    <div class="bestiary-title-row">
+      <h2><a href="${escapeHtml(relHref(p, indexDir))}">${escapeHtml(p.displayTitle)}</a></h2>
+      <div class="bestiary-badges">
+        <span class="threat-badge ${threat.cls}">Threat: ${threat.label}</span>
+        <span class="creature-status-badge ${status.cls}">Status: ${status.label}</span>
+      </div>
+    </div>
+    ${metaItems.length ? `<div class="bestiary-meta">${metaItems.join('\n')}</div>` : ''}
+  </div>
+  ${abilities ? `<div class="bestiary-section"><span class="bestiary-section-label">Abilities</span><div class="bestiary-pills">${abilities}</div></div>` : ''}
+  ${weaknesses ? `<div class="bestiary-section"><span class="bestiary-section-label">Weaknesses</span><div class="bestiary-pills bestiary-pills-weak">${weaknesses}</div></div>` : ''}
+</article>`;
+  }).join('\n');
+
+  return `<div class="bestiary">${cards}</div>`;
+}
+
+function renderFactions(pages, indexDir, imageMap = {}) {
+  const factions = pages
+    .filter(p => p.frontmatter.type === 'faction' || p.frontmatter.type === 'organization')
+    .sort((a, b) => a.displayTitle.localeCompare(b.displayTitle));
+
+  if (factions.length === 0) return '<p class="text-muted">No factions or organizations documented yet.</p>';
+
+  const TYPE_LABELS = {
+    military: 'Military Units',
+    corporation: 'Corporations',
+    government: 'Government Agencies',
+  };
+
+  const byType = {};
+  for (const p of factions) {
+    const ft = String(p.frontmatter.faction_type || p.frontmatter.factionType || 'other').toLowerCase();
+    if (!byType[ft]) byType[ft] = [];
+    byType[ft].push(p);
+  }
+
+  const typeOrder = ['military', 'corporation', 'government'];
+  const remaining = Object.keys(byType).filter(t => !typeOrder.includes(t)).sort();
+  const orderedTypes = [...typeOrder.filter(t => byType[t]), ...remaining];
+
+  function typeBadgeClass(ft) {
+    if (ft === 'military') return 'intel-type-military';
+    if (ft === 'corporation') return 'intel-type-corporation';
+    if (ft === 'government') return 'intel-type-government';
+    return 'intel-type-other';
+  }
+
+  function renderCard(p) {
+    const fm = p.frontmatter;
+    const ft = String(fm.faction_type || fm.factionType || 'other').toLowerCase();
+    const leadership = fm.leadership ? String(fm.leadership).replace(/\[\[|\]\]/g, '').trim() : '';
+    const goals = Array.isArray(fm.goals) ? fm.goals.slice(0, 3) : [];
+    const relationships = Array.isArray(fm.relationships) ? fm.relationships.slice(0, 4) : [];
+    const canon = getCanonStatus(fm) || '';
+
+    const leaderHtml = leadership
+      ? `<div class="intel-leadership">Led by <strong>${escapeHtml(leadership)}</strong></div>`
+      : '';
+
+    const goalsHtml = goals.length > 0
+      ? `<ul class="intel-goals">${goals.map(g => `<li>${escapeHtml(g)}</li>`).join('\n')}</ul>`
+      : '';
+
+    const connsHtml = relationships.length > 0
+      ? `<div class="intel-connections">${relationships.map(r => {
+          const target = String(r.target || '').replace(/\[\[|\]\]/g, '').trim();
+          const relType = String(r.type || '').replace(/_/g, ' ');
+          return `<span class="intel-conn"><span class="intel-conn-type">${escapeHtml(relType)}</span>${escapeHtml(target)}</span>`;
+        }).join('\n')}</div>`
+      : '';
+
+    const canonHtml = canon
+      ? `<span class="intel-canon-badge">${escapeHtml(canon)}</span>`
+      : '';
+
+    const thumb = portraitImg(fm, indexDir + '/index.html', imageMap);
+
+    return `<article class="intel-card">
+  <div class="intel-card-header">
+    ${thumb ? `<div class="intel-card-thumb">${thumb}</div>` : ''}
+    <h2><a href="${escapeHtml(relHref(p, indexDir))}">${escapeHtml(p.displayTitle)}</a></h2>
+    <span class="intel-type-badge ${typeBadgeClass(ft)}">${escapeHtml(ft)}</span>
+  </div>
+  ${leaderHtml}
+  ${goalsHtml}
+  ${connsHtml}
+  ${canonHtml}
+</article>`;
+  }
+
+  const sections = orderedTypes.map(ft => {
+    const label = TYPE_LABELS[ft] || (ft.charAt(0).toUpperCase() + ft.slice(1));
+    const cards = byType[ft].map(renderCard).join('\n');
+    return `<section class="intel-section">
+  <h2 class="intel-section-title">${escapeHtml(label)}</h2>
+  <div class="intel-section-grid">${cards}</div>
+</section>`;
+  }).join('\n');
+
+  return `<div class="intel-briefing">${sections}</div>`;
+}
+
+// Every document in a handout-heavy vault is a per-character prop, so a flat A–Z grid buries
+// the one thing a reader wants: whose file is this? Pivot on `about` (narrative handouts) or
+// `practitioner` (mechanical/reference cards), resolving a [[wiki-link]] to a plain name.
+// Documents with neither land in a trailing "Other Documents" group. Character groups sort
+// alphabetically; "Other" is always last. Reuses the faction section + generic card classes,
+// so no CSS changes are needed.
+function renderDocuments(pages, indexDir, imageMap = {}) {
+  if (pages.length === 0) return '<p class="text-muted">No documents or handouts yet.</p>';
+  const OTHER = 'Other Documents';
+
+  function groupKey(fm) {
+    let raw = fm.about || fm.practitioner || '';
+    // A handout authored with a YAML list (about: [[[A]], [[B]]]) files under its first
+    // subject rather than a single garbled "A,B" group.
+    if (Array.isArray(raw)) raw = raw[0] || '';
+    const s = String(raw).replace(/\[\[|\]\]/g, '').trim();
+    if (!s) return OTHER;
+    const parts = s.split('|');            // [[Name|Display]] -> Display
+    return (parts[1] || parts[0]).trim() || OTHER;
+  }
+
+  const byChar = {};
+  for (const p of pages) {
+    const key = groupKey(p.frontmatter);
+    (byChar[key] = byChar[key] || []).push(p);
+  }
+  const names = Object.keys(byChar).filter(n => n !== OTHER).sort((a, b) => a.localeCompare(b));
+  if (byChar[OTHER]) names.push(OTHER);
+
+  function renderCard(p) {
+    const fm = p.frontmatter;
+    const subtitle = plainMetaValue(fm.doc_kind || fm.document_type || (fm.type === 'reference' ? 'reference' : '') || '');
+    return `<a class="entity-card" href="${escapeHtml(relHref(p, indexDir))}"
+  data-entity-type="${escapeHtml(fm.doc_kind || fm.type || '')}"
+  data-entity-name="${escapeHtml(p.displayTitle)}"
+  data-entity-status="${escapeHtml(getCanonStatus(fm) || '')}">
+  <h4>${escapeHtml(p.displayTitle)}</h4>
+  ${subtitle ? `<div class="card-subtitle">${escapeHtml(subtitle)}</div>` : ''}
+</a>`;
+  }
+
+  const sections = names.map(name => {
+    const cards = byChar[name]
+      .sort((a, b) => a.displayTitle.localeCompare(b.displayTitle))
+      .map(renderCard)
+      .join('\n');
+    return `<section class="intel-section">
+  <h2 class="intel-section-title">${escapeHtml(name)}</h2>
+  <div class="card-grid">${cards}</div>
+</section>`;
+  }).join('\n');
+
+  return `<div class="documents-page">${sections}</div>`;
+}
+
+function extractMdSections(markdown) {
+  const sections = {};
+  const lines = markdown.split('\n');
+  let current = null;
+  let buf = [];
+  for (const line of lines) {
+    const m = line.match(/^## (.+)/);
+    if (m) {
+      if (current) sections[current] = buf.join('\n').trim();
+      current = m[1].trim();
+      buf = [];
+    } else if (current) {
+      buf.push(line);
+    }
+  }
+  if (current) sections[current] = buf.join('\n').trim();
+  return sections;
+}
+
+function renderCampaignDeepDive(pages, indexDir, publishConfig) {
+  const overview = pages.find(p => p.frontmatter.type === 'campaign_overview');
+  if (!overview) return '<p class="text-muted">No campaign overview found.</p>';
+
+  const fm = overview.frontmatter;
+  const rawSections = extractMdSections(overview.markdown);
+  const linkMap = (publishConfig && publishConfig._linkMap) || {};
+  const outputPath = indexDir + '/index.html';
+
+  const sections = {};
+  for (const [key, md] of Object.entries(rawSections)) {
+    sections[key] = resolveWikiLinks(md, linkMap, outputPath);
+  }
+
+  const system = fm.game_system || '';
+  const year = fm.setting_year || '';
+  const points = fm.point_total || '';
+  const gameDate = fm.current_game_date || '';
+  const lastPlayed = fm.last_play_date || '';
+  const genres = Array.isArray(fm.genre_tags) ? fm.genre_tags : [];
+
+  const paramCards = [];
+  if (system) paramCards.push(`<div class="cdd-param"><span class="cdd-param-label">System</span><span class="cdd-param-value">${escapeHtml(String(system))}</span></div>`);
+  if (year) paramCards.push(`<div class="cdd-param"><span class="cdd-param-label">Setting Year</span><span class="cdd-param-value">${escapeHtml(String(year))}</span></div>`);
+  if (gameDate) paramCards.push(`<div class="cdd-param"><span class="cdd-param-label">Game Date</span><span class="cdd-param-value">${escapeHtml(String(gameDate))}</span></div>`);
+  if (points) paramCards.push(`<div class="cdd-param"><span class="cdd-param-label">Point Total</span><span class="cdd-param-value">${escapeHtml(String(points))}</span></div>`);
+  if (lastPlayed) paramCards.push(`<div class="cdd-param"><span class="cdd-param-label">Last Played</span><span class="cdd-param-value">${escapeHtml(String(lastPlayed))}</span></div>`);
+
+  const arcsPlanned = parseInt(fm.arcs_planned, 10) || 0;
+  if (fm.current_arc) {
+    const arcValue = arcsPlanned > 0
+      ? `${escapeHtml(String(fm.current_arc))} (of ${arcsPlanned})`
+      : escapeHtml(String(fm.current_arc));
+    paramCards.push(`<div class="cdd-param"><span class="cdd-param-label">Current Arc</span><span class="cdd-param-value">${arcValue}</span></div>`);
+  }
+
+  const paramsHtml = paramCards.length > 0
+    ? `<div class="cdd-params">${paramCards.join('\n')}</div>`
+    : '';
+
+  const genreHtml = genres.length > 0
+    ? `<div class="cdd-genres">${genres.map(g => `<span class="cdd-genre">${escapeHtml(g)}</span>`).join('\n')}</div>`
+    : '';
+
+  const premiseMd = sections['Premise'] || '';
+  const premiseHtml = premiseMd
+    ? `<section class="cdd-section"><h2 class="cdd-section-title">Premise</h2><div class="cdd-prose">${mdRenderer.render(premiseMd)}</div></section>`
+    : '';
+
+  const settingMd = sections['Setting'] || '';
+  const settingHtml = settingMd
+    ? `<section class="cdd-section"><h2 class="cdd-section-title">Setting</h2><div class="cdd-prose">${mdRenderer.render(settingMd)}</div></section>`
+    : '';
+
+  const themesMd = sections['Key Themes'] || '';
+  const themesHtml = themesMd
+    ? `<section class="cdd-section"><h2 class="cdd-section-title">Key Themes</h2><div class="cdd-themes">${mdRenderer.render(themesMd)}</div></section>`
+    : '';
+
+  const factionsMd = sections['Key Factions'] || '';
+  const factionsHtml = factionsMd
+    ? `<section class="cdd-section"><h2 class="cdd-section-title">Key Factions</h2><div class="cdd-prose">${mdRenderer.render(factionsMd)}</div></section>`
+    : '';
+
+  const overviewHref = relHref(overview, indexDir);
+
+  return `<div class="campaign-deep-dive">
+  <div class="cdd-hero">
+    ${paramsHtml}
+    ${genreHtml}
+  </div>
+  ${premiseHtml}
+  ${settingHtml}
+  ${themesHtml}
+  ${factionsHtml}
+  <div class="cdd-full-link"><a href="${escapeHtml(overviewHref)}">Read full campaign overview &rarr;</a></div>
+</div>`;
+}
+
+function renderArmory(pages, indexDir) {
+  const items = pages
+    .filter(p => p.frontmatter.type === 'item')
+    .sort((a, b) => a.displayTitle.localeCompare(b.displayTitle));
+
+  if (items.length === 0) return '<p class="text-muted">No items catalogued yet.</p>';
+
+  const TYPE_LABELS = {
+    weapon: 'Weapons',
+    armor: 'Armor & Protection',
+    artifact: 'Artifacts',
+    artefact: 'Artifacts',
+    device: 'Devices',
+    'alien material': 'Alien Materials',
+  };
+
+  const byType = {};
+  for (const p of items) {
+    const raw = (p.frontmatter.item_type || p.frontmatter.itemType || '').toLowerCase();
+    const key = raw || 'other';
+    const normalized = (key === 'artefact') ? 'artifact' : key;
+    if (!byType[normalized]) byType[normalized] = [];
+    byType[normalized].push(p);
+  }
+
+  const typeOrder = ['weapon', 'armor', 'artifact', 'device', 'alien material'];
+  const remaining = Object.keys(byType).filter(t => !typeOrder.includes(t)).sort();
+  const orderedTypes = [...typeOrder.filter(t => byType[t]), ...remaining];
+
+  function renderItem(p) {
+    const fm = p.frontmatter;
+    const itemType = (fm.item_type || fm.itemType || '').replace(/^\w/, c => c.toUpperCase());
+    const holder = fm.current_holder ? String(fm.current_holder).replace(/\[\[|\]\]/g, '').trim() : '';
+    const origin = fm.origin ? String(fm.origin).replace(/\[\[|\]\]/g, '').trim() : '';
+    const tl = fm.tl ? String(fm.tl) : '';
+    const canonStatus = (getCanonStatus(fm) || '').toUpperCase();
+    const isDraft = canonStatus === 'DRAFT' || canonStatus === 'STUB';
+
+    const metaParts = [];
+    if (holder) metaParts.push(`<span><span class="armory-meta-label">Holder:</span> ${escapeHtml(holder)}</span>`);
+    if (origin) metaParts.push(`<span><span class="armory-meta-label">Origin:</span> ${escapeHtml(origin)}</span>`);
+    if (tl) metaParts.push(`<span class="armory-tl">TL${escapeHtml(tl)}</span>`);
+
+    return `<div class="armory-item${isDraft ? ' armory-item-draft' : ''}">
+  <span class="armory-item-name"><a href="${escapeHtml(relHref(p, indexDir))}">${escapeHtml(p.displayTitle)}</a></span>
+  ${itemType ? `<span class="armory-item-type">${escapeHtml(itemType)}</span>` : ''}
+  ${metaParts.length ? `<span class="armory-item-meta">${metaParts.join('\n')}</span>` : ''}
+</div>`;
+  }
+
+  const sections = orderedTypes.map(type => {
+    const label = TYPE_LABELS[type] || (type.charAt(0).toUpperCase() + type.slice(1));
+    const itemsHtml = byType[type].map(renderItem).join('\n');
+    return `<section class="armory-section">
+  <h2 class="armory-section-title">${escapeHtml(label)}</h2>
+  <div class="armory-list">${itemsHtml}</div>
+</section>`;
+  }).join('\n');
+
+  return `<div class="armory">${sections}</div>`;
+}
+
+function cleanRef(str) {
+  return String(str || '').replace(/\[\[|\]\]/g, '').replace(/_/g, ' ').trim();
+}
+
+function sessionSortKey(str) {
+  const m = String(str || '').match(/(\d+)/);
+  return m ? Number(m[1]) : 0;
+}
+
+const ISO_DATE_RE = /^\d{4}-\d{2}-\d{2}/;
+
+// The session an entity's state was confirmed accurate as of. Never falls back to
+// `lastUpdated`: that is a maintenance timestamp the tool writes into its own templates,
+// and reading it back as a session put bare dates in the "filter by session" dropdown and
+// sorted them against `Session N`. A date written directly into asOfSession is rejected for
+// the same reason. An entity with no session simply isn't session-filterable.
+function sessionRef(frontmatter) {
+  const value = cleanRef(frontmatter.asOfSession);
+  return ISO_DATE_RE.test(value) ? '' : value;
+}
+
+function renderNPCTable(pages, dir, imageMap = {}, linkMap = {}) {
+  const sorted = pages
+    .filter(p => p.frontmatter.type === 'npc')
+    .sort((a, b) => a.displayTitle.localeCompare(b.displayTitle));
+
+  if (sorted.length === 0) return '';
+
+  const statusPills = new Set();
+  const sessionPills = new Set();
+  for (const p of sorted) {
+    if (p.frontmatter.status) statusPills.add(p.frontmatter.status);
+    const session = sessionRef(p.frontmatter);
+    if (session) sessionPills.add(session);
+  }
+
+  const statusFilters = Array.from(statusPills).sort();
+  const sessionFilters = Array.from(sessionPills).sort((a, b) => sessionSortKey(a) - sessionSortKey(b));
+
+  let filterHtml = '<div class="npc-table-filters">';
+  if (statusFilters.length > 1) {
+    filterHtml += `<select class="npc-filter" data-col="status" aria-label="Filter by status">
+  <option value="">All Statuses</option>
+  ${statusFilters.map(s => `<option value="${escapeHtml(s)}">${escapeHtml(s.charAt(0).toUpperCase() + s.slice(1))}</option>`).join('\n')}
+</select>`;
+  }
+  if (sessionFilters.length > 1) {
+    filterHtml += `<select class="npc-filter" data-col="session" aria-label="Filter by session">
+  <option value="">All Sessions</option>
+  ${sessionFilters.map(s => `<option value="${escapeHtml(s)}">${escapeHtml(s)}</option>`).join('\n')}
+</select>`;
+  }
+  filterHtml += '</div>';
+
+  const rows = sorted.map(p => {
+    const fm = p.frontmatter;
+    const occupation = fm.occupation || '';
+    const status = fm.status || '';
+    const firstApp = cleanRef(fm.first_appearance || '');
+    const lastSession = sessionRef(fm);
+    const canonStatus = getCanonStatus(fm) || '';
+    const avatar = portraitImg(fm, dir + '/index.html', imageMap);
+    const avatarHtml = avatar
+      ? `<span class="npc-row-avatar">${avatar}</span>`
+      : `<span class="npc-row-avatar npc-row-initials" aria-hidden="true">${escapeHtml(getInitials(p.displayTitle))}</span>`;
+
+    return `<tr data-entity-type="npc" data-entity-name="${escapeHtml(p.displayTitle)}" data-entity-status="${escapeHtml(status)}" data-session="${escapeHtml(lastSession)}">
+  <td data-sort="${escapeHtml(p.displayTitle.toLowerCase())}"><a class="npc-row-link" href="${escapeHtml(relHref(p, dir))}">${avatarHtml}${escapeHtml(p.displayTitle)}</a></td>
+  <td>${renderMetaValue(occupation, linkMap, dir + '/index.html')}</td>
+  <td><span class="status-badge status-${escapeHtml(status.replace(/\s+/g, '-').toLowerCase())}">${escapeHtml(status ? status.charAt(0).toUpperCase() + status.slice(1) : '')}</span></td>
+  <td>${escapeHtml(firstApp)}</td>
+  <td data-sort="${sessionSortKey(lastSession)}">${escapeHtml(lastSession)}</td>
+  <td><span class="sidebar-badge">${escapeHtml(canonStatus)}</span></td>
+</tr>`;
+  }).join('\n');
+
+  return `${filterHtml}
+<div class="npc-table-wrap">
+<table class="npc-table sortable-table">
+<thead>
+<tr>
+  <th data-sort-col="name" class="sort-active sort-asc">Name</th>
+  <th data-sort-col="occupation">Role</th>
+  <th data-sort-col="status">Status</th>
+  <th data-sort-col="first">First Appearance</th>
+  <th data-sort-col="session">As of Session</th>
+  <th data-sort-col="canon">Canon Status</th>
+</tr>
+</thead>
+<tbody>
+${rows}
+</tbody>
+</table>
+</div>`;
+}
+
+function indexTemplate(dir, label, pages, navFor, config, publishConfig, imageMap = {}) {
+  const outputPath = dir + '/index.html';
+  const crumbs = generateBreadcrumbs(outputPath, {});
+  const breadcrumbsHtml = renderBreadcrumbs(crumbs);
+  const total = pages.length;
+  const isChapters = dir === 'chapters';
+  const isLocations = dir === 'locations';
+  const isNPCs = dir === 'characters/npcs';
+  const isCharacters = dir === 'characters' || dir.startsWith('characters');
+
+  const pills = buildPillFilters(pages, dir);
+  const pillsHtml = (pills.length > 1 && !isNPCs)
+    ? `<div class="pill-filters">${pills.map((p, i) => {
+        const filterVal = p === 'All' ? 'all' : p;
+        const active = i === 0 ? ' active' : '';
+        return `<button class="pill-filter${active}" data-filter="${escapeHtml(filterVal)}">${escapeHtml(p === 'All' ? 'All' : p.charAt(0).toUpperCase() + p.slice(1))}</button>`;
+      }).join('\n')}</div>`
+    : '';
+
+  const nameFilterHtml = `<input class="name-filter" type="text" placeholder="Filter by name..." aria-label="Filter by name">`;
+  const sortHtml = isNPCs ? '' : `<select class="sort-control" aria-label="Sort by">
+  <option value="name">Sort: Name</option>
+  <option value="type">Sort: Type</option>
+  <option value="status">Sort: Status</option>
+</select>`;
+
+  const isCreatures = dir === 'creatures';
+  const isFactions = dir === 'factions';
+  const isItems = dir === 'items';
+  const isDocuments = dir === 'documents';
+  const isCampaign = dir === 'campaign';
+
+  let bodyContent;
+  if (isNPCs) {
+    bodyContent = renderNPCTable(pages, dir, imageMap, (publishConfig || {})._linkMap || {});
+  } else if (isChapters) {
+    bodyContent = renderChapterList(pages, dir);
+  } else if (isCreatures) {
+    bodyContent = renderBestiary(pages, dir);
+  } else if (isLocations) {
+    bodyContent = renderLocationsPage(pages, dir, imageMap, publishConfig);
+  } else if (isFactions) {
+    bodyContent = renderFactions(pages, dir, imageMap);
+  } else if (isItems) {
+    bodyContent = renderArmory(pages, dir);
+  } else if (isDocuments) {
+    bodyContent = renderDocuments(pages, dir, imageMap);
+  } else if (isCampaign && pages.some(p => p.frontmatter.type === 'campaign_overview')) {
+    // Only render the overview deep-dive (which surfaces the overview's prose) when the overview
+    // is actually published. In player mode the overview is excluded as a spoiler doc, so fall
+    // through to the normal card index of the published _Campaign pages rather than showing
+    // "No campaign overview found".
+    bodyContent = renderCampaignDeepDive(pages, dir, publishConfig);
+  } else {
+    const cardItems = pages.map(p => {
+      const fm = p.frontmatter;
+      const entityType = isLocations ? (fm.location_type || fm.type) : fm.type;
+      const avatarShape = (fm.type === 'pc') ? 'border-radius:0.375rem' : 'border-radius:50%';
+      const cardImg = portraitImg(fm, outputPath, imageMap);
+      const portraitHtml = isCharacters && cardImg
+        ? `<div class="npc-icon" style="${avatarShape}">${cardImg}</div>`
+        : '';
+      // Plain text, not renderMetaValue: this sits inside the enclosing <a class="entity-card">,
+      // where a resolved wikilink would nest one anchor inside another.
+      const subtitle = plainMetaValue(fm.occupation || fm.location_type || fm.faction_type || fm.factionType || '');
+      return `<a class="entity-card" href="${escapeHtml(relHref(p, dir))}"
+  data-entity-type="${escapeHtml(entityType || '')}"
+  data-entity-name="${escapeHtml(p.displayTitle)}"
+  data-entity-status="${escapeHtml(fm.status || '')}">
+  ${portraitHtml}
+  <h4>${escapeHtml(p.displayTitle)}</h4>
+  ${subtitle ? `<div class="card-subtitle">${escapeHtml(subtitle)}</div>` : ''}
+</a>`;
+    }).join('\n');
+    bodyContent = `<div class="card-grid">${cardItems}</div>`;
+  }
+
+  let locationTreeHtml = '';
+
+  let content;
+  if (isChapters) {
+    content = `
+<div class="index-header">
+  <h1 class="page-title">Story</h1>
+</div>
+${bodyContent}`;
+  } else if (isCreatures) {
+    content = `
+<div class="index-header">
+  <h1 class="page-title">${escapeHtml(sectionTitle('creatures', publishConfig))}</h1>
+  <span class="index-count">${total} creature${total !== 1 ? 's' : ''} encountered</span>
+</div>
+${bodyContent}`;
+  } else if (isLocations) {
+    content = `
+<div class="index-header">
+  <h1 class="page-title">${escapeHtml(sectionTitle('locations', publishConfig))}</h1>
+  <span class="index-count">${total} locations</span>
+</div>
+${bodyContent}`;
+  } else if (isFactions) {
+    content = `
+<div class="index-header">
+  <h1 class="page-title">${escapeHtml(sectionTitle('factions', publishConfig))}</h1>
+  <span class="index-count">${total} organizations</span>
+</div>
+${bodyContent}`;
+  } else if (isItems) {
+    content = `
+<div class="index-header">
+  <h1 class="page-title">${escapeHtml(sectionTitle('items', publishConfig))}</h1>
+  <span class="index-count">${total} items catalogued</span>
+</div>
+${bodyContent}`;
+  } else if (isDocuments) {
+    content = `
+<div class="index-header">
+  <h1 class="page-title">${escapeHtml(sectionTitle('documents', publishConfig))}</h1>
+  <span class="index-count">${total} document${total !== 1 ? 's' : ''}</span>
+</div>
+${nameFilterHtml}
+${bodyContent}`;
+  } else if (isCampaign) {
+    const overview = pages.find(p => p.frontmatter.type === 'campaign_overview');
+    const campaignName = (overview && overview.frontmatter.campaign) || config.siteTitle || 'Campaign';
+    content = `
+<div class="index-header">
+  <h1 class="page-title">${escapeHtml(campaignName)}</h1>
+</div>
+${bodyContent}`;
+  } else {
+    content = `
+<div class="index-header">
+  <h1 class="page-title">${escapeHtml(label)}</h1>
+  <span class="index-count">Showing ${total} of ${total}</span>
+  ${sortHtml}
+</div>
+${pillsHtml}
+${nameFilterHtml}
+${locationTreeHtml}
+${bodyContent}`;
+  }
+
+  // Above the page title, full-width: a section hero, not an illustration of the listing.
+  const bannerHtml = ((publishConfig || {})._banners || {})[dir] || '';
+
+  return baseShell({
+    title: label,
+    siteTitle: config.siteTitle,
+    cssHref: cssPath(outputPath),
+    navHtml: navFor(outputPath, config),
+    rootHref: rootPath(outputPath),
+    content: bannerHtml + content,
+    footer: config.footer,
+    genrePreset: (publishConfig || {})._genrePreset,
+    overridesCss: (publishConfig || {})._overridesCss,
+    breadcrumbsHtml,
+    scripts: [...clientScripts(outputPath), rootPath(outputPath) + 'js/filters.js'],
+  });
+}
+
+module.exports = {
+  indexTemplate, buildPillFilters, buildLocationTree, renderLocationsPage,
+  resolveLocationGrouping, partitionByPivot, renderDocuments,
+};

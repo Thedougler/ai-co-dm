@@ -1,0 +1,77 @@
+name: Nightly checks
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '0 5 * * *'
+
+permissions:
+  contents: read
+
+concurrency:
+  group: nightly-${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  external-links:
+    name: External link check
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7
+        with:
+          persist-credentials: false
+
+      - name: Run Lychee external link check
+        uses: lycheeverse/lychee-action@e7477775783ea5526144ba13e8db5eec57747ce8 # v2
+        with:
+          args: --verbose --no-progress README.md 'skills/**/*.md' 'docs/**/*.md' 'templates/**/*.md'
+          fail: true
+
+  skills-smoke:
+    name: skills CLI smoke test
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7
+        with:
+          persist-credentials: false
+
+      - name: Set up Node.js
+        uses: actions/setup-node@820762786026740c76f36085b0efc47a31fe5020 # v6
+        with:
+          node-version: 22
+          package-manager-cache: false
+
+      - name: List skills through skills CLI
+        run: npx --yes skills@1.5.15 add po4yka/llm-wiki-skills --list
+
+  reports:
+    name: Generate reports
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7
+        with:
+          persist-credentials: false
+
+      - name: Set up Node.js
+        uses: actions/setup-node@820762786026740c76f36085b0efc47a31fe5020 # v6
+        with:
+          node-version: 22
+          package-manager-cache: false
+
+      - name: Run validators and generate catalog
+        run: |
+          npm run validate
+          npm run catalog:generate
+
+      - name: Upload catalog artifact
+        uses: actions/upload-artifact@043fb46d1a93c77aae656e7c1c64a875d1fc6a0a # v7
+        with:
+          name: skills-catalog
+          path: dist/skills-catalog.json
+          if-no-files-found: error

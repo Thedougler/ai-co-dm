@@ -1,0 +1,53 @@
+name: PR Agent Review
+
+# Cross-family CI reviewer: PR-Agent driving OpenRouter GPT-5.5. Ported from masque-online.
+# Review discipline + model live in the repo-root .pr_agent.toml (loaded automatically from the
+# default branch). This workflow only wires the trigger, permissions, secret, OpenRouter
+# attribution, and which auto-commands run.
+#
+# Requires an OPENROUTER_API_KEY repository secret (secrets are per-repo; the one on
+# masque-online does not carry over). Public repo: same-repo branch PRs get the secret and are
+# reviewed; fork PRs do not expose secrets, so external contributions are not auto-reviewed.
+
+on:
+  # No `synchronize`: a push isn't in PR-Agent's default review actions, so it would only spin up
+  # a container to no-op. Reviews fire on PR open / reopen / marked-ready. (To re-review on every
+  # push, add `synchronize` here AND to github_action_config.pr_actions.)
+  pull_request:
+    types: [opened, reopened, ready_for_review]
+    branches: [master]
+
+jobs:
+  pr_agent:
+    name: PR-Agent review (OpenRouter GPT-5.5)
+    # Skip drafts, Dependabot, and any bot-authored event.
+    if: >-
+      github.event.pull_request.draft == false &&
+      github.actor != 'dependabot[bot]' &&
+      github.event.sender.type != 'Bot'
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read           # read the diff
+      pull-requests: write      # post the review + labels
+      issues: write             # PR-Agent addresses PRs through the issues API
+    steps:
+      - name: PR-Agent review
+        # SHA-pinned to v0.39.0 (third-party action with pull-requests: write - do not float @main).
+        uses: the-pr-agent/pr-agent@8e4d32e5497defd43c023a404f73560c62728961
+        env:
+          # PR-Agent passes settings.openrouter.key to LiteLLM as the api_key; when empty it
+          # overrides LiteLLM's own OPENROUTER_API_KEY env lookup, so the request goes out with
+          # no auth header (401, silently swallowed). The key MUST be provided as OPENROUTER__KEY
+          # (dynaconf -> [openrouter] key). Keep OPENROUTER_API_KEY too as belt-and-suspenders.
+          OPENROUTER__KEY: ${{ secrets.OPENROUTER_API_KEY }}
+          OPENROUTER_API_KEY: ${{ secrets.OPENROUTER_API_KEY }}
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          # OpenRouter attribution - labels these calls in the OpenRouter console (X-Title +
+          # HTTP-Referer via LiteLLM), distinct from other projects' calls. Pair with a dedicated
+          # CI key in the secret above if you want per-repo cost attribution.
+          OR_APP_NAME: "wiki skills PR-Agent CI"
+          OR_SITE_URL: "https://github.com/${{ github.repository }}"
+          # Auto-run only /review; /describe and /improve stay off for a clean signal.
+          github_action_config.auto_review: "true"
+          github_action_config.auto_describe: "false"
+          github_action_config.auto_improve: "false"

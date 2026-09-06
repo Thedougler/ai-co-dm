@@ -1,0 +1,44 @@
+# PR-Agent (the-pr-agent/pr-agent) configuration - committed so the review discipline lives
+# in-repo and is reviewable in the diff, not buried in Action env vars. Loaded automatically
+# from the repo root of the default branch.
+#
+# Ported from masque-online. The [config] block is the OpenRouter/GPT-5.5 plumbing (unchanged
+# across repos); extra_instructions below is rewritten for this repo - the llm-wiki skill suite -
+# and drops the Masque-specific blindspots (alembic, mutations.py) entirely.
+
+[config]
+model = "openrouter/openai/gpt-5.5"
+fallback_models = ["openrouter/openai/gpt-5"]
+# PR-Agent detects GPT-5 reasoning models (to drop the unsupported `temperature` param) by
+# stripping only `openai/`/`azure/` prefixes then checking `gpt-5*`. Our `openrouter/` prefix
+# defeats that detection, so PR-Agent would send temperature=0.2, which LiteLLM rejects
+# client-side (UnsupportedParamsError) - the request never reaches OpenRouter and the review
+# silently no-ops. custom_reasoning_model=true is the documented escape hatch.
+custom_reasoning_model = true
+# PR-Agent's MAX_TOKENS registry doesn't list these OpenRouter models, so declare the window
+# explicitly or it refuses the call ("not defined in MAX_TOKENS"). 1.05M matches gpt-5.5's window.
+custom_model_max_tokens = 1050000
+
+[pr_reviewer]
+num_max_findings = 5
+require_security_review = true          # wiki-ingest has a real Content Trust Boundary (prompt injection from sources)
+require_tests_review = false            # no test suite; validate.py is the mechanical gate
+require_ticket_analysis_review = false  # work is tracked in TaskNotes, not GitHub/Jira tickets
+require_can_be_split_review = false
+require_score_review = false
+persistent_comment = true               # edit one review comment in place across pushes
+extra_instructions = """\
+This repo is the llm-wiki skill suite: cross-agent Markdown skills (agentskills.io standard). Each skill is a <skill>/SKILL.md plus references/, packaged as a <skill>.skill zip. There is no application code or test suite - "correctness" is about the cross-skill contract and the skill prose, not runtime behaviour. Only post a finding when >= 80% confident it is real and actionable; prefer a few high-signal findings over breadth.
+
+Do NOT flag: prose style, wording, or heading choices; the absence of tests; or em-dash characters inside wiki-lint/SKILL.md (they intentionally document the character that skill detects and fixes).
+
+Give special attention to these suite blindspots when the relevant files change:
+
+1. Shared-contract lockstep. wiki-config owns the canonical wiki-config-template.md, wiki-schema.md, and the page templates under wiki-config/assets/. Each operational skill (wiki-ingest, wiki-lint, wiki-integrate, wiki-crystallize, wiki-query) bundles read-only copies of wiki-config-template.md and wiki-schema.md in its references/. Flag: a change to one copy of a shared file (a schema field or enum, a config field, a template) not mirrored across all copies; a skill step that reads a config or schema field that no longer exists; a new page_type used by a skill but missing from the wiki-schema.md page_type enum.
+
+2. Description discipline. The frontmatter `description` states WHEN to trigger, never the workflow. Flag: a description that summarizes the skill's steps (agents then follow the summary and skip the body); a new trigger phrase that collides with another wiki skill's triggers (the suite has several descriptions that must not fight for the same cue); a description over 1024 characters; an em-dash in a description (this repo's convention is " - ", space-hyphen-space).
+
+3. Packaging and versioning. Flag: a SKILL.md content change with no metadata.version bump; a change that would fail wiki-pack validation (skill `name` not matching its folder, missing required frontmatter fields); Claude-specific assumptions added to a skill body - the skills must stay platform-agnostic (Claude Code, Gemini CLI, Codex, Copilot); only the .skill packaging and the Claude GUI install are Claude-specific.
+
+4. log.md / index.md growth contract. log.md is prepend-only (newest entry on top, below the header). index.md entries cap their one-line description at 150 characters. Flag: a new or edited skill step that appends to log.md instead of prepending, or writes an index entry without honouring the 150-char cap.
+"""

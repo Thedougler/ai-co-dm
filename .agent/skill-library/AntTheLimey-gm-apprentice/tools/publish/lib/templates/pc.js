@@ -1,0 +1,460 @@
+const { escapeHtml, relativePath, relativeHref, publishedSource, encodeHref } = require('../processor');
+const { canonicalNfc } = require('../unicode');
+const { baseShell, cssPath, rootPath, clientScripts, portraitImg } = require('./base');
+const { generateBreadcrumbs, renderBreadcrumbs } = require('../breadcrumbs');
+const { getInitials } = require('./landing-data');
+const { excerptFromMarkdown } = require('../excerpt');
+const { liveDataScript } = require('./gurps/live-data');
+const { liveScriptHrefs, clientFor } = require('./live-mount');
+
+const DEFAULT_META_FIELDS = ['occupation', 'age', 'nationality'];
+
+function formatLabel(fieldName) {
+  return fieldName
+    .replace(/_/g, ' ')
+    .replace(/\b\w/g, c => c.toUpperCase());
+}
+
+function renderMetaSpans(fm) {
+  const fields = Array.isArray(fm.display_meta) ? fm.display_meta : DEFAULT_META_FIELDS;
+  return fields
+    .filter(field => fm[field] != null && fm[field] !== '')
+    .map(field => `<span><span class="label">${escapeHtml(formatLabel(field))}</span> ${escapeHtml(String(fm[field]))}</span>`)
+    .join('\n    ');
+}
+
+const EQUIPMENT_SECTION_TITLES = new Set(['equipment', 'gear', 'inventory', 'weapons', 'armour', 'armor', 'items', 'possessions', 'melee weapons', 'ranged weapons', 'encumbrance']);
+
+// Sections the structured GURPS renderer consumes into the sheet/combat tabs.
+// When a GURPS system sheet is present these are dropped from the accordion
+// list so they don't duplicate the structured blocks. Prose/extra sections
+// (Background, Notes, GM Notes, suit mods, etc.) still render as accordions.
+const GURPS_CONSUMED_TITLES = new Set(['stat sheet', 'skills', 'advantages & perks', 'disadvantages & quirks', 'techniques', 'spells', 'languages', 'cultural familiarities', 'combat action chains', 'active defenses', 'dr by hit location', 'points summary', 'reaction modifiers', 'current status', 'multi-action combat skill chains', 'combat summary']);
+
+// Titles the structured CoC sheet/record consume. 'connections' and 'cover
+// identity' are deliberately NOT here: the structured renderer doesn't place
+// them, so consuming them would silently drop the sections. Left un-consumed,
+// they fall through to the Record tab's leftover-accordion guard (no content loss).
+const COC_CONSUMED_TITLES = new Set(['stat sheet', 'skills', 'combat', 'background', 'injuries & scars', 'phobias & manias', 'encounters with strange entities', 'arcane tomes & spells', 'fellow investigators', 'current status', 'equipment']);
+
+function isGurpsSystem(publishConfig) {
+  return ['gurps-4e', 'gurps'].includes(String((publishConfig || {}).system || '').toLowerCase());
+}
+
+function isCocSystem(publishConfig) {
+  return ['coc-7e', 'coc', 'regency-cthulhu'].includes(String((publishConfig || {}).system || '').toLowerCase());
+}
+
+// System label shown in the CoC masthead era line when the PC has no explicit `era`.
+function cocSystemLabel(publishConfig) {
+  return String((publishConfig || {}).system || '').toLowerCase() === 'regency-cthulhu'
+    ? 'Regency Cthulhu'
+    : 'Call of Cthulhu';
+}
+
+// Builds the approved parchment folio body for a CoC investigator (mockup:
+// docs/superpowers/specs/coc-investigator-sheet-mockup/index.html). The single
+// outer .coc-sheet-root carries the engraved frame; #cr-root must live inside it
+// so the parchment-scoped .cr-* rules apply.
+function buildCocBody(opts) {
+  const { page, fm, publishConfig, displayTitle, sheetHtml, recordHtml, statusBarHtml,
+    portraitUrl, sealUrl, crWidget, equipmentContent, storyContent, journeyContent, leftoverSections } = opts;
+
+  // Portrait: the sheet carries an empty <img class="portrait" data-portrait> slot.
+  // Inject the resolved src, or drop the framed box entirely when absent.
+  let sheet = sheetHtml || '';
+  if (portraitUrl) {
+    sheet = sheet.replace(/<img class="portrait" data-portrait[^>]*>/,
+      `<img class="portrait" src="${portraitUrl}" alt="${escapeHtml(displayTitle)}">`);
+  } else {
+    sheet = sheet.replace(/<img class="portrait" data-portrait[^>]*>/, '');
+  }
+
+  // Content-loss guard: every non-consumed prose section (including any authored
+  // Relationships/Appearances — empty auto-stubs are already dropped upstream by
+  // the sheetSections filter) is appended to the record so nothing is silently lost.
+  const leftover = (leftoverSections || [])
+    .map(s => `<details class="acc"><summary>${escapeHtml(s.title)}</summary><div class="acc-body">${s.html}</div></details>`)
+    .join('');
+  const recordBody = (recordHtml || '') + leftover;
+  const recordPanel = recordBody.trim()
+    ? recordBody
+    : '<p class="empty-note">No record entries yet.</p>';
+
+  // Era line: an explicit `era` frontmatter wins verbatim; otherwise the system
+  // label, plus "· in the year <setting_year>" from vault config when set.
+  const settingYear = (publishConfig || {}).setting_year;
+  const yearSuffix = (settingYear != null && String(settingYear).trim())
+    ? ` · in the year ${String(settingYear).trim()}` : '';
+  const era = fm.era
+    ? escapeHtml(String(fm.era))
+    : escapeHtml(cocSystemLabel(publishConfig) + yearSuffix);
+  const corners = '<span class="corner tl">❦</span><span class="corner tr">❦</span><span class="corner bl">❦</span><span class="corner br">❦</span>';
+  const seal = sealUrl ? `<img class="seal-img" src="${sealUrl}" alt="">` : '';
+
+  return `<div class="coc-sheet-root">
+${corners}
+${seal}
+<div class="masthead">
+  <div class="kicker">Being a true account of the investigator</div>
+  <h1>${escapeHtml(displayTitle)}</h1>
+  <div class="era">${era}</div>
+</div>
+<div class="fleuron">❧ ❦ ❧</div>
+${statusBarHtml || ''}
+${crWidget}
+<div class="folio">
+  <div class="foliotabs" role="tablist">
+    <button type="button" class="foliotab active" data-target="p-sheet"><span class="t-full">Character Sheet</span><span class="t-short">Sheet</span></button>
+    <button type="button" class="foliotab" data-target="p-record"><span class="t-full">Investigator's Record</span><span class="t-short">Record</span></button>
+    <button type="button" class="foliotab" data-target="p-equipment"><span class="t-full">Equipment &amp; Wealth</span><span class="t-short">Gear</span></button>
+    <button type="button" class="foliotab" data-target="p-story">Story</button>
+    <button type="button" class="foliotab" data-target="p-journey">Journey</button>
+  </div>
+  <div class="foliopanel">
+    <div class="tab-panel" id="p-sheet">
+${sheet}
+    </div>
+    <div class="tab-panel" id="p-record" hidden>
+${recordPanel}
+    </div>
+    <div class="tab-panel" id="p-equipment" hidden>
+${equipmentContent}
+    </div>
+    <div class="tab-panel" id="p-story" hidden>
+  <div class="story-prose">
+    ${storyContent}
+  </div>
+    </div>
+    <div class="tab-panel" id="p-journey" hidden>
+${journeyContent}
+    </div>
+  </div>
+</div>
+</div>`;
+}
+
+function extractEquipment(frontmatter, sections) {
+  if (Array.isArray(frontmatter.equipment) && frontmatter.equipment.length > 0) {
+    const items = frontmatter.equipment.map(item => {
+      if (typeof item === 'string') return `<div class="entity-card"><h4>${escapeHtml(item)}</h4></div>`;
+      const name = item.name || 'Unknown';
+      const desc = item.description || item.notes || '';
+      const weight = item.weight ? ` <span class="sidebar-badge">${escapeHtml(String(item.weight))}</span>` : '';
+      return `<div class="entity-card"><h4>${escapeHtml(name)}${weight}</h4>${desc ? `<div class="card-excerpt">${escapeHtml(desc)}</div>` : ''}</div>`;
+    });
+    return `<div class="card-grid">${items.join('\n')}</div>`;
+  }
+
+  const equipmentSections = sections.filter(s => EQUIPMENT_SECTION_TITLES.has(s.title.toLowerCase()));
+  if (equipmentSections.length > 0) {
+    return equipmentSections.map(s => `<h3>${escapeHtml(s.title)}</h3>\n${s.html}`).join('\n');
+  }
+
+  return '<p class="text-muted">No equipment data available.</p>';
+}
+
+function buildRouteMap(page, pages) {
+  const storyPages = (pages || [])
+    .filter(p => p.frontmatter.type === 'session' && (p.frontmatter.status === 'played' || p.frontmatter.status === 'reviewed'))
+    .sort((a, b) => (a.frontmatter.session_number || 0) - (b.frontmatter.session_number || 0));
+
+  const locations = [];
+  const seen = new Set();
+  for (const session of storyPages) {
+    const loc = session.frontmatter.location;
+    if (loc) {
+      // NFC (#139): a Set keyed on an author-typed ref, so two spellings of one location
+      // would list it twice in the route map instead of deduping.
+      const locTitle = canonicalNfc(String(loc).replace(/\[\[|\]\]/g, '').split('|')[0].trim());
+      if (!seen.has(locTitle) || locations[locations.length - 1] !== locTitle) {
+        locations.push(locTitle);
+        seen.add(locTitle);
+      }
+    }
+  }
+
+  if (locations.length < 2) return '';
+
+  const spacing = 120;
+  const width = (locations.length - 1) * spacing + 80;
+  const height = 80;
+  const y = 40;
+
+  let svg = `<svg viewBox="0 0 ${width} ${height}" xmlns="http://www.w3.org/2000/svg" style="font-family:var(--font-body,system-ui)">`;
+  svg += `<line x1="40" y1="${y}" x2="${40 + (locations.length - 1) * spacing}" y2="${y}" stroke="var(--border,#30363d)" stroke-width="2"/>`;
+  locations.forEach((loc, i) => {
+    const x = 40 + i * spacing;
+    const display = loc.replace(/_/g, ' ');
+    const label = display.length > 12 ? display.slice(0, 10) + '…' : display;
+    svg += `<circle cx="${x}" cy="${y}" r="6" fill="var(--accent,#58a6ff)" stroke="var(--bg,#1a1f25)" stroke-width="2"/>`;
+    svg += `<text x="${x}" y="${y + 22}" text-anchor="middle" font-size="10" fill="var(--text,#c9d1d9)">${escapeHtml(label)}</text>`;
+  });
+  svg += '</svg>';
+  return `<div class="relationship-graph" style="margin-bottom:2rem"><h3>Campaign Route</h3>${svg}</div>`;
+}
+
+function tabScript() {
+  return `
+<script>
+function switchTab(tab) {
+  document.querySelectorAll('.pc-tab').forEach(function(t) { t.classList.remove('active'); });
+  document.querySelectorAll('.tab-panel').forEach(function(p) { p.classList.remove('active'); });
+  document.getElementById('tab-' + tab).classList.add('active');
+  document.querySelector('[data-tab="' + tab + '"]').classList.add('active');
+  history.replaceState(null, '', '#' + tab);
+}
+function openAccordion(id) {
+  var el = document.getElementById(id);
+  if (el && el.classList.contains('accordion')) {
+    el.classList.add('open');
+    var btn = el.querySelector('.accordion-header');
+    if (btn) btn.setAttribute('aria-expanded', 'true');
+    el.scrollIntoView({ behavior: 'smooth', block: 'start' });
+  }
+}
+document.addEventListener('click', function(e) {
+  var link = e.target.closest('.section-nav a');
+  if (link) {
+    e.preventDefault();
+    var id = link.getAttribute('href').slice(1);
+    openAccordion(id);
+  }
+});
+(function() {
+  var hash = location.hash.slice(1);
+  if (['sheet', 'combat', 'equipment', 'story', 'journey'].includes(hash)) switchTab(hash);
+  else if (hash) openAccordion(hash);
+})();
+</script>`;
+}
+
+function pcTemplate(page, processedContent, sections, navFor, config, imageMap, storyHtml, context) {
+  const fm = page.frontmatter;
+  const publishConfig = (context || {}).publishConfig || {};
+  const pages = (context || {}).pages || [];
+  const backend = publishConfig.backend || {};
+  const showInbox = backend.inbox === true;
+  const showStatusBar = backend.statusBar === true;
+
+  const crumbs = generateBreadcrumbs(page.outputPath, {});
+  const breadcrumbsHtml = renderBreadcrumbs(crumbs);
+
+  // --- Cinematic Hero Banner ---
+  const hasPortrait = fm.portrait && imageMap && imageMap[String(fm.portrait).split('/').pop()];
+  const metaSpans = renderMetaSpans(fm);
+
+  let heroBanner;
+  if (hasPortrait) {
+    const imgTag = portraitImg(fm, page.outputPath, imageMap || {});
+    const imgMatch = (imgTag || '').match(/src="([^"]+)"/);
+    const imgUrl = imgMatch ? imgMatch[1] : '';
+    heroBanner = `<div class="hero-cinematic">
+  <img class="hero-cinematic-img" src="${imgUrl}" alt="${escapeHtml(page.displayTitle)}">
+  <div class="hero-cinematic-overlay">
+    <h1>${escapeHtml(page.displayTitle)}</h1>
+    <div class="meta">
+      <span><span class="label">Player</span> ${escapeHtml(fm.player_name || '')}</span>
+      ${metaSpans}
+      <span><span class="label">Status</span> ${escapeHtml(fm.status || 'active')}</span>
+    </div>
+  </div>
+</div>`;
+  } else {
+    const initials = getInitials(page.displayTitle);
+    heroBanner = `<div class="hero-cinematic hero-cinematic-no-img">
+  <div class="pc-portrait" style="width:5rem;height:5rem;font-size:2rem;margin-bottom:1rem">${escapeHtml(initials)}</div>
+  <h1>${escapeHtml(page.displayTitle)}</h1>
+  <div class="meta">
+    <span><span class="label">Player</span> ${escapeHtml(fm.player_name || '')}</span>
+    ${metaSpans}
+    <span><span class="label">Status</span> ${escapeHtml(fm.status || 'active')}</span>
+  </div>
+</div>`;
+  }
+
+  // --- Character Epithet ---
+  let epithet = '';
+  if (fm.key_traits) {
+    const traitsText = Array.isArray(fm.key_traits) ? fm.key_traits.join(', ') : String(fm.key_traits);
+    epithet = `<div class="pull-quote">${escapeHtml(traitsText)}</div>`;
+  } else {
+    const quoteText = excerptFromMarkdown(publishedSource(page));
+    if (quoteText) epithet = `<div class="pull-quote">${escapeHtml(quoteText)}</div>`;
+  }
+
+  // Read system HTML before filtering so the filter can react to what was actually rendered.
+  const systemHtml = (context || {}).systemSheetHtml || null;
+  const systemCombatHtml = (context || {}).systemCombatHtml || null;
+  const systemEquipmentHtml = (context || {}).systemEquipmentHtml || null;
+  const systemLiveData = (context || {}).systemLiveData || null;
+  const systemStatusPanelHtml = (context || {}).systemStatusPanelHtml || null;
+  const systemRecordHtml = (context || {}).systemRecordHtml || null;
+  const systemStatusBarHtml = (context || {}).systemStatusBarHtml || null;
+
+  // Status-bar tier off ⇒ no live vitals UI anywhere. Null out every live input
+  // so the existing null-guards below omit the panel, island, and client scripts.
+  const liveOn = showStatusBar;
+  const liveData = liveOn ? systemLiveData : null;
+  const statusPanel = liveOn ? systemStatusPanelHtml : null;
+  const statusBar = liveOn ? systemStatusBarHtml : null;
+
+  // Combat-only consumed titles: only suppress when combat HTML is present.
+  const GURPS_COMBAT_TITLES = new Set(['combat action chains', 'multi-action combat skill chains', 'combat summary']);
+
+  // --- Sheet Tab ---
+  const emptyRelPattern = /^\s*(<p><strong>Outgoing:<\/strong><\/p>\s*<p><strong>Incoming:<\/strong><\/p>)?\s*$/;
+  const emptyAppearPattern = /^\s*(<p><em>Scenes and sessions where .+ appears\.<\/em><\/p>)?\s*$/;
+
+  const gurpsSheet = isGurpsSystem(publishConfig);
+  const cocSheet = isCocSystem(publishConfig);
+  const sheetSections = sections.filter(s => {
+    const lower = s.title.toLowerCase();
+    if (EQUIPMENT_SECTION_TITLES.has(lower)) return false;
+    if (gurpsSheet && systemHtml && GURPS_CONSUMED_TITLES.has(lower) && !GURPS_COMBAT_TITLES.has(lower)) return false;
+    if (gurpsSheet && systemCombatHtml && GURPS_COMBAT_TITLES.has(lower)) return false;
+    if (cocSheet && (systemHtml || systemRecordHtml) && COC_CONSUMED_TITLES.has(lower)) return false;
+    if (lower === 'relationships' && emptyRelPattern.test(s.html.trim())) return false;
+    if (lower === 'appearances' && emptyAppearPattern.test(s.html.trim())) return false;
+    return true;
+  });
+
+  const sectionNav = sheetSections.length > 0
+    ? `<nav class="section-nav" aria-label="Sheet sections">${sheetSections.map(s => `<a href="#${s.id}">${escapeHtml(s.title)}</a>`).join('\n')}</nav>`
+    : '';
+
+  const accordions = sheetSections.map(s => `
+<div class="accordion" id="${s.id}">
+  <button class="accordion-header" aria-expanded="false" onclick="const o=this.parentElement.classList.toggle('open');this.setAttribute('aria-expanded',o)">${escapeHtml(s.title)}</button>
+  <div class="accordion-body">
+    ${s.html}
+  </div>
+</div>`).join('\n');
+
+  let sheetContent;
+  if (systemHtml) {
+    const liveClient = liveData ? clientFor(publishConfig.system) : null;
+    const island = liveClient ? '\n' + liveDataScript(liveData, liveClient.domId) : '';
+    sheetContent = `${systemHtml}\n${sectionNav}\n${accordions}\n${processedContent.relationships}${island}`;
+  } else {
+    sheetContent = `${sectionNav}\n${accordions}\n${processedContent.relationships}`;
+  }
+
+  // --- Equipment Tab ---
+  const equipmentContent = systemEquipmentHtml || extractEquipment(fm, sections);
+
+  // --- Story Tab ---
+  const opts = context || {};
+  const storyContent = opts.storyHref
+    ? `<a class="story-read-link" href="${encodeHref(relativeHref(page.outputPath, opts.storyHref))}">Read ${escapeHtml(page.displayTitle)}'s story &rarr;</a>`
+    : (storyHtml || '<p class="text-muted">No story content available.</p>');
+
+  // --- Journey Tab ---
+  const routeMap = buildRouteMap(page, pages);
+  const graphSvg = (publishConfig._entityGraphs || {})[page.title] || '';
+  const timelineStrip = publishConfig._timelineStrip || '';
+  const timelineSection = timelineStrip ? `<h2>Timeline</h2>\n<div class="timeline-strip">${timelineStrip}</div>` : '';
+  const graphSection = graphSvg ? `<h2>Connections</h2>\n<div class="relationship-graph">${graphSvg}</div>` : '';
+  const journeyContent = [routeMap, timelineSection, graphSection].filter(Boolean).join('\n') || '<p class="text-muted">Journey data builds as the campaign progresses.</p>';
+
+  // --- Combat Tab (system-provided, optional) ---
+  const combatTabButton = systemCombatHtml
+    ? `\n  <button class="pc-tab" data-tab="combat" onclick="switchTab('combat')">Combat</button>` : '';
+  const combatPanel = systemCombatHtml
+    ? `\n<div class="tab-panel" id="tab-combat">\n${systemCombatHtml}\n</div>` : '';
+
+  // --- Assemble ---
+  // NFC at the boundary, not because this is a path (it isn't — see unicode.js on
+  // why emitted paths stay byte-exact) but because the browser posts this value
+  // back as the inbox entry's `character`, where it is matched against vault note
+  // names. A decomposed name would survive into that runtime comparison and miss.
+  const crWidget = showInbox
+    ? `<div id="cr-root" data-character="${escapeHtml(canonicalNfc(page.frontmatter.name || page.displayTitle || page.title || ''))}"></div>`
+    : '';
+
+  // --- CoC parchment folio (branch off the generic assembly) ---
+  if (cocSheet) {
+    const portraitUrl = hasPortrait
+      ? (((portraitImg(fm, page.outputPath, imageMap || {}) || '').match(/src="([^"]+)"/) || [])[1] || '')
+      : '';
+    const crestKey = publishConfig.sheet_crest;
+    const sealUrl = crestKey
+      ? (((portraitImg({ portrait: crestKey }, page.outputPath, imageMap || {}) || '').match(/src="([^"]+)"/) || [])[1] || '')
+      : '';
+    const cocLiveClient = liveData ? clientFor(publishConfig.system) : null;
+    const cocIsland = cocLiveClient ? '\n' + liveDataScript(liveData, cocLiveClient.domId) : '';
+    const cocBody = buildCocBody({
+      page, fm, publishConfig,
+      displayTitle: page.displayTitle,
+      sheetHtml: systemHtml,
+      recordHtml: systemRecordHtml,
+      statusBarHtml: statusBar,
+      portraitUrl, sealUrl, crWidget,
+      equipmentContent, storyContent, journeyContent,
+      leftoverSections: sheetSections,
+    }) + cocIsland;
+    return baseShell({
+      title: page.displayTitle,
+      siteTitle: config.siteTitle,
+      cssHref: cssPath(page.outputPath),
+      navHtml: navFor(page.outputPath, config),
+      rootHref: rootPath(page.outputPath),
+      content: cocBody,
+      footer: config.footer,
+      genrePreset: publishConfig._genrePreset,
+      overridesCss: publishConfig._overridesCss,
+      breadcrumbsHtml,
+      scripts: [
+        ...clientScripts(page.outputPath),
+        ...(showInbox ? [rootPath(page.outputPath) + 'js/change-request.js'] : []),
+        rootPath(page.outputPath) + 'js/coc-sheet.js',
+        ...(liveOn ? liveScriptHrefs(rootPath(page.outputPath), publishConfig.system) : []),
+      ],
+    });
+  }
+
+  const body = `${crWidget}
+${heroBanner}
+${epithet}
+${statusPanel ? statusPanel + '\n' : ''}<div class="tab-bar">
+  <button class="pc-tab active" data-tab="sheet" onclick="switchTab('sheet')">Character Sheet</button>${combatTabButton}
+  <button class="pc-tab" data-tab="equipment" onclick="switchTab('equipment')">Equipment</button>
+  <button class="pc-tab" data-tab="story" onclick="switchTab('story')">Story</button>
+  <button class="pc-tab" data-tab="journey" onclick="switchTab('journey')">Journey</button>
+</div>
+<div class="tab-panel active" id="tab-sheet">
+${sheetContent}
+</div>${combatPanel}
+<div class="tab-panel" id="tab-equipment">
+${equipmentContent}
+</div>
+<div class="tab-panel" id="tab-story">
+  <div class="story-prose">
+    ${storyContent}
+  </div>
+</div>
+<div class="tab-panel" id="tab-journey">
+${journeyContent}
+</div>
+${tabScript()}`;
+
+  return baseShell({
+    title: page.displayTitle,
+    siteTitle: config.siteTitle,
+    cssHref: cssPath(page.outputPath),
+    navHtml: navFor(page.outputPath, config),
+    rootHref: rootPath(page.outputPath),
+    content: body,
+    footer: config.footer,
+    genrePreset: publishConfig._genrePreset,
+    overridesCss: publishConfig._overridesCss,
+    breadcrumbsHtml,
+    scripts: [
+      ...clientScripts(page.outputPath),
+      ...(showInbox ? [rootPath(page.outputPath) + 'js/change-request.js'] : []),
+      ...(liveOn ? liveScriptHrefs(rootPath(page.outputPath), publishConfig.system) : []),
+    ],
+  });
+}
+
+module.exports = { pcTemplate };

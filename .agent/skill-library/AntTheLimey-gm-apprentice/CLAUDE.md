@@ -1,0 +1,217 @@
+# CLAUDE.md — gm-apprentice
+
+Context for Claude sessions working in this repository.
+
+## What this is
+
+A Claude Code plugin marketplace at `AntTheLimey/gm-apprentice` containing
+nine TTRPG Game Master skills:
+
+- `ttrpg-expert` — rules, content generation, session planning
+- `the-midwife` — guided adventure creation through creative conversation
+- `campaign-organizer` — vault structure, knowledge graph metadata
+- `campaign-qa` — canon auditing, graph health checks
+- `session-prep` — between-session preparation and reconciliation
+- `session-play` — at-the-table GM support (speed-optimised)
+- `session-wrapup` — post-session processing, entity creation, recaps
+- `vault-ingest` — ingestion of old campaign materials into the vault
+- `publish-site` — publish campaign vault as a static website
+
+Supported systems: CoC 7e (+ Regency Cthulhu variant), GURPS 4e, FitD,
+D&D 5e 2024, Pathfinder 2e (Remaster).
+
+---
+
+## ⚠️ Copyright compliance — read before touching any system content
+
+This repository redistributes TTRPG content under multiple licenses.
+**Misusing licensed content exposes the project to takedown requests and
+puts the author at personal legal risk.** Every Claude session working in
+this repo must treat copyright compliance as the highest-priority rule,
+above all other conventions.
+
+### The licenses in play
+
+| System | License | What's allowed |
+|--------|---------|----------------|
+| CoC 7e / BRP | [BRP ORC License](https://www.chaosium.com/orclicense) | Mechanics, stat blocks, generic content. No proprietary Chaosium IP (Arkham, Lovecraft Country NPCs, published adventures, flavour text) |
+| D&D 5e (2024) | [CC-BY 4.0 SRD](https://dnd.wizards.com/resources/systems-reference-document) | Anything in the 5.2 SRD with attribution. No content outside the SRD |
+| FitD | [CC-BY 3.0](https://bladesinthedark.com/about-the-dark) | Blades in the Dark rules with attribution. No Deep Cuts, no publisher-specific content |
+| PF2e (Remaster) | [ORC License](https://paizo.com/orclicense) | Paraphrased mechanics, names, and game math from ORC-stamped sources (via `~/PROJECTS/reference-srds/pf2e-orc-dataset/`). No verbatim rules text, no Golarion Reserved Material, never the CUP-licensed vault |
+| GURPS 4e | [SJG Online Policy](http://www.sjgames.com/general/online_policy.html) | **Names, point costs, short notes only.** No full rule text, no full character builds, no tables reproduced verbatim |
+
+**Full license texts and attribution requirements live in `ATTRIBUTION.md`.
+Read it before adding any content derived from a published source.**
+
+### Hard rules
+
+1. **Never reproduce rule text verbatim** from any system's core book
+   unless the SRD or ORC license explicitly covers it. Paraphrase
+   mechanics in your own words, or cite short quoted fragments.
+
+2. **GURPS is the strictest** — SJG Online Policy only permits "names,
+   point costs, short notes" in free fan aids. This means:
+   - ✅ `Broadsword [8 pts] — Swing weapon, Reach 1`
+   - ❌ Full advantage/skill descriptions copied from Basic Set
+   - ❌ Long tables of weapon stats reproduced wholesale
+   - If in doubt, summarize and cite the page reference — don't transcribe
+
+3. **Update `ATTRIBUTION.md` in the same commit** as any licensed-content
+   addition. Every new file sourced from a licensed document needs a
+   line item recording where it came from, what license applies, and
+   what was done to it.
+
+4. **When in doubt, ask the user.** Do not guess at what's permissible.
+   Copyright mistakes are not cheap to fix — an unclear commit may need
+   to be reverted, the content rewritten, and the history rewritten.
+
+5. **Personal reference files are gitignored** under
+   `skills/ttrpg-expert/systems/*/personal/`. These are the user's local
+   working copies of full rulebooks. **Never commit files from these
+   directories** — they're private and licensed for personal use only.
+
+### When generating new content
+
+- Original content you write from scratch is fine and desirable
+- Mechanics summaries in your own words are fine
+- Pointing users at page references in their own books is fine
+- Copying and pasting more than a sentence or two from a source is not fine
+- Adding a new licensed source? Add its license to `ATTRIBUTION.md` first
+
+---
+
+## Repository structure
+
+- `skills/` — one directory per skill (`SKILL.md` + `references/`)
+- `docs/` — user-facing documentation
+- `tests/` — schema validation, benchmark infrastructure, compaction tests
+- `scripts/` — utility scripts (not user-facing)
+- `tools/` — standalone tools (e.g., future `tools/publish/` npm package)
+- `.claude-plugin/` — plugin metadata (`plugin.json`, `marketplace.json`)
+- `ATTRIBUTION.md` — copyright compliance records (authoritative)
+- `README.md` — installation and overview
+- `ROADMAP.md` — force-ranked backlog (see workflow below)
+
+## Schema changes
+
+**Before adding, renaming, or removing any frontmatter field**, follow the
+checklist in `docs/schema-change-procedure.md`. This covers templates,
+shared templates, skill references, consuming code, validation, migration
+entries, and versioning. Skipping steps causes migration failures.
+
+Note: `.claude/` is gitignored (local Claude Code settings and worktrees).
+`docs/superpowers/` and `docs/plans/` are gitignored (local specs and plans).
+`skills/ttrpg-expert/systems/*/personal/` are gitignored (user's private
+licensed reference files — see copyright rules above).
+
+## Roadmap workflow
+
+**Before planning new work**, read `ROADMAP.md` to check current priorities
+and see if the work is already listed.
+
+**If work isn't listed but should be**, add it using the formula:
+
+```text
+Score = (Impact × 2 + Urgency) / Effort
+```
+
+Keep the list sorted by score (highest first).
+
+**When completing work**, strike through the item with `~~` on both sides
+and move it to the "Completed" section with a PR number or commit SHA.
+
+## Commit conventions
+
+- **Never add `Co-Authored-By` trailers** to commits
+- **Never mention Claude, AI, or LLM tools** in commit messages or PR bodies
+- Match existing commit style — terse, sentence-case, no conventional-commits
+  prefixes
+- Prefer small, focused commits over batched changes
+
+## Development workflow
+
+Every non-trivial change follows this sequence:
+
+1. **Branch** — create a feature branch from main
+2. **Implement** — write code and tests for any scripts or tooling
+3. **Version bump** — bump `version` in `.claude-plugin/plugin.json`
+   (patch by default unless the user specifies otherwise)
+4. **CHANGELOG** — add a categorized entry (Added/Changed/Fixed/Removed)
+   under the new version in `CHANGELOG.md`, following the existing format
+5. **Local review** — dispatch the code-reviewer agent against the branch
+   before pushing; fix all findings
+6. **Ask before pushing** — present a summary of what will be pushed and
+   wait for explicit user confirmation before running `git push` or
+   `gh pr create`. Never push or open a PR autonomously.
+7. **Push + PR** — push the branch and open a PR to main
+8. **CI** — wait for all checks to pass
+9. **CodeRabbit** — check for unresolved CodeRabbit comments on the PR;
+   address all findings before merging
+10. **Merge** — the release workflow creates the tag and GitHub Release
+    with skill zips automatically
+
+**What counts as trivial:** single file, 1-2 lines, user explicitly says
+"push to main." Everything else gets a branch and PR.
+
+**Test requirements:** at minimum, run `python3 scripts/validate_schema.py`
+and verify markdown lint passes. For script or tooling changes, verify the
+scripts work locally (e.g., `./scripts/build-skill-zips.sh` produces 8
+valid zips). For publish tool changes, run the publish tool test suite.
+
+## Skill edits
+
+- **Use Opus** for writing new skill content, priming prose, or
+  routing design. **Sonnet is fine** for mechanical edits
+  (replacements, references, structural changes) when the exact
+  content is specified in a plan or instructions.
+- **Run `skill-creator` validation** before committing skill changes.
+  **CI does not run this** — schema + markdownlint passing does *not* cover it.
+  Run it manually and never defer it: it has no automated backstop, so a
+  deferred skill-creator check simply never happens. "CI is green" ≠ "validated."
+- `SKILL.md` is the routing layer — keep it concise
+- Detailed content belongs in `skills/*/references/`
+- **Inline vs extract threshold:** Every file read costs ~90 tokens of
+  fixed overhead (tool call + wrapper + line numbers). Don't extract
+  content to a shared file if it's always needed and short (<500 bytes).
+  Do extract if the content is large (>2KB) or conditional (<50% of
+  invocations). Extracting small always-needed content (like version
+  checks) makes things slower and more expensive — proven by Phase 1
+  proof runs.
+
+## Testing
+
+- Schema validation: `python3 scripts/validate_schema.py`
+- Benchmarks live in `tests/benchmark-campaign/` and `tests/benchmark-questions/`
+  — do not delete these
+- One benchmark run is enough; fix issues before benchmarking; use A/B
+  comparisons rather than absolute scores
+
+### Benchmark and proof-run discipline
+
+When running benchmark queries, proof-of-improvement runs, or any
+multi-query test suite via subagents:
+
+1. **Subagents write their own results to disk.** Each benchmark or
+   proof-run subagent must write its complete response file (frontmatter
+   metrics + full response text) to the correct path as its final
+   action. This ensures the result exists on disk even if the parent
+   session never reads the agent's return value. The parent then stamps
+   `total_tokens` and `wall_clock_ms` from the agent metadata (the
+   agent leaves these as 0 since it can't see its own usage).
+2. **Every run produces a `summary.md`** at the top of its results
+   directory with a per-query metrics table for fast comparison.
+3. **Token counts alone do not prove quality.** Proof runs must
+   preserve full response text so that output quality can be compared
+   against the baseline, not just cost.
+4. **Present results to the user for review** before drawing
+   conclusions or proceeding to the next step.
+
+## Key documentation
+
+- `README.md` — installation, supported systems, high-level overview
+- `ATTRIBUTION.md` — copyright licenses and compliance records
+- `docs/quickstart.md` — first-campaign setup walkthrough
+- `docs/campaign-organizer.md` — vault schema and knowledge graph
+- `docs/file-format-standards.md` — frontmatter and markdown conventions
+- `docs/testing-methodology.md` — how to run and interpret tests
+- `docs/campaign-lifecycle.md` — campaign management across sessions

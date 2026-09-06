@@ -1,0 +1,989 @@
+const { parseTableRows, parseTables, countTables, findSectionByTitle, extractSubsectionHtml, topLevelHtml, aboveSubheadings } = require('./tables');
+const { splitMarkers, stripCost } = require('./render');
+
+const PRIMARY = ['ST', 'DX', 'IQ', 'HT'];
+
+// True secondary characteristics: computed from primaries, spend points to improve
+const SECONDARY_CHARS = ['HP', 'Will', 'Per', 'FP', 'Basic Speed', 'Basic Move'];
+
+// Derived/calculated values that appear in the Secondary Characteristics table
+const DERIVED_KEYS = ['Basic Lift', 'Damage (Thr)', 'Damage (Sw)', 'Size Modifier', 'TL'];
+
+function emptyModel() {
+  return {
+    identity: {}, status: {},
+    attributes: { primary: {}, secondary: {}, derived: {}, bl: null, thrust: null, swing: null, dodge: null },
+    senses: {}, defenses: { parry: [], block: [], dodge: null, hitLocations: [] },
+    encumbrance: [], reactions: {},
+    social: { cultural: [], languages: [] },
+    traits: { advantages: [], perks: [], disadvantages: [], quirks: [], templates: [] },
+    skills: [], skillFootnotes: {}, techniques: [], spells: [], grimoire: [],
+    melee: [], ranged: [],
+    equipment: { items: [], loadouts: [] },
+    chains: { melee: [], ranged: [] },
+    points: [],
+    warnings: [],
+  };
+}
+
+function cell(v) { const { value, markers } = splitMarkers(v); return { value, markers }; }
+
+// Header-row guard: returns true for rows that are table headers, not data.
+function isHeaderRow(row) {
+  if (row.length < 2) return false;
+  const c0 = row[0].toLowerCase();
+  const c1 = row[1].toLowerCase();
+  return /^(characteristic|attribute|trait|name|field)$/.test(c0) || /^(value|score|detail)$/.test(c1);
+}
+
+function parseAttributes(model, sections, fm) {
+  const sec = findSectionByTitle(sections, 'stat sheet');
+  if (sec) {
+    const primHtml = extractSubsectionHtml(sec.html, 'Primary Attributes') || sec.html;
+    const primRows = parseTableRows(primHtml);
+    // Detect Cost column from header row
+    const primHeader = primRows.length > 0 ? primRows[0].map(h => h.toLowerCase()) : [];
+    const costIdx = primHeader.findIndex(h => h === 'cost');
+    for (const row of primRows) {
+      if (isHeaderRow(row)) continue;
+      if (row.length >= 2 && PRIMARY.includes(row[0])) {
+        const c = cell(row[1]);
+        if (costIdx >= 0 && row[costIdx]) {
+          const { value: costVal } = require('./render').stripCost(row[costIdx]);
+          c.cost = costVal;
+        }
+        model.attributes.primary[row[0]] = c;
+      }
+    }
+    const secHtml = extractSubsectionHtml(sec.html, 'Secondary Characteristics');
+    for (const row of parseTableRows(secHtml)) {
+      if (isHeaderRow(row)) continue;
+      if (row.length >= 2 && row[0]) {
+        const key = row[0];
+        if (DERIVED_KEYS.includes(key)) {
+          model.attributes.derived[key] = cell(row[1]);
+        } else {
+          model.attributes.secondary[key] = cell(row[1]);
+        }
+      }
+    }
+  }
+  if (fm.attributes) {
+    for (const a of PRIMARY) {
+      if (fm.attributes[a] != null) model.attributes.primary[a] = { value: String(fm.attributes[a]), markers: [] };
+    }
+  }
+  if (fm.secondary) {
+    for (const [k, v] of Object.entries(fm.secondary)) {
+      const c = { value: String(v), markers: [] };
+      if (DERIVED_KEYS.includes(k)) {
+        model.attributes.derived[k] = c;
+      } else {
+        model.attributes.secondary[k] = c;
+      }
+    }
+  }
+}
+
+function splitCitation(name) {
+  const m = String(name).match(/^(.*?)\s*\{p\.\s*([^}]+)\}\s*$/);
+  return m ? { name: m[1].trim(), source: m[2].trim() } : { name: String(name).trim(), source: null };
+}
+
+function parseSkillFootnotes(sectionHtml) {
+  // Parse footnote legend paragraphs from the section HTML.
+  // These may be separate <p> elements starting with a glyph, OR multiple glyphs
+  // in a single <p> separated by newlines (e.g. † note \n‡ note).
+  // Returns a map: { '†': { kind: 'conditional'|'includes', text: '...' }, ... }
+  const map = {};
+  const pRegex = /<p[^>]*>([\s\S]*?)<\/p>/gi;
+  let m;
+  while ((m = pRegex.exec(sectionHtml)) !== null) {
+    const inner = m[1];
+    // Strip HTML tags and split on lines that start with a glyph
+    const text = inner.replace(/<[^>]+>/g, '');
+    // Split by newlines that are followed by a glyph character
+    const lines = text.split(/\n(?=[†‡§¶#])/);
+    for (const line of lines) {
+      const stripped = line.trim();
+      const glyphMatch = stripped.match(/^([†‡§¶#])\s+([\s\S]+)$/);
+      if (!glyphMatch) continue;
+      const glyph = glyphMatch[1];
+      const noteText = glyphMatch[2].trim();
+      const kind = /conditional/i.test(noteText) ? 'conditional' : 'includes';
+      map[glyph] = { kind, text: noteText };
+    }
+  }
+  return map;
+}
+
+// Shared level-column resolution for Skills and Techniques tables.
+// 'current' and 'base' are the 1.8.12+ vault columns (Base = unencumbered,
+// Current = with encumbrance); pre-1.8.12 sheets have 'effective' only.
+// Displayed level priority: current > effective > base > plain 'level'
+// ('relative level' must not match the plain-'level' fallback).
+function resolveLevelColumns(header) {
+  const iEffective = header.findIndex(h => h.includes('effective'));
+  const iCurrent = header.findIndex(h => h.includes('current'));
+  const iBase = header.findIndex(h => h.includes('base'));
+  const iLevelFallback = header.findIndex(h => h.includes('level') && !h.includes('relative'));
+  const iLevel = iCurrent >= 0 ? iCurrent
+    : iEffective >= 0 ? iEffective
+      : iBase >= 0 ? iBase : iLevelFallback;
+  return { iLevel, iBase };
+}
+
+// Frontmatter counterpart of resolveLevelColumns, shared by the skills,
+// techniques, and spells fm paths. Explicit `current`/`level` keys win over
+// the legacy `effective`/`base` fallbacks; blank values fall through instead
+// of rendering an empty level.
+function resolveFmLevel(o) {
+  for (const k of ['current', 'level', 'effective', 'base']) {
+    const v = o[k];
+    if (v != null && String(v).trim() !== '') return String(v);
+  }
+  return '';
+}
+
+function parseSkills(model, sections, fm) {
+  if (Array.isArray(fm.skills)) {
+    model.skills = fm.skills.map(s => ({
+      name: String(s.name ?? ''), level: resolveFmLevel(s),
+      relative: s.relative || '',
+      points: String(s.points ?? ''), parry: s.parry != null ? String(s.parry) : null,
+      block: s.block != null ? String(s.block) : null,
+      base: s.base != null ? String(s.base) : null,
+      markers: [], source: s.source || null,
+    }));
+    return;
+  }
+  const sec = findSectionByTitle(sections, 'skills');
+  if (!sec) return;
+  const rows = parseTableRows(topLevelHtml(sec.html));
+  noteHiddenSubtables(model, sec, rows);
+  const header = (rows[0] || []).map(h => h.toLowerCase());
+  const iName = header.findIndex(h => h.includes('name')) >= 0
+    ? header.findIndex(h => h.includes('name')) : 0;
+  const { iLevel, iBase } = resolveLevelColumns(header);
+  const iRel = header.findIndex(h => h.includes('relative'));
+  const iPts = header.findIndex(h => h.includes('point'));
+  for (const row of rows.slice(1)) {
+    if (!row[iName]) continue;
+    // Strip trailing footnote markers from name cell
+    const rawName = row[iName];
+    const { value: nameClean, markers: nameMarkers } = splitMarkers(rawName);
+    const { name, source } = splitCitation(nameClean);
+    const lv = splitMarkers(iLevel >= 0 ? row[iLevel] : '');
+    const pts = stripCost(iPts >= 0 ? row[iPts] : '');
+    const base = (iBase >= 0 && iBase !== iLevel)
+      ? splitMarkers(row[iBase] || '').value : null;
+    model.skills.push({
+      name, level: lv.value, relative: iRel >= 0 ? row[iRel] : '',
+      points: pts.value, parry: null, block: null, base,
+      markers: [...nameMarkers, ...lv.markers], source,
+    });
+  }
+  // Parse footnote legend paragraphs from the section HTML
+  model.skillFootnotes = parseSkillFootnotes(sec.html);
+}
+
+function readTraitRows(html) {
+  const rows = parseTableRows(html);
+  if (rows.length === 0) return [];
+  // Detect Cost column by header (case-insensitive); fall back to col 1
+  const header = (rows[0] || []).map(h => h.toLowerCase());
+  let costIdx = header.findIndex(h => h.includes('cost'));
+  if (costIdx < 0) costIdx = 1;
+  const out = [];
+  for (const row of rows.slice(1)) {
+    if (!row[0]) continue;
+    const { name, source } = splitCitation(row[0]);
+    const costCell = row[costIdx] || '';
+    const cm = stripCost(costCell);
+    out.push({ name, cost: cm.value, markers: cm.markers, source });
+  }
+  return out;
+}
+
+function parseTraits(model, sections, fm) {
+  const map = [
+    ['advantages', ['advantages & perks', 'advantages']],
+    ['disadvantages', ['disadvantages & quirks', 'disadvantages']],
+  ];
+  for (const [key, titles] of map) {
+    if (Array.isArray(fm[key])) {
+      model.traits[key] = fm[key].map(t => ({ name: t.name || String(t), cost: String(t.cost ?? ''), markers: [], source: t.source || null }));
+      continue;
+    }
+    const sec = findSectionByTitle(sections, ...titles);
+    if (sec) model.traits[key] = readTraitRows(sec.html);
+  }
+  for (const key of ['perks', 'quirks', 'templates']) {
+    if (Array.isArray(fm[key])) model.traits[key] = fm[key].map(t => ({ name: t.name || String(t), cost: String(t.cost ?? ''), markers: [], source: t.source || null }));
+  }
+}
+
+// Height/weight/eyes/hair and the rest of the physical description. Sheets carry
+// it as a `### Appearance & Social` sub-table under `## Stat Sheet`; these aliases
+// cover the other names sheets use for the same table.
+const IDENTITY_SUBSECTIONS = [
+  'Appearance & Social', 'Appearance and Social', 'Appearance',
+  'Physical Description', 'Description', 'Identity',
+];
+
+function parseIdentity(model, sections, fm) {
+  // Frontmatter: objects merge in (appearance, then identity); a plain string
+  // becomes the band's Appearance/Identity entry instead of shadowing the
+  // other key (`||` used to consume the slot and drop the object silently).
+  let fromFmObject = false;
+  for (const [key, label] of [['appearance', 'Appearance'], ['identity', 'Identity']]) {
+    const src = fm[key];
+    if (src && typeof src === 'object' && !Array.isArray(src)) {
+      for (const [k, v] of Object.entries(src)) model.identity[k] = String(v);
+      fromFmObject = true;
+    } else if (typeof src === 'string' && src.trim()) {
+      model.identity[label] = src.trim();
+    }
+  }
+  if (fromFmObject) return;
+  const sec = findSectionByTitle(sections, 'stat sheet');
+  if (!sec) return;
+  // Merge EVERY recognised sub-table: the aliases are alternative names sheets
+  // use, not a priority list — a sheet carrying both `Appearance & Social` and
+  // `Physical Description` renders all of it. Columns beyond the second are
+  // kept, joined onto the value.
+  for (const title of IDENTITY_SUBSECTIONS) {
+    const subHtml = extractSubsectionHtml(sec.html, title);
+    if (!subHtml) continue;
+    for (const row of parseTableRows(subHtml)) {
+      if (isHeaderRow(row)) continue;
+      if (row.length >= 2 && row[0] && row[1]) {
+        model.identity[row[0]] = row.slice(1).filter(c => c && c.trim()).join(' — ');
+      }
+    }
+  }
+}
+
+function parseSenses(model, sections, fm) {
+  if (fm.senses && typeof fm.senses === 'object') {
+    for (const [k, v] of Object.entries(fm.senses)) model.senses[k] = String(v);
+    return;
+  }
+  const sec = findSectionByTitle(sections, 'stat sheet');
+  if (!sec) return;
+  // `Appearance & Social` belongs to parseIdentity — reading it here labelled every
+  // sheet's physical description "Senses & Checks".
+  const subHtml = extractSubsectionHtml(sec.html, 'Senses') ||
+    extractSubsectionHtml(sec.html, 'Senses & Checks') ||
+    extractSubsectionHtml(sec.html, 'Senses and Checks') || '';
+  for (const row of parseTableRows(subHtml)) {
+    if (isHeaderRow(row)) continue;   // not slice(1): a header-less table keeps its first row
+    // Senses tables also use headers isHeaderRow doesn't know (`Sense | Check`).
+    if (/^senses?$/i.test(row[0] || '') && /^(check|value|score|roll)s?$/i.test(row[1] || '')) continue;
+    if (row.length >= 2 && row[0]) model.senses[row[0]] = row[1];
+  }
+}
+
+function parseDefenses(model, sections, fm) {
+  if (fm.defenses && typeof fm.defenses === 'object') {
+    model.defenses = { parry: fm.defenses.parry || [], block: fm.defenses.block || [],
+      dodge: fm.defenses.dodge != null ? String(fm.defenses.dodge) : null,
+      hitLocations: fm.defenses.hitLocations || [] };
+    return;
+  }
+  const sec = findSectionByTitle(sections, 'active defenses');
+  if (sec) {
+    for (const row of parseTableRows(sec.html).slice(1)) {
+      if (!row[0]) continue;
+      const lower = row[0].toLowerCase();
+      const { value } = splitMarkers(row[1] || '');
+      if (lower.includes('parry')) model.defenses.parry.push({ label: row[0], value });
+      else if (lower.includes('block')) model.defenses.block.push({ label: row[0], value });
+      else if (lower.includes('dodge')) model.defenses.dodge = value;
+    }
+  }
+  const drSec = findSectionByTitle(sections, 'dr by hit location', 'hit location');
+  if (drSec) {
+    for (const row of parseTableRows(drSec.html).slice(1)) {
+      if (row[0]) model.defenses.hitLocations.push({ location: row[0], dr: row[1] || '0' });
+    }
+  }
+}
+
+// Opt-in "this is my current level" marker on a table row's Level cell:
+// trailing `*` (canonical), `←`, or `(current)`, repeated forms included.
+// Bold can't be used — table cells have HTML tags stripped before they get here.
+const ENC_CURRENT_MARKER = /(?:\s*(?:\*|←|\(current\)))+\s*$/i;
+
+function encumbranceRow(row) {
+  let level = row[0];
+  let current = false;
+  const stripped = level.replace(ENC_CURRENT_MARKER, '').trim();
+  if (stripped && stripped !== level) {
+    level = stripped;
+    current = true;
+  }
+  return { level, weight: row[1] || '', move: row[2] || '', dodge: row[3] || '', current };
+}
+
+function parseEncumbrance(model, sections, fm) {
+  if (Array.isArray(fm.encumbrance)) {
+    model.encumbrance = fm.encumbrance.map(e => ({
+      level: String(e.level || ''), weight: String(e.weight || ''),
+      move: String(e.move || ''), dodge: String(e.dodge || ''), current: !!e.current,
+    }));
+    return;
+  }
+  const sec = findSectionByTitle(sections, 'encumbrance');
+  let rows;
+  if (sec) {
+    rows = parseTableRows(sec.html).slice(1);
+  } else {
+    // also check Equipment section for ### Encumbrance subsection
+    const equip = findSectionByTitle(sections, 'equipment');
+    if (!equip) return;
+    const subHtml = extractSubsectionHtml(equip.html, 'Encumbrance');
+    if (!subHtml) return;
+    rows = parseTableRows(subHtml).slice(1);
+  }
+  for (const row of rows) {
+    if (row[0]) model.encumbrance.push(encumbranceRow(row));
+  }
+}
+
+function normalizeEncLevel(s) {
+  if (s == null) return '';
+  return String(s).replace(/\([^)]*\)/g, '').replace(/\s+/g, ' ').trim().toLowerCase();
+}
+
+// Runs after parseStatus, on every encumbrance source: enforces the
+// at-most-one-current invariant (first flagged row wins), then, when no row
+// is flagged, matches the Current Status Enc: value against the level names —
+// or, for a bare number, against the row's parenthetical level number.
+function resolveCurrentEncumbrance(model) {
+  const enc = model.encumbrance;
+  let seen = false;
+  for (const e of enc) {
+    if (e.current) {
+      if (seen) e.current = false;
+      seen = true;
+    }
+  }
+  if (seen || enc.length === 0) return;
+  const target = normalizeEncLevel(model.status.enc);
+  if (!target) return;
+  let match = enc.find(e => normalizeEncLevel(e.level) === target);
+  if (!match && /^\d+$/.test(target)) {
+    match = enc.find(e => (String(e.level).match(/\((\d+)\)/) || [])[1] === target);
+  }
+  if (match) match.current = true;
+}
+
+function parseReactions(model, sections, fm) {
+  if (fm.reactions && typeof fm.reactions === 'object') {
+    for (const [k, v] of Object.entries(fm.reactions)) model.reactions[k] = String(v);
+    return;
+  }
+  const sec = findSectionByTitle(sections, 'reaction modifiers', 'reactions');
+  if (!sec) return;
+  for (const row of parseTableRows(sec.html).slice(1)) {
+    if (row.length >= 2 && row[0]) model.reactions[row[0]] = row[1];
+  }
+}
+
+function parseSocial(model, sections, fm) {
+  if (Array.isArray(fm.cultural)) {
+    model.social.cultural = fm.cultural.map(c => ({ name: c.name || String(c), cost: String(c.cost ?? '0'), markers: [] }));
+  } else {
+    const sec = findSectionByTitle(sections, 'cultural familiarities', 'cultural');
+    if (sec) {
+      for (const row of parseTableRows(sec.html).slice(1)) {
+        if (row[0]) model.social.cultural.push({ name: row[0], cost: row[row.length - 1] || '0', markers: [] });
+      }
+    }
+  }
+  if (Array.isArray(fm.languages)) {
+    model.social.languages = fm.languages.map(l => ({
+      name: l.name, spoken: l.spoken || '', written: l.written || '', points: String(l.points ?? '0'),
+    }));
+  } else {
+    const sec = findSectionByTitle(sections, 'languages');
+    if (sec) {
+      const rows = parseTableRows(sec.html);
+      const header = (rows[0] || []).map(h => h.toLowerCase());
+      const iName = Math.max(0, header.findIndex(h => h.includes('name')));
+      const iSpoken = header.findIndex(h => h.includes('spoken'));
+      const iWritten = header.findIndex(h => h.includes('written'));
+      const iPts = header.findIndex(h => h.includes('point'));
+      for (const row of rows.slice(1)) {
+        if (!row[iName]) continue;
+        model.social.languages.push({
+          name: row[iName], spoken: iSpoken >= 0 ? row[iSpoken] : '',
+          written: iWritten >= 0 ? row[iWritten] : '', points: iPts >= 0 ? row[iPts] : '0',
+        });
+      }
+    }
+  }
+}
+
+function parseSpells(model, sections, fm) {
+  if (Array.isArray(fm.spells)) {
+    model.spells = fm.spells.map(s => ({
+      name: String(s.name ?? ''), level: resolveFmLevel(s), points: String(s.points ?? '0'),
+      markers: [], source: s.source || null,
+    }));
+    return;
+  }
+  const sec = findSectionByTitle(sections, 'spells');
+  if (!sec) return;
+  const rows = parseTableRows(topLevelHtml(sec.html));
+  noteHiddenSubtables(model, sec, rows);
+  const header = (rows[0] || []).map(h => h.toLowerCase());
+  const iName = Math.max(0, header.findIndex(h => h.includes('name')));
+  const { iLevel } = resolveLevelColumns(header);
+  const iPts = header.findIndex(h => h.includes('point'));
+  for (const row of rows.slice(1)) {
+    if (!row[iName]) continue;
+    const { name, source } = splitCitation(row[iName]);
+    const lv = splitMarkers(iLevel >= 0 ? row[iLevel] : '');
+    model.spells.push({ name, level: lv.value, points: iPts >= 0 ? row[iPts] : '0', markers: lv.markers, source });
+  }
+}
+
+function parsePoints(model, sections, fm) {
+  if (Array.isArray(fm.points)) {
+    model.points = fm.points.map(p => ({
+      label: p.label, value: String(p.value ?? ''), total: !!p.total, unspent: !!p.unspent,
+    }));
+    return;
+  }
+  const sec = findSectionByTitle(sections, 'points summary', 'points');
+  if (!sec) return;
+  for (const row of parseTableRows(sec.html).slice(1)) {
+    if (!row[0]) continue;
+    const label = row[0];
+    const value = row[row.length - 1] || '';
+    const lowerLabel = label.toLowerCase();
+    model.points.push({ label, value, total: lowerLabel.includes('total'), unspent: lowerLabel.includes('unspent') });
+  }
+}
+
+// Skills/Techniques/Spells read only the table(s) above the first `###` (#82:
+// helper tables under a subheading carry a foreign schema). That exclusion is
+// deliberate, but it must not be silent — a sheet that keeps six usable
+// techniques in a `### … at a glance` sub-table shipped none of them for five
+// sessions with no hint in the build output (#177). Say what was skipped.
+function noteHiddenSubtables(model, sec, rowsRead) {
+  const total = countTables(sec.html);
+  const read = countTables(topLevelHtml(sec.html));
+  if (total > read) {
+    const subs = [...String(sec.html).matchAll(/<h3[^>]*>([\s\S]*?)<\/h3>/gi)]
+      .map(m => m[1].replace(/<[^>]+>/g, '').trim()).filter(Boolean);
+    model.warnings.push(
+      `GURPS "## ${sec.title}": ${total - read} table(s) under ### subheading(s) (${subs.join(', ') || 'untitled'}) are not published — only the top-level table is read. Move rows that belong on the sheet into the main table.`);
+  }
+  if (rowsRead.length <= 1) {
+    model.warnings.push(total === 0
+      ? `GURPS "## ${sec.title}" is present but contains no table — its content will not publish. GURPS sheets keep these rows in a table with a Name column.`
+      : `GURPS "## ${sec.title}" is present but yielded no rows — check the table's header row (expected a Name column).`);
+  }
+}
+
+// Section titles that may hold weapon tables. A combined `## Melee & Ranged`
+// (or plain `## Weapons`) is a natural heading; each table inside is routed to
+// melee or ranged by its own header, so one section can feed both (#177).
+const MELEE_TITLES = ['melee weapons', 'melee', 'melee attacks'];
+const RANGED_TITLES = ['ranged weapons', 'ranged', 'ranged attacks'];
+const COMBINED_TITLES = ['melee and ranged', 'melee and ranged weapons', 'ranged and melee', 'ranged and melee weapons', 'weapons', 'attacks', 'combat weapons'];
+
+// What a weapon table is, from its header alone: ranged-only columns win, then
+// melee-only ones; a bare Weapon/Skill/Damage/Notes table is `null` and takes
+// its kind from the section it sits in.
+function weaponTableKind(header) {
+  const h = header.map(x => x.toLowerCase());
+  const has = (...names) => h.some(c => names.some(n => c === n || c.startsWith(n + ' ') || c.startsWith(n + '/')));
+  if (has('acc', 'range', 'rof', 'shots', 'rcl', 'bulk')) return 'ranged';
+  if (has('parry', 'reach')) return 'melee';
+  return null;
+}
+
+// Every weapon table in scope for `kind`, from a dedicated section (all of its
+// tables not positively of the other kind) and from a combined section (only
+// tables whose header says `kind`; an unclassifiable table in a combined
+// section counts as melee, the commoner case). Returns { tables, sections }.
+function weaponTables(sections, kind) {
+  const own = kind === 'melee' ? MELEE_TITLES : RANGED_TITLES;
+  const other = kind === 'melee' ? 'ranged' : 'melee';
+  const found = [];
+  const tables = [];
+  const ownSec = findSectionByTitle(sections, ...own);
+  if (ownSec) {
+    found.push(ownSec);
+    for (const t of parseTables(ownSec.html)) if (weaponTableKind(t[0]) !== other) tables.push(t);
+  }
+  const both = findSectionByTitle(sections, ...COMBINED_TITLES);
+  if (both) {
+    found.push(both);
+    for (const t of parseTables(both.html)) {
+      const split = splitMixedTable(t);
+      if (split) { if (split[kind].length > 1) tables.push(split[kind]); continue; }
+      if ((weaponTableKind(t[0]) || 'melee') === kind) tables.push(t);
+    }
+  }
+  return { tables, sections: found };
+}
+
+// A combined section written as ONE table carries both Parry/Reach and
+// Acc/Range columns; classifying it whole would file every knife under Ranged
+// with blank Acc/Range and no warning. Route row by row instead: a row with any
+// ranged-only cell filled is ranged, the rest are melee. Returns null when the
+// table is not mixed.
+const RANGED_ONLY = ['acc', 'range', 'rof', 'shots', 'rcl', 'bulk'];
+const MELEE_ONLY = ['parry', 'reach'];
+function splitMixedTable(rows) {
+  const header = (rows[0] || []).map(h => h.toLowerCase());
+  const cols = names => header.map((c, i) => names.some(n => c === n || c.startsWith(n + ' ') || c.startsWith(n + '/')) ? i : -1).filter(i => i >= 0);
+  const rCols = cols(RANGED_ONLY); const mCols = cols(MELEE_ONLY);
+  if (!rCols.length || !mCols.length) return null;
+  const filled = (row, i) => { const v = (row[i] || '').trim(); return v && v !== '—' && v !== '-' && v !== '–'; };
+  const out = { melee: [rows[0]], ranged: [rows[0]] };
+  for (const row of rows.slice(1)) out[rCols.some(i => filled(row, i)) ? 'ranged' : 'melee'].push(row);
+  return out;
+}
+
+// Silence is the defect (#177): a section that names weapons but produced no
+// rows for either kind reads at the table as lost data. Called once both
+// parsers have run.
+function noteEmptyWeapons(model, sections) {
+  const shape = 'a weapon table needs a header row with a Weapon column (plus Parry/Reach for melee or Acc/Range/RoF/Shots for ranged)';
+  // Each recognised section is judged on its own: a good Ranged table must not
+  // hide an unreadable Melee one.
+  const own = [[findSectionByTitle(sections, ...MELEE_TITLES), 'melee'], [findSectionByTitle(sections, ...RANGED_TITLES), 'ranged']];
+  const recognised = new Set();
+  for (const [sec, kind] of own) {
+    if (!sec) continue;
+    recognised.add(sec);
+    if (!model[kind].length) model.warnings.push(`GURPS "## ${sec.title}" is present but no ${kind} rows were read — ${shape}.`);
+  }
+  const both = findSectionByTitle(sections, ...COMBINED_TITLES);
+  if (both) {
+    recognised.add(both);
+    if (!model.melee.length && !model.ranged.length) model.warnings.push(`GURPS combat tab is empty: "## ${both.title}" is present but no melee or ranged rows were read — ${shape}.`);
+  }
+  if (model.melee.length || model.ranged.length) return;
+  const named = sections.filter(s => !recognised.has(s) && /weapon|melee|ranged|attack/i.test(String(s.title || '')));
+  if (!named.length) return;
+  model.warnings.push(
+    `GURPS combat tab is empty: section(s) ${named.map(s => `"## ${s.title}"`).join(', ')} exist but were not recognised as weapon sections. Headings recognised: ${[...MELEE_TITLES, ...RANGED_TITLES, ...COMBINED_TITLES].map(t => `"${t}"`).join(', ')}; ${shape}.`);
+}
+
+function parseMelee(model, sections, fm) {
+  if (Array.isArray(fm.melee)) {
+    model.melee = fm.melee.map(a => ({
+      weapon: a.weapon || '', skill: String(a.skill ?? ''), parry: String(a.parry ?? ''),
+      damage: a.damage || '', reach: a.reach || '', st: String(a.st ?? ''), notes: a.notes || '',
+    }));
+    return;
+  }
+  for (const rows of weaponTables(sections, 'melee').tables) {
+    const header = (rows[0] || []).map(h => h.toLowerCase());
+    const idx = n => header.findIndex(h => h.includes(n));
+    const iWep = Math.max(0, idx('weapon') >= 0 ? idx('weapon') : idx('mode') >= 0 ? idx('mode') : 0);
+    const iSkill = idx('skill'); const iParry = idx('parry'); const iDmg = idx('damage') >= 0 ? idx('damage') : idx('dmg');
+    const iReach = idx('reach'); const iSt = idx('st'); const iNotes = idx('notes');
+    for (const row of rows.slice(1)) {
+      if (!row[iWep]) continue;
+      model.melee.push({
+        weapon: row[iWep], skill: iSkill >= 0 ? row[iSkill] : '',
+        parry: iParry >= 0 ? row[iParry] : '', damage: iDmg >= 0 ? row[iDmg] : '',
+        reach: iReach >= 0 ? row[iReach] : '', st: iSt >= 0 ? row[iSt] : '',
+        notes: iNotes >= 0 ? row[iNotes] : '',
+      });
+    }
+  }
+}
+
+function parseRanged(model, sections, fm) {
+  if (Array.isArray(fm.ranged)) {
+    model.ranged = fm.ranged.map(a => ({
+      weapon: a.weapon || '', skill: String(a.skill ?? ''), damage: a.damage || '',
+      acc: String(a.acc ?? ''), range: a.range || '', rof: String(a.rof ?? ''),
+      shots: a.shots || '', st: String(a.st ?? ''), bulk: String(a.bulk ?? ''),
+      rcl: String(a.rcl ?? ''), notes: a.notes || '',
+    }));
+    return;
+  }
+  for (const rows of weaponTables(sections, 'ranged').tables) {
+    const header = (rows[0] || []).map(h => h.toLowerCase());
+    const idx = n => header.findIndex(h => h.includes(n));
+    const iWep = Math.max(0, idx('weapon'));
+    const iSkill = idx('skill'); const iDmg = idx('damage') >= 0 ? idx('damage') : idx('dmg');
+    const iAcc = idx('acc'); const iRange = idx('range'); const iRof = idx('rof');
+    const iShots = idx('shots'); const iSt = idx('st'); const iBulk = idx('bulk');
+    const iRcl = idx('rcl'); const iNotes = idx('notes');
+    for (const row of rows.slice(1)) {
+      if (!row[iWep]) continue;
+      model.ranged.push({
+        weapon: row[iWep], skill: iSkill >= 0 ? row[iSkill] : '',
+        damage: iDmg >= 0 ? row[iDmg] : '', acc: iAcc >= 0 ? row[iAcc] : '',
+        range: iRange >= 0 ? row[iRange] : '', rof: iRof >= 0 ? row[iRof] : '',
+        shots: iShots >= 0 ? row[iShots] : '', st: iSt >= 0 ? row[iSt] : '',
+        bulk: iBulk >= 0 ? row[iBulk] : '', rcl: iRcl >= 0 ? row[iRcl] : '',
+        notes: iNotes >= 0 ? row[iNotes] : '',
+      });
+    }
+  }
+}
+
+function parseGrimoire(model, sections, fm) {
+  if (Array.isArray(fm.grimoire)) {
+    model.grimoire = fm.grimoire.map(g => ({
+      name: g.name, skill: String(g.skill ?? ''), class: g.class || '',
+      time: g.time || '', duration: g.duration || '', cost: g.cost || '',
+      college: g.college || '', page: g.page || '',
+    }));
+    return;
+  }
+  const sec = findSectionByTitle(sections, 'spell grimoire', 'grimoire');
+  if (!sec) return;
+  const rows = parseTableRows(sec.html);
+  const header = (rows[0] || []).map(h => h.toLowerCase());
+  const idx = n => header.findIndex(h => h.includes(n));
+  const iName = Math.max(0, idx('name')); const iSkill = idx('skill');
+  const iClass = idx('class'); const iTime = idx('time'); const iDur = idx('duration') >= 0 ? idx('duration') : idx('dur');
+  const iCost = idx('cost'); const iCollege = idx('college'); const iPage = idx('page');
+  for (const row of rows.slice(1)) {
+    if (!row[iName]) continue;
+    model.grimoire.push({
+      name: row[iName], skill: iSkill >= 0 ? row[iSkill] : '',
+      class: iClass >= 0 ? row[iClass] : '', time: iTime >= 0 ? row[iTime] : '',
+      duration: iDur >= 0 ? row[iDur] : '', cost: iCost >= 0 ? row[iCost] : '',
+      college: iCollege >= 0 ? row[iCollege] : '', page: iPage >= 0 ? row[iPage] : '',
+    });
+  }
+}
+
+function parseStatus(model, sections, fm) {
+  if (fm.status && typeof fm.status === 'object') {
+    model.status = { ...fm.status };
+    return;
+  }
+  const sec = findSectionByTitle(sections, 'current status');
+  if (!sec) return;
+  // The section HTML has **Key:** Value pairs rendered as <strong>Key:</strong> Value.
+  // Match them from raw HTML where the key is in <strong> tags.
+  const strongPattern = /<strong[^>]*>([^<:]+):?<\/strong>\s*:?\s*([^<\n]+)/gi;
+  let sm;
+  while ((sm = strongPattern.exec(sec.html)) !== null) {
+    const key = sm[1].replace(/<[^>]+>/g, '').trim().toLowerCase();
+    const val = sm[2].replace(/<[^>]+>/g, '').trim();
+    if (!val) continue;
+    if (key === 'hp') model.status.hp = val;
+    else if (key === 'fp') model.status.fp = val;
+    else if (key === 'move') model.status.move = val;
+    else if (key === 'enc' || key === 'encumbrance') model.status.enc = val;
+    else if (key === 'condition') model.status.condition = val;
+    else if (key === 'location') model.status.location = val;
+    else if (key === 'carrying') model.status.carrying = val;
+  }
+  // Also scan plain text for patterns like "HP: 12/12" that may not be bold
+  const text = sec.html.replace(/<[^>]+>/g, ' ').replace(/\s+/g, ' ');
+  const plainPatterns = [
+    [/\bHP\s*:\s*(\S+)/i, 'hp'],
+    [/\bFP\s*:\s*(\S+)/i, 'fp'],
+    [/\bMove\s*:\s*(\S+)/i, 'move'],
+    [/\bEnc(?:umbrance)?\s*:\s*(\S+)/i, 'enc'],
+  ];
+  for (const [re, key] of plainPatterns) {
+    if (model.status[key] == null) {
+      const m = text.match(re);
+      if (m) model.status[key] = m[1].trim();
+    }
+  }
+  // Also parse simple table rows if present (HP x/y, FP x/y in table form)
+  for (const row of parseTableRows(sec.html).slice(1)) {
+    if (!row[0]) continue;
+    const k = row[0].toLowerCase().replace(/\s+/g, '');
+    if (k === 'hp') model.status.hp = row[1];
+    else if (k === 'fp') model.status.fp = row[1];
+    else if (k === 'move') model.status.move = row[1];
+    else if (k === 'enc' || k === 'encumbrance') model.status.enc = row[1];
+    else if (k === 'condition') model.status.condition = row[1];
+    else if (k === 'location') model.status.location = row[1];
+  }
+}
+
+function parseTechniques(model, sections, fm) {
+  if (Array.isArray(fm.techniques)) {
+    model.techniques = fm.techniques.map(t => ({
+      name: String(t.name ?? ''), def: t.default || t.def || '',
+      points: String(t.points ?? ''), level: resolveFmLevel(t),
+      markers: [],
+    }));
+    return;
+  }
+  const sec = findSectionByTitle(sections, 'techniques');
+  if (!sec) return;
+  const rows = parseTableRows(topLevelHtml(sec.html));
+  noteHiddenSubtables(model, sec, rows);
+  const header = (rows[0] || []).map(h => h.toLowerCase());
+  const iName = header.findIndex(h => h.includes('name')) >= 0
+    ? header.findIndex(h => h.includes('name')) : 0;
+  const iDef = header.findIndex(h => h.includes('default'));
+  const iPts = header.findIndex(h => h.includes('point'));
+  const { iLevel } = resolveLevelColumns(header);
+  for (const row of rows.slice(1)) {
+    if (!row[iName]) continue;
+    const { value: nameClean, markers: nameMarkers } = splitMarkers(row[iName]);
+    const { name, source } = splitCitation(nameClean);
+    const pts = stripCost(iPts >= 0 ? row[iPts] : '');
+    const lv = splitMarkers(iLevel >= 0 ? row[iLevel] : '');
+    model.techniques.push({
+      name, def: iDef >= 0 ? row[iDef] : '',
+      points: pts.value, level: lv.value,
+      markers: [...nameMarkers, ...pts.markers, ...lv.markers], source: source || null,
+    });
+  }
+}
+
+function parseChains(model, sections, fm) {
+  // frontmatter.chains = { melee: [{name, steps:[]}], ranged: [...] }
+  if (fm.chains && (Array.isArray(fm.chains.melee) || Array.isArray(fm.chains.ranged))) {
+    model.chains.melee = (fm.chains.melee || []).map(c => ({
+      name: c.name || '', steps: Array.isArray(c.steps) ? c.steps.map(String) : [],
+    }));
+    model.chains.ranged = (fm.chains.ranged || []).map(c => ({
+      name: c.name || '', steps: Array.isArray(c.steps) ? c.steps.map(String) : [],
+    }));
+    return;
+  }
+  const sec = findSectionByTitle(sections, 'combat action chains', 'multi-action combat skill chains');
+  if (!sec) return;
+
+  // Try table form first: header row with a 'chain' column.
+  // Expected columns: # | Chain | Key Rolls | Outcome  (or similar)
+  const tableRows = parseTableRows(sec.html);
+  if (tableRows.length >= 2) {
+    const header = (tableRows[0] || []).map(h => h.toLowerCase());
+    const iChain = header.findIndex(h => h.includes('chain'));
+    const iRolls = header.findIndex(h => h.includes('roll') || h.includes('key'));
+    const iOutcome = header.findIndex(h => h.includes('outcome'));
+    if (iChain >= 0) {
+      for (const row of tableRows.slice(1)) {
+        const name = row[iChain] || '';
+        if (!name) continue;
+        const steps = [];
+        if (iRolls >= 0 && row[iRolls]) steps.push(row[iRolls]);
+        if (iOutcome >= 0 && row[iOutcome]) steps.push(row[iOutcome]);
+        model.chains.melee.push({ name, steps });
+      }
+      return;
+    }
+  }
+
+  // Try list form: rendered markdown converts "**Name:**" to "<strong>Name:</strong>".
+  // Process each <li> individually so multi-item lists don't bleed across entries.
+  // After stripping tags from a single item, "1. Name: step → step" is plain text.
+  const liItems = [];
+  const liRegex = /<li[^>]*>([\s\S]*?)<\/li>/gi;
+  let li;
+  while ((li = liRegex.exec(sec.html)) !== null) {
+    liItems.push(li[1].replace(/<[^>]+>/g, ' ').replace(/\s+/g, ' ').trim());
+  }
+
+  let found = false;
+  // Match "Label: step → step → step" within a single list item
+  const arrowPattern = /^([^:→]{3,80}):\s*((?:[^→]+→[^→]+)+)$/;
+  for (const item of liItems) {
+    const m = item.match(arrowPattern);
+    if (m) {
+      const name = m[1].trim();
+      const steps = m[2].split('→').map(s => s.trim()).filter(Boolean);
+      if (steps.length >= 2) {
+        model.chains.melee.push({ name, steps });
+        found = true;
+      }
+    }
+  }
+
+  if (!found) {
+    // Fallback: parse list items as a single unnamed chain
+    if (liItems.length >= 2) {
+      model.chains.melee.push({ name: 'Default Chain', steps: liItems });
+    }
+  }
+}
+
+function parseEquipment(model, sections, fm) {
+  // frontmatter.loadouts = [{name, items:[{qty,name,cost,weight,location?,notes?}], totalCost, totalWeight}]
+  if (fm.loadouts && Array.isArray(fm.loadouts)) {
+    model.equipment.loadouts = fm.loadouts.map(lo => ({
+      name: lo.name || '',
+      items: (lo.items || []).map(i => ({
+        qty: String(i.qty ?? '1'), name: i.name || '', cost: String(i.cost ?? ''),
+        weight: String(i.weight ?? ''), location: i.location || null, notes: i.notes || null,
+      })),
+      totalCost: lo.totalCost != null ? String(lo.totalCost) : null,
+      totalWeight: lo.totalWeight != null ? String(lo.totalWeight) : null,
+    }));
+  }
+  // Parse ## Equipment table → items (top-level only, before any ### subsection)
+  const sec = findSectionByTitle(sections, 'equipment');
+  if (sec) {
+    // Restrict to HTML before the first <h3> so ### Encumbrance / ### Load-Outs rows
+    // are not flattened into the item list. No topLevelHtml() fallback here: those
+    // subsections hold real tables that must never be read as items.
+    const topHtml = aboveSubheadings(sec.html);
+    const rows = parseTableRows(topHtml);
+    const header = (rows[0] || []).map(h => h.toLowerCase());
+    const idx = n => header.findIndex(h => h.includes(n));
+    const iQty = idx('qty') >= 0 ? idx('qty') : idx('#') >= 0 ? idx('#') : -1;
+    const iName = idx('name') >= 0 ? idx('name') : idx('item') >= 0 ? idx('item') : 0;
+    const iCost = idx('cost');
+    const iWt = idx('weight') >= 0 ? idx('weight') : idx('wt');
+    const iLoc = idx('location') >= 0 ? idx('location') : idx('loc');
+    const iNotes = idx('notes');
+    for (const row of rows.slice(1)) {
+      if (!row[iName]) continue;
+      model.equipment.items.push({
+        qty: iQty >= 0 ? row[iQty] : '1',
+        name: row[iName],
+        cost: iCost >= 0 ? row[iCost] : '',
+        weight: iWt >= 0 ? row[iWt] : '',
+        location: iLoc >= 0 ? row[iLoc] || null : null,
+        notes: iNotes >= 0 ? row[iNotes] || null : null,
+      });
+    }
+    // Parse ### Load-Outs subsection if not already set from frontmatter
+    if (model.equipment.loadouts.length === 0) {
+      const loHtml = extractSubsectionHtml(sec.html, 'Load-Outs') ||
+        extractSubsectionHtml(sec.html, 'Loadouts') || '';
+      if (loHtml) {
+        // Each load-out is a sub-sub-table or bold heading + table
+        // Simple approach: parse bold headings as load-out names, then the following table
+        const loText = loHtml;
+        // Load-out names are standalone headings/bold that sit BETWEEN tables. Bold inside a
+        // table CELL must not be read as a name — with multiple load-outs it shifts the
+        // name->table index alignment and mislabels later groups. Scan for names in the
+        // table-stripped text so only real headings survive. (#106)
+        const loNamesText = loText.replace(/<table[\s\S]*?<\/table>/gi, '\n');
+        const loNameRegex = /<(?:h4|strong|b)[^>]*>([\s\S]*?)<\/(?:h4|strong|b)>/gi;
+        const loTableRegex = /<table[\s\S]*?<\/table>/gi;
+        const loNames = [];
+        let nm;
+        while ((nm = loNameRegex.exec(loNamesText)) !== null) {
+          loNames.push(nm[1].replace(/<[^>]+>/g, '').trim());
+        }
+        const loTables = [];
+        let tb;
+        while ((tb = loTableRegex.exec(loText)) !== null) {
+          loTables.push(tb[0]);
+        }
+        for (let i = 0; i < loTables.length; i++) {
+          const loRows = parseTableRows(loTables[i]);
+          const loHeader = (loRows[0] || []).map(h => h.toLowerCase());
+          const liQty = loHeader.findIndex(h => h.includes('qty') || h.includes('#'));
+          const liName = Math.max(0, loHeader.findIndex(h => h.includes('name') || h.includes('item')));
+          const liCost = loHeader.findIndex(h => h.includes('cost'));
+          const liWt = loHeader.findIndex(h => h.includes('weight') || h.includes('wt'));
+          const items = [];
+          let totalCost = null; let totalWeight = null;
+          for (const r of loRows.slice(1)) {
+            const rName = r[liName] || '';
+            if (rName.toLowerCase().includes('total')) {
+              totalCost = liCost >= 0 ? r[liCost] || null : null;
+              totalWeight = liWt >= 0 ? r[liWt] || null : null;
+              continue;
+            }
+            if (!rName) continue;
+            items.push({
+              qty: liQty >= 0 ? r[liQty] : '1',
+              name: rName,
+              cost: liCost >= 0 ? r[liCost] : '',
+              weight: liWt >= 0 ? r[liWt] : '',
+              location: null, notes: null,
+            });
+          }
+          model.equipment.loadouts.push({ name: loNames[i] || `Load-Out ${i + 1}`, items, totalCost, totalWeight });
+        }
+      }
+    }
+  }
+}
+
+function normalizeSkillName(name) {
+  // Lowercase and strip parentheticals for loose matching, e.g. "Parry (Knife)" -> "knife"
+  return String(name).toLowerCase().replace(/\s*\([^)]*\)/g, '').trim();
+}
+
+function crossReferenceSkillDefenses(model) {
+  // For each skill, try to find a matching parry or block value from:
+  // 1) Active Defenses (preferred) — label like "Parry (Knife)" where "Knife" matches skill name
+  // 2) Melee Weapons — skill cell starts with skill name, has parry value
+  for (const skill of model.skills) {
+    if (skill.parry != null || skill.block != null) continue; // already set (frontmatter)
+    const skillNorm = normalizeSkillName(skill.name);
+    if (!skillNorm) continue;
+
+    // Check active defenses
+    for (const p of (model.defenses.parry || [])) {
+      // label format: "Parry (Knife)" or "Parry (Karate)" — extract inner part
+      const inner = p.label.replace(/^parry\s*/i, '').replace(/^\(|\)$/g, '').trim();
+      if (normalizeSkillName(inner) === skillNorm && p.value) {
+        skill.parry = p.value;
+        break;
+      }
+    }
+    if (skill.parry != null) continue;
+
+    for (const b of (model.defenses.block || [])) {
+      const inner = b.label.replace(/^block\s*/i, '').replace(/^\(|\)$/g, '').trim();
+      if (normalizeSkillName(inner) === skillNorm && b.value) {
+        skill.block = b.value;
+        break;
+      }
+    }
+    if (skill.block != null) continue;
+
+    // Fallback: melee weapons — skill cell starts with skill name, parry is present
+    for (const w of (model.melee || [])) {
+      // Skill cell may be "Knife 17" — strip trailing level number
+      const weaponSkillBase = String(w.skill || '').replace(/\s+\d+$/, '').trim();
+      const weaponSkillNorm = normalizeSkillName(weaponSkillBase);
+      if (weaponSkillNorm === skillNorm && w.parry && w.parry !== '—' && w.parry !== '-') {
+        skill.parry = w.parry;
+        break;
+      }
+    }
+  }
+}
+
+function parseGurps(frontmatter, sections) {
+  const fm = frontmatter || {};
+  const secs = sections || [];
+  const model = emptyModel();
+  parseAttributes(model, secs, fm);
+  parseSkills(model, secs, fm);
+  parseTechniques(model, secs, fm);
+  parseTraits(model, secs, fm);
+  parseIdentity(model, secs, fm);
+  parseSenses(model, secs, fm);
+  parseDefenses(model, secs, fm);
+  parseEncumbrance(model, secs, fm);
+  parseReactions(model, secs, fm);
+  parseSocial(model, secs, fm);
+  parseSpells(model, secs, fm);
+  parsePoints(model, secs, fm);
+  parseMelee(model, secs, fm);
+  parseRanged(model, secs, fm);
+  noteEmptyWeapons(model, secs);
+  parseGrimoire(model, secs, fm);
+  parseStatus(model, secs, fm);
+  resolveCurrentEncumbrance(model);
+  parseChains(model, secs, fm);
+  parseEquipment(model, secs, fm);
+  crossReferenceSkillDefenses(model);
+  return model;
+}
+
+module.exports = { parseGurps, emptyModel, cell, weaponTableKind };

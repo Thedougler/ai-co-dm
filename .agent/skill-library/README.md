@@ -24,3 +24,18 @@
 ## License
 
 Respect each upstream LICENSE. Prefer MIT/Apache. No WotC book paste into the public vault.
+
+## Researcher addendum (2026-09-05)
+
+Additional downloads from Team-Leader packet `research-skill-libs-2026-09-05`:
+
+| Dir | Upstream | Priority co-opt |
+|---|---|---|
+| `AntTheLimey-gm-apprentice/` | https://github.com/AntTheLimey/gm-apprentice | session-wrapup, session-prep, campaign-qa (CC-BY-SA-4.0 on skill md — attribute + share-alike) |
+| `po4yka-llm-wiki-skills/` | https://github.com/po4yka/llm-wiki-skills | wiki-triage, wiki-query, llm-wiki-eval (MIT) |
+| `vanillaflava-llm-wiki-skills/` | https://github.com/vanillaflava/llm-wiki-skills | wiki-crystallize, wiki-integrate (check LICENSE) |
+| `kepano-obsidian-skills/` | https://github.com/kepano/obsidian-skills | defuddle, obsidian-bases, json-canvas, obsidian-cli (not obsidian-markdown) |
+| `addyosmani-agent-skills/` | https://github.com/addyosmani/agent-skills | skill eval/harness meta (MIT) |
+| `VoltAgent-awesome-agent-skills/` | https://github.com/VoltAgent/awesome-agent-skills | discovery index only |
+
+Still do **not** install Anthropic docx/pdf/pptx/xlsx binaries. Remap all paths away from `wiki/`/`raw/`.
