@@ -47,7 +47,7 @@ actions:
 # Young Snakewood
 
 > [!narration] Narration
-> _Visualizer: Aruhe flora pending._
+> _Visualizer: Aruhe fauna pending._
 
 ## At the table
 **Tactic:** ordinary terrace vines → one braid-wedge snap → short haul into the low canopy. **Tell:** five or six stems tighten together, and tiny flowers appear inside the closing jaw.

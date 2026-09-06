@@ -54,7 +54,7 @@ reactions:
 # Snakewood
 
 > [!narration] Narration
-> _Visualizer: Aruhe flora pending._
+> _Visualizer: Aruhe fauna pending._
 
 ## At the table
 **Tactic:** rest as a vine bundle → braid-wedge clap → haul up → digest in the canopy. **Tell:** trails swing wide around ordinary-looking canopy; antlers, boots, and feathers remain on the floor.
