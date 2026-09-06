@@ -38,6 +38,8 @@ possibilities.
 
 ```markdown
 ## N. Title — [[owner|source]]
+**Key:** stable table key
+**Clock:** current state → advance trigger → visible sign → consequence
 **When:** world-state that makes this node live
 **Pressure:** what is already in motion
 **Stakes:** what changes if engaged or ignored
@@ -61,6 +63,10 @@ possibilities.
    object; use `obsidian-markdown` for links/callouts; inline only compact rules or stat lines and
    link the owner for depth. Verify every card has pressure, actionable surface, PC connection,
    consequence, and a usable next state.
+
+## DM-facing render contract
+
+A run guide is a control panel, not a prose packet. Render a strong start, state and stakes, a clock strip, a stable key index, one real limelight angle per PC, and a parachute before the scene cards. Keep every card findable in under 30 seconds.
 
 ## Handoffs and exclusions
 

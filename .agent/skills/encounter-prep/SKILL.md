@@ -64,6 +64,10 @@ for one-time scenes:
 8. **Stakes:** specific durable changes for broad outcomes.
 9. **If ignored/bypassed:** one-step independent consequence.
 
+### Table-card rendering
+
+For a scene embedded in session prep or a run guide, render a compact DM card before extended notes: public situation and stakes safe to say aloud; two or more routes or off-ramps; opposition objective and first move; actionable terrain; visible fuse and delay change; pre-roll stakes; success, partial, failure, fail-forward, and aftermath; one supported PC limelight angle; and a short hiccup fallback. Keep hidden truth, DCs, and tuning outside `[!narration]`, and keep the card modular and findable in under 30 seconds.
+
 For combat compare action economy, burst/sustained damage, control, terrain, escape, and party
 resources against the actual group. Cite the current public rules source or approved benchmark;
 summarize only needed procedure and mark untested tuning. Never include a generic CR table or

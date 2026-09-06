@@ -76,6 +76,10 @@ and every response costs something.
     opened routes, unresolved danger, or new opportunities. Make any sequel
     follow the fiction; do not preserve an antagonist merely to demand a rematch.
 
+## DM-facing chart-card format
+
+For every candidate that may fire, render a compact DM card before prose: state and trigger; visible situation and public stakes; at least two materially different options or an off-ramp; fuse with current state, advance trigger, visible sign, consequence, and player levers; a named-PC spotlight tied to the pressure; and success, partial, failure, ignored-state, and recompute updates. Keep Hook/Development/Cliffhanger labels provisional until firing. This card is DM shorthand, not player-ready prose; route spoken changes to theatre-of-the-mind.
+
 ## Agency gates
 
 - Prepare situations and clocks, not required outcomes.

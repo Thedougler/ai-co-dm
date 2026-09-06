@@ -144,6 +144,10 @@ there. Introduce a proper noun only when the players need it now. Tactics:
 **Complete when:** every element establishes the POV, creates a decision or
 check, communicates the handoff, escalates, or lands the ending.
 
+### Plan-side Visualizer handoff
+
+Before commissioning or writing `[!narration]`, make the borrowed-POV handoff explicit: agreed tone/register; one POV, immediate goal, danger, and capabilities; one supported opening image and fixed pressure order; the player/POV/main-PC knowledge split; the changed pressure handed to the PCs; exact final image, cut destination, and first actionable Hook; and runtime variables that remain unresolved. For plan-side coordination, write this as a handoff brief rather than player prose. Route the eventual opening, between-check narration, final image, and hard-cut line through theatre-of-the-mind/Visualizer without moving secrets, DCs, or fixed outcomes across the boundary.
+
 ### 7. Write for spoken delivery
 
 If the POV, place, or threat still has no pictureable facts, invoke
