@@ -61,11 +61,15 @@ Before surface routing, decide whether the request is a **situated moment** or a
 **Hard mode gate for creature/monster owning-page `[!narration]`:** if the
 request is filling or rewriting `[!narration]` on a creature or monster note
 and no party position, initiative, declared action, or other current table
-state is supplied, the mode is **standalone cold portrait**. Signature moves,
-tactics, Hookline/Reel, ambush scripts, and “open with…” running notes stay in
-`[!mechanic]` / `[!secret]-` / DM sections — they must not become a situated
-snatch inside the callout. Inventing a trailing PC, ankle/boot contact, or
-completed haul is a fail.
+state is supplied, the mode is **standalone cold portrait** (body, scale,
+parts, ordinary stable behavior). Signature moves, tactics, Hookline/Reel,
+Stoop steal, Grubnade burst, ambush scripts, time-skip tactics ("minutes
+later"), and "open with…" running notes stay in `[!mechanic]` / `[!secret]-` /
+At the table / DM sections. They must not become a resolved attack film or
+encounter cutscene inside the callout. "Ordinary observable behavior" is
+idle/species habit (chews a flower, stands over a carcass), not playing the
+tactic script to completion. Inventing a trailing PC, ankle/boot contact,
+completed haul, completed item tear, or full detonation is a fail.
 
 **Hard mode gate for location/site `[!narration]`:** if the request is filling
 or rewriting `[!narration]` on a location note and no party position or other
