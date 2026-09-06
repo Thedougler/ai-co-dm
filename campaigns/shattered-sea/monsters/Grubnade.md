@@ -38,7 +38,7 @@ actions:
 # Grubnade
 
 > [!narration] Narration
-> A fat cream-green caterpillar longer than a thumb rests on a flower. It chews steadily. Soft segments bunch and ease as it feeds.
+> _Visualizer: Aruhe fauna pending._
 
 
 
@@ -61,6 +61,11 @@ Old Gardens primary; Quiet leaves with neat bites and five-foot scorch rings. Le
 
 ## Running notes
 Make it cute first. Delay to end of turn is the whole encounter. After one pop, no check to remember. DC 12 Perception to notice in dense foliage; DC 13 Nature reservoirs; DC 15 Nature brood chambers.
+
+## Canon ecology - living stock ingest
+- Thumb-long cream-green caterpillars work flower throats. Touch, shake the plant, or burn it and two dark lines race together under the skin; the grub swells, hisses like fat in a pan, and pops.
+- The flash is small and hot. What crawls away afterward are its daughters, blown ten to thirty feet into the leaves; there is no moth, because the explosion is how this species breeds.
+- Feeding marks remain on leaves because nothing eats the eater. [[Aruhe River Otter|Otters]], [[Deer-Stalker|deer-stalkers]], and [[Wolfrabbit|wolfrabbits]] give them room.
 
 ## Provenance
 Wiki provisional. Kept as written.

@@ -75,7 +75,7 @@ legendary_actions:
 # Great Crown Squid
 
 > [!narration] Narration
-> The great crown squid hangs sixty to eighty feet across the crowns: a swollen clear body of gas chambers, eight thick arms braced on trunks with gripping pads and hooked suckers, and a forest of finer hunting lines under the beak — some finger-thin, some rope-thick, dozens of feet long. It flows from tree to tree almost silently. When something moves below, the huge principal eyes roll inside the translucent head toward it without the body shifting.
+> _Visualizer: Aruhe fauna pending._
 
 
 
@@ -108,6 +108,11 @@ Sucker scars 70 ft up; polished antler with no carcass; prey tracks that end goi
 - If a line is cut: relocate and pick a different target — interest, not rage.
 - Counterplay: stay clustered, sever Hooklines, stand in the Mouth-Blind Zone, force open ground or deep water, Ready the tell (eye-roll).
 - Signs beforehand: upward bark strips, sucker scar circles high in trunks, prey trails that vanish upward (Survival DC 14 notice / 17 identify).
+
+## Canon ecology - living stock ingest
+- Sixty to eighty feet of rubbery mantle and eight working arms carry a forest of finer lines that can reach another eighty to a hundred feet. The mantle is a gas bag: living, it barely loads the trees; dead, it weighs tons.
+- It flows through the canopy like a jumping spider the size of a house, skin matching bark until a principal eye rolls inside the clear head to look. That eye-roll is the tell before it watches a trail, selects an isolated target, hooks an ankle, and lifts.
+- It likes a chase but will not deliberately enter open grassland or occupied river water. Juveniles sometimes work the upper terraces; the oldest sit heavier in [[The Rot]], where food is easy. A shredded sixty-foot vine hanging from a branch is its leftover, not a [[Snakewood]] kill.
 
 ## Provenance
 Wiki `creature.aruhe-crown-squid` (provisional). Upgraded: Hookline to-hit aligned to +13; Rip Through moved off 2-cost legendary onto Recharge to match 2024 1-cost LA pattern.

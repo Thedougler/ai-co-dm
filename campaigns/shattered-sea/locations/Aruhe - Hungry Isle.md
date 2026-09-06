@@ -126,3 +126,17 @@ Advance on plucking, uprooting, trapping, fishing for self, killing to carry fle
 
 ## Geography ingest — continuity note
 The dump confirms Aruhe's near-edge geography: from [[Karath]], its landing is one reef gap and a short shingle beach, close enough at the channel to seem swimmable, but Karath is only near Aruhe's rim. The island's heart remains hundreds of miles inland. Grung patrol the western reefs but will not set foot on the sand; a wrecked raiding hull sits above the tideline. Nothing here is a town: the island's bands (Old Gardens, Quiet, Grasslands, Rot, Clear Lake, and Grove) and lava tubes are an ecological country, not settlements.
+
+## Claims map - living stock
+Aruhe is a set of claims, not one king. The Blight gardens pressure; it does not ride these bodies, and none of these animals becomes a hive mind.
+
+- **Closed canopy:** [[Great Crown Squid]] owns the crowns and selects isolated prey.
+- **Hole in the canopy:** big [[Bloodhawk|Bloodhawks]] own the thermal and open sky; the small beach size-cap form is [[Small Blood Hawk|Small Blood Hawks]].
+- **Eight-foot grass and valley floor:** [[Terror-Bird|terror-birds]] hold each open quarter-mile.
+- **Occupied river and lake:** [[Aruhe River Otter|river otter]] families own their water.
+- **Main tubes:** [[Blackrail]] owns miles of the cave road.
+- **Beach shallows:** [[Reef Skull|Reef Skulls]] and [[Small Blood Hawk|Small Blood Hawks]] work the shingle and tide-meat.
+- **First terraces:** [[Wolfrabbit|wolfrabbit]] packs, [[Grinning Ape|grinning apes]], and [[Vine Lash|vine lashes]] define the approach.
+- **Mute floor:** [[Deer-Stalker|deer-stalkers]], [[Thornback|thornbacks]], and waiting plants such as [[Strangler Fig|strangler figs]] hold the Quiet/Rot floor.
+
+Run from one and you are usually standing in the next one's country; that boundary arrangement is the ecology.

@@ -37,13 +37,16 @@ actions:
 # Small Blood Hawk
 
 > [!narration] Narration
-> _Visualizer pending._
+> _Visualizer: Aruhe fauna pending._
 
 ## At the table
 **Tactic:** stoop on tide-meat and open wounds; mark, don't lift. **Tell:** ordinary hawks working the charted beach.
 
 ## Terrain / friends
 Beach / reef gap. The inland sky hole belongs to the huge [[Bloodhawk]] — same animal with the size cap gone. Flocks of 2–4.
+
+## Canon ecology - living stock ingest
+- Ordinary stooping hawks work tide-meat on the charted beach. They mark a wound but cannot lift a person. The huge inland [[Bloodhawk]] is the same animal with the size cap gone.
 
 ## Provenance
 Inbox living-stock 2026-09-05. No separate wiki creature file; lean CR 1/2 stooping-hawk chassis for beach garnish (not the CR 11 Bloodhawk).

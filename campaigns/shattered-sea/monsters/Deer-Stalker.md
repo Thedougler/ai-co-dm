@@ -64,7 +64,7 @@ reactions:
 ![[attachments/shattered-sea/creatures/deer-stalker.png]]
 
 > [!narration] Narration
-> A deer taller than a man stands over a carcass, hips turned wrong and forelimbs ending in claws. Blood drips from its chin onto the kill while the forward eyes hold still without blinking.
+> _Visualizer: Aruhe fauna pending._
 
 
 
@@ -90,6 +90,12 @@ Interrupted kill site; sweet rot; nothing worth keeping.
 
 ## Running notes
 Meeting = carcass interrupt. Crash away → return. Prefer one awake PC. Three ready threats = leave. Answering a lure isn't cursed; walking to it is.
+
+## Canon ecology - living stock ingest
+- A deer remade by pressure: hips turned wrong, forelimbs ending in knife-claws, forward-set eyes, and a permanently starved look. It stands on a carcass, crashes away too loudly when disturbed, then returns from the trees minutes later.
+- It locks onto whoever is most alone or whoever last touched the meal. It hunts the dim edge and plays back heard voices, especially a name from a prior fire, held wet and too long.
+- It will not walk [[Razer-Grass]], and will not contest a [[Bear-Elk]] or [[Terror-Birds|terror-bird]]. Two deer-stalkers in the same stretch ignore one another.
+- **Canon frame:** this is a hungry deer hunting like itself under pressure; it is not a Blight-ridden mount.
 
 ## Provenance
 Wiki provisional. Block kept; 2024 wording cleaned.

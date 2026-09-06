@@ -42,13 +42,16 @@ actions:
 # Strangler Fig
 
 > [!narration] Narration
-> _Visualizer pending._
+> _Visualizer: Aruhe fauna pending._
 
 ## At the table
 **Tactic:** trail squeeze; aerial roots reach; trunk hollow with bones in bark. **Tell:** curtains of roots on a game trail that already pinches.
 
 ## Terrain / friends
 Mute floor trails. Does not walk.
+
+## Canon ecology - living stock ingest
+- Single strangler figs grow on game trails already squeezed through stone. Aerial roots hang in curtains and reach; the trunk is hollow, with old kills showing as bones in the bark. The tree does not walk and does not need to.
 
 ## Provenance
 Wiki `creature.strangler-fig` + inbox living-stock 2026-09-05. Blight gardens pressure; does not possess. Fence-first Fantasy Statblocks. Numbers from wiki — not reinvented.

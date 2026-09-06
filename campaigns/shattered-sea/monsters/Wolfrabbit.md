@@ -54,7 +54,7 @@ reactions:
 ![[attachments/shattered-sea/creatures/wolfrabbit.png]]
 
 > [!narration] Narration
-> Wolf-sized rabbits with long ears and hunting-cat muscle under the fur. Dark striping crosses the coat; red eyes and blood-matted muzzles mark the pack. Four to six move the terrace brush at dawn and dusk.
+> _Visualizer: Aruhe fauna pending._
 
 
 ## At the table
@@ -78,6 +78,12 @@ Warren burrows in terrace stone. Nothing of value.
 
 ## Running notes
 Opener: Bound from elevation. Focus Prone targets. On a kill in the pack, Devour cascades. Exit: break off pursuit once the party leaves the terrace line.
+
+## Canon ecology - living stock ingest
+- Wolf-sized, dark-striped hunters with long ears and a twitching nose on a hunting-cat body. Packs of four to six work the collapsed first terraces at dawn and dusk; a bound from a wall can cover thirty feet.
+- Warrens honeycomb terrace stone. When one falls, the others eat it from hunger, not spite. They will not den past the Old Mouth once daylight dies in the tube; something below outranks them.
+- They jump [[Razer-Grass]] stands rather than land in them, know [[Snakewood]] strike-lanes, and will drive prey under those branches on purpose. They break a pounce for the smell of a mature [[Grubnade]].
+- **Canon frame:** Aruhe removes brakes from a known animal; the Blight pressures the garden and does not ride the pack.
 
 ## Provenance
 Wiki provisional. Numbers kept; table notes tightened.

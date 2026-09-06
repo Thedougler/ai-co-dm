@@ -58,7 +58,7 @@ reactions:
 # Bloodhawk of Aruhe
 
 > [!narration] Narration
-> A four-winged hawk the size of a small ship hangs above the canopy: charcoal feathers bleeding into crimson tips, a toothed beak, and sickle claws that could pin a whale. When it commits, the wings fold and the crimson tips flash before the dive.
+> _Visualizer: Aruhe fauna pending._
 
 
 ## At the table
@@ -88,6 +88,15 @@ Cloud-canopy nests and open water on [[Aruhe - Hungry Isle]]. Hungry ground belo
 - **Answered:** if the dive is wasted or LOS breaks, Multiattack from altitude; if grounded, it’s slow and unhappy — punish that.
 - **Dense canopy:** treat fly speed as halved until it clears the canopy line (terrain rule, not a trait).
 - **Counterplay:** Ready the dive, stanch/heal the wound, escape DC 19, force it low, stay under cover.
+
+## Canon ecology - living stock ingest
+- **Big Bloodhawks only:** the inland sky-holder is the same ordinary stooping hawk as the small beach bird with the size cap removed, not a newly invented animal. It has a charcoal body, crimson-on-black flight feathers, shaggy red nape, cream hook-beak, amber eye, talons the size of a rowboat, and an eighty- to hundred-foot wingspan.
+- It owns the hole in the canopy, circling a valley or lake bowl on a thermal without screaming. Over land, the tell is a moving bar of dark on the floor; over water, the crimson underwing.
+- It takes whales, canoes in open channel, a [[Bear-Elk]] that steps into a cut, or a [[Terror-Birds|terror-bird]] that holds a rim too long in hard noon. It will not stoop closed canopy or eight-foot grass, does not work the charted shingle, and does not put a foot in occupied otter water.
+- A crushed grass circle with no exit trail, or bear-elk bones on terrace stone with no approach tracks, is its work. Skybladder fruit hangs on Rot-edge vines leaning into light; the bird does not eat it.
+
+## Conflict notes
+- Existing provisional prose names a "druid lich's sculpting" and cloud-canopy nests. This ingest's canon frame says Aruhe does not invent new animals and the Blight gardens pressure rather than riding bodies; the older detail is retained for review, not silently reconciled.
 
 ## Do not
 - Paste Monster Manual / proprietary Roc text.

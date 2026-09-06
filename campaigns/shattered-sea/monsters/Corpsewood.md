@@ -44,13 +44,16 @@ actions:
 # Corpsewood
 
 > [!narration] Narration
-> _Visualizer pending._
+> _Visualizer: Aruhe fauna pending._
 
 ## At the table
 **Tactic:** seasonal patrol of deep Rot tree line; knits unless fire. **Tell:** forty-foot dead tree dragging roots.
 
 ## Terrain / friends
 Deep Rot. Fire stops the knitting.
+
+## Canon ecology - living stock ingest
+- A dead tree walks: forty feet of split bark and dragging roots. It patrols deep [[The Rot]] on a seasonal beat and never leaves the tree line. Fire is the one thing that stops it knitting itself back together. The wood died years ago; what moves it did not.
 
 ## Provenance
 Wiki `creature.corpsewood` + inbox living-stock 2026-09-05. Blight gardens pressure; does not possess. Fence-first Fantasy Statblocks. Numbers from wiki — not reinvented.

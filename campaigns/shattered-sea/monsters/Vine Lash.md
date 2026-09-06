@@ -41,13 +41,16 @@ actions:
 # Vine Lash
 
 > [!narration] Narration
-> _Visualizer pending._
+> _Visualizer: Aruhe fauna pending._
 
 ## At the table
 **Tactic:** hang as ordinary rope → whip → wrap → squeeze. **Tell:** shoulder-thick leafless hangers over trails.
 
 ## Terrain / friends
 First terraces. Young snakewood starts here; adults farther in.
+
+## Canon ecology - living stock ingest
+- Shoulder-thick, leafless, fruitless canopy ropes wait over trails. They whip, wrap, and squeeze what passes beneath, drinking through their roots. The first terrace lesson is simple: some vines grab.
 
 ## Provenance
 Wiki `creature.vine-lash` + inbox living-stock 2026-09-05. Blight gardens pressure; does not possess. Fence-first Fantasy Statblocks. Numbers from wiki — not reinvented.

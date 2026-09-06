@@ -51,7 +51,7 @@ bonus_actions:
 # Aruhe River Otter
 
 > [!narration] Narration
-> A twelve-foot otter, chocolate-black with a pale throat mark like a fingerprint, surfaces clean and chirrups. Other dark heads rise nearby along the waterline. The family watches from the river, sleek and quiet, then slips under again.
+> _Visualizer: Aruhe fauna pending._
 
 
 ## At the table
@@ -77,6 +77,12 @@ Play ladder · Coordinated dunk · Hunt Switch (silent military coordination)
 
 ## Running notes
 Stage 1–3: one family initiative, no damage. Stage 4: dunk theater. Stage 5: full Hunt Multiattack. Show a Deer-Stalker head as tug-of-war before the party ever fights them.
+
+## Canon ecology - living stock ingest
+- Twelve-foot, chocolate-black river otters with pale throat marks unique as fingerprints. Families hold four to six adults and a few pups; the lake family is larger, and its matriarch is older than the wreck on the beach.
+- They keep the Long Reach and lake gin-clear on purpose: cull grazers, drop shade-trees, patrol banks. They play with rope, oars, ankles, or a [[Deer-Stalker|deer-stalker's]] antlered head tossed in the shallows after the meal.
+- Play is blood kin only. Anything entering the water is in the game. Harm one or touch a pup and the family vanishes; one person is hit from below while the others see only wakes, then the pups resume wrestling minutes later.
+- They will not haul a kill onto [[Razer-Grass]], sniff a [[Grubnade]] and leave it, and pull against a [[Great Crown Squid]] line that trails into occupied water.
 
 ## Provenance
 Wiki provisional. Individual numbers filled to make the family runnable; mark provisional until playtest.

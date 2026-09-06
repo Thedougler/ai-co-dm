@@ -50,7 +50,7 @@ actions:
 # Blackrail
 
 > [!narration] Narration
-> Dust jumps in rings on the stone. A wet black-red head longer than a man's forearm rounds the wall sideways, antennae trailing ahead of it. Forty feet of hard-plated cave centipede follow, running on floor and wall alike, points clattering in a rolling rhythm.
+> _Visualizer: Aruhe fauna pending._
 
 
 ## At the table
@@ -71,6 +71,11 @@ Cave main tubes. Diet: cave bats, fallen surface animals. Juveniles present ⇒ 
 
 ## Running notes
 Listen → Approach (telegraph) → Rush/Pin → haul prey somewhere quiet. Counterplay: side crawlways, break stone contact, silence, water, Ready before it rounds the bend.
+
+## Canon ecology - living stock ingest
+- The Blackrail is a thirty- to forty-five-foot cave centipede whose back reads as parallel strips of wet black iron. Every wall, ceiling, and floor is a road; antennae longer than a man read air while the body reads rock.
+- It listens first: dust jumps in rings, the leg-rattle comes around the bend, and then the head arrives sideways along the wall. It pins with body segments; its forcipules carry venom meant for deer. It carries the quiet ones away.
+- One adult owns miles of main tube. One- or three-foot juveniles mean the adult is not here, and adults eat unrelated young. The Great Bore is the best road in the cave, which is why the rail uses it.
 
 ## Provenance
 Wiki provisional / incomplete block. AC/HP/attacks filled to CR 9 peers; playtest knobs: −20 HP or drop Rush dice if too mean in narrow tubes.

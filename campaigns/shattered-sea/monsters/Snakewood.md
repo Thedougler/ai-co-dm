@@ -54,13 +54,16 @@ reactions:
 # Snakewood
 
 > [!narration] Narration
-> _Visualizer pending._
+> _Visualizer: Aruhe fauna pending._
 
 ## At the table
 **Tactic:** rest as vine bundle → braid-wedge clap → haul up. **Tell:** trails swinging wide around ordinary canopy; antlers/boots on floor.
 
 ## Terrain / friends
 Quiet / Rot canopy. Clonal; cut one strand, neighbors take the load.
+
+## Canon ecology - living stock ingest
+- A clonal liana uses the canopy as a skeleton. At rest it is ordinary vines; when it strikes, five or six stems braid into a wedge, clap shut, and lift the body. Tiny sweet flowers line the inner jaws, and pale sap digests prey in the air. Cut one strand and neighbors take the load. Antlers, boots, and feathers are what remain on the floor.
 
 ## Provenance
 Wiki `creature.snakewood` + inbox living-stock 2026-09-05. Blight gardens pressure; does not possess. Fence-first Fantasy Statblocks. Numbers from wiki — not reinvented.

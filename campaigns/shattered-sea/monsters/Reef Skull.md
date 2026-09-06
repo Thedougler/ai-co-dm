@@ -39,13 +39,17 @@ actions:
 # Reef Skull
 
 > [!narration] Narration
-> _Visualizer pending._
+> _Visualizer: Aruhe fauna pending._
 
 ## At the table
 **Tactic:** bury in shingle → erupt → clamp → drag to undertow. **Tell:** shell tops in ankle-deep water that shouldn't be there.
 
 ## Terrain / friends
 Beach / reef gap. Dog-sized hermit crabs in wreckage shells. 3–5 at low tide.
+
+## Canon ecology - living stock ingest
+- Hermit crabs that outgrew every natural shell: dog-sized and sideways through ankle-deep water, wearing human skulls, hull plate, or coral from wreckage. At low tide three to five bury in shingle until only the shell top shows, then erupt together, clamp, and drag toward the undertow.
+- A dinghy pulled onto this shingle is shade they already live under.
 
 ## Provenance
 Wiki `creature.reef-skull` + inbox living-stock 2026-09-05. Blight gardens pressure; does not possess. Fence-first Fantasy Statblocks. Numbers from wiki — not reinvented.

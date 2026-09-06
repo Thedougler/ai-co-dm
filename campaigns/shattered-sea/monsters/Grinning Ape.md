@@ -44,13 +44,16 @@ actions:
 # Grinning Ape
 
 > [!narration] Narration
-> _Visualizer pending._
+> _Visualizer: Aruhe fauna pending._
 
 ## At the table
 **Tactic:** stones from canopy, then drop as a group. **Tell:** rictus grin that never changes; no calls.
 
 ## Terrain / friends
 Old Gardens terraces. Groups of 3–5.
+
+## Canon ecology - living stock ingest
+- Gorilla-sized, dark-furred apes sit in terrace canopy groups of three and five. Their faces are locked in a rictus that never changes; they do not groom or call. Stones come first, then the group drops as one on whatever moved below.
 
 ## Provenance
 Wiki `creature.grinning-ape` + inbox living-stock 2026-09-05. Blight gardens pressure; does not possess. Fence-first Fantasy Statblocks. Numbers from wiki — not reinvented.

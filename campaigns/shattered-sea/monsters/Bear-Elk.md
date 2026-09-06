@@ -46,13 +46,16 @@ bonus_actions:
 # Bear-Elk
 
 > [!narration] Narration
-> _Visualizer pending._
+> _Visualizer: Aruhe fauna pending._
 
 ## At the table
 **Tactic:** fixed daily beat along scored trees; seldom needs to eat. **Tell:** elk rack on bear chest, luminous sap on antlers, pale pupil-less eyes.
 
 ## Terrain / friends
 Quiet–Rot boundary. Terror-birds yield; squid/bloodhawk take from above/sky.
+
+## Canon ecology - living stock ingest
+- Bigger than a draft horse and low-wide, with an elk rack on a bear's chest, pale pupil-less eyes, and faint luminous sap dripping from its antlers. It runs a fixed daily beat along scored trees and rarely needs to eat. [[Terror-Bird|Terror-birds]] step aside; [[Great Crown Squid]] takes it from above; [[Bloodhawk]] takes it in a cut of open sky.
 
 ## Provenance
 Wiki `creature.bear-elk` + inbox living-stock 2026-09-05. Blight gardens pressure; does not possess. Fence-first Fantasy Statblocks. Numbers from wiki — not reinvented.

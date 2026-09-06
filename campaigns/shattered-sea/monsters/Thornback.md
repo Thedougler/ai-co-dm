@@ -41,13 +41,16 @@ actions:
 # Thornback
 
 > [!narration] Narration
-> _Visualizer pending._
+> _Visualizer: Aruhe fauna pending._
 
 ## At the table
 **Tactic:** root and shove; spent spines litter trails. **Tell:** javelin quills, tusks through skull.
 
 ## Terrain / friends
 Quiet floor. Solitary — two fight each other first.
+
+## Canon ecology - living stock ingest
+- Boar and porcupine with the off-switch gone: javelin quills on shoulder and rump, tusks through the skull and out again. Solitary; two in one stretch fight each other first. They root the Quiet floor and shove trails other animals use. Spent spines lie everywhere and regrow in hours.
 
 ## Provenance
 Wiki `creature.thornback` + inbox living-stock 2026-09-05. Blight gardens pressure; does not possess. Fence-first Fantasy Statblocks. Numbers from wiki — not reinvented.

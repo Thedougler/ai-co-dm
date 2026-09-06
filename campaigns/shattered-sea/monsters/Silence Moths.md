@@ -39,13 +39,16 @@ actions:
 # Silence Moths
 
 > [!narration] Narration
-> _Visualizer pending._
+> _Visualizer: Aruhe fauna pending._
 
 ## At the table
 **Tactic:** swarm fills a mouth after the jungle goes quiet ahead. **Tell:** sail-sized cloud; silence before arrival.
 
 ## Terrain / friends
 Rot / Grove approaches dusk–dawn. Fire drives off; won't leave trees.
+
+## Canon ecology - living stock ingest
+- Thumb-sized, colorless moths drift at dusk and dawn in clouds the size of a sail. Ahead of the swarm the jungle goes quiet, then the cloud fills a mouth. Fire drives them off; they will not follow anyone out of the trees.
 
 ## Provenance
 Wiki `creature.silence-moths` + inbox living-stock 2026-09-05. Blight gardens pressure; does not possess. Fence-first Fantasy Statblocks. Numbers from wiki — not reinvented.

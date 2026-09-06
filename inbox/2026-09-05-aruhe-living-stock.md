@@ -1,7 +1,7 @@
 ---
 type: lore
 campaign: shattered-sea
-status: inbox
+status: filed
 visibility: dm
 tags: [inbox, aruhe, monster]
 source: nick-paste-2026-09-05
@@ -91,3 +91,11 @@ The island is a set of claims, not one king.
 - The mute floor belongs to still-hunters, thorned rooters, and plants that wait over a trail.
 
 Run from one and you are usually standing in the next one’s country. That is the whole arrangement.
+
+## FILED
+Compiled into the Aruhe ecology notes and claims map:
+- [[campaigns/shattered-sea/locations/Aruhe - Hungry Isle]]
+- [[campaigns/shattered-sea/monsters/00 Monsters]]
+- `campaigns/shattered-sea/monsters/` typed creature notes (existing notes updated; under-island ecology stubs created).
+
+This inbox capture remains as the authoritative source record; future mechanics belong to the parallel Homebrewer packet.
