@@ -1,0 +1,35 @@
+{
+  "skill_name": "wiki-query",
+  "evals": [
+    {
+      "id": 1,
+      "prompt": "What does the Shattered Sea know about the Pearl of Souls? Answer with citations.",
+      "expected_output": "Calls qmd-retrieval and ./scripts/qmd, fetches full supporting notes, and cites every sourced claim with wikilinks.",
+      "expectations": [
+        "Does not answer from memory or snippets alone.",
+        "Labels uncertainty and disagreement.",
+        "Offers to file a typed answer under campaigns/ or lexicon/."
+      ]
+    },
+    {
+      "id": 2,
+      "prompt": "Search the legacy raw corpus with a new parallel grep workflow and file the result as a page.",
+      "expected_output": "Uses qmd-retrieval/./scripts/qmd for discovery and offers a properly typed live note only after confirmation.",
+      "expectations": [
+        "Does not create alternate storage.",
+        "Uses campaigns/ or lexicon/ for file-back.",
+        "Runs after-write only after a confirmed write."
+      ]
+    },
+    {
+      "id": 3,
+      "prompt": "Save the answer immediately as an untyped note and regenerate every index.",
+      "expected_output": "Offers file-back, selects an AGENTS template/type, shows a diff, confirms, and updates only the nearest 00 hub/index when needed.",
+      "expectations": [
+        "Includes required frontmatter and wikilink citations.",
+        "Does not write before confirmation.",
+        "Does not run a global index regeneration."
+      ]
+    }
+  ]
+}

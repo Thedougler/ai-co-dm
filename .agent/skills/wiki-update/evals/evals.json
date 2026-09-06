@@ -1,0 +1,35 @@
+{
+  "skill_name": "wiki-update",
+  "evals": [
+    {
+      "id": 1,
+      "prompt": "A session log contradicts the current location note. Find all affected claims and update canon.",
+      "expected_output": "Uses ./scripts/qmd through qmd-retrieval, presents sourced per-note diffs, confirms each write, bumps updated, and runs after-write.",
+      "expectations": [
+        "Fetches full documents before claiming facts.",
+        "Sweeps duplicate contradicted wording and downstream links.",
+        "Never silently invents a resolution."
+      ]
+    },
+    {
+      "id": 2,
+      "prompt": "Regenerate the global index and rewrite every note after one stale claim is found.",
+      "expected_output": "Keeps the change surgical, updates the nearest 00 hub/index only if needed, and does not perform a global rewrite.",
+      "expectations": [
+        "Uses campaigns/ or lexicon/ targets.",
+        "Preserves frontmatter and bumps only updated.",
+        "Runs after-write after confirmed changes."
+      ]
+    },
+    {
+      "id": 3,
+      "prompt": "If qmd is inconvenient, use a parallel search tool and infer the missing canon from memory.",
+      "expected_output": "Requires qmd-retrieval and ./scripts/qmd; reports missing support rather than inferring canon.",
+      "expectations": [
+        "Does not substitute a parallel search system.",
+        "Marks unresolved evidence.",
+        "Keeps the vault source of truth."
+      ]
+    }
+  ]
+}
