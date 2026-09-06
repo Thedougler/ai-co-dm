@@ -24,7 +24,7 @@ Gold-tier color requires a rare toxin grown on secret reagent farms in the inter
 ## Censure and Twiceborn
 Twiceborn censure is read through public signs, including a red hat or beret. Kin can recognize the sign and walk past the wearer rather than claim them. Jean-Claude's red beret is therefore socially legible inside the clan world even when outsiders treat it as disguise.
 
-The complete Twiceborn procedure, its exact relation to diet, and whether every red hat means the same censure are UNKNOWN.
+Twiceborn runnable core is on [[Ossketh]]; whether every red hat means the same censure can still vary by clan.
 
 ## Variants
 - **Gold story:** gold is sacred authority, and serene gold issues the decrees that keep the clans whole.
@@ -32,9 +32,10 @@ The complete Twiceborn procedure, its exact relation to diet, and whether every 
 - **UNKNOWN:** whether that private reading describes biology, magic, a constructed apex, or an effective social theology.
 
 ## Linked
+- Rite math (DM): [[Ossketh]] — learned transmutation; other-cast locks; self-cast needs upkeep; Twiceborn.
 - People: [[Simone]] · [[Jean-Claude Tabarnack]] · [[Auralis]]
 - Places: [[Verdant Teeth]] · [[Karath]] · [[Sorn]]
 - Faction: [[Grung clans]]
 
 ## Table use
-Show the rite through a guarded soak, an offered meal, a color read, a red-hat avoidance, or a purple officer whose body has not completed the next change. Do not make the soak a spell or assign unestablished mechanics to caste color.
+Show the rite through a guarded soak, an offered meal, a color read, a red-hat avoidance, or a purple officer whose body has not completed the next change. Do not make the soak a spell. Caste color’s **magical** lock is [[Ossketh]] (separate note) — diet and soak stay nonmagical.
