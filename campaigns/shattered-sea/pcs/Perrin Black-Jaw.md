@@ -41,3 +41,6 @@ A contact once put Perrin inside a sixty-foot body and said “Grow.” He renam
 
 > [!secret]- DM anchors
 > Auralis is a handle, not a solved identity or stat block. Perrin does not know whether it sank the Vestra, saved him, or was only present; he does not know why it would need him. Keep Nona's Aruhe survey as an obligation while the real spotlight remains Auralis/Vestra. Legacy provenance for the Vestra, Auralis pact, Uncertainty renaming, and Aruhe obligation: /Users/nick/shattered-sea/wiki/shattered-sea/pc.perrin-black-jaw.md.
+
+> [!secret]- Grigori blood-thread
+> Grigori may have left Perrin with a blood-thread when curing his early shipboard illness; status unresolved.

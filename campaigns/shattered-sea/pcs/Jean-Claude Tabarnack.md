@@ -40,3 +40,6 @@ He cannot lie or mask intent; he is painfully honest with one exception of omiss
 
 > [!secret]- DM anchors
 > Pell is dead; do not retain the former “living reminder” wording. Simone would offer Jean-Claude a rule-together arrangement if she caught him, but he does not know that. Twenty vials of her toxin remain hidden on Uncertainty. Jean-Claude's former scout/slaver duties are secret from the crew. Legacy provenance for Pell's death, Simone's hunt, former duties, and toxin cargo: /Users/nick/shattered-sea/wiki/shattered-sea/pc.jean-claude-tabarnack.md.
+
+> [!secret]- Grigori blood-thread
+> Grigori's weather-deck healing may have left Jean-Claude with a live blood-thread; status unresolved.

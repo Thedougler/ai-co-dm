@@ -7,6 +7,7 @@ tags: [index, location]
 ---
 # Locations
 - [[Shattered Sea]] · [[Verdant Scatter]] · [[Crown Islands]] · [[Central Strait]] · [[Midchain]] · [[Verdant Teeth]]
+- [[Otel Karn]] · [[Blackrule]] · [[Sarn's Landing]]
 - [[Galewall]] · [[Ashwalls]] · [[Doldrums]] · [[Tail]] · [[Drowned Maw]] · [[Outer Reach]] · [[Greyteeth]]
 - [[Calder's Tooth and Port Tidefall]] · [[Calven and Calveno]] · [[Harwick]] · [[Aldenmere]] · [[Stenmark]] · [[High Eyrie]]
 - [[Warren]] · [[Shelfworks]] · [[Fathomrush]] · [[Sparhold Isle]] · [[Sparhold]] · [[Aruhe - Hungry Isle]] · [[Karath]] · [[Murrat]]

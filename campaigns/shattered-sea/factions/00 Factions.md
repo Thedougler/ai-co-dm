@@ -6,7 +6,7 @@ visibility: dm
 tags: [index, faction]
 ---
 # Factions
-- [[Dravosi Crown]] · [[Tessarine Concordat]] · [[Waveservants]]
+- [[Dravosi Crown]] · [[Tessarine Concordat]] · [[Khlysty / the Flock]] · [[Waveservants]]
 - [[Passage]] · [[Sentinels of the Eyrie]] · [[Countless]]
 - [[Grung clans]] · [[Rattkin Runs and Black-Jaw Run]] · [[Antheri]]
 - [[Tangle]] · [[Umberlee]]
