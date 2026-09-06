@@ -8,7 +8,8 @@ tags: [location, aruhe, lake, water]
 ---
 # Clear Lake
 > [!narration] Narration
-> Clear Lake is drinkable inland water so wide the far bank is only a thin dark line. Wet stone underfoot shows the bottom while cool lake-smell rides the air and the blue goes dark farther out. Slow mouths of river water open into the basin, and one followable channel keeps toward the Grove.
+> Clear Lake is inland water clear enough to drink from the bank, where the bottom shows near the wet stone and the blue goes dark farther out. Slow river mouths feed a basin so wide the far shore is a thin line, and cool air lifts off the surface. One channel keeps toward the Grove.
+
 
 
 
