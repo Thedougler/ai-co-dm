@@ -1,10 +1,10 @@
 ---
-type: location
+type: vehicle
 campaign: shattered-sea
-kind: vehicle
+kind: ship
 region: unknown
 visibility: dm
-tags: [location]
+tags: [vehicle]
 ---
 # Saltwright
 > [!narration] Narration
@@ -21,7 +21,7 @@ Vessel that carried the party through a Dravosi boarding fight; feels like a rem
 - **Trajectory:** its contacts are hunted, its route is exposed, or it becomes leverage for Passage.
 ## 3Fs and contradiction
 - **Fantastic:** a vessel is both escape route and evidence.
-- **Familiar:** hull, deck, cargo, lines, boarding interface.
+- **Familiar:** hull, deck, cargo, lines, boarding route.
 - **Functional:** smuggling and defectors use its movement and contacts.
 - **Contradiction:** escape made the crew visible to new powers.
 - **Signatures:** boarding scars; hidden cargo space (**seed); names tied to three contacts.
@@ -30,9 +30,9 @@ Vessel that carried the party through a Dravosi boarding fight; feels like a rem
 - **DM seed (unconfirmed):** exact ship plan, current location, and ownership are open.
 ## Aspects
 `boarding scar, smuggler route, defector network`
-## Vehicle surface and topology
+## Vehicle surface / topology
 - `water -- approach (visible route, recognition risk) --> Saltwright`.
-- `deck -- boarding interface (cover and movement) --> cargo/crew space` (**exact layout seed**).
+- `deck -- boarding route (cover and movement) --> cargo/crew space` (**exact layout seed**).
 - `cargo -- hidden route (privacy, evidence) --> defector thread` (**seed**).
 - `deck -- retreat/launch --> open water or contact port`.
 - **Loop:** approach → deck → cargo → contact route → water.
@@ -57,6 +57,6 @@ Vessel that carried the party through a Dravosi boarding fight; feels like a rem
 - Revisit the boarding, protect defectors, and connect Saltwright’s route to wider Crown/Passage pressure.
 ## Secrets (DM)
 - Current location, ship’s build, crew, and hidden cargo are **DM seed (unconfirmed)**.
-## Mechanics and return
+## Mechanics
 - Vehicle boarding uses cover, movement, and Search/Study/Influence/Utilize; do not invent numeric ship stats. Failure costs position/resources/trust.
 - **Return state:** contact status, route exposure, physical evidence, and whether Saltwright remains a safe handoff.

@@ -1,10 +1,10 @@
 ---
-type: location
+type: vehicle
 campaign: shattered-sea
-kind: vehicle
+kind: ship
 region: Drowned Maw
 visibility: dm
-tags: [location]
+tags: [vehicle]
 ---
 # Red Lady / Dead Lady
 > [!narration] Narration
@@ -29,13 +29,13 @@ Umberlee’s Red Wake: a raised wreck taking boats on the crew’s lanes; feels 
 - **DM seed (unconfirmed):** boarding side, active deck, and retreat lane are playable surfaces; exact plan/crew open.
 ## Aspects
 `raised wreck, red wake, survivor route`
-## Vehicle surface / senses
+## Vehicle surface / topology
 - **Sight:** hull/deck silhouette, wake, broken lines, water, current motion.
 - **Sound:** hull strain, water, rigging, signal or silence.
 - **Smell/touch:** salt, rot, wet wood, spray; hidden cause stays GM-only.
-## Topology
+## Senses and movement
 - `crew lane -- approach (visible wake, commitment) --> Red Lady wake`.
-- `wake -- boarding interface (exposed, evidence-rich) --> raised deck`.
+- `wake -- boarding route (exposed, evidence-rich) --> raised deck`.
 - `raised deck -- interior route (unknown, danger) --> wreck evidence` (**seed**).
 - `wake -- evasive route (distance, preserves crew) --> Drowned Maw lane`.
 - **Loop:** wake → board → retreat by wake/line; boarding changes what follows.
@@ -66,6 +66,6 @@ Sighted → Pursuing → Taking → Changed: wake observed → route converges �
 - Understand or stop Red Wake; connect survivor memory to Pearl/Maw; keep shared lanes open.
 ## Secrets (DM)
 - Exact wreck history, crew, mechanism, and encounter timing are **DM seed / unresolved canon**.
-## Mechanics and return
+## Mechanics
 - Vehicle boarding uses cover, movement, water, hazard telegraphs; hidden exact effects stay GM-side. Failure costs position/resources, not clue.
 - **Return state:** route chart, wake signs, evidence, damage, witnesses, Red Wake clock.

@@ -32,6 +32,7 @@ visibility: dm
 ## Indexes (drill only when needed)
 - [[campaigns/shattered-sea/sessions/00 Sessions]] · [[campaigns/shattered-sea/pcs/00 PCs]] · [[campaigns/shattered-sea/npcs/00 NPCs]]
 - [[campaigns/shattered-sea/locations/00 Locations]] · [[campaigns/shattered-sea/factions/00 Factions]] · [[campaigns/shattered-sea/quests/00 Quests]]
+- [[campaigns/shattered-sea/vehicles/00 Vehicles]]
 - [[campaigns/shattered-sea/items/00 Items]] · [[campaigns/shattered-sea/fronts/00 Fronts]] · [[campaigns/shattered-sea/monsters/00 Monsters]]
 
 ## Agent rule

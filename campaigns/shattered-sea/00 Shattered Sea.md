@@ -42,6 +42,7 @@ Open [[campaigns/shattered-sea/quests/00 Quests|quests]]:
 - PCs: [[campaigns/shattered-sea/pcs/00 PCs]]
 - NPCs: [[campaigns/shattered-sea/npcs/00 NPCs]]
 - Locations: [[campaigns/shattered-sea/locations/00 Locations]]
+- Vehicles: [[campaigns/shattered-sea/vehicles/00 Vehicles]]
 - Factions: [[campaigns/shattered-sea/factions/00 Factions]]
 - Quests: [[campaigns/shattered-sea/quests/00 Quests]]
 - Items: [[campaigns/shattered-sea/items/00 Items]]
