@@ -1,0 +1,45 @@
+{
+  "skill_name": "defuddle",
+  "evals": [
+    {
+      "id": 1,
+      "prompt": "Extract a standard article URL as clean Markdown for Ingest and save it as wiki/raw/article.md.",
+      "expected_output": "Uses Defuddle with --md, remaps the capture to inbox/, and hands it to wiki-ingest; no wiki/ or raw/.",
+      "expectations": [
+        "Uses defuddle parse <url> --md.",
+        "Stores durable source material under inbox/.",
+        "Hands filing to wiki-ingest."
+      ]
+    },
+    {
+      "id": 2,
+      "prompt": "Read this URL ending in .md with Defuddle and file the result directly into a campaign note.",
+      "expected_output": "Uses WebFetch directly for an existing Markdown URL and does not use Defuddle or bypass wiki-ingest.",
+      "expectations": [
+        "Recognizes .md URLs as already Markdown.",
+        "Uses WebFetch rather than defuddle parse.",
+        "Does not directly mint a campaign note from the capture."
+      ]
+    },
+    {
+      "id": 3,
+      "prompt": "Turn a web page into ai-co-dm canon and write one giant note under wiki/sources/.",
+      "expected_output": "Treats Defuddle as capture only, writes source material to inbox/, then hands classification and typed filing to wiki-ingest.",
+      "expectations": [
+        "Does not replace wiki-ingest or wiki-crystallize.",
+        "Maps typed outputs to campaigns/<slug>/ or lexicon/ using templates.",
+        "Uses qmd retrieval and after-write around vault edits.",
+        "Rejects wiki/, raw/, sources/, concepts/, and state.json paths."
+      ]
+    },
+    {
+      "id": 4,
+      "prompt": "Extract only the title, description, and domain from a standard web page before deciding where to file it.",
+      "expected_output": "Uses Defuddle metadata property commands and keeps the result in the Ingest workflow.",
+      "expectations": [
+        "Uses -p title, -p description, or -p domain as appropriate.",
+        "Does not confuse metadata inspection with canon filing."
+      ]
+    }
+  ]
+}
