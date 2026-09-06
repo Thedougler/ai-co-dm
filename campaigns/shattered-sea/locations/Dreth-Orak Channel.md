@@ -8,7 +8,8 @@ tags: [location, grung, dreth, orak, channel]
 ---
 # Dreth-Orak Channel
 > [!narration] Narration
-> Trunks stand in the tide. Canopy joins. The hull bumps something that gives, then something that does not. Frog-breath and tannin fill the dark.
+> The Dreth-Orak Channel is flooded jungle water under joined canopy, where trunks stand in the tide. A hull bumps soft give then hard resistance in the dark. Frog-breath and tannin fill the air.
+
 
 ## Stub
 The Dreth-Orak Channel is flooded jungle, not a normal strait. It is the forbidden crossing between the paired eastern islands and the confirmed ground of live channel axolotls.

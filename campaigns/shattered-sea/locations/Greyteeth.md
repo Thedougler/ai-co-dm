@@ -8,7 +8,8 @@ tags: [location, reef, crown-islands]
 ---
 # Greyteeth
 > [!narration] Narration
-> Pale ridges and reef breaks open to northern swell. Surf works stone while local pilots sell routes through charts that lie; salt and fish hang over wrecks that may be navigation — or protected passage.
+> Greyteeth is long pale reef ridges breaking northern swell between the Crown Islands. Surf works stone while salt and fish hang over the breaks. Local pilots sell routes through water the charts get wrong.
+
 
 
 ## At a glance

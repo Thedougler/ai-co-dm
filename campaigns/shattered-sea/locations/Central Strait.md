@@ -8,7 +8,8 @@ tags: [location]
 ---
 # Central Strait
 > [!narration] Narration
-> The shared shipping corridor between Crown harbours and Midchain traffic. Sails, patrol craft, and signal flags crowd a moving border of lanes and papers; horns and rigging strain carry over salt and tar. The shortest route leaves the longest record.
+> The Central Strait is open shipping water crowded with sails, patrol craft, and signal flags between Crown harbours and Midchain. Horns and rigging strain carry over salt and tar. Lanes and papers mark who may pass.
+
 
 ## At a glance
 The primary shipping corridor between the two arcs; feels like a moving border.

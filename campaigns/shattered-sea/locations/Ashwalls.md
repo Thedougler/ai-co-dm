@@ -8,7 +8,8 @@ tags: [location, region, volcanic, crossing]
 ---
 # Ashwalls
 > [!narration] Narration
-> Black volcanic spires in the Galewall’s lee: steam vents, warm cave mouths, and wrecks jammed in the stone. Sulfur, salt, and hot rock hang over surf and boarding calls. Shelter here is real — and not every useful handhold is a rescue.
+> Ashwalls is black volcanic spires in the Galewall's lee, where steam vents and warm cave mouths break the stone. Wrecks jam the rock. Sulfur, salt, and hot stone hang over surf while crews take the lee as solid ground.
+
 
 
 ## At a glance

@@ -8,7 +8,8 @@ tags: [location, aruhe, grasslands, rivers]
 ---
 # Grasslands / River Valleys
 > [!narration] Narration
-> Open grassland breaks into river valleys that carry clear free-flowing water across the island. Sightlines run long under open sky; banks show tracks, musk, and grass movement. Springs, streams, and cave seepage stay drinkable when taken as passage rather than a claimed store.
+> Open grassland breaks into river valleys of clear free-flowing water under long sightlines. Sun-warmed grass and wet banks smell of fresh water and animal musk. Springs and streams stay drinkable from free flow.
+
 
 
 ## At a glance

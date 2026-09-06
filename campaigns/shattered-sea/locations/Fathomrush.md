@@ -8,7 +8,8 @@ tags: [location, settlement, maw, salvage]
 ---
 # Fathomrush
 > [!narration] Narration
-> A dive-staging port of gear stacks, winches, and crews looking east toward the shelf. Wet rope, hot iron, salt, and salvage oil mark the last honest gossip and supplies before the trench drop.
+> Fathomrush is a boomtown of dive gear, winches, and supply stacks pointed east at the Shelfworks. Wet rope, hot iron, salt, and salvage oil hang over bargaining and warnings about the drop. Crews stage here before the trench.
+
 
 
 ## At a glance

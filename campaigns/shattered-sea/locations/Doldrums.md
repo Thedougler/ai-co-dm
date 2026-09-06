@@ -8,7 +8,8 @@ tags: [location, region, weather]
 ---
 # Doldrums
 > [!narration] Narration
-> Seasonal still channels where sails hang slack and voices carry a quarter mile clean. Hot water and held canvas mark a calm captains use as a back door — if they know which week the water stays quiet.
+> The Doldrums are seasonal still channels south of Midchain where sails hang slack on hot water. Voices carry a quarter mile clean across held canvas. The calm slides fifty to a hundred miles with the season.
+
 
 
 ## At a glance

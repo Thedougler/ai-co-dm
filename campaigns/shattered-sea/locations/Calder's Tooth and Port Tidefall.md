@@ -8,7 +8,8 @@ tags: [location]
 ---
 # Calder's Tooth / Port Tidefall
 > [!narration] Narration
-> A pale stone fort and compulsory harbour at the western mouth of the Central Strait. Ships wait in queue while papers, bells, and shouted names turn open water into an inspectable gate. Salt, tar, and wet stone hang over the stop.
+> Port Tidefall is a pale stone fort and compulsory harbour at the western mouth of the Central Strait. Ships wait in queue under bells and shouted names while papers change hands at the waterline. Salt, tar, and wet stone mark the stop.
+
 
 ## At a glance
 Calder’s Tooth guards the western mouth of the Central Strait; Port Tidefall requires every ship to stop and show papers.
