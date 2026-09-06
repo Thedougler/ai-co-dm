@@ -9,8 +9,16 @@
 > [!mechanic]
 > Table procedure, DCs, HP, conditions — not player-safe.
 
+> [!secret] Title
+> Open on run-guide, session-prep, and session-note surfaces. Hidden truth / unearned lore; never inside narration.
+```
+
+On long-lived owner pages such as NPC, PC, or faction pages, collapse a secret when
+that page benefits from progressive disclosure:
+
+```markdown
 > [!secret]- Title
-> Collapsed (`-`). Hidden truth / unearned lore. Never inside narration.
+> Collapsed hidden truth / unearned lore.
 ```
 
 ## Syntax
@@ -32,6 +40,9 @@
 > > [!note] Nested
 > > Inner
 ```
+
+Do not use collapsed callouts (`[!…]-`) in run-guide, session-prep, or session
+notes; live DM information must remain visible in the session surface.
 
 ## Built-in types
 

@@ -17,6 +17,7 @@ on every vault `.md` write; open `references/` only when stuck.
 - **Wikilinks in-vault:** `[[Note]]` / `[[Note|text]]` / `[[Note#Heading]]`. Markdown links only for external `https://` URLs.
 - **Frontmatter (AGENTS):** include when applicable — `type`, `campaign`, `status`, `tags`, `visibility: table | dm`. Prefer AGENTS fields over generic `title`-only notes. `type` enum: `hub` | `campaign` | `session-prep` | `session` | `npc` | `pc` | `location` | `faction` | `quest` | `front` | `encounter` | `item` | `monster` | `lore` | `template` | `lexicon`.
 - **Player prose:** leading `> [!narration] Narration` (TotM / Visualizer). Empty stub ok. No secrets/DCs/unearned names inside it.
+- **Live session surfaces:** In run-guide, session-prep, and session notes, never use collapsed callouts (`[!…]-`); keep DM information open so session cards do not hide it. Collapsed secrets remain allowed on long-lived owner pages (NPC/PC/faction) when useful.
 - **Monsters:** Fantasy Statblocks fence (```` ```statblock ````) **first** after frontmatter — see `templates/Monster.md` + `./scripts/lint-statblocks`. Never prose AC/HP tables before the fence. No WotC book paste.
 - **Paths:** scratch → `inbox/`; **images/media** under `attachments/` (campaign subfolders ok). Embed with `![[attachments/…]]`; wikilink with `[[attachments/…]]`. See [[attachments/00 Attachments]] + [references/EMBEDS.md](references/EMBEDS.md). No parallel `wiki/` · `concepts/` · `sources/` tree.
 - **Finish:** `./scripts/after-write "why"`.
@@ -29,7 +30,7 @@ on every vault `.md` write; open `references/` only when stuck.
 3. If `type: monster` → `statblock` fence immediately after `---`.
 4. Leading `[!narration]` when the template expects it.
 5. Body: one topic/note; wikilink nearest index/MOC/`hot` as needed.
-6. DM procedure / hidden truth → `[!mechanic]` or collapsed `[!secret]-` (not in narration).
+6. DM procedure / hidden truth → `[!mechanic]` or `[!secret]` on run-guide, session-prep, and session-note surfaces (not in narration). Use collapsed `[!secret]-` only when a long-lived owner page (NPC/PC/faction) benefits from it.
 
 ## Syntax (day-to-day)
 
@@ -67,8 +68,8 @@ More: [references/EMBEDS.md](references/EMBEDS.md) · hub [[attachments/00 Attac
 > [!mechanic]
 > Procedure, DC, numbers — DM side.
 
-> [!secret]- Hidden
-> Collapsed by default; never put in `[!narration]`.
+> [!secret] Hidden
+> Open by default on live session surfaces; never put in `[!narration]`.
 ```
 
 Other types (`note`, `tip`, `warning`, …): [references/CALLOUTS.md](references/CALLOUTS.md).
@@ -99,7 +100,7 @@ Types and tags: [references/PROPERTIES.md](references/PROPERTIES.md).
 | `[text](Campaign Note.md)` for vault notes | `[[Campaign Note]]` |
 | Frontmatter with only `title`/`date` | AGENTS `type` + campaign fields |
 | Prose monster stats / fence not first | `statblock` fence immediately after frontmatter |
-| Secrets inside `[!narration]` | `[!secret]-` or DM sections |
+| Secrets inside `[!narration]` | `[!secret]` on run-guide/session-prep/session-note surfaces, or `[!secret]-` on long-lived owner pages |
 | New `wiki/` or `concepts/` folders | `campaigns/` · `lexicon/` · `inbox/` |
 | WotC book paste | paraphrase / house / SRD link in `source` |
 | `![](…)` / absolute disk paths for vault art | `![[attachments/…]]` / `[[attachments/…]]` |
