@@ -68,7 +68,13 @@ If silhouette, translucent mantle, and braced arms already carry the picture, cu
 
 > A Sentinel strike that lands past ordinary wingspan. Breath and stance lock to the peak of a gust on a wind-open terrace. The timing is exact; the blow answers that measure.
 
-**Strong:** breath/stance/wing set as training tell on a wind-open terrace; stop before the blow lands. Reach effect stays Fiction/Mechanics.
+**Strong:** breath, stance, wing set, and strike-past-wingspan as stable how-it-looks-when-used facts — no terrace venue, no “answers” tone, no held gear. Training place stays Fiction.
+
+**Weak: Long Reach invented terrace venue (after skill)**
+
+> On a wind-open terrace a Sentinel sets breath and stance to the gust. Wings and feet hold the measure. The tell ends before the strike leaves the body.
+
+Still fails: stages a current venue. Prefer venue-free tells.
 
 ## Named item vs dedication closer
 

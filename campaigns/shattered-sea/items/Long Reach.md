@@ -11,7 +11,7 @@ tags: [item, sentinel, technique]
 # Long Reach
 
 > [!narration] Narration
-> On a wind-open terrace a Sentinel sets breath and stance to the gust. Wings and feet hold the measure. The tell ends before the strike leaves the body.
+
 
 
 

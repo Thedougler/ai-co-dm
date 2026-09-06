@@ -14,6 +14,26 @@ camera onto an object-only output. State whether it is visible, held/inspected,
 recognized/used, or recurrent/intelligent. End on a fact or affordance the
 current player can use.
 
+
+## Technique notes (`kind: technique`) — non-object branch
+
+Do **not** apply the Fate Spinner object cold Appearance (silhouette / material /
+wear / gear inventory) to techniques or other non-objects.
+
+Cold `[!narration]` for a technique is a **tell contract**: what is immediately
+perceivable about the practiced form as stable facts — breath, stance, wing set,
+how the strike looks when used (e.g. past ordinary wingspan). Keep Appearance /
+Fiction / Mechanics separate the same way items keep Appearance / Identified /
+DM lore separate.
+
+Fail:
+- forcing object-silhouette or held-gear description onto a technique
+- inventing a current venue or training scene (`On a wind-open terrace…`, gust peak)
+- theme or mysticism (`the blow answers that measure`)
+- resolved hit film in Appearance
+
+Training location and order lore belong in Fiction / Training, not Appearance.
+
 For a standalone item portrait, use the cold player-appearance layer by
 default. **Coverage + length floor:** about three connected sentences that
 cover (1) silhouette/scale/whole type, (2) material, parts, and visible wear,

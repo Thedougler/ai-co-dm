@@ -286,12 +286,12 @@
     },
     {
       "id": 29,
-      "prompt": "Using Long Reach.md parent (kind: technique; Sentinel apprentice martial form; exact breath/stance in peak wind on cantilevered terraces; fiction: strike beyond ordinary wingspan; no full mechanics), write item/technique-page `[!narration]` with no fight table state.",
-      "expected_output": "Tell portrait: breath/stance/wing set + wind-open terrace as stable training place. No completed strike.",
+      "prompt": "Using Long Reach.md parent (kind: technique; Sentinel apprentice martial form; exact breath/stance in peak wind; training on cantilevered terraces is Fiction; fiction: strike beyond ordinary wingspan; no full mechanics), write technique-page `[!narration]` with no fight table state.",
+      "expected_output": "Non-object tell: breath/stance/wing set and strike-past-wingspan as stable facts. No terrace venue, no answers-mysticism, no gear silhouette.",
       "expectations": [
-        "Fails `lands past` / `the blow answers` / staged hit resolution.",
-        "Passes tell cues + terrace as place character without inventing a held object.",
-        "Keeps reach effect in Fiction/Mechanics."
+        "Fails invented venue (`On a wind-open terrace`) or gust-peak scene staging.",
+        "Fails `the blow answers` / answers mysticism / object-silhouette forced onto technique.",
+        "Passes venue-free training tells; Fiction keeps terrace/order lore."
       ]
     },
     {

@@ -88,13 +88,15 @@ kernels stay upstream (`place-design`); TotM renders geography.
 
 **Hard mode gate for technique notes (`kind: technique` or technique tags):** if
 the request is filling or rewriting `[!narration]` on a technique note and no
-current table fight state is supplied, the mode is a **tell portrait** of the
-practiced form — visible body cues (breath, stance, wing set), and training
-setting only as stable place character (wind-open terrace). It is **not** an
-object inventory portrait and **not** a resolved strike film. Fail if the draft
-completes a hit ("lands past ordinary wingspan", "the blow answers"), stages a
-mid-fight terrace duel, or invents a held object for a non-object technique.
-Keep mechanical package / reach effect in Fiction / Mechanics / At the table.
+current table fight state is supplied, use a **non-object tell contract** — not
+the Fate Spinner object silhouette/material/wear bar. Cold `[!narration]` states
+immediately perceivable training tells as **stable facts**: breath, stance, wing
+set, and how the form looks when used (e.g. a strike past ordinary wingspan) —
+without inventing a current venue, terrace duel, gust-peak scene, or held gear.
+Fail object-silhouette forced onto techniques; fail invented venue ("On a
+wind-open terrace…"); fail mysticism/theme ("the blow answers that measure",
+"answers" as magic tone); fail resolved hit film. Training location and order
+lore stay in Fiction / Training. Mechanical package stays Mechanics.
 
 **Hard mode gate for named-item cold Appearance:** cold item `[!narration]` stays
 on the object — silhouette/scale, material/parts/wear, one ordinary physical or

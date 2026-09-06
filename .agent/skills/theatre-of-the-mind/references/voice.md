@@ -207,7 +207,10 @@ evidence.
 | cold monster `[!narration]` resolves signature move (Stoop steal+climb, full dive-grab) | body/scale/parts + ordinary habit, or telegraph only then stop |
 | cold monster time-skip tactic (`then minutes later`) | cold body portrait only; tactic stays At the table |
 | cold monster resolves detonation (`then it bursts`) | swell/hiss tell max; burst is mechanic/encounter |
-| technique `[!narration]` resolves a strike ("lands past", "the blow answers") or invents a fight scene | tell portrait only: breath/stance/wing set + stable training place; effects stay Fiction/Mechanics |
+| technique `[!narration]` forced into object silhouette/material/wear | non-object tell: breath/stance/wing set + how-it-looks-when-used; no gear inventory |
+| technique invents venue/scene (`On a wind-open terrace…`, gust-peak staging) | stable tells only; training place stays Fiction/Training |
+| technique mysticism (`the blow answers that measure`, “answers” as magic tone) | concrete perceivable tell, or cut |
+| technique resolves a completed hit film | stop before the strike lands; effect → Fiction/Mechanics |
 | named-item Appearance closes on biography/dedication ("He named it for…") | object nouns only; engraved nameplate OK if visible; dedication → Story hooks |
 | first look narrates `anyone understands` / PC feelings / freeze-frame past contact | cut cognition; stop before resolved contact |
 | a body part arrives before its owner | name the body, familiar size, and silhouette first |
