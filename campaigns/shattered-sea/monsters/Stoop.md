@@ -10,6 +10,8 @@ tags: [monster, technique, countless]
 # Stoop
 
 > [!narration] Narration
+> A peregrine body hangs high above the field. Wings pin tight to the sides. A whistling dive line starts down and the telegraph ends there.
+
 
 
 

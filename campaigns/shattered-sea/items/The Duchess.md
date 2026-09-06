@@ -11,6 +11,8 @@ tags: [item, delmar, firearm]
 # The Duchess
 
 > [!narration] Narration
+> A long-barreled musket with a wooden stock and brass fittings. An engraved plate on the side reads The Duchess. It carries as an ordinary shoulder firearm for one shooter.
+
 
 
 

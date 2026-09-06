@@ -38,6 +38,8 @@ actions:
 # Grubnade
 
 > [!narration] Narration
+> A fat cream-green caterpillar longer than a thumb chews a flower. When the branch moves it stops and pulls tight. Two dark lines race under the skin as it hisses and swells.
+
 
 
 
