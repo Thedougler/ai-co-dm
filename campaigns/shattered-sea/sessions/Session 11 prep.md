@@ -51,13 +51,14 @@ Disposable. Rewrite next time; do not treat as canon.
 - Inland Calveno wreck survivors remain inland — hard path follows their trail signals
 
 ## Scenes (situation palette — not a railroad)
-- **A Drop rim court** — orient; hawk thermal above; scuffs inland vs beach-down
-- **B Snapped canopy gallery** — cover from hawk; squid side-pressure if they linger at tree-line
-- **C Taking-places plaza** — Hunger temptation beat; dead/claim traces; survivor signs
-- **E Fruit stair terraces** / **F Irrigation ditch maze** — transit toward Quiet or Warren bait
-- **I Quiet green verge** — soft landing; silence = eaten-out life; handoff to [[The Quiet]]
-- **K→Western Landing** — boat escape: tideline → shingle → wreck shade / reef gap → [[Uncertainty]] pickup
-- **Optional G/H** — [[Aruhe Warren Mouths]] / [[Aruhe Old Mouth Threshold]] (Blackrail foreshadow)
+- **A** [[Aruhe Drop Rim Court]] — orient; hawk thermal above; scuffs inland vs beach-down
+- **B** [[Aruhe Snapped Canopy Gallery]] — cover from hawk; squid side-pressure if they linger at tree-line
+- **C** [[Aruhe Taking-Places Plaza]] — Hunger temptation beat; dead/claim traces; survivor signs
+- **E** [[Aruhe Fruit Stair Terraces]] / **F** [[Aruhe Irrigation Ditch Maze]] — transit toward Quiet or warren bait
+- **I** [[Aruhe Quiet Green Verge]] — soft landing; silence = eaten-out life; handoff to [[The Quiet]] via [[Aruhe Silence Threshold]] (Q1)
+- **K→Western Landing** — [[Aruhe Beach Stair]] → [[Aruhe Tideline Moss Edge]] → [[Aruhe Shingle Strand]] → [[Aruhe Wreck Shade Hull]] / [[Aruhe Reef Gap Approach]] → [[Aruhe Low-Tide Teeth]] or [[Aruhe Deep-Water Pickup]] ([[Uncertainty]]); [[Aruhe Cliff Cove Dead-End]] = false exit
+- **Optional G/H** — [[Aruhe Warren Mouths]] / [[Aruhe Old Mouth Threshold]] (Blackrail foreshadow; not Passage [[Warren]])
+- **Stub peek J** — [[Aruhe Grassland Overlook]] only if they leave the spine
 
 ## Secrets and clues
 - Survivor trail intensifies toward Quiet / inland — not a scripted path
@@ -67,12 +68,17 @@ Disposable. Rewrite next time; do not treat as canon.
 - Mourners at Grove do not hunt; touching memorial is the danger (later session)
 
 ## Locations
-- [[Old Gardens]]: drop rim, snapped canopy, taking-places, fruit stairs / irrigation, warren mouths, Quiet verge, beach stair
-- [[Western Landing]]: tideline, shingle, wreck shade, reef gap, Uncertainty pickup
-- [[The Quiet]]: verge threshold only this session (Q1+)
+- [[Old Gardens]]: keyed A–I + K — see [[Aruhe - Site Ledger]]
+  - A [[Aruhe Drop Rim Court]] · B [[Aruhe Snapped Canopy Gallery]] · C [[Aruhe Taking-Places Plaza]]
+  - E [[Aruhe Fruit Stair Terraces]] · F [[Aruhe Irrigation Ditch Maze]]
+  - G [[Aruhe Warren Mouths]] · H [[Aruhe Old Mouth Threshold]] (optional bait)
+  - I [[Aruhe Quiet Green Verge]] · J [[Aruhe Grassland Overlook]] (stub) · K [[Aruhe Beach Stair]]
+- [[Western Landing]]: L1–L7
+  - L1 [[Aruhe Tideline Moss Edge]] · L2 [[Aruhe Shingle Strand]] · L3 [[Aruhe Wreck Shade Hull]]
+  - L4 [[Aruhe Reef Gap Approach]] · L5 [[Aruhe Low-Tide Teeth]] · L6 [[Aruhe Deep-Water Pickup]] · L7 [[Aruhe Cliff Cove Dead-End]]
+- [[The Quiet]]: [[Aruhe Silence Threshold]] (Q1) handoff this session
 - [[Aruhe - Hungry Isle]]: country-scale; multi-site regions; meaningful travel
 - [[Grasslands - River Valleys]] · [[The Rot]] · [[The Grove - Death Bloom]] · [[Lava Tubes]] · [[Clear Lake]]: stubs / next frontier
-- [[Aruhe Warren Mouths]] · [[Aruhe Old Mouth Threshold]]: optional nested bait (not Passage [[Warren]])
 
 ## NPCs
 - Inland Calveno survivors (unnamed cluster): trail signs, urgency, not a rescue script — Co-DM densify
@@ -103,8 +109,8 @@ Disposable. Rewrite next time; do not treat as canon.
 
 ## Densify sync (Dungeon-Designer)
 - **Design densify:** A–I + Western Landing L1–L7 = table-ready (graph / obstacle / night-hook level)
-- **Vault filing:** in progress — spine room notes first; Soft/Rot/Grove/Tubes stubs later
-- **Gaps until vault lands:** per-room notes, hub Keyed rooms indexes, site ledger — table can run from design keys
+- **Vault filing:** spine A–I + K + Landing L1–L7 + Q1 **LANDED** (`4cb919c` on `aruhe-megadungeon-keys`); Soft/Rot/Grove/Tubes still stubs
+- **Gaps closed:** per-room notes + hub Keyed rooms + [[Aruhe - Site Ledger]] for spine; farther regions still intentional stubs
 - **G/H:** optional bait light stubs — OK
 - **No travel overrides** beyond Nick’s multi-room regions + 4h soft-land at Quiet verge or boat
 
