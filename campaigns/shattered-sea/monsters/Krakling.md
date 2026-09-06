@@ -41,7 +41,8 @@ bonus_actions:
 ```
 # Krakling
 > [!narration] Narration
-> Something juvenile and many-armed moves in the Midchain water, too small for the stories and too wrong for the sea.
+> A Large juvenile arm-predator moves in Midchain water, many arms reaching at once. It is smaller than the flat-black adults of its kind. The arms thrash through a short stretch of water before the body settles.
+
 
 ## Fiction
 Juvenile arm-predator reported in the Midchain, part of the same displaced kind as [[Leviathan]] and [[Ridgeback]]. The report is sparse; do not promote a settled habitat or behavior beyond the Maw connection.

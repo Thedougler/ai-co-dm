@@ -51,7 +51,8 @@ legendary_actions:
 ```
 # Leviathan
 > [!narration] Narration
-> Longer than two ships, flat black and eyeless, it comes straight up from below whatever is loudest. The water boils before it arrives.
+> Longer than two ships, the Leviathan is flat black and eyeless, hide like wet stone rather than scale. Boiling water marks the rise before the body arrives. It comes up from below toward whatever is loudest in the open water.
+
 
 ## Fiction
 First named displaced kind pulled through the Maw signal. Hide like wet stone, not scale; blindsight and water-breathing are legacy descriptors only. It wants open water and pushes threats back toward the crack. [[Auralis]] holds it short; it breaks off below half its strength and never fights to the death.

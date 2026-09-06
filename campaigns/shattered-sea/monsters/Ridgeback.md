@@ -44,7 +44,8 @@ bonus_actions:
 ```
 # Ridgeback
 > [!narration] Narration
-> A flat-black shape passes where the water should show a wake; the ridge arrives before the body can be read.
+> A Huge flat-black Ridgeback moves where the water should show a wake. The dorsal ridge arrives before the body can be read. It is eyeless, and the waterline stays oddly still around the pass.
+
 
 ## Fiction
 A named member of the Leviathan's displaced kind, documented by [[Clyde]]. Flat-black, eyeless, blindsight, and water-breathing are the only inherited descriptors. It is a distinct named specimen, not a second name for the Leviathan; its smaller body and lower threat niche are house assumptions for play, not a settlement of the species.

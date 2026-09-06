@@ -42,7 +42,8 @@ actions:
 ```
 # Welak / whip shark
 > [!narration] Narration
-> The first thing seen is the lower barb riding proud of the water. Then the hull takes it.
+> A Large whip-shark shape rides with its lower barb proud of the water. The barb sits clear before the rest of the body shows. It turns toward salvage-pump vibration more readily than blood.
+
 
 ## Fiction
 Colonial charts call Welak “whip shark.” It surfaces once, fast, and attacks wood before a crew can reload; on the Shelfworks it follows salvage-pump vibration more than blood. A fed one rarely leaves the Maw. The specimen that struck the *Uncertainty* west of Calveno was an outlier; Kalowe fishermen keep the old name while Calveno underwriters write whip shark.
