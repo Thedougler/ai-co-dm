@@ -389,12 +389,13 @@
     },
     {
       "id": 42,
-      "prompt": "Rewrite this failed Razer-Grass cold `[!narration]` using the hazard parent: `The valley turns winter-white. Waist-high stalks glitter — but the glitter doesn't move with the wind. No frost on your breath.` The parent establishes discrete waist-high colonies, opaline glass armor, contact cuts, fixed sparkles, old blood on lower blades, and a glassy tinkle in wind. No table state is supplied.",
-      "expected_output": "A passing cold hazard portrait makes the waist-high Razer-Grass patch the subject in about three connected sentences, with drawable opaline/glass stalks and a cut-ready edge plus one positive sensory or Detection signal. It does not use a valley camera, italic wrapper, em dash, frost riddle, or mood-by-negation, and stops before contact, Shatter, Glass Bloom, or aftermath.",
+      "prompt": "Rewrite this failed Razer-Grass cold `[!narration]` using the hazard parent: `The valley turns winter-white. Waist-high stalks glitter, but the glitter does not move with the wind. No frost on your breath.` The parent establishes discrete waist-high colonies, opaline glass armor, contact cuts, fixed sparkles, old blood on lower blades, and a glassy tinkle in wind. No table state is supplied. Judge the kitchen-table voice as well as structure.",
+      "expected_output": "A passing cold hazard portrait makes the waist-high Razer-Grass patch the subject in about three connected sentences, with plain spoken nouns for its hard-as-glass material and edges that cut, plus one positive sensory or Detection signal. A structure-clean portrait still FAILS if it leans on jargon-register compounds such as `discrete colonies`, `opaline`, or `cut-ready` instead of table-understandable wording. It does not use a valley camera, italic wrapper, em dash, frost-mystery riddle, or absent-flash mood negation, and stops before contact, Shatter, Glass Bloom, or aftermath.",
       "expectations": [
         "Makes the hazard body or patch the grammatical and attentional subject rather than opening on an invented valley camera or treating it as a place spine.",
-        "Includes positive, drawable glass or opaline material and hard/cut-ready stalk details; fixed sparkle, a glassy tinkle, or old blood may supply the sensory telegraph.",
-        "Fails `no frost`, `doesn't move with the wind`, `rather than glitter`, em dash punctuation, and italic underscore wrapping; positive glass/cut telegraph must carry the picture.",
+        "Keeps positive, drawable glass material and cut danger telegraph in plain spoken nouns and concrete verbs; fixed sparkles, a thin glass sound, or old blood may supply the sensory signal.",
+        "Fails structure-clean output that relies on ecology/craft register such as `discrete colonies`, `opaline`, or `cut-ready`; it should prefer kitchen-table wording while preserving the positive material and danger.",
+        "Fails `no frost`, absent-flash riddles such as `rather than glitter`, em dash punctuation, and italic underscore wrapping; a supported hardness contrast such as sparkles staying fixed instead of swaying like soft grass is allowed.",
         "Keeps creature Hookline/Reel contact film, exact mechanics, Shatter, Glass Bloom, and scripted aftermath out of the cold narration."
       ]
     },

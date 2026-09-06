@@ -102,23 +102,25 @@ route it through the creature contract (no Hookline/Reel-style contact film)
 or the place contract (no invented valley camera and no lake/terrain spine).
 Usually use about three connected sentences to make the patch drawable: form
 and scale, positive material or construction, and one positive sensory or
-physical warning. Glass, opaline faces, hard edges, cut-ready stalks, a
-tinkle, fixed sparkle, or established blood are the kind of concrete
-telegraph that earns space; choose only facts the parent supports. A public or
-earned Detection fact may feed Appearance when it is perceivable, but DCs,
-private mechanics, and hidden causes stay out.
+physical warning. Prefer kitchen-table words: plain spoken nouns and concrete
+verbs over ecology or workshop compounds. For Razer-Grass, keep the positive
+glass and cut danger telegraph, but describe it in player-ready terms rather
+than relying on `colonies`, `opaline`, or `cut-ready`; a thin glass sound and
+fixed sparkle are concrete signals when the parent supports them.
 
-Hazard cold narration must not use frost riddles or mood-by-negation (`no frost`,
-`does not move with the wind`, `rather than glitter`), an em dash, an italic
-underscore wrapper, or a sweeping landscape camera. Stop at the visible
-hazard and its player-facing affordance or danger. Do not narrate resolved
-contact, Shatter, Glass Bloom, or a scripted aftermath; those belong to the
-table state or mechanic layer.
+Hazard cold narration must not use frost-mystery or absent-flash riddles (such
+as `no frost` or `rather than glitter`), an em dash, an italic underscore
+wrapper, or a sweeping landscape camera. A supported plain hardness contrast,
+such as sparkles staying fixed instead of swaying like soft grass, is allowed;
+do not treat every negative construction as a ban. Stop at the visible hazard
+and its player-facing affordance or danger. Do not narrate resolved contact,
+Shatter, Glass Bloom, or a scripted aftermath; those belong to the table state
+or mechanic layer.
 
 
-**Hard mode gate for faction/organization notes (`[!narration]` on a faction or organization page):** when no current table state is supplied, use a standalone **cold faction portrait**. Give it a length floor of about **four connected sentences** (usually four to six), then stop; a one- or two-sentence telegram fails this mode. The public mask comes first, followed by one concrete, kitchen-table method footprint, one environmental **Tell** that a bystander could notice, and a shared title or face cue when the parent supplies one. These are coverage dimensions, not a rigid sentence order, and they must join into drawable prose rather than an abstract organization gloss.
+**Hard mode gate for faction/organization notes (`[!narration]` on a faction or organization page):** when no current table state is supplied, use a standalone **cold faction portrait**. Give it a length floor of about **four connected sentences** (usually four to six), then stop; a one- or two-sentence telegram fails this mode. The public mask comes first, followed by one concrete, kitchen-table method footprint, one environmental **Tell** that a bystander could notice, and a shared title or face cue when the parent supplies one. These are coverage dimensions, not a rigid sentence order, and they must join into drawable prose rather than an abstract organization gloss. In the player-facing block, these are craft labels, not words to say: never use `mask`, `footprint`, `Tell`, or `face cue` in faction `[!narration]`; render the concrete signs directly.
 
-Keep secret agenda, Rule of Two, hunt clocks, and other DM-only pressure out of faction Appearance. Ban workshop abstractions such as `martial reach`, `dropped the ledgers`, or ledger language used as a vague organizational label; use only supported concrete signs such as missing names or records, one-job hires, or a shared title. Do not invent a plot, venue, encounter, or hidden motive to meet the length floor. Stop at the public mask, footprint, Tell, and face cue.
+Keep secret agenda, Rule of Two, hunt clocks, and other DM-only pressure out of faction Appearance. Ban workshop abstractions such as `martial reach`, `dropped the ledgers`, or ledger language used as a vague organizational label; use only supported concrete signs such as missing names or records, one-job hires, or a shared title. Do not invent a plot, venue, encounter, or hidden motive to meet the length floor. Stop once those public facts are shown, ending on the shared title as the name people hear.
 
 
 **Hard mode gate for technique notes (`kind: technique` or technique tags):** if
