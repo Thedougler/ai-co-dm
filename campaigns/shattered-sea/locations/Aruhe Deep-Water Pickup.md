@@ -10,7 +10,8 @@ session11_code: L6
 # Aruhe Deep-Water Pickup
 
 > [!narration] Narration
-> _Visualizer pending._
+> Deep-Water Pickup is open water past the reef gap, where a cutter silhouette holds off for boarding. Hull and orders carry over clean sea air free of island sweet. The gap behind leads back to the reef approach.
+
 
 ## At a glance
 Deep-water rendezvous with mobile [[Uncertainty]] — cleanest Session 11 boat soft landing.

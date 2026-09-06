@@ -13,7 +13,8 @@ tags: [session-prep, aruhe]
 Disposable. Rewrite next time; do not treat as canon.
 
 > [!narration] Narration
-> _Visualizer: Bloodhawk scare-and-drop above the canopy — party airborne / exposed after Crown Squid tree-line standoff; win is ground under closed canopy or grass, not killing the hawk._
+> You hang in open air above the canopy with the Crown Squid still holding the tree line below. A Bloodhawk arrives on the thermal, wings folding so the crimson tips flash on a dive aimed at the squid first, and at anything else left in the open sky. Closed canopy and deep grass end the stoop; the hawk owns the open thermal and will not follow you into either cover. Ground under that cover is the win, not killing the bird.
+
 
 ## Locked machine (Nick)
 - **Length:** ~4h

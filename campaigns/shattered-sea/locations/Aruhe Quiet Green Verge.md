@@ -10,7 +10,8 @@ session11_code: I
 # Aruhe Quiet Green Verge
 
 > [!narration] Narration
-> _Visualizer pending._
+> The Quiet Green Verge is denser green where small life thins and birdsong dies. Wet leaves and close air sit over the Gardens' last soft edge. Trails continue Quiet-ward into silence.
+
 
 ## At a glance
 Session 11 soft-landing border: Gardens green gives way to Quiet silence; survivor trail handoff into [[The Quiet]].
