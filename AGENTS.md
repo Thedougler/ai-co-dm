@@ -48,13 +48,15 @@ Obsidian LLM wiki for Nick's home D&D. **Markdown is the product.**
 
 **Always-on:** this table + `obsidian-markdown` for every wiki `.md` write. **On match:** that skill’s `SKILL.md` only. **On demand:** `references/` when the skill says.
 
-`session-wrapup` / `campaign-qa`: adapted from AntTheLimey/gm-apprentice (CC-BY-SA) — see each skill’s attribution block.
+`session-wrapup` / `campaign-qa`: AntTheLimey/gm-apprentice (CC-BY-SA). `wiki-triage` / `llm-wiki-eval`: po4yka-llm-wiki-skills (MIT). See each skill’s attribution block.
 
 | Job | Skill |
 |---|---|
 | Format any vault `.md` (Obsidian) | `obsidian-markdown` — **required on every wiki write** |
 | Find vault facts | `qmd-retrieval` |
 | LLM-wiki pattern / doctrine | `llm-wiki` |
+| Eval whether wiki helps / quality harness | `llm-wiki-eval` → **Ops** / **Skill-Creator** / **Organizer** |
+| Inbox / source triage before ingest | `wiki-triage` → **Ingest** / **Organizer** |
 | Ingest source → typed notes | `wiki-ingest` → **Ingest** |
 | Wiki health / orphans / hot drift | `wiki-lint` → **Linter** |
 | Citation / claim audit (one note) | `wiki-audit` → **Linter** (Organizer light use) |
