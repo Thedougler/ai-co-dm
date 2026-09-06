@@ -44,15 +44,33 @@ RESOLUTION — cut.
 
 ## Beats
 
-### 1. HOOK — Play a Cliffhanger (Ambush)
+### 1. HOOK — Play a Cliffhanger (Ambush) — [[Bloodhawk]]
 
-- **Purpose:** Put the party between a hunting bloodhawk and her prey so they get knocked off the terrace line into the first grass-and-river valley.
-- **Table sees:** Mid-air over the thin coastal woods and mangroves at the old terraces. They are still fleeing the crown squid. A shadow passes. Then a rush and a blur: the adult bloodhawk and her young stoop. The squid is the thing she is diving on. The party is in that same air.
-- **Truth:** The adult hawk is hunting the squid. The young are learning the stoop and will hit whatever their parent flushes. The party is not the chosen meal. They become one if they make themselves obvious: hanging in the open, hitting the hawk, loud magic, grabbing the squid, flying toward the young. **Unrevealed:** she will follow the squid down. She will also take a player who draws that attention. She does not care about the beach, the ship, or the night’s later story.
-- **Pressure:** Three bodies in one patch of sky. Staying high next to the squid keeps them in the hunt. Making noise or dealing damage puts a stoop on them. Dropping into the grass and river is how they leave the hunt. Time in the air costs hits.
-- **If they break:** If they go quiet and drop away from both animals, let them land; the hawk stays on the squid. If they attack the hawk or stay glued to the squid, she takes a player if she can. If they force a line back to the beach, she still hunts the squid across that air and will hit anyone who stays in it. Do not turn this into a fight to the death with either animal. When they hit the river valley, the beat is over.
+- **Live when:** The crew is still in the air over [[Old Gardens]], at the same height as the [[Great Crown Squid]] they have not left.
+- **Pressure / stakes:** Three bodies share one patch of sky. Time spent high costs hits. Hanging in the open, hitting the hawk, loud magic, grabbing the squid, or flying toward the young puts a stoop on a character. Dropping into the grass and river of [[Grasslands - River Valleys]] is how they leave the hunt.
+- **Spotlight:** [[Crissdalynn Khinriss]] is already on the wing. [[Delmar Fisk]] in the [[Flying Boots]] is the other magnet. Either can draw the adult if they stay obvious.
 
-You are still in the air over the thin coastal woods at the old terraces, the same height you were when you left the squid. It is ahead of you, a long dark shape pulling through the last of the trees. A shadow runs across your backs. Then the air hits: the adult bloodhawk drops out of the sun with her young tight behind her, and the first stoop goes at the squid you have not left yet.
+> [!narration] Narration
+> The old terrace woods and mangroves still lie under them, thin coastal cover at the same height they held when they left the squid. Ahead, a long dark mantle pulls through the last of the trees, glass-pale where the sun hits it, thick arms taking separate crowns. A moving bar of dark runs across that floor. Out of the sun a charcoal hawk drops, wings eighty feet across and pinning tight, crimson-black flight feathers, shaggy red nape, cream hook of a beak, talons as big as a rowboat. Her young hold the same line behind her. The first stoop goes at the squid they have not left yet.
+
+**On the table**
+- The adult [[Bloodhawk]] and her young are already in the stoop.
+- The [[Great Crown Squid]] is still ahead in the last trees.
+- Thin coastal woods, mangroves, and old terrace stone sit below them, then the first grass-and-river valley.
+- The beach and [[Uncertainty]] still share this air if anyone forces a line that way.
+- They can go quiet and drop away from both animals, stay glued to the squid, hit the hawk, fly toward the young, or try the beach.
+
+> [!secret] DM truth
+> The adult is hunting the squid. The young are learning the stoop and will hit whatever she flushes. The crew is not the chosen meal unless they make themselves one. She will follow the squid down. She will also take a character who draws that attention. She does not care about the beach, the ship, or the rest of the night.
+
+> [!mechanic] Procedure
+> This is not a fight to the death with either animal. If they go quiet and drop away from both animals, they land and the hawk stays on the squid. If they attack the hawk or stay glued to the squid, she takes a character if she can (Talon Grab, then Haul Aloft). If they force a line back to the beach, she still hunts the squid across that air and hits anyone who stays in it. Time in the air costs hits. Use the easy dial on [[Bloodhawk]] (Multiattack only, no Dive recharge) unless they keep hanging in the open after the first pass.
+
+**If violence starts:** She opens on the squid. The young hit whatever the parent flushes. The opening tell is wings pinning and crimson tips flashing. She will not stoop closed canopy or eight-foot grass. When bloodied, she stops grabbing and climbs for the cloud line.
+
+**If ignored:** She follows the squid down through this air. Anyone still high stays in the hunt.
+
+**Advance when:** They hit moving water and tall grass in the first river valley. Stop this card there.
 
 ### 2. DEVELOPMENT — Landing sign and smoke
 
