@@ -3,7 +3,7 @@ collections:
     path: /Users/nick/Documents/ai-co-dm
     pattern: "**/*.md"
     context:
-      "": "ai-co-dm Obsidian LLM wiki: campaigns, lexicon, templates, inbox, AGENTS.md, README. Public vault for Nick home D&D. Prefer -c wiki for co-DM / homebrew wiki lookups."
+      "": "ai-co-dm Obsidian LLM wiki: campaigns, lexicon, templates, inbox, AGENTS.md, README, and imported Shattered Sea session reports/transcripts under campaigns/shattered-sea/sessions/. Public vault for Nick home D&D. Prefer -c wiki for live co-DM / homebrew wiki lookups and canonical session evidence."
   skills:
     path: /Users/nick/Documents/ai-co-dm/.agent/skills
     pattern: "**/*.md"
@@ -13,7 +13,7 @@ collections:
     path: /Users/nick/shattered-sea/wiki/shattered-sea
     pattern: "**/*.md"
     context:
-      "": READ-ONLY legacy Shattered Sea Campaign OS wiki (~/shattered-sea/wiki/shattered-sea). Prior context for Ingest/Co-DM. Never write here — compile into ai-co-dm campaigns/shattered-sea instead.
+      "": READ-ONLY legacy Shattered Sea Campaign OS wiki (~/shattered-sea/wiki/shattered-sea) for prior non-session context. Imported session reports/transcripts are canonical in ai-co-dm campaigns/shattered-sea/sessions/ under wiki. Never write here — compile into ai-co-dm campaigns/shattered-sea instead.
 models:
   embed: hf:ggml-org/embeddinggemma-300M-GGUF/embeddinggemma-300M-Q8_0.gguf
   generate: hf:tobil/qmd-query-expansion-1.7B-gguf/qmd-query-expansion-1.7B-q4_k_m.gguf

@@ -20,9 +20,12 @@ never merge it into the log as if it happened.
 
 1. **Intake.** Accept `txt`, `md`, `vtt`, `srt`, chat export, or pasted notes.
    Preserve timestamps and speaker labels when available. Record campaign and
-   session IDs; retrieve missing IDs rather than guessing. Attach prior `hot`
-   state and session prep only as grounding, never as an override or evidence
-   that an event occurred.
+   session IDs; retrieve missing IDs rather than guessing. For existing
+   Shattered Sea evidence, follow `qmd-retrieval`'s canonical route: retrieve
+   live-vault records under `campaigns/shattered-sea/sessions/<NN>/` from `wiki`,
+   using a transcript beside its report only when that file exists. Attach prior
+   `hot` state and session prep only as grounding, never as an override or
+   evidence that an event occurred.
 2. **Retrieve before interpretation.** Run `qmd-retrieval` for campaign names,
    existing entities, rules terms, prior session state, and `hot.md`. Fetch
    full notes behind promising snippets. A transcript is evidence; vault facts
