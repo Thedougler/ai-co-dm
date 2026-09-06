@@ -84,7 +84,7 @@ Agency not railroad: the party can follow, sample, abandon, or misread the trail
 - [[Grasslands - River Valleys]] · [[The Rot]] · [[The Grove - Death Bloom]] · [[Lava Tubes]] · [[Clear Lake]]: stubs / next frontier
 
 ## NPCs
-- Inland Calveno survivors (unnamed cluster): trail signs, urgency, not a rescue script — Co-DM densify
+- Inland Calveno survivors (unnamed cluster): trail signs, urgency, not a rescue script — see Survivor trail signals
 - Ship crew aboard [[Uncertainty]]: pickup if boat path — Co-DM as needed
 
 ## Monsters (link only; counts at table)
@@ -154,4 +154,3 @@ Agency not railroad: the party can follow, sample, abandon, or misread the trail
 - **Co-DM:** encounter palette cards · survivor trail signals · PC spotlights · densify prep body — **done**
 - **Monster-Brewer:** only if a spine fight lacks math
 - **Visualizer:** cold-open `[!narration]` after content exists — **pending**
-''
