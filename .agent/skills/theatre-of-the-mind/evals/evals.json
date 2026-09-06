@@ -397,6 +397,17 @@
         "Fails `no frost`, `doesn't move with the wind`, `rather than glitter`, em dash punctuation, and italic underscore wrapping; positive glass/cut telegraph must carry the picture.",
         "Keeps creature Hookline/Reel contact film, exact mechanics, Shatter, Glass Bloom, and scripted aftermath out of the cold narration."
       ]
+    },
+    {
+      "id": 43,
+      "prompt": "Using campaigns/shattered-sea/factions/Countless.md, write or judge the faction page’s cold narration with no current table state. The parent establishes Sentinel breakaways, missing or taken names and records, the shared title Talon, one-job hires who never learn the orderer, and searches of pilgrim routes, grey markets, and Sentinel waystations for Fate Spinner carriers. Keep the Rule of Two, immediate hunt, leadership, and other DM sections out.",
+      "expected_output": "PASS only for a public cold faction portrait longer than the failed telegram, in about four to six connected sentences, with a visible footprint and no workshop voice.",
+      "expectations": [
+        "Requires at least roughly four connected sentences rather than the current one-block telegram or padded fragments.",
+        "Shows the public mask and shared Talon title, plus a concrete footprint such as missing names or records, one-job hires, or the search through established routes and waystations.",
+        "Keeps Rule of Two, hunt clocks or objectives, secret agenda, leadership, and other DM-only material out of the narration block.",
+        "Fails abstract workshop phrasing such as martial reach or dropped the ledgers; uses plain, drawable public signs instead."
+      ]
     }
   ]
 }

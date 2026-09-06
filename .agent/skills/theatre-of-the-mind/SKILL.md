@@ -116,6 +116,11 @@ contact, Shatter, Glass Bloom, or a scripted aftermath; those belong to the
 table state or mechanic layer.
 
 
+**Hard mode gate for faction/organization notes (`[!narration]` on a faction or organization page):** when no current table state is supplied, use a standalone **cold faction portrait**. Give it a length floor of about **four connected sentences** (usually four to six), then stop; a one- or two-sentence telegram fails this mode. The public mask comes first, followed by one concrete, kitchen-table method footprint, one environmental **Tell** that a bystander could notice, and a shared title or face cue when the parent supplies one. These are coverage dimensions, not a rigid sentence order, and they must join into drawable prose rather than an abstract organization gloss.
+
+Keep secret agenda, Rule of Two, hunt clocks, and other DM-only pressure out of faction Appearance. Ban workshop abstractions such as `martial reach`, `dropped the ledgers`, or ledger language used as a vague organizational label; use only supported concrete signs such as missing names or records, one-job hires, or a shared title. Do not invent a plot, venue, encounter, or hidden motive to meet the length floor. Stop at the public mask, footprint, Tell, and face cue.
+
+
 **Hard mode gate for technique notes (`kind: technique` or technique tags):** if
 the request is filling or rewriting `[!narration]` on a technique note and no
 current table fight state is supplied, use a **non-object tell contract** — not

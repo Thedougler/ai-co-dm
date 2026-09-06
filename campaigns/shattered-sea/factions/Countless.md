@@ -9,14 +9,23 @@ tags: [faction, countless, schism]
 # Countless
 
 > [!narration] Narration
-> Breakaways from the Sentinels who kept martial reach and dropped the ledgers. Names go missing; agents share the title Talon. Hired blades and paid contacts get one job each and never learn who ordered it.
+>
 
 
-## Public face
+## Mask
 Breakaways from the Sentinels who kept martial reach and dropped discipline. Their public face is absence from every ledger: taken names, no records, and a shared title of **Talon**.
 
-## Goal and method
-They bend fate for themselves and ensure nothing is counted against them. Hired blades and paid contacts receive one job each and never know who ordered it. Countless sweeps pilgrim routes, grey markets, and Sentinel waystations for Fate Spinner carriers.
+## Need
+They bend fate for themselves and ensure nothing is counted against them.
+
+## Method
+Hired blades and paid contacts receive one job each and never know who ordered it. Countless sweeps pilgrim routes, grey markets, and Sentinel waystations for Fate Spinner carriers.
+
+## Leverage
+Hired blades, paid contacts, covert routes, taken names, and the ability to avoid ledgers give Countless its reach. No records and one-job contacts limit what any individual Countless agent knows.
+
+## Tell
+Names go missing, and agents use the shared title **Talon**. A hired blade or paid contact can finish one job without learning who ordered it.
 
 ## Leadership
 - Founder and leader: [[Talon Vantyrus]] (also the Osset guise)
