@@ -51,10 +51,10 @@ reactions:
 # Wolfrabbit
 
 ## Art
-![[attachments/shattered-sea/creatures/wolfrabbit.png]]
+![[attachments/shattered-sea/creatures/wolfrabbit-of-aruhe.png|Wolfrabbit of Aruhe]]
 
 > [!narration] Narration
-> Wolf-sized dark-striped hunters work the first terraces on a hunting-cat body with long ears and a twitching nose. Packs of four to six bound from terrace brush in silent thirty-foot leaps. Warrens honeycomb the terrace stone beneath them.
+> A dark-striped hunting cat crouches over the boat, its enormous ears pricked above a broad, furred head. Red eyes track you through the terrace brush, a twitching nose wet with saliva and hooked claws gripping the rim. Wolf-sized and built to spring, it can cross the gap before the boat clears the bank.
 
 
 
