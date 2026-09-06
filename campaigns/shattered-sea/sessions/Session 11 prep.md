@@ -22,7 +22,7 @@ Disposable. Rewrite next time; do not treat as canon.
 - **Spine:** [[Old Gardens]] A→B→C→E/F→**I Quiet verge** soft landing
 - **Escape:** K Beach stair → [[Western Landing]] → [[Uncertainty]] (densified enough to run)
 - **Hunger at C:** one temptation beat — present & track; no forced claim ([[Aruhe Hunger Rule]])
-- **Optional nested:** [[Warren]] / Old Mouth (G/H) — bait only
+- **Optional nested:** [[Aruhe Warren Mouths]] (G) / [[Aruhe Old Mouth Threshold]] (H) — bait only
 - **Stubs this session:** Grasslands / [[The Rot]] / Grove / [[Lava Tubes]]
 - **Table:** field Long Rest + watches; after LR ask if ate → warn → no food that day = 1 exhaustion next (**≠** Hunger Rule)
 
@@ -57,7 +57,7 @@ Disposable. Rewrite next time; do not treat as canon.
 - **E Fruit stair terraces** / **F Irrigation ditch maze** — transit toward Quiet or Warren bait
 - **I Quiet green verge** — soft landing; silence = eaten-out life; handoff to [[The Quiet]]
 - **K→Western Landing** — boat escape: tideline → shingle → wreck shade / reef gap → [[Uncertainty]] pickup
-- **Optional G/H** — [[Warren]] mouths / Old Mouth threshold (Blackrail foreshadow)
+- **Optional G/H** — [[Aruhe Warren Mouths]] / [[Aruhe Old Mouth Threshold]] (Blackrail foreshadow)
 
 ## Secrets and clues
 - Survivor trail intensifies toward Quiet / inland — not a scripted path
@@ -72,7 +72,7 @@ Disposable. Rewrite next time; do not treat as canon.
 - [[The Quiet]]: verge threshold only this session (Q1+)
 - [[Aruhe - Hungry Isle]]: country-scale; multi-site regions; meaningful travel
 - [[Grasslands - River Valleys]] · [[The Rot]] · [[The Grove - Death Bloom]] · [[Lava Tubes]] · [[Clear Lake]]: stubs / next frontier
-- [[Warren]]: optional nested
+- [[Aruhe Warren Mouths]] · [[Aruhe Old Mouth Threshold]]: optional nested bait (not Passage [[Warren]])
 
 ## NPCs
 - Inland Calveno survivors (unnamed cluster): trail signs, urgency, not a rescue script — Co-DM densify
