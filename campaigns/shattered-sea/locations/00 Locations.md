@@ -10,7 +10,7 @@ tags: [index, location]
 - [[Blackrule]] · [[Sarn's Landing]] · [[Galewall]] · [[Doldrums]] · [[Drowned Maw]] · [[Greyteeth]]
 - [[Calder's Tooth and Port Tidefall]] · [[Calven and Calveno]] · [[Harwick]] · [[Aldenmere]] · [[Stenmark]] · [[High Eyrie]]
 - [[Warren]] · [[Shelfworks]] · [[Fathomrush]] · [[Sparhold Isle]] · [[Sparhold]] · [[Aruhe - Hungry Isle]] · [[Karath]] · [[Murrat]]
-- [[Sorn|Sorn]] · [[Dreth|Dreth]] · [[Orak|Orak]] · [[Veth West Beach]] · [[Sorn Guarded Beach]] · [[Dreth-Orak Channel]]
+- [[Sorn|Sorn]] · [[Dreth|Dreth]] · [[Orak|Orak]] · [[Veth West Beach]] · [[Sorn Guarded Beach]] · [[Dreth-Orak Channel]] · [[Sanvashti]]
 - [[Western Landing]] · [[Old Gardens]] · [[The Quiet]] · [[Grasslands - River Valleys]] · [[The Rot]] · [[Clear Lake]] · [[The Grove - Death Bloom]] · [[Lava Tubes]]
 - [[Uncertainty]] · [[Kalowe]] · [[Yssenmoor]] · [[Vestra]] · [[Mercatura]]
 

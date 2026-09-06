@@ -19,6 +19,10 @@ Grung color caste is made and maintained through diet plus a daily sealing rite,
 The clans know the practical rule. Outsiders can learn it from bodies, food, bath sites, caste behavior, and a Grung whose color has changed or stalled. Blue scouts and go-betweens, purple officers and warriors, and green laborers are established role signals; the exact institutional duties of red remain UNKNOWN.
 
 ## Gold and the reagent farms
+
+## Ossketh boundary
+[[Ossketh]] is the hidden learned technique that finishes and locks a color change. It is not the daily soak and not a public prayer. The rite is meant to be cast on someone else and completed by a second pair of hands; a self-cast remains open and incomplete. [[Ozzeth]] found the rite first, and Gold used the name **Twiceborn** as censure rather than admit the workshop was real.
+
 Gold-tier color requires a rare toxin grown on secret reagent farms in the interior of [[Karath]]. The farms are guarded and hidden even from lower castes. The gold presence is not explained by a public shrine or a simple inherited bloodline. Simone's bands and dots show a **stalled partial gold** over purple-black; she never received Karath toxin, so the visible change does not prove successful completion of the gold process.
 
 ## Censure and Twiceborn
@@ -36,6 +40,9 @@ Twiceborn runnable core is on [[Ossketh]]; whether every red hat means the same 
 - People: [[Simone]] · [[Jean-Claude Tabarnack]] · [[Auralis]]
 - Places: [[Verdant Teeth]] · [[Karath]] · [[Sorn]]
 - Faction: [[Grung clans]]
+
+## Provenance
+Primary source: staged Nick dump, `inbox/archive/FILED-2026-09-05-grung-teeth.md`. Legacy context promoted from `/Users/nick/shattered-sea/wiki/shattered-sea/npc-ozzeth-the-twiceborn.md` for Ozzeth’s blue-and-red skin, Gold’s Twiceborn censure, and the self-cast rite that never completes. Mechanical procedure remains in [[Ossketh]] and is not duplicated here.
 
 ## Table use
 Show the rite through a guarded soak, an offered meal, a color read, a red-hat avoidance, or a purple officer whose body has not completed the next change. Do not make the soak a spell. Caste color’s **magical** lock is [[Ossketh]] (separate note) — diet and soak stay nonmagical.

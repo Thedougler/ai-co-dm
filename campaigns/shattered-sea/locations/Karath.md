@@ -31,6 +31,9 @@ Karath is the Grung raid and hatchery island, and [[Aruhe - Hungry Isle]]'s near
 - **Retreat:** reverse the reef gap or swim the channel only if the party has made the water survivable; neither route is safe by default.
 
 ## People and work
+
+The island’s poison race is also the clans’ supply contradiction: hidden Gold farms produce the rare toxin needed for true gold-tier color, while Simone’s [[Dravosi Crown]] stock is a substitute and must not be treated as Karath product.
+
 - Grung clans hold everything beyond the tree line and permit no sanctioned landing.
 - Fighting-age captives from raids enter a slavery pipeline. Captive casters are kept slow on toxin; a measured antidote lets them touch the Weave but not keep it.
 - Hatchery crews use captive casters to enlarge giant toads, snakes, and spiders in wet pens. These are worked animals, not an invitation to invent a new monster ecology.

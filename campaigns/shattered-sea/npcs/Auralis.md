@@ -20,6 +20,9 @@ Contact is crushing cold, a smooth stone floor into black water, pale lights whe
 ## Public Grung face
 The Grung clans call their theocratic mandate Auralis: a gold-caste, serene authority whose decrees organize sacred ground in the [[Verdant Teeth]]. The public religion intensified or woke when the Pearl signal crossed. Treat this as a real public layer, not proof that the Grung constructed a separate being.
 
+## Grung continuity note
+In the Grung layer, **Auralis** is the public divine name spoken for the serene gold-caste authority and its decrees. The Antheri machine remains the separate, trench-bound continuity already recorded above; this ingest does not merge, rename, or otherwise break the Maw layer.
+
 ## Open identity question
 Whether the Grung “constructed demigod” is worship of this machine, a separate construct, or a public interpretation of the same force is unresolved. Do not silently collapse the layers; ask Co-DM|Nick before committing if later dump/legacy evidence cannot reconcile them. For now use one linked entity with public face versus secret machine.
 

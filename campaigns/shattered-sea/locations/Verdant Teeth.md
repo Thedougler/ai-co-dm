@@ -22,6 +22,10 @@ Five country-scale rainforest islands held by Grung clans: lush, wet, layered, a
 - **Trajectory:** If nobody intervenes, the fleet and captive pipeline consolidate while water losses make patrols and censure harsher.
 
 ## Geography and topology
+
+## Closed interior and water pressure
+Jungle reaches the tide and pale reef rings the channels. There is no harbour wall and no town smoke. Beach trade is the only sanctioned interface; an uninvited hull entering a reef gap gets a dart, not a hail. The five islands are one closed system, but facing shores are hours apart while interiors take weeks.
+
 - [[Veth|Veth]] — largest western island; one twenty-stride beach, blue go-betweens, no pier, and a vertical closed interior.
 - [[Sorn|Sorn]] — farm heart; Botukuri flood-pulse lanes and [[Sorn Guarded Beach]].
 - [[Karath]] — eastern raid and hatchery island, an Aruhe near neighbor with tannin rivers and secret gold reagent farms inland.
@@ -53,6 +57,9 @@ Quiet → alert → contested → transformed. The fleet's water loss makes ever
 
 ## Secrets (DM)
 The Grung clans' historical crime against a far-Midchain druid and her companion is the reason [[Aruhe - Hungry Isle]] exists as it does today. The full origin is in [[Grung and the Making of Aruhe]] and [[The Blight]]. Do not put the confession in the public narration.
+
+## Provenance
+Primary source: staged Nick dump, `inbox/archive/FILED-2026-09-05-grung-teeth.md`. Legacy geography and closed-interior context: `/Users/nick/shattered-sea/wiki/shattered-sea/the-grung-clans/region-verdant-teeth.md`.
 
 ## Return state
 Track which beach is open, which patrol has moved, whether the fleet has departed, what the party learned about the captive pipeline, and whether the congregation or water route gained or lost ground.

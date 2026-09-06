@@ -19,6 +19,9 @@ tags: [pc, grung, botukuri, twiceborn]
 Three-foot electric-blue Grung Gloom Stalker Ranger, scarred, wearing a red beret and the false moustache called Corto di Velo.
 
 ## Bonds / ideals that matter
+
+Jean-Claude came from the Botukuri clan on Sorn; [[Simone]] is his sister and still keeps the Sorn garrison.
+
 - His sister [[Simone]] sold the household and reported him; she hunts him as a leak.
 - Pell, his gnome friend and captive, was killed by slavers. Jean-Claude cannot repair that debt.
 - Former Botukuri scout and former slaver: he once identified settlements, took people, and wrote ambush doctrine. The crew does not know.

@@ -51,7 +51,15 @@ The clans teach a gold-caste story: gold is the sacred authority, Auralis is the
 
 The exact nature of the gold presence is **UNKNOWN**. The older vault called [[Auralis]] a constructed demigod; this ingest establishes only a public theocratic claim and a private apex presence through gold. Do not decide whether the presence is a god, construct, conduit, or deception.
 
+Fiction layer: [[Gold Caste Serene]]; existing encounter sheet: [[The Gold-Caste Serene]]. Keep the faith tap and unlookable body as fiction continuity, not new monster math.
+
+
 ## Methods
+- **Poison equalizer:** Skin poison, harvested plants, frogs, and fungi let a declining water power make every approach costly.
+- **Raid calculus:** Every raid weighs captives and toxin against hulls, crew, and the retreat they can still afford. Their shrinking maritime reach makes each loss harder to replace.
+- **Press-gang:** Fighting-age men taken from festival ports — Calveno first, Midchain next — are routed into [[Karath]] as slave-soldiers.
+- **Cornered tactics:** They poison wells and spend civilians when the perimeter closes; this is escalation, not a separate war doctrine.
+
 - **Closed interior:** sanctioned beaches are the only ordinary outsider interface. Leaving the sand without permission is a breach, not an invitation to explore.
 - **Vethka war proas:** narrow war proas carry Grung raiding power through reefs and channels. Exact construction and mechanics remain a fiction stub in [[Vethka]].
 - **Toxin:** harvested from Grung biology and the Teeth's plants, frogs, and fungi; toxin is harvest, weapon, export, and caste identity at once.
@@ -74,8 +82,12 @@ The clans trade at beaches but do not open the interior. Blue intermediaries han
 
 The clans are losing ground on water. In Season 2 that pressure makes their actions sharper: fewer safe retreats, more aggressive patrols, faster movement of captives, and less patience for anyone who treats a beach protocol as hospitality.
 
+They sell toxin to the [[Dravosi Crown]] even while raiding Crown and Concordat coasts. The Crown pipeline is leverage and contradiction: export what they need to weaponize, while refusing to open the interior that makes it possible.
+
+
 ## Clan note: Botukuri
-Botukuri is a Sorn farming clan. Its flood-pulse lanes are seasonal occupation rather than a permanent town: plant, recut, abandon, and return as the water and forest dictate. Blue scouts can serve as intermediaries; the surviving dump does not establish a full Botukuri government, leader list, or relation to every other color.
+Botukuri is a Sorn farming clan. Its flood-pulse lanes are seasonal occupation rather than a permanent town: plant, recut, abandon, and return as the water and forest dictate. Blue scouts can serve as intermediaries. [[Jean-Claude Tabarnack]] came from Botukuri and blue; his sister [[Simone]] still keeps the Sorn garrison. The surviving dump does not establish a full Botukuri government, leader list, or relation to every other color.
+
 
 ## Faces
 - Apex presence: [[Auralis]] — public mandate / private serene presence; exact nature UNKNOWN.
@@ -99,6 +111,9 @@ The five islands of [[Verdant Teeth]], Vethka war proas, reef and channel patrol
 
 ## Aruhe connection (DM)
 The Grung clans made [[Aruhe - Hungry Isle]] what it is today. Hundreds of years ago they captured a druid from a far Midchain island, tortured her, drove her mad, and killed her companion when the two escaped to Aruhe. The full confession belongs in [[Grung and the Making of Aruhe]], not in player-facing narration. [[The Blight]] carries this history as its origin.
+
+## Provenance
+Primary source: staged Nick dump, `inbox/archive/FILED-2026-09-05-grung-teeth.md`. Promoted legacy context: `/Users/nick/shattered-sea/wiki/shattered-sea/the-grung-clans/faction-grung-clans.md` (poison equalizer, deteriorating water reach, raid calculus, cornered escalation), `/Users/nick/shattered-sea/wiki/shattered-sea/the-grung-clans/region-verdant-teeth.md` (closed interior), and `/Users/nick/shattered-sea/wiki/shattered-sea/the-grung-clans/region-sorn.md` (Botukuri and Simone).
 
 ## Unknowns / do not decide
 - Whether Auralis is a constructed demigod, a conduit, a creature, or a story made effective by congregation.

@@ -16,4 +16,5 @@ tags: [index, faction]
 - Related: [[Aldric Drave]] · [[Aleksander Malone]] · [[Simone]]
 
 ## Related lore
+- [[Gold Caste Serene]] · [[Ossketh]]
 - [[Sentinel Schism]] · [[Soul Incarnate]] · [[Grung Color and the Sealing Rite]] · [[Grung and the Making of Aruhe]] · [[Vethka]]
