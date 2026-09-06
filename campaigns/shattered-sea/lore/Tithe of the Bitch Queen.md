@@ -23,7 +23,7 @@ Some sailors call every storm-taken treasure Tithe. The named Sunken Crown hoard
 
 ## Linked
 - Faction: [[Umberlee]] · [[Waveservants]]
-- Item: [[Pearl of Souls]]
+- Item dials: `campaigns/shattered-sea/items/Tithe of the Bitch Queen.md`
 - Place: [[Sunken Crown]]
 
 ## Table use

@@ -19,4 +19,4 @@ tags: [index, item]
 
 ## Umberlee ingest
 - [[Pearl of Souls]] — seven-instrument relic, Vel Orn theft, drowned-soul capture, and boundary signal.
-- [[Tithe of the Bitch Queen]] — Sunken Crown hoard and saltwater-return weather curse.
+- [[Tithe of the Bitch Queen]] — item dials: `campaigns/shattered-sea/items/Tithe of the Bitch Queen.md`; Sunken Crown hoard and saltwater-return weather curse.
