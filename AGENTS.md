@@ -77,7 +77,7 @@ Obsidian LLM wiki for Nick's home D&D. **Markdown is the product.**
 | Post-session durable log + surgical canon | `session-wrapup` → **Co-DM** / **Session-Planner** (complements `session-transcript-ingest`) |
 | Canon / graph QA | `campaign-qa` → **Co-DM** / **Session-Planner** / **Organizer** (hygiene stays `wiki-lint`) |
 | Places | `place-design` |
-| Vehicles / named craft (ships, boats) | upcoming `vehicle-design` → **Homebrewer**/designers; TotM vehicle surface → **Visualizer**; notes under `campaigns/<campaign>/vehicles/` (**Organizer**) |
+| Vehicles / named craft (ships, boats) | `vehicle-design` → **Homebrewer** (vehicle math); TotM vehicle surface → **Visualizer**; notes under `campaigns/<campaign>/vehicles/` (**Organizer**) |
 | Dungeons | `dungeon-design` |
 | NPCs | `npc-design` |
 | Monsters | `homebrew-monsters-5e` → **Homebrewer** |
