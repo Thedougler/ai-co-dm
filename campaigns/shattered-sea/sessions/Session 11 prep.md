@@ -38,11 +38,11 @@ Disposable. Rewrite next time; do not treat as canon.
 | Resolution | Changed map: food, claims, survivor trail state, ship position | Seed next frontier |
 
 ## Characters
-- [[Catarina Da'Virelli]]: spotlight TBD — Co-DM
-- [[Crissdalynn Khinriss]]: spotlight TBD — Co-DM
-- [[Delmar Fisk]]: spotlight TBD — Co-DM
-- [[Jean-Claude Tabarnack]]: spotlight TBD — Co-DM
-- [[Perrin Black-Jaw]]: Hunger Rule / island lore pressure — Co-DM
+- [[Catarina Da'Virelli]]: salvage/evidence on terraces and wreck; Hunger versus claim — Co-DM
+- [[Crissdalynn Khinriss]]: cartography under pressure; Quiet silence reading — Co-DM
+- [[Delmar Fisk]]: orders under scare-and-drop and boat valve — Co-DM
+- [[Jean-Claude Tabarnack]]: route/ambush survival; Hunger Rule versus Grung instinct — Co-DM
+- [[Perrin Black-Jaw]]: Hunger Rule / Nona survey obligation, not Auralis deep dive — Co-DM
 
 ## Strong start (DM notes)
 - Open in air above canopy; [[Bloodhawk]] arrives hunting the [[Great Crown Squid]] (and potentially the party)
@@ -51,13 +51,13 @@ Disposable. Rewrite next time; do not treat as canon.
 - Inland Calveno wreck survivors remain inland — hard path follows their trail signals
 
 ## Scenes (situation palette — not a railroad)
-- **A** [[Aruhe Drop Rim Court]] — orient; hawk thermal above; scuffs inland vs beach-down
-- **B** [[Aruhe Snapped Canopy Gallery]] — cover from hawk; squid side-pressure if they linger at tree-line
-- **C** [[Aruhe Taking-Places Plaza]] — Hunger temptation beat; dead/claim traces; survivor signs
-- **E** [[Aruhe Fruit Stair Terraces]] / **F** [[Aruhe Irrigation Ditch Maze]] — transit toward Quiet or warren bait
-- **I** [[Aruhe Quiet Green Verge]] — soft landing; silence = eaten-out life; handoff to [[The Quiet]] via [[Aruhe Silence Threshold]] (Q1)
-- **K→Western Landing** — [[Aruhe Beach Stair]] → [[Aruhe Tideline Moss Edge]] → [[Aruhe Shingle Strand]] → [[Aruhe Wreck Shade Hull]] / [[Aruhe Reef Gap Approach]] → [[Aruhe Low-Tide Teeth]] or [[Aruhe Deep-Water Pickup]] ([[Uncertainty]]); [[Aruhe Cliff Cove Dead-End]] = false exit
-- **Optional G/H** — [[Aruhe Warren Mouths]] / [[Aruhe Old Mouth Threshold]] (Blackrail foreshadow; not Passage [[Warren]])
+- **A** [[Aruhe Drop Rim Court]] — orient; hawk thermal above; scuffs inland vs beach-down — [[Bloodhawk scare-and-drop]]
+- **B** [[Aruhe Snapped Canopy Gallery]] — cover from hawk; squid side-pressure if they linger at tree-line — [[Wolfrabbit terrace flank]]
+- **C** [[Aruhe Taking-Places Plaza]] — Hunger temptation beat; dead/claim traces; survivor signs — [[Taking-places Hunger temptation]]
+- **E** [[Aruhe Fruit Stair Terraces]] / **F** [[Aruhe Irrigation Ditch Maze]] — transit toward Quiet or warren bait — [[Wolfrabbit terrace flank]]
+- **I** [[Aruhe Quiet Green Verge]] — soft landing; silence = eaten-out life; handoff to [[The Quiet]] via [[Aruhe Silence Threshold]] (Q1) — [[Quiet verge soft landing]]
+- **K→Western Landing** — [[Aruhe Beach Stair]] → [[Aruhe Tideline Moss Edge]] → [[Aruhe Shingle Strand]] → [[Aruhe Wreck Shade Hull]] / [[Aruhe Reef Gap Approach]] → [[Aruhe Low-Tide Teeth]] or [[Aruhe Deep-Water Pickup]] ([[Uncertainty]]); [[Aruhe Cliff Cove Dead-End]] = false exit — [[Western Landing pickup]]
+- **Optional G/H** — [[Aruhe Warren Mouths]] / [[Aruhe Old Mouth Threshold]] (Blackrail foreshadow; not Passage [[Warren]]) — [[Warren Mouths bait]]
 - **Stub peek J** — [[Aruhe Grassland Overlook]] only if they leave the spine
 
 ## Secrets and clues
@@ -66,6 +66,9 @@ Disposable. Rewrite next time; do not treat as canon.
 - Free-flowing water / loose stone / shed shell OK; fruit on vine = claim if taken
 - Bloodhawk will not stoop closed canopy or deep grass; squid stops at tree line
 - Mourners at Grove do not hunt; touching memorial is the danger (later session)
+
+## Survivor trail signals (A→I)
+Agency not railroad: the party can follow, sample, abandon, or misread the trail. It intensifies inland toward Quiet; beach-down weakens it. Use modular drops rather than a fixed sequence: scuffs, uneaten broken fruit, prints avoiding blooms, blood leading toward a taking-place, cold ash, torn cloth, scratched urgency marks, and one distant human call. At least three independent clues should establish that inland survivors exist and are moving Quiet-ward. The boat path can abandon the trail.
 
 ## Locations
 - [[Old Gardens]]: keyed A–I + K — see [[Aruhe - Site Ledger]]
@@ -102,6 +105,13 @@ Disposable. Rewrite next time; do not treat as canon.
 - Grove mourners as a clear fight
 - Rot / Tubes / Clear Lake otter fight stock (unless boat-irrelevant peek)
 
+## Must-run encounter briefs
+- [[Bloodhawk scare-and-drop]] — Trigger: open-thermal exposure; fuse: hawk stoop plus squid tree-line pressure; stakes: safe landing and party cohesion; responses: closed canopy, open grass, or rim cover.
+- [[Wolfrabbit terrace flank]] — Trigger: pack angle across B/E/F transit; fuse: isolation or doubled-back choke; stakes: route and supplies; responses: close ranks, change elevation, or disengage.
+- [[Taking-places Hunger temptation]] — Trigger: unreceived claim or vine fruit; fuse: handling/carrying it; stakes: Hunger convergence versus agency; responses: return, receive explicitly, or leave and track.
+- [[Quiet verge soft landing]] — Trigger: survivor signs converge at I; fuse: narrowed trail or dim-edge disturbance; stakes: Quiet intel and safe camp; responses: map, broaden camp, or optional pinch.
+- [[Western Landing pickup]] — Trigger: K→L pickup window; fuse: tide gap, valve, and landing threat; stakes: boat escape versus survivor trail; responses: wait in shade, cross low tide, or call off.
+
 ## Treasure
 - Loose stone / shed shell / free-flow water (safe nonliving)
 - Offered fruit only if *received* — not claimed (Hunger Rule)
@@ -117,11 +127,11 @@ Disposable. Rewrite next time; do not treat as canon.
 ## Night-watch hooks (vault-backed — DD)
 | Camp | Hook |
 |---|---|
-| Gardens lee / fruit stairs | [[Grinning Ape]] (stones then drop), vine lashes, [[Grubnade]] blooms |
-| Taking-places (C) | Same + [[Aruhe Hunger Rule]] convergence if any overnight claim |
-| Quiet verge (I) | Silence threshold; [[Deer-Stalker]] at dim edge; [[Strangler Fig]] if they pinch a trail for camp |
-| Drop rim / open thermal | [[Bloodhawk]] thermal interest; [[Wolfrabbit]] packs dawn/dusk |
-| Shingle L2–L3 (boat bail) | [[Reef Skull]], [[Small Blood Hawk]] on tide-meat, wreck shade |
+| Gardens lee / fruit stairs | [[Grinning Ape]] (stones then drop), vine lashes, [[Grubnade]] blooms — [[Gardens night watch]] |
+| Taking-places (C) | Same + [[Aruhe Hunger Rule]] convergence if any overnight claim — [[Gardens night watch]] / [[Taking-places Hunger temptation]] |
+| Quiet verge (I) | Silence threshold; [[Deer-Stalker]] at dim edge; [[Strangler Fig]] if they pinch a trail for camp — [[Quiet verge night watch]] / [[Quiet verge soft landing]] |
+| Drop rim / open thermal | [[Bloodhawk]] thermal interest; [[Wolfrabbit]] packs dawn/dusk — [[Bloodhawk scare-and-drop]] / [[Wolfrabbit terrace flank]] |
+| Shingle L2–L3 (boat bail) | [[Reef Skull]], [[Small Blood Hawk]] on tide-meat, wreck shade — [[Western Landing pickup]] |
 
 ## Table procedures
 - **Watch** = 4h for travel pressure checks
@@ -141,6 +151,7 @@ Disposable. Rewrite next time; do not treat as canon.
 
 ## Specialist sync
 - **Dungeon-Designer:** room graphs A–I + Western Landing L1–L7; gap list; night-hook matrix
-- **Co-DM:** encounter palette cards · survivor trail signals · PC spotlights · densify prep body
+- **Co-DM:** encounter palette cards · survivor trail signals · PC spotlights · densify prep body — **done**
 - **Monster-Brewer:** only if a spine fight lacks math
-- **Visualizer:** cold-open `[!narration]` after content exists
+- **Visualizer:** cold-open `[!narration]` after content exists — **pending**
+''
