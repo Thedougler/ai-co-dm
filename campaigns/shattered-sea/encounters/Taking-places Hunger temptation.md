@@ -33,4 +33,6 @@ Investigate, accept only what is received, leave safe nonliving material alone, 
 Received food can sustain the party without creating a claim. Loose stone, shed shell, and free-flowing water remain safe; an unreceived claim becomes Hunger fallout and a sharper survivor-trail signal.
 
 ## Ran in
+- [[Session 11 run]]
 - [[Session 11 prep]]
+- [[Session 11 Beat 04 - Dev Taking-places Hunger]]

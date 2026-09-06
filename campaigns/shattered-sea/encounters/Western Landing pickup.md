@@ -35,4 +35,7 @@ Reach the pickup, keep the crew and boat access intact, and choose whether to fo
 Boat escape, salvaged wreck material, and a changed ship position. Taking the boat can abandon the inland trail; delaying preserves clues but risks the pickup window.
 
 ## Ran in
+- [[Session 11 run]]
 - [[Session 11 prep]]
+- [[Session 11 Beat 05 - Cliff Wolfrabbit or boat]]
+- [[Session 11 Beat 06 - Climax Quiet verge or Landing]]

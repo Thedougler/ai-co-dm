@@ -34,6 +34,7 @@ Disposable. Rewrite next time; do not treat as canon.
 - **L0 control panel:** [[Session 11 run]]
 - **L1 beats:** [[Session 11 beats]]
 - **L2 inventory:** this prep + linked encounters/locations (do not dump into L0)
+- **Encounters hub:** [[00 Encounters]]
 
 ## Beat files (run guide)
 Run from [[Session 11 run]] → [[Session 11 beats]] — one note per beat under `sessions/`:

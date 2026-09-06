@@ -33,4 +33,7 @@ Keep a viable transit line toward [[Aruhe Quiet Green Verge]], preserve the part
 Dropped gear, disturbed fruit, and fresh prints can alter the survivor-trail read. A clean withdrawal preserves time for the Quiet verge or the [[Western Landing]] boat path.
 
 ## Ran in
+- [[Session 11 run]]
 - [[Session 11 prep]]
+- [[Session 11 Beat 03 - Cliff Gardens transit]]
+- [[Session 11 Beat 05 - Cliff Wolfrabbit or boat]]

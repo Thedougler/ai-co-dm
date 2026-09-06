@@ -34,4 +34,7 @@ Finish watches, preserve a defensible camp, and decide whether to enter Q1, retr
 A full watch yields a stronger survivor-trail state and a safe Q1 transition. A pinch costs time or leaves a camp trace but need not become a fight.
 
 ## Ran in
+- [[Session 11 run]]
 - [[Session 11 prep]]
+- [[Session 11 Beat 06 - Climax Quiet verge or Landing]]
+- [[Session 11 Beat 07 - Resolution]]

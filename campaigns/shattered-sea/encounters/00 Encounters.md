@@ -25,4 +25,5 @@ Session 11 cards for the [[Old Gardens]] spine, the [[Aruhe Quiet Green Verge]],
 - [[Warren Mouths bait]] — G→H, Blackrail foreshadow only; no fight required.
 
 ## Ran in
+- [[Session 11 run]]
 - [[Session 11 prep]]

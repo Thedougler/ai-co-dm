@@ -34,4 +34,6 @@ Read the quiet, make a map decision, and secure a defensible rest or onward rout
 A clearer survivor-trail state, a safe camp position, and a map toward [[The Quiet]]. A pinched trail costs time or gear but may reveal a torn cloth, ash, or urgency mark.
 
 ## Ran in
+- [[Session 11 run]]
 - [[Session 11 prep]]
+- [[Session 11 Beat 06 - Climax Quiet verge or Landing]]

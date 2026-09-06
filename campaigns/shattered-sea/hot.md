@@ -10,6 +10,7 @@ visibility: dm
 **Boot here.** One page. Do not ls-walk the campaign. qmd for anything not listed.
 
 ## Now
+- **Tonight run:** [[Session 11 run]] (L0) · inventory [[Session 11 prep]]
 - **Arc:** Crew at/around [[Aruhe - Hungry Isle]] aboard mobile [[Uncertainty]]. Sparhold was the first chosen stop and may be passed or remain a parallel lead.
 - **Hub:** [[campaigns/shattered-sea/00 Shattered Sea]]
 - **Story:** [[campaigns/shattered-sea/story/00 Story so far]]

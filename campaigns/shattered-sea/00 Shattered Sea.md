@@ -38,6 +38,7 @@ Open [[campaigns/shattered-sea/quests/00 Quests|quests]]:
 - [[The Red Wake]] · [[Sentinels and Countless]] · [[Pearl signal across the boundary]]
 ## Indexes
 - Story: [[campaigns/shattered-sea/story/00 Story so far]]
+- Encounters: [[campaigns/shattered-sea/encounters/00 Encounters]]
 - Sessions: [[campaigns/shattered-sea/sessions/00 Sessions]]
 - PCs: [[campaigns/shattered-sea/pcs/00 PCs]]
 - NPCs: [[campaigns/shattered-sea/npcs/00 NPCs]]

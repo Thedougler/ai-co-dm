@@ -33,4 +33,6 @@ Reach a closed canopy or open grass landing, keep the party together, and preser
 A safe landing, a changed map position, and evidence of the squid's range. A messy drop can cost gear or leave scuffs that strengthen the inland survivor trail.
 
 ## Ran in
+- [[Session 11 run]]
 - [[Session 11 prep]]
+- [[Session 11 Beat 01 - Hook Bloodhawk scare-and-drop]]

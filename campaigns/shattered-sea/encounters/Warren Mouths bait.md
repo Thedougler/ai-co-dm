@@ -19,6 +19,7 @@ G [[Aruhe Warren Mouths]] and H [[Aruhe Old Mouth Threshold]] offer a short Blac
 ## Forces
 - [[Aruhe Warren Mouths]] — multiple mouths and misleading route signals.
 - [[Aruhe Old Mouth Threshold]] — older threshold marks and Blackrail pressure.
+- [[Blackrail]] — foreshadow only; no fight required.
 - [[Jean-Claude Tabarnack]] — route-survival and Grung-instinct spotlight.
 
 ## Objectives
@@ -33,4 +34,6 @@ Notice the foreshadow, preserve a route back to E/F or I, and choose whether to 
 A marked future route, a Blackrail clue, or a small survivor-trail signal. Spending time here costs Gardens transit time; leaving it alone preserves the Session 11 soft landing.
 
 ## Ran in
+- [[Session 11 run]]
 - [[Session 11 prep]]
+- [[Session 11 Beat 03 - Cliff Gardens transit]]

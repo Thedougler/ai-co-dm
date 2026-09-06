@@ -34,4 +34,6 @@ Complete watches, protect food and gear, and choose a camp position that keeps t
 A secure watch preserves supplies and route time. Disturbed stones, broken fruit, and bloom traces can make the next transit safer or expose the camp's direction.
 
 ## Ran in
+- [[Session 11 run]]
 - [[Session 11 prep]]
+- [[Session 11 Beat 07 - Resolution]]
