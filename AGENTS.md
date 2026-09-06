@@ -83,6 +83,7 @@ This repo is an **Obsidian prose wiki**, not an application codebase. Prefer vau
 | Existing-note graph / index integration | `wiki-integrate` → **Organizer** |
 | Stale / contradiction sweep | `wiki-update` → **Organizer** / **Linter** (confirm-before-write) |
 | Answer from vault (qmd; optional file-back) | `wiki-query` → **Co-DM** / **Organizer** |
+| Wiki prose / D&D copy (TUI) | spawn **copy-writer** (`.grok/agents/copy-writer.md`) — table-ready body copy on typed notes (L0/L1/L2, flavor, keys, dialogue, recaps); `[!narration]` still `theatre-of-the-mind`; run structure still `run-guide` |
 | Player-facing prose / `[!narration]` | `theatre-of-the-mind` → **Visualizer** |
 | Audit player-facing TotM / read-aloud | **Writing-Evaluator** (critique only) |
 | TotM fail → skill fix → rewrite loop | Evaluator fail → **Skill-Creator** → **Visualizer** → Evaluator again |
