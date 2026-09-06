@@ -11,7 +11,8 @@ tags: [item, umberlee, tithe, cursed, sunken-crown]
 # Tithe of the Bitch Queen
 
 > [!narration] Narration
-> A cold, perfectly preserved treasure piece waits in the dark: jewel, gold, or statue. It looks untouched by salt, silt, and years. _Visualizer: polish the final object-specific image._
+> A palm-sized hoard piece sits cold in the hand: an unclouded jewel, untarnished gold, or a salt-fresh statue. Salt and silt have left no mark on it. Cool metal or stone feels newly claimed, as if it never spent years on the seafloor.
+
 
 ## Look
 A generic piece from the Sunken Crown Tithe hoard: an unclouded jewel, untarnished gold, or salt-fresh statue. Divine preservation makes it look newly claimed, whatever its age.

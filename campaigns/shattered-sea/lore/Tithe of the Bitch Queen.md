@@ -8,7 +8,8 @@ tags: [lore, umberlee, tithe, sunken-crown, curse]
 ---
 # Tithe of the Bitch Queen
 > [!narration] Narration
-> _Visualizer: Umberlee ingest pending._
+> On the Sunken Crown seafloor, Umberlee's older hoard waits in tidal caves that open only at the decade's lowest tides. Jewels stay unclouded, gold untarnished, and statues look newly set down. Sailors know a taken piece by the weather that follows it until it touches saltwater again.
+
 
 ## Summary
 The Tithe is Umberlee's older hoard on the [[Sunken Crown]] seafloor, separate from the [[Pearl of Souls]]. Tidal caves expose it only at the decade's lowest tides. Jewels remain unclouded, gold untarnished, and statues look newly set down.
