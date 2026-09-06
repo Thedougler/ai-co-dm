@@ -66,6 +66,12 @@ A country-scale island in the eastern Midchain: roughly 500 miles end-to-end and
 - **Retreat:** Return along an unclaimed route to the landing and sea. A possession claim turns retreat into a pressure problem, not a simple withdrawal.
 - **Tradeoff:** Shore routes are direct but reef-exposed; water routes offer drink and direction but invite the temptation to fish; inland routes reveal ecology at the cost of distance and exposure.
 
+## Keyed rooms (Session 11)
+- **Old Gardens spine:** [[Aruhe Drop Rim Court]] (A) · [[Aruhe Snapped Canopy Gallery]] (B) · [[Aruhe Taking-Places Plaza]] (C) · [[Aruhe Fruit Stair Terraces]] (E) · [[Aruhe Irrigation Ditch Maze]] (F) · [[Aruhe Warren Mouths]] (G, optional) · [[Aruhe Old Mouth Threshold]] (H, optional) · [[Aruhe Quiet Green Verge]] (I) · [[Aruhe Grassland Overlook]] (J, stub) · [[Aruhe Beach Stair]] (K)
+- **Western Landing retreat edge:** [[Aruhe Tideline Moss Edge]] (L1) · [[Aruhe Shingle Strand]] (L2) · [[Aruhe Wreck Shade Hull]] (L3, optional) · [[Aruhe Reef Gap Approach]] (L4) · [[Aruhe Low-Tide Teeth]] (L5) · [[Aruhe Deep-Water Pickup]] (L6) · [[Aruhe Cliff Cove Dead-End]] (L7, trap)
+- **Quiet handoff:** [[Aruhe Silence Threshold]] (Q1)
+- **Run ledger:** [[Aruhe - Site Ledger]]
+
 ## Player verbs
 `observe, cross, shelter, map, mark without claiming, study, drink, follow water, retreat, distinguish passage from possession, test an anchor, protect a boundary`.
 
