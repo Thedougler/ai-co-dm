@@ -12,8 +12,8 @@ tags: [item, aruhe, consumable]
 # Rotheart
 
 > [!narration] Narration
-> Black-hearted fruit hangs on the sickest trees of the Rot, warm and faintly pulsing.
-> The pulp is the colour of old blood, as if decay has learned to heal.
+> Black-hearted fruit hangs on the sickest trees of the Rot, warm and faintly pulsing in the hand. The pulp is the colour of old blood. Heat and a faint pulse sit under the dark skin.
+
 
 
 ## Look

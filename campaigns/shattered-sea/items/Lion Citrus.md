@@ -12,8 +12,8 @@ tags: [item, aruhe, consumable]
 # Lion Citrus
 
 > [!narration] Narration
-> A fist-sized citrus wears a lion-pelt rind, warm oil shining under the thumb.
-> Its sweet-electric flesh wakes the mouth before the courage reaches the heart.
+> A fist-sized citrus sits in the hand with a lion-pelt rind and warm oil under the thumb. The peel shines where it is pressed. Sweet flesh wakes the mouth with a sharp electric tang.
+
 
 
 ## Look

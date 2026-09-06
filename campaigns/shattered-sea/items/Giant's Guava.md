@@ -12,8 +12,8 @@ tags: [item, aruhe, consumable]
 # Giant's Guava
 
 > [!narration] Narration
-> A skull-sized guava hangs pink-gold and heavy, smelling of a glandular animal beneath fruit.
-> Its soft flesh gives way to a strength that does not belong to the eater.
+> A skull-sized guava hangs pink-gold and heavy enough to need both hands. Soft flesh gives under the thumb. The smell is fruit mixed with something glandular and animal.
+
 
 
 ## Look

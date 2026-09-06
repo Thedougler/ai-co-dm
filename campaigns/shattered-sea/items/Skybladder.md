@@ -12,8 +12,8 @@ tags: [item, aruhe, consumable]
 # Skybladder
 
 > [!narration] Narration
-> A helmet-sized pale bladder tugs at its vine like a captive balloon.
-> Its thin drum skin gives way to dry, buoyant flesh that wants the sky.
+> A helmet-sized pale bladder tugs at its vine like a captive balloon. Thin drum skin covers dry, buoyant flesh. It lifts against the vine when the air moves.
+
 
 
 ## Look

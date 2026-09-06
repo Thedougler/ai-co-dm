@@ -12,8 +12,8 @@ tags: [item, aruhe, consumable]
 # Quickeye Berry
 
 > [!narration] Narration
-> Almost-black berries shine like wet pupils in a tight cluster.
-> The first taste is bitter; the aftertaste is wide-eyed alertness and impossible speed.
+> Almost-black berries shine like wet pupils in a tight cluster. Each berry is glossy and stains the fingers. The first taste is bitter on the tongue.
+
 
 
 ## Look

@@ -12,8 +12,8 @@ tags: [item, aruhe, consumable]
 # Ghost Plum
 
 > [!narration] Narration
-> A milk-glass plum hangs under a thick bloom, pale enough to catch the dim light.
-> Its outline fades when you look away, as if the fruit is already leaving.
+> A milk-glass plum hangs under a thick white bloom, pale enough to catch dim light. The bloom powders the fingers. In low light its outline thins until the fruit is hard to keep in sight.
+
 
 
 ## Look

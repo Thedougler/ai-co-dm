@@ -12,8 +12,8 @@ tags: [item, aruhe, consumable]
 # Whisper Fig
 
 > [!narration] Narration
-> The small green fig splits to show pale nerve-veins in its flesh.
-> As it opens, the air goes quiet around the thoughts it is about to hear.
+> A small green fig splits to show pale nerve-veins in its flesh. The split flesh is cool and sticky. Quiet hangs close around an open fig.
+
 
 
 ## Look

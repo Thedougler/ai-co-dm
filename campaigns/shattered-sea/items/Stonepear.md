@@ -12,8 +12,8 @@ tags: [item, aruhe, consumable]
 # Stonepear
 
 > [!narration] Narration
-> The grey-green pear is hard as pumice and roughens the fingertips.
-> Grit gives way to cold, sweet mineral flesh that tastes like deep water.
+> A grey-green pear is hard as pumice and roughens the fingertips. Grit coats the skin until the flesh breaks. Inside is cold, sweet, and mineral on the tongue.
+
 
 
 ## Look

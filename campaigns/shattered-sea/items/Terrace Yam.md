@@ -12,8 +12,8 @@ tags: [item, aruhe, consumable]
 # Terrace Yam
 
 > [!narration] Narration
-> Wrist-thick yam vines knot through the terrace cracks around one oversized tuber.
-> The earth-stained flesh is warm, plain, and reassuringly heavy in the hand.
+> Wrist-thick yam vines knot through terrace cracks around one oversized tuber. The earth-stained flesh is warm and plain in the hand. It sits heavy enough to feel like a full meal before the first bite.
+
 
 
 ## Look

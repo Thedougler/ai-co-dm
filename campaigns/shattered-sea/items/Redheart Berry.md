@@ -12,8 +12,8 @@ tags: [item, aruhe, consumable]
 # Redheart Berry
 
 > [!narration] Narration
-> A child-fist berry hangs deep red to near-black, staining the fingers before it breaks.
-> Its wet flesh looks like a fresh wound and a ripe berry at once.
+> A child-fist berry hangs deep red to near-black, staining the fingers before it breaks. Its wet flesh looks like a fresh wound and a ripe berry at once. Juice runs dark and sticky down the wrist.
+
 
 
 ## Look

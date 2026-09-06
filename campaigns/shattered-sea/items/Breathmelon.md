@@ -12,8 +12,8 @@ tags: [item, aruhe, consumable]
 # Breathmelon
 
 > [!narration] Narration
-> A pale green melon floats at the river margin, its rind dimpled like a pair of lungs.
-> Its air-cell flesh trembles when the current turns.
+> A pale green melon floats at the river margin, rind dimpled like a pair of lungs. Air-cell flesh shows under a cut. The melon trembles when the current turns.
+
 
 
 ## Look

@@ -12,8 +12,8 @@ tags: [item, aruhe, consumable]
 # Terrace Citrus
 
 > [!narration] Narration
-> A fist-sized ordinary citrus hangs bright among the broken terrace stones.
-> Its clean peel snaps with juice and a small, welcome spark of sourness.
+> A fist-sized ordinary citrus hangs bright among broken terrace stones. The clean peel snaps under the thumb. Juice and a sharp sour bite fill the mouth.
+
 
 
 ## Look
