@@ -47,8 +47,8 @@ Obsidian LLM wiki for Nick's home D&D. **Markdown is the product.**
 ## Skills (progressive)
 
 **Two roots:**
-- `.agent/skills/` — vault / D&D fleet skills (this table’s default path).
-- `.agents/skills/` — Matt Pocock process skills (grill, domain-modeling, TDD, etc.). Load when the job matches; do not confuse with `.agent/skills/`.
+- `.agent/skills/` — vault / D&D fleet skills (table below; default path unless noted).
+- `.agents/skills/` — **Matt Pocock process pack** — extremely high quality; **always use when the job matches** (do not improvise process). Unsure which? `.agents/skills/ask-matt`. Do not confuse with `.agent/skills/`.
 
 **Always-on:** this table + `obsidian-markdown` for every wiki `.md` write. **On match:** that skill’s `SKILL.md` only. **On demand:** `references/` when the skill says.
 
@@ -76,16 +76,48 @@ Obsidian LLM wiki for Nick's home D&D. **Markdown is the product.**
 | Session pacing | `session-beats` |
 | Post-session durable log + surgical canon | `session-wrapup` → **Co-DM** / **Session-Planner** (complements `session-transcript-ingest`) |
 | Canon / graph QA | `campaign-qa` → **Co-DM** / **Session-Planner** / **Organizer** (hygiene stays `wiki-lint`) |
-| Design grill / stress-test a plan | `.agents/skills/grilling` (entry: `grill-me`) → **Session-Planner** / **Co-DM** / designers — **default** before locking a session plan or big design |
-| Grill + write glossary / ADRs as you go | `.agents/skills/grill-with-docs` (= grilling + domain-modeling) |
-| Domain model / terminology / ADR sharpening | `.agents/skills/domain-modeling` → **Co-DM** / **Organizer** / **Session-Planner** — prefer `lexicon/` + AGENTS `type` enum for campaign language; eng-style `CONTEXT.md`/`docs/adr/` only if Nick asks |
 | Places | `place-design` |
 | Dungeons | `dungeon-design` |
 | NPCs | `npc-design` |
 | Monsters | `homebrew-monsters-5e` → **Homebrewer** |
 | Magic items | `dnd-5e-magic-item-design` → **Homebrewer** |
 
+### Matt Pocock process pack (`.agents/skills/`)
+
+**Rule:** if a skill below matches the wake, load it. Prefer the pack over ad-hoc process. Router: `ask-matt`.
+
+| Job | Skill (under `.agents/skills/`) |
+|---|---|
+| Which Pocock skill fits? | `ask-matt` |
+| Design grill / stress-test a plan | `grilling` (entry `grill-me`) — **default** before locking session plans or big designs → **Session-Planner** / **Co-DM** |
+| Grill + write glossary / ADRs as you go | `grill-with-docs` (= grilling + domain-modeling) |
+| Domain model / terminology / ADR | `domain-modeling` → **Co-DM** / **Organizer** / **Session-Planner** — campaign language → `lexicon/` + AGENTS `type`; eng `CONTEXT.md`/`docs/adr/` only if Nick asks |
+| Huge multi-session plan map | `wayfinder` |
+| Specs for workflows in this workspace | `loop-me` |
+| Compact handoff to another agent | `handoff` · `claude-handoff` |
+| Conversation → spec (no interview) | `to-spec` |
+| Plan/spec → tracer-bullet tickets | `to-tickets` |
+| Decision → questionnaire for someone else | `to-questionnaire` |
+| Issue / PR triage state machine | `triage` → **Organizer** / **Team-Leader** / eng |
+| High-trust research → markdown capture | `research` → **Researcher** (vault filing still via Ingest) |
+| Interactive human-only steps wizard | `wizard` |
+| Last message didn’t land — re-pitch | `wait-what` |
+| Writing for agents / skills / AGENTS.md | `writing-for-agents` → **Skill-Creator** / **Ops** |
+| Writing explore → exploit → article | `writing-fragments` · `writing-beats` · `writing-shape` |
+| Teach a concept in-workspace | `teach` |
+| Session retrospective | `retro` |
+| Debug / diagnose hard bugs | `diagnosing-bugs` |
+| Test-first / red-green-refactor | `tdd` |
+| Review changes vs a fixed point | `code-review` |
+| Deep-module interface design | `codebase-design` · `improve-codebase-architecture` |
+| Implement from spec / tickets | `implement-spec` · `implement` |
+| Throwaway prototype for a design question | `prototype` |
+| Resolve in-progress merge/rebase conflict | `resolving-merge-conflicts` |
+| One-time pack setup (tracker / labels / domain layout) | `setup-matt-pocock-skills` |
+| Eng tooling (only when coding this repo) | `setup-pre-commit` · `setup-ts-deep-modules` · `git-guardrails-claude-code` · `migrate-to-shoehorn` · `scaffold-exercises` · `qmd` (Pocock bootstrap — vault search still `.agent/skills/qmd-retrieval`) |
+
 ## Handoffs (one specialist per wake)
+
 
 ### Packet standard
 
@@ -109,7 +141,7 @@ Rules:
 | Bot | Owns |
 |---|---|
 | **Co-DM** | Continuity, prep/log, vault canon, rulings |
-| **Session-Planner** | User-facing session plan + design grill; **default** `.agents/skills/grilling` (`grill-me`) before locking a plan; use `grill-with-docs` / `domain-modeling` when sharpening terms; packets specialists to scaffold prep/build (not mid-session Co-DM; not TotM/homebrew/ingest) |
+| **Session-Planner** | User-facing session plan + design grill; **always** use Matt Pocock pack when matching — especially `grilling`/`grill-me` before locking plans, `grill-with-docs`/`domain-modeling` for terms, `wayfinder`/`to-spec`/`to-tickets` for large plans; packets specialists to scaffold prep/build (not mid-session Co-DM; not TotM/homebrew/ingest) |
 | **Visualizer** | TotM / `[!narration]` write only (incl. rewrite after Skill-Creator clears a failed block) |
 | **Writing-Evaluator** | Audit player-facing TotM / read-aloud; on **fail**, packet improvement advice → **Skill-Creator** |
 | **Skill-Creator** | `.agent/skills/`; on Evaluator fail: implement TotM fix, **delete failed `[!narration]`**, ping **Visualizer** to rewrite, Evaluator re-audits |
@@ -140,7 +172,7 @@ Do not skip Skill-Creator and have Visualizer patch prose ad hoc after a fail.
 | `campaigns/` · `templates/` · `lexicon/` · `inbox/` · `attachments/` | Wiki (Obsidian: new notes → inbox, embeds → attachments) |
 | `.obsidian/` | Human vault config + Statblocks/Leaflet (ignore workspace) |
 | `.agent/skills/` | Vault / D&D fleet procedures |
-| `.agents/skills/` | Matt Pocock process skills (grill, domain-modeling, …) — not qmd `skills` collection |
+| `.agents/skills/` | Matt Pocock process pack — **always when appropriate**; not qmd `skills` collection |
 | `scripts/after-write` · `scripts/qmd` · `scripts/lint-statblocks` · `scripts/lint-obsidian-markdown` · `scripts/lint-fat-notes` | Agent CLI |
 | `docs/agents/` | Eng triage — skip for table work |
 
