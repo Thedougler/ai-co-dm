@@ -34,6 +34,19 @@ Fail:
 
 Training location and order lore belong in Fiction / Training, not Appearance.
 
+
+## Object Appearance checklist (cold `[!narration]`)
+
+Fail closed if the read-aloud sounds like a catalog or rules gloss.
+
+1. Concrete noun (musket / long gun / blade) — not the whole sentence as inventory jargon.
+2. Scale vs body (shoulder stock, barrel past forearm).
+3. Material + wear.
+4. One non-sight sense or ordinary physical behavior.
+5. Zero: `carries as`, `ordinary X for Y`, naming lore/biography, rarity/attunement/DCs.
+
+Layering: Appearance ≠ Identified ≠ Fiction/Secret. Keep procedure only.
+
 For a standalone item portrait, use the cold player-appearance layer by
 default. **Coverage + length floor:** about three connected sentences that
 cover (1) silhouette/scale/whole type, (2) material, parts, and visible wear,

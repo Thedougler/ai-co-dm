@@ -222,6 +222,10 @@ evidence.
 | item-page `[!narration]` is only 1–2 dry sentences | expand to ~3 connected sentences with missing visual material/wear/silhouette nouns — never pad with glitter negation or cover-story similes |
 | location `[!narration]` is place-design kernel or schema verbs with no landmark | rewrite as cold place portrait: form/scale, topology/approaches, sensory; no invented mystery closer |
 | facts arrive as a telegram or bullet-shaped clauses | join owned details into flowing sentences with concrete verbs |
+| item Appearance uses catalog/rules gloss (`carries as`, `ordinary X for Y`, `shoulder firearm for one shooter`) | concrete noun + scale-vs-body + material/wear + one sense/behavior; read aloud test |
+| item Appearance is only weapon-class taxonomy with no drawable parts | Fate Spinner bar: musket/stock/brass/nameplate/how it sits in the hands |
+| cold creature ends in telegram stubs (`Chin drips.` / isolated `Eyes…`) | fold drip/stare/claws onto the body in connected sentences |
+| cold creature invents disturb script (`When the branch moves…`) with no table state | idle body on habitat only; stimulus→response only when situated |
 | only sight is used when another sense is established | fold in the supported sound, smell, temperature, or texture on the thing that owns it |
 | the draft is long but still not drawable | replace register and synonyms with missing nouns, relationships, and anchors — do not add more adjectives |
 

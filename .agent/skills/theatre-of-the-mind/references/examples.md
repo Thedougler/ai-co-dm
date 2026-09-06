@@ -71,6 +71,31 @@ If silhouette, translucent mantle, and braced arms already carry the picture, cu
 **Strong:** breath, stance, wing set, and strike-past-wingspan as stable how-it-looks-when-used facts — no terrace venue, no “answers” tone, no held gear. Training place stays Fiction.
 
 
+
+## Object Appearance — catalog gloss vs drawable weapon
+
+**Weak: Duchess catalog closer**
+
+> A long-barreled musket with a wooden stock and brass fittings. An engraved plate on the side reads The Duchess. It carries as an ordinary shoulder firearm for one shooter.
+
+**Strong:** long shoulder gun; dark wood stock; blued barrel past the forearm; brass bright at the trigger; weight forward or lever click — engraved plate reads The Duchess. No `carries as` / `ordinary X for Y`. Dedication lore stays Story hooks.
+
+## Cold creature — telegram stubs vs flowing body
+
+**Weak: Deer-Stalker telegram**
+
+> A deer stands over a carcass taller than a man, hips turned wrong, forelimbs ending in claws. Chin drips. Eyes face forward and do not blink.
+
+**Strong:** wrong-hipped deer-taller body over the carcass with claws; chin and forward stare folded onto that body in connected prose — no fragment sentences for drip/eyes alone.
+
+## Cold creature — invented disturb vs idle
+
+**Weak: Grubnade invents the branch**
+
+> A fat cream-green caterpillar longer than a thumb chews a flower. When the branch moves it stops and pulls tight. Two dark lines race under the skin as it hisses and swells.
+
+**Strong:** cream-green thumb-long caterpillar on a flower, chewing. Idle only. Swell/hiss/burst stay At the table unless current table state supplies the disturb.
+
 ## Craft meta in player prose (hard fail)
 
 **Weak: Stoop names the stop**

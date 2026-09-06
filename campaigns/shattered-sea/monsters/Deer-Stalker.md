@@ -61,7 +61,7 @@ reactions:
 # Deer-Stalker
 
 > [!narration] Narration
-> A deer stands over a carcass taller than a man, hips turned wrong, forelimbs ending in claws. Chin drips. Eyes face forward and do not blink.
+
 
 
 

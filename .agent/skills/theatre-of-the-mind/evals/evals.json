@@ -302,17 +302,8 @@
       "expectations": [
         "Fails `He named it for Serafina` / marriage dedication in Appearance.",
         "Passes drawable musket nouns (~3 connected sentences, Fate Spinner bar).",
-        "Keeps dedication in Story hooks."
-      ]
-    },
-    {
-      "id": 31,
-      "prompt": "Using Stoop parent (peregrine high dive; wings pin; whistling dive line; steal stays At the table), write monster `[!narration]` cold. No party state.",
-      "expected_output": "Peregrine high up; wings pin; whistling dive line starts — stop by omission. No craft vocabulary.",
-      "expectations": [
-        "Fails any of: telegraph, tell ends, reaction point, Appearance, cold portrait in narration.",
-        "Passes body + wings-pin + dive-line windup without naming the stop.",
-        "Keeps steal/climb out of Appearance."
+        "Keeps dedication in Story hooks.",
+        "Fails `carries as` / `ordinary X for Y` catalog gloss."
       ]
     },
     {
@@ -323,6 +314,36 @@
         "Fails `tell ends` / `telegraph` / invented terrace venue staging.",
         "Passes breath/stance/wing set (+ optional strike-past-wingspan as stable fact).",
         "No workshop vocabulary in player prose."
+      ]
+    },
+    {
+      "id": 33,
+      "prompt": "Using The Duchess parent (long-barreled naval musket; wood/brass; engraved plate The Duchess; Serafina dedication is Story hooks), write cold item `[!narration]`. Prior fail closed on: It carries as an ordinary shoulder firearm for one shooter.",
+      "expected_output": "Drawable musket: concrete noun, scale vs body, material/wear, one sense/behavior; engraved name OK. No catalog gloss.",
+      "expectations": [
+        "Fails `carries as` / `ordinary X for Y` / shoulder-firearm-for-one-shooter taxonomy closer.",
+        "Passes Fate Spinner-class drawable parts (stock/barrel/brass/plate) + optional how it sits in the hands.",
+        "Keeps Serafina dedication out of Appearance."
+      ]
+    },
+    {
+      "id": 34,
+      "prompt": "Using Deer-Stalker parent (wrong hips, claws, carcass; no table state), write cold `[!narration]`. Prior fail: Chin drips. Eyes face forward and do not blink.",
+      "expected_output": "Flowing body portrait; drip/stare folded onto the body — no telegram stubs.",
+      "expectations": [
+        "Fails fragment sentences isolating chin drip or eyes.",
+        "Passes wrong-hipped deer-over-carcass with claws in connected prose.",
+        "Keeps minutes-later / Borrowed Voice out."
+      ]
+    },
+    {
+      "id": 35,
+      "prompt": "Using Grubnade parent (cream-green thumb-long caterpillar on flower; no table state), write cold `[!narration]`. Prior fail: When the branch moves it stops and pulls tight…",
+      "expected_output": "Idle caterpillar on flower only. No invented disturb script.",
+      "expectations": [
+        "Fails `When the branch moves` / invented disturb trigger with no table state.",
+        "Passes body + chew on flower.",
+        "Keeps swell/burst in At the table."
       ]
     }
   ]

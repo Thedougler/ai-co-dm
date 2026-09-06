@@ -68,8 +68,12 @@ later"), and "open with…" running notes stay in `[!mechanic]` / `[!secret]-` /
 At the table / DM sections. They must not become a resolved attack film or
 encounter cutscene inside the callout. "Ordinary observable behavior" is
 idle/species habit (chews a flower, stands over a carcass), not playing the
-tactic script to completion. Inventing a trailing PC, ankle/boot contact,
-completed haul, completed item tear, or full detonation is a fail.
+tactic script to completion and not inventing a disturb stimulus ("When the
+branch moves…") when no table state supplies it. Inventing a trailing PC,
+ankle/boot contact, completed haul, completed item tear, or full detonation is
+a fail. Do not end cold portraits in **telegram stubs** — fragment sentences
+that isolate a minor fact (`Chin drips.` / `Antlers.`) or stare; fold chin,
+blood, eyes, claws onto the body in flowing prose.
 
 **Hard mode gate for location/site `[!narration]`:** if the request is filling
 or rewriting `[!narration]` on a location note and no party position or other
@@ -98,12 +102,19 @@ wind-open terrace…"); fail mysticism/theme ("the blow answers that measure",
 "answers" as magic tone); fail meta closers ("the tell ends before…"); fail resolved hit film. Training location and order
 lore stay in Fiction / Training. Mechanical package stays Mechanics.
 
-**Hard mode gate for named-item cold Appearance:** cold item `[!narration]` stays
-on the object — silhouette/scale, material/parts/wear, one ordinary physical or
-sensory behavior. Fail if the closer is **biography or dedication** ("He named
-it for Serafina…", marriage history, who it honors) unless that text is a
-**visible mark on the object** (engraved plate reading the name). Owner story
-and dedication stay in Story hooks / Look / DM sections.
+**Hard mode gate for object/weapon cold Appearance (Fate Spinner bar +):** cold
+item `[!narration]` must read aloud as a drawable object, not a catalog gloss.
+Coverage (flowing prose, ~3 sentences — dimensions, not a checklist dump):
+1. **Concrete noun** (musket, long gun, carbine, blade) — not inventory jargon as
+   the whole sentence.
+2. **Scale vs body** (shoulder stock, barrel past the forearm).
+3. **Material + wear** (dark wood, blued steel, brass bright at the trigger).
+4. **One non-sight sense or ordinary physical behavior** (weight forward, lever
+   clicks, cool in the palm) — not magic tone.
+Fail closed: `carries as`, `ordinary X for Y`, naming lore/biography closers
+("He named it for…") unless a **visible mark** on the object (engraved plate),
+rarity/attunement/DCs, technique-as-abstract-strike. Layering: Appearance ≠
+Identified Properties ≠ Fiction/Secret. Owner dedication stays Story hooks.
 
 
 **Hard ban — craft/process words in player prose:** `[!narration]` and any
