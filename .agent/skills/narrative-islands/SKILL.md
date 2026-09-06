@@ -57,6 +57,20 @@ Think in an **archipelago**, not a plot chain. An island contains:
 
 Prepare what the world **does**. Discover what the PCs **do** at the table.
 
+## Threat-in-motion gate
+
+When an island is meant to carry suspense, reveal a bad thing already moving
+without revealing the whole picture. Show its fuse and make waiting unsafe;
+hide the clean answer, not the problem; attach a real cost to every route; then
+leave the players free to act, including with an unplanned clever solution.
+Mystery hides information for digging, while surprise withholds the bomb; do not
+use either as a substitute for a visible pressure point. A threat is not live if
+factions pause for shopping or rest.
+
+**Complete when:** the threat, early tell, fuse, unknown clean answer, delay
+change, costs, and at least three materially different response paths are
+written, with a playable partial success.
+
 ## Workflow
 
 Element catalogs and the audit: `references/workflow-detail.md`.
@@ -76,8 +90,8 @@ new fact is identifiable as new prep.
 [pressure matures].** Define the dramatic question. Test at least three
 materially different end states.
 
-**Complete when** the sentence names incompatible wants and a maturing
-pressure.
+**Complete when** the sentence names incompatible wants, a threat already
+in motion, and a maturing pressure/fuse.
 
 ### 3. Establish gravity
 
@@ -91,7 +105,7 @@ legitimate.
 
 Every load-bearing actor: want, reason, constraint, leverage, next
 action, tell. Every major force can advance the situation without the
-party.
+party; shopping, travel, or rest does not pause its plan.
 
 **Complete when** no load-bearing actor waits politely for the PCs.
 
@@ -113,8 +127,9 @@ or remove the gate.
 
 ### 7. Set the tide
 
-The smallest useful progression for when PCs are elsewhere. For each
-step: cause, what changes, visible evidence, what opens or closes.
+The smallest useful progression for when PCs are elsewhere. Treat it as
+the fuse: for each step record cause, what changes, visible evidence, what
+opens or closes, and the cost of delay.
 
 **Complete when** ignoring the island still changes the world.
 

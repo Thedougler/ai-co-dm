@@ -25,16 +25,39 @@ Record: `primary_goal` (what changes, not merely win), `consistent_method` (oppo
 `active_problem` (already in motion), `performance_hooks` (observable tell and handle),
 `link_of_relevance` (named PC and connection), and `terrain_shift` (timed escalation).
 
+## Suspense gate
+
+Do not confuse the modes: **mystery** hides information for investigation;
+**surprise** withholds the bomb until it lands; **suspense** reveals that a bad
+thing is already moving, then makes choices matter under a fuse. For sustained
+pressure, default to suspense rather than an opaque mystery or a one-beat
+surprise.
+
+Before the scene is ready, answer:
+
+- What bad thing is already in motion, and how do players learn early enough?
+- What is the fuse; what worsens if they do nothing?
+- What remains unknown (hide the clean answer, not the problem)?
+- What real cost attaches to each route: time, HP, spells, relationship, gear,
+  future leverage, or moral position?
+- Are there at least three materially different response paths?
+- What does partial success change, and will an unplanned clever solution be
+  accepted? **Always yes**; adjudicate from the fiction and let opposition adapt.
+
+Do not use a hidden step → damage punishment as the scene's substance. The
+opposition and world continue acting during delay, travel, shopping, or rest; a
+clock is only suspense when players can perceive and influence its direction.
+
 ## Output
 
 Use `templates/Encounter.md` for reusable notes; inline this structure in session prep/run guides
 for one-time scenes:
 
-1. **Brief:** who, where, why now, visible pressure.
+1. **Brief:** who, where, why now, visible pressure and fuse.
 2. **Roster:** existing statblock links, roles, tactics, morale, and retreat/negotiation thresholds;
    route new creatures to `homebrew-monsters-5e`.
 3. **Terrain:** 2–3 actionable features available to more than one side.
-4. **Opening/escalation:** what opposition does before and after engagement.
+4. **Opening/escalation:** what opposition does before and after engagement; show the fuse advancing on delay.
 5. **Pressure valve:** party weakness that creates tension without removing agency.
 6. **Advantage window:** party strength that can matter if noticed or exploited.
 7. **Resolution:** checks/DC source, information, success, failure, and fail-forward.

@@ -26,6 +26,8 @@ Session-planning systems own placement and orchestration.
 * **Escalate** — increase pressure through state changes rather than repeating the same check.
 * **Spotlight** — create opportunities for different characters and player ideas to matter.
 * **Sandbox** — make the challenge a world object that survives unexpected approaches.
+* **Reveal, don’t punish** — telegraph enough for an informed choice; a hidden step → damage tax is not a challenge.
+* **Fuse** — make waiting unsafe by advancing a visible threat or changing state.
 
 ---
 
@@ -95,6 +97,32 @@ examples and the full ladder detail.
 **Complete when:** players can perceive a meaningful situation,
 investigate it, and make an informed choice.
 
+### Suspense gate: make the trap a scene
+
+Use this gate for any challenge meant to sustain tension. Mystery hides
+information so players dig; surprise withholds the bomb until it lands;
+suspense reveals that a bad thing is already moving and puts weight on
+choices under a fuse. Apply the five-part bomb test:
+
+1. **Reveal the threat** — show enough that harm is in motion, not the whole
+   picture. Use signs such as dart holes, scorch, dead insects, a clean sword
+   on a dusty statue, or claw marks inside a door.
+2. **Show the fuse** — waiting is unsafe and the situation worsens on its own.
+3. **Hide the clean answer, not the problem** — preserve discovery without
+   denying the players a fair chance to respond.
+4. **Price every route** — time, HP, spells, gear, position, relationships,
+   future leverage, or moral cost; no free clean solve.
+5. **Let them act** — prepare the mechanism, not the ending. Accept a clever
+   unplanned solution and let the world adapt afterward.
+
+A revealed trap is a puzzle; a puzzle plus a fuse is a scene. Prefer dynamic
+traps whose state changes (rising water, spreading gas, faster pendulum) over
+hidden punishment. An environmental nudge or Passive Perception can surface
+the sign, especially for a less experienced table.
+
+**Complete when:** the threat, fuse, unknown clean answer, real costs, and at
+least three materially different response paths are explicit.
+
 ### 5. Build the interaction surface
 
 List physical/fictional things characters can act upon. Test distinct
@@ -106,13 +134,15 @@ Consult `references/challenge-craft.md` § Interaction for affordance
 examples, vector definitions, and roll criteria.
 
 **Complete when:** at least two genuinely different approaches can
-change the situation.
+change the situation; suspense scenes should expose at least three.
 
 ### 6. Build consequences and recovery
 
-Choose consequences arising from the fiction. Use partial states where
-useful. For puzzles and trials, a wrong answer should reveal information
-or transform the problem. Define recovery after failure.
+Choose consequences arising from the fiction. Price every response in
+fictional resources or future position; avoid damage that follows merely from
+touching an undisclosed trigger. Use partial states where useful. For puzzles
+and trials, a wrong answer should reveal information, advance the fuse, or
+transform the problem. Define recovery after failure.
 
 Consult `references/challenge-craft.md` § Consequences for consequence
 types and partial-state patterns.

@@ -16,6 +16,16 @@ factions, clues, locations, offers, and hazards that can become beats. Let what
 players do select which prepared situation fires, what it means, and whether a
 new situation replaces it. Never force the next scene because a slot is empty.
 
+## Pressure-point installation
+
+Choose the pressure mode deliberately. **Mystery** hides information so the
+players dig; **surprise** hides the bomb until it goes off; **suspense** reveals
+that a bad thing is already moving and puts weight on choices under a fuse.
+For sustained tension, install suspense rather than defaulting to mystery or
+surprise. A pressure point is ready when the threat is visible enough to act
+on, the fuse advances without permission, the clean answer remains uncertain,
+and every response costs something.
+
 ## Run the chart
 
 1. **State the promise and starting situation.** Name the experience, question,
@@ -26,8 +36,10 @@ new situation replaces it. Never force the next scene because a slot is empty.
    additional time with alternating Development/Cliffhanger pairs. Adjust for
    table speed, not the clock alone.
 3. **Prepare situations, not outcomes.** For each candidate, record trigger,
-   actors, stakes, visible information, at least two viable responses, and what
-   changes afterward. Mark the candidate as a Hook, Development, Cliffhanger,
+   actors, stakes, visible information, fuse, costs, at least two viable
+   responses, and what changes afterward. For a suspense candidate, require
+   three materially different response paths, a delay consequence, and a partial
+   success shape. Mark the candidate as a Hook, Development, Cliffhanger,
    Climax, or Resolution only when it fires.
 4. **Fire one Hook at the start.** Present an actionable problem, offer, threat,
    discovery, or opening. If the Hook is action-heavy, make the next beat a
@@ -48,8 +60,10 @@ new situation replaces it. Never force the next scene because a slot is empty.
    never GM fiat. Give players a chance to notice Betrayal or Sabotage before
    it becomes irreversible. Keep Second Chance, Back from Dead, and Heroes
    Escape rare, costly, and unable to erase meaningful consequences.
-8. **Escalate pressure without stacking fights.** Early opposition may be weak,
-   partial, or avoidable; later opposition may be tougher or more consequential.
+8. **Escalate pressure without stacking fights.** Advance visible clocks and
+   change the problem when players delay; do not turn an undisclosed trigger
+   into a hidden punishment. Early opposition may be weak, partial, or avoidable;
+   later opposition may be tougher or more consequential.
    Keep Cliffhangers short and legible, save the strongest pressure for the
    Climax, and interleave social, investigative, travel, and recovery beats.
 9. **Earn the Climax.** Before an action Climax, end the preceding beat with a
@@ -65,6 +79,8 @@ new situation replaces it. Never force the next scene because a slot is empty.
 ## Agency gates
 
 - Prepare situations and clocks, not required outcomes.
+- Reveal a moving threat before asking players to pay for choices; hide the clean answer, not the problem.
+- Accept clever solutions that were not prepared; update the world and let the opposition adapt later.
 - Offer two or more meaningful options when the fiction supports them: routes,
   alliances, bargains, fights, retreats, investigation, or refusal.
 - Let players ignore a Development, fail a Cliffhanger, or pursue a goal they

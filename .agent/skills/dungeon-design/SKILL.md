@@ -22,7 +22,7 @@ machine before writing its room prose.
 |---|---|---|
 | Promise | What experience, image, or question does this site promise? | Cut generic dressing. |
 | Purpose | Why does it exist, and why does it matter now? | Give it a function or delete it. |
-| Pressure | What advances, notices, depletes, or worsens? | Add a clock, cost, or consequence. |
+| Pressure | What advances, notices, depletes, or worsens? | Add a visible clock, cost, or consequence; telegraphed danger beats an ambush HP tax. |
 | Paths | What are the meaningful routes, loops, bypasses, and retreats? | Redraw the graph before keying. |
 | Powers | Who wants, fears, uses, or contests the site? | Add active factions, not stat blocks. |
 | Payoffs | What information, leverage, treasure, access, or change can play earn? | Replace encounter quota with rewards. |
@@ -59,7 +59,9 @@ If the intended use is a campaign, do not make one linear clear-the-site quest.
    obstacle, inhabitants, access routes, escalation, and likely payoff. A zone is
    a playable relationship, not just a color on a map.
 4. **Draw the decision graph before the detailed map.** Nodes are situations or
-   decision points; edges are routes, costs, information, and consequences. As
+   decision points; edges are routes, costs, information, and consequences.
+   Pressure nodes should expose at least three materially different response
+   paths; never make one hidden answer the only route forward. As
    practical defaults, use two entrances when fiction allows, at least one loop,
    one bypass, one vertical or otherwise unusual connection, one optional danger,
    and two approaches to each major objective. This is Xandering: make choices
@@ -82,17 +84,20 @@ If the intended use is a campaign, do not make one linear clear-the-site quest.
    may resolve). Do not use a hidden check to decide whether play can continue.
 8. **Build obstacles with six fields:** Sign, Trigger, Effect, Counterplay,
    Bypass, Leverage. Telegraph the sign, name the trigger in fiction, make the
-   effect consequential, and provide at least one fair counterplay and one
-   bypass. Leverage rewards prior information, faction relationships, tools, or
-   terrain rather than a single correct key.
+   effect consequential, and add a fuse when delay should change the problem. A
+   revealed trap is a puzzle; a puzzle plus a fuse is a scene. Do not use a
+   hidden step → damage tax with no informed choice. Provide at least one fair
+   counterplay and one bypass. Leverage rewards prior information, faction
+   relationships, tools, or terrain rather than a single correct key.
 9. **Design encounters by job, not creature count.** Record Function,
    Objective, Stakes, Terrain, Information, Escalation, Off-ramps, and
    Aftermath. Calibrate a 2024-rules encounter as Low/Moderate/High only after
    deciding its job and stakes; budgets estimate difficulty, not quality. Give
    every hostile encounter a readable non-combat option, retreat, bargain, or
    objective that can end the scene.
-10. **Set the pressure procedure.** Choose the clock, advance trigger, alert
-    state, and consequence before keying. Use the procedure in
+10. **Set the pressure procedure.** Choose the moving threat, visible clock,
+    advance trigger, alert state, delay cost, and consequence before keying. Use
+    the procedure in
     [references/procedures.md](references/procedures.md), then test whether a
     party can understand and influence it.
 11. **Make rest a strategic choice.** Short Rest is 1 hour; Long Rest is 8 hours
