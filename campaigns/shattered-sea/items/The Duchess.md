@@ -11,6 +11,8 @@ tags: [item, delmar, firearm]
 # The Duchess
 
 > [!narration] Narration
+> A long shoulder musket with a dark wood stock. The blued barrel runs past the forearm, with brass bright at the trigger and an engraved plate reading The Duchess. The weight sits forward, and the lever clicks when worked.
+
 
 
 
