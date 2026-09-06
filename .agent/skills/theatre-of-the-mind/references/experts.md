@@ -60,6 +60,12 @@ short sentences that isolate each fact. Resolve contact only after a declared
 action or in a later combat-update branch, never inside cold `[!narration]` or
 the establishing shot.
 
+**Player prose never names the stop.** Workshop words (`telegraph`, `reaction
+point`, `the tell ends`) belong only in this skill file. In `[!narration]`, end
+on the last perceptible windup image (wings pin; whistling dive line starts)
+and omit the craft label.
+
+
 If time or habitat leads while the requested creature remains a generic noun,
 run the thin gate again: move the body to the grammatical subject and cut any
 setting detail that does not seat its entrance or motion. Do not let an

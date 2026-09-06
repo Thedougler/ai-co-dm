@@ -47,7 +47,7 @@ If silhouette, translucent mantle, and braced arms already carry the picture, cu
 
 > Wings pin tight to the body, then a whistling dive line cuts straight down from high altitude. At the bottom the striker tears a held item free and climbs away before the scramble settles.
 
-**Strong:** high-altitude diver body/silhouette + ordinary flight habit, or telegraph only (wings pin, whistling line starts) then stop. Steal stays At the table.
+**Strong:** high-altitude diver body/silhouette + ordinary flight habit, or windup images only (wings pin, whistling line starts) then stop by omission. No craft word `telegraph` in narration. Steal stays At the table.
 
 **Weak: Deer-Stalker time-skip film**
 
@@ -69,6 +69,21 @@ If silhouette, translucent mantle, and braced arms already carry the picture, cu
 > A Sentinel strike that lands past ordinary wingspan. Breath and stance lock to the peak of a gust on a wind-open terrace. The timing is exact; the blow answers that measure.
 
 **Strong:** breath, stance, wing set, and strike-past-wingspan as stable how-it-looks-when-used facts — no terrace venue, no “answers” tone, no held gear. Training place stays Fiction.
+
+
+## Craft meta in player prose (hard fail)
+
+**Weak: Stoop names the stop**
+
+> A peregrine body hangs high above the field. Wings pin tight to the sides. A whistling dive line starts down and the telegraph ends there.
+
+**Strong:** peregrine body high up; wings pin; whistling dive line starts — stop by omission. No `telegraph` / `tell ends`.
+
+**Weak: Long Reach meta closer**
+
+> On a wind-open terrace a Sentinel sets breath and stance to the gust. The tell ends before the strike leaves the body.
+
+**Strong:** breath, stance, wing set, strike-past-wingspan as stable facts — no venue required, no craft stop-label.
 
 **Weak: Long Reach invented terrace venue (after skill)**
 

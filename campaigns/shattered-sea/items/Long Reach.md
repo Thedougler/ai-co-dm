@@ -11,7 +11,7 @@ tags: [item, sentinel, technique]
 # Long Reach
 
 > [!narration] Narration
-> Long Reach is breath, stance, and wing set held as one practiced form. A Sentinel using it strikes past ordinary wingspan. Exact timing is the measure.
+
 
 
 

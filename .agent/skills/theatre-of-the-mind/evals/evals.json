@@ -261,7 +261,8 @@
       "expectations": [
         "Fails resolved Stoop (item tear + climb) or invented scramble.",
         "Passes cold portrait or telegraph-only stop before contact.",
-        "Keeps signature move resolution in At the table / mechanics."
+        "Keeps signature move resolution in At the table / mechanics.",
+        "Fails craft words in narration (`telegraph`, `tell ends`)."
       ]
     },
     {
@@ -302,6 +303,26 @@
         "Fails `He named it for Serafina` / marriage dedication in Appearance.",
         "Passes drawable musket nouns (~3 connected sentences, Fate Spinner bar).",
         "Keeps dedication in Story hooks."
+      ]
+    },
+    {
+      "id": 31,
+      "prompt": "Using Stoop parent (peregrine high dive; wings pin; whistling dive line; steal stays At the table), write monster `[!narration]` cold. No party state.",
+      "expected_output": "Peregrine high up; wings pin; whistling dive line starts — stop by omission. No craft vocabulary.",
+      "expectations": [
+        "Fails any of: telegraph, tell ends, reaction point, Appearance, cold portrait in narration.",
+        "Passes body + wings-pin + dive-line windup without naming the stop.",
+        "Keeps steal/climb out of Appearance."
+      ]
+    },
+    {
+      "id": 32,
+      "prompt": "Using Long Reach technique parent, write `[!narration]`. Prior fail used `the tell ends before the strike leaves the body` and wind-open terrace venue.",
+      "expected_output": "Venue-free training tells; no meta closer; no craft stop-label.",
+      "expectations": [
+        "Fails `tell ends` / `telegraph` / invented terrace venue staging.",
+        "Passes breath/stance/wing set (+ optional strike-past-wingspan as stable fact).",
+        "No workshop vocabulary in player prose."
       ]
     }
   ]

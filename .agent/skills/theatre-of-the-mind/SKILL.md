@@ -95,7 +95,7 @@ set, and how the form looks when used (e.g. a strike past ordinary wingspan) —
 without inventing a current venue, terrace duel, gust-peak scene, or held gear.
 Fail object-silhouette forced onto techniques; fail invented venue ("On a
 wind-open terrace…"); fail mysticism/theme ("the blow answers that measure",
-"answers" as magic tone); fail resolved hit film. Training location and order
+"answers" as magic tone); fail meta closers ("the tell ends before…"); fail resolved hit film. Training location and order
 lore stay in Fiction / Training. Mechanical package stays Mechanics.
 
 **Hard mode gate for named-item cold Appearance:** cold item `[!narration]` stays
@@ -104,6 +104,15 @@ sensory behavior. Fail if the closer is **biography or dedication** ("He named
 it for Serafina…", marriage history, who it honors) unless that text is a
 **visible mark on the object** (engraved plate reading the name). Owner story
 and dedication stay in Story hooks / Look / DM sections.
+
+
+**Hard ban — craft/process words in player prose:** `[!narration]` and any
+player-facing spoken block must never contain workshop vocabulary. Banned in
+output (non-exhaustive): `telegraph`, `the tell ends`, `tell ends`, `reaction
+point`, `Appearance`, `cold portrait`, `standalone portrait`, `hookline` as a
+label, `at the table` as meta. Stop by **omission** — the last image is the
+windup — never by naming the stop ("and the telegraph ends there"). Keep those
+words in skill/reference/DM notes only.
 
 - **Situated moment:** write from the supplied table state and viewpoint. Route
   by surface below, preserve the current environment and motion, and stop at
