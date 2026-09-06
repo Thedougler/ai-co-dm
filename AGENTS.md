@@ -48,6 +48,8 @@ Obsidian LLM wiki for Nick's home D&D. **Markdown is the product.**
 
 **Always-on:** this table + `obsidian-markdown` for every wiki `.md` write. **On match:** that skill’s `SKILL.md` only. **On demand:** `references/` when the skill says.
 
+`session-wrapup` / `campaign-qa`: adapted from AntTheLimey/gm-apprentice (CC-BY-SA) — see each skill’s attribution block.
+
 | Job | Skill |
 |---|---|
 | Format any vault `.md` (Obsidian) | `obsidian-markdown` — **required on every wiki write** |
@@ -63,6 +65,8 @@ Obsidian LLM wiki for Nick's home D&D. **Markdown is the product.**
 | Audit player-facing TotM / read-aloud | **Writing-Evaluator** (critique only) |
 | TotM fail → skill fix → rewrite loop | Evaluator fail → **Skill-Creator** → **Visualizer** → Evaluator again |
 | Session pacing | `session-beats` |
+| Post-session durable log + surgical canon | `session-wrapup` → **Co-DM** / **Session-Planner** (complements `session-transcript-ingest`) |
+| Canon / graph QA | `campaign-qa` → **Co-DM** / **Session-Planner** / **Organizer** (hygiene stays `wiki-lint`) |
 | Places | `place-design` |
 | Dungeons | `dungeon-design` |
 | NPCs | `npc-design` |
