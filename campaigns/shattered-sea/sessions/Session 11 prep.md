@@ -101,6 +101,22 @@ Disposable. Rewrite next time; do not treat as canon.
 - Offered fruit only if *received* — not claimed (Hunger Rule)
 - Survivor caches if earned — Co-DM
 
+## Densify sync (Dungeon-Designer)
+- **Design densify:** A–I + Western Landing L1–L7 = table-ready (graph / obstacle / night-hook level)
+- **Vault filing:** in progress — spine room notes first; Soft/Rot/Grove/Tubes stubs later
+- **Gaps until vault lands:** per-room notes, hub Keyed rooms indexes, site ledger — table can run from design keys
+- **G/H:** optional bait light stubs — OK
+- **No travel overrides** beyond Nick’s multi-room regions + 4h soft-land at Quiet verge or boat
+
+## Night-watch hooks (vault-backed — DD)
+| Camp | Hook |
+|---|---|
+| Gardens lee / fruit stairs | [[Grinning Ape]] (stones then drop), vine lashes, [[Grubnade]] blooms |
+| Taking-places (C) | Same + [[Aruhe Hunger Rule]] convergence if any overnight claim |
+| Quiet verge (I) | Silence threshold; [[Deer-Stalker]] at dim edge; [[Strangler Fig]] if they pinch a trail for camp |
+| Drop rim / open thermal | [[Bloodhawk]] thermal interest; [[Wolfrabbit]] packs dawn/dusk |
+| Shingle L2–L3 (boat bail) | [[Reef Skull]], [[Small Blood Hawk]] on tide-meat, wreck shade |
+
 ## Table procedures
 - **Watch** = 4h for travel pressure checks
 - Intra-region sites: 10–60 min turns
