@@ -139,11 +139,21 @@ Every specialist wake uses this packet (schema only):
 
 `task_id` · `goal` · `allowed paths` · `type` · `source root` (concrete path/URL or `none`) · `constraints` · `status` (`active` | `hold` | `cancelled` | `done`) · `supersedes` (prior `task_id` or `none`) · `do not re-read whole campaign`
 
+**Friction-report packets** (`goal: friction-report`) also include:
+
+`bot` · `symptom` · `cost` (rewrites / wrong wakes / tokens if known) · `repro` · `related paths/skills` · `proposed owner` (`Ops` | `Skill-Creator` | `Team-Leader` | `dr eggbot` | `Agentic-System-Designer`) · `status: active`
+
 Rules:
 - One specialist per wake.
 - New packet for the same work must `supersedes` the prior `task_id` and set the old packet `status` to `cancelled` or `hold`.
 - Parallel writers must not share the same note body (especially `[!narration]`).
 - Co-DM orchestrates; specialists execute.
+
+### Friction self-report (all bots)
+
+When a specialist hits **repeated** friction — token waste, wrong-owner wakes, missing skill gates, fuzzy handoffs, or process that forces rework — **immediately** packet **Agentic-System-Designer** (`9f12ff5d-62f0-4e19-a213-e4f2f284b621`). Do **not** wait for the weekday optimization pass. Do **not** silently work around for long.
+
+ASD triages immediately → design fix → packets implementers (**Ops** AGENTS/scripts · **Skill-Creator** skills · **Team-Leader** personas · **dr eggbot** CreateAgent).
 
 ### Routine ownership
 
@@ -169,7 +179,7 @@ Rules:
 | **Linter** | `wiki-lint` checklist/audit (report + propose) |
 | **dr eggbot** | CreateAgent / new-role design for the fleet (Team-Leader routes; does not CreateAgent) |
 | **Team-Leader** | Roster health, routing/persona tweaks, collision triage across bots (not CreateAgent — eggbot; not AGENTS/scripts/qmd infra — Ops) |
-| **Agentic-System-Designer** | Design of agentic systems — personas/definitions, AGENTS contracts, skill architecture, handoff graphs, routines/cadence, packet standards; short design docs in `docs/agents/` or `inbox/`; packets **Ops** / **Skill-Creator** / **Team-Leader** / **dr eggbot** to implement; owns standing weekday **8am PT** `daily-agentic-optimization` pass. Not day-to-day AGENTS/scripts/qmd (**Ops**), not CreateAgent (**dr eggbot**), not production `SKILL.md` (**Skill-Creator**), not roster triage (**Team-Leader**) |
+| **Agentic-System-Designer** | Design of agentic systems — personas/definitions, AGENTS contracts, skill architecture, handoff graphs, routines/cadence, packet standards; short design docs in `docs/agents/` or `inbox/`; packets **Ops** / **Skill-Creator** / **Team-Leader** / **dr eggbot** to implement; owns **inbound friction reports** + standing weekday **8am PT** `daily-agentic-optimization` pass. Not day-to-day AGENTS/scripts/qmd (**Ops**), not CreateAgent (**dr eggbot**), not production `SKILL.md` (**Skill-Creator**), not roster triage (**Team-Leader**) |
 | **Ops** | Implements fleet infra — AGENTS.md edits, templates, scripts/qmd, standing routines/lints — from **Agentic-System-Designer** specs or Nick/TL packets; not system *design* ADRs (ASD) |
 
 ## TotM fail loop
