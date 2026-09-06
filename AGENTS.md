@@ -102,6 +102,16 @@ This repo is an **Obsidian prose wiki**, not an application codebase. Prefer vau
 | Player-facing post-session recap | `session-recap` → **Co-DM** / **Session-Planner** (after `session-wrapup`) |
 | Presence/elaboration pass | `flesh-out` → **Co-DM** (DM facts before TotM) |
 | Borrowed-POV session opener | `cold-opens` → **Visualizer** (borrowed-POV prose); plan → **Session-Planner** |
+| One-session DM run guide | `run-guide` → **Session-Planner** / **Co-DM** |
+| Conservative wikilink repair | `cross-linker` → **Organizer** (link hygiene); lint assist → **Linter** |
+| Thread-driven journey legs | `travel-events` → **Co-DM** / **Session-Planner** |
+| Encounter prep (combat/social/exploration/hybrid) | `encounter-prep` → **Co-DM** / **Session-Planner**; monster math → **Monster-Brewer** |
+| Human-started PC interviews | `pc-interview` → **Co-DM** / **Session-Planner** |
+| Agency / anti-rail audits | `sandbox-narrative` → **Co-DM** |
+| Grounded identity/session visuals | `visual-aids` → **Visualizer** |
+| Tag audit/normalization (ai-co-dm vocab) | `tag-taxonomy` → **Organizer**; AGENTS/schema → **Ops** |
+| Multi-owner decompose before broad work | `decomposing-campaign-content` → **Agentic-System-Designer** (routing design); filing → **Ingest** |
+| Post-ingest evidence reconciliation | `reconciling-session-evidence` → **Co-DM** / **Ingest** (after `session-transcript-ingest`) |
 
 **Brew routing:** **Homebrewer** is the default general-purpose brew bot. Dedicated brew specialists (pattern: Monster-Brewer, Item-Brewer, **Dungeon-Designer**) are spun **lazily** when a content type is frequent/important — not pre-created. Until then, that type stays on Homebrewer. Places that are **dungeons** / megadungeons → **Dungeon-Designer** (already earned). New brew specialist → **Team-Leader** routes design to **dr eggbot**, then **Ops** wires AGENTS.
 
