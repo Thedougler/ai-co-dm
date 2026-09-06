@@ -4,7 +4,7 @@
     {
       "id": 1,
       "prompt": "Ingest this article into wiki/sources/ and update wiki/.state.json.",
-      "expected_output": "Refuses wiki/ + state.json; uses inbox/ \u2192 campaigns/lexicon + after-write.",
+      "expected_output": "Refuses wiki/ + state.json; uses inbox/ → campaigns/lexicon + after-write.",
       "expectations": [
         "Does not create wiki/ or state.json.",
         "Uses inbox/ and campaigns/ or lexicon/.",
@@ -14,11 +14,12 @@
     {
       "id": 2,
       "prompt": "File this research dump as one giant lore note in inbox forever.",
-      "expected_output": "Distills into typed notes, drains inbox, links indexes \u2014 no permanent inbox dump.",
+      "expected_output": "Decomposes every entity/claim first, searches wiki per item, files typed surgical notes, drains inbox, and runs after-write.",
       "expectations": [
+        "Outputs a source coverage checklist before filing.",
         "Does not leave the only artifact in inbox/.",
-        "Splits by type / surgical page set.",
-        "qmd create-vs-update before minting."
+        "Splits by type / checklist-driven page set, not one dump note.",
+        "Runs qmd wiki create-vs-update for every checklist item."
       ]
     },
     {
@@ -39,6 +40,18 @@
         "Does not create concepts/ paths.",
         "Uses AGENTS type/templates.",
         "Remaps generic upstream layout."
+      ]
+    },
+    {
+      "id": 5,
+      "prompt": "Ingest this Shattered Sea dump containing three creatures, two zones, and ecology claims.",
+      "expected_output": "Checklist covers every item; each item gets wiki and legacy-ss searches, relevant hits are opened, legacy paths are cited when promoted, and all actionable coverage is filed.",
+      "expectations": [
+        "Does not treat the dump as one lore blob.",
+        "Runs and records qmd -c wiki and -c legacy-ss for every named item.",
+        "Treats missing per-entity legacy-ss passes as an incomplete ingest.",
+        "Maps ecology claims and zone ownership into the link graph.",
+        "Allows a checklist-sized page set larger than five notes without a giant dump note."
       ]
     }
   ]
