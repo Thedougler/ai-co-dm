@@ -124,13 +124,24 @@ Still fails: stages a current venue. Prefer venue-free tells.
 
 **Strong:** long-barreled naval musket; polished wood and brass; engraved plate near the lock reads The Duchess; carried as if still on a flagship rail. Dedication stays Story hooks.
 
+
+## Place — Strong-echo checklist vs spine
+
+**Weak: Clear Lake Strong-echo (Nick FAIL)**
+
+> The shore is wet stone. Clear lake water shows the bottom near the bank before the blue goes dark farther out. Rivers open into the lake in slow wide mouths, and a channel keeps on toward the Grove. Cool air lifts off the water.
+
+Fails: thin telegram opener; one-fact checklist cadence matching Strong architecture; weak scale/affordance (cool *air* only).
+
+**Strong (illustrative spine — do not parrot order):** clear water as the thing you meet; lake wide enough the far bank is a thin line; drink at wet-stone shore where the bottom shows; river mouths in; Grove channel as a choice; cool lake-smell woven mid-block — flowing prose, independent spine.
+
 ## Place kernel vs geography (location `[!narration]`)
 
 See also the lake Weak/Strong pair in [places.md](places.md).
 
 **Weak:** `offer rest and direction`, `stays unclaimed`, `enormous life` with no body.
 
-**Strong:** clear water + shore scale, river mouths / channels, cool drinkable water, wet stone. Stop on geography. No Hunger/claim talk, no em dashes, no invented shadow-then-still mystery. Kitchen-table nouns only. Large life stays in DM/encounter unless parent gives a stable ecology fact.
+**Strong:** one spine for *this* water body (scale + drinkable clarity); fold shore/mouths/channel/sense as dependents — never shore→depth→mouths→Grove→air checklist. No Hunger/claim, em dashes, mystery closers. Kitchen-table nouns. Large life stays DM/encounter unless stable ecology.
 
 ## Item mood fluff vs concrete behavior
 

@@ -221,6 +221,10 @@ evidence.
 | a portrait or first look is one dry identifying sentence | expand into connected prose covering silhouette/scale, defining parts or topology, ordinary behavior/use, and one supported sensory fact |
 | item-page `[!narration]` is only 1–2 dry sentences | expand to ~3 connected sentences with missing visual material/wear/silhouette nouns — never pad with glitter negation or cover-story similes |
 | location `[!narration]` is place-design kernel or schema verbs with no landmark | rewrite as cold place portrait: form/scale, topology/approaches, sensory; no invented mystery closer |
+| place `[!narration]` is Strong-echo / checklist (shore→depth→mouths→Grove→cool air, one fact per sentence) | one spine sentence for *this* place; fold facts as dependents; fresh phrasing |
+| place opens with thin telegram (`The shore is wet stone.`) | seat scale/spine first; fold underfoot wet stone into a fuller sentence |
+| place has no body-scale size or usable affordance nouns | far bank / width + drinkable water / underfoot shore / followable channel |
+| place is the concept of a lake/forest (generic filing fields) | Colville: concrete dominating feature of *this* site |
 | facts arrive as a telegram or bullet-shaped clauses | join owned details into flowing sentences with concrete verbs |
 | item Appearance uses catalog/rules gloss (`carries as`, `ordinary X for Y`, `shoulder firearm for one shooter`) | concrete noun + scale-vs-body + material/wear + one sense/behavior; read aloud test |
 | item Appearance is only weapon-class taxonomy with no drawable parts | Fate Spinner bar: musket/stock/brass/nameplate/how it sits in the hands |

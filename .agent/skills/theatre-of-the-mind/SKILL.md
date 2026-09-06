@@ -78,16 +78,20 @@ blood, eyes, claws onto the body in flowing prose.
 **Hard mode gate for location/site `[!narration]`:** if the request is filling
 or rewriting `[!narration]` on a location note and no party position or other
 current table state is supplied, the mode is **standalone cold place portrait**
-of **stable public geography** (form, topology, approaches, sensory). Ban
-place-design kernel fields and schema voice: Function, Fantastic, Conflict,
-Promise, Trajectory, Aspects, Player verbs, Hunger / possession metaphysics,
-and rule-talk like `unclaimed` / `claim`. Ban invented mystery closers and
-staged located-change drama (shadow turns then still, something watches then
-vanishes) unless current table state supplies that motion. Creature signs and
-encounter pressure belong to a **situated** first look. “Ordinary observable
-function” means a drawable use of a landmark (drink from clear water, walk a
-shore channel), never thematic Function (“offer rest and direction”). Design
-kernels stay upstream (`place-design`); TotM renders geography.
+of **stable public geography** with **one spine that is already this place**
+(not the concept of a lake/forest/room — Colville). Fold landmarks as dependents
+of that spine. Fail **Strong-echo / checklist cadence** (one fact per sentence
+in shore → depth → mouths → Grove → cool air order, or parroting a Strong
+example’s architecture). Fail thin telegram openers (`The shore is wet stone.`).
+Require body-scale size and at least one usable affordance cue as nouns/verbs
+(drinkable water, wet stone underfoot, followable channel) — never theme
+(`rest`/`direction`). Ban place-design kernel fields and schema voice: Function,
+Fantastic, Conflict, Promise, Trajectory, Aspects, Player verbs, Hunger /
+possession metaphysics, and rule-talk like `unclaimed` / `claim`. Ban invented
+mystery closers and staged located-change drama unless current table state
+supplies that motion. Creature signs and encounter pressure belong to a
+**situated** first look. Design kernels stay upstream (`place-design`); TotM
+renders geography. Examples teach moves, not sentence architecture to echo.
 
 
 **Hard mode gate for technique notes (`kind: technique` or technique tags):** if

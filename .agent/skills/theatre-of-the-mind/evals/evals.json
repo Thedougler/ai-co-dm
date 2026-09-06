@@ -247,11 +247,12 @@
     {
       "id": 25,
       "prompt": "Using Clear Lake parent (clear drinkable inland lake; shores/channels; river valleys in; Grove shore route; cool water/wet stone; fiction-only huge submerged life + otter; Hunger/possession in DM notes), write location `[!narration]` with no party/table state.",
-      "expected_output": "Cold place portrait: stable geography only (shore, depth cue, river mouths, Grove channel, cool air). No invented shadow-then-still mystery; Hunger/names/kernel/em dash/cuts still out.",
+      "expected_output": "Cold place with independent spine: this lake's scale + drinkable clarity; fold wet stone/mouths/Grove channel/sense as dependents. No Strong-echo checklist; no mystery closer; no kernel.",
       "expectations": [
-        "Fails rest/direction/unclaimed/kernel; em dash; river cuts; invented mystery closer (shadow turns then still).",
-        "Passes shore/depth/river mouths/Grove channel/cool air as stable geography; stops without staged encounter drama.",
-        "Keeps Hunger/names and underwater mystery beats out of Appearance unless table state supplies motion."
+        "Fails Strong-echo / checklist order (shore→depth→mouths→Grove→cool air) or thin opener `The shore is wet stone.`",
+        "Fails mystery closer, em dash, kernel/rest/direction/unclaimed, Hunger/names.",
+        "Passes body-scale size + drinkable/affordance nouns in flowing prose with a fresh spine.",
+        "Keeps large life / Hunger in DM unless stable ecology only."
       ]
     },
     {
@@ -344,6 +345,16 @@
         "Fails `When the branch moves` / invented disturb trigger with no table state.",
         "Passes body + chew on flower.",
         "Keeps swell/burst in At the table."
+      ]
+    },
+    {
+      "id": 36,
+      "prompt": "Judge this Clear Lake cold `[!narration]`: 'The shore is wet stone. Clear lake water shows the bottom near the bank before the blue goes dark farther out. Rivers open into the lake in slow wide mouths, and a channel keeps on toward the Grove. Cool air lifts off the water.'",
+      "expected_output": "FAIL — Strong-echo checklist + thin opener; missing spine and drinkable affordance emphasis.",
+      "expectations": [
+        "Verdict is FAIL for Strong-echo / one-fact-per-sentence architecture.",
+        "Notes thin telegram opener and weak affordance (cool air vs drinkable water).",
+        "Does not pass merely because mystery closer is absent."
       ]
     }
   ]
