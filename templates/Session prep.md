@@ -11,66 +11,132 @@ cssclasses: [session-surface]
 
 # Prep — Session {{session}}
 
-Disposable. Rewrite next time; do not treat as canon.
+Disposable run sheet — rewrite next time; not canon.
 
-## Dashboard
-One-screen state before play. Keep bullets; delete empties.
+## L0 · Dashboard
 
-- **Strong start:** where/when the camera opens
+Glance layer. Bullets only; delete empties.
+
+- **Strong start:** where / when the camera opens
 - **Active pressure:** fronts / clocks already moving
 - **Stakes tonight:** what changes if engaged or ignored
 - **Spotlight:** [[PC]] — thread / need
 - **Roster:** PCs at the table
 
-> [!narration] Narration
-> _Situated strong start — full first look of the opening moment. Theatre of the mind._
+> [!narration] Strong start
+> _Full first look of the opening moment. Theatre of the mind._
 >
 
-## Scene menu
-Potential nodes, not a path. ~1 per 45 min. Prefer run-guide cards when running live.
+## L1 · Scene menu
+
+Playable nodes — not a path. ~1 per 45 min. Blank line between cards.
 
 ### 1. Title — [[owner]]
+
 - **Live when:** world-state that makes this live
-- **Pressure / stakes:**
+- **Pressure / stakes:** what moves · what changes
 - **Spotlight:** [[PC]] — thread
-- **On the table:** actors, exits, objects, clues, choices now
-- **DM truth:** trigger + how it can surface — use open `> [!secret]` (never `[!secret]-`)
-- **Procedure:** one check/procedure — trigger, DC/source, success, fail-forward
-- **If violence / if ignored:** opening behaviour · independent pressure step
-- **Advance when:** state change → next node
 
-### 2. 
--
+> [!narration] On arrival
+> _What the table can perceive now._
+>
 
-### 3. 
--
+**On the table**
+- actors · exits · objects · clues · choices now
 
-## Bank (drop as needed)
-Abstracted — no fixed “found in X.”
+> [!secret] DM truth
+> Trigger + how it can surface. Always open — never `[!secret]-`.
+
+> [!mechanic] Procedure
+> One check: trigger · DC/source · success · fail-forward.
+
+**If violence** — opening behaviour · terrain · morale · goal  
+**If ignored** — one independent pressure step  
+**Advance when** — state change → next node
+
+---
+
+### 2. Title — [[owner]]
+
+- **Live when:**
+- **Pressure / stakes:**
+- **Spotlight:**
+
+> [!narration] On arrival
+> _
+
+**On the table**
+- 
+
+> [!secret] DM truth
+> 
+
+> [!mechanic] Procedure
+> 
+
+**If violence / if ignored** —  
+**Advance when** —
+
+---
+
+### 3. Title — [[owner]]
+
+- **Live when:**
+- **Pressure / stakes:**
+- **Spotlight:**
+
+> [!narration] On arrival
+> _
+
+**On the table**
+- 
+
+> [!secret] DM truth
+> 
+
+> [!mechanic] Procedure
+> 
+
+**If violence / if ignored** —  
+**Advance when** —
+
+## L2 · Bank
+
+Drop-in material. Abstracted — no locked “found in X.”
 
 ### Secrets and clues
+
 - 
 - 
 
 ### Locations
+
 `[[Location]]: aspect, aspect, aspect`
+
 - 
 
 ### NPCs
-`[[NPC]].` one-line role + need
+
+`[[NPC]]` — one-line role + need
+
 - 
 
 ### Monsters
+
 Name / link only. Counts at the table.
+
 - [[Monster]]
 
 ### Treasure
+
 Parcels if earned.
+
 - [[Item]] / coin / boon
 
-## Do not
-- Scripted dialogue trees
-- Locked clue locations
-- Full stat blocks here (link [[Monster]] / SRD)
-- Collapsed callouts (`[!…]-`) — DM must see every line without a click
-- Mixing this with the post-session log
+## Constraints
+
+- No scripted dialogue trees
+- No locked clue locations
+- No full stat blocks here (link [[Monster]] / SRD)
+- No collapsed callouts (`[!…]-`) — DM sees every line
+- Do not mix with the post-session log

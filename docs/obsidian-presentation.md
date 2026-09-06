@@ -35,3 +35,19 @@ Reload snippets in Obsidian if colours do not appear: Settings → Appearance �
 8. Advance when
 
 Session prep template mirrors this under **Scene menu** after a **Dashboard**; bank (clues, roster links) sits below.
+
+## Spacing & hierarchy (session notes)
+
+Session prep / log use explicit bands:
+
+| Band | Role |
+|---|---|
+| **L0 · Dashboard** | One-screen glance before play |
+| **L1 · Scene menu** | Playable cards (H3 panels, `---` between) |
+| **L2 · Bank** | Drop-in secrets / roster links |
+| **Constraints** | Anti-patterns (quiet) |
+
+Each L1 card stacks: header fields → narration → on the table → open `secret` → open `mechanic` → branch lines → advance.
+
+CSS gives H3 scene titles a left-accent panel, extra margin between H2 bands, and looser list/paragraph rhythm on `session-surface`.
+
