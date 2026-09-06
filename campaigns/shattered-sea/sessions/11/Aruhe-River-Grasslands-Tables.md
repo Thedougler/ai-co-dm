@@ -11,7 +11,7 @@ cssclasses: [session-surface]
 
 # Aruhe River / Grasslands Tables
 
-Parachute for [[campaigns/shattered-sea/sessions/11/Session-11-Angry-Birds]]. Roll only if the crew lingers, claims living plants, or leaves the spine. No Grung. Do not restage beat 9 ([[Talon Skarn]]) or pull [[The Blight]].
+Paired with [[Aruhe-River-Grasslands-Plant-Hazards]] for [[campaigns/shattered-sea/sessions/11/Session-11-Angry-Birds]]. Each Survival check rolls both tables. Run one row. No Grung. Do not restage beat 9 ([[Talon Skarn]]) or pull [[The Blight]].
 
 ## L0 · At a glance
 
@@ -32,9 +32,15 @@ Parachute for [[campaigns/shattered-sea/sessions/11/Session-11-Angry-Birds]]. Ro
 | 8 | Unsaid Macaw flock | Easy / social | Flock of [[Unsaid Macaw]] |
 
 > [!mechanic] When to roll
-> If they linger, leave the spine, or wander a new stretch, roll 1d8.
-> If they pluck living plants, fish for themselves, or kill to carry flesh, roll 2d8 and take the lower number. Fallen fruit, passage, and free-flowing water are not a claim. See [[Aruhe Hunger Rule]].
-> If the result would duplicate a live spine fight (the same bloodhawk still in the air from beat 1, the same otter hole, the same deer-stalker mark), reroll once among unused rows.
+> When the crew navigates a new stretch of grassland or river, they make a Wisdom (Survival) check against DC 13.
+> They need 3 successes to reach the next landmark: landing to smoke, or smoke to camp.
+> Failures do not count toward that 3. Use 2 successes if the night is short. Use 4 if they leave the water.
+> Each check, pass or fail, roll 1d8 on this table and 1d8 on [[Aruhe-River-Grasslands-Plant-Hazards]].
+> Run exactly one of those two rows. Pick the row that matches the ground in front of them.
+> A success means they see the chosen row coming and can go around, engage, or pay a cost and keep walking.
+> A failure means the same row, already in reach or already in the stand.
+> If they pluck living plants, fish for themselves, or kill to carry flesh, both rolls are 2d8 and you keep the lower number on each table, then still pick one row. Fallen fruit, passage, and free-flowing water are not a claim. See [[Aruhe Hunger Rule]].
+> If a row would restage a live spine fight, use the other table's row. If both collide, reroll once among unused rows.
 
 ## L1 · At the table
 
@@ -261,6 +267,7 @@ Parachute for [[campaigns/shattered-sea/sessions/11/Session-11-Angry-Birds]]. Ro
 - Place: [[Grasslands - River Valleys]] · [[Aruhe Hunger Rule]] · [[Razer-Grass]]
 - Grass / river / lake roster: [[Terror-Bird]] · [[Bloodhawk]] · [[Aruhe River Otter]]
 - Also here: [[Bear-Elk]] · [[Deer-Stalker]] · [[Thornback]] · [[Wolfrabbit]] · [[Unsaid Macaw]]
+- Plant pair: [[Aruhe-River-Grasslands-Plant-Hazards]]
 - Session spine: [[campaigns/shattered-sea/sessions/11/Session-11-Angry-Birds]]
 - Do not copy owner essays or statblocks onto this page.
 
