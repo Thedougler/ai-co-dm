@@ -3,44 +3,45 @@ type: quest
 campaign: shattered-sea
 status: open
 visibility: dm
-tags: [quest, grigori, crown, malone]
+tags: [quest]
 ---
 # Grigori and the Crown hunt
-
 ## Current status
-Open. The crew parted from [[Shepherd Grigori]] at [[La Vasca]] in [[Calveno]] as friends, while [[Aleksander Malone]] and [[Corbin Knighton]] returned toward the same Midchain court network aboard the [[HCS Ordinance]]. Malone's hunt is already live from earlier noble-house patterns and may outrun the Crown's formal heresy confirmation. The crew knows the healer; Malone is still trying to locate him.
+Open. [[HCS Ordinance]] intercepted [[Uncertainty]]; [[Corbin Knighton]] and [[Aleksander Malone]] stood off and returned toward Calveno, still hunting Grigori. Grigori's warning about a Vantyrus follower ship and his request concerning Corbin add a second pressure to the Crown accusation.
 
-## Patron and objective
-**Patron:** [[Shepherd Grigori]]
+## Patron
+[[Shepherd Grigori]]
 
-Learn what Grigori is, test why the [[Dravosi Crown]] blames him for [[Surety]], and decide whether to protect, expose, or hand him over before the [[Hound of Tyr]] reaches him.
+## Objective
+Learn Grigori's nature, test why the [[Dravosi Crown]] blames him for Surety, and choose whether to protect, expose, or hand him over before the [[Hound of Tyr]] reaches him.
 
-## Open stakes
-- Grigori has two confirmed blood-anchors: a Tessarine ward in Calveno and a Dravosi merchant-lord's daughter. His planned House Knighton route would put [[Corbin Knighton]] in reach of a third bind.
-- [[Jean-Claude Tabarnack]]'s weather-deck healing may have left a live thread; **status unresolved**. [[Perrin Black-Jaw]] may also carry one from an earlier illness; **status unresolved**.
-- The crew owes Grigori friendship and a life saved, but helping him may make them evidence of the heresy Malone believes he sees.
-- Malone's confession magic already broke Delmar during the Ordinance boarding; Catarina's Umberlee laughter and Corbin's restraint bought the crew time, not safety.
-- The Pearl of Souls is Grigori's desired shortcut to transcendence. [[Talon Vantyrus]]'s follower ship and the Fate Spinner remain a separate pressure, not a Crown resolution.
-- House Knighton, Crown confirmation, and the crew's choice can turn a quiet noble-house infiltration into a naval and political crisis.
+## Stakes
+The crew inherited the hunt when the Ordinance boarded their route. The crew disabled Vantyrus's following ship without boarding it, but Corbin and Malone remain in Calveno with a story to test and a route to resume.
 
 ## Nodes
-- [[Shepherd Grigori]] — healer, Korabl, and hidden Hierarch.
-- [[Khlysty / the Flock]] — Crown name versus self-name; the doctrine behind the threads.
-- [[HCS Ordinance]] — pursuit and Crown authority.
-- [[Corbin Knighton]] — Ordinance commander and Malone's leash, not his handler.
-- [[Aleksander Malone]] — Hound of Tyr, hunting before formal confirmation.
-- [[Dravosi Crown]] — accusation, policy, and naval law.
-- [[Surety]] — the charge used against Grigori.
-- [[Talon Vantyrus]] — competing hunter of the Fate Spinner.
+- [[Shepherd Grigori]]: passenger and healer
+- [[HCS Ordinance]]: pursuit and Crown authority
+- [[Corbin Knighton]]: Ordinance commander
+- [[Aleksander Malone]]: Hound of Tyr
+- [[Dravosi Crown]]: accusation and naval law
+- [[Surety]]: the charge the Crown uses
+- [[Talon Vantyrus]]: competing hunter of the Fate Spinner
 
-## Pressure paths
-1. **Protect Grigori:** Keep his location and possible anchors secret while Malone closes the route.
-2. **Expose Grigori:** Confirm the blood-thread truth and risk turning Jean-Claude or Perrin into targets.
-3. **Hand him over:** Trade a friend and healer to a Crown instrument whose judgment may come before the paperwork.
-4. **Exploit the gap:** Use Corbin's leash, noble-house evidence, or Tyr's law to delay Malone without accepting Grigori's bargain.
+## Conclusions → clues
+### Conclusion: the hunt is now layered
+1. The Crown's accusation made the Ordinance intercept the crew.
+2. Malone scanned faces and asked after the aberration called Shepherd Gregory.
+3. Grigori identified Vantyrus's ship as a separate threat seeking Crissdalynn's Fate Spinner.
+4. The crew used cover and Umberlee's voice to make the Ordinance stand off, not to resolve the accusation.
 
-## Dramatic question
-Does Malone kill Grigori before the Crown confirms the heresy—and what happens to the crew caught between a healer they owe and a zealot who considers that debt evidence of corruption?
+### Conclusion: the Crown's hunt is also a political move
+1. HCS Ordinance turns the accusation into a naval pursuit.
+2. The Crown's papers, harbour stops, and boarding parties can enforce its version of events.
+3. The crew inherits the hunt once Grigori is aboard their route.
+
+## Rewards
+- A tested account of Grigori and Surety.
+- A choice about the Crown's authority and Grigori's future.
 
 ## Linked
-[[Dravosi Crown]] · [[Surety]] · [[Shepherd Grigori]] · [[Khlysty / the Flock]] · [[Corbin Knighton]] · [[Aleksander Malone]] · [[Talon Vantyrus]]
+[[Dravosi Crown]] · [[The taken 314]] · [[Shepherd Grigori]] · [[Corbin Knighton]] · [[Aleksander Malone]]
