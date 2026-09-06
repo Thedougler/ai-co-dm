@@ -211,7 +211,7 @@ evidence.
 | technique invents venue/scene (`On a wind-open terrace…`, gust-peak staging) | stable tells only; training place stays Fiction/Training |
 | technique mysticism (`the blow answers that measure`, “answers” as magic tone) | concrete perceivable tell, or cut |
 | technique resolves a completed hit film | stop before the strike lands; effect → Fiction/Mechanics |
-| player prose contains craft words (`telegraph`, `the tell ends`, `reaction point`, `Appearance`, `cold portrait`) | cut; stop by omission — last image is the windup |
+|| player prose contains craft words (`telegraph`, `the tell ends`, `reaction point`, `Appearance`, `cold portrait`) or faction coverage labels in faction `[!narration]` (`mask`, `footprint`, `Tell`, `face cue`) | cut; stop by omission — last image is the windup |
 | technique meta closer (`the tell ends before the strike`) | venue-free tells only; no workshop stop-labels |
 | named-item Appearance closes on biography/dedication ("He named it for…") | object nouns only; engraved nameplate OK if visible; dedication → Story hooks |
 | first look narrates `anyone understands` / PC feelings / freeze-frame past contact | cut cognition; stop before resolved contact |

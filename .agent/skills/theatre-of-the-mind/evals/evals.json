@@ -402,12 +402,13 @@
     {
       "id": 43,
       "prompt": "Using campaigns/shattered-sea/factions/Countless.md, write or judge the faction page’s cold narration with no current table state. The parent establishes Sentinel breakaways, missing or taken names and records, the shared title Talon, one-job hires who never learn the orderer, and searches of pilgrim routes, grey markets, and Sentinel waystations for Fate Spinner carriers. Keep the Rule of Two, immediate hunt, leadership, and other DM sections out.",
-      "expected_output": "PASS only for a public cold faction portrait longer than the failed telegram, in about four to six connected sentences, with a visible footprint and no workshop voice.",
+      "expected_output": "PASS only for a public cold faction portrait longer than the failed telegram, in about four to six connected sentences, with a visible footprint and no workshop voice; the closer ends on the shared title or name people hear rather than a craft label.",
       "expectations": [
         "Requires at least roughly four connected sentences rather than the current one-block telegram or padded fragments.",
         "Shows the public mask and shared Talon title, plus a concrete footprint such as missing names or records, one-job hires, or the search through established routes and waystations.",
         "Keeps Rule of Two, hunt clocks or objectives, secret agenda, leadership, and other DM-only material out of the narration block.",
-        "Fails abstract workshop phrasing such as martial reach or dropped the ledgers; uses plain, drawable public signs instead."
+        "Fails abstract workshop phrasing such as martial reach or dropped the ledgers; uses plain, drawable public signs instead.",
+        "Fails any faction craft label in narration (`face cue`, `Tell`, `mask`, `footprint`) or a meta closer; for Countless, stop on Talon as the name people hear."
       ]
     }
   ]
