@@ -102,7 +102,7 @@ This repo is an **Obsidian prose wiki**, not an application codebase. Prefer vau
 | Player-facing post-session recap | `session-recap` → **Co-DM** / **Session-Planner** (after `session-wrapup`) |
 | Presence/elaboration pass | `flesh-out` → **Co-DM** (DM facts before TotM) |
 | Borrowed-POV session opener | `cold-opens` → **Visualizer** (borrowed-POV prose); plan → **Session-Planner** |
-| One-session DM run guide | `run-guide` → **Session-Planner** / **Co-DM** |
+| One-session DM run guide | `run-guide` → **Session-Planner** (L0/L1 primary run + beat headers); **Co-DM** L2-only when `existing SHA` + `primary run path` already on branch |
 | Conservative wikilink repair | `cross-linker` → **Organizer** (link hygiene); lint assist → **Linter** |
 | Thread-driven journey legs | `travel-events` → **Co-DM** / **Session-Planner** |
 | Encounter prep (combat/social/exploration/hybrid) | `encounter-prep` → **Co-DM** / **Session-Planner**; monster math → **Monster-Brewer** |
@@ -167,6 +167,7 @@ Rules:
 - New packet for the same work must `supersedes` the prior `task_id` and set the old packet `status` to `cancelled` or `hold`.
 - Parallel writers must not share the same note body (especially `[!narration]`).
 - Co-DM orchestrates; specialists execute.
+- **Session run surfaces (`run-guide`):** **Session-Planner** owns L0/L1 (primary run file + beat headers). When L0/L1 already exists, any follow-on packet MUST include `existing SHA` + `primary run path` and state **Co-DM = L2-only**. Do **not** wake Co-DM to create the primary run file if that path/SHA is already on the branch.
 
 ### Friction self-report (all bots)
 
@@ -184,7 +185,7 @@ ASD triages immediately → design fix → packets implementers (**Ops** AGENTS/
 | Bot | Owns |
 |---|---|
 | **Co-DM** | Continuity, prep/log, vault canon, rulings |
-| **Session-Planner** | User-facing session plan + design grill; **always** use Matt Pocock pack when matching — especially `grilling`/`grill-me` before locking plans, `grill-with-docs`/`domain-modeling` for terms, `wayfinder`/`to-spec`/`to-tickets` for large plans; packets specialists to scaffold prep/build (not mid-session Co-DM; not TotM/homebrew/ingest; dungeon layout → **Dungeon-Designer**) |
+| **Session-Planner** | User-facing session plan + design grill; owns `run-guide` L0/L1 session run surfaces; **always** use Matt Pocock pack when matching — especially `grilling`/`grill-me` before locking plans, `grill-with-docs`/`domain-modeling` for terms, `wayfinder`/`to-spec`/`to-tickets` for large plans; packets specialists to scaffold prep/build (not mid-session Co-DM; not TotM/homebrew/ingest; dungeon layout → **Dungeon-Designer**; do not wake Co-DM to recreate primary run if SHA/path already exist — L2-only) |
 | **Visualizer** | TotM / `[!narration]` write only (incl. rewrite after Skill-Creator clears a failed block) |
 | **Writing-Evaluator** | Audit player-facing TotM / read-aloud; on **fail**, packet improvement advice → **Skill-Creator** |
 | **Skill-Creator** | `.agent/skills/`; on Evaluator fail: implement TotM fix, **delete failed `[!narration]`**, ping **Visualizer** to rewrite, Evaluator re-audits |
