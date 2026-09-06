@@ -61,10 +61,10 @@ reactions:
 # Deer-Stalker
 
 ## Art
-![[attachments/shattered-sea/creatures/deer-stalker.png]]
+![[attachments/shattered-sea/creatures/deer-stalker-of-aruhe.png|Deer-Stalker of Aruhe]]
 
 > [!narration] Narration
-> A deer taller than a man stands over a carcass, hips turned wrong and forelimbs ending in claws. Blood drips from its chin onto the kill while the forward eyes hold still without blinking. It does not lean with the wind the way a living deer would.
+> In the dark between the trees, a shaggy deer towers over the path, its branching antlers filling the gap above its head. Its hips sit wrong beneath the heavy coat, and its long forelimbs end in blood-marked claws. A pale muzzle and forward-set eyes face you without a blink; dark blood threads from its mouth before it moves.
 
 
 
