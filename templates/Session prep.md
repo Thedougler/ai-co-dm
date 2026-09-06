@@ -135,6 +135,7 @@ Parcels if earned.
 
 ## Constraints
 
+- Write complete grammatical sentences on this surface — no telegram shorthand
 - No scripted dialogue trees
 - No locked clue locations
 - No full stat blocks here (link [[Monster]] / SRD)

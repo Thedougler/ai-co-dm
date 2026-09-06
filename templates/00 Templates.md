@@ -35,3 +35,5 @@ Every content template opens with a `> [!narration] Narration` callout (theatre-
 ## Presentation
 
 Session prep / logs / run guides use `cssclasses: [session-surface]` and **open** callouts only — see [[docs/obsidian-presentation]]. Never `[!secret]-` on those notes.
+
+Session / run surfaces use complete grammatical sentences (see [[docs/obsidian-presentation]]).

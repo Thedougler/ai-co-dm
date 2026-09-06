@@ -51,3 +51,12 @@ Each L1 card stacks: header fields → narration → on the table → open `secr
 
 CSS gives H3 scene titles a left-accent panel, extra margin between H2 bands, and looser list/paragraph rhythm on `session-surface`.
 
+## Prose on session / run surfaces
+
+Every DM-facing line on a run guide, session prep, or beat card must be a **complete grammatical sentence** (or a short list of complete sentences). Telegram shorthand, letter-code-only clauses, and slash-stacks that need a decoder are presentation fails.
+
+Allowed: `[[Wikilinks]]`, bold field labels, and compact tables whose cells are still readable sentences or clear sentence fragments that include the subject.
+
+Bad: `field LR + watches; after LR ask if ate → warn`  
+Good: `After the Long Rest, ask whether anyone ate; warn once; if they went without food that day, they take 1 exhaustion next.`
+
