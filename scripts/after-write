@@ -36,7 +36,11 @@ if [ -z "$MSG" ] && [ "$DRY" -eq 0 ]; then
 fi
 
 printf '%s\n' "== qmd update =="
-./scripts/qmd update
+if ! ./scripts/qmd update; then
+  printf '%s\n' 'ai-co-dm: after-write aborted — ./scripts/qmd failed (often missing Node 26 on macbook.lan).' >&2
+  printf '%s\n' 'Fix host/Node, then rerun ./scripts/after-write. Do not push without a successful after-write.' >&2
+  exit 127
+fi
 
 if [ "$DO_EMBED" -eq 1 ]; then
   printf '%s\n' "== qmd embed =="

@@ -13,9 +13,10 @@ Obsidian LLM wiki for Nick's home D&D. **Markdown is the product.**
 ## Boot
 
 1. This file + [[00 Home]] + [[campaigns/shattered-sea/hot]] (not the whole tree).
-2. **Hard gate:** qmd via skill `qmd-retrieval` (`./scripts/qmd`). Collections: `wiki` · `skills` · `legacy-ss` (read-only prior Shattered Sea). Snippets ≠ facts. `SKILL.md` only unless stuck.
-3. Missing canon → ask Nick / Co-DM. No silent contradiction.
-4. New entity → copy `templates/` match; fill only what play needs; link nearest index/MOC. Format with skill `obsidian-markdown` (wikilinks, callouts, properties).
+2. **Mac host gate (fail-closed):** vault reads/writes/commits only on **macbook.lan** (`machineId` `4aa16cad-1621-4103-953d-a800b4772ba5`), cwd = vault root. If Mac is disconnected **or** ListMachines says `connected: true` but Shell/Read still fails (“temporarily unreachable” / false-connected) → **stop** after 1–2 spawn attempts, ask Nick to reconnect or open [Update Grok Bot's Computer](grokbot://app/v1/settings?id=update-computer). Do **not** retry-thrash, clone the vault onto the Linux box, use alternate checkouts, or push without `./scripts/after-write`.
+3. **Hard gate:** qmd via skill `qmd-retrieval` (`./scripts/qmd`). Collections: `wiki` · `skills` · `legacy-ss` (read-only prior Shattered Sea). Snippets ≠ facts. `SKILL.md` only unless stuck. Needs **Node 26** on the Mac (Homebrew `node@26`).
+4. Missing canon → ask Nick / Co-DM. No silent contradiction.
+5. New entity → copy `templates/` match; fill only what play needs; link nearest index/MOC. Format with skill `obsidian-markdown` (wikilinks, callouts, properties).
 
 ## Hard don'ts
 
@@ -38,7 +39,7 @@ Obsidian LLM wiki for Nick's home D&D. **Markdown is the product.**
 - Session: [[templates/Session prep]] → run → [[templates/Session log]]; move still-relevant prep forward.
 - Scraps → `inbox/`, then **Ingest** (`wiki-ingest`). Table recordings → `session-transcript-ingest` first, then Ingest if filing remains.
 - Canon owner remains **Co-DM** — Ingest compiles sources; does not silently invent table truth.
-- Finish with: `./scripts/after-write "short why"`.
+- **After-write mandatory:** finish every vault change with `./scripts/after-write "short why"`. Failed after-write (incl. missing Node 26 / qmd) means the write is **not done** — fix host/tooling and rerun; do not treat a bare `git commit`/`git push` as complete.
 
 ### `type` enum
 

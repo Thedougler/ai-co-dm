@@ -72,7 +72,8 @@ fi
 
 if [ -z "$node_bin" ]; then
   printf '%s\n' 'ai-co-dm: Node.js 26 was not found.' >&2
-  printf '%s\n' 'Install Node.js 26 or put a Node 26 binary (node26 or node) on PATH, then retry ./scripts/qmd.' >&2
+  printf '%s\n' 'Need macbook.lan + Homebrew node@26 (/opt/homebrew/opt/node@26/bin/node or /usr/local/opt/node@26/bin/node), or a Node 26 binary (node26/node) on PATH.' >&2
+  printf '%s\n' 'Do not fall back to another host or skip after-write. Reconnect Mac, then retry ./scripts/qmd.' >&2
   exit 127
 fi
 
