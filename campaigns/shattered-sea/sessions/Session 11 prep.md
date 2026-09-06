@@ -1,0 +1,124 @@
+---
+type: session-prep
+campaign: shattered-sea
+session: 11
+status: ready
+date: 2026-09-06
+visibility: dm
+tags: [session-prep, aruhe]
+---
+
+# Prep — Session 11
+
+Disposable. Rewrite next time; do not treat as canon.
+
+> [!narration] Narration
+> _Visualizer: Bloodhawk scare-and-drop above the canopy — party airborne / exposed after Crown Squid tree-line standoff; win is ground under closed canopy or grass, not killing the hawk._
+
+## Locked machine (Nick)
+- **Length:** ~4h
+- **Win:** survive / boat / Quiet intel — not clear [[Aruhe - Hungry Isle]] or fight mourners at [[The Grove - Death Bloom]]
+- **Hook:** [[Bloodhawk]] scare-and-drop (hunting [[Great Crown Squid]]; party collateral). Ecology: hawk owns open thermal / won't stoop closed canopy; squid won't chase into open grass
+- **Spine:** [[Old Gardens]] A→B→C→E/F→**I Quiet verge** soft landing
+- **Escape:** K Beach stair → [[Western Landing]] → [[Uncertainty]] (densified enough to run)
+- **Hunger at C:** one temptation beat — present & track; no forced claim ([[Aruhe Hunger Rule]])
+- **Optional nested:** [[Warren]] / Old Mouth (G/H) — bait only
+- **Stubs this session:** Grasslands / [[The Rot]] / Grove / [[Lava Tubes]]
+- **Table:** field Long Rest + watches; after LR ask if ate → warn → no food that day = 1 exhaustion next (**≠** Hunger Rule)
+
+## Beat budget (~30 min / beat)
+| Slot | Candidate | Notes |
+|---|---|---|
+| Hook | Bloodhawk sky pressure → drop at terrace rim (A) | Scare-and-drop; not a TPK chase |
+| Dev | Orientation at drop rim — scuffs inland vs beach-down | Agency fork visible |
+| Cliff | Gardens transit A→B→C (exposure / flank / curiosity) | Alternate with Dev |
+| Dev | Taking-places (C) Hunger temptation | Hybrid social/ecology |
+| Cliff | Terrace / irrigation / wolfrabbit pressure toward I | Or boat if they bail |
+| Soft climax | Quiet verge (I/Q1) **or** Western Landing pickup | Grove not finish line |
+| Resolution | Changed map: food, claims, survivor trail state, ship position | Seed next frontier |
+
+## Characters
+- [[Catarina Da'Virelli]]: spotlight TBD — Co-DM
+- [[Crissdalynn Khinriss]]: spotlight TBD — Co-DM
+- [[Delmar Fisk]]: spotlight TBD — Co-DM
+- [[Jean-Claude Tabarnack]]: spotlight TBD — Co-DM
+- [[Perrin Black-Jaw]]: Hunger Rule / island lore pressure — Co-DM
+
+## Strong start (DM notes)
+- Open in air above canopy; [[Bloodhawk]] arrives hunting the [[Great Crown Squid]] (and potentially the party)
+- Force ground drop at terrace rim / [[Old Gardens]] tree line
+- [[Uncertainty]] remains mobile offshore (not anchored)
+- Inland Calveno wreck survivors remain inland — hard path follows their trail signals
+
+## Scenes (situation palette — not a railroad)
+- **A Drop rim court** — orient; hawk thermal above; scuffs inland vs beach-down
+- **B Snapped canopy gallery** — cover from hawk; squid side-pressure if they linger at tree-line
+- **C Taking-places plaza** — Hunger temptation beat; dead/claim traces; survivor signs
+- **E Fruit stair terraces** / **F Irrigation ditch maze** — transit toward Quiet or Warren bait
+- **I Quiet green verge** — soft landing; silence = eaten-out life; handoff to [[The Quiet]]
+- **K→Western Landing** — boat escape: tideline → shingle → wreck shade / reef gap → [[Uncertainty]] pickup
+- **Optional G/H** — [[Warren]] mouths / Old Mouth threshold (Blackrail foreshadow)
+
+## Secrets and clues
+- Survivor trail intensifies toward Quiet / inland — not a scripted path
+- Taking without receiving converges life ([[Aruhe Hunger Rule]])
+- Free-flowing water / loose stone / shed shell OK; fruit on vine = claim if taken
+- Bloodhawk will not stoop closed canopy or deep grass; squid stops at tree line
+- Mourners at Grove do not hunt; touching memorial is the danger (later session)
+
+## Locations
+- [[Old Gardens]]: drop rim, snapped canopy, taking-places, fruit stairs / irrigation, warren mouths, Quiet verge, beach stair
+- [[Western Landing]]: tideline, shingle, wreck shade, reef gap, Uncertainty pickup
+- [[The Quiet]]: verge threshold only this session (Q1+)
+- [[Aruhe - Hungry Isle]]: country-scale; multi-site regions; meaningful travel
+- [[Grasslands - River Valleys]] · [[The Rot]] · [[The Grove - Death Bloom]] · [[Lava Tubes]] · [[Clear Lake]]: stubs / next frontier
+- [[Warren]]: optional nested
+
+## NPCs
+- Inland Calveno survivors (unnamed cluster): trail signs, urgency, not a rescue script — Co-DM densify
+- Ship crew aboard [[Uncertainty]]: pickup if boat path — Co-DM as needed
+
+## Monsters (link only; counts at table)
+### Must-run densify
+- [[Bloodhawk]] — cold open
+- [[Great Crown Squid]] — tree-line presence / pressure, not a chase into grass
+- [[Wolfrabbit]] — Gardens flank risk
+- Taking-places ecology (curiosity / claim convergence) — Co-DM + vault
+
+### Optional palette cards
+- [[Grinning Ape]] · vine lashes · [[Grubnade]] — Old Gardens lee / night
+- [[Deer-Stalker]] · [[Strangler Fig]] — Quiet verge / optional pinch
+- [[Reef Skull]] · [[Small Blood Hawk]] — Western Landing
+- [[Razer-Grass]] · [[Terror-Bird]] — only if they peek Grasslands (J)
+- Night watches by camp (Gardens lee, Taking-places, Quiet verge) — Co-DM / Dungeon-Designer hooks
+
+### Not this session
+- Grove mourners as a clear fight
+- Rot / Tubes / Clear Lake otter fight stock (unless boat-irrelevant peek)
+
+## Treasure
+- Loose stone / shed shell / free-flow water (safe nonliving)
+- Offered fruit only if *received* — not claimed (Hunger Rule)
+- Survivor caches if earned — Co-DM
+
+## Table procedures
+- **Watch** = 4h for travel pressure checks
+- Intra-region sites: 10–60 min turns
+- Inter-region after I/J/K: 2–4 watches
+- After any field Long Rest: ask if they ate that day; warn; no → 1 exhaustion next
+- Night watches may fire location-based encounters
+
+## Do not
+- Scripted dialogue trees
+- Locked clue locations
+- Full stat blocks here (link monster notes)
+- Clear the island / kill mourners / finish Grove this session
+- Shrink regions to one beat each
+- Mix this with the post-session log
+- Write player `[!narration]` beyond the empty Visualizer stub
+
+## Specialist sync
+- **Dungeon-Designer:** room graphs A–I + Western Landing L1–L7; gap list; night-hook matrix
+- **Co-DM:** encounter palette cards · survivor trail signals · PC spotlights · densify prep body
+- **Monster-Brewer:** only if a spine fight lacks math
+- **Visualizer:** cold-open `[!narration]` after content exists
