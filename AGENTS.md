@@ -80,8 +80,8 @@ Obsidian LLM wiki for Nick's home D&D. **Markdown is the product.**
 | Vehicles / named craft (ships, boats) | `vehicle-design` → **Homebrewer** (vehicle math); TotM vehicle surface → **Visualizer**; notes under `campaigns/<campaign>/vehicles/` (**Organizer**) |
 | Dungeons | `dungeon-design` |
 | NPCs | `npc-design` |
-| Monsters | `homebrew-monsters-5e` → **Homebrewer** |
-| Magic items | `dnd-5e-magic-item-design` → **Homebrewer** |
+| Monsters | `homebrew-monsters-5e` → **Monster-Brewer** |
+| Magic items | `dnd-5e-magic-item-design` → **Item-Brewer** |
 
 ### Matt Pocock process pack (`.agents/skills/`)
 
@@ -146,7 +146,9 @@ Rules:
 | **Visualizer** | TotM / `[!narration]` write only (incl. rewrite after Skill-Creator clears a failed block) |
 | **Writing-Evaluator** | Audit player-facing TotM / read-aloud; on **fail**, packet improvement advice → **Skill-Creator** |
 | **Skill-Creator** | `.agent/skills/`; on Evaluator fail: implement TotM fix, **delete failed `[!narration]`**, ping **Visualizer** to rewrite, Evaluator re-audits |
-| **Homebrewer** | Mechanical homebrew; convert prose monster stats → Fantasy Statblocks fence |
+| **Monster-Brewer** | Homebrew monsters (research/design/reskin/balance/audit) via `homebrew-monsters-5e`; Fantasy Statblocks when filing |
+| **Item-Brewer** | Magic items via `dnd-5e-magic-item-design` |
+| **Homebrewer** | Other mechanical homebrew — subclasses, spells, feats, backgrounds, vehicle math (`vehicle-design`); router: monsters → Monster-Brewer, items → Item-Brewer |
 | **Researcher** | Prior art (web); not vault canon |
 | **Organizer** | Indexes/MOCs, structure doctrine, hot refresh, light inbox triage; owns `campaigns/<campaign>/vehicles/` layout |
 | **Ingest** | `wiki-ingest` — inbox/URL/paste → typed linked notes; prior context via `-c legacy-ss` (read-only) |
