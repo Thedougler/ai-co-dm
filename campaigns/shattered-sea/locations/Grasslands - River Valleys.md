@@ -40,8 +40,9 @@ Open grasslands break into river valleys that carry clear, free-flowing water ac
 - **Retreat:** Follow a stream back toward terraces without damming, trapping, or fishing.
 
 ## Who is here
-- **Fiction only:** Bear-Elk, Deer-Stalker, Terror-Bird, Thornback, Razer-Grass, Aruhe River Otter, Wolfrabbit.
+- **Fiction only:** Bear-Elk, Deer-Stalker, Terror-Bird, Thornback, Razer-Grass, Aruhe River Otter, Wolfrabbit, Unsaid Macaw.
 - Ordinary restorative fruit may occur along the route; do not treat it as a mechanical item here.
+- Session 11 parachute: [[Aruhe-River-Grasslands-Tables]].
 
 ## Player verbs
 `cross, follow, drink, watch, study tracks, shelter, avoid claiming, choose ridge or water route`.
@@ -56,6 +57,7 @@ Open grasslands break into river valleys that carry clear, free-flowing water ac
 
 ## Mechanics and return
 - River crossings and grass may be ordinary or Difficult Terrain as telegraphed; no creature mechanics are included.
+- Random encounter procedure for Session 11 lives on [[Aruhe-River-Grasslands-Tables]].
 - **Return state:** water route, tracks, shelter, and any possession trigger avoided or made.
 
 ## Flora ecology
