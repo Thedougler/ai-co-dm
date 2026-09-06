@@ -8,6 +8,8 @@ tags: [location, aruhe, terraces, gardens]
 ---
 # Old Gardens
 > [!narration] Narration
+> Old Gardens are miles of ancient terraces climbing inland from the landing, human-scale geometry under fruit and flowers grown past ordinary size. Weathered stone still holds the lines. In the afternoon the air turns sugar-sour along the terrace walk.
+
 
 ## At a glance
 Miles of ancient terraces run inland from the landing, made by unknown builders and now crowded with extreme fruit and flowers. In the afternoon the air carries a sugar-sour smell.

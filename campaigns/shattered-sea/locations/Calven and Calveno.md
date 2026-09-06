@@ -8,6 +8,8 @@ tags: [location]
 ---
 # Calven / Calveno
 > [!narration] Narration
+> Calven is the oldest-settled Crown Island, and Calveno is its canal city of water lanes, bridges, and harbour flags. Locks and poles work the same water that carries ledgers and traffic. Salt and algae hang at the lock walls you can walk.
+
 
 ## At a glance
 Calven is the oldest-settled Crown Island; Calveno is its great canal city, with Dravosi flags at harbour and Tessarine money underneath.

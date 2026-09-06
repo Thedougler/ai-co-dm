@@ -8,6 +8,8 @@ tags: [location]
 ---
 # Drowned Maw
 > [!narration] Narration
+> The Drowned Maw is a deep trench at the chart edge where dark water pulls lines sideways and currents reverse under the hull. Storm wall and broken horizon sit over cold spray. Wet rope goes taut before the next swell clears.
+
 
 ## At a glance
 A deep trench at the edge of charts where currents reverse and sailors refuse to say what lies beyond; feels hungry and load-bearing.

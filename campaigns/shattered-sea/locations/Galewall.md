@@ -8,6 +8,8 @@ tags: [location]
 ---
 # Galewall
 > [!narration] Narration
+> Galewall is a permanent storm belt: a cloud wall over white water with only occasional gaps in the spray. Cold salt wind hits the hull before the next wave clears. The edge is the only approach that still shows charted sea behind you.
+
 
 ## At a glance
 Permanent storm belt separating charted homeland from the Scatter; feels like weather made into a wall.

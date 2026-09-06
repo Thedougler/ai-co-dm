@@ -8,6 +8,8 @@ tags: [location, ley-line, sentinel]
 ---
 # Yssenmoor
 > [!narration] Narration
+> Yssenmoor is three miles of bog under fog that does not lift, with no dry landing. Sound arrives before its source across the wet ground. A thumb-sized quartz top turns differently here than on ordinary Midchain water.
+
 
 ## At a glance
 A place over a hidden ley line that reacts to [[Fate Spinner]]; feels like an unresolved point of contact between old power and a watchful relic.

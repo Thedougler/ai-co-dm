@@ -8,6 +8,8 @@ tags: [location, grung, beach, sorn, botukuri]
 ---
 # Sorn Guarded Beach
 > [!narration] Narration
+> Sorn Guarded Beach is pale sand behind reef, with a long-hut on the sand and flood-pulse crop lanes standing in water. Salt and wet earth hang at the treeline. The last hundred yards of sand stay recut while vine takes the next inland row.
+
 
 ## Function
 Sorn's held landing and Simone's post. The last hundred yards are recut as policy; the interior is not open.

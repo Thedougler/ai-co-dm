@@ -8,6 +8,8 @@ tags: [location, grung, verdant-teeth, dreth]
 ---
 # Dreth
 > [!narration] Narration
+> Dreth is permanently drowned forest with no charted shoreline: trunks stand in water under canopy so a hull must enter the channel or stay out. Root hollows and cut-lines thread the wet timber works. The air stays damp under green shade.
+
 
 ## At a glance
 Dreth is the lower, wetter eastern Tooth: permanently drowned forest, timber works, and no charted shoreline. A hull must enter under canopy or not enter at all.

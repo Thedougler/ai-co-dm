@@ -8,6 +8,8 @@ tags: [location]
 ---
 # Midchain
 > [!narration] Narration
+> Midchain is densely packed small tropical islands of reefs, free-port jetties, and low green ground. Pilots call depths while council bells and dock offers compete. Brine and fruit ride the air over channels local boats already use.
+
 
 ## At a glance
 Densely packed small tropical islands, free ports, reefs, and local councils; feels busy beyond enforcement.

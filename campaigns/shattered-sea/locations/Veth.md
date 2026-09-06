@@ -8,6 +8,8 @@ tags: [location, grung, verdant-teeth, veth]
 ---
 # Veth
 > [!narration] Narration
+> Veth is the largest of the five Teeth: old dry-ground rainforest in stacked canopy layers, with one western beach strip and no pier. Twenty strides of pale sand end at a living root-stair. The closed mid-story starts on the second root.
+
 
 ## At a glance
 Veth is the largest of the five islands: old dry-ground rainforest, a western beach trade strip, and no pier. The beach is a concession; the stacked canopy behind it is closed.

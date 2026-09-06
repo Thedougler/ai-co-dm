@@ -8,6 +8,8 @@ tags: [location]
 ---
 # Saltwright
 > [!narration] Narration
+> Saltwright is a working hull with boarding scars on deck and rail. Lines and cargo holds sit under ordinary canvas. Salt and wet wood mark the ship you can walk from rail to hold.
+
 
 ## At a glance
 Vessel that carried the party through a Dravosi boarding fight; feels like a remembered escape route.

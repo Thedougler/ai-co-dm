@@ -8,6 +8,8 @@ tags: [location, region, volcanic, crossing]
 ---
 # Ashwalls
 > [!narration] Narration
+> Ashwalls are cold-water volcanic spires with steam vents and warm cave mouths in black stone. Sulfur and salt hang over wreckage lodged in the lee. The caves are the first solid shelter heading west and the last safe lee returning east.
+
 
 ## At a glance
 Cold-water volcanic spires: last solid ground heading west and first safe lee returning east; feels hot, sulfurous, and opportunistic.

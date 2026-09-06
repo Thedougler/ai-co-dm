@@ -8,6 +8,8 @@ tags: [location, grung, beach, trade]
 ---
 # Veth West Beach
 > [!narration] Narration
+> Veth West Beach is twenty strides of pale sand, then the ridge goes straight up. A living root-stair shines with traffic; there is no pier. Bone, resin, and pigments trade on the sand against food, timber, metal, and rope.
+
 
 ## Function
 The only sanctioned Veth landing: a brief blue-caste exchange zone with no pier, roof, or inland permission.

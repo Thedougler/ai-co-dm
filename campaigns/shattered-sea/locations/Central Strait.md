@@ -8,6 +8,8 @@ tags: [location]
 ---
 # Central Strait
 > [!narration] Narration
+> The Central Strait is the primary shipping corridor between the two island arcs: sails, patrol craft, and signal flags on open salt water. Horns and shouted names carry between distant islands. Tarred canvas and wet rigging mark the lane you can follow.
+
 
 ## At a glance
 The primary shipping corridor between the two arcs; feels like a moving border.

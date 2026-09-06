@@ -8,6 +8,8 @@ tags: [location]
 ---
 # Sparhold
 > [!narration] Narration
+> Sparhold is the timber fortress-market on the harbour slope of Sparhold Isle, the closest Midchain harbour to the Teeth. Cut-over ground above the walls faces Teethward water. Wet timber and pitch mark berths where arrivals get counted.
+
 
 ## At a glance
 The next stop on the raiding-fleet trail; details remain open. The settlement is a place to ask where the taken went while every answer can make someone richer, safer, or more exposed.

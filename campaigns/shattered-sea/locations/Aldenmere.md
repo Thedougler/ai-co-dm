@@ -8,6 +8,8 @@ tags: [location, crown-islands, farm]
 ---
 # Aldenmere
 > [!narration] Narration
+> Aldenmere is rolling farms and a stone town around a mile-wide tidal mere that never quite drains. Frogs and toads call from reeds along a narrow inlet. Wet earth and reed rot sit under farm smoke you can walk the shore path through.
+
 
 ## At a glance
 The quiet Crown island of rolling farms, a stone town, and a tidal mere that never quite drains; feels pastoral until the reeds move.

@@ -8,6 +8,8 @@ tags: [location, reef, crown-islands]
 ---
 # Greyteeth
 > [!narration] Narration
+> Greyteeth are long pale reef ridges breaking the surface between the Crown Islands. Surf hits stone where northern swell runs open. Pilot boats work the breaks when a hull needs a priced path through.
+
 
 ## At a glance
 Long pale reef ridges breaking the surface between Crown Islands; feels chart-hostile and deliberately used.
