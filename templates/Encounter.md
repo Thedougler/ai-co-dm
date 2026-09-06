@@ -23,17 +23,14 @@ cssclasses: [session-surface]
 One paragraph: what is already in motion.
 
 > [!narration] Narration
-> _Loaded tactical first look: field, forces, motion. Theatre of the mind (Place/Creature). Three tells for any conclusion the table must reach._
+> _Loaded tactical first look: field, forces, motion. Theatre of the mind (Place/Creature). Three tells for any conclusion the table must reach. End on the table question._
 >
-
-> [!question] Ask
-> What do you do?
 
 ## Be ready for
 
 | Intent | Approach | DC | Success | Partial | Failure |
 | --- | --- | --- | --- | --- | --- |
-|  |  |  |  |  |  |
+| Name the goal | Name who does what, and where | Skill DC | Name who ends where, and what the opposition does | Name the cost and who pays it | Name who is grabbed, hit, or left exposed |
 
 > [!mechanic] Threat clock
 > Tick is one round of remaining exposure unless the card names another cadence.
@@ -64,7 +61,7 @@ One paragraph: what is already in motion.
 
 ![[Monster#Statblock]]
 
-- **Scene dials:** easy/hard, no-stoop, grab rules in use this slice.
+- **Scene dials:** easy/hard, cover the opposition will not enter, grab rules in use this slice.
 - **Count:**
 
 > [!secret] DM truth

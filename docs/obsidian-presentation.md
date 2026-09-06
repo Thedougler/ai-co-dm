@@ -39,7 +39,7 @@ Every wiki note uses the same disclosure bands. Empty sections are deleted, not 
 
 ### Scene card stack (inside L1)
 
-Use the **cockpit** in `.agent/skills/run-guide/SKILL.md` (Glance → Now → narration → Ask → Be ready for → clock → zones → round script → roster embeds → landing). Do not keep a second Run-now copy of the same facts.
+Use the **cockpit** in `.agent/skills/run-guide/SKILL.md` (Glance → Now → narration with the table question inside it → Be ready for → clock → zones → round script → roster embeds → landing). Do not keep a second Run-now copy of the same facts. Do not add a separate Ask callout.
 
 ### Session log bands
 1. Recap narration
