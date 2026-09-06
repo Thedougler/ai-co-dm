@@ -6,45 +6,41 @@ role: patron
 location: Calven and Calveno
 faction: Tessarine Concordat
 visibility: dm
-tags: [npc]
+tags: [npc, tessarine, fieschi]
 ---
 # Fieschi
 > [!narration] Narration
-> Fieschi is a Concordat patron and civic protector, marked by a diamond ring and the townhouse at Casa Falier. He turns protection into a named obligation, speaking in formal terms that make every favor sound like a contract.
+> _Visualizer: Tessarine ingest pending._
+
 ## Hook
-Keep Calveno’s public order functioning by making the crew’s Defender status useful enough to justify its debt.
+A public confession turns private debt into a contagion the Concordat has to contain.
+
 ## Identity and public function
-Concordat patron who made the crew Calveno’s Defenders and attached protection to an obligation.
+Iacopo Fieschi is a Tessarine agent in [[Calven and Calveno]]. After the [[Mercatura and Otar]] crater, he hired the crew as Calveno's Defenders on Concordat letterhead. He later confessed his Tessarine debt in public and paid what he owed: one thousand gold in trade credit, [[Casa Falier]], and a diamond ring.
+
 ## Look / voice
-- **Visual:** Diamond ring and Casa Falier townhouse are the established status markers; other appearance is unknown.
-- **Behavior:** Turns protection into a named obligation and measures public disorder against the Concordat’s standing.
-- **Voice principle:** Formal, measured, and debt-conscious; offers sound like contracts.
-- **Sample line:** “Protection is real. So is the account it opens.”
+- Diamond ring and Casa Falier townhouse signal his standing.
+- Formal, measured, and debt-conscious; every favor sounds like a contract.
+- Other appearance remains open.
+
 ## Drive
-**Want:** Keep public order and Concordat obligations functioning. **Fear:** Disorder or unpaid protection weakens the Concordat’s standing. **Method:** Legal status, trade credit, money, and selective patronage.
+**Want:** Keep Calveno public order and Concordat obligations functioning. **Fear:** Disorder or a debtor's truth spreading faster than the ledger can contain it. **Method:** Legal status, trade credit, money, and selective patronage.
+
 ## Public face vs secret
-**Public:** Concordat patron and civic protector. **Secret:** The protection is also debt; the vault does not record what private priorities sit behind his public order.
+**Public:** Concordat patron and civic protector who made the crew Defenders. **Secret:** His protection is also debt, and the house watches what his confession makes other debtors think they can say.
+
+## Containment response
+The Concordat moved to contain the noise rather than argue it: factor silence, edited logs, moved witnesses, briefed lawyers, and patrols. If the disclosure ran all the way, [[Kalowe]] would lock down. A second public confession would be worse than a stolen chest.
+
 ## Leverage / need / cost
-- **Leverage:** 1000 gp trade credit, Casa Falier townhouse, diamond ring, and legal standing as Calveno’s Defenders.
+- **Leverage:** One thousand gold in trade credit, Casa Falier, diamond ring, and Defender legal standing.
 - **Need:** The crew to make the Defender title credible through useful public action.
 - **Cost of cooperation:** Favors deepen Concordat obligation and may bind the crew to public order over private priorities.
-## Limit and productive contradiction
-He can grant legal cover but cannot erase the Concordat’s obligations. He protects the crew by converting them into instruments of the order he represents.
-## Attitude / request posture / influence
-Indifferent-to-friendly and **willing** when the request protects Calveno; evidence of public benefit moves him, while unpaid or embarrassing work spends standing.
+
 ## Relationships
-- The crew: Calveno’s Defenders and debtors.
-- [[Tessarine Concordat]]: institutional obligation.
-- [[Mercatura and Otar]]: the Season 1 crisis that made public order urgent.
-## Resources
-1000 gp trade credit, Casa Falier, diamond ring, legal standing, and Concordat reach.
-## Next move / if ignored
-Call the Defender debt due on the next public-order problem. If ignored, the crew keeps the title but loses the practical protection that makes it valuable.
-## Activity log
-| When/scene | Action taken | New information | Relationship change | Next move |
-| --- | --- | --- | --- | --- |
-| Unknown; no dated activity log in vault | Made the crew Calveno’s Defenders | Protection is a debt, not a gift | Crew gained legal standing and obligation | Keep order functioning and collect useful service |
-## Appearances
-- [[campaigns/shattered-sea/story/00 Story so far]]
-- [[Mercatura and Otar]]
-- [[Tessarine Concordat]]
+- The crew — Calveno's Defenders and debtors.
+- [[Tessarine Concordat]] — institutional obligation.
+- [[Mercatura and Otar]] — the crisis that made public order urgent.
+- [[Samuel]] — intern at Cat's Curios in the contract trouble.
+
+**Provenance:** Dump source staged at [[inbox/archive/FILED-2026-09-05-tessarine-concordat.md]]. Legacy read-only context: `/Users/nick/shattered-sea/wiki/shattered-sea/calveno-raid/npc-iacopo-fieschi.md`, `/Users/nick/shattered-sea/wiki/shattered-sea/calveno-raid/event-otar-in-the-crater.md`.

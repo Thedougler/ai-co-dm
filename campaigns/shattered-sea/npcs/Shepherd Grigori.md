@@ -11,7 +11,7 @@ tags: [npc, grigori, hierarch, khlysty]
 # Shepherd Grigori
 
 > [!narration] Narration
-> _Visualizer: NPC ingest pending._
+> _Visualizer: Tessarine ingest pending._
 
 ## Current situation
 Grigori and the crew parted as friends at [[La Vasca]] in [[Calveno]], but the Crown hunt is live. He is working through noble houses while Malone works backward through the same pattern. His warning that a [[Talon Vantyrus|Vantyrus]] follower ship was coming for [[Crissdalynn Khinriss]]'s [[Fate Spinner]] remains a separate pressure, as does his request that the crew hurt [[Corbin Knighton]] without killing or breaking him; nobody accepted that bargain.
@@ -60,6 +60,8 @@ The crew of the [[Uncertainty]]—Jean-Claude, Perrin, Delmar, Crissdalynn, and 
 - The crew's friendship is real enough to be useful leverage, and Grigori never needs to state the bargain aloud.
 
 ## Arrogance and the Aldric whisper
+The Concordat fears what [[Aldric Drave]] could do with the [[Pearl of Souls]]. Grigori mishears that fear as a warning about his own limit, not as evidence of a rival.
+
 Grigori cannot conceive that another Hierarch exists. Even Tessarine whispers about [[Aldric Drave]] describe someone with the same weakness—blood, anchors, and failing coherence—and Grigori hears only a warning about his own limits. Aldric is a rumor, not a confirmed rival in play.
 
 ## Drive and methods

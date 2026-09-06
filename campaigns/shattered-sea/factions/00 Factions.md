@@ -12,7 +12,8 @@ tags: [index, faction]
 
 ## Crown ingest
 - [[Dravosi Crown]] — colonial naval polity, Tyr court law, fleet, Crown Islands, and secret bloodline founder.
-- [[Tessarine Concordat]] — light rivalry refresh: Crown inspects; Concordat invoices.
+- [[Tessarine Concordat]] — eastern merchant consortium; four Seven Houses align, three can stall; Crown inspects, Concordat invoices.
+- [[Sunkline]] — Tessarine-backed pressure-rig shop at Fathomrush.
 - Related: [[Aldric Drave]] · [[Aleksander Malone]] · [[Simone]]
 
 ## Related lore
