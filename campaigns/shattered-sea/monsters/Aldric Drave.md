@@ -89,7 +89,8 @@ traits:
 ```
 
 > [!narration] Narration
-> _Visualizer: Aldric fight sheet pending._
+> Aldric Drave stands as a Medium undead patriarch in the Crestwall vault threshold. Red threads run through the family ledgers toward the living, and a matching pulse shows under an anchor's skin. Spells leave a red afterimage along the recorded family line.
+
 
 # Aldric Drave
 
