@@ -67,3 +67,13 @@ Miles of ancient terraces run inland from the landing, made by unknown builders 
 ## Flora provenance
 - Existing location updated from Nick's Aruhe flora paste, 2026-09-05.
 - Legacy provenance: `/Users/nick/shattered-sea/wiki/shattered-sea/aruhe-hungry-isle/region-aruhe-the-old-gardens.md`.
+
+## Keyed rooms (Session 11 densify)
+- [[Aruhe Drop Rim Court]] (A) · [[Aruhe Snapped Canopy Gallery]] (B) · [[Aruhe Taking-Places Plaza]] (C)
+- [[Aruhe Fruit Stair Terraces]] (E) · [[Aruhe Irrigation Ditch Maze]] (F)
+- Optional bait: [[Aruhe Warren Mouths]] (G) · [[Aruhe Old Mouth Threshold]] (H) — not Passage [[Warren]]
+- Soft landing: [[Aruhe Quiet Green Verge]] (I)
+- Boat path: [[Aruhe Beach Stair]] (K)
+- Stub peek: [[Aruhe Grassland Overlook]] (J)
+- **Spine:** A→B→C→E/F→I · **Boat:** A→K→[[Western Landing]]
+- Intra sites 10–60 min; inter-region after I/J/K = 2–4 watches

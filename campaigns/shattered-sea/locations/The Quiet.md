@@ -66,3 +66,8 @@ A rainforest region where silence is ecological: small life has been eaten out. 
 ## Flora provenance
 - Existing location updated from Nick's Aruhe flora paste, 2026-09-05.
 - Legacy provenance: `/Users/nick/shattered-sea/wiki/shattered-sea/aruhe-hungry-isle/region-aruhe-the-quiet.md`.
+
+## Keyed rooms (Session 11 densify)
+- Handoff from Gardens: [[Aruhe Quiet Green Verge]] (I)
+- Threshold: [[Aruhe Silence Threshold]] (Q1)
+- Deeper Quiet rooms (Q2–Q8): next-frontier stubs — not Session 11 finish

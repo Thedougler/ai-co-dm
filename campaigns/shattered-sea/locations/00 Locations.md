@@ -12,7 +12,8 @@ tags: [index, location]
 - [[Vault of the First Factor]] — unconfirmed Midchain limestone-spire rumour.
 - [[Warren]] · [[Shelfworks]] · [[Fathomrush]] · [[Sparhold Isle]] · [[Sparhold]] · [[Aruhe - Hungry Isle]] · [[Karath]] · [[Murrat]]
 - [[Sorn|Sorn]] · [[Dreth|Dreth]] · [[Orak|Orak]] · [[Veth West Beach]] · [[Sorn Guarded Beach]] · [[Dreth-Orak Channel]] · [[Sanvashti]]
-- [[Western Landing]] · [[Old Gardens]] · [[The Quiet]] · [[Grasslands - River Valleys]] · [[The Rot]] · [[Clear Lake]] · [[The Grove - Death Bloom]] · [[Lava Tubes]]
+- [[Western Landing]] · [[Old Gardens]]
+- Aruhe keyed rooms: [[Aruhe Drop Rim Court]] · [[Aruhe Snapped Canopy Gallery]] · [[Aruhe Taking-Places Plaza]] · [[Aruhe Fruit Stair Terraces]] · [[Aruhe Irrigation Ditch Maze]] · [[Aruhe Warren Mouths]] · [[Aruhe Old Mouth Threshold]] · [[Aruhe Quiet Green Verge]] · [[Aruhe Beach Stair]] · [[Aruhe Grassland Overlook]] · [[Aruhe Tideline Moss Edge]] · [[Aruhe Shingle Strand]] · [[Aruhe Wreck Shade Hull]] · [[Aruhe Reef Gap Approach]] · [[Aruhe Low-Tide Teeth]] · [[Aruhe Deep-Water Pickup]] · [[Aruhe Cliff Cove Dead-End]] · [[Aruhe Silence Threshold]] · [[Aruhe - Site Ledger]] · [[The Quiet]] · [[Grasslands - River Valleys]] · [[The Rot]] · [[Clear Lake]] · [[The Grove - Death Bloom]] · [[Lava Tubes]]
 - [[Uncertainty]] · [[Kalowe]] · [[Yssenmoor]] · [[Vestra]] · [[Mercatura]] · [[Vault of the First Factor]]
 
 ## Crown ingest

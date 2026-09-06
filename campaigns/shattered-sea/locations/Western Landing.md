@@ -59,3 +59,9 @@ A jagged coral reef lies about half a mile offshore; low tide exposes teeth and 
 
 ## Reef hazards
 - Aggressive coral, giant sharks, giant crabs, blood hawks, and Reef Skulls make the reef and shingle a landing problem rather than a neutral beach.
+
+## Keyed rooms (Session 11 densify)
+- [[Aruhe Tideline Moss Edge]] (L1) · [[Aruhe Shingle Strand]] (L2) · [[Aruhe Wreck Shade Hull]] (L3)
+- [[Aruhe Reef Gap Approach]] (L4) · [[Aruhe Low-Tide Teeth]] (L5) · [[Aruhe Deep-Water Pickup]] (L6)
+- Trap: [[Aruhe Cliff Cove Dead-End]] (L7)
+- **Boat escape:** [[Aruhe Beach Stair]] → L1→L2→(L3 optional)→L4→L6→[[Uncertainty]]
