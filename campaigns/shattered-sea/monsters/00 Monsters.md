@@ -30,6 +30,9 @@ tags: [index, monster]
 - [[Krakling]] — juvenile Midchain report; stub only.
 - Light ecology links: reef sharks in upper halls, hunter sharks at the edge, giant squid in deeper channels.
 
+## Tessarine Concordat
+- [[Cosimo Verantio]] — Magus Dragon / Principal; CR 18 solo controller; Paper Trust objective track.
+
 ## Dravosi Crown / bloodline
 - [[Aldric Drave]] — Founder-lich house fight sheet; Crestwall vault encounter and bloodline / phylactery / inhabit-heir state track.
 
