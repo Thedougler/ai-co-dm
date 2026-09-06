@@ -69,3 +69,10 @@ Sighted → Pursuing → Taking → Changed: wake observed → route converges �
 ## Mechanics
 - Vehicle boarding uses cover, movement, water, hazard telegraphs; hidden exact effects stay GM-side. Failure costs position/resources, not clue.
 - **Return state:** route chart, wake signs, evidence, damage, witnesses, Red Wake clock.
+
+## Fisk wreck continuity
+The original *Red Lady* was flagship of Fisk's five-ship fleet, with [[Rael Corven]] aboard. Fog closed over all five ships above the Maw; a trench opened beneath them and dropped them eighty feet before walls closed. [[Crissdalynn Khinriss]] pulled Delmar from the crow's nest, but the wreck settled on the eastern Shelfworks with the Pearl aboard. Umberlee cannot retrieve it through elemental water and cannot kill Delmar without losing the captains.
+
+The Dead Lady is now her collection hull: cargo dumped as tribute, empty boats left spinning, no survivors or negotiation, and the drowned original crew working the decks in silence.
+
+**Provenance:** Dump source 2026-09-05; legacy `/Users/nick/shattered-sea/wiki/shattered-sea/vehicle-red-lady.md`, `/Users/nick/shattered-sea/wiki/shattered-sea/vehicle-dead-lady.md`.

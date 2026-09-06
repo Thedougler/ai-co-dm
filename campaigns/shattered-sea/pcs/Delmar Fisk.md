@@ -42,3 +42,8 @@ The brass flagon snaps Delmar back when a captains voice runs too long. Voice bl
 
 > [!secret]- DM anchors
 > Delmar's full name is Delmar Atticus Fisk. The five captains are Rael Corven, Maren, Detto Kalash, Sienne Orre, and Bastian Ookage; the current vault page keeps their individual wants unresolved. Serafina does not know about the voices. Legacy provenance for the name, wife, named weapons, and voice pressure: /Users/nick/shattered-sea/wiki/shattered-sea/pc.delmar-fisk.md.
+
+## Maw theft continuity
+About five weeks before the current voyage, Delmar took the five-ship fleet on a Chain Council commission and stole the Pearl from the Waveservant shrine at Vel Orn. Fog and a trench took the fleet; Crissdalynn was the only other surface survivor. Delmar carries the five captains separately while the Pearl holds their crews. Umberlee's command through Branca remains: bring me the Pearl. Delmar does not know [[Halewick]] or its speech alignment.
+
+**Provenance:** Dump source 2026-09-05; legacy `/Users/nick/shattered-sea/wiki/shattered-sea/pc.delmar-fisk.md`, `/Users/nick/shattered-sea/wiki/shattered-sea/campaign-plan-campaign-timeline.md`.

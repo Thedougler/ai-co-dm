@@ -22,3 +22,10 @@ tags: [index, monster]
 - Plant-monsters: [[Vine Lash|Vine Lashes]] · [[Snakewood]] · [[Strangler Fig|Strangler Figs]] · [[Corpsewood]]
 - Flora hazards and zones: [[Razer-Grass]] · [[Stillbloom]] · [[Aruhe - Hungry Isle#Flora frame and zones]]
 - Hot blooms: [[Grubnade]]
+
+## Drowned Maw fiction stubs
+- [[Welak]] / whip shark — surface hull hunter and pump-vibration patrol; Monster-Brewer pending.
+- [[Leviathan]] — named displaced predator; Vestra account leading, not settled.
+- [[Ridgeback]] — Clyde-documented member of the same displaced kind; stub only.
+- [[Krakling]] — juvenile Midchain report; stub only.
+- Light ecology links: reef sharks in upper halls, hunter sharks at the edge, giant squid in deeper channels.

@@ -45,3 +45,8 @@ She refuses to pretend a prototype works, treats beggars and nobles to the same 
 
 > [!secret]- DM anchors
 > Catarina's father is missing after the cliff jump; the sealed flask is the surviving link. Rupert Knighton warned her away from the sewers. She has a Crown contract for ship upgrades and soldier kit, and she declined Tessarine Concordat orders; keep the exact terms and reasons unresolved. Legacy provenance for the father, flask, Rupert warning, Crown contract, Tessarine orders, and Ragnetto: /Users/nick/shattered-sea/wiki/shattered-sea/pc.catarina-davirelli.md.
+
+## Maw salvage continuity
+In 1488 DR Catarina hauled working Antheri parts from the Shelfworks to Calveno, starting the gold rush. She wants intact rooms and floors because their engineering could teach a nonmagical flying machine things current foundries will not say aloud. The Concordat still wants intact structural pieces; she has not accepted the orders.
+
+**Provenance:** Dump source 2026-09-05; legacy `/Users/nick/shattered-sea/wiki/shattered-sea/pc.catarina-davirelli.md`, `/Users/nick/shattered-sea/wiki/shattered-sea/region-shelfworks.md`.

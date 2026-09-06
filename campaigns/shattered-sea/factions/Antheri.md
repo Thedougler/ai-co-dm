@@ -32,3 +32,10 @@ Ruins and salvage at [[Shelfworks]], plus old breach evidence that can be compar
 ## Clocks
 - [[Pearl signal across the boundary]]: old breach evidence may explain a present answer across the boundary.
 - [[Maw fissure and the tribute system]]: the Antheri breach is a possible source of the pressure the tribute system contains.
+
+## Deep engine and disappearance
+The Antheri reached their height roughly two thousand years before Dalereckoning and vanished in −495 DR while a task was still in progress. Workshops were left mid-task; the dead are absent; deep machinery still ran. Their dark alloy and living-light channels exceed current foundries, and soul-binding was architecture: a mind could be locked into an artificial frame that did not die.
+
+Their three tiers descend from the newer Shelfworks to the Mid-Works and pristine Deep Works. [[Auralis]] is the Antheri machine holding the fissure, not a confirmed sea-god; the Grung public Auralis layer is documented separately on [[Auralis]].
+
+**Provenance:** Dump source 2026-09-05; legacy `/Users/nick/shattered-sea/wiki/shattered-sea/faction-antheri.md`, `/Users/nick/shattered-sea/wiki/shattered-sea/npc-auralis.md`.

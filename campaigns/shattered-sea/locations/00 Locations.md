@@ -21,3 +21,7 @@ tags: [index, location]
 ## Hinewai ingest
 - [[The Grove - Death Bloom]] — Hinewai's place-bound memorial and phylactery.
 - [[Clear Lake]] — lakeward root continuity toward the Grove.
+
+## Drowned Maw ingest
+- [[Drowned Maw]] · [[Outer Reach]] · [[Shelfworks]] · [[Mid-Works]] · [[Deep Works]] · [[Fathomrush]]
+- [[High Eyrie]] · [[Calder's Tooth and Port Tidefall]] · [[Vel Orn]] · [[Halewick]] · [[Keth Naar]]

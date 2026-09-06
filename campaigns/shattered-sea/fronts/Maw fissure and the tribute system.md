@@ -65,3 +65,8 @@ The [[Drowned Maw]] fissure opens beyond any system's ability to contain it, tur
 
 ## Cast
 [[Umberlee]] · [[Waveservants]] · [[Sentinels of the Eyrie]] · [[Countless]] · [[Antheri]] · [[Pearl of Souls]] · the crew
+
+## Drowned Maw ingest
+The Pearl's signal and tribute system are one pressure seen from two heights. Umberlee's claim stops at elemental water; tribute may be the procedural containment holding the fissure. If ledgers go red long enough, currents reverse, unknown-quarry stone rises, and missing ships become a rate. Auralis is the Antheri machine holding the fissure and losing ground; entities from the far side include [[Leviathan]], [[Ridgeback]], and [[Krakling]], while something larger scrapes at the crack.
+
+**Provenance:** Dump source 2026-09-05; legacy `/Users/nick/shattered-sea/wiki/shattered-sea/region-drowned-maw.md`, `/Users/nick/shattered-sea/wiki/shattered-sea/event-delmar-umberlee-bargain.md`.

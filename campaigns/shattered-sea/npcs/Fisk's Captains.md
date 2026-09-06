@@ -37,3 +37,8 @@ Remain trapped and silent until a recorded trigger occurs; no independent off-sc
 
 > [!secret]- Provenance
 > Legacy context: /Users/nick/shattered-sea/wiki/shattered-sea/pc.delmar-fisk.md.
+
+## Fleet continuity
+The five ships were *Red Lady* (flagship, [[Rael Corven]]), *Narrow* (scout sloop, [[Maren]]), *Heft* (heavy brig, [[Detto Kalash]]), *Fernen* (survey brigantine, [[Sienne Orre]]), and *Loud Argument* (gun brig, [[Bastian Ookage]]). They had refused a slaving run, mutinied themselves out of that future, and stayed together until Fisk had ships of his own. Umberlee pressed the captains into Delmar separately; the Pearl holds the rest of their crews.
+
+**Provenance:** Dump source 2026-09-05; legacy `/Users/nick/shattered-sea/wiki/shattered-sea/faction-fisks-fleet.md`, `/Users/nick/shattered-sea/wiki/shattered-sea/vehicle-red-lady.md`.

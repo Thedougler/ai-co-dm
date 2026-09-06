@@ -42,3 +42,11 @@ Things cross into the Shattered Sea; the Maw fissure and tribute system strain. 
 
 ## Linked
 [[Maw fissure and the tribute system]] · [[Bring the Pearl of Souls to Umberlee]] · [[Antheri]]
+
+## What answered
+The signal woke or intensified [[Auralis]] and pulled the named displaced [[Leviathan]] through. The Leviathan is first named, not necessarily first entity; [[Ridgeback]] and [[Krakling]] remain fiction stubs. Auralis holds the Leviathan short of full emergence but is losing ground. Distant boundary alignments reached [[Halewick]] about three weeks ago, where two children are rewriting an island between Common and Truespeak; [[Delmar Fisk]] does not know it exists.
+
+## Disposition
+Recovering the Pearl stops the signal; giving it to Umberlee ends the immediate crisis at the cost of her instrument; keeping it creates leverage and wider war; leaving it invites more entities. [[Istishia]] is cosmology only, not a committed villain.
+
+**Provenance:** Dump source 2026-09-05; legacy `/Users/nick/shattered-sea/wiki/shattered-sea/region-drowned-maw.md`, `/Users/nick/shattered-sea/wiki/shattered-sea/situation-isle-of-cursed-speech.md`.

@@ -19,3 +19,7 @@ tags: [index, npc]
 ## Hinewai ingest
 - [[The Blight]] / Hinewai — land-fused druid whose memorial is the Death Bloom.
 - [[The Unnamed Companion]] — unnamed dead companion beneath the Grove tree.
+
+## Drowned Maw ingest
+- [[Auralis]] · [[Adriana Tarquine]] · [[Branimir Karsovine]] · [[Petera Ngata]]
+- [[Yevgenia Sorrel]] · [[Marta Kessler]] · [[Fisk's Captains]] · [[Aldric Drave]]

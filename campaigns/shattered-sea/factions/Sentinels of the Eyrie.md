@@ -39,3 +39,8 @@ A snowy-owl senior master, later [[Talon Vantyrus]], argued that non-interventio
 
 ## Linked fronts
 - [[Long Sight Hunt]] · [[Rule of Two]] · [[Schism's Third Name]] · [[Soul Incarnate's Watch]]
+
+## Maw ledger
+Their record of the Maw begins in 1295 DR and continues through heat pulses, weather, ship position, water, and occurrence. The ledger refuses interpretation and the order refuses to dive. The watch's access is physical and social: stair, spray, invitation, harness, magic, or watched climb.
+
+**Provenance:** Dump source 2026-09-05; legacy `/Users/nick/shattered-sea/wiki/shattered-sea/faction-sentinels-of-the-eyrie.md`, `/Users/nick/shattered-sea/wiki/shattered-sea/location-high-eyrie.md`.

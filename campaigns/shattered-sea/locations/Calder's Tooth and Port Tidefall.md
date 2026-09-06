@@ -70,3 +70,8 @@ Routine → Alert → Contested → Occupied/Refused: standard stop → increase
 ## Mechanics and return
 - Social access and Influence for papers; cover/terrain for approaches; failed checks cost time/position/trust, not passage information.
 - **Return state:** record status, paper trail, official attention, queue/route state, and pressure.
+
+## Maw staging pressure
+Port Tidefall is staging for the Maw whether the Governor knows it or not. Extra companies sit at Fort Crestwall under Admiralty-sealed orders; manifests include reef-diving gear and underwater charges bound for the trench. [[Delmar Fisk]]'s old commission name still opens Crestwall's gate. The Governor remains unaware of the sealed orders.
+
+**Provenance:** Dump source 2026-09-05; legacy `/Users/nick/shattered-sea/wiki/shattered-sea/location-fort-crestwall.md`, `/Users/nick/shattered-sea/wiki/shattered-sea/npc-governor-voss.md`.

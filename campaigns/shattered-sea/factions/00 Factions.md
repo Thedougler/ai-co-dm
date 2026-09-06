@@ -12,3 +12,7 @@ tags: [index, faction]
 - [[Tangle]] · [[Umberlee]]
 - Related lore: [[Sentinel Schism]] · [[Soul Incarnate]]
 - Grung lore: [[Grung Color and the Sealing Rite]] · [[Grung and the Making of Aruhe]] · [[Vethka]]
+
+## Drowned Maw ingest
+- [[Antheri]] · [[Sunkline]] · [[Voyvode]] · [[Waveservants]] · [[Sentinels of the Eyrie]]
+- [[Tessarine Concordat]] · [[Chain Council]] · [[Umberlee]]

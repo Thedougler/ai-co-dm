@@ -33,3 +33,8 @@ Port infrastructure, clergy, and a sea-wide ritual bureaucracy. Their reach is s
 ## Clocks
 - [[Maw fissure and the tribute system]]: tribute rates or forms change, currents reverse, and the Pearl draws an answer.
 - [[Pearl signal across the boundary]]: the signal strains the system they claim to maintain.
+
+## Pearl and fissure
+The [[Pearl of Souls]] is one of seven Umberlee instruments. [[Branca]] demanded its return after the theft; Umberlee's claim stops where its water becomes elemental. Tribute may be the procedural system holding the [[Drowned Maw]] fissure shut. The [[Dead Lady]] is collection by hull: cargo dumped, no survivors, no negotiation.
+
+**Provenance:** Dump source 2026-09-05; legacy `/Users/nick/shattered-sea/wiki/shattered-sea/faction-waveservants.md`, `/Users/nick/shattered-sea/wiki/shattered-sea/event-delmar-umberlee-bargain.md`, `/Users/nick/shattered-sea/wiki/shattered-sea/vehicle-dead-lady.md`.

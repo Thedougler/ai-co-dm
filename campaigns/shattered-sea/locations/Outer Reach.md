@@ -35,3 +35,8 @@ Water past the [[Drowned Maw]], with no resupply or pilot-trusted landmark; feel
 
 ## Secrets (DM)
 Far geography, planar mechanics, and trustworthy landmarks are unresolved; this is a route edge, not a blank invitation to invent settlements.
+
+## Drowned Maw continuity
+Past the Maw there is no colonial map, resupply, or landmark a sane helmsman trusts. Stone with no known quarry, currents against the tables, and records of ships that did not return are the only continuity. The Maw is the only door that matters; the Outer Reach is what begins after it.
+
+**Provenance:** Dump source 2026-09-05; legacy `/Users/nick/shattered-sea/wiki/shattered-sea/region-drowned-maw.md`, `/Users/nick/shattered-sea/wiki/shattered-sea/creature-leviathan.md`.

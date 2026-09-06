@@ -49,3 +49,10 @@ A 200-foot basalt sea-stack far northeast in the [[Crown Islands]], overlooking 
 
 ## Geography ingest — position
 High Eyrie is off the far northeastern edge of the Crown row, not a conventional harbour: a two-hundred-foot basalt stack where the Sentinels have kept their monastery and observation ledgers for two centuries. They have refused three Dravosi deals.
+
+## Drowned Maw ingest — continuous watch
+The Sentinels' Maw record begins in 1295 DR. They record time, weather, position, water, and occurrence, never why; they add heat pulses but will not dive. Their black stone tooth is two hundred feet up, with a southern stair that stops short of the water, spray already reaching the lowest stair, and a white ring of breaking water two hundred yards out. Aarakocra land on upper terraces; others require invitation, harness, magic, or watched climb. White water can cover the stair.
+
+[[Crissdalynn Khinriss]]'s unfinished Maw map is the price of return from exile. Master Kyzil warns her without finishing the pilgrimage; [[Osset]] wants a cleaner Long Sight read away from Kyzil. The stair can close without the party.
+
+**Provenance:** Dump source 2026-09-05; legacy `/Users/nick/shattered-sea/wiki/shattered-sea/location-high-eyrie.md`, `/Users/nick/shattered-sea/wiki/shattered-sea/faction-sentinels-of-the-eyrie.md`.

@@ -1,0 +1,180 @@
+---
+name: narrative-islands
+description: >-
+  Situation topology for sandbox play — forces, gravity, bridges, tide,
+  wake. Use when creating or revising a type: front, quest, or encounter (choose the existing owner) page, converting
+  a linear plot into a playable island, or auditing agency and
+  connectivity. Night-only pressure stays a session-plan section.
+---
+
+# Narrative Islands
+
+Build **narrative islands**: bounded, causally live situations that give
+players meaningful things to pursue without prescribing the route.
+
+**Island** is the method. The page is `type: front, quest, or encounter (choose the existing owner)` when another
+page, a future session, or a Beat Chart must refer to this topology as
+a node. A night-only pressure stays a session-plan Situations section.
+There is no `kind: narrative-island`.
+
+The island owns **situation topology**: what is happening, who wants
+what, why it matters, how it changes, how the PCs can engage, and what
+changes afterward. The players choose the route.
+
+## Method
+
+Three states:
+
+- **True:** established canon or explicit DM ruling.
+- **Possible:** prepared pressure, clues, options, or consequences.
+- **Happened:** events established through play evidence.
+
+Unused preparation has no authority over play. Improvisation that lands
+at the table outranks unused prep.
+
+Legal prep: an NPC makes an offer; a faction searches; a storm drives
+ships off course; a clue exists in three discoverable forms.
+
+Seed broadly, observe play, identify attention, deepen selectively.
+
+A Live Branches row on the Beat Chart is legal only when the party's
+own choice creates materially different future situations — the collapse
+test in `session-beats/references/audits.md`. If outcomes
+reconverge, collapse them into one beat.
+
+## Core model
+
+Think in an **archipelago**, not a plot chain. An island contains:
+
+- a live **situation**
+- competing **forces** with independent goals
+- **gravity** that can attract the PCs
+- several **bridges**
+- useful **affordances**
+- a **tide** that changes the situation when ignored
+- several possible **state changes**
+- a **wake** into the wider campaign
+
+Prepare what the world **does**. Discover what the PCs **do** at the table.
+
+## Workflow
+
+Element catalogs and the audit: `references/workflow-detail.md`.
+
+### 1. Load the current world
+
+Search the compiled vault. Read the smallest set of pages for PC goals,
+active factions, unresolved hooks, locations, clocks, and recent state
+changes.
+
+**Complete when** every reused fact traces to current canon and every
+new fact is identifiable as new prep.
+
+### 2. State the situation
+
+**[Forces] want [incompatible things] in or around [context] before
+[pressure matures].** Define the dramatic question. Test at least three
+materially different end states.
+
+**Complete when** the sentence names incompatible wants and a maturing
+pressure.
+
+### 3. Establish gravity
+
+Connect to existing PC goals, fears, loyalties, and interests. Prefer
+multiple weak pulls over one compulsory hook. Declining remains
+legitimate.
+
+**Complete when** engagement follows from things the PCs already value.
+
+### 4. Build active forces
+
+Every load-bearing actor: want, reason, constraint, leverage, next
+action, tell. Every major force can advance the situation without the
+party.
+
+**Complete when** no load-bearing actor waits politely for the PCs.
+
+### 5. Build bridges
+
+At least two materially different entry vectors (three or four is
+strong). Losing one bridge does not erase the island.
+
+**Complete when** two bridges remain after any one is lost.
+
+### 6. Prepare affordances
+
+What PCs can manipulate **in this situation**. Durable physical logic
+belongs on the spatial page — invoke `place-design` when the place
+cannot be run. If an obstacle has only one answer, add an affordance
+or remove the gate.
+
+**Complete when** unscripted combinations can change the situation.
+
+### 7. Set the tide
+
+The smallest useful progression for when PCs are elsewhere. For each
+step: cause, what changes, visible evidence, what opens or closes.
+
+**Complete when** ignoring the island still changes the world.
+
+### 8. Add candidate beats
+
+Attach beats to triggers or states, not timestamps. Delegate craft to
+`session-beats` and the `writing-*-beats` skills.
+
+**Complete when** candidate beats remain conditional.
+
+### 9. Define state changes
+
+Consequence logic, not endings. Who gains leverage, what becomes true
+or impossible, who learns, which clocks and bridges change.
+
+**Complete when** more than one persistent state is possible.
+
+### 10. Write the wake
+
+Propagate into NPCs, factions, other situations, reputation.
+
+**Complete when** the island points toward more than one future situation.
+
+### 11. Write the page
+
+Mint `type: front, quest, or encounter (choose the existing owner)` from `templates/Session prep.md or the nearest existing campaign note template`
+when the threshold is met. Otherwise write the same topology into the
+session-plan Situations section. If a place the island occupies is
+missing or unplayable, invoke `place-design` first — or
+`dungeon-design` when it is a multi-room dungeon complex. If a notable
+object must be cited as a node and has no page, invoke `dnd-5e-magic-item-design`.
+If a named conveyance must be cited as a node and has no page, invoke
+`vehicle-design`. If a node exists but has no presence, invoke
+`flesh-out`.
+
+List playable `kind: location` sites in `locations:`; wikilink other
+spatial kinds in the body.
+
+**Complete when** a DM can scan the page and run the situation.
+
+### 12. Run the island audit
+
+`references/workflow-detail.md`: agency, causality, activity,
+connectivity, gravity, persistence, vault integrity.
+
+**Complete when** every audit question has a concrete answer in the
+page or current canon.
+
+## Cold opens
+
+A cold open is authored by `cold-opens`. An island that opens
+on one delegates the whole frame to that skill.
+
+## Done check
+
+`NI: <situation premise + pressure + if-ignored change + table-open question>`
+
+## References
+
+| File | Read when |
+|---|---|
+| `references/narrative-islands.md` | Converting linear adventures, diagnosing rails, repairing static islands |
+| `references/workflow-detail.md` | Element catalogs, island audit |

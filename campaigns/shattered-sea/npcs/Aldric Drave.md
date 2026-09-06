@@ -21,3 +21,8 @@ Grigori's arrogance prevents him from hearing the whisper as evidence of another
 
 ## Open question
 Is Aldric Drave real, and if so, is he another Hierarch or only a distorted court rumor?
+
+## Pearl pressure
+The Concordat used the Chain Council as a cut-out because it feared Aldric could use the Pearl to grow past the limits of his bloodline phylacteries. This is a Concordat fear and motive, not confirmation of Aldric's actual capability; his existence and nature remain the existing rumor.
+
+**Provenance:** Dump source 2026-09-05; legacy `/Users/nick/shattered-sea/wiki/shattered-sea/npc-aldric-drave.md`, `/Users/nick/shattered-sea/wiki/shattered-sea/faction-tessarine-concordat.md`.

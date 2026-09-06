@@ -36,3 +36,8 @@ The five souls in the Pearl may be lost into the Maw; Umberlee cannot kill Delma
 
 ## Linked
 [[Maw fissure and the tribute system]] · [[Pearl signal across the boundary]] · [[Pearl of Souls]]
+
+## Four possible dispositions
+The wreck is still on the eastern Shelfworks and the Pearl is still working. Recover it to stop the signal; give it to Umberlee to end the immediate crisis and return her major instrument; keep it for leverage and a wider war; or leave it and accept more entities and worsening salvage conditions.
+
+**Provenance:** Dump source 2026-09-05; legacy `/Users/nick/shattered-sea/wiki/shattered-sea/item-pearl-of-souls.md`, `/Users/nick/shattered-sea/wiki/shattered-sea/event-delmar-umberlee-bargain.md`.

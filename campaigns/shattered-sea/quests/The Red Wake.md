@@ -42,3 +42,8 @@ More boats and crews vanish on shared lanes. The Red Wake also touches the Pearl
 
 ## Linked
 [[Maw fissure and the tribute system]] · [[Pearl signal across the boundary]] · [[Bring the Pearl of Souls to Umberlee]]
+
+## Collection hull
+The Dead Lady is the raised Red Lady, a collection hull for Umberlee: holds opened to the sea, cargo dumped as tribute, drowned crew spectral and recognizable to Fisk's sailors. It is still fisherman talk out of Kalowe; no public dock has tied it to Delmar. If Delmar points toward the Maw, the red hull stands off and its clock pauses.
+
+**Provenance:** Dump source 2026-09-05; legacy `/Users/nick/shattered-sea/wiki/shattered-sea/vehicle-dead-lady.md`.

@@ -62,3 +62,8 @@ The demand remains unchanged while the Pearl stays at the Maw bottom. Players ca
 - [[campaigns/shattered-sea/story/00 Story so far]]
 - [[Bring the Pearl of Souls to Umberlee]]
 - [[Maw fissure and the tribute system]]
+
+## Maw claim
+Umberlee's claim reaches every working harbour but stops where Maw water becomes elemental. Through Branca she demanded, “Bring me the pearl.” The Dead Lady is her collection hull while the Pearl remains out of reach; she cannot kill Delmar without losing the five captains into the Maw.
+
+**Provenance:** Dump source 2026-09-05; legacy `/Users/nick/shattered-sea/wiki/shattered-sea/event-delmar-umberlee-bargain.md`, `/Users/nick/shattered-sea/wiki/shattered-sea/vehicle-dead-lady.md`.

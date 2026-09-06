@@ -44,3 +44,8 @@ No darkvision; Jean-Claude's darkness blinds her. She blocked Perrin from killin
 
 > [!secret]- DM anchors
 > Kyzil has not asked Crissdalynn about the two missing Sentinels. The Maw map remains unfinished and her pilgrimage remains open. Nightmantle is the cloak sold as protection, not a resolved safe item; preserve the existing Fate Spinner and Sentinel schism pressure. Legacy provenance for the map, missing Sentinels, Kyzil's gift, and Nightmantle wording: /Users/nick/shattered-sea/wiki/shattered-sea/pc.crissdalynn-khinriss.md.
+
+## Maw map continuity
+Crissdalynn dove from the Red Lady's crow's nest, grabbed Delmar, and flew for the surface. The water shut fifty feet below; momentum and buoyancy carried them out. Her unfinished Maw map is the price of return from exile, and it still has a hole the size of the drop-off.
+
+**Provenance:** Dump source 2026-09-05; legacy `/Users/nick/shattered-sea/wiki/shattered-sea/pc.crissdalynn-khinriss.md`, `/Users/nick/shattered-sea/wiki/shattered-sea/vehicle-red-lady.md`.

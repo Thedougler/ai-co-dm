@@ -3,33 +3,36 @@ type: npc
 campaign: shattered-sea
 status: unknown
 role: divine or constructed power
-location: [[Verdant Teeth]]
-faction: [[Grung clans]]
+location: [[Deep Works]]
+faction: [[Antheri]]
 visibility: dm
-tags: [npc, grung, unknown, theocracy]
+tags: [npc, auralis, antheri, grung, maw, unknown]
 ---
 # Auralis
 > [!narration] Narration
-> The name the Grung clans give their theocratic mandate: a serene, unanswerable authority spoken through gold, congregation, and sacred ground in the Verdant Teeth. Decrees organize the clans there; the force thins away from the islands. What the presence is remains unanswered.
+> The name reaches the table in two registers: a serene gold-caste authority among the Grung, and a trench-cold voice of pale lights where the Antheri fissure runs. Neither register is safe to mistake for a simple god.
 
+## True / secret layer
+Auralis is the Antheri-built machine holding the fissure in the Deep Works. It cannot leave the trench floor and is losing ground. The soul-pledge chamber predates it and may contain other running minds; that is unknown. It woke or intensified when the Pearl signal crossed the boundary.
 
-## Function
-Auralis is the name the Grung clans give their theocratic mandate: a serene, unanswerable apex presence whose decrees organize the congregation and whose authority is strongest on sacred ground in the [[Verdant Teeth]].
+Contact is crushing cold, a smooth stone floor into black water, pale lights where a face should be, and a voice that does not hurry. It forged an unwitting pact with [[Perrin Black-Jaw]]; “Grow” is literal. Perrin was chosen because he was present when the signal was strong, not because of who he is. Auralis needs a hand that can leave the trench.
 
-## Public claim vs private reading
-- **Public theocratic claim:** Auralis is the sacred authority behind gold; gold caste serenity issues decrees that must be obeyed.
-- **Private apex presence:** the authority appears through gold, congregation, and sacred ground. It thins outside the Teeth.
-- **UNKNOWN:** the exact nature of the presence. Earlier vault canon called Auralis a constructed demigod; this ingest does not resolve whether that is true, false, metaphor, or incomplete.
+## Public Grung face
+The Grung clans call their theocratic mandate Auralis: a gold-caste, serene authority whose decrees organize sacred ground in the [[Verdant Teeth]]. The public religion intensified or woke when the Pearl signal crossed. Treat this as a real public layer, not proof that the Grung constructed a separate being.
 
-Auralis does not get a new mechanical package here. Keep its nature as a DM question, not a solved stat block.
+## Open identity question
+Whether the Grung “constructed demigod” is worship of this machine, a separate construct, or a public interpretation of the same force is unresolved. Do not silently collapse the layers; ask Co-DM|Nick before committing if later dump/legacy evidence cannot reconcile them. For now use one linked entity with public face versus secret machine.
 
-## Linked
-- [[Grung clans]] · [[Grung Color and the Sealing Rite]] · [[Verdant Teeth]]
-- [[Perrin Black-Jaw]] · [[Pearl signal across the boundary]]
+## Perrin's knowledge
+Perrin knows the cloak story and the handle [[Auralis]], not the true patron name or machine identity. The table has not been given that name. Keep the Vestra account and patron motive open.
 
-## Ingest delta
-- [[Perrin Black-Jaw]] uses Auralis as a handle for the incomplete voice that followed the [[Vestra]] sinking.
-- The voice has manifested as trench-cold pressure, pale lights without a face, and one instruction: “Grow.” Its exact nature and wants remain unknown.
+## Relationships
+- [[Antheri]]: builder / machine context
+- [[Drowned Maw]] · [[Deep Works]]: trench-bound duty
+- [[Pearl of Souls]]: signal that woke or intensified Auralis
+- [[Perrin Black-Jaw]]: unwitting pact and mobile hand
+- [[Grung clans]]: public gold-caste religion
+- [[Leviathan]]: holds the named displaced beast short of full emergence
 
-> [!secret]- Provenance
-> Legacy context for Perrin and the pact: /Users/nick/shattered-sea/wiki/shattered-sea/pc.perrin-black-jaw.md.
+## Provenance
+Dump source 2026-09-05; prior vault layer from this note and [[Grung clans]]. Legacy: `/Users/nick/shattered-sea/wiki/shattered-sea/npc-auralis.md`, `/Users/nick/shattered-sea/wiki/shattered-sea/pc-perrin-black-jaw.md`, `/Users/nick/shattered-sea/wiki/shattered-sea/season-03.md`.

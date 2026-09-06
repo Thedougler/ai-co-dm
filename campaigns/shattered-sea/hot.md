@@ -37,3 +37,6 @@ visibility: dm
 
 ## Agent rule
 Surgical updates only. Move still-relevant prep forward; don’t reload the vault. Hand off filtered packets (see [[AGENTS]]).
+
+## Remote Maw pressure
+- [[Fathomrush]] / [[Calder's Tooth and Port Tidefall]] — Eastern Midchain dive staging and sealed Crestwall orders are live pressure ahead of the crew; the Maw is not behind them.

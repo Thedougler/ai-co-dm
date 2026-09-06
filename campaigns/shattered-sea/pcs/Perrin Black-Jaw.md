@@ -47,3 +47,8 @@ A contact once put Perrin inside a sixty-foot body and said “Grow.” He renam
 
 > [!secret]- Grigori blood-thread
 > Grigori may have left Perrin with a blood-thread when curing his early shipboard illness; status unresolved.
+
+## Auralis / Vestra continuity
+Perrin washed up alone on [[Keth Naar]] after something massive rose under the [[Vestra]], boiled the water, and threw lightning. He named it the [[Leviathan]] afterward; that identification and whether it sank the Vestra remain unsettled, with the Leviathan account leading. Auralis is the handle for the trench-cold patron, not a name Perrin knows as the Antheri machine. The pact's literal instruction is “Grow”; Auralis needs a mobile hand.
+
+**Provenance:** Dump source 2026-09-05; legacy `/Users/nick/shattered-sea/wiki/shattered-sea/pc-perrin-black-jaw.md`, `/Users/nick/shattered-sea/wiki/shattered-sea/creature-leviathan.md`.
