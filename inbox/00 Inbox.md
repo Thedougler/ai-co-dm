@@ -11,6 +11,8 @@ Agents: empty this toward campaign notes; don't let it become a second wiki.
 
 ## Pending
 
+- [[2026-09-05-dnd-skills-port-inventory|D&D skills port inventory]] — full shortlist backlog for Skill-Creator/Ops
+
 ## Archived provenance
 
 - [[inbox/archive/2026-09-05-promoted/template-specs/00 Specs|Template specs]] — promoted into `templates/`; source specs archived.
