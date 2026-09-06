@@ -9,9 +9,10 @@ tags: [location, aruhe, terraces, gardens]
 # Old Gardens
 
 ## Art
-![[attachments/shattered-sea/places/aruhe-the-old-gardens.jpeg]]
+![[attachments/shattered-sea/places/aruhe-the-old-gardens.jpeg|Aruhe Old Gardens]]
+
 > [!narration] Narration
-> _Visualizer: Aruhe flora pending._
+> Ancient stone terraces climb the forested slope, their broken steps threaded with roots and bright orange fruit. Green water moves through algae-coated channels below dark openings in the old stonework. The air is warm, sweet, and sour at once; every path seems to lead deeper into growth that no one planted for you.
 
 
 ## At a glance
