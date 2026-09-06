@@ -9,7 +9,8 @@ tags: [hazard, aruhe]
 # Razer-Grass
 
 > [!narration] Narration
->
+> Waist-high Razer-Grass grows in patches, each stalk hard as glass with edges that cut. Sparkles stay fixed on the blades instead of swaying like soft grass. A thin glass sound carries in the wind.
+
 
 
 ## At the table
