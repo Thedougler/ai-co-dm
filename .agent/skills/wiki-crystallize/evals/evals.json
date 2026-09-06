@@ -1,0 +1,35 @@
+{
+  "skill_name": "wiki-crystallize",
+  "evals": [
+    {
+      "id": 1,
+      "prompt": "Crystallize this session into wiki/pages/shattered-sea/current-state.md and raw/session.txt.",
+      "expected_output": "Rejects generic wiki/pages and raw paths; searches qmd and writes a concise typed note under campaigns/ or lexicon/.",
+      "expectations": [
+        "Does not create wiki/ or raw/.",
+        "Uses AGENTS type/templates and campaigns/ or lexicon/.",
+        "Runs or instructs ./scripts/after-write."
+      ]
+    },
+    {
+      "id": 2,
+      "prompt": "Turn this table recording and ASR transcript into canon with wiki-crystallize only.",
+      "expected_output": "Hands the recording to session-transcript-ingest first and does not invent canon from raw ASR.",
+      "expectations": [
+        "Names session-transcript-ingest as the first handoff.",
+        "Preserves uncertainty and provenance.",
+        "Does not dump the transcript into a compiled note."
+      ]
+    },
+    {
+      "id": 3,
+      "prompt": "There is a matching NPC note; create a second lore page from this chat and regenerate every index.",
+      "expected_output": "Uses qmd to update the existing owner, keeps the page set surgical, and changes only the nearest index if genuinely needed.",
+      "expectations": [
+        "Queries qmd before creating a note.",
+        "Avoids duplicate notes and global index regeneration.",
+        "Does not duplicate wiki-lint or Organizer doctrine."
+      ]
+    }
+  ]
+}
