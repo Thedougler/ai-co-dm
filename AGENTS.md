@@ -42,7 +42,7 @@ Obsidian LLM wiki for Nick's home D&D. **Markdown is the product.**
 
 ### `type` enum
 
-`hub` | `campaign` | `session-prep` | `session` | `npc` | `pc` | `location` | `faction` | `quest` | `front` | `encounter` | `item` | `monster` | `lore` | `template` | `lexicon`
+`hub` | `campaign` | `session-prep` | `session` | `npc` | `pc` | `location` | `vehicle` | `faction` | `quest` | `front` | `encounter` | `item` | `monster` | `lore` | `template` | `lexicon`
 
 ## Skills (progressive)
 
@@ -77,6 +77,7 @@ Obsidian LLM wiki for Nick's home D&D. **Markdown is the product.**
 | Post-session durable log + surgical canon | `session-wrapup` → **Co-DM** / **Session-Planner** (complements `session-transcript-ingest`) |
 | Canon / graph QA | `campaign-qa` → **Co-DM** / **Session-Planner** / **Organizer** (hygiene stays `wiki-lint`) |
 | Places | `place-design` |
+| Vehicles / named craft (ships, boats) | upcoming `vehicle-design` → **Homebrewer**/designers; TotM vehicle surface → **Visualizer**; notes under `campaigns/<campaign>/vehicles/` (**Organizer**) |
 | Dungeons | `dungeon-design` |
 | NPCs | `npc-design` |
 | Monsters | `homebrew-monsters-5e` → **Homebrewer** |
@@ -147,7 +148,7 @@ Rules:
 | **Skill-Creator** | `.agent/skills/`; on Evaluator fail: implement TotM fix, **delete failed `[!narration]`**, ping **Visualizer** to rewrite, Evaluator re-audits |
 | **Homebrewer** | Mechanical homebrew; convert prose monster stats → Fantasy Statblocks fence |
 | **Researcher** | Prior art (web); not vault canon |
-| **Organizer** | Indexes/MOCs, structure doctrine, hot refresh, light inbox triage |
+| **Organizer** | Indexes/MOCs, structure doctrine, hot refresh, light inbox triage; owns `campaigns/<campaign>/vehicles/` layout |
 | **Ingest** | `wiki-ingest` — inbox/URL/paste → typed linked notes; prior context via `-c legacy-ss` (read-only) |
 | **Linter** | `wiki-lint` checklist/audit (report + propose) |
 | **dr eggbot** | CreateAgent / new-role design for the fleet (Team-Leader routes; does not CreateAgent) |
@@ -169,7 +170,7 @@ Do not skip Skill-Creator and have Visualizer patch prose ad hoc after a fail.
 | Path | Purpose |
 |---|---|
 | `campaigns/<id>/hot.md` | Boot “now” |
-| `campaigns/` · `templates/` · `lexicon/` · `inbox/` · `attachments/` | Wiki (Obsidian: new notes → inbox, embeds → attachments) |
+| `campaigns/` · `campaigns/<id>/vehicles/` · `templates/` · `lexicon/` · `inbox/` · `attachments/` | Wiki (Obsidian: new notes → inbox, embeds → attachments; named craft → vehicles/) |
 | `.obsidian/` | Human vault config + Statblocks/Leaflet (ignore workspace) |
 | `.agent/skills/` | Vault / D&D fleet procedures |
 | `.agents/skills/` | Matt Pocock process pack — **always when appropriate**; not qmd `skills` collection |
