@@ -37,6 +37,17 @@ when every item passes.
 - The ending lands a strong image, revelation, escalation, or question.
 - The DM holds an exact final image and an exact cut destination.
 
+### Player-facing scare-and-drop check
+
+- A borrowed-POV scare-and-drop `[!narration]` stops on a currently visible
+  dive, pressure, cover, route, or other affordance.
+- It does not coach the win condition (`is the win`, `not killing the X`, or an
+  equivalent closer).
+- It does not promise future tactics (`will not follow you`, `will not chase`,
+  or an equivalent) unless that behavior is happening now and visible.
+- Ecology answer keys, inferred limits, and the success condition remain in
+  DM/mechanic text.
+
 ## Persistence
 
 - Runtime-dependent outcomes stay unresolved until play establishes them.

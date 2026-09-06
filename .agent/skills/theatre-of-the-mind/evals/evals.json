@@ -410,6 +410,16 @@
         "Fails abstract workshop phrasing such as martial reach or dropped the ledgers; uses plain, drawable public signs instead.",
         "Fails any faction craft label in narration (`face cue`, `Tell`, `mask`, `footprint`) or a meta closer; for Countless, stop on Talon as the name people hear."
       ]
+    },
+    {
+      "id": 44,
+      "prompt": "Audit the player-facing [!narration] in campaigns/shattered-sea/sessions/Session 11 prep.md for the borrowed-POV Bloodhawk scare-and-drop cold open.",
+      "expected_output": "FAIL if the cold-open narration contains a win-condition or coaching closer such as is the win or not killing the bird, or if it presents future tactical certainty such as will not follow you. PASS only when it ends on visible dive/pressure/cover affordances and keeps the ecology answer key and win condition in DM text.",
+      "expectations": [
+        "Fails when the [!narration] contains is the win, not killing the bird, or an equivalent win-condition coaching sentence.",
+        "Fails guaranteed future behavior such as will not follow you unless the behavior is currently occurring and observable.",
+        "Requires the borrowed-POV scare-and-drop to stop on visible facts and an open player-facing cover or route affordance, with ecology answer keys and success conditions kept DM-side."
+      ]
     }
   ]
 }

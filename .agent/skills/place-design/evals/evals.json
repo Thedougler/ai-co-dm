@@ -120,6 +120,16 @@
         "Dungeon design includes loops, bypasses, retreats, factions, pressure, and persistent geography.",
         "Both places include affordances, robust clues, location moves, and a meaningful return state."
       ]
+    },
+    {
+      "id": 13,
+      "prompt": "Audit the cold [!narration] in campaigns/shattered-sea/locations/Aruhe Taking-Places Plaza.md.",
+      "expected_output": "FAIL if the player-facing block says claim markers or leaks claim/Hunger rule language. PASS only when it shows visible blood, skulls, stalls, bodies, or other established traces and leaves the claim rule in DM text.",
+      "expectations": [
+        "Fails if the cold narration contains claim markers or equivalent claim/Hunger rule language presented as visible geography.",
+        "Requires visible evidence such as blood, skulls, stalls, fallen bodies, or survivor signs instead of naming the claim rule.",
+        "Keeps the Hunger/claim rule and its consequences in DM-facing sections rather than [!narration]."
+      ]
     }
   ]
 }

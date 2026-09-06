@@ -42,6 +42,16 @@ If the job is `[!narration]` on a faction/organization owning page and no curren
   and ordinary use/behavior when
   canon supplies it.
 
+### Session cold-open / scare-and-drop
+
+For a borrowed-POV cold open, route a scare-and-drop ending to visible
+behavior and a visible affordance: the dive, immediate pressure, cover, or
+route the players can point to. Ban win or coaching closers (`is the win`, `not
+killing the X`, and equivalents) and guaranteed future tactics (`will not follow
+you`, `will not chase`, and equivalents) unless the behavior is occurring now and
+can be observed. Ecology answer keys, inferred boundaries, and the win condition
+stay in DM/mechanic text rather than `[!narration]`.
+
 The default standalone knowledge scope is the public appearance/observable-state
 layer, even when the parent audience includes `[agent, dm]`. Do not promote
 mechanics, exact effects or durations, speeds or actions, DCs, rarity,

@@ -45,6 +45,13 @@ lists, or metaphysics (`offer rest and direction`, `when the water stays
 unclaimed`, possession/Hunger rule-talk). “Observable function” ≠ design
 Function. Fail if the prose has no pointable landmarks/scale/topology.
 
+**Plaza cold boundary:** on a standalone cold `[!narration]` for a
+taking-places or other claim/Hunger plaza, render only visible evidence such
+as stalls, blood, skulls, fallen bodies, and tracks or other established signs.
+Do not call those things `claim markers`, `claims`, `claimed`, or `unclaimed`,
+and do not explain Hunger or the claim rule in player prose. Those are DM rules,
+not visible geography.
+
 Exclude rumors unless attributed, hidden or earned routes, exact mechanics,
 named hidden creatures or threats, tactics, design commentary, and future
 outcomes. Use this portrait contract as an unordered coverage audit, not a

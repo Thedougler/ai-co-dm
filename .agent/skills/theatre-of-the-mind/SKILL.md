@@ -164,6 +164,20 @@ words in skill/reference/DM notes only.
   is the **reaction point**: visible telegraph or buildup only — not resolved
   contact, haul, or PC injury (see [references/surfaces.md](references/surfaces.md)
   and [references/boundary.md](references/boundary.md)).
+
+### Session cold-open / scare-and-drop gate
+
+For a borrowed-POV session cold open, including a scare-and-drop, `[!narration]`
+may end only on what the current viewpoint visibly establishes: the immediate
+dive, pressure, cover, route, or another player-facing affordance. Do not close
+with win-condition coaching or a tactical answer key (`is the win`, `not killing
+the X`, or equivalent), and do not state guaranteed future behavior (`will not
+follow you`, `will not chase`, or equivalent) unless that behavior is happening
+now and is observable. Keep ecology answer keys, inferred limits, and the cold
+open success condition in DM/mechanic text. A creature stopping at a boundary
+may be narrated when that stop is currently visible; certainty about what it will
+do next may not.
+
 - **Standalone portrait:** describe one item, creature, place, vehicle,
   business, person, or other subject as a self-contained player reference. Do
   not invent a party, encounter, specific environment, viewer or camera,
