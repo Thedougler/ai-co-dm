@@ -49,7 +49,7 @@ possibilities.
 ### Immediate
 - actors, exits, objects, clues, and choices available now
 ### Hidden
-> [!secret]- DM truth, trigger, and how it can surface
+> [!secret] DM truth, trigger, and how it can surface
 ### Run
 - one consequential check/procedure: trigger, DC/source, success, failure, fail-forward
 ### If violence starts

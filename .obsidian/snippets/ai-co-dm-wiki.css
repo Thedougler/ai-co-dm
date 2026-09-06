@@ -1,0 +1,135 @@
+/* ai-co-dm — professional wiki presentation (Wiki-UI)
+   Goals: DM scan at the table; wiki-like measure; semantic callouts;
+   session surfaces never hide callout bodies.
+   Tokens informed by Wikimedia Codex / MDN reading measure (~45–75ch).
+*/
+
+/* --- Reading measure & type --- */
+.markdown-preview-view .markdown-preview-sizer,
+.markdown-source-view.mod-cm6 .cm-content {
+  max-width: 72ch;
+  margin-inline: auto;
+}
+
+.markdown-preview-view,
+.markdown-source-view.mod-cm6 {
+  --font-text-size: 16px;
+  --line-height-normal: 1.6;
+  --h1-size: 1.75em;
+  --h2-size: 1.35em;
+  --h3-size: 1.15em;
+  --h4-size: 1.05em;
+}
+
+.markdown-preview-view h1,
+.markdown-preview-view h2,
+.cm-header-1,
+.cm-header-2 {
+  font-weight: 600;
+  letter-spacing: -0.01em;
+}
+
+.markdown-preview-view h2 {
+  border-bottom: 1px solid var(--background-modifier-border);
+  padding-bottom: 0.25em;
+  margin-top: 1.6em;
+}
+
+.markdown-preview-view h3 {
+  margin-top: 1.25em;
+  color: var(--text-muted);
+  font-weight: 600;
+}
+
+/* --- Properties / frontmatter: quieter wiki meta --- */
+.metadata-container {
+  font-size: 0.85em;
+  opacity: 0.92;
+}
+
+/* --- Semantic callouts (house types) --- */
+.callout[data-callout="narration"] {
+  --callout-color: 70, 130, 180; /* steel blue — player-facing */
+  --callout-icon: lucide-book-open;
+}
+
+.callout[data-callout="mechanic"] {
+  --callout-color: 180, 120, 40; /* amber — procedure / numbers */
+  --callout-icon: lucide-dices;
+}
+
+.callout[data-callout="secret"] {
+  --callout-color: 140, 90, 160; /* violet — DM truth (still visible) */
+  --callout-icon: lucide-eye;
+}
+
+.callout {
+  border-radius: 4px;
+  border-width: 0 0 0 3px;
+  margin-block: 0.75em;
+}
+
+.callout-title {
+  font-weight: 600;
+  font-size: 0.92em;
+  letter-spacing: 0.01em;
+  text-transform: none;
+}
+
+.callout-content {
+  font-size: 0.95em;
+  line-height: 1.55;
+}
+
+/* --- Session / run surfaces: NEVER hide callout bodies from the DM --- */
+/* Apply via frontmatter: cssclasses: [session-surface] */
+.session-surface .callout.is-collapsed > .callout-content {
+  display: block !important;
+  height: auto !important;
+  overflow: visible !important;
+  opacity: 1 !important;
+  padding-top: var(--size-4-2);
+  padding-bottom: var(--size-4-3);
+}
+
+.session-surface .callout.is-collapsed > .callout-title .callout-fold {
+  display: none;
+}
+
+/* Lists denser for table scan */
+.session-surface .markdown-preview-view ul,
+.markdown-preview-view.session-surface ul {
+  margin-block: 0.35em;
+}
+
+.session-surface li {
+  margin-block: 0.15em;
+}
+
+/* Bold field labels (When / Pressure / Stakes) read as wiki definition rows */
+.session-surface p > strong:first-child {
+  color: var(--text-muted);
+  font-weight: 600;
+}
+
+/* --- Embeds & tables: wiki-clean --- */
+.markdown-preview-view table {
+  font-size: 0.9em;
+  width: 100%;
+}
+
+.markdown-preview-view th {
+  font-weight: 600;
+  text-align: left;
+  border-bottom: 2px solid var(--background-modifier-border);
+}
+
+.markdown-preview-view td,
+.markdown-preview-view th {
+  padding: 0.35em 0.6em;
+}
+
+/* Statblock plugin: keep readable width inside note */
+.statblock {
+  max-width: 72ch;
+}

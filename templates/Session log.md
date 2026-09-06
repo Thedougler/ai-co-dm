@@ -6,6 +6,7 @@ status: draft # draft | final
 date: 
 visibility: dm
 tags: [session]
+cssclasses: [session-surface]
 ---
 
 # Session {{session}} — {{title}}
@@ -35,3 +36,4 @@ Player-facing options only — not a planned path.
 - Lazy-DM prep lists
 - Unused scenes that never fired
 - Spoilers in Narration
+- Collapsed callouts (`[!…]-`) on this note
