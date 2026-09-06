@@ -13,6 +13,9 @@ tags: [index, item]
 - [[Ghost Plum]] · [[Quickeye Berry]] · [[Breathmelon]] · [[Whisper Fig]]
 - [[Skybladder]] · [[Rotheart]] · [[Terrace Yam]] · [[Terrace Citrus]]
 
+## Grung / toxin
+- [[Karath Gold-Seal Toxin]] · [[Crown Substitute Toxin]]
+
 ## Ingest additions
 - [[The Duchess]] · [[The Baroness]] · [[Delmar's Blunderbuss]] · [[Ragnetto]]
 - [[Dragonhide Belt]] · [[Flying Boots]] · [[The Snap]]
