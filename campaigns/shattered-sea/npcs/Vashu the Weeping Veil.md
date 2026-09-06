@@ -18,3 +18,6 @@ Introduce Vashu only when a scene needs an additional clan voice or witness. Do 
 
 ## Linked
 - [[Grung clans]] · [[Verdant Teeth]]
+
+## Combat
+- [[monsters/Vashu the Weeping Veil|Vashu the Weeping Veil]] — legacy fence-first fight sheet.

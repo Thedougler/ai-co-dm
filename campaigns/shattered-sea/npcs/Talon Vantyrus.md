@@ -51,3 +51,6 @@ Sweep routes and waystations for Fate Spinner carriers, close on Crissdalynn, an
 - [[Countless through the Maw seal]]
 - [[Long Sight Hunt]]
 - [[Rule of Two]]
+
+## Combat
+- [[monsters/Talon Vantyrus|Talon Vantyrus]] — legacy fence-first fight sheet.

@@ -11,7 +11,8 @@ tags: [item, document, sunkline, fathomrush]
 # Last Berth False Log
 
 > [!narration] Narration
-> A forged trial result lies beneath a loose floorboard at the Last Berth in [[Fathomrush]]. The paper is one discovery away from daylight.
+> Salt-worn paper records a mid-shelf trial result in a forged hand. The pages fold small enough to tuck under a loose floorboard. Ink and salt stains mark a working log that never belonged to a public desk.
+
 
 ## Look
 A hidden, forged mid-shelf trial log; salt-worn paper tucked under a loose floorboard at Petera Ngata's boardinghouse.

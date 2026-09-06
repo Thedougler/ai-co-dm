@@ -6,7 +6,17 @@ region: Crown Islands
 berth: [[Harwick]]
 visibility: dm
 tags: [vehicle, crown, hcs, ordinance]
+
+source: "legacy: /Users/nick/shattered-sea/wiki/shattered-sea/kill-the-shepherd/vehicle.hcs-ordinance.md"
 ---
+```statblock
+name: hcs ordinance
+size: Gargantuan
+type: vehicle
+ac: 14
+hp: 650
+```
+
 # HCS Ordinance
 > [!narration] Narration
 > _Visualizer: Crown ingest pending._

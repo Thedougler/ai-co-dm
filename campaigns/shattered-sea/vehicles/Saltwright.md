@@ -5,7 +5,17 @@ kind: ship
 region: unknown
 visibility: dm
 tags: [vehicle]
+
+source: "legacy: /Users/nick/shattered-sea/wiki/shattered-sea/boarding-of-the-surety/vehicle.saltwright.md"
 ---
+```statblock
+name: saltwright
+size: Gargantuan
+type: vehicle
+ac: 11
+hp: 70
+```
+
 # Saltwright
 > [!narration] Narration
 > Saltwright is a working hull with boarding scars on deck and rail. Lines and cargo holds sit under ordinary canvas. Salt and wet wood mark the ship you can walk from rail to hold.

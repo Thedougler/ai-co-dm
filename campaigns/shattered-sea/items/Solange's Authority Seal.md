@@ -11,7 +11,8 @@ tags: [item, magic, grung, authority]
 # Solange's Authority Seal
 
 > [!narration] Narration
-> The signet is heavier than gold. Its face is worn smooth except for one deep-cut symbol that refuses to dull.
+> A heavy signet sits denser than gold in the palm. Its face is worn smooth except for one deep-cut symbol that refuses to dull. The mark catches light when the ring turns.
+
 
 ## Look
 Heavy signet; worn face; one deep-cut, unfading authority mark.

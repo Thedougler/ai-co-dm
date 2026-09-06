@@ -28,3 +28,6 @@ Solange's red-caste identity remains part of the Calveno raid record; she is dea
 - [[Otar the Foul]]: created or unleashed the horror.
 - [[Mercatura]]: ritual site.
 - [[Grung clans]]: color connection only; do not invent a chain of command.
+
+## Combat
+- [[monsters/Solange Barret|Solange Barret]] — legacy fence-first fight sheet.

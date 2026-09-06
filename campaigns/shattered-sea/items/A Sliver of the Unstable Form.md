@@ -11,7 +11,8 @@ tags: [item, magic, regeneration, calveno]
 # A Sliver of the Unstable Form
 
 > [!narration] Narration
-> A fist-sized fragment of warm red hide rests in the hand. It should not have kept its shape. Along one edge, the wound may be closing—or merely pausing.
+> A fist-sized fragment of warm red hide rests in the hand. One edge still shows a wound that never quite settles. The hide keeps its shape and faint warmth.
+
 
 ## Look
 Fist-sized red hide, faintly warm, with a wound-edge that never quite settles.

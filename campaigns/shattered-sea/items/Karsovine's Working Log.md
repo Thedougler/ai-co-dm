@@ -11,7 +11,8 @@ tags: [item, document, voyvode, engineering]
 # Karsovine's Working Log
 
 > [!narration] Narration
-> These are the honest, incomplete trial notes of [[Branimir Karsovine]], [[Voyvode]]'s chief engineer at [[Fathomrush]]. The pages are dense with pressure readings, revisions, and the cost of attempts that did not work.
+> A working engineering notebook sits dense with pressure readings and crossed-out revisions. The pages are practical rather than polished. Incomplete trial notes fill the margins with the cost of attempts that did not work.
+
 
 ## Look
 Working engineering notebook; incomplete deep-pressure trial data; practical notes rather than polished claims.

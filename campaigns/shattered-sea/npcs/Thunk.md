@@ -20,3 +20,6 @@ The cannon debt is part of how [[Uncertainty]] left Calveno rebuilt; Thunk's pre
 Find out whether Thunk's credit is generosity, leverage, or a future bill.
 ## Linked
 [[Uncertainty]] · [[Calveno]]
+
+## Combat
+- [[monsters/Thunk|Thunk]] — legacy fence-first fight sheet.

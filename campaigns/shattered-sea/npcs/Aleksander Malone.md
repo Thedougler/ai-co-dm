@@ -26,3 +26,6 @@ Malone chose [[Blackrule]] as his chapterhouse. He leaves when heresy is confirm
 [[Tyr]] · [[Blackrule]] · [[Sarn's Landing]] · [[Dravosi Crown]] · [[Corbin Knighton]] · [[Grigori and the Crown hunt]]
 
 **Provenance:** Dump source 2026-09-05; legacy `/Users/nick/shattered-sea/wiki/shattered-sea/kill-the-shepherd/npc-aleksander-malone.md`, `/Users/nick/shattered-sea/wiki/shattered-sea/kill-the-shepherd/situation-the-hound-of-tyr.md`, `/Users/nick/shattered-sea/wiki/shattered-sea/kill-the-shepherd/location-blackrule.md`.
+
+## Combat
+- [[monsters/Aleksander Malone|Aleksander Malone]] — legacy fence-first fight sheet.

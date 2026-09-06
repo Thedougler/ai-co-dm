@@ -53,3 +53,6 @@ Hold back the next introduction and let the Passage protect its routes without t
 - [[campaigns/shattered-sea/story/00 Story so far]]
 - [[Saltwright]]
 - [[Passage]]
+
+## Combat
+- [[monsters/Beaumont Sel|Beaumont Sel]] — legacy fence-first fight sheet.

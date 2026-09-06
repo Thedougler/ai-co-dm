@@ -11,3 +11,8 @@ tags: [index, vehicle]
 ## Crown fleet
 - [[HCS Sovereign]] — first-rate show of force; Harwick-built and not a patrol craft.
 - [[HCS Ordinance]] — three-deck floating court commanded by [[Corbin Knighton]].
+
+## Legacy vehicle statblocks
+- [[Uncertainty]]
+- [[Vethka]]
+- [[Nimmik Vollask]]

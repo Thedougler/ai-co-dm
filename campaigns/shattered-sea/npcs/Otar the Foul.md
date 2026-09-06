@@ -26,3 +26,6 @@ None; the Otar/Mercatura thread is closed in the current story record.
 ## Appearances
 - [[campaigns/shattered-sea/story/00 Story so far]]
 - [[Mercatura and Otar]]
+
+## Combat
+- [[monsters/Otar the Foul|Otar the Foul]] — legacy fence-first fight sheet.

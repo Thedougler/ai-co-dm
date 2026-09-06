@@ -26,3 +26,6 @@ Caste color: **UNKNOWN**. Do not infer a color from the name or assign an office
 
 ## Next move / if ignored
 Remain an unresolved Warren lead; no off-screen move is assumed.
+
+## Combat
+- [[monsters/Bazzoth|Bazzoth]] — legacy fence-first fight sheet.

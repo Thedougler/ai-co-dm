@@ -6,7 +6,17 @@ region: Crown Islands
 berth: [[Harwick]]
 visibility: dm
 tags: [vehicle, crown, hcs, first-rate]
+
+source: "legacy: /Users/nick/shattered-sea/wiki/shattered-sea/vehicle.hcs-sovereign.md"
 ---
+```statblock
+name: hcs sovereign
+size: Gargantuan
+type: vehicle
+ac: 15
+hp: 700
+```
+
 # HCS Sovereign
 > [!narration] Narration
 > _Visualizer: Crown ingest pending._

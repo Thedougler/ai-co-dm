@@ -63,3 +63,6 @@ Do not reveal Osset = Vantyrus to Kyzil unless play earns it; do not give him kn
 
 > [!secret]- Provenance
 > Legacy context: /Users/nick/shattered-sea/wiki/shattered-sea/pc.crissdalynn-khinriss.md.
+
+## Combat
+- [[monsters/Master Kyzil|Master Kyzil]] — legacy fence-first fight sheet.

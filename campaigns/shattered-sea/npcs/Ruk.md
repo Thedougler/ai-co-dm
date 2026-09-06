@@ -14,3 +14,6 @@ Bodyguard named as part of Nona Black-Jaw’s guarded Calveno safehouse. Other d
 
 ## Linked
 - [[Nona Black-Jaw]]
+
+## Combat
+- [[monsters/Ruk|Ruk]] — legacy fence-first fight sheet.

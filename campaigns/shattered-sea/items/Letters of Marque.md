@@ -11,7 +11,8 @@ tags: [item, document, crown, privateer]
 # Letters of Marque
 
 > [!narration] Narration
-> Weathered Crown papers sit under a seal that still looks official at a glance. The parchment is soft at the folds, the edges salt-worn, and the wording vague enough to make a careful clerk uneasy.
+> Weathered Crown papers sit under a seal that still looks official at a glance. The parchment is soft at the folds and salt-worn at the edges. Vague commission wording fills the pages in a careful clerk's hand.
+
 
 ## Look
 Weathered parchment bearing the Dravosi Crown's seal; worn folds and salt-stained edges.

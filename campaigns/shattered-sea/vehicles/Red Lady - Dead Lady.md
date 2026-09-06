@@ -5,7 +5,17 @@ kind: ship
 region: Drowned Maw
 visibility: dm
 tags: [vehicle]
+
+source: "legacy: /Users/nick/shattered-sea/wiki/shattered-sea/vehicle.red-lady.md"
 ---
+```statblock
+name: red lady
+size: Gargantuan
+type: vehicle
+ac: 12
+hp: 230
+```
+
 # Red Lady / Dead Lady
 > [!narration] Narration
 > The Red Lady, also called the Dead Lady, is a raised wreck with a damaged hull, broken rigging, and a red wake. A boarding line can reach its raised deck from the water. Open lanes still run around the moving obstruction.

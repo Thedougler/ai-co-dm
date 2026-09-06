@@ -11,7 +11,8 @@ tags: [item, document, sunkline, fathomrush]
 # Forged Rig Trial Certificate
 
 > [!narration] Narration
-> The certificate bears [[Sunkline]]'s public confidence in ink: a claimed mid-shelf trial that the rig never passed. It is only one loose floorboard away from the hidden log that exposes it.
+> An official-looking certificate claims a successful deep-pressure trial for a Sunkline rig. The ink and seal look ready for investors and recruits. The paper is clean where a working log would show revisions.
+
 
 ## Look
 Official-looking forged certificate; claims a successful deep-pressure trial for a Sunkline rig.

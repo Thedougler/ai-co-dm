@@ -11,7 +11,8 @@ tags: [item, document, blackrule, unresolved]
 # Blackrule Judgment Scroll
 
 > [!narration] Narration
-> A judgment scroll waits among the loot at [[Blackrule]]. Its paper, seal, and writing have not yet been described.
+> A judgment scroll recovered at Blackrule waits among the loot. Its paper and seal have not yet been examined closely enough to describe.
+
 
 ## Look
 Undescribed. Do not invent its contents, seal, handwriting, or condition.

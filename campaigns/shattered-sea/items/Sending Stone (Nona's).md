@@ -11,7 +11,8 @@ tags: [item, magic, sending, nona]
 # Sending Stone (Nona's)
 
 > [!narration] Narration
-> A smooth grey river stone is warm to the touch and heavier than it looks. One face has been polished nearly flat by a thumb. Somewhere across the water, its twin rests with [[Nona Black-Jaw]].
+> A smooth grey river stone is warm to the touch and heavier than it looks. One face has been polished nearly flat by a thumb. It sits paired with a twin stone held elsewhere.
+
 
 ## Look
 Matched smooth stone; warm, thumb-polished face; twin held by [[Nona Black-Jaw]].

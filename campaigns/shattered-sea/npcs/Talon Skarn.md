@@ -37,3 +37,6 @@ Twin daggers, flight, Countless access, and the stoop dive technique.
 
 ## Next move / interrupt point
 Set stoop-dive tests along the approach, then enter the fight only when the crew physically reaches Midchain. Players can bait the ambush, protect the objective, or exploit the Rule of Two without assuming Skarn’s private motive.
+
+## Combat
+- [[monsters/Talon Skarn|Talon Skarn]] — legacy fence-first fight sheet.

@@ -22,3 +22,6 @@ The Draves branch is favoured by [[Aldric Drave]]. Geoffrey is therefore more th
 [[Aldous Draves]] · [[Aldric Drave]] · [[Barnaby Rook]] · [[Dravosi Crown]]
 
 **Provenance:** Dump source 2026-09-05; legacy `/Users/nick/shattered-sea/wiki/shattered-sea/boarding-of-the-surety/npc-geoffrey-draves.md`, `/Users/nick/shattered-sea/wiki/shattered-sea/boarding-of-the-surety/event-taking-of-the-surety.md`.
+
+## Combat
+- [[monsters/Geoffrey Draves|Geoffrey Draves]] — legacy fence-first fight sheet.
