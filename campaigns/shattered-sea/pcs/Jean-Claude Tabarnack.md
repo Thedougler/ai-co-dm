@@ -8,6 +8,9 @@ tags: [pc, grung, botukuri, twiceborn]
 ---
 # Jean-Claude Tabarnack
 
+## Art
+![[attachments/shattered-sea/banners/jean-claude-tabarnack-banner.webp]]
+
 > [!narration] Narration
 > A three-foot electric-blue Grung, scarred and hard to mistake, in a red beret and false moustache he calls Corto di Velo. Kin can read the hat as a Twiceborn censure sign and walk past rather than claim him.
 

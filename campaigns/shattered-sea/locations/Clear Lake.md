@@ -7,6 +7,9 @@ visibility: dm
 tags: [location, aruhe, lake, water]
 ---
 # Clear Lake
+
+## Art
+![[attachments/shattered-sea/places/aruhe-the-clear-lake.jpeg]]
 > [!narration] Narration
 > Clear Lake is inland water clear enough to drink from the bank, where the bottom shows near the wet stone and the blue goes dark farther out. Slow river mouths feed a basin so wide the far shore is a thin line, and cool air lifts off the surface. One channel keeps toward the Grove.
 

@@ -38,4 +38,23 @@ Prefer path under `attachments/` so agents and git stay unambiguous. Bare filena
 
 ## Index
 
-_Add wikilinks to notable assets as they land._
+## Shattered Sea legacy ingest
+
+Only obvious filename-to-note matches were copied from the legacy wiki. Files live under `attachments/shattered-sea/<category>/`.
+
+| Folder | Files |
+|---|---:|
+| `banners` | 26 |
+| `character-sheets` | 1 |
+| `creatures` | 3 |
+| `layouts` | 25 |
+| `misc` | 1 |
+| `npcs` | 3 |
+| `pcs` | 3 |
+| `places` | 7 |
+| `portraits` | 10 |
+| `reference` | 3 |
+| `vehicles` | 27 |
+| **Total** | **109** |
+
+Ambiguous battlemaps, dialogue, generic misc art, session scene-art, and unmatched layouts/character material remain in the legacy vault for visual verification.

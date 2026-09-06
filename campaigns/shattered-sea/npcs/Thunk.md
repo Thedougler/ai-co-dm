@@ -9,6 +9,9 @@ visibility: dm
 tags: [npc, calveno, cannon]
 ---
 # Thunk
+
+## Art
+![[attachments/shattered-sea/portraits/thunk-portrait.webp]]
 > [!narration] Narration
 
 ## Current situation

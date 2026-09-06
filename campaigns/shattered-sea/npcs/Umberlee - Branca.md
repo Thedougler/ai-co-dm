@@ -10,6 +10,9 @@ tags: [npc]
 ---
 # Umberlee / Branca
 
+## Art
+![[attachments/shattered-sea/portraits/branca-portrait.webp]]
+
 > [!narration] Narration
 > Branca is a Waveservant priestess whose voice carried one unmistakable command: “Bring me the pearl.”
 ## Hook

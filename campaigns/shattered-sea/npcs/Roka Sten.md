@@ -9,6 +9,9 @@ visibility: dm
 tags: [npc, sparhold, midchain, reptile]
 ---
 # Roka Sten
+
+## Art
+![[attachments/shattered-sea/npcs/roka-sten.jpg]]
 > [!narration] Narration
 
 ## Current situation

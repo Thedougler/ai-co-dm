@@ -7,6 +7,9 @@ visibility: dm
 tags: [location, aruhe, terraces, gardens]
 ---
 # Old Gardens
+
+## Art
+![[attachments/shattered-sea/places/aruhe-the-old-gardens.jpeg]]
 > [!narration] Narration
 > Old Gardens are miles of ancient terraces climbing inland from the landing, human-scale geometry under fruit and flowers grown past ordinary size. Weathered stone still holds the lines. In the afternoon the air turns sugar-sour along the terrace walk.
 

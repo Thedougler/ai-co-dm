@@ -10,6 +10,9 @@ tags: [npc]
 ---
 # Barnaby Rook
 
+## Art
+![[attachments/shattered-sea/portraits/barnaby-rook-portrait.webp]]
+
 > [!narration] Narration
 > _Visualizer: standalone portrait pending._
 >

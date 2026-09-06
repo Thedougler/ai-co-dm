@@ -8,6 +8,9 @@ tags: [pc, sentinel, schism]
 ---
 # Crissdalynn Khinriss
 
+## Art
+![[attachments/shattered-sea/banners/crissdalynn-khinriss-banner.webp]]
+
 > [!narration] Narration
 > A fourteen-year-old aarakocra with blue-black iridescent feathers, geometric leather, a chart satchel at her side, and talons ready for work. Wings and careful footing mark a pilgrim who insists she is a cartographer first.
 

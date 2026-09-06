@@ -7,6 +7,35 @@ visibility: dm
 tags: [location]
 ---
 # Uncertainty
+
+## Art
+![[attachments/shattered-sea/vehicles/uncertainty-banner.webp]]
+![[attachments/shattered-sea/vehicles/uncertainty-handout.webp]]
+![[attachments/shattered-sea/vehicles/uncertainty-layout-bilge-pump.webp]]
+![[attachments/shattered-sea/vehicles/uncertainty-layout-port-cannon.webp]]
+![[attachments/shattered-sea/vehicles/uncertainty-layout-powder-magazine.webp]]
+![[attachments/shattered-sea/vehicles/uncertainty-layout-central-ladder.webp]]
+![[attachments/shattered-sea/vehicles/uncertainty-layout-cargo-hatch.webp]]
+![[attachments/shattered-sea/vehicles/uncertainty-layout-medics-cabinet.webp]]
+![[attachments/shattered-sea/vehicles/uncertainty-layout-crew-quarters.webp]]
+![[attachments/shattered-sea/vehicles/uncertainty-layout-starboard-cannon.webp]]
+![[attachments/shattered-sea/vehicles/uncertainty-layout-galley.webp]]
+![[attachments/shattered-sea/vehicles/uncertainty-layout-chain-locker.webp]]
+![[attachments/shattered-sea/vehicles/uncertainty-layout-chart-table.webp]]
+![[attachments/shattered-sea/vehicles/uncertainty-layout-stern-swivel.webp]]
+![[attachments/shattered-sea/vehicles/uncertainty-layout-quarterdeck.webp]]
+![[attachments/shattered-sea/vehicles/uncertainty-layout-prisoner-brig.webp]]
+![[attachments/shattered-sea/vehicles/uncertainty-layout-captains-cabin.webp]]
+![[attachments/shattered-sea/vehicles/uncertainty-layout-aft-stair.webp]]
+![[attachments/shattered-sea/vehicles/uncertainty-layout-general-cargo.webp]]
+![[attachments/shattered-sea/vehicles/uncertainty-layout-companionway-hatch.webp]]
+![[attachments/shattered-sea/vehicles/uncertainty-layout-boarding-locker.webp]]
+![[attachments/shattered-sea/vehicles/uncertainty-layout-mainmast-zone.webp]]
+![[attachments/shattered-sea/vehicles/uncertainty-layout-provisions-store.webp]]
+![[attachments/shattered-sea/vehicles/uncertainty-layout-foremast-zone.webp]]
+![[attachments/shattered-sea/vehicles/uncertainty-layout-officers-berth.webp]]
+![[attachments/shattered-sea/vehicles/uncertainty-layout-inspection-storage.webp]]
+![[attachments/shattered-sea/vehicles/uncertainty-layout-foredeck.webp]]
 > [!narration] Narration
 > Uncertainty is a working vessel with hull, deck, cargo, rigging, and helm. A route board sits where watch and weather meet the next destination. Salt, tar, and wet wood hang over lines and cargo access.
 

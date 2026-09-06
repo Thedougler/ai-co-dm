@@ -9,6 +9,9 @@ visibility: dm
 tags: [npc, aruhe, blight, grung-origin]
 ---
 # The Blight
+
+## Art
+![[attachments/shattered-sea/creatures/blight.jpg]]
 > [!narration] Narration
 > A druidic presence joined to Aruhe, felt as rooted attention and answered boundaries rather than a face behind a court. Pressure gathers where the Grove restrains excess and where a claim on living things draws aligned local hunger — not a hive-mind chorus.
 

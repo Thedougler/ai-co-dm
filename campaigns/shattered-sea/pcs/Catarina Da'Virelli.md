@@ -8,6 +8,9 @@ tags: [pc]
 ---
 # Catarina Da'Virelli
 
+## Art
+![[attachments/shattered-sea/banners/catarina-davirelli-banner.webp]]
+
 > [!narration] Narration
 > A white-haired, frail human artificer who keeps referral-only Cat’s Curios. An owl named Strix and the eldritch cannon Ragnetto mark the workshop; she treats beggars and nobles to the same sentence and refuses to pretend a prototype works.
 

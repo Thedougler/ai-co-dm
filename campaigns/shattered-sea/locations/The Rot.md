@@ -7,6 +7,9 @@ visibility: dm
 tags: [location, aruhe, rot, decay]
 ---
 # The Rot
+
+## Art
+![[attachments/shattered-sea/places/aruhe-the-rot.jpeg]]
 > [!narration] Narration
 > The Rot is fallen growth, dark soil, and feeding traces on soft ground over harder volcanic channels. Wet decay and rich earth mark the air. Uneven feeding and insect movement run beside breaks toward root or stone.
 

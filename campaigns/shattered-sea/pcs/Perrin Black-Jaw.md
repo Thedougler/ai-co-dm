@@ -8,6 +8,9 @@ tags: [pc]
 ---
 # Perrin Black-Jaw
 
+## Art
+![[attachments/shattered-sea/banners/perrin-black-jaw-banner.webp]]
+
 > [!narration] Narration
 > A three-foot fancy-rat Rattkin who reads people, exits, and edges before he commits. Charm and leverage come first; the next step waits until the room has been counted.
 

@@ -60,6 +60,9 @@ reactions:
 
 # Deer-Stalker
 
+## Art
+![[attachments/shattered-sea/creatures/deer-stalker.png]]
+
 > [!narration] Narration
 > A deer taller than a man stands over a carcass, hips turned wrong and forelimbs ending in claws. Blood drips from its chin onto the kill while the forward eyes hold still without blinking.
 

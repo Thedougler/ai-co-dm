@@ -7,6 +7,9 @@ visibility: dm
 tags: [location, aruhe, grasslands, rivers]
 ---
 # Grasslands / River Valleys
+
+## Art
+![[attachments/shattered-sea/places/aruhe-the-grasslands.jpeg]]
 > [!narration] Narration
 > Open grassland breaks into river valleys whose clear water runs drinkable from bank and spring. Sun-warmed grass and wet banks run under open sky. Tracks follow the valleys toward lake and grove without leaving the grass far behind.
 

@@ -7,6 +7,9 @@ visibility: dm
 tags: [location, region, aruhe, hungry-isle]
 ---
 # Aruhe / Hungry Isle
+
+## Art
+![[attachments/shattered-sea/places/aruhe-2.jpeg]]
 > [!narration] Narration
 > Aruhe is green country-scale land in the eastern Midchain, roughly five hundred miles end to end and a hundred fifty across at the waist. From offshore it reads as canopy, basalt, terraces, grass, and rivers behind a jagged reef with no towns, fields, roads, or smoke. One boat gap opens the western edge; the heart sits hundreds of miles inland.
 

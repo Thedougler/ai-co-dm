@@ -7,6 +7,9 @@ visibility: dm
 tags: [location, aruhe, grove, death-bloom]
 ---
 # The Grove / Death Bloom
+
+## Art
+![[attachments/shattered-sea/places/aruhe-the-grove.jpeg]]
 > [!narration] Narration
 > The Grove is where one tree, graves, and earth meet, and the Death Bloom sits apart from the island's surrounding excess. Roots and soil bind living wood to the dead. Leaf and earth move in quiet while damp soil stays underfoot along the boundary.
 

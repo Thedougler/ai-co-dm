@@ -50,6 +50,9 @@ reactions:
 
 # Wolfrabbit
 
+## Art
+![[attachments/shattered-sea/creatures/wolfrabbit.png]]
+
 > [!narration] Narration
 > Wolf-sized rabbits with long ears and hunting-cat muscle under the fur. Dark striping crosses the coat; red eyes and blood-matted muzzles mark the pack. Four to six move the terrace brush at dawn and dusk.
 

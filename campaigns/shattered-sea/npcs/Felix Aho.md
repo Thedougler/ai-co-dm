@@ -10,6 +10,9 @@ tags: [npc, grung, green]
 ---
 # Felix Aho
 
+## Art
+![[attachments/shattered-sea/portraits/felix-aho-portrait.webp]]
+
 ## Hook
 A green Grung operative in [[Warren]] can provide or withhold a lead on the raiding fleet and the 314+ taken people.
 

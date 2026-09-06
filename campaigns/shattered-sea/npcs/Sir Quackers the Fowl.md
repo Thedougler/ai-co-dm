@@ -10,6 +10,9 @@ tags: [npc, ley-line]
 ---
 # Sir Quackers the Fowl
 
+## Art
+![[attachments/shattered-sea/reference/sir-quackers-the-fowl-reference.jpg]]
+
 > [!narration] Narration
 > A duck at Yssenmoor who has died and come back countless times over centuries. Once a wizard’s familiar, he stays on that ground and treats strange reactions as puzzles he does not yet solve.
 

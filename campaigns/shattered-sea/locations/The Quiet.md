@@ -7,6 +7,9 @@ visibility: dm
 tags: [location, aruhe, rainforest, quiet]
 ---
 # The Quiet
+
+## Art
+![[attachments/shattered-sea/places/aruhe-the-quiet.jpeg]]
 > [!narration] Narration
 > The Quiet is a rainforest belt where sound falls away because small life has been eaten out. Dense green holds little darting motion. Wet leaves and close air sit over soil barely disturbed by insects or birds.
 

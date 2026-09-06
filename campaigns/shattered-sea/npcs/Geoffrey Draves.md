@@ -10,6 +10,9 @@ tags: [npc]
 ---
 # Geoffrey Draves
 
+## Art
+![[attachments/shattered-sea/portraits/geoffrey-draves-portrait.webp]]
+
 > [!narration] Narration
 > _Visualizer: standalone portrait pending._
 >
