@@ -29,4 +29,10 @@ The Spinner provides partial [[Long Sight]]: remote sight and communication with
 - Kyzil arranged a partial Long Sight leak because of the danger and never explained it.
 
 ## Mechanics
-Mechanics: handoff to Homebrewer. No full Fate Spinner effects are defined here.
+The legacy material contains two unresolved mechanical writes. The table already uses the sunlight talkie (**Write A**); the Fate Spinner draft is an alternate (**Write B**). These are not the same item-function. Keep both on record and let Nick pick which write is live; do not silently collapse them.
+
+- **Attunement:** ambiguous. The earlier write says no attunement; the Fate Spinner draft says attunement, bonding only to someone who has risked their life to save another. Both remain unresolved.
+- **Write A — sunlight talkie (table use):** player-initiated spiritual connection with a person who has seen the Spinner spin and is friendly to the holder. Gates are **sunlight/open daylight**, **once per day**, and that **connection**. Spin to reach one across the ethereal; the table can use it to communicate with or dice an offscreen ally.
+- **Write B — Fate Spinner draft (alternate):** once per day, on someone the holder personally knows on the same plane, the holder sees and hears what that person does for up to 30 minutes. For every check or save the target rolls, the holder rolls and donates the result, granting automatic advantage. There is no two-way talk; the target never learns why; holder and target cannot share a place, and the holder cannot aid a fight they are in.
+
+The table already treats the object as a phone. Preserve that established talkie unless Nick chooses Write B as the live changed record.

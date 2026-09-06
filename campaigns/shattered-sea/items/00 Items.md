@@ -20,3 +20,8 @@ tags: [index, item]
 ## Umberlee ingest
 - [[Pearl of Souls]] — seven-instrument relic, Vel Orn theft, drowned-soul capture, and boundary signal.
 - [[Tithe of the Bitch Queen]] — item dials: `campaigns/shattered-sea/items/Tithe of the Bitch Queen.md`; Sunken Crown hoard and saltwater-return weather curse.
+
+## Legacy pull
+- [[Letters of Marque]] · [[A Sliver of the Unstable Form]] · [[Sending Stone (Nona's)]] · [[Solange's Authority Seal]]
+- [[Blackrule Judgment Scroll]] · [[Last Berth False Log]] · [[Forged Rig Trial Certificate]] · [[Karsovine's Working Log]]
+- [[Fate Spinner]] — mechanics updated with the unresolved Write A / Write B dials from the legacy Dreidel page.
