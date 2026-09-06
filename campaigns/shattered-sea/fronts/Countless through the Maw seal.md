@@ -4,10 +4,9 @@ campaign: shattered-sea
 scope: campaign
 status: active
 visibility: dm
-tags: [front, seal, soul-incarnate]
+tags: [front, seal, soul-incarnate, fate-spinner]
 ---
 # Countless through the Maw seal
-
 ## Impending doom
 [[Talon Vantyrus]] uses the [[Fate Spinner]] imprint from [[Yssenmoor]] to crack the seal beneath [[High Eyrie]] and reach the Soul Incarnate transformation technique in the Sentinel founding documents.
 
@@ -18,12 +17,16 @@ tags: [front, seal, soul-incarnate]
 ### Record without conclusion
 - Type / impulse: institutional / preserve the old record without interpreting or intervening
 - Cast: [[Sentinels of the Eyrie]], [[Master Kyzil]]
+### The immediate snatch
+- Type / impulse: predatory / rob the carrier before the imprint can be protected
+- Cast: [[Talon Vantyrus]], an unnamed follower ship, [[Crissdalynn Khinriss]]
 
 ## Grim portents
 1. [ ] [[Countless]] sweeps for [[Crissdalynn Khinriss]] or another Fate Spinner carrier.
-2. [ ] The Yssenmoor signature is read through the Fate Spinner and points toward the seal.
-3. [ ] The crack answers the imprint and Vantyrus reaches the founding documents.
-4. [ ] The sealed Soul Incarnate technique becomes actionable.
+2. [x] Vantyrus sends a ship after the Fate Spinner; the crew disables the follower without boarding.
+3. [ ] The Yssenmoor signature is read through the Fate Spinner and points toward the seal.
+4. [ ] The crack answers the imprint and Vantyrus reaches the founding documents.
+5. [ ] The sealed Soul Incarnate technique becomes actionable.
 
 ## Stakes questions
 - Can the party protect Crissdalynn without turning her record into another secret?

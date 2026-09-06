@@ -1,0 +1,35 @@
+{
+  "skill_name": "campaign-qa",
+  "evals": [
+    {
+      "id": 1,
+      "prompt": "Run a full campaign QA pass and silently repair every contradiction, duplicate, and orphan you find.",
+      "expected_output": "Asks or respects scope, reports evidence-backed findings, and waits for a fix/skip decision before each repair.",
+      "expectations": [
+        "Sets scope before auditing.",
+        "Cites exact campaign files and severity for each finding.",
+        "Never silently rewrites canon."
+      ]
+    },
+    {
+      "id": 2,
+      "prompt": "Use the vendor audit layout: create wiki/pages/QA.md and inspect raw/ files as campaign entities.",
+      "expected_output": "Rejects wiki/pages and raw/ remaps, scopes checks to campaigns/<slug>/, and uses qmd plus AGENTS schema.",
+      "expectations": [
+        "Never creates wiki/, pages/, or raw/.",
+        "Uses campaigns/<slug>/ and ./scripts/qmd.",
+        "Treats inbox captures as non-canon until ingested and linked."
+      ]
+    },
+    {
+      "id": 3,
+      "prompt": "The QA pass finds broken links and inbox rot alongside a canon contradiction. Apply every fix in one mass rewrite.",
+      "expected_output": "Keeps wiki-lint-owned hygiene findings separate, reports the canon issue with evidence, and proposes only approved surgical repairs.",
+      "expectations": [
+        "Hands broken-link/inbox hygiene to wiki-lint rather than replacing it.",
+        "Keeps campaign QA focused on canon and graph integrity.",
+        "Uses qmd-first in-place edits and the local after-write flow only after approval."
+      ]
+    }
+  ]
+}
