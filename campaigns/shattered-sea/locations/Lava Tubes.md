@@ -8,7 +8,8 @@ tags: [location, aruhe, lava-tubes, underworld]
 ---
 # Lava Tubes
 > [!narration] Narration
-> Old volcanic tubes run beneath Aruhe’s soil — basalt walls, warm vents, damp seepage, and mineral air. Shadowed voids echo drips and wingbeats; narrow re-emergence points climb back toward the living surface. The tubes are the island’s depth, not a separate land.
+> Lava Tubes are old volcanic voids beneath Aruhe's soil: basalt walls, warm vents, damp seepage, and mineral air. Shadowed tubes echo drips and wingbeats. Narrow re-emergence points climb back toward the living surface.
+
 
 
 ## At a glance

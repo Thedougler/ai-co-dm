@@ -8,7 +8,8 @@ tags: [location]
 ---
 # Shattered Sea
 > [!narration] Narration
-> A far-flung archipelago beyond the last charted coast. Mountain Crown harbours, reef-choked Midchain free ports, and a Central Strait of papers and wakes stand between permanent storm and a trench sailors treat as a boundary. Every harbour offers shelter, a bill, and a question about who sets the price.
+> The Shattered Sea is a roughly sixty-thousand-square-mile archipelago weeks beyond the last charted coast. Mountain Crown harbours, reef-choked Midchain free ports, and a Central Strait of papers and wakes stand between permanent storm and a trench at the chart edge. Salt, wet rope, and harbour smoke hang over working sails.
+
 
 ## At a glance
 A roughly 60,000-square-mile archipelago weeks beyond the last charted Faerûn coast; two island arcs and a shipping corridor make every crossing a negotiation. Feels remote, exposed, and politically unfinished.

@@ -8,7 +8,8 @@ tags: [location, region, outer-reach]
 ---
 # Outer Reach
 > [!narration] Narration
-> Cold water beyond the Maw with stone that has no known quarry and no reliable landmark. Currents reverse under the hull; stories stop mid-sentence. There is no resupply out here.
+> Outer Reach is cold water past the Maw with no resupply and no pilot-trusted landmark. Currents reverse under the hull. Deep salt and wet stone of unknown quarry mark the sea.
+
 
 
 ## At a glance

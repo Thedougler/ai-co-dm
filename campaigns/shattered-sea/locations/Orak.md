@@ -8,7 +8,8 @@ tags: [location, grung, verdant-teeth, orak, karst]
 ---
 # Orak
 > [!narration] Narration
-> Stone towers sit in cloud. Forest fills the clefts. White water falls toward drowned trees, and a sinkhole breathes air colder than the day.
+> Orak is high karst: stone towers in cloud, forest in the clefts, and sinkholes that breathe air colder than the day. White water falls toward drowned trees. The useful island is vertical; the holes are shafts, not doors.
+
 
 ## At a glance
 Orak is the high karst twin to Dreth: towers, sinkholes, clefts, and wet dark nests. It has no sanctioned landing. The useful island is vertical and the holes are shafts, not doors.

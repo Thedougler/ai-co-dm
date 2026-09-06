@@ -8,7 +8,8 @@ tags: [location]
 ---
 # Red Lady / Dead Lady
 > [!narration] Narration
-> The Red Lady, also called the Dead Lady, is a raised wreck with a damaged hull, broken rigging, and a red wake. A boarding line reaches its raised deck from the wake, while open water offers a route away from the moving obstruction on shared lanes.
+> The Red Lady, also called the Dead Lady, is a raised wreck with a damaged hull, broken rigging, and a red wake. A boarding line can reach its raised deck from the water. Open lanes still run around the moving obstruction.
+
 ## At a glance
 Umberlee’s Red Wake: a raised wreck taking boats on the crew’s lanes; feels like a trail that refuses to stay sunk.
 ## Five-sentence kernel

@@ -8,7 +8,8 @@ tags: [location, grung, beach, sorn, botukuri]
 ---
 # Sorn Guarded Beach
 > [!narration] Narration
-> Reef, pale sand, and lanes of crop standing in water. A long-hut sits on the sand. Purple watches the treeline while the forest takes the next row.
+> Sorn Guarded Beach is pale sand behind reef, with a long-hut on the sand and flood-pulse crop lanes standing in water. Purple watch holds the treeline. Salt and wet earth hang where the forest takes the next row.
+
 
 ## Function
 Sorn's held landing and Simone's post. The last hundred yards are recut as policy; the interior is not open.

@@ -8,7 +8,8 @@ tags: [location]
 ---
 # Shelfworks
 > [!narration] Narration
-> Antheri ruins on a salvage shelf above the Maw: broken structures, claim marks, winch lines, and water below. Stone shift and spray carry over salt, oil, and vibration. Every fragment is both evidence and leverage.
+> Shelfworks is Antheri ruins on a salvage shelf above the Maw: broken masonry, claim marks, winch lines, and dark water below. Stone shift and spray carry over salt, oil, and vibration. Crews work the unstable ground for components they can lift.
+
 
 ## At a glance
 Salvage shelf holding ruins of [[Antheri]] above the trench; feels lucrative, unstable, and older than the charts.

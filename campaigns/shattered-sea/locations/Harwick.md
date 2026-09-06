@@ -8,7 +8,8 @@ tags: [location, crown-islands, naval]
 ---
 # Harwick
 > [!narration] Narration
-> A Crown naval anchorage with Yard walls, market wharf, timber hills, and eastern marsh. Shipbuilding and army orders sound over pitch and salt; nobody swims off the wharf. Older stands stay uncut while licensed timber moves through the gates.
+> Harwick is the second-largest Crown Island, a southwest bight of Ship-of-the-Line anchorage, Yard walls, and a market wharf under timber hills. Pitch, salt, and marsh hang over shipbuilding and army orders. Nobody swims off the wharf; licensed timber moves while older stands stay uncut.
+
 
 
 ## At a glance
