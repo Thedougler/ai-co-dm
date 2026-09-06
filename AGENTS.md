@@ -48,7 +48,7 @@ Obsidian LLM wiki for Nick's home D&D. **Markdown is the product.**
 
 **Always-on:** this table + `obsidian-markdown` for every wiki `.md` write. **On match:** that skill’s `SKILL.md` only. **On demand:** `references/` when the skill says.
 
-`session-wrapup` / `campaign-qa`: AntTheLimey/gm-apprentice (CC-BY-SA). `wiki-triage` / `llm-wiki-eval`: po4yka-llm-wiki-skills (MIT). See each skill’s attribution block.
+`session-wrapup` / `campaign-qa`: AntTheLimey/gm-apprentice (CC-BY-SA). `wiki-triage` / `llm-wiki-eval`: po4yka-llm-wiki-skills (MIT). `wiki-crystallize` / `wiki-integrate`: vanillaflava (MIT). See each skill’s attribution block.
 
 | Job | Skill |
 |---|---|
@@ -60,7 +60,9 @@ Obsidian LLM wiki for Nick's home D&D. **Markdown is the product.**
 | Ingest source → typed notes | `wiki-ingest` → **Ingest** |
 | Wiki health / orphans / hot drift | `wiki-lint` → **Linter** |
 | Citation / claim audit (one note) | `wiki-audit` → **Linter** (Organizer light use) |
+| Durable capture / session synthesis | `wiki-crystallize` → **Ingest** / **Co-DM** / **Session-Planner** |
 | Merge / split dupes + fix links/indexes | `wiki-merge` → **Organizer** |
+| Existing-note graph / index integration | `wiki-integrate` → **Organizer** |
 | Stale / contradiction sweep | `wiki-update` → **Organizer** / **Linter** (confirm-before-write) |
 | Answer from vault (qmd; optional file-back) | `wiki-query` → **Co-DM** / **Organizer** |
 | Player-facing prose / `[!narration]` | `theatre-of-the-mind` → **Visualizer** |
