@@ -7,6 +7,7 @@ Checks (FAIL unless noted):
   dc_in_narration      — DC/numbers leak inside [!narration] callout
   forbidden_tree       — vault has wiki/ · concepts/ · sources/ dirs (scaffold anti-pattern)
   broken_image_link    — [[attachments/…]] / ![[…]] image target missing on disk
+  literal_backslash_n  — prose contains literal `\n` instead of a real newline (outside fences/YAML)
 
 Also prints a reminder to run ./scripts/lint-statblocks for monster fences.
 
@@ -58,6 +59,7 @@ TITLE_OR_DATE = re.compile(r"^(title|date|created|updated):\s*", re.M | re.I)
 
 # Strip fenced code so examples don't false-positive
 FENCE = re.compile(r"```[\s\S]*?```")
+LITERAL_N = re.compile(r"\\n")
 
 NARRATION_BLOCK = re.compile(
     r">\s*\[!narration\][^\n]*\n(?:>(?:[^\n]*)\n)*",
@@ -194,6 +196,25 @@ def check_file(path: Path) -> list[dict]:
                     "detail": f"missing media target: {target} (expected under attachments/)",
                 }
             )
+
+    # Literal \n in body (not YAML frontmatter, not fenced code/statblocks).
+    # Skip .agents/ process-pack docs (they document escape sequences).
+    if rel.startswith(".agents/"):
+        return findings
+    scanned = text
+    fm_match = FRONTMATTER.match(scanned)
+    if fm_match:
+        scanned = (" " * len(fm_match.group(0))) + scanned[len(fm_match.group(0)) :]
+    scanned = FENCE.sub(lambda m: " " * len(m.group(0)), scanned)
+    for m in LITERAL_N.finditer(scanned):
+        line = text.count("\n", 0, m.start()) + 1
+        findings.append(
+            {
+                "path": rel,
+                "status": "literal_backslash_n",
+                "detail": f"line {line}: literal \\n in prose — use a real newline (Wiki-UI); fences/YAML ok",
+            }
+        )
 
     return findings
 
