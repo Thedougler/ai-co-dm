@@ -61,7 +61,7 @@ reactions:
 # Deer-Stalker
 
 > [!narration] Narration
-> A deer stands over a carcass taller than a man, hips turned wrong, forelimbs ending in claws. It crashes into the brush too loud, then minutes later the same shape is already in the trees, chin dripping, eyes forward, not blinking.
+
 
 
 ## At the table

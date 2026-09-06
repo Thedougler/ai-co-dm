@@ -40,6 +40,44 @@ If silhouette, translucent mantle, and braced arms already carry the picture, cu
 
 
 
+
+## Cold monster portrait vs resolved tactic film
+
+**Weak: Stoop resolved in Appearance**
+
+> Wings pin tight to the body, then a whistling dive line cuts straight down from high altitude. At the bottom the striker tears a held item free and climbs away before the scramble settles.
+
+**Strong:** high-altitude diver body/silhouette + ordinary flight habit, or telegraph only (wings pin, whistling line starts) then stop. Steal stays At the table.
+
+**Weak: Deer-Stalker time-skip film**
+
+> It crashes into the brush too loud, then minutes later the same shape is already in the trees, chin dripping, eyes forward, not blinking.
+
+**Strong:** wrong-hipped deer-over-carcass body + claws + chin/eyes tells. Night return / Borrowed Voice stay At the table.
+
+**Weak: Grubnade detonation resolved**
+
+> When the branch moves it stops, pulls tight… Then it bursts, and scorched finger-joint young wriggle across the leaves twenty feet away.
+
+**Strong:** cream-green thumb-long caterpillar on a flower + swell/hiss tell. Burst stays mechanic/encounter.
+
+
+## Technique tell vs resolved strike
+
+**Weak: Long Reach resolved as terrace hit**
+
+> A Sentinel strike that lands past ordinary wingspan. Breath and stance lock to the peak of a gust on a wind-open terrace. The timing is exact; the blow answers that measure.
+
+**Strong:** breath/stance/wing set as training tell on a wind-open terrace; stop before the blow lands. Reach effect stays Fiction/Mechanics.
+
+## Named item vs dedication closer
+
+**Weak: The Duchess ends on biography**
+
+> Delmar Fisk's named musket, The Duchess. Long barrel and wooden stock make a shoulder firearm for one shooter. He named it for Serafina Windfall Fisk.
+
+**Strong:** long-barreled naval musket; polished wood and brass; engraved plate near the lock reads The Duchess; carried as if still on a flagship rail. Dedication stays Story hooks.
+
 ## Place kernel vs geography (location `[!narration]`)
 
 See also the lake Weak/Strong pair in [places.md](places.md).

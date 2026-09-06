@@ -46,16 +46,19 @@ Kitchen-table body first — swollen clear body, not swollen lobed mantle. Save
 one striking fact for the first movement. Keep visible manifestation,
 permissible inference, and mechanic/secret separate. Exact aura radius, DC,
 condition, HP, or hidden ability belongs outside first-look prose unless it is
-known or earned. **Hard stop — reaction point:** on a first look, stop *before*
-resolved contact (Alexandrian reaction point / freeze-frame). Max danger is a
-visible telegraph — taut hanging line over the trail, coiling posture, reaching
-limb not yet closed — with the creature as grammatical subject. Fail if the
-draft finishes Hookline/Reel, puts a hook through a boot, lifts feet off the
-ground, or narrates PC cognition. A first look may take the Angry GM rat floor
-— several small visible facts hung on one body across the scene — not five facts
-dumped in the establishing shot, and not five short sentences that isolate each
-fact. Resolve contact only after a declared action or in a later combat-update
-branch — never inside cold `[!narration]` or the establishing shot.
+known or earned. **Hard stop: reaction point:** on a first look or cold monster
+`[!narration]`, stop *before* resolved contact or a completed signature move
+(Alexandrian reaction point / freeze-frame; Angry GM telegraph = windup, not
+full attack). Max danger is a visible telegraph (taut hanging line, wings pin,
+whistling dive line starts, swell/hiss) with the creature as grammatical
+subject. Fail if the draft finishes Hookline/Reel, Stoop steal+climb, Grubnade
+burst, puts a hook through a boot, lifts feet off the ground, time-skips
+("minutes later the same shape…"), or narrates PC cognition. A first look may
+take the Angry GM rat floor: several small visible facts hung on one body
+across the scene, not five facts dumped in the establishing shot, and not five
+short sentences that isolate each fact. Resolve contact only after a declared
+action or in a later combat-update branch, never inside cold `[!narration]` or
+the establishing shot.
 
 If time or habitat leads while the requested creature remains a generic noun,
 run the thin gate again: move the body to the grammatical subject and cut any

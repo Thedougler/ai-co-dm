@@ -1,5 +1,4 @@
 {
-  "skill_name": "theatre-of-the-mind",
   "evals": [
     {
       "id": 1,
@@ -188,7 +187,7 @@
     {
       "id": 19,
       "prompt": "Write a `[!narration]` standalone player portrait for Talon Vantyrus from these public facts only: snowy-owl aarakocra; feathers bled past white with age and altitude; faint frost tang; cold air clings close; never raises his voice; never repeats a demand twice. Do not invent a scene.",
-      "expected_output": "A short paragraph of connected flowing prose covering silhouette, defining traits, sensory fact, and characteristic behavior \u2014 not a single dry identifying sentence and not purple mood padding.",
+      "expected_output": "A short paragraph of connected flowing prose covering silhouette, defining traits, sensory fact, and characteristic behavior — not a single dry identifying sentence and not purple mood padding.",
       "expectations": [
         "Uses connected flowing prose (multiple sentences or one rich multi-clause spoken block), not a telegram stub.",
         "After one hearing a player could sketch/distinguish him (owl silhouette/scale + frost/cold + voice habit).",
@@ -197,8 +196,8 @@
     },
     {
       "id": 20,
-      "prompt": "Improve this `[!narration]` without inventing canon: 'Delmar Fisk\u2019s named musket, carried with admiral confidence and the history of a marriage. He named it for Serafina.' Parent also establishes: long-barreled naval musket; polished wood and brass fittings; engraved plate near the lock reads The Duchess; carried as if it were still on a flagship rail.",
-      "expected_output": "Expands into complete flowing portrait using only supplied facts; joins appearance, fittings, nameplate, and carrying manner \u2014 not more adjectives on the stub.",
+      "prompt": "Improve this `[!narration]` without inventing canon: 'Delmar Fisk’s named musket, carried with admiral confidence and the history of a marriage. He named it for Serafina.' Parent also establishes: long-barreled naval musket; polished wood and brass fittings; engraved plate near the lock reads The Duchess; carried as if it were still on a flagship rail.",
+      "expected_output": "Expands into complete flowing portrait using only supplied facts; joins appearance, fittings, nameplate, and carrying manner — not more adjectives on the stub.",
       "expectations": [
         "Result is fuller drawable prose than the two-sentence stub, covering weapon form and nameplate.",
         "Does not invent combat bonuses, scene, or Serafina biography beyond the name.",
@@ -208,7 +207,7 @@
     {
       "id": 21,
       "prompt": "Write a combat hit update only: the PC's cutlass connects with a Grung raider's shoulder and green blood hits the deck.",
-      "expected_output": "One tight line for the hit surface \u2014 short is correct here; do not inflate into a portrait paragraph.",
+      "expected_output": "One tight line for the hit surface — short is correct here; do not inflate into a portrait paragraph.",
       "expectations": [
         "Stays a short hit/update line.",
         "Names owner, contact, and visible consequence.",
@@ -218,7 +217,7 @@
     {
       "id": 22,
       "prompt": "Using campaigns/shattered-sea/monsters/aruhe/Great Crown Squid.md (or stripped parent facts: gargantuan canopy squid; translucent/glass-pale mantle; eight arms; hanging wet hooklines; plate eyes; Hookline/Reel tactics and 'Open with surveillance' in DM notes), write the page's `[!narration]` player block. No party position, initiative, or declared action is supplied.",
-      "expected_output": "Standalone cold portrait (silhouette/scale/arms/lines/eyes/ordinary canopy behavior) in flowing prose; tactics stay out. If wrongly situated, stop at visible telegraph only (e.g. hanging line snaps taut over trail) with the creature as grammatical subject \u2014 never resolved contact.",
+      "expected_output": "Standalone cold portrait (silhouette/scale/arms/lines/eyes/ordinary canopy behavior) in flowing prose; tactics stay out. If wrongly situated, stop at visible telegraph only (e.g. hanging line snaps taut over trail) with the creature as grammatical subject — never resolved contact.",
       "expectations": [
         "Fails if ankle, boot, feet leave the ground, already aloft/hauled, 'anyone understands'/PC feelings, resolved Hookline/Reel contact, or an invented trailing PC.",
         "Passes as cold portrait covering drawable squid body + ordinary canopy behavior without executing tactics.",
@@ -241,7 +240,7 @@
       "expected_output": "~Three connected sentences of drawable visual detail (silhouette/scale, material/wear) plus allowed physical behavior; cover story and effects out; no mood-by-negation.",
       "expectations": [
         "Fails rather than glitter / mood-by-negation; like a meditation focus as description; Long Sight/visions in Appearance.",
-        "Fails if only \u22642 dry sentences with no extra visual material/wear/silhouette (under-written stub).",
+        "Fails if only ≤2 dry sentences with no extra visual material/wear/silhouette (under-written stub).",
         "Passes with ~three connected sentences of drawable visual + physical behavior; cover/effects still out."
       ]
     },
@@ -253,6 +252,56 @@
         "Fails rest/direction/unclaimed/kernel; em dash; river cuts; invented mystery closer (shadow turns then still).",
         "Passes shore/depth/river mouths/Grove channel/cool air as stable geography; stops without staged encounter drama.",
         "Keeps Hunger/names and underwater mystery beats out of Appearance unless table state supplies motion."
+      ]
+    },
+    {
+      "id": 26,
+      "prompt": "Using Stoop.md parent (Talon’s high-altitude dive that tears a held item free and climbs away; tests then Midchain fight), write monster-page `[!narration]` with no party/table state.",
+      "expected_output": "Cold body/silhouette of the diver and ordinary flight, or telegraph (wings pin / whistling line starts) then stop. No completed steal/climb/scramble.",
+      "expectations": [
+        "Fails resolved Stoop (item tear + climb) or invented scramble.",
+        "Passes cold portrait or telegraph-only stop before contact.",
+        "Keeps signature move resolution in At the table / mechanics."
+      ]
+    },
+    {
+      "id": 27,
+      "prompt": "Using Deer-Stalker.md parent (deer-taller carcass, wrong hips, clawed forelimbs; interrupt meal → loud bolt ruse → minutes later in trees; Borrowed Voice at night), write cold `[!narration]` with no table state.",
+      "expected_output": "Wrong-hipped deer-over-carcass body + ordinary tells. No time-skip tactic film.",
+      "expectations": [
+        "Fails `minutes later` / meal→bolt→trees cutscene in Appearance.",
+        "Passes cold body portrait with claws/hips/carcass tells.",
+        "Keeps night return / Borrowed Voice in At the table."
+      ]
+    },
+    {
+      "id": 28,
+      "prompt": "Using Grubnade.md parent (cream-green thumb-long caterpillar on flower; disturb → swell/hiss → detonation with finger-joint young), write cold `[!narration]` with no table state.",
+      "expected_output": "Caterpillar on flower + swell/hiss tell max. No resolved burst.",
+      "expectations": [
+        "Fails `then it bursts` / young wriggling away in Appearance.",
+        "Passes body + ordinary chew + telegraph swell/hiss only.",
+        "Keeps detonation in mechanic/encounter."
+      ]
+    },
+    {
+      "id": 29,
+      "prompt": "Using Long Reach.md parent (kind: technique; Sentinel apprentice martial form; exact breath/stance in peak wind on cantilevered terraces; fiction: strike beyond ordinary wingspan; no full mechanics), write item/technique-page `[!narration]` with no fight table state.",
+      "expected_output": "Tell portrait: breath/stance/wing set + wind-open terrace as stable training place. No completed strike.",
+      "expectations": [
+        "Fails `lands past` / `the blow answers` / staged hit resolution.",
+        "Passes tell cues + terrace as place character without inventing a held object.",
+        "Keeps reach effect in Fiction/Mechanics."
+      ]
+    },
+    {
+      "id": 30,
+      "prompt": "Using The Duchess.md parent (Delmar's named naval musket; long barrel; polished wood and brass; engraved plate near the lock reads The Duchess; carried with admiral confidence; named for Serafina — dedication is Story hooks), write cold item `[!narration]`. No identified-properties request.",
+      "expected_output": "Object portrait: barrel/stock/brass/engraved nameplate + ordinary carry/hold behavior. No biography closer.",
+      "expectations": [
+        "Fails `He named it for Serafina` / marriage dedication in Appearance.",
+        "Passes drawable musket nouns (~3 connected sentences, Fate Spinner bar).",
+        "Keeps dedication in Story hooks."
       ]
     }
   ]

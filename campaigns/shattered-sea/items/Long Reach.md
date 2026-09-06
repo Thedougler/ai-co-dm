@@ -11,7 +11,7 @@ tags: [item, sentinel, technique]
 # Long Reach
 
 > [!narration] Narration
-> A Sentinel strike that lands past ordinary wingspan. Breath and stance lock to the peak of a gust on a wind-open terrace. The timing is exact; the blow answers that measure.
+
 
 
 

@@ -11,7 +11,7 @@ tags: [item, delmar, firearm]
 # The Duchess
 
 > [!narration] Narration
-> Delmar Fisk's named musket, The Duchess. Long barrel and wooden stock make a shoulder firearm for one shooter. He named it for Serafina Windfall Fisk.
+
 
 
 

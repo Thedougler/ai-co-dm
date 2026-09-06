@@ -85,6 +85,24 @@ function” means a drawable use of a landmark (drink from clear water, walk a
 shore channel), never thematic Function (“offer rest and direction”). Design
 kernels stay upstream (`place-design`); TotM renders geography.
 
+
+**Hard mode gate for technique notes (`kind: technique` or technique tags):** if
+the request is filling or rewriting `[!narration]` on a technique note and no
+current table fight state is supplied, the mode is a **tell portrait** of the
+practiced form — visible body cues (breath, stance, wing set), and training
+setting only as stable place character (wind-open terrace). It is **not** an
+object inventory portrait and **not** a resolved strike film. Fail if the draft
+completes a hit ("lands past ordinary wingspan", "the blow answers"), stages a
+mid-fight terrace duel, or invents a held object for a non-object technique.
+Keep mechanical package / reach effect in Fiction / Mechanics / At the table.
+
+**Hard mode gate for named-item cold Appearance:** cold item `[!narration]` stays
+on the object — silhouette/scale, material/parts/wear, one ordinary physical or
+sensory behavior. Fail if the closer is **biography or dedication** ("He named
+it for Serafina…", marriage history, who it honors) unless that text is a
+**visible mark on the object** (engraved plate reading the name). Owner story
+and dedication stay in Story hooks / Look / DM sections.
+
 - **Situated moment:** write from the supplied table state and viewpoint. Route
   by surface below, preserve the current environment and motion, and stop at
   that surface's natural player opening. On a creature first look, the opening

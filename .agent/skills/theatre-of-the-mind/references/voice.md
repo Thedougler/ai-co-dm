@@ -204,6 +204,11 @@ evidence.
 | cover-story or function label stands in for physical behavior (`like a meditation focus`) | drawable verb of what the object does; diegetic cover names only when Identified/granted |
 | cold item portrait lets the object "answer" contact with magic tone | Appearance: sensory/physical only; effects → Identified Properties / DM |
 | monster `[!narration]` finishes Hookline/Reel, grab, bite, or haul | cold portrait of body/behavior, or situated telegraph only (e.g. hanging line snaps taut); no ankle/boot/haul |
+| cold monster `[!narration]` resolves signature move (Stoop steal+climb, full dive-grab) | body/scale/parts + ordinary habit, or telegraph only then stop |
+| cold monster time-skip tactic (`then minutes later`) | cold body portrait only; tactic stays At the table |
+| cold monster resolves detonation (`then it bursts`) | swell/hiss tell max; burst is mechanic/encounter |
+| technique `[!narration]` resolves a strike ("lands past", "the blow answers") or invents a fight scene | tell portrait only: breath/stance/wing set + stable training place; effects stay Fiction/Mechanics |
+| named-item Appearance closes on biography/dedication ("He named it for…") | object nouns only; engraved nameplate OK if visible; dedication → Story hooks |
 | first look narrates `anyone understands` / PC feelings / freeze-frame past contact | cut cognition; stop before resolved contact |
 | a body part arrives before its owner | name the body, familiar size, and silhouette first |
 | a handle arrives before its trait | show the stable trait while the body moves; let players name or reuse it afterward |

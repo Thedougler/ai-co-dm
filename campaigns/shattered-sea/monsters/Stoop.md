@@ -10,7 +10,7 @@ tags: [monster, technique, countless]
 # Stoop
 
 > [!narration] Narration
-> Wings pin tight to the body, then a whistling dive line cuts straight down from high altitude. At the bottom the striker tears a held item free and climbs away before the scramble settles.
+
 
 
 
