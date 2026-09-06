@@ -83,6 +83,8 @@ Obsidian LLM wiki for Nick's home D&D. **Markdown is the product.**
 | Monsters | `homebrew-monsters-5e` → **Monster-Brewer** |
 | Magic items | `dnd-5e-magic-item-design` → **Item-Brewer** |
 
+**Brew routing:** **Homebrewer** is the default general-purpose brew bot. Dedicated brew specialists (pattern: Monster-Brewer, Item-Brewer) are spun **lazily** when a content type is frequent/important — not pre-created. Until then, that type stays on Homebrewer. New brew specialist → **Team-Leader** routes design to **dr eggbot**, then **Ops** wires AGENTS.
+
 ### Matt Pocock process pack (`.agents/skills/`)
 
 **Rule:** if a skill below matches the wake, load it. Prefer the pack over ad-hoc process. Router: `ask-matt`.
@@ -148,7 +150,7 @@ Rules:
 | **Skill-Creator** | `.agent/skills/`; on Evaluator fail: implement TotM fix, **delete failed `[!narration]`**, ping **Visualizer** to rewrite, Evaluator re-audits |
 | **Monster-Brewer** | Homebrew monsters (research/design/reskin/balance/audit) via `homebrew-monsters-5e`; Fantasy Statblocks when filing |
 | **Item-Brewer** | Magic items via `dnd-5e-magic-item-design` |
-| **Homebrewer** | Other mechanical homebrew — subclasses, spells, feats, backgrounds, vehicle math (`vehicle-design`); router: monsters → Monster-Brewer, items → Item-Brewer |
+| **Homebrewer** | Default general-purpose brew bot — subclasses, spells, feats, backgrounds, vehicle math (`vehicle-design`), and any brew type without a specialist yet; router: monsters → **Monster-Brewer**, items → **Item-Brewer** (lazy specialists; do not pre-spin) |
 | **Researcher** | Prior art (web); not vault canon |
 | **Organizer** | Indexes/MOCs, structure doctrine, hot refresh, light inbox triage; owns `campaigns/<campaign>/vehicles/` layout |
 | **Ingest** | `wiki-ingest` — inbox/URL/paste → typed linked notes; prior context via `-c legacy-ss` (read-only) |
