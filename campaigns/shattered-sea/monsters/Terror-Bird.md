@@ -46,8 +46,11 @@ actions:
 
 # Terror-Bird
 
+## Art
+![[attachments/shattered-sea/creatures/terror-bird-of-aruhe.jpg|Terror-Bird of Aruhe]]
+
 > [!narration] Narration
-> Taller than a horse, black, and mossed over, a still Terror-Bird reads as a trunk with a yellow eye. It does not fly. The ground shakes before its one committed charge along a grass cut or shaded rim.
+> Taller than a horse, a black Terror-Bird tears through the jungle with ragged wings spread for balance. Moss clings to its feathers, but a yellow eye, serrated beak, and hooked talons make the shape unmistakable. Dust jumps beneath each stride as it bears down the path; the ground shakes before it reaches you.
 
 
 ## At the table
