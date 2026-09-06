@@ -26,6 +26,15 @@ One paragraph: what is already in motion.
 > _Loaded tactical first look: field, forces, motion. Theatre of the mind (Place/Creature). Three tells for any conclusion the table must reach. End on the table question._
 >
 
+> [!secret] DM truth
+> Opposition want, one sentence.
+
+### Zones
+
+| Band | What is there | Moves / cover |
+| --- | --- | --- |
+|  |  |  |
+
 ## Be ready for
 
 | Intent | Approach | DC | Success | Partial | Failure |
@@ -42,12 +51,6 @@ One paragraph: what is already in motion.
 > | 3 |  |
 > | 4 |  |
 
-### Zones
-
-| Band | What is there | Moves / cover |
-| --- | --- | --- |
-|  |  |  |
-
 ### Round script
 
 - **R1:**
@@ -56,20 +59,15 @@ One paragraph: what is already in motion.
 - **Bloodied:**
 - **Cover reached:**
 - **Minions:**
+- **Scene dials:** easy/hard, cover the opposition will not enter, grab rules in use this slice.
 
 ### Roster
 
 ![[Monster#Statblock]]
 
-- **Scene dials:** easy/hard, cover the opposition will not enter, grab rules in use this slice.
-- **Count:**
-
-> [!secret] DM truth
-> Opposition want, one sentence.
-
-> [!success] Landing
-> Next scene’s opening state: bodies, wet, separated, hidden, sight lines, where opposition goes.
-^landing
+> [!narration] Exit
+> What the table hears when this slice ends. Not a DM checklist of facts already in Glance.
+^exit
 
 ## L2 · Deep
 
@@ -94,4 +92,5 @@ Session links.
 - Complete grammatical sentences on live cards.
 - No collapsed callouts on session/run surfaces.
 - Embed `![[Name#Statblock]]`; do not copy AC/HP onto this card.
-- One cockpit. Do not add a second Run-now copy of Glance.
+- One cockpit in play order. Do not add a second Run-now copy of Glance.
+- Exit is narration, not a landing checklist.

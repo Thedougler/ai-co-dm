@@ -4,7 +4,7 @@
     {
       "id": 1,
       "prompt": "Turn an existing four-hour session prep with a strong start, two routes, three encounter owners, a visible faction clock, and an off-map fallback into a DM-only run guide. Do not invent canon or write player-facing narration.",
-      "expected_output": "A cockpit run guide opens with Glance (stakes, strong start, danger, Silence, situation magnets, parachute). Each live beat is one linear cockpit: Now, narration that ends on the table question, Be ready for, threat clock, zones, round script, roster embeds, landing payload. Combat owners are heading-embedded, not copied and not bare links.",
+      "expected_output": "A cockpit run guide opens with Glance. Each live beat is one downward pass: Now, opening narration, DM truth, zones, Be ready for, threat clock, round script, roster embeds, exit narration. Combat owners are heading-embedded, not copied and not bare links.",
       "expectations": [
         "Provides Glance with strong start, stakes, Silence, situation magnets, and parachute.",
         "Uses world-state triggers rather than a mandatory player-choice sequence.",
@@ -25,12 +25,12 @@
     {
       "id": 3,
       "prompt": "Structural fixture: given owner links for a strong start, three pressure states, two secrets, one revelation, location and NPC one-liners, a linked combat pack, a thin clock, and treasure, produce a DM-only run guide.",
-      "expected_output": "Passes when the output is one primary run file of linear cockpits: Glance, Now, narration callout that ends on the table question, Be ready for table, threat clock, zones, round script, ![[Monster#Statblock]] embeds, landing payload. Dual header plus Run-now fails. Separate Ask callout fails. Scene menu as prep-management fails. Bare [[Monster]] with no embed fails. Copied AC/HP tables fail.",
+      "expected_output": "Passes when the output is one primary run file of linear cockpits in play order: Glance, Now, opening narration, DM truth, zones, Be ready for, clock, round script, embeds, exit narration. Dual header plus Run-now fails. Separate Ask callout fails. DM landing checklist fails. Scene menu as prep-management fails. Bare [[Monster]] with no embed fails. Copied AC/HP tables fail.",
       "expectations": [
         "Uses cockpit order, not Now/Say/Ask header followed by a second Run now block.",
         "Keeps the strong start runnable alone and uses bullets and tables with no copied wiki essays.",
         "Embeds combat owners with ![[Name#Statblock]]; does not copy stat numbers; does not require a Scene menu on a single-beat card.",
-        "Provides a landing payload and next-card trigger plus off-ramp after recompute."
+        "Closes each slice with exit narration the table can hear, not a DM landing checklist."
       ]
     },
     {
@@ -45,13 +45,13 @@
     },
     {
       "id": 5,
-      "prompt": "Render the opening 30-minute aerial hunt as the sole-authority run card. Owners exist for Bloodhawk and Great Crown Squid. The crew can fly; that is ordinary movement, not a plot item. Independent scorers require no page-flip, no dual framework, a threat clock, zones, three player-facing tells, a Be ready for table, round-scripted hawks, and a landing payload.",
-      "expected_output": "One cockpit. Glance, Now once, narration with three squid-hunt tells ending on the table question (no separate Ask callout), Be ready for table with skills and DCs, threat clock table, zone table, round script, ![[Bloodhawk#Statblock]] embed plus scene dials, landing callout with ^landing. No Scene menu, no second If ignored, no copied AC/HP. Hunt verbs vary; the same tactic word is not hammered on every line.",
+      "prompt": "Render the opening 30-minute aerial hunt as the sole-authority run card. Owners exist for Bloodhawk and Great Crown Squid. The crew can fly; that is ordinary movement, not a plot item. Independent scorers require no page-flip, no dual framework, a threat clock, zones, three player-facing tells, a Be ready for table, round-scripted hawks, and an exit the table can hear.",
+      "expected_output": "One cockpit in play order: Glance, Now, opening narration, DM truth, zones, Be ready for, clock, round script, embeds, exit narration. No Scene menu, no Ask callout, no DM landing checklist, no copied AC/HP. Hunt verbs vary.",
       "expectations": [
         "Contains ![[Bloodhawk#Statblock]] or equivalent heading embed and does not retype AC, HP, or grab DC.",
         "Contains one threat clock, named zones, and a Be ready for adjudication table (intention/approach) that names creatures and places rather than her/flier/they; no closed player menu; no separate Ask callout.",
         "Narration or Now includes three independent tells that she is hunting the squid.",
-        "Landing payload states wet/separated/hidden/sight-of-ship/where hawks and squid go.",
+        "Closes with player-facing exit narration, not a DM list of wet/prone/together.",
         "No dual Run-now copy of the header; no Scene menu; no prep-workflow sentences.",
         "Does not embed Flying Boots or treat how the crew flies as a plot reminder."
       ]

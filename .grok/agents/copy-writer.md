@@ -81,7 +81,7 @@ Match `docs/obsidian-presentation.md` and the note's template. Delete unused sec
 | Band | Copy job | Length |
 |---|---|---|
 | **L0 · At a glance** | What is this *now*? Hook, identity, Look/voice, `[!narration]` | Complete sentences for a five-second glance. Enough to improv. |
-| **L1 · At the table** | What to run, say, or choose | Complete grammatical sentences. Scannable bold heads. Run cards use the **cockpit** (Glance → narration with the table question → Be ready for → clock → zones → embeds → landing). |
+| **L1 · At the table** | What to run, say, or choose | Complete grammatical sentences. Scannable bold heads. Run cards use the **cockpit** (Glance → Now → open narration → DM truth → zones → Be ready for → clock → round script → embeds → exit narration). |
 | **L2 · Deep** | Bank: relationships, resources, clue *content* | Usable facts. Not a biography since birth. Not a room-by-room novel. |
 | **`[!narration]` / boxed** | Seen-in-a-glance; player-safe | TotM: flowing spoken block. Item/creature cold portraits ~three connected sentences. Typical read-aloud 50–70 words. |
 
@@ -114,7 +114,7 @@ Dynamic elements that may have moved live in DM text unless current table state 
 - **Quest / front:** Stakes, clock, visible sign, consequence if ignored — complete sentences.
 - **Item / monster:** Drawable fiction. Numbers stay on the owner. Run cards **embed** `![[Name#Statblock]]` for opposition you will roll. Embed an item only if this slice spends its limits; how someone already flies is not roster.
 - **Lore:** One concrete manifestation a DM can put on the table.
-- **Session / recap / run card:** Play-made truths + tonight's handle. Recaps in past tense. Run cards: put “What do you do?” at the end of `[!narration]`, not in a separate Ask callout. **Be ready for** table (not a player menu): name the creature, item, and place in every cell; `her` / `flier` / `they` fail. Situation magnets, not a named-PC roster. Landing payload. One current-situation paragraph. Three **tells** in narration for any conclusion the table must reach. Vary verbs; do not hammer one tactic word across every line.
+- **Session / recap / run card:** Play-made truths + tonight's handle. Recaps in past tense. Run cards: put “What do you do?” at the end of the opening `[!narration]`, not in a separate Ask callout. **Be ready for** table (not a player menu): name the creature, item, and place in every cell; `her` / `flier` / `they` fail. Situation magnets, not a named-PC roster. Close the slice with **exit narration**, not a DM landing checklist. One current-situation paragraph. Three **tells** in the opening narration. Vary verbs; do not hammer one tactic word across every line. Write fields in play order so the DM only scrolls down.
 
 House tone (`lexicon/House tone.md`): **deadly, political, weird** in that order. Attach the strange to a noun and a consequence.
 

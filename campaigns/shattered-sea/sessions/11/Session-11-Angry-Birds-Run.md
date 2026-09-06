@@ -26,6 +26,19 @@ The crew is still in the air over the old terraces, at the height of the squid. 
 > [!narration] Narration
 > The old terrace woods and mangroves still lie under the crew, thin coastal cover at the same height they held when they left the squid. Ahead, a long dark mantle pulls through the last of the trees, glass-pale where the sun hits it, thick arms taking separate crowns. A moving bar of dark runs across that floor. Out of the sun a charcoal hawk drops, wings eighty feet across and pinning tight, crimson-black flight feathers, shaggy red nape, cream hook of a beak, talons as big as a rowboat. The hawk's head never turns from that mantle. Two young hold the same line behind the adult. The first strike goes at the squid the crew has not left yet. What do you do?
 
+> [!secret] DM truth
+> The adult bloodhawk is hunting the Great Crown Squid. The crew is not the chosen meal unless they make themselves one.
+
+### Zones
+
+| Band | What is there | Moves / cover |
+| --- | --- | --- |
+| High air | Great Crown Squid height. The open hunt lane. | One dive move reaches the canopy line. |
+| Canopy line | Last trees. The Great Crown Squid is here. | Thin cover. The adult bloodhawk still strikes crew who stay on top of the trees. |
+| Terrace woods | Old gardens, mangroves, stone. | One more move down toward the river. |
+| Grass and river | First river valley. Eight-foot grass. Moving water. | **Cover.** A quiet drop ends the hunt for crew who stay here. The adult bloodhawk will not follow into this grass. |
+| Beach line | Still this air, toward [[Uncertainty]]. | Exposed. Crossing it keeps the crew in the hunt. |
+
 ## Be ready for
 
 | Intent | Approach | DC | Success | Partial | Failure |
@@ -47,16 +60,6 @@ Unforeseen intents use the same want: the adult bloodhawk is hunting the Great C
 > | 3 | The adult bloodhawk uses Talon Grab on the loudest or highest crew member. |
 > | 4 | Any crew still airborne and obvious is grabbed, scattered, or crash-landed. |
 
-### Zones
-
-| Band | What is there | Moves / cover |
-| --- | --- | --- |
-| High air | Great Crown Squid height. The open hunt lane. | One dive move reaches the canopy line. |
-| Canopy line | Last trees. The Great Crown Squid is here. | Thin cover. The adult bloodhawk still strikes crew who stay on top of the trees. |
-| Terrace woods | Old gardens, mangroves, stone. | One more move down toward the river. |
-| Grass and river | First river valley. Eight-foot grass. Moving water. | **Cover.** A quiet drop ends the hunt for crew who stay here. The adult bloodhawk will not follow into this grass. |
-| Beach line | Still this air, toward [[Uncertainty]]. | Exposed. Crossing it keeps the crew in the hunt. |
-
 ### Round script
 
 - **R1:** The adult bloodhawk hits the Great Crown Squid. The two young bloodhawks shadow that line.
@@ -65,26 +68,21 @@ Unforeseen intents use the same want: the adult bloodhawk is hunting the Great C
 - **Bloodied:** The adult bloodhawk releases a grabbed crew member and climbs for the cloud line.
 - **Cover reached:** The adult bloodhawk will not dive into closed canopy or eight-foot grass. The young bloodhawks leave crew who stay down.
 - **Young bloodhawks:** Two birds, one pressure group. They hit what the adult bloodhawk flushes or what rises. If a crew member targets one, one solid hit scatters that bird; they are not a second boss.
+- **Scene dials:** Easy: Multiattack only, no Canopy Dive recharge. The adult bloodhawk will not dive into closed canopy or eight-foot grass. Bloodied: the adult bloodhawk stops grabbing and climbs.
 
 ### Roster
+
+The Great Crown Squid is fleeing through the last trees, not fighting the crew unless someone stays glued to it.
 
 ![[Bloodhawk#Statblock]]
 
 ![[Bloodhawk#At the table]]
 
-- **Scene dials:** Easy: Multiattack only, no Canopy Dive recharge. The adult bloodhawk will not dive into closed canopy or eight-foot grass. Bloodied: the adult bloodhawk stops grabbing and climbs.
-- **Young bloodhawks:** Two birds, same cover rule, no separate fence.
-
-The Great Crown Squid is fleeing through the last trees, not fighting the crew unless someone stays glued to it.
-
 ![[Great Crown Squid#Statblock]]
 
-> [!secret] DM truth
-> The adult bloodhawk is hunting the Great Crown Squid. The crew is not the chosen meal unless they make themselves one.
-
-> [!success] Landing
-> The crew hits moving water and tall grass in the first river valley of [[Grasslands - River Valleys]]. Everyone who dropped is wet. A crew member who failed a landing check is prone. The crew is together unless Talon Grab succeeded; a grabbed crew member is missing until the adult bloodhawk releases them or they escape. The Great Crown Squid is crashing on through the last trees, not in this grass. The bloodhawks stay on the squid unless a crew member is still in high air. [[Uncertainty]] and the beach are behind the terrace line, not in sight from the bowl unless a crew member looks back up.
-^landing
+> [!narration] Exit
+> The first river valley comes up fast: moving water around the legs, grass over head-height, terrace woods already a dark rim behind. Through the last trees the squid's mantle still pulls inland, and the charcoal hawk stays on that line, not on the grass. What do you do?
+^exit
 
 ## Backup
 
