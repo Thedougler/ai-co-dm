@@ -62,6 +62,7 @@ This repo is an **Obsidian prose wiki**, not an application codebase. Prefer vau
 - **Prove wiki health:** use existing vault scripts (`./scripts/lint-*`, `./scripts/qmd`, `./scripts/after-write`) and `wiki-lint` / `llm-wiki-eval` — do **not** invent app-style UI verification skills for this repo unless Nick asks.
 - **Cursor/plugin skills** (`skill-authoring`, `principle-model-the-domain`, etc.): use when the wake matches; adapt to prose/wiki outcomes, not code refactors.
 - **Fleet / agentic-system design review:** **Agentic-System-Designer** proposes ADRs/specs (`docs/agents/` or `inbox/`); **Ops** / **Skill-Creator** / **Team-Leader** / **dr eggbot** implement.
+- **Template / Obsidian readability:** **Wiki-UI** — human scan of `templates/`, run surfaces look, `.obsidian` presentation patterns. **Organizer** keeps MOCs/indexes/hot structure.
 
 
 `session-wrapup` / `campaign-qa`: AntTheLimey/gm-apprentice (CC-BY-SA). `wiki-triage` / `llm-wiki-eval`: po4yka-llm-wiki-skills (MIT). `wiki-crystallize` / `wiki-integrate`: vanillaflava (MIT). `defuddle`: kepano adapt — see skill. See each skill’s attribution block.
@@ -209,13 +210,14 @@ ASD triages immediately → design fix → packets implementers (**Ops** AGENTS/
 | **Dungeon-Designer** | Owns `.agent/skills/dungeon-design/` — plan graph / factions / pressure before room prose; file location keys; leave empty `[!narration]` → **Visualizer**; monsters → **Monster-Brewer**; items → **Item-Brewer** |
 | **Homebrewer** | Default general-purpose brew bot — subclasses, spells, feats, backgrounds, vehicle math (`vehicle-design`), and any brew type without a specialist yet; router: monsters → **Monster-Brewer**, items → **Item-Brewer**, dungeons → **Dungeon-Designer** (lazy specialists; do not pre-spin) |
 | **Researcher** | Prior art (web); not vault canon |
-| **Organizer** | Indexes/MOCs, structure doctrine, hot refresh, light inbox triage; owns `campaigns/<campaign>/vehicles/` layout |
+| **Organizer** | Indexes/MOCs, structure doctrine, hot refresh, light inbox triage; owns `campaigns/<campaign>/vehicles/` layout — not visual template redesign (**Wiki-UI**) |
 | **Ingest** | `wiki-ingest` — inbox/URL/paste → typed linked notes; hard gate: decompose → organize → dual-search `-c wiki` + `-c legacy-ss` (read-only) per named entity → file all related; no thin skim |
 | **Linter** | `wiki-lint` checklist/audit (report + propose) |
 | **dr eggbot** | CreateAgent / new-role design for the fleet (Team-Leader routes; does not CreateAgent) |
 | **Team-Leader** | Roster health, routing/persona tweaks, collision triage across bots (not CreateAgent — eggbot; not AGENTS/scripts/qmd infra — Ops) |
 | **Agentic-System-Designer** | Design of agentic systems — personas/definitions, AGENTS contracts, skill architecture, handoff graphs, routines/cadence, packet standards; short design docs in `docs/agents/` or `inbox/`; packets **Ops** / **Skill-Creator** / **Team-Leader** / **dr eggbot** to implement; owns **inbound friction reports** + standing weekday **8am PT** `daily-agentic-optimization` pass. Not day-to-day AGENTS/scripts/qmd (**Ops**), not CreateAgent (**dr eggbot**), not production `SKILL.md` (**Skill-Creator**), not roster triage (**Team-Leader**) |
-| **Ops** | Implements fleet infra — AGENTS.md edits, templates, scripts/qmd, standing routines/lints — from **Agentic-System-Designer** specs or Nick/TL packets; not system *design* ADRs (ASD) |
+| **Wiki-UI** | Obsidian UI / human readability — standardize `templates/` and note designs, vault Obsidian presentation config/patterns, enforce markdown/layout patterns Nick observes; may request **Skill-Creator** touch for `obsidian-markdown` / `run-guide` presentation gates. Not MOCs/hot (**Organizer**), not TotM prose (**Visualizer**), not campaign fiction (**Co-DM**), not AGENTS/scripts (**Ops**) |
+| **Ops** | Implements fleet infra — AGENTS.md / schema wiring, scripts/qmd, standing routines/lints — from **Agentic-System-Designer** specs or Nick/TL packets; not system *design* ADRs (ASD); not template/UI readability redesign (**Wiki-UI**) |
 
 ## TotM fail loop
 
