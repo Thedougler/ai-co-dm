@@ -9,6 +9,8 @@ tags: [hazard, aruhe]
 # Razer-Grass
 
 > [!narration] Narration
+> Waist-high Razer-Grass stands in discrete colonies, stalks armored in opaline glass with hard cut-ready edges. Fixed sparkles catch along the blades. A glassy tinkle carries in the wind.
+
 
 ## At the table
 Grass armored in opaline glass. Contact cuts. Breaking is worse. Fire is the wrong answer.
