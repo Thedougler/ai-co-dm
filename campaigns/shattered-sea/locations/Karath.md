@@ -8,7 +8,7 @@ tags: [location, region, grung, karath, aruhe]
 ---
 # Karath
 > [!narration] Narration
-> Karath is country-scale rainforest flush to bare shore and reef, with rivers the colour of tea left a week. Across a half-mile channel Aruhe's rim looks close while its heart stays hundreds of miles inland. Wet cuts and tannin mouths are the walkable edge from the water.
+> _Visualizer: Hinewai ingest pending._
 
 
 ## At a glance
@@ -57,3 +57,11 @@ Karath's gold reagent farms are secret even from lower castes. Simone has **neve
 
 ## Geography ingest — dual continuity
 This note keeps Karath's two established relationships together: it is the eastern [[Verdant Teeth]] island with blackwater, raids, hatchery/toxin work, and no sanctioned landing; it is also [[Aruhe - Hungry Isle]]'s near-edge channel neighbor, about half a mile away at the closest point. That distance reaches Aruhe's rim only; it does not make Karath a shortcut to the island's heart. The Aruhe-facing proximity explains continuity of patrol pressure without merging the two islands.
+
+## Hinewai's captivity
+Karath captured Hinewai, an elf archdruid, and put her to work in the interior hatcheries. Captive spellcasters are dosed and kept slow, then given just enough antidote to touch the Weave so they can push ordinary vermin into giant toads, snakes, and spiders. Her autobiographical memory mostly rotted there; hatred of the Grung and of anyone who takes survived.
+
+The channel is about half a mile at the closest point. Hinewai and her unnamed companion swam from Karath toward Aruhe; he drowned in sight of the green country, and she carried him inland. Karath is near Aruhe's rim, not its heart.
+
+## Provenance
+Primary source: Nick paste, 2026-09-05. Legacy context for the channel and hatchery work remains read-only under `/Users/nick/shattered-sea/wiki/shattered-sea/aruhe-hungry-isle/` and is not overwritten.

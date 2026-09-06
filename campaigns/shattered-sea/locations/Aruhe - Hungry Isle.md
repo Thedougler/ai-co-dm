@@ -11,7 +11,7 @@ tags: [location, region, aruhe, hungry-isle]
 ## Art
 ![[attachments/shattered-sea/places/aruhe-2.jpeg]]
 > [!narration] Narration
-> _Visualizer: Aruhe flora pending._
+> _Visualizer: Hinewai ingest pending._
 
 
 
@@ -155,3 +155,16 @@ Run from one and you are usually standing in the next one's country; that bounda
 - Compiled from Nick's Aruhe flora paste, 2026-09-05.
 - Legacy context promoted from `/Users/nick/shattered-sea/wiki/shattered-sea/aruhe-hungry-isle/region-aruhe.md`, `/Users/nick/shattered-sea/wiki/shattered-sea/aruhe-hungry-isle/region-aruhe-the-beach.md`, `/Users/nick/shattered-sea/wiki/shattered-sea/aruhe-hungry-isle/region-aruhe-the-old-gardens.md`, `/Users/nick/shattered-sea/wiki/shattered-sea/aruhe-hungry-isle/region-aruhe-the-quiet.md`, `/Users/nick/shattered-sea/wiki/shattered-sea/aruhe-hungry-isle/region-aruhe-the-grasslands.md`, `/Users/nick/shattered-sea/wiki/shattered-sea/aruhe-hungry-isle/region-aruhe-the-rot.md`, `/Users/nick/shattered-sea/wiki/shattered-sea/aruhe-hungry-isle/region-aruhe-the-cave.md`, and `/Users/nick/shattered-sea/wiki/shattered-sea/aruhe-hungry-isle/region-aruhe-the-grove.md`.
 - Open conflict: legacy geography and the new flora paste align; item/monster mechanics remain owned by the relevant brewers.
+
+## Hinewai's origin pressure
+Aruhe's excess is the success of Hinewai's preservation. After Karath captured the elf archdruid and forced her to enlarge vermin, she fled with an unnamed companion; he drowned in the half-mile channel. She carried him inland, buried him beneath a fruit tree, took the offered fruit as a vow, and later fused herself to the land in a second grave. The memorial became the Death Bloom and the island's law.
+
+Everywhere beyond [[The Grove - Death Bloom]], life was prevented from finishing: growth, reproduction, healing, adaptation, and rot lost their brakes. This is not a single intelligence or a new monster ecology. Familiar fauna remain independent animals; Hinewai's presence is the island agreeing with itself. The Hunger Rule is her distinction between receiving and taking, made ecological pressure.
+
+## Hinewai continuity
+Luminous roots run wrist-thick to thigh-thick from the shelf above [[Clear Lake]] through [[The Rot]] and point toward the Grove. At the Grove, roots stop at both unmarked graves. The first grave is the drowned companion's reason; Hinewai's second grave is the mechanism. The memorial is a place, not a portable object: tree, graves, black flowers, bound soil, and relationship.
+
+## Canon and provenance
+- Dump-authoritative autobiography: Nick paste, 2026-09-05.
+- This resolves the older DM UNKNOWN origin. Player-facing discovery can remain incomplete, but the canon identity is Hinewai / [[The Blight]].
+- Legacy context promoted from `/Users/nick/shattered-sea/wiki/shattered-sea/aruhe-hungry-isle/creature-blight.md` and `/Users/nick/shattered-sea/wiki/shattered-sea/aruhe-hungry-isle/region-aruhe-the-grove.md`.

@@ -11,7 +11,7 @@ tags: [location, aruhe, lake, water]
 ## Art
 ![[attachments/shattered-sea/places/aruhe-the-clear-lake.jpeg]]
 > [!narration] Narration
-> Clear Lake is inland water clear enough to drink from the bank, where the bottom shows near the wet stone and the blue goes dark farther out. Slow river mouths feed a basin so wide the far shore is a thin line, and cool air lifts off the surface. One channel keeps toward the Grove.
+> _Visualizer: Hinewai ingest pending._
 
 
 
@@ -63,3 +63,9 @@ A clear inland lake where water offers rest and direction, but fishing for onese
 ## Mechanics and return
 - Treat water, shore, and crossing honestly; no squid or otter mechanics are included.
 - **Return state:** water access, lake disturbance, shore route, and any possession trigger avoided or made.
+
+## Hinewai continuity
+The lakeward shelf is the direction of the original loss. Luminous roots run out from the Grove above Clear Lake, wrist-thick to thigh-thick in the Rot, and point home toward the memorial. They stop before the two graves. The lake remains a route and visible landmark, not the location of a portable phylactery.
+
+## Provenance
+Primary source: Nick paste, 2026-09-05. Legacy continuity: `/Users/nick/shattered-sea/wiki/shattered-sea/aruhe-hungry-isle/region-aruhe-the-grove.md`.

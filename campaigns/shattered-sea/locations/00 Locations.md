@@ -17,3 +17,7 @@ tags: [index, location]
 - [[The Rot]] · [[Clear Lake]] · [[The Grove - Death Bloom]] · [[Lava Tubes]]
 - [[Uncertainty]] · [[Kalowe]] · [[Yssenmoor]]
 - [[Vestra]] · [[Mercatura]]
+
+## Hinewai ingest
+- [[The Grove - Death Bloom]] — Hinewai's place-bound memorial and phylactery.
+- [[Clear Lake]] — lakeward root continuity toward the Grove.
