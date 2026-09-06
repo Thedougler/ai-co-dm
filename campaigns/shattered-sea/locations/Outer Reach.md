@@ -8,9 +8,6 @@ tags: [location, region, outer-reach]
 ---
 # Outer Reach
 > [!narration] Narration
-> Outer Reach is cold water past the Maw with no resupply and no pilot-trusted landmark. Currents reverse under the hull. Deep salt and wet stone of unknown quarry mark the sea.
-
-
 
 ## At a glance
 Water past the [[Drowned Maw]], with no resupply or pilot-trusted landmark; feels directionless, reversing, and unwilling to finish a story.

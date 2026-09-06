@@ -8,9 +8,6 @@ tags: [location, region, grung, karath, aruhe]
 ---
 # Karath
 > [!narration] Narration
-> Karath is country-scale rainforest flush to bare shore and reef, with rivers the colour of tea left a week. Reef gaps answer an unapproved hull with darts, not a hail. Across a half-mile channel Aruhe's rim looks close while its heart stays hundreds of miles inland.
-
-
 
 ## At a glance
 Karath is the Grung raid and hatchery island, and [[Aruhe - Hungry Isle]]'s near neighbor across a channel about half a mile wide at the closest edge. It is close to Aruhe's rim, not to Aruhe's heart; the island is country-scale in its own right.

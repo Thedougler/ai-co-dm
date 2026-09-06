@@ -8,8 +8,6 @@ tags: [location]
 ---
 # Central Strait
 > [!narration] Narration
-> The Central Strait is open shipping water crowded with sails, patrol craft, and signal flags between Crown harbours and Midchain. Horns and rigging strain carry over salt and tar. Lanes and papers mark who may pass.
-
 
 ## At a glance
 The primary shipping corridor between the two arcs; feels like a moving border.

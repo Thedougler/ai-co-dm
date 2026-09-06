@@ -8,8 +8,6 @@ tags: [location]
 ---
 # Calven / Calveno
 > [!narration] Narration
-> Calveno is a canal city on the oldest Crown Island, where harbour flags and bridges share water lanes with cargo and credit. Locks and poles sound over algae and wet stone. Cooking smoke and sewer damp rise from the same network of lanes.
-
 
 ## At a glance
 Calven is the oldest-settled Crown Island; Calveno is its great canal city, with Dravosi flags at harbour and Tessarine money underneath.

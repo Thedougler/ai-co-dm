@@ -93,6 +93,8 @@ supplies that motion. Creature signs and encounter pressure belong to a
 **situated** first look. Design kernels stay upstream (`place-design`); TotM
 renders geography. Examples teach moves, not sentence architecture to echo.
 
+Cold-place sweep bans: never use the rigid definition -> smell hang-over -> use/closer formula. Do not close on a thesis (treated as a border), leak Aspects/secrets (charts get wrong, Hunger/free-flow ownership), or use opaque caste/jargon nouns (Purple watch, Unknown-quarry stone). Darts, a blue watcher, and similar staged hostility require current table state unless the parent explicitly establishes stable public ecology without encounter film. A dual-title note must publicly render both halves or be retitled. Keep vehicle access kitchen-table (lines, rail, hold), never boarding interface in player prose. Keep lore miracles such as the duck has died and reformed in Secrets/DM. The cold spine is already this place plus body-scale geography and a drawable affordance, and it stops on stable geography.
+
 
 **Hard mode gate for technique notes (`kind: technique` or technique tags):** if
 the request is filling or rewriting `[!narration]` on a technique note and no

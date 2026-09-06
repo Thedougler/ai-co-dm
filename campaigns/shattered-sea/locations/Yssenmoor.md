@@ -8,10 +8,6 @@ tags: [location, ley-line, sentinel]
 ---
 # Yssenmoor
 > [!narration] Narration
-> Yssenmoor is a Midchain site where a thumb-sized quartz top turns differently than elsewhere on the same water. Ground and air stay ordinary to the eye. A duck has died and reformed here across centuries.
-
-
-
 
 ## At a glance
 A place over a hidden ley line that reacts to [[Fate Spinner]]; feels like an unresolved point of contact between old power and a watchful relic.

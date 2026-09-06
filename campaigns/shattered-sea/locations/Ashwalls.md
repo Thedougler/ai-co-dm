@@ -8,9 +8,6 @@ tags: [location, region, volcanic, crossing]
 ---
 # Ashwalls
 > [!narration] Narration
-> Ashwalls is black volcanic spires in the Galewall's lee, where steam vents and warm cave mouths break the stone. Wrecks jam the rock. Sulfur, salt, and hot stone hang over surf while crews take the lee as solid ground.
-
-
 
 ## At a glance
 Cold-water volcanic spires: last solid ground heading west and first safe lee returning east; feels hot, sulfurous, and opportunistic.

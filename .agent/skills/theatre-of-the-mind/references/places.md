@@ -101,6 +101,15 @@ Coverage may include shore, depth, mouths, channel, sense — but **not** as one
 17. At least one usable affordance as nouns/verbs (drink / underfoot shore / follow channel) — not theme (`rest`/`direction`)?
 18. Independent organizing spine + fresh phrasing vs examples (examples teach moves, not architecture to parrot)?
 
+19. No rigid cold-place formula: do not serialize definition -> smell hang-over -> use/closer. A cold place wants one spine that is already this place, body-scale orientation, and a drawable affordance; stop on stable geography, not a thesis, secret, or staged hostility.
+20. No thesis closer such as treated as a border; end on geography and usable route/ground, not what the place means.
+21. No Aspects or secret leakage in cold prose, including charts get wrong, Hunger/free-flow ownership, or other kernel, threat, or claim language.
+22. No opaque caste or jargon nouns with no public referent, including Purple watch, boarding interface, and Unknown-quarry stone.
+23. No staged hostility in a cold portrait: darts, a blue watcher, or similar encounter film require supplied table state unless the parent explicitly establishes stable public ecology without encounter film.
+24. Dual-title place notes must earn both halves publicly; give both public landmarks or retitle upstream.
+25. Vehicle craft-meta is not player prose: never say interface in narration; use kitchen-table access such as lines, rail, hold, or hatch.
+26. No lore miracle closer, including the duck has died and reformed; keep miracle/lore in Secrets or DM text.
+
 ## Arrival — published boxed text
 
 Inventory as first glance. No mood lecture. Gygax, *G1 Steading of the Hill Giant Chief* (1978):

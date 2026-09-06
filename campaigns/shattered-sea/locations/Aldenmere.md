@@ -8,9 +8,6 @@ tags: [location, crown-islands, farm]
 ---
 # Aldenmere
 > [!narration] Narration
-> Aldenmere is a mile-wide tidal mere that never quite drains, shelved by a narrow inlet beside rolling farms and a stone town. Wet earth and reed rot hang with farm smoke where frogs work the water. Locals treat the mere as water you do not enter casually.
-
-
 
 ## At a glance
 The quiet Crown island of rolling farms, a stone town, and a tidal mere that never quite drains; feels pastoral until the reeds move.

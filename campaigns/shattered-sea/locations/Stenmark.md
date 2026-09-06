@@ -8,9 +8,6 @@ tags: [location, crown-islands, cold-water, watch]
 ---
 # Stenmark
 > [!narration] Narration
-> Stenmark is a harbour town and thin farmland under a sheer east face where Scatter blue-green turns trench-dark. A Crown signal station watches the cliff. Cold brine and harpy calls ride the wind.
-
-
 
 ## At a glance
 The last Dravosi flag before the Maw: a long north–south island with a gentle harbour face and a sheer cold-water drop; feels like a signal station at the end of law.

@@ -8,8 +8,6 @@ tags: [location, grung, verdant-teeth, sorn, botukuri]
 ---
 # Sorn
 > [!narration] Narration
-> Sorn is the farm heart of the Teeth: pale sand giving onto flood-pulse crop lanes standing in water. A long-hut sits on the beach while purple watch holds the treeline. Salt and wet earth hang where vine and forest take the next row.
-
 
 ## At a glance
 Sorn is the farm heart of the Teeth: flood-pulse várzea, Botukuri lanes, and one guarded beach. The beach stays clean because someone recuts it; the forest is already taking the next row.

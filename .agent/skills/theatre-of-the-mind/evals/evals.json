@@ -356,6 +356,36 @@
         "Notes thin telegram opener and weak affordance (cool air vs drinkable water).",
         "Does not pass merely because mystery closer is absent."
       ]
+    },
+    {
+      "id": 37,
+      "prompt": "Using a cold place parent with Aspects `broken charts` and public geography limited to surf, ridges, and pilot boats, write location `[!narration]` with no table state.",
+      "expected_output": "Reject `charts get wrong` or Aspect leakage; pass with only drawable surf, ridges, and pilot boats in one independent geography spine.",
+      "expectations": ["Rejects charts get wrong and Aspects/kernel/threat jargon.", "Uses only supplied public surf, ridges, and pilot boats.", "Avoids definition -> smell hang-over -> use/closer cadence and thesis closers."]
+    },
+    {
+      "id": 38,
+      "prompt": "Write a cold public place note titled `Calder's Tooth / Port Tidefall`. The parent establishes both as public landmarks but supplies no current table state.",
+      "expected_output": "Both named halves appear as public drawable landmarks; describing only one fails, and the note should be retitled upstream if both cannot be rendered.",
+      "expectations": ["Covers both Calder's Tooth and Port Tidefall or routes the mismatch to retitling.", "Does not invent encounter motion, secrets, or an opaque title explanation.", "Uses body-scale geography and a usable affordance."]
+    },
+    {
+      "id": 39,
+      "prompt": "Using the Saltwright parent, write cold vehicle `[!narration]` with no table state. Public facts are boarding scars, deck and rail, lines, cargo holds, and ordinary canvas.",
+      "expected_output": "Drawable vehicle prose uses scars, lines, rail, and holds; `boarding interface` is banned in player prose.",
+      "expectations": ["Includes supported scars and kitchen-table access nouns.", "Fails any narration use of boarding interface or other craft-meta access label.", "Keeps smuggler lore, ownership, and hidden routes out."]
+    },
+    {
+      "id": 40,
+      "prompt": "Write two Grung beach versions: a cold portrait with no table state, and a seated survey with supplied table state showing visible purple/blue watchers. Keep beach geography public.",
+      "expected_output": "Cold portrait stays with sand, reef, hut, and crop lanes and does not stage a caste watch film. Seated survey may name purple/blue as visible watcher colors only because table state supplies them.",
+      "expectations": ["Cold version omits Purple watch, blue watcher, darts, and staged hostility.", "Situated version may render purple/blue as visible color only from supplied survey state.", "Neither version leaks caste labels, threats, Aspects, or hidden ecology jargon."]
+    },
+    {
+      "id": 41,
+      "prompt": "Using Yssenmoor public facts, write cold location `[!narration]` with no table state. The parent supports quartz spin and ordinary ground; the duck miracle `has died and reformed` is Secrets/DM only.",
+      "expected_output": "Pass with quartz spin tied to ordinary ground; fail any miracle/lore closer. The duck claim stays in Secrets/DM.",
+      "expectations": ["Uses quartz spin and ordinary ground as drawable public facts.", "Rejects the duck has died and reformed and any lore miracle in cold narration.", "Stops on stable geography or a usable affordance."]
     }
   ]
 }
