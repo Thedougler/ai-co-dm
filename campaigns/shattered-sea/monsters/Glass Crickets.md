@@ -18,7 +18,8 @@ cr: ""
 # Glass Crickets
 
 > [!narration] Narration
-> _Visualizer: Aruhe fauna pending._
+> Long-legged pale crickets with long antennae live in the same wells as root roaches. Their jumping may be the only motion at a well. When heavy vibration enters the basalt, they go still.
+
 
 Mechanics: pending Homebrewer (parallel packet)
 

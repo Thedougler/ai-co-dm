@@ -18,7 +18,8 @@ cr: ""
 # Cave Bats
 
 > [!narration] Narration
-> _Visualizer: Aruhe fauna pending._
+> Cave bats with three- to four-foot wings leave at dusk through skylights and feed over the canopy. Guano marks the tubes they use. A whole colony taking flight at once means something farther in already moved.
+
 
 Mechanics: pending Homebrewer (parallel packet)
 

@@ -46,7 +46,8 @@ bonus_actions:
 # Bear-Elk
 
 > [!narration] Narration
-> _Visualizer: Aruhe fauna pending._
+> Bigger than a draft horse and low-wide, the Bear-Elk carries an elk rack on a bear's chest. Pale pupil-less eyes face forward, and faint luminous sap drips from the antlers. It runs a fixed daily beat along scored trees and seldom needs to eat.
+
 
 ## At the table
 **Tactic:** fixed daily beat along scored trees; seldom needs to eat. **Tell:** elk rack on bear chest, luminous sap on antlers, pale pupil-less eyes.

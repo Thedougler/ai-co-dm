@@ -58,7 +58,8 @@ reactions:
 # Bloodhawk of Aruhe
 
 > [!narration] Narration
-> _Visualizer: Aruhe fauna pending._
+> A huge bloodhawk works the cloud-canopy and open water, wings broad enough to haul prey aloft. Crimson tips flash when the wings fold for a dive. The serrated beak and sickle talons stay visible even in a stoop.
+
 
 
 ## At the table

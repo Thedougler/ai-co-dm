@@ -40,7 +40,8 @@ actions:
 # Unsaid Macaw
 
 > [!narration] Narration
-> _Visualizer: Aruhe fauna pending._
+> Healthy bright clear-eyed macaws eat fruit, nuts, and occasional shellfish along orchards and lake margins. A bird speaks in a listener's own voice, repeating words that were almost said. Flocks teach phrases until later speech is hard to tell from old flock-talk.
+
 
 ## At the table
 **Social hazard, not a fight.** Speaks the almost-said in your voice. Flocks teach phrases.

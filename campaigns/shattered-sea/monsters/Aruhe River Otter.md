@@ -51,7 +51,8 @@ bonus_actions:
 # Aruhe River Otter
 
 > [!narration] Narration
-> _Visualizer: Aruhe fauna pending._
+> Twelve-foot chocolate-black river otters work the Long Reach and lake, each with a pale throat mark unique as a fingerprint. Families of four to six adults keep the water gin-clear and patrol the banks. They play with rope, oars, and ankles in the shallows until the game turns serious.
+
 
 
 ## At the table

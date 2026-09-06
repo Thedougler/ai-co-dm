@@ -37,7 +37,8 @@ actions:
 # Small Blood Hawk
 
 > [!narration] Narration
-> _Visualizer: Aruhe fauna pending._
+> Ordinary stooping hawks work tide-meat on the charted beach in flocks of two to four. They mark a wound but cannot lift a person. Crimson shows at the tips when a bird folds for a dive.
+
 
 ## At the table
 **Tactic:** stoop on tide-meat and open wounds; mark, don't lift. **Tell:** ordinary hawks working the charted beach.

@@ -38,7 +38,8 @@ actions:
 # Grubnade
 
 > [!narration] Narration
-> _Visualizer: Aruhe flora pending._
+> A fat cream-green caterpillar longer than a thumb rests on a flower. It chews steadily. Soft segments bunch and ease as it feeds.
+
 
 
 

@@ -47,7 +47,8 @@ actions:
 # Terror-Bird
 
 > [!narration] Narration
-> _Visualizer: Aruhe fauna pending._
+> Taller than a horse, black, and mossed over, a still Terror-Bird reads as a trunk with a yellow eye. It does not fly. The ground shakes before its one committed charge along a grass cut or shaded rim.
+
 
 ## At the table
 **Tactic:** stand as mossed trunk → ground-shake → one charge commitment. **Tell:** yellow eye in mossed black feathers.

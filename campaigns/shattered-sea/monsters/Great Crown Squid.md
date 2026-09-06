@@ -75,7 +75,8 @@ legendary_actions:
 # Great Crown Squid
 
 > [!narration] Narration
-> _Visualizer: Aruhe fauna pending._
+> Sixty to eighty feet of rubbery mantle and eight working arms hang in the canopy, with finer lines that can reach another eighty feet. Skin matches bark brown and leaf green on the body until a principal eye rolls inside the clear head. The mantle barely loads the trees while the squid is alive.
+
 
 
 

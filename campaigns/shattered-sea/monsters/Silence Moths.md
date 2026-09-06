@@ -39,7 +39,8 @@ actions:
 # Silence Moths
 
 > [!narration] Narration
-> _Visualizer: Aruhe fauna pending._
+> Thumb-sized colorless moths drift at dusk and dawn in a cloud the size of a sail. Ahead of the swarm the jungle goes quiet. Fire drives them off; they will not follow anyone out of the trees.
+
 
 ## At the table
 **Tactic:** swarm fills a mouth after the jungle goes quiet ahead. **Tell:** sail-sized cloud; silence before arrival.

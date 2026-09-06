@@ -18,7 +18,8 @@ cr: ""
 # Root Roaches
 
 > [!narration] Narration
-> _Visualizer: Aruhe fauna pending._
+> Pale hand-sized roaches cluster around wells where surface roots punch through the ceiling. They pack the damp basalt in quiet numbers. Seconds before a rail arrives, they vanish into the cracks.
+
 
 Mechanics: pending Homebrewer (parallel packet)
 

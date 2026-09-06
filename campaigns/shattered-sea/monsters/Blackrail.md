@@ -50,7 +50,8 @@ actions:
 # Blackrail
 
 > [!narration] Narration
-> _Visualizer: Aruhe fauna pending._
+> A thirty- to forty-five-foot cave centipede whose back reads as parallel strips of wet black iron fills the main tube. Antennae longer than a man taste the air while the body reads the rock. Dust jumps in rings before the leg-rattle comes around the bend.
+
 
 
 ## At the table

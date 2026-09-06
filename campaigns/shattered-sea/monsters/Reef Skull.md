@@ -39,7 +39,8 @@ actions:
 # Reef Skull
 
 > [!narration] Narration
-> _Visualizer: Aruhe fauna pending._
+> Dog-sized hermit crabs move sideways through ankle-deep water in human skulls, hull plate, or coral shells. At low tide three to five bury in shingle until only the shell tops show. The tops sit where no shell should be.
+
 
 ## At the table
 **Tactic:** bury in shingle → erupt → clamp → drag to undertow. **Tell:** shell tops in ankle-deep water that shouldn't be there.

@@ -54,7 +54,8 @@ reactions:
 ![[attachments/shattered-sea/creatures/wolfrabbit.png]]
 
 > [!narration] Narration
-> _Visualizer: Aruhe fauna pending._
+> Wolf-sized dark-striped hunters work the first terraces on a hunting-cat body with long ears and a twitching nose. Packs of four to six bound from terrace brush in silent thirty-foot leaps. Warrens honeycomb the terrace stone beneath them.
+
 
 
 ## At the table

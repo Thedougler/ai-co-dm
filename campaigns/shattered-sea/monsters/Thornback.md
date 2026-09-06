@@ -41,7 +41,8 @@ actions:
 # Thornback
 
 > [!narration] Narration
-> _Visualizer: Aruhe fauna pending._
+> A solitary boar-and-porcupine bulk roots the Quiet floor, javelin quills on shoulder and rump, tusks driven through the skull and out again. Spent spines litter the trails it shoves open. The quills regrow within hours of a shed.
+
 
 ## At the table
 **Tactic:** root and shove; spent spines litter trails. **Tell:** javelin quills, tusks through skull.

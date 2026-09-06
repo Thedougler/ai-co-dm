@@ -44,7 +44,8 @@ actions:
 # Grinning Ape
 
 > [!narration] Narration
-> _Visualizer: Aruhe fauna pending._
+> Gorilla-sized dark-furred apes sit in terrace canopy groups of three to five. Their faces lock in a rictus that never changes, and they do not groom or call. Stones rain from the branches before the group drops as one.
+
 
 ## At the table
 **Tactic:** stones from canopy, then drop as a group. **Tell:** rictus grin that never changes; no calls.
