@@ -1,4 +1,5 @@
 ---
+cssclasses: [session-surface]
 type: session-prep
 campaign: shattered-sea
 session: 11
@@ -27,14 +28,17 @@ L1 run card. Parent control panel: [[Session 11 run]]. Chart: palette, not railr
 
 ### Run now
 #### Immediate
-- Mirror choices into world state\n- Optional: [[Gardens night watch]] / [[Quiet verge night watch]]\n- Seed [[Survey Aruhe as a Tangle anchor]]
+- Mirror choices into world state
+- Optional: [[Gardens night watch]] / [[Quiet verge night watch]]
+- Seed [[Survey Aruhe as a Tangle anchor]]
 
-#### Hidden
-> [!secret]- DM
+#### DM truth
+> [!secret] DM
 > Do not invent lasting canon beyond table outcomes.
 
 #### Run
-- Consequences, not cliffhanger bait for rematch.\n- Name what ends vs what stays live.
+- Consequences, not cliffhanger bait for rematch.
+- Name what ends vs what stays live.
 
 #### If violence starts
 - Not required.

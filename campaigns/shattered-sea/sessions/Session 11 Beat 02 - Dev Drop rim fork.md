@@ -1,4 +1,5 @@
 ---
+cssclasses: [session-surface]
 type: session-prep
 campaign: shattered-sea
 session: 11
@@ -28,14 +29,19 @@ L1 run card. Parent control panel: [[Session 11 run]]. Chart: palette, not railr
 
 ### Run now
 #### Immediate
-- [[Aruhe Drop Rim Court]]\n- Fork: inland scuffs vs [[Aruhe Beach Stair]]\n- Spotlight: [[Crissdalynn Khinriss]]\n- Survivor modules: see [[Session 11 prep]]
+- [[Aruhe Drop Rim Court]]
+- Fork: inland scuffs vs [[Aruhe Beach Stair]]
+- Spotlight: [[Crissdalynn Khinriss]]
+- Survivor modules: see [[Session 11 prep]]
 
-#### Hidden
-> [!secret]- DM
+#### DM truth
+> [!secret] DM
 > Expected spine = Gardens→Quiet. Boat = densified escape. Grove not tonight.
 
 #### Run
-- Show ≥2 routes.\n- Seed survivor awareness without railroading.\n- Recompute branch for Beat 05/06.
+- Show ≥2 routes.
+- Seed survivor awareness without railroading.
+- Recompute branch for Beat 05/06.
 
 #### If violence starts
 - Only if they re-expose or linger: light hawk interest or wolfrabbit tease — don't stack a full Cliffhanger here.

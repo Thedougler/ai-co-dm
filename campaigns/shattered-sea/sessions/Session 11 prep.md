@@ -1,4 +1,5 @@
 ---
+cssclasses: [session-surface]
 type: session-prep
 campaign: shattered-sea
 session: 11

@@ -1,4 +1,5 @@
 ---
+cssclasses: [session-surface]
 type: session-prep
 campaign: shattered-sea
 session: 11
@@ -28,14 +29,17 @@ L1 run card. Parent control panel: [[Session 11 run]]. Chart: palette, not railr
 
 ### Run now
 #### Immediate
-- Facts from [[campaigns/shattered-sea/story/00 Story so far]] / [[campaigns/shattered-sea/sessions/00 Sessions]]\n- State: [[Uncertainty]] mobile · inland survivors inland
+- Facts from [[campaigns/shattered-sea/story/00 Story so far]] / [[campaigns/shattered-sea/sessions/00 Sessions]]
+- State: [[Uncertainty]] mobile · inland survivors inland
 
-#### Hidden
-> [!secret]- DM
+#### DM truth
+> [!secret] DM
 > Do not lecture Hunger Rule, Grove, or Blackrail. No fake Session 10 log file.
 
 #### Run
-- Speak recap in your words or wait for Visualizer narration.\n- Confirm ship + inland state.\n- Hand decision to players for Hook entry.
+- Speak recap in your words or wait for Visualizer narration.
+- Confirm ship + inland state.
+- Hand decision to players for Hook entry.
 
 #### If violence starts
 - Not this beat.

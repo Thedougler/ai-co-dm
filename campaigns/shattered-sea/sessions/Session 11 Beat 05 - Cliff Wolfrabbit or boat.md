@@ -1,4 +1,5 @@
 ---
+cssclasses: [session-surface]
 type: session-prep
 campaign: shattered-sea
 session: 11
@@ -28,14 +29,17 @@ L1 run card. Parent control panel: [[Session 11 run]]. Chart: palette, not railr
 
 ### Run now
 #### Immediate
-- Inland: [[Aruhe Fruit Stair Terraces]] / [[Aruhe Irrigation Ditch Maze]] · [[Wolfrabbit terrace flank]]\n- Boat: [[Aruhe Beach Stair]] → L1–L6 · start [[Western Landing pickup]]\n- Spotlights: Jean-Claude (inland) / Delmar (boat)
+- Inland: [[Aruhe Fruit Stair Terraces]] / [[Aruhe Irrigation Ditch Maze]] · [[Wolfrabbit terrace flank]]
+- Boat: [[Aruhe Beach Stair]] → L1–L6 · start [[Western Landing pickup]]
+- Spotlights: Jean-Claude (inland) / Delmar (boat)
 
-#### Hidden
-> [!secret]- DM
+#### DM truth
+> [!secret] DM
 > L7 Cliff Cove is false exit. Soft/Rot still held.
 
 #### Run
-- Don't force both branches.\n- Keep action; save reading climax for Beat 06.
+- Don't force both branches.
+- Keep action; save reading climax for Beat 06.
 
 #### If violence starts
 - Inland: pack isolation goal. Boat: reef/hawk claims exposed route; wreck shade is cover.

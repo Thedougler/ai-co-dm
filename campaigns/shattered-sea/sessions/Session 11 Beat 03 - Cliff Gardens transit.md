@@ -1,4 +1,5 @@
 ---
+cssclasses: [session-surface]
 type: session-prep
 campaign: shattered-sea
 session: 11
@@ -27,14 +28,17 @@ L1 run card. Parent control panel: [[Session 11 run]]. Chart: palette, not railr
 
 ### Run now
 #### Immediate
-- [[Aruhe Snapped Canopy Gallery]]\n- Optional light [[Wolfrabbit terrace flank]]\n- Spotlight: [[Jean-Claude Tabarnack]]
+- [[Aruhe Snapped Canopy Gallery]]
+- Optional light [[Wolfrabbit terrace flank]]
+- Spotlight: [[Jean-Claude Tabarnack]]
 
-#### Hidden
-> [!secret]- DM
+#### DM truth
+> [!secret] DM
 > Next must be Development (Hunger). Do not stack a second fight Cliffhanger.
 
 #### Run
-- Short, legible obstacle.\n- Save full wolfrabbit dial for Beat 05 unless needed now.
+- Short, legible obstacle.
+- Save full wolfrabbit dial for Beat 05 unless needed now.
 
 #### If violence starts
 - Opening: flank from terrace/ditch. Morale: packs break if closed ranks / elevation change. Goal: isolate, not clear Gardens.

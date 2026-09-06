@@ -1,4 +1,5 @@
 ---
+cssclasses: [session-surface]
 type: session-prep
 campaign: shattered-sea
 session: 11
@@ -27,14 +28,16 @@ L1 run card. Parent control panel: [[Session 11 run]]. Chart: palette, not railr
 
 ### Run now
 #### Immediate
-- A: [[Quiet verge soft landing]] · [[Aruhe Quiet Green Verge]] · [[Aruhe Silence Threshold]] · Crissdalynn\n- B: [[Western Landing pickup]] · Delmar
+- A: [[Quiet verge soft landing]] · [[Aruhe Quiet Green Verge]] · [[Aruhe Silence Threshold]] · Crissdalynn
+- B: [[Western Landing pickup]] · Delmar
 
-#### Hidden
-> [!secret]- DM
+#### DM truth
+> [!secret] DM
 > Grove mourners do not hunt; memorial touch is later-session. Soft/Rot held.
 
 #### Run
-- Earn the climax from their branch.\n- Keep optional pressure optional.
+- Earn the climax from their branch.
+- Keep optional pressure optional.
 
 #### If violence starts
 - Only if they pinch or expose. Morale: disengage toward Q1 or wreck shade.

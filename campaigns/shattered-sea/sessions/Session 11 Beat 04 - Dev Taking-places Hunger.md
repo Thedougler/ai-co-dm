@@ -1,4 +1,5 @@
 ---
+cssclasses: [session-surface]
 type: session-prep
 campaign: shattered-sea
 session: 11
@@ -28,14 +29,18 @@ L1 run card. Parent control panel: [[Session 11 run]]. Chart: palette, not railr
 
 ### Run now
 #### Immediate
-- Encounter: [[Taking-places Hunger temptation]]\n- Spotlights: [[Catarina Da'Virelli]], [[Perrin Black-Jaw]]\n- Safe: water / stone / shed shell
+- Encounter: [[Taking-places Hunger temptation]]
+- Spotlights: [[Catarina Da'Virelli]], [[Perrin Black-Jaw]]
+- Safe: water / stone / shed shell
 
-#### Hidden
-> [!secret]- DM
+#### DM truth
+> [!secret] DM
 > Hunger ≠ LR food exhaustion. Food check only after a Long Rest.
 
 #### Run
-- Center the temptation scene.\n- Drop more survivor modules.\n- Track claims for Resolution.
+- Center the temptation scene.
+- Drop more survivor modules.
+- Track claims for Resolution.
 
 #### If violence starts
 - Only if claim convergence fires — ecology turns, not a scripted boss.
