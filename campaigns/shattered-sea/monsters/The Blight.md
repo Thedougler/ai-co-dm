@@ -156,7 +156,8 @@ legendary_actions:
 ```
 
 > [!narration] Narration
-> _Visualizer: Hinewai fight sheet pending._
+> Hinewai walks the Grove as a large ivory skeleton under a mantle of moss and rotted bark. Green fire burns in the eye sockets, and long black hair tangles with fruiting vines while leafless branches rise from the shoulders. One forearm is sheathed in dark wood that ends in a clawed hand.
+
 
 # The Blight / Hinewai
 
