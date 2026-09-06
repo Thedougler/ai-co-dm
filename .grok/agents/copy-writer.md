@@ -112,7 +112,7 @@ Dynamic elements that may have moved live in DM text unless current table state 
 - **Location / vehicle:** *This* place, not the concept of a lake. Playable aspects. Senses. Sequenced keys.
 - **Faction:** Public mask, concrete method, one tell a bystander could notice. L1 = how they operate now.
 - **Quest / front:** Stakes, clock, visible sign, consequence if ignored — complete sentences.
-- **Item / monster:** Drawable fiction. Numbers stay on the owner. Run cards **embed** `![[Name#Statblock]]` or the item's limits heading; scene dials are bullets beside the embed.
+- **Item / monster:** Drawable fiction. Numbers stay on the owner. Run cards **embed** `![[Name#Statblock]]` for opposition you will roll. Embed an item only if this slice spends its limits; how someone already flies is not roster.
 - **Lore:** One concrete manifestation a DM can put on the table.
 - **Session / recap / run card:** Play-made truths + tonight's handle. Recaps in past tense. Run cards: put “What do you do?” at the end of `[!narration]`, not in a separate Ask callout. **Be ready for** table (not a player menu): name the creature, item, and place in every cell; `her` / `flier` / `they` fail. Situation magnets, not a named-PC roster. Landing payload. One current-situation paragraph. Three **tells** in narration for any conclusion the table must reach. Vary verbs; do not hammer one tactic word across every line.
 

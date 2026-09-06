@@ -17,7 +17,7 @@ cssclasses: [session-surface]
 - **Goal / exit:** A quiet drop into grass and moving water. This is not a fight to the death.
 - **Danger:** An adult bloodhawk is already coming down out of the sun. Time spent high, loud, or obvious costs hits.
 - **Silence:** Present the dive, ask what they do, then wait. If they freeze, tick the clock.
-- **Situation magnets:** Anyone still at squid height and visible. Anyone in flying boots who stays high. Anyone who attacks, flares, or screams.
+- **Situation magnets:** Anyone still at squid height and visible. Anyone who attacks, flares, or screams.
 
 ## Now
 
@@ -78,10 +78,6 @@ Unforeseen intents use the same want: the adult bloodhawk is hunting the Great C
 The Great Crown Squid is fleeing through the last trees, not fighting the crew unless someone stays glued to it.
 
 ![[Great Crown Squid#Statblock]]
-
-Anyone in the [[Flying Boots]] who stays in high air is an obvious airborne target.
-
-![[Flying Boots]]
 
 > [!secret] DM truth
 > The adult bloodhawk is hunting the Great Crown Squid. The crew is not the chosen meal unless they make themselves one.

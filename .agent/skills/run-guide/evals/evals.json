@@ -45,14 +45,15 @@
     },
     {
       "id": 5,
-      "prompt": "Render the opening 30-minute aerial hunt as the sole-authority run card. Owners exist for Bloodhawk, Great Crown Squid, and Flying Boots. Independent scorers require no page-flip, no dual framework, a threat clock, zones, three player-facing tells, a Be ready for table, round-scripted hawks, and a landing payload.",
+      "prompt": "Render the opening 30-minute aerial hunt as the sole-authority run card. Owners exist for Bloodhawk and Great Crown Squid. The crew can fly; that is ordinary movement, not a plot item. Independent scorers require no page-flip, no dual framework, a threat clock, zones, three player-facing tells, a Be ready for table, round-scripted hawks, and a landing payload.",
       "expected_output": "One cockpit. Glance, Now once, narration with three squid-hunt tells ending on the table question (no separate Ask callout), Be ready for table with skills and DCs, threat clock table, zone table, round script, ![[Bloodhawk#Statblock]] embed plus scene dials, landing callout with ^landing. No Scene menu, no second If ignored, no copied AC/HP. Hunt verbs vary; the same tactic word is not hammered on every line.",
       "expectations": [
         "Contains ![[Bloodhawk#Statblock]] or equivalent heading embed and does not retype AC, HP, or grab DC.",
         "Contains one threat clock, named zones, and a Be ready for adjudication table (intention/approach) that names creatures and places rather than her/flier/they; no closed player menu; no separate Ask callout.",
         "Narration or Now includes three independent tells that she is hunting the squid.",
         "Landing payload states wet/separated/hidden/sight-of-ship/where hawks and squid go.",
-        "No dual Run-now copy of the header; no Scene menu; no prep-workflow sentences."
+        "No dual Run-now copy of the header; no Scene menu; no prep-workflow sentences.",
+        "Does not embed Flying Boots or treat how the crew flies as a plot reminder."
       ]
     }
   ]

@@ -47,14 +47,14 @@ Frontmatter: `type: session-prep` (or `encounter`), `cssclasses: [session-surfac
 
 | Order | Field | Shape |
 |---|---|---|
-| 1 | **Glance** | `## L0 · Glance` bullets: stakes, goal, exit, danger, Silence, **situation magnets** (airborne and visible, spectacle). Not a named-PC roster. |
+| 1 | **Glance** | `## L0 · Glance` bullets: stakes, goal, exit, danger, Silence, **situation magnets** (who is high, loud, or obvious *now*). Not a named-PC roster and not how they fly. |
 | 2 | **Now** | One paragraph. Current situation once. |
 | 3 | **Read aloud** | Open `> [!narration] Narration`. Three **tells** as perceivable facts. End the block on the table question (“What do you do?”). No separate Ask callout. |
 | 4 | **Be ready for** | Table: intent \| approach (skill) \| DC \| success \| partial \| failure. Name the creature, item, and place in every cell (`the adult bloodhawk`, `the Great Crown Squid`, `the crew`). Pronouns (`her`, `flier`, `they`) fail. DM-private. Not a menu to read. |
 | 5 | **Threat clock** | Table inside open `> [!mechanic] Threat clock`. Name the tick (round / hesitation / exposed flier). 3–4 ticks. |
 | 6 | **Zones** | Table: band \| what’s there \| moves to cover. |
 | 7 | **Round script** | Bullets: R1 position, R2 escape/pressure, R3 explode or grab; bloodied; cover-reached; minions. |
-| 8 | **Roster embeds** | `![[Monster#Statblock]]` and item headings. Scene dials as bullets beside the embed. |
+| 8 | **Roster embeds** | `![[Monster#Statblock]]` for opposition you will roll. Item headings only if this slice spends charges or the item is the pressure. Scene dials as bullets beside the embed. |
 | 9 | **Landing payload** | Open `> [!success] Landing` plus `^landing` so the next card can `![[this-note#^landing]]`. |
 | 10 | **Backup** | Extra wikilinks only. Combat owners already embedded. |
 
@@ -75,7 +75,7 @@ opposition goes — the next scene’s opening state, not a place name.
 ## Embed roster
 
 - Tight heading embed: `![[Bloodhawk#Statblock]]`. Optional `![[Bloodhawk#At the table]]` for tactic/tell.
-- Item limits: `![[Flying Boots#Charges / limits]]` or the whole note when that note is already short.
+- Embed an item only when this slice spends its charges, DCs, or limits, or when the item *is* the pressure. How a crew member already flies (boots, wings, spell) is not roster.
 - Do not `![[Bloodhawk]]` the full ecology essay.
 - Do not copy AC, HP, +hit, damage, or grab DCs onto the run card.
 - Scene-only dials (easy Multiattack, young count, this slice’s cover rule) are bullets beside the embed.

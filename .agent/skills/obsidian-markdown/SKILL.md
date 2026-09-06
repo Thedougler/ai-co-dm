@@ -61,7 +61,7 @@ Block id on a paragraph: `text ^block-id`. For lists/quotes, put `^id` on its ow
 ![[Note Name]]
 ![[Note Name#Heading]]
 ![[Bloodhawk#Statblock]]                            Run-card combat (tight heading)
-![[Flying Boots#Charges / limits]]                  Run-card item limits
+![[Item#Charges / limits]]                          Run-card item limits, only if this slice spends them
 ```
 
 More: [references/EMBEDS.md](references/EMBEDS.md) · hub [[attachments/00 Attachments]].
