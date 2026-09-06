@@ -238,7 +238,7 @@ Do not skip Skill-Creator and have Visualizer patch prose ad hoc after a fail.
 | `.obsidian/` | Human vault config + Statblocks/Leaflet (ignore workspace) |
 | `.agent/skills/` | Vault / D&D fleet procedures |
 | `.agents/skills/` | Matt Pocock process pack — **always when appropriate**; not qmd `skills` collection |
-| `scripts/after-write` · `scripts/qmd` · `scripts/lint-statblocks` · `scripts/lint-obsidian-markdown` · `scripts/lint-fat-notes` | Agent CLI |
+| `scripts/after-write` · `scripts/qmd` · `scripts/lint-statblocks` · `scripts/lint-obsidian-markdown` · `scripts/lint-fat-notes` · `scripts/lint-literal-newlines` | Agent CLI |
 | `docs/agents/` | Eng triage — skip for table work |
 
 ## Region subfolder policy (proposal)
