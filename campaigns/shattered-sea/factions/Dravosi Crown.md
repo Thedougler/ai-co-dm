@@ -19,7 +19,7 @@ Make the sea legible and keep the western approach under Crown law: letters of m
 ## How it works
 - **Crown Islands:** Calven, Harwick, Aldenmere, and Stenmark form the western chain; [[Calder's Tooth and Port Tidefall]] is the gatepost at the Central Strait, while [[High Eyrie]] stands beyond the eastern edge.
 - **Harwick:** army island, Naval Yard, Admiralty, and the Bight anchorage for ships of the line.
-- **Calven:** nominal Dravosi harbour authority over a low island where [[Tessarine Concordat]] houses hold six of seven Council seats in [[Calven and Calveno]].
+- **Calven:** nominal Dravosi harbour authority over a low island where four of seven [[Calven and Calveno]] Council houses align with [[Tessarine Concordat]] credit; three can still stall. “Six of seven” is ground feeling, not the seating chart.
 - **Tidefall:** every incoming ship should answer questions, show papers, and accept a recorded rating at the Inspection Pier.
 - **Reach:** strongest west of the Galewall and in the Crown Islands; by the Midchain it can run cutters down the main lanes but cannot keep the whole sea.
 
