@@ -57,8 +57,10 @@ reactions:
 
 # Bloodhawk of Aruhe
 
+![[attachments/shattered-sea/creatures/bloodhawk-of-aruhe.jpg|Bloodhawk of Aruhe]]
+
 > [!narration] Narration
-> A huge bloodhawk works the cloud-canopy and open water, wings broad enough to haul prey aloft. Crimson tips flash when the wings fold for a dive. The serrated beak and sickle talons stay visible even in a stoop.
+> A charcoal-bodied bloodhawk bursts from the storm-dark sky, its broad wings black beneath a sheen of crimson. A shaggy red nape frames its amber eye and pale hooked beak; talons long enough to rake a boat grip the back of a breaching whale. When those wings fold, the red-black feathers narrow into a falling blade.
 
 
 
