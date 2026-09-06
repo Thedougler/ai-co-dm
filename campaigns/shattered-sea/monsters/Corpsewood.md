@@ -44,7 +44,8 @@ actions:
 # Corpsewood
 
 > [!narration] Narration
-> _Visualizer: Aruhe fauna pending._
+> A forty-foot dead tree walks the deep Rot on dragging roots. Split bark knits with wet wood fibers as it moves. Fresh breaks close until fire leaves a black scar that will not knit.
+
 
 ## At the table
 **Tactic:** patrol the deep Rot like a dead tree that refuses to stay broken; drag roots through the line, slam anything that blocks the beat, and uproot the ground when surrounded. **Tell:** split bark knits visibly until fire blackens the seams.

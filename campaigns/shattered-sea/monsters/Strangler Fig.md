@@ -44,7 +44,8 @@ actions:
 # Strangler Fig
 
 > [!narration] Narration
-> _Visualizer: Aruhe fauna pending._
+> Curtains of aerial roots hang across a game trail already pinched through stone. Old bones show in the bark of a hollow trunk. The rooted fig fills the bottleneck with wood and hanging root.
+
 
 ## At the table
 **Tactic:** let a trail pinch itself → aerial roots reach from the curtain → one victim disappears into the hollow trunk. **Tell:** curtains of roots hang across a game trail already squeezed through stone; old bones show in the bark.

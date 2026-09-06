@@ -54,7 +54,8 @@ reactions:
 # Snakewood
 
 > [!narration] Narration
-> _Visualizer: Aruhe fauna pending._
+> Ordinary-looking canopy vines rest in a bundle above the trail. Antlers, boots, and feathers litter the floor beneath. Five or six stems braid into a jaw-shaped wedge among the leaves, with tiny sweet flowers along the inner edge.
+
 
 ## At the table
 **Tactic:** rest as a vine bundle → braid-wedge clap → haul up → digest in the canopy. **Tell:** trails swing wide around ordinary-looking canopy; antlers, boots, and feathers remain on the floor.

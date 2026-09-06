@@ -43,7 +43,8 @@ actions:
 # Vine Lash
 
 > [!narration] Narration
-> _Visualizer: Aruhe fauna pending._
+> Shoulder-thick leafless hangers drape over a trail like ordinary rope. Five or six rope-thick stems hang together from the canopy in one grasping bundle. The tendrils twitch only after something enters the trail lane.
+
 
 ## At the table
 **Tactic:** hang as ordinary rope → whip → wrap → squeeze. **Tell:** shoulder-thick, leafless hangers over a trail. The first round establishes a grapple; the next round chooses between more reach and a squeeze.

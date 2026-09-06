@@ -47,7 +47,8 @@ actions:
 # Young Snakewood
 
 > [!narration] Narration
-> _Visualizer: Aruhe fauna pending._
+> On the first terraces, ordinary vines hang in the low canopy. Five or six stems tighten together, and tiny flowers show inside a forming wedge. The low branches shake when the stems draw tight.
+
 
 ## At the table
 **Tactic:** ordinary terrace vines → one braid-wedge snap → short haul into the low canopy. **Tell:** five or six stems tighten together, and tiny flowers appear inside the closing jaw.
