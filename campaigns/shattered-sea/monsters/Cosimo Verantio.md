@@ -74,7 +74,8 @@ legendary_actions:
 ```
 
 > [!narration] Narration
-> _Visualizer: Cosimo fight sheet pending._
+> Cosimo Verantio stands as a tall, fine-scaled dragon in a cutaway counting-house coat. Seal-stamped papers orbit him like filings around a magnet. His scales hold an ink-black sheen until a challenged note dulls them and the papers fall out of formation.
+
 
 # Cosimo Verantio / The Principal
 
