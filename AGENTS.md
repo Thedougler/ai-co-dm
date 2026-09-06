@@ -62,7 +62,7 @@ Obsidian LLM wiki for Nick's home D&D. **Markdown is the product.**
 | Eval whether wiki helps / quality harness | `llm-wiki-eval` → **Ops** / **Skill-Creator** / **Organizer** |
 | Web URL → clean Markdown capture | `defuddle` → `wiki-ingest` → **Ingest** |
 | Inbox / source triage before ingest | `wiki-triage` → **Ingest** / **Organizer** |
-| Ingest source → typed notes | `wiki-ingest` → **Ingest** |
+| Ingest source → typed notes | `wiki-ingest` → **Ingest** — decompose checklist → organize → dual-search `-c wiki` + `-c legacy-ss` per named entity → file **all** related (not thin skim) |
 | Wiki health / orphans / hot drift | `wiki-lint` → **Linter** |
 | Citation / claim audit (one note) | `wiki-audit` → **Linter** (Organizer light use) |
 | Durable capture / session synthesis | `wiki-crystallize` → **Ingest** / **Co-DM** / **Session-Planner** |
@@ -153,7 +153,7 @@ Rules:
 | **Homebrewer** | Default general-purpose brew bot — subclasses, spells, feats, backgrounds, vehicle math (`vehicle-design`), and any brew type without a specialist yet; router: monsters → **Monster-Brewer**, items → **Item-Brewer** (lazy specialists; do not pre-spin) |
 | **Researcher** | Prior art (web); not vault canon |
 | **Organizer** | Indexes/MOCs, structure doctrine, hot refresh, light inbox triage; owns `campaigns/<campaign>/vehicles/` layout |
-| **Ingest** | `wiki-ingest` — inbox/URL/paste → typed linked notes; prior context via `-c legacy-ss` (read-only) |
+| **Ingest** | `wiki-ingest` — inbox/URL/paste → typed linked notes; hard gate: decompose → organize → dual-search `-c wiki` + `-c legacy-ss` (read-only) per named entity → file all related; no thin skim |
 | **Linter** | `wiki-lint` checklist/audit (report + propose) |
 | **dr eggbot** | CreateAgent / new-role design for the fleet (Team-Leader routes; does not CreateAgent) |
 | **Team-Leader** | Roster health, routing/persona tweaks, collision triage across bots (not CreateAgent — eggbot; not AGENTS/scripts/qmd infra — Ops) |
