@@ -9,7 +9,8 @@ tags: [faction, countless, schism]
 # Countless
 
 > [!narration] Narration
->
+> Countless are breakaways from the Sentinels, present more as missing names than as any posted roll. Hired blades and paid contacts take one job each and never learn who ordered it. Along pilgrim routes, grey markets, and Sentinel waystations, the work leaves empty places where a name used to sit. Agents answer to the shared title Talon. Talon is the name people hear before they meet anyone who claims it.
+
 
 
 
