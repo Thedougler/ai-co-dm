@@ -75,3 +75,8 @@ Routine → Alert → Contested → Occupied/Refused: standard stop → increase
 Port Tidefall is staging for the Maw whether the Governor knows it or not. Extra companies sit at Fort Crestwall under Admiralty-sealed orders; manifests include reef-diving gear and underwater charges bound for the trench. [[Delmar Fisk]]'s old commission name still opens Crestwall's gate. The Governor remains unaware of the sealed orders.
 
 **Provenance:** Dump source 2026-09-05; legacy `/Users/nick/shattered-sea/wiki/shattered-sea/location-fort-crestwall.md`, `/Users/nick/shattered-sea/wiki/shattered-sea/npc-governor-voss.md`.
+
+## Waveservant Dockfront shrine
+At the south end of the Dockfront, the harbour shrine is cut into the cliff with its roof pressed low. Tallow and salt come first. A junior watches the candles while a senior handles the tribute and its record. It is harbour furniture beside the Crown's inspection machinery, not a land temple.
+
+**Provenance:** Dump source 2026-09-05; legacy `/Users/nick/shattered-sea/wiki/shattered-sea/settlement-tidefall.md`.

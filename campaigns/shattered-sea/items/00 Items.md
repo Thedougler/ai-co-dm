@@ -16,3 +16,7 @@ tags: [index, item]
 ## Ingest additions
 - [[The Duchess]] · [[The Baroness]] · [[Delmar's Blunderbuss]] · [[Ragnetto]]
 - [[Dragonhide Belt]] · [[Flying Boots]] · [[The Snap]]
+
+## Umberlee ingest
+- [[Pearl of Souls]] — seven-instrument relic, Vel Orn theft, drowned-soul capture, and boundary signal.
+- [[Tithe of the Bitch Queen]] — Sunken Crown hoard and saltwater-return weather curse.

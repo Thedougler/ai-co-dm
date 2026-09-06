@@ -25,3 +25,7 @@ tags: [index, location]
 ## Drowned Maw ingest
 - [[Drowned Maw]] · [[Outer Reach]] · [[Shelfworks]] · [[Mid-Works]] · [[Deep Works]] · [[Fathomrush]]
 - [[High Eyrie]] · [[Calder's Tooth and Port Tidefall]] · [[Vel Orn]] · [[Halewick]] · [[Keth Naar]]
+
+## Umberlee harbour shrines
+- [[Vel Orn]] — Sunken Crown cliff shrine, drowned ledger, and Pearl tidal pool.
+- [[Kalowe]] · [[Calven and Calveno]] / [[Mercatura]] · [[Calder's Tooth and Port Tidefall]] — working harbour furniture and tribute basins.

@@ -24,7 +24,7 @@ Human Swashbuckler Rogue; self-appointed youngest admiral, smiling through wreck
 Swashbuckling, charm under pressure, crew drama, and the hard choice between giving an order, talking, running, or fighting. The captains voices make passage, coercion, and an ally dropping dangerous immediately.
 
 ## Lightning rods
-- [[Pearl of Souls]], [[Fisk's Captains]], and [[Umberlee / Branca]]
+- [[Pearl of Souls]], [[Fisk's Captains]], and [[Umberlee - Branca]]
 - [[Crissdalynn Khinriss]] and the [[Drowned Maw]]
 - [[Serafina Windfall Fisk]] and [[Maggie Porcelain Pots]]
 - The five Fleet ships and the stolen shrine relic

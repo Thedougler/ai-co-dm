@@ -6,28 +6,25 @@ rarity: unknown
 attunement: false
 owner: Delmar Fisk
 visibility: dm
-tags: [item]
+tags: [item, pearl, umberlee, maw]
 ---
 # Pearl of Souls
-## Look
-Fist-sized black pearl, always too dark around the edges.
-## What it does (table)
-Collects the souls of anyone drowning near it. It is one of seven Umberlee instruments.
-## Charges / limits
-Souls remain trapped in the wreck at the bottom of [[Drowned Maw]].
-## Story hooks
-[[Umberlee]] wants it back but cannot retrieve it beyond her claim without losing the souls into the Maw.
-## Provenance
-Stolen from a hidden Waveservant shrine on a Chain Council commission.
 
-## Maw signal and choices
-The Pearl is a battery of soul-power broadcasting across the planar boundary. It switched on as Fisk's five ships fell, collecting the crews; the wreck remains on the eastern Shelfworks below the line where Umberlee's water becomes elemental. It is still calling.
+## Appearance and function
+The Pearl is fist-sized and black, with a sheen that will not sit still. Anyone who can feel death feels it before seeing it. It is one of seven instruments of [[Umberlee]]; the other six remain unfound. Its one automatic function is to take and keep the souls of people who drown near it.
 
-- **Recover:** stop the signal, make the fissure geology again (or as close as possible), and decide what happens to trapped souls.
-- **Give to Umberlee:** immediate crisis ends; she regains a major instrument and the tribute bargain continues under her terms.
-- **Keep:** leverage and a wider war.
-- **Leave:** more entities cross and Shelfworks becomes harder to work.
+## Vel Orn theft and aftermath
+The [[Waveservants]] guarded the Pearl for years at the hidden [[Vel Orn]] shrine, over a tidal pool built for it. [[Delmar Fisk]] stole it under a [[Chain Council]] commission arranged by the [[Tessarine Concordat]] so [[Aldric Drave]] would not reach it first. The five-ship fleet — *[[Red Lady - Dead Lady|Red Lady]]*, *Narrow*, *Heft*, *Fernen*, and *Loud Argument* — vanished into fog as a trench opened beneath them and dropped them eighty feet on the eastern [[Shelfworks]], inside the [[Drowned Maw]].
 
-It is one of seven Umberlee instruments; the other six remain unfound. Anyone who senses death feels the Pearl before seeing it; its sheen will not stay still.
+Umberlee pressed the five captains into Delmar, the only man who walked away, while the crews stayed in the Pearl. She cannot reach through the Maw's elemental water to retrieve it and will not kill Delmar while doing so would lose the captains.
 
-**Provenance:** Dump source 2026-09-05; legacy `/Users/nick/shattered-sea/wiki/shattered-sea/item-pearl-of-souls.md`, `/Users/nick/shattered-sea/wiki/shattered-sea/location-umberlee-shrine-vel-orn.md`.
+## Signal
+The Pearl is still working at the wreck below Umberlee's claim. It holds Fisk's crews and people the [[Leviathan]] has killed since, and broadcasts across the boundary. The Leviathan and smaller horrors have answered; something larger is pushing. Recovering the Pearl would stop the signal. Leaving it calls the next thing to the next fissure.
+
+## Choices
+- **Recover:** stop the signal, then decide what happens to the trapped souls.
+- **Give to Umberlee:** return a major instrument and end the immediate Pearl demand under her terms.
+- **Keep:** retain leverage while widening the war.
+- **Leave:** allow further answers across the boundary and worsening salvage conditions.
+
+**Provenance:** Dump source 2026-09-05; legacy `/Users/nick/shattered-sea/wiki/shattered-sea/pearl-and-the-maw/item-pearl-of-souls.md`, `/Users/nick/shattered-sea/wiki/shattered-sea/location-umberlee-shrine-vel-orn.md`, `/Users/nick/shattered-sea/wiki/shattered-sea/event-delmar-umberlee-bargain.md`.

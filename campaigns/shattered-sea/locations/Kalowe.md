@@ -43,3 +43,8 @@ Kalowe's free-port posture is practical rather than empty of power: pilots, the 
 
 ## Legacy continuity
 After the *[[Red Lady - Dead Lady]]* sank, [[Master Kyzil]] tracked current and weather and searched Kalowe and [[Tidefall]] before finding [[Crissdalynn Khinriss]] in [[Calveno]].
+
+## Waveservant shrine
+The shrine is a stone niche in the causeway wall at the reef-gap, under a salvaged timber roof. Every hull through the gap passes within reach of its basin; one attendant knows ships by what they owe. The [[Chain Council]] has been raising Kalowe's tribute to buy silence about the Pearl theft, which only teaches the clergy who else belongs on the ledger.
+
+**Provenance:** Dump source 2026-09-05; legacy `/Users/nick/shattered-sea/wiki/shattered-sea/settlement-kalowe.md`.

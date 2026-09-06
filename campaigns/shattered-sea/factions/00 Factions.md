@@ -16,3 +16,7 @@ tags: [index, faction]
 ## Drowned Maw ingest
 - [[Antheri]] · [[Sunkline]] · [[Voyvode]] · [[Waveservants]] · [[Sentinels of the Eyrie]]
 - [[Tessarine Concordat]] · [[Chain Council]] · [[Umberlee]]
+
+## Umberlee / Waveservants ingest
+- [[Umberlee]] — sea deity, tribute theology, Maw boundary, Tithe, and collection hull.
+- [[Waveservants]] — neutral same-rate harbour clergy and tribute network.

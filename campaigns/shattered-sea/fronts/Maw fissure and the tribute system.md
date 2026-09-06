@@ -70,3 +70,8 @@ The [[Drowned Maw]] fissure opens beyond any system's ability to contain it, tur
 The Pearl's signal and tribute system are one pressure seen from two heights. Umberlee's claim stops at elemental water; tribute may be the procedural containment holding the fissure. If ledgers go red long enough, currents reverse, unknown-quarry stone rises, and missing ships become a rate. Auralis is the Antheri machine holding the fissure and losing ground; entities from the far side include [[Leviathan]], [[Ridgeback]], and [[Krakling]], while something larger scrapes at the crack.
 
 **Provenance:** Dump source 2026-09-05; legacy `/Users/nick/shattered-sea/wiki/shattered-sea/region-drowned-maw.md`, `/Users/nick/shattered-sea/wiki/shattered-sea/event-delmar-umberlee-bargain.md`.
+
+## Umberlee ingest refresh
+The daily tribute may be the procedural plug in the trench, not merely harbour custom. If a major harbour's ledger stays red, the sea starts answering: stone with no known quarry rises, currents reverse against tide tables, ships vanish, and old records remain unread. Umberlee's claim ends where the water becomes elemental, so the [[Pearl of Souls]] signal and the tribute system are one pressure seen from two heights. [[Sentinels of the Eyrie]] may hold observational evidence but their doctrine is to record, not interpret.
+
+**Provenance:** Dump source 2026-09-05; legacy `/Users/nick/shattered-sea/wiki/shattered-sea/pearl-and-the-maw/region-drowned-maw.md`, `/Users/nick/shattered-sea/wiki/shattered-sea/event-delmar-umberlee-bargain.md`.

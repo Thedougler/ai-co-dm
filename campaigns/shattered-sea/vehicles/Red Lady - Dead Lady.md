@@ -76,3 +76,8 @@ The original *Red Lady* was flagship of Fisk's five-ship fleet, with [[Rael Corv
 The Dead Lady is now her collection hull: cargo dumped as tribute, empty boats left spinning, no survivors or negotiation, and the drowned original crew working the decks in silence.
 
 **Provenance:** Dump source 2026-09-05; legacy `/Users/nick/shattered-sea/wiki/shattered-sea/vehicle-red-lady.md`, `/Users/nick/shattered-sea/wiki/shattered-sea/vehicle-dead-lady.md`.
+
+## Collection hull behaviour
+The *Dead Lady* is the *Red Lady* raised and sent to work. Since Delmar sailed the Midchain instead of east toward the Maw, it holds station, knows his heading, and makes defiance cost more than compliance. It does not close merely to kill him. Holds are dumped, crews are taken whole, and empty boats are left spinning; the drowned original crew works the decks in silence. This is Umberlee's collection by hull, not Item-Brewer mechanics.
+
+**Provenance:** Dump source 2026-09-05; legacy `/Users/nick/shattered-sea/wiki/shattered-sea/pearl-and-the-maw/vehicle-dead-lady.md`, `/Users/nick/shattered-sea/wiki/shattered-sea/vehicle-red-lady.md`.

@@ -13,7 +13,7 @@ tags: [story, recap]
 ## Season 1 — closed
 - The crew formed aboard Beaumont Sel's *Saltwright* during Barnaby Rook's boarding of the Crown cutter [[HCS Surety]]. They took the *Surety*, recruited [[Geoffrey Draves]], and freed [[Ket]] to fly home toward Murrat.
 - In the run to Calveno, Perrin heard **Grow** from the whip-shark vision; the crew killed the shark, kept its barb and scales, and Jean-Claude took three eggs. The cutter was renamed [[Uncertainty]].
-- [[Nona Black-Jaw]] called the crew into the Warren, [[Master Kyzil]] entered the chase, and [[Umberlee / Branca]] made the Pearl of Souls demand explicit: bring her the Pearl or Delmar's life remains forfeit.
+- [[Nona Black-Jaw]] called the crew into the Warren, [[Master Kyzil]] entered the chase, and [[Umberlee - Branca]] made the Pearl of Souls demand explicit: bring her the Pearl or Delmar's life remains forfeit.
 - The Warren operation moved through Felix Aho, Ruma Delacroix, and Bazzoth to Solange Barret's ritual. The crater produced [[Otar the Foul]]; the crew and Calveno stopped it. The unread scrap in Otar's rot and Delmar's unscratched chair remain unresolved.
 - [[Iacopo Fieschi]] named them Calveno's Defenders on Tessarine paper. Rupert Knighton's evacuation orders had reached someone before the collapse, but not Fieschi. The Calveno levy is still gone.
 - Nona's crater desk recorded **314+** missing, all fighting-age men. Passage hulls pursued while the crew followed the raiding-fleet trail. The Snap page named [[Osset]]; [[Nightmantle]]'s seller, Lavinia Sordi, named Osset again. The two traces are linked to the Sentinel schism.

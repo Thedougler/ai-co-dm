@@ -71,3 +71,8 @@ Quiet → Alert → Contested → Transformed: trade → searches/rates → riva
 ## Mechanics and return
 - Canals/sewers use Difficult Terrain and cover; Study/Influence/Utilize can replace a single key. Failure costs time/trust/position.
 - **Return state:** record opened gates, called debts, moved witnesses, and the route Calveno expects.
+
+## Waveservant harbour shrine
+On the [[Mercatura]] canal, a pale stone arch is shallow enough for boats to read the tribute terms posted toward the water, not the door. A basin fills from the channel; tallow candles burn behind glass. The senior records who paid and who skipped while a junior keeps the candles and basin clean. [[Umberlee - Branca]] keeps her appointment here.
+
+**Provenance:** Dump source 2026-09-05; legacy `/Users/nick/shattered-sea/wiki/shattered-sea/location-waveservant-shrine.md`, `/Users/nick/shattered-sea/wiki/shattered-sea/calveno-raid/location-mercatura.md`.
