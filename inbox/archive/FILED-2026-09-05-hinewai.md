@@ -70,7 +70,7 @@ The question the island asks is not whether you can kill a lich. It is whether g
 
 ## Filing record
 
-- Pending: dual qmd search (wiki then legacy-ss) recorded in the ingest handoff.
+- Completed: dual qmd search (wiki then legacy-ss) recorded below.
 - Completed: typed-note updates, index links, archive drain, and after-write.
 
 ## Coverage and dual-search record
