@@ -6,6 +6,9 @@ visibility: dm
 tags: [index, monster]
 ---
 # Monsters
+## Aruhe - key encounter
+- [[The Blight|Hinewai / The Blight]] — Death Bloom objective fight; see the house statblocks and state track.
+
 ## Aruhe - claims map roster
 - **Beach / reef gap:** [[Reef Skull|Reef Skulls]] - [[Small Blood Hawk|Small Blood Hawks]]
 - **Old Gardens / first terraces:** [[Wolfrabbit]] - [[Grinning Ape|Grinning Apes]] - [[Vine Lash|Vine Lashes]] - [[Grubnade]] - [[Unsaid Macaw|Unsaid Macaws]] - [[Young Snakewood]] - [[Snakewood]]
