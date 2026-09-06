@@ -13,6 +13,8 @@ tags: [session-prep, aruhe]
 Disposable. Rewrite next time; do not treat as canon.
 
 > [!narration] Narration
+> You hang in open air above the canopy with the Crown Squid still holding the tree line below. A Bloodhawk arrives on the thermal, wings folding so the crimson tips flash on a dive aimed at the squid, and at anything else left in the open sky. Closed canopy and deep grass wait below as cover from the stoop.
+
 
 
 ## Locked machine (Nick)

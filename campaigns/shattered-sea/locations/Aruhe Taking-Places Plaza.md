@@ -10,6 +10,8 @@ session11_code: C
 # Aruhe Taking-Places Plaza
 
 > [!narration] Narration
+> The Taking-Places Plaza is a terrace court of fruit stalls, with blood and skulls near fallen bodies. Sugar-sour air hangs in the afternoon heat. Insects work the fruit while survivor signs keep pointing inland.
+
 
 
 ## At a glance
