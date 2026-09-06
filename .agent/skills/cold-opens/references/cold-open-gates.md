@@ -41,6 +41,9 @@ when every item passes.
 
 - A borrowed-POV scare-and-drop `[!narration]` stops on a currently visible
   dive, pressure, cover, route, or other affordance.
+- Pressure is drawable, not an abstract mood claim. Reject `Pressure fills the open sky`
+  and any `Pressure fills...` closer; name its visible or audible source, such as wind
+  roar, wing rush, a diving shadow, or shaking cover.
 - It does not coach the win condition (`is the win`, `not killing the X`, or an
   equivalent closer).
 - It does not promise future tactics (`will not follow you`, `will not chase`,

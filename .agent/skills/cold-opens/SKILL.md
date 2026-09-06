@@ -155,7 +155,7 @@ If the POV, place, or threat still has no pictureable facts, invoke
 `theatre-of-the-mind` for the read-aloud text. Narration is written
 for the DM to **say**: concrete sensory information, active events, short
 paragraphs, visible threats, one strong image over several decorative details,
-in the order the character perceives it. Between checks, narrate the
+in the order the character perceives it. For a scare-and-drop, pressure must be drawable: name the wind roar, wing rush, diving shadow, shaking cover, or other visible/audible event. Never write abstract mood pressure such as `Pressure fills the open sky` or any `Pressure fills...` closer. Between checks, narrate the
 consequence and move to the next pressure. Give dialogue as compact intent plus
 strong lines, never a scripted exchange whose timing depends on the players.
 

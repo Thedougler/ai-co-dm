@@ -74,11 +74,22 @@ and every response costs something.
 10. **Resolve the changed world.** Follow Climax with one Resolution. Show the
     consequences of player choices, including costs, altered relationships,
     opened routes, unresolved danger, or new opportunities. Make any sequel
-    follow the fiction; do not preserve an antagonist merely to demand a rematch.
+    follow the fiction. Resolution narration shows changed ground only: name what
+    is now different in the world and any live choice that follows. Ban status or
+    promise closers such as `Soft landing holds:` and `The next frontier waits
+    beyond this edge.` Do not replace changed facts with a soft-landing label or a
+    generic frontier tease. Do not preserve an antagonist merely to demand a rematch.
 
 ## DM-facing chart-card format
 
 For every candidate that may fire, render a compact DM card before prose: state and trigger; visible situation and public stakes; at least two materially different options or an off-ramp; fuse with current state, advance trigger, visible sign, consequence, and player levers; a named-PC spotlight tied to the pressure; and success, partial, failure, ignored-state, and recompute updates. Keep Hook/Development/Cliffhanger labels provisional until firing. This card is DM shorthand, not player-ready prose; route spoken changes to theatre-of-the-mind.
+
+### Beat-card narration gate
+
+When a beat card contains `[!narration]`, it is a player-facing handoff: show the
+current changed situation, visible pressure, and available opening. Never use a
+soft-landing or other outcome closer such as `Soft landing is in reach`; leave the
+result to play and keep procedure or interpretation in the DM card.
 
 ## Agency gates
 

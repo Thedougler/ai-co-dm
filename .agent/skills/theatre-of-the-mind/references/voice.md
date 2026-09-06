@@ -157,7 +157,8 @@ evidence.
 | rather than glitter / not flashy / without dazzle / quiet weight rather than X | a positive drawable sensory or physical fact, or cut |
 | offer rest and direction / provide shelter (as theme) / stays unclaimed / claim the water | pointable shore, channel, cool water, wet stone; no kernel metaphysics |
 | em dash (`—`) or en-dash used as stylish pause in player prose | period, comma, or parenthesis |
-| river cuts / embouchure / thalweg / other workshop geography | river mouths, where the rivers open into the lake, lake edge |
+| river cuts / irrigation cuts / embouchure / thalweg / other workshop geography | river mouths, irrigation ditches or channels, where the rivers open into the lake, lake edge |
+| abstract pressure (`Pressure fills the open sky` / `Pressure fills...`) | the drawable source: wind roar, wing rush, moving shadow, shaking cover, or another perceivable event |
 | invented mystery closer (`shadow turns, then still` / `then everything goes still`) on cold place portrait | cut; stable geography only unless table state supplies current motion |
 | enormous life theme with no parent-stable ecology fact | defer to DM/encounter; do not invent a motion sting |
 | spins like a meditation focus / as a focus for prayer (as the description) | how it physically spins, wobbles, sits, or weighs; cover names stay Identified/DM |

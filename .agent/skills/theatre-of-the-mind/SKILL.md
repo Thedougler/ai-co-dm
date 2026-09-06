@@ -158,6 +158,8 @@ label, `at the table` as meta. Stop by **omission** — the last image is the
 windup — never by naming the stop ("and the telegraph ends there"). Keep those
 words in skill/reference/DM notes only.
 
+- **Drawable pressure:** in a cold open or scare-and-drop, pressure must come from a visible or audible source. Never use abstract mood pressure such as `Pressure fills the open sky` or any `Pressure fills...` closer; name the wind roar, wing rush, diving shadow, shaking cover, or other drawable event instead.
+
 - **Situated moment:** write from the supplied table state and viewpoint. Route
   by surface below, preserve the current environment and motion, and stop at
   that surface's natural player opening. On a creature first look, the opening
