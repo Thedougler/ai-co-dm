@@ -27,6 +27,12 @@ Keep the caste-and-rite system intact while recovering lost ground on the water.
 - The exact chemistry of every diet, the complete rite, and the biological mechanism behind color change are **UNKNOWN** beyond the linked DM lore.
 
 ## Color caste and the sealing rite
+
+## Biology, water, and the closed interior
+A Grung breathes air and water. Its vivid skin stays wet, and a full day without roughly an hour of soaking becomes a physical failure that only another soak repairs. Touch carries poison. Leaping, wet-wood climbing, and tongue-work are ordinary Grung physiology; a spell-sight sees no magic in them.
+
+The Teeth are not a town network. Canopy, standing pools, flooded cuts, and mid-story routes replace marked streets. From open water the islands read as one green wall and pale reef ring: there is no harbour wall or town smoke. Boats work the gaps, sanctioned beaches are the only ordinary interface, and a hull that noses into a closed reef gap receives a dart, not a hail.
+
 Color is not a birthright. Diet plus the sealing rite produces and maintains caste color; a Grung can be read by the color their body currently carries. The five recognized colors are **gold, red, purple, blue, and green**.
 
 Known role signals are practical rather than a complete org chart:

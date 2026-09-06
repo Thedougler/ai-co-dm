@@ -29,3 +29,6 @@ tags: [index, monster]
 - [[Ridgeback]] — Clyde-documented member of the same displaced kind; stub only.
 - [[Krakling]] — juvenile Midchain report; stub only.
 - Light ecology links: reef sharks in upper halls, hunter sharks at the edge, giant squid in deeper channels.
+
+## Dravosi Crown / bloodline
+- [[Aldric Drave]] — Founder-lich house fight sheet; Crestwall vault encounter and bloodline / phylactery / inhabit-heir state track.
