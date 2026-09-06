@@ -94,6 +94,14 @@ This repo is an **Obsidian prose wiki**, not an application codebase. Prefer vau
 | NPCs | `npc-design` |
 | Monsters | `homebrew-monsters-5e` → **Monster-Brewer** |
 | Magic items | `dnd-5e-magic-item-design` → **Item-Brewer** |
+| Challenge design | `traps-trials` |
+| Situation topology | `narrative-islands` |
+| Campaign architecture | `campaign-planning` |
+| Faction prep | `faction-prep` |
+| Off-screen world advancement | `world-tick` |
+| Player-facing post-session recap | `session-recap` |
+| Presence/elaboration pass | `flesh-out` |
+| Borrowed-POV session opener | `cold-opens` |
 
 **Brew routing:** **Homebrewer** is the default general-purpose brew bot. Dedicated brew specialists (pattern: Monster-Brewer, Item-Brewer, **Dungeon-Designer**) are spun **lazily** when a content type is frequent/important — not pre-created. Until then, that type stays on Homebrewer. Places that are **dungeons** / megadungeons → **Dungeon-Designer** (already earned). New brew specialist → **Team-Leader** routes design to **dr eggbot**, then **Ops** wires AGENTS.
 
