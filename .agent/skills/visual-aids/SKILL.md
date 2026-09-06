@@ -1,0 +1,47 @@
+---
+name: visual-aids
+description: >-
+  Attach, ground, generate, promote, or place a player-safe visual aid for a named campaign owner
+  or session moment. Use when a page needs an identity image, prep names a moment to picture, or
+  a run guide needs approved images. Not map rendering, spoken narration, or invented faces.
+---
+
+# Visual Aids
+
+The owner's appearance prose is the source of truth. A reference image supports that look; an
+illustration depicts one moment and never becomes identity. Spoken `[!narration]` remains the
+table's descriptive layer and an image follows the same information boundary.
+
+## Ground
+
+Read the named owner's look, existing image links, campaign style guidance if present, and output
+audience. Identify every named thing depicted. A missing look is a stop: ask for appearance or
+use prose only. Never infer a PC face, secret fact, pending event, or hidden location from another
+page's image.
+
+- **Reference image:** durable identity asset linked on the owner and optionally marked safe for
+  players.
+- **Illustration:** session-scoped moment stored with session/run-guide material, not identity.
+- **Map/source art:** owned by map/layout procedure, not this identity workflow.
+
+## Branch and persist
+
+**Attach** an existing file under `attachments/<campaign>/` (or the established attachment bucket),
+link with `![[attachments/...]]`, and list it on the owner only when the identity is truly shared.
+Do not mark player-safe by default.
+
+**Mint identity** only when a supplied look exists, no identity file is listed, and an authorized
+current task needs one. Keep provisional until DM approval. PC images require player-supplied or
+player-approved material. **Mint illustration** only for an explicitly named session moment; keep
+it session-scoped and out of identity lists. **Promote/kill** accepted candidates without leaving
+competing faces active. **Assemble** only approved player-safe images for entities actually in the
+guide; no gallery backfill.
+
+Ground pixels only in style guidance, the depicted owner's look, and that owner's approved identity
+references. Exclude secrets, hidden events, inaccessible pages, unrelated illustrations, and details
+outside the output audience. Patch the owner, never a `kind: image` page. Use `obsidian-markdown`,
+inspect for visibility leakage, and finish writes with `./scripts/after-write "ground visual aid"`.
+
+If generation is unavailable, leave an unresolved visual-aid request with the full safe prompt;
+do not pretend a file exists. `obsidian-leaflet` owns maps and `theatre-of-the-mind` owns spoken
+prose.
