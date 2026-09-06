@@ -119,7 +119,7 @@ Do not skip Skill-Creator and have Visualizer patch prose ad hoc after a fail.
 | `campaigns/` · `templates/` · `lexicon/` · `inbox/` · `attachments/` | Wiki (Obsidian: new notes → inbox, embeds → attachments) |
 | `.obsidian/` | Human vault config + Statblocks/Leaflet (ignore workspace) |
 | `.agent/skills/` | Procedures |
-| `scripts/after-write` · `scripts/qmd` · `scripts/lint-statblocks` · `scripts/lint-obsidian-markdown` | Agent CLI |
+| `scripts/after-write` · `scripts/qmd` · `scripts/lint-statblocks` · `scripts/lint-obsidian-markdown` · `scripts/lint-fat-notes` | Agent CLI |
 | `docs/agents/` | Eng triage — skip for table work |
 
 ## Region subfolder policy (proposal)

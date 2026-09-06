@@ -27,8 +27,9 @@ Do **not** run generic PKM 17-step audits, `wiki/.state.json` checks, or `~/.obs
 7. **Prep/log mash** — `session-prep` living in `session` (or reverse).
 8. **Narration boundary** — `[!narration]` leaking DCs/secrets/unearned names (sample recent). Also covered by `./scripts/lint-obsidian-markdown` (`dc_in_narration`).
 9. **Obsidian markdown** — run `./scripts/lint-obsidian-markdown`. FAIL = in-vault markdown links, DC-in-narration, forbidden `wiki/`·`concepts/`·`sources/`. Warn = title-only / missing frontmatter (`--strict` to fail). Skill: `obsidian-markdown`.
-10. **Monster statblocks** — run `./scripts/lint-statblocks`. FAIL = prose/house AC·HP without Fantasy Statblocks fence, or fence not first after frontmatter. Warn = stub with no block. Convert via **Homebrewer**; do not invent CR math in lint.
-11. **qmd freshness** — if git moved and index stale, note `./scripts/after-write` / `./scripts/qmd update`.
+10. **Fat notes (split candidates)** — run `./scripts/lint-fat-notes` (report only). Propose atomic splits; do not auto-split.
+11. **Monster statblocks** — run `./scripts/lint-statblocks`. FAIL = prose/house AC·HP without Fantasy Statblocks fence, or fence not first after frontmatter. Warn = stub with no block. Convert via **Homebrewer**; do not invent CR math in lint.
+12. **qmd freshness** — if git moved and index stale, note `./scripts/after-write` / `./scripts/qmd update`.
 
 Structural checks first. LLM judgment only on contradiction/dupe clusters — do not load every page body.
 
