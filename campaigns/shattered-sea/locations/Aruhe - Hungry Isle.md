@@ -9,9 +9,10 @@ tags: [location, region, aruhe, hungry-isle]
 # Aruhe / Hungry Isle
 
 ## Art
-![[attachments/shattered-sea/places/aruhe-2.jpeg]]
+![[attachments/shattered-sea/places/aruhe-hungry-isle.jpeg|Aruhe / Hungry Isle]]
+
 > [!narration] Narration
-> _Visualizer: Hinewai ingest pending._
+> From offshore, Aruhe rises as a green country surrounded by deep blue water: forested ridges fold toward a dark inland lake, cliffs break into bright beaches, and reefs fringe the shore. No settlement marks the island from above. The farther the eye follows its valleys and wooded slopes, the more the island feels like a world with its own borders.
 
 
 
