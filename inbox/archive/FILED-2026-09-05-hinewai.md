@@ -101,4 +101,4 @@ Each checklist item received the required `-c wiki` search followed by `-c legac
 - [x] Organized into 8 typed note/index owners plus 1 explicit no-file optional disposition.
 - [x] Distilled all actionable source claims.
 - [x] Legacy provenance cited in promoted notes.
-- [ ] Drain to `inbox/archive/` as FILED after `after-write`.
+- [x] Drain to `inbox/archive/` as FILED after `after-write`.
