@@ -9,7 +9,8 @@ tags: [hazard, aruhe]
 # Stillbloom
 
 > [!narration] Narration
-> _A dull four-foot waxy stalk — boring until someone runs. **CRACK.** They go down. First instinct is to sprint to them. Someone has to say: "Don't move."_
+> Stillbloom is a dull four-foot waxy stalk with launch-spines set along its length. Punctured carcasses and odd scavenger paths mark the ground around it. The root mat underfoot carries vibration from anything that moves too fast on the trail.
+
 
 ## At the table
 Minefield plant. Detects **rapid movement** through root vibration — not malice. Slow is safe. Rescue-sprinting is a trigger.
