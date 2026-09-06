@@ -14,7 +14,8 @@ beat: 5
 L1 run card. Parent control panel: [[Session 11 run]]. Chart: palette, not railroad.
 
 > [!narration] Narration
-> _Visualizer: pending — TotM held until fail-loop clears._
+> Terrace brush shifts along the inland path, or the beach stair opens toward wreck shade and reef water. Either way the next ground is close.
+
 
 **Now:** Post-Taking-places: committing inland E/F→I **or** beach-down K→Landing.
 **Say/show:** Branch A: packs test the stairs/ditches on the Quiet-ward push. Branch B: tide, wreck shade, and a moving ship make the strand a valve.

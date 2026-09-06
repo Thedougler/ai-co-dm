@@ -14,7 +14,8 @@ beat: 2
 L1 run card. Parent control panel: [[Session 11 run]]. Chart: palette, not railroad.
 
 > [!narration] Narration
-> _Visualizer: pending — TotM held until fail-loop clears._
+> On the terrace lip, scuffs run inland into green and a stair falls beachward. Open thermal still sits overhead. Warm stone and crushed fruit underfoot.
+
 
 **Now:** Landed at [[Aruhe Drop Rim Court]]; hawk thermal still above if re-exposed.
 **Say/show:** Scuffs run inland under the gardens; a beach stair falls toward the shingle. The ship is a moving speck offshore.

@@ -14,7 +14,8 @@ beat: 7
 L1 run card. Parent control panel: [[Session 11 run]]. Chart: palette, not railroad.
 
 > [!narration] Narration
-> _Visualizer: pending — TotM held until fail-loop clears._
+> Soft landing holds: Quiet intel, shipboard reset, or both mark the night's map. The next frontier waits beyond this edge.
+
 
 **Now:** Soft landing done. Show the changed world; close the night.
 **Say/show:** Name what changed: food/claims, survivor trail state, ship position, Quiet intel or boat safety.

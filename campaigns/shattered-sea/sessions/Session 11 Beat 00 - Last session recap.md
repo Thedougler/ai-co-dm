@@ -14,7 +14,8 @@ beat: 0
 L1 run card. Parent control panel: [[Session 11 run]]. Chart: palette, not railroad.
 
 > [!narration] Narration
-> _Visualizer: pending — TotM held until fail-loop clears._
+> Last time the Crown Squid held the tree line and stopped short of open grass. The Uncertainty stayed mobile offshore. Inland Calveno survivors were still inland, not on the beach.
+
 
 **Now:** Session open. Shared fiction not yet locked.
 **Say/show:** Last time on Aruhe: two survivors aboard; 100–150 came off the raid ships (most dead; island taking the rest); landing party hit terraces/taking-places; invisible Great Crown Squid cut Delmar and stopped at the tree line; ship stayed mobile; inland people still inland.

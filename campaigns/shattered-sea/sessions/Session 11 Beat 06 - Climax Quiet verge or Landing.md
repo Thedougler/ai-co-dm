@@ -14,7 +14,8 @@ beat: 6
 L1 run card. Parent control panel: [[Session 11 run]]. Chart: palette, not railroad.
 
 > [!narration] Narration
-> _Visualizer: pending — TotM held until fail-loop clears._
+> At the Quiet verge birdsong dies into denser green, or past the reef gap a cutter silhouette holds off for pickup. Soft landing is in reach.
+
 
 **Now:** Highest stakes site their choices made inevitable: Quiet verge **or** Landing pickup.
 **Say/show:** A: silence eaten thin at the green verge — survivor signs converge; Q1 waits. B: the ship's valve meets tide and teeth.

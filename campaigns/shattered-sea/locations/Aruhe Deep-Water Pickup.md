@@ -10,7 +10,8 @@ session11_code: L6
 # Aruhe Deep-Water Pickup
 
 > [!narration] Narration
-> Deep-Water Pickup is open water past the reef gap, where a cutter silhouette holds off for boarding. Hull and orders carry over clean sea air free of island sweet. The gap behind leads back to the reef approach.
+> Past the reef gap the water deepens and a cutter holds off as a silhouette. Orders and hull noise carry over sea air without island sweet. Boarding lines wait on the open water.
+
 
 
 ## At a glance

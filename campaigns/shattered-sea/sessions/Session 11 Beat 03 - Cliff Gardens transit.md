@@ -14,7 +14,8 @@ beat: 3
 L1 run card. Parent control panel: [[Session 11 run]]. Chart: palette, not railroad.
 
 > [!narration] Narration
-> _Visualizer: pending — TotM held until fail-loop clears._
+> Under snapped canopy the terrace path runs between fruit and irrigation cuts. Cover closes overhead. Brushy flanks stay close on both sides.
+
 
 **Now:** Moving through [[Aruhe Snapped Canopy Gallery]] toward Taking-places.
 **Say/show:** Canopy cover kills the thermal — but flanks, ditches, and tree-line pressure still hunt the column.

@@ -10,7 +10,8 @@ session11_code: A
 # Aruhe Drop Rim Court
 
 > [!narration] Narration
-> The Drop Rim Court is a terrace lip at the Old Gardens tree line, open thermal sky above and snapped canopy lines inland. Warm stone and crushed fruit sit underfoot. Scuffs run inland into green while a beach stair falls toward distant surf.
+> At the Old Gardens tree line a terrace lip opens under empty sky. Snapped canopy lines run inland; a beach stair drops toward the surf. Warm stone and crushed fruit mark the court where scuffs fork green one way and beach the other.
+
 
 
 ## At a glance

@@ -10,7 +10,8 @@ session11_code: I
 # Aruhe Quiet Green Verge
 
 > [!narration] Narration
-> The Quiet Green Verge is denser green where small life thins and birdsong dies. Wet leaves and close air sit over the Gardens' last soft edge. Trails continue Quiet-ward into silence.
+> Gardens green thickens into a verge where small darting life goes scarce and birdsong falls away. Wet leaves close the air. Trails keep on toward quieter ground.
+
 
 
 ## At a glance

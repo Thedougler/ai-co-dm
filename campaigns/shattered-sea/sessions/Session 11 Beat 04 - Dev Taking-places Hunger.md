@@ -14,7 +14,8 @@ beat: 4
 L1 run card. Parent control panel: [[Session 11 run]]. Chart: palette, not railroad.
 
 > [!narration] Narration
-> _Visualizer: pending — TotM held until fail-loop clears._
+> Fruit stalls, blood, and skulls sit by fallen bodies on the terrace plaza. Sugar-sour air hangs in the heat. Survivor signs keep inland.
+
 
 **Now:** At [[Aruhe Taking-Places Plaza]] among claim traces, offerings, and survivor signs.
 **Say/show:** Dead claims and living fruit share the plaza. Something here wants to be taken — and the island answers taking.
