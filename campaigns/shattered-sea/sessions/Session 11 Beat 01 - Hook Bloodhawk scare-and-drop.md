@@ -15,6 +15,8 @@ beat: 1
 L1 run card. Parent control panel: [[Session 11 run]]. Chart: palette, not railroad.
 
 > [!narration] Narration
+> Open thermal above the canopy. The Crown Squid still holds the tree line when a Bloodhawk folds its wings and crimson tips flash on the dive. Wind roar and wing rush fill the air; a diving shadow crosses the open sky. Closed canopy and deep grass wait below as cover from the stoop.
+
 
 
 **Now:** Party exposed in/over open thermal above the canopy after recap.

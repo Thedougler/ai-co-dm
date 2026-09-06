@@ -15,6 +15,8 @@ beat: 3
 L1 run card. Parent control panel: [[Session 11 run]]. Chart: palette, not railroad.
 
 > [!narration] Narration
+> Under snapped canopy the terrace path runs between fruit and irrigation ditches. Cover closes overhead. Brushy flanks stay close on both sides.
+
 
 
 **Now:** Moving through [[Aruhe Snapped Canopy Gallery]] toward Taking-places.

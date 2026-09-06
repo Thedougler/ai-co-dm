@@ -15,6 +15,8 @@ beat: 7
 L1 run card. Parent control panel: [[Session 11 run]]. Chart: palette, not railroad.
 
 > [!narration] Narration
+> Quiet intel is on the map, or the cutter has them aboard with hull and orders around. The night's ground has changed.
+
 
 
 **Now:** Soft landing done. Show the changed world; close the night.
