@@ -8,7 +8,8 @@ tags: [location, ley-line, sentinel]
 ---
 # Yssenmoor
 > [!narration] Narration
-> A Midchain site where ground answers a thumb-sized quartz top and a duck has died and reformed across centuries. The surface stays thin on the chart; the reaction is the place’s public signature.
+> Yssenmoor is a Midchain site where a thumb-sized quartz top turns differently than elsewhere on the same water. Ground and air stay ordinary to the eye. A duck has died and reformed here across centuries.
+
 
 
 

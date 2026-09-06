@@ -8,7 +8,8 @@ tags: [location, region, scatter]
 ---
 # Verdant Scatter
 > [!narration] Narration
-> Two green island arcs of the Scatter: Crown forts and Midchain crowded small ground joined by reef, sails, and unofficial routes. Surf and inspection calls share the same brine as wet timber and forest cargo.
+> The Verdant Scatter is two green island arcs between Galewall and the Tail: Crown forts north and Midchain crowded small ground south. Reef, sails, and unofficial routes join them. Surf and inspection calls share the same brine as wet timber and forest cargo.
+
 
 
 ## At a glance

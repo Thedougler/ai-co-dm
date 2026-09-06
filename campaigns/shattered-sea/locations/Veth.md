@@ -8,7 +8,8 @@ tags: [location, grung, verdant-teeth, veth]
 ---
 # Veth
 > [!narration] Narration
-> Twenty strides of pale sand, then the ridge goes straight up into trunks without tops. A blue shape comes down a living root-stair, watching the hull rather than the crew.
+> Veth is the largest of the five Teeth: old dry-ground rainforest stacked in canopy layers, with one western beach strip and no pier. Twenty strides of pale sand end where a living root-stair climbs. A blue shape watches the hull rather than the crew.
+
 
 ## At a glance
 Veth is the largest of the five islands: old dry-ground rainforest, a western beach trade strip, and no pier. The beach is a concession; the stacked canopy behind it is closed.

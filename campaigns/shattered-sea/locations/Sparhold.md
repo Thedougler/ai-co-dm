@@ -8,7 +8,8 @@ tags: [location]
 ---
 # Sparhold
 > [!narration] Narration
-> A Midchain stop on the Grung raiding-fleet trail, between open approach and the water toward Aruhe. Arrivals get counted; departure news is the scarce cargo. Local berths and holdfasts remain thin on the chart — the trailhead pressure does not.
+> Sparhold is a Midchain stop on the Grung raiding-fleet trail, between open approach and the water toward Aruhe. Arrivals get counted at the berth. Departure news is the scarce cargo on the dock.
+
 
 
 ## At a glance

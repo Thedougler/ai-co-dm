@@ -8,7 +8,8 @@ tags: [location, aruhe, landing, reef]
 ---
 # Western Landing
 > [!narration] Narration
-> A jagged coral reef stands about half a mile offshore. At low tide the teeth show, and one boat gap leads to a short shingle beach that takes only minutes to cross end to end. Elsewhere the coast is cliffs, coves, or beaches trapped behind reef; surf works the coral and salt spray carries over loose stone.
+> Western Landing is a jagged coral reef about half a mile offshore; at low tide the teeth show, and one boat gap leads to a short shingle beach that takes only minutes to cross end to end. Elsewhere the coast is cliffs, coves, or beaches trapped behind reef. Surf works the coral and salt spray carries over loose stone.
+
 
 
 ## At a glance

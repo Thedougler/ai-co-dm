@@ -8,7 +8,8 @@ tags: [location, grung, beach, trade]
 ---
 # Veth West Beach
 > [!narration] Narration
-> Twenty strides of pale sand and then the ridge goes straight up. A living root-stair shines with traffic. A blue shape watches the hull from the treeline.
+> Veth West Beach is twenty strides of pale sand, then the ridge goes straight up. A living root-stair shines with traffic. A blue shape watches the hull from the treeline; there is no pier.
+
 
 ## Function
 The only sanctioned Veth landing: a brief blue-caste exchange zone with no pier, roof, or inland permission.

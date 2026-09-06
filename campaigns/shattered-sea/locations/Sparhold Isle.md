@@ -8,7 +8,8 @@ tags: [location, midchain, sparhold]
 ---
 # Sparhold Isle
 > [!narration] Narration
-> Cut-over slopes drop to a harbour and walls facing Teethward water. Timber work, market calls, and fringe cutting hang over wet wood, pitch, and smoke. The islet orients the fortress-market without confusing landform for settlement.
+> Sparhold Isle is a half-mile cut-over islet at the southern lip of the Northern Midchain strip. Bare slopes drop to a harbour and walls facing Teethward water. Wet wood, pitch, and smoke hang over timber work and market calls.
+
 
 
 ## At a glance

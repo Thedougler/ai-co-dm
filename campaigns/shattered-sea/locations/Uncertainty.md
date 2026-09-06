@@ -8,7 +8,8 @@ tags: [location]
 ---
 # Uncertainty
 > [!narration] Narration
-> Uncertainty is a working vessel with a hull, deck, cargo, rigging, and helm. A route board links the watch and weather to the next destination, while the deck connects the helm and lookout, cargo access, and a visible launch or landing point.
+> Uncertainty is a working vessel with hull, deck, cargo, rigging, and helm. A route board sits where watch and weather meet the next destination. Salt, tar, and wet wood hang over lines and cargo access.
+
 ## At a glance
 The crew’s current vessel; feels like a moving room for unresolved debts and routes. Season 2 runs from here toward [[Sparhold]] and [[Aruhe - Hungry Isle]].
 ## Five-sentence kernel

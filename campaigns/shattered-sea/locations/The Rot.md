@@ -8,7 +8,8 @@ tags: [location, aruhe, rot, decay]
 ---
 # The Rot
 > [!narration] Narration
-> A decaying niche where fallen growth, dark soil, and feeding traces meet. Soft ground covers harder volcanic channels; wet decay and rich earth mark a boundary between silent rainforest, the Grove, and breaches into stone below. Rot here is a working abundance, not scarcity.
+> The Rot is fallen growth, dark soil, and feeding traces on soft ground over harder volcanic channels. Wet decay and rich earth mark the air. Uneven feeding and insect movement run beside breaks toward root or stone.
+
 
 
 ## At a glance

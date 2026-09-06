@@ -8,7 +8,8 @@ tags: [location, region, tail, maw]
 ---
 # Tail
 > [!narration] Narration
-> Sharp cliffs, late fog, and cold dark water at the last landmarks before the trench. Sparse staging traffic works under cliff faces where compasses lie and the air tastes of brine and wet stone.
+> The Tail is the eastern pinch where both arcs become fewer, taller islands and cold trench-coloured water. Late fog hangs over sharp cliffs. Sparse staging traffic works under faces where the air tastes of brine and wet stone.
+
 
 
 ## At a glance

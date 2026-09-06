@@ -8,7 +8,8 @@ tags: [location, region, grung, verdant-teeth]
 ---
 # Verdant Teeth
 > [!narration] Narration
-> Five country-scale rainforest islands held as one closed Grung interior. Rainforest comes down to the tide; pale reef rings the channels; sanctioned beaches are interfaces, not invitations. A dart that snaps short of the bow is the closest thing to a welcome.
+> The Verdant Teeth are five country-scale rainforest islands held as one closed Grung interior. Rainforest comes down to the tide; pale reef rings the channels. Sanctioned beaches are interfaces, not invitations; a dart that snaps short of the bow is the closest thing to a welcome.
+
 
 
 ## At a glance
