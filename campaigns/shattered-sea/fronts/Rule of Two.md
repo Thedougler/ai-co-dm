@@ -20,7 +20,7 @@ tags: [front, schism]
 - Cast: [[Talon Vantyrus]]
 
 ## Grim portents
-1. [ ] Skarn stages another [[Stoop]] ambush.
+1. [ ] Skarn stages another stoop-dive ambush.
 2. [ ] Vantyrus uses the threat to redirect Countless resources or bait Skarn.
 3. [ ] The two converge near Crissdalynn or the seal route.
 

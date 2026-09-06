@@ -22,7 +22,7 @@ Peregrine apprentice of [[Talon Vantyrus]] and a living expression of the [[Rule
 
 ## Look / voice
 - **Visual:** Lean, knife-folded peregrine, about five feet tall; blue-grey crest; black stripe through amber eyes; a notch missing from the left primary where three feathers never grew back.
-- **Behavior:** Tests with [[Stoop]] ambushes and keeps twin daggers in reverse grip.
+- **Behavior:** Tests with stoop dive ambushes and keeps twin daggers in reverse grip.
 - **Voice principle:** Unknown; do not invent.
 - **Sample line:** Unknown; do not invent.
 
@@ -33,7 +33,7 @@ Peregrine apprentice of [[Talon Vantyrus]] and a living expression of the [[Rule
 **Public:** Countless apprentice and ambush tester. **Secret:** The assassination scheme is not a betrayal of Countless doctrine; it is the doctrine’s standing threat.
 
 ## Resources
-Twin daggers, flight, Countless access, and the [[Stoop]] technique.
+Twin daggers, flight, Countless access, and the stoop dive technique.
 
 ## Next move / interrupt point
-Set Stoop tests along the approach, then enter the fight only when the crew physically reaches Midchain. Players can bait the ambush, protect the objective, or exploit the Rule of Two without assuming Skarn’s private motive.
+Set stoop-dive tests along the approach, then enter the fight only when the crew physically reaches Midchain. Players can bait the ambush, protect the objective, or exploit the Rule of Two without assuming Skarn’s private motive.
