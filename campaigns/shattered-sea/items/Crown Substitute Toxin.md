@@ -10,7 +10,8 @@ tags: [item, grung, simone, toxin, dravosi-crown]
 # Crown Substitute Toxin
 
 > [!narration] Narration
-> A privateer-ready vial of substitute stock can be carried beside a smaller canister prepared to break into gas.
+> A privateer-ready vial of substitute toxin sits in sealed glass beside a smaller canister made to break into gas. The vial looks like ordinary export stock. The canister is the rarer prep form, concentrated and ready to crack.
+
 
 **Also called:** Simone's stock; privateer vials.
 

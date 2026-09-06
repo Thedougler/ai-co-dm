@@ -10,7 +10,8 @@ tags: [item, grung, karath, toxin, gold, reagent]
 # Karath Gold-Seal Toxin
 
 > [!narration] Narration
-> A narrow sealed vial of cultivated toxin is carried as a reagent, not a charm.
+> A narrow sealed vial holds a cultivated toxin dose, cool glass under the thumb. The stopper keeps it as a reagent, not a charm. One dose sits ready to pour or coat a blade.
+
 
 ## Look
 One dose in a sealed vial; a nonmagical biological and chemical reagent.
