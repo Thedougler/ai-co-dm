@@ -5,47 +5,45 @@ session: 11
 status: ready
 date: 2026-09-06
 visibility: dm
-tags: [session-beat, session-11, aruhe]
+tags: [session-beat, session-11, aruhe, L1]
 beat: 3
-beat_role: cliffhanger
 ---
 
 # Session 11 — Beat 03: Cliffhanger — Gardens transit A→B→C
 
-Disposable run card. Parent: [[Session 11 prep]]. Chart: palette, not railroad.
+L1 run card. Parent control panel: [[Session 11 run]]. Chart: palette, not railroad.
 
 > [!narration] Narration
-> _Visualizer: pending — player-facing prose for this beat._
+> _Visualizer: pending — TotM held until fail-loop clears._
 
-## Role
-**Cliffhanger** (action/peril). ~25–35 min. Transit pressure, not clear-the-Gardens.
+**Now:** Moving through [[Aruhe Snapped Canopy Gallery]] toward Taking-places.
+**Say/show:** Canopy cover kills the thermal — but flanks, ditches, and tree-line pressure still hunt the column.
+**Ask/offer:** Close ranks through canopy, change elevation via ditch/terrace, or disengage to known cover?
+**Opposition/pressure:** Flank risk, squid side-pressure if they hug tree line, early wolfrabbit tests.
+**Resolve:** One clear peril at a time. Keep short. Destination = sight of Taking-places.
+**On success/partial/failure:** Success = arrive intact. Partial = supply/time loss. Failure = separation — recompute with split party states.
+**If ignored:** Packs gain angle; survivor trail muddies.
+**Move on to:** Reach/see [[Aruhe Taking-Places Plaza]] → [[Session 11 Beat 04 - Dev Taking-places Hunger]]. Off-ramp: notice G/H → optional [[Warren Mouths bait]] then return to spine (don't require entry).
 
-## When
-Party moves from A through **B** [[Aruhe Snapped Canopy Gallery]] toward **C** [[Aruhe Taking-Places Plaza]].
+### Run now
+#### Immediate
+- [[Aruhe Snapped Canopy Gallery]]\n- Optional light [[Wolfrabbit terrace flank]]\n- Spotlight: [[Jean-Claude Tabarnack]]
 
-## Pressure
-Exposure flanks, canopy breaks, squid side-pressure if they linger at tree-line, early [[Wolfrabbit]] tests.
+#### Hidden
+> [!secret]- DM
+> Next must be Development (Hunger). Do not stack a second fight Cliffhanger.
 
-## Stakes
-Route integrity · supplies · whether they arrive at Taking-places intact.
+#### Run
+- Short, legible obstacle.\n- Save full wolfrabbit dial for Beat 05 unless needed now.
 
-## DM run
-1. Keep Cliffhangers **short and legible** — one clear threat at a time.
-2. Use B as cover-from-hawk space that still has flank risk.
-3. Optional early [[Wolfrabbit terrace flank]] dial — weaker/avoidable here; save harder flank for Beat 05.
-4. Leave G/H warren mouths as **bait only** if noticed — do not require entry ([[Warren Mouths bait]]).
+#### If violence starts
+- Opening: flank from terrace/ditch. Morale: packs break if closed ranks / elevation change. Goal: isolate, not clear Gardens.
 
-## Immediate
-- Locations: [[Aruhe Snapped Canopy Gallery]] → approach [[Aruhe Taking-Places Plaza]]
-- Encounter: light [[Wolfrabbit terrace flank]] optional
-- Spotlight: [[Jean-Claude Tabarnack]] (route/ambush)
+#### If ignored
+- Isolation fuse advances; supplies disturbed.
 
-## Hidden
-> [!secret]- Polarity
-> Next beat must be Development (Taking-places Hunger). Do not stack a second fight Cliffhanger back-to-back.
+### DM reference
+- [[Wolfrabbit terrace flank]] · [[Aruhe Snapped Canopy Gallery]] · [[Warren Mouths bait]]
 
-## If ignored / delayed
-Packs gain angle; separation risk; survivor trail goes colder if they thrash the undergrowth loudly.
-
-## Move on when
-They reach or can see Taking-places plaza → [[Session 11 Beat 04 - Dev Taking-places Hunger]]
+### Optional-unused
+- [[Aruhe Warren Mouths]] / [[Aruhe Old Mouth Threshold]] bait only

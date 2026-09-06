@@ -29,8 +29,13 @@ Disposable. Rewrite next time; do not treat as canon.
 - **Table:** field Long Rest + watches; after LR ask if ate → warn → no food that day = 1 exhaustion next (**≠** Hunger Rule)
 
 
+## Live run surface
+- **L0 control panel:** [[Session 11 run]]
+- **L1 beats:** [[Session 11 beats]]
+- **L2 inventory:** this prep + linked encounters/locations (do not dump into L0)
+
 ## Beat files (run guide)
-Run from [[Session 11 beats]] — one note per beat under `sessions/`:
+Run from [[Session 11 run]] → [[Session 11 beats]] — one note per beat under `sessions/`:
 0. [[Session 11 Beat 00 - Last session recap]]
 1. [[Session 11 Beat 01 - Hook Bloodhawk scare-and-drop]]
 2. [[Session 11 Beat 02 - Dev Drop rim fork]]

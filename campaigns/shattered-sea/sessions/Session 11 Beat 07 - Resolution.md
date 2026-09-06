@@ -5,41 +5,45 @@ session: 11
 status: ready
 date: 2026-09-06
 visibility: dm
-tags: [session-beat, session-11, aruhe]
+tags: [session-beat, session-11, aruhe, L1]
 beat: 7
-beat_role: resolution
 ---
 
 # Session 11 — Beat 07: Resolution — Changed map
 
-Disposable run card. Parent: [[Session 11 prep]]. Chart: palette, not railroad.
+L1 run card. Parent control panel: [[Session 11 run]]. Chart: palette, not railroad.
 
 > [!narration] Narration
-> _Visualizer: pending — player-facing prose for this beat._
+> _Visualizer: pending — TotM held until fail-loop clears._
 
-## Role
-**Resolution** (one). ~15–25 min. Show consequences; seed next frontier. No rematch demand.
+**Now:** Soft landing done. Show the changed world; close the night.
+**Say/show:** Name what changed: food/claims, survivor trail state, ship position, Quiet intel or boat safety.
+**Ask/offer:** Any field Long Rest watches? What do you carry into the next expedition?
+**Opposition/pressure:** Aftermath only — no rematch demand.
+**Resolve:** One Resolution. If LR: ask if ate → warn → no food = 1 exhaustion next (≠ Hunger). Night cards if camped.
+**On success/partial/failure:** Quiet success / boat escape / messy partial — all valid end states with live hooks.
+**If ignored:** If they refuse to acknowledge costs, still record them in prep→next session.
+**Move on to:** Table closes. Durable log → Co-DM via session-wrapup later. Off-ramp: none.
 
-## When
-Immediately after climax soft landing.
+### Run now
+#### Immediate
+- Mirror choices into world state\n- Optional: [[Gardens night watch]] / [[Quiet verge night watch]]\n- Seed [[Survey Aruhe as a Tangle anchor]]
 
-## DM run
-1. Mirror their choices back into the world:
-   - Food / Hunger claims made or refused
-   - Survivor trail state (followed, abandoned, misread)
-   - Ship position ([[Uncertainty]] mobile / pickup done / still offshore)
-   - Quiet intel gained or boat safety gained
-2. If they Long Rested: run table procedure — ask if they ate; warn; no food that day → 1 exhaustion next (**≠** Hunger Rule). Night watch cards if camped: [[Gardens night watch]] / [[Quiet verge night watch]].
-3. Name what ends tonight and what stays live ([[Survey Aruhe as a Tangle anchor]], inland people, Soft/Rot/Grove stubs).
-4. Do not invent lasting canon beyond table outcomes — hand durable log to Co-DM post-session.
+#### Hidden
+> [!secret]- DM
+> Do not invent lasting canon beyond table outcomes.
 
-## Resolution forks
-- **Quiet verge success:** map toward [[The Quiet]]; inland trail hot; boat still an option later
-- **Boat escape:** crew safe mobile; inland survivors unresolved; Guilt/urgency hooks for next session
-- **Messy / partial:** exhaustion, gear loss, claim fallout, separated trail read
+#### Run
+- Consequences, not cliffhanger bait for rematch.\n- Name what ends vs what stays live.
 
-## Move on when
-Table closes. Prep is disposable; still-relevant bits move forward next time via [[Session 11 prep]] / session-wrapup → Co-DM.
+#### If violence starts
+- Not required.
 
-## Links
-- [[Session 11 prep]] · [[campaigns/shattered-sea/sessions/00 Sessions]] · [[campaigns/shattered-sea/hot]]
+#### If ignored
+- Still write the true state for next prep.
+
+### DM reference
+- [[Session 11 prep]] · [[Session 11 run]] · [[campaigns/shattered-sea/hot]]
+
+### Optional-unused
+- —

@@ -5,15 +5,16 @@ session: 11
 status: ready
 date: 2026-09-06
 visibility: dm
-tags: [session-beat, session-11, aruhe, index]
+tags: [session-beat, session-11, aruhe, index, L1]
 ---
 
-# Session 11 — Beat chart (run order)
+# Session 11 — Beat chart (L1)
 
-DM control strip for tonight. Parent prep: [[Session 11 prep]]. Palette, not railroad. ~4h. Soft landing = Quiet verge **or** boat — not Grove.
+**Start at the control panel:** [[Session 11 run]] (L0).  
+Inventory densify: [[Session 11 prep]] (L2). Soft/Rot held.
 
-## Run order
-0. [[Session 11 Beat 00 - Last session recap]] — table ritual
+## Chrono / likely-play order
+0. [[Session 11 Beat 00 - Last session recap]] — open ritual (also in L0 Now)
 1. [[Session 11 Beat 01 - Hook Bloodhawk scare-and-drop]] — Hook
 2. [[Session 11 Beat 02 - Dev Drop rim fork]] — Development
 3. [[Session 11 Beat 03 - Cliff Gardens transit]] — Cliffhanger
@@ -25,12 +26,5 @@ DM control strip for tonight. Parent prep: [[Session 11 prep]]. Palette, not rai
 ## Shape
 `Recap → Hook → D → C → D → C → Climax → Resolution`
 
-## Locked constraints
-- Scare-and-drop (not sky TPK)
-- Hunger present & track, no forced claim
-- G/H warren = optional bait only
-- Soft/Rot/Grove/Tubes = stubs
-- Field LR food check ≠ Hunger Rule
-
-## If the chart breaks
-Recompute after each beat. Player boat-bail or warren divert is legal — swap candidates, do not force Quiet.
+## Recompute rule
+After each beat, return to [[Session 11 run]] scene menu. Earliest live card wins; else strongest pressure; else clearest PC limelight; else parachute/end.

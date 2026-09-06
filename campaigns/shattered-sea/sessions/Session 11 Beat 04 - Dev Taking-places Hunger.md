@@ -5,48 +5,45 @@ session: 11
 status: ready
 date: 2026-09-06
 visibility: dm
-tags: [session-beat, session-11, aruhe]
+tags: [session-beat, session-11, aruhe, L1]
 beat: 4
-beat_role: development
 ---
 
 # Session 11 — Beat 04: Development — Taking-places Hunger temptation
 
-Disposable run card. Parent: [[Session 11 prep]]. Chart: palette, not railroad.
+L1 run card. Parent control panel: [[Session 11 run]]. Chart: palette, not railroad.
 
 > [!narration] Narration
-> _Visualizer: pending — player-facing prose for this beat._
+> _Visualizer: pending — TotM held until fail-loop clears._
 
-## Role
-**Development** (hybrid social/ecology). ~25–35 min. **Present & track — do not force a claim.**
+**Now:** At [[Aruhe Taking-Places Plaza]] among claim traces, offerings, and survivor signs.
+**Say/show:** Dead claims and living fruit share the plaza. Something here wants to be taken — and the island answers taking.
+**Ask/offer:** Return it, receive an explicit offering, leave and track, or take anyway?
+**Opposition/pressure:** [[Aruhe Hunger Rule]] temptation; survivor trail intensifies inland; salvage vs survey tensions.
+**Resolve:** Present & track — **no forced claim**. Make safe nonliving obvious.
+**On success/partial/failure:** Success = informed refuse/receive. Partial = awkward handling without full claim. Failure = claim → convergence fallout.
+**If ignored:** Leave without claiming — legal. Trail still points Quiet-ward.
+**Move on to:** Temptation resolved → [[Session 11 Beat 05 - Cliff Wolfrabbit or boat]]. Off-ramp: boat peel from here via K.
 
-## When
-At **C** [[Aruhe Taking-Places Plaza]] after Gardens transit.
+### Run now
+#### Immediate
+- Encounter: [[Taking-places Hunger temptation]]\n- Spotlights: [[Catarina Da'Virelli]], [[Perrin Black-Jaw]]\n- Safe: water / stone / shed shell
 
-## Pressure
-Dead/claim traces, offered fruit, survivor signs. [[Aruhe Hunger Rule]] becomes legible through fiction.
+#### Hidden
+> [!secret]- DM
+> Hunger ≠ LR food exhaustion. Food check only after a Long Rest.
 
-## Stakes
-Agency vs Hunger convergence · food vs claim · survivor trail read intensifies inland.
+#### Run
+- Center the temptation scene.\n- Drop more survivor modules.\n- Track claims for Resolution.
 
-## DM run
-1. Run [[Taking-places Hunger temptation]] as the centerpiece.
-2. Make safe nonliving clear: free-flow water, loose stone, shed shell OK.
-3. Fruit on vine / taking without receiving = claim. Receiving an offered benefit is different.
-4. Drop more survivor trail modules (blood toward a taking-place, cold ash, urgency marks, distant call).
-5. Spotlights: [[Catarina Da'Virelli]] (salvage/evidence), [[Perrin Black-Jaw]] (Hunger Rule / survey).
+#### If violence starts
+- Only if claim convergence fires — ecology turns, not a scripted boss.
 
-## Immediate
-- Encounter: [[Taking-places Hunger temptation]]
-- Location: [[Aruhe Taking-Places Plaza]]
-- Exits: E fruit stairs / F irrigation toward Quiet · optional G/H warren bait · back toward boat
+#### If ignored
+- They can walk — mark unread temptation as future complication if handled poorly.
 
-## Hidden
-> [!secret]- Hunger ≠ food exhaustion
-> Field Long Rest food check (ask if ate → warn → 1 exhaustion) is separate and comes later if they rest.
+### DM reference
+- [[Taking-places Hunger temptation]] · [[Aruhe Hunger Rule]] · [[Aruhe Taking-Places Plaza]]
 
-## If ignored
-They can leave without claiming — trail still points Quiet-ward. If they claim, converge life and mark fallout.
-
-## Move on when
-Temptation resolved (claim, receive, or refuse) and they push toward I or boat → [[Session 11 Beat 05 - Cliff Wolfrabbit or boat]]
+### Optional-unused
+- —

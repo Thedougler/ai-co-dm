@@ -5,50 +5,45 @@ session: 11
 status: ready
 date: 2026-09-06
 visibility: dm
-tags: [session-beat, session-11, aruhe]
+tags: [session-beat, session-11, aruhe, L1]
 beat: 5
-beat_role: cliffhanger
 ---
 
 # Session 11 — Beat 05: Cliffhanger — Terrace flank or boat descent
 
-Disposable run card. Parent: [[Session 11 prep]]. Chart: palette, not railroad.
+L1 run card. Parent control panel: [[Session 11 run]]. Chart: palette, not railroad.
 
 > [!narration] Narration
-> _Visualizer: pending — player-facing prose for this beat._
+> _Visualizer: pending — TotM held until fail-loop clears._
 
-## Role
-**Cliffhanger** before soft climax. ~25–35 min. Branching world-state card.
+**Now:** Post-Taking-places: committing inland E/F→I **or** beach-down K→Landing.
+**Say/show:** Branch A: packs test the stairs/ditches on the Quiet-ward push. Branch B: tide, wreck shade, and a moving ship make the strand a valve.
+**Ask/offer:** Inland: close ranks / change elevation / disengage. Boat: wait in shade / cross low-tide teeth / call the boat off.
+**Opposition/pressure:** Inland [[Wolfrabbit]] flank fuse **or** Landing tide/valve + [[Reef Skull]] / [[Small Blood Hawk]].
+**Resolve:** Run the branch they chose in Beat 02/04. One crisp obstacle if clock is short.
+**On success/partial/failure:** Success = arrive at climax site. Partial = pay time/gear. Failure = climax site reached under duress / pickup window nearly shut.
+**If ignored:** Inland packs cut supplies; boat window narrows; inland trail goes cold if abandoned.
+**Move on to:** At I or critical Landing window → [[Session 11 Beat 06 - Climax Quiet verge or Landing]]. Off-ramp: flip branch only with clear fiction cost.
 
-## When
-After Taking-places: party pushes **E/F toward I** **or** peels **K toward Western Landing**.
+### Run now
+#### Immediate
+- Inland: [[Aruhe Fruit Stair Terraces]] / [[Aruhe Irrigation Ditch Maze]] · [[Wolfrabbit terrace flank]]\n- Boat: [[Aruhe Beach Stair]] → L1–L6 · start [[Western Landing pickup]]\n- Spotlights: Jean-Claude (inland) / Delmar (boat)
 
-### Branch A — Hard/fast inland
-- Locations: [[Aruhe Fruit Stair Terraces]] / [[Aruhe Irrigation Ditch Maze]] → verge
-- Encounter: [[Wolfrabbit terrace flank]] (full dial)
-- Optional: [[Warren Mouths bait]] if they divert to G/H
-- Pressure: pack flank, isolation, choke; keep transit moving toward Quiet verge
+#### Hidden
+> [!secret]- DM
+> L7 Cliff Cove is false exit. Soft/Rot still held.
 
-### Branch B — Boat escape
-- Path: [[Aruhe Beach Stair]] → L1–L6 toward [[Uncertainty]]
-- Encounter: begin [[Western Landing pickup]] pressure (tide/valve foreshadow)
-- Pressure: reef, small hawks, wreck shade; cliff cove L7 is false exit
+#### Run
+- Don't force both branches.\n- Keep action; save reading climax for Beat 06.
 
-## Stakes
-Reach soft climax position (Quiet verge **or** pickup window) with costs paid.
+#### If violence starts
+- Inland: pack isolation goal. Boat: reef/hawk claims exposed route; wreck shade is cover.
 
-## DM run
-1. Pick the branch from Beat 02/04 choices — do not force both.
-2. Keep this beat action; save reading/mapping climax for Beat 06.
-3. If time is short, compress to one crisp obstacle then land the climax site.
+#### If ignored
+- Advance the active clock (trail or boat valve).
 
-## Immediate
-- Inland: [[Wolfrabbit terrace flank]]
-- Boat: [[Western Landing pickup]] setup
-- Spotlight inland: Jean-Claude · boat: Delmar
+### DM reference
+- [[Wolfrabbit terrace flank]] · [[Western Landing pickup]] · Landing L1–L7 on [[Session 11 run]]
 
-## If ignored
-Inland: packs cut supplies/time. Boat: pickup window narrows; trail inland goes cold.
-
-## Move on when
-Arrive at I Quiet verge **or** critical Landing pickup beat → [[Session 11 Beat 06 - Climax Quiet verge or Landing]]
+### Optional-unused
+- [[Warren Mouths bait]] if divert G/H

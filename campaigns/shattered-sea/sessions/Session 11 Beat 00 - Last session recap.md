@@ -5,46 +5,45 @@ session: 11
 status: ready
 date: 2026-09-06
 visibility: dm
-tags: [session-beat, session-11, aruhe]
+tags: [session-beat, session-11, aruhe, L1]
 beat: 0
-beat_role: recap
 ---
 
 # Session 11 — Beat 00: Recap — Last session on Aruhe
 
-Disposable run card. Parent: [[Session 11 prep]]. Chart: palette, not railroad.
+L1 run card. Parent control panel: [[Session 11 run]]. Chart: palette, not railroad.
 
 > [!narration] Narration
-> _Visualizer: pending — player-facing prose for this beat._
+> _Visualizer: pending — TotM held until fail-loop clears._
 
-## Role
-Open the table. Put everyone in the same fiction before the Bloodhawk Hook. ~5–8 minutes. Not a Development/Cliffhanger pair — table ritual before Beat 01.
+**Now:** Session open. Shared fiction not yet locked.
+**Say/show:** Last time on Aruhe: two survivors aboard; 100–150 came off the raid ships (most dead; island taking the rest); landing party hit terraces/taking-places; invisible Great Crown Squid cut Delmar and stopped at the tree line; ship stayed mobile; inland people still inland.
+**Ask/offer:** Any rules/PC refresh? Then: what are you doing as you come back over the canopy?
+**Opposition/pressure:** None new yet — establish state before Hook.
+**Resolve:** Table ritual only (~5–8 min). No rolls required.
+**On success/partial/failure:** Success = shared state. Partial = three-bullet rush (survivors · squid tree line · mobile ship + inland people). Failure N/A.
+**If ignored:** If they skip detail, hit the three bullets and fire the Hook anyway.
+**Move on to:** Shared situation clear → [[Session 11 Beat 01 - Hook Bloodhawk scare-and-drop]]. Off-ramp: none (mandatory open).
 
-## When
-Session start, before any new action. Fire once.
+### Run now
+#### Immediate
+- Facts from [[campaigns/shattered-sea/story/00 Story so far]] / [[campaigns/shattered-sea/sessions/00 Sessions]]\n- State: [[Uncertainty]] mobile · inland survivors inland
 
-## DM run
-1. Ask if anyone needs a rules/PC refresh; keep it short.
-2. Deliver the **player-facing recap** (Visualizer fills narration; until then use the bullet recap below in your own words).
-3. Confirm party state: aboard or aloft near [[Uncertainty]]; ship still **mobile offshore** (not anchored); inland survivors still inland.
-4. Ask: "What are you doing as we come back over the canopy?" — then fire [[Session 11 Beat 01 - Hook Bloodhawk scare-and-drop]].
+#### Hidden
+> [!secret]- DM
+> Do not lecture Hunger Rule, Grove, or Blackrail. No fake Session 10 log file.
 
-## Player-facing recap (facts only)
-- Two Aruhe survivors came aboard. They said roughly **100–150** people came off the raid ships; most are dead; the island is taking the rest.
-- A landing party reached the terraces / taking-places, found dead people, and met island life ([[Wolfrabbit]] and worse).
-- An invisible [[Great Crown Squid]] rose from the canopy, cut [[Delmar Fisk]], and tried to pull the party in. Illusion and flight got them clear over the terraces.
-- The squid **stopped at the tree line** and would not chase into open grass.
-- The ship stayed mobile instead of anchoring. **Inland survivors remain inland.**
+#### Run
+- Speak recap in your words or wait for Visualizer narration.\n- Confirm ship + inland state.\n- Hand decision to players for Hook entry.
 
-## Hidden (DM)
-> [!secret]- Do not open with
-> Do not explain [[Aruhe Hunger Rule]] autobiography, Grove mourners, or Blackrail yet. Do not invent a fake Session 10 log file — story lives in [[campaigns/shattered-sea/story/00 Story so far]] and [[campaigns/shattered-sea/sessions/00 Sessions]].
+#### If violence starts
+- Not this beat.
 
-## If ignored / rushed
-If the table wants to skip detail, hit three beats only: survivors aboard · squid at tree line · ship mobile + inland people still inland — then Hook.
+#### If ignored
+- Compress to three bullets → Beat 01.
 
-## Move on when
-Shared situation is clear → [[Session 11 Beat 01 - Hook Bloodhawk scare-and-drop]]
+### DM reference
+- [[Session 11 run]] · [[Session 11 prep]] · [[Aruhe - Hungry Isle]] · [[Uncertainty]]
 
-## Links
-- [[Session 11 prep]] · [[Aruhe - Hungry Isle]] · [[Uncertainty]] · [[Survey Aruhe as a Tangle anchor]]
+### Optional-unused
+- —
