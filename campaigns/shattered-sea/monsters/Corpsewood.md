@@ -3,9 +3,9 @@ type: monster
 campaign: shattered-sea
 role: bruiser
 cr: 12
-source: house (wiki creature.corpsewood; living-stock 2026-09-05)
+source: house (wiki creature.corpsewood; Aruhe flora paste 2026-09-05)
 visibility: dm
-tags: [monster, aruhe]
+tags: [monster, aruhe, flora]
 ---
 
 ```statblock
@@ -44,16 +44,19 @@ actions:
 # Corpsewood
 
 > [!narration] Narration
-> _Visualizer: Aruhe fauna pending._
+> _Visualizer: Aruhe flora pending._
 
 ## At the table
-**Tactic:** seasonal patrol of deep Rot tree line; knits unless fire. **Tell:** forty-foot dead tree dragging roots.
+**Tactic:** patrol the deep Rot tree line on a slow seasonal beat; knit itself back together unless fire. **Tell:** a forty-foot dead tree dragging a skirt of roots.
 
 ## Terrain / friends
-Deep Rot. Fire stops the knitting.
+Deep [[The Rot]] and its tree line. Fire is the one thing that stops the knitting.
 
-## Canon ecology - living stock ingest
-- A dead tree walks: forty feet of split bark and dragging roots. It patrols deep [[The Rot]] on a seasonal beat and never leaves the tree line. Fire is the one thing that stops it knitting itself back together. The wood died years ago; what moves it did not.
+## Aruhe flora ecology
+- Corpsewood is not living growth: it is a dead tree the root network still walks, with blackened split bark, bare branches, and cables of root dragging behind.
+- It never moves faster than a walk. It stays in the tree line and patrols the deep interior. The wood died years ago; what moves it did not.
 
 ## Provenance
-Wiki `creature.corpsewood` + inbox living-stock 2026-09-05. Blight gardens pressure; does not possess. Fence-first Fantasy Statblocks. Numbers from wiki — not reinvented.
+- Existing wiki monster updated with Nick's Aruhe flora paste, 2026-09-05.
+- Legacy provenance: `/Users/nick/shattered-sea/wiki/shattered-sea/aruhe-hungry-isle/creature-corpsewood.md`.
+- Existing statblock retained for Monster-Brewer review; no new math added.

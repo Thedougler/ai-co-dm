@@ -11,7 +11,7 @@ tags: [location, aruhe, rainforest, quiet]
 ## Art
 ![[attachments/shattered-sea/places/aruhe-the-quiet.jpeg]]
 > [!narration] Narration
-> The Quiet is a rainforest belt where sound falls away because small life has been eaten out. Dense green holds little darting motion. Wet leaves and close air sit over soil barely disturbed by insects or birds.
+> _Visualizer: Aruhe flora pending._
 
 
 
@@ -57,3 +57,12 @@ A rainforest region where silence is ecological: small life has been eaten out. 
 ## Mechanics and return
 - Use observation and Study/Search; silence can remove ordinary warning signs without negating hearing or other capabilities.
 - **Return state:** boundary location, signs of large life, rest site, and whether the party disturbed a living thing.
+
+## Flora ecology
+- Above the last terrace riser, canopy closes over trunks too thick, shield leaves, and aerial roots hanging in curtains. Sight dies in a few paces.
+- [[Strangler Fig|Strangler Figs]] sit singly where packed game trails pinch between stone. [[Stonepear]] is common beneath the roof; [[Ghost plum]] is less common.
+- [[Stillbloom]] begins where green first goes black at the leaf edge, in game trails and sunbreaks rather than open valleys.
+
+## Flora provenance
+- Existing location updated from Nick's Aruhe flora paste, 2026-09-05.
+- Legacy provenance: `/Users/nick/shattered-sea/wiki/shattered-sea/aruhe-hungry-isle/region-aruhe-the-quiet.md`.

@@ -11,7 +11,7 @@ tags: [location, region, aruhe, hungry-isle]
 ## Art
 ![[attachments/shattered-sea/places/aruhe-2.jpeg]]
 > [!narration] Narration
-> Aruhe is green country-scale land in the eastern Midchain, roughly five hundred miles end to end and a hundred fifty across at the waist. From offshore it reads as canopy, basalt, terraces, grass, and rivers behind a jagged reef with no towns, fields, roads, or smoke. One boat gap opens the western edge; the heart sits hundreds of miles inland.
+> _Visualizer: Aruhe flora pending._
 
 
 
@@ -140,3 +140,18 @@ Aruhe is a set of claims, not one king. The Blight gardens pressure; it does not
 - **Mute floor:** [[Deer-Stalker|deer-stalkers]], [[Thornback|thornbacks]], and waiting plants such as [[Strangler Fig|strangler figs]] hold the Quiet/Rot floor.
 
 Run from one and you are usually standing in the next one's country; that boundary arrangement is the ecology.
+
+## Flora frame and zones
+- **Garden frame:** Aruhe takes real plants and removes their brakes; it does not invent a new design. The plants are the country, and the garden minds who takes them.
+- **Tideline:** Landing is shingle, not soil. [[Tideline moss]] stains the edge that survivors treat as the island's claim line; terrace risers begin beyond it.
+- **Old terraces:** Feral yam vines and ordinary citrus fill broken steps and algae-green irrigation ditches. Redheart berries, [[Lion citrus]], [[Giant's guava]], hot blooms, [[Vine Lash]], and young [[Snakewood]] belong here.
+- **Mute jungle:** Shield leaves, thick trunks, hanging roots, and sight that dies in a few paces define the closed canopy. [[Strangler Fig]] and adult [[Snakewood]] own its pinch points and trails; [[Stonepear]], [[Ghost plum]], and [[Stillbloom]] mark the passage.
+- **River cuts:** Lake-fed openings carry eight-foot gold grass. Near water the grass leans; farther in, anything that does not lean is an animal. [[Razer-Grass]], [[Quickeye berries]], and [[Breathmelon]] belong to this open water country.
+- **Sick interior:** Black leaf edges, failing bark, impossible fungi, and luminous roots all point upslope. [[Whisper fig]], [[Skybladder]], [[Rotheart]], [[Corpsewood]], and sick larger Snakewood belong to the Rot.
+- **Lava tubes:** Pale curtains of living root hang through the ceilings and drip into the tubes. This is surface forest reaching down, not a separate flora; see [[Lava Tubes]].
+- **Last clearing:** Luminous roots stop at two unmarked graves. Black flowers ring too-green grass; the [[The Grove - Death Bloom|Death Bloom tree]], flowers, graves, and bound soil form one memorial.
+
+## Flora provenance
+- Compiled from Nick's Aruhe flora paste, 2026-09-05.
+- Legacy context promoted from `/Users/nick/shattered-sea/wiki/shattered-sea/aruhe-hungry-isle/region-aruhe.md`, `/Users/nick/shattered-sea/wiki/shattered-sea/aruhe-hungry-isle/region-aruhe-the-beach.md`, `/Users/nick/shattered-sea/wiki/shattered-sea/aruhe-hungry-isle/region-aruhe-the-old-gardens.md`, `/Users/nick/shattered-sea/wiki/shattered-sea/aruhe-hungry-isle/region-aruhe-the-quiet.md`, `/Users/nick/shattered-sea/wiki/shattered-sea/aruhe-hungry-isle/region-aruhe-the-grasslands.md`, `/Users/nick/shattered-sea/wiki/shattered-sea/aruhe-hungry-isle/region-aruhe-the-rot.md`, `/Users/nick/shattered-sea/wiki/shattered-sea/aruhe-hungry-isle/region-aruhe-the-cave.md`, and `/Users/nick/shattered-sea/wiki/shattered-sea/aruhe-hungry-isle/region-aruhe-the-grove.md`.
+- Open conflict: legacy geography and the new flora paste align; item/monster mechanics remain owned by the relevant brewers.

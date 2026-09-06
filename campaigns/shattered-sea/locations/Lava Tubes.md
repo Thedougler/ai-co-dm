@@ -8,7 +8,7 @@ tags: [location, aruhe, lava-tubes, underworld]
 ---
 # Lava Tubes
 > [!narration] Narration
-> Lava Tubes are old volcanic voids beneath Aruhe's soil: basalt walls, warm vents, damp seepage, and mineral air. Shadowed tubes echo drips and wingbeats. Narrow re-emergence points climb back toward the living surface.
+> _Visualizer: Aruhe flora pending._
 
 
 
@@ -55,3 +55,11 @@ An underworld of old volcanic tubes beneath Aruhe's soil, connected to basalt an
 ## Mechanics and return
 - Treat darkness, vertical travel, vents, and cave routes as honest environmental constraints; no creature mechanics are included.
 - **Return state:** entry route, map, vent/stone observations, seepage, and cave-life disturbance.
+
+## Flora ecology
+- Pale curtains of living root pass through the tube ceilings, dripping water from their tips. They are surface forest reaching down, not a separate flora.
+- The luminous root network points back toward the sick interior and stops at the verge of the last clearing's graves.
+
+## Flora provenance
+- Existing location updated from Nick's Aruhe flora paste, 2026-09-05.
+- Legacy provenance: `/Users/nick/shattered-sea/wiki/shattered-sea/aruhe-hungry-isle/region-aruhe-the-cave.md`.

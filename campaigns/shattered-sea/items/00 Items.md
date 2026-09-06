@@ -9,7 +9,9 @@ tags: [index, item]
 - [[Pearl of Souls]] · [[Fate Spinner]] · [[Nightmantle]] · [[Lamarae's Fang]] · [[Truth Stone]]
 - [[Long Reach]] · [[Long Sight]]
 ## Aruhe
-- [[Redheart Berry]] · [[Rotheart]]
+- [[Redheart Berry]] · [[Lion Citrus]] · [[Giant's Guava]] · [[Stonepear]]
+- [[Ghost Plum]] · [[Quickeye Berry]] · [[Breathmelon]] · [[Whisper Fig]]
+- [[Skybladder]] · [[Rotheart]] · [[Terrace Yam]] · [[Terrace Citrus]]
 
 ## Ingest additions
 - [[The Duchess]] · [[The Baroness]] · [[Delmar's Blunderbuss]] · [[Ragnetto]]

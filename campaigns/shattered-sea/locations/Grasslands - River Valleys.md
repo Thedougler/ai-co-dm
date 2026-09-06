@@ -11,7 +11,7 @@ tags: [location, aruhe, grasslands, rivers]
 ## Art
 ![[attachments/shattered-sea/places/aruhe-the-grasslands.jpeg]]
 > [!narration] Narration
-> Open grassland breaks into river valleys whose clear water runs drinkable from bank and spring. Sun-warmed grass and wet banks run under open sky. Tracks follow the valleys toward lake and grove without leaving the grass far behind.
+> _Visualizer: Aruhe flora pending._
 
 
 ## At a glance
@@ -57,3 +57,12 @@ Open grasslands break into river valleys that carry clear, free-flowing water ac
 ## Mechanics and return
 - River crossings and grass may be ordinary or Difficult Terrain as telegraphed; no creature mechanics are included.
 - **Return state:** water route, tracks, shelter, and any possession trigger avoided or made.
+
+## Flora ecology
+- Lake-fed openings hold gold-green grass with blades tall enough to hide a standing person. Near water the grass leans; farther in, anything that does not lean is an animal.
+- [[Razer-Grass]] grows as discrete winter-white islands, especially on torn-up crossings, wallows, river bends, and flood-scoured hollows.
+- [[Quickeye berries]] are rare in the valleys. [[Breathmelon]] is abundant on wet margins, exactly where the water is the best road.
+
+## Flora provenance
+- Existing location updated from Nick's Aruhe flora paste, 2026-09-05.
+- Legacy provenance: `/Users/nick/shattered-sea/wiki/shattered-sea/aruhe-hungry-isle/region-aruhe-the-grasslands.md`.

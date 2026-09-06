@@ -11,7 +11,7 @@ tags: [location, aruhe, rot, decay]
 ## Art
 ![[attachments/shattered-sea/places/aruhe-the-rot.jpeg]]
 > [!narration] Narration
-> The Rot is fallen growth, dark soil, and feeding traces on soft ground over harder volcanic channels. Wet decay and rich earth mark the air. Uneven feeding and insect movement run beside breaks toward root or stone.
+> _Visualizer: Aruhe flora pending._
 
 
 
@@ -58,3 +58,13 @@ A decaying ecological region where fallen life, soil, and the island's excess me
 ## Mechanics and return
 - Decay can be Difficult Terrain and a source of Study/Search clues; no creature or plant mechanics are included.
 - **Return state:** decay signs, route boundary, breach status, and whether any living thing was claimed.
+
+## Flora ecology
+- Every leaf is black at the edge; bark splits without healing, new tissue fails, and fungi bloom in impossible colors.
+- Exposed roots run above ground like bright, pulsing veins, all pointing upslope. Crossing one makes the light pulse in that direction.
+- [[Whisper fig]] grows on the Quiet-to-Rot edge. [[Skybladder]] hangs in the sealed canopy, while [[Rotheart]] appears only on the sickest trees after spore-air has begun to wear a body down.
+- [[Corpsewood]] patrols the deep tree line. [[Snakewood]] is larger and less healthy here; [[Strangler Fig|Strangler Figs]] still pinch old trails.
+
+## Flora provenance
+- Existing location updated from Nick's Aruhe flora paste, 2026-09-05.
+- Legacy provenance: `/Users/nick/shattered-sea/wiki/shattered-sea/aruhe-hungry-isle/region-aruhe-the-rot.md`.

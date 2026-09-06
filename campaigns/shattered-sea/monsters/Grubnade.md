@@ -38,7 +38,7 @@ actions:
 # Grubnade
 
 > [!narration] Narration
-> _Visualizer: Aruhe fauna pending._
+> _Visualizer: Aruhe flora pending._
 
 
 
@@ -69,3 +69,10 @@ Make it cute first. Delay to end of turn is the whole encounter. After one pop, 
 
 ## Provenance
 Wiki provisional. Kept as written.
+
+## Aruhe flora ecology
+- A **hot bloom** is a terrace flower holding several mature Grubnades. Predators walk around any bloom that ticks; leave it rather than disturb the caterpillars or their flower.
+- The flower is the habitat and the warning sign, while the Grubnade remains the living trap and reproduction system described above.
+
+## Provenance addendum
+- Linked to hot blooms from Nick's Aruhe flora paste, 2026-09-05; legacy context: `/Users/nick/shattered-sea/wiki/shattered-sea/aruhe-hungry-isle/creature-grubnade.md`.

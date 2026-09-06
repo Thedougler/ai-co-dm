@@ -4,16 +4,21 @@ campaign: shattered-sea
 region: aruhe
 status: provisional
 visibility: dm
-tags: [hazard, aruhe]
+tags: [hazard, aruhe, flora]
 ---
 # Stillbloom
 
 > [!narration] Narration
-> Stillbloom is a dull four-foot waxy stalk with launch-spines set along its length. Punctured carcasses and odd scavenger paths mark the ground around it. The root mat underfoot carries vibration from anything that moves too fast on the trail.
-
+> _Visualizer: Aruhe flora pending._
 
 ## At the table
-Minefield plant. Detects **rapid movement** through root vibration — not malice. Slow is safe. Rescue-sprinting is a trigger.
+A dull four-foot waxy stalk stands where green first goes black at the leaf edge. Pale hollow bracts end in dark needles; punctured bodies and exaggeratedly slow scavengers mark the shallow root mat.
+
+## Ecology
+- Stillbloom reads vibration, not malice. Rain, a falling leaf, a mouse, and a careful footstep mean nothing.
+- A Small or larger creature that bolts, jumps, or falls triggers the needles. After firing, the air sacs visibly swell back over a short interval.
+- Once in its life, after years underground, it raises one enormous cream-white flower with a faint green center, then dies.
+- The plant does not eat what it drops. The soil does. Scavengers walk the mat slowly and feed on the aftermath.
 
 ## Trigger
 A charged mature stalk fires when a **Small or larger grounded** creature within **20 feet**:
@@ -56,7 +61,9 @@ Poison immunity blocks venom, not piercing.
 Move ≤10 ft/turn; provoke reload with a thrown object / *mage hand*; fly over; spread out; neutralize poison; weaponize the patch against pursuers. **Do not** sprint-rescue through a charged field.
 
 ## Placement
-Quiet → Rot transition trails and sunbreaks — not main Grasslands (leave that fear to [[Razer-Grass]]). Pair with a stalker for the "can't run" beat.
+Quiet-to-Rot transition trails and sunbreaks, not the open valleys.
 
 ## Provenance
-Wiki `hazard.stillbloom` (provisional). Formerly "Claymore Flower."
+- Existing wiki hazard updated from Nick's Aruhe flora paste, 2026-09-05.
+- Legacy provenance: `/Users/nick/shattered-sea/wiki/shattered-sea/aruhe-hungry-isle/hazard-stillbloom.md`.
+- Existing hazard dials retained for Item-Brewer/Homebrewer review; no new math added.

@@ -11,7 +11,7 @@ tags: [location, aruhe, terraces, gardens]
 ## Art
 ![[attachments/shattered-sea/places/aruhe-the-old-gardens.jpeg]]
 > [!narration] Narration
-> Old Gardens are miles of ancient terraces climbing inland from the landing, human-scale geometry under fruit and flowers grown past ordinary size. Weathered stone still holds the lines. In the afternoon the air turns sugar-sour along the terrace walk.
+> _Visualizer: Aruhe flora pending._
 
 
 ## At a glance
@@ -57,3 +57,13 @@ Miles of ancient terraces run inland from the landing, made by unknown builders 
 ## Mechanics and return
 - No fruit item mechanics here; keep the fiction benefits and defer mechanics. Use Study/Search/Utilize for terraces, loose fallen material, and route clues.
 - **Return state:** terrace marks, fruit left or claimed, flower disturbance, afternoon smell, inland route.
+
+## Flora ecology
+- Broken terrace steps hold wrist-thick yam vines and fist-sized ordinary citrus, with algae-green irrigation ditches between levels.
+- [[Redheart Berry]], [[Lion citrus]], and [[Giant's guava]] are abundant. The latter follows the tree line inland.
+- Hot blooms are unnamed flowers holding several [[Grubnade|Grubnades]]; predators walk around blooms that tick.
+- [[Vine Lash|Vine Lashes]] hang among ordinary rope-vines, while young [[Snakewood]] hunts the terraces before adult colonies move inland.
+
+## Flora provenance
+- Existing location updated from Nick's Aruhe flora paste, 2026-09-05.
+- Legacy provenance: `/Users/nick/shattered-sea/wiki/shattered-sea/aruhe-hungry-isle/region-aruhe-the-old-gardens.md`.

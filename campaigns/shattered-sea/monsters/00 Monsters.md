@@ -14,3 +14,8 @@ tags: [index, monster]
 - **Under-island:** [[Cave Bats]] - [[Root Roaches]] - [[Glass Crickets]] - [[Blackrail]]
 
 > **Canon frame:** Aruhe removes brakes from known animals; the Blight gardens pressure but does not ride bodies. These are zone claims, not one king.
+
+## Aruhe flora links
+- Plant-monsters: [[Vine Lash|Vine Lashes]] · [[Snakewood]] · [[Strangler Fig|Strangler Figs]] · [[Corpsewood]]
+- Flora hazards and zones: [[Razer-Grass]] · [[Stillbloom]] · [[Aruhe - Hungry Isle#Flora frame and zones]]
+- Hot blooms: [[Grubnade]]

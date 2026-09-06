@@ -11,7 +11,7 @@ tags: [location, aruhe, grove, death-bloom]
 ## Art
 ![[attachments/shattered-sea/places/aruhe-the-grove.jpeg]]
 > [!narration] Narration
-> The Grove is where one tree, graves, and earth meet, and the Death Bloom sits apart from the island's surrounding excess. Roots and soil bind living wood to the dead. Leaf and earth move in quiet while damp soil stays underfoot along the boundary.
+> _Visualizer: Aruhe flora pending._
 
 
 ## At a glance
@@ -58,3 +58,14 @@ A restrained node where one tree, graves, and earth meet. The Grove / Death Bloo
 ## Mechanics and return
 - Use Study/Search/Influence/Utilize for roots, graves, earth, and anchor marks; no plant or NPC mechanics are included.
 - **Return state:** grave disturbance, living claims, Blight posture, and anchor verdict.
+
+## Memorial ecology
+- No luminous root crosses the two unmarked graves. The floor inside the verge is grass too green for the air around it; black flowers stay open as the mourner line.
+- Visitors may step through. Animals at the tree line do not.
+- The Death Bloom tree is otherwise ordinary fruit growth. Its kind is the fruit the buried companion loved; it has hung at perfect ripeness since burial, without blossom cycle, green fruit, or fall.
+- A piece taken from the branch begins aging like ordinary fruit. Tree, graves, black-flower ring, and bound soil are one living memorial.
+- Destroying it begins with small changes: wind crosses the clearing, a flower closes, fallen fruit rots, an insect lands, and leaves remember seasons.
+
+## Flora provenance
+- Existing location updated from Nick's Aruhe flora paste, 2026-09-05.
+- Legacy provenance: `/Users/nick/shattered-sea/wiki/shattered-sea/aruhe-hungry-isle/region-aruhe-the-grove.md`.
