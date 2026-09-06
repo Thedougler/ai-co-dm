@@ -101,3 +101,52 @@ open roll when that matches the table's established convention. The audit is:
 spotlight players; silence when they should drive; use PC backstory rails and
 public stakes; honor tone and cinematic-but-safe framing; and give every choice
 or silence an echo.
+
+## Readability gate (before ship)
+
+- **Hierarchy:** glance header, `Now`, scene menu, secrets/revelation, one-line strips, and cards are visually distinct; bullets beat paragraphs.
+- **Progressive disclosure:** the live layer links/transcludes owners and never copies wiki essays; no unneeded detail is required to answer “what now?”
+- **Throughline:** strong start → pressure → choices → consequences → next card/off-ramp is visible without jumping prep, beat index, beat files, encounters, and locations.
+- **Card integrity:** every card has the universal header; `Run now` has only the five moment fields; next-card trigger and off-ramp are explicit.
+- **Surface hygiene:** no densify/WIP/sync dump or multi-region archive appears in the run path; one primary run file remains findable in under 30 seconds.
+
+## Run-surface override
+
+The following gates override any earlier broad card example: use one primary run file; open with a
+≤½-screen glance header, then `Now` for the first 5–10 minutes. Follow with a 3–6 item pressure
+and exit-state scene menu, 5–10 location-agnostic secrets, a revelation strip, location/NPC
+one-liners, linked combat packs, thin fronts/clocks, and treasure. This is chronological attention
+order, not wiki-creation order. Ban `densify-sync`, WIP status, night-watch/specialist sync, and
+multi-region dumps from the run path.
+
+Every card uses this exact universal header:
+
+```markdown
+**Now:** what is live in this moment
+**Say/show:** player-facing prompt or visible situation
+**Ask/offer:** decision, routes, refusal, or retreat available now
+**Opposition/pressure:** actor goal, fuse, or pressure already moving
+**Resolve:** procedure and stakes before a roll or choice
+**On success/partial/failure:** the three changed states
+**If ignored:** one independent consequence
+**Move on to:** next-card trigger, off-ramps, or end state
+
+### Run now
+### DM reference
+### Optional-unused
+```
+
+After the header, no other top-level material is allowed. `Run now` contains only `Immediate`,
+`Hidden`, `Run`, `If violence starts`, and `If ignored` for that moment. `DM reference` links or
+transcludes owners without copying wiki essays; `Optional-unused` is collapsed or omitted. Keep
+5–7 cards in chronological/likely-play order, with a mandatory next-card trigger and off-ramp on
+each. Strong start content runs alone. After recompute, choose the earliest live card; if several
+are live, choose strongest visible pressure, then clearest PC connection. If none is live, use the
+parachute or end state—never invent a bridge scene.
+
+## Locked L0–L2 schema
+
+- **L0 glance (≤1 screen):** stakes; strong start that runs alone; active pressure; one real limelight per PC; parachute trigger. Keep it bullets-first.
+- **L1 run:** chronological/likely-play cards with the universal header and explicit next-card/off-ramps.
+- **L2 owners:** links only—locations, NPCs, encounters, fronts, rules, and lore stay on owner pages. Never copy essays into the run surface.
+- **Hard caps:** one primary run file; no densify/WIP/specialist-sync material; no multi-region dump; no paragraph wall; and no Scene A information may live only under Scene C. Put shared facts at the earliest card or in an L2 owner link.

@@ -11,6 +11,9 @@ tags: [session-prep]
 # Prep — Session {{session}}
 
 Disposable. Rewrite next time; do not treat as canon.
+> [!note] Prep inventory ≠ run guide — render table doc with `run-guide`.
+> Keep this page as the lazy DM inventory; use the run guide for chronological execution.
+>
 
 > [!narration] Narration
 > _Situated strong start — full first look of the opening moment. Theatre of the mind._

@@ -100,3 +100,30 @@ an open roll when that matches the table's established convention, so everyone
 can see what the decision risks; never hide a decisive outcome behind an
 unannounced DC or secret punishment. The roll changes the situation either way,
 and the players retain the choice to act, wait, bargain, or walk away.
+
+## Universal live-card gate
+
+Reconcile reusable notes with `templates/Encounter.md`, but render the session/run-guide card
+first. The card opens with `When live`, visible situation, and the opposition's first move; roster,
+tuning, and extended reference follow it. Use this exact universal DM header:
+
+```markdown
+**Now:** current situation and why it is live
+**Say/show:** visible pressure safe to present
+**Ask/offer:** routes, refusal, retreat, bargain, or bypass
+**Opposition/pressure:** objective, first move, fuse, and visible advance
+**Resolve:** procedure and stakes before a roll
+**On success/partial/failure:** changed state for each result
+**If ignored:** one independent consequence
+**Move on to:** next state, next card, or end state
+
+### Run now
+### DM reference
+### Optional-unused
+```
+
+`Run now` contains only the moment's `Immediate`, `Hidden`, `Run`, `If violence starts`, and `If
+ignored` material. End the card with `Move on`, `If ignored`, and `Next state` explicitly. Put the
+roster, tuning dials, stat links, and template-backed extended notes after the card under
+`DM reference`; never make the DM read them to find the first move. Link/transclude owners rather
+than copying essays, and keep bypass/off-ramps visible.

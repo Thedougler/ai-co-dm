@@ -207,3 +207,31 @@ the start purposeful and visibly energetic through one striking, supported
 image and an actionable pressure, not an inventory of cinematic details. Keep
 secrets, DCs, and hidden mechanics outside `[!narration]`; dramatic framing may
 show effects and choices without exposing the answer.
+
+## Live-layer readability gate
+
+Separate a short knowledge brief (why this is shown, player knowledge, PC knowledge, and the
+handoff) from the live layer. The live layer must not make the DM jump between prep, a beat index,
+beat files, encounter briefs, and locations to answer “what now?” Use one universal card header
+for the opener and each live check:
+
+```markdown
+**Now:** current POV state and immediate pressure
+**Say/show:** the visible frame or consequence
+**Ask/offer:** the player-facing choice or prompt
+**Opposition/pressure:** what is advancing and why
+**Resolve:** procedure and stakes before the check
+**On success/partial/failure:** changed state for each result
+**If ignored:** independent escalation
+**Move on to:** next check, hard cut, or fallback
+
+### Run now
+### DM reference
+### Optional-unused
+```
+
+Each check's `Run now` is a compact `Say → Ask → Roll → Consequence → Next` strip. Add a
+skip/early-cut route and a refusal/bypass fallback; neither may strand the main session. A hard
+cut includes the first actionable prompt for the main PCs, not merely a destination link. Keep
+knowledge brief and owner links under `DM reference`; do not bury live instructions in reference
+prose. The cold open remains a directed Hook, not a second session plan.

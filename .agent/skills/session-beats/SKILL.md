@@ -135,3 +135,35 @@ from stated PC backstory and public stakes, honor the agreed tone, frame one
 striking image with visible energy, and ensure every choice or silence has an
 echo in the fiction. Cinematic framing never moves secrets or DCs into
 `[!narration]`.
+
+## Runtime render gate
+
+The Beat Chart is a pacing dial, not a second wall of prose. Keep candidate pools separate from
+the runtime render: pools are triggers/evidence/options that may be promoted; the runtime render
+is only the current Hook or pressure card plus the next usable exits. Before budget or inventory,
+render the Hook and current state: what is visibly happening, what the players can affect, and
+what changed since the last beat. Recompute after every beat; do not print stale candidates as live
+instructions.
+
+Every runtime card uses this universal DM header in this exact order:
+
+```markdown
+**Now:** current state and live pressure
+**Say/show:** visible situation or player-facing prompt
+**Ask/offer:** decision, routes, refusal, retreat, or bargain
+**Opposition/pressure:** actor goal, fuse, and visible advance
+**Resolve:** procedure and stakes before a roll or choice
+**On success/partial/failure:** the changed state for each result
+**If ignored:** one independent consequence
+**Move on to:** next card trigger, off-ramps, or end state
+
+### Run now
+### DM reference
+### Optional-unused
+```
+
+For the `Run now` section, keep only moment-local immediate facts, hidden truth, procedure,
+violence opening, and ignored consequence. `DM reference` links owner pages; `Optional-unused`
+is collapsed or omitted. The Hook must be runnable alone, and a runtime render must point to beat
+files or `run-guide` cards in order rather than duplicating their prose. A chart is never a
+second run guide.

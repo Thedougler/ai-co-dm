@@ -8,6 +8,30 @@ tags: [encounter]
 ---
 
 # {{title}}
+## Live card (render first)
+**When live:**
+**Now:**
+**Say/show:**
+**Ask/offer:**
+**Opposition/pressure:**
+**Resolve:**
+**On success/partial/failure:**
+**If ignored:**
+**Move on to:**
+
+### Run now
+- Immediate:
+- Hidden:
+- Run:
+- If violence starts:
+- If ignored:
+
+### DM reference
+- Use the roster, tuning, and owner links below.
+
+### Optional-unused
+-
+
 
 > [!narration] Narration
 > _Loaded tactical first look: field, forces, motion. Theatre of the mind (Place/Creature)._

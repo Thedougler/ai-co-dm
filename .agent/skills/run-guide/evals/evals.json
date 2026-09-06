@@ -1,1 +1,37 @@
-{"skill_name":"run-guide","evals":[{"id":1,"prompt":"Turn an existing four-hour session prep with a strong start, two routes, three encounter owners, a visible faction clock, and an off-map fallback into a DM-only run guide. Do not invent canon or write player-facing narration.","expected_output":"A table-ready guide opens with a 30-second strong start, state/stakes strip, explicit clock strip, quick key index, PC limelight links, and a parachute. Each live card has a stable key, trigger/state, pressure, stakes, options/off-ramp, run procedure, and next state; encounter details remain linked or compressed into table cards.","expectations":["Provides a dashboard with strong start, state/stakes, clock fields, quick index, roster/limelight, and parachute trigger.","Uses stable card keys and world-state triggers rather than a mandatory scene sequence or player-read prose.","Keeps encounter cards actionable with objective, opposition move, terrain, public stakes, off-ramp, and aftermath.","Includes the concrete silence loop and does not fill silence with an invented beat or NPC monologue."]}]}
+{
+  "skill_name": "run-guide",
+  "evals": [
+    {
+      "id": 1,
+      "prompt": "Turn an existing four-hour session prep with a strong start, two routes, three encounter owners, a visible faction clock, and an off-map fallback into a DM-only run guide. Do not invent canon or write player-facing narration.",
+      "expected_output": "A table-ready guide opens with a 30-second strong start, state/stakes strip, explicit clock strip, quick key index, PC limelight links, and a parachute. Each live card has a stable key, trigger/state, pressure, stakes, options/off-ramp, run procedure, and next state; encounter details remain linked or compressed into table cards.",
+      "expectations": [
+        "Provides a dashboard with strong start, state/stakes, clock fields, quick index, roster/limelight, and parachute trigger.",
+        "Uses stable card keys and world-state triggers rather than a mandatory scene sequence or player-read prose.",
+        "Keeps encounter cards actionable with objective, opposition move, terrain, public stakes, off-ramp, and aftermath.",
+        "Includes the concrete silence loop and does not fill silence with an invented beat or NPC monologue."
+      ]
+    },
+    {
+      "id": 2,
+      "prompt": "Structural fixture: a session-prep inventory contains characters, scenes, locations, secrets, monsters, treasure, densify-sync notes, WIP status, and a multi-region archive dump. Render a run surface from it.",
+      "expected_output": "Fails the readability gate or refuses to treat the prep dump as a run guide; asks for a primary chronological run file and keeps archive/sync material out of the live surface.",
+      "expectations": [
+        "Recognizes that prep inventory is not a run guide and points to rendering with run-guide.",
+        "Rejects densify/WIP/multi-region material in the run surface.",
+        "Requires one primary file, glance/Now/scene-menu hierarchy, and progressive disclosure instead of copying the dump."
+      ]
+    },
+    {
+      "id": 3,
+      "prompt": "Structural fixture: given owner links for a strong start, three pressure states, two secrets, one revelation, location and NPC one-liners, a linked combat pack, a thin clock, and treasure, produce a DM-only run guide.",
+      "expected_output": "Passes when the output is one primary run file with a half-screen glance header, Now, a 3–6 item menu, progressive-disclosure links, and 5–7 chronological cards using the universal DM card header and explicit next-card/off-ramps.",
+      "expectations": [
+        "Uses the required stack order: Glance, Now, Scene menu, Secrets, Revelation, Location/NPC strips, linked Combat packs, thin fronts/clocks, Treasure.",
+        "Keeps the strong start runnable alone and uses bullets with no copied wiki essays.",
+        "Every card has Now, Say/show, Ask/offer, Opposition/pressure, Resolve, success/partial/failure, If ignored, and Move on to, followed only by Run now, DM reference, and Optional-unused.",
+        "Makes chronology a play-attention order and provides a next-card trigger plus off-ramp after recompute."
+      ]
+    }
+  ]
+}
