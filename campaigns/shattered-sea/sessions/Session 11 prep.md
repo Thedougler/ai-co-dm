@@ -13,7 +13,6 @@ tags: [session-prep, aruhe]
 Disposable. Rewrite next time; do not treat as canon.
 
 > [!narration] Narration
-> You hang in open air above the canopy with the Crown Squid still holding the tree line below. A Bloodhawk arrives on the thermal, wings folding so the crimson tips flash on a dive aimed at the squid first, and at anything else left in the open sky. Closed canopy and deep grass end the stoop; the hawk owns the open thermal and will not follow you into either cover. Ground under that cover is the win, not killing the bird.
 
 
 ## Locked machine (Nick)
@@ -26,6 +25,18 @@ Disposable. Rewrite next time; do not treat as canon.
 - **Optional nested:** [[Aruhe Warren Mouths]] (G) / [[Aruhe Old Mouth Threshold]] (H) — bait only
 - **Stubs this session:** Grasslands / [[The Rot]] / Grove / [[Lava Tubes]]
 - **Table:** field Long Rest + watches; after LR ask if ate → warn → no food that day = 1 exhaustion next (**≠** Hunger Rule)
+
+
+## Beat files (run guide)
+Run from [[Session 11 beats]] — one note per beat under `sessions/`:
+0. [[Session 11 Beat 00 - Last session recap]]
+1. [[Session 11 Beat 01 - Hook Bloodhawk scare-and-drop]]
+2. [[Session 11 Beat 02 - Dev Drop rim fork]]
+3. [[Session 11 Beat 03 - Cliff Gardens transit]]
+4. [[Session 11 Beat 04 - Dev Taking-places Hunger]]
+5. [[Session 11 Beat 05 - Cliff Wolfrabbit or boat]]
+6. [[Session 11 Beat 06 - Climax Quiet verge or Landing]]
+7. [[Session 11 Beat 07 - Resolution]]
 
 ## Beat budget (~30 min / beat)
 | Slot | Candidate | Notes |
