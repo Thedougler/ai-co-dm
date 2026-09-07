@@ -1,0 +1,8 @@
+/* Wide note surface: keep the main markdown content readable while using the pane. */
+.markdown-preview-view .markdown-preview-sizer,
+.markdown-source-view.mod-cm6 .cm-sizer,
+.markdown-source-view.mod-cm6 .cm-content {
+  width: 92% !important;
+  max-width: 92% !important;
+  margin-inline: auto !important;
+}
