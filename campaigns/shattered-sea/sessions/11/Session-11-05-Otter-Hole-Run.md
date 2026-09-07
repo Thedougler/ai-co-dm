@@ -61,6 +61,15 @@ This family owns this section. Some of the inland group tried to pass through it
 **[[Aruhe Hunger Rule]].** Drinking from this bank without entering this hole is not a claim and is not Hunt. Fishing this hole is Hunt, and it is a possible claim when you next roll. Carrying flesh from this hole is a claim. Do not invent pack contents.
 
 > [!narration] Initial Narration
+> You feel wet bank underfoot, still on the upriver prints, at a hole where this river goes slack. Gold-green stems stand at the waterline. You hear the current only as a slow push through those stems.
+>
+> A pack, clothing, and a body sit in that slack water. Two chocolate-black otters, twelve feet nose to tail, roll under those remains. You see a wide pale bib at one throat and a thin streak at the other. Clear water shows the bottom, and wet backs move the cloth.
+>
+> A blood smear climbs out of this hole onto this bank. Living prints leave the water there and cut around the hole into the grass and the first trees. You smell wet blood on that dirt. The smoke is still a thin column ahead up-valley, and from this bank it stays that far. Downstream the grass opens back toward the terrace line, the beach, and Uncertainty. Open sky sits over this hole.
+>
+> The otter with the pale bib holds its head above the slack and watches this bank. The one with the thin streak stays under the body, whiskers at the surface.
+>
+> What do you do?
 >
 
 ## Procedure
@@ -90,24 +99,31 @@ This family owns this section. Some of the inland group tried to pass through it
 | [[Razer-Grass]] | This stretch has no mapped razer island. | The otters do not haul out onto [[Razer-Grass]]. |
 
 > [!narration] This hole / slack water
+> You see the pack, the clothing, and the body turning in this slack with the two chocolate-black otters. You hear water lap the cloth. A foot in this hole puts a body in with them.
 >
 
 > [!narration] This bank / blood smear
+> A dark smear climbs out of this hole onto this dirt. You smell wet blood on the bank. From here the slack is in view without a foot in it.
 >
 
 > [!narration] Grass and forest edge
+> Living prints leave this water and cut around the hole into gold grass and the first trees. You feel stems close as that track bends inland. The otters stay with this hole.
 >
 
 > [!narration] Inland smoke
+> A thin column of smoke stands still ahead up-valley. You feel the same wind tug the top of it. From this hole it stays that far.
 >
 
 > [!narration] Downstream valley
+> Downstream the grass opens back toward the first stretch, the terrace line, the beach, and Uncertainty. You hear the river pick up again that way. The beach and terraces stay out of a hard run from this hole.
 >
 
 > [!narration] Hawk sky
+> You feel sun and wind in open valley air above this hole. The slack water and this bank sit below. Nothing here hides a body at that height.
 >
 
 > [!narration] Razer-Grass
+> This slack hole has no waist-high glassy island at the bank. Pale blades like thin glass cut elsewhere in this valley, sparkles sitting still, a light tick in the wind. These otters stay in this water and do not haul a body onto those edges.
 >
 
 ## Be ready for
@@ -144,15 +160,19 @@ The Hunt turn happens after everyone has acted, and only if anyone remains on th
 | 4 | Hold this hole. The otters do not chase far overland. They do not haul out onto [[Razer-Grass]]. They can wait under a body. Do not start beat 6. |
 
 > [!narration] Tick 1
+> The otter with the pale bib drives in from this slack at whoever entered this hole, fished it, pulled a body, or struck from this bank. You see the chocolate-black body close, pale bib at the throat, teeth and the heavy tail both coming. You hear the slap of that tail on the water as it hits.
 >
 
 > [!narration] Tick 2
+> The otter with the pale bib hauls whoever it already holds through this hole and shoves that body under the slack. You who are dunked feel the water close over your head. Breath is still in the chest. If that otter has no hold yet, teeth and the heavy tail come again in this same water.
 >
 
 > [!narration] Tick 3
+> The otter with the thin streak closes beside whoever is already in this water, chocolate-black, the streak bright at the throat. You see it wait under a dragged body, or come in next to the first. Two wet backs work the same stretch of slack.
 >
 
 > [!narration] Tick 4
+> The two otters hold this slack hole. You see them stay with the pack, the clothing, and the body. They do not haul a body onto pale glass blades, and they do not follow far onto this bank.
 >
 
 **Bloodied.** Bloodied is 38 hit points on an [[Aruhe River Otter]]. This card has no extra bloodied action. Keep Hunt.
@@ -172,16 +192,23 @@ If the crew fought or looted in this hole and then left, they are still toward t
 If the crew broke off the trail, they are heading downstream through the valley toward the terrace line, the beach, or [[Uncertainty]], or a flyer is in hawk sky, plus any RAW conditions already applied. Rebuild from that.
 
 > [!narration] Landing
+> You leave this hole on the bloody-bank prints. You feel grass and then tree-shadow close as that track cuts around the slack. You see the line of living feet keep going toward the smoke.
+>
+> You are already headed downstream through the grass, toward the terrace line, the beach, or Uncertainty. This slack hole sits behind you.
+>
+> You are already in hawk sky over this valley. Sun and wind have this height.
 >
 
 **Crash-landed.** That crew member still has 2d6 bludgeoning already applied and is Prone until they stand.
 
 > [!narration] Crash-landed
+> You are still down on this bank. You feel wet dirt and the blood smear at ground height until you stand.
 >
 
 **Scattered.** That crew member is still apart until they join up.
 
 > [!narration] Scattered
+> You are still apart at this hole. You see slack water, this bank, or the grass-and-tree edge in the gap until you join up.
 >
 
 **Prone.** Anyone knocked down on this stretch is Prone until they stand.
@@ -197,6 +224,7 @@ Do not run grassland tables, night watch, or the deer-stalker here. After this h
 ![[Aruhe River Otter#Statblock]]
 
 > [!narration] Aruhe River Otter
+> You see two twelve-foot chocolate-black otters in this slack hole, a wide pale bib at one throat and a thin streak at the other, wet backs under a pack and a sleeve of clothing. The bibbed head holds on this bank. You hear water drip from whiskers at the surface.
 >
 
 ![[Aruhe River Otter#At the table]]
