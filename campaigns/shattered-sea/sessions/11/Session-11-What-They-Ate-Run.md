@@ -28,17 +28,7 @@ This beat is thirty minutes.
 
 ## Starting state
 
-**Here.** The pack on the first stretch is already broken. The crew stands on the upriver prints at this camp-in-passing bank.
-
-**Three piles.** Overripe fruit already lies on the ground, fermenting: rinds, seeds, no blood. Fresh bushes stand next to that pile, stems snapped on the living plant, blood in the dirt. Fish bones, scales, and a crude line or spear sit at the water.
-
-**River here.** The line sits in the wet mud at this bank. This is not the otter hole.
-
-**Upriver prints.** The tracks continue upstream toward the smoke.
-
-**Inland smoke.** A thin column still stands on the horizon up-valley. Miles to the smoke are unknown. A Dash does not reach the beach, the smoke, or the terraces.
-
-**Downstream valley.** Back through the grass is toward the first stretch, the terrace line, the beach, and [[Uncertainty]].
+This is the camp-in-passing on the upriver prints after the pack.
 
 **Crash-landed.** That crew member still has 2d6 bludgeoning already applied and is Prone until they stand.
 
@@ -52,19 +42,12 @@ This beat is thirty minutes.
 
 Without a swim speed, each foot in the moving water costs 1 extra foot (5.5e 2024). Current speed is unknown; do not invent a push.
 
-Do not run wolfrabbits or the otter hole here. Do not restage [[Aruhe-River-Grasslands-Plant-Hazards]] row 8 as a random table on this card. This beat is that lesson.
-
 ## L0 · Glance
 
 - **Stakes:** Easy food is sitting on the ground of this bank. The living bushes look better, and they are the ones with blood under them. Time spent sorting this is time the smoke moves or thins.
-- **Goal / exit:** Copy the right thing and keep the upriver prints (beat 5), or claim living plants or fish this hole (the cost lands, the trail remains), or break off the trail.
 - **Danger:** Picking living bushes on this bank is the claim that left blood. Fishing this hole is a possible later claim. Lingering lets the smoke thin.
 - **Silence:** Present the three piles on this bank, then wait. If the crew freezes, tick the clock once at the end of the round.
 - **Situation magnets:** Anyone lingering on this bank is a magnet. Anyone picking live stems on this bank is a magnet. Anyone fishing this hole is a magnet.
-
-## Now
-
-The pack on the first stretch is already broken. The crew stands on the upriver prints at this camp-in-passing bank. Three piles sit in the wet mud: fermenting fruit already down with no blood, living bushes with snapped stems and blood under them, and fish bones with a crude line at the river. The prints continue upstream. A thin column of smoke still stands on the horizon. Downstream the valley runs back toward the terrace line, the beach, and [[Uncertainty]].
 
 ## DM truth
 
@@ -77,7 +60,7 @@ The group ahead has been living off fruit already down on this bank, and off fis
 **[[Aruhe Hunger Rule]] claim.** Fruit already on the ground of this bank is down. Fallen fruit has no blood. Taking only that fruit is not a claim. Ordinary restorative fruit may occur. [[Lion Citrus]] or [[Breathmelon]] already down is enough. Do not invent a new mechanical item. Living stems on this bank still hold fruit. Stems snapped on the living plant with blood in the dirt are the claim already made by someone else. Plucking living bushes on this bank is a claim. On that claim, do not roll grassland tables now. Both later [[Aruhe-River-Grasslands-Tables]] and [[Aruhe-River-Grasslands-Plant-Hazards]] rolls are 2d8 keep the lower number, then pick one row. Free-flowing river water on this bank is drinkable passage. If the crew fishes this hole themselves, treat it as a possible claim when you next roll. Do not start the otter hole. The trail and smoke remain.
 
 > [!narration] Narration
-> Upriver prints cut through wet mud on this river bank, and a camp still sits on them, left in passing. Overripe fruit already lies on the ground, rinds and seeds in a fermenting heap, a citrus peel and a pale green melon among what is down, and that pile has no blood. Living bushes stand beside it with fruit still on the stems. Some of those stems are snapped on the plant, and blood darkens the dirt under the breaks. At the water, fish bones and scales sit beside a crude line stuck in the mud, the line still pointing upstream with the prints. Downstream the valley runs back through the grass they just left. Upstream a thin column of smoke still stands on the horizon. The ferment smell hangs over the wet mud. What do you do?
+> Upriver prints cut through wet mud on this river bank, and a camp still sits on them, left in passing. Overripe fruit already lies on the ground, rinds and seeds in a fermenting heap, a citrus peel and a pale green melon among what is down, and that pile has no blood. Living bushes stand beside it with fruit still on the stems. Some of those stems are snapped on the plant, and blood darkens the dirt under the breaks. At the water, fish bones and scales sit beside a crude line stuck in the mud, the line still pointing upstream with the prints. Downstream the valley runs back through the grass. Upstream a thin column of smoke still stands on the horizon. The ferment smell hangs over the wet mud. What do you do?
 
 **Sound/feel.** Ferment smell hangs over the wet mud. Current tugs at anyone who steps to the line.
 
