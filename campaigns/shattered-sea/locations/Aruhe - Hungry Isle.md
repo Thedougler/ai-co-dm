@@ -46,18 +46,18 @@ A country-scale island in the eastern Midchain: roughly 500 miles end-to-end and
 
 ## Senses
 - **Sight:** Green canopy, basalt and stone rim, jagged coral reef, terraces, grasslands, river valleys, and no towns, fields, roads, or smoke.
-- **Sound:** Surf and reef movement at the edge; rainforest silence in [[The Quiet]]; region-specific calls and cave echoes elsewhere.
-- **Smell / touch:** Afternoon sugar-sour air in [[Old Gardens]], wet soil, flowers, river water, basalt, and vent heat.
+- **Sound:** Surf and reef movement at the edge; rainforest silence in [[Aruhe - Quiet Forest]]; region-specific calls and cave echoes elsewhere.
+- **Smell / touch:** Afternoon sugar-sour air in [[Aruhe - Old Gardens]], wet soil, flowers, river water, basalt, and vent heat.
 
 ## Topology / survey map
 - `[[Sparhold]] -- open-water route (direct, exposed, preserves the established route) --> [[Western Landing]]`.
 - `[[Karath]] -- near-edge channel (about 0.5 mi at one closest point; does not shorten the island's interior) --> Aruhe's western edge`.
 - `[[Western Landing]] -- one boat gap through jagged reef; short shingle beach --> [[Old Gardens]]`.
-- `[[Old Gardens]] -- terrace route (abundant, exposed, information-rich) --> [[Grasslands - River Valleys]]`.
+- `[[Aruhe - Old Gardens]] -- terrace route (abundant, exposed, information-rich) --> [[Aruhe - Grasslands]]`.
 - `[[Old Gardens]] -- green route (sheltered, quiet, loses small-life signs) --> [[The Quiet]]`.
 - `[[The Quiet]] -- silence boundary (rainforest, small life eaten out) --> [[The Rot]]`.
-- `[[Grasslands - River Valleys]] -- water route (drinkable flow, crossing and observation rather than possession) --> [[Clear Lake]]`.
-- `[[Grasslands - River Valleys]] -- open route (fast sightlines, exposed to large life) --> [[The Grove - Death Bloom]]`.
+- `[[Aruhe - Grasslands]] -- follows --> [[Aruhe - River]] -- uphill water route --> [[Clear Lake]]`.
+- `[[Aruhe - Grasslands]] -- open route (fast sightlines, exposed to large life) --> [[Aruhe - Memorial Grove]]`.
 - `[[The Rot]] -- decay route (dangerous, clue-rich) --> [[The Grove - Death Bloom]]`.
 - `[[The Rot]] -- subsurface breach (vertical, committing, volcanic) --> [[Lava Tubes]]`.
 - `[[Clear Lake]] -- watercourse and shore route (restful but tempting to fish) --> [[The Grove - Death Bloom]]`.
@@ -79,7 +79,7 @@ A country-scale island in the eastern Midchain: roughly 500 miles end-to-end and
 ## Ecology and balance
 - **Old volcanic body:** Basalt, vents, and lava tubes run beneath soil; no single master predator controls the island.
 - **Niches:** The island is too much of everything, not a place of lack. Boundaries between niches are part of its balance.
-- **The Quiet:** Rainforest silence means small life has been eaten out; [[The Quiet]] is not merely a quiet road.
+- **The Quiet:** Rainforest silence means small life has been eaten out; [[Aruhe - Quiet Forest]] is not merely a quiet road.
 - **The Grove / Death Bloom:** A tree, graves, and earth meet in a restrained node rather than expressing the island's full excess.
 
 ## Information economy
@@ -149,8 +149,8 @@ Run from one and you are usually standing in the next one's country; that bounda
 - **Mute jungle:** Shield leaves, thick trunks, hanging roots, and sight that dies in a few paces define the closed canopy. [[Strangler Fig]] and adult [[Snakewood]] own its pinch points and trails; [[Stonepear]], [[Ghost plum]], and [[Stillbloom]] mark the passage.
 - **River cuts:** Lake-fed openings carry eight-foot gold grass. Near water the grass leans; farther in, anything that does not lean is an animal. [[Razer-Grass]], [[Quickeye berries]], and [[Breathmelon]] belong to this open water country.
 - **Sick interior:** Black leaf edges, failing bark, impossible fungi, and luminous roots all point upslope. [[Whisper fig]], [[Skybladder]], [[Rotheart]], [[Corpsewood]], and sick larger Snakewood belong to the Rot.
-- **Lava tubes:** Pale curtains of living root hang through the ceilings and drip into the tubes. This is surface forest reaching down, not a separate flora; see [[Lava Tubes]].
-- **Last clearing:** Luminous roots stop at two unmarked graves. Black flowers ring too-green grass; the [[The Grove - Death Bloom|Death Bloom tree]], flowers, graves, and bound soil form one memorial.
+- **Lava tubes:** Pale curtains of living root hang through the ceilings and drip into the tubes. This is surface forest reaching down, not a separate flora; see [[Aruhe - Lava Tubes]].
+- **Last clearing:** Luminous roots stop at two unmarked graves. Black flowers ring too-green grass; the [[Aruhe - Memorial Grove|Death Bloom tree]], flowers, graves, and bound soil form one memorial.
 
 ## Flora provenance
 - Compiled from Nick's Aruhe flora paste, 2026-09-05.
@@ -160,10 +160,10 @@ Run from one and you are usually standing in the next one's country; that bounda
 ## Hinewai's origin pressure
 Aruhe's excess is the success of Hinewai's preservation. After Karath captured the elf archdruid and forced her to enlarge vermin, she fled with an unnamed companion; he drowned in the half-mile channel. She carried him inland, buried him beneath a fruit tree, took the offered fruit as a vow, and later fused herself to the land in a second grave. The memorial became the Death Bloom and the island's law.
 
-Everywhere beyond [[The Grove - Death Bloom]], life was prevented from finishing: growth, reproduction, healing, adaptation, and rot lost their brakes. This is not a single intelligence or a new monster ecology. Familiar fauna remain independent animals; Hinewai's presence is the island agreeing with itself. The Hunger Rule is her distinction between receiving and taking, made ecological pressure.
+Everywhere beyond [[Aruhe - Memorial Grove]], life was prevented from finishing: growth, reproduction, healing, adaptation, and rot lost their brakes. This is not a single intelligence or a new monster ecology. Familiar fauna remain independent animals; Hinewai's presence is the island agreeing with itself. The Hunger Rule is her distinction between receiving and taking, made ecological pressure.
 
 ## Hinewai continuity
-Luminous roots run wrist-thick to thigh-thick from the shelf above [[Clear Lake]] through [[The Rot]] and point toward the Grove. At the Grove, roots stop at both unmarked graves. The first grave is the drowned companion's reason; Hinewai's second grave is the mechanism. The memorial is a place, not a portable object: tree, graves, black flowers, bound soil, and relationship.
+Luminous roots run wrist-thick to thigh-thick from the shelf above [[Aruhe - Clear Lake]] through [[Aruhe - The Rot]] and point toward the Grove. At the Grove, roots stop at both unmarked graves. The first grave is the drowned companion's reason; Hinewai's second grave is the mechanism. The memorial is a place, not a portable object: tree, graves, black flowers, bound soil, and relationship.
 
 ## Canon and provenance
 - Dump-authoritative autobiography: Nick paste, 2026-09-05.
