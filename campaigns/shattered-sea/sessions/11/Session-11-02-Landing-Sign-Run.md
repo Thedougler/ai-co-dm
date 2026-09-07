@@ -151,10 +151,11 @@ If the crew follows the prints, they have committed to the upriver trail along t
 
 If the crew broke, they are returning through the terrace line toward the beach or [[Uncertainty]], plus any RAW conditions already applied.
 
-> [!narration] Landing
+> [!narration] Landing — Upriver prints
 > You leave the bank on the upriver prints, following the bent grass deeper into the valley toward the smoke. Gold-green stems rasp at your legs as the river keeps pace beside the path.
->
-> Or you are already in the terrace woods, headed back for [[Uncertainty]]. The beach lies ahead through old garden stone and mangrove, the riverbank falls behind you, and salt comes in on the wind off the water.
+
+> [!narration] Landing — Return to Uncertainty
+> You are already in the terrace woods, headed back for [[Uncertainty]]. The beach lies ahead through old garden stone and mangrove, the riverbank falls behind you, and salt comes in on the wind off the water.
 
 **Scattered.** That crew member is still apart in the grass or Terrace woods until they join up.
 
