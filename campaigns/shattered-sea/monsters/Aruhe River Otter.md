@@ -9,6 +9,8 @@ visibility: dm
 tags: [monster, aruhe]
 ---
 
+## Statblock
+
 ```statblock
 layout: Basic 5e Layout
 name: Aruhe River Otter

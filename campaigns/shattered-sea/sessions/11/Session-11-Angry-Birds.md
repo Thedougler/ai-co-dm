@@ -92,6 +92,8 @@ Same bank, three piles. Fermenting fruit on the ground, no blood. Fresh bushes w
 
 ### 5. CLIFFHANGER — Monster, Fright (otter hole)
 
+**Run:** [[Session-11-Otter-Hole-Run]]
+
 - **Purpose:** Show that this stretch of river is already claimed, that it killed people, and that the living survivors left the water here. The fight happens if the party stays in the hole.
 - **Table sees:** The current slows. Shapes in the water that are not fish: clothing, a pack, a body the current should have taken. Large otters with those remains. On the bank, a blood smear going up out of the river. Prints leave the water there and cut into the grass and the forest edge, around this hole, then the smoke is still ahead.
 - **Truth:** This family owns this section. Some of the inland group tried to pass through it and died. The rest climbed out and detoured the long way along the grassland forest edge. **Unrevealed:** the otters treat anything in the hole as food or toy. They do not start the beat at a full charge. They will if someone wades in, fishes, or pulls a body.
