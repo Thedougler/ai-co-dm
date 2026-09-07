@@ -15,7 +15,7 @@ Combat and item numbers **embed**. Scene procedure (clock, zones, tells, landing
 is written here. A missing owner is a diagnostic, not permission to invent canon.
 
 **Sole-authority:** a tired DM at minute 90 can run this slice without opening
-another note. A bare `[[Bloodhawk]]` with no embed fails. Copied AC/HP tables fail.
+another note. A bare `[[Monster]]` with no embed fails. Copied AC/HP tables fail.
 
 ## Workflow
 
@@ -49,12 +49,12 @@ Frontmatter: `type: session-prep` (or `encounter`), `cssclasses: [session-surfac
 
 | Order | Field | Shape |
 |---|---|---|
-| 1 | **Glance** | `## L0 · Glance` bullets: stakes, goal, exit, danger, Silence, **situation magnets** (who is high, loud, or obvious *now*). Not a named-PC roster and not how they fly. |
+| 1 | **Glance** | `## L0 · Glance` bullets: stakes, goal, exit, danger, Silence, **situation magnets** (who is high, loud, or obvious *now*). Not a named-PC roster and not how they already move. |
 | 2 | **Now** | One paragraph. Current situation once. |
 | 3 | **Open** | `> [!narration] Narration`. Three **tells**. End on “What do you do?” No separate Ask callout. |
 | 4 | **DM truth** | Open `> [!secret] DM truth` — opposition want, one sentence. Needed before any ruling. |
 | 5 | **Zones** | Table: band \| what’s there \| moves to cover. Needed before adjudicating a direction. |
-| 6 | **Be ready for** | Table: intent \| approach (skill) \| DC \| success \| partial \| failure. Name creatures and places in every cell. Pronouns fail. Not a menu to read. |
+| 6 | **Be ready for** | Table: intent \| approach (skill) \| DC \| success \| partial \| failure. Name the creature, item, and place in every cell. Pronouns fail. Not a menu to read. |
 | 7 | **Threat clock** | Table inside open `> [!mechanic] Threat clock`. Named tick. 3–4 ticks. |
 | 8 | **Round script** | Bullets: R1 position, R2 escape/pressure, R3 explode or grab; bloodied; cover-reached; minions. Scene dials here, next to the script. |
 | 9 | **Roster embeds** | `![[Monster#Statblock]]` for opposition you will roll. Item headings only if this slice spends charges or the item is the pressure. |
@@ -82,11 +82,11 @@ bodies stay on those notes.
 
 ## Embed roster
 
-- Tight heading embed: `![[Bloodhawk#Statblock]]`. Optional `![[Bloodhawk#At the table]]` for tactic/tell.
-- Embed an item only when this slice spends its charges, DCs, or limits, or when the item *is* the pressure. How a crew member already flies (boots, wings, spell) is not roster.
-- Do not `![[Bloodhawk]]` the full ecology essay.
+- Tight heading embed: `![[Monster#Statblock]]`. Optional `![[Monster#At the table]]` for tactic/tell.
+- Embed an item only when this slice spends its charges, DCs, or limits, or when the item *is* the pressure. How the party already moves (flight, swim, mounts, boats) is not roster.
+- Do not embed the full ecology essay.
 - Do not copy AC, HP, +hit, damage, or grab DCs onto the run card.
-- Scene-only dials (easy Multiattack, young count, this slice’s cover rule) are bullets beside the embed.
+- Scene-only dials (easy/hard, minion count, this slice’s cover rule) are bullets in the round script.
 - If the owner lacks `## Statblock`, add that heading above the fence on the owner (no math rewrite), then embed.
 
 `theatre-of-the-mind` owns narration. `obsidian-markdown` owns embed syntax and
