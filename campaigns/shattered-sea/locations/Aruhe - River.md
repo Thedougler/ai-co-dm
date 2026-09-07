@@ -11,7 +11,11 @@ tags: [location, aruhe, river]
 ## Art
 ![[attachments/shattered-sea/places/aruhe-the-river.jpeg]]
 > [!narration] Narration
-> The jungle breaks on water. Green-blue current cuts through grass on one bank and hundred-foot roots on the other. The river is cool, clear, and almost obscenely beautiful. There is no sign that anything is wrong until the water moves beneath you.
+> 
+
+## Battlemap
+
+![[attachments/shattered-sea/battlemaps/aruhe-river-day.png|Aruhe River battlemap for Foundry VTT]]
 
 ## At a glance
 

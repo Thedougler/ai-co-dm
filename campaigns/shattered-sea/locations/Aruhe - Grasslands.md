@@ -13,6 +13,9 @@ tags: [location, aruhe, grasslands, rivers]
 > [!narration] Narration
 > Clear water threads through these grass valleys in channels narrow enough to follow and broad enough to drink from at the muddy bends. Gold-green grass stands high on both banks, leaning where the ground is wet and closing into walls where the valley rises toward dark trunks and hanging vines. Sun shafts cross the open cuts of sky, bright on the water and warm on the blades, while bird calls carry over the sound of the stream.
 
+## Battlemap
+
+![[attachments/shattered-sea/battlemaps/aruhe-grasslands-day.png|Aruhe Grasslands battlemap for Foundry VTT]]
 
 ## At a glance
 River-cut valleys in Aruhe's jungle, not a sixth concentric band. Freshwater forces the canopy apart. These exposed chambers are beautiful, hot, and watched from the shaded rim.
