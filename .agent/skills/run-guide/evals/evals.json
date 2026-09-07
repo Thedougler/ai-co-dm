@@ -48,7 +48,7 @@
     {
       "id": 5,
       "prompt": "Render one 30-minute opening beat as the sole-authority run card. A monster owner exists. A second pressure creature will attack in default mode but has no owner yet. Ordinary movement (flight, swim, mounts) is how the party already travels, not a plot item. The next beat is not on the run file. Independent quality bar: a tired DM can run this slice without opening another note for anything they will roll or say.",
-      "expected_output": "One cockpit. Scene ends when as the first heading, cut lines, starting state in feet (what a move vs Dash reaches). DM truth before Open. Open includes currently visible cover, routes, relative position, and imminent action, then the question. One named escape-mode procedure (clock is the predators' turn; table failures never tick). Partial defined. Be ready for includes Assess the situation when the opening is readable as 'what is it hunting?'. Action cards next to DM truth with default-mode numbers. Clock holds bloodied as a number; no peer round script. Every consequence is a ruling. Secondary objective has an outcome if listed. Monster heading-embedded at the bottom. Missing second creature is a diagnostic, not invented math. No Exit. No closed player menu. No embedding of mundane movement gear. Hunt/tactic verbs vary. Travel omitted.",
+      "expected_output": "One cockpit. Scene ends when as the first heading, cut lines, starting state in feet (what a move vs Dash reaches). DM truth before Open. Open includes currently visible cover, routes, relative position, and imminent action, then the question. One named escape-mode procedure (clock is the predators' turn; table failures never tick). Partial defined. Be ready for includes Assess the situation when the opening is readable as 'what is it hunting?'. Action cards next to DM truth with default-mode numbers. Clock holds bloodied as a number; no peer round script. Every consequence is a 5.5e RAW or named vault-homebrew ruling (no minted action types). Secondary objective has an outcome if listed. Monster heading-embedded at the bottom. Missing second creature is a diagnostic, not invented math. No Exit. No closed player menu. No embedding of mundane movement gear. Hunt/tactic verbs vary. Travel omitted.",
       "expectations": [
         "Contains ![[Monster#Statblock]] or equivalent heading embed and does not retype the owner's full Multiattack/HP table above the embed.",
         "Contains one named procedure, named zones, starting-state movement grammar, and a Be ready for table with Partial defined that names creatures and places rather than pronouns.",
@@ -56,7 +56,7 @@
         "Omits Exit while the next beat is not on the file; when a later eval supplies the next beat, Exit is a transition with no table question.",
         "No dual Run-now copy; no Scene menu; no prep-workflow sentences; no separate Ask callout; no peer round script.",
         "Does not embed ordinary movement gear or treat how the party already travels as a plot reminder.",
-        "Every Be ready for and clock consequence is a ruling; bloodied is a number; Scene ends when is bold.",
+        "Every Be ready for and clock consequence is a 5.5e RAW or named vault-homebrew ruling; no minted action types; bloodied is a number; Scene ends when is the first heading.",
         "Flags a missing owner for a creature that will be rolled rather than inventing its math."
       ]
     }

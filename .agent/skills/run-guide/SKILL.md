@@ -95,7 +95,11 @@ A row may say “binary — no partial” when the fiction has no middle.
 
 ## Ruling
 
-Every Be ready for cell and every clock tick names an implementation the DM can roll or apply: attack bonus and damage with a **named action**, or a condition plus a distance in feet, or HP. “Takes one hit,” “arrives hurt,” “scattered,” “crash-landed,” “a pack is lost,” “rough landing,” and “rake” fail until mapped.
+Every Be ready for cell and every clock tick is 5.5e RAW or vault homebrew already on an owner (AGENTS: no invented mechanics).
+
+Use a 5.5e action (Attack, Dash, Disengage, Dodge, Help, Hide, Influence, Magic, Ready, Search, Study, Utilize), movement in feet, an opportunity attack, a named condition (Prone, Grappled, Restrained, …), an ability check or save, or a **named feature on a vault owner** (`Talon Grab`, `Flush Scatter`, `Canopy Dive`). This vault’s **Partial** (miss by 1–4) is house, written once above the table.
+
+Evocative labels (`scattered`, `crash-landed`, `rough landing`) are fine as names only when the line also states the RAW or owner implementation (for example: lands 30 feet away; 2d6 bludgeoning and Prone). A minted action type (`regrouping action`) is a fail. Missing owner math → `homebrew-monsters-5e`, not a new rule on the card.
 
 ## Starting state
 
@@ -152,7 +156,7 @@ Completion — all of these hold, or the draft is not done:
 - DM truth before Open.
 - Open contains currently visible cover, routes, relative position, and imminent action, then the question.
 - Action cards sit with DM truth; clock holds bloodied as a number, cover-reached, minions, dials.
-- Every consequence is a *ruling*.
+- Every consequence is a *ruling* in 5.5e RAW or a named vault-homebrew feature.
 - Secondary intent, if listed, has beats / ignore / later consequence.
 - No Round script peer field; no dual Now/Run-now; no separate Ask callout; no Scene menu on a 30-minute card.
 - Combat-mode owners heading-embedded below. Default-mode rolls have numbers on the action cards.

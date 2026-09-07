@@ -116,6 +116,6 @@ Session links.
 
 - Complete grammatical sentences on live cards.
 - No collapsed callouts on session/run surfaces.
-- Embed `![[Name#Statblock]]` at the bottom. Put default-mode compact numbers on the action cards. Do not retype the owner's full Multiattack/HP table above the embed.
+- Embed `![[Name#Statblock]]` at the bottom. Put default-mode compact numbers on the action cards. Do not retype the owner's full Multiattack/HP table above the embed. Rulings are 5.5e RAW or named vault homebrew.
 - One cockpit in play order. One named *procedure*. No peer round script. Do not add a second Run-now copy of Glance.
 - Exit is a transition into the next beat, written only when that beat exists. No table question in Exit.

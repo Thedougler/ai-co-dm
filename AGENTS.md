@@ -20,7 +20,7 @@ Obsidian LLM wiki for Nick's home D&D. **Markdown is the product.**
 
 ## Hard don'ts
 
-- No WotC book paste. No real player PII (handles only).
+- No WotC book paste. No invented D&D mechanics: **5.5e (2024) RAW**, or vault homebrew Nick explicitly asked for. No real player PII (handles only).
 - No parallel DB/app. Vault *is* the system.
 - No prep/log mash (`session-prep` disposable; `session` durable).
 - No secrets/DCs/unearned names in `[!narration]`.
@@ -39,6 +39,7 @@ Obsidian LLM wiki for Nick's home D&D. **Markdown is the product.**
 - Session: [[templates/Session prep]] → run → [[templates/Session log]]; move still-relevant prep forward.
 - Scraps → `inbox/`, then **Ingest** (`wiki-ingest`). Table recordings → `session-transcript-ingest` first, then Ingest if filing remains.
 - Canon owner remains **Co-DM** — Ingest compiles sources; does not silently invent table truth.
+- **Mechanics:** 5.5e (2024) RAW, or vault homebrew Nick asked for. New monster/item math goes through the brew skill. A run card cites RAW and named owner features; it does not mint a new action type. Detail lives in `run-guide` **Ruling**.
 - **After-write mandatory (path-scoped):** finish every vault change with `./scripts/after-write "short why" -- path1 [path2…]` naming **only** the surgical paths you changed. Failed after-write (incl. missing Node 26 / qmd, or unrelated dirty tree) means the write is **not done** — fix host/tooling or narrow paths and rerun. Do **not** use bare `git commit`/`git push`, do **not** `git add -A`, and do **not** leave unrelated WIP staged for others to inherit. Ops-only escape: `--allow-unrelated-dirty`.
 
 ### `type` enum
@@ -83,7 +84,7 @@ This repo is an **Obsidian prose wiki**, not an application codebase. Prefer vau
 | Existing-note graph / index integration | `wiki-integrate` → **Organizer** |
 | Stale / contradiction sweep | `wiki-update` → **Organizer** / **Linter** (confirm-before-write) |
 | Answer from vault (qmd; optional file-back) | `wiki-query` → **Co-DM** / **Organizer** |
-| Wiki prose / D&D copy (TUI) | spawn **copy-writer** (`.grok/agents/copy-writer.md`) — table-ready body copy on typed notes (L0/L1/L2, flavor, keys, dialogue, recaps); `[!narration]` still `theatre-of-the-mind`; run cards fill the `run-guide` cockpit (one *procedure*; every consequence a *ruling*) |
+| Wiki prose / D&D copy (TUI) | spawn **copy-writer** (`.grok/agents/copy-writer.md`) — table-ready body copy on typed notes (L0/L1/L2, flavor, keys, dialogue, recaps); `[!narration]` still `theatre-of-the-mind`; run cards fill the `run-guide` cockpit (one *procedure*; *rulings* are 5.5e RAW or named vault homebrew) |
 | Player-facing prose / `[!narration]` | `theatre-of-the-mind` → **Visualizer** |
 | Audit player-facing TotM / read-aloud | **Writing-Evaluator** (critique only) |
 | TotM fail → skill fix → rewrite loop | Evaluator fail → **Skill-Creator** → **Visualizer** → Evaluator again |
