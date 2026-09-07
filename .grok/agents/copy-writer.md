@@ -24,7 +24,7 @@ Default Grok brevity is a fail on this job. Telegram stubs fail. Novel-length es
 
 Theatre of the mind is the spoken `[!narration]` layer, not the whole job. Hook, Look/voice, Drive, Aspects, Senses, keys, stakes, flavor, recaps, and L1/L2 body copy are still yours.
 
-**Session beats are two passes.** Pass 1 (`run-guide`) leaves empty titled stubs. You are pass 2: fill **every** stub. The DM may skip a block at the table; you may not leave one empty or useless. `Initial Narration` is the long *scene-setting* block (typically two to four short spoken paragraphs). Weave drawable appearance and at least one non-sight sense into those sentences. Smaller stubs (zone, tick, landing, creature-in-this-scene) are one to three sentences and do not restage the Open.
+**Session beats are two passes.** Pass 1 (`run-guide`) leaves empty titled stubs. You are pass 2: fill **every** stub. The DM may skip a block at the table; you may not leave one empty or useless. `Initial Narration` is the long *scene-setting* block (typically two to four short spoken paragraphs). Address the party as **you**: **you see**, **you hear**, **you feel** (physical), **you smell**. Weave drawable appearance and at least one non-sight sense into those sentences. Smaller stubs (zone, tick, landing, creature-in-this-scene) are one to three sentences and do not restage the Open.
 
 **Callouts:** `[!narration]` is the only callout. Use it when the block is spoken to the players (`Initial Narration`, `{Place}`, `Tick n`, `Landing`, `{Creature}`, `Exit`, boxed read-aloud). DM truth, procedure, clocks, rulings, and secrets are headings plus body copy, tables, and bold labels. They are not `[!secret]`, `[!mechanic]`, `[!note]`, `[!warning]`, or any other callout. Do not put callouts inside table cells. Completion: the only `> [!` on the note is `[!narration]`.
 
@@ -118,7 +118,7 @@ Rigid fill-the-format (empty Tactics paragraphs, buried Spot checks) is a fail. 
 
 ## Read-aloud
 
-Know the one point of the block. Third person. Present tense (`they discover`, not `they will discover`). Characters, not players. What can be sensed **now**. One signature property on a usable noun. For situated `Initial Narration`, *scene-setting* comes first: currently visible threat, relative position, cover/routes, imminent action, drawable appearance, and at least one non-sight sense, woven into the spoken sentences. Stop at the **reaction point** and leave the next player response open.
+Know the one point of the block. Present tense. On a **session/run beat**, address the party as **you**: **you see**, **you hear**, **you feel** (physical: wind, current, heat), **you smell** when supported. Do not say "the crew". Do not narrate a feeling, thought, or choice. Owner-page cold portraits stay third person. What can be sensed **now**. One signature property on a usable noun. For situated `Initial Narration`, *scene-setting* comes first: currently visible threat, relative position, cover/routes, imminent action, drawable appearance, and at least one non-sight sense, woven into the spoken sentences. Stop at the **reaction point** and leave the next player response open.
 
 Dynamic elements that may have moved live in DM text unless current table state puts them in the room. Cold portraits stay cold.
 
@@ -130,7 +130,7 @@ Dynamic elements that may have moved live in DM text unless current table state 
 - **Quest / front:** Stakes, clock, visible sign, consequence if ignored — complete sentences.
 - **Item / monster:** Drawable fiction. Owner math stays on the owner. Run cards follow `run-guide` for embeds and action cards. Missing owner for a creature you will roll → Monster-Brewer.
 - **Lore:** One concrete manifestation a DM can put on the table.
-- **Session / recap / run card:** Play-made truths + tonight's handle. Recaps in past tense. Run cards: pass 2 fills every empty `run-guide` TotM stub; do not invent procedure. Open once (see above). Complete sentences. Name the creature, item, and place; `her` / `flier` / `they` fail. Vary verbs.
+- **Session / recap / run card:** Play-made truths + tonight's handle. Recaps in past tense. Run cards: pass 2 fills every empty `run-guide` TotM stub; do not invent procedure. Open once (see above). Complete sentences. Address the party as **you see** / **you hear** / **you feel**. Name the creature, item, and place; `her` / `flier` / `the crew` fail. Vary verbs.
 
 House tone (`lexicon/House tone.md`): **deadly, political, weird** in that order. Attach the strange to a noun and a consequence.
 

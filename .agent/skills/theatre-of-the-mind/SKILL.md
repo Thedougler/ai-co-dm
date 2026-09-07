@@ -311,13 +311,16 @@ relationship, route, and motion, while leaving hidden items and future outcomes
 out. Stop after that complete state at its pressure or opening. Only an
 explicitly requested doorway-only snapshot may be intentionally partial.
 
-**Scene-setting (session-beat `Initial Narration`):** the spoken block must
+**Scene-setting (session-beat `Initial Narration`):** address the party as
+**you**. Present tense. Lead with sensory verbs: **you see**, **you hear**,
+**you feel** (physical: wind, current, heat, mud), **you smell** when the
+viewpoint supports it. Do not say "the crew". Do not narrate a feeling,
+thought, or choice (`you feel afraid`, `you decide`). The spoken block must
 already contain the facts the table needs for the first decision (Angry GM:
 goal, obstacle, tools on hand). Currently perceivable cover, routes, relative
 position, who is being hunted, imminent action, drawable appearance, and at
-least one non-sight sense (wind, wing-buffet, mud, rasp of grass) join as
-flowing spoken prose. Weave look and sound into the sentences. Do not park
-them as a DM catalog under the callout. An owner identity image on the run
+least one non-sight sense join as flowing spoken prose. Weave look and sound
+into the sentences. Do not park them as a DM catalog under the callout. An owner identity image on the run
 card is a DM glance; it does not replace the spoken look. An adult striking
 other prey may be visible windup; do not resolve PC injury. Visible grass,
 river, or shipward sky that is already under or beside them belongs in this
@@ -350,10 +353,12 @@ unsupported mechanics, and future outcomes. Cut purple register that adds no
 drawable fact. Add the missing noun, relationship, second sense, access, or
 opening when the picture or agency is incomplete — never by stacking synonyms.
 
-For spatial narration, use third person and present tense by default. For
-other surfaces, follow their contract: dialogue can be quoted, recaps use
-past tense, and handouts retain their diegetic owner's voice. Draft layers,
-staging cards, analysis, and routing labels stay off the player-facing page.
+For **session-beat** situated narration, use second person and present tense:
+**you see**, **you hear**, **you feel** (physical), **you smell**. Owner-page
+cold portraits stay third person (no party in frame). Dialogue can be quoted.
+Recaps use past tense. Handouts retain their diegetic owner's voice. Draft
+layers, staging cards, analysis, and routing labels stay off the player-facing
+page.
 
 ## Cinematic framing gate
 
