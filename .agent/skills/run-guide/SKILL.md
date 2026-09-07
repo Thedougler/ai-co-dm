@@ -51,7 +51,7 @@ Frontmatter: `type: session-prep` (or `encounter`), `cssclasses: [session-surfac
 | Order | Field | Shape |
 |---|---|---|
 | 1 | **Scene ends when** | Heading is `## Scene ends when`. First line is the end condition. Then the 30-minute budget and **If behind** / **If ahead** *cut lines*. |
-| 2 | **Starting state** | Who starts where, in **feet** from cover and from the exposed route. Speeds that matter this slice (fly/walk). What a move vs Dash actually reaches. Individual vs crew vs carrier. |
+| 2 | **Starting state** | Who starts where, in **feet**. Speeds that matter this slice. What a move vs Dash actually reaches. Positions and speeds only. |
 | 3 | **Glance** | `## L0 · Glance` bullets: stakes, goal, exit, danger, Silence, **situation magnets** (who is high, loud, or obvious *now*). Not a named-PC roster and not how they already move. |
 | 4 | **Now** | One paragraph. Current situation once. |
 | 5 | **DM truth** | Open `> [!secret] DM truth` — opposition want, one sentence. **Before** narration. |
@@ -101,14 +101,7 @@ Every Be ready for cell and every clock tick names an implementation the DM can 
 
 State it in compact lines before Glance, then reuse it in the zone table. Do not invent a second movement model later.
 
-- Who starts where, with distances in **feet** (how high, how far to cover, how far to the exposed route).
-- The speeds that matter this slice (for example fly 30 feet, Dash 60 feet).
-- What one move and one Dash actually reach from the start.
-- Checks change risk, not basic movement.
-- Passengers and grouped characters use the carrier’s movement.
-- Interception is the clock tick after all have acted, not a second hidden turn.
-
-Write the real distances. Named places (High air, grass, beach) label those distances; they do not replace them.
+Write where people are, the distances in **feet**, the speeds that matter, and what a move or Dash reaches from here. Named places (High air, grass, beach) label those distances; they do not replace them. That is the whole field.
 
 ## Scene-setting (Open)
 

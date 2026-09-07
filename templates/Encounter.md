@@ -21,7 +21,7 @@ This beat is thirty minutes.
 
 ## Starting state
 
-The crew starts _ feet up / away. Cover is _ feet away. The exposed route is _ feet away. Speeds that matter: fly/walk _ feet (Dash _). Checks change risk, not basic movement. Passengers use the carrier's movement.
+The crew starts _ feet up / away. Cover is _ feet away. The exposed route is _ feet away. Speeds that matter: fly/walk _ feet (Dash _).
 
 ## L0 · Glance
 

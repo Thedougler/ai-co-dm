@@ -57,7 +57,7 @@ run tonight is a **cockpit** (`run-guide`); emit the stock that cockpit inlines.
 Field order and *procedure* live in `run-guide`; this skill supplies the stock:
 
 1. **Brief:** who, where, why now, visible pressure and fuse.
-2. **Starting state:** who starts where, in feet from cover; speeds that matter; what a move vs Dash reaches; carrier vs individual.
+2. **Starting state:** who starts where, in feet from cover; speeds that matter; what a move vs Dash reaches.
 3. **Action cards:** opposition loop with named actions; compact default-mode numbers (AC, one attack, scatter/bloodied HP). Missing owner → `homebrew-monsters-5e`.
 4. **Roster embeds:** `![[Monster#Statblock]]` targets for *combat mode*. Full fences stay on the card; do not retype the owner’s Multiattack/HP table into the brief.
 5. **Zones:** 3–5 named places with distances in feet (not a grid and not abstract bands); uses Starting state’s grammar; features both sides can use.

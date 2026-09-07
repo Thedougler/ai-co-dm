@@ -38,13 +38,9 @@ Terrace woods (old gardens, mangroves, stone) is a 30-foot drop, not cover.
 
 The beach and [[Uncertainty]] are 60 feet of open sky toward the ship.
 
-[[Flying Boots]] fly 30 feet (Dash 60 feet). Passengers use the carrier's movement. [[Crissdalynn Khinriss]] uses her aarakocra fly speed from her sheet; if that is 50 feet or more, she can reach the grass in one move.
+[[Flying Boots]] fly 30 feet (Dash 60 feet). [[Crissdalynn Khinriss]] uses her aarakocra fly speed from her sheet; if that is 50 feet or more, she can reach the grass in one move.
 
 A 30-foot fly reaches the squid, or drops into Terrace woods. A 60-foot Dash reaches the grass, or the beach.
-
-Checks change risk, not basic movement.
-
-Interception is the clock tick after everyone has acted.
 
 ## L0 · Glance
 
@@ -122,7 +118,7 @@ Unforeseen intents use the same want: the adult [[Bloodhawk]] is hunting the [[G
 >
 > | Tick | What happens |
 > | --- | --- |
-> | 1 | The adult [[Bloodhawk]] hits the [[Great Crown Squid]] with Canopy Dive (Beak +13 with advantage, extra 14 (4d6) piercing on a hit). On Easy, the adult Bloodhawk uses Beak +13 instead. Two [[Young Bloodhawk\|Young Bloodhawks]] shadow that line. Grass and river are already in Open. Do not reveal them here. |
+> | 1 | The adult [[Bloodhawk]] hits the [[Great Crown Squid]] with Canopy Dive (Beak +13 with advantage, extra 14 (4d6) piercing on a hit). On Easy, the adult Bloodhawk uses Beak +13 instead. Two [[Young Bloodhawk\|Young Bloodhawks]] shadow that line. |
 > | 2 | Two [[Young Bloodhawk\|Young Bloodhawks]] pass at crew still in High air, or at anyone who just attacked. Each Young Bloodhawk uses Beak +5 to hit, 8 piercing. On a miss, that Young Bloodhawk drives that target 30 feet down. |
 > | 3 | The adult [[Bloodhawk]] uses Talon Grab (+13 to hit, 23 slashing, Grappled escape DC 19, Restrained), then Haul Aloft, on the biggest or loudest crew member still airborne. If the [[Great Crown Squid]] has not been diverted for two beats, the adult Bloodhawk also pins the Great Crown Squid here. |
 > | 4 | Any crew still airborne and obvious is grabbed (Talon Grab) or crash-landed (2d6 bludgeoning, Prone, Terrace woods). |
