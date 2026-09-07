@@ -12,6 +12,10 @@ tags: [location, aruhe, landing, reef]
 
 
 
+## Battlemap
+
+![[attachments/shattered-sea/battlemaps/aruhe-western-landing-battlemap.jpg|Aruhe Western Landing battlemap for Foundry VTT]]
+
 ## At a glance
 A jagged coral reef lies about half a mile offshore; low tide exposes teeth and one boat gap leads to a short shingle beach that takes minutes to cross end-to-end. Elsewhere the coast is cliffs, coves, or beaches trapped behind reef.
 
