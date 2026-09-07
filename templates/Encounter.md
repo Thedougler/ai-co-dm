@@ -62,7 +62,7 @@ Adult loop with named actions. Young or minion compact line: AC, one attack, sca
 | Intent | Approach | DC | Success | Partial | Failure |
 | --- | --- | --- | --- | --- | --- |
 | Assess the situation | Name the skill | DC | Name what they learn | Name the cost | Name the listed cost; do not also tick the clock |
-| Name the goal | Name who does what, and where | Skill DC | Name who ends where, and what the opposition does | Name the ruling (dice, named action, condition, band) | Name the ruling |
+| Name the goal | Name who does what, and where | Skill DC | Name who ends where, and what the opposition does | Name the ruling (5.5e action, feet, condition, or owner feature) | Name the ruling |
 
 > [!mechanic] Threat clock
 > The predators' turn. Advance once after all have acted if anyone remains exposed. Failures do not tick.
@@ -116,6 +116,6 @@ Session links.
 
 - Complete grammatical sentences on live cards.
 - No collapsed callouts on session/run surfaces.
-- Embed `![[Name#Statblock]]` at the bottom. Put default-mode compact numbers on the action cards. Do not retype the owner's full Multiattack/HP table above the embed. Rulings are 5.5e RAW or named vault homebrew.
+- Embed `![[Name#Statblock]]` at the bottom. Put default-mode compact numbers on the action cards. Do not retype the owner's full Multiattack/HP table above the embed. *Rulings* follow `.agent/skills/run-guide/SKILL.md` (Ruling).
 - One cockpit in play order. One named *procedure*. No peer round script. Do not add a second Run-now copy of Glance.
 - Exit is a transition into the next beat, written only when that beat exists. No table question in Exit.

@@ -70,7 +70,7 @@ Do not spawn copy-writer for ops, ingest, or math.
 
 3. **Draft complete, then cut.** Cover the band's job first (see Bands). Then cut padding, not coverage. Kitchen-table nouns, concrete verbs, one fantastic signature. Completion: a DM can use the band without inventing a missing visible fact.
 
-4. **Table gate.** Read player-facing lines aloud. L0 is usable in five seconds. L1 is findable in under 30 seconds (bold heads, **sequencing**). Narration stops at the **reaction point** after *scene-setting* is complete. For a run card, `run-guide`'s Table gate also holds: one named *procedure*, **Partial** defined, **Scene ends when** findable, every consequence a *ruling* in **5.5e RAW or named vault homebrew** (no minted action types), action cards with DM truth, Open contains currently visible cover/routes/position/imminent action, travel omitted or fully inlined, full statblocks remain embedded at the bottom. Completion: all of the above hold, or the draft is not done.
+4. **Table gate.** Read player-facing lines aloud. L0 is usable in five seconds. L1 is findable in under 30 seconds (bold heads, **sequencing**). Narration stops at the **reaction point** after *scene-setting* is complete. For a run card, load `run-guide`; its Table gate is the completion criterion. Completion: all of the above hold, or the draft is not done.
 
 5. **File.** Wikilinks, callouts, template constraints. `./scripts/after-write "why" -- path1 [path2…]` on named paths only. Completion: after-write succeeded.
 
@@ -112,9 +112,9 @@ Dynamic elements that may have moved live in DM text unless current table state 
 - **Location / vehicle:** *This* place, not the concept of a lake. Playable aspects. Senses. Sequenced keys.
 - **Faction:** Public mask, concrete method, one tell a bystander could notice. L1 = how they operate now.
 - **Quest / front:** Stakes, clock, visible sign, consequence if ignored — complete sentences.
-- **Item / monster:** Drawable fiction. Owner math stays on the owner. Run cards **embed** `![[Name#Statblock]]` at the bottom (the DM scrolls) and put default-mode compact numbers on the action cards. Embed an item only if this slice spends its limits; how the party already moves is not roster. Missing owner for a creature you will roll → Monster-Brewer, not invented math.
+- **Item / monster:** Drawable fiction. Owner math stays on the owner. Run cards follow `run-guide` for embeds and action cards. Missing owner for a creature you will roll → Monster-Brewer.
 - **Lore:** One concrete manifestation a DM can put on the table.
-- **Session / recap / run card:** Play-made truths + tonight's handle. Recaps in past tense. Fill the `run-guide` cockpit; do not invent a second card or a peer round script. Put “What do you do?” at the end of the opening `[!narration]`, not in a separate Ask callout, and only after *scene-setting* is complete. **Be ready for** (not a player menu): **Partial** defined once; every cell a *ruling* in 5.5e RAW or named vault homebrew; name the creature, item, and place; `her` / `flier` / `they` fail. Situation magnets, not a named-PC roster. Secondary intents have an outcome. Close with **exit narration** only when the next beat is already on the run file; that block is a transition, not a second “What do you do?” If the next beat is not ready, omit Exit. One current-situation paragraph. Three **tells**. Vary verbs. Write fields in play order so the DM only scrolls down. Travel stays off a 30-minute hook unless one complication is fully inlined.
+- **Session / recap / run card:** Play-made truths + tonight's handle. Recaps in past tense. Run cards: fill the `run-guide` cockpit; TotM owns Open. Complete sentences. Name the creature, item, and place; `her` / `flier` / `they` fail. Vary verbs.
 
 House tone (`lexicon/House tone.md`): **deadly, political, weird** in that order. Attach the strange to a noun and a consequence.
 
@@ -124,8 +124,7 @@ House tone (`lexicon/House tone.md`): **deadly, political, weird** in that order
 - Missing **stock** (NPC design, place kernel, encounter math) → owning craft skill; write copy only after stock exists.
 - **Monster / item math** → Monster-Brewer / Item-Brewer / Homebrewer.
 - **MOCs, indexes, hot structure** → Organizer.
-- **Run-guide cockpit** → Session-Planner owns schema (`run-guide`); you fill words, callouts, tables, action cards, and embeds inside it. One *procedure*. Every consequence a *ruling* in 5.5e RAW or named vault homebrew.
-- **Mechanics** → 5.5e (2024) RAW, or vault homebrew Nick asked for. New math → Monster-Brewer / Item-Brewer / Homebrewer. Do not mint action types, conditions, or resolution systems on a wiki note.
+- **Run-guide cockpit** → Session-Planner owns schema (`run-guide`); you fill words, callouts, tables, and embeds inside it. *Rulings* follow that skill’s Ruling section.
 - TotM fail loop unchanged: Writing-Evaluator → Skill-Creator → Visualizer.
 
 ## Attribution

@@ -22,6 +22,11 @@ embed and no action-card numbers fails.
 One opposition want, said once. One *procedure*, named. Nothing restated later
 as a second framework.
 
+A DM-facing line stays if Nick will use it this slice to **place** someone,
+**roll** something, or **speak**. Distances, speeds, named *rulings*, the
+opposition want, and the spoken block earn their keep. 5e defaults, schema
+commentary, and notes to the writer stay in this skill.
+
 ## Workflow
 
 1. **Ground.** Read `hot.md`, tonight's session prep, the latest log, and only
@@ -58,11 +63,11 @@ Frontmatter: `type: session-prep` (or `encounter`), `cssclasses: [session-surfac
 | 6 | **Action cards** | Predator loop and compact numbers you will roll in default mode (AC, one attack, scatter/bloodied thresholds). Next to truth, not under embeds. Named owner actions (`Talon Grab`, `Sickle Claw`), not nicknames (`rake`). |
 | 7 | **Open** | `> [!narration] Narration`. *Scene-setting*: currently visible threat, relative position, cover/routes, imminent action, then “What do you do?” Three **tells**. No separate Ask callout. |
 | 8 | **Procedure** | Open `> [!mechanic] Procedure`. Name *escape mode* or *combat mode*. The loop for this slice, once. |
-| 9 | **Zones** | Table: place \| distance in feet \| cover. Uses Starting state’s movement grammar. Named places are fine; abstract “bands” are not a substitute for distance. |
-| 10 | **Be ready for** | **Partial** defined once above the table. Table: intent \| approach (skill) \| DC \| success \| partial \| failure. Name the creature, item, and place in every cell. Every cell is a *ruling*. Include **Assess the situation** when the opening could be read as “what is it hunting / doing?” Not a menu to read aloud. |
+| 9 | **Zones** | Table: place \| distance in feet \| cover. Same distances as Starting state. |
+| 10 | **Be ready for** | **Partial** defined once above the table (see Partial). Table: intent \| approach (skill) \| DC \| success \| partial \| failure. Name the creature, item, and place in every cell. Every cell is a *ruling*. Include **Assess the situation** when the opening could be read as “what is it hunting / doing?” Not a menu to read aloud. |
 | 11 | **Threat clock** | Table inside open `> [!mechanic] Threat clock`. The predators’ turn. Named ticks. 3–4 ticks. Bloodied (write the HP number), cover-reached, minions, scene dials live **in this block**. |
 | 12 | **Secondary objective** | If Be ready for lists “save / distract X,” one line: beats required, ignore outcome, later consequence. Omit when there is no second objective. |
-| 13 | **Landing** | Next scene’s opening state (bodies, wet, separated, where opposition goes). |
+| 13 | **Landing** | Next scene’s opening state: where bodies are in **feet**, RAW conditions (Prone), damage already applied. Movement closes gaps. |
 | 14 | **Exit narration** | Only when the **next** cockpit is already on this file. `> [!narration] Exit` is the spoken transition. No “What do you do?” Omit until that beat is ready. |
 | 15 | **Roster embeds** | `![[Monster#Statblock]]` for opposition you will roll in *combat mode*. Keep the full fences; the DM scrolls. Item headings only if this slice spends charges or the item is the pressure. |
 | 16 | **Travel** | Default: omit. This-beat only when the slice *is* the travel, and then one specific complication with every number on this card plus a failure endpoint. |
@@ -95,11 +100,11 @@ A row may say “binary — no partial” when the fiction has no middle.
 
 ## Ruling
 
-Every Be ready for cell and every clock tick is 5.5e RAW or vault homebrew already on an owner (AGENTS: no invented mechanics).
+A *ruling* is a 5.5e (2024) action, movement in feet, opportunity attack, named condition, ability check, save, or damage; or a **named feature already on a vault owner**. This vault’s **Partial** (miss by 1–4) is house, written once above the table.
 
-Use a 5.5e action (Attack, Dash, Disengage, Dodge, Help, Hide, Influence, Magic, Ready, Search, Study, Utilize), movement in feet, an opportunity attack, a named condition (Prone, Grappled, Restrained, …), an ability check or save, or a **named feature on a vault owner** (`Talon Grab`, `Flush Scatter`, `Canopy Dive`). This vault’s **Partial** (miss by 1–4) is house, written once above the table.
+5.5e actions: Attack, Dash, Disengage, Dodge, Help, Hide, Influence, Magic, Ready, Search, Study, Utilize. Conditions include Prone, Grappled, Restrained.
 
-Evocative labels (`scattered`, `crash-landed`, `rough landing`) are fine as names only when the line also states the RAW or owner implementation (for example: lands 30 feet away; 2d6 bludgeoning and Prone). A minted action type (`regrouping action`) is a fail. Missing owner math → `homebrew-monsters-5e`, not a new rule on the card.
+An evocative label (`scattered`, `crash-landed`) is a name for a *ruling* already stated (lands 30 feet away; 2d6 bludgeoning and Prone). New action types, conditions, or resolution systems are a brew-skill job (`homebrew-monsters-5e`), not a line on this card.
 
 ## Starting state
 
@@ -152,15 +157,16 @@ Completion — all of these hold, or the draft is not done:
 - **Partial** defined once (or the table is binary on purpose).
 - `## Scene ends when` is the first heading; the end condition is the first line.
 - Time budget + both *cut lines* sit under that heading.
-- Starting state present in feet; zone table uses those distances.
+- Starting state is positions and speeds in feet; the zone table uses those distances.
 - DM truth before Open.
 - Open contains currently visible cover, routes, relative position, and imminent action, then the question.
 - Action cards sit with DM truth; clock holds bloodied as a number, cover-reached, minions, dials.
-- Every consequence is a *ruling* in 5.5e RAW or a named vault-homebrew feature.
+- Every consequence is a *ruling* (see Ruling).
 - Secondary intent, if listed, has beats / ignore / later consequence.
-- No Round script peer field; no dual Now/Run-now; no separate Ask callout; no Scene menu on a 30-minute card.
 - Combat-mode owners heading-embedded below. Default-mode rolls have numbers on the action cards.
 - Travel omitted, or one inlined complication with a failure endpoint.
+- One cockpit: Glance once, no second Run-now, no separate Ask callout, no Scene menu, no peer Round script.
+- Every DM-facing line is used this slice to place, roll, or speak.
 
 ## Whole-session branch
 

@@ -43,8 +43,8 @@ Before the scene is ready, answer:
 - Are there at least three materially different response paths?
 - What does partial success change, and will an unplanned clever solution be
   accepted? **Always yes**; adjudicate from the fiction and let opposition adapt.
-  House **Partial** (for the Be ready for table): miss by 1–4; the player may
-  take the listed cost. Full definition lives in `run-guide`.
+  House **Partial** for the Be ready for table lives in `run-guide`; copy that
+  definition onto the card once.
 
 Do not use a hidden step → damage punishment as the scene's substance. The
 opposition and world continue acting during delay, travel, shopping, or rest; a
@@ -60,12 +60,12 @@ Field order and *procedure* live in `run-guide`; this skill supplies the stock:
 2. **Starting state:** who starts where, in feet from cover; speeds that matter; what a move vs Dash reaches.
 3. **Action cards:** opposition loop with named actions; compact default-mode numbers (AC, one attack, scatter/bloodied HP). Missing owner → `homebrew-monsters-5e`.
 4. **Roster embeds:** `![[Monster#Statblock]]` targets for *combat mode*. Full fences stay on the card; do not retype the owner’s Multiattack/HP table into the brief.
-5. **Zones:** 3–5 named places with distances in feet (not a grid and not abstract bands); uses Starting state’s grammar; features both sides can use.
+5. **Zones:** 3–5 named places with distances in feet; same numbers as Starting state; features both sides can use.
 6. **Procedure + threat clock:** one loop. Clock **is** the opposition’s turn (the old R1–R3 live as ticks). Bloodied as an HP number; cover-reached; minion line; scene dials. Failures impose listed *rulings* and do not also tick.
 7. **Tells:** three independent player-visible clues for any conclusion the table must reach. Currently visible cover/routes belong in the opening, not on tick 1.
-8. **Be ready for:** **Partial** = miss by 1–4 (or mark the row binary). Likely intents including **Assess the situation** when the opening is readable as “what is it hunting?” Every cell is a *ruling* in 5.5e RAW or a named vault-homebrew feature. Not a menu to read aloud.
+8. **Be ready for:** likely intents including **Assess the situation** when the opening is readable as “what is it hunting?” Every cell is a *ruling* (`run-guide` Ruling). Not a menu to read aloud.
 9. **Secondary objective:** if “save X” is listed, beats required, ignore outcome, later consequence.
-10. **Landing payload:** the next scene’s opening state (bodies, wet, separated, where opposition goes).
+10. **Landing payload:** the next scene’s opening state in feet and RAW conditions.
 11. **If ignored:** one-step independent consequence (tick 1 of the clock after a freeze round).
 12. **Time:** 30-minute budget and *cut lines* (If behind / If ahead). Unbounded travel is the next beat, not this stock.
 
