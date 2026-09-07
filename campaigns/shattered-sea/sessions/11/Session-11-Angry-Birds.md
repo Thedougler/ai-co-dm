@@ -143,6 +143,8 @@ The smoke is a camp of Calveno wreck-survivors, the farthest inland of that raid
 
 ### 9. CLIMAX — Final Battle (theft on the watch)
 
+**Run:** [[Session-11-Theft-on-the-Watch-Run]]
+
 - **Purpose:** [[Talon Skarn]] tries to take the Fate Spinner off [[Crissdalynn Khinriss]]. The watch stops a clean steal. What he does in the fight is the lore. End the night here.
 - **Table sees:** Second night. Crissdalynn on watch with at least one other person. Skarn stoops that pair, not the camp at large. He knows the Spinner is on her. He does not know which pouch, wrap, or hand. He fights her until he sees it or creates an opening: a stun, a cut strap, a pinned wing, a bag shaken out. The watch partner is in it from the first pass.
 - **Truth:** This is a theft. He followed the ship from the disabled hunter. He picked this watch because she is the carrier. He will almost surely get the attempt off. He will almost surely get disrupted before he leaves with it. Do not play his business with [[Talon Vantyrus]].

@@ -5,6 +5,8 @@ visibility: dm
 source: "legacy: /Users/nick/shattered-sea/wiki/shattered-sea/schism-of-the-eyrie/npc.talon-skarn.md"
 tags: [monster, legacy, fight-sheet]
 ---
+## Statblock
+
 ```statblock
 layout: Basic 5e Layout
 dice: true
