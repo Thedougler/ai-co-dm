@@ -59,6 +59,13 @@ This is a theft. [[Talon Skarn]] followed the ship from the disabled hunter. [[T
 **Abort.** After the attempt, grab or no grab, [[Talon Skarn]] goes for sky. Do not linger into a speech. Do not add [[Talon Vantyrus]] or [[The Grove - Death Bloom]].
 
 > [!narration] Initial Narration
+> Night has this fire. You see Crissdalynn Khinriss and one other of you standing watch at the fire's edge, her blue-black feathers taking the coal-light, geometric leather and a chart satchel on her, wings half-folded. The rest of the camp sleeps at this fire. Already-picked fruit still sits on the dirt. You smell woodsmoke and warm rind. You feel night air on this edge and heat off the coals at your backs. Trees stand close around this fire. Open sky sits above the crowns.
+>
+> A shadow cuts that sky. You see a lean peregrine about five feet tall drop in a straight line at this pair, not at the sleepers, knife-folded, blue-grey crest laid back, twin daggers in reverse grip. You see a black stripe through Talon Skarn's amber eyes, and those eyes on Crissdalynn's hands and hips, on straps and pouches.
+>
+> You feel the air shove as his wings pin. You hear a whistling line start down that drop, at this pair, with the fire and the sleepers behind you, close trees around this watch, and open sky above the crowns.
+>
+> What do you do?
 >
 
 ## Procedure
@@ -88,21 +95,27 @@ This is a theft. [[Talon Skarn]] followed the ship from the disabled hunter. [[T
 | Deeper inland | Garden talk from beat 8 still points into these woods. | This is not [[The Grove - Death Bloom]]. A Dash does not reach the garden. |
 
 > [!narration] This watch / pair
+> You see Crissdalynn Khinriss and the other watcher at this fire's edge. Talon Skarn's drop is on this pair. You feel the shoved air along that line.
 >
 
 > [!narration] This fire / sleepers
+> You see the rest of the camp asleep at this fire, fruit still on the dirt by the coals. You hear a sleeper shift. You smell woodsmoke close to the ground here.
 >
 
 > [!narration] Trees around this fire
+> You see trunks packed close around this fire. You hear leaf between the stems. A body that is not between Talon Skarn and Crissdalynn is among these trunks, out of his line.
 >
 
 > [!narration] Open valley air
+> You feel wind at this height. You see the fire and the close trees below, and night sky with no crown to catch a climb. A hard run from the dirt does not catch this air.
 >
 
 > [!narration] Beach / Uncertainty
+> Down-valley, past the terrace line, the beach and Uncertainty stay out of a hard run from this fire. You smell woodsmoke here, not salt. Trees close that way.
 >
 
 > [!narration] Deeper inland
+> You see more trunks packed close past this fire. You smell damp leaf that way. A hard run does not reach farther wood.
 >
 
 ## Be ready for
@@ -140,15 +153,19 @@ The steal turn happens after everyone has acted, and only if [[Talon Skarn]] is 
 | 4 | Sky. [[Talon Skarn]] uses Windshear Retreat (Disengage or Dash, fly +30 feet that turn) and goes for open valley air, with or without the [[Fate Spinner]]. If he is grounded, he still plays the steal, then sky. The watch has answered. The night cuts. |
 
 > [!narration] Tick 1
+> Talon Skarn's reverse-grip daggers cut at straps, pouches, hands, and hips on Crissdalynn Khinriss. You see him pass the sleepers and the fruit without turning. You hear leather and cloth part. His eyes stay on her gear.
 >
 
 > [!narration] Tick 2
+> Talon Skarn's wings pin and he drops in a straight line at Crissdalynn Khinriss. You hear the whistling close. You see talons open for a strap, pouch, or wrap she is wearing or holding, and then he is already climbing off this watch.
 >
 
 > [!narration] Tick 3
+> Talon Skarn turns off Crissdalynn Khinriss onto the other watcher, only for a beat. You see a dagger or the drop go at that person. Then his eyes are back on her hands and hips.
 >
 
 > [!narration] Tick 4
+> Talon Skarn breaks off this watch and climbs. You feel the night air take him into open valley sky, a torn thing in his talons or empty. The fire and the close trees sit below. This watch ends.
 >
 
 **Bloodied 48 HP.** [[Talon Skarn]] still plays the steal, then goes for sky. This is not a TPK.
@@ -174,16 +191,23 @@ If [[Talon Skarn]] leaves with the [[Fate Spinner]], the [[Fate Spinner]] is in 
 If [[Talon Skarn]] is grounded and the crew keeps hitting, still end here. [[Talon Skarn]] still played the steal. Do not add [[Talon Vantyrus]] or [[The Grove - Death Bloom]].
 
 > [!narration] Landing
+> The night ends on this watch. You see Talon Skarn in open valley air above this fire. Crissdalynn Khinriss is still on this edge. Her straps and pouches are still on her, or a torn item lies in the dirt at this watch.
+>
+> Talon Skarn is down at this fire among the coals, then climbing for that sky.
+>
+> You see the Fate Spinner in Talon Skarn's talons as he takes open valley air. Crissdalynn Khinriss is still on this watch.
 >
 
 **Crash-landed.** That crew member still has 2d6 bludgeoning already applied and is Prone until they stand.
 
 > [!narration] Crash-landed
+> You are still down at this fire. You feel packed dirt and leaf at ground height until you stand.
 >
 
 **Scattered.** That crew member is still apart until they join up.
 
 > [!narration] Scattered
+> You are still apart at this fire. You see trunks, coals, or the watch edge in the gap until you join up.
 >
 
 **Prone.** Anyone knocked down at this watch is Prone until they stand.
@@ -199,6 +223,7 @@ Do not run grassland tables, the [[Deer-Stalker]], [[Talon Vantyrus]], or [[The 
 ![[Talon Skarn#Statblock]]
 
 > [!narration] Talon Skarn
+> Talon Skarn hangs over this watch, knife-folded, five feet of lean peregrine, blue-grey crest laid back. You see the black stripe through his amber eyes and the notch in his left primary where three feathers never grew back. Twin daggers ride reverse-grip as his wings pin. You hear the whistling line start. Those eyes are on Crissdalynn Khinriss's hands and hips.
 >
 
 ![[Talon Skarn#At the table]]
