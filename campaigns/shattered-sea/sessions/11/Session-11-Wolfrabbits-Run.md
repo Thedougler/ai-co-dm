@@ -68,10 +68,11 @@ Without a swim speed, each foot in the moving water costs 1 extra foot (5.5e 202
 
 The crew has just committed off the landing bank onto the first stretch of tall grass and torn crossing. Three [[Wolfrabbit]] are already in the jump at mid-height, between the crew and the upriver prints. The river sits at their backs. A glassy [[Razer-Grass]] island stands in the scour to the side. The smoke is still a thin column on the horizon up-valley, and it does not get closer while this is happening.
 
-> [!secret] DM truth
-> The pack is working this bank because people and blood have already been here. They hit whoever is isolated, bleeding, or standing in the grass. They are not a message.
->
-> **Unrevealed:** They will not chase far into deep water or into the bank-woods. They will chase a runner who stays in the grass.
+### DM truth
+
+The pack is working this bank because people and blood have already been here. They hit whoever is isolated, bleeding, or standing in the grass. They are not a message.
+
+**Unrevealed:** They will not chase far into deep water or into the bank-woods. They will chase a runner who stays in the grass.
 
 ### Action cards
 
@@ -96,22 +97,23 @@ The crew has just committed off the landing bank onto the first stretch of tall 
 
 **Pack appearance.** Dark-striped hunting-cat frames, long ears, twitching noses. Handles once the table has seen the traits: Torn-ear (torn left ear), White-blaze (white blaze down the muzzle), Kink-tail (kink in its tail).
 
-> [!mechanic] Procedure
-> **Escape / survive-the-pack** is the default. The crew can drive the pack off this stretch or leave the grass. This is not a required TPK.
->
-> Players declare and resolve turns, checks, and movement as normal.
->
-> Failures impose the Be ready for ruling only. Failures never advance the threat clock.
->
-> After everyone has acted, if anyone remains on the magnets (isolated, standing in the grass, bleeding, or loud), advance the threat clock once and resolve that tick.
->
-> Freeze or "we watch" ticks once at the end of the round, not per failed check.
->
-> Several failed checks in one round still produce one tick.
->
-> If a crew member takes open valley air, that crew member leaves this pack for hawk sky. Point at a [[Young Bloodhawk]]. Do not restage beat 1 on this card.
->
-> **Combat mode:** if the party abandons escape and commits to killing the pack, stop the clock and run the embedded [[Wolfrabbit]] statblocks.
+## Procedure
+
+**Escape / survive-the-pack** is the default. The crew can drive the pack off this stretch or leave the grass. This is not a required TPK.
+
+Players declare and resolve turns, checks, and movement as normal.
+
+Failures impose the Be ready for ruling only. Failures never advance the threat clock.
+
+After everyone has acted, if anyone remains on the magnets (isolated, standing in the grass, bleeding, or loud), advance the threat clock once and resolve that tick.
+
+Freeze or "we watch" ticks once at the end of the round, not per failed check.
+
+Several failed checks in one round still produce one tick.
+
+If a crew member takes open valley air, that crew member leaves this pack for hawk sky. Point at a [[Young Bloodhawk]]. Do not restage beat 1 on this card.
+
+**Combat mode:** if the party abandons escape and commits to killing the pack, stop the clock and run the embedded [[Wolfrabbit]] statblocks.
 
 ## Zones
 
@@ -147,23 +149,24 @@ The crew has just committed off the landing bank onto the first stretch of tall 
 
 Unforeseen intents use the same want: the pack is working this bank because people and blood have already been here, and they hit whoever is isolated, bleeding, or standing in the grass. Rule from zones, the clock, and whether the approach stays in the grass, goes to deep water or bank-woods, or takes open valley air.
 
-> [!mechanic] Threat clock
-> The predators' turn happens after everyone has acted, and only if anyone remains on the magnets. Table failures do not also tick.
->
-> | Tick | What happens |
-> | --- | --- |
-> | 1 | Opening jumps. Each [[Wolfrabbit]] uses Pouncing Bound (leap up to 30 feet, Raking Claws +5 to hit, 8 slashing). If the leap began at least 20 feet away and hits, DC 13 Strength or Prone. They hit whoever is isolated, bleeding, or standing in the grass on this stretch. |
-> | 2 | Pack Rend. A [[Wolfrabbit]] Bites (+5 to hit, 9 piercing) a Prone crew member on this stretch. If another [[Wolfrabbit]] is within 5 feet of that target, extra 4 (1d8) piercing. |
-> | 3 | Dump. A knock-down puts a Prone crew member into the river current or into the [[Razer-Grass]] island in the scour (1d4 slashing per 5 feet; Shatter DC 14 Dexterity, 7 (2d6) slashing if they fall Prone in it). Current speed is unknown; do not invent a push. |
-> | 4 | Extra rabbit only if they lingered, claimed living fruit, or burned the grass on this stretch: an unnamed extra [[Wolfrabbit]] joins from the grass. If they did not, the pack still holds this stretch and the smoke does not get closer. Do not invent a named fourth rabbit. Do not start beat 4. |
->
-> **Bloodied.** Per-rabbit bloodied is irrelevant. When one [[Wolfrabbit]] dies, survivors frenzy on Hard (Devour the Pack and Frenzy Toward the Fallen). Easy skips Devour the Pack.
->
-> **Cover reached.** Deep water or bank-woods: the pack breaks contact with crew who actually reach those places. The pack still chases a runner who stays in the grass on this stretch.
->
-> **Minions / dials.** Easy: three [[Wolfrabbit]], no Devour the Pack. Hard: five or six [[Wolfrabbit]], plus Devour the Pack and Frenzy Toward the Fallen when one drops.
->
-> Do not spawn otters, hawks as a second boss, or beat 4 fruit piles on this clock. Taking open valley air ends this scene for that flyer. Point at hawk sky / a [[Young Bloodhawk]]. Do not restage beat 1.
+## Threat clock
+
+The predators' turn happens after everyone has acted, and only if anyone remains on the magnets. Table failures do not also tick.
+
+| Tick | What happens |
+| --- | --- |
+| 1 | Opening jumps. Each [[Wolfrabbit]] uses Pouncing Bound (leap up to 30 feet, Raking Claws +5 to hit, 8 slashing). If the leap began at least 20 feet away and hits, DC 13 Strength or Prone. They hit whoever is isolated, bleeding, or standing in the grass on this stretch. |
+| 2 | Pack Rend. A [[Wolfrabbit]] Bites (+5 to hit, 9 piercing) a Prone crew member on this stretch. If another [[Wolfrabbit]] is within 5 feet of that target, extra 4 (1d8) piercing. |
+| 3 | Dump. A knock-down puts a Prone crew member into the river current or into the [[Razer-Grass]] island in the scour (1d4 slashing per 5 feet; Shatter DC 14 Dexterity, 7 (2d6) slashing if they fall Prone in it). Current speed is unknown; do not invent a push. |
+| 4 | Extra rabbit only if they lingered, claimed living fruit, or burned the grass on this stretch: an unnamed extra [[Wolfrabbit]] joins from the grass. If they did not, the pack still holds this stretch and the smoke does not get closer. Do not invent a named fourth rabbit. Do not start beat 4. |
+
+**Bloodied.** Per-rabbit bloodied is irrelevant. When one [[Wolfrabbit]] dies, survivors frenzy on Hard (Devour the Pack and Frenzy Toward the Fallen). Easy skips Devour the Pack.
+
+**Cover reached.** Deep water or bank-woods: the pack breaks contact with crew who actually reach those places. The pack still chases a runner who stays in the grass on this stretch.
+
+**Minions / dials.** Easy: three [[Wolfrabbit]], no Devour the Pack. Hard: five or six [[Wolfrabbit]], plus Devour the Pack and Frenzy Toward the Fallen when one drops.
+
+Do not spawn otters, hawks as a second boss, or beat 4 fruit piles on this clock. Taking open valley air ends this scene for that flyer. Point at hawk sky / a [[Young Bloodhawk]]. Do not restage beat 1.
 
 ## Landing
 
