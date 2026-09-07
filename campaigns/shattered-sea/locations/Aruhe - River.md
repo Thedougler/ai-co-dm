@@ -8,6 +8,8 @@ tags: [location, aruhe, river]
 ---
 # Aruhe River
 
+## Art
+![[attachments/shattered-sea/places/aruhe-the-river.jpeg]]
 > [!narration] Narration
 > The jungle breaks on water. Green-blue current cuts through grass on one bank and hundred-foot roots on the other. The river is cool, clear, and almost obscenely beautiful. There is no sign that anything is wrong until the water moves beneath you.
 
