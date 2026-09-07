@@ -49,7 +49,13 @@ The adult [[Bloodhawk]] is hunting the [[Great Crown Squid]]. The crew is not th
 **Two [[Young Bloodhawk|Young Bloodhawks]], one pressure group.** AC 13. Beak is +5 to hit, 8 (1d10 + 3) piercing. Fly 80 feet. **Scattered:** any damaging hit against AC 13 on a targeted attack drives that Young Bloodhawk off (Flush Scatter). The Young Bloodhawks hit what the adult Bloodhawk flushes or what rises. The Young Bloodhawks are not a second boss. On a miss with a Young Bloodhawk pass, that target is driven 30 feet down.
 
 > [!narration] Initial Narration
-> High over the old terrace woods, a charcoal hawk stoops out of the sun onto the last trees ahead, where a glass-pale mantle pulls through the canopy and thick arms take separate crowns. The hawk's head never turns from that squid. Two young peel off the same line and spread toward other shapes in the open sky. Dense eight-foot grass and a moving river wait below. The beach and the ship are open sky the other way. What do you do?
+> The crew hangs sixty feet above the old terrace woods in open air. Thirty feet ahead, at that same height, a rubbery body the color of bark and leaf pulls through the last trees, eight thick arms taking separate crowns, a clear head so light the branches barely bend. Out of the sun above that line a charcoal hawk comes down on four wings, crimson on the black undersides, the span close to a hundred feet.
+>
+> A shaggy red nape frames an amber eye and a cream hook, and that head never turns from the squid. Talons the size of a rowboat open toward the clear head. The air off those folding wings slams through this height and rattles the last leaves.
+>
+> Two smaller charcoal hawks peel off that line, thin red fluff at the nape and only a seam of crimson at the tips, and they spread toward other movement in this sky. Straight down, sixty feet, eight-foot grass stands along a moving river. The other way, sixty feet of empty sky runs to the beach and the ship. The adult hawk's wings pin. The crimson tips flash. The dive is aimed at the squid.
+>
+> What do you do?
 
 ![[attachments/shattered-sea/creatures/bloodhawk-of-aruhe.jpg|Bloodhawk of Aruhe]]
 
@@ -75,19 +81,19 @@ The adult [[Bloodhawk]] is hunting the [[Great Crown Squid]]. The crew is not th
 | Beach / [[Uncertainty]] | 60 feet of open sky toward the ship. | Exposed. A 60-foot Dash from High air reaches the beach. The hunt still crosses that air. |
 
 > [!narration] High air
->
+> Over the terraces the sky is open: sun-glare, a steady wind, a long drop below, and no branch or grass to hide behind.
 
 > [!narration] Last trees
->
+> The last trees are a thin roof of mangrove and terrace crown. The squid's arms are already on those crowns. This wood is thin enough that the adult hawk's dive still has this height.
 
 > [!narration] Terrace woods
->
+> Thirty feet down, old garden stone and mangrove catch a fall more than they hide a body. Broken steps, orange fruit, and algae-green channels sit under the thin wood, and a warm sugar-sour smell hangs close to the stone. The eight-foot grass is still farther below.
 
 > [!narration] Grass and river
->
+> Straight down, gold-green grass stands eight feet high along a moving river, the blades leaning where they meet the water. A body that drops here can go under that grass. Water pulls through the stems.
 
 > [!narration] Beach / Uncertainty
->
+> The other way, empty sky runs to the beach and Uncertainty on the water, hull and rigging in the salt wind. The hunt still crosses that air.
 
 ## Be ready for
 
@@ -119,16 +125,16 @@ The predators' turn happens after everyone has acted, and only if anyone remains
 | 4 | Any crew still airborne and obvious is grabbed (Talon Grab) or crash-landed (2d6 bludgeoning, Prone, Terrace woods). |
 
 > [!narration] Tick 1
->
+> The adult hawk's four wings pin and the hawk drops the rest of the way onto the squid in the last trees. The cream hook drives at the clear head. The squid jerks, and the crowns shake. The two smaller hawks hold that same falling line. Anyone still in the high air is still in it.
 
 > [!narration] Tick 2
->
+> The two smaller hawks fold, crimson seams flashing, and cut a pass at whoever is still high or just made noise. Cream hooks open on the way in. The wind of their wings arrives first.
 
 > [!narration] Tick 3
->
+> The adult hawk's head comes off the squid. Boat-length talons open toward the biggest or loudest body still in the air, four wings beating for height. Down in the last trees the squid is still held in that same grip.
 
 > [!narration] Tick 4
->
+> Anyone still obvious in the air has those talons closing, or the terrace woods rushing up to meet them.
 
 **Bloodied 124 HP.** The adult [[Bloodhawk]] releases a grabbed crew member and climbs for the cloud line.
 
@@ -149,36 +155,36 @@ The Great Crown Squid is fleeing through the last trees, not fighting the crew u
 The crew is in moving water and eight-foot grass, or crash-landed or scattered in Terrace woods. On this same bank the crew can already see tracks and, inland in this valley, a thin column of smoke. Beat 2 is [[Session-11-02-Landing-Sign-Run]]. Do not run Survival checks or grassland tables here.
 
 > [!narration] Landing
->
+> The crew is in moving water and grass high enough to hide a standing body. On this same bank, prints already cut the mud. Inland up this valley a thin column of smoke stands. Water pulls at the stems.
 
 **Scattered.** That crew member lands 30 feet from the others.
 
 > [!narration] Scattered
->
+> That crew member comes down thirty feet from the others, a gap of tall grass and moving water between them.
 
 **Crash-landed.** That crew member takes 2d6 bludgeoning and is Prone in Terrace woods.
 
 > [!narration] Crash-landed
->
+> That crew member hits the terrace woods and goes down among broken garden stone, mangrove roots, and orange fruit. The sugar-sour air is close to the ground here.
 
 ## Roster
 
 ![[Bloodhawk#Statblock]]
 
 > [!narration] Bloodhawk
->
+> Out of the sun the adult charcoal hawk drops on the squid in the last trees, four crimson-black wings folding to a narrow falling body, shaggy red nape and amber eye locked on that clear head. The cream hook and the rowboat talons are open. The buffet hits the last leaves.
 
 ![[Bloodhawk#At the table]]
 
 ![[Young Bloodhawk#Statblock]]
 
 > [!narration] Young Bloodhawk
->
+> Two charcoal hawks, still short of the adult's span, spread off the dive toward other movement in this sky. Dark wings show only a seam of crimson at the tips, thin red fluff at the nape, cream hooks still shut as they line a pass.
 
 ![[Great Crown Squid#Statblock]]
 
 > [!narration] Great Crown Squid
->
+> Thirty feet ahead the squid pulls through the last trees, sixty feet of rubbery body mottled to bark and leaf, eight arms taking separate crowns, a clear head barely loading the wood. A large eye rolls inside that head toward the open air. The adult hawk's shadow is already on it.
 
 ## Backup
 
