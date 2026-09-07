@@ -39,7 +39,7 @@ Every wiki note uses the same disclosure bands. Empty sections are deleted, not 
 
 ### Scene card stack (inside L1)
 
-Use the **cockpit** in `.agent/skills/run-guide/SKILL.md` (Time + Scene ends when → starting state → Glance → Now → DM truth → action cards → Open → procedure → zones → Be ready for → clock → landing → embeds → exit narration only if the next beat is ready). One downward pass. One *procedure*. Exit does not ask what they do. Do not keep a second Run-now copy. Do not add a separate Ask callout. Do not add a peer round script.
+Use the **cockpit** in `.agent/skills/run-guide/SKILL.md` (Scene ends when → starting state in feet → Glance → Now → DM truth → action cards → Open → procedure → zones → Be ready for → clock → landing → embeds → exit narration only if the next beat is ready). One downward pass. One *procedure*. Exit does not ask what they do. Do not keep a second Run-now copy. Do not add a separate Ask callout. Do not add a peer round script.
 
 ### Session log bands
 1. Recap narration

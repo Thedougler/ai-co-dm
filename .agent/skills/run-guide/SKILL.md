@@ -50,15 +50,15 @@ Frontmatter: `type: session-prep` (or `encounter`), `cssclasses: [session-surfac
 
 | Order | Field | Shape |
 |---|---|---|
-| 1 | **Time + end** | Budget for this 30-minute beat. Bold **Scene ends when**. **If behind** / **If ahead** *cut lines*. |
-| 2 | **Starting state** | Who is in which band; bands to cover; move vs Dash; individual vs crew vs carrier. |
+| 1 | **Scene ends when** | Heading is `## Scene ends when`. First line is the end condition. Then the 30-minute budget and **If behind** / **If ahead** *cut lines*. |
+| 2 | **Starting state** | Who starts where, in **feet** from cover and from the exposed route. Speeds that matter this slice (fly/walk). What a move vs Dash actually reaches. Individual vs crew vs carrier. |
 | 3 | **Glance** | `## L0 · Glance` bullets: stakes, goal, exit, danger, Silence, **situation magnets** (who is high, loud, or obvious *now*). Not a named-PC roster and not how they already move. |
 | 4 | **Now** | One paragraph. Current situation once. |
 | 5 | **DM truth** | Open `> [!secret] DM truth` — opposition want, one sentence. **Before** narration. |
 | 6 | **Action cards** | Predator loop and compact numbers you will roll in default mode (AC, one attack, scatter/bloodied thresholds). Next to truth, not under embeds. Named owner actions (`Talon Grab`, `Sickle Claw`), not nicknames (`rake`). |
 | 7 | **Open** | `> [!narration] Narration`. *Scene-setting*: currently visible threat, relative position, cover/routes, imminent action, then “What do you do?” Three **tells**. No separate Ask callout. |
 | 8 | **Procedure** | Open `> [!mechanic] Procedure`. Name *escape mode* or *combat mode*. The loop for this slice, once. |
-| 9 | **Zones** | Table: band \| what’s there \| moves / cover. Uses Starting state’s movement grammar. |
+| 9 | **Zones** | Table: place \| distance in feet \| cover. Uses Starting state’s movement grammar. Named places are fine; abstract “bands” are not a substitute for distance. |
 | 10 | **Be ready for** | **Partial** defined once above the table. Table: intent \| approach (skill) \| DC \| success \| partial \| failure. Name the creature, item, and place in every cell. Every cell is a *ruling*. Include **Assess the situation** when the opening could be read as “what is it hunting / doing?” Not a menu to read aloud. |
 | 11 | **Threat clock** | Table inside open `> [!mechanic] Threat clock`. The predators’ turn. Named ticks. 3–4 ticks. Bloodied (write the HP number), cover-reached, minions, scene dials live **in this block**. |
 | 12 | **Secondary objective** | If Be ready for lists “save / distract X,” one line: beats required, ignore outcome, later consequence. Omit when there is no second objective. |
@@ -95,20 +95,20 @@ A row may say “binary — no partial” when the fiction has no middle.
 
 ## Ruling
 
-Every Be ready for cell and every clock tick names an implementation the DM can roll or apply: attack bonus and damage with a **named action**, or a condition plus a band, or HP. “Takes one hit,” “arrives hurt,” “scattered,” “crash-landed,” “a pack is lost,” “rough landing,” and “rake” fail until mapped.
+Every Be ready for cell and every clock tick names an implementation the DM can roll or apply: attack bonus and damage with a **named action**, or a condition plus a distance in feet, or HP. “Takes one hit,” “arrives hurt,” “scattered,” “crash-landed,” “a pack is lost,” “rough landing,” and “rake” fail until mapped.
 
 ## Starting state
 
 State it in compact lines before Glance, then reuse it in the zone table. Do not invent a second movement model later.
 
-- Who starts in which named band.
-- How many bands to the cover endpoint and to the exposed lateral route.
-- Normal movement crosses **one** band; Dash crosses **two**.
+- Who starts where, with distances in **feet** (how high, how far to cover, how far to the exposed route).
+- The speeds that matter this slice (for example fly 30 feet, Dash 60 feet).
+- What one move and one Dash actually reach from the start.
 - Checks change risk, not basic movement.
 - Passengers and grouped characters use the carrier’s movement.
 - Interception is the clock tick after all have acted, not a second hidden turn.
 
-Adjust the numbers to this slice’s flight/swim/walk speeds; write the adjusted model.
+Write the real distances. Named places (High air, grass, beach) label those distances; they do not replace them.
 
 ## Scene-setting (Open)
 
@@ -153,9 +153,9 @@ Completion — all of these hold, or the draft is not done:
 
 - One named *procedure*; Be ready for failures do not also tick the clock.
 - **Partial** defined once (or the table is binary on purpose).
-- Bold **Scene ends when** is findable without reading the clock.
-- Time budget + both *cut lines*.
-- Starting state present; zone table uses that grammar.
+- `## Scene ends when` is the first heading; the end condition is the first line.
+- Time budget + both *cut lines* sit under that heading.
+- Starting state present in feet; zone table uses those distances.
 - DM truth before Open.
 - Open contains currently visible cover, routes, relative position, and imminent action, then the question.
 - Action cards sit with DM truth; clock holds bloodied as a number, cover-reached, minions, dials.

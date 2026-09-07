@@ -10,16 +10,18 @@ cssclasses: [session-surface]
 
 # {{title}}
 
-## Time + end
+## Scene ends when
 
-- **Budget:** 30 minutes.
-- **Scene ends when:**
+The scene ends when:
+
+This beat is thirty minutes.
+
 - **If behind:**
 - **If ahead:**
 
 ## Starting state
 
-Crew band. Cover is N bands away. Exposed lateral route is N bands. Normal movement crosses one band; Dash crosses two. Checks change risk, not basic movement. Passengers use the carrier's movement.
+The crew starts _ feet up / away. Cover is _ feet away. The exposed route is _ feet away. Speeds that matter: fly/walk _ feet (Dash _). Checks change risk, not basic movement. Passengers use the carrier's movement.
 
 ## L0 · Glance
 
@@ -49,7 +51,7 @@ Adult loop with named actions. Young or minion compact line: AC, one attack, sca
 
 ### Zones
 
-| Band | What is there | Moves / cover |
+| Place | Distance | Cover |
 | --- | --- | --- |
 |  |  |  |
 

@@ -57,10 +57,10 @@ run tonight is a **cockpit** (`run-guide`); emit the stock that cockpit inlines.
 Field order and *procedure* live in `run-guide`; this skill supplies the stock:
 
 1. **Brief:** who, where, why now, visible pressure and fuse.
-2. **Starting state:** who is in which band; move = one band, Dash = two; carrier vs individual.
+2. **Starting state:** who starts where, in feet from cover; speeds that matter; what a move vs Dash reaches; carrier vs individual.
 3. **Action cards:** opposition loop with named actions; compact default-mode numbers (AC, one attack, scatter/bloodied HP). Missing owner → `homebrew-monsters-5e`.
 4. **Roster embeds:** `![[Monster#Statblock]]` targets for *combat mode*. Full fences stay on the card; do not retype the owner’s Multiattack/HP table into the brief.
-5. **Zones:** 3–5 named bands (not a grid); uses Starting state’s grammar; features both sides can use.
+5. **Zones:** 3–5 named places with distances in feet (not a grid and not abstract bands); uses Starting state’s grammar; features both sides can use.
 6. **Procedure + threat clock:** one loop. Clock **is** the opposition’s turn (the old R1–R3 live as ticks). Bloodied as an HP number; cover-reached; minion line; scene dials. Failures impose listed *rulings* and do not also tick.
 7. **Tells:** three independent player-visible clues for any conclusion the table must reach. Currently visible cover/routes belong in the opening, not on tick 1.
 8. **Be ready for:** **Partial** = miss by 1–4 (or mark the row binary). Likely intents including **Assess the situation** when the opening is readable as “what is it hunting?” Every cell is a *ruling*. Not a menu to read aloud.
