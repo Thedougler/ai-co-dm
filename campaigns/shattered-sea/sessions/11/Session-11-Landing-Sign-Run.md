@@ -30,21 +30,21 @@ This beat is thirty minutes.
 
 **Quiet drop.** The crew is here, in eight-foot grass and moving water on this river-valley bank.
 
-**Crash-landed.** That crew member is in Terrace woods, already 2d6 bludgeoning and Prone. Terrace woods is a 30-foot drop from High air. From this grass-and-river bank, Terrace woods is 30 feet upslope.
+**Crash-landed.** That crew member is in Terrace woods, already 2d6 bludgeoning and Prone. Terrace woods is the old gardens, mangroves, and stone they dropped from, above and behind this bank on the terrace line.
 
-**Scattered.** That crew member is 30 feet from the others.
+**Scattered.** That crew member is still apart in the grass or Terrace woods from the drop.
 
-Prints and inland smoke are already visible from this bank.
+Prints and inland smoke are already visible from this bank. The prints head upriver along this valley. The smoke is a thin column on the horizon upstream in this same valley.
 
-Walking speed is 30 feet on this bank. A 30-foot walk along the upriver prints leaves this bank (beat 3). A 30-foot walk upslope reaches Terrace woods. A 60-foot Dash from this bank reaches the beach and the open sky toward [[Uncertainty]].
+Without a swim speed, each foot in the moving water costs 1 extra foot (5.5e 2024). Current speed is unknown; do not invent a push.
 
-Without a swim speed, each foot in the moving water costs 1 extra foot (5.5e 2024). Current speed in feet is unknown; do not invent a push.
+[[Flying Boots]] fly 30 feet (Dash 60 feet) on the item's sheet. That Dash does not reach the beach, the smoke, or the terraces. [[Crissdalynn Khinriss]] uses her aarakocra fly speed from her sheet.
 
-[[Flying Boots]] fly 30 feet (Dash 60 feet). [[Crissdalynn Khinriss]] uses her aarakocra fly speed from her sheet.
+Committing to follow the upriver prints toward the smoke is the beat 3 handoff. Do not run grassland tables on that commit. That trail is not a single short walk that leaves this bank.
 
-A move that leaves this bank toward the smoke is the beat 3 handoff. Do not run grassland tables on that move.
+Taking open valley air (flying up out of the grass) is hawk sky.
 
-Taking open valley sky is hawk sky.
+Walking downstream is a return through the terrace line to the beach and [[Uncertainty]].
 
 ## L0 · Glance
 
@@ -56,21 +56,21 @@ Taking open valley sky is hawk sky.
 
 ## Now
 
-The crew is in moving water and eight-foot grass on this river-valley bank, or crash-landed or scattered in Terrace woods. Prints, a scraped fire patch, dropped kit, fruit already picked and left, and feet heading upriver already show on this same bank. Inland in this valley, a thin column of smoke still stands. Downstream the terraces and the beach still open toward [[Uncertainty]].
+The crew is in moving water and eight-foot grass on this river-valley bank, or crash-landed or scattered in Terrace woods. Prints, a scraped fire patch, dropped kit, fruit already picked and left, and feet heading upriver along this valley already show on this same bank. A thin column of smoke still stands on the horizon upstream in this same valley. Downstream, the old terraces still run back toward the beach and [[Uncertainty]].
 
 > [!secret] DM truth
 > A group of raid survivors already moved on from this bank toward the smoke in this valley, and this slice has no named predator.
 >
-> **Unrevealed:** How many people are left is unknown. Whether the fruit on this bank was found loose or picked as a claim is unknown. Exact feet to the smoke are unknown. Contents of the dropped kit are unknown. Do not invent a head count or a Hunger Rule verdict on the fruit already here.
+> **Unrevealed:** How many people are left is unknown. Whether the fruit on this bank was found loose or picked as a claim is unknown. Contents of the dropped kit are unknown. Do not invent a head count, miles to the smoke, or a Hunger Rule verdict on the fruit already here.
 
 ### Action cards
 
 **[[Aruhe Hunger Rule]] claim.** Fruit skins and fruit already on the ground of this bank are down. Living stems still hold fruit. Taking what is already down is not a claim. Plucking living plants on this bank is a claim. Free-flowing river water on this bank is drinkable passage. On a claim, do not roll grassland tables now. Both later [[Aruhe-River-Grasslands-Tables]] and [[Aruhe-River-Grasslands-Plant-Hazards]] rolls are 2d8 keep the lower number, then pick one row. The trail and smoke remain.
 
 > [!narration] Narration
-> The crew stands in moving water and eight-foot grass on this river-valley bank. Prints mark the mud. A scraped fire patch and fruit skins lie in the grass, and feet lead upriver off this bank. Downstream, the terraces and beach open toward the ship. Upstream in this valley, a thin column of smoke stands. Current tugs at their legs. What do you do?
+> The crew stands in moving water and eight-foot grass on this river-valley bank. Prints mark the mud. A scraped fire patch and fruit skins lie in the grass, and feet lead upriver along this valley. Downstream, the old terraces run back toward the beach and the ship. Upstream in this same valley, a thin column of smoke stands on the horizon. Current tugs at their legs. What do you do?
 
-If crash-landed, that crew member starts Prone in Terrace woods, 30 feet from this grass-and-river bank.
+If crash-landed, that crew member starts Prone in Terrace woods, above and behind this bank on the terrace line.
 
 > [!mechanic] Procedure
 > **Development mode** is the default. This is not escape mode.
@@ -90,10 +90,10 @@ If crash-landed, that crew member starts Prone in Terrace woods, 30 feet from th
 | Place | Distance from the crew | Cover |
 | --- | --- | --- |
 | This bank / grass and river | The crew is here, in eight-foot grass and moving water. | This grass is cover. The adult [[Bloodhawk]] will not follow into this grass. |
-| Terrace woods | Terrace woods is 30 feet upslope from this bank. Crash-landed crew starts here, Prone. | Thin cover stands among old gardens, mangroves, and stone. This is not beat 1's cover endpoint. |
-| Upriver prints | The prints are 30 feet along the river inland. A walking move that leaves this bank follows them. | Leaving this bank is beat 3. Do not start that fight here. |
-| Inland smoke | The smoke is visible on the horizon upstream in this valley. A walk or Dash this slice does not reach it. | The smoke is not reachable on this card. |
-| Downstream terraces / beach / [[Uncertainty]] | Terrace woods is 30 feet upslope. The beach and [[Uncertainty]] are 60 feet of open sky toward the ship. | That route is exposed if a crew member takes open valley sky. |
+| Terrace woods | Terrace woods is above and behind this bank on the terrace line. Crash-landed crew starts here, Prone. | Thin cover stands among old gardens, mangroves, and stone. |
+| Upriver prints | The prints head inland up this valley toward the smoke. Committing to follow them is the beat 3 handoff. | Following that trail is beat 3. Do not start that fight here. |
+| Inland smoke | The smoke is a thin column on the horizon upstream in this same valley. It is not reachable this slice. | The smoke is not reachable on this card. |
+| Downstream terraces / beach / [[Uncertainty]] | Downstream is a return through the old terraces to the beach and [[Uncertainty]]. | That route is exposed if a crew member takes open valley air. |
 
 ## Be ready for
 
@@ -106,8 +106,8 @@ If crash-landed, that crew member starts Prone in Terrace woods, 30 feet from th
 | Intent | Approach | DC | Success | Partial | Failure |
 | --- | --- | --- | --- | --- | --- |
 | Assess the situation | Wisdom (Perception), Wisdom (Survival), or Intelligence (Investigation) | DC 12 | The prints, fire scrape, and fruit skins on this river-valley bank are fresh. Feet lead upriver toward the smoke in this valley. Fruit already on the ground is off the plant. Living fruit still hangs on stems here. How many people passed, and whether those people claimed living fruit, stay unknown. | The looker gets the fresh prints on this bank and the upriver line toward the smoke, but spends the round at it. Apply this listed cost only. Do not also tick. | The looker wastes the round watching this bank. Apply this listed cost only. Do not also tick. The end-of-round clock still ticks once if anyone remains on the magnets. |
-| Follow the upriver prints and smoke off this bank | Walking 30 feet along the prints on this bank | No roll | The crew leaves this bank on the prints. Hand to beat 3. This scene ends. | Binary — no partial. | If a crew member flies open valley sky toward the smoke, that is hawk sky. Point at a [[Young Bloodhawk]]. Do not start beat 3 from the air on this card. |
-| Return to the beach or [[Uncertainty]] | Walking downstream through Terrace woods, or flying the 60-foot open sky toward the ship | No roll to walk this bank downstream. Dexterity (Stealth) DC 14 if that crew member tries to stay low under hawk sky. | The crew leaves this bank for the beach or [[Uncertainty]]. Rebuild from that. This scene ends. | The crew reaches the beach after taking open valley sky. A [[Young Bloodhawk]] can still see that air. Do not restage beat 1 on this card. | A crew member takes open valley sky. Point at hawk sky / a [[Young Bloodhawk]]. The trail and smoke on this bank remain if anyone is still here. |
+| Follow the upriver prints and smoke off this bank | Committing to follow the prints upriver along this valley | No roll | The crew commits to the upriver trail toward the smoke. Hand to beat 3. This scene ends. | Binary — no partial. | If a crew member flies open valley air toward the smoke, that is hawk sky. Point at a [[Young Bloodhawk]]. Do not start beat 3 from the air on this card. |
+| Return to the beach or [[Uncertainty]] | Walking downstream through the terrace line, or flying open valley air toward the ship | No roll to walk downstream through the terraces. Dexterity (Stealth) DC 14 if that crew member tries to stay low under hawk sky. | The crew leaves this bank for a return through the terrace line to the beach or [[Uncertainty]]. Rebuild from that. This scene ends. | The crew takes open valley air on the way back. A [[Young Bloodhawk]] can still see that air. Do not restage beat 1 on this card. | A crew member takes open valley air. Point at hawk sky / a [[Young Bloodhawk]]. The trail and smoke on this bank remain if anyone is still here. |
 | Hide in the eight-foot grass on this bank | Dexterity (Stealth) | DC 14 | That crew member is hidden in the eight-foot grass on this river-valley bank. Lingering still ticks the clock at end of round if anyone remains on the magnets. | That crew member is in the eight-foot grass on this bank but makes noise. The clock still ticks at end of round if anyone remains on the magnets. | That crew member is still obvious on this river-valley bank. Apply this listed cost only. Do not also tick. |
 | Pick fruit on this river-valley bank | Intelligence (Nature) or Wisdom (Survival) to sort fallen fruit from living stems. Utilize if that crew member plucks without sorting. | DC 12, or no roll if that crew member plucks living stems on purpose | That crew member takes only fruit already down on this bank. That is not a claim. The trail and smoke remain. | That crew member takes some living stems on this bank. That is an [[Aruhe Hunger Rule]] claim. Both later tables use 2d8 take lower, then pick one row. The trail and smoke remain. | That crew member strips living fruit on this bank. That is an [[Aruhe Hunger Rule]] claim. Both later tables use 2d8 take lower, then pick one row. The trail and smoke remain. |
 
@@ -123,7 +123,7 @@ Unforeseen intents use the same want: the raid survivors already moved on toward
 > | 3 | The smoke is a smear on the horizon. The trail on this bank is going cold. |
 > | 4 | The column is gone. The prints on this bank are no longer a followable line. |
 >
-> **Cover reached.** Remaining in eight-foot grass and moving water on this bank keeps the adult [[Bloodhawk]] off this slice. Taking open valley sky is hawk sky. Point at a [[Young Bloodhawk]]. Do not restage beat 1.
+> **Cover reached.** Remaining in eight-foot grass and moving water on this bank keeps the adult [[Bloodhawk]] off this slice. Taking open valley air is hawk sky. Point at a [[Young Bloodhawk]]. Do not restage beat 1.
 >
 > **Claim made.** Picking living fruit on this bank is an [[Aruhe Hunger Rule]] claim. Both later tables use 2d8 take lower, then pick one row. Do not roll those tables on this card. The trail and smoke remain.
 >
@@ -133,11 +133,11 @@ Unforeseen intents use the same want: the raid survivors already moved on toward
 
 ## Landing
 
-If the crew follows the prints, they stand on the upriver prints at the edge of this bank. That is beat 3's opening. Movement closes gaps.
+If the crew follows the prints, they have committed to the upriver trail along this valley toward the smoke. That is beat 3's opening.
 
-If the crew broke, they stand on the beach or [[Uncertainty]], plus any RAW conditions already applied.
+If the crew broke, they are returning through the terrace line toward the beach or [[Uncertainty]], plus any RAW conditions already applied.
 
-**Scattered.** That crew member is still 30 feet from the others until movement closes the gap.
+**Scattered.** That crew member is still apart in the grass or Terrace woods until they join up.
 
 **Crash-landed.** That crew member still has 2d6 bludgeoning already applied and is Prone until they stand.
 
