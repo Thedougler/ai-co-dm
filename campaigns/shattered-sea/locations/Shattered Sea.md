@@ -10,6 +10,10 @@ tags: [location]
 > [!narration] Narration
 > The Shattered Sea is a roughly sixty-thousand-square-mile archipelago weeks beyond the last charted coast. Mountain Crown harbours, reef water, and a Central Strait of working sails sit between storm belts and a trench at the chart edge. Salt and wet rope hang over harbour lights you can make for.
 
+## Map
+
+![[attachments/shattered-sea/shattered-sea-overview-map.webp|Shattered Sea overview map]]
+
 
 ## At a glance
 A roughly 60,000-square-mile archipelago weeks beyond the last charted Faerûn coast; two island arcs and a shipping corridor make every crossing a negotiation. Feels remote, exposed, and politically unfinished.

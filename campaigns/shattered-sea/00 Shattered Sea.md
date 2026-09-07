@@ -20,6 +20,10 @@ In 1495 DR, the crew works a roughly 60,000-square-mile archipelago south of Chu
 - House tone: [[lexicon/House tone]]
 ## Current arc
 **Season 2: at/around [[Aruhe - Hungry Isle]].** The crew is aboard mobile [[Uncertainty]] after the first chosen stop of [[Sparhold]]; the wreck field, Aruhe survivors, taking-places, and crown squid now set the immediate pressure.
+
+## Map
+- [[campaigns/shattered-sea/locations/Shattered Sea#Map|Shattered Sea overview map]]
+
 ## Pressure
 Active [[campaigns/shattered-sea/fronts/00 Fronts|fronts]]:
 - [[Maw fissure and the tribute system]] — tribute and the Pearl may be holding the fissure shut.

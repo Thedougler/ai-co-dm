@@ -38,6 +38,8 @@ Prefer path under `attachments/` so agents and git stay unambiguous. Bare filena
 
 ## Index
 
+- [[attachments/shattered-sea/shattered-sea-overview-map.webp|Shattered Sea overview map]]
+
 ## Shattered Sea legacy ingest
 
 Only obvious filename-to-note matches were copied from the legacy wiki. Files live under `attachments/shattered-sea/<category>/`.
