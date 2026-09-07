@@ -11,7 +11,7 @@ tags: [location, aruhe, rot, decay]
 ## Art
 ![[attachments/shattered-sea/places/aruhe-the-rot.jpeg]]
 > [!narration] Narration
-> _Visualizer: Aruhe flora pending._
+> The Rot is a low, wet reach of forest where dead growth does not clear away. It piles into black soil, split bark, and leaves eaten dark at the edges. Pale roots run above the ground in thick cords, bright as exposed veins, crossing old trunks and dipping into soft places where a boot would sink before finding stone underneath. Violet shelf fungi crowd the trees and fallen wood, and the whole region smells of wet earth, opened bark, and rot still warm enough to feed something. Paths here are made by what has broken down: a firm root-line, a darker channel through the muck, or a gap where the ground gives way toward stone below.
 
 
 
