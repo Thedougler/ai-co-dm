@@ -12,7 +12,7 @@ tags: [location, aruhe, terraces, gardens]
 ![[attachments/shattered-sea/places/aruhe-the-old-gardens.jpeg|Aruhe Old Gardens]]
 
 > [!narration] Narration
-> Ancient stone terraces climb the forested slope, their broken steps threaded with roots and bright orange fruit. Green water moves through algae-coated channels below dark openings in the old stonework. The air is warm, sweet, and sour at once; every path seems to lead deeper into growth that no one planted for you.
+> Old stone terraces climb the forest slope in stacked walls, each level wide enough for a path before the next green drop. Moss darkens the blocks, stair cuts climb between them, and black openings sit under ledges where irrigation water gathers below. Fruit crowds the terrace lips in yellow, orange, red, and pink clusters, with vines hanging down into the green channels and fallen pieces split open on the wet stone. The air is warm and sugar-sour, and the usable routes are the steps, the terrace edges, and the water-cut channels that keep leading inland.
 
 
 ## At a glance
