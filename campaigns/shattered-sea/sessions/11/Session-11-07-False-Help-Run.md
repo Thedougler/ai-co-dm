@@ -26,39 +26,27 @@ This beat is thirty minutes.
 
 **If ahead:** Still end on trail-to-camp or ambush. Do not run the farthest camp on this card.
 
-## Starting state
-
-The mark is locked from [[Session-11-Night-Watch-Run]] on the person who heard the run (or on whoever the [[Deer-Stalker]] chose if someone else interrupted the kill). It is morning. The crew is on the forest-edge trail.
-
-**Already fought.** If they already fought this [[Deer-Stalker]] in beat 6, the mark still stands, plus any RAW damage and conditions already applied. Use the voices once as a test. Do not repeat the same combat. If that fight dropped the [[Deer-Stalker]] to 0 hit points, there is no combat-mode switch on this card.
-
-**Crash-landed.** That crew member still has 2d6 bludgeoning already applied and is Prone until they stand.
-
-**Scattered.** That crew member is still apart until they join up.
-
-**Prone.** Anyone knocked down on the last stretch is Prone until they stand.
-
-**Grappled.** Anyone still Grappled by the [[Deer-Stalker]] at a break is still Grappled (escape DC 14) until they escape or it drops them.
-
-**[[Razer-Grass]].** Anyone shoved through or Shatter-dumped in the island has that damage already applied.
-
-**Claim already made.** If the crew claimed living plants or fished a hole, that [[Aruhe Hunger Rule]] cost is already applied.
-
-[[Deer-Stalker]] speed is 40 feet, climb 20 feet. Claw reach is 10 feet. Lost Nerve is 30 feet. This Meal is 10 feet. Snatch from the Dim moves up to 40 feet without opportunity attacks, then up to 20 feet with a Grappled creature. Quarry direction is 1 mile. A Dash does not reach the farthest camp, the beach, or the terraces.
-
-This [[Deer-Stalker]] is Easy: it is not Famished, unless beat 6 already set Famished or Hard. Lost Nerve treats two ready hostiles within 30 feet as enough. Keep any hit points already lost in beat 6.
-
-[[Flying Boots]] fly 30 feet (Dash 60 feet) on the item's sheet only. That Dash does not reach the beach, the smoke, or the terraces. [[Crissdalynn Khinriss]] uses her aarakocra fly speed from her sheet.
-
-This is the session's one [[Deer-Stalker]] from beats 6 and 7. Do not spawn a second. Do not roll [[Aruhe-River-Grasslands-Tables]] row 6 here.
-
 ## L0 · Glance
 
 - **Stakes:** The mark is still live. Time and a choice sit between that mark and the attack. Ignoring the help-calls means walking on while people might be dying.
 - **Goal / exit:** Stay on the prints toward the smoke with the mark still live, or resolve the one-person ambush, or answer as a whole party until the voices die off and return to the prints.
-- **Danger:** Sending one person is the ambush. Answering with the whole party makes the voices move and die off. A knot that goes together still gets one more peel on the way back.
+- **Danger:**
+  - Sending one person is the ambush.
+  - Answering with the whole party makes the voices move and die off.
+  - A knot that goes together still gets one more peel on the way back.
+  - If they already fought this [[Deer-Stalker]] in beat 6, use the voices once as a test; do not repeat the same combat.
+  - A Dash does not reach the farthest camp, the beach, or the terraces.
 - **Silence:** Present the prints versus the voices, then wait. If the crew freezes, tick the clock once at the end of the round.
-- **Situation magnets:** Anyone who walks toward the voices alone is a magnet. The locked quarry is a magnet if that person is isolated. Anyone off the trail apart from the group is a magnet.
+- **Situation magnets:**
+  - Anyone who walks toward the voices alone is a magnet.
+  - The locked quarry from [[Session-11-06-Night-Watch-Run]] is a magnet if that person is isolated.
+  - Anyone off the trail apart from the group is a magnet.
+  - Crash-landed crew still has 2d6 bludgeoning and is Prone until they stand.
+  - Scattered crew is still apart until they join up.
+  - Anyone knocked down on the last stretch is Prone until they stand.
+  - Anyone still Grappled by the [[Deer-Stalker]] is still Grappled (escape DC 14).
+  - Anyone shoved through [[Razer-Grass]] already has that damage applied.
+  - If the crew already claimed living plants or fished a hole, that [[Aruhe Hunger Rule]] cost is already applied.
 
 ## DM truth
 
@@ -103,29 +91,18 @@ The help is this [[Deer-Stalker]]. It watched the inland group and can copy thei
 
 **False-help / peel mode** is the default. This is not a required fight. Do not attack at the start of this beat. Do not force the full fight if the crew stays grouped on the prints.
 
-Players declare and resolve turns, checks, and movement as normal.
-
-Failures impose the Be ready for ruling only. Failures never advance the threat clock.
-
-After everyone has acted, if anyone remains on the magnets (anyone walking toward the voices alone, the locked quarry isolated, or anyone off the trail apart from the group), advance the threat clock once and resolve that tick.
-
-Freeze or "we watch" on the edge-trail ticks once at the end of the round, not per failed check. That tick is the voices persisting off the line.
-
-Several failed checks in one round still produce one tick.
-
-Staying on the prints and committing to the smoke resolves the walk-on in Be ready for. Do not also tick. The mark stays live. This scene can end.
-
-The whole party answering the voices resolves Lost Nerve in Be ready for. Do not also tick Lost Nerve for that same action. The voices die off. They can return to the prints. This scene can end.
-
-One person reaching the voices resolves the face in Be ready for. Do not also play that face as a clock tick.
-
-A knot that stays tied resolves break-contact in Be ready for. The one more peel on the way back is the next clock tick if anyone remains on the magnets.
-
-If they already fought in beat 6, the voices play once as a test. Do not switch to combat mode. Do not repeat the same combat.
-
-If a crew member takes open valley air, that crew member leaves this trail for hawk sky. Do not restage beat 1 on this card.
-
-**Combat mode:** if one person is at the voices and the [[Deer-Stalker]] attacks, stop the clock and run the embedded statblock. If the whole party comes up ready, it leaves. If they already fought this combat in beat 6, do not run it again.
+- Players declare and resolve turns, checks, and movement as normal.
+- Failures impose the Be ready for ruling only. Failures never advance the threat clock.
+- After everyone has acted, if anyone remains on the magnets (anyone walking toward the voices alone, the locked quarry isolated, or anyone off the trail apart from the group), advance the threat clock once and resolve that tick.
+- Freeze or "we watch" on the edge-trail ticks once at the end of the round, not per failed check. That tick is the voices persisting off the line.
+- Several failed checks in one round still produce one tick.
+- Staying on the prints and committing to the smoke resolves the walk-on in Be ready for. Do not also tick. The mark stays live. This scene can end.
+- The whole party answering the voices resolves Lost Nerve in Be ready for. Do not also tick Lost Nerve for that same action. The voices die off. They can return to the prints. This scene can end.
+- One person reaching the voices resolves the face in Be ready for. Do not also play that face as a clock tick.
+- A knot that stays tied resolves break-contact in Be ready for. The one more peel on the way back is the next clock tick if anyone remains on the magnets.
+- If they already fought in beat 6, the voices play once as a test. Do not switch to combat mode. Do not repeat the same combat.
+- If a crew member takes open valley air, that crew member leaves this trail for hawk sky. Do not restage beat 1 on this card.
+- **Combat mode:** if one person is at the voices and the [[Deer-Stalker]] attacks, stop the clock and run the embedded statblock. If the whole party comes up ready, it leaves. If they already fought this combat in beat 6, do not run it again.
 
 ## Zones
 
@@ -213,4 +190,4 @@ Do not run grassland tables, the night watch, or the farthest camp here. After t
 
 ## Backup
 
-[[Deer-Stalker]] · [[Session-11-Night-Watch-Run]] · [[Session-11-Angry-Birds]] · [[Grasslands - River Valleys]]
+[[Deer-Stalker]] · [[Session-11-06-Night-Watch-Run]] · [[Session-11-00-Angry-Birds]] · [[Grasslands - River Valleys]]

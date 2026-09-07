@@ -26,33 +26,29 @@ This beat is thirty minutes.
 
 **If ahead:** Still end on a commit to the trail or a break to the ship. Do not add a grassland complication or a wolfrabbit ambush on this card. Fruit-picking is the inlined extra: an [[Aruhe Hunger Rule]] claim means both later tables use 2d8 take lower, then pick one row. The trail and smoke remain.
 
-## Starting state
-
-**Quiet drop.** The crew is here, in eight-foot grass and moving water on this river-valley bank.
-
-**Crash-landed.** That crew member is in Terrace woods, already 2d6 bludgeoning and Prone. Terrace woods is the old gardens, mangroves, and stone they dropped from, above and behind this bank on the terrace line.
-
-**Scattered.** That crew member is still apart in the grass or Terrace woods from the drop.
-
-Prints and inland smoke are already visible from this bank. The prints head upriver along this valley. The smoke is a thin column on the horizon upstream in this same valley.
-
-Without a swim speed, each foot in the moving water costs 1 extra foot (5.5e 2024). Current speed is unknown; do not invent a push.
-
-[[Flying Boots]] fly 30 feet (Dash 60 feet) on the item's sheet. That Dash does not reach the beach, the smoke, or the terraces. [[Crissdalynn Khinriss]] uses her aarakocra fly speed from her sheet.
-
-Committing to follow the upriver prints toward the smoke is the beat 3 handoff. Do not run grassland tables on that commit. That trail is not a single short walk that leaves this bank.
-
-Taking open valley air (flying up out of the grass) is hawk sky.
-
-Walking downstream is a return through the terrace line to the beach and [[Uncertainty]].
-
 ## L0 · Glance
 
 - **Stakes:** The sign on this bank is fresh enough to follow. Waiting lets the smoke thin and the trail go cold.
-- **Goal / exit:** Commit to the upriver prints and smoke off this bank (beat 3), or break for the ship, the beach, or the downstream terraces.
-- **Danger:** Delay is the fuse. Lingering, claiming living plants, making noise, or walking downstream toward open beach and hawk sky costs the trail.
+- **Goal / exit:**
+  - Commit to the upriver prints and smoke off this bank (beat 3), or break for the ship, the beach, or the downstream terraces.
+  - Do not run grassland tables on that commit.
+  - That trail is not a single short walk that leaves this bank.
+- **Danger:**
+  - Delay is the fuse.
+  - Lingering, claiming living plants, making noise, or walking downstream toward open beach and hawk sky costs the trail.
+  - Without a swim speed, each foot in the moving water costs 1 extra foot.
+  - Current speed is unknown; do not invent a push.
+  - A Dash of 30 feet or 60 feet does not reach the beach, the smoke, or the terraces.
+  - Taking open valley air is hawk sky.
 - **Silence:** Present this bank, then wait. If the crew freezes, tick the clock once at the end of the round.
-- **Situation magnets:** Anyone lingering on this bank is a magnet. Anyone picking living plants on this bank is a magnet. Anyone making noise on this bank is a magnet. Anyone walking downstream toward open beach or hawk sky is a magnet.
+- **Situation magnets:**
+  - Anyone lingering on this bank is a magnet.
+  - Anyone picking living plants on this bank is a magnet.
+  - Anyone making noise on this bank is a magnet.
+  - Anyone walking downstream toward open beach or hawk sky is a magnet.
+  - Quiet-drop crew is here, in eight-foot grass and moving water.
+  - Crash-landed crew is in Terrace woods, already 2d6 bludgeoning and Prone.
+  - Scattered crew is still apart in the grass or Terrace woods.
 
 ## Now
 
@@ -81,15 +77,11 @@ If crash-landed, that crew member starts Prone in Terrace woods, above and behin
 
 **Development mode** is the default. This is not escape mode.
 
-Players declare and resolve turns, checks, and movement as normal.
-
-Failures impose the Be ready for ruling only. Failures never advance the threat clock.
-
-After everyone has acted, if anyone remains on the magnets (lingering, claiming, making noise, or ignoring the trail while the smoke is up), advance the threat clock once and resolve that tick.
-
-Freeze or "we watch" ticks once at the end of the round, not per failed check.
-
-Several failed checks in one round still produce one tick.
+- Players declare and resolve turns, checks, and movement as normal.
+- Failures impose the Be ready for ruling only. Failures never advance the threat clock.
+- After everyone has acted, if anyone remains on the magnets (lingering, claiming, making noise, or ignoring the trail while the smoke is up), advance the threat clock once and resolve that tick.
+- Freeze or "we watch" ticks once at the end of the round, not per failed check.
+- Several failed checks in one round still produce one tick.
 
 ## Zones
 
@@ -150,4 +142,4 @@ If the crew broke, they are returning through the terrace line toward the beach 
 
 ## Backup
 
-[[Aruhe-River-Grasslands-Tables]] · [[Aruhe-River-Grasslands-Plant-Hazards]] · [[Aruhe Hunger Rule]] · [[Grasslands - River Valleys]] · [[Old Gardens]] · [[Uncertainty]] · [[Session-11-Angry-Birds]] · [[Session-11-Angry-Birds-Run]]
+[[Aruhe-River-Grasslands-Tables]] · [[Aruhe-River-Grasslands-Plant-Hazards]] · [[Aruhe Hunger Rule]] · [[Grasslands - River Valleys]] · [[Old Gardens]] · [[Uncertainty]] · [[Session-11-00-Angry-Birds]] · [[Session-11-01-Angry-Birds-Run]]

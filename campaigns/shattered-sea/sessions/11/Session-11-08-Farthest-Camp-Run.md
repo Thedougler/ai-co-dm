@@ -26,35 +26,30 @@ This beat is thirty minutes.
 
 **If ahead:** Still end on night coming and watch setup. Do not run [[Talon Skarn]] on this card. Do not reach [[The Grove - Death Bloom]].
 
-## Starting state
-
-The crew is at this smoke after [[Session-11-False-Help-Run]]. The mark may still be live on the locked quarry from that trail. This card does not run the [[Deer-Stalker]]. It is later in this valley day. Night is the clock.
-
-**Already fought.** If beat 6 or beat 7 already dropped the [[Deer-Stalker]] to 0 hit points, there is no deer-stalker combat on this card. The mark may still sit as leftover fiction. Do not spawn a second.
-
-**Crash-landed.** That crew member still has 2d6 bludgeoning already applied and is Prone until they stand.
-
-**Scattered.** That crew member is still apart until they join up at this fire.
-
-**Prone.** Anyone knocked down on the last stretch is Prone until they stand.
-
-**Grappled.** Anyone still Grappled by the [[Deer-Stalker]] at a break is still Grappled (escape DC 14) until they escape or it drops them.
-
-**[[Razer-Grass]].** Anyone shoved through or Shatter-dumped in the island has that damage already applied.
-
-**Claim already made.** If the crew claimed living plants or fished a hole, that [[Aruhe Hunger Rule]] cost is already applied.
-
-This camp is the smoke. A Dash of 30 feet or 60 feet does not reach the beach, the terraces, or the garden. [[Flying Boots]] fly 30 feet (Dash 60 feet) on the item's sheet only. [[Crissdalynn Khinriss]] uses her aarakocra fly speed from her sheet.
-
-Do not invent a head count. Do not name the people at this fire. Do not roll [[Aruhe-River-Grasslands-Tables]] here.
-
 ## L0 · Glance
 
 - **Stakes:** The prize is complicated. Some of these people want rescue. This camp wants a garden. If the crew came to take people back to [[Uncertainty]], this camp does not all want to go.
 - **Goal / exit:** Get the split on the table and a live choice, then hand to beat 9's second-night watch, or break on a forced march, an attack, or a leave.
-- **Danger:** Pushing a march tonight breaks the only friendly group inland. Playing along points the night deeper into [[Aruhe - Hungry Isle]], not back to the beach. Night is coming.
+- **Danger:**
+  - Pushing a march tonight breaks the only friendly group inland.
+  - Playing along points the night deeper into [[Aruhe - Hungry Isle]], not back to the beach.
+  - Night is coming.
+  - This card does not run the [[Deer-Stalker]].
+  - Do not invent a head count or name the people at this fire.
+  - A Dash of 30 feet or 60 feet does not reach the beach, the terraces, or the garden.
 - **Silence:** Present this camp and the two stories, then wait. If the crew freezes, tick the clock once at the end of the round.
-- **Situation magnets:** Anyone forcing a march to [[Uncertainty]] tonight is a magnet. Anyone who attacks this camp is a magnet. Anyone picking living plants at this fire is a magnet. Freeze while the split is unresolved is a magnet.
+- **Situation magnets:**
+  - Anyone forcing a march to [[Uncertainty]] tonight is a magnet.
+  - Anyone who attacks this camp is a magnet.
+  - Anyone picking living plants at this fire is a magnet.
+  - Freeze while the split is unresolved is a magnet.
+  - The mark may still be live on the locked quarry from [[Session-11-07-False-Help-Run]].
+  - Crash-landed crew still has 2d6 bludgeoning and is Prone until they stand.
+  - Scattered crew is still apart until they join up at this fire.
+  - Anyone knocked down on the last stretch is Prone until they stand.
+  - Anyone still Grappled by the [[Deer-Stalker]] is still Grappled (escape DC 14).
+  - Anyone shoved through [[Razer-Grass]] already has that damage applied.
+  - If the crew already claimed living plants or fished a hole, that [[Aruhe Hunger Rule]] cost is already applied.
 
 ## DM truth
 
@@ -85,25 +80,16 @@ This camp wants to see the woman's garden. The woman is [[The Blight]] / Hinewai
 
 **Alliance / social Development mode** is the default. This is not escape mode. This is not a required fight.
 
-Players declare and resolve turns, checks, and movement as normal.
-
-Failures impose the Be ready for ruling only. Failures never advance the threat clock.
-
-After everyone has acted, if anyone remains on the magnets (forcing a march tonight, attacking this camp, picking living plants at this fire, or freezing while the split is unresolved), advance the threat clock once and resolve that tick.
-
-Freeze or "we watch" at this fire ticks once at the end of the round, not per failed check. That tick is night coming, or people slipping into the trees if the crew is already pushing.
-
-Several failed checks in one round still produce one tick.
-
-Hearing the two stories and committing to stay the night, play along, extract-and-wait, or leave already resolved in Be ready for does not also tick.
-
-A forced march already resolved in Be ready for does not also tick slips for that same action.
-
-An attack already resolved in Be ready for does not also tick.
-
-If a crew member takes open valley air, that crew member leaves this camp for hawk sky. Do not restage beat 1 on this card.
-
-**Combat mode:** if someone attacks this camp, stop the clock and rebuild. Lose the prize. Do not invent a statblock. Do not run [[Talon Skarn]]. They still have a night watch.
+- Players declare and resolve turns, checks, and movement as normal.
+- Failures impose the Be ready for ruling only. Failures never advance the threat clock.
+- After everyone has acted, if anyone remains on the magnets (forcing a march tonight, attacking this camp, picking living plants at this fire, or freezing while the split is unresolved), advance the threat clock once and resolve that tick.
+- Freeze or "we watch" at this fire ticks once at the end of the round, not per failed check. That tick is night coming, or people slipping into the trees if the crew is already pushing.
+- Several failed checks in one round still produce one tick.
+- Hearing the two stories and committing to stay the night, play along, extract-and-wait, or leave already resolved in Be ready for does not also tick.
+- A forced march already resolved in Be ready for does not also tick slips for that same action.
+- An attack already resolved in Be ready for does not also tick.
+- If a crew member takes open valley air, that crew member leaves this camp for hawk sky. Do not restage beat 1 on this card.
+- **Combat mode:** if someone attacks this camp, stop the clock and rebuild. Lose the prize. Do not invent a statblock. Do not run [[Talon Skarn]]. They still have a night watch.
 
 ## Zones
 
@@ -191,4 +177,4 @@ Do not run grassland tables, the [[Deer-Stalker]], or [[Talon Skarn]] here. The 
 
 ## Backup
 
-[[The Blight]] · [[Aruhe Hunger Rule]] · [[Uncertainty]] · [[The Grove - Death Bloom]] · [[Aruhe - Hungry Isle]] · [[Session-11-False-Help-Run]] · [[Session-11-Angry-Birds]]
+[[The Blight]] · [[Aruhe Hunger Rule]] · [[Uncertainty]] · [[The Grove - Death Bloom]] · [[Aruhe - Hungry Isle]] · [[Session-11-07-False-Help-Run]] · [[Session-11-00-Angry-Birds]]

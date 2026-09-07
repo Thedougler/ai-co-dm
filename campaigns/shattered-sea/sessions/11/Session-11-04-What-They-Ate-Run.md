@@ -26,28 +26,26 @@ This beat is thirty minutes.
 
 **If ahead:** Still end on move-on or claim. Do not start the otter hole or a grassland table fight. Fruit-stripping is the inlined extra: an [[Aruhe Hunger Rule]] claim means both later tables use 2d8 take lower, then pick one row. Fishing this hole is a possible claim when you next roll.
 
-## Starting state
-
-This is the camp-in-passing on the upriver prints after the pack.
-
-**Crash-landed.** That crew member still has 2d6 bludgeoning already applied and is Prone until they stand.
-
-**Scattered.** That crew member is still apart until they join up.
-
-**Prone.** Anyone knocked down on the last stretch is Prone until they stand.
-
-**[[Razer-Grass]].** Anyone shoved through or Shatter-dumped in the island has that damage already applied.
-
-[[Flying Boots]] fly 30 feet (Dash 60 feet) on the item's sheet only. That Dash does not reach the beach, the smoke, or the terraces. [[Crissdalynn Khinriss]] uses her aarakocra fly speed from her sheet.
-
-Without a swim speed, each foot in the moving water costs 1 extra foot (5.5e 2024). Current speed is unknown; do not invent a push.
-
 ## L0 · Glance
 
 - **Stakes:** Easy food is sitting on the ground of this bank. The living bushes look better, and they are the ones with blood under them. Time spent sorting this is time the smoke moves or thins.
-- **Danger:** Picking living bushes on this bank is the claim that left blood. Fishing this hole is a possible later claim. Lingering lets the smoke thin.
+- **Goal / exit:** Copy the right thing on this bank and keep the upriver prints (beat 5), or claim living plants or fish this hole (the cost lands, the trail remains), or break off the trail.
+- **Danger:**
+  - Picking living bushes on this bank is the claim that left blood.
+  - Fishing this hole is a possible later claim.
+  - Lingering lets the smoke thin.
+  - Without a swim speed, each foot in the moving water costs 1 extra foot.
+  - Current speed is unknown; do not invent a push.
+  - A Dash of 30 feet or 60 feet does not reach the beach, the smoke, or the terraces.
 - **Silence:** Present the three piles on this bank, then wait. If the crew freezes, tick the clock once at the end of the round.
-- **Situation magnets:** Anyone lingering on this bank is a magnet. Anyone picking live stems on this bank is a magnet. Anyone fishing this hole is a magnet.
+- **Situation magnets:**
+  - Anyone lingering on this bank is a magnet.
+  - Anyone picking live stems on this bank is a magnet.
+  - Anyone fishing this hole is a magnet.
+  - Crash-landed crew still has 2d6 bludgeoning and is Prone until they stand.
+  - Scattered crew is still apart until they join up.
+  - Anyone knocked down on the last stretch is Prone until they stand.
+  - Anyone shoved through [[Razer-Grass]] already has that damage applied.
 
 ## DM truth
 
@@ -70,15 +68,11 @@ The group ahead has been living off fruit already down on this bank, and off fis
 
 **Development mode** is the default. This is not escape mode.
 
-Players declare and resolve turns, checks, and movement as normal.
-
-Failures impose the Be ready for ruling only. Failures never advance the threat clock.
-
-After everyone has acted, if anyone remains on the magnets (lingering, picking live stems, or fishing this hole), advance the threat clock once and resolve that tick.
-
-Freeze or "we watch" ticks once at the end of the round, not per failed check.
-
-Several failed checks in one round still produce one tick.
+- Players declare and resolve turns, checks, and movement as normal.
+- Failures impose the Be ready for ruling only. Failures never advance the threat clock.
+- After everyone has acted, if anyone remains on the magnets (lingering, picking live stems, or fishing this hole), advance the threat clock once and resolve that tick.
+- Freeze or "we watch" ticks once at the end of the round, not per failed check.
+- Several failed checks in one round still produce one tick.
 
 ## Zones
 
@@ -146,4 +140,4 @@ Do not run grassland tables, wolfrabbits, or the otter hole here. After this ban
 
 ## Backup
 
-[[Aruhe Hunger Rule]] · [[Lion Citrus]] · [[Breathmelon]] · [[Grasslands - River Valleys]] · [[Aruhe-River-Grasslands-Tables]] · [[Aruhe-River-Grasslands-Plant-Hazards]] · [[Session-11-Wolfrabbits-Run]] · [[Session-11-Angry-Birds]]
+[[Aruhe Hunger Rule]] · [[Lion Citrus]] · [[Breathmelon]] · [[Grasslands - River Valleys]] · [[Aruhe-River-Grasslands-Tables]] · [[Aruhe-River-Grasslands-Plant-Hazards]] · [[Session-11-03-Wolfrabbits-Run]] · [[Session-11-00-Angry-Birds]]

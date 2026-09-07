@@ -26,35 +26,26 @@ This beat is thirty minutes.
 
 **If ahead:** Still end on the mark locked. Do not run beat 7's false-help voices on this card. If they already get the full one-person fight, do not also run the same combat in beat 7.
 
-## Starting state
-
-The crew is camped on the forest-edge prints toward the smoke after the otter hole. This slice is the night watch. The person on watch is apart at the tree line. The others are in camp.
-
-**Crash-landed.** That crew member still has 2d6 bludgeoning already applied and is Prone until they stand.
-
-**Scattered.** That crew member is still apart until they join up.
-
-**Prone.** Anyone knocked down on the last stretch is Prone until they stand.
-
-**[[Razer-Grass]].** Anyone shoved through or Shatter-dumped in the island has that damage already applied.
-
-**Claim already made.** If the crew claimed living plants or fished a hole, that [[Aruhe Hunger Rule]] cost is already applied.
-
-[[Deer-Stalker]] speed is 40 feet, climb 20 feet. Claw reach is 10 feet. Lost Nerve is 30 feet. This Meal is 10 feet. Snatch from the Dim moves up to 40 feet without opportunity attacks, then up to 20 feet with a Grappled creature. Quarry direction is 1 mile. A Dash does not reach the smoke, the beach, or the terraces.
-
-This [[Deer-Stalker]] is Easy: it is not Famished. Lost Nerve treats two ready hostiles within 30 feet as enough. Sleepers in camp do not count as ready until they are awake.
-
-[[Flying Boots]] fly 30 feet (Dash 60 feet) on the item's sheet only. That Dash does not reach the beach, the smoke, or the terraces. [[Crissdalynn Khinriss]] uses her aarakocra fly speed from her sheet.
-
-This is not [[Aruhe-River-Grasslands-Tables]] row 6. That row is a different wander-kill. This card is the session's one [[Deer-Stalker]] for beats 6 and 7.
-
 ## L0 · Glance
 
 - **Stakes:** The thing is still in the woods and will keep calling. The mark lasts past this watch.
 - **Goal / exit:** Lock the mark (it ran from a group, the mimic call landed, or a one-person face happened) and hand to morning / beat 7, or they fought it here and the mark still stands, or they break.
-- **Danger:** Going alone is how the fight starts. Waking everyone scares it off for now and does not end the mark. Staying in camp leaves the caller out there.
+- **Danger:**
+  - Going alone is how the fight starts.
+  - Waking everyone scares it off for now and does not end the mark.
+  - Staying in camp leaves the caller out there.
+  - This is the session's one [[Deer-Stalker]] for beats 6 and 7, not [[Aruhe-River-Grasslands-Tables]] row 6.
+  - A Dash does not reach the smoke, the beach, or the terraces.
 - **Silence:** Present the run and the cutoff, then wait. If the crew freezes, tick the clock once at the end of the round.
-- **Situation magnets:** The person on watch who heard the run is a magnet. Anyone who leaves camp alone is a magnet. Anyone isolated from the group is a magnet.
+- **Situation magnets:**
+  - The person on watch who heard the run is a magnet, apart at the tree line while the others are in camp.
+  - Anyone who leaves camp alone is a magnet.
+  - Anyone isolated from the group is a magnet.
+  - Crash-landed crew still has 2d6 bludgeoning and is Prone until they stand.
+  - Scattered crew is still apart until they join up.
+  - Anyone knocked down on the last stretch is Prone until they stand.
+  - Anyone shoved through [[Razer-Grass]] already has that damage applied.
+  - If the crew already claimed living plants or fished a hole, that [[Aruhe Hunger Rule]] cost is already applied.
 
 ## DM truth
 
@@ -99,23 +90,15 @@ This is the session's [[Deer-Stalker]]. The person on watch who heard the run is
 
 **Night-watch / peel mode** is the default. This is not a required fight. Do not force the full fight if the crew stays grouped.
 
-Players declare and resolve turns, checks, and movement as normal.
-
-Failures impose the Be ready for ruling only. Failures never advance the threat clock.
-
-After everyone has acted, if anyone remains on the magnets (the person on watch still apart, anyone who left camp alone, or anyone isolated from the group), advance the threat clock once and resolve that tick.
-
-Freeze or "we watch" from camp ticks once at the end of the round, not per failed check. That tick is the mimic call.
-
-Several failed checks in one round still produce one tick.
-
-A look that reaches the kill resolves the carcass and the loud bolt in Be ready for. Do not also play that bolt as a clock tick. The clock then uses the return voice.
-
-Waking everyone and coming up ready resolves Lost Nerve in Be ready for. Do not also tick Lost Nerve for that same action. The mark is locked. This scene can end.
-
-If a crew member takes open valley air, that crew member leaves this watch for hawk sky. Do not restage beat 1 on this card.
-
-**Combat mode:** if the [[Deer-Stalker]] has one person and attacks, stop the clock and run the embedded statblock. If the whole party comes up ready to fight, it leaves. If they already get the full one-person fight here, do not also run the same combat in beat 7.
+- Players declare and resolve turns, checks, and movement as normal.
+- Failures impose the Be ready for ruling only. Failures never advance the threat clock.
+- After everyone has acted, if anyone remains on the magnets (the person on watch still apart, anyone who left camp alone, or anyone isolated from the group), advance the threat clock once and resolve that tick.
+- Freeze or "we watch" from camp ticks once at the end of the round, not per failed check. That tick is the mimic call.
+- Several failed checks in one round still produce one tick.
+- A look that reaches the kill resolves the carcass and the loud bolt in Be ready for. Do not also play that bolt as a clock tick. The clock then uses the return voice.
+- Waking everyone and coming up ready resolves Lost Nerve in Be ready for. Do not also tick Lost Nerve for that same action. The mark is locked. This scene can end.
+- If a crew member takes open valley air, that crew member leaves this watch for hawk sky. Do not restage beat 1 on this card.
+- **Combat mode:** if the [[Deer-Stalker]] has one person and attacks, stop the clock and run the embedded statblock. If the whole party comes up ready to fight, it leaves. If they already get the full one-person fight here, do not also run the same combat in beat 7.
 
 ## Zones
 
@@ -201,4 +184,4 @@ Do not run grassland tables, the otter hole, or beat 7's false-help voices here.
 
 ## Backup
 
-[[Deer-Stalker]] · [[Session-11-Otter-Hole-Run]] · [[Session-11-Angry-Birds]] · [[Grasslands - River Valleys]]
+[[Deer-Stalker]] · [[Session-11-05-Otter-Hole-Run]] · [[Session-11-00-Angry-Birds]] · [[Grasslands - River Valleys]]

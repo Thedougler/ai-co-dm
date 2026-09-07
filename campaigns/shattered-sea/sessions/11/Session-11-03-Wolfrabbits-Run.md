@@ -26,43 +26,30 @@ This beat is thirty minutes.
 
 **If ahead:** Still end on pack-broken or break-to-river or hawk sky. Do not start beat 4's clue bank or a grassland table row. Inlined extra only if fully on this card: burning the grass on this stretch may scatter the pack and announces the crew down the valley. Picking living fruit on this stretch is an [[Aruhe Hunger Rule]] claim (later tables use 2d8 take lower, then pick one row) and can pull more of the pack.
 
-## Starting state
-
-**Here.** The crew has just committed off the landing bank onto the first stretch of tall grass and torn crossing, still in this river valley.
-
-**Pack.** Three [[Wolfrabbit]] (Easy) are already in the jump at mid-height, between the crew and the upriver prints.
-
-**River at their backs.** The water they just left sits behind the crew.
-
-**Upriver prints.** The tracks continue beyond the pack, still heading toward smoke.
-
-**[[Razer-Grass]].** A glassy island stands in the scour and flood-torn crossing to the side. It is not a mapped grid of the whole valley.
-
-**Bank-woods / grass edge.** The pack will not chase far into deep water or into the bank-woods. The pack will chase a runner who stays in the grass.
-
-**Inland smoke.** A thin column still stands on the horizon up-valley. It does not get closer while this fight happens. Miles to the smoke are unknown.
-
-**Hawk sky.** Flying up out of the grass is open valley air.
-
-**Downstream.** Back into the river is toward the terrace line, the beach, and [[Uncertainty]]. A Dash does not reach the beach, the smoke, or the terrace line.
-
-**Crash-landed.** That crew member still has 2d6 bludgeoning already applied and is Prone until they stand.
-
-**Scattered.** That crew member is still apart until they join up.
-
-[[Wolfrabbit]] speed is 40 feet. Standing Leap and Pouncing Bound leap up to 30 feet. Bite and Pack Rend reach 5 feet. Frenzy Toward the Fallen leaps up to 15 feet. A wolfrabbit jump range is already in the leap, not a 30-foot-wide valley.
-
-[[Flying Boots]] fly 30 feet (Dash 60 feet) on the item's sheet only. That Dash does not reach the beach, the smoke, or the terraces. [[Crissdalynn Khinriss]] uses her aarakocra fly speed from her sheet.
-
-Without a swim speed, each foot in the moving water costs 1 extra foot (5.5e 2024). Current speed is unknown; do not invent a push.
-
 ## L0 · Glance
 
 - **Stakes:** The first walk toward the smoke is already a fight. Someone can go down here.
-- **Goal / exit:** Drive the pack off this stretch and keep the upriver prints, or break back into the river and downstream, or take open valley air.
-- **Danger:** The opening jumps happen now. A miss or a knock-down puts someone in the current or into [[Razer-Grass]]. Stopping to pick fruit or make noise pulls more of the pack. The smoke does not get closer while this is happening.
+- **Goal / exit:**
+  - Drive the pack off this stretch and keep the upriver prints, or break back into the river and downstream, or take open valley air.
+  - A Dash does not reach the beach, the smoke, or the terrace line.
+- **Danger:**
+  - The opening jumps happen now.
+  - A miss or a knock-down puts someone in the current or into [[Razer-Grass]].
+  - Stopping to pick fruit or make noise pulls more of the pack.
+  - The smoke does not get closer while this is happening.
+  - Without a swim speed, each foot in the moving water costs 1 extra foot.
+  - Current speed is unknown; do not invent a push.
+  - A wolfrabbit jump range is already in the leap, not a 30-foot-wide valley.
 - **Silence:** Present the jump, then wait. If the crew freezes, tick the clock once at the end of the round.
-- **Situation magnets:** Anyone isolated on this stretch is a magnet. Anyone bleeding on this stretch is a magnet. Anyone standing in the grass on this stretch is a magnet. Anyone loud on this stretch is a magnet. Anyone flying into open valley air leaves this pack for hawk sky.
+- **Situation magnets:**
+  - Anyone isolated on this stretch is a magnet.
+  - Anyone bleeding on this stretch is a magnet.
+  - Anyone standing in the grass on this stretch is a magnet.
+  - Anyone loud on this stretch is a magnet.
+  - Anyone flying into open valley air leaves this pack for hawk sky.
+  - Three [[Wolfrabbit]] (Easy) are already in the jump at mid-height, between the crew and the upriver prints.
+  - Crash-landed crew still has 2d6 bludgeoning and is Prone until they stand.
+  - Scattered crew is still apart until they join up.
 
 ## Now
 
@@ -101,19 +88,13 @@ The pack is working this bank because people and blood have already been here. T
 
 **Escape / survive-the-pack** is the default. The crew can drive the pack off this stretch or leave the grass. This is not a required TPK.
 
-Players declare and resolve turns, checks, and movement as normal.
-
-Failures impose the Be ready for ruling only. Failures never advance the threat clock.
-
-After everyone has acted, if anyone remains on the magnets (isolated, standing in the grass, bleeding, or loud), advance the threat clock once and resolve that tick.
-
-Freeze or "we watch" ticks once at the end of the round, not per failed check.
-
-Several failed checks in one round still produce one tick.
-
-If a crew member takes open valley air, that crew member leaves this pack for hawk sky. Point at a [[Young Bloodhawk]]. Do not restage beat 1 on this card.
-
-**Combat mode:** if the party abandons escape and commits to killing the pack, stop the clock and run the embedded [[Wolfrabbit]] statblocks.
+- Players declare and resolve turns, checks, and movement as normal.
+- Failures impose the Be ready for ruling only. Failures never advance the threat clock.
+- After everyone has acted, if anyone remains on the magnets (isolated, standing in the grass, bleeding, or loud), advance the threat clock once and resolve that tick.
+- Freeze or "we watch" ticks once at the end of the round, not per failed check.
+- Several failed checks in one round still produce one tick.
+- If a crew member takes open valley air, that crew member leaves this pack for hawk sky. Point at a [[Young Bloodhawk]]. Do not restage beat 1 on this card.
+- **Combat mode:** if the party abandons escape and commits to killing the pack, stop the clock and run the embedded [[Wolfrabbit]] statblocks.
 
 ## Zones
 
@@ -194,4 +175,4 @@ Do not run grassland tables, the otter hole, or beat 4's fruit piles here. After
 
 ## Backup
 
-[[Razer-Grass]] · [[Aruhe Hunger Rule]] · [[Grasslands - River Valleys]] · [[Aruhe-River-Grasslands-Tables]] · [[Aruhe-River-Grasslands-Plant-Hazards]] · [[Session-11-Landing-Sign-Run]] · [[Session-11-Angry-Birds]] · [[Young Bloodhawk]]
+[[Razer-Grass]] · [[Aruhe Hunger Rule]] · [[Grasslands - River Valleys]] · [[Aruhe-River-Grasslands-Tables]] · [[Aruhe-River-Grasslands-Plant-Hazards]] · [[Session-11-02-Landing-Sign-Run]] · [[Session-11-00-Angry-Birds]] · [[Young Bloodhawk]]

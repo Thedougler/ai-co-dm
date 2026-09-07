@@ -26,33 +26,29 @@ This beat is thirty minutes.
 
 **If ahead:** Still end on the detour or on Hunt resolved. Do not start night watch. Do not start the deer-stalker.
 
-## Starting state
-
-This is the upriver prints after the camp-in-passing, still toward the smoke, now at this slack hole.
-
-**Crash-landed.** That crew member still has 2d6 bludgeoning already applied and is Prone until they stand.
-
-**Scattered.** That crew member is still apart until they join up.
-
-**Prone.** Anyone knocked down on the last stretch is Prone until they stand.
-
-**[[Razer-Grass]].** Anyone shoved through or Shatter-dumped in the island has that damage already applied.
-
-**Claim already made.** If the crew claimed living plants or fished the last hole, that [[Aruhe Hunger Rule]] cost is already applied and they are still on the trail.
-
-[[Aruhe River Otter]] speed is 20 feet, swim 40 feet. Bite reach is 5 feet. Tail reach is 10 feet. Dunk pulls a Grappled target up to 20 feet. A Dash does not reach the beach, the smoke, or the terraces.
-
-[[Flying Boots]] fly 30 feet (Dash 60 feet) on the item's sheet only. That Dash does not reach the beach, the smoke, or the terraces. [[Crissdalynn Khinriss]] uses her aarakocra fly speed from her sheet.
-
-Without a swim speed, each foot in this water costs 1 extra foot (5.5e 2024). This stretch is slack. Do not invent a push.
-
 ## L0 · Glance
 
 - **Stakes:** The easy road is the river, and this river has bodies in it. The safe-looking road is the bloody bank into the trees, slower and blind.
 - **Goal / exit:** Take the bloody-bank detour around this hole toward the smoke (beat 6), or fight or loot in this hole and then leave, or break off the trail.
-- **Danger:** Standing and watching is fine until someone touches this water or the dead. Wade, fish, or pull a body, and the [[Aruhe River Otter]] Hunt. Attack from this bank, and those otters can close or drag a body under and wait.
+- **Danger:**
+  - Standing and watching is fine until someone touches this water or the dead.
+  - Wade, fish, or pull a body, and the [[Aruhe River Otter]] Hunt.
+  - Attack from this bank, and those otters can close or drag a body under and wait.
+  - Without a swim speed, each foot in this water costs 1 extra foot.
+  - This stretch is slack. Do not invent a push.
+  - A Dash does not reach the beach, the smoke, or the terraces.
 - **Silence:** Present this hole, then wait. Watching from this bank does not start Hunt.
-- **Situation magnets:** Anyone in this hole is a magnet. Anyone fishing this hole is a magnet. Anyone pulling a body or a pack from this hole is a magnet. Anyone attacking from this bank is a magnet. Watching from this bank is not a magnet.
+- **Situation magnets:**
+  - Anyone in this hole is a magnet.
+  - Anyone fishing this hole is a magnet.
+  - Anyone pulling a body or a pack from this hole is a magnet.
+  - Anyone attacking from this bank is a magnet.
+  - Watching from this bank is not a magnet.
+  - Crash-landed crew still has 2d6 bludgeoning and is Prone until they stand.
+  - Scattered crew is still apart until they join up.
+  - Anyone knocked down on the last stretch is Prone until they stand.
+  - Anyone shoved through [[Razer-Grass]] already has that damage applied.
+  - If the crew already claimed living plants or fished the last hole, that [[Aruhe Hunger Rule]] cost is already applied.
 
 ## DM truth
 
@@ -89,23 +85,15 @@ This family owns this section. Some of the inland group tried to pass through it
 
 **Watch the hole** is the default. Hunt starts when someone enters this hole, fishes this hole, or pulls a body or a pack from this hole, or when someone attacks from this bank. This is not a required fight.
 
-Players declare and resolve turns, checks, and movement as normal.
-
-Failures impose the Be ready for ruling only. Failures never advance the threat clock.
-
-After everyone has acted, if anyone remains on the magnets (in this hole, fishing this hole, pulling a body or a pack, or attacking from this bank), advance the threat clock once and resolve that tick.
-
-Watching from this bank does not tick. Freeze or "we watch" from this bank does not tick.
-
-Freeze in this hole ticks once at the end of the round, not per failed check.
-
-Several failed checks in one round still produce one tick.
-
-Entering this hole, fishing this hole, or pulling a body fills the clock with Hunt actions. Do not run a second framework for the same action.
-
-If a crew member takes open valley air, that crew member leaves this hole for hawk sky. Do not restage beat 1 on this card.
-
-**Combat mode:** if the party commits to killing the [[Aruhe River Otter]], stop the clock and run the embedded statblocks.
+- Players declare and resolve turns, checks, and movement as normal.
+- Failures impose the Be ready for ruling only. Failures never advance the threat clock.
+- After everyone has acted, if anyone remains on the magnets (in this hole, fishing this hole, pulling a body or a pack, or attacking from this bank), advance the threat clock once and resolve that tick.
+- Watching from this bank does not tick. Freeze or "we watch" from this bank does not tick.
+- Freeze in this hole ticks once at the end of the round, not per failed check.
+- Several failed checks in one round still produce one tick.
+- Entering this hole, fishing this hole, or pulling a body fills the clock with Hunt actions. Do not run a second framework for the same action.
+- If a crew member takes open valley air, that crew member leaves this hole for hawk sky. Do not restage beat 1 on this card.
+- **Combat mode:** if the party commits to killing the [[Aruhe River Otter]], stop the clock and run the embedded statblocks.
 
 ## Zones
 
@@ -188,4 +176,4 @@ Do not run grassland tables, night watch, or the deer-stalker here. After this h
 
 ## Backup
 
-[[Aruhe River Otter]] · [[Aruhe Hunger Rule]] · [[Grasslands - River Valleys]] · [[Aruhe-River-Grasslands-Tables]] · [[Razer-Grass]] · [[Session-11-What-They-Ate-Run]] · [[Session-11-Angry-Birds]]
+[[Aruhe River Otter]] · [[Aruhe Hunger Rule]] · [[Grasslands - River Valleys]] · [[Aruhe-River-Grasslands-Tables]] · [[Razer-Grass]] · [[Session-11-04-What-They-Ate-Run]] · [[Session-11-00-Angry-Birds]]

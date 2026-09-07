@@ -26,29 +26,26 @@ This beat is thirty minutes.
 
 **If ahead:** Still end on smoke sight. Do not add a grassland complication on this card.
 
-## Starting state
-
-The crew is 60 feet up over the old terraces.
-
-The [[Great Crown Squid]] is 30 feet ahead at the same height, in the last trees.
-
-Grass and river cover is 60 feet straight down.
-
-Terrace woods (old gardens, mangroves, stone) is a 30-foot drop, not cover.
-
-The beach and [[Uncertainty]] are 60 feet of open sky toward the ship.
-
-[[Flying Boots]] fly 30 feet (Dash 60 feet). [[Crissdalynn Khinriss]] uses her aarakocra fly speed from her sheet; if that is 50 feet or more, she can reach the grass in one move.
-
-A 30-foot fly reaches the squid, or drops into Terrace woods. A 60-foot Dash reaches the grass, or the beach.
-
 ## L0 · Glance
 
 - **Stakes:** Leave the hunt and land in the first river valley, or stay in this air and take hits.
-- **Goal / exit:** A quiet drop into grass and moving water. This is not a fight to the death.
-- **Danger:** An adult [[Bloodhawk]] is already coming down out of the sun. Time spent high, loud, or obvious costs hits.
+- **Goal / exit:**
+  - A quiet drop into grass and moving water, 60 feet straight down.
+  - A 30-foot fly reaches the [[Great Crown Squid]] or Terrace woods.
+  - A 60-foot Dash reaches the grass or the beach.
+  - This is not a fight to the death.
+- **Danger:**
+  - An adult [[Bloodhawk]] is already coming down out of the sun.
+  - Time spent high, loud, or obvious costs hits.
+  - Terrace woods is a 30-foot drop, not cover.
+  - The beach and [[Uncertainty]] are 60 feet of open sky toward the ship.
 - **Silence:** Present the dive, then wait. If the crew freezes, tick the clock once at the end of the round.
-- **Situation magnets:** Anyone still in High air and visible. Anyone who attacks, flares, or screams.
+- **Situation magnets:**
+  - Anyone still in High air, 60 feet up over the old terraces, and visible.
+  - Anyone who attacks, flares, or screams.
+  - The [[Great Crown Squid]] is 30 feet ahead at the same height, in the last trees.
+  - [[Flying Boots]] fly 30 feet (Dash 60 feet).
+  - [[Crissdalynn Khinriss]] uses her aarakocra fly speed from her sheet; if that is 50 feet or more, she can reach the grass in one move.
 
 ## Now
 
@@ -75,17 +72,12 @@ The adult [[Bloodhawk]] is hunting the [[Great Crown Squid]]. The crew is not th
 
 **Escape mode** is the default.
 
-Players declare and resolve turns, checks, and movement as normal.
-
-Failures impose the Be ready for ruling only. Failures never advance the threat clock.
-
-After everyone has acted, if anyone remains exposed (high, loud, or obvious), advance the threat clock once and resolve that tick.
-
-Freeze or "we watch" ticks once at the end of the round, not per failed check.
-
-Several failed checks in one round still produce one tick.
-
-**Combat mode:** if the party abandons escape and commits to killing the adult [[Bloodhawk]], stop the clock and run the embedded Bloodhawk and Young Bloodhawk statblocks.
+- Players declare and resolve turns, checks, and movement as normal.
+- Failures impose the Be ready for ruling only. Failures never advance the threat clock.
+- After everyone has acted, if anyone remains exposed (high, loud, or obvious), advance the threat clock once and resolve that tick.
+- Freeze or "we watch" ticks once at the end of the round, not per failed check.
+- Several failed checks in one round still produce one tick.
+- **Combat mode:** if the party abandons escape and commits to killing the adult [[Bloodhawk]], stop the clock and run the embedded Bloodhawk and Young Bloodhawk statblocks.
 
 ## Zones
 
@@ -142,7 +134,7 @@ The Great Crown Squid is fleeing through the last trees, not fighting the crew u
 
 ## Landing
 
-The crew is in moving water and eight-foot grass, or crash-landed or scattered in Terrace woods. On this same bank the crew can already see tracks and, inland in this valley, a thin column of smoke. Beat 2 is [[Session-11-Landing-Sign-Run]]. Do not run Survival checks or grassland tables here.
+The crew is in moving water and eight-foot grass, or crash-landed or scattered in Terrace woods. On this same bank the crew can already see tracks and, inland in this valley, a thin column of smoke. Beat 2 is [[Session-11-02-Landing-Sign-Run]]. Do not run Survival checks or grassland tables here.
 
 **Scattered.** That crew member lands 30 feet from the others.
 
@@ -160,4 +152,4 @@ The crew is in moving water and eight-foot grass, or crash-landed or scattered i
 
 ## Backup
 
-[[Old Gardens]] · [[Grasslands - River Valleys]] · [[Uncertainty]] · [[Session-11-Angry-Birds]] · [[Aruhe-River-Grasslands-Tables]] · [[Aruhe-River-Grasslands-Plant-Hazards]]
+[[Old Gardens]] · [[Grasslands - River Valleys]] · [[Uncertainty]] · [[Session-11-00-Angry-Birds]] · [[Aruhe-River-Grasslands-Tables]] · [[Aruhe-River-Grasslands-Plant-Hazards]]
