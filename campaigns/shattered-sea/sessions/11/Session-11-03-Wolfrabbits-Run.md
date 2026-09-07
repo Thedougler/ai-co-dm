@@ -59,7 +59,15 @@ The pack is working this bank because people and blood have already been here. T
 **Compact [[Razer-Grass]].** 1d4 slashing per 5 feet through an intact stand. Careful Passage: one Action, 5 feet with no movement damage. Shatter: DC 14 Dexterity, 7 (2d6) slashing, if a creature falls Prone in it, Dashes through it, is forcibly moved at least 10 feet, or the section is smashed. Do not retype the whole hazard essay.
 
 > [!narration] Initial Narration
+> The first stretch is already underfoot, tall gold-green grass over a flood-torn crossing. Three wolf-sized hunters are already in the jump at mid-height, between the crew and the upriver prints, hunting-cat bodies dark-striped, long ears laid back.
 >
+> A torn left ear leads one body. A white blaze marks the second down the muzzle as it clears the stems. The third springs with a kink in its tail, red eyes and wet twitching noses on whoever is standing in this grass. The stems they left have not finished falling.
+>
+> The river rasps the wet grass at the crew's backs. Off to the side in the scour, a waist-high island of pale blades stands like thin glass, sparkles sitting still on the edges, a light tick when the wind hits them.
+>
+> Far up this valley the smoke is still a thin column on the horizon. It does not get closer. The three bodies gather at the top of the leap, hindquarters tight, claws reaching.
+>
+> What do you do?
 
 ![[attachments/shattered-sea/creatures/wolfrabbit-of-aruhe.png|Wolfrabbit of Aruhe]]
 
@@ -89,28 +97,28 @@ The pack is working this bank because people and blood have already been here. T
 | Downstream / terrace line / beach / [[Uncertainty]] | Back into the river is toward the terrace line, the beach, and [[Uncertainty]]. | A Dash does not reach the beach, the smoke, or the terraces. |
 
 > [!narration] This stretch / tall grass and torn crossing
->
+> This grass still hides a standing body, and it is also the lane the hunters use. A runner who stays in these stems is still in the hunt. The torn crossing underfoot is wet and cut up, with room for that leap.
 
 > [!narration] River at their backs
->
+> The water they just left sits behind them, current still working the stems along the bank. Deep water puts a body out of this pack's jump. Downstream, the hunters keep the bank.
 
 > [!narration] Upriver prints
->
+> The line of feet keeps going through the grass beyond the three hunters, still heading toward the smoke. Those prints sit on the far side of the leap.
 
 > [!narration] Razer-Grass island
->
+> No trail goes through this glassy island. The edges cut. The hunters jump it.
 
 > [!narration] Bank-woods / grass edge
->
+> Woods and a grass edge sit off this stretch, stems thickening toward the trees. The hunters do not chase far into that wood.
 
 > [!narration] Inland smoke
->
+> A high breeze tugs the top of the smoke. From this stretch it is still only a mark on the horizon.
 
 > [!narration] Hawk sky
->
+> Flying up out of this grass is open valley air, sun and wind. That crew member leaves this pack. A smaller charcoal hawk can already see that air.
 
 > [!narration] Downstream / terrace line / beach / Uncertainty
->
+> Back into the river is downstream, toward the terrace line, the beach, and Uncertainty on the water. Even a hard run from this stretch does not reach the beach, the smoke, or the terraces.
 
 ## Be ready for
 
@@ -145,16 +153,16 @@ The predators' turn happens after everyone has acted, and only if anyone remains
 | 4 | Extra rabbit only if they lingered, claimed living fruit, or burned the grass on this stretch: an unnamed extra [[Wolfrabbit]] joins from the grass. If they did not, the pack still holds this stretch and the smoke does not get closer. Do not invent a named fourth rabbit. Do not start beat 4. |
 
 > [!narration] Tick 1
->
+> The three hunters come down the rest of the jump at whoever is isolated, bleeding, or still standing in this grass. The one with the torn ear, the one with the white blaze, and the one with the kinked tail come in together, hooked claws open on the way down.
 
 > [!narration] Tick 2
->
+> The hunter nearest a downed crew member drives its teeth in. Another of the three is already close, crowding that same body on the torn crossing.
 
 > [!narration] Tick 3
->
+> A knock dumps a downed body toward the river at their backs, or into the glassy island in the scour. Pale blades wait in that island.
 
 > [!narration] Tick 4
->
+> Another dark-striped hunter shoulders out of the tall grass on this stretch, long-eared, already gathering for a leap, or the three still hold this torn crossing and the smoke stays a thin column on the horizon.
 
 **Bloodied.** Per-rabbit bloodied is irrelevant. When one [[Wolfrabbit]] dies, survivors frenzy on Hard (Devour the Pack and Frenzy Toward the Fallen). Easy skips Devour the Pack.
 
@@ -173,17 +181,21 @@ If the crew went back into the river and downstream, they are in the river headi
 If a crew member took open valley air, that crew member is in hawk sky. Point at a [[Young Bloodhawk]]. Do not restage beat 1.
 
 > [!narration] Landing
+> The pack is off this stretch. The upriver prints are still a line through the grass, and the smoke still stands on the horizon.
 >
+> The crew that went back into the river is already in the current, heading toward the terrace line, the beach, and Uncertainty. The hunters hold the bank.
+>
+> A crew member who took the open air is already in hawk sky over this valley.
 
 **Crash-landed.** That crew member still has 2d6 bludgeoning already applied and is Prone until they stand.
 
 > [!narration] Crash-landed
->
+> That crew member is still down in the torn crossing, wet grass and mud at ground height, until that crew member stands.
 
 **Scattered.** That crew member is still apart until they join up.
 
 > [!narration] Scattered
->
+> That crew member is still apart on this stretch. Tall grass, river water, or the glassy island sits in the gap until they join up.
 
 **Prone.** Anyone knocked down on this stretch is Prone until they stand.
 
@@ -196,7 +208,7 @@ Do not run grassland tables, the otter hole, or beat 4's fruit piles here. After
 ![[Wolfrabbit#Statblock]]
 
 > [!narration] Wolfrabbit
->
+> Three wolf-sized hunters take this torn crossing in a long leap, dark-striped hunting-cat bodies, long ears laid back. One has a torn left ear, one a white blaze down the muzzle, and one a kinked tail, red eyes and wet noses on whoever is isolated or bleeding. Their hooked claws open as they come down the jump.
 
 ![[Wolfrabbit#At the table]]
 
