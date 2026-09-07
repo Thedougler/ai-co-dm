@@ -80,10 +80,6 @@ The Great Crown Squid is fleeing through the last trees, not fighting the crew u
 
 ![[Great Crown Squid#Statblock]]
 
-> [!narration] Exit
-> The first river valley comes up fast: moving water around the legs, grass over head-height, terrace woods already a dark rim behind. Through the last trees the squid's mantle still pulls inland, and the charcoal hawk stays on that line, not on the grass. What do you do?
-^exit
-
 > [!mechanic] Travel
 > When the crew starts a new stretch of grassland or river toward the smoke, call for a Wisdom (Survival) check against DC 13.
 > They need 3 successes to reach the next landmark (this landing to the smoke, later the smoke to camp). Failures do not count toward that 3.

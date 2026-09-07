@@ -33,7 +33,8 @@ another note. A bare `[[Bloodhawk]]` with no embed fails. Copied AC/HP tables fa
 
 4. **Table gate.** Reading view is one downward pass: Glance, Now, opening
    narration, DM truth, zones, Be ready for, clock, round script, **embeds**,
-   exit narration, then a travel-table reminder if the next stretch uses one.
+   exit narration only if the next beat is already on the file, then a
+   travel-table reminder if the next stretch uses one.
    Completion: no click-away to fight; no dual Now/Run-now card; no Scene menu
    on a 30-minute card; no copied stat numbers; no separate Ask callout; no
    landing checklist of facts the DM already knows.
@@ -57,7 +58,7 @@ Frontmatter: `type: session-prep` (or `encounter`), `cssclasses: [session-surfac
 | 7 | **Threat clock** | Table inside open `> [!mechanic] Threat clock`. Named tick. 3–4 ticks. |
 | 8 | **Round script** | Bullets: R1 position, R2 escape/pressure, R3 explode or grab; bloodied; cover-reached; minions. Scene dials here, next to the script. |
 | 9 | **Roster embeds** | `![[Monster#Statblock]]` for opposition you will roll. Item headings only if this slice spends charges or the item is the pressure. |
-| 10 | **Exit narration** | Second `> [!narration] Exit` — what the table hears when this slice ends. Not a DM checklist of wet/prone/together. Optional `^exit` for the next card to embed. |
+| 10 | **Exit narration** | Only when the **next** cockpit is already on this file. `> [!narration] Exit` is the spoken transition into that beat. No “What do you do?” — the next card’s opening narration owns the question. Omit this block until that beat is ready. |
 | 11 | **Travel table** | If the next stretch uses a session encounter/hazard table, open `> [!mechanic] Travel` immediately after Exit: when to roll, which tables, DC, how many successes, one-row rule. Wikilink the table notes. Do not copy every row onto this card. |
 | 12 | **Backup** | Extra wikilinks only. |
 
@@ -71,9 +72,9 @@ Clock, zone, and Be ready for cells are specific and named, not terse pronouns.
 **Tells.** Any conclusion the table must be able to reach gets three independent
 visible tells in narration or Now (Three Clue Rule).
 
-**Exit narration.** Player-facing. The next scene’s first look: what they see,
-hear, and can act on after this slice. Skip a DM landing list of facts already
-in Glance (they dropped into grass; they know that).
+**Exit narration.** Player-facing handoff into the next live card. Write it only
+when that card exists. It carries the table into the next beat. It does not ask
+what they do. If the next beat is not ready, omit Exit.
 
 **Travel table.** After Exit, remind the DM to roll when they start walking a new
 stretch. Name the check, DC, both table notes, and the one-row rule. The row
