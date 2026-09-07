@@ -128,6 +128,8 @@ Morning on the edge-trail. The smoke is nearer through the trees, the prints sti
 
 ### 8. DEVELOPMENT — Alliance (the farthest camp)
 
+**Run:** [[Session-11-Farthest-Camp-Run]]
+
 - **Purpose:** They meet the Calveno wreck people who got farthest inland. The prize is complicated: some of them want rescue, and this camp wants a garden.
 - **Table sees:** A small camp at the smoke. Several survivors, fewer than the tracks, the farthest any of that wreck has reached. Already-picked fruit. A split you can hear as soon as they talk.
   One story: a woman in the woods has been whispering, asking them to come admire her garden, telling them where to walk and what not to take.
