@@ -68,6 +68,8 @@ They come down in moving water and grass high enough to hide a standing person. 
 
 ### 3. CLIFFHANGER — Ambush (wolfrabbits on the first stretch)
 
+**Run:** [[Session-11-Wolfrabbits-Run]]
+
 - **Purpose:** The first walk toward the smoke is already a fight. Someone can go down here.
 - **Table sees:** They follow the prints off the landing bank into the first stretch of tall grass and torn crossing. The grass that was still starts moving at mid-height. Three to five wolfrabbits come out of it at jump range, between the party and the upriver tracks. The river is at their backs. The glassy [[Razer-Grass]] stands are still in the scour if anyone gets shoved.
 - **Truth:** The pack is working this bank because people and blood have already been here. They hit whoever is isolated, bleeding, or standing in the grass. They are not a message. **Unrevealed:** they will not chase far into deep water or into the bank-woods. They will chase a runner who stays in the grass.
