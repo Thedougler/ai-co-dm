@@ -11,80 +11,151 @@ cssclasses: [session-surface]
 
 # Session 11 — Run
 
+## Time + end
+
+**Scene ends when** the crew makes a quiet drop into grass and moving water (cover reached), or the crew is crash-landed or scattered into Terrace woods with the hunt broken. This is not a fight to the death.
+
+This beat is thirty minutes.
+
+- **0–3 minutes:** Open the dive and take declarations.
+- **3–18 minutes:** Run a maximum of three pursuit rounds under escape mode.
+- **18–22 minutes:** Land, regroup, and resolve whether the [[Great Crown Squid]] escaped.
+- **22–30 minutes:** Sight the smoke inland and hand to beat 2.
+
+**If behind:** Skip extra air rounds and land. Reveal the smoke.
+
+**If ahead:** Still end on smoke sight. Do not add a grassland complication on this card.
+
+## Starting state
+
+The crew starts in High air.
+
+The [[Great Crown Squid]] is on the Canopy line, one band ahead.
+
+Grass-and-river cover is two bands down.
+
+The beach and [[Uncertainty]] are two exposed bands laterally.
+
+Normal movement crosses one band. Dash crosses two bands.
+
+Checks change risk, not basic movement.
+
+Passengers and grouped characters use the carrier's movement.
+
+Interception is the clock tick after everyone has acted.
+
 ## L0 · Glance
 
 - **Stakes:** Leave the hunt and land in the first river valley, or stay in this air and take hits.
 - **Goal / exit:** A quiet drop into grass and moving water. This is not a fight to the death.
-- **Danger:** An adult bloodhawk is already coming down out of the sun. Time spent high, loud, or obvious costs hits.
-- **Silence:** Present the dive, ask what they do, then wait. If they freeze, tick the clock.
-- **Situation magnets:** Anyone still at squid height and visible. Anyone who attacks, flares, or screams.
+- **Danger:** An adult [[Bloodhawk]] is already coming down out of the sun. Time spent high, loud, or obvious costs hits.
+- **Silence:** Present the dive, then wait. If the crew freezes, tick the clock once at the end of the round.
+- **Situation magnets:** Anyone still in High air and visible. Anyone who attacks, flares, or screams.
 
 ## Now
 
-The crew is still in the air over the old terraces, at the height of the squid. The squid is ahead in the last trees. A charcoal hawk and her young are already dropping out of the sun. The first strike is at the squid.
-
-> [!narration] Narration
-> The old terrace woods and mangroves still lie under the crew, thin coastal cover at the same height they held when they left the squid. Ahead, a long dark mantle pulls through the last of the trees, glass-pale where the sun hits it, thick arms taking separate crowns. A moving bar of dark runs across that floor. Out of the sun a charcoal hawk drops, wings eighty feet across and pinning tight, crimson-black flight feathers, shaggy red nape, cream hook of a beak, talons as big as a rowboat. The hawk's head never turns from that mantle. Two young hold the same line behind the adult. The first strike goes at the squid the crew has not left yet. What do you do?
+The crew is still in High air over the old terraces. The [[Great Crown Squid]] is one band ahead on the Canopy line, pulling through the last trees. An adult [[Bloodhawk]] is already dropping out of the sun onto that squid. Two [[Young Bloodhawk|Young Bloodhawks]] begin to spread toward other movement. Grass and river cover lie two bands down. The beach and [[Uncertainty]] are two exposed bands of open sky to the side.
 
 > [!secret] DM truth
-> The adult bloodhawk is hunting the Great Crown Squid. The crew is not the chosen meal unless they make themselves one.
+> The adult [[Bloodhawk]] is hunting the [[Great Crown Squid]]. The crew is not the chosen meal unless the crew makes itself one.
 
-### Zones
+### Action cards
+
+**Adult [[Bloodhawk]].** AC 15. Loop: Canopy Dive → Talon Grab → Haul Aloft → Sickle Claw. Tell: the wings fold and the crimson tips flash. Bloodied at **124 HP or fewer:** the adult Bloodhawk releases a grabbed crew member and climbs for the cloud line. The adult Bloodhawk will not stoop closed canopy or eight-foot grass. Easy dial: Multiattack only, no Canopy Dive recharge. Canopy Dive or Beak is +13 to hit. Talon Grab is +13 to hit, 23 slashing, Grappled (escape DC 19) and Restrained.
+
+**Two [[Young Bloodhawk|Young Bloodhawks]], one pressure group.** AC 13. Beak is +5 to hit, 8 (1d10 + 3) piercing. Fly 80 feet. **Scattered:** any damaging hit against AC 13 on a targeted attack drives that Young Bloodhawk off (Flush Scatter). The Young Bloodhawks hit what the adult Bloodhawk flushes or what rises. The Young Bloodhawks are not a second boss. On a miss with a Young Bloodhawk pass, that target is driven down one band.
+
+> [!narration] Narration
+> High over the old terrace woods, a charcoal hawk stoops out of the sun onto the last trees ahead, where a glass-pale mantle pulls through the canopy and thick arms take separate crowns. The hawk's head never turns from that squid. Two young peel off the same line and spread toward other shapes in the open sky. Dense eight-foot grass and a moving river wait below. The beach and the ship are open sky the other way. What do you do?
+
+**Sound/feel.** Wind shear and wing displacement buffet anyone still in High air.
+
+**Hawk appearance.** The adult Bloodhawk has eighty-foot wings, crimson-black flight feathers, a shaggy red nape, a cream hooked beak, and talons as big as a rowboat.
+
+> [!mechanic] Procedure
+> **Escape mode** is the default.
+>
+> Players declare and resolve turns, checks, and movement as normal.
+>
+> Failures impose the Be ready for ruling only. Failures never advance the threat clock.
+>
+> After everyone has acted, if anyone remains exposed (high, loud, or obvious), advance the threat clock once and resolve that tick.
+>
+> Freeze or "we watch" ticks once at the end of the round, not per failed check.
+>
+> Several failed checks in one round still produce one tick.
+>
+> **Combat mode:** if the party abandons escape and commits to killing the adult [[Bloodhawk]], stop the clock and run the embedded Bloodhawk and Young Bloodhawk statblocks.
+
+## Zones
 
 | Band | What is there | Moves / cover |
 | --- | --- | --- |
-| High air | Great Crown Squid height. The open hunt lane. | One dive move reaches the canopy line. |
-| Canopy line | Last trees. The Great Crown Squid is here. | Thin cover. The adult bloodhawk still strikes crew who stay on top of the trees. |
-| Terrace woods | Old gardens, mangroves, stone. | One more move down toward the river. |
-| Grass and river | First river valley. Eight-foot grass. Moving water. | **Cover.** A quiet drop ends the hunt for crew who stay here. The adult bloodhawk will not follow into this grass. |
-| Beach line | Still this air, toward [[Uncertainty]]. | Exposed. Crossing it keeps the crew in the hunt. |
+| High air | The crew starts here. This is the open hunt lane at squid height. | Normal movement crosses one band. Dash crosses two bands. Anyone who stays here remains exposed. |
+| Canopy line | The [[Great Crown Squid]] is here, one band ahead of the crew. These are the last trees. | Thin cover. The adult [[Bloodhawk]] still strikes crew who stay on top of the trees. One band down from High air. |
+| Terrace woods | Old gardens, mangroves, and stone sit beside the descent. | This is a crash-land or scatter landing, not the cover endpoint. A forced-down crew member lands here. |
+| Grass and river | Eight-foot grass and moving water sit two bands down from High air. | This is cover. A Dash from High air reaches this band. The adult [[Bloodhawk]] will not follow into this grass. A quiet drop here ends the hunt for crew who stay here. |
+| Beach / [[Uncertainty]] | The shipward sky sits two exposed bands laterally. | Crossing this air keeps the crew in the hunt. Dash from High air can reach the beach. |
 
 ## Be ready for
 
+**Partial** is defined once for this table.
+
+- **Success:** meet or exceed the DC.
+- **Partial:** miss by 1–4; the player may accomplish the intent at the listed cost.
+- **Failure:** miss by 5 or more, or reject the partial cost.
+
 | Intent | Approach | DC | Success | Partial | Failure |
 | --- | --- | --- | --- | --- | --- |
-| Escape the hunt | The crew dives quiet into the terrace canopy or the eight-foot grass | Dexterity (Stealth) DC 14, or no roll if the crew reaches grass-and-river this round | The crew lands in the grass. The adult bloodhawk stays on the Great Crown Squid. | The crew reaches the grass after one pass from a young bloodhawk. | The crew is still visible in high air. Tick the clock. |
-| Save or distract the Great Crown Squid | A crew member attacks, flares, makes noise, or casts at the adult bloodhawk | The attack roll, or Charisma (Intimidation) DC 16 to pull the adult bloodhawk's eye off the squid | The adult bloodhawk breaks off the squid for one tick. | One young bloodhawk comes at the noisy crew member. | The adult bloodhawk uses Talon Grab on the loudest crew member still in the air. |
-| Reach the beach or [[Uncertainty]] | Fast exposed flight toward the ship | Dexterity (Acrobatics) DC 14 to stay low enough | The crew arrives at the beach hurt or scattered. The hunt still crosses that air. | Each crew member still in the open takes one hit from a bloodhawk. | The adult bloodhawk grabs a crew member, or the crew is forced down short of the beach. |
-| Hide in canopy or grass | The crew breaks line of sight and stays down | Dexterity (Stealth) DC 14 | The adult bloodhawk will not follow. The clock stops. | A rough landing. One crew member is prone or separated. | A pack or position is lost. The crew is still in the open hunt lane. |
+| Assess the situation | Wisdom (Nature) or Wisdom (Perception) | DC 12 | The adult [[Bloodhawk]] is hunting the [[Great Crown Squid]], not the crew. | The looker gets that, but a [[Young Bloodhawk]] starts a pass at the looker (Beak +5 to hit, 8 piercing). | The looker wastes the round watching. Apply this listed cost only. Do not also tick. The end-of-round clock still ticks once if anyone remains exposed. |
+| Escape the hunt | Dexterity (Stealth), or no roll if the crew reaches grass and river this round | DC 14, or no roll (Dash from High air equals two bands) | The crew lands in grass and river. The adult [[Bloodhawk]] stays on the [[Great Crown Squid]]. | The crew reaches grass and river after one [[Young Bloodhawk]] Beak pass (+5 to hit, 8 piercing). | The crew is still visible in High air. One [[Young Bloodhawk]] uses Beak (+5 to hit, 8 piercing) on one still-exposed crew member. The clock ticks only at end of round if anyone remains exposed. |
+| Save or distract the [[Great Crown Squid]] | An attack roll against the adult [[Bloodhawk]], or Charisma (Intimidation) | Attack vs AC 15, or DC 16 | The adult [[Bloodhawk]] breaks off the [[Great Crown Squid]] for one threat beat. | One [[Young Bloodhawk]] comes at the noisy crew member (Beak +5 to hit, 8 piercing). | The adult [[Bloodhawk]] uses Talon Grab (+13 to hit, 23 slashing, Grappled escape DC 19, Restrained) on the loudest crew member still in the air. |
+| Reach the beach or [[Uncertainty]] | Dexterity (Acrobatics) to stay low | DC 14 | The crew arrives at the beach. Each crew member takes one [[Young Bloodhawk]] Beak (+5 to hit, 8 piercing), or adult [[Bloodhawk]] Multiattack if that crew member stayed high. The hunt still crosses that air. | Each still-open crew member takes one [[Young Bloodhawk]] Beak (+5 to hit, 8 piercing). | The adult [[Bloodhawk]] uses Talon Grab (+13 to hit, 23 slashing, Grappled escape DC 19, Restrained) on one crew member, or the crew is forced down in Terrace woods (crash-landed: 2d6 bludgeoning and Prone). |
+| Hide in canopy or grass | Dexterity (Stealth) | DC 14 | The adult [[Bloodhawk]] will not follow. The clock stops. | Rough landing. The landing crew member takes 1d6 bludgeoning and is Prone, in Terrace woods or grass as the fiction says. | One pack, item, or position is lost: drop one carried object, or start the next scene without that pack until someone spends an action recovering it. The crew is still in the open hunt lane. |
 
-Unforeseen intents use the same want: the adult bloodhawk is hunting the Great Crown Squid. Rule from zones, the clock, and whether the approach puts a crew member high, loud, or on the squid.
+Unforeseen intents use the same want: the adult [[Bloodhawk]] is hunting the [[Great Crown Squid]]. Rule from zones, the clock, and whether the approach puts a crew member high, loud, or on the squid.
 
 > [!mechanic] Threat clock
-> One tick is one round any crew member remains high, loud, or in the open. Advance on a freeze, a failed check, or a choice to stay airborne.
+> The predators' turn happens after everyone has acted, and only if anyone remains exposed. Table failures do not also tick.
 >
 > | Tick | What happens |
 > | --- | --- |
-> | 1 | The adult bloodhawk hits the Great Crown Squid. The crew can see grass and river below. |
-> | 2 | The two young bloodhawks come at crew still in high air, or at anyone who just attacked. |
-> | 3 | The adult bloodhawk uses Talon Grab on the loudest or highest crew member. |
-> | 4 | Any crew still airborne and obvious is grabbed, scattered, or crash-landed. |
+> | 1 | The adult [[Bloodhawk]] hits the [[Great Crown Squid]] with Canopy Dive (Beak +13 with advantage, extra 14 (4d6) piercing on a hit). On Easy, the adult Bloodhawk uses Beak +13 instead. Two [[Young Bloodhawk\|Young Bloodhawks]] shadow that line. Grass and river are already in Open. Do not reveal them here. |
+> | 2 | Two [[Young Bloodhawk\|Young Bloodhawks]] pass at crew still in High air, or at anyone who just attacked. Each Young Bloodhawk uses Beak +5 to hit, 8 piercing. On a miss, that Young Bloodhawk drives that target down one band. |
+> | 3 | The adult [[Bloodhawk]] uses Talon Grab (+13 to hit, 23 slashing, Grappled escape DC 19, Restrained), then Haul Aloft, on the biggest or loudest crew member still airborne. If the [[Great Crown Squid]] has not been diverted for two beats, the adult Bloodhawk also pins the Great Crown Squid here. |
+> | 4 | Any crew still airborne and obvious is grabbed (Talon Grab) or crash-landed (2d6 bludgeoning, Prone, Terrace woods). |
+>
+> **Bloodied 124 HP.** The adult [[Bloodhawk]] releases a grabbed crew member and climbs for the cloud line.
+>
+> **Cover reached.** The adult [[Bloodhawk]] will not stoop closed canopy or eight-foot grass. The [[Young Bloodhawk\|Young Bloodhawks]] leave crew who stay down. The clock stops.
+>
+> **Young Bloodhawks.** Two birds, one pressure group. The Young Bloodhawks hit what the adult [[Bloodhawk]] flushes or what rises. A damaging hit against AC 13 on a targeted attack drives that Young Bloodhawk off (Flush Scatter).
+>
+> **Scene dials.** Easy: Multiattack only, no Canopy Dive recharge. The adult [[Bloodhawk]] will not dive into closed canopy or eight-foot grass.
 
-### Round script
+## Secondary objective
 
-- **R1:** The adult bloodhawk hits the Great Crown Squid. The two young bloodhawks shadow that line.
-- **R2:** The young bloodhawks come at crew still in high air, or at whoever just attacked.
-- **R3:** The adult bloodhawk uses Talon Grab, then Haul Aloft, on the biggest or loudest crew member still airborne.
-- **Bloodied:** The adult bloodhawk releases a grabbed crew member and climbs for the cloud line.
-- **Cover reached:** The adult bloodhawk will not dive into closed canopy or eight-foot grass. The young bloodhawks leave crew who stay down.
-- **Young bloodhawks:** Two birds, one pressure group. They hit what the adult bloodhawk flushes or what rises. If a crew member targets one, one solid hit scatters that bird; they are not a second boss.
-- **Scene dials:** Easy: Multiattack only, no Canopy Dive recharge. The adult bloodhawk will not dive into closed canopy or eight-foot grass. Bloodied: the adult bloodhawk stops grabbing and climbs.
-
-### Roster
+If the adult [[Bloodhawk]] is diverted for **two** threat beats, the [[Great Crown Squid]] reaches dense inland canopy and escapes. Later, a living Great Crown Squid still claims those crowns. Otherwise the adult Bloodhawk pins the Great Crown Squid at tick 3. Later, a pinned carcass lies in the last trees, and this animal gives no later help. Damaging the adult Bloodhawk counts as a diversion only if that damage actually pulls the adult Bloodhawk off the Great Crown Squid for that beat.
 
 The Great Crown Squid is fleeing through the last trees, not fighting the crew unless someone stays glued to it.
+
+## Landing
+
+The crew is in moving water and eight-foot grass, or crash-landed or scattered in Terrace woods until someone spends an action regrouping. A regrouping action lands that crew member in an adjacent band, still separated until the action is spent. On this same bank the crew can already see tracks and, inland in this valley, a thin column of smoke. That is beat 2's opening. Do not run Survival checks or grassland tables here.
+
+**Scattered.** That crew member lands in an adjacent zone and begins the next scene separated until someone spends an action regrouping.
+
+**Crash-landed.** That crew member takes 2d6 bludgeoning and is Prone in Terrace woods.
+
+## Roster
 
 ![[Bloodhawk#Statblock]]
 
 ![[Bloodhawk#At the table]]
 
-![[Great Crown Squid#Statblock]]
+![[Young Bloodhawk#Statblock]]
 
-> [!mechanic] Travel
-> When the crew starts a new stretch of grassland or river toward the smoke, call for a Wisdom (Survival) check against DC 13.
-> They need 3 successes to reach the next landmark (this landing to the smoke, later the smoke to camp). Failures do not count toward that 3.
-> Each check, pass or fail, roll 1d8 on [[Aruhe-River-Grasslands-Tables]] and 1d8 on [[Aruhe-River-Grasslands-Plant-Hazards]]. Run exactly one of those two rows. Pick the row that matches the ground in front of them.
-> If they pluck living plants, fish for themselves, or kill to carry flesh, both rolls are 2d8 keep the lower number, then still pick one row. See [[Aruhe Hunger Rule]].
+![[Great Crown Squid#Statblock]]
 
 ## Backup
 
