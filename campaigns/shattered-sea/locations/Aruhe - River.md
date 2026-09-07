@@ -11,7 +11,7 @@ tags: [location, aruhe, river]
 ## Art
 ![[attachments/shattered-sea/places/aruhe-the-river.jpeg]]
 > [!narration] Narration
-> 
+> Clear green water braids through Aruhe in channels wide enough to follow, shallow at the pale limestone shelves and darker where the pools drop away. Submerged grass bends with the current, silver fish flash between the blades, and roots hang from the jungle bank like wet ropes over the water. The grassland side lies lower and open, with reeds and long blades crowding the shore; the jungle side rises in a dark wall of leaves, roots, and sudden shade. The river smells of cool stone, dawn mist, and animal musk, and even the quiet places keep the sound of moving water close.
 
 ## Battlemap
 
