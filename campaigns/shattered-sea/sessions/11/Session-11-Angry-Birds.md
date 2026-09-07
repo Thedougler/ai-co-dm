@@ -56,7 +56,7 @@ RESOLUTION — cut.
 
 ### 2. DEVELOPMENT — Landing sign and smoke
 
-**Run:** [[Session-11-Angry-Birds-Run#Beat 2 — Landing sign and smoke]]
+**Run:** [[Session-11-Landing-Sign-Run]]
 
 - **Purpose:** Show that people already used this bank, then point the party upstream at the smoke those people are walking toward.
 - **Table sees:** They land in the river and tall grass. On this same bank: tracks, a scraped fire spot or dropped kit, fruit already picked and left, feet heading upriver. Inland, in this valley, a thin column of smoke.
