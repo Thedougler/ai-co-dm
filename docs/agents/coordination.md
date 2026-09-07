@@ -10,7 +10,7 @@ visibility: dm
 
 # Fleet coordination (run-guide layers, waves, friction)
 
-Canonical detail for Grok Bot handoffs. **AGENTS.md** keeps thin pointers + packet schema only — load this when running a multi-bot wave, L2 densify, or friction-report.
+Canonical detail for Grok Bot handoffs. [[AGENTS]] is vault schema. [[GROK-BOTS]] is host, packets, roster, and TotM fail loop. Load this file when running a multi-bot wave, L2 densify, or friction-report.
 
 - **Session run surfaces (`run-guide`):** **Session-Planner** owns **L0+L1** render (dashboard + chrono cards / primary run + beat headers). **Co-DM** owns **L2 only** (canon/owner pages, densify, continuity) unless SP is unavailable and a packet explicitly `supersedes` SP’s L0/L1 `task_id`. When L0/L1 already exists, any follow-on packet MUST include `existing SHA` + `primary run path` and state **Co-DM = L2-only**. Do **not** wake Co-DM to create/re-render the primary run file if that path/SHA is already on the branch. Never packet both bots for L0/L1 on the same run-guide paths in one wave — if both must work: SP = L0/L1 paths, Co-DM = L2 owner paths only, separate `task_id`s.
 - **L2 densify allowlist:** Co-DM L2 packets for an existing run MUST give an explicit `allowed paths` list. Default **ban** (unless named): `**/Session * run.md`, `**/Session * Beat *`, location room keys. Prefer `encounters/` + prep inventory / owner pages named in the packet only.

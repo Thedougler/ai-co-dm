@@ -57,17 +57,18 @@ run tonight is a **cockpit** (`run-guide`); emit the stock that cockpit inlines.
 Field order and *procedure* live in `run-guide`; this skill supplies the stock:
 
 1. **Brief:** who, where, why now, visible pressure and fuse.
-2. **Starting state:** who starts where, in feet from cover; speeds that matter; what a move vs Dash reaches.
+2. **Now / positions:** who starts where, in feet from cover; speeds that matter; what a move vs Dash reaches. (The cockpit writes this under Now, not a Starting state heading.)
 3. **Action cards:** opposition loop with named actions; compact default-mode numbers (AC, one attack, scatter/bloodied HP). Missing owner → `homebrew-monsters-5e`.
-4. **Roster embeds:** `![[Monster#Statblock]]` targets for *combat mode*. Full fences stay on the card; do not retype the owner’s Multiattack/HP table into the brief.
-5. **Zones:** 3–5 named places with distances in feet; same numbers as Starting state; features both sides can use.
-6. **Procedure + threat clock:** one loop. Clock **is** the opposition’s turn (the old R1–R3 live as ticks). Bloodied as an HP number; cover-reached; minion line; scene dials. Failures impose listed *rulings* and do not also tick.
-7. **Tells:** three independent player-visible clues for any conclusion the table must reach. Currently visible cover/routes belong in the opening, not on tick 1.
+4. **Roster embeds:** `![[Monster#Statblock]]` targets for *combat mode*. Full fences stay on the card; do not retype the owner’s Multiattack/HP table into the brief. Empty `{Creature}` TotM stub after each embed.
+5. **Zones:** 3–5 named places with distances in feet; same numbers as Now; features both sides can use. Empty `{Place}` TotM stub after the table for each row.
+6. **Procedure + threat clock:** one loop. Clock **is** the opposition’s turn (the old R1–R3 live as ticks). Bloodied as an HP number; cover-reached; minion line; scene dials. Failures impose listed *rulings* and do not also tick. Empty `Tick {n}` stub after the table for each tick.
+7. **Tells:** three independent player-visible clues for any conclusion the table must reach. Currently visible cover/routes belong in Initial Narration, not on tick 1. Leave `Initial Narration` empty; TotM fill is pass 2.
 8. **Be ready for:** likely intents including **Assess the situation** when the opening is readable as “what is it hunting?” Every cell is a *ruling* (`run-guide` Ruling). Not a menu to read aloud.
 9. **Secondary objective:** if “save X” is listed, beats required, ignore outcome, later consequence.
-10. **Landing payload:** the next scene’s opening state in feet and RAW conditions.
+10. **Landing payload:** the next scene’s opening state in feet and RAW conditions, plus empty Landing / variant stubs.
 11. **If ignored:** one-step independent consequence (tick 1 of the clock after a freeze round).
 12. **Time:** 30-minute budget and *cut lines* (If behind / If ahead). Unbounded travel is the next beat, not this stock.
+13. **Owner image:** reuse any identity image already listed on the owner page (`![[attachments/…]]`). Do not mint art. Do not fill TotM.
 
 For combat compare action economy, burst/sustained damage, control, terrain, escape, and party
 resources against the actual group. Cite the current public rules source or approved benchmark;
@@ -92,7 +93,8 @@ For a session-only encounter, include at least one possible limelight angle per
 PC when the fiction supports it, a strong/purposeful entry from the current
 cliffhanger or agreed plan, and a short hiccup/fallback note. Keep the encounter as a modular cockpit findable in under 30 seconds; do not
 script a sequence of player choices. Secrets remain DM-only and out of
-`[!narration]`. Hand the finished scene to `run-guide` for field order and OFM.
+`[!narration]`. Hand the finished scene to `run-guide` for field order, empty
+TotM stubs, and OFM. TotM fill is a second pass.
 
 ## Public-stakes roll gate
 

@@ -40,7 +40,9 @@ See [[AGENTS]] — `visibility`, no WotC paste, no prep/log mash. Specs that see
 
 ## Narration block
 
-Every content template keeps a leading `> [!narration]` near L0. Player-safe only — no DCs, HP, secrets, or unearned names. Fill via `.agent/skills/theatre-of-the-mind`; leave empty if unused. NPC dialogue uses `Narration — speaker`.
+Owner pages keep a leading `> [!narration] Narration` near L0. Player-safe only — no DCs, HP, secrets, or unearned names. Leave empty until TotM fill. NPC dialogue uses `Narration — speaker`.
+
+Session/run beats use **two passes**: mechanical cockpit plus empty titled stubs (`Initial Narration` mandatory, then per zone, per clock tick, landing / variants, per roster embed), then TotM fill (TUI copy-writer). Do not put callouts inside table cells. See `run-guide` and [[templates/Encounter]].
 
 ## Presentation
 

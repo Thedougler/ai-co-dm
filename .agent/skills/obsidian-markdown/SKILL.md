@@ -17,7 +17,7 @@ write must preserve vault wikilinks, applicable callouts, and AGENTS properties.
 
 - **Wikilinks in-vault:** `[[Note]]` / `[[Note|text]]` / `[[Note#Heading]]`. Markdown links only for external `https://` URLs.
 - **Frontmatter (AGENTS):** include when applicable — `type`, `campaign`, `status`, `tags`, `visibility: table | dm`. Prefer AGENTS fields over generic `title`-only notes. `type` enum: `hub` | `campaign` | `session-prep` | `session` | `npc` | `pc` | `location` | `faction` | `quest` | `front` | `encounter` | `item` | `monster` | `lore` | `template` | `lexicon`.
-- **Player prose:** leading `> [!narration] Narration` (TotM / Visualizer). Empty stub ok. No secrets/DCs/unearned names inside it.
+- **Player prose:** owner pages use leading `> [!narration] Narration` (empty until TotM fill). Session/run beats use mandatory `> [!narration] Initial Narration` plus titled stubs per `run-guide` TotM slots. Empty on mechanical pass 1; fill on pass 2. No secrets/DCs/unearned names inside `[!narration]`.
 - **Live session surfaces:** In run-guide, session-prep, session, and beat notes, never use collapsed callouts (`[!…]-`); keep DM information open so session cards do not hide it. Collapsed secrets remain allowed on long-lived owner pages (NPC/PC/faction) when useful.
 - **Real body newlines:** Prose, lists, and callout bodies must use real line breaks, never a literal backslash followed by `n`. This is especially strict for run-guide, session-prep, session, and beat notes. The only exemptions are YAML frontmatter and fenced code/statblocks (including YAML string values inside a statblock fence); outside those regions, a literal `\n` is a FAIL.
 - **Complete sentences on live surfaces:** Every DM-facing line on a run guide, session prep, or beat card must be a **complete grammatical sentence** (or a short list of complete sentences). Telegram shorthand, letter-code-only clauses, and slash-stacks that need a decoder are presentation fails. Wikilinks, bold field labels, and compact tables are allowed when cells remain readable sentences or clear subject-bearing fragments.
@@ -34,7 +34,7 @@ write must preserve vault wikilinks, applicable callouts, and AGENTS properties.
 3. If `type: monster` → optional `## Statblock`, then the `statblock` fence.
 4. Leading `[!narration]` when the template expects it.
 5. Body: one topic/note; wikilink nearest index/MOC/`hot` as needed.
-6. DM procedure / hidden truth → `[!mechanic]` or `[!secret]` on run-guide, session-prep, session, and beat-note surfaces (not in narration). Use collapsed `[!secret]-` only on long-lived owner pages such as NPC/PC/faction pages.
+6. On session/run beats, DM truth and procedure are headings; the only callout is `[!narration]`. Do not put callouts inside table cells. On owner pages, DM procedure / hidden truth → `[!mechanic]` or `[!secret]`. Use collapsed `[!secret]-` only on long-lived owner pages such as NPC/PC/faction pages.
 7. In prose, lists, and callout bodies, type each line break as a real newline; do not serialize it as a backslash-`n` sequence.
 
 ## Syntax (day-to-day)
@@ -69,15 +69,14 @@ More: [references/EMBEDS.md](references/EMBEDS.md) · hub [[attachments/00 Attac
 ### Callouts
 
 ```markdown
+> [!narration] Initial Narration
+> Session/run scene-setting (or leave empty on pass 1).
+
 > [!narration] Narration
-> Player-facing prose (or leave empty).
-
-> [!mechanic]
-> Procedure, DC, numbers — DM side.
-
-> [!secret] Hidden
-> Open by default on live session surfaces; never put in `[!narration]`.
+> Owner-page player-facing prose (or leave empty).
 ```
+
+Session/run: only `[!narration]`. Owner pages may still use `[!mechanic]` and `[!secret]` — [references/CALLOUTS.md](references/CALLOUTS.md).
 
 Other types (`note`, `tip`, `warning`, …): [references/CALLOUTS.md](references/CALLOUTS.md).
 
@@ -108,7 +107,7 @@ Types and tags: [references/PROPERTIES.md](references/PROPERTIES.md).
 | Frontmatter with only `title`/`date` | AGENTS `type` + campaign fields |
 | Prose monster stats / fence not first | `## Statblock` then `statblock` fence, or fence first |
 | Owner's full Multiattack/HP table retyped above the embed | `![[Monster#Statblock]]` at the bottom plus action-card compact numbers (`run-guide`) |
-| Secrets inside `[!narration]` | `[!secret]` on live session surfaces; `[!secret]-` only on long-lived owner pages |
+| Secrets inside `[!narration]` | Session/run: DM truth as a heading. Owner pages: `[!secret]` / `[!secret]-` |
 | New `wiki/` or `concepts/` folders | `campaigns/` · `lexicon/` · `inbox/` |
 | WotC book paste | paraphrase / house / SRD link in `source` |
 | `![](…)` / absolute disk paths for vault art | `![[attachments/…]]` / `[[attachments/…]]` |

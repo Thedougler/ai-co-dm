@@ -55,7 +55,7 @@ is contract coverage, not a dump of every parent heading.
 
 | Surface | Primary job and contract | Natural stop |
 | --- | --- | --- |
-| Place or encounter | Use the spatial camera. Select one frame: **approach/route**, **survey/layout**, or **tactical field**. Seat the viewpoint, introduce each landmark once, keep units and distance bands consistent, and put one signature property on a usable anchor. A requested full/loaded first look is one coherent spoken block containing every relevant currently perceivable subject and relationship, including locations, routes, people, creatures, items, and motion. **Scene-setting:** currently visible cover, routes, relative position, who is being hunted, and imminent action before ornamental scale; one second sense (sound/feel). Appearance catalog may be a DM reference line. | For a full/loaded first look, stop only after that visible state is complete, at its pressure, opportunity, micro-reveal, or choice — and after the table has the facts needed to act. A doorway-only partial pass applies only when explicitly requested. A located change is useful, not compulsory. |
+| Place or encounter | Use the spatial camera. Select one frame: **approach/route**, **survey/layout**, or **tactical field**. Seat the viewpoint, introduce each landmark once, keep units and distance bands consistent, and put one signature property on a usable anchor. A requested full/loaded first look is one coherent spoken block containing every relevant currently perceivable subject and relationship, including locations, routes, people, creatures, items, and motion. **Scene-setting (`Initial Narration`):** currently visible cover, routes, relative position, who is being hunted, imminent action, drawable appearance, and at least one non-sight sense, woven into the spoken sentences. An owner photo on the run card is a DM glance, not a substitute for the spoken look. | For a full/loaded first look, stop only after that visible state is complete, at its pressure, opportunity, micro-reveal, or choice — and after the table has the facts needed to act. A doorway-only partial pass applies only when explicitly requested. A located change is useful, not compulsory. |
 | Hazard or environmental hazard | Cold `[!narration]` is a standalone portrait of the **hazard body or patch**, not a creature Hookline/Reel and not a default place/lake-spine description. Lead with the waist/ground-scale form, then positive material or construction and one positive sensory or physical telegraph. Use kitchen-table wording: plain spoken nouns and concrete verbs over ecology or workshop compounds such as `colonies`, `opaline`, or `cut-ready`, while keeping positive glass and cut danger telegraph. A supported plain hardness contrast, such as fixed sparkles that do not sway like soft grass, is allowed; ban frost-mystery or absent-flash riddles, not every negative construction. Public or earned Detection facts may feed Appearance; keep DCs and private mechanics out. Ban invented landscape camera, em dash, and italic underscore wrappers. | Stop at the drawable hazard and its player-facing affordance or danger, before resolved contact, Shatter, Glass Bloom, or aftermath film. |
 | Faction or organization | Cold `[!narration]` is a public mask portrait in about four to six connected sentences, never a DM dossier. Show the public mask, one concrete kitchen-table method footprint, one environmental Tell, and a supplied shared title or face cue; ban ledger/martial-reach workshop jargon. These are coverage labels only: faction `[!narration]` must not say `mask`, `footprint`, `Tell`, or `face cue`; render the signs directly. Keep secret agenda, Rule of Two, hunt clocks, and hidden leverage in DM sections. | Stop on the shared title or name people hear, before secret goals, clocks, or faction procedure. |
 | Travel | Treat travel as a moving place: orient the route, ground or air, weather, and one live feature. Abstract uneventful distance. Frame a meaningful interruption or endpoint and offer the next choice. | Stop when the party must choose, respond, or decide whether to inspect the endpoint. |
@@ -139,12 +139,24 @@ a clear affordance or pressure can be the stop after that completeness check.
 
 ## Wrappers and boundary
 
-Use `[!narration]` titled **Narration** for live description, recap, combat,
-and narrated transition. Use `[!narration]` titled **Narration — speaker** for
-quoted NPC speech. The title is storage metadata, not a line to read.
+Use `[!narration]` titled **Narration** for owner-page live description, recap,
+and generic narrated transition. Use `[!narration]` titled **Narration — speaker**
+for quoted NPC speech. On a **session/run beat**, use these titles (storage
+metadata, not a line to read):
 
-Put skills, DCs, saving throws, HP, conditions, and other procedure in a
-separate `[!mechanic]` callout. Keep DM-only truth in collapsed
+- **Initial Narration** — mandatory *scene-setting* first look
+- **{Place}** — zone first look
+- **Tick {n}** — clock-tick combat update
+- **Landing** / named variants — beat-end spoken state
+- **{Creature}** — situated look after that roster embed
+- **Exit** — handoff when the next cockpit is on this file
+
+On session/run surfaces the only callout is `[!narration]`. DM truth and
+procedure are headings, not `[!secret]` / `[!mechanic]`. Do not put callouts
+inside table cells. Pass 1 leaves these stubs empty; pass 2 fills them.
+
+On owner pages, put skills, DCs, saving throws, HP, conditions, and other
+procedure in a separate `[!mechanic]` callout. Keep DM-only truth in collapsed
 `[!secret]-`. A renderer may expose a secret only after the table has earned
 that reveal; its source page still owns the truth. Apply the access gate in
 [boundary.md](boundary.md) to speech, handouts, and every rendered surface.

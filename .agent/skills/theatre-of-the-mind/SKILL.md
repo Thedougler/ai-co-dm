@@ -36,11 +36,18 @@ sight, or recap is usually one coherent spoken block (often a short paragraph
 of several connected sentences). **Item and creature page `[!narration]`** cold
 portraits usually run about **three connected sentences** covering
 silhouette/scale, material/parts/wear, and one stable sensory or physical
-behavior — not a one- or two-line stub. Fill missing visual nouns; do not pad
+behavior — not a one- or two-line stub. **Session-beat `Initial Narration`** is
+the long *scene-setting* block: typically **two to four short spoken
+paragraphs** covering every currently perceivable subject, relationship,
+cover/route, relative position, imminent action, drawable appearance, and at
+least one non-sight sense. Situational beat stubs (zone, tick, landing,
+creature-in-this-scene) are shorter: one to three sentences, one job, no
+restage of Initial Narration. Fill missing visual nouns; do not pad
 with purple, mood-by-negation, or cover-story similes. Do **not** use the
-hit-line license to compress a creature first look into a resolved-snatch
-telegram. Stop at the next meaningful player opening — for a creature first
-look, that is the reaction point (telegraph), never after the haul.
+hit-line license to compress a creature first look or Initial Narration into a
+resolved-snatch telegram. Stop at the next meaningful player opening — for a
+creature first look or Initial Narration, that is the reaction point
+(telegraph), never after the haul.
 Do not force every surface into a spoken block, a fixed beat, or a located
 change.
 
@@ -304,17 +311,24 @@ relationship, route, and motion, while leaving hidden items and future outcomes
 out. Stop after that complete state at its pressure or opening. Only an
 explicitly requested doorway-only snapshot may be intentionally partial.
 
-**Scene-setting (situated encounter Open):** the spoken block must already
-contain the facts the table needs for the first decision (Angry GM: goal,
-obstacle, tools on hand). Currently perceivable cover, routes, relative
-position, who is being hunted, and imminent action come **before** ornamental
-scale (wingspan, beak catalog, “same height they held”). One second sense
-(sound/feel) as a clause in the block or a one-line DM note under it.
-Appearance catalog may live as a DM reference line the table can ask about.
-An adult striking other prey may be visible windup; do not resolve PC injury.
-Visible grass, river, or shipward sky that is already under or beside them
-belongs in this block, not on a later clock tick. Then stop at the reaction
-point and ask.
+**Scene-setting (session-beat `Initial Narration`):** the spoken block must
+already contain the facts the table needs for the first decision (Angry GM:
+goal, obstacle, tools on hand). Currently perceivable cover, routes, relative
+position, who is being hunted, imminent action, drawable appearance, and at
+least one non-sight sense (wind, wing-buffet, mud, rasp of grass) join as
+flowing spoken prose. Weave look and sound into the sentences. Do not park
+them as a DM catalog under the callout. An owner identity image on the run
+card is a DM glance; it does not replace the spoken look. An adult striking
+other prey may be visible windup; do not resolve PC injury. Visible grass,
+river, or shipward sky that is already under or beside them belongs in this
+block, not on a later clock tick. Then stop at the reaction point and ask.
+
+**Session-beat fill is pass 2.** Pass 1 (`run-guide`) leaves titled empty
+stubs. Fill every stub. The DM may skip a block at the table; the writer
+fills all of them. Titles: `Initial Narration` (mandatory, long), `{Place}`
+per zone, `Tick {n}` per clock tick, `Landing` plus named variants,
+`{Creature}` after each roster embed, `Exit` only when the next cockpit is
+on the same file. Smaller blocks do not restage Initial Narration.
 
 ## Draft and review
 
@@ -327,8 +341,10 @@ Read the result aloud once. Ask the branch's questions from
 [references/surfaces.md](references/surfaces.md), then run the slop and thin
 gates in [references/voice.md](references/voice.md). Fail the draft if a
 player hearing it once cannot sketch or distinguish the subject. Fail a
-situated encounter Open if the table is asked to act before they have
-currently visible cover, routes, relative position, and imminent action.
+situated encounter Initial Narration if the table is asked to act before they
+have currently visible cover, routes, relative position, imminent action,
+drawable look, and a non-sight sense, or if look/sound were left as a DM list
+under the callout.
 Cut telegram lists, isolated details, private metaphors, premature labels,
 unsupported mechanics, and future outcomes. Cut purple register that adds no
 drawable fact. Add the missing noun, relationship, second sense, access, or

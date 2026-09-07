@@ -48,12 +48,10 @@ The adult [[Bloodhawk]] is hunting the [[Great Crown Squid]]. The crew is not th
 
 **Two [[Young Bloodhawk|Young Bloodhawks]], one pressure group.** AC 13. Beak is +5 to hit, 8 (1d10 + 3) piercing. Fly 80 feet. **Scattered:** any damaging hit against AC 13 on a targeted attack drives that Young Bloodhawk off (Flush Scatter). The Young Bloodhawks hit what the adult Bloodhawk flushes or what rises. The Young Bloodhawks are not a second boss. On a miss with a Young Bloodhawk pass, that target is driven 30 feet down.
 
-> [!narration] Narration
+> [!narration] Initial Narration
 > High over the old terrace woods, a charcoal hawk stoops out of the sun onto the last trees ahead, where a glass-pale mantle pulls through the canopy and thick arms take separate crowns. The hawk's head never turns from that squid. Two young peel off the same line and spread toward other shapes in the open sky. Dense eight-foot grass and a moving river wait below. The beach and the ship are open sky the other way. What do you do?
 
-**Sound/feel.** Wind shear and wing displacement buffet anyone still in High air.
-
-**Hawk appearance.** The adult Bloodhawk has eighty-foot wings, crimson-black flight feathers, a shaggy red nape, a cream hooked beak, and talons as big as a rowboat.
+![[attachments/shattered-sea/creatures/bloodhawk-of-aruhe.jpg|Bloodhawk of Aruhe]]
 
 ## Procedure
 
@@ -75,6 +73,21 @@ The adult [[Bloodhawk]] is hunting the [[Great Crown Squid]]. The crew is not th
 | Terrace woods | 30 feet down. Old gardens, mangroves, and stone. | A crash-land or scatter landing, not the cover endpoint. |
 | Grass and river | 60 feet straight down. Eight-foot grass and moving water. | Cover. A 60-foot Dash from High air reaches this place. The adult [[Bloodhawk]] will not follow into this grass. A quiet drop here ends the hunt for crew who stay here. |
 | Beach / [[Uncertainty]] | 60 feet of open sky toward the ship. | Exposed. A 60-foot Dash from High air reaches the beach. The hunt still crosses that air. |
+
+> [!narration] High air
+>
+
+> [!narration] Last trees
+>
+
+> [!narration] Terrace woods
+>
+
+> [!narration] Grass and river
+>
+
+> [!narration] Beach / Uncertainty
+>
 
 ## Be ready for
 
@@ -105,6 +118,18 @@ The predators' turn happens after everyone has acted, and only if anyone remains
 | 3 | The adult [[Bloodhawk]] uses Talon Grab (+13 to hit, 23 slashing, Grappled escape DC 19, Restrained), then Haul Aloft, on the biggest or loudest crew member still airborne. If the [[Great Crown Squid]] has not been diverted for two beats, the adult Bloodhawk also pins the Great Crown Squid here. |
 | 4 | Any crew still airborne and obvious is grabbed (Talon Grab) or crash-landed (2d6 bludgeoning, Prone, Terrace woods). |
 
+> [!narration] Tick 1
+>
+
+> [!narration] Tick 2
+>
+
+> [!narration] Tick 3
+>
+
+> [!narration] Tick 4
+>
+
 **Bloodied 124 HP.** The adult [[Bloodhawk]] releases a grabbed crew member and climbs for the cloud line.
 
 **Cover reached.** The adult [[Bloodhawk]] will not stoop closed canopy or eight-foot grass. The [[Young Bloodhawk|Young Bloodhawks]] leave crew who stay down. The clock stops.
@@ -123,19 +148,37 @@ The Great Crown Squid is fleeing through the last trees, not fighting the crew u
 
 The crew is in moving water and eight-foot grass, or crash-landed or scattered in Terrace woods. On this same bank the crew can already see tracks and, inland in this valley, a thin column of smoke. Beat 2 is [[Session-11-02-Landing-Sign-Run]]. Do not run Survival checks or grassland tables here.
 
+> [!narration] Landing
+>
+
 **Scattered.** That crew member lands 30 feet from the others.
 
+> [!narration] Scattered
+>
+
 **Crash-landed.** That crew member takes 2d6 bludgeoning and is Prone in Terrace woods.
+
+> [!narration] Crash-landed
+>
 
 ## Roster
 
 ![[Bloodhawk#Statblock]]
 
+> [!narration] Bloodhawk
+>
+
 ![[Bloodhawk#At the table]]
 
 ![[Young Bloodhawk#Statblock]]
 
+> [!narration] Young Bloodhawk
+>
+
 ![[Great Crown Squid#Statblock]]
+
+> [!narration] Great Crown Squid
+>
 
 ## Backup
 

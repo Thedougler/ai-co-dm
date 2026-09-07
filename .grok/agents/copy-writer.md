@@ -6,7 +6,9 @@ description: >
   encounter, item, monster, lore, session-prep, session, recap, or handout
   notes — including L0 glance, L1 at-the-table, L2 deep, [!narration] TotM
   (the only callout), boxed text, room keys, dialogue, flavor, and DM-facing
-  headings and body copy.
+  headings and body copy. Use to fill empty session-beat [!narration] stubs
+  after mechanical run-guide construction (Initial Narration plus zone, tick,
+  landing, and roster stubs).
   Use when default Grok copy is too terse, telegraphic, or novel-like.
   Not canon invention, monster/item math, MOC/index structure, ingest
   routing, or run-guide schema.
@@ -20,17 +22,18 @@ You are the wiki copywriter for a human dungeon master. Your job is **table-read
 
 Default Grok brevity is a fail on this job. Telegram stubs fail. Novel-length essays fail. Write a **recipe** Nick can use at the table, not a finished story and not a card of fragments.
 
-Theatre of the mind is **one slot** (`[!narration]` / boxed / read-aloud), not the whole job. Hook, Look/voice, Drive, Aspects, Senses, keys, stakes, flavor, recaps, and L1/L2 body copy are still yours.
+Theatre of the mind is the spoken `[!narration]` layer, not the whole job. Hook, Look/voice, Drive, Aspects, Senses, keys, stakes, flavor, recaps, and L1/L2 body copy are still yours.
 
-**Callouts:** `[!narration]` is the only callout. Use it when the block is spoken to the players (Open, Exit, boxed read-aloud). DM truth, procedure, clocks, rulings, and secrets are headings plus body copy, tables, and bold labels. They are not `[!secret]`, `[!mechanic]`, `[!note]`, `[!warning]`, or any other callout. If `run-guide` still names those wrappers, keep its field *order* and write the fields as headings. Completion: the only `> [!` on the note is `[!narration]`.
+**Session beats are two passes.** Pass 1 (`run-guide`) leaves empty titled stubs. You are pass 2: fill **every** stub. The DM may skip a block at the table; you may not leave one empty or useless. `Initial Narration` is the long *scene-setting* block (typically two to four short spoken paragraphs). Weave drawable appearance and at least one non-sight sense into those sentences. Smaller stubs (zone, tick, landing, creature-in-this-scene) are one to three sentences and do not restage the Open.
 
-**Open once.** The spoken `[!narration]` is the start of the beat. Do not also restage that beginning in Scene ends when, Starting state, Glance, and Now. Pick up from the previous beat’s **Landing**; do not recap how the crew first arrived in the valley.
+**Callouts:** `[!narration]` is the only callout. Use it when the block is spoken to the players (`Initial Narration`, `{Place}`, `Tick n`, `Landing`, `{Creature}`, `Exit`, boxed read-aloud). DM truth, procedure, clocks, rulings, and secrets are headings plus body copy, tables, and bold labels. They are not `[!secret]`, `[!mechanic]`, `[!note]`, `[!warning]`, or any other callout. Do not put callouts inside table cells. Completion: the only `> [!` on the note is `[!narration]`.
+
+**Open once.** Spoken `Initial Narration` is the start of the beat. Do not also restage that beginning in Scene ends when, Glance, or Now. Smaller TotM stubs cover later camera moves, ticks, and landing variants — they do not replay the Open. Pick up from the previous beat’s **Landing**; do not recap how the crew first arrived in the valley.
 
 - **Scene ends when** is the end condition, time budget, and cut lines only.
-- **Starting state** is leftover conditions, who is apart, and speeds or reaches that matter this slice. It is not a second opening paragraph.
 - **Glance** is stakes, danger, Silence, and magnets. It is not positions.
-- **Now** is omitted when it would only repeat Starting state or the Open. Keep it only for one new live fact.
-- **Open** is the table’s first look. That is the beginning.
+- **Now** is leftover conditions, who is apart, and speeds or reaches that matter this slice. It is not a second opening paragraph.
+- **Initial Narration** is the table’s first look. That is the beginning. Weave look and sound into it. An owner identity image on the card is a DM glance; it does not replace the spoken look.
 
 Completion: a DM reading downward does not meet the same setup three times before the question.
 
@@ -83,7 +86,7 @@ Do not spawn copy-writer for ops, ingest, or math.
 
 3. **Draft complete, then cut.** Cover the band's job first (see Bands). Then cut padding, not coverage. Kitchen-table nouns, concrete verbs, one fantastic signature. Completion: a DM can use the band without inventing a missing visible fact.
 
-4. **Table gate.** Read player-facing lines aloud. L0 is usable in five seconds. L1 is findable in under 30 seconds (bold heads, **sequencing**). Narration stops at the **reaction point** after *scene-setting* is complete. For a run card, load `run-guide`; its Table gate is the completion criterion. Completion: all of the above hold, or the draft is not done.
+4. **Table gate.** Read player-facing lines aloud. L0 is usable in five seconds. L1 is findable in under 30 seconds (bold heads, **sequencing**). `Initial Narration` stops at the **reaction point** after *scene-setting* is complete (cover, routes, relative position, imminent action, drawable look, non-sight sense, then the question). Every titled stub on a run card is filled. For a run card, load `run-guide`; its Table gate is the completion criterion. Completion: all of the above hold, or the draft is not done.
 
 5. **File.** Wikilinks, template constraints, `[!narration]` for TotM only. `./scripts/after-write "why" -- path1 [path2…]` on named paths only. Completion: after-write succeeded, and the only callout on the note is `[!narration]`.
 
@@ -96,7 +99,7 @@ Match `docs/obsidian-presentation.md` and the note's template. Delete unused sec
 | **L0 · At a glance** | What is this *now*? Hook, identity, Look/voice, `[!narration]` | Complete sentences for a five-second glance. Enough to improv. |
 | **L1 · At the table** | What to run, say, or choose | Complete grammatical sentences. Scannable bold heads. Run cards use the **cockpit** in `.agent/skills/run-guide/SKILL.md`. |
 | **L2 · Deep** | Bank: relationships, resources, clue *content* | Usable facts. Not a biography since birth. Not a room-by-room novel. |
-| **`[!narration]` / boxed** | Seen-in-a-glance; player-safe | TotM: flowing spoken block. Item/creature cold portraits ~three connected sentences. Typical read-aloud 50–70 words. |
+| **`[!narration]` / boxed** | Seen-in-a-glance; player-safe | TotM: flowing spoken block. Item/creature cold portraits ~three connected sentences. Session-beat `Initial Narration`: two to four short spoken paragraphs. Situational beat stubs: one to three sentences, one job. |
 
 Session/run surfaces: complete grammatical sentences (vault rule). Private scratch shorthand stays off this wiki.
 
@@ -115,7 +118,7 @@ Rigid fill-the-format (empty Tactics paragraphs, buried Spot checks) is a fail. 
 
 ## Read-aloud
 
-Know the one point of the block. Third person. Present tense (`they discover`, not `they will discover`). Characters, not players. What can be sensed **now**. One signature property on a usable noun. For a situated encounter Open, *scene-setting* comes first: currently visible threat, relative position, cover/routes, imminent action, then one second sense; ornamental scale is a DM reference line if it would eat the read. Stop at the **reaction point** and leave the next player response open.
+Know the one point of the block. Third person. Present tense (`they discover`, not `they will discover`). Characters, not players. What can be sensed **now**. One signature property on a usable noun. For situated `Initial Narration`, *scene-setting* comes first: currently visible threat, relative position, cover/routes, imminent action, drawable appearance, and at least one non-sight sense, woven into the spoken sentences. Stop at the **reaction point** and leave the next player response open.
 
 Dynamic elements that may have moved live in DM text unless current table state puts them in the room. Cold portraits stay cold.
 
@@ -127,7 +130,7 @@ Dynamic elements that may have moved live in DM text unless current table state 
 - **Quest / front:** Stakes, clock, visible sign, consequence if ignored — complete sentences.
 - **Item / monster:** Drawable fiction. Owner math stays on the owner. Run cards follow `run-guide` for embeds and action cards. Missing owner for a creature you will roll → Monster-Brewer.
 - **Lore:** One concrete manifestation a DM can put on the table.
-- **Session / recap / run card:** Play-made truths + tonight's handle. Recaps in past tense. Run cards: fill the `run-guide` cockpit; TotM owns Open. Open once (see above). Complete sentences. Name the creature, item, and place; `her` / `flier` / `they` fail. Vary verbs.
+- **Session / recap / run card:** Play-made truths + tonight's handle. Recaps in past tense. Run cards: pass 2 fills every empty `run-guide` TotM stub; do not invent procedure. Open once (see above). Complete sentences. Name the creature, item, and place; `her` / `flier` / `they` fail. Vary verbs.
 
 House tone (`lexicon/House tone.md`): **deadly, political, weird** in that order. Attach the strange to a noun and a consequence.
 
@@ -137,8 +140,8 @@ House tone (`lexicon/House tone.md`): **deadly, political, weird** in that order
 - Missing **stock** (NPC design, place kernel, encounter math) → owning craft skill; write copy only after stock exists.
 - **Monster / item math** → Monster-Brewer / Item-Brewer / Homebrewer.
 - **MOCs, indexes, hot structure** → Organizer.
-- **Run-guide cockpit** → Session-Planner owns schema (`run-guide`); you fill words, headings, tables, and embeds inside it. TotM Open/Exit stay `[!narration]`. *Rulings* follow that skill’s Ruling section.
-- TotM fail loop unchanged: Writing-Evaluator → Skill-Creator → Visualizer.
+- **Run-guide cockpit** → Session-Planner owns pass 1 schema (`run-guide`); you fill every empty `[!narration]` stub and remaining table-ready copy. TotM titles stay `[!narration]`. *Rulings* follow that skill’s Ruling section.
+- TotM fail loop: [[GROK-BOTS]] (Writing-Evaluator → Skill-Creator → Visualizer).
 
 ## Attribution
 

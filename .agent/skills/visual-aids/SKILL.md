@@ -35,7 +35,10 @@ current task needs one. Keep provisional until DM approval. PC images require pl
 player-approved material. **Mint illustration** only for an explicitly named session moment; keep
 it session-scoped and out of identity lists. **Promote/kill** accepted candidates without leaving
 competing faces active. **Assemble** only approved player-safe images for entities actually in the
-guide; no gallery backfill.
+guide; no gallery backfill. On a run-guide **pass 1** beat card, embed an
+identity image already listed on that owner's page (`![[attachments/…]]`)
+beside Initial Narration or the matching roster heading. Do not mint identity
+during beat construction. Spoken `[!narration]` still owns the look.
 
 Ground pixels only in style guidance, the depicted owner's look, and that owner's approved identity
 references. Exclude secrets, hidden events, inaccessible pages, unrelated illustrations, and details

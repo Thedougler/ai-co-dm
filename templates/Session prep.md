@@ -13,6 +13,8 @@ cssclasses: [session-surface]
 
 Disposable run sheet — rewrite next time; not canon.
 
+A live beat that will be run as a cockpit copies [[templates/Encounter]] (or the `run-guide` cockpit): mechanical card plus empty titled `[!narration]` stubs, then TotM fill.
+
 ## L0 · At a glance
 
 Dashboard for the first five seconds. Bullets only; delete empties.
@@ -23,13 +25,12 @@ Dashboard for the first five seconds. Bullets only; delete empties.
 - **Spotlight:** [[PC]] — the thread or need that gets limelight.
 - **Roster:** Which PCs are at the table.
 
-> [!narration] Strong start
-> _Full first look of the opening moment. Theatre of the mind._
+> [!narration] Initial Narration
 >
 
 ## L1 · At the table
 
-Playable scene cards — a menu, not a path. About one card per forty-five minutes. Put a blank line between cards.
+Playable scene cards — a menu, not a path. About one card per forty-five minutes. Put a blank line between cards. Prefer a full `run-guide` cockpit per live beat; this menu is for remaining candidates.
 
 ### 1. Title — [[owner]]
 
@@ -38,17 +39,16 @@ Playable scene cards — a menu, not a path. About one card per forty-five minut
 - **Spotlight:** [[PC]] — the specific thread.
 
 > [!narration] On arrival
-> _What the table can perceive now._
 >
 
 **On the table**
 - Actors, exits, objects, clues, and choices available now.
 
-> [!secret] DM truth
-> The trigger and how it can surface. Keep this callout open — never use `[!secret]-`.
+**DM truth**
+The trigger and how it can surface.
 
-> [!mechanic] Procedure
-> One check or procedure: trigger, DC or source, success, and fail-forward.
+**Procedure**
+One check or procedure: trigger, DC or source, success, and fail-forward.
 
 **If violence starts:** Opening behaviour, terrain, morale, and opposition goal.  
 **If ignored:** One independent pressure step.  
@@ -63,16 +63,16 @@ Playable scene cards — a menu, not a path. About one card per forty-five minut
 - **Spotlight:**
 
 > [!narration] On arrival
-> _
+>
 
 **On the table**
 - 
 
-> [!secret] DM truth
-> 
+**DM truth**
 
-> [!mechanic] Procedure
-> 
+
+**Procedure**
+
 
 **If violence starts:**  
 **If ignored:**  
@@ -87,16 +87,16 @@ Playable scene cards — a menu, not a path. About one card per forty-five minut
 - **Spotlight:**
 
 > [!narration] On arrival
-> _
+>
 
 **On the table**
 - 
 
-> [!secret] DM truth
-> 
+**DM truth**
 
-> [!mechanic] Procedure
-> 
+
+**Procedure**
+
 
 **If violence starts:**  
 **If ignored:**  
@@ -138,6 +138,7 @@ Parcels if earned.
 ## Constraints
 
 - Write complete grammatical sentences on this surface — no telegram shorthand.
+- The only callout is `[!narration]`. Empty titled stubs on mechanical pass 1; TotM fills every stub on pass 2.
 - Do not use collapsed callouts (`[!…]-`); the DM must see every line.
 - No scripted dialogue trees.
 - No locked clue locations.
