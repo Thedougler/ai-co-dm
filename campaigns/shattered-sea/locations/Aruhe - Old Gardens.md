@@ -14,6 +14,9 @@ tags: [location, aruhe, terraces, gardens]
 > [!narration] Narration
 > Old stone terraces climb the forest slope in stacked walls, each level wide enough for a path before the next green drop. Moss darkens the blocks, stair cuts climb between them, and black openings sit under ledges where irrigation water gathers below. Fruit crowds the terrace lips in yellow, orange, red, and pink clusters, with vines hanging down into the green channels and fallen pieces split open on the wet stone. The air is warm and sugar-sour, and the usable routes are the steps, the terrace edges, and the water-cut channels that keep leading inland.
 
+## Battlemap
+
+![[attachments/shattered-sea/battlemaps/aruhe-old-gardens-day.png|Aruhe Old Gardens battlemap for Foundry VTT]]
 
 ## At a glance
 Miles of ancient terraces run inland from the landing, made by unknown builders and now crowded with extreme fruit and flowers. In the afternoon the air carries a sugar-sour smell.
