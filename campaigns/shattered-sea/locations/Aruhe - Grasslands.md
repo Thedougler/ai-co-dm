@@ -11,7 +11,7 @@ tags: [location, aruhe, grasslands, rivers]
 ## Art
 ![[attachments/shattered-sea/places/aruhe-the-grasslands.jpeg]]
 > [!narration] Narration
-> Clear water threads through these grass valleys in channels narrow enough to follow and broad enough to drink from at the muddy bends. Gold-green grass stands high on both banks, leaning where the ground is wet and closing into walls where the valley rises toward dark trunks and hanging vines. Sun shafts cross the open cuts of sky, bright on the water and warm on the blades, while bird calls carry over the sound of the stream.
+> Clear water winds through the grasslands in channels a body can follow, with muddy bends low enough to kneel at and drink from. Gold-green grass rises higher than a person on both banks, bent flat where feet and water have worked the ground, then standing thick again as the valley climbs toward the dark jungle rim. Sunlight comes down in bright shafts through the open cuts of sky, flashing on wet stones and pale seed heads while warm water-smell and bird calls carry along the stream.
 
 ## Battlemap
 
