@@ -109,7 +109,7 @@ The crew is 60 feet up over the old terraces. The [[Great Crown Squid]] is 30 fe
 | Escape the hunt | Dexterity (Stealth), or no roll if the crew reaches grass and river this round | DC 14, or no roll (a 60-foot Dash from High air reaches the grass) | The crew lands in grass and river. The adult [[Bloodhawk]] stays on the [[Great Crown Squid]]. | The crew reaches grass and river after one [[Young Bloodhawk]] Beak pass (+5 to hit, 8 piercing). | The crew is still visible in High air. One [[Young Bloodhawk]] uses Beak (+5 to hit, 8 piercing) on one still-exposed crew member. The clock ticks only at end of round if anyone remains exposed. |
 | Save or distract the [[Great Crown Squid]] | An attack roll against the adult [[Bloodhawk]], or Charisma (Intimidation) | Attack vs AC 15, or DC 16 | The adult [[Bloodhawk]] breaks off the [[Great Crown Squid]] for one threat beat. | One [[Young Bloodhawk]] comes at the noisy crew member (Beak +5 to hit, 8 piercing). | The adult [[Bloodhawk]] uses Talon Grab (+13 to hit, 23 slashing, Grappled escape DC 19, Restrained) on the loudest crew member still in the air. |
 | Reach the beach or [[Uncertainty]] | Dexterity (Acrobatics) to stay low | DC 14 | The crew arrives at the beach. Each crew member takes one [[Young Bloodhawk]] Beak (+5 to hit, 8 piercing), or adult [[Bloodhawk]] Multiattack if that crew member stayed high. The hunt still crosses that air. | Each still-open crew member takes one [[Young Bloodhawk]] Beak (+5 to hit, 8 piercing). | The adult [[Bloodhawk]] uses Talon Grab (+13 to hit, 23 slashing, Grappled escape DC 19, Restrained) on one crew member, or the crew is forced down in Terrace woods (crash-landed: 2d6 bludgeoning and Prone). |
-| Hide in canopy or grass | Dexterity (Stealth) | DC 14 | The adult [[Bloodhawk]] will not follow. The clock stops. | Rough landing. The landing crew member takes 1d6 bludgeoning and is Prone, in Terrace woods or grass as the fiction says. | One pack, item, or position is lost: drop one carried object, or start the next scene without that pack until someone spends an action recovering it. The crew is still in the open hunt lane. |
+| Hide in canopy or grass | Dexterity (Stealth) | DC 14 | The adult [[Bloodhawk]] will not follow. The clock stops. | Rough landing. The landing crew member takes 1d6 bludgeoning and is Prone, in Terrace woods or grass as the fiction says. | One carried object falls 30 feet away. The crew is still in the open hunt lane. |
 
 Unforeseen intents use the same want: the adult [[Bloodhawk]] is hunting the [[Great Crown Squid]]. Rule from zones, the clock, and whether the approach puts a crew member high, loud, or on the squid.
 
@@ -139,9 +139,9 @@ The Great Crown Squid is fleeing through the last trees, not fighting the crew u
 
 ## Landing
 
-The crew is in moving water and eight-foot grass, or crash-landed or scattered in Terrace woods until someone spends an action regrouping. A regrouping action moves that crew member 30 feet toward the others. On this same bank the crew can already see tracks and, inland in this valley, a thin column of smoke. That is beat 2's opening. Do not run Survival checks or grassland tables here.
+The crew is in moving water and eight-foot grass, or crash-landed or scattered in Terrace woods. On this same bank the crew can already see tracks and, inland in this valley, a thin column of smoke. That is beat 2's opening. Do not run Survival checks or grassland tables here.
 
-**Scattered.** That crew member lands 30 feet from the others and begins the next scene separated until someone spends an action regrouping.
+**Scattered.** That crew member lands 30 feet from the others.
 
 **Crash-landed.** That crew member takes 2d6 bludgeoning and is Prone in Terrace woods.
 
