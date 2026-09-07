@@ -11,7 +11,7 @@ tags: [location, aruhe, rainforest, quiet]
 ## Art
 ![[attachments/shattered-sea/places/aruhe-the-quiet.jpeg]]
 > [!narration] Narration
-> _Visualizer: Aruhe flora pending._
+> Above the last terrace, the rainforest closes into trunks broader than doorways and leaves wide enough to roof a passage. A narrow game trail runs under hanging curtains of root and vine, with moss-slick stones at the edges and wet leaves pressed flat into the mud. The green is dense, but it has too little small motion in it: no insect-saw, no bird chatter, only dripping water and the soft drag of leaves against each other. Farther in, the trail darkens between the roots where the forest stops looking like cover and starts looking like a mouth.
 
 
 
