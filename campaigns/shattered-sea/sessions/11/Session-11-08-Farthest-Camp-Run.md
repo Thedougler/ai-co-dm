@@ -57,6 +57,13 @@ This camp wants to see the woman's garden. The woman is [[The Blight]] / Hinewai
 **Attack is a break.** If someone attacks this camp, stop the clock, lose the prize, and rebuild. Do not invent a statblock. Do not embed a roster. They still have a night watch.
 
 > [!narration] Initial Narration
+> You see this fire under close trees. The smoke is this fire. You feel heat off the coals and smell woodsmoke. Several people sit around it in salt-stiff, torn clothes, fewer than the packed prints that lead into this dirt.
+>
+> Already-picked fruit sits on the dirt by the coals, whole pieces and rinds off the plant. Living stems around this camp still hang with fruit. You hear half-voices already in the talk. One story is a woman in the woods whispering, asking them to come admire her garden, telling them where to walk and what not to take. The other story says she is leading them into danger, and that anyone who listens is mad.
+>
+> Trees stand close on every side. A branch stirs, and the people at this fire look into those trunks. You hear the talk thin while they watch the wood. The packed prints run back toward the forest-edge trail. Garden talk points deeper into the trees.
+>
+> What do you do?
 >
 
 ## Procedure
@@ -86,21 +93,27 @@ This camp wants to see the woman's garden. The woman is [[The Blight]] / Hinewai
 | Hawk sky | Flying up out of this camp is open valley air. | Exposed. Do not restage beat 1. |
 
 > [!narration] This camp / fire
+> You see the people at this fire and the already-picked fruit in reach on the dirt. You feel heat off the coals. Living stems around this camp still hang.
 >
 
 > [!narration] Trees around the fire
+> You see trunks packed close around this camp. When a branch stirs, the people at the fire look this way. You hear leaf close in between the stems.
 >
 
 > [!narration] Forest-edge prints behind
+> You see the packed prints run back toward the forest-edge trail. You feel packed dirt on that line. That trail stays behind this fire, and the beach stays out of a hard run.
 >
 
 > [!narration] Deeper inland
+> Garden talk points into these woods. You see only more trunks packed close. You smell damp leaf that way.
 >
 
 > [!narration] Beach / Uncertainty
+> Down-valley past the terrace line, the beach and Uncertainty sit out of a hard run from this fire. Trees close that way. You smell woodsmoke here.
 >
 
 > [!narration] Hawk sky
+> You feel wind and open valley air above this camp. The fire and the close trees sit below. Nothing at that height hides a body.
 >
 
 ## Be ready for
@@ -139,15 +152,19 @@ The delay turn happens after everyone has acted, and only if anyone remains on t
 | 4 | Night is here. If they forced a march, more people have left this fire for the trees. If they stayed or agreed to see the garden, this is watch setup. Hand to beat 9. Do not run [[Talon Skarn]]. Do not reach [[The Grove - Death Bloom]]. |
 
 > [!narration] Tick 1
+> The light in this valley fails. You feel the air cool on this fire. You hear the same two stories still going, and they do not settle.
 >
 
 > [!narration] Tick 2
+> You see the people who want the garden look at the trees more. You hear the half-voices thin. Someone at this fire stops answering, or the argument just sits and does not close.
 >
 
 > [!narration] Tick 3
+> Someone from this camp slips into the trees around the fire, or night sits close enough to set a watch. You hear stems take that body, or you feel the last of the valley light go.
 >
 
 > [!narration] Tick 4
+> Night is on this fire. You see more people gone from the coals into the trees, or you see this camp settling for a watch. The woods sit close in the dark.
 >
 
 **Bloodied.** This slice has no bloodied hit-point number. There is no monster action card.
@@ -177,16 +194,27 @@ If the crew attacked this camp, the prize is gone. They still need a night watch
 If the crew left this camp, they are heading back toward the forest-edge trail, the river, the terrace line, the beach, or [[Uncertainty]], or a flyer is in hawk sky, plus any RAW conditions already applied. Rebuild from that. The mark can still sit on the locked quarry.
 
 > [!narration] Landing
+> You are still at this fire. Night is coming. You hear the two stories still in the mouths, and the people who stayed sit with the coals.
+>
+> Some of the people at this fire balk, or they slip into the trees around camp. You hear stems take them.
+>
+> The people at this fire scatter. Fruit and coals sit in the dirt.
+>
+> You are already heading back toward the forest-edge trail, the river, the terrace line, the beach, or Uncertainty. This fire sits behind you.
+>
+> You are already in hawk sky over this valley. Wind has this height.
 >
 
 **Crash-landed.** That crew member still has 2d6 bludgeoning already applied and is Prone until they stand.
 
 > [!narration] Crash-landed
+> You are still down at this camp. You feel packed dirt and leaf at ground height until you stand.
 >
 
 **Scattered.** That crew member is still apart until they join up.
 
 > [!narration] Scattered
+> You are still apart at this camp. You see fire, trunks, or packed prints in the gap until you join up.
 >
 
 **Prone.** Anyone knocked down at this camp is Prone until they stand.
