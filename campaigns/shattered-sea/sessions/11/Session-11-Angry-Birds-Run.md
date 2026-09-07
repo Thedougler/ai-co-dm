@@ -54,8 +54,9 @@ A 30-foot fly reaches the squid, or drops into Terrace woods. A 60-foot Dash rea
 
 The crew is 60 feet up over the old terraces. The [[Great Crown Squid]] is 30 feet ahead at the same height, pulling through the last trees. An adult [[Bloodhawk]] is already dropping out of the sun onto that squid. Two [[Young Bloodhawk|Young Bloodhawks]] begin to spread toward other movement. Grass and river cover lie 60 feet down. The beach and [[Uncertainty]] are 60 feet of open sky toward the ship.
 
-> [!secret] DM truth
-> The adult [[Bloodhawk]] is hunting the [[Great Crown Squid]]. The crew is not the chosen meal unless the crew makes itself one.
+## DM truth
+
+The adult [[Bloodhawk]] is hunting the [[Great Crown Squid]]. The crew is not the chosen meal unless the crew makes itself one.
 
 ### Action cards
 
@@ -70,20 +71,21 @@ The crew is 60 feet up over the old terraces. The [[Great Crown Squid]] is 30 fe
 
 **Hawk appearance.** The adult Bloodhawk has eighty-foot wings, crimson-black flight feathers, a shaggy red nape, a cream hooked beak, and talons as big as a rowboat.
 
-> [!mechanic] Procedure
-> **Escape mode** is the default.
->
-> Players declare and resolve turns, checks, and movement as normal.
->
-> Failures impose the Be ready for ruling only. Failures never advance the threat clock.
->
-> After everyone has acted, if anyone remains exposed (high, loud, or obvious), advance the threat clock once and resolve that tick.
->
-> Freeze or "we watch" ticks once at the end of the round, not per failed check.
->
-> Several failed checks in one round still produce one tick.
->
-> **Combat mode:** if the party abandons escape and commits to killing the adult [[Bloodhawk]], stop the clock and run the embedded Bloodhawk and Young Bloodhawk statblocks.
+## Procedure
+
+**Escape mode** is the default.
+
+Players declare and resolve turns, checks, and movement as normal.
+
+Failures impose the Be ready for ruling only. Failures never advance the threat clock.
+
+After everyone has acted, if anyone remains exposed (high, loud, or obvious), advance the threat clock once and resolve that tick.
+
+Freeze or "we watch" ticks once at the end of the round, not per failed check.
+
+Several failed checks in one round still produce one tick.
+
+**Combat mode:** if the party abandons escape and commits to killing the adult [[Bloodhawk]], stop the clock and run the embedded Bloodhawk and Young Bloodhawk statblocks.
 
 ## Zones
 
@@ -113,23 +115,24 @@ The crew is 60 feet up over the old terraces. The [[Great Crown Squid]] is 30 fe
 
 Unforeseen intents use the same want: the adult [[Bloodhawk]] is hunting the [[Great Crown Squid]]. Rule from zones, the clock, and whether the approach puts a crew member high, loud, or on the squid.
 
-> [!mechanic] Threat clock
-> The predators' turn happens after everyone has acted, and only if anyone remains exposed. Table failures do not also tick.
->
-> | Tick | What happens |
-> | --- | --- |
-> | 1 | The adult [[Bloodhawk]] hits the [[Great Crown Squid]] with Canopy Dive (Beak +13 with advantage, extra 14 (4d6) piercing on a hit). On Easy, the adult Bloodhawk uses Beak +13 instead. Two [[Young Bloodhawk\|Young Bloodhawks]] shadow that line. |
-> | 2 | Two [[Young Bloodhawk\|Young Bloodhawks]] pass at crew still in High air, or at anyone who just attacked. Each Young Bloodhawk uses Beak +5 to hit, 8 piercing. On a miss, that Young Bloodhawk drives that target 30 feet down. |
-> | 3 | The adult [[Bloodhawk]] uses Talon Grab (+13 to hit, 23 slashing, Grappled escape DC 19, Restrained), then Haul Aloft, on the biggest or loudest crew member still airborne. If the [[Great Crown Squid]] has not been diverted for two beats, the adult Bloodhawk also pins the Great Crown Squid here. |
-> | 4 | Any crew still airborne and obvious is grabbed (Talon Grab) or crash-landed (2d6 bludgeoning, Prone, Terrace woods). |
->
-> **Bloodied 124 HP.** The adult [[Bloodhawk]] releases a grabbed crew member and climbs for the cloud line.
->
-> **Cover reached.** The adult [[Bloodhawk]] will not stoop closed canopy or eight-foot grass. The [[Young Bloodhawk\|Young Bloodhawks]] leave crew who stay down. The clock stops.
->
-> **Young Bloodhawks.** Two birds, one pressure group. The Young Bloodhawks hit what the adult [[Bloodhawk]] flushes or what rises. A damaging hit against AC 13 on a targeted attack drives that Young Bloodhawk off (Flush Scatter).
->
-> **Scene dials.** Easy: Multiattack only, no Canopy Dive recharge. The adult [[Bloodhawk]] will not dive into closed canopy or eight-foot grass.
+## Threat clock
+
+The predators' turn happens after everyone has acted, and only if anyone remains exposed. Table failures do not also tick.
+
+| Tick | What happens |
+| --- | --- |
+| 1 | The adult [[Bloodhawk]] hits the [[Great Crown Squid]] with Canopy Dive (Beak +13 with advantage, extra 14 (4d6) piercing on a hit). On Easy, the adult Bloodhawk uses Beak +13 instead. Two [[Young Bloodhawk\|Young Bloodhawks]] shadow that line. |
+| 2 | Two [[Young Bloodhawk\|Young Bloodhawks]] pass at crew still in High air, or at anyone who just attacked. Each Young Bloodhawk uses Beak +5 to hit, 8 piercing. On a miss, that Young Bloodhawk drives that target 30 feet down. |
+| 3 | The adult [[Bloodhawk]] uses Talon Grab (+13 to hit, 23 slashing, Grappled escape DC 19, Restrained), then Haul Aloft, on the biggest or loudest crew member still airborne. If the [[Great Crown Squid]] has not been diverted for two beats, the adult Bloodhawk also pins the Great Crown Squid here. |
+| 4 | Any crew still airborne and obvious is grabbed (Talon Grab) or crash-landed (2d6 bludgeoning, Prone, Terrace woods). |
+
+**Bloodied 124 HP.** The adult [[Bloodhawk]] releases a grabbed crew member and climbs for the cloud line.
+
+**Cover reached.** The adult [[Bloodhawk]] will not stoop closed canopy or eight-foot grass. The [[Young Bloodhawk|Young Bloodhawks]] leave crew who stay down. The clock stops.
+
+**Young Bloodhawks.** Two birds, one pressure group. The Young Bloodhawks hit what the adult [[Bloodhawk]] flushes or what rises. A damaging hit against AC 13 on a targeted attack drives that Young Bloodhawk off (Flush Scatter).
+
+**Scene dials.** Easy: Multiattack only, no Canopy Dive recharge. The adult [[Bloodhawk]] will not dive into closed canopy or eight-foot grass.
 
 ## Secondary objective
 
