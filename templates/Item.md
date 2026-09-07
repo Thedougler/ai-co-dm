@@ -11,24 +11,37 @@ tags: [item]
 
 # {{name}}
 
+## L0 · At a glance
+
 > [!narration] Narration
 > _Cold object portrait (appearance / affordance only). Theatre of the mind (Object)._
 >
-## Look
+
+### Look
+
 One sensory line.
 
-## What it does (table)
-Effects in house words. No book paste — cite SRD/page if mirroring a published item.
+### What it does (table)
 
-## Charges / limits
+Effects in house words. No book paste — cite SRD or page if mirroring a published item.
+
+## L1 · At the table
+
+### Charges / limits
+
 - 
 
-## Story hooks
-Who wants it, curses, intelligence, faction heat.
+## L2 · Deep
 
-## Provenance
-Where it came from / where it goes if lost.
+### Story hooks
 
-## Do not
-- Full DMG item text
-- Dumping every similar item variant here
+Who wants it, curses, intelligence, and faction heat.
+
+### Provenance
+
+Where it came from and where it goes if lost.
+
+## Constraints
+
+- No full DMG item text.
+- Do not dump every similar item variant here.

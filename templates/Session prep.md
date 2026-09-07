@@ -6,53 +6,140 @@ status: ready # draft | ready | used
 date: 
 visibility: dm
 tags: [session-prep]
+cssclasses: [session-surface]
 ---
 
 # Prep — Session {{session}}
 
-Disposable. Rewrite next time; do not treat as canon.
+Disposable run sheet — rewrite next time; not canon.
 
-> [!narration] Narration
-> _Situated strong start — full first look of the opening moment. Theatre of the mind._
+## L0 · At a glance
+
+Dashboard for the first five seconds. Bullets only; delete empties.
+
+- **Strong start:** Where and when the camera opens.
+- **Active pressure:** Which fronts or clocks are already moving.
+- **Stakes tonight:** What changes if the party engages or ignores the pressure.
+- **Spotlight:** [[PC]] — the thread or need that gets limelight.
+- **Roster:** Which PCs are at the table.
+
+> [!narration] Strong start
+> _Full first look of the opening moment. Theatre of the mind._
 >
 
-## Characters
-- [[PC]]: hook / spotlight
+## L1 · At the table
+
+Playable scene cards — a menu, not a path. About one card per forty-five minutes. Put a blank line between cards.
+
+### 1. Title — [[owner]]
+
+- **Live when:** The world-state that makes this card live.
+- **Pressure / stakes:** What is already moving, and what changes if engaged or ignored.
+- **Spotlight:** [[PC]] — the specific thread.
+
+> [!narration] On arrival
+> _What the table can perceive now._
+>
+
+**On the table**
+- Actors, exits, objects, clues, and choices available now.
+
+> [!secret] DM truth
+> The trigger and how it can surface. Keep this callout open — never use `[!secret]-`.
+
+> [!mechanic] Procedure
+> One check or procedure: trigger, DC or source, success, and fail-forward.
+
+**If violence starts:** Opening behaviour, terrain, morale, and opposition goal.  
+**If ignored:** One independent pressure step.  
+**Advance when:** A state change leads to the next node.
+
+---
+
+### 2. Title — [[owner]]
+
+- **Live when:**
+- **Pressure / stakes:**
+- **Spotlight:**
+
+> [!narration] On arrival
+> _
+
+**On the table**
 - 
 
-## Strong start (DM notes)
-Camera / pressure bullets if Narration needs a scaffold. Prefer filling Narration.
+> [!secret] DM truth
+> 
 
-## Scenes
-Potential, not a path. ~1 per 45 min.
+> [!mechanic] Procedure
+> 
+
+**If violence starts:**  
+**If ignored:**  
+**Advance when:**
+
+---
+
+### 3. Title — [[owner]]
+
+- **Live when:**
+- **Pressure / stakes:**
+- **Spotlight:**
+
+> [!narration] On arrival
+> _
+
+**On the table**
 - 
+
+> [!secret] DM truth
+> 
+
+> [!mechanic] Procedure
+> 
+
+**If violence starts:**  
+**If ignored:**  
+**Advance when:**
+
+## L2 · Deep
+
+Drop-in bank. Abstracted — do not lock clues to a single room.
+
+### Secrets and clues
+
 - 
 - 
 
-## Secrets and clues
-Abstracted — no fixed “found in X.” Drop wherever it fits.
-- 
-- 
-- 
+### Locations
 
-## Locations
 `[[Location]]: aspect, aspect, aspect`
+
 - 
 
-## NPCs
-`[[NPC]].` one-line role + need
+### NPCs
+
+`[[NPC]]` — one-line role and need.
+
 - 
 
-## Monsters
-Name / link only. Counts decided at table.
+### Monsters
+
+Name or link only. Decide counts at the table.
+
 - [[Monster]]
 
-## Treasure
-Parcels to drop if earned.
+### Treasure
+
+Parcels if earned.
+
 - [[Item]] / coin / boon
 
-## Do not
-- Scripted dialogue trees
-- Locked clue locations
-- Full stat blocks here (link [[Monster]] / SRD)
-- Mixing this with the post-session log
+## Constraints
+
+- Write complete grammatical sentences on this surface — no telegram shorthand.
+- Do not use collapsed callouts (`[!…]-`); the DM must see every line.
+- No scripted dialogue trees.
+- No locked clue locations.
+- No full stat blocks here (link [[Monster]] or SRD).
+- Do not mix this note with the post-session log.

@@ -9,29 +9,44 @@ tags: [pc]
 
 # {{name}}
 
+## L0 · At a glance
+
 > [!narration] Narration
 > _Optional public-facing portrait (reputation / how strangers see them). Theatre of the mind._
 >
-## Player-facing summary
-Class/lineage/vibe in one line. No sheet dump.
 
-## Bonds / ideals that matter
+### Player-facing summary
+
+Class, lineage, and vibe in one line. No sheet dump.
+
+## L1 · At the table
+
+### Bonds / ideals that matter
+
 Only hooks the table uses.
 
-## Spotlight wants
-What this player lights up for (combat, intrigue, exploration, …).
+### Spotlight wants
 
-## Lightning rods
-NPCs, factions, items, secrets that pull them in.
+What this player lights up for (combat, intrigue, exploration, and so on).
+
+### Lightning rods
+
+NPCs, factions, items, and secrets that pull them in.
+
 - 
 
-## Gear that matters
-Signature [[Item]]s / boons only.
+## L2 · Deep
 
-## Session deltas
-Level-ups, scars, new abilities worth prep review.
+### Gear that matters
 
-## Do not
-- Full D&D Beyond export
-- Real-world PII
-- Other players’ secrets
+Signature [[Item]]s and boons only.
+
+### Session deltas
+
+Level-ups, scars, and new abilities worth prep review.
+
+## Constraints
+
+- No full D&D Beyond export.
+- No real-world PII.
+- No other players’ secrets.

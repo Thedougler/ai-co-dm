@@ -8,26 +8,38 @@ tags: [campaign]
 
 # {{title}}
 
+## L0 · At a glance
+
 > [!narration] Narration
 > _Table pitch / premise. Player-safe; no spoilers. Theatre of the mind._
 >
-## Premise
-One paragraph. Tone + central pressure. No plot railroad.
 
-## Table
+### Premise
+
+One paragraph. Tone and central pressure. No plot railroad.
+
+### Table
+
 - Players / PCs: 
 - Cadence: 
 - Safety / lines: 
 - House tone: [[lexicon/House tone]]
 
-## Current arc
-What the table is pointing at *now*. Link fronts/quests.
+## L1 · At the table
 
-## Pressure
-Active [[fronts]]: 
+### Current arc
+
+What the table is pointing at *now*. Link fronts and quests.
+
+### Pressure
+
+Active [[fronts]]:  
 Open [[quests]]: 
 
-## Indexes
+## L2 · Deep
+
+### Indexes
+
 - Sessions: 
 - Prep: 
 - PCs: 
@@ -38,7 +50,8 @@ Open [[quests]]:
 - Items: 
 - Lore: 
 
-## Do not
-- Full adventure scripts
-- Session-by-session railroad
-- Player PII beyond handles
+## Constraints
+
+- No full adventure scripts.
+- No session-by-session railroad.
+- No player PII beyond handles.

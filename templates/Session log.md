@@ -6,32 +6,51 @@ status: draft # draft | final
 date: 
 visibility: dm
 tags: [session]
+cssclasses: [session-surface]
 ---
 
 # Session {{session}} — {{title}}
 
 Durable record. Write after play. Link entities that changed.
 
-> [!narration] Narration
-> _Past-tense recap players can hear. Theatre of the mind (Recap surface)._
+## L0 · At a glance
+
+> [!narration] Recap
+> _Past-tense recap players can hear. Theatre of the mind._
 >
 
-## What happened
-Beats in order. Wikilink NPCs, places, items as they appear.
+## L1 · At the table
 
-## Secrets revealed
-What left DM-only → table knowledge.
+### What happened
 
-## Loose threads
-Open questions / clocks advanced.
+Beats in order. Wikilink NPCs, places, and items as they appear.
 
-## Rewards
-XP / loot / boons. Link [[Item]] notes.
+## L2 · Deep
 
-## Next hooks
+### Aftermath
+
+#### Secrets revealed
+
+What left DM-only knowledge and became table knowledge.
+
+#### Loose threads
+
+Open questions and clocks that advanced.
+
+#### Rewards
+
+XP, loot, and boons. Link [[Item]] notes.
+
+### Forward
+
+#### Next hooks
+
 Player-facing options only — not a planned path.
 
-## Do not
-- Lazy-DM prep lists
-- Unused scenes that never fired
-- Spoilers in Narration
+## Constraints
+
+- Write complete grammatical sentences on this surface.
+- No Lazy-DM prep lists.
+- No unused scenes that never fired.
+- No spoilers in Narration.
+- No collapsed callouts (`[!…]-`) on this note.

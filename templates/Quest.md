@@ -8,36 +8,54 @@ tags: [quest]
 
 # {{title}}
 
+## L0 · At a glance
+
 > [!narration] Narration
 > _Patron pitch / hook as spoken to the party. Theatre of the mind._
 >
-## Patron
+
+### Patron
+
 [[NPC]] / [[Faction]] / none
 
-## Objective
-What “done” looks like. Player-comprehensible.
+### Objective
 
-## Stakes
-If ignored / failed.
+What “done” looks like in player-comprehensible terms.
 
-## Nodes
+### Stakes
+
+What happens if ignored or failed.
+
+## L1 · At the table
+
+### Nodes
+
 Places, people, or events that matter. Not a single path.
+
 - [[Location or NPC]]: why it matters
 
-## Conclusions → clues
-For each conclusion the party may need, list ≥3 independent clues (Alexandrian). Clues are portable — do not hard-lock to one room.
-### Conclusion: …
+### Conclusions → clues
+
+For each conclusion the party may need, list at least three independent clues (Alexandrian). Clues are portable — do not hard-lock them to one room.
+
+#### Conclusion: …
+
 1. 
 2. 
 3. 
 
-## Rewards
+## L2 · Deep
+
+### Rewards
+
 - 
 
-## Linked
-Fronts / items / secrets that turn when this resolves.
+### Linked
 
-## Do not
-- Linear beat sheets as the only structure
-- One-clue bottlenecks
-- Spoiling conclusions in player-facing notes
+Fronts, items, and secrets that turn when this resolves.
+
+## Constraints
+
+- No linear beat sheets as the only structure.
+- No one-clue bottlenecks.
+- Do not spoil conclusions in player-facing notes.

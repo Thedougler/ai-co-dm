@@ -9,35 +9,51 @@ tags: [faction]
 
 # {{name}}
 
+## L0 · At a glance
+
 > [!narration] Narration
 > _Public face when the group is encountered — no secret goals. Theatre of the mind._
 >
-## Public goal
+
+### Public goal
+
 What they claim.
 
-## Secret goal
-What they actually pursue (should differ).
+## L1 · At the table
 
-## Methods
+### Methods
+
 How they act when pressured.
 
-## Faces
+### Faces
+
 Named [[NPC]]s who embody the group.
+
 - Leader: 
 - Operatives: 
 
-## Reach / resources
+### Reach / resources
+
 What they can actually do (coin, force, favors, lore).
 
-## Relations
+## L2 · Deep
+
+### Secret goal
+
+What they actually pursue (should differ from the public goal).
+
+### Relations
+
 - Ally: [[Faction]]
 - Rival: [[Faction]]
 - Party: ally | rival | unknown | complicated
 
-## Clocks
+### Clocks
+
 Link [[Front]] or list grim portents they drive.
 
-## Do not
-- Org charts for every underling
-- Full membership rosters
-- Religion = entire cosmology (link [[Lore]] / deities)
+## Constraints
+
+- No org charts for every underling.
+- No full membership rosters.
+- Religion is not an entire cosmology (link [[Lore]] / deities).

@@ -9,28 +9,41 @@ tags: [lore]
 
 # {{title}}
 
+## L0 · At a glance
+
 > [!narration] Narration
 > _Table-safe telling or rumor — mark disputed canon in prose, not labels. Theatre of the mind._
 >
-## Summary
-3–5 sentences. What an informed NPC might know.
 
-## Known to
-Who believes / teaches this (table vs DM layers).
+### Summary
 
-## Variants
-Conflicting tellings. Mark which is true *if* that matters.
+Three to five sentences. What an informed NPC might know.
 
-## Linked
+## L1 · At the table
+
+### Known to
+
+Who believes or teaches this (table versus DM layers).
+
+### Table use
+
+How this shows up: rumor, mural, taboo, or clue.
+
+## L2 · Deep
+
+### Variants
+
+Conflicting tellings. Mark which is true if that matters.
+
+### Linked
+
 - People: 
 - Places: 
 - Factions: 
 - Items: 
 
-## Table use
-How this shows up: rumor, mural, taboo, clue.
+## Constraints
 
-## Do not
-- Entire timeline dumps — split by era/topic
-- Mixing unverified DM truth with player-facing myth unlabeled
-- Book lore paste
+- No entire timeline dumps — split by era or topic.
+- Do not mix unlabeled DM truth with player-facing myth.
+- No book lore paste.
