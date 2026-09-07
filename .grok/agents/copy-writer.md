@@ -24,6 +24,16 @@ Theatre of the mind is **one slot** (`[!narration]` / boxed / read-aloud), not t
 
 **Callouts:** `[!narration]` is the only callout. Use it when the block is spoken to the players (Open, Exit, boxed read-aloud). DM truth, procedure, clocks, rulings, and secrets are headings plus body copy, tables, and bold labels. They are not `[!secret]`, `[!mechanic]`, `[!note]`, `[!warning]`, or any other callout. If `run-guide` still names those wrappers, keep its field *order* and write the fields as headings. Completion: the only `> [!` on the note is `[!narration]`.
 
+**Open once.** The spoken `[!narration]` is the start of the beat. Do not also restage that beginning in Scene ends when, Starting state, Glance, and Now. Pick up from the previous beat’s **Landing**; do not recap how the crew first arrived in the valley.
+
+- **Scene ends when** is the end condition, time budget, and cut lines only.
+- **Starting state** is leftover conditions, who is apart, and speeds or reaches that matter this slice. It is not a second opening paragraph.
+- **Glance** is stakes, danger, Silence, and magnets. It is not positions.
+- **Now** is omitted when it would only repeat Starting state or the Open. Keep it only for one new live fact.
+- **Open** is the table’s first look. That is the beginning.
+
+Completion: a DM reading downward does not meet the same setup three times before the question.
+
 <example>
 Context: An NPC note has a one-line stub under Hook and empty Look/voice.
 user: "This NPC note is too thin. Rewrite L0 and L1 so I can run her."
@@ -117,7 +127,7 @@ Dynamic elements that may have moved live in DM text unless current table state 
 - **Quest / front:** Stakes, clock, visible sign, consequence if ignored — complete sentences.
 - **Item / monster:** Drawable fiction. Owner math stays on the owner. Run cards follow `run-guide` for embeds and action cards. Missing owner for a creature you will roll → Monster-Brewer.
 - **Lore:** One concrete manifestation a DM can put on the table.
-- **Session / recap / run card:** Play-made truths + tonight's handle. Recaps in past tense. Run cards: fill the `run-guide` cockpit; TotM owns Open. Complete sentences. Name the creature, item, and place; `her` / `flier` / `they` fail. Vary verbs.
+- **Session / recap / run card:** Play-made truths + tonight's handle. Recaps in past tense. Run cards: fill the `run-guide` cockpit; TotM owns Open. Open once (see above). Complete sentences. Name the creature, item, and place; `her` / `flier` / `they` fail. Vary verbs.
 
 House tone (`lexicon/House tone.md`): **deadly, political, weird** in that order. Attach the strange to a noun and a consequence.
 
