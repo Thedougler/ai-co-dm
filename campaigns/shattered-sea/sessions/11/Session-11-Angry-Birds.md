@@ -80,6 +80,8 @@ The prints lead into grass that does not lean, and that grass breaks first. Wolf
 
 ### 4. DEVELOPMENT — Clue (what they ate)
 
+**Run:** [[Session-11-What-They-Ate-Run]]
+
 - **Purpose:** Show how the group ahead has been staying alive, and what got someone killed, so the party can copy the right thing.
 - **Table sees:** The bank is a camp-in-passing. Overripe fruit on the ground, already fermenting: rinds, seeds, no blood. Fresh bushes next to that: stems snapped on the living plant, blood in the dirt. Fish bones, scales, and a crude line or spear at the water.
 - **Truth:** They have been living off what was already down, and off fish. Picking living bushes is what left the blood. **Unrevealed:** river fishing can still draw animals later. The evidence here only shows it has been working for them so far.
