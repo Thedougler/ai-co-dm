@@ -34,7 +34,12 @@ and every response costs something.
 2. **Set a flexible budget.** Treat roughly 30 minutes of real play as one Beat.
    Reserve Hook, Climax, and Resolution for about 90 minutes together; fill
    additional time with alternating Development/Cliffhanger pairs. Adjust for
-   table speed, not the clock alone.
+   table speed, not the clock alone. Each live beat that `run-guide` will render
+   carries **Scene ends when** plus two *cut lines*: **If behind** (what to skip
+   so the beat still ends) and **If ahead** (one extra complication only if it is
+   fully inlined). A Hook with a cover endpoint does not also run unbounded
+   travel; the walk to the next landmark is the next beat (Sly Flourish: Watch
+   the Time).
 3. **Prepare situations, not outcomes.** For each candidate, record trigger,
    actors, stakes, visible information, fuse, costs, at least two viable
    responses, and what changes afterward. For a suspense candidate, require

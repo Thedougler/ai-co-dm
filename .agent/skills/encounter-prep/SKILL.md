@@ -43,6 +43,8 @@ Before the scene is ready, answer:
 - Are there at least three materially different response paths?
 - What does partial success change, and will an unplanned clever solution be
   accepted? **Always yes**; adjudicate from the fiction and let opposition adapt.
+  House **Partial** (for the Be ready for table): miss by 1–4; the player may
+  take the listed cost. Full definition lives in `run-guide`.
 
 Do not use a hidden step → damage punishment as the scene's substance. The
 opposition and world continue acting during delay, travel, shopping, or rest; a
@@ -51,19 +53,21 @@ clock is only suspense when players can perceive and influence its direction.
 ## Output
 
 Use `templates/Encounter.md` for reusable notes. A session-only scene that will be
-run tonight is a **cockpit** (`run-guide`); emit the stock that cockpit inlines:
+run tonight is a **cockpit** (`run-guide`); emit the stock that cockpit inlines.
+Field order and *procedure* live in `run-guide`; this skill supplies the stock:
 
 1. **Brief:** who, where, why now, visible pressure and fuse.
-2. **Roster embeds:** `![[Monster#Statblock]]` targets, roles, morale/retreat thresholds;
-   route new creatures to `homebrew-monsters-5e`. Do not copy AC/HP onto the encounter
-   card and do not leave a bare `[[Monster]]` as the only combat reference.
-3. **Zones:** 3–5 named bands (not a grid); moves to cover; features both sides can use.
-4. **Threat clock:** named tick; 3–4 ticks; what opposition does if the party delays.
-5. **Round script:** R1 position, R2 escape/pressure, R3 explode or grab; bloodied; cover-reached; minion line.
-6. **Tells:** three independent player-visible clues for any conclusion the table must reach.
-7. **Be ready for:** likely intents with approach, DC, success/partial/failure — not a menu to read aloud.
-8. **Landing payload:** the next scene’s opening state (bodies, wet, separated, where opposition goes).
-9. **If ignored:** one-step independent consequence (also tick 1 of the clock).
+2. **Starting state:** who is in which band; move = one band, Dash = two; carrier vs individual.
+3. **Action cards:** opposition loop with named actions; compact default-mode numbers (AC, one attack, scatter/bloodied HP). Missing owner → `homebrew-monsters-5e`.
+4. **Roster embeds:** `![[Monster#Statblock]]` targets for *combat mode*. Full fences stay on the card; do not retype the owner’s Multiattack/HP table into the brief.
+5. **Zones:** 3–5 named bands (not a grid); uses Starting state’s grammar; features both sides can use.
+6. **Procedure + threat clock:** one loop. Clock **is** the opposition’s turn (the old R1–R3 live as ticks). Bloodied as an HP number; cover-reached; minion line; scene dials. Failures impose listed *rulings* and do not also tick.
+7. **Tells:** three independent player-visible clues for any conclusion the table must reach. Currently visible cover/routes belong in the opening, not on tick 1.
+8. **Be ready for:** **Partial** = miss by 1–4 (or mark the row binary). Likely intents including **Assess the situation** when the opening is readable as “what is it hunting?” Every cell is a *ruling*. Not a menu to read aloud.
+9. **Secondary objective:** if “save X” is listed, beats required, ignore outcome, later consequence.
+10. **Landing payload:** the next scene’s opening state (bodies, wet, separated, where opposition goes).
+11. **If ignored:** one-step independent consequence (tick 1 of the clock after a freeze round).
+12. **Time:** 30-minute budget and *cut lines* (If behind / If ahead). Unbounded travel is the next beat, not this stock.
 
 For combat compare action economy, burst/sustained damage, control, terrain, escape, and party
 resources against the actual group. Cite the current public rules source or approved benchmark;

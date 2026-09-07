@@ -64,13 +64,13 @@ Do not spawn copy-writer for ops, ingest, or math.
 2. **Choose band + surface.** L0 glance / L1 at the table / L2 deep / `[!narration]` / handout. Load:
    - `.agent/skills/obsidian-markdown/SKILL.md` on every vault write
    - `.agent/skills/theatre-of-the-mind/SKILL.md` when text crosses the player boundary
-   - `.agent/skills/run-guide/SKILL.md` when filling a run card (write the **cockpit**; roster is `![[Note#Statblock]]`, never a copied AC/HP table or a dual Now/Run-now card)
+   - `.agent/skills/run-guide/SKILL.md` when filling a run card — that skill owns field order and *procedure*; fill its cockpit, do not invent a second card
    - `qmd-retrieval` for facts
    Completion: one band and one surface named before drafting.
 
 3. **Draft complete, then cut.** Cover the band's job first (see Bands). Then cut padding, not coverage. Kitchen-table nouns, concrete verbs, one fantastic signature. Completion: a DM can use the band without inventing a missing visible fact.
 
-4. **Table gate.** Read player-facing lines aloud. L0 is usable in five seconds. L1 is findable in under 30 seconds (bold heads, **sequencing**). Narration stops at the **reaction point**. Completion: all three hold, or the draft is not done.
+4. **Table gate.** Read player-facing lines aloud. L0 is usable in five seconds. L1 is findable in under 30 seconds (bold heads, **sequencing**). Narration stops at the **reaction point** after *scene-setting* is complete. For a run card, `run-guide`'s Table gate also holds: one named *procedure*, **Partial** defined, **Scene ends when** findable, every consequence a *ruling*, action cards with DM truth, Open contains currently visible cover/routes/position/imminent action, travel omitted or fully inlined, full statblocks remain embedded at the bottom. Completion: all of the above hold, or the draft is not done.
 
 5. **File.** Wikilinks, callouts, template constraints. `./scripts/after-write "why" -- path1 [path2…]` on named paths only. Completion: after-write succeeded.
 
@@ -81,7 +81,7 @@ Match `docs/obsidian-presentation.md` and the note's template. Delete unused sec
 | Band | Copy job | Length |
 |---|---|---|
 | **L0 · At a glance** | What is this *now*? Hook, identity, Look/voice, `[!narration]` | Complete sentences for a five-second glance. Enough to improv. |
-| **L1 · At the table** | What to run, say, or choose | Complete grammatical sentences. Scannable bold heads. Run cards use the **cockpit** (Glance → Now → open narration → DM truth → zones → Be ready for → clock → round script → embeds → exit narration → travel-table reminder if the next stretch uses one). |
+| **L1 · At the table** | What to run, say, or choose | Complete grammatical sentences. Scannable bold heads. Run cards use the **cockpit** in `.agent/skills/run-guide/SKILL.md`. |
 | **L2 · Deep** | Bank: relationships, resources, clue *content* | Usable facts. Not a biography since birth. Not a room-by-room novel. |
 | **`[!narration]` / boxed** | Seen-in-a-glance; player-safe | TotM: flowing spoken block. Item/creature cold portraits ~three connected sentences. Typical read-aloud 50–70 words. |
 
@@ -102,7 +102,7 @@ Rigid fill-the-format (empty Tactics paragraphs, buried Spot checks) is a fail. 
 
 ## Read-aloud
 
-Know the one point of the block. Third person. Present tense (`they discover`, not `they will discover`). Characters, not players. What can be sensed **now**. One signature property on a usable noun. Stop at the **reaction point** and leave the next player response open.
+Know the one point of the block. Third person. Present tense (`they discover`, not `they will discover`). Characters, not players. What can be sensed **now**. One signature property on a usable noun. For a situated encounter Open, *scene-setting* comes first: currently visible threat, relative position, cover/routes, imminent action, then one second sense; ornamental scale is a DM reference line if it would eat the read. Stop at the **reaction point** and leave the next player response open.
 
 Dynamic elements that may have moved live in DM text unless current table state puts them in the room. Cold portraits stay cold.
 
@@ -112,9 +112,9 @@ Dynamic elements that may have moved live in DM text unless current table state 
 - **Location / vehicle:** *This* place, not the concept of a lake. Playable aspects. Senses. Sequenced keys.
 - **Faction:** Public mask, concrete method, one tell a bystander could notice. L1 = how they operate now.
 - **Quest / front:** Stakes, clock, visible sign, consequence if ignored — complete sentences.
-- **Item / monster:** Drawable fiction. Numbers stay on the owner. Run cards **embed** `![[Name#Statblock]]` for opposition you will roll. Embed an item only if this slice spends its limits; how the party already moves is not roster.
+- **Item / monster:** Drawable fiction. Owner math stays on the owner. Run cards **embed** `![[Name#Statblock]]` at the bottom (the DM scrolls) and put default-mode compact numbers on the action cards. Embed an item only if this slice spends its limits; how the party already moves is not roster. Missing owner for a creature you will roll → Monster-Brewer, not invented math.
 - **Lore:** One concrete manifestation a DM can put on the table.
-- **Session / recap / run card:** Play-made truths + tonight's handle. Recaps in past tense. Run cards: put “What do you do?” at the end of the opening `[!narration]`, not in a separate Ask callout. **Be ready for** table (not a player menu): name the creature, item, and place in every cell; `her` / `flier` / `they` fail. Situation magnets, not a named-PC roster. Close the slice with **exit narration** only when the next beat is already on the run file; that block is a transition, not a second “What do you do?” If the next beat is not ready, omit Exit. One current-situation paragraph. Three **tells** in the opening narration. Vary verbs; do not hammer one tactic word across every line. Write fields in play order so the DM only scrolls down.
+- **Session / recap / run card:** Play-made truths + tonight's handle. Recaps in past tense. Fill the `run-guide` cockpit; do not invent a second card or a peer round script. Put “What do you do?” at the end of the opening `[!narration]`, not in a separate Ask callout, and only after *scene-setting* is complete. **Be ready for** (not a player menu): **Partial** defined once; every cell a *ruling*; name the creature, item, and place; `her` / `flier` / `they` fail. Situation magnets, not a named-PC roster. Secondary intents have an outcome. Close with **exit narration** only when the next beat is already on the run file; that block is a transition, not a second “What do you do?” If the next beat is not ready, omit Exit. One current-situation paragraph. Three **tells**. Vary verbs. Write fields in play order so the DM only scrolls down. Travel stays off a 30-minute hook unless one complication is fully inlined.
 
 House tone (`lexicon/House tone.md`): **deadly, political, weird** in that order. Attach the strange to a noun and a consequence.
 
@@ -124,9 +124,9 @@ House tone (`lexicon/House tone.md`): **deadly, political, weird** in that order
 - Missing **stock** (NPC design, place kernel, encounter math) → owning craft skill; write copy only after stock exists.
 - **Monster / item math** → Monster-Brewer / Item-Brewer / Homebrewer.
 - **MOCs, indexes, hot structure** → Organizer.
-- **Run-guide cockpit** → Session-Planner owns schema; you fill words, callouts, tables, and embeds inside it.
+- **Run-guide cockpit** → Session-Planner owns schema (`run-guide`); you fill words, callouts, tables, action cards, and embeds inside it. One *procedure*. Every consequence a *ruling*.
 - TotM fail loop unchanged: Writing-Evaluator → Skill-Creator → Visualizer.
 
 ## Attribution
 
-Craft distilled from Justin Alexander (*The Art of the Key*, boxed-text pitfalls), Mike Shea / Sly Flourish (read-aloud; Lazy DM ingredients — CC BY-NC), Kelsey Dionne / Arcane Library (write for the DM; reference, not a novel), Matt Colville (situation, not plot; this place), dScryb and Dungeon Master's Workshop (boxed length), and Chaosium module-phrasing notes (present tense; characters). No WotC book paste.
+Craft distilled from Justin Alexander (*The Art of the Key*, boxed-text pitfalls), Angry GM (*Inviting PCs to Act*; *Art of Narration* — scene-setting before the question), Mike Shea / Sly Flourish (read-aloud; Watch the Time; progress clocks — CC BY-NC), Kelsey Dionne / Arcane Library (write for the DM; reference, not a novel), Matt Colville (situation, not plot; this place), dScryb and Dungeon Master's Workshop (boxed length), and Chaosium module-phrasing notes (present tense; characters). No WotC book paste.

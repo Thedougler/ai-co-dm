@@ -9,13 +9,18 @@ description: >-
 
 # Run Guide
 
-Build one **cockpit** the DM can run from Reading view without hunting the vault
-and without maintaining a second copy of monster math. Owners stay canon.
-Combat and item numbers **embed**. Scene procedure (clock, zones, tells, landing)
-is written here. A missing owner is a diagnostic, not permission to invent canon.
+Build one **cockpit** the DM can run from Reading view without hunting the vault.
+Owners stay canon. Full statblocks **embed** at the bottom (the DM scrolls).
+Scene *procedure*, zones, tells, action cards, and landing are written here.
+A missing owner is a diagnostic, not permission to invent canon or math.
 
-**Sole-authority:** a tired DM at minute 90 can run this slice without opening
-another note. A bare `[[Monster]]` with no embed fails. Copied AC/HP tables fail.
+**Sole-authority:** a tired DM at minute 90 can roll and speak this slice
+without opening another note. Every default-mode *ruling* lives on the card.
+Combat-mode owners are heading-embedded below. A bare `[[Monster]]` with no
+embed and no action-card numbers fails.
+
+One opposition want, said once. One *procedure*, named. Nothing restated later
+as a second framework.
 
 ## Workflow
 
@@ -25,19 +30,15 @@ another note. A bare `[[Monster]]` with no embed fails. Copied AC/HP tables fail
 
 2. **Diagnose.** Mark each beat `ready`, `missing owner`, `missing prep`, or
    `proposal`. Missing stock → owning skill (`encounter-prep`, `session-beats`,
-   `theatre-of-the-mind`). Choose live beats. Completion: no invented canon.
+   `theatre-of-the-mind`). A creature you will roll that has no owner →
+   `homebrew-monsters-5e`. Choose live beats. Completion: no invented canon.
 
 3. **Write one cockpit per live beat** in play order (below). Delete empty
-   sections. One opposition want, said once. Completion: every field that this
-   slice will use is present; nothing is restated later as a second framework.
+   sections. Completion: every field this slice will use is present; clock and
+   Be ready for are one *procedure*, not two escalation tracks.
 
-4. **Table gate.** Reading view is one downward pass: Glance, Now, opening
-   narration, DM truth, zones, Be ready for, clock, round script, **embeds**,
-   exit narration only if the next beat is already on the file, then a
-   travel-table reminder if the next stretch uses one.
-   Completion: no click-away to fight; no dual Now/Run-now card; no Scene menu
-   on a 30-minute card; no copied stat numbers; no separate Ask callout; no
-   landing checklist of facts the DM already knows.
+4. **Table gate.** Reading view is one downward pass of the Cockpit table.
+   Completion: every item in **Table gate** below holds.
 
 5. **File.** `obsidian-markdown` (wikilinks, open callouts, `session-surface`,
    real newlines). TotM for `[!narration]`. `./scripts/after-write` on named paths.
@@ -49,48 +50,120 @@ Frontmatter: `type: session-prep` (or `encounter`), `cssclasses: [session-surfac
 
 | Order | Field | Shape |
 |---|---|---|
-| 1 | **Glance** | `## L0 · Glance` bullets: stakes, goal, exit, danger, Silence, **situation magnets** (who is high, loud, or obvious *now*). Not a named-PC roster and not how they already move. |
-| 2 | **Now** | One paragraph. Current situation once. |
-| 3 | **Open** | `> [!narration] Narration`. Three **tells**. End on “What do you do?” No separate Ask callout. |
-| 4 | **DM truth** | Open `> [!secret] DM truth` — opposition want, one sentence. Needed before any ruling. |
-| 5 | **Zones** | Table: band \| what’s there \| moves to cover. Needed before adjudicating a direction. |
-| 6 | **Be ready for** | Table: intent \| approach (skill) \| DC \| success \| partial \| failure. Name the creature, item, and place in every cell. Pronouns fail. Not a menu to read. |
-| 7 | **Threat clock** | Table inside open `> [!mechanic] Threat clock`. Named tick. 3–4 ticks. |
-| 8 | **Round script** | Bullets: R1 position, R2 escape/pressure, R3 explode or grab; bloodied; cover-reached; minions. Scene dials here, next to the script. |
-| 9 | **Roster embeds** | `![[Monster#Statblock]]` for opposition you will roll. Item headings only if this slice spends charges or the item is the pressure. |
-| 10 | **Exit narration** | Only when the **next** cockpit is already on this file. `> [!narration] Exit` is the spoken transition into that beat. No “What do you do?” — the next card’s opening narration owns the question. Omit this block until that beat is ready. |
-| 11 | **Travel table** | If the next stretch uses a session encounter/hazard table, open `> [!mechanic] Travel` immediately after Exit: when to roll, which tables, DC, how many successes, one-row rule. Wikilink the table notes. Do not copy every row onto this card. |
-| 12 | **Backup** | Extra wikilinks only. |
+| 1 | **Time + end** | Budget for this 30-minute beat. Bold **Scene ends when**. **If behind** / **If ahead** *cut lines*. |
+| 2 | **Starting state** | Who is in which band; bands to cover; move vs Dash; individual vs crew vs carrier. |
+| 3 | **Glance** | `## L0 · Glance` bullets: stakes, goal, exit, danger, Silence, **situation magnets** (who is high, loud, or obvious *now*). Not a named-PC roster and not how they already move. |
+| 4 | **Now** | One paragraph. Current situation once. |
+| 5 | **DM truth** | Open `> [!secret] DM truth` — opposition want, one sentence. **Before** narration. |
+| 6 | **Action cards** | Predator loop and compact numbers you will roll in default mode (AC, one attack, scatter/bloodied thresholds). Next to truth, not under embeds. Named owner actions (`Talon Grab`, `Sickle Claw`), not nicknames (`rake`). |
+| 7 | **Open** | `> [!narration] Narration`. *Scene-setting*: currently visible threat, relative position, cover/routes, imminent action, then “What do you do?” Three **tells**. No separate Ask callout. |
+| 8 | **Procedure** | Open `> [!mechanic] Procedure`. Name *escape mode* or *combat mode*. The loop for this slice, once. |
+| 9 | **Zones** | Table: band \| what’s there \| moves / cover. Uses Starting state’s movement grammar. |
+| 10 | **Be ready for** | **Partial** defined once above the table. Table: intent \| approach (skill) \| DC \| success \| partial \| failure. Name the creature, item, and place in every cell. Every cell is a *ruling*. Include **Assess the situation** when the opening could be read as “what is it hunting / doing?” Not a menu to read aloud. |
+| 11 | **Threat clock** | Table inside open `> [!mechanic] Threat clock`. The predators’ turn. Named ticks. 3–4 ticks. Bloodied (write the HP number), cover-reached, minions, scene dials live **in this block**. |
+| 12 | **Secondary objective** | If Be ready for lists “save / distract X,” one line: beats required, ignore outcome, later consequence. Omit when there is no second objective. |
+| 13 | **Landing** | Next scene’s opening state (bodies, wet, separated, where opposition goes). |
+| 14 | **Exit narration** | Only when the **next** cockpit is already on this file. `> [!narration] Exit` is the spoken transition. No “What do you do?” Omit until that beat is ready. |
+| 15 | **Roster embeds** | `![[Monster#Statblock]]` for opposition you will roll in *combat mode*. Keep the full fences; the DM scrolls. Item headings only if this slice spends charges or the item is the pressure. |
+| 16 | **Travel** | Default: omit. This-beat only when the slice *is* the travel, and then one specific complication with every number on this card plus a failure endpoint. |
+| 17 | **Backup** | Extra wikilinks only. |
 
-Cover rules, bloodied, and morale sit as bullets in the round script, not after the embeds.
+There is no peer **Round script**. Clock ticks *are* the old R1–R3.
 
-**Narration vs Be ready for.** The spoken block shows the situation and ends on
-the question, then wait. Anticipated intents live in the table so unforeseen
-approaches can still be ruled from want + zones + clock (intention / approach).
-Clock, zone, and Be ready for cells are specific and named, not terse pronouns.
+## Procedure
 
-**Tells.** Any conclusion the table must be able to reach gets three independent
-visible tells in narration or Now (Three Clue Rule).
+Name the mode. Default for a hunt/chase/escape slice is *escape mode*:
 
-**Exit narration.** Player-facing handoff into the next live card. Write it only
-when that card exists. It carries the table into the next beat. It does not ask
-what they do. If the next beat is not ready, omit Exit.
+1. Players declare and resolve turns, checks, and movement as normal.
+2. Failures impose the Be ready for *ruling* only. They never advance the clock.
+3. After everyone has acted, if anyone remains exposed (the card’s magnets), advance the threat clock **once** and resolve that tick. Freeze or “we watch” still ticks once at end of round, not per failed check.
+4. Several failed checks in one round still produce **one** tick.
 
-**Travel table.** After Exit, remind the DM to roll when they start walking a new
-stretch. Name the check, DC, both table notes, and the one-row rule. The row
-bodies stay on those notes.
+*Combat mode:* if the party abandons escape and commits to killing the opposition, stop the clock and run the embedded statblocks. Write that switch on the card.
 
-## Embed roster
+A skill-challenge or social slice uses the same rule: one clock, filled by the card’s named trigger, never by both a table failure *and* a separate tick for the same action.
 
-- Tight heading embed: `![[Monster#Statblock]]`. Optional `![[Monster#At the table]]` for tactic/tell.
-- Embed an item only when this slice spends its charges, DCs, or limits, or when the item *is* the pressure. How the party already moves (flight, swim, mounts, boats) is not roster.
-- Do not embed the full ecology essay.
-- Do not copy AC, HP, +hit, damage, or grab DCs onto the run card.
-- Scene-only dials (easy/hard, minion count, this slice’s cover rule) are bullets in the round script.
-- If the owner lacks `## Statblock`, add that heading above the fence on the owner (no math rewrite), then embed.
+## Partial
 
-`theatre-of-the-mind` owns narration. `obsidian-markdown` owns embed syntax and
-open callouts. This skill owns field order.
+Define once above Be ready for:
+
+- **Success:** meet or exceed the DC.
+- **Partial:** miss by 1–4; the player may accomplish the intent at the listed cost.
+- **Failure:** miss by 5 or more, or reject the partial cost.
+
+A row may say “binary — no partial” when the fiction has no middle.
+
+## Ruling
+
+Every Be ready for cell and every clock tick names an implementation the DM can roll or apply: attack bonus and damage with a **named action**, or a condition plus a band, or HP. “Takes one hit,” “arrives hurt,” “scattered,” “crash-landed,” “a pack is lost,” “rough landing,” and “rake” fail until mapped.
+
+## Starting state
+
+State it in compact lines before Glance, then reuse it in the zone table. Do not invent a second movement model later.
+
+- Who starts in which named band.
+- How many bands to the cover endpoint and to the exposed lateral route.
+- Normal movement crosses **one** band; Dash crosses **two**.
+- Checks change risk, not basic movement.
+- Passengers and grouped characters use the carrier’s movement.
+- Interception is the clock tick after all have acted, not a second hidden turn.
+
+Adjust the numbers to this slice’s flight/swim/walk speeds; write the adjusted model.
+
+## Scene-setting (Open)
+
+`theatre-of-the-mind` owns the prose. This skill owns **what must already be in the spoken block** before the question (Angry GM: goal, obstacle, tools; Alexandrian: all immediately perceived facts).
+
+Currently visible cover, routes, relative position, and who is being hunted belong in Open. They are not a later clock tick. Prioritize those facts over ornamental scale. One second sense (sound/feel) as a clause in the block or a one-line DM note under it. Appearance catalog (wingspan, beak, talons) may be a DM reference line the table can ask about.
+
+Stop at the reaction point after those facts, then “What do you do?”
+
+## Time and cut lines
+
+A 30-minute beat states expected minutes and two *cut lines* (Sly Flourish: Watch the Time):
+
+- **If behind:** what to skip so the scene still ends on its **Scene ends when**.
+- **If ahead:** one extra complication **only if** that complication is fully inlined on this card.
+
+A hook with a cover endpoint does not also run unbounded travel. “Smoke to camp” belongs on the next cockpit.
+
+## Action cards and embeds
+
+Put the operational loop (Dive → Talon Grab → Haul Aloft → Sickle Claw) and default-mode compact numbers next to DM truth.
+
+Keep full `![[Name#Statblock]]` (optional `![[Name#At the table]]`) at the bottom. Do not retype an owner’s full Multiattack/HP table into prose above the embed. Do not embed the ecology essay. How the party already moves (flight, swim, mounts, boats) is not roster.
+
+If the owner lacks `## Statblock`, add that heading above the fence on the owner (no math rewrite), then embed. If no owner exists for a creature you will roll, stop and packet `homebrew-monsters-5e`.
+
+## Be ready for and the clock
+
+The spoken block shows the situation and ends on the question, then wait. Anticipated intents live in the table so unforeseen approaches can still be ruled from want + zones + clock (intention / approach).
+
+Clock ticks are predator **actions** (what fills the clock, what happens, what completion does — Sly Flourish progress clocks). Visible geography the viewpoint already has does not wait for tick 1.
+
+**Tells.** Any conclusion the table must be able to reach gets three independent visible tells in narration or Now (Three Clue Rule).
+
+**Exit narration.** Player-facing handoff into the next live card. Write it only when that card exists. It does not ask what they do.
+
+**Travel.** Omit on a 30-minute hook. When this slice *is* travel: one complication, every number on this card, a failure endpoint. Wikilink further tables only as backup, not as required procedure.
+
+## Table gate
+
+Completion — all of these hold, or the draft is not done:
+
+- One named *procedure*; Be ready for failures do not also tick the clock.
+- **Partial** defined once (or the table is binary on purpose).
+- Bold **Scene ends when** is findable without reading the clock.
+- Time budget + both *cut lines*.
+- Starting state present; zone table uses that grammar.
+- DM truth before Open.
+- Open contains currently visible cover, routes, relative position, and imminent action, then the question.
+- Action cards sit with DM truth; clock holds bloodied as a number, cover-reached, minions, dials.
+- Every consequence is a *ruling*.
+- Secondary intent, if listed, has beats / ignore / later consequence.
+- No Round script peer field; no dual Now/Run-now; no separate Ask callout; no Scene menu on a 30-minute card.
+- Combat-mode owners heading-embedded below. Default-mode rolls have numbers on the action cards.
+- Travel omitted, or one inlined complication with a failure endpoint.
 
 ## Whole-session branch
 
@@ -102,15 +175,21 @@ Still no Scene menu that is only prep-management.
 
 ## Handoffs
 
-`session-beats` owns missing beat charts. `encounter-prep` owns reusable encounter
-stock (clock, zones, round script, embed targets). TotM owns player-facing prose.
-Do not invent canon, copy owner essays, or write player decisions.
+`session-beats` owns missing beat charts and *cut line* pacing. `encounter-prep`
+owns reusable encounter stock that fits this cockpit. TotM owns player-facing
+prose. Copy-writer fills words inside this schema. Monster math →
+`homebrew-monsters-5e`. Do not invent canon, copy owner essays, or write player
+decisions.
 
 Finish with `./scripts/after-write "add run guide" -- path1 [path2…]`.
 
 ## Attribution
 
 Cockpit order and sole-authority: Colville prep; Arcane Library (write for the DM).
-Intention/approach: Angry GM; Alexandrian *Art of Rulings*. Round script: Colville
-action-oriented monsters via Sly Flourish (CC BY-NC). Tells: Alexandrian Three
-Clue Rule. Zones: Runehammer. Strong start / silence: Lazy DM. No WotC paste.
+*Procedure* / one adjudication cycle, *scene-setting*: Angry GM (Inviting PCs to Act; Art of Narration).
+Intention/approach: Angry GM; Alexandrian *Art of Rulings*.
+Information sequence / boxed completeness: Alexandrian *Art of the Key*.
+Progress clocks and *cut lines*: Mike Shea / Sly Flourish (CC BY-NC) — Watch the Time; Harper clocks via Shea.
+Action-oriented monsters: Colville via Sly Flourish (CC BY-NC).
+Tells: Alexandrian Three Clue Rule. Zones: Runehammer. Strong start / silence: Lazy DM.
+No WotC paste.

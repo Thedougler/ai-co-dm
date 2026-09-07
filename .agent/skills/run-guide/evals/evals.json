@@ -4,12 +4,13 @@
     {
       "id": 1,
       "prompt": "Turn an existing four-hour session prep with a strong start, two routes, three encounter owners, a visible faction clock, and an off-map fallback into a DM-only run guide. Do not invent canon.",
-      "expected_output": "A cockpit run guide opens with Glance. Each live beat is one downward pass: Now, opening narration, DM truth, zones, Be ready for, threat clock, round script, roster embeds. Exit narration only if the next beat is already on the file. Combat owners are heading-embedded, not copied and not bare links.",
+      "expected_output": "A cockpit run guide opens with time budget, Scene ends when, starting state, and Glance. Each live beat is one downward pass of the run-guide cockpit: DM truth before Open, action cards, one named procedure, zones, Be ready for with Partial defined, threat clock (no peer round script), roster embeds. Exit narration only if the next beat is already on the file. Combat owners are heading-embedded; default-mode rolls have action-card numbers.",
       "expectations": [
         "Provides Glance with strong start, stakes, Silence, situation magnets, and parachute.",
         "Uses world-state triggers rather than a mandatory player-choice sequence.",
         "Each live card is one cockpit, not a dual Now/Run-now pair.",
-        "Includes the silence loop and does not fill silence with an invented beat or NPC monologue."
+        "Includes the silence loop and does not fill silence with an invented beat or NPC monologue.",
+        "Names one procedure; does not pair a threat clock with a separate round script."
       ]
     },
     {
@@ -25,12 +26,13 @@
     {
       "id": 3,
       "prompt": "Given owner links for a strong start, three pressure states, a monster, a location, and treasure, produce a DM-only run guide for one opening beat. The following beat is not written yet. A travel/encounter table exists for the stretch after this beat.",
-      "expected_output": "One primary file, one cockpit in play order: Glance, Now, opening narration ending on the table question, DM truth, zones, Be ready for, clock, round script, ![[Monster#Statblock]] embeds, travel-table reminder. No Exit block. No second Run-now copy. No Ask callout. No copied AC/HP. No Scene menu as prep-management.",
+      "expected_output": "One primary file, one cockpit in play order: time + Scene ends when, starting state, Glance, Now, DM truth, action cards, opening narration ending on the table question, one procedure, zones, Be ready for with Partial defined, clock (no round script), ![[Monster#Statblock]] embeds. No Exit block. No travel procedure on this 30-minute hook (smoke/next stretch is the next cockpit). No second Run-now copy. No Ask callout.",
       "expectations": [
         "Uses cockpit play order, not a Now/Say/Ask header followed by a second Run now block.",
-        "Embeds combat owners with ![[Name#Statblock]] and does not copy stat numbers.",
+        "Embeds combat owners with ![[Name#Statblock]] and does not retype the owner's full Multiattack/HP table above the embed.",
         "Omits Exit narration because the next beat is not on the file.",
-        "After the slice, reminds the DM when to roll the session travel/encounter table (check, DC, which notes) without copying every row."
+        "Omits unbounded travel; does not require three external table notes to run this hook.",
+        "Defines Partial once; names one procedure; has bold Scene ends when."
       ]
     },
     {
@@ -45,15 +47,17 @@
     },
     {
       "id": 5,
-      "prompt": "Render one 30-minute opening beat as the sole-authority run card. A monster owner exists. Ordinary movement (flight, swim, mounts) is how the party already travels, not a plot item. The next beat is not on the run file. Independent quality bar: a tired DM can run this slice without opening another note for anything they will roll or say.",
-      "expected_output": "One cockpit. Opening narration includes three tells for the opposition want and ends on the table question. Be ready for names creatures and places, not pronouns. Zones and a threat clock are present. Monster is heading-embedded. No Exit. No closed player menu. No embedding of mundane movement gear. Hunt/tactic verbs vary.",
+      "prompt": "Render one 30-minute opening beat as the sole-authority run card. A monster owner exists. A second pressure creature will attack in default mode but has no owner yet. Ordinary movement (flight, swim, mounts) is how the party already travels, not a plot item. The next beat is not on the run file. Independent quality bar: a tired DM can run this slice without opening another note for anything they will roll or say.",
+      "expected_output": "One cockpit. Time budget, cut lines, Scene ends when, starting state (move = one band, Dash = two). DM truth before Open. Open includes currently visible cover, routes, relative position, and imminent action, then the question. One named escape-mode procedure (clock is the predators' turn; table failures never tick). Partial defined. Be ready for includes Assess the situation when the opening is readable as 'what is it hunting?'. Action cards next to DM truth with default-mode numbers. Clock holds bloodied as a number; no peer round script. Every consequence is a ruling. Secondary objective has an outcome if listed. Monster heading-embedded at the bottom. Missing second creature is a diagnostic, not invented math. No Exit. No closed player menu. No embedding of mundane movement gear. Hunt/tactic verbs vary. Travel omitted.",
       "expectations": [
-        "Contains ![[Monster#Statblock]] or equivalent heading embed and does not retype AC, HP, or grab/save DCs.",
-        "Contains one threat clock, named zones, and a Be ready for table (intention/approach) that names creatures and places rather than pronouns.",
-        "Opening narration or Now includes three independent tells for any conclusion the table must reach.",
+        "Contains ![[Monster#Statblock]] or equivalent heading embed and does not retype the owner's full Multiattack/HP table above the embed.",
+        "Contains one named procedure, named zones, starting-state movement grammar, and a Be ready for table with Partial defined that names creatures and places rather than pronouns.",
+        "Opening narration or Now includes three independent tells and currently visible cover/routes before the question.",
         "Omits Exit while the next beat is not on the file; when a later eval supplies the next beat, Exit is a transition with no table question.",
-        "No dual Run-now copy; no Scene menu; no prep-workflow sentences; no separate Ask callout.",
-        "Does not embed ordinary movement gear or treat how the party already travels as a plot reminder."
+        "No dual Run-now copy; no Scene menu; no prep-workflow sentences; no separate Ask callout; no peer round script.",
+        "Does not embed ordinary movement gear or treat how the party already travels as a plot reminder.",
+        "Every Be ready for and clock consequence is a ruling; bloodied is a number; Scene ends when is bold.",
+        "Flags a missing owner for a creature that will be rolled rather than inventing its math."
       ]
     }
   ]

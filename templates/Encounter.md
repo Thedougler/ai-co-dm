@@ -10,6 +10,17 @@ cssclasses: [session-surface]
 
 # {{title}}
 
+## Time + end
+
+- **Budget:** 30 minutes.
+- **Scene ends when:**
+- **If behind:**
+- **If ahead:**
+
+## Starting state
+
+Crew band. Cover is N bands away. Exposed lateral route is N bands. Normal movement crosses one band; Dash crosses two. Checks change risk, not basic movement. Passengers use the carrier's movement.
+
 ## L0 · Glance
 
 - **Stakes:**
@@ -22,12 +33,19 @@ cssclasses: [session-surface]
 
 One paragraph: what is already in motion.
 
-> [!narration] Narration
-> _Loaded tactical first look: field, forces, motion. Theatre of the mind (Place/Creature). Three tells for any conclusion the table must reach. End on the table question._
->
-
 > [!secret] DM truth
 > Opposition want, one sentence.
+
+### Action cards
+
+Adult loop with named actions. Young or minion compact line: AC, one attack, scatter or HP. Bloodied HP number.
+
+> [!narration] Narration
+> _Loaded tactical first look: threat, relative position, cover and routes, imminent action. Theatre of the mind (Place/Creature). Three tells. One second sense. End on the table question._
+>
+
+> [!mechanic] Procedure
+> Escape mode: players act; failures impose listed rulings only; after everyone has acted, if anyone remains exposed, tick the clock once. Combat mode: stop the clock and use the embedded statblocks.
 
 ### Zones
 
@@ -37,12 +55,15 @@ One paragraph: what is already in motion.
 
 ## Be ready for
 
+**Partial:** miss by 1–4; the player may accomplish the intent at the listed cost. **Success:** meet or exceed the DC. **Failure:** miss by 5 or more, or reject the partial cost.
+
 | Intent | Approach | DC | Success | Partial | Failure |
 | --- | --- | --- | --- | --- | --- |
-| Name the goal | Name who does what, and where | Skill DC | Name who ends where, and what the opposition does | Name the cost and who pays it | Name who is grabbed, hit, or left exposed |
+| Assess the situation | Name the skill | DC | Name what they learn | Name the cost | Name the listed cost; do not also tick the clock |
+| Name the goal | Name who does what, and where | Skill DC | Name who ends where, and what the opposition does | Name the ruling (dice, named action, condition, band) | Name the ruling |
 
 > [!mechanic] Threat clock
-> Tick is one round of remaining exposure unless the card names another cadence.
+> The predators' turn. Advance once after all have acted if anyone remains exposed. Failures do not tick.
 >
 > | Tick | What happens |
 > | --- | --- |
@@ -50,23 +71,26 @@ One paragraph: what is already in motion.
 > | 2 |  |
 > | 3 |  |
 > | 4 |  |
+>
+> **Bloodied (HP):**
+> **Cover reached:**
+> **Minions:**
+> **Scene dials:** easy/hard, cover the opposition will not enter, grab rules in use this slice.
 
-### Round script
+### Secondary objective
 
-- **R1:**
-- **R2:**
-- **R3:**
-- **Bloodied:**
-- **Cover reached:**
-- **Minions:**
-- **Scene dials:** easy/hard, cover the opposition will not enter, grab rules in use this slice.
+If this slice lists save or distract X: beats required, ignore outcome, later consequence.
+
+### Landing
+
+Next scene's opening state.
 
 ### Roster
 
 ![[Monster#Statblock]]
 
 > [!mechanic] Travel
-> If the next stretch uses a session table: when to roll, which notes, DC, successes needed, one-row rule. Wikilink the tables. Do not copy every row here.
+> Default: omit on a 30-minute hook. If this slice *is* the travel: one specific complication, every number on this card, a failure endpoint.
 
 ## L2 · Deep
 
@@ -90,6 +114,6 @@ Session links.
 
 - Complete grammatical sentences on live cards.
 - No collapsed callouts on session/run surfaces.
-- Embed `![[Name#Statblock]]`; do not copy AC/HP onto this card.
-- One cockpit in play order. Do not add a second Run-now copy of Glance.
+- Embed `![[Name#Statblock]]` at the bottom. Put default-mode compact numbers on the action cards. Do not retype the owner's full Multiattack/HP table above the embed.
+- One cockpit in play order. One named *procedure*. No peer round script. Do not add a second Run-now copy of Glance.
 - Exit is a transition into the next beat, written only when that beat exists. No table question in Exit.

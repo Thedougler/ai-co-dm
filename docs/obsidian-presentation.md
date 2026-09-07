@@ -25,7 +25,7 @@ Every wiki note uses the same disclosure bands. Empty sections are deleted, not 
 3. Player-facing prose lives in `> [!narration]` near the top of L0/L1, never buried.
 4. DM truth on session/run surfaces uses open `> [!secret]` / `> [!mechanic]` — never collapsed (`[!…]-`).
 5. Complete grammatical sentences on session/run surfaces.
-6. Canonical facts stay on owner pages. Session/run notes **embed** combat/item headings (`![[Bloodhawk#Statblock]]`) and write scene procedure beside them. Do not copy AC/HP. Do not dump owner essays.
+6. Canonical facts stay on owner pages. Session/run notes **embed** combat/item headings (`![[Bloodhawk#Statblock]]`) at the bottom and write scene *procedure* plus default-mode action-card numbers above. Do not retype an owner's full Multiattack/HP table into the card body. Do not dump owner essays.
 
 ## Session / run surfaces
 
@@ -39,7 +39,7 @@ Every wiki note uses the same disclosure bands. Empty sections are deleted, not 
 
 ### Scene card stack (inside L1)
 
-Use the **cockpit** in `.agent/skills/run-guide/SKILL.md` (Glance → Now → open narration → DM truth → zones → Be ready for → clock → round script → embeds → exit narration only if the next beat is ready → travel-table reminder). One downward pass. Exit does not ask what they do. Do not keep a second Run-now copy. Do not add a separate Ask callout. Do not add a DM landing checklist.
+Use the **cockpit** in `.agent/skills/run-guide/SKILL.md` (Time + Scene ends when → starting state → Glance → Now → DM truth → action cards → Open → procedure → zones → Be ready for → clock → landing → embeds → exit narration only if the next beat is ready). One downward pass. One *procedure*. Exit does not ask what they do. Do not keep a second Run-now copy. Do not add a separate Ask callout. Do not add a peer round script.
 
 ### Session log bands
 1. Recap narration

@@ -304,6 +304,18 @@ relationship, route, and motion, while leaving hidden items and future outcomes
 out. Stop after that complete state at its pressure or opening. Only an
 explicitly requested doorway-only snapshot may be intentionally partial.
 
+**Scene-setting (situated encounter Open):** the spoken block must already
+contain the facts the table needs for the first decision (Angry GM: goal,
+obstacle, tools on hand). Currently perceivable cover, routes, relative
+position, who is being hunted, and imminent action come **before** ornamental
+scale (wingspan, beak catalog, “same height they held”). One second sense
+(sound/feel) as a clause in the block or a one-line DM note under it.
+Appearance catalog may live as a DM reference line the table can ask about.
+An adult striking other prey may be visible windup; do not resolve PC injury.
+Visible grass, river, or shipward sky that is already under or beside them
+belongs in this block, not on a later clock tick. Then stop at the reaction
+point and ask.
+
 ## Draft and review
 
 Choose the branch, select the facts that pass the boundary, and draft only to
@@ -314,8 +326,10 @@ rather than starting from a one-line stub and padding.
 Read the result aloud once. Ask the branch's questions from
 [references/surfaces.md](references/surfaces.md), then run the slop and thin
 gates in [references/voice.md](references/voice.md). Fail the draft if a
-player hearing it once cannot sketch or distinguish the subject. Cut
-telegram lists, isolated details, private metaphors, premature labels,
+player hearing it once cannot sketch or distinguish the subject. Fail a
+situated encounter Open if the table is asked to act before they have
+currently visible cover, routes, relative position, and imminent action.
+Cut telegram lists, isolated details, private metaphors, premature labels,
 unsupported mechanics, and future outcomes. Cut purple register that adds no
 drawable fact. Add the missing noun, relationship, second sense, access, or
 opening when the picture or agency is incomplete — never by stacking synonyms.

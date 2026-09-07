@@ -22,7 +22,7 @@ write must preserve vault wikilinks, applicable callouts, and AGENTS properties.
 - **Real body newlines:** Prose, lists, and callout bodies must use real line breaks, never a literal backslash followed by `n`. This is especially strict for run-guide, session-prep, session, and beat notes. The only exemptions are YAML frontmatter and fenced code/statblocks (including YAML string values inside a statblock fence); outside those regions, a literal `\n` is a FAIL.
 - **Complete sentences on live surfaces:** Every DM-facing line on a run guide, session prep, or beat card must be a **complete grammatical sentence** (or a short list of complete sentences). Telegram shorthand, letter-code-only clauses, and slash-stacks that need a decoder are presentation fails. Wikilinks, bold field labels, and compact tables are allowed when cells remain readable sentences or clear subject-bearing fragments.
 - **Monsters:** Fantasy Statblocks fence (```` ```statblock ````) immediately after frontmatter, or after a single `## Statblock` heading so run cards can `![[Name#Statblock]]`. See `templates/Monster.md` + `./scripts/lint-statblocks`. Never a prose AC/HP table instead of the fence. No WotC book paste.
-- **Run-card roster:** embed the owner heading (`![[Bloodhawk#Statblock]]`). Do not copy the fence or retype AC/HP onto the run card. Do not embed the whole monster essay.
+- **Run-card roster:** embed the owner heading (`![[Bloodhawk#Statblock]]`) at the bottom. Put default-mode compact numbers on the action cards (`run-guide`). Do not retype the owner's full Multiattack/HP table into the card body. Do not embed the whole monster essay.
 - **Paths:** scratch → `inbox/`; **images/media** under `attachments/` (campaign subfolders ok). Embed with `![[attachments/…]]`; wikilink with `[[attachments/…]]`. See [[attachments/00 Attachments]] + [references/EMBEDS.md](references/EMBEDS.md). No parallel `wiki/` · `concepts/` · `sources/` tree.
 - **Finish:** Run `./scripts/after-write "why" -- path1 [path2…]` with named paths only; it is path-scoped and pushes the commit.
 - **Lint:** Run `./scripts/lint-obsidian-markdown`; run `./scripts/lint-literal-newlines` for session/beat bodies and `./scripts/lint-statblocks` for monsters. The literal-newline check skips YAML frontmatter and fenced code/statblocks.
@@ -107,7 +107,7 @@ Types and tags: [references/PROPERTIES.md](references/PROPERTIES.md).
 | `[text](Campaign Note.md)` for vault notes | `[[Campaign Note]]` |
 | Frontmatter with only `title`/`date` | AGENTS `type` + campaign fields |
 | Prose monster stats / fence not first | `## Statblock` then `statblock` fence, or fence first |
-| Copied AC/HP table on a run card | `![[Monster#Statblock]]` plus scene dials |
+| Owner's full Multiattack/HP table retyped above the embed | `![[Monster#Statblock]]` at the bottom plus action-card compact numbers (`run-guide`) |
 | Secrets inside `[!narration]` | `[!secret]` on live session surfaces; `[!secret]-` only on long-lived owner pages |
 | New `wiki/` or `concepts/` folders | `campaigns/` · `lexicon/` · `inbox/` |
 | WotC book paste | paraphrase / house / SRD link in `source` |
