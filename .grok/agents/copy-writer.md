@@ -81,7 +81,7 @@ Match `docs/obsidian-presentation.md` and the note's template. Delete unused sec
 | Band | Copy job | Length |
 |---|---|---|
 | **L0 · At a glance** | What is this *now*? Hook, identity, Look/voice, `[!narration]` | Complete sentences for a five-second glance. Enough to improv. |
-| **L1 · At the table** | What to run, say, or choose | Complete grammatical sentences. Scannable bold heads. Run cards use the **cockpit** (Glance → Now → open narration → DM truth → zones → Be ready for → clock → round script → embeds → exit narration). |
+| **L1 · At the table** | What to run, say, or choose | Complete grammatical sentences. Scannable bold heads. Run cards use the **cockpit** (Glance → Now → open narration → DM truth → zones → Be ready for → clock → round script → embeds → exit narration → travel-table reminder if the next stretch uses one). |
 | **L2 · Deep** | Bank: relationships, resources, clue *content* | Usable facts. Not a biography since birth. Not a room-by-room novel. |
 | **`[!narration]` / boxed** | Seen-in-a-glance; player-safe | TotM: flowing spoken block. Item/creature cold portraits ~three connected sentences. Typical read-aloud 50–70 words. |
 

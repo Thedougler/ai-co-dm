@@ -69,6 +69,9 @@ One paragraph: what is already in motion.
 > What the table hears when this slice ends. Not a DM checklist of facts already in Glance.
 ^exit
 
+> [!mechanic] Travel
+> If the next stretch uses a session table: when to roll, which notes, DC, successes needed, one-row rule. Wikilink the tables. Do not copy every row here.
+
 ## L2 · Deep
 
 ### Backup

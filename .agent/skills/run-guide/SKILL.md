@@ -33,9 +33,10 @@ another note. A bare `[[Bloodhawk]]` with no embed fails. Copied AC/HP tables fa
 
 4. **Table gate.** Reading view is one downward pass: Glance, Now, opening
    narration, DM truth, zones, Be ready for, clock, round script, **embeds**,
-   exit narration. Completion: no click-away to fight; no dual Now/Run-now
-   card; no Scene menu on a 30-minute card; no copied stat numbers; no separate
-   Ask callout; no landing checklist of facts the DM already knows.
+   exit narration, then a travel-table reminder if the next stretch uses one.
+   Completion: no click-away to fight; no dual Now/Run-now card; no Scene menu
+   on a 30-minute card; no copied stat numbers; no separate Ask callout; no
+   landing checklist of facts the DM already knows.
 
 5. **File.** `obsidian-markdown` (wikilinks, open callouts, `session-surface`,
    real newlines). TotM for `[!narration]`. `./scripts/after-write` on named paths.
@@ -57,7 +58,8 @@ Frontmatter: `type: session-prep` (or `encounter`), `cssclasses: [session-surfac
 | 8 | **Round script** | Bullets: R1 position, R2 escape/pressure, R3 explode or grab; bloodied; cover-reached; minions. Scene dials here, next to the script. |
 | 9 | **Roster embeds** | `![[Monster#Statblock]]` for opposition you will roll. Item headings only if this slice spends charges or the item is the pressure. |
 | 10 | **Exit narration** | Second `> [!narration] Exit` — what the table hears when this slice ends. Not a DM checklist of wet/prone/together. Optional `^exit` for the next card to embed. |
-| 11 | **Backup** | Extra wikilinks only. |
+| 11 | **Travel table** | If the next stretch uses a session encounter/hazard table, open `> [!mechanic] Travel` immediately after Exit: when to roll, which tables, DC, how many successes, one-row rule. Wikilink the table notes. Do not copy every row onto this card. |
+| 12 | **Backup** | Extra wikilinks only. |
 
 Cover rules, bloodied, and morale sit as bullets in the round script, not after the embeds.
 
@@ -72,6 +74,10 @@ visible tells in narration or Now (Three Clue Rule).
 **Exit narration.** Player-facing. The next scene’s first look: what they see,
 hear, and can act on after this slice. Skip a DM landing list of facts already
 in Glance (they dropped into grass; they know that).
+
+**Travel table.** After Exit, remind the DM to roll when they start walking a new
+stretch. Name the check, DC, both table notes, and the one-row rule. The row
+bodies stay on those notes.
 
 ## Embed roster
 

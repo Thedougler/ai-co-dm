@@ -84,6 +84,12 @@ The Great Crown Squid is fleeing through the last trees, not fighting the crew u
 > The first river valley comes up fast: moving water around the legs, grass over head-height, terrace woods already a dark rim behind. Through the last trees the squid's mantle still pulls inland, and the charcoal hawk stays on that line, not on the grass. What do you do?
 ^exit
 
+> [!mechanic] Travel
+> When the crew starts a new stretch of grassland or river toward the smoke, call for a Wisdom (Survival) check against DC 13.
+> They need 3 successes to reach the next landmark (this landing to the smoke, later the smoke to camp). Failures do not count toward that 3.
+> Each check, pass or fail, roll 1d8 on [[Aruhe-River-Grasslands-Tables]] and 1d8 on [[Aruhe-River-Grasslands-Plant-Hazards]]. Run exactly one of those two rows. Pick the row that matches the ground in front of them.
+> If they pluck living plants, fish for themselves, or kill to carry flesh, both rolls are 2d8 keep the lower number, then still pick one row. See [[Aruhe Hunger Rule]].
+
 ## Backup
 
-[[Old Gardens]] · [[Grasslands - River Valleys]] · [[Uncertainty]] · [[Session-11-Angry-Birds]]
+[[Old Gardens]] · [[Grasslands - River Valleys]] · [[Uncertainty]] · [[Session-11-Angry-Birds]] · [[Aruhe-River-Grasslands-Tables]] · [[Aruhe-River-Grasslands-Plant-Hazards]]

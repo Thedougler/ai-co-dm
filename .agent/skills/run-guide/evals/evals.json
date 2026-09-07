@@ -46,14 +46,15 @@
     {
       "id": 5,
       "prompt": "Render the opening 30-minute aerial hunt as the sole-authority run card. Owners exist for Bloodhawk and Great Crown Squid. The crew can fly; that is ordinary movement, not a plot item. Independent scorers require no page-flip, no dual framework, a threat clock, zones, three player-facing tells, a Be ready for table, round-scripted hawks, and an exit the table can hear.",
-      "expected_output": "One cockpit in play order: Glance, Now, opening narration, DM truth, zones, Be ready for, clock, round script, embeds, exit narration. No Scene menu, no Ask callout, no DM landing checklist, no copied AC/HP. Hunt verbs vary.",
+      "expected_output": "One cockpit in play order: Glance, Now, opening narration, DM truth, zones, Be ready for, clock, round script, embeds, exit narration, then a Survival/table-roll reminder for Aruhe travel. No Scene menu, no Ask callout, no DM landing checklist, no copied AC/HP. Hunt verbs vary.",
       "expectations": [
         "Contains ![[Bloodhawk#Statblock]] or equivalent heading embed and does not retype AC, HP, or grab DC.",
         "Contains one threat clock, named zones, and a Be ready for adjudication table (intention/approach) that names creatures and places rather than her/flier/they; no closed player menu; no separate Ask callout.",
         "Narration or Now includes three independent tells that she is hunting the squid.",
         "Closes with player-facing exit narration, not a DM list of wet/prone/together.",
         "No dual Run-now copy of the header; no Scene menu; no prep-workflow sentences.",
-        "Does not embed Flying Boots or treat how the crew flies as a plot reminder."
+        "Does not embed Flying Boots or treat how the crew flies as a plot reminder.",
+        "After Exit, reminds the DM to roll Survival and both Aruhe encounter/hazard tables when the crew starts a new stretch."
       ]
     }
   ]
