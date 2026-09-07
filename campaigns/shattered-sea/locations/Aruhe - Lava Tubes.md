@@ -13,7 +13,9 @@ tags: [location, aruhe, lava-tubes, underworld]
 > [!narration] Narration
 > The lava tubes under Aruhe open as broad black basalt passages, high enough for old roots to hang through breaks in the ceiling and trail down toward the stone. Shallow water gathers across the uneven floor in dark pools and drinkable seepage, with loose rock underfoot and a tunnel mouth continuing into deeper shadow. Warm mineral air moves out of the vents in pale breaths, carrying the sound of drips and small echoes along the walls.
 
+## Battlemap
 
+![[attachments/shattered-sea/battlemaps/aruhe-lava-tubes-day.png|Aruhe Lava Tubes battlemap for Foundry VTT]]
 
 ## At a glance
 An underworld of old volcanic tubes beneath Aruhe's soil, connected to basalt and vents. The tubes are not a separate island; they are the depth beneath the country-scale living surface.
