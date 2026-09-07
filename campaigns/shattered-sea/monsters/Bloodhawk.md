@@ -60,6 +60,7 @@ reactions:
 # Bloodhawk of Aruhe
 
 ![[attachments/shattered-sea/creatures/bloodhawk-of-aruhe.jpg|Bloodhawk of Aruhe]]
+![[attachments/shattered-sea/creatures/bloodhawk-token.png|Bloodhawk FoundryVTT token]]
 
 > [!narration] Narration
 > A charcoal-bodied bloodhawk bursts from the storm-dark sky, its broad wings black beneath a sheen of crimson. A shaggy red nape frames its amber eye and pale hooked beak; talons long enough to rake a boat grip the back of a breaching whale. When those wings fold, the red-black feathers narrow into a falling blade.
