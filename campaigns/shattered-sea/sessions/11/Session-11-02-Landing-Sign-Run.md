@@ -49,11 +49,11 @@ A group of raid survivors already moved on from this bank toward the smoke in th
 **[[Aruhe Hunger Rule]] claim.** Fruit skins and fruit already on the ground of this bank are down. Living stems still hold fruit. Taking what is already down is not a claim. Plucking living plants on this bank is a claim. Free-flowing river water on this bank is drinkable passage. On a claim, do not roll grassland tables now. Both later [[Aruhe-River-Grasslands-Tables]] and [[Aruhe-River-Grasslands-Plant-Hazards]] rolls are 2d8 keep the lower number, then pick one row. The trail and smoke remain.
 
 > [!narration] Initial Narration
-> Eight-foot gold-green grass stands on this river-valley bank, the blades leaning in the current where they meet the moving water. The river pulls at the stems and rasps the grass along the waterline. This stand is high enough to hide a standing body.
+> You feel the current pull at your legs on this river-valley bank. Eight-foot gold-green grass stands around you, the blades leaning where they meet the moving water. You hear the river rasp those stems along the waterline. This stand is high enough to hide a standing body.
 >
-> Wet mud on this same bank already holds prints, a line of feet heading upriver along the valley. A scraped fire patch of ash sits in cleared dirt beside a closed pack dropped in the grass. Fruit skins and whole fruit rest on the ground, off the plant. Living stems still hold fruit.
+> Wet mud on this same bank already holds prints. You see a line of feet heading upriver along the valley. A scraped fire patch of ash sits in cleared dirt beside a closed pack dropped in the grass. Fruit skins and whole fruit rest on the ground, off the plant, and living stems still hold fruit. You smell the skins on the dirt.
 >
-> On the horizon upstream, in this same valley, a thin column of smoke stands. Behind the bank the terrace woods sit above the grass, old garden stone and mangrove toward the beach and Uncertainty. Anyone still down in those woods is on the ground among broken steps and orange fruit, sugar-sour air close to the dirt.
+> On the horizon upstream, in this same valley, you see a thin column of smoke. Behind the bank the terrace woods sit above the grass, old garden stone and mangrove toward the beach and Uncertainty. You who are still down in those woods are on the ground among broken steps and orange fruit. You smell sugar-sour air close to the dirt.
 >
 > What do you do?
 
@@ -78,19 +78,19 @@ A group of raid survivors already moved on from this bank toward the smoke in th
 | Downstream terraces / beach / [[Uncertainty]] | Downstream is a return through the old terraces to the beach and [[Uncertainty]]. | That route is exposed if a crew member takes open valley air. |
 
 > [!narration] This bank / grass and river
-> The current keeps working the leaning stems at the waterline. A body that stays in this eight-foot grass is under the blades. Clear river water moves past the bank, and the wet prints at the lip already hold a film of current.
+> You feel the current keep working the leaning stems at the waterline. These eight-foot blades stand over you. Clear river water moves past the bank, and you see the wet prints at the lip already hold a film of current.
 
 > [!narration] Terrace woods
-> Above and behind this bank, old garden stone and mangrove hold the terrace line. Anyone still down here is on the ground among the orange fruit, sugar-sour air at the dirt. The grass-and-river bank sits below, and the beach and Uncertainty lie through these woods the other way.
+> Old garden stone and mangrove hold the terrace line above and behind the grass-and-river bank. You who are still down here feel wet dirt and orange fruit at ground height, and you smell sugar-sour air at the soil. Through these woods the other way, you see the line toward the beach and Uncertainty.
 
 > [!narration] Upriver prints
-> The line of feet leaves this bank and follows the river inland through the gold-green grass, stems already bent along that path. The thin column of smoke stands ahead in this same valley.
+> You see the line of feet leave this bank and follow the river inland through the gold-green grass, stems already bent along that path. You hear the river still working beside that track. The thin column of smoke stands ahead in this same valley.
 
 > [!narration] Inland smoke
-> The smoke is a thin column on the horizon upstream, still in this valley. It does not get closer from this bank. Wind pulls at the top of it.
+> You see a thin column of smoke on the horizon upstream, still in this valley. From this bank it stays that far. You feel the same wind that pulls at the top of it.
 
 > [!narration] Downstream terraces / beach / Uncertainty
-> Downstream the old terraces run back toward the beach. Uncertainty sits on the water there, hull and rigging in the salt wind. Once the grass thins, that way is open air.
+> Downstream you see the old terraces run back toward the beach. Uncertainty sits on the water there, hull and rigging. You smell salt on the wind. Once the grass thins, that way is open air.
 
 ## Be ready for
 
@@ -122,16 +122,16 @@ The delay turn happens after everyone has acted, and only if anyone remains on t
 | 4 | The column is gone. The prints on this bank are no longer a followable line. |
 
 > [!narration] Tick 1
-> The thin column of smoke on the horizon thins. River water starts to fill the prints on this bank, the edges going soft.
+> You see the thin column of smoke on the horizon thin. River water starts to fill the prints on this bank. You feel the edges go soft underfoot.
 
 > [!narration] Tick 2
-> The fire scrape on this bank is cold. Where the eight-foot grass closes over the path, the upriver feet are harder to pick out.
+> You feel cold ash in the fire scrape on this bank. Where the eight-foot grass closes over the path, you see the upriver feet harder to pick out.
 
 > [!narration] Tick 3
-> The smoke is a smear on the horizon. The trail on this bank is going cold, wet mud filling, bent stems starting to rise.
+> You see the smoke as a smear on the horizon. Wet mud fills the prints on this bank, and you hear bent stems start to rise.
 
 > [!narration] Tick 4
-> The column is gone from the horizon. The prints on this bank no longer make a followable line.
+> You see the column gone from the horizon. The prints on this bank no longer make a followable line. Wet mud and risen grass sit where the feet were.
 
 **Cover reached.** Remaining in eight-foot grass and moving water on this bank keeps the adult [[Bloodhawk]] off this slice. Taking open valley air is hawk sky. Point at a [[Young Bloodhawk]]. Do not restage beat 1.
 
@@ -148,19 +148,19 @@ If the crew follows the prints, they have committed to the upriver trail along t
 If the crew broke, they are returning through the terrace line toward the beach or [[Uncertainty]], plus any RAW conditions already applied.
 
 > [!narration] Landing
-> The crew is off this bank on the upriver prints, walking that line of feet along the valley toward the smoke.
+> You are off this bank on the upriver prints. You see that line of feet along the valley toward the smoke. Gold-green stems rasp your legs on that path.
 >
-> The crew headed for Uncertainty is already in the terrace woods, the beach ahead, this bank behind.
+> You are already in the terrace woods, headed for Uncertainty. You see the beach ahead and this bank behind. You smell salt on the wind off the water.
 
 **Scattered.** That crew member is still apart in the grass or Terrace woods until they join up.
 
 > [!narration] Scattered
-> That crew member is still apart in the eight-foot grass or the terrace woods. Tall stems and moving water sit in the gap until they join up.
+> You are still apart in the eight-foot grass or the terrace woods. You hear the river work the stems in the gap. Tall grass and moving water sit between you.
 
 **Crash-landed.** That crew member still has 2d6 bludgeoning already applied and is Prone until they stand.
 
 > [!narration] Crash-landed
-> That crew member is still down in the terrace woods among broken garden stone and mangrove roots. Orange fruit and sugar-sour air sit at ground height until that crew member stands.
+> You are still down in the terrace woods among broken garden stone and mangrove roots. You smell orange fruit and sugar-sour air at ground height. Wet dirt is against you.
 
 ## Backup
 
