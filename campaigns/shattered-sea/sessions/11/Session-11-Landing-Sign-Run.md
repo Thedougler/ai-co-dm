@@ -68,7 +68,11 @@ The crew is in moving water and eight-foot grass on this river-valley bank, or c
 **[[Aruhe Hunger Rule]] claim.** Fruit skins and fruit already on the ground of this bank are down. Living stems still hold fruit. Taking what is already down is not a claim. Plucking living plants on this bank is a claim. Free-flowing river water on this bank is drinkable passage. On a claim, do not roll grassland tables now. Both later [[Aruhe-River-Grasslands-Tables]] and [[Aruhe-River-Grasslands-Plant-Hazards]] rolls are 2d8 keep the lower number, then pick one row. The trail and smoke remain.
 
 > [!narration] Narration
-> The crew stands in moving water and eight-foot grass on this river-valley bank. Prints mark the mud. A scraped fire patch and fruit skins lie in the grass, and feet lead upriver along this valley. Downstream, the old terraces run back toward the beach and the ship. Upstream in this same valley, a thin column of smoke stands on the horizon. Current tugs at their legs. What do you do?
+> Eight-foot grass and moving river water hold this valley bank, blades high enough to hide a standing person while the current tugs at the mud. Prints and a scraped fire patch already mark the wet earth, a dropped kit beside them, fruit skins and loose fruit on the ground next to living stems that still hang with fruit. A line of feet follows the river inland up this valley. Above and behind the bank the old terrace woods run back toward the beach and the ship, garden and mangrove and stone, and the air over the grass is open. Upstream in this same valley a thin column of smoke still stands on the horizon. What do you do?
+
+**Sound/feel.** Current tugs at the bank. Wet mud underfoot. Grass rasps as it closes around the stems.
+
+**Bank / sign appearance.** Prints mark the mud. A scraped fire patch sits in the stems. A dropped kit lies on this bank. Fruit skins and loose fruit are already down. Living fruit still hangs on stems beside what is on the ground.
 
 If crash-landed, that crew member starts Prone in Terrace woods, above and behind this bank on the terrace line.
 
