@@ -28,28 +28,11 @@ This beat is thirty minutes.
 
 ## L0 · Glance
 
-- **Stakes:** The prize is complicated. Some of these people want rescue. This camp wants a garden. If the crew came to take people back to [[Uncertainty]], this camp does not all want to go.
-- **Goal / exit:** Get the split on the table and a live choice, then hand to beat 9's second-night watch, or break on a forced march, an attack, or a leave.
-- **Danger:**
-  - Pushing a march tonight breaks the only friendly group inland.
-  - Playing along points the night deeper into [[Aruhe - Hungry Isle]], not back to the beach.
-  - Night is coming.
-  - This card does not run the [[Deer-Stalker]].
-  - Do not invent a head count or name the people at this fire.
-  - A Dash of 30 feet or 60 feet does not reach the beach, the terraces, or the garden.
+- **Stakes:** Some of these people want rescue. This camp wants a garden. They do not all want [[Uncertainty]].
+- **Goal / exit:** Get the split on the table, then hand to beat 9, or break.
+- **Danger:** A forced march tonight breaks the only friendly group inland. Playing along points deeper into [[Aruhe - Hungry Isle]].
 - **Silence:** Present this camp and the two stories, then wait. If the crew freezes, tick the clock once at the end of the round.
-- **Situation magnets:**
-  - Anyone forcing a march to [[Uncertainty]] tonight is a magnet.
-  - Anyone who attacks this camp is a magnet.
-  - Anyone picking living plants at this fire is a magnet.
-  - Freeze while the split is unresolved is a magnet.
-  - The mark may still be live on the locked quarry from [[Session-11-07-False-Help-Run]].
-  - Crash-landed crew still has 2d6 bludgeoning and is Prone until they stand.
-  - Scattered crew is still apart until they join up at this fire.
-  - Anyone knocked down on the last stretch is Prone until they stand.
-  - Anyone still Grappled by the [[Deer-Stalker]] is still Grappled (escape DC 14).
-  - Anyone shoved through [[Razer-Grass]] already has that damage applied.
-  - If the crew already claimed living plants or fished a hole, that [[Aruhe Hunger Rule]] cost is already applied.
+- **Situation magnets:** Anyone forcing a march tonight, attacking this camp, or picking living plants at this fire.
 
 ## DM truth
 

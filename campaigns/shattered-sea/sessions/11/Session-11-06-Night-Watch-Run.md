@@ -29,23 +29,10 @@ This beat is thirty minutes.
 ## L0 · Glance
 
 - **Stakes:** The thing is still in the woods and will keep calling. The mark lasts past this watch.
-- **Goal / exit:** Lock the mark (it ran from a group, the mimic call landed, or a one-person face happened) and hand to morning / beat 7, or they fought it here and the mark still stands, or they break.
-- **Danger:**
-  - Going alone is how the fight starts.
-  - Waking everyone scares it off for now and does not end the mark.
-  - Staying in camp leaves the caller out there.
-  - This is the session's one [[Deer-Stalker]] for beats 6 and 7, not [[Aruhe-River-Grasslands-Tables]] row 6.
-  - A Dash does not reach the smoke, the beach, or the terraces.
+- **Goal / exit:** Lock the mark and hand to beat 7, or they fought it here and the mark still stands, or they break.
+- **Danger:** Going alone starts the fight. Waking everyone scares it off and does not end the mark.
 - **Silence:** Present the run and the cutoff, then wait. If the crew freezes, tick the clock once at the end of the round.
-- **Situation magnets:**
-  - The person on watch who heard the run is a magnet, apart at the tree line while the others are in camp.
-  - Anyone who leaves camp alone is a magnet.
-  - Anyone isolated from the group is a magnet.
-  - Crash-landed crew still has 2d6 bludgeoning and is Prone until they stand.
-  - Scattered crew is still apart until they join up.
-  - Anyone knocked down on the last stretch is Prone until they stand.
-  - Anyone shoved through [[Razer-Grass]] already has that damage applied.
-  - If the crew already claimed living plants or fished a hole, that [[Aruhe Hunger Rule]] cost is already applied.
+- **Situation magnets:** The person on watch. Anyone who leaves camp alone. Anyone isolated.
 
 ## DM truth
 

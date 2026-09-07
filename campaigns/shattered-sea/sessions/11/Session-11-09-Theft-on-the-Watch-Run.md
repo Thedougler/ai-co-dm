@@ -28,29 +28,11 @@ This beat is thirty minutes.
 
 ## L0 · Glance
 
-- **Stakes:** [[Talon Skarn]] tries to take the [[Fate Spinner]] off [[Crissdalynn Khinriss]]. The watch stops a clean steal. What [[Talon Skarn]] does in the fight is the lore. End the night here.
-- **Goal / exit:** Disrupt the steal. [[Talon Skarn]] goes for sky with or without the [[Fate Spinner]]. The watch has answered. The night cuts.
-- **Danger:**
-  - If the [[Fate Spinner]] stays hidden, [[Talon Skarn]] has to keep [[Crissdalynn Khinriss]] in the fight.
-  - If the [[Fate Spinner]] comes out, the theft can end in one move.
-  - A messy camp is cover for [[Talon Skarn]], not for the watch.
-  - If the [[Fate Spinner]] was handed off before this camp, [[Talon Skarn]] is wrong and changes targets to the new carrier.
-  - This watch is not a 60-foot mapped camp.
-  - A Dash of 30 feet or 60 feet does not reach the beach, the terraces, or [[The Grove - Death Bloom]].
-  - Do not play [[Talon Vantyrus]].
+- **Stakes:** [[Talon Skarn]] tries to take the [[Fate Spinner]] off [[Crissdalynn Khinriss]]. The night ends here.
+- **Goal / exit:** Disrupt the steal. [[Talon Skarn]] goes for sky with or without it. Cut.
+- **Danger:** If the [[Fate Spinner]] stays hidden, he keeps her in the fight. If it comes out, the theft can end in one move.
 - **Silence:** Present the stoop on this pair, then wait. If the crew freezes, tick the clock once at the end of the round.
-- **Situation magnets:**
-  - [[Crissdalynn Khinriss]] is a magnet.
-  - The watch partner is a magnet; if the table put [[Crissdalynn Khinriss]] alone, the nearest crew member is already standing this watch with her.
-  - Anyone between [[Talon Skarn]] and [[Crissdalynn Khinriss]] is a magnet.
-  - Anyone who shows the [[Fate Spinner]] is a magnet.
-  - A messy camp is cover for [[Talon Skarn]], not a magnet that pulls him off the carrier.
-  - Crash-landed crew still has 2d6 bludgeoning and is Prone until they stand.
-  - Scattered crew is still apart until they join up at this fire.
-  - Anyone knocked down on the last stretch is Prone until they stand.
-  - Anyone still Grappled by the [[Deer-Stalker]] is still Grappled (escape DC 14).
-  - Anyone shoved through [[Razer-Grass]] already has that damage applied.
-  - If the crew already claimed living plants or fished a hole, that [[Aruhe Hunger Rule]] cost is already applied.
+- **Situation magnets:** [[Crissdalynn Khinriss]]. The watch partner. Anyone between [[Talon Skarn]] and her. Anyone who shows the [[Fate Spinner]].
 
 ## DM truth
 

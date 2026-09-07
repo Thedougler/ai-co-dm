@@ -29,27 +29,10 @@ This beat is thirty minutes.
 ## L0 · Glance
 
 - **Stakes:** The first walk toward the smoke is already a fight. Someone can go down here.
-- **Goal / exit:**
-  - Drive the pack off this stretch and keep the upriver prints, or break back into the river and downstream, or take open valley air.
-  - A Dash does not reach the beach, the smoke, or the terrace line.
-- **Danger:**
-  - The opening jumps happen now.
-  - A miss or a knock-down puts someone in the current or into [[Razer-Grass]].
-  - Stopping to pick fruit or make noise pulls more of the pack.
-  - The smoke does not get closer while this is happening.
-  - Without a swim speed, each foot in the moving water costs 1 extra foot.
-  - Current speed is unknown; do not invent a push.
-  - A wolfrabbit jump range is already in the leap, not a 30-foot-wide valley.
+- **Goal / exit:** Drive the pack off and keep the prints, or break to the river, or take hawk sky.
+- **Danger:** The opening jumps happen now. A miss or a knock-down puts someone in the current or into [[Razer-Grass]].
 - **Silence:** Present the jump, then wait. If the crew freezes, tick the clock once at the end of the round.
-- **Situation magnets:**
-  - Anyone isolated on this stretch is a magnet.
-  - Anyone bleeding on this stretch is a magnet.
-  - Anyone standing in the grass on this stretch is a magnet.
-  - Anyone loud on this stretch is a magnet.
-  - Anyone flying into open valley air leaves this pack for hawk sky.
-  - Three [[Wolfrabbit]] (Easy) are already in the jump at mid-height, between the crew and the upriver prints.
-  - Crash-landed crew still has 2d6 bludgeoning and is Prone until they stand.
-  - Scattered crew is still apart until they join up.
+- **Situation magnets:** Anyone isolated, bleeding, standing in the grass, or loud. Flyers leave this pack for hawk sky.
 
 ## Now
 

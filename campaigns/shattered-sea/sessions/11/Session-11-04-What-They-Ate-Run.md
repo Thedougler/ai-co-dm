@@ -28,24 +28,11 @@ This beat is thirty minutes.
 
 ## L0 · Glance
 
-- **Stakes:** Easy food is sitting on the ground of this bank. The living bushes look better, and they are the ones with blood under them. Time spent sorting this is time the smoke moves or thins.
-- **Goal / exit:** Copy the right thing on this bank and keep the upriver prints (beat 5), or claim living plants or fish this hole (the cost lands, the trail remains), or break off the trail.
-- **Danger:**
-  - Picking living bushes on this bank is the claim that left blood.
-  - Fishing this hole is a possible later claim.
-  - Lingering lets the smoke thin.
-  - Without a swim speed, each foot in the moving water costs 1 extra foot.
-  - Current speed is unknown; do not invent a push.
-  - A Dash of 30 feet or 60 feet does not reach the beach, the smoke, or the terraces.
-- **Silence:** Present the three piles on this bank, then wait. If the crew freezes, tick the clock once at the end of the round.
-- **Situation magnets:**
-  - Anyone lingering on this bank is a magnet.
-  - Anyone picking live stems on this bank is a magnet.
-  - Anyone fishing this hole is a magnet.
-  - Crash-landed crew still has 2d6 bludgeoning and is Prone until they stand.
-  - Scattered crew is still apart until they join up.
-  - Anyone knocked down on the last stretch is Prone until they stand.
-  - Anyone shoved through [[Razer-Grass]] already has that damage applied.
+- **Stakes:** Easy food is on the ground. Living bushes have blood under them.
+- **Goal / exit:** Take fallen fruit and keep the prints (beat 5), or claim, or break.
+- **Danger:** Picking living bushes is the claim. Fishing this hole is a later claim. Lingering thins the smoke.
+- **Silence:** Present the three piles, then wait. If the crew freezes, tick the clock once at the end of the round.
+- **Situation magnets:** Anyone lingering, picking live stems, or fishing this hole.
 
 ## DM truth
 

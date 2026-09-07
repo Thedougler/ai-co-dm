@@ -28,27 +28,11 @@ This beat is thirty minutes.
 
 ## L0 · Glance
 
-- **Stakes:** The sign on this bank is fresh enough to follow. Waiting lets the smoke thin and the trail go cold.
-- **Goal / exit:**
-  - Commit to the upriver prints and smoke off this bank (beat 3), or break for the ship, the beach, or the downstream terraces.
-  - Do not run grassland tables on that commit.
-  - That trail is not a single short walk that leaves this bank.
-- **Danger:**
-  - Delay is the fuse.
-  - Lingering, claiming living plants, making noise, or walking downstream toward open beach and hawk sky costs the trail.
-  - Without a swim speed, each foot in the moving water costs 1 extra foot.
-  - Current speed is unknown; do not invent a push.
-  - A Dash of 30 feet or 60 feet does not reach the beach, the smoke, or the terraces.
-  - Taking open valley air is hawk sky.
+- **Stakes:** The sign is fresh. Waiting lets the smoke thin and the trail go cold.
+- **Goal / exit:** Commit to the upriver prints (beat 3), or break for the ship.
+- **Danger:** Lingering, claiming living plants, making noise, or walking downstream into hawk sky.
 - **Silence:** Present this bank, then wait. If the crew freezes, tick the clock once at the end of the round.
-- **Situation magnets:**
-  - Anyone lingering on this bank is a magnet.
-  - Anyone picking living plants on this bank is a magnet.
-  - Anyone making noise on this bank is a magnet.
-  - Anyone walking downstream toward open beach or hawk sky is a magnet.
-  - Quiet-drop crew is here, in eight-foot grass and moving water.
-  - Crash-landed crew is in Terrace woods, already 2d6 bludgeoning and Prone.
-  - Scattered crew is still apart in the grass or Terrace woods.
+- **Situation magnets:** Anyone lingering, picking living plants, making noise, or walking downstream.
 
 ## Now
 

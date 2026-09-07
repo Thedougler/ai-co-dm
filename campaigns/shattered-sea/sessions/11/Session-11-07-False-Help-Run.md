@@ -28,25 +28,11 @@ This beat is thirty minutes.
 
 ## L0 · Glance
 
-- **Stakes:** The mark is still live. Time and a choice sit between that mark and the attack. Ignoring the help-calls means walking on while people might be dying.
-- **Goal / exit:** Stay on the prints toward the smoke with the mark still live, or resolve the one-person ambush, or answer as a whole party until the voices die off and return to the prints.
-- **Danger:**
-  - Sending one person is the ambush.
-  - Answering with the whole party makes the voices move and die off.
-  - A knot that goes together still gets one more peel on the way back.
-  - If they already fought this [[Deer-Stalker]] in beat 6, use the voices once as a test; do not repeat the same combat.
-  - A Dash does not reach the farthest camp, the beach, or the terraces.
+- **Stakes:** The mark is still live. Ignoring the help-calls means walking on while people might be dying.
+- **Goal / exit:** Stay on the prints (beat 8), resolve the one-person ambush, or answer as a group until the voices die.
+- **Danger:** One person walking out is the ambush. The whole party makes the voices move and die off.
 - **Silence:** Present the prints versus the voices, then wait. If the crew freezes, tick the clock once at the end of the round.
-- **Situation magnets:**
-  - Anyone who walks toward the voices alone is a magnet.
-  - The locked quarry from [[Session-11-06-Night-Watch-Run]] is a magnet if that person is isolated.
-  - Anyone off the trail apart from the group is a magnet.
-  - Crash-landed crew still has 2d6 bludgeoning and is Prone until they stand.
-  - Scattered crew is still apart until they join up.
-  - Anyone knocked down on the last stretch is Prone until they stand.
-  - Anyone still Grappled by the [[Deer-Stalker]] is still Grappled (escape DC 14).
-  - Anyone shoved through [[Razer-Grass]] already has that damage applied.
-  - If the crew already claimed living plants or fished a hole, that [[Aruhe Hunger Rule]] cost is already applied.
+- **Situation magnets:** Anyone walking toward the voices alone. The locked quarry if isolated. Anyone off the trail apart from the group.
 
 ## DM truth
 

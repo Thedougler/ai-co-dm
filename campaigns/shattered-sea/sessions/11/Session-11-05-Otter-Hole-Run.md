@@ -28,27 +28,11 @@ This beat is thirty minutes.
 
 ## L0 · Glance
 
-- **Stakes:** The easy road is the river, and this river has bodies in it. The safe-looking road is the bloody bank into the trees, slower and blind.
-- **Goal / exit:** Take the bloody-bank detour around this hole toward the smoke (beat 6), or fight or loot in this hole and then leave, or break off the trail.
-- **Danger:**
-  - Standing and watching is fine until someone touches this water or the dead.
-  - Wade, fish, or pull a body, and the [[Aruhe River Otter]] Hunt.
-  - Attack from this bank, and those otters can close or drag a body under and wait.
-  - Without a swim speed, each foot in this water costs 1 extra foot.
-  - This stretch is slack. Do not invent a push.
-  - A Dash does not reach the beach, the smoke, or the terraces.
+- **Stakes:** The river has bodies in it. The bloody bank into the trees is slower and blind.
+- **Goal / exit:** Take the bloody-bank detour (beat 6), or fight or loot in this hole, or break.
+- **Danger:** Touch this water or the dead and the [[Aruhe River Otter]] Hunt.
 - **Silence:** Present this hole, then wait. Watching from this bank does not start Hunt.
-- **Situation magnets:**
-  - Anyone in this hole is a magnet.
-  - Anyone fishing this hole is a magnet.
-  - Anyone pulling a body or a pack from this hole is a magnet.
-  - Anyone attacking from this bank is a magnet.
-  - Watching from this bank is not a magnet.
-  - Crash-landed crew still has 2d6 bludgeoning and is Prone until they stand.
-  - Scattered crew is still apart until they join up.
-  - Anyone knocked down on the last stretch is Prone until they stand.
-  - Anyone shoved through [[Razer-Grass]] already has that damage applied.
-  - If the crew already claimed living plants or fished the last hole, that [[Aruhe Hunger Rule]] cost is already applied.
+- **Situation magnets:** Anyone in this hole, fishing, pulling a body, or attacking from this bank.
 
 ## DM truth
 

@@ -28,24 +28,11 @@ This beat is thirty minutes.
 
 ## L0 · Glance
 
-- **Stakes:** Leave the hunt and land in the first river valley, or stay in this air and take hits.
-- **Goal / exit:**
-  - A quiet drop into grass and moving water, 60 feet straight down.
-  - A 30-foot fly reaches the [[Great Crown Squid]] or Terrace woods.
-  - A 60-foot Dash reaches the grass or the beach.
-  - This is not a fight to the death.
-- **Danger:**
-  - An adult [[Bloodhawk]] is already coming down out of the sun.
-  - Time spent high, loud, or obvious costs hits.
-  - Terrace woods is a 30-foot drop, not cover.
-  - The beach and [[Uncertainty]] are 60 feet of open sky toward the ship.
+- **Stakes:** Land in the grass, or take hits in this air.
+- **Goal / exit:** A quiet drop into grass and moving water. This is not a fight to the death.
+- **Danger:** An adult [[Bloodhawk]] is already coming down out of the sun. High, loud, or obvious costs hits.
 - **Silence:** Present the dive, then wait. If the crew freezes, tick the clock once at the end of the round.
-- **Situation magnets:**
-  - Anyone still in High air, 60 feet up over the old terraces, and visible.
-  - Anyone who attacks, flares, or screams.
-  - The [[Great Crown Squid]] is 30 feet ahead at the same height, in the last trees.
-  - [[Flying Boots]] fly 30 feet (Dash 60 feet).
-  - [[Crissdalynn Khinriss]] uses her aarakocra fly speed from her sheet; if that is 50 feet or more, she can reach the grass in one move.
+- **Situation magnets:** Anyone still in High air. Anyone who attacks, flares, or screams.
 
 ## Now
 
