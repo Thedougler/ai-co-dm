@@ -11,7 +11,7 @@ tags: [location, aruhe, grove, death-bloom, hinewai, memorial]
 ## Art
 ![[attachments/shattered-sea/places/aruhe-the-grove.jpeg]]
 > [!narration] Narration
-> _Visualizer: Hinewai ingest pending._
+> The Grove opens as a round clearing in the deep green of Aruhe, wide enough for a long bowshot across, with the forest held back at its edge. At the center, a single fruit tree stands over two low, unmarked graves; its ripe fruit hangs bright and still above grass that looks too fresh for the dark soil around it. A ring of black flowers marks the clearing's boundary, open and unmoving, and the air carries a sweet rot-smell that never quite turns sour. Wind does not cross the grass here.
 
 ## At a glance
 A clearing roughly 150 feet across where Aruhe's appetite stops. One fruit tree stands over two unmarked graves, black flowers ring the too-green grass, and predators gather as silent mourners. The tree, graves, ring, bound soil, and their relationship are the Death Bloom: Hinewai's body and place-bound phylactery.
