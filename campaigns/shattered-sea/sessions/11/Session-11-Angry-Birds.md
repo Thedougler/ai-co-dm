@@ -104,6 +104,8 @@ The river goes slack and the things in it are people. Otters move through the cl
 
 ### 6. DEVELOPMENT — Obsession (night watch)
 
+**Run:** [[Session-11-Night-Watch-Run]]
+
 - **Purpose:** Put the deer-stalker on the night watch and lock its rules so the rest of the session can use them.
 - **Table sees:** A watcher hears something run through the underbrush, then it stops. If they go look: the deer-stalker is on a kill. It runs when it sees them. If they leave camp to follow or wander: a voice they know tries to call them farther out. If the whole party comes up ready to fight: it leaves. It only stands and talks when it has one person.
 - **Truth:** This is the session’s deer-stalker. The watcher who heard it is the preferred quarry. It mimics a voice to peel that person off the camp. It retreats from a group. When it finally faces someone, it moves wrong, like something else is using the body, says **“You’re not welcome here,”** and attacks. **Unrevealed:** that line is the island’s law coming out of an animal. It is not a conversation.
