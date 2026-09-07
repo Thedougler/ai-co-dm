@@ -7,7 +7,9 @@ description: >-
   businesses, objects, creatures, people, visions, transitions, reveals, and
   live table, chat, or play-by-post output. Use whenever text crosses the
   DM/player boundary, including `[!narration]` and player-safe renderer
-  surfaces. Prefer complete, natural flowing prose that paints a drawable
+  surfaces. When filling `[!narration]` or a first look, open related owner,
+  session, or user-attached images and ground the spoken picture in the
+  pixels. Prefer complete, natural flowing prose that paints a drawable
   picture — not telegram stubs and not verbose padding.
 ---
 
@@ -223,13 +225,22 @@ wrapper follows the host or page request; do not force an encounter question.
    locked canon, distinguish beliefs from facts, and do not add canon in this
    prose pass. If the parent lacks a usable signature, first-sight facts, or
    affordance, invoke the owning craft skill before drafting.
-4. Run the evidence-of-access and hidden-truth checks in
+4. **Pixels.** When the job is `[!narration]`, a portrait, a first look, or
+   scene-setting, and related images exist on the parent, run card, roster
+   owners, or as user attachments, read
+   [references/vision.md](references/vision.md) and open those files with the
+   host vision tool before drafting. Filename and alt text are not a substitute.
+   Completion: every related image is seen or marked unavailable, and
+   pixel-supported drawable facts that pass the access gate are in the fact
+   inventory. Skip this step for hit lines, recaps, dialogue, and jobs with no
+   related art.
+5. Run the evidence-of-access and hidden-truth checks in
    [references/boundary.md](references/boundary.md). Every player-facing
    detail needs a legitimate access channel. An uncertainty marker may label
    only an inference grounded in named evidence; it cannot create access.
    Without a channel, cut the detail or route to the owning content-stock
    skill.
-5. For a standalone portrait, compose before you enumerate: make a private
+6. For a standalone portrait, compose before you enumerate: make a private
    thumbnail of the whole or type plus one dominant supported visible
    distinction. Keep a private, unordered coverage checklist of supported
    portrait facts; it is an audit, not an outline. Choose an organizing spine
@@ -239,7 +250,7 @@ wrapper follows the host or page request; do not force an encounter question.
    supported relationships among the subject's parts, material, habitat, and
    behavior. Check the unordered checklist afterward so the hierarchy does not
    omit a required fact; never turn its sequence into the prose order.
-6. Before drafting from an owning parent or reference, use the structural
+7. Before drafting from an owning parent or reference, use the structural
    fresh-phrasing gate in [references/boundary.md](references/boundary.md).
    Make the fragmentary fact inventory there, then set source architecture and
    wording aside before drafting. Expert examples in references are analysis
@@ -321,7 +332,8 @@ goal, obstacle, tools on hand). Currently perceivable cover, routes, relative
 position, who is being hunted, imminent action, drawable appearance, and at
 least one non-sight sense join as flowing spoken prose. Weave look and sound
 into the sentences. Do not park them as a DM catalog under the callout. An owner identity image on the run
-card is a DM glance; it does not replace the spoken look. An adult striking
+card is a DM glance; it does not replace the spoken look. Open those **pixels**
+so the spoken look matches the art. An adult striking
 other prey may be visible windup; do not resolve PC injury. Visible grass,
 river, or shipward sky that is already under or beside them belongs in this
 block, not on a later clock tick. Then stop at the reaction point and ask.

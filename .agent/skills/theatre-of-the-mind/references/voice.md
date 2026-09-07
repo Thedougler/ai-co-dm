@@ -231,6 +231,7 @@ evidence.
 | cold creature ends in telegram stubs (`Chin drips.` / isolated `Eyes…`) | fold drip/stare/claws onto the body in connected sentences |
 | cold creature invents disturb script (`When the branch moves…`) with no table state | idle body on habitat only; stimulus→response only when situated |
 | only sight is used when another sense is established | fold in the supported sound, smell, temperature, or texture on the thing that owns it |
+| related art exists but the draft misses a conspicuous pixel fact, or the image was never opened | open [vision.md](vision.md); add the missing noun from the **pixels** |
 | the draft is long but still not drawable | replace register and synonyms with missing nouns, relationships, and anchors — do not add more adjectives |
 
 Adding purple prose to fix thin is not the fix. Add the missing noun or
