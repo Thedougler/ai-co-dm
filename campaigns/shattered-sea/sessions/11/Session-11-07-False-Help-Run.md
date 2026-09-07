@@ -71,6 +71,15 @@ The help is this [[Deer-Stalker]]. It watched the inland group and can copy thei
 **Already fought.** If they already fought this [[Deer-Stalker]] in beat 6, speak the Open voices once. If anyone walks toward them, the voices move and die off. Do not speak the face. Do not switch to combat mode.
 
 > [!narration] Initial Narration
+> You see the packed prints still on this forest-edge trail, heading inland toward the smoke. Morning sits on the trunks. Trees and underbrush close both sides of the line. You feel packed dirt underfoot and cool air on this edge.
+>
+> Through the stems you see the smoke nearer now, a thin column between the trees. You smell it on the morning air.
+>
+> Off the path, downslope in the woods, you hear help-calls. Someone shouts "Help," and the same word comes again, stretched, from that lower ground. Nothing shows with it.
+>
+> The prints keep this line. The calls stay off it. Behind you the packed ground falls back toward last night's camp. Open sky sits over this edge.
+>
+> What do you do?
 >
 
 ![[attachments/shattered-sea/creatures/deer-stalker-of-aruhe.png|Deer-Stalker of Aruhe]]
@@ -104,21 +113,27 @@ The help is this [[Deer-Stalker]]. It watched the inland group and can copy thei
 | Hawk sky | Flying up out of this edge is open valley air. | Exposed. Do not restage beat 1. A Dash does not reach the beach, the smoke, or the terraces. |
 
 > [!narration] Edge-trail / prints
+> You see the packed prints keep this edge toward the nearer smoke. Anyone standing here together is still on the line. You hear the help-calls stay off it, downslope.
 >
 
 > [!narration] Off-trail / downslope woods
+> The ground drops off the packed line into leaf and stems. You feel wet leaf underfoot and branches at the shoulders. You hear the help-calls from this slope, looping the same word.
 >
 
 > [!narration] Deeper woods
+> Past the first slope the trunks pack tighter and the ground keeps dropping. You see no packed line here. You hear the same call sit farther in, still one word.
 >
 
 > [!narration] Inland smoke
+> You see the smoke column nearer through the trees, still ahead up this edge. You smell it on the morning air. From this trail it stays that far.
 >
 
 > [!narration] Back toward the night camp / otter hole
+> Behind you the packed ground falls back toward last night's camp and the river. You hear water that way, farther than a hard run. This trail still heads inland.
 >
 
 > [!narration] Hawk sky
+> You feel wind and open morning air above this edge. The trail and the tree crowns sit below. Nothing at that height hides a body.
 >
 
 ## Be ready for
@@ -155,15 +170,19 @@ The predators' turn happens after everyone has acted, and only if anyone remains
 | 4 | Group scare. If two or more ready hostiles are within 30 feet of the [[Deer-Stalker]], Lost Nerve forces Dash or Hide away. The voices move and die off. Silent Retreat if it was hit (Easy: not Famished, unless beat 6 already set Famished). The mark stays. They can return to the prints. Do not start beat 8's camp. |
 
 > [!narration] Tick 1
+> From off the path you hear the same help-call again, one word looped and stretched, still downslope. You hear it come from one direction in the trees. No body shows with it.
 >
 
 > [!narration] Tick 2
+> The help-call sits farther off the packed line, still looping the same word. You see the trail already behind that person. The sound sits deeper between the trunks.
 >
 
 > [!narration] Tick 3
+> From the downslope stems a deer-tall body stands for the person who walked out alone, shaggy coat, antlers crowding the trunks, long forelimbs ending in blood-marked claws. You see a pale muzzle and forward-set eyes that do not blink, hips hitching a beat late, as it says, "You're not welcome here." Those claws stretch toward that person.
 >
 
 > [!narration] Tick 4
+> The help-calls jump farther into the wood, then cut off. You hear something heavy crash away through the deeper stems. The slope and the packed trail sit empty.
 >
 
 **Bloodied.** Bloodied is 42 hit points on the [[Deer-Stalker]], or half of whatever hit points remain from beat 6. This card has no extra bloodied action. Keep peel and Lost Nerve. Easy stays not Famished unless beat 6 already set Famished or Hard.
@@ -189,16 +208,23 @@ If they already fought in beat 6, the voices played once as a test and there was
 If the crew broke off the trail, they are heading back toward the night camp, the otter hole, the river, the terrace line, the beach, or [[Uncertainty]], or a flyer is in hawk sky, plus any RAW conditions already applied. Rebuild from that. The mark can still sit on the locked quarry.
 
 > [!narration] Landing
+> The packed prints still keep this forest-edge trail toward the nearer smoke. You see morning on the trunks. The woods off the line stay those woods.
+>
+> You are already heading back toward last night's camp, the river, the terrace line, the beach, or Uncertainty. This edge-trail sits behind you.
+>
+> You are already in hawk sky over this valley. Morning wind has this height.
 >
 
 **Crash-landed.** That crew member still has 2d6 bludgeoning already applied and is Prone until they stand.
 
 > [!narration] Crash-landed
+> You are still down on this forest-edge trail. You feel packed dirt and leaf at ground height until you stand.
 >
 
 **Scattered.** That crew member is still apart until they join up.
 
 > [!narration] Scattered
+> You are still apart on this edge. You see trunks or brush in the gap until you join up.
 >
 
 **Prone.** Anyone knocked down on this trail is Prone until they stand.
@@ -214,6 +240,7 @@ Do not run grassland tables, the night watch, or the farthest camp here. After t
 ![[Deer-Stalker#Statblock]]
 
 > [!narration] Deer-Stalker
+> A deer-tall body stands in the downslope stems, shaggy coat and branching antlers filling the gap between trunks, long forelimbs ending in blood-marked claws. You see a pale muzzle and forward-set eyes that do not blink, hips hitching a beat late, and you smell blood on that coat. You hear the help-call come from that same space, the word still looping.
 >
 
 ![[Deer-Stalker#At the table]]
