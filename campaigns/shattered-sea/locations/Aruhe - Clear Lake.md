@@ -13,13 +13,9 @@ tags: [location, aruhe, lake, water]
 > [!narration] Narration
 > Clear Lake lies cupped inside steep green walls, broad enough that the opposite shore thins into trees and pale cliff scars. Near the stone shelf, the water stays glass-clear over round white rocks and weed-dark shallows, with small fish flashing where the light reaches the bottom. Marsh grass and slow brown channels gather along one side before the water opens into deeper blue. The air off the lake is cool and wet, and the shore gives enough stone underfoot to drink, follow the edge, or keep on toward the higher green.
 
+## Battlemap
 
-
-
-
-
-
-
+![[attachments/shattered-sea/battlemaps/aruhe-clear-lake-day.png|Aruhe Clear Lake battlemap for Foundry VTT]]
 
 ## At a glance
 A clear inland lake where water offers rest and direction, but fishing for oneself crosses the Hunger Rule. The lake is a meeting point for river valleys, large water life, and the Grove route.
