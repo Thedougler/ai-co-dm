@@ -7,6 +7,9 @@ visibility: dm
 tags: [location, aruhe, lava-tubes, underworld]
 ---
 # Lava Tubes
+
+## Art
+![[attachments/shattered-sea/places/aruhe-the-lava-tubes.jpeg]]
 > [!narration] Narration
 > _Visualizer: Aruhe flora pending._
 
