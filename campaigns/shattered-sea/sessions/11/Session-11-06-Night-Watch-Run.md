@@ -34,13 +34,17 @@ This beat is thirty minutes.
 - **Silence:** Present the run and the cutoff, then wait. If the crew freezes, tick the clock once at the end of the round.
 - **Situation magnets:** The person on watch. Anyone who leaves camp alone. Anyone isolated.
 
+## Now
+
+The crew is camped on the forest-edge prints toward the smoke. The person on watch is apart at the tree line, a few steps from camp. Close in that brush, something heavy runs, then the sound cuts off, and the woods go still. The [[Deer-Stalker]] has speed 40 feet and climb 20 feet. Lost Nerve is two ready hostiles within 30 feet. The smoke is still ahead up-valley. A Dash does not reach the smoke, the beach, or the terraces.
+
 ## DM truth
 
 This is the session's [[Deer-Stalker]]. The person on watch who heard the run is the preferred quarry. It mimics a voice to peel that person off the camp. It retreats from a group. When it finally faces one person, it moves wrong, as if something else is using the body, says "You're not welcome here," and attacks.
 
 **Unrevealed:** That line is the island's law coming out of an animal. It is not a conversation.
 
-## Action cards
+### Action cards
 
 **One [[Deer-Stalker]] on Easy.** It is not Famished. Do not spawn a second. Do not roll [[Aruhe-River-Grasslands-Tables]] row 6 here.
 
@@ -62,16 +66,14 @@ This is the session's [[Deer-Stalker]]. The person on watch who heard the run is
 
 **Abort.** Two ready hostiles within 30 feet scare it off for now. The mark stays. It waits for a split. It will not walk [[Razer-Grass]].
 
-> [!narration] Narration
-> Night has the camp on the forest edge. Sleepers lie behind the person on watch. The trees and underbrush stand a few steps ahead, dark past the first trunks. Close in that brush, something heavy runs, then the sound cuts off, and the woods go still. What do you do?
+**If they go look.** Speak the kill-site, then wait. Do not name it. Do not speak a finished Snatch or haul.
 
-**Sound/feel.** The run is close in the brush, then the woods are still.
+**One-person face.** Speak this only when the [[Deer-Stalker]] has one person, then roll. It says, "You're not welcome here." Do not put island law on the line. Do not speak a finished Snatch or haul.
 
-**Three tells.** Something heavy ran close in the underbrush. The sound cut off. The woods went still past the first trunks.
+> [!narration] Initial Narration
+>
 
-**If they go look.** Speak this, then wait. A torn carcass lies in the underbrush, and a shaggy deer stands over it, antlers crowding the trunks. The hips under that coat sit wrong, and the long front legs end in claws wet with blood. Pale muzzle and forward-set eyes face the looker without a blink, then the body crashes off into the trees, loud after the stillness. Do not name it. Do not speak a finished Snatch or haul.
-
-**One-person face.** Speak this only when the [[Deer-Stalker]] has one person, then roll. The body comes back to that one person. The legs move as if something else is placing them. It says, "You're not welcome here." Do not put island law on the line. Do not speak a finished Snatch or haul.
+![[attachments/shattered-sea/creatures/deer-stalker-of-aruhe.png|Deer-Stalker of Aruhe]]
 
 ## Procedure
 
@@ -89,7 +91,7 @@ This is the session's [[Deer-Stalker]]. The person on watch who heard the run is
 
 ## Zones
 
-| Place | Narrative distance | Cover |
+| Place | Distance from the crew | Cover |
 | --- | --- | --- |
 | Camp on the forest edge | The crew is camped on the forest-edge prints toward the smoke. | Grouped, awake crew here count for Lost Nerve. Sleepers do not count as ready. |
 | Watch post / tree line | The person on watch is apart at the tree line, a few steps from camp. | Isolated. That person is the preferred quarry. |
@@ -98,6 +100,27 @@ This is the session's [[Deer-Stalker]]. The person on watch who heard the run is
 | Inland smoke | The smoke is still ahead up-valley. | The smoke is not reachable on this card. A Dash does not reach it. |
 | Back toward the otter hole / river | The detour behind camp runs toward the slack hole and the river. | Breaking off the trail this way is a rebuild. Do not restage the otter hole. |
 | Hawk sky | Flying up out of this edge is open valley air. | Exposed. Do not restage beat 1. A Dash does not reach the beach, the smoke, or the terraces. |
+
+> [!narration] Camp on the forest edge
+>
+
+> [!narration] Watch post / tree line
+>
+
+> [!narration] Underbrush / kill site
+>
+
+> [!narration] Deeper woods
+>
+
+> [!narration] Inland smoke
+>
+
+> [!narration] Back toward the otter hole / river
+>
+
+> [!narration] Hawk sky
+>
 
 ## Be ready for
 
@@ -131,6 +154,18 @@ The predators' turn happens after everyone has acted, and only if anyone remains
 | 3 | One-person face. The [[Deer-Stalker]] stands for that one person. Wrong movement. It says, "You're not welcome here." Then Claw (+8 to hit, 12 slashing, reach 10 feet, optional Grapple escape DC 14). Switch to combat mode and stop the clock. Do not speak a finished Snatch or haul. |
 | 4 | Group scare. If two or more ready hostiles are within 30 feet of the [[Deer-Stalker]], Lost Nerve forces Dash or Hide away. Silent Retreat if it was hit (Easy: not Famished). The mark stays. Do not start beat 7. |
 
+> [!narration] Tick 1
+>
+
+> [!narration] Tick 2
+>
+
+> [!narration] Tick 3
+>
+
+> [!narration] Tick 4
+>
+
 **Bloodied.** Bloodied is 42 hit points on the [[Deer-Stalker]]. This card has no extra bloodied action. Keep peel and Lost Nerve. Easy stays not Famished.
 
 **Cover reached.** Two ready hostiles within 30 feet, or a grouped awake camp: the [[Deer-Stalker]] breaks contact. The mark stays. A loner in the underbrush or deeper woods is still quarry.
@@ -151,9 +186,18 @@ If they tied themselves and refused to leave camp, it waits. The mark stays unti
 
 If the crew broke off the trail, they are heading back toward the otter hole, the river, the terrace line, the beach, or [[Uncertainty]], or a flyer is in hawk sky, plus any RAW conditions already applied. Rebuild from that. The mark can still sit on the person on watch who heard the run.
 
+> [!narration] Landing
+>
+
 **Crash-landed.** That crew member still has 2d6 bludgeoning already applied and is Prone until they stand.
 
+> [!narration] Crash-landed
+>
+
 **Scattered.** That crew member is still apart until they join up.
+
+> [!narration] Scattered
+>
 
 **Prone.** Anyone knocked down on this watch is Prone until they stand.
 
@@ -166,6 +210,9 @@ Do not run grassland tables, the otter hole, or beat 7's false-help voices here.
 ## Roster
 
 ![[Deer-Stalker#Statblock]]
+
+> [!narration] Deer-Stalker
+>
 
 ![[Deer-Stalker#At the table]]
 

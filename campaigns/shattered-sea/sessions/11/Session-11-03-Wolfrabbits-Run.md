@@ -38,7 +38,7 @@ This beat is thirty minutes.
 
 The crew has just committed off the landing bank onto the first stretch of tall grass and torn crossing. Three [[Wolfrabbit]] are already in the jump at mid-height, between the crew and the upriver prints. The river sits at their backs. A glassy [[Razer-Grass]] island stands in the scour to the side. The smoke is still a thin column on the horizon up-valley, and it does not get closer while this is happening.
 
-### DM truth
+## DM truth
 
 The pack is working this bank because people and blood have already been here. They hit whoever is isolated, bleeding, or standing in the grass. They are not a message.
 
@@ -58,14 +58,10 @@ The pack is working this bank because people and blood have already been here. T
 
 **Compact [[Razer-Grass]].** 1d4 slashing per 5 feet through an intact stand. Careful Passage: one Action, 5 feet with no movement damage. Shatter: DC 14 Dexterity, 7 (2d6) slashing, if a creature falls Prone in it, Dashes through it, is forcibly moved at least 10 feet, or the section is smashed. Do not retype the whole hazard essay.
 
-> [!narration] Narration
-> The prints lead into tall grass that does not lean. That grass breaks first at mid-height, and wolf-sized hunters come through it at torso height, already in the leap. The river sits behind the crew. The upriver trail lies on the far side of those bodies. A white grass island stands in the scour, glitter fixed on the blades. What do you do?
+> [!narration] Initial Narration
+>
 
-**Sound/feel.** The leaps make no sound. Current still tugs at anyone who stayed in the river.
-
-**Smoke.** A thin column still stands on the horizon up-valley if anyone looks past the pack. It does not get closer this slice.
-
-**Pack appearance.** Dark-striped hunting-cat frames, long ears, twitching noses. Handles once the table has seen the traits: Torn-ear (torn left ear), White-blaze (white blaze down the muzzle), Kink-tail (kink in its tail).
+![[attachments/shattered-sea/creatures/wolfrabbit-of-aruhe.png|Wolfrabbit of Aruhe]]
 
 ## Procedure
 
@@ -81,7 +77,7 @@ The pack is working this bank because people and blood have already been here. T
 
 ## Zones
 
-| Place | Narrative distance | Cover |
+| Place | Distance from the crew | Cover |
 | --- | --- | --- |
 | This stretch / tall grass and torn crossing | The crew is here, off the landing bank, still in this river valley. | This grass hides a standing person and is also the pack's jump lane. A runner who stays in this grass is still hunted. |
 | River at their backs | The water they just left sits behind the crew. | Deep water is cover from this pack. The pack holds the bank if the crew goes downstream. |
@@ -91,6 +87,30 @@ The pack is working this bank because people and blood have already been here. T
 | Inland smoke | The smoke is a thin column on the horizon up-valley. It does not get closer this slice. | The smoke is not reachable on this card. |
 | Hawk sky | Flying up out of the grass is open valley air. | Exposed. That crew member leaves this pack. Point at a [[Young Bloodhawk]]. Do not restage beat 1. |
 | Downstream / terrace line / beach / [[Uncertainty]] | Back into the river is toward the terrace line, the beach, and [[Uncertainty]]. | A Dash does not reach the beach, the smoke, or the terraces. |
+
+> [!narration] This stretch / tall grass and torn crossing
+>
+
+> [!narration] River at their backs
+>
+
+> [!narration] Upriver prints
+>
+
+> [!narration] Razer-Grass island
+>
+
+> [!narration] Bank-woods / grass edge
+>
+
+> [!narration] Inland smoke
+>
+
+> [!narration] Hawk sky
+>
+
+> [!narration] Downstream / terrace line / beach / Uncertainty
+>
 
 ## Be ready for
 
@@ -124,6 +144,18 @@ The predators' turn happens after everyone has acted, and only if anyone remains
 | 3 | Dump. A knock-down puts a Prone crew member into the river current or into the [[Razer-Grass]] island in the scour (1d4 slashing per 5 feet; Shatter DC 14 Dexterity, 7 (2d6) slashing if they fall Prone in it). Current speed is unknown; do not invent a push. |
 | 4 | Extra rabbit only if they lingered, claimed living fruit, or burned the grass on this stretch: an unnamed extra [[Wolfrabbit]] joins from the grass. If they did not, the pack still holds this stretch and the smoke does not get closer. Do not invent a named fourth rabbit. Do not start beat 4. |
 
+> [!narration] Tick 1
+>
+
+> [!narration] Tick 2
+>
+
+> [!narration] Tick 3
+>
+
+> [!narration] Tick 4
+>
+
 **Bloodied.** Per-rabbit bloodied is irrelevant. When one [[Wolfrabbit]] dies, survivors frenzy on Hard (Devour the Pack and Frenzy Toward the Fallen). Easy skips Devour the Pack.
 
 **Cover reached.** Deep water or bank-woods: the pack breaks contact with crew who actually reach those places. The pack still chases a runner who stays in the grass on this stretch.
@@ -140,9 +172,18 @@ If the crew went back into the river and downstream, they are in the river headi
 
 If a crew member took open valley air, that crew member is in hawk sky. Point at a [[Young Bloodhawk]]. Do not restage beat 1.
 
+> [!narration] Landing
+>
+
 **Crash-landed.** That crew member still has 2d6 bludgeoning already applied and is Prone until they stand.
 
+> [!narration] Crash-landed
+>
+
 **Scattered.** That crew member is still apart until they join up.
+
+> [!narration] Scattered
+>
 
 **Prone.** Anyone knocked down on this stretch is Prone until they stand.
 
@@ -153,6 +194,9 @@ Do not run grassland tables, the otter hole, or beat 4's fruit piles here. After
 ## Roster
 
 ![[Wolfrabbit#Statblock]]
+
+> [!narration] Wolfrabbit
+>
 
 ![[Wolfrabbit#At the table]]
 

@@ -34,22 +34,22 @@ This beat is thirty minutes.
 - **Silence:** Present the three piles, then wait. If the crew freezes, tick the clock once at the end of the round.
 - **Situation magnets:** Anyone lingering, picking live stems, or fishing this hole.
 
+## Now
+
+The crew is here, on the upriver prints at this camp-in-passing bank. The three piles are in reach on this bank. The crude line sits in the wet mud at this bank. The tracks continue upstream toward the smoke. The smoke is a thin column on the horizon up-valley and is not reachable this slice. A Dash does not reach the smoke, the beach, or the terraces. Downstream runs back through the grass toward the first stretch, the terrace line, the beach, and [[Uncertainty]].
+
 ## DM truth
 
 The group ahead has been living off fruit already down on this bank, and off fish. Picking living bushes is what left the blood. This slice has no named predator.
 
 **Unrevealed:** River fishing can still draw animals later. The evidence on this bank only shows fishing has been working for them so far. Do not start the otter hole. Miles to the smoke are unknown. Do not invent a head count or a new mechanical fruit.
 
-## Action cards
+### Action cards
 
 **[[Aruhe Hunger Rule]] claim.** Fruit already on the ground of this bank is down. Fallen fruit has no blood. Taking only that fruit is not a claim. Ordinary restorative fruit may occur. [[Lion Citrus]] or [[Breathmelon]] already down is enough. Do not invent a new mechanical item. Living stems on this bank still hold fruit. Stems snapped on the living plant with blood in the dirt are the claim already made by someone else. Plucking living bushes on this bank is a claim. On that claim, do not roll grassland tables now. Both later [[Aruhe-River-Grasslands-Tables]] and [[Aruhe-River-Grasslands-Plant-Hazards]] rolls are 2d8 keep the lower number, then pick one row. Free-flowing river water on this bank is drinkable passage. If the crew fishes this hole themselves, treat it as a possible claim when you next roll. Do not start the otter hole. The trail and smoke remain.
 
-> [!narration] Narration
-> Upriver prints cut through wet mud on this river bank, and a camp still sits on them, left in passing. Overripe fruit already lies on the ground, rinds and seeds in a fermenting heap, a citrus peel and a pale green melon among what is down, and that pile has no blood. Living bushes stand beside it with fruit still on the stems. Some of those stems are snapped on the plant, and blood darkens the dirt under the breaks. At the water, fish bones and scales sit beside a crude line stuck in the mud, the line still pointing upstream with the prints. Downstream the valley runs back through the grass. Upstream a thin column of smoke still stands on the horizon. The ferment smell hangs over the wet mud. What do you do?
-
-**Sound/feel.** Ferment smell hangs over the wet mud. Current tugs at anyone who steps to the line.
-
-**Three piles.** Fallen fruit on this bank: rinds, seeds, a citrus peel, a pale green melon, no blood. Living bushes: fruit still on the stem, snapped wood, blood in the dirt. River: fish bones, scales, a crude line pointing upstream with the prints and the smoke.
+> [!narration] Initial Narration
+>
 
 ## Procedure
 
@@ -63,13 +63,28 @@ The group ahead has been living off fruit already down on this bank, and off fis
 
 ## Zones
 
-| Place | Narrative distance | Cover |
+| Place | Distance from the crew | Cover |
 | --- | --- | --- |
 | This bank / three piles | The crew is here, on the upriver prints at this camp-in-passing bank. | The three piles are in reach on this bank. This slice has no named predator. |
 | River at the line | The crude line sits in the wet mud at this bank. | Free-flowing river water is drinkable passage. Fishing this hole is a possible later claim. This is not the otter hole. |
 | Upriver prints | The tracks continue upstream toward the smoke. | Following those prints is the beat 5 handoff. Do not start the otter hole here. |
 | Inland smoke | The smoke is a thin column on the horizon up-valley. It is not reachable this slice. | The smoke is not reachable on this card. A Dash does not reach it. |
 | Downstream valley | Downstream runs back through the grass toward the first stretch, the terrace line, the beach, and [[Uncertainty]]. | Breaking off the trail this way is a rebuild. A Dash does not reach the beach or the terraces. |
+
+> [!narration] This bank / three piles
+>
+
+> [!narration] River at the line
+>
+
+> [!narration] Upriver prints
+>
+
+> [!narration] Inland smoke
+>
+
+> [!narration] Downstream valley
+>
 
 ## Be ready for
 
@@ -101,6 +116,18 @@ The delay turn happens after everyone has acted, and only if anyone remains on t
 | 3 | The smoke is a smear on the horizon. The upriver prints are still here. |
 | 4 | The column is gone. The prints on this bank still run upriver. The smoke is no longer a landmark this slice. |
 
+> [!narration] Tick 1
+>
+
+> [!narration] Tick 2
+>
+
+> [!narration] Tick 3
+>
+
+> [!narration] Tick 4
+>
+
 **Claim made.** Stripping living bushes on this bank is an [[Aruhe Hunger Rule]] claim. Both later tables use 2d8 take lower, then pick one row. Do not roll those tables on this card. Fishing this hole is a possible claim when you next roll. Do not start the otter hole. The trail remains.
 
 **Smoke lost.** If tick 4 fills, the column is gone. The crew can still walk the upriver prints. Hand to beat 5 if they keep the trail, or rebuild if they break.
@@ -115,9 +142,18 @@ If the crew claimed living plants or fished this hole, the cost is already appli
 
 If the crew broke off the trail, they are heading downstream through the valley toward the terrace line, the beach, or [[Uncertainty]], plus any RAW conditions already applied. Rebuild from that.
 
+> [!narration] Landing
+>
+
 **Crash-landed.** That crew member still has 2d6 bludgeoning already applied and is Prone until they stand.
 
+> [!narration] Crash-landed
+>
+
 **Scattered.** That crew member is still apart until they join up.
+
+> [!narration] Scattered
+>
 
 **Prone.** Anyone knocked down on the last stretch is Prone until they stand.
 

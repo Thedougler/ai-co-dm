@@ -34,6 +34,10 @@ This beat is thirty minutes.
 - **Silence:** Present this camp and the two stories, then wait. If the crew freezes, tick the clock once at the end of the round.
 - **Situation magnets:** Anyone forcing a march tonight, attacking this camp, or picking living plants at this fire.
 
+## Now
+
+The crew is at this camp fire. The smoke is this fire. Several people from the Calveno wreck sit here, fewer than the tracks that led here. Already-picked fruit is down by this fire. Living stems around this camp still hang. Trees stand close on every side. The prints run back toward the forest-edge trail. Garden talk points into the woods. A Dash does not reach the garden, the beach, or [[Uncertainty]].
+
 ## DM truth
 
 This camp wants to see the woman's garden. The woman is [[The Blight]] / Hinewai. She is courteous to guests. She is drawing these people inland toward [[The Grove - Death Bloom]], which is still far beyond tonight. These people survived because they followed her rules: fallen fruit, leave the living plants. They are not charmed in a spell sense. They are caught on the invitation.
@@ -42,7 +46,7 @@ This camp wants to see the woman's garden. The woman is [[The Blight]] / Hinewai
 
 [[Talon Skarn]] does not care about the argument. Do not run him on this card.
 
-## Action cards
+### Action cards
 
 **Camp split.** Two stories are already in the talk. One story: a woman in the woods has been whispering, asking them to come admire her garden, telling them where to walk and what not to take. The other story: she is leading them deeper into danger, and anyone who listens is mad. This camp listened. They are alive. They want to see the garden. People who already left this fire, or who argue inside it, hold the second story. Do not invent named survivors.
 
@@ -52,12 +56,8 @@ This camp wants to see the woman's garden. The woman is [[The Blight]] / Hinewai
 
 **Attack is a break.** If someone attacks this camp, stop the clock, lose the prize, and rebuild. Do not invent a statblock. Do not embed a roster. They still have a night watch.
 
-> [!narration] Narration
-> Several people from the Calveno wreck sit at a small fire that is the smoke, fewer than the tracks that led here. They argue in half-voices over a woman in the woods who asked them to come admire her garden and told them where to walk and what not to take. Already-picked fruit lies by the fire. Living stems around the camp still hang. Trees stand close on every side, with the prints running back toward the forest-edge trail and deeper woods opening inland. When the branches stir, the people at the fire look past into the trees. What do you do?
-
-**Sound/feel.** Half-voices at the fire. Woodsmoke.
-
-**Three tells.** The argument is two stories about a woman and a garden. Already-picked fruit sits by the fire while living stems still hang. When the branches stir, the people at the fire look into the trees.
+> [!narration] Initial Narration
+>
 
 ## Procedure
 
@@ -76,7 +76,7 @@ This camp wants to see the woman's garden. The woman is [[The Blight]] / Hinewai
 
 ## Zones
 
-| Place | Narrative distance | Cover |
+| Place | Distance from the crew | Cover |
 | --- | --- | --- |
 | This camp / fire | The crew is here. The smoke is this fire. | The people at the fire and the already-picked fruit are in reach. This slice has no named predator. |
 | Trees around the fire | The trees stand close around this camp. | The people at the fire look this way when the branches stir. Anyone who slips leaves this way. |
@@ -84,6 +84,24 @@ This camp wants to see the woman's garden. The woman is [[The Blight]] / Hinewai
 | Deeper inland | Garden talk points into these woods. | This is not [[The Grove - Death Bloom]]. A Dash does not reach the garden. |
 | Beach / [[Uncertainty]] | Down-valley, past the terrace line. | A forced march tonight is a rebuild. A Dash does not reach [[Uncertainty]]. |
 | Hawk sky | Flying up out of this camp is open valley air. | Exposed. Do not restage beat 1. |
+
+> [!narration] This camp / fire
+>
+
+> [!narration] Trees around the fire
+>
+
+> [!narration] Forest-edge prints behind
+>
+
+> [!narration] Deeper inland
+>
+
+> [!narration] Beach / Uncertainty
+>
+
+> [!narration] Hawk sky
+>
 
 ## Be ready for
 
@@ -120,6 +138,18 @@ The delay turn happens after everyone has acted, and only if anyone remains on t
 | 3 | If the crew is still pushing extract tonight, someone from this camp slips into the trees. If they are staying or playing along, night is close enough to set a watch. |
 | 4 | Night is here. If they forced a march, more people have left this fire for the trees. If they stayed or agreed to see the garden, this is watch setup. Hand to beat 9. Do not run [[Talon Skarn]]. Do not reach [[The Grove - Death Bloom]]. |
 
+> [!narration] Tick 1
+>
+
+> [!narration] Tick 2
+>
+
+> [!narration] Tick 3
+>
+
+> [!narration] Tick 4
+>
+
 **Bloodied.** This slice has no bloodied hit-point number. There is no monster action card.
 
 **Cover reached.** People who slip leave this fire for the trees around the camp, then deeper inland. That is the broken alliance, not a cover endpoint for a hunt.
@@ -146,9 +176,18 @@ If the crew attacked this camp, the prize is gone. They still need a night watch
 
 If the crew left this camp, they are heading back toward the forest-edge trail, the river, the terrace line, the beach, or [[Uncertainty]], or a flyer is in hawk sky, plus any RAW conditions already applied. Rebuild from that. The mark can still sit on the locked quarry.
 
+> [!narration] Landing
+>
+
 **Crash-landed.** That crew member still has 2d6 bludgeoning already applied and is Prone until they stand.
 
+> [!narration] Crash-landed
+>
+
 **Scattered.** That crew member is still apart until they join up.
+
+> [!narration] Scattered
+>
 
 **Prone.** Anyone knocked down at this camp is Prone until they stand.
 

@@ -34,13 +34,17 @@ This beat is thirty minutes.
 - **Silence:** Present the stoop on this pair, then wait. If the crew freezes, tick the clock once at the end of the round.
 - **Situation magnets:** [[Crissdalynn Khinriss]]. The watch partner. Anyone between [[Talon Skarn]] and her. Anyone who shows the [[Fate Spinner]].
 
+## Now
+
+[[Crissdalynn Khinriss]] and one other stand the watch at this fire's edge. The rest of the camp sleeps at this fire. [[Talon Skarn]] stoops this pair, not the camp at large. Walk 50 feet, fly 90 feet. Skysplitter Dagger reach is 5 feet. Stoop is fly up to 90 feet, then fly up to 90 feet away. Windshear Retreat adds 30 feet of fly that turn. A Dash of 30 feet or 60 feet from the ground does not catch fly 90. Trees stand close around this fire. Open sky sits above it.
+
 ## DM truth
 
 This is a theft. [[Talon Skarn]] followed the ship from the disabled hunter. [[Talon Skarn]] picked this watch because [[Crissdalynn Khinriss]] is the carrier. [[Talon Skarn]] knows the [[Fate Spinner]] is on her. [[Talon Skarn]] does not know which pouch, wrap, or hand. [[Talon Skarn]] will almost surely get the attempt off. [[Talon Skarn]] will almost surely get disrupted before he leaves with it.
 
 **Unrevealed:** Do not play [[Talon Skarn]]'s business with [[Talon Vantyrus]]. Do not name the [[Fate Spinner]] in the Open unless it is already in view. Lore comes from what [[Talon Skarn]] does, not from a speech. Voice is unknown. Do not invent a line.
 
-## Action cards
+### Action cards
 
 **One [[Talon Skarn]] on this watch.** Combat / theft mode is the default. Escape-to-sky is [[Talon Skarn]]'s win condition. This is not a TPK. Do not spawn a second flier. Do not play [[Talon Vantyrus]].
 
@@ -54,14 +58,8 @@ This is a theft. [[Talon Skarn]] followed the ship from the disabled hunter. [[T
 
 **Abort.** After the attempt, grab or no grab, [[Talon Skarn]] goes for sky. Do not linger into a speech. Do not add [[Talon Vantyrus]] or [[The Grove - Death Bloom]].
 
-> [!narration] Narration
-> Second night at the small fire. Crissdalynn and one other stand the watch while the rest of the camp sleeps by the coals. A shadow drops on that pair, not on the fire. A lean peregrine is already on her, looking at her hands and hips, not her face. A thin whistle of wind follows the drop as his talons go for a strap on her. Trees stand close around this fire, and open sky sits above it. What do you do?
-
-**Sound/feel.** A thin whistle of wind on the drop.
-
-**Three tells.** [[Talon Skarn]] stoops this pair, not the camp at large. [[Talon Skarn]] looks at [[Crissdalynn Khinriss]]'s hands and hips, not her face. [[Talon Skarn]] cuts a strap and gear before he cuts a throat, and ignores the sleepers.
-
-**Appearance.** About five feet tall, knife-folded, blue-grey crest flattened by the dive, a black stripe through amber eyes, a notch in the left primary, twin daggers in reverse grip.
+> [!narration] Initial Narration
+>
 
 ## Procedure
 
@@ -80,7 +78,7 @@ This is a theft. [[Talon Skarn]] followed the ship from the disabled hunter. [[T
 
 ## Zones
 
-| Place | Narrative distance | Cover |
+| Place | Distance from the crew | Cover |
 | --- | --- | --- |
 | This watch / pair | [[Crissdalynn Khinriss]] and one other stand here, at this fire's edge. | [[Talon Skarn]] stoops this pair, not the camp at large. Skysplitter Dagger reach is 5 feet. |
 | This fire / sleepers | The rest of the camp is at this fire. | Shouting, running survivors, and a fire kicked over are cover for [[Talon Skarn]], not for the watch. |
@@ -88,6 +86,24 @@ This is a theft. [[Talon Skarn]] followed the ship from the disabled hunter. [[T
 | Open valley air | [[Talon Skarn]]'s stoop is fly 90 feet, then fly 90 feet away. Windshear Retreat adds 30 feet of fly that turn. | This is [[Talon Skarn]]'s exit. A Dash of 30 feet or 60 feet from the ground does not catch fly 90. |
 | Beach / [[Uncertainty]] | Down-valley, past the terrace line. | A Dash does not reach [[Uncertainty]]. |
 | Deeper inland | Garden talk from beat 8 still points into these woods. | This is not [[The Grove - Death Bloom]]. A Dash does not reach the garden. |
+
+> [!narration] This watch / pair
+>
+
+> [!narration] This fire / sleepers
+>
+
+> [!narration] Trees around this fire
+>
+
+> [!narration] Open valley air
+>
+
+> [!narration] Beach / Uncertainty
+>
+
+> [!narration] Deeper inland
+>
 
 ## Be ready for
 
@@ -123,6 +139,18 @@ The steal turn happens after everyone has acted, and only if [[Talon Skarn]] is 
 | 3 | Watch partner. If the second watcher hits [[Talon Skarn]], he spends this beat on that person only long enough to make the grab possible again. He does not switch to killing the camp. He almost surely gets disrupted before he leaves with the [[Fate Spinner]]. |
 | 4 | Sky. [[Talon Skarn]] uses Windshear Retreat (Disengage or Dash, fly +30 feet that turn) and goes for open valley air, with or without the [[Fate Spinner]]. If he is grounded, he still plays the steal, then sky. The watch has answered. The night cuts. |
 
+> [!narration] Tick 1
+>
+
+> [!narration] Tick 2
+>
+
+> [!narration] Tick 3
+>
+
+> [!narration] Tick 4
+>
+
 **Bloodied 48 HP.** [[Talon Skarn]] still plays the steal, then goes for sky. This is not a TPK.
 
 **Cover reached.** Open valley air is [[Talon Skarn]]'s exit. Trees around this fire are not cover from him if that crew member is between him and [[Crissdalynn Khinriss]]. A messy camp is cover for him.
@@ -145,9 +173,18 @@ If [[Talon Skarn]] leaves with the [[Fate Spinner]], the [[Fate Spinner]] is in 
 
 If [[Talon Skarn]] is grounded and the crew keeps hitting, still end here. [[Talon Skarn]] still played the steal. Do not add [[Talon Vantyrus]] or [[The Grove - Death Bloom]].
 
+> [!narration] Landing
+>
+
 **Crash-landed.** That crew member still has 2d6 bludgeoning already applied and is Prone until they stand.
 
+> [!narration] Crash-landed
+>
+
 **Scattered.** That crew member is still apart until they join up.
+
+> [!narration] Scattered
+>
 
 **Prone.** Anyone knocked down at this watch is Prone until they stand.
 
@@ -160,6 +197,9 @@ Do not run grassland tables, the [[Deer-Stalker]], [[Talon Vantyrus]], or [[The 
 ## Roster
 
 ![[Talon Skarn#Statblock]]
+
+> [!narration] Talon Skarn
+>
 
 ![[Talon Skarn#At the table]]
 

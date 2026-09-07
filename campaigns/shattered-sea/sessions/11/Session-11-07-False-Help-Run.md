@@ -34,13 +34,17 @@ This beat is thirty minutes.
 - **Silence:** Present the prints versus the voices, then wait. If the crew freezes, tick the clock once at the end of the round.
 - **Situation magnets:** Anyone walking toward the voices alone. The locked quarry if isolated. Anyone off the trail apart from the group.
 
+## Now
+
+The crew starts on the forest-edge trail. The prints keep to this line toward the smoke. The smoke shows nearer through the trees. Help-calls come from off the path, downslope in the woods. Trees and underbrush close both sides of the line. The [[Deer-Stalker]] has speed 40 feet and climb 20 feet. Lost Nerve is two ready hostiles within 30 feet. A Dash does not reach the farthest camp, the beach, or the terraces.
+
 ## DM truth
 
 The help is this [[Deer-Stalker]]. It watched the inland group and can copy their mouths. The real survivors are still at the smoke. It wants the locked quarry, or whoever walks toward the voices alone.
 
 **Unrevealed:** It does not attack at the start of this beat. The face line is the island's law coming out of an animal. It is not a conversation.
 
-## Action cards
+### Action cards
 
 **One [[Deer-Stalker]] on Easy.** It is not Famished unless beat 6 already set Famished or Hard. Do not spawn a second. Do not roll [[Aruhe-River-Grasslands-Tables]] row 6 here. Keep any hit points already lost in beat 6.
 
@@ -62,16 +66,14 @@ The help is this [[Deer-Stalker]]. It watched the inland group and can copy thei
 
 **Abort.** Two ready hostiles within 30 feet scare it off for now. The mark stays. It waits for a split. It will not walk [[Razer-Grass]].
 
-> [!narration] Narration
-> Morning light sits on the forest-edge trail. The prints keep to this line, heading for the smoke that now shows nearer through the trees. Off the path, downslope in the woods, people are calling for help in voices that sound like whoever left these prints. The calls stay off the trail. Trees and underbrush close both sides of the line. What do you do?
-
-**Sound/feel.** Help-calls come from downslope, off the trail.
-
-**Three tells.** The smoke is nearer through the trees. The prints keep to the edge toward that smoke. Help-calls stay off the line and sound like the people who left these prints.
-
-**One-person face.** Speak this only when one person has walked to the voices, then roll. The body comes to that one person. The legs move as if something else is placing them. It says, "You're not welcome here." Do not put island law on the line. Do not speak a finished Snatch or haul.
+**One-person face.** Speak this only when one person has walked to the voices, then roll. It says, "You're not welcome here." Do not put island law on the line. Do not speak a finished Snatch or haul.
 
 **Already fought.** If they already fought this [[Deer-Stalker]] in beat 6, speak the Open voices once. If anyone walks toward them, the voices move and die off. Do not speak the face. Do not switch to combat mode.
+
+> [!narration] Initial Narration
+>
+
+![[attachments/shattered-sea/creatures/deer-stalker-of-aruhe.png|Deer-Stalker of Aruhe]]
 
 ## Procedure
 
@@ -92,7 +94,7 @@ The help is this [[Deer-Stalker]]. It watched the inland group and can copy thei
 
 ## Zones
 
-| Place | Narrative distance | Cover |
+| Place | Distance from the crew | Cover |
 | --- | --- | --- |
 | Edge-trail / prints | The crew starts here, on the forest-edge trail. The prints keep to this line toward the smoke. | Grouped crew here count for Lost Nerve. Staying on this line is the walk-on. |
 | Off-trail / downslope woods | The help-calls come from here, off the path, downslope or deeper in the woods. | Isolated. Foliage. The [[Deer-Stalker]] Hides here. One person who reaches this place gets the face, unless they already fought in beat 6. |
@@ -100,6 +102,24 @@ The help is this [[Deer-Stalker]]. It watched the inland group and can copy thei
 | Inland smoke | The smoke shows nearer through the trees. | The farthest camp is not reachable on this card. A Dash does not reach it. |
 | Back toward the night camp / otter hole | Behind the crew, the detour runs toward last night's camp, the slack hole, and the river. | Breaking off the trail this way is a rebuild. Do not restage the night watch or the otter hole. |
 | Hawk sky | Flying up out of this edge is open valley air. | Exposed. Do not restage beat 1. A Dash does not reach the beach, the smoke, or the terraces. |
+
+> [!narration] Edge-trail / prints
+>
+
+> [!narration] Off-trail / downslope woods
+>
+
+> [!narration] Deeper woods
+>
+
+> [!narration] Inland smoke
+>
+
+> [!narration] Back toward the night camp / otter hole
+>
+
+> [!narration] Hawk sky
+>
 
 ## Be ready for
 
@@ -134,6 +154,18 @@ The predators' turn happens after everyone has acted, and only if anyone remains
 | 3 | One-person face. If one person is off the trail at the voices and you have not already resolved the face in Be ready for, the [[Deer-Stalker]] stands for that one person. Wrong movement. It says, "You're not welcome here." Then Claw (+8 to hit, 12 slashing, reach 10 feet, optional Grapple escape DC 14). Switch to combat mode and stop the clock. Do not speak a finished Snatch or haul. Skip this tick if they already fought in beat 6. |
 | 4 | Group scare. If two or more ready hostiles are within 30 feet of the [[Deer-Stalker]], Lost Nerve forces Dash or Hide away. The voices move and die off. Silent Retreat if it was hit (Easy: not Famished, unless beat 6 already set Famished). The mark stays. They can return to the prints. Do not start beat 8's camp. |
 
+> [!narration] Tick 1
+>
+
+> [!narration] Tick 2
+>
+
+> [!narration] Tick 3
+>
+
+> [!narration] Tick 4
+>
+
 **Bloodied.** Bloodied is 42 hit points on the [[Deer-Stalker]], or half of whatever hit points remain from beat 6. This card has no extra bloodied action. Keep peel and Lost Nerve. Easy stays not Famished unless beat 6 already set Famished or Hard.
 
 **Cover reached.** Two ready hostiles within 30 feet, a whole-party answer, or a tied knot: the [[Deer-Stalker]] breaks contact. The mark stays. A loner off the trail is still quarry.
@@ -156,9 +188,18 @@ If they already fought in beat 6, the voices played once as a test and there was
 
 If the crew broke off the trail, they are heading back toward the night camp, the otter hole, the river, the terrace line, the beach, or [[Uncertainty]], or a flyer is in hawk sky, plus any RAW conditions already applied. Rebuild from that. The mark can still sit on the locked quarry.
 
+> [!narration] Landing
+>
+
 **Crash-landed.** That crew member still has 2d6 bludgeoning already applied and is Prone until they stand.
 
+> [!narration] Crash-landed
+>
+
 **Scattered.** That crew member is still apart until they join up.
+
+> [!narration] Scattered
+>
 
 **Prone.** Anyone knocked down on this trail is Prone until they stand.
 
@@ -171,6 +212,9 @@ Do not run grassland tables, the night watch, or the farthest camp here. After t
 ## Roster
 
 ![[Deer-Stalker#Statblock]]
+
+> [!narration] Deer-Stalker
+>
 
 ![[Deer-Stalker#At the table]]
 

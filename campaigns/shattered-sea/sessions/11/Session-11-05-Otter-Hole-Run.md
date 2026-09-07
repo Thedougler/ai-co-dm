@@ -34,13 +34,17 @@ This beat is thirty minutes.
 - **Silence:** Present this hole, then wait. Watching from this bank does not start Hunt.
 - **Situation magnets:** Anyone in this hole, fishing, pulling a body, or attacking from this bank.
 
+## Now
+
+The crew is on the upriver prints at this slack hole. A pack, clothing, and a body sit in this water with two [[Aruhe River Otter]]. Blood and living prints leave this water into the grass and the forest edge around this hole. The smoke is a thin column still ahead up-valley. A Dash does not reach the smoke, the beach, or the terraces. The otters have speed 20 feet, swim 40 feet, and Tail reach 10 feet. They do not chase far overland.
+
 ## DM truth
 
 This family owns this section. Some of the inland group tried to pass through it and died. The rest climbed out and detoured the long way along the grassland forest edge.
 
 **Unrevealed:** The otters treat anything in this hole as food or toy. They do not start this beat at a full charge. They will Hunt if someone wades in, fishes, or pulls a body.
 
-## Action cards
+### Action cards
 
 **Two [[Aruhe River Otter]] Hunt adults on Easy.** Tables use two Hunt adults. A family of four to six is ecology, not this card's default. Do not spawn extra otters here.
 
@@ -56,14 +60,8 @@ This family owns this section. Some of the inland group tried to pass through it
 
 **[[Aruhe Hunger Rule]].** Drinking from this bank without entering this hole is not a claim and is not Hunt. Fishing this hole is Hunt, and it is a possible claim when you next roll. Carrying flesh from this hole is a claim. Do not invent pack contents.
 
-> [!narration] Narration
-> A pack, a sleeve, and a body turn in slack water on this stretch, still in the hole when the current should have taken them. Two twelve-foot chocolate-black otters move through those remains. Blood smears the bank up out of the river, and prints leave the water there and cut into the grass and the forest edge, around this stretch. Upstream the smoke is still a thin column. What do you do?
-
-**Sound/feel.** Slack water on this stretch. Blood on the bank.
-
-**Three tells.** A pack, clothing, and a body sit in slack water with two [[Aruhe River Otter]]. A blood smear climbs this bank out of the river. Living prints leave this water and cut into the grass and the forest edge around this hole. The smoke is still ahead.
-
-**Otter appearance.** Chocolate-black, twelve feet, pale throat marks. Handles once the table has seen the marks: pale bib, thin streak.
+> [!narration] Initial Narration
+>
 
 ## Procedure
 
@@ -81,7 +79,7 @@ This family owns this section. Some of the inland group tried to pass through it
 
 ## Zones
 
-| Place | Narrative distance | Cover |
+| Place | Distance from the crew | Cover |
 | --- | --- | --- |
 | This hole / slack water | The crew is on the upriver prints at this slack hole. | This hole holds the remains and two [[Aruhe River Otter]]. Entering this water is participating. A Dash does not cross the valley. |
 | This bank / blood smear | The smear climbs out of the river onto this bank. | Watching from this bank is fine. Attacking from this bank lets the otters close or wait under a body. |
@@ -90,6 +88,27 @@ This family owns this section. Some of the inland group tried to pass through it
 | Downstream valley | Downstream runs back through the grass toward the first stretch, the terrace line, the beach, and [[Uncertainty]]. | Breaking off the trail this way is a rebuild. A Dash does not reach the beach or the terraces. |
 | Hawk sky | Flying up out of this stretch is open valley air. | Exposed. Do not restage beat 1. |
 | [[Razer-Grass]] | This stretch has no mapped razer island. | The otters do not haul out onto [[Razer-Grass]]. |
+
+> [!narration] This hole / slack water
+>
+
+> [!narration] This bank / blood smear
+>
+
+> [!narration] Grass and forest edge
+>
+
+> [!narration] Inland smoke
+>
+
+> [!narration] Downstream valley
+>
+
+> [!narration] Hawk sky
+>
+
+> [!narration] Razer-Grass
+>
 
 ## Be ready for
 
@@ -124,6 +143,18 @@ The Hunt turn happens after everyone has acted, and only if anyone remains on th
 | 3 | Watery Ambush. The second [[Aruhe River Otter]] is within 10 feet of that target in this water and has advantage on attack rolls. They can wait under a dragged body. |
 | 4 | Hold this hole. The otters do not chase far overland. They do not haul out onto [[Razer-Grass]]. They can wait under a body. Do not start beat 6. |
 
+> [!narration] Tick 1
+>
+
+> [!narration] Tick 2
+>
+
+> [!narration] Tick 3
+>
+
+> [!narration] Tick 4
+>
+
 **Bloodied.** Bloodied is 38 hit points on an [[Aruhe River Otter]]. This card has no extra bloodied action. Keep Hunt.
 
 **Cover reached.** Grass and forest edge, or other overland: that [[Aruhe River Otter]] breaks contact with crew who actually leave this hole. They do not chase far overland.
@@ -140,9 +171,18 @@ If the crew fought or looted in this hole and then left, they are still toward t
 
 If the crew broke off the trail, they are heading downstream through the valley toward the terrace line, the beach, or [[Uncertainty]], or a flyer is in hawk sky, plus any RAW conditions already applied. Rebuild from that.
 
+> [!narration] Landing
+>
+
 **Crash-landed.** That crew member still has 2d6 bludgeoning already applied and is Prone until they stand.
 
+> [!narration] Crash-landed
+>
+
 **Scattered.** That crew member is still apart until they join up.
+
+> [!narration] Scattered
+>
 
 **Prone.** Anyone knocked down on this stretch is Prone until they stand.
 
@@ -155,6 +195,9 @@ Do not run grassland tables, night watch, or the deer-stalker here. After this h
 ## Roster
 
 ![[Aruhe River Otter#Statblock]]
+
+> [!narration] Aruhe River Otter
+>
 
 ![[Aruhe River Otter#At the table]]
 

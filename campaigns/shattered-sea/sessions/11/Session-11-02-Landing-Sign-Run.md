@@ -36,9 +36,9 @@ This beat is thirty minutes.
 
 ## Now
 
-The crew is in moving water and eight-foot grass on this river-valley bank, or crash-landed or scattered in Terrace woods. Prints, a scraped fire patch, dropped kit, fruit already picked and left, and feet heading upriver along this valley already show on this same bank. A thin column of smoke still stands on the horizon upstream in this same valley. Downstream, the old terraces still run back toward the beach and [[Uncertainty]].
+The crew is in moving water and eight-foot grass on this river-valley bank, or crash-landed or scattered in Terrace woods. If crash-landed, that crew member starts Prone in Terrace woods, above and behind this bank on the terrace line. Prints, a scraped fire patch, dropped kit, fruit already picked and left, and feet heading upriver along this valley already show on this same bank. A thin column of smoke still stands on the horizon upstream in this same valley. Downstream, the old terraces still run back toward the beach and [[Uncertainty]].
 
-### DM truth
+## DM truth
 
 A group of raid survivors already moved on from this bank toward the smoke in this valley, and this slice has no named predator.
 
@@ -48,14 +48,8 @@ A group of raid survivors already moved on from this bank toward the smoke in th
 
 **[[Aruhe Hunger Rule]] claim.** Fruit skins and fruit already on the ground of this bank are down. Living stems still hold fruit. Taking what is already down is not a claim. Plucking living plants on this bank is a claim. Free-flowing river water on this bank is drinkable passage. On a claim, do not roll grassland tables now. Both later [[Aruhe-River-Grasslands-Tables]] and [[Aruhe-River-Grasslands-Plant-Hazards]] rolls are 2d8 keep the lower number, then pick one row. The trail and smoke remain.
 
-> [!narration] Narration
-> Eight-foot grass and moving river water hold this valley bank, blades high enough to hide a standing person while the current tugs at the mud. Prints and a scraped fire patch already mark the wet earth, a dropped kit beside them, fruit skins and loose fruit on the ground next to living stems that still hang with fruit. A line of feet follows the river inland up this valley. Above and behind the bank the old terrace woods run back toward the beach and the ship, garden and mangrove and stone, and the air over the grass is open. Upstream in this same valley a thin column of smoke still stands on the horizon. What do you do?
-
-**Sound/feel.** Current tugs at the bank. Wet mud underfoot. Grass rasps as it closes around the stems.
-
-**Bank / sign appearance.** Prints mark the mud. A scraped fire patch sits in the stems. A dropped kit lies on this bank. Fruit skins and loose fruit are already down. Living fruit still hangs on stems beside what is on the ground.
-
-If crash-landed, that crew member starts Prone in Terrace woods, above and behind this bank on the terrace line.
+> [!narration] Initial Narration
+>
 
 ## Procedure
 
@@ -76,6 +70,21 @@ If crash-landed, that crew member starts Prone in Terrace woods, above and behin
 | Upriver prints | The prints head inland up this valley toward the smoke. Committing to follow them is the beat 3 handoff. | Following that trail is beat 3. Do not start that fight here. |
 | Inland smoke | The smoke is a thin column on the horizon upstream in this same valley. It is not reachable this slice. | The smoke is not reachable on this card. |
 | Downstream terraces / beach / [[Uncertainty]] | Downstream is a return through the old terraces to the beach and [[Uncertainty]]. | That route is exposed if a crew member takes open valley air. |
+
+> [!narration] This bank / grass and river
+>
+
+> [!narration] Terrace woods
+>
+
+> [!narration] Upriver prints
+>
+
+> [!narration] Inland smoke
+>
+
+> [!narration] Downstream terraces / beach / Uncertainty
+>
 
 ## Be ready for
 
@@ -106,6 +115,18 @@ The delay turn happens after everyone has acted, and only if anyone remains on t
 | 3 | The smoke is a smear on the horizon. The trail on this bank is going cold. |
 | 4 | The column is gone. The prints on this bank are no longer a followable line. |
 
+> [!narration] Tick 1
+>
+
+> [!narration] Tick 2
+>
+
+> [!narration] Tick 3
+>
+
+> [!narration] Tick 4
+>
+
 **Cover reached.** Remaining in eight-foot grass and moving water on this bank keeps the adult [[Bloodhawk]] off this slice. Taking open valley air is hawk sky. Point at a [[Young Bloodhawk]]. Do not restage beat 1.
 
 **Claim made.** Picking living fruit on this bank is an [[Aruhe Hunger Rule]] claim. Both later tables use 2d8 take lower, then pick one row. Do not roll those tables on this card. The trail and smoke remain.
@@ -120,9 +141,18 @@ If the crew follows the prints, they have committed to the upriver trail along t
 
 If the crew broke, they are returning through the terrace line toward the beach or [[Uncertainty]], plus any RAW conditions already applied.
 
+> [!narration] Landing
+>
+
 **Scattered.** That crew member is still apart in the grass or Terrace woods until they join up.
 
+> [!narration] Scattered
+>
+
 **Crash-landed.** That crew member still has 2d6 bludgeoning already applied and is Prone until they stand.
+
+> [!narration] Crash-landed
+>
 
 ## Backup
 
