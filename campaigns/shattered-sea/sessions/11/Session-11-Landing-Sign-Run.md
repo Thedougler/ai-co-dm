@@ -58,10 +58,11 @@ Walking downstream is a return through the terrace line to the beach and [[Uncer
 
 The crew is in moving water and eight-foot grass on this river-valley bank, or crash-landed or scattered in Terrace woods. Prints, a scraped fire patch, dropped kit, fruit already picked and left, and feet heading upriver along this valley already show on this same bank. A thin column of smoke still stands on the horizon upstream in this same valley. Downstream, the old terraces still run back toward the beach and [[Uncertainty]].
 
-> [!secret] DM truth
-> A group of raid survivors already moved on from this bank toward the smoke in this valley, and this slice has no named predator.
->
-> **Unrevealed:** How many people are left is unknown. Whether the fruit on this bank was found loose or picked as a claim is unknown. Contents of the dropped kit are unknown. Do not invent a head count, miles to the smoke, or a Hunger Rule verdict on the fruit already here.
+### DM truth
+
+A group of raid survivors already moved on from this bank toward the smoke in this valley, and this slice has no named predator.
+
+**Unrevealed:** How many people are left is unknown. Whether the fruit on this bank was found loose or picked as a claim is unknown. Contents of the dropped kit are unknown. Do not invent a head count, miles to the smoke, or a Hunger Rule verdict on the fruit already here.
 
 ### Action cards
 
@@ -76,18 +77,19 @@ The crew is in moving water and eight-foot grass on this river-valley bank, or c
 
 If crash-landed, that crew member starts Prone in Terrace woods, above and behind this bank on the terrace line.
 
-> [!mechanic] Procedure
-> **Development mode** is the default. This is not escape mode.
->
-> Players declare and resolve turns, checks, and movement as normal.
->
-> Failures impose the Be ready for ruling only. Failures never advance the threat clock.
->
-> After everyone has acted, if anyone remains on the magnets (lingering, claiming, making noise, or ignoring the trail while the smoke is up), advance the threat clock once and resolve that tick.
->
-> Freeze or "we watch" ticks once at the end of the round, not per failed check.
->
-> Several failed checks in one round still produce one tick.
+## Procedure
+
+**Development mode** is the default. This is not escape mode.
+
+Players declare and resolve turns, checks, and movement as normal.
+
+Failures impose the Be ready for ruling only. Failures never advance the threat clock.
+
+After everyone has acted, if anyone remains on the magnets (lingering, claiming, making noise, or ignoring the trail while the smoke is up), advance the threat clock once and resolve that tick.
+
+Freeze or "we watch" ticks once at the end of the round, not per failed check.
+
+Several failed checks in one round still produce one tick.
 
 ## Zones
 
@@ -117,23 +119,24 @@ If crash-landed, that crew member starts Prone in Terrace woods, above and behin
 
 Unforeseen intents use the same want: the raid survivors already moved on toward the smoke, and delay is the pressure. Rule from zones, the clock, and whether the approach lingers, claims living plants, makes noise, or walks downstream toward open beach and hawk sky.
 
-> [!mechanic] Threat clock
-> The delay turn happens after everyone has acted, and only if anyone remains on the magnets. Table failures do not also tick.
->
-> | Tick | What happens |
-> | --- | --- |
-> | 1 | The thin column of smoke thins. River water starts to fill the prints on this bank. |
-> | 2 | The fire scrape on this bank is cold. The upriver feet are harder to pick out where the eight-foot grass closes. |
-> | 3 | The smoke is a smear on the horizon. The trail on this bank is going cold. |
-> | 4 | The column is gone. The prints on this bank are no longer a followable line. |
->
-> **Cover reached.** Remaining in eight-foot grass and moving water on this bank keeps the adult [[Bloodhawk]] off this slice. Taking open valley air is hawk sky. Point at a [[Young Bloodhawk]]. Do not restage beat 1.
->
-> **Claim made.** Picking living fruit on this bank is an [[Aruhe Hunger Rule]] claim. Both later tables use 2d8 take lower, then pick one row. Do not roll those tables on this card. The trail and smoke remain.
->
-> **Smoke lost.** If tick 4 fills, the column is gone and the prints on this bank are cold. The crew can still walk upriver. Hand to beat 3 if they commit, or rebuild if they break for the ship.
->
-> Do not spawn wolfrabbits, otters, or table rows on this clock.
+## Threat clock
+
+The delay turn happens after everyone has acted, and only if anyone remains on the magnets. Table failures do not also tick.
+
+| Tick | What happens |
+| --- | --- |
+| 1 | The thin column of smoke thins. River water starts to fill the prints on this bank. |
+| 2 | The fire scrape on this bank is cold. The upriver feet are harder to pick out where the eight-foot grass closes. |
+| 3 | The smoke is a smear on the horizon. The trail on this bank is going cold. |
+| 4 | The column is gone. The prints on this bank are no longer a followable line. |
+
+**Cover reached.** Remaining in eight-foot grass and moving water on this bank keeps the adult [[Bloodhawk]] off this slice. Taking open valley air is hawk sky. Point at a [[Young Bloodhawk]]. Do not restage beat 1.
+
+**Claim made.** Picking living fruit on this bank is an [[Aruhe Hunger Rule]] claim. Both later tables use 2d8 take lower, then pick one row. Do not roll those tables on this card. The trail and smoke remain.
+
+**Smoke lost.** If tick 4 fills, the column is gone and the prints on this bank are cold. The crew can still walk upriver. Hand to beat 3 if they commit, or rebuild if they break for the ship.
+
+Do not spawn wolfrabbits, otters, or table rows on this clock.
 
 ## Landing
 
