@@ -49,13 +49,17 @@ The group ahead has been living off fruit already down on this bank, and off fis
 **[[Aruhe Hunger Rule]] claim.** Fruit already on the ground of this bank is down. Fallen fruit has no blood. Taking only that fruit is not a claim. Ordinary restorative fruit may occur. [[Lion Citrus]] or [[Breathmelon]] already down is enough. Do not invent a new mechanical item. Living stems on this bank still hold fruit. Stems snapped on the living plant with blood in the dirt are the claim already made by someone else. Plucking living bushes on this bank is a claim. On that claim, do not roll grassland tables now. Both later [[Aruhe-River-Grasslands-Tables]] and [[Aruhe-River-Grasslands-Plant-Hazards]] rolls are 2d8 keep the lower number, then pick one row. Free-flowing river water on this bank is drinkable passage. If the crew fishes this hole themselves, treat it as a possible claim when you next roll. Do not start the otter hole. The trail and smoke remain.
 
 > [!narration] Initial Narration
-> You feel wet mud underfoot on this river bank, still on the upriver prints. Gold-green grass leans at the waterline. You hear the river work those stems. Three piles sit in reach on this same dirt.
+> Wet mud takes your weight on this bank, where the upriver prints pass through. Gold-green grass leans into the water, and the river worries those stems while three piles wait within reach.
 >
-> You smell fermenting fruit already down: rinds, seeds, a fist-sized citrus in a tawny pelt-rough rind, a pale green melon with a rind dimpled in two rounded lobes. No blood sits under that ground pile. Living bushes stand beside it with fruit still hanging. Other stems on those same living plants are snapped, and blood darkens the dirt under the breaks.
+> The first pile smells sweet and sour, fruit already fallen: rinds, seeds, a fist-sized citrus in a tawny, pelt-rough skin, and a pale green melon pinched into two lobes. The dirt under that pile is clean. Beside it, living bushes still hold fruit, but snapped stems hang over mud darkened with blood.
 >
-> A crude line lies in the wet mud at the river, fish bones and scales beside it, still aimed upstream. You see the prints keep that heading toward a thin column of smoke on the horizon up-valley. Downstream the grass runs back toward the terrace line, the beach, and Uncertainty. The smoke stays that far.
+> At the river, a crude line lies in wet mud with fish bones and loose scales beside it, still pointed upstream. The prints follow that heading toward a thin column of smoke on the up-valley horizon. Downstream, the grass runs back toward the terrace line, the beach, and Uncertainty, while the smoke remains out of reach.
 >
 > What do you do?
+
+## Battlemap
+
+![[attachments/shattered-sea/battlemaps/session-11-04-what-they-ate-base.png|Session 11-04 What They Ate battlemap]]
 
 ## Procedure
 
@@ -78,19 +82,19 @@ The group ahead has been living off fruit already down on this bank, and off fis
 | Downstream valley | Downstream runs back through the grass toward the first stretch, the terrace line, the beach, and [[Uncertainty]]. | Breaking off the trail this way is a rebuild. A Dash does not reach the beach or the terraces. |
 
 > [!narration] This bank / three piles
-> The three piles sit in reach. You smell the ground fruit going soft, rinds and seeds, and no blood under it. Living fruit still hangs, and blood sits only under the snapped stems on the living plant.
+> The three piles sit close enough to touch. Fallen fruit slumps sweet and sour among rinds and seeds with clean mud underneath, while blood marks only snapped stems on fruiting bushes.
 
 > [!narration] River at the line
-> You feel the current at this bank. A crude line lies in the wet mud with fish bones and scales, still aimed upstream. Clear water runs past, cold enough to drink as it moves.
+> The current pulls steadily along this bank. A crude line lies in the wet mud among fish bones and silver scales, angled upstream, and clear cold water keeps moving past it.
 
 > [!narration] Upriver prints
-> The line of feet leaves this bank and keeps going upriver through the grass. You hear the river still working beside that track. Those prints run toward the smoke.
+> The prints leave this bank and press upriver through the grass. The river keeps talking beside the track, and the line of feet points toward the smoke.
 
 > [!narration] Inland smoke
-> A thin column of smoke stands on the horizon up-valley. You feel the same wind tug the top of it. From this bank it stays that far.
+> A thin column of smoke stands on the up-valley horizon. Wind tugs its top sideways, but from this bank it stays a distant mark.
 
 > [!narration] Downstream valley
-> Downstream the grass opens back toward the terrace line, the beach, and Uncertainty. You smell wet bank and sun-warmed stems that way. The beach and terraces stay out of a hard run from here.
+> Downstream, the grass opens back toward the terrace line, the beach, and Uncertainty. Wet bank and sun-warmed stems carry that way, but the beach and terraces remain beyond even a hard run.
 
 ## Be ready for
 
@@ -123,16 +127,16 @@ The delay turn happens after everyone has acted, and only if anyone remains on t
 | 4 | The column is gone. The prints on this bank still run upriver. The smoke is no longer a landmark this slice. |
 
 > [!narration] Tick 1
-> You see the column of smoke on the horizon grow thinner while these three piles sit on this bank. You smell the fermenting fruit still on the dirt.
+> The smoke on the horizon thins while the three piles wait on this bank. The fallen fruit keeps breathing its sweet rot from the dirt.
 
 > [!narration] Tick 2
-> You smell the ground fruit going softer, rinds splitting. Living bushes still hang with fruit. The column is thinner.
+> The fallen fruit softens in mud, rinds splitting. Fruit still hangs from the bushes, and the smoke narrows again.
 
 > [!narration] Tick 3
-> You see the smoke as a smear on the horizon. The upriver prints are still here in the wet mud. You hear the river keep working this bank.
+> The smoke has become a faint smear on the horizon. The upriver prints remain in wet mud, with the river still working beside them.
 
 > [!narration] Tick 4
-> You see the column gone from the horizon. The prints on this bank still run upriver. You feel wet mud under those feet, and the smoke is no longer a mark on the sky.
+> The column is gone from the horizon. Wet mud still holds the prints running upriver from this bank, but smoke no longer marks the sky.
 
 **Claim made.** Stripping living bushes on this bank is an [[Aruhe Hunger Rule]] claim. Both later tables use 2d8 take lower, then pick one row. Do not roll those tables on this card. Fishing this hole is a possible claim when you next roll. Do not start the otter hole. The trail remains.
 
@@ -149,19 +153,19 @@ If the crew claimed living plants or fished this hole, the cost is already appli
 If the crew broke off the trail, they are heading downstream through the valley toward the terrace line, the beach, or [[Uncertainty]], plus any RAW conditions already applied. Rebuild from that.
 
 > [!narration] Landing
-> You leave this bank still on the upriver prints. Gold-green stems rasp your legs. You see that line of feet keep going toward the smoke.
+> You leave this bank on the upriver prints, gold-green stems rasping against you. The line of feet keeps its course toward the smoke.
 >
-> You are already headed downstream through the grass, toward the terrace line, the beach, or Uncertainty. This used bank sits behind you.
+> Or you turn downstream through the grass toward the terrace line, the beach, or Uncertainty, leaving the used bank behind.
 
 **Crash-landed.** That crew member still has 2d6 bludgeoning already applied and is Prone until they stand.
 
 > [!narration] Crash-landed
-> You are still down on this bank. You feel wet mud and overripe fruit at ground height until you stand.
+> You are still down on this bank, with wet mud and overripe fruit close to your face until you stand.
 
 **Scattered.** That crew member is still apart until they join up.
 
 > [!narration] Scattered
-> You are still apart on this bank. You see fruit piles, river mud, or gold grass in the gap until you join up.
+> You are still apart on this bank. Fruit piles, river mud, and gold grass fill the gap until you join up.
 
 **Prone.** Anyone knocked down on the last stretch is Prone until they stand.
 

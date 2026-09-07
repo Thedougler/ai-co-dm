@@ -159,13 +159,7 @@ If the crew broke, they are returning through the terrace line toward the beach 
 
 **Scattered.** That crew member is still apart in the grass or Terrace woods until they join up.
 
-> [!narration] Scattered
-> You are still apart, either swallowed by the eight-foot grass or down among the terrace woods. The river works the stems in the gap between you. Tall grass, moving water, and broken garden stone split the bank into pieces.
-
 **Crash-landed.** That crew member still has 2d6 bludgeoning already applied and is Prone until they stand.
-
-> [!narration] Crash-landed
-> You are still down in the terrace woods, pinned low among broken garden stone and mangrove roots. Fallen orange fruit lies at ground height, and the sugar-sour smell sits close in the wet dirt against you.
 
 ## Backup
 

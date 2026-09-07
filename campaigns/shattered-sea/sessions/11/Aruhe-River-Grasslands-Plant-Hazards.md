@@ -11,7 +11,7 @@ cssclasses: [session-surface]
 
 # Aruhe River / Grasslands Plant Hazards
 
-Paired with [[Aruhe-River-Grasslands-Tables]] for [[campaigns/shattered-sea/sessions/11/Session-11-Angry-Birds]]. Each Survival check rolls both tables. Run one row. No Grung. Do not restage beat 9 ([[Talon Skarn]]) or pull [[The Blight]].
+Paired with [[Aruhe-River-Grasslands-Tables]] for [[Session-11-00-Angry-Birds]]. Each Survival check rolls both tables. Run one row. No Grung. Do not restage beat 9 ([[Talon Skarn]]) or pull [[The Blight]].
 
 ## L0 · At a glance
 
@@ -54,7 +54,7 @@ Paired with [[Aruhe-River-Grasslands-Tables]] for [[campaigns/shattered-sea/sess
 **Resolve:** Going around costs time on the smoke. Staying in the pinch puts them in Root Lash range. Ending the scene by leaving the pinch counts as success.
 **On success/partial/failure:** Success means they are past on the long way, or the curtain is cleared and no one is held. Partial means a grapple they break on the trail. Failure means someone is in the trunk, or the pinch is closed and the smoke trail is lost for this hour.
 **If ignored:** The curtain hangs. The next traveler on this trail feeds it.
-**Move on to:** The upriver prints and smoke on [[campaigns/shattered-sea/sessions/11/Session-11-Angry-Birds]], or the next Survival check if they keep walking.
+**Move on to:** The upriver prints and smoke on [[Session-11-00-Angry-Birds]], or the next Survival check if they keep walking.
 
 > [!narration] Narration
 > Curtains of hanging roots close a game trail where stone pinches the tree line. A broad trunk stands in that pinch, hollow at chest height, with pale bone showing in the bark. The roots hang still. Grass and river sit behind you. The trail ahead is the curtain.
@@ -268,7 +268,7 @@ Paired with [[Aruhe-River-Grasslands-Tables]] for [[campaigns/shattered-sea/sess
 - Plant roster: [[Strangler Fig]] · [[Young Snakewood]] · [[Vine Lash]] · [[Grubnade]]
 - Fruit: [[Breathmelon]] · [[Lion Citrus]]
 - Fauna pair: [[Aruhe-River-Grasslands-Tables]]
-- Session spine: [[campaigns/shattered-sea/sessions/11/Session-11-Angry-Birds]]
+- Session spine: [[Session-11-00-Angry-Birds]]
 - Do not copy owner essays or statblocks onto this page.
 
 ### Twists / dials
@@ -286,7 +286,7 @@ Paired with [[Aruhe-River-Grasslands-Tables]] for [[campaigns/shattered-sea/sess
 
 ### Ran in
 
-[[campaigns/shattered-sea/sessions/11/Session-11-Angry-Birds]]
+[[Session-11-00-Angry-Birds]]
 
 ## Constraints
 

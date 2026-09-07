@@ -82,6 +82,10 @@ The help is this [[Deer-Stalker]]. It watched the inland group and can copy thei
 > What do you do?
 >
 
+## Battlemap
+
+![[attachments/shattered-sea/battlemaps/session-11-07-false-help-base.png|Session 11-07 False Help battlemap]]
+
 ![[attachments/shattered-sea/creatures/deer-stalker-of-aruhe.png|Deer-Stalker of Aruhe]]
 
 ## Procedure

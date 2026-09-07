@@ -13,7 +13,7 @@ beats: 9
 
 # Session 11 — Angry Birds
 
-Working spine: Driven Inland. Run tonight from [[Session-11-Angry-Birds-Run]].
+Working spine: Driven Inland. Run tonight from [[Session-11-01-Angry-Birds-Run]].
 
 **Length:** 5 hours (9 beats)
 **Tone:** inland hunt, claimed river, false voices
@@ -46,7 +46,7 @@ RESOLUTION — cut.
 
 ### 1. HOOK — Play a Cliffhanger (Ambush)
 
-**Run:** [[Session-11-Angry-Birds-Run]]
+**Run:** [[Session-11-01-Angry-Birds-Run]]
 
 - **Purpose:** Put the party between a hunting bloodhawk and her prey so they get knocked off the terrace line into the first grass-and-river valley.
 - **Table sees:** Mid-air over the thin coastal woods and mangroves at the old terraces. They are still fleeing the crown squid. A shadow passes. Then a rush and a blur: the adult bloodhawk and her young stoop. The squid is the thing she is diving on. The party is in that same air.
@@ -56,7 +56,7 @@ RESOLUTION — cut.
 
 ### 2. DEVELOPMENT — Landing sign and smoke
 
-**Run:** [[Session-11-Landing-Sign-Run]]
+**Run:** [[Session-11-02-Landing-Sign-Run]]
 
 - **Purpose:** Show that people already used this bank, then point the party upstream at the smoke those people are walking toward.
 - **Table sees:** They land in the river and tall grass. On this same bank: tracks, a scraped fire spot or dropped kit, fruit already picked and left, feet heading upriver. Inland, in this valley, a thin column of smoke.
@@ -68,7 +68,7 @@ They come down in moving water and grass high enough to hide a standing person. 
 
 ### 3. CLIFFHANGER — Ambush (wolfrabbits on the first stretch)
 
-**Run:** [[Session-11-Wolfrabbits-Run]]
+**Run:** [[Session-11-03-Wolfrabbits-Run]]
 
 - **Purpose:** The first walk toward the smoke is already a fight. Someone can go down here.
 - **Table sees:** They follow the prints off the landing bank into the first stretch of tall grass and torn crossing. The grass that was still starts moving at mid-height. Three to five wolfrabbits come out of it at jump range, between the party and the upriver tracks. The river is at their backs. The glassy [[Razer-Grass]] stands are still in the scour if anyone gets shoved.
@@ -80,7 +80,7 @@ The prints lead into grass that does not lean, and that grass breaks first. Wolf
 
 ### 4. DEVELOPMENT — Clue (what they ate)
 
-**Run:** [[Session-11-What-They-Ate-Run]]
+**Run:** [[Session-11-04-What-They-Ate-Run]]
 
 - **Purpose:** Show how the group ahead has been staying alive, and what got someone killed, so the party can copy the right thing.
 - **Table sees:** The bank is a camp-in-passing. Overripe fruit on the ground, already fermenting: rinds, seeds, no blood. Fresh bushes next to that: stems snapped on the living plant, blood in the dirt. Fish bones, scales, and a crude line or spear at the water.
@@ -92,7 +92,7 @@ Same bank, three piles. Fermenting fruit on the ground, no blood. Fresh bushes w
 
 ### 5. CLIFFHANGER — Monster, Fright (otter hole)
 
-**Run:** [[Session-11-Otter-Hole-Run]]
+**Run:** [[Session-11-05-Otter-Hole-Run]]
 
 - **Purpose:** Show that this stretch of river is already claimed, that it killed people, and that the living survivors left the water here. The fight happens if the party stays in the hole.
 - **Table sees:** The current slows. Shapes in the water that are not fish: clothing, a pack, a body the current should have taken. Large otters with those remains. On the bank, a blood smear going up out of the river. Prints leave the water there and cut into the grass and the forest edge, around this hole, then the smoke is still ahead.
@@ -104,7 +104,7 @@ The river goes slack and the things in it are people. Otters move through the cl
 
 ### 6. DEVELOPMENT — Obsession (night watch)
 
-**Run:** [[Session-11-Night-Watch-Run]]
+**Run:** [[Session-11-06-Night-Watch-Run]]
 
 - **Purpose:** Put the deer-stalker on the night watch and lock its rules so the rest of the session can use them.
 - **Table sees:** A watcher hears something run through the underbrush, then it stops. If they go look: the deer-stalker is on a kill. It runs when it sees them. If they leave camp to follow or wander: a voice they know tries to call them farther out. If the whole party comes up ready to fight: it leaves. It only stands and talks when it has one person.
@@ -116,7 +116,7 @@ Night watch on the forest edge. Something runs through the brush, close, then th
 
 ### 7. CLIFFHANGER — Ambush (false help)
 
-**Run:** [[Session-11-False-Help-Run]]
+**Run:** [[Session-11-07-False-Help-Run]]
 
 - **Purpose:** Put time and a choice between the mark and the attack. The deer-stalker uses the survivors they are already hunting for.
 - **Table sees:** Morning on the forest edge. Smoke is closer through the trees. The real prints keep to the edge, heading for that smoke. Off the trail, downslope or deeper in the woods, voices: people in trouble, asking for help, sounding like the same group. Nothing answers a shouted question with new information. The voices stay off the line.
@@ -128,7 +128,7 @@ Morning on the edge-trail. The smoke is nearer through the trees, the prints sti
 
 ### 8. DEVELOPMENT — Alliance (the farthest camp)
 
-**Run:** [[Session-11-Farthest-Camp-Run]]
+**Run:** [[Session-11-08-Farthest-Camp-Run]]
 
 - **Purpose:** They meet the Calveno wreck people who got farthest inland. The prize is complicated: some of them want rescue, and this camp wants a garden.
 - **Table sees:** A small camp at the smoke. Several survivors, fewer than the tracks, the farthest any of that wreck has reached. Already-picked fruit. A split you can hear as soon as they talk.
@@ -143,7 +143,7 @@ The smoke is a camp of Calveno wreck-survivors, the farthest inland of that raid
 
 ### 9. CLIMAX — Final Battle (theft on the watch)
 
-**Run:** [[Session-11-Theft-on-the-Watch-Run]]
+**Run:** [[Session-11-09-Theft-on-the-Watch-Run]]
 
 - **Purpose:** [[Talon Skarn]] tries to take the Fate Spinner off [[Crissdalynn Khinriss]]. The watch stops a clean steal. What he does in the fight is the lore. End the night here.
 - **Table sees:** Second night. Crissdalynn on watch with at least one other person. Skarn stoops that pair, not the camp at large. He knows the Spinner is on her. He does not know which pouch, wrap, or hand. He fights her until he sees it or creates an opening: a stun, a cut strap, a pinned wing, a bag shaken out. The watch partner is in it from the first pass.

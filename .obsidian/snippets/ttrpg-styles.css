@@ -1,0 +1,269 @@
+/* ================================================================
+   SHATTERED SEA — VAULT STYLES
+   Typography refinements + callout polish
+   ================================================================ */
+
+/* ── TYPOGRAPHY ──────────────────────────────────────────────────
+   Goal: comfortable reading at the table, clear heading hierarchy
+   ──────────────────────────────────────────────────────────────── */
+
+body {
+  --font-text-size: 16px;
+  --line-height-normal: 1.75;
+}
+
+.markdown-preview-view p {
+  margin-bottom: 0.65em;
+}
+
+/* H1: page title — large, anchored by a rule */
+.markdown-preview-view h1 {
+  font-size: 1.9em;
+  font-weight: 700;
+  border-bottom: 2px solid var(--divider-color);
+  padding-bottom: 0.2em;
+  margin-bottom: 0.8em;
+}
+
+/* H2: major section */
+.markdown-preview-view h2 {
+  font-size: 1.4em;
+  font-weight: 600;
+  margin-top: 1.6em;
+  margin-bottom: 0.4em;
+}
+
+/* H3: subsection */
+.markdown-preview-view h3 {
+  font-size: 1.15em;
+  font-weight: 600;
+  margin-top: 1.2em;
+  margin-bottom: 0.3em;
+}
+
+/* H4: label / tag — small caps feel, muted */
+.markdown-preview-view h4 {
+  font-size: 0.9em;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.07em;
+  color: var(--text-muted);
+  margin-top: 1em;
+  margin-bottom: 0.2em;
+}
+
+/* Tighten list spacing slightly */
+.markdown-preview-view ul,
+.markdown-preview-view ol {
+  padding-left: 1.4em;
+}
+
+.markdown-preview-view li {
+  margin-bottom: 0.2em;
+  line-height: 1.7;
+}
+
+/* ── NARRATION CALLOUT ───────────────────────────────────────────
+   Read-aloud text for players.
+   Warm amber-gold — clearly "this is the story part".
+   Italic content, slightly larger, generous line height.
+   ──────────────────────────────────────────────────────────────── */
+
+.callout[data-callout="narration"] {
+  --callout-color: 160, 116, 50;
+  --callout-icon: book-open;
+  background-color: rgba(160, 116, 50, 0.08);
+  border-left: 4px solid rgba(160, 116, 50, 0.55);
+  border-radius: 6px;
+}
+
+.callout[data-callout="narration"] .callout-title {
+  background-color: rgba(160, 116, 50, 0.14);
+  font-size: 0.72em;
+  font-weight: 700;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: rgba(160, 116, 50, 1);
+  padding-block: 0.4em;
+}
+
+.callout[data-callout="narration"] .callout-title-inner {
+  color: rgba(160, 116, 50, 1);
+}
+
+.callout[data-callout="narration"] .callout-icon {
+  color: rgba(160, 116, 50, 0.8);
+}
+
+.callout[data-callout="narration"] .callout-content {
+  font-style: italic;
+  font-size: 1.06em;
+  line-height: 1.9;
+  padding-block: 0.3em;
+}
+
+.callout[data-callout="narration"] .callout-content p {
+  margin-bottom: 0.55em;
+}
+
+.callout[data-callout="narration"] .callout-content p:last-child {
+  margin-bottom: 0;
+}
+
+/* ── SECRET CALLOUT ──────────────────────────────────────────────
+   DM-only info — sealed, muted red, should feel "locked away"
+   ──────────────────────────────────────────────────────────────── */
+
+.callout[data-callout="secret"] {
+  --callout-color: 155, 50, 50;
+  --callout-icon: lock;
+  background-color: rgba(155, 50, 50, 0.06);
+  border-left: 4px solid rgba(155, 50, 50, 0.45);
+  border-radius: 6px;
+}
+
+.callout[data-callout="secret"] .callout-title {
+  background-color: rgba(155, 50, 50, 0.11);
+  font-size: 0.72em;
+  font-weight: 700;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  padding-block: 0.4em;
+}
+
+.callout[data-callout="secret"] .callout-title-inner {
+  color: rgba(155, 50, 50, 0.9);
+}
+
+.callout[data-callout="secret"] .callout-icon {
+  color: rgba(155, 50, 50, 0.75);
+}
+
+/* ── MECHANIC CALLOUT ────────────────────────────────────────────
+   Rules text — clean steel blue
+   ──────────────────────────────────────────────────────────────── */
+
+.callout[data-callout="mechanic"] {
+  --callout-color: 60, 120, 185;
+  --callout-icon: settings-2;
+  background-color: rgba(60, 120, 185, 0.07);
+  border-left: 4px solid rgba(60, 120, 185, 0.45);
+  border-radius: 6px;
+}
+
+.callout[data-callout="mechanic"] .callout-title {
+  background-color: rgba(60, 120, 185, 0.12);
+  font-size: 0.72em;
+  font-weight: 700;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  padding-block: 0.4em;
+}
+
+/* ── WARNING CALLOUT ─────────────────────────────────────────────
+   Canon corrections / continuity flags
+   ──────────────────────────────────────────────────────────────── */
+
+.callout[data-callout="warning"] {
+  --callout-color: 200, 95, 30;
+  --callout-icon: triangle-alert;
+  border-radius: 6px;
+}
+
+/* ── TABLES ──────────────────────────────────────────────────────
+   Encounter tables, loot lists, NPC rosters — clean and scannable
+   ──────────────────────────────────────────────────────────────── */
+
+.markdown-preview-view table {
+  border-collapse: collapse;
+  width: 100%;
+  margin-block: 1.2em;
+  font-size: 0.95em;
+  overflow-x: auto;
+  display: block;
+}
+
+.markdown-preview-view th {
+  background-color: var(--background-secondary);
+  font-weight: 600;
+  font-size: 0.8em;
+  text-transform: uppercase;
+  letter-spacing: 0.07em;
+  color: var(--text-muted);
+  padding: 0.6em 1em;
+  border-bottom: 2px solid var(--divider-color);
+  text-align: left;
+  white-space: nowrap;
+}
+
+.markdown-preview-view td {
+  padding: 0.5em 1em;
+  border-bottom: 1px solid var(--divider-color);
+  vertical-align: top;
+  line-height: 1.55;
+}
+
+/* Zebra stripe on even rows */
+.markdown-preview-view tr:nth-child(even) td {
+  background-color: rgba(var(--background-secondary-rgb, 0,0,0), 0.03);
+}
+
+.theme-dark .markdown-preview-view tr:nth-child(even) td {
+  background-color: rgba(255, 255, 255, 0.025);
+}
+
+/* Hover highlight for scanning */
+.markdown-preview-view tr:hover td {
+  background-color: rgba(var(--interactive-accent-rgb, 100,100,200), 0.06);
+}
+
+/* First column often an index or roll — de-emphasize slightly */
+.markdown-preview-view td:first-child {
+  color: var(--text-muted);
+  font-size: 0.9em;
+  white-space: nowrap;
+}
+
+/* ── IMAGES ──────────────────────────────────────────────────────
+   Battlemaps, NPC portraits, location art
+   ──────────────────────────────────────────────────────────────── */
+
+.markdown-preview-view img {
+  border-radius: 6px;
+  display: block;
+  margin-inline: auto;
+  max-width: 100%;
+  box-shadow: 0 2px 12px rgba(0, 0, 0, 0.18);
+}
+
+/* Embedded images inside callouts — no double shadow */
+.callout img {
+  box-shadow: none;
+  border-radius: 4px;
+}
+
+/* Images that are the sole content of a paragraph get spacing */
+.markdown-preview-view p:has(> img:only-child) {
+  margin-block: 1.2em;
+}
+
+/* ── DARK MODE ADJUSTMENTS ───────────────────────────────────────
+   Slightly boost background opacity so callouts stay readable
+   against Obsidian's dark surface.
+   ──────────────────────────────────────────────────────────────── */
+
+.theme-dark .callout[data-callout="narration"] {
+  background-color: rgba(160, 116, 50, 0.13);
+}
+
+.theme-dark .callout[data-callout="secret"] {
+  background-color: rgba(155, 50, 50, 0.11);
+}
+
+.theme-dark .callout[data-callout="mechanic"] {
+  background-color: rgba(60, 120, 185, 0.12);
+}
+
+.theme-dark .markdown-preview-view img {
+  box-shadow: 0 2px 14px rgba(0, 0, 0, 0.45);
+}

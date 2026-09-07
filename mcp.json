@@ -1,0 +1,14 @@
+{
+  "mcpServers": {
+    "foundry-mcp": {
+      "command": "node",
+      "args": [
+        "/Users/nick/github/foundry-vtt-mcp/packages/mcp-server/dist/index.js"
+      ],
+      "env": {
+        "FOUNDRY_HOST": "localhost",
+        "FOUNDRY_PORT": "31415"
+      }
+    }
+  }
+}

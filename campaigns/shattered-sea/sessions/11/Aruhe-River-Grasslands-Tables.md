@@ -11,7 +11,7 @@ cssclasses: [session-surface]
 
 # Aruhe River / Grasslands Tables
 
-Paired with [[Aruhe-River-Grasslands-Plant-Hazards]] for [[campaigns/shattered-sea/sessions/11/Session-11-Angry-Birds]]. Each Survival check rolls both tables. Run one row. No Grung. Do not restage beat 9 ([[Talon Skarn]]) or pull [[The Blight]].
+Paired with [[Aruhe-River-Grasslands-Plant-Hazards]] for [[Session-11-00-Angry-Birds]]. Each Survival check rolls both tables. Run one row. No Grung. Do not restage beat 9 ([[Talon Skarn]]) or pull [[The Blight]].
 
 ## L0 · At a glance
 
@@ -54,7 +54,7 @@ Paired with [[Aruhe-River-Grasslands-Plant-Hazards]] for [[campaigns/shattered-s
 **Resolve:** This is a survive-the-hunt scene. Ending the hunt by leaving its cut counts as success. Killing it is possible and costly.
 **On success/partial/failure:** Success means the bird loses the line and becomes moss and a tremor that does not close. Partial means someone is grabbed or downed and the rest reach cover. Failure means a Small body is inside it, or the charge has flattened the cut and the smoke trail is lost for this hour.
 **If ignored:** The bird takes the nearest isolated body in the cut, then feeds. Flattened digest-circles and a sour bolus mark the claim.
-**Move on to:** The upriver prints and smoke on [[campaigns/shattered-sea/sessions/11/Session-11-Angry-Birds]], or the next unused table row if they keep lingering.
+**Move on to:** The upriver prints and smoke on [[Session-11-00-Angry-Birds]], or the next unused table row if they keep lingering.
 
 > [!narration] Narration
 > Gold-green grass stands chest-high along a torn cut that runs toward the river. A dark mass waits in that cut, taller than a horse, black feathers thick with moss, one yellow eye open in the still bulk. The mossed body stays on the dirt. Soil jumps in a line toward that eye, and the bird gathers its weight for a straight run, serrated beak already open. Deep grass, moving water, and a white glittering island of razer-grass sit off that line.
@@ -268,7 +268,7 @@ Paired with [[Aruhe-River-Grasslands-Plant-Hazards]] for [[campaigns/shattered-s
 - Grass / river / lake roster: [[Terror-Bird]] · [[Bloodhawk]] · [[Aruhe River Otter]]
 - Also here: [[Bear-Elk]] · [[Deer-Stalker]] · [[Thornback]] · [[Wolfrabbit]] · [[Unsaid Macaw]]
 - Plant pair: [[Aruhe-River-Grasslands-Plant-Hazards]]
-- Session spine: [[campaigns/shattered-sea/sessions/11/Session-11-Angry-Birds]]
+- Session spine: [[Session-11-00-Angry-Birds]]
 - Do not copy owner essays or statblocks onto this page.
 
 ### Twists / dials
@@ -286,7 +286,7 @@ Paired with [[Aruhe-River-Grasslands-Plant-Hazards]] for [[campaigns/shattered-s
 
 ### Ran in
 
-[[campaigns/shattered-sea/sessions/11/Session-11-Angry-Birds]]
+[[Session-11-00-Angry-Birds]]
 
 ## Constraints
 
