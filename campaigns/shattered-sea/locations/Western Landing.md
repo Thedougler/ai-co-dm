@@ -10,7 +10,11 @@ tags: [location, aruhe, landing, reef]
 > [!narration] Narration
 > Western Landing is a jagged coral reef about half a mile offshore; at low tide the teeth show, and one boat gap leads to a short shingle beach that takes only minutes to cross end to end. Elsewhere the coast is cliffs, coves, or beaches trapped behind reef. Surf works the coral and salt spray carries over loose stone.
 
+## Alternative map view
 
+![[attachments/shattered-sea/places/aruhe-western-landing-alternative-map-view.jpg|Alternative aerial map view of Aruhe's beach and western landing edge]]
+
+This Nick-supplied visual is an alternative overhead reference for the beach approach. It is map/source art, not a measured battlemap, and does not replace the established reef gap, short shingle beach, or route topology below.
 
 ## Battlemap
 

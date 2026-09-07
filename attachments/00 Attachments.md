@@ -39,6 +39,7 @@ Prefer path under `attachments/` so agents and git stay unambiguous. Bare filena
 ## Index
 
 - [[attachments/shattered-sea/shattered-sea-overview-map.webp|Shattered Sea overview map]]
+- [[attachments/shattered-sea/places/aruhe-western-landing-alternative-map-view.jpg|Aruhe Western Landing alternative map view]]
 
 ## Shattered Sea legacy ingest
 
