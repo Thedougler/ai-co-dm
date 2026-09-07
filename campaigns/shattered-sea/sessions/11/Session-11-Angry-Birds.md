@@ -116,6 +116,8 @@ Night watch on the forest edge. Something runs through the brush, close, then th
 
 ### 7. CLIFFHANGER — Ambush (false help)
 
+**Run:** [[Session-11-False-Help-Run]]
+
 - **Purpose:** Put time and a choice between the mark and the attack. The deer-stalker uses the survivors they are already hunting for.
 - **Table sees:** Morning on the forest edge. Smoke is closer through the trees. The real prints keep to the edge, heading for that smoke. Off the trail, downslope or deeper in the woods, voices: people in trouble, asking for help, sounding like the same group. Nothing answers a shouted question with new information. The voices stay off the line.
 - **Truth:** The help is the deer-stalker. It watched the inland group and can copy their mouths. The real survivors are still at the smoke. **Unrevealed:** it wants the quarry, or whoever walks toward the voices alone. It does not attack at the start of this beat.
