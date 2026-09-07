@@ -71,6 +71,13 @@ This is the session's [[Deer-Stalker]]. The person on watch who heard the run is
 **One-person face.** Speak this only when the [[Deer-Stalker]] has one person, then roll. It says, "You're not welcome here." Do not put island law on the line. Do not speak a finished Snatch or haul.
 
 > [!narration] Initial Narration
+> You see the first trees close over this camp, sleepers grouped on the packed prints that still head toward the smoke. You feel cool night air on this edge, and dirt packed underfoot. Whoever among you is on watch stands a few steps apart at the tree line, where the stems open into darker wood.
+>
+> Close in that brush you hear something heavy run. Stems break. Then the sound cuts off, and the woods go still. You smell damp leaf and the inland smoke still sitting ahead up-valley.
+>
+> Behind camp the ground falls back toward the river. Deeper wood sits past the brush. Open sky sits over this edge. The smoke, the beach, and the terraces stay out of a hard run from here.
+>
+> What do you do?
 >
 
 ![[attachments/shattered-sea/creatures/deer-stalker-of-aruhe.png|Deer-Stalker of Aruhe]]
@@ -102,24 +109,31 @@ This is the session's [[Deer-Stalker]]. The person on watch who heard the run is
 | Hawk sky | Flying up out of this edge is open valley air. | Exposed. Do not restage beat 1. A Dash does not reach the beach, the smoke, or the terraces. |
 
 > [!narration] Camp on the forest edge
+> You see sleepers and gear grouped under the first trees on this packed edge. Anyone standing here together is in a tight bunch. You feel the same cool night air that sits on this camp.
 >
 
 > [!narration] Watch post / tree line
+> Whoever among you is on watch stands a few steps from camp, at the tree line. You see darker wood open ahead of that post. That body is apart from the knot of sleepers.
 >
 
 > [!narration] Underbrush / kill site
+> You see a carcass in this brush, torn open, still wet. You smell sweet rot off the meat. Then something heavy crashes away through the stems, too loud, and the brush shakes empty.
 >
 
 > [!narration] Deeper woods
+> Past the first brush the trunks pack in and the dim sits heavier. You feel stems catch at a body that goes this far from camp. Camp is already behind a wall of wood.
 >
 
 > [!narration] Inland smoke
+> A thin column of smoke still stands ahead up-valley. You smell it on the night air. From this edge it stays that far.
 >
 
 > [!narration] Back toward the otter hole / river
+> Behind camp the packed ground falls back toward the river. You hear water that way, farther than a hard run from this edge. This watch stays on the forest line.
 >
 
 > [!narration] Hawk sky
+> You feel wind and open night air above this edge. Camp and tree line sit below. Nothing here hides a body at that height.
 >
 
 ## Be ready for
@@ -155,15 +169,19 @@ The predators' turn happens after everyone has acted, and only if anyone remains
 | 4 | Group scare. If two or more ready hostiles are within 30 feet of the [[Deer-Stalker]], Lost Nerve forces Dash or Hide away. Silent Retreat if it was hit (Easy: not Famished). The mark stays. Do not start beat 7. |
 
 > [!narration] Tick 1
+> From the woods you hear a familiar voice, a word looped and held too long, calling farther out from camp. You hear it come from one direction in the dark. No body shows with it.
 >
 
 > [!narration] Tick 2
+> That same voice keeps ahead of whoever walked out, still looping the word, farther from camp. You see the tree line and the knot of sleepers already behind that person. The sound sits deeper in the dark between the trunks.
 >
 
 > [!narration] Tick 3
+> A shaggy deer-shape stands for whoever came out alone, hips wrong under the heavy coat, long forelimbs ending in blood-marked claws. You see a pale muzzle and forward-set eyes that do not blink, and the legs hitch a beat late as it says, "You're not welcome here." Those claws stretch toward that person.
 >
 
 > [!narration] Tick 4
+> Something heavy crashes away through the deeper wood. You hear stems break, then nothing. The brush and the tree line sit empty.
 >
 
 **Bloodied.** Bloodied is 42 hit points on the [[Deer-Stalker]]. This card has no extra bloodied action. Keep peel and Lost Nerve. Easy stays not Famished.
@@ -187,16 +205,23 @@ If they tied themselves and refused to leave camp, it waits. The mark stays unti
 If the crew broke off the trail, they are heading back toward the otter hole, the river, the terrace line, the beach, or [[Uncertainty]], or a flyer is in hawk sky, plus any RAW conditions already applied. Rebuild from that. The mark can still sit on the person on watch who heard the run.
 
 > [!narration] Landing
+> This watch ends on this forest edge. You see the prints still heading toward the smoke, and morning on the trees. The woods that went still stay those woods.
+>
+> You are already heading back toward the river, the terrace line, the beach, or Uncertainty. This edge-camp sits behind you.
+>
+> You are already in hawk sky over this valley. Night wind has this height.
 >
 
 **Crash-landed.** That crew member still has 2d6 bludgeoning already applied and is Prone until they stand.
 
 > [!narration] Crash-landed
+> You are still down on this forest edge. You feel packed dirt and leaf at ground height until you stand.
 >
 
 **Scattered.** That crew member is still apart until they join up.
 
 > [!narration] Scattered
+> You are still apart on this edge. You see trunks or brush in the gap until you join up.
 >
 
 **Prone.** Anyone knocked down on this watch is Prone until they stand.
@@ -212,6 +237,7 @@ Do not run grassland tables, the otter hole, or beat 7's false-help voices here.
 ![[Deer-Stalker#Statblock]]
 
 > [!narration] Deer-Stalker
+> A shaggy deer-shape stands over a torn carcass in this brush, branching antlers crowding the trunks, hips wrong under the heavy coat. You see long forelimbs ending in blood-marked claws, a pale muzzle, and forward-set eyes that do not blink, dark blood threading from its mouth. Then it crashes away through the stems, too loud, and you smell sweet rot off the kill.
 >
 
 ![[Deer-Stalker#At the table]]
