@@ -18,20 +18,20 @@ source: "[[Midchain]]"
 ![[attachments/shattered-sea/places/aruhe-hungry-isle.jpeg|Aruhe / Hungry Isle]]
 ## Overview
 > [!narration] Narration
-> From offshore Aruhe is a green volcanic country in deep blue water. Forested ridges fold around a dark crater lake, gold-tan bands cut the lower slopes, pale beaches break the cliffs, and white water works a reef rim. No town, field, road, or smoke marks the island. The green and the gold crowd every slope, more life than a country this size should hold.
+> From offshore Aruhe is a vast green volcanic island in deep blue water. Forested ridges fold around a dark crater lake, gold-tan bands cut the lower slopes, pale beaches break the cliffs, and white water works a reef rim. No town, field, road, or smoke marks the island. The green and the gold crowd every slope, more life than an island this size should hold.
 
 ---
 ## At a glance
-Aruhe is a country-scale island in the eastern [[Midchain]]: about 500 miles end to end and about 150 miles across at its waist. No settlement is visible from offshore. [[Karath]] sits close to one western edge, not to the heart hundreds of miles inland. [[Uncertainty]] is at or around the island and remains mobile. Land at [[Aruhe - Beach|Western Landing]]; inland bands are [[Aruhe - Old Gardens]], [[Aruhe - Quiet Forest|the Quiet]], [[Aruhe - Grasslands]], [[Aruhe - River]], [[Aruhe - The Marshes]], [[Aruhe - The Mangroves]], [[Aruhe - Clear Lake]], [[Aruhe - Memorial Grove]], and [[Aruhe - Lava Tubes]]. Observe from offshore to skip the landing; the southern mangrove wall is not a second approach. The heart still stays a country away. [[Survey Aruhe as a Tangle anchor]] is open.
+Aruhe is a vast untamed island in the eastern [[Midchain]]: about 500 miles end to end and about 150 miles across at its waist. No settlement is visible from offshore. [[Karath]] sits close to one western edge, not to the heart hundreds of miles inland. [[Uncertainty]] is at or around the island and remains mobile. Land at [[Aruhe - Beach|Western Landing]]; inland bands are [[Aruhe - Old Gardens]], [[Aruhe - Quiet Forest|the Quiet]], [[Aruhe - Grasslands]], [[Aruhe - River]], [[Aruhe - The Marshes]], [[Aruhe - The Mangroves]], [[Aruhe - Clear Lake]], [[Aruhe - Memorial Grove]], and [[Aruhe - Lava Tubes]]. Observe from offshore to skip the landing; the southern mangrove wall is not a second approach. The heart still stays many days inland. [[Survey Aruhe as a Tangle anchor]] is open.
 
 ---
 ## If the party
-- **Survey a heading at country scale:**
+- **Survey a heading at island scale:**
   - **Wisdom (Survival) — `DC 15`** → Keep a useful heading toward a named band.
   - Failure → Lose time and position; the island remains the same size.
 - **Read a niche boundary from silence, decay, water, grass, or graves:**
   - **Intelligence (Nature) — `DC 15`** → Name the adjoining band and the safer edge.
-  - Failure → The next country is still there; the party spends time confirming it on foot.
+  - Failure → The next region is still there; the party spends time confirming it on foot.
 - **Land at the known sea approach:** [[Aruhe - Beach|Western Landing]].
 - **Approach the southern green wall from the sea:** [[Aruhe - The Mangroves]] look like seams of water and are not a landing.
 - **Follow inland from the terraces:** [[Aruhe - Old Gardens]].
@@ -47,20 +47,24 @@ Aruhe has no known state, town, road network, or visible settled population. The
 ---
 ## What
 
-Aruhe is an old volcanic island-country, about five hundred miles end to end, with green slopes, crater water, shore reef, basalt shelves, vents, and lava tubes. It is not a wasteland or a place of scarcity. It is familiar life with its limits loosened: growth, healing, adaptation, reproduction, feeding, and rot continue past normal ecological checks. The result is a real country whose living systems have become excessive and dangerous, not one monster wearing the shape of an island.
+Aruhe is an old volcanic island, about five hundred miles end to end, with green slopes, crater water, shore reef, basalt shelves, vents, and lava tubes. It is not a wasteland or a place of scarcity. It is familiar life with its limits loosened: growth, healing, adaptation, reproduction, feeding, and rot continue past normal ecological checks. The result is a real place whose living systems have become excessive and dangerous, not one monster wearing the shape of an island.
 
 The clearest physical pattern is the root network. Pale, luminous roots run wrist-thick to thigh-thick from the shelf above [[Aruhe - Clear Lake]], through [[Aruhe - The Marshes]], and into both unmarked graves in [[Aruhe - Memorial Grove]]. In [[Aruhe - Lava Tubes]], the surface forest reaches down as root curtains. A wrecked raiding hull sits above the tideline at [[Aruhe - Beach|Western Landing]], marking the known entry point and the collapse of the Calveno raid landing.
 
-Aruhe distinguishes between receiving and taking. Fallen fruit and genuine offerings can be accepted without triggering the island's hostility. A living claim is different: taking fruit from a branch, cutting living growth, trapping an animal, or treating the country as property draws aligned local life into response. [[Taking on Aruhe]] is the reference for adjudicating those claims.
+Aruhe distinguishes between receiving and taking. Fallen fruit and genuine offerings can be accepted without triggering the island's hostility. A living claim is different: taking fruit from a branch, cutting living growth, trapping an animal, or treating the island as property draws aligned local life into response. [[Taking on Aruhe]] is the reference for adjudicating those claims.
 
 ---
 ## Where
 
-Aruhe lies in the eastern [[Midchain]], reachable by open water from [[Sparhold]] and close enough to [[Karath]] that one western channel narrows to about half a mile. That proximity only applies to the edge. Karath is not a shortcut to the island's heart, and most of Aruhe's interior remains hundreds of miles inland. [[Uncertainty]] can remain mobile offshore for observation and retreat, but sea access does not remove the scale problem.
+Aruhe lies in the eastern [[Midchain]], reachable by open water from [[Sparhold]] and close enough to [[Karath]] that one western channel narrows to about half a mile. That nearness only touches the rim. The island is still about five hundred miles end to end and about one hundred and fifty miles across at the waist, with no roads, towns, fields, or maintained passes. A straight crossing that might take under a week on settled roads becomes many days of reef, slope, heat, water, vegetation, animal claims, and lost lines of sight. A lengthwise crossing is measured in weeks.
 
-The known landing is a single boat gap and short shingle beach at [[Aruhe - Beach|Western Landing]]. From there, the island rises into [[Aruhe - Old Gardens]], then opens toward [[Aruhe - Grasslands]] or closes into [[Aruhe - Quiet Forest|the Quiet]]. The grasslands connect by water through [[Aruhe - River]] to [[Aruhe - Clear Lake]], and by more open country toward [[Aruhe - Memorial Grove]]. The Quiet and the lake both connect into [[Aruhe - The Marshes]], and the marshes descend into [[Aruhe - The Mangroves]]. The southern mangrove wall may look navigable from offshore, but it is not a clean second landing.
+The reliable sea approach is [[Aruhe - Beach|Western Landing]], where a reef gap opens onto a short shingle beach. From there the land rises into [[Aruhe - Old Gardens]], miles of ancient stone terraces now overgrown with fruit, vines, water channels, and collapsed steps. Past the terraces, Aruhe breaks into wetter and higher systems instead of a single inland road. [[Aruhe - Grasslands]] opens where rivers cut hot valleys through the jungle, while [[Aruhe - Quiet Forest|the Quiet]] closes above the garden walls in deep rainforest where small life has gone silent. Both can lead deeper inland, but neither offers quick going; crossing from one band into the next can easily spend a day when the terrain, weather, or local life resists passage.
 
-Aruhe also has a subsurface geography. [[Aruhe - Lava Tubes]] thread under the soil and connect by wet seepage from the lake and marshes, as well as by the root-and-grave descent from the Memorial Grove. Treat the island as layered rather than linear: shore, terraces, grass, forest, river, lake, marsh, mangrove, grove, and under-island all connect, but each transition is still a real overland or environmental crossing.
+Water is the closest thing Aruhe has to a road. [[Aruhe - River]] braids through the interior from [[Aruhe - Clear Lake]], crossing the Grasslands, touching the Quiet, and feeding wet routes toward [[Aruhe - The Marshes]]. The River can shorten a route where it runs clear and open, but current, shelves, pools, otter families, and living ownership keep it from becoming safe infrastructure. Clear Lake itself is an inland crater basin, calm by Aruhe's standards, with stone shelves, drinkable water, fish, and steep green walls. It gathers the upland drainage, feeds the River, borders the Quiet, and spills south into the Marshes.
+
+Downhill from the lake, Aruhe becomes saturated. [[Aruhe - The Marshes]] are flooded rainforest where trail, pond, channel, and floating mat trade places every few hundred feet. Luminous roots run through the wet ground toward [[Aruhe - Memorial Grove]], while decay, insects, fungus, and predator paths make travel slow even when the map distance looks modest. Farther south and southeast, the Marshes become [[Aruhe - The Mangroves]], a tidal wall of roots, black water, mud, and sealed canopy. The Mangroves reach the ocean but do not offer a harbor; from offshore they look like possible channels, and inside they become traps.
+
+The inward pull of Aruhe leads toward [[Aruhe - Memorial Grove]], approached by grassland, lake-edge, or marsh routes rather than by any formal path. The Grove is where the island's appetite stops around the fruit tree, two unmarked graves, black flowers, bound soil, and waiting mourners. Beneath the surface, [[Aruhe - Lava Tubes]] run through the old volcanic body of the island, connecting by marsh breach, cave seepage toward Clear Lake, and the root-and-grave descent from the Grove. Shore, terraces, grass, quiet forest, river, lake, marsh, mangrove, grove, and lava tubes are one continuous untamed ecosystem, not separate rooms. Reaching the heart means days of moving through a living island that is dangerous because it is alive before it is dangerous because it is strange.
 
 ---
 ## Why
