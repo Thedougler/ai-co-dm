@@ -8,14 +8,14 @@ Obsidian LLM wiki for Nick's home D&D. **Markdown is the product.**
 | Remote | `https://github.com/Thedougler/ai-co-dm` |
 | Active | [[campaigns/shattered-sea/hot]] → [[campaigns/shattered-sea/00 Shattered Sea]] |
 
-**Layers:** AGENTS = schema/contract only · `hot.md` + hubs = campaign state · skills = procedures. **Grok Bots also load [[GROK-BOTS]]** (Mac host, packets, roster, TotM fail loop).
+**Layers:** AGENTS = schema/contract · `campaigns/` = facts · `hot.md` + hubs = now · skills = procedures. **Grok Bots also load [[GROK-BOTS]]** (Mac host, packets, roster, TotM fail loop).
 
 ## Boot
 
 1. This file + [[00 Home]] + [[campaigns/shattered-sea/hot]] (not the whole tree).
 2. **Hard gate:** qmd via skill `qmd-retrieval` (`./scripts/qmd`). Collections: `wiki` · `skills` · `legacy-ss` (read-only prior Shattered Sea). Snippets ≠ facts. `SKILL.md` only unless stuck. Needs **Node 26** on the Mac (Homebrew `node@26`).
 3. Missing canon → ask Nick / Co-DM. No silent contradiction.
-4. New entity → copy `templates/` match; fill only what play needs; link nearest index/MOC. Format with skill `obsidian-markdown` (wikilinks, callouts, properties).
+4. New entity → copy `templates/` match; fill facts play needs; link nearest index/MOC. Format with skill `obsidian-markdown` (wikilinks, callouts, properties).
 
 ## Hard don'ts
 
@@ -30,11 +30,12 @@ Obsidian LLM wiki for Nick's home D&D. **Markdown is the product.**
 ## Write
 
 - **Format:** every vault `.md` uses skill `obsidian-markdown` (Obsidian Flavored Markdown — wikilinks, embeds, callouts, properties, at-table scan). Load `SKILL.md` on any create/edit; `references/` only if stuck.
+- **Facts:** `campaigns/` states what is true in the world. Copy the matching `templates/` note. Design decisions, justifications, and process stay in skills and this file. Locations: `templates/Location` on create or edit.
 - **Create vs update:** qmd for existing entity first; update in place; new note only if no hit; link nearest index/MOC.
 - Wikilinks; one topic/note; stub > empty folder.
 - **Images:** store under `attachments/` (use `attachments/<campaign>/` when campaign-specific). Embed `![[attachments/…]]` or wikilink `[[attachments/…]]` — never bare disk paths or `![](file:///…)` for vault art.
 - Frontmatter: `type`, `campaign`, `status`, `tags`, `visibility: table | dm`.
-- **Owner pages:** leading `> [!narration] Narration` — empty until TotM fill.
+- **Owner pages:** `> [!narration] Narration` where the template places it — empty until TotM fill.
 - **Session/run beats (two passes):**
   1. **Mechanical cockpit** (`run-guide`): sole-authority card plus **empty titled `[!narration]` stubs** at every slot (mandatory `Initial Narration`, then per zone, per clock tick, landing / variants, per roster embed, `Exit` only if the next cockpit is on this file). Do not write player-facing prose in this pass. Embed an existing owner identity image (`![[attachments/…]]`) when the owner page already lists one.
   2. **Copy fill:** `theatre-of-the-mind` fills **every** stub. TUI: spawn **copy-writer** (`.grok/agents/copy-writer.md`). Grok Bots: **Visualizer** ([[GROK-BOTS]]). Weave drawable appearance and a non-sight sense into the spoken sentences. A `ready` beat has no empty `[!narration]` body.

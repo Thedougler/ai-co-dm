@@ -49,7 +49,7 @@ Wiki body copy on a typed note, not lint and not math.
 <example>
 Context: A location needs first-look prose and a usable key.
 user: "Write the boxed text and room key for the Quiet."
-assistant: "I'll use the copy-writer agent for seen-in-a-glance narration plus sequenced L1 elements."
+assistant: "I'll use the copy-writer agent for Overview narration plus If the party and Who / What / Where / Why."
 <commentary>
 Location copy: narration plus DM-facing key.
 </commentary>
@@ -77,7 +77,7 @@ Do not spawn copy-writer for ops, ingest, or math.
 
 1. **Ground.** qmd the named entity. Read the owning note, the matching `templates/` page, and `lexicon/House tone.md`. Preserve established canon. Missing stock → ask Nick, leave a stub, or route to the owning craft skill. Completion: every fact in the draft is on the parent, in hot, or explicitly marked unknown.
 
-2. **Choose band + surface.** L0 glance / L1 at the table / L2 deep / `[!narration]` / handout. Load:
+2. **Choose band + surface.** L0 glance / L1 at the table / L2 deep / location Who–Why / `[!narration]` / handout. Load:
    - `.agent/skills/obsidian-markdown/SKILL.md` on every vault write (at-table scan: **bold** = look here / mechanical noun; `` `DC n` `` and dice = the number; → = what a mechanic produces; `[!narration]` = spoken)
    - `.agent/skills/theatre-of-the-mind/SKILL.md` when text crosses the player boundary
    - `.agent/skills/run-guide/SKILL.md` when filling a run card — that skill owns field order and *procedure*; fill its cockpit, do not invent a second card
@@ -92,20 +92,21 @@ Do not spawn copy-writer for ops, ingest, or math.
 
 ## Bands
 
-Match `docs/obsidian-presentation.md` and the note's template. Delete unused sections. Keep L2 out of L0.
+Match `docs/obsidian-presentation.md` and the note's template. Delete unused sections. Keep L2 out of L0. Locations use `templates/Location`, not L0/L1/L2.
 
 | Band | Copy job | Length |
 |---|---|---|
 | **L0 · At a glance** | What is this *now*? Hook, identity, Look/voice, `[!narration]` | Complete sentences for a five-second glance. Enough to improv. |
 | **L1 · At the table** | What to run, say, or choose | Complete grammatical sentences. Scannable bold heads. Run cards use the **cockpit** in `.agent/skills/run-guide/SKILL.md`. |
 | **L2 · Deep** | Bank: relationships, resources, clue *content* | Usable facts. Not a biography since birth. Not a room-by-room novel. |
+| **Location** | Match `templates/Location` | Facts. Filled exemplar: `campaigns/shattered-sea/locations/Aruhe - Clear Lake.md`. |
 | **`[!narration]` / boxed** | Seen-in-a-glance; player-safe | TotM: flowing spoken block. Item/creature cold portraits ~three connected sentences. Session-beat `Initial Narration`: two to four short spoken paragraphs. Situational beat stubs: one to three sentences, one job. |
 
 Session/run surfaces: complete grammatical sentences (vault rule). Private scratch shorthand stays off this wiki.
 
 ## Sequencing
 
-For locations, encounters, vehicles, and keyed sites, order information as it will flow at the table:
+For encounters, vehicles, and keyed dungeon rooms, order information as it will flow at the table:
 
 1. Title that orients.
 2. **Seen-in-a-glance** → `[!narration]`.
@@ -113,6 +114,8 @@ For locations, encounters, vehicles, and keyed sites, order information as it wi
 4. Significant elements as bold heads, **first described, first keyed**.
 5. Under each: closer look → action-required discovery (landmark / hidden / secret).
 6. Short GM-background tag: what it used to be, what NPCs use it for — context for improvisation, not an essay.
+
+**Locations** follow `templates/Location` in heading order. Identity image after the title; battlemaps under **Art**.
 
 Rigid fill-the-format (empty Tactics paragraphs, buried Spot checks) is a fail. Follow play, not a heading checklist.
 
@@ -125,7 +128,8 @@ Dynamic elements that may have moved live in DM text unless current table state 
 ## Per-type
 
 - **NPC / PC:** Face + current action + want. Look/voice as sensory or manner cues. Drive as want, fear, and method.
-- **Location / vehicle:** *This* place, not the concept of a lake. Playable aspects. Senses. Sequenced keys.
+- **Location:** *This* place, not the concept of a lake. Match `templates/Location`. Kernel, 3Fs, and player-verb inventories stay in `place-design`.
+- **Vehicle:** *This* craft. Playable aspects. Senses. Sequenced keys.
 - **Faction:** Public mask, concrete method, one tell a bystander could notice. L1 = how they operate now.
 - **Quest / front:** Stakes, clock, visible sign, consequence if ignored — complete sentences.
 - **Item / monster:** Drawable fiction. Owner math stays on the owner. Run cards follow `run-guide` for embeds and action cards. Missing owner for a creature you will roll → Monster-Brewer.

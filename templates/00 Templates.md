@@ -5,14 +5,16 @@ tags: [templates]
 
 # Templates
 
-Copy one (or use Obsidian Templates → folder `templates/`). One note per entity. Delete unused sections rather than leaving filler.
+Copy one (or use Obsidian Templates → folder `templates/`). One note per entity. Delete unused sections rather than leaving filler. Campaign notes are facts; design decisions and process stay in skills / [[AGENTS]].
 
-Every template uses the same disclosure bands — see [[docs/obsidian-presentation]]:
+Most templates use the same disclosure bands — see [[docs/obsidian-presentation]]:
 
 1. **L0 · At a glance** — first five seconds
 2. **L1 · At the table** — what you run or choose
 3. **L2 · Deep** — bank, links, densify
 4. **Constraints** — what never belongs here
+
+**Location** is the exception: [[templates/Location]] (filled: [[campaigns/shattered-sea/locations/Aruhe - Clear Lake]]).
 
 ## Core
 
@@ -40,7 +42,7 @@ See [[AGENTS]] — `visibility`, no WotC paste, no prep/log mash. Specs that see
 
 ## Narration block
 
-Owner pages keep a leading `> [!narration] Narration` near L0. Player-safe only — no DCs, HP, secrets, or unearned names. Leave empty until TotM fill. NPC dialogue uses `Narration — speaker`.
+Owner pages keep `> [!narration] Narration` where the template places it. Player-safe only — no DCs, HP, secrets, or unearned names. Leave empty until TotM fill. NPC dialogue uses `Narration — speaker`.
 
 Session/run beats use **two passes**: mechanical cockpit plus empty titled stubs (`Initial Narration` mandatory, then per zone, per clock tick, landing / variants, per roster embed), then TotM fill (TUI copy-writer). Do not put callouts inside table cells. See `run-guide` and [[templates/Encounter]].
 

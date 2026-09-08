@@ -150,14 +150,15 @@ theatre-of-the-mind. Retrieve vault facts through qmd-retrieval; do not invent
 setting/campaign canon when the vault is silent—say so and leave a
 clearly marked stub. Keep design truth, clocks, DCs, and hidden information out
 of player-facing prose. Write keyed checks and saves with the at-table grammar
-in `obsidian-markdown`.
+in `obsidian-markdown`. File location keys as **facts** on `templates/Location`
+(plus keyed subsections when the site is a dungeon). Seven-part tests and
+skeletons stay in this skill.
 
 ## GM-prep and world-bible gates
 
 Prepare only the dungeon machinery the DM will not improvise, then render it as
-modular keys findable in under 30 seconds. Key each site **obvious surface ->
-deeper interaction -> secrets last**; keep secrets, clocks, and DCs out of
-`[!narration]`. Maintain a lean site ledger and nearest MOC link rather than a
-lore dump. Depth comes from routes, factions, relationships, restocking, and
-responsive clocks. Keep an off-map parachute situation available when a party
-leaves the prepared dungeon.
+modular keys findable in under 30 seconds. File those keys as facts on the
+location note. Keep secrets, clocks, and DCs out of `[!narration]`. Maintain a
+lean site ledger and nearest MOC link rather than a lore dump. Depth comes from
+routes, factions, relationships, restocking, and responsive clocks. Keep an
+off-map parachute situation available when a party leaves the prepared dungeon.

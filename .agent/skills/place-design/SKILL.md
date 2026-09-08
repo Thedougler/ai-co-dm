@@ -5,8 +5,9 @@ description: >-
   wilderness regions, dungeons and ruins, landmarks, encounter sites, and planar
   or reality-warped locations. Use when creating location kernels, topology,
   affordances, factions, information economies, pressure, location moves, or
-  node keys. Prefer situations over plots. Do not use for pure narration without
-  structure (use theatre-of-the-mind) or for monster/item math alone.
+  node keys, or when filing those facts into a campaign location note. Prefer
+  situations over plots. Do not use for pure narration without structure (use
+  theatre-of-the-mind) or for monster/item math alone.
 ---
 
 # Place design
@@ -136,11 +137,28 @@ exposure, limits, or consequences.
 
 ## Presentation and handoffs
 
-Present GM truth, topology, clocks, clues, DCs, and hidden information separately
-from read-aloud prose. Write location tests with the at-table grammar in
-`obsidian-markdown`; player-activity tests live under **If the party**
-(`dnd5e-mechanics`). Use the reusable [location skeleton](references/location-skeleton.md),
-then key nodes with [node-key-and-affordances](references/node-key-and-affordances.md).
+Design with the [location skeleton](references/location-skeleton.md) and
+[node-key-and-affordances](references/node-key-and-affordances.md). File **facts**
+into `templates/Location`. On create or edit, match that shape. Filled exemplar:
+`campaigns/shattered-sea/locations/Aruhe - Clear Lake.md`.
+
+| Design work | Location note |
+|---|---|
+| Opening geography | **Overview** `[!narration]` (TotM; empty until fill) |
+| Identity, skip, occupants, links | **At a glance** |
+| Affordances, tests, DCs | **If the party** (`obsidian-markdown` / `dnd5e-mechanics`) |
+| People, factions | **Who** |
+| Fauna, flora, features | **What** |
+| Routes, adjoining sites | **Where** |
+| In-world reasons to come, stay, or care | **Why** |
+| Battlemaps, non-identity art | **Art** |
+| Identity image | After the title when one exists (`visual-aids`) |
+
+Kernel, 3Fs, promise, player-verb lists, topology audit, references, and the
+quality checklist stay in this skill. The campaign note is the place as it is.
+**Complete when:** the filed note matches `templates/Location`, and the skeleton
+is not on the campaign page.
+
 Run the audit: identity and promise are clear; topology has choices; nodes pass
 the verb test; clues are robust; factions have goals and moves; pressure changes
 play; the place works without combat; consequences persist; and the **final
@@ -154,10 +172,10 @@ silent—mark a stub.
 
 ## World-bible and prep gates
 
-Keep location notes modular and table-findable in under 30 seconds. Key the place
-from **obvious surface -> deeper interaction -> secrets last**; secrets remain DM
-truth and never enter `[!narration]`. A location earns depth from responsive
-systems: inhabitants move, factions react, routes change, and clocks advance-not
-from a larger lore block. Prepare only the topology, affordances, clues, and
-pressure the DM will not improvise, then link the atomic note to the nearest MOC
-or hub rather than creating parallel structure.
+Keep location notes modular and table-findable in under 30 seconds. File **facts**
+in `templates/Location` order. Secrets remain DM truth and never enter
+`[!narration]`; they live as facts under Who, What, or If the party. A location
+earns depth from responsive systems: inhabitants move, factions react, routes
+change, and clocks advance — not from a larger lore block. Prepare only the
+topology, affordances, clues, and pressure the DM will not improvise, then link
+the atomic note to the nearest MOC or hub rather than creating parallel structure.

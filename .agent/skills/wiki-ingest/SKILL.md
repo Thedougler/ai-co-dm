@@ -107,7 +107,9 @@ page-set size follow the checklist: multi-entity sources may require more than
    legacy, implied, uncertain, and canon-safe material.
 2. New notes must come from matching `templates/`; every edited/created vault
    Markdown file must follow `obsidian-markdown` (frontmatter, wikilinks,
-   callouts, and one topic per note). Use `[[...]]` for vault links.
+   callouts, and one topic per note). Use `[[...]]` for vault links. File
+   **facts**. Location notes match `templates/Location` on create or edit. Design
+   kernels, 3Fs, player-verb lists, and topology audits stay in `place-design`.
 3. Keep leading `[!narration]` empty unless **Visualizer** is in the loop. Put
    DM-only facts, secrets, and mechanics outside narration.
 4. Do not silently overwrite canon. Flag conflicts to **Co-DM|Nick** in the
@@ -157,8 +159,7 @@ attempt.
 
 The compiled bible should stay lean and findable: maintain a hub for PCs, active
 versus past NPCs, locations, factions, and living handouts, with a small junk
-drawer for material not yet worth an atomic note. File location knowledge in the
-order **obvious -> deeper -> secrets**. Prefer depth from responsive systems: who moves, which clock advances,
+drawer for material not yet worth an atomic note. File location knowledge into `templates/Location`. Prefer depth from responsive systems: who moves, which clock advances,
 and what relationship changes, over decorative lore.
 Start with one habit: after each session, capture who/decisions/open threads
 within 24 hours and patch only the typed owners that play changed. The nearest

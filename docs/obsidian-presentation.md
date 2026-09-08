@@ -10,7 +10,7 @@ Owned by **Wiki-UI**. Agents still follow `obsidian-markdown` + [[AGENTS]]. Grok
 
 ## Primary: information hierarchy
 
-Every wiki note uses the same disclosure bands. Empty sections are deleted, not filled with filler.
+Most wiki notes use the same disclosure bands. Empty sections are deleted, not filled with filler. **Location** notes use [[templates/Location]] instead.
 
 | Band | Question it answers | When you read it |
 |---|---|---|
@@ -22,7 +22,7 @@ Every wiki note uses the same disclosure bands. Empty sections are deleted, not 
 **Rules**
 1. Higher bands never depend on scrolling past L2.
 2. L0 is bullets or one short paragraph — no essays.
-3. Player-facing prose lives in `> [!narration]`. Owner pages: one leading block near L0. Session/run beats: mandatory `Initial Narration` plus titled situational stubs (zones, ticks, landing, roster), never buried and never inside table cells.
+3. Player-facing prose lives in `> [!narration]`. Owner pages: one block where the template places it. Session/run beats: mandatory `Initial Narration` plus titled situational stubs (zones, ticks, landing, roster), never buried and never inside table cells.
 4. On session/run surfaces the only callout is `[!narration]`. DM truth and procedure are headings.
 5. Complete grammatical sentences on session/run surfaces.
 6. At-table scan grammar lives in `obsidian-markdown`: **bold** = look here / mechanical noun; `` `code` `` = the number; → = what a mechanic produces; `[!narration]` = spoken. `DC 15` is inline code.
@@ -53,12 +53,13 @@ Use the **cockpit** in `.agent/skills/run-guide/SKILL.md` (Scene ends when → G
 
 Glance → live cockpits in play order. Roster = heading embeds. Whole-session secrets/treasure/parachute sit after the live cards. No Scene menu that is only prep-management.
 
-## Entity notes (same bands)
+## Entity notes (template bands)
 
 | Type | L0 | L1 | L2 |
 |---|---|---|---|
 | NPC / PC | Hook + look / player summary | Drive, public vs secret, spotlights | Relationships, resources, appearances |
-| Location / Vehicle | At a glance + aspects | Who/connections/hooks | Secrets, mechanics |
+| Location | — | [[templates/Location]] (not L0/L1/L2) | — |
+| Vehicle | At a glance + aspects | Who/connections/hooks | Secrets, mechanics |
 | Faction | Public goal | Methods, faces, reach | Secret goal, relations, clocks |
 | Front | Impending doom | Dangers, grim portents, stakes | Cast |
 | Quest | Objective + stakes | Nodes, conclusions→clues | Rewards, linked |
@@ -69,7 +70,7 @@ Glance → live cockpits in play order. Roster = heading embeds. Whole-session s
 | Campaign | Premise + table | Current arc + pressure | Indexes |
 
 ## Anti-patterns
-- Flat heading soup with no L0/L1/L2
+- Flat heading soup with no template bands
 - Telegram shorthand on session/run surfaces
 - Collapsed callouts on session/run surfaces
 - Dumping L2 essays into L0

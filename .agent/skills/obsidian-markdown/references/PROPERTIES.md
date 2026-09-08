@@ -14,6 +14,8 @@ YAML between `---` at the top of the note.
 | `aliases` | optional alternate link names |
 
 Monster extras often include `role`, `cr`, `source` (see `templates/Monster.md`).
+Location extras: `kind` (site | settlement | region | dungeon | planar), `region`,
+`source` (see `templates/Location.md`).
 
 ## Obsidian defaults
 

@@ -1,7 +1,9 @@
 # Reusable location skeleton
 
 Copy this skeleton, then delete fields that do not affect play. It is a design
-form, not a requirement to fill every blank.
+form, not a campaign note and not a requirement to fill every blank. File the
+resulting **facts** into `templates/Location`. Do not copy kernel, 3Fs, promise,
+player verbs, topology audit, or this checklist onto a `campaigns/` page.
 
 ## 1. Identity
 
@@ -117,13 +119,16 @@ territory, red line, current move, and between-visit update. Add:
 
 ## 11. Table presentation
 
+File the facts into `templates/Location`. This section is a check, not a second
+note shape.
+
 - **Opening description:** observable orientation + one invitation + one
-  uncertainty; no lore dump
-- **GM truth:**
-- **Read-aloud boundary:**
-- **If players ask / test / wait:**
+  uncertainty; no lore dump → **Overview**
+- **GM truth:** Who / What / Where / Why / If the party
+- **Read-aloud boundary:** `[!narration]` only
+- **If players ask / test / wait:** **If the party**
 - **Handoffs:** dungeon-design, theatre-of-the-mind, session-beats,
-  qmd-retrieval
+  qmd-retrieval, visual-aids
 
 ## 12. Quality audit
 

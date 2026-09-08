@@ -4,61 +4,61 @@ campaign:
 kind: # site | settlement | region | dungeon | planar
 region: 
 visibility: dm
-tags: [location]
+aliases:
+tags:
+  - location
+source: 
 ---
-
 # {{name}}
 
-## L0 · At a glance
-
+## Overview
 > [!narration] Narration
 > _Spatial first look (survey/approach). Theatre of the mind (Place)._
 >
 
-### At a glance
+---
+## At a glance
+What this place is, what you can do here, who occupies it, where it connects, and whether it can be skipped.
 
-One sentence plus a “feels like…” mood.
+---
+## If the party
 
-### Aspects
+- **Activity:** What happens.
+  - **Wisdom (Animal Handling) — `DC 15`** → End it, or recover what they took.
+  - **Strength or Dexterity save — `DC 14`** → Keep yanked gear.
+- **Follow a route:** [[Location]].
+  - **Dexterity (Acrobatics) — `DC 10`** → Keep feet.
+- **Wisdom (Perception) — `DC 15`** → Notice the thing from here.
+- **Harvest / fish / take:**
+  - **Intelligence (Nature) — identify**
+    - `DC 10` → Edible, not poison.
+    - `DC 15` → Name the variety and its broad use.
+    - `DC 20` → Exact prize effect.
+  - **Wisdom (Survival) — harvest**
+    - `DC 10` → Ordinary take.
+    - `DC 15` → Ripe useful specimen.
+    - `DC 20` → Prize grade.
+    - Failure → Local fauna contest the take.
 
-Three playable traits (Lazy DM): `aspect, aspect, aspect`
+---
+## Who
 
-### Senses
+- [[NPC]] / [[Faction]]
 
-Sight, sound, and smell — short bullets.
+---
+## What
 
-## L1 · At the table
+- [[Creature]] / [[Item]]: What they do here.
 
-### Who is here
-
-- [[NPC]] / [[Faction]] / random table pointer
-
-### Connections
-
-Exits, routes, and linked sites. Node pointers, not a map essay.
+---
+## Where
 
 - → [[Location]]
 
-### Hooks
+---
+## Why
 
-Things to do or discover here.
+In-world reasons someone comes, stays, or cares.
 
-### If the party
-
-Player-activity tests. Hang each mark on the attempt they take (`dnd5e-mechanics`). Several approaches as bullets:
-
-- **Wisdom (Survival) — `DC 13`** → Follow the tracks.
-- **Intelligence (Nature) — `DC 15`** → Identify the creature.
-- **Wisdom (Perception) — `DC 17`** → Notice it watching from the canopy.
-
-## L2 · Deep
-
-### Secrets (DM)
-
-Clues available here (Alexandrian) — the content of the clue, not only “roll Investigation.”
-
-## Constraints
-
-- No room-by-room novelization unless this is a keyed dungeon (then use subsections sparingly).
-- No stat blocks in the location note (link [[Encounter]] / [[Monster]]).
-- Checks and saves use the at-table grammar in `obsidian-markdown`. `DC n` is inline code.
+---
+## Art
