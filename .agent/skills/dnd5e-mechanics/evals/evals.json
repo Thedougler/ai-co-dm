@@ -44,11 +44,11 @@
     {
       "id": "certain-outcome-silent",
       "prompt": "On a location bullet 'Splash and be noisy: otters notice and start playing,' add the appropriate checks and saves. Entering the water always starts play.",
-      "expected_output": "Player-activity tests live under If the party, marked ==DC 15== **Animal Handling** and ==DC 14== **Strength or Dexterity save**. Splash starting play stays unmarked fiction. A creature-imposed macaw Confess may sit on What as ==DC 12== **Wisdom save**. No '(no check)'. No checks table. Type is bold; DC and number are highlighted.",
+      "expected_output": "Player-activity tests live under If the party, marked **DC 15** *Animal Handling* and **DC 14** *Strength or Dexterity save*. Splash starting play stays unmarked fiction. A creature-imposed macaw Confess may sit on What as **DC 12** *Wisdom save*. No '(no check)'. No checks table. Number is bold; type is italic.",
       "expectations": [
-        "Puts player-activity tests on If the party using ==DC n== **Type**.",
+        "Puts player-activity tests on If the party using **DC n** *Type*.",
         "Leaves play-start unmarked; no no-check annotation.",
-        "Any extra section test is optional, secret, or non-obvious (creature-imposed), still ==DC n== **Type**."
+        "Any extra section test is optional, secret, or non-obvious (creature-imposed), still **DC n** *Type*."
       ]
     }
   ]

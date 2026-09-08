@@ -23,8 +23,7 @@ License, available at https://creativecommons.org/licenses/by/4.0/legalcode.
 
 - Every written test is *uncertain*: it can fail, and failure changes play.
 - Every written test is one *d20 test* (*check*, *save*, or attack) with a *DC*
-  (or AC). Mark it so type and number are distinct:
-  `==DC 15== **Survival**`, `==DC 14== **Strength or Dexterity save**.`
+  (or AC). Mark it **DC 15** *Survival* (bold number, italic type).
 - The *DC* is a typical-band rung, a named 2024 procedure, or `8 + PB + ability modifier` for an imposed *save*.
 - Certain outcomes stay fiction: drink the lake, start otter play, a macaw's
   Surface Echo. Those lines have no parenthetical about rolling.
@@ -104,9 +103,8 @@ or cost.
 
 ### 6. Place the number
 
-Write `==DC 15== **Survival**: catch fish this hour` (highlight the *DC* and
-number; bold the *check* or *save* type). That pair is the mark. Do not bury
-type and number in plain parentheses.
+Write **DC 15** *Survival*: catch fish this hour. Bold the *DC* and number;
+italic the *check* or *save* type. That pair is the mark.
 
 **Home:** player activities — on a location, **If the party**. Hang the mark on
 the attempt they take.
@@ -118,7 +116,7 @@ it belongs to (a creature-imposed *save* on What, a hidden listen in
 A *Be ready for* table is for `run-guide` only; cells still use the same mark.
 Vault format is `obsidian-markdown`. `[!narration]` stays player-safe.
 
-**Complete when:** every written test uses `==DC n== **Type**`; player-activity
+**Complete when:** every written test uses **DC n** *Type*; player-activity
 tests live under **If the party**; only optional/secret/non-obvious tests sit
 elsewhere; player prose has no *DC*, save type, or unearned name; no line
 exists only to say a roll is absent.
