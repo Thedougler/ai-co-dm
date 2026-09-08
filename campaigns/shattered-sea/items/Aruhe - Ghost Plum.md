@@ -14,7 +14,7 @@ tags: [item, aruhe, consumable]
 ![[attachments/shattered-sea/items/aruhe-ghost-plum.png]]
 
 > [!narration] Narration
-> A ghost plum hangs heavy under broad wet leaves, oval and bigger than a hand. Its glassy skin holds green, gold, and bruised purple in mottled layers, with thin rainbow color running over the curve when light catches it. Water beads along the rind and gathers at the pointed end before it drops from the fruit.
+> A ghost plum hangs heavy under broad wet leaves, oval and bigger than a hand, but its skin keeps borrowing the branch, leaves, and light behind it as you move around it. The fruit's true edge shows mostly where pale pollen drifts from the stem and settles across the curve. A thin shimmer runs over the rind, and water beads gather at the pointed end before dropping from a shape that almost loses itself in the green.
 
 Consumable, Rare
 
