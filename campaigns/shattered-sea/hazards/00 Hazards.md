@@ -7,10 +7,10 @@ tags: [index, hazard]
 ---
 # Hazards
 ## Aruhe
-- [[Aruhe - Snakewood]] · [[Aruhe - Stillbloom]] · [[Aruhe - Razer-Grass]] · [[Aruhe - Black Lotus]] · [[Aruhe - Lesser Black Lotus]] · [[Aruhe - Grubnade]] · [[Aruhe - Unsaid Macaw]]
+- [[Aruhe - Snakewood]] · [[Aruhe - Stillbloom]] · [[Aruhe - Spiritpollen]] · [[Aruhe - Razer-Grass]] · [[Aruhe - Black Lotus]] · [[Aruhe - Lesser Black Lotus]] · [[Aruhe - Grubnade]] · [[Aruhe - Unsaid Macaw]]
 
 ## Aruhe flora
-- [[Aruhe - Snakewood]] · [[Aruhe - Stillbloom]] · [[Aruhe - Razer-Grass]] · [[Aruhe - Black Lotus]] · [[Aruhe - Lesser Black Lotus]] · [[Aruhe - Grubnade]]
+- [[Aruhe - Snakewood]] · [[Aruhe - Stillbloom]] · [[Aruhe - Spiritpollen]] · [[Aruhe - Razer-Grass]] · [[Aruhe - Black Lotus]] · [[Aruhe - Lesser Black Lotus]] · [[Aruhe - Grubnade]]
 - Flora frame: [[Aruhe - Hungry Isle#What]]
 
 ## Aruhe fauna
