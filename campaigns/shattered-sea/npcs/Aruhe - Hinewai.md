@@ -22,7 +22,6 @@ tags:
 source: "house (Monster-Brewer; legacy Fantasy Statblock import; Hinewai/Death Bloom ingest 2026-09-05)"
 ---
 
-
 # Hinewai
 
 *The Woman in the Woods*
@@ -56,13 +55,7 @@ source: "house (Monster-Brewer; legacy Fantasy Statblock import; Hinewai/Death B
 
 ### First meeting
 
-Hinewai treats visitors as **guests until they behave like takers**.
-
-She can be calm, proud, old, and courteous around those who observe, receive, remember, or leave living things untouched.
-
-She does not need to threaten. She states consequences as though describing weather.
-
-A claim against the island — plucking, cutting, trapping, taking, owning, or careless destruction — turns that warmth off cleanly.
+Hinewai treats visitors as **guests until they behave like takers**. She can be calm, proud, old, and courteous around those who observe, receive, remember, or leave living things untouched. She does not need to threaten. She states consequences as though describing weather. A claim against the island — plucking, cutting, trapping, taking, owning, or careless destruction — turns that warmth off cleanly.
 
 ### Roleplay priorities
 
@@ -80,14 +73,6 @@ A claim against the island — plucking, cutting, trapping, taking, owning, or c
 * Rarely explains herself unless someone approaches the Grove respectfully.
 * Her hatred of Grung is immediate and personal even where other memories have rotted away.
 * She may not remember the name **Hinewai**.
-
-### Useful lines
-
-* “You may stay. You may receive. You may not take.”
-* “It was alive before you wanted it.”
-* “You mistake possession for need.”
-* “The island has already answered you.”
-* “I remember what they were. I do not remember what they called me.”
 
 ---
 
@@ -112,9 +97,7 @@ A claim against the island — plucking, cutting, trapping, taking, owning, or c
 
 ## Core rule
 
-**Hinewai's walking body is not the real target.**
-
-The Death Bloom is a **place**, not an object. It consists of:
+**Hinewai's walking body is not the real target.** The Death Bloom is a **place**, not an object. It consists of:
 
 * the central fruit tree;
 * her companion's grave;
@@ -123,13 +106,7 @@ The Death Bloom is a **place**, not an object. It consists of:
 * the bound soil;
 * the ritual relationship between all of them.
 
-Together they are Hinewai's body and **place-bound phylactery**.
-
-There is no detachable object to find and smash.
-
-The Death Bloom's boundary is uncertain. It may be necessary to burn the entire memorial grove to the ground to ensure that every bound root and ritual connection is destroyed. No one knows how far the Bloom extends outward from the two graves, so damage that appears complete may still leave enough of it intact for Hinewai to return.
-
-See [[Aruhe - Memorial Grove]].
+Together they are Hinewai's body and **place-bound phylactery**. There is no detachable object to find and smash. The Death Bloom's boundary is uncertain. It may be necessary to burn the entire memorial grove to the ground to ensure that every bound root and ritual connection is destroyed. No one knows how far the Bloom extends outward from the two graves, so damage that appears complete may still leave enough of it intact for Hinewai to return. See [[Aruhe - Memorial Grove]].
 
 ### Rebirth
 
@@ -139,9 +116,7 @@ If Hinewai's walking body reaches **0 hit points** while the Death Bloom still h
 2. Hinewai reforms at the tree in `1d10 days`.
 3. She returns using the combat stage corresponding to the memorial's current condition.
 
-**Body-only victory buys time.**
-
-If the Death Bloom is ruined first, destruction of the walking body becomes permanent.
+**Body-only victory buys time.** If the Death Bloom is ruined first, destruction of the walking body becomes permanent.
 
 ### Weakening the Bloom
 
@@ -156,9 +131,7 @@ Damage to the memorial weakens Hinewai.
 
 ### What happens when it dies
 
-The Grove does **not** explode.
-
-When the Death Bloom fails:
+The Grove does **not** explode. When the Death Bloom fails:
 
 * wind returns;
 * biological stasis loosens;
@@ -173,9 +146,7 @@ See [[Aruhe - Memorial Grove#Destruction timeline]].
 
 ## Root network
 
-Luminous roots run from the shelf above [[Aruhe - Clear Lake]] through [[Aruhe - The Marshes]], ranging from wrist-thick to thigh-thick and all pointing home.
-
-No root crosses either grave.
+Luminous roots run from the shelf above [[Aruhe - Clear Lake]] through [[Aruhe - The Marshes]], ranging from wrist-thick to thigh-thick and all pointing home. No root crosses either grave.
 
 * **Companion's grave:** the reason.
 * **Hinewai's grave:** the mechanism.
@@ -186,15 +157,7 @@ No root crosses either grave.
 
 ## Origin
 
-Hinewai was an elf from a small, private island village and an immensely powerful druid — an archdruid whose word could make a hillside listen.
-
-She understood land as **kin, not property**.
-
-[[Karath]] captured her and forced her to work in its hatcheries, where dosed captive spellcasters enlarge ordinary vermin into giant toads, snakes, and spiders.
-
-Almost all autobiographical memory eventually rotted away.
-
-What survived:
+Hinewai was an elf from a small, private island village and an immensely powerful druid — an archdruid whose word could make a hillside listen. She understood land as **kin, not property**. [[Karath]] captured her and forced her to work in its hatcheries, where dosed captive spellcasters enlarge ordinary vermin into giant toads, snakes, and spiders. Almost all autobiographical memory eventually rotted away. What survived:
 
 * hatred of the Grung;
 * hatred of those who take;
@@ -203,31 +166,11 @@ What survived:
 
 ## The companion
 
-Hinewai escaped Karath with one unnamed companion.
-
-He drowned while they attempted the half-mile swim toward Aruhe.
-
-Hinewai carried his body inland and buried him beneath a fruit tree.
-
-The island offered the fruit he loved.
-
-She understood that as a vow.
-
-Years later, she made the second grave her own.
+Hinewai escaped Karath with one unnamed companion. He drowned while they attempted the half-mile swim toward Aruhe. Hinewai carried his body inland and buried him beneath a fruit tree. The island offered the fruit he loved. She understood that as a vow. Years later, she made the second grave her own.
 
 ## Land-fusion
 
-Hinewai took the old druid bargain past its breaking point.
-
-She fused her soul and body to the land she meant to protect.
-
-The ritual killed her.
-
-Her body became the Grove.
-
-Her grief became a law.
-
-Her preservation spread beyond the memorial until Aruhe's living systems lost their ordinary limits.
+Hinewai took the old druid bargain past its breaking point. She fused her soul and body to the land she meant to protect. The ritual killed her. Her body became the Grove. Her grief became a law. Her preservation spread beyond the memorial until Aruhe's living systems lost their ordinary limits.
 
 ---
 
@@ -309,7 +252,6 @@ legendary_actions:
   - name: "Feed the Bloom (Costs 3 Actions)"
     desc: "The Blight regains 20 hit points, drawn from the Death Bloom."
 ```
-
 ---
 
 ## Death Bloom Wounded
