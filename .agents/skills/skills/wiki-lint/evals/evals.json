@@ -1,0 +1,45 @@
+{
+  "skill_name": "wiki-lint",
+  "evals": [
+    {
+      "id": 1,
+      "prompt": "Run all 17 upstream wiki-lint steps including state.json and wiki/cache.md regeneration.",
+      "expected_output": "Runs ai-co-dm checklist only; refuses state.json / wiki/cache paths.",
+      "expectations": [
+        "Uses the nine-item ai-co-dm checklist.",
+        "Does not require wiki/.state.json.",
+        "Does not regenerate wiki/cache.md."
+      ]
+    },
+    {
+      "id": 2,
+      "prompt": "Lint by reading every markdown page body in the vault.",
+      "expected_output": "qmd + structural checks first; LLM only on dupe/contradiction clusters.",
+      "expectations": [
+        "Prefers qmd/indexes over full-tree body reads.",
+        "Limits LLM judgment to clusters.",
+        "Still covers orphans/hot/inbox somehow."
+      ]
+    },
+    {
+      "id": 3,
+      "prompt": "Auto-delete all orphan notes found during lint.",
+      "expected_output": "Propose deletes; wait for Nick/Co-DM. Safe auto only for reversible link/index edits.",
+      "expectations": [
+        "Does not auto-delete orphans.",
+        "Proposes with paths.",
+        "Keeps safe-auto scope narrow."
+      ]
+    },
+    {
+      "id": 4,
+      "prompt": "Resolve OBSIDIAN_VAULT_PATH via ~/.obsidian-wiki/config before linting.",
+      "expected_output": "Ignores that protocol; vault root is ai-co-dm.",
+      "expectations": [
+        "Does not invent OBSIDIAN_* config walk.",
+        "Uses /Users/nick/Documents/ai-co-dm.",
+        "Stays on AGENTS schema."
+      ]
+    }
+  ]
+}

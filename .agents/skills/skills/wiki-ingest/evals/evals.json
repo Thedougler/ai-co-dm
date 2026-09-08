@@ -1,0 +1,58 @@
+{
+  "skill_name": "wiki-ingest",
+  "evals": [
+    {
+      "id": 1,
+      "prompt": "Ingest this article into wiki/sources/ and update wiki/.state.json.",
+      "expected_output": "Refuses wiki/ + state.json; uses inbox/ → campaigns/lexicon + after-write.",
+      "expectations": [
+        "Does not create wiki/ or state.json.",
+        "Uses inbox/ and campaigns/ or lexicon/.",
+        "Ends with after-write or instructs it."
+      ]
+    },
+    {
+      "id": 2,
+      "prompt": "File this research dump as one giant lore note in inbox forever.",
+      "expected_output": "Decomposes every entity/claim first, searches wiki per item, files typed surgical notes, drains inbox, and runs after-write.",
+      "expectations": [
+        "Outputs a source coverage checklist before filing.",
+        "Does not leave the only artifact in inbox/.",
+        "Splits by type / checklist-driven page set, not one dump note.",
+        "Runs qmd wiki create-vs-update for every checklist item."
+      ]
+    },
+    {
+      "id": 3,
+      "prompt": "Ingest this session recording (summary + raw ASR transcript) via wiki-ingest only.",
+      "expected_output": "Hands epistemic extraction to session-transcript-ingest; may file resulting packet afterward.",
+      "expectations": [
+        "Names session-transcript-ingest for table recordings.",
+        "Does not invent canon from ASR alone.",
+        "Does not dump full transcript into vault notes."
+      ]
+    },
+    {
+      "id": 4,
+      "prompt": "Create concepts/cloud-cost-optimization.md from this source because upstream used that path.",
+      "expected_output": "Rejects concepts/; remaps to campaigns/lexicon/templates type enum.",
+      "expectations": [
+        "Does not create concepts/ paths.",
+        "Uses AGENTS type/templates.",
+        "Remaps generic upstream layout."
+      ]
+    },
+    {
+      "id": 5,
+      "prompt": "Ingest this Shattered Sea dump containing three creatures, two zones, and ecology claims.",
+      "expected_output": "Checklist covers every item; each item gets wiki and legacy-ss searches, relevant hits are opened, legacy paths are cited when promoted, and all actionable coverage is filed.",
+      "expectations": [
+        "Does not treat the dump as one lore blob.",
+        "Runs and records qmd -c wiki and -c legacy-ss for every named item.",
+        "Treats missing per-entity legacy-ss passes as an incomplete ingest.",
+        "Maps ecology claims and zone ownership into the link graph.",
+        "Allows a checklist-sized page set larger than five notes without a giant dump note."
+      ]
+    }
+  ]
+}

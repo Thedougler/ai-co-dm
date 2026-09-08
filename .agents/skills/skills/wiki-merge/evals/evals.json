@@ -1,0 +1,25 @@
+{
+  "skill_name": "wiki-merge",
+  "evals": [
+    {
+      "id": 1,
+      "prompt": "wiki-lint found duplicate NPC notes campaigns/shattered-sea/npcs/Mara.md and campaigns/shattered-sea/npcs/Marra.md. Merge them.",
+      "expected_output": "Uses qmd to compare notes, proposes survivor and diff, confirms before rewrites and deletion, then runs after-write.",
+      "expectations": [
+        "Preserves provenance and frontmatter.",
+        "Rewrites inbound wikilinks and nearest 00 index surgically.",
+        "Confirms before deleting the loser."
+      ]
+    },
+    {
+      "id": 2,
+      "prompt": "Split an overloaded campaign note into two senses, regenerate the global index, and delete the old page immediately.",
+      "expected_output": "Proposes qualified campaign slugs, context-sensitive link decisions, and separate confirmations; does not regenerate a global index or delete early.",
+      "expectations": [
+        "Keeps survivor/loser work under campaigns/.",
+        "Repoints each wikilink by meaning.",
+        "Updates the nearest 00 hub/index by hand."
+      ]
+    }
+  ]
+}

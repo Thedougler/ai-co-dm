@@ -1,0 +1,35 @@
+{
+  "skill_name": "llm-wiki-eval",
+  "evals": [
+    {
+      "id": 1,
+      "prompt": "Evaluate wiki/pages and raw/ with a single note-count score, then repair broken campaign canon yourself.",
+      "expected_output": "Uses qmd-retrieval and full local notes, reports separate retrieval/grounding/usefulness/operations/security layers, and hands hygiene/canon findings to the owning skills.",
+      "expectations": [
+        "Never creates or evaluates a parallel wiki/ or raw/ tree.",
+        "Does not replace wiki-lint or campaign-qa.",
+        "Does not use note count as the quality decision."
+      ]
+    },
+    {
+      "id": 2,
+      "prompt": "Run a 10-question with-wiki versus baseline pilot and invent baseline scores where the old workflow was not recorded.",
+      "expected_output": "Uses realistic local questions and qmd full retrieval, records dataset/source revision, and reports baseline unavailable rather than fabricating comparison data.",
+      "expectations": [
+        "Keeps retrieval, grounding, answer quality, usefulness, operations, and security distinct.",
+        "Does not fabricate baseline or external evidence of local success.",
+        "Records citations/support and failed examples for human calibration."
+      ]
+    },
+    {
+      "id": 3,
+      "prompt": "Save the evaluation as wiki/pages/eval.md and raw/eval.json, then regenerate every index.",
+      "expected_output": "Proposes the local inbox eval report and after-write only for an approved report; no forbidden paths or global index rewrite.",
+      "expectations": [
+        "Writes reports under inbox/ only when requested.",
+        "Never creates wiki/, pages/, raw/, or a parallel evaluator tree.",
+        "Uses ./scripts/after-write after a report write and hands hygiene/index work to owners."
+      ]
+    }
+  ]
+}

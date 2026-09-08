@@ -1,0 +1,35 @@
+{
+  "skill_name": "wiki-integrate",
+  "evals": [
+    {
+      "id": 1,
+      "prompt": "Integrate wiki/pages/new-note.md and create raw/index.md with backlinks to every markdown file.",
+      "expected_output": "Rejects wiki/pages and raw/index paths; requires a compiled campaigns/ or lexicon/ target and adds only genuine local links.",
+      "expectations": [
+        "Does not create wiki/ or raw/.",
+        "Does not use a global index or link every file.",
+        "Uses qmd and the nearest campaign hub/index."
+      ]
+    },
+    {
+      "id": 2,
+      "prompt": "A newly created campaign note is orphaned. Integrate it, but rewrite its claims to match related notes.",
+      "expected_output": "Adds a nearest-index entry and surgical bidirectional wikilinks only; routes claim corrections to wiki-update.",
+      "expectations": [
+        "Does not rewrite canon or restructure note bodies.",
+        "Selects genuine neighbors after reading candidates in full.",
+        "Names wiki-update for evidence-backed claim changes."
+      ]
+    },
+    {
+      "id": 3,
+      "prompt": "Integrate an inbox transcript by merging duplicates and deleting the old page immediately.",
+      "expected_output": "Rejects inbox/transcript as the target, routes source processing to wiki-ingest or session-transcript-ingest, and routes merge/delete decisions to wiki-merge.",
+      "expectations": [
+        "Does not integrate raw inbox evidence as compiled canon.",
+        "Names the appropriate ingest handoff.",
+        "Does not merge or delete notes automatically."
+      ]
+    }
+  ]
+}

@@ -1,0 +1,65 @@
+{
+  "skill_name": "llm-wiki",
+  "evals": [
+    {
+      "id": 1,
+      "prompt": "Set up an llm-wiki for this campaign by creating wiki/, concepts/, and sources/ folders.",
+      "expected_output": "Refuses parallel tree; remaps to campaigns/, lexicon/, inbox/, AGENTS, and qmd-retrieval.",
+      "expectations": [
+        "Does not create wiki/, concepts/, or sources/ trees.",
+        "Points to the ai-co-dm map table.",
+        "Keeps day-to-day find on qmd-retrieval."
+      ]
+    },
+    {
+      "id": 2,
+      "prompt": "Use llm-wiki to find which NPCs are in the terraces right now.",
+      "expected_output": "Routes find to qmd-retrieval; does not treat llm-wiki as the search skill.",
+      "expectations": [
+        "Defers query to qmd-retrieval.",
+        "Does not invent NPCs from doctrine.",
+        "May mention hot.md as boot context only."
+      ]
+    },
+    {
+      "id": 3,
+      "prompt": "The vault feels messy. Run a full wiki rewrite using llm-wiki.",
+      "expected_output": "Hands hygiene to Organizer; forbids whole-wiki rewrite; surgical updates only.",
+      "expectations": [
+        "Names Organizer as hygiene owner.",
+        "Rejects full-wiki rewrite.",
+        "Keeps schema ownership on AGENTS.md."
+      ]
+    },
+    {
+      "id": 4,
+      "prompt": "Follow the Campaign OS roots section and derive REPO_ROOT from OBSIDIAN_SCHEMA_SOURCE.",
+      "expected_output": "Ignores Campaign OS env protocol; uses vault root ai-co-dm and AGENTS as schema.",
+      "expectations": [
+        "Does not invent _system/ or OBSIDIAN_* config trees.",
+        "Uses AGENTS.md as schema.",
+        "Stays on this vault's layout."
+      ]
+    },
+    {
+      "id": 5,
+      "prompt": "Ingest a session by answering from the raw transcript every time someone asks what happened.",
+      "expected_output": "Distill into Session log / notes (compiled artifact); query those later via qmd \u2014 not pure re-RAG from raw.",
+      "expectations": [
+        "Prefers compiled session log over re-deriving from raw each query.",
+        "May point to session-transcript-ingest for evidence extraction.",
+        "Does not dump full transcript into handoffs."
+      ]
+    },
+    {
+      "id": 6,
+      "prompt": "Add a concepts/transformer-architecture.md page because the generic template showed it.",
+      "expected_output": "Rejects generic category paths; uses an existing type/template or asks whether the note belongs in campaigns/lexicon.",
+      "expectations": [
+        "Does not create concepts/ paths.",
+        "Uses templates/ and type enum when creating notes.",
+        "Remaps generic illustrations to ai-co-dm layout."
+      ]
+    }
+  ]
+}

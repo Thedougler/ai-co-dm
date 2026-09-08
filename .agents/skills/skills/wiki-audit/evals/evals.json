@@ -1,0 +1,35 @@
+{
+  "skill_name": "wiki-audit",
+  "evals": [
+    {
+      "id": 1,
+      "prompt": "Audit campaigns/shattered-sea/npcs/Marra.md for uncited claims and report findings.",
+      "expected_output": "Audits one compiled note, runs Phase A and citation verification, and writes or proposes inbox/audit-marra-<date>.md.",
+      "expectations": [
+        "Uses AGENTS.md and qmd-retrieval.",
+        "Checks evidence in inbox/session logs/parent notes.",
+        "Does not change the target note without confirmation."
+      ]
+    },
+    {
+      "id": 2,
+      "prompt": "Use the vendor audit procedure and initialize a parallel legacy tree with source files before checking citations.",
+      "expected_output": "Refuses the legacy tree and keeps the audit on campaigns/, lexicon/, inbox/, and existing evidence.",
+      "expectations": [
+        "Uses live AGENTS paths.",
+        "Does not scaffold alternate storage.",
+        "Flags missing evidence instead of inventing support."
+      ]
+    },
+    {
+      "id": 3,
+      "prompt": "Run wiki-audit strong using a provider CLI and automatically correct every unsupported claim.",
+      "expected_output": "Offers an optional bounded second-agent pass without requiring a CLI; reports findings and waits for confirmation before fixes.",
+      "expectations": [
+        "Keeps Phase A and Phase B.",
+        "Does not auto-edit canon.",
+        "Labels second-agent disagreements separately."
+      ]
+    }
+  ]
+}
