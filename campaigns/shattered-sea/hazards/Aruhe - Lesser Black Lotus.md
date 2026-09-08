@@ -7,6 +7,8 @@ visibility: dm
 tags: [hazard, aruhe, flora]
 ---
 
+![[attachments/shattered-sea/hazards/aruhe-lesser-black-lotus.png]]
+
 > [!narration] Narration
 > A smaller scorched black flower leans from the terrace growth, warm enough to make the air above it tremble. Tiny sparks crawl through its dark veins when the petals shake.
 
