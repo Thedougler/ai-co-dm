@@ -29,7 +29,7 @@ Landing Bank is the first grassland mouth of [[Aruhe - River]] after [[Aruhe - O
 ## If the party
 
 - **Drink from the free-flowing river:** The water is drinkable.
-- **Follow the prints upriver:** The crushed corridor continues this valley through [[Aruhe - Grasslands]] along [[Aruhe - River]].
+- **Follow the prints upriver:** [[Aruhe - Torn Crossing|Torn Crossing]].
 - **Climb the terrace stone inland of the prints:** [[Aruhe - Old Gardens]].
 - **Walk downstream through the terrace line:** [[Aruhe - Old Gardens]] toward [[Aruhe - Beach|Western Landing]] and [[Uncertainty]].
 - **Stay on the terrace edge and skip the cut:** The water, prints, and used stop are lost.
@@ -62,7 +62,7 @@ Landing Bank is the first grassland mouth of [[Aruhe - River]] after [[Aruhe - O
 ## Where
 
 - First grassland mouth of [[Aruhe - River]] after [[Aruhe - Old Gardens]]
-- The cut continues upvalley through [[Aruhe - Grasslands]]
+- The cut continues upvalley through [[Aruhe - Grasslands]] to [[Aruhe - Torn Crossing|Torn Crossing]]
 - Downstream through the terraces to [[Aruhe - Beach|Western Landing]]
 - Smoke inland in this same valley, not a place on this bank
 

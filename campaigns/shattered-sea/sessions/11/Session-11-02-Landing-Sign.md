@@ -13,7 +13,7 @@ cssclasses: [session-surface]
 
 ## Scene ends when
 
-The crew commits to following the upriver prints and smoke off this bank (hand to beat 3), or the crew breaks for the ship, the beach, or the downstream terraces. This is not a fight. This is not the wolfrabbit stretch.
+The crew commits to following the upriver prints and smoke off this bank (hand to beat 3), or the crew breaks for the ship, the beach, or the downstream terraces. This is not a fight. This is not [[Aruhe - Torn Crossing]].
 
 ## At a Glance
 
@@ -81,12 +81,12 @@ Raid survivors already used this bank and walked upriver toward the smoke. There
 
 ## Landing
 
-If the crew follows the prints, they have committed to the upriver trail along this valley toward the smoke. That is beat 3's opening.
+If the crew follows the prints, they have committed to the upriver trail along this valley toward the smoke. That is [[Aruhe - Torn Crossing]] and beat 3's opening.
 
 If the crew broke, they are returning through the terrace line toward the beach or [[Uncertainty]], plus any RAW conditions already applied.
 
 > [!narration] Landing — Upriver prints
-> You leave the bank on the upriver prints, following the crushed gold-green corridor deeper into the valley toward the smoke. Stems rasp at your legs, and the clear river keeps pace beside the path.
+> You leave the bank on the upriver prints, following the crushed gold-green corridor onto [[Aruhe - Torn Crossing]] toward the smoke. Stems rasp at your legs, and the clear river keeps pace beside the path.
 
 > [!narration] Landing — Return to Uncertainty
 > You are already in the terrace woods, headed back for [[Uncertainty]]. The beach lies ahead through mossy garden stone and mangrove, the riverbank falls behind you, and salt comes in on the wind off the water.
@@ -97,4 +97,4 @@ If the crew broke, they are returning through the terrace line toward the beach 
 
 ## Backup
 
-[[Aruhe - River Landing Bank]] · [[Aruhe-River-Grasslands-Tables]] · [[Taking on Aruhe]] · [[Aruhe - Grasslands]] · [[Aruhe - River]] · [[Aruhe - Old Gardens]] · [[Aruhe - Redheart Berry]] · [[Uncertainty]] · [[Session-11-00-Angry-Birds]] · [[Session-11-01-Angry-Birds-Start]]
+[[Aruhe - River Landing Bank]] · [[Aruhe - Torn Crossing]] · [[Aruhe-River-Grasslands-Tables]] · [[Taking on Aruhe]] · [[Aruhe - Grasslands]] · [[Aruhe - River]] · [[Aruhe - Old Gardens]] · [[Aruhe - Redheart Berry]] · [[Uncertainty]] · [[Session-11-00-Angry-Birds]] · [[Session-11-01-Angry-Birds-Start]]

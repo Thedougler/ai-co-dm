@@ -64,6 +64,7 @@ The Grasslands are river-cut valleys inside Aruhe's jungle, not a sixth concentr
 ## Where
 
 - Terrace descent from [[Aruhe - Old Gardens]] onto [[Aruhe - River Landing Bank|Landing Bank]]
+- First flood-scoured hunting lane upvalley of Landing Bank: [[Aruhe - Torn Crossing|Torn Crossing]]
 - Follow water uphill into [[Aruhe - River|the River]] and [[Aruhe - Clear Lake|Clear Lake]]
 - Open route to [[Aruhe - Memorial Grove|the Grove]]
 - Lateral channels with [[Aruhe - River|the River]]
