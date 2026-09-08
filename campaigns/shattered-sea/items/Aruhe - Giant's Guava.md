@@ -11,8 +11,10 @@ tags: [item, aruhe, consumable]
 ---
 # Giant's Guava
 
+![[attachments/shattered-sea/items/aruhe-giants-guava.png]]
+
 > [!narration] Narration
-> A skull-sized guava hangs pink-gold and heavy enough to need both hands. Soft flesh gives under the thumb. The smell is fruit mixed with something glandular and animal.
+> A giant guava hangs from a thick branch in deep pink and gold ribs, broad enough that two hands look like the polite way to take it. Its glossy skin is speckled and slightly puckered, with leaves bent around it and the wood above bowed under the weight. Up close it smells sweet and wet, with a musky edge like the trail of something big pushing through the trees.
 
 Consumable, Rare
 
