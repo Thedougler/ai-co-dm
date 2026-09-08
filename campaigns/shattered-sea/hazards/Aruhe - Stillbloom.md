@@ -9,7 +9,7 @@ tags: [hazard, aruhe, flora]
 ![[attachments/shattered-sea/hazards/aruhe-stillbloom.png]]
 
 > [!narration] Narration
-> _Visualizer: Aruhe flora pending._
+> A patch of dull waxy stalks rises from the ground where the green leaves first blacken at the edges. Each plant stands about four feet high, with pale hollow bracts cupped around a crown of long dark needles. Some older stalks lift a single enormous cream-white flower above the smaller spearheads, faintly green at the center. Around the patch, punctured carcasses and narrow scavenger trails mark the shallow root mat, while the plants themselves stand still among the slow-moving feeders.
 
 ### Hazard — Stillbloom
 
