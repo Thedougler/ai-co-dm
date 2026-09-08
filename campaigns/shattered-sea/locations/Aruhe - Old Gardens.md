@@ -18,7 +18,7 @@ source: "[[Aruhe - Hungry Isle]]"
 ![[attachments/shattered-sea/places/aruhe-the-old-gardens.jpeg|Old Gardens, stacked stone terraces crowded with fruit]]
 ## Overview
 > [!narration] Narration
-> Old stone terraces climb the forest slope in stacked walls, each level wide enough for a path before the next green drop. Moss darkens the blocks, stair cuts climb between them, and black openings sit under ledges where irrigation water gathers below. Fruit crowds the terrace lips in yellow, orange, red, and pink clusters, with vines hanging down into the green channels and fallen pieces split open on the wet stone. The air is warm and sugar-sour, and the usable routes are the steps, the terrace edges, and the water-cut channels that keep leading inland.
+> Old stone terraces climb the forest slope in stacked walls, each level wide enough for a path before the next green drop. Moss darkens the blocks, stair cuts climb between them, and black openings sit under ledges where irrigation water gathers below. Redheart berries hang in tight red clusters along the terrace lips, while giant's guavas bow their branches over the lower steps. Fallen fruit splits open on the wet stone, and the air is warm and sugar-sour. The usable routes are the steps, the terrace edges, and the water-cut channels that keep leading inland.
 
 ---
 ## At a glance
@@ -57,8 +57,8 @@ Miles of ancient terraces run inland from [[Aruhe - Beach|Western Landing]], hum
 - [[Young Snakewood]] hunts the first terraces from connected low branches. Adults live farther in.
 - Hot blooms: unnamed flowers holding several mature [[Grubnade|Grubnades]]. Predators walk around any bloom that ticks.
 - [[Unsaid Macaw]]: Orchard edges. **Wisdom save — `DC 12`** → Speak one truthful sentence about the surfaced thought.
-- [[Aruhe - Redheart Berry]] hangs in dozens on the terraces.
-- [[Aruhe - Giant's Guava]] is common here and follows the tree line inland.
+- [[Aruhe - Redheart Berry]] hangs in dozens on the terraces; fallen berries can be foraged from the wet stone.
+- [[Aruhe - Giant's Guava]] follows the tree line inland, with low branches that can be picked.
 
 ---
 ## Where

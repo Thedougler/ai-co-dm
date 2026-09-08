@@ -17,7 +17,7 @@ source: "[[Aruhe - Hungry Isle]]"
 ![[attachments/shattered-sea/places/aruhe-the-lava-tubes.jpeg|Lava Tubes, broad basalt passages beneath Aruhe]]
 ## Overview
 > [!narration] Narration
-> The lava tubes under Aruhe open as broad black basalt passages, high enough for old roots to hang through breaks in the ceiling and trail down toward the stone. Shallow water gathers across the uneven floor in dark pools and drinkable seepage, with loose rock underfoot and a tunnel mouth continuing into deeper shadow. Warm mineral air moves out of the vents in pale breaths, carrying the sound of drips and small echoes along the walls.
+> The lava tubes under Aruhe open as broad black basalt passages, high enough for old roots to hang through breaks in the ceiling and trail down toward the stone. Shallow water gathers across the uneven floor in dark pools and drinkable seepage, with loose rock underfoot and a tunnel mouth continuing into deeper shadow. Warm mineral air moves out of the vents in pale breaths, carrying the sound of drips and small echoes along the walls. Near the roof breaks, ghost plums hang beneath wet roots, while stonepears sit heavy on branches forcing through cracks beside the seepage.
 
 ---
 ## At a glance
@@ -62,6 +62,7 @@ The Lava Tubes are the underworld beneath Aruhe's living surface: old volcanic p
 - Pale curtains of living root hang through breaks in the ceilings and drip water from their tips. The roots are surface forest reaching down, not a separate flora.
 - The luminous root network points back toward the sick interior and stops at the verge of the last clearing's graves.
 - Free-flowing cave seepage is drinkable. The source remains part of the living cave, not a possession.
+- [[Aruhe - Ghost Plum]] hangs beneath the wet root curtains, and [[Aruhe - Stonepear]] fruits beside the seepage where branches find cracks in the basalt. Fallen fruit can be foraged, while living fruit can be picked as a claim against Aruhe.
 - Drips, wingbeats, echoes, and movement along stone make distance difficult to judge.
 - The tubes are a route through Aruhe's underworld, not proof of a hidden city or a single subterranean ruler.
 

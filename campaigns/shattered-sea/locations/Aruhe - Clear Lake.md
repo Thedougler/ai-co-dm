@@ -17,7 +17,7 @@ source: "[[Aruhe - Hungry Isle]]"
 ![[attachments/shattered-sea/places/aruhe-the-clear-lake.jpeg|Clear Lake, a wide inland basin cupped by forested walls]]
 ## Overview
 > [!narration] Narration
-> The Clear Lake fills a crater of cold clear water and steep green walls, wide enough that the far bank thins to a tree line and pale cliff scars. A shelf of black hexagonal stone steps into water so clear that schools of small fish show over round pale rocks and moss. Marsh grass and a slow brown channel gather along one side, then the color falls into deep blue. Cool wet air comes off the lake, and the stone underfoot is solid enough to drink from, walk, or keep along the shore toward the higher green.
+> The Clear Lake fills a crater of cold clear water and steep green walls, wide enough that the far bank thins to a tree line and pale cliff scars. A shelf of black hexagonal stone steps into water so clear that schools of small fish show over round pale rocks and moss. Marsh grass and a slow brown channel gather along one side, then the color falls into deep blue. Cool wet air comes off the lake, and the stone underfoot is solid enough to drink from, walk, or keep along the shore toward the higher green. Redheart berries bead along the marsh edge, while stonepears hang low where the shore trees meet the black shelf.
 
 ---
 ## At a glance
@@ -59,7 +59,8 @@ Clear Lake is the inland freshwater basin at the uphill end of Aruhe's rivers. A
 
 -  [[Aruhe River Otter|River Otters]]: Anything entering the water near the marshy shoreline, invites becoming an unwilling playmate of the otters. 
 -  [[Unsaid Macaw]]: Nesting trees along the lake edges. **Wisdom save — `DC 12`** → Speak one truthful sentence about the surfaced thought.
--  Fruit grows around the edges.
+-  [[Aruhe - Redheart Berry]] beads along the marshy shoreline, and fallen berries can be foraged from the wet stones.
+-  [[Aruhe - Stonepear]] hangs from low branches beside the black shelf, where a living fruit can be picked if someone accepts Aruhe's response.
 ---
 ## Where
 

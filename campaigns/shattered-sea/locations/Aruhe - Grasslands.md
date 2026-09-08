@@ -18,7 +18,7 @@ source: "[[Aruhe - Hungry Isle]]"
 ![[attachments/shattered-sea/places/aruhe-the-grasslands.jpeg|Grasslands, river-cut valleys of gold-green grass]]
 ## Overview
 > [!narration] Narration
-> Clear water winds through the grasslands in channels a body can follow, with muddy bends low enough to kneel at and drink from. Gold-green grass rises higher than a person on both banks, bent flat where feet and water have worked the ground, then standing thick again as the valley climbs toward the dark jungle rim. Sunlight comes down in bright shafts through the open cuts of sky, flashing on wet stones and pale seed heads while warm water-smell and bird calls carry along the stream.
+> Clear water winds through the grasslands in channels a body can follow, with muddy bends low enough to kneel at and drink from. Gold-green grass rises higher than a person on both banks, bent flat where feet and water have worked the ground, then standing thick again as the valley climbs toward the dark jungle rim. Sunlight comes down in bright shafts through the open cuts of sky, flashing on wet stones and pale seed heads while warm water-smell and bird calls carry along the stream. Redheart berries shine at the bends, and heavy giant's guavas show above the grass where the channels enter the jungle rim.
 
 ---
 ## At a glance
@@ -33,7 +33,7 @@ The Grasslands are river-cut valleys inside Aruhe's jungle, not a sixth concentr
 - **Climb back toward the terraces:** [[Aruhe - Old Gardens]].
 - **Stay on a ridge or grass edge:** The valleys can be skipped; water and cover are lost.
 - **Walk the eight-foot grass:** Difficult Terrain. Heavily obscures beyond 10 feet. Movement leaves a crushed corridor.
-- **Go around [[Razer-Grass]] islands:** Trails already bend around them. Nothing large walks through.
+- **Go around [[Aruhe - Razer-Grass]] islands:** Trails already bend around them. Nothing large walks through.
   - **Wisdom (Perception) or Wisdom (Survival) — `DC 14`** → Nearby: no trails through it, sparkles stay fixed, old blood on lower blades, a glassy tinkle in the wind. From farther than 30 feet it only looks like frosted grass. Close examine of one blade names it.
 - **Run through an intact stand:** `1d4` slashing per 5 feet; Difficult Terrain.
   - Careful Passage: one Action, move up to 5 feet through it with no movement damage.
@@ -45,19 +45,21 @@ The Grasslands are river-cut valleys inside Aruhe's jungle, not a sixth concentr
 ---
 ## Who
 
-- [[Terror-Bird|Terror-Birds]] hold the shaded rims and grass cuts, about a quarter-mile each. Eight-foot grass, water, or a [[Razer-Grass]] stand ends the hunt.
-- [[Deer-Stalker|Deer-Stalkers]] use the grass cover. They will not walk [[Razer-Grass]].
+- [[Terror-Bird|Terror-Birds]] hold the shaded rims and grass cuts, about a quarter-mile each. Eight-foot grass, water, or a [[Aruhe - Razer-Grass]] stand ends the hunt.
+- [[Deer-Stalker|Deer-Stalkers]] use the grass cover. They will not walk [[Aruhe - Razer-Grass]].
 
 ---
 ## What
 
 - Gold-green grass tall enough to hide a standing person. Near water it leans; farther in, anything that does not lean is an animal.
-- [[Razer-Grass]]: Discrete waist-high islands at torn-up crossings, wallows, river bends, and flood-scoured hollows. It is not a blanket. Running through intact stands cuts. After a shatter, the glitter is asbestos-like if inhaled.
-- [[Aruhe River Otter|River Otters]]: Channels and wet banks. They will not haul a kill onto [[Razer-Grass]].
+- [[Aruhe - Razer-Grass]]: Discrete waist-high islands at torn-up crossings, wallows, river bends, and flood-scoured hollows. It is not a blanket. Running through intact stands cuts. After a shatter, the glitter is asbestos-like if inhaled.
+- [[Aruhe River Otter|River Otters]]: Channels and wet banks. They will not haul a kill onto [[Aruhe - Razer-Grass]].
 - [[Unsaid Macaw]]: Grassland edges. **Wisdom save — `DC 12`** → Speak one truthful sentence about the surfaced thought.
 - [[Bear-Elk]]: Scored-tree beats that cross the openings. [[Terror-Bird|Terror-birds]] step aside.
-- [[Wolfrabbit|Wolfrabbits]]: Jump [[Razer-Grass]] rather than land in it.
-- Fruit grows abundantly along the wet margins, exactly where the water is the best road.
+- [[Deer-Stalker|Deer-Stalkers]] use the grass cover. They will not walk [[Aruhe - Razer-Grass]].
+- [[Wolfrabbit|Wolfrabbits]]: Jump [[Aruhe - Razer-Grass]] rather than land in it.
+- [[Aruhe - Redheart Berry]] grows at the wet bends, where fallen berries can be foraged from the mud and stone.
+- [[Aruhe - Giant's Guava]] hangs above the grass at the jungle rim, low enough to pick from a living branch if Aruhe is willing to answer.
 
 ---
 ## Where

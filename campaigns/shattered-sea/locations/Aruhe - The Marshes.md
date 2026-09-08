@@ -20,7 +20,7 @@ source: "[[Aruhe - Hungry Isle]]"
 ![[attachments/shattered-sea/places/aruhe-the-marshes.jpeg|The Marshes, flooded rainforest beneath a dense green canopy]]
 ## Overview
 > [!narration] Narration
-> The ground below Clear Lake does not quite become land. Black water lies between hummocks of fern, flooded roots, and trees rising from knee-deep pools, while curtains of vine turn every open direction into another wall of green. Warm rainwater drips from leaves broad enough to hide beneath, insects whine in clouds around exposed skin, and something heavy moves through the reeds without showing more than a wake. Every few hundred feet the earth changes its mind: firm mud becomes sucking water, a shallow pool drops past the waist, or what looked like a channel ends beneath a mat of floating plants.
+> The ground below Clear Lake does not quite become land. Black water lies between hummocks of fern, flooded roots, and trees rising from knee-deep pools, while curtains of vine turn every open direction into another wall of green. Stonepears hang from mossy branches along the firmer ridges, and dark rotheart clusters mark the sickest trees deeper in the flooded forest. Warm rainwater drips from leaves broad enough to hide beneath, insects whine in clouds around exposed skin, and something heavy moves through the reeds without showing more than a wake. Every few hundred feet the earth changes its mind: firm mud becomes sucking water, a shallow pool drops past the waist, or what looked like a channel ends beneath a mat of floating plants.
 
 ---
 ## At a glance
@@ -84,7 +84,8 @@ The Marshes begin along the wet southern shore of [[Aruhe - Clear Lake|Clear Lak
 - Decay is loud and fast, and it does not quite finish. Fallen leaves, drowned branches, fruit, dung, carcasses, and fungus recycle almost as quickly as they appear, then grow again. Leaves go black at the edge. Bark splits. Violet shelf fungi crowd the sickest interior trees.
 - Luminous roots run wrist-thick to thigh-thick through the wet ground from the shelf above Clear Lake, all pointing toward the unmarked graves in [[Aruhe - Memorial Grove]].
 - Soft ground can give way toward volcanic stone: a subsurface breach into [[Aruhe - Lava Tubes]].
-- [[Stillbloom]] begins on the Quiet-to-Marshes trails and sunbreaks, where green first goes black at the leaf edge.
+- [[Aruhe - Stillbloom]] begins on the Quiet-to-Marshes trails and sunbreaks, where green first goes black at the leaf edge.
+- [[Aruhe - Stonepear]] hangs along the firmer root ridges, where fallen fruit can be foraged without entering the deeper pools.
 - [[Aruhe - Rotheart]] appears only on the sickest trees after spore-air has begun to wear a body down.
 - At night the marsh becomes louder rather than quieter. Frogs, insects, distant splashes, branch movement, and cries overlap until locating any one sound is difficult.
 

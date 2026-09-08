@@ -20,7 +20,7 @@ _The Hungry Isle_
 ![[attachments/shattered-sea/places/aruhe-hungry-isle-v3.png|Aruhe / Hungry Isle]]
 ## Overview
 > [!narration] Narration
-> From offshore Aruhe is a vast green volcanic island in deep blue water. Forested ridges fold around a dark crater lake, gold-tan bands cut the lower slopes, pale beaches break the cliffs, and white water works a reef rim. No town, field, road, or smoke marks the island. The green and the gold crowd every slope, more life than an island this size should hold.
+> From offshore Aruhe is a vast green volcanic island in deep blue water. Forested ridges fold around a dark crater lake, gold-tan bands cut the lower slopes, pale beaches break the cliffs, and white water works a reef rim. No town, field, road, or smoke marks the island. Redheart berries mark the wet lowlands in small red flashes, while heavy giant's guavas punctuate the deeper canopy. The green and the gold crowd every slope, more life than an island this size should hold.
 
 ---
 ## At a glance
@@ -53,6 +53,8 @@ Aruhe has no known state, town, road network, or visible settled population. The
 Aruhe is an old volcanic island, about five hundred miles end to end, with green slopes, crater water, shore reef, basalt shelves, vents, and lava tubes. It is not a wasteland or a place of scarcity. It is familiar life with its limits loosened: growth, healing, adaptation, reproduction, feeding, and rot continue past normal ecological checks. The result is a real place whose living systems have become excessive and dangerous, not one monster wearing the shape of an island.
 
 The clearest physical pattern is the root network. Pale, luminous roots run wrist-thick to thigh-thick from the shelf above [[Aruhe - Clear Lake|Clear Lake]], through [[Aruhe - The Marshes|the Marshes]], and into both unmarked graves in [[Aruhe - Memorial Grove|Memorial Grove]]. In [[Aruhe - Lava Tubes|the lava tubes]], the surface forest reaches down as root curtains. A wrecked raiding hull sits above the tideline at [[Aruhe - Beach|Western Landing]], marking the known entry point and the collapse of the Calveno raid landing.
+
+Across those bands, [[Aruhe - Redheart Berry]] beads along wet lowlands and river margins, while [[Aruhe - Giant's Guava]] hangs from high forest branches. Fallen fruit can be foraged; fruit taken from a living branch is a claim against the island.
 
 Aruhe distinguishes between receiving and taking. Fallen fruit and genuine offerings can be accepted without triggering the island's hostility. A living claim is different: taking fruit from a branch, cutting living growth, trapping an animal, or treating the island as property draws aligned local life into response. [[Taking on Aruhe]] is the reference for adjudicating those claims.
 

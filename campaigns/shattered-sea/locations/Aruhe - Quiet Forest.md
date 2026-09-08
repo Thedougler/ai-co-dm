@@ -19,7 +19,7 @@ source: "[[Aruhe - Hungry Isle]]"
 ![[attachments/shattered-sea/places/aruhe-the-quiet.jpeg|The Quiet, rainforest where small life has been eaten out]]
 ## Overview
 > [!narration] Narration
-> Above the last terrace, the rainforest closes into trunks broader than doorways and leaves wide enough to roof a passage. A narrow game trail runs under hanging curtains of root and vine, with moss-slick stones at the edges and wet leaves pressed flat into the mud. The green is dense, but it has too little small motion in it: no insect-saw, no bird chatter, only dripping water and the soft drag of leaves against each other. Farther in, the trail darkens between the roots where the forest stops looking like cover and starts looking like a mouth.
+> Above the last terrace, the rainforest closes into trunks broader than doorways and leaves wide enough to roof a passage. A narrow game trail runs under hanging curtains of root and vine, with moss-slick stones at the edges and wet leaves pressed flat into the mud. Stonepears hang heavy beside the mossed roots, while giant's guavas bow branches over the trail and ghost plums nearly disappear beneath wet leaves. The green is dense, but it has too little small motion in it: no insect-saw, no bird chatter, only dripping water and the soft drag of leaves against each other. Farther in, the trail darkens between the roots where the forest stops looking like cover and starts looking like a mouth.
 
 ---
 ## At a glance
@@ -32,7 +32,7 @@ The Quiet is rainforest above the last terrace of [[Aruhe - Old Gardens]], where
 - **Follow the silence boundary:** [[Aruhe - The Marshes]].
 - **Stay on a terrace or grassland edge:** The Quiet can be skipped.
 - **Walk a game trail pinched through stone:** A single [[Strangler Fig]] may fill the bottleneck with hanging roots and a hollow trunk.
-- **Walk the Quiet-to-Marshes trails and sunbreaks:** [[Stillbloom]] stands where green first goes black at the leaf edge.
+- **Walk the Quiet-to-Marshes trails and sunbreaks:** [[Aruhe - Stillbloom]] stands where green first goes black at the leaf edge.
   - **Wisdom (Perception) — `DC 14`** → Launch-spines, punctured carcasses, odd scavenger paths.
   - **Intelligence (Nature) or Wisdom (Survival) — `DC 14`** → It reads vibration. Slow movement is safe. Watching scavengers for 1 minute teaches this without a roll.
   - Move 10 feet or less on a turn, or fly without touching the root mat: the needles do not fire.
@@ -56,12 +56,12 @@ The Quiet is rainforest above the last terrace of [[Aruhe - Old Gardens]], where
 - Small life is gone. No insect-saw, no bird chatter. Ordinary warning signs that depend on that life are missing. [[Unsaid Macaw|Unsaid Macaws]] do not belong here.
 - [[Strangler Fig|Strangler Figs]] sit singly where packed game trails pinch between stone. Aerial roots hang in curtains; old bones show in the hollow trunk.
 - [[Snakewood]] adults live in the Quiet and Marshes canopy, farther in than the first terraces.
-- [[Stillbloom]] begins on the Quiet-to-Marshes trails and sunbreaks, not in open valleys.
+- [[Aruhe - Stillbloom]] begins on the Quiet-to-Marshes trails and sunbreaks, not in open valleys.
 - [[Silence Moths]]: Sail-sized clouds at dusk and dawn on Marshes and Grove approaches through the trees. The jungle goes quiet ahead of them, then the cloud fills a mouth. Fire drives them off; they will not follow anyone out of the trees.
 - Quiet leaves may show neat bites and five-foot scorch rings from [[Grubnade|Grubnades]]. The hot blooms themselves are primary in [[Aruhe - Old Gardens]].
-- [[Aruhe - Stonepear]] is common beneath the roof.
-- [[Aruhe - Giant's Guava]] is common here.
-- [[Aruhe - Ghost Plum]] is uncommon.
+- [[Aruhe - Stonepear]] is common beneath the roof, and fallen fruit can be foraged from the moss.
+- [[Aruhe - Giant's Guava]] is common here, with low branches that can be picked.
+- [[Aruhe - Ghost Plum]] is uncommon, hanging under the wet leaves.
 
 ---
 ## Where

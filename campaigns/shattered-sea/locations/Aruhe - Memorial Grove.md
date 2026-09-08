@@ -11,7 +11,7 @@ tags: [location, aruhe, grove, death-bloom, hinewai, memorial]
 ## Art
 ![[attachments/shattered-sea/places/aruhe-the-grove.jpeg]]
 > [!narration] Narration
-> The Grove opens as a round clearing in the deep green of Aruhe, wide enough for a long bowshot across, with the forest held back at its edge. At the center, a single fruit tree stands over two low, unmarked graves; its ripe fruit hangs bright and still above grass that looks too fresh for the dark soil around it. A ring of black flowers marks the clearing's boundary, open and unmoving, and the air carries a sweet rot-smell that never quite turns sour. Wind does not cross the grass here.
+> The Grove opens as a round clearing in the deep green of Aruhe, wide enough for a long bowshot across, with the forest held back at its edge. At the center, a single fruit tree stands over two low, unmarked graves; redheart berries and giant's guavas hang bright and still above grass that looks too fresh for the dark soil around it. A ring of black flowers marks the clearing's boundary, open and unmoving, and the air carries a sweet rot-smell that never quite turns sour. Wind does not cross the grass here.
 
 ## Battlemap
 
@@ -32,11 +32,15 @@ Luminous roots run through [[Aruhe - The Marshes]] from the shelf above [[Aruhe 
 
 Predators gather at the tree line: terror-birds, walking deadwood, Crown Squid, upright deer, and other established fauna. They do not hunt, graze, posture, or cross. They are mourners, not a hive mind.
 
+## What
+
+- The central tree bears [[Aruhe - Redheart Berry]] in bright lower clusters and [[Aruhe - Giant's Guava]] above them. Fallen fruit can be foraged, while fruit picked from the living tree begins aging once removed.
+
 ## The memorial
 - The **first grave** is the drowned companion's, the reason for the Grove.
 - The **second grave** is Hinewai's, dug years later when she fused soul and body to the land; it is the mechanism.
 - No root, fungus, insect, or seedling crosses either grave, although the surrounding island is hyper-fertile.
-- The **fruit tree** bears the kind of fruit he loved. Fruit remains at perfect ripeness: no blossom cycle, green fruit, fall, or senescence. Removed fruit begins aging normally.
+- The **fruit tree** bears both kinds of fruit at perfect ripeness: no blossom cycle, green fruit, fall, or senescence occurs while they remain on the branch. Removed fruit begins aging normally.
 - **Black flowers** form the ring and mark the boundary the mourners will not cross.
 - The Death Bloom is not a portable magic object. It is the tree, both graves, flowers, bound soil, and ritual relationship between them.
 

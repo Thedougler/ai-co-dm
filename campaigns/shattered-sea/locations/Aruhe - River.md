@@ -18,7 +18,7 @@ source: "[[Aruhe - Hungry Isle]]"
 ![[attachments/shattered-sea/places/aruhe-the-river.jpeg|The River, clear channels braiding through Aruhe]]
 ## Overview
 > [!narration] Narration
-> Clear green water braids through Aruhe in channels wide enough to follow, shallow at the pale limestone shelves and darker where the pools drop away. Submerged grass bends with the current, silver fish flash between the blades, and roots hang from the jungle bank like wet ropes over the water. The grassland side lies lower and open, with reeds and long blades crowding the shore; the jungle side rises in a dark wall of leaves, roots, and sudden shade. The river smells of cool stone, dawn mist, and animal musk, and even the quiet places keep the sound of moving water close.
+> Clear green water braids through Aruhe in channels wide enough to follow, shallow at the pale limestone shelves and darker where the pools drop away. Submerged grass bends with the current, silver fish flash between the blades, and roots hang from the jungle bank like wet ropes over the water. Redheart berries brighten the grassland bank at the water's edge, while ghost plums hang in the dripping roots on the jungle side. The river smells of cool stone, dawn mist, and animal musk, and even the quiet places keep the sound of moving water close.
 
 ---
 ## At a glance
@@ -31,9 +31,9 @@ The rivers draining [[Aruhe - Clear Lake]] braid through Aruhe and cut across th
 - **Follow the water uphill:** [[Aruhe - Clear Lake]].
 - **Follow a lateral channel:** [[Aruhe - Grasslands]], [[Aruhe - The Marshes]], or [[Aruhe - Quiet Forest]].
 - **Travel on the water:** Hours-scale where navigable. Current, rapids, deep pools, and otter families make it dangerous.
-- **Walk the grassland bank:** Eight-foot blades and rim predators. [[Terror-Bird|Terror-Birds]] end a hunt if prey hits deep grass, water, or [[Razer-Grass]].
+- **Walk the grassland bank:** Eight-foot blades and rim predators. [[Terror-Bird|Terror-Birds]] end a hunt if prey hits deep grass, water, or [[Aruhe - Razer-Grass]].
 - **Walk the jungle bank:** Root curtains, drops, and things that hang above the water. Cover traded for vertical threat.
-- **Go around [[Razer-Grass]] at river bends:** Trails already bend around the islands. Otters will not haul a kill onto them. Running through an intact stand cuts; after a shatter the glitter is asbestos-like if inhaled. Numbers live on [[Razer-Grass]].
+- **Go around [[Aruhe - Razer-Grass]] at river bends:** Trails already bend around the islands. Otters will not haul a kill onto them. Running through an intact stand cuts; after a shatter the glitter is asbestos-like if inhaled. Numbers live on [[Aruhe - Razer-Grass]].
 - **Enter the water:** [[Aruhe River Otter|River Otters]] treat it as play. Rope, oars, and ankles are toys.
   - Contested Strength (Athletics) or Dexterity (Sleight of Hand) → They take held or worn gear and swim off. No damage while it is still play.
 - **Take anything from the river:** It belongs to the family.
@@ -56,9 +56,10 @@ The rivers draining [[Aruhe - Clear Lake]] braid through Aruhe and cut across th
 
 - The water is gin-clear because the otters tend it: they cull grazers, drop shade-trees, and patrol the banks. Concentrated fish, submerged growth, and unnaturally quiet insect life mark a tended reach.
 - Three learnable rules: entering the water is participating; what comes from the river belongs to the family; responding to play teaches a new game.
-- They play with a [[Deer-Stalker|deer-stalker's]] antlered head in the shallows after a meal. They will not haul a kill onto [[Razer-Grass]], sniff a [[Grubnade]] and leave it, and pull against a [[Great Crown Squid]] line that trails into occupied water.
-- Fruit grows abundantly along the wet margins.
-- [[Razer-Grass]] islands stand at river bends and flood-scoured hollows.
+- They play with a [[Deer-Stalker|deer-stalker's]] antlered head in the shallows after a meal. They will not haul a kill onto [[Aruhe - Razer-Grass]], sniff a [[Grubnade]] and leave it, and pull against a [[Great Crown Squid]] line that trails into occupied water.
+- [[Aruhe - Redheart Berry]] grows beside the grassland bank, where fallen berries can be foraged from the shallows.
+- [[Aruhe - Ghost Plum]] hangs from wet roots on the jungle bank, close enough to pick where the current leaves a foothold.
+- [[Aruhe - Razer-Grass]] islands stand at river bends and flood-scoured hollows.
 - Flood stage widens the grasslands and makes the current lethal. Dry stage exposes limestone shelves and concentrates the otters.
 - [[Bloodhawk|Bloodhawks]] take canoes in open channel. They will not put a foot in occupied otter water.
 

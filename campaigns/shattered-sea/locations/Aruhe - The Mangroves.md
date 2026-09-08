@@ -19,7 +19,7 @@ source: "[[Aruhe - Hungry Isle]]"
 ![[attachments/shattered-sea/places/aruhe-the-mangroves.jpeg|The Mangroves, impenetrable tidal forest of roots and black water]]
 ## Overview
 > [!narration] Narration
-> The forest stops touching the ground long before it reaches the sea. Mangrove trunks stand packed together in black water, their roots descending in cages, arches, spears, and tangled walls until there is scarcely enough open space to put a foot between them. The canopy seals overhead and turns daylight green. Salt, mud, flowers, decay, and stagnant water hang together in the heat while insects crawl over bark and rise in clouds wherever something warm moves. Far beyond the roots comes the dull sound of surf, close enough to hear and completely unreachable.
+> The forest stops touching the ground long before it reaches the sea. Mangrove trunks stand packed together in black water, their roots descending in cages, arches, spears, and tangled walls until there is scarcely enough open space to put a foot between them. The canopy seals overhead and turns daylight green. Ghost plums hang beneath the wet leaves in the fresher pockets, while almost-black rotheart clusters cling to old vinewood above the dark channels. Salt, mud, flowers, decay, and stagnant water hang together in the heat while insects crawl over bark and rise in clouds wherever something warm moves. Far beyond the roots comes the dull sound of surf, close enough to hear and completely unreachable.
 
 ---
 ## At a glance
@@ -70,6 +70,7 @@ The Mangroves are the southern end of [[Aruhe - The Marshes|the Marshes]], where
 - The mud can swallow a leg to the thigh while neighboring ground is firm enough to stand on.
 - Roots create thousands of enclosed pockets where predators can remain within striking distance without being visible.
 - The canopy is nearly continuous. What cannot reach a traveler from below may reach them from above. Insects occupy the air between.
+- In fresher pockets, [[Aruhe - Ghost Plum]] hangs beneath wet leaves, while [[Aruhe - Rotheart]] grows in dark clusters on old vinewood above the channels. Fallen fruit can be foraged from the roots, and living fruit can be picked only by drawing a response from Aruhe.
 - Surf can be heard through much of the outer forest, creating the constant impression that the open sea is only a short distance away. It usually is not.
 - This is a wall, not a harbor. Purple Grung work western reefs and will not set foot on Aruhe; they also do not treat this coast as an entrance.
 
