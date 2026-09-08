@@ -21,7 +21,7 @@ tags: [index, monster]
 
 ## Aruhe flora links
 - Plant-monsters: [[Vine Lash|Vine Lashes]] · [[Snakewood]] · [[Aruhe - Strangler Fig|Strangler Figs]] · [[Corpsewood]]
-- Flora hazards and zones: [[Aruhe - Razer-Grass]] · [[Aruhe - Stillbloom]] · [[Aruhe - Hungry Isle#What]]
+- Flora hazards and zones: [[Aruhe - Razer-Grass]] · [[Aruhe - Stillbloom]] · [[Aruhe - Black Lotus]] · [[Aruhe - Hungry Isle#What]]
 - Hot blooms: [[Aruhe - Grubnade]]
 
 ## Drowned Maw fiction stubs
