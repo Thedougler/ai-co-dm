@@ -28,9 +28,20 @@ The Lava Tubes are the underworld beneath Aruhe's living surface: old volcanic p
 
 - **Descend from [[Aruhe - The Rot|the Rot]]:** Use the subsurface breach as a committed route into the tubes.
 - **Descend from [[Aruhe - Memorial Grove|the Grove]]:** Follow the root-and-grave route into the underworld.
-- **Follow free-flowing cave seepage:** Reach a route toward [[Aruhe - Clear Lake|Clear Lake]]; the water is drinkable.
-- **Study basalt and vents:** Trace Aruhe's old volcanic body and its hidden connections.
-- **Follow echoes or cave signs:** Find deeper passages and signs of the cave-life roster without requiring a full dungeon or creature package.
+- **Cross an exposed loose-rock section:**
+  - **Dexterity (Acrobatics) — `DC 10`** → Keep footing and continue to the next stable shelf.
+  - Failure → Slide back to the last stable shelf and lose time.
+- **Climb a vertical break:** **Strength (Athletics) — `DC 15`** → Reach the next shelf. Failure → Return to the lower shelf and spend time finding another handhold or route.
+- **Follow free-flowing cave seepage:** The water is drinkable.
+  - **Wisdom (Survival) — `DC 15`** → Keep the watercourse and reach a route toward [[Aruhe - Clear Lake|Clear Lake]].
+  - Failure → Lose the route and spend time backtracking; the seepage remains drinkable.
+- **Study basalt and vents:**
+  - **Intelligence (Nature) — `DC 15`** → Read the volcanic route and identify the likely direction of a hidden connection.
+  - Failure → The map remains incomplete and the party loses time at a false branch.
+- **Follow echoes or cave signs:**
+  - **Wisdom (Perception) — `DC 15`** → Locate movement or a deeper passage through the echoes.
+  - **Wisdom (Survival) — `DC 15`** → Follow disturbed stone or root signs toward a known route.
+  - Failure → The sound or trail fades into the cave; the party must change position or use another approach.
 - **Leave living cave life unclaimed:** The fauna remains where it is, and the route stays a passage rather than a possession.
 - **Remain on the surface:** Bypass the tubes, keeping a safer route but losing volcanic and underworld information.
 - **Retreat through the entry breach:** Return before cave-life disturbance or route collapse changes the cost of the descent.
