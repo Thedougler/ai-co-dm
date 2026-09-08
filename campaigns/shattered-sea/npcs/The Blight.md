@@ -3,18 +3,31 @@ type: npc
 campaign: shattered-sea
 status: alive
 role: rival
-location: [[The Grove - Death Bloom]]
-faction: UNKNOWN
-aliases: [Hinewai, The Blight, Druid Lich]
+location:
+  - - The Grove - Death Bloom
+faction: none
+aliases:
+  - Hinewai
+  - The Blight
+  - Druid Lich
 visibility: dm
-tags: [npc, aruhe, blight, hinewai, grung-origin, land-fused]
+tags:
+  - npc
+  - aruhe
+  - blight
+  - hinewai
+  - grung-origin
+  - land-fused
 ---
-# The Blight / Hinewai
+#  Hinewai
+
+_The Blight of Aruhe_
 
 ## Art
-![[attachments/shattered-sea/creatures/blight.jpg]]
+![[attachments/shattered-sea/portraits/hinewai-portrait.jpg|Hinewai portrait]]
+
 > [!narration] Narration
-> _Visualizer: Hinewai ingest pending._
+> Hinewai stands at the edge of the jungle like a woman grown from it: long black hair frames her pointed ears and cold blue eyes, while thin luminous lines branch across her face, neck, chest, and arms. Sharp teeth show between parted lips. Vines, broad leaves, and small white and tan flowers wrap her in a living dress, its roots and foliage trailing down her body.
 
 ## Hook
 The party reaches the Grove and meets the woman whose grief became a country's law: a guest is welcome, but a taker makes the island answer.
@@ -33,6 +46,8 @@ Luminous roots run from the shelf above [[Aruhe - Clear Lake]] through [[Aruhe -
 
 ## Hook, look, and voice
 Most of Hinewai is gone. What remains is hatred of Grung and invaders, love of living things, love of Aruhe, and love for the man she carried uphill. She may not remember her own name. Concrete verbs still fit her mouth: `take, break, cut, kill, carry, eat, drink, leave, return, grow, feed`.
+
+**Visual anchor:** An elven woman with long black hair, sharply pointed ears, luminous blue eyes, and branching light-colored fissures across her skin. Her mouth holds small, pointed teeth. Vines, leaves, and flowers form a living green-brown dress around her, with foliage trailing from her shoulders and arms.
 
 She is calm, proud, old, and courteous to guests who stop to admire the Grove or ask about its animals. Her warmth drops cleanly when someone harms the garden. She states consequences as weather states them and does not threaten. Accusation lands when someone treats the garden as property: “you do not protect this place; you own it.”
 
