@@ -4,70 +4,77 @@ campaign: shattered-sea
 kind: region
 region: aruhe
 visibility: dm
-tags: [location, aruhe, grasslands, rivers]
+aliases:
+  - Grasslands
+  - Aruhe Grasslands
+tags:
+  - location
+  - aruhe
+  - grasslands
+  - rivers
+source: "[[Aruhe - Hungry Isle]]"
 ---
-# Aruhe Grasslands
-
-## Art
-![[attachments/shattered-sea/places/aruhe-the-grasslands.jpeg]]
+# Grasslands
+![[attachments/shattered-sea/places/aruhe-the-grasslands.jpeg|Grasslands, river-cut valleys of gold-green grass]]
+## Overview
 > [!narration] Narration
 > Clear water winds through the grasslands in channels a body can follow, with muddy bends low enough to kneel at and drink from. Gold-green grass rises higher than a person on both banks, bent flat where feet and water have worked the ground, then standing thick again as the valley climbs toward the dark jungle rim. Sunlight comes down in bright shafts through the open cuts of sky, flashing on wet stones and pale seed heads while warm water-smell and bird calls carry along the stream.
 
-## Battlemap
-
-![[attachments/shattered-sea/battlemaps/aruhe-grasslands-day.png|Aruhe Grasslands battlemap for Foundry VTT]]
-
+---
 ## At a glance
-River-cut valleys in Aruhe's jungle, not a sixth concentric band. Freshwater forces the canopy apart. These exposed chambers are beautiful, hot, and watched from the shaded rim.
+The Grasslands are river-cut valleys inside Aruhe's jungle, not a sixth concentric band. Freshwater forces the canopy apart into hot, open chambers of eight-foot gold-green grass, watched from the shaded rim. Free-flowing channels are drinkable. Follow water uphill into [[Aruhe - River]] and [[Aruhe - Clear Lake]]; an open route continues toward [[Aruhe - Memorial Grove]]; the terrace descent comes down from [[Aruhe - Old Gardens]]. Stay on a ridge or grass edge and the water and cover drop away; stay in the cuts and it remains grass, river, and rim. Light and water make travelers linger in the open long enough to be seen.
 
-## Five-sentence kernel
-- **Function:** A broad inland route linking terraces, lake, and grove.
-- **Fantastic:** Water can be safely drunk from free flow, but living river abundance cannot be possessed for self.
-- **Conflict:** Travelers need open movement and water; large life and the temptation to fish turn a route into a claim.
-- **Promise:** Cross visible country, follow water, and choose whether to pass through abundance or take it.
-- **Trajectory:** Fishing, trapping, or killing to carry flesh aligns the surrounding life against the claimant; restraint keeps routes open.
+---
+## If the party
 
-## Aspects
-`open sky, eight-foot grass, shaded rim`
+- **Drink from a free-flowing channel:** The water is drinkable.
+- **Follow water uphill:** [[Aruhe - River]] toward [[Aruhe - Clear Lake]].
+- **Take the open route toward higher green:** [[Aruhe - Memorial Grove]].
+- **Climb back toward the terraces:** [[Aruhe - Old Gardens]].
+- **Stay on a ridge or grass edge:** The valleys can be skipped; water and cover are lost.
+- **Walk the eight-foot grass:** Difficult Terrain. Heavily obscures beyond 10 feet. Movement leaves a crushed corridor.
+- **Go around [[Razer-Grass]] islands:** Trails already bend around them. Nothing large walks through.
+  - **Wisdom (Perception) or Wisdom (Survival) — `DC 14`** → Nearby: no trails through it, sparkles stay fixed, old blood on lower blades, a glassy tinkle in the wind. From farther than 30 feet it only looks like frosted grass. Close examine of one blade names it.
+- **Run through an intact stand:** `1d4` slashing per 5 feet; Difficult Terrain.
+  - Careful Passage: one Action, move up to 5 feet through it with no movement damage.
+- **Dash, fall prone, get shoved, smash, or burn a stand:** It shatters. **Dexterity save — `DC 14`** → `2d6` slashing. Breathing the glitter: **Constitution save — `DC 14`** → **Glass-Choked** until a Short or Long Rest (speed −10 ft.; disadvantage on Constitution saves from environmental hazards). The dust is asbestos-like in the lungs.
+- **Enter the water:** [[Aruhe River Otter|River Otters]] treat it as play.
+- **Take fruit along wet margins:** [[Breathmelon]] is abundant here; [[Quickeye Berry]] is rare; ordinary restorative fruit may occur. Fallen fruit is receiving. Pluck a living plant → surrounding life converges, hostile. [[Taking on Aruhe]]
+- **Fish, trap, or kill to carry flesh:** Surrounding life converges, hostile. [[Taking on Aruhe]]
 
-## Senses
-- **Sight:** Grass, river valleys, banks, tracks, and open sky.
-- **Sound:** Flowing water, grass movement, and calls across distance.
-- **Touch / smell:** Sun-warmed grass, wet banks, fresh water, and animal musk.
+---
+## Who
 
-## Topology
-- `[[Aruhe - Old Gardens]] -- terrace descent --> Aruhe Grasslands`.
-- `Aruhe Grasslands -- follow water uphill --> [[Aruhe - River]] -- source --> [[Clear Lake]]`.
-- `Aruhe Grasslands -- open route --> [[Aruhe - Memorial Grove]]`.
-- **Bypass:** Stay on a ridge or grass edge, losing water and cover.
-- **Retreat:** Follow a stream back toward terraces without damming, trapping, or fishing.
+- [[Terror-Bird|Terror-Birds]] hold the shaded rims and grass cuts, about a quarter-mile each. Eight-foot grass, water, or a [[Razer-Grass]] stand ends the hunt.
+- [[Deer-Stalker|Deer-Stalkers]] use the grass cover. They will not walk [[Razer-Grass]].
 
-## Who is here
-- **Fiction only:** Bear-Elk, Deer-Stalker, Terror-Bird, Thornback, Razer-Grass, Aruhe River Otter, Wolfrabbit, Unsaid Macaw.
-- Ordinary restorative fruit may occur along the route; do not treat it as a mechanical item here.
-- Session 11 navigation: [[Aruhe-River-Grasslands-Tables]] and [[Aruhe-River-Grasslands-Plant-Hazards]]. Three Survival successes reach the next landmark.
+---
+## What
 
-## Player verbs
-`cross, follow the river, watch the rim, study tracks, shelter, route around white grass`.
+- Gold-green grass tall enough to hide a standing person. Near water it leans; farther in, anything that does not lean is an animal.
+- [[Razer-Grass]]: Discrete waist-high islands at torn-up crossings, wallows, river bends, and flood-scoured hollows. It is not a blanket. Running through intact stands cuts. After a shatter, the glitter is asbestos-like if inhaled.
+- [[Aruhe River Otter|River Otters]]: Channels and wet banks. They will not haul a kill onto [[Razer-Grass]].
+- [[Unsaid Macaw]]: Grassland edges. **Wisdom save — `DC 12`** → Speak one truthful sentence about the surfaced thought.
+- [[Bear-Elk]]: Scored-tree beats that cross the openings. [[Terror-Bird|Terror-birds]] step aside.
+- [[Wolfrabbit|Wolfrabbits]]: Jump [[Razer-Grass]] rather than land in it.
+- [[Breathmelon]] grows abundantly along the wet margins, exactly where the water is the best road.
+- [[Quickeye Berry]] is rare in these valleys.
 
-## Hooks
-- Follow [[Aruhe - River|the river]] as the only clear heading.
-- Read large-life paths without stepping alone into the grass after dark.
-- Route around [[Razer-Grass]] and preserve a visible crushed corridor.
+---
+## Where
 
-## Secrets (DM)
-- The openings are not safe rooms. Water and light make travelers linger in the open long enough to be seen.
+- Terrace descent from [[Aruhe - Old Gardens]]
+- Follow water uphill into [[Aruhe - River|the River]] and [[Aruhe - Clear Lake|Clear Lake]]
+- Open route to [[Aruhe - Memorial Grove|the Grove]]
+- Lateral channels with [[Aruhe - River|the River]]
 
-## Mechanics and return
-- Grass is Difficult Terrain and heavily obscures beyond 10 feet. Movement leaves a crushed corridor.
-- Random encounter procedure for Session 11 lives on [[Aruhe-River-Grasslands-Tables]] and [[Aruhe-River-Grasslands-Plant-Hazards]].
-- **Return state:** water route, tracks, shelter, and any possession trigger avoided or made.
+---
+## Why
 
-## Flora ecology
-- Lake-fed openings hold gold-green grass with blades tall enough to hide a standing person. Near water the grass leans; farther in, anything that does not lean is an animal.
-- [[Razer-Grass]] grows as discrete winter-white islands, especially on torn-up crossings, wallows, river bends, and flood-scoured hollows.
-- [[Quickeye berries]] are rare in the valleys. [[Breathmelon]] is abundant on wet margins, exactly where the water is the best road.
+- Drinkable free-flowing water.
+- The open heading through the jungle.
+- Food on the wet margins.
 
-## Flora provenance
-- Existing location updated from Nick's Aruhe flora paste, 2026-09-05.
-- Legacy provenance: `/Users/nick/shattered-sea/wiki/shattered-sea/aruhe-hungry-isle/region-aruhe-the-grasslands.md`.
+---
+## Art
+![[attachments/shattered-sea/battlemaps/aruhe-grasslands-day.png|Grasslands battlemap, river cuts and tall grass]]
