@@ -33,9 +33,23 @@ Clear Lake is the inland freshwater basin at the uphill end of Aruhe's rivers. A
   - **Dexterity (Acrobatics) — `DC 10`** → Keep feet on moss-slick stone.
 - **Follow the outlet downhill:** [[Aruhe - River]].
 - **Wisdom (Perception) — `DC 15`** → Hear the harp in the surrounding woods from the shelf.
-- **Intelligence (Nature) — `DC 15`** → Identify fruit on the stem.
-- **Wisdom (Survival) — `DC 10`** → Take fruit already on the ground.
-- **Wisdom (Survival) — `DC 10`** → Catch fish.
+- **Take fruit along the shore:** [[Lion Citrus]], [[Breathmelon]], and [[Quickeye Berry]] grow here; animals want them too.
+  - **Intelligence (Nature) — identify**
+    - `DC 10` → Edible fruit, not poison.
+    - `DC 15` → Name the variety and its broad use.
+    - `DC 20` → Exact prize effect.
+  - **Wisdom (Survival) — harvest**
+    - `DC 10` → Fallen ordinary take; animals ignore it.
+    - `DC 15` → Ripe [[Lion Citrus]] or [[Breathmelon]].
+    - `DC 20` → Prize [[Quickeye Berry]], or the best specimen still on the plant.
+    - Failure → Shore fauna close on the fruit and contest the take.
+  - **Dexterity (Stealth) — `DC 15`** → Take without the foragers noticing.
+- **Fish the shallows:**
+  - **Wisdom (Survival) — fish**
+    - `DC 10` → A small catch, enough to eat.
+    - `DC 15` → A useful haul from the clear water.
+    - `DC 20` → A prize catch before the otters notice.
+    - Failure → Otters take the line as a toy; play starts.
 ---
 ## Who
 
