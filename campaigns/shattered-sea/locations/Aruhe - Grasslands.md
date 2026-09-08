@@ -41,6 +41,7 @@ The Grasslands are river-cut valleys inside Aruhe's jungle, not a sixth concentr
 - **Enter the water:** [[Aruhe - River Otter|River Otters]] treat it as play.
 - **Take fruit along wet margins:** Fruit is abundant here. Fallen fruit is receiving. Pluck a living plant → surrounding life converges, hostile. [[Taking on Aruhe]]
 - **Fish, trap, or kill to carry flesh:** Surrounding life converges, hostile. [[Taking on Aruhe]]
+- **Investigate old grung bones:** A couple of spent [[Grung - Authority Seal|Grung Authority Seals]] are buried near the bones, with torn gold-script edges sticking out of the dirt. **Intelligence (Investigation) — `DC 13`** → The seals compelled red-caste or lower grung to go inland through Aruhe and report back their findings.
 
 ---
 ## Who
@@ -60,6 +61,7 @@ The Grasslands are river-cut valleys inside Aruhe's jungle, not a sixth concentr
 - [[Aruhe - Wolfrabbit|Wolfrabbits]]: Jump [[Aruhe - Razer-Grass]] rather than land in it.
 - [[Aruhe - Redheart Berry]] grows at the wet bends, where fallen berries can be foraged from the mud and stone.
 - [[Aruhe - Giant's Guava]] hangs above the grass at the jungle rim, low enough to pick from a living branch if Aruhe is willing to answer.
+- Spent [[Grung - Authority Seal|Grung Authority Seals]] may be half-buried near old grung bones. They are no longer active, but investigation can reveal the inland survey command they carried.
 
 ---
 ## Where
