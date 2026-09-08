@@ -35,6 +35,8 @@ Western Landing is Aruhe's known sea approach and retreat edge: a jagged reef, o
 - **Wait for a useful tide:** The reef teeth, gap, and trapped beaches change visibility and access; waiting preserves the option to retreat.
 - **Cross the shingle while carrying gear or under pressure:** **Dexterity (Acrobatics) — `DC 10`** → Keep footing and reach the inland edge. Failure → Lose time on the loose stone and expose the retreat route to the surf.
 - **Study a landing aid:** **Intelligence (Nature) — `DC 15`** → Distinguish loose stone or a shed shell from a living reef claim. Failure → The object remains unverified; taking it risks [[Taking on Aruhe]].
+- **Step into wet leaves beside the inland stream:** A fat cream-green [[Aruhe - Grubnade]] rests on a yellow flower. Touching or picking it up, damaging it, shaking or crushing its support plant, or bringing significant fire, thunder, or bludgeoning force nearby makes it swell and hiss; it detonates at the end of the current turn. Creatures within `5 feet` make a **Dexterity save — `DC 12`** for `2d6` fire damage, half on a success. Go around, use reach or cover, or trigger it from beyond `5 feet`.
+- **Brush a white flower stand at the inland wet-leaf edge:** [[Aruhe - Spiritpollen]] sacs rupture into a `15-foot` cloud. Each breathing creature makes a **Wisdom save — `DC 15`**; failure causes **Spirit-Haunted**, forcing its Action into an attack, spell, or ability against the greatest number of hallucinated threats until a repeated save succeeds. Cover mouth and nose, use strong wind, or disturb the stand from beyond `15 feet`.
 - **Follow the inland route:** [[Aruhe - Old Gardens|Old Gardens]].
 - **Observe from offshore:** Bypass the landing and keep a safer position, but lose information from the shingle and inland approach.
 - **Retreat through the boat gap:** Leave before a living claim or tide change turns withdrawal into a pressure problem.
@@ -54,7 +56,6 @@ Western Landing is Aruhe's known sea approach and retreat edge: a jagged reef, o
 - Reef movement, hull strain, surf on coral, salt spray, and wet stone make the approach legible before the party commits.
 - Giant sharks, giant crabs, Bloodhawks, and [[Aruhe - Reef Skull|Reef Skulls]] make the reef and shingle a landing problem without requiring reef-fauna mechanics here.
 - At the inland edge, [[Aruhe - Ghost Plum]] hangs beneath wet leaves and [[Aruhe - Giant's Guava]] fruits above the stream. Fallen specimens can be foraged, while living branches can be picked at the cost of drawing Aruhe's response.
-- At that inland wet-leaf edge, where fruit trees meet the stream and dense growth, [[Aruhe - Grubnade]] hot blooms and [[Aruhe - Spiritpollen]] stands can mark the approach; neither belongs on the bare shingle.
 - A loose stone or shed shell can mark the route. A living claim draws surrounding life into hostility. [[Taking on Aruhe]]
 
 ---

@@ -32,11 +32,8 @@ The Quiet is rainforest above the last terrace of [[Aruhe - Old Gardens]], where
 - **Follow the silence boundary:** [[Aruhe - The Marshes]].
 - **Stay on a terrace or grassland edge:** The Quiet can be skipped.
 - **Walk a game trail pinched through stone:** A single [[Aruhe - Strangler Fig]] may fill the bottleneck with hanging roots and a hollow trunk.
-- **Walk the Quiet-to-Marshes trails and sunbreaks:** [[Aruhe - Stillbloom]] stands where green first goes black at the leaf edge.
-  - **Wisdom (Perception) — `DC 14`** → Launch-spines, punctured carcasses, odd scavenger paths.
-  - **Intelligence (Nature) or Wisdom (Survival) — `DC 14`** → It reads vibration. Slow movement is safe. Watching scavengers for 1 minute teaches this without a roll.
-  - Move 10 feet or less on a turn, or fly without touching the root mat: the needles do not fire.
-  - Bolt, Dash, jump, fall, or get shoved 10 feet or more: **Dexterity save — `DC 14`** → `2d6` piercing and a spine embeds. The venom is paralytic; Exposure climbs on the owner.
+- **Move through a Quiet-to-Marshes game trail or sunbreak beside a four-foot waxy stalk:** [[Aruhe - Stillbloom]] raises pale bracts around dark needles. A charged mature stalk fires when a grounded Small or larger creature within `20 feet` moves more than `10 feet`, Dashes, jumps, falls, is forced `10 feet` or more, or makes a violent motion; each creature within `15 feet` makes a **Dexterity save — `DC 14`**. Failure → `2d6` piercing and an embedded spine, followed by a **Constitution save — `DC 12`** for **Exposure**. Walk `10 feet` or less per turn, throw an object to trigger the volley, fly over the root mat, or use total cover during the reload.
+- **Walk a deeper Quiet game trail beneath smooth dark coils and hanging carcasses:** [[Aruhe - Snakewood]] reacts to any Small or larger creature moving below an active colony; the target makes a **Dexterity save — `DC 14`**. Failure → `1d6` bludgeoning, **Grappled**, and pulled `15 feet` toward the canopy; a **Grappled** creature takes `2d6` acid damage at the start of its turn, increasing by `1d6` each consecutive round to `4d6`. Bait the strike with a moving object, stay beneath solid cover, sever the section (**AC 13**, `15 HP`), or escape with **Strength (Athletics) or Dexterity (Acrobatics) — `DC 14`**.
 - **Take fruit under the roof:** [[Aruhe - Stonepear]] is common here, often before [[Aruhe - Terror-Bird]] ground; [[Aruhe - Giant's Guava]] is common, often near [[Aruhe - Bear-Elk]] crossing signs; [[Aruhe - Ghost Plum]] is uncommon. Fallen fruit is receiving. Pluck a living plant → surrounding life converges, hostile. [[Taking on Aruhe]]
   - **Intelligence (Nature) — identify**
     - `DC 13` → Broad function.
@@ -53,11 +50,8 @@ The Quiet is rainforest above the last terrace of [[Aruhe - Old Gardens]], where
 ---
 ## What
 
-- Small life is gone. No insect-saw, no bird chatter. Ordinary warning signs that depend on that life are missing. [[Aruhe - Unsaid Macaw|Unsaid Macaws]] do not belong here.
 - [[Aruhe - Strangler Fig|Strangler Figs]] sit singly where packed game trails pinch between stone. Aerial roots hang in curtains; old bones show in the hollow trunk.
-- [[Aruhe - Snakewood|Snakewood]] adults live in the Quiet and Marshes canopy, especially above the deeper game trails; [[Aruhe - Stillbloom]] begins on the Quiet-to-Marshes trails and sunbreaks, not in open valleys.
 - [[Silence Moths]]: Sail-sized clouds at dusk and dawn on Marshes and Grove approaches through the trees. The jungle goes quiet ahead of them, then the cloud fills a mouth. Fire drives them off; they will not follow anyone out of the trees.
-- Quiet leaves may show neat bites and five-foot scorch rings from [[Aruhe - Grubnade|Grubnades]]. The hot blooms themselves are primary in [[Aruhe - Old Gardens]].
 - [[Aruhe - Stonepear]] is common beneath the roof, and fallen fruit can be foraged from the moss.
 - [[Aruhe - Giant's Guava]] is common here, with low branches that can be picked.
 - [[Aruhe - Ghost Plum]] is uncommon, hanging under the wet leaves.

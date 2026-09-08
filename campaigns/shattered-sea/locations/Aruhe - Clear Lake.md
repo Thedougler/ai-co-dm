@@ -31,6 +31,8 @@ Clear Lake is the inland freshwater basin at the uphill end of Aruhe's rivers. A
   - **Strength or Dexterity save — `DC 14`** → Keep yanked gear.
 - **Follow marsh or shore toward higher green:** [[Aruhe - Memorial Grove]].
   - **Dexterity (Acrobatics) — `DC 10`** → Keep feet on moss-slick stone.
+- **Approach nesting trees along the lake edge:** A bright [[Aruhe - Unsaid Macaw]] flock watches from the branches. When a creature that knows a language comes within `30 feet` and a bird can see it, the bird repeats the creature's foremost current thought in that creature's exact voice. Once per day after a Surface Echo, it may say "Confess," and failure on a **Wisdom save — `DC 12`** makes the target speak one truthful sentence elaborating on the thought. Step out of sight, move beyond `30 feet`, answer plainly, or cover a mouth before flock-talk muddies the phrase.
+- **Leave the black shelf for a wooded or marshy shoreline sunbreak toward the Grove:** A four-foot waxy [[Aruhe - Stillbloom]] stalk raises pale bracts and dark needles. A grounded Small or larger creature within `20 feet` moving more than `10 feet`, Dashing, jumping, falling, being forcibly moved `10 feet` or more, or making another violent motion triggers the volley; each creature within `15 feet` makes a **Dexterity save — `DC 14`** for `2d6` piercing and an embedded spine, followed by a **Constitution save — `DC 12`** for **Exposure**. Walk `10 feet` or less per turn, fly over the root mat, use total cover, or trigger the volley with a thrown object.
 - **Follow the outlet downhill:** [[Aruhe - River]].
 - **Wisdom (Perception) — `DC 15`** → Hear the harp in the surrounding woods from the shelf.
 - **Take fruit along the shore:** Fruit grows along the shore; animals want it too.
@@ -58,8 +60,6 @@ Clear Lake is the inland freshwater basin at the uphill end of Aruhe's rivers. A
 ## What
 
 -  [[Aruhe - River Otter|River Otters]]: Anything entering the water near the marshy shoreline, invites becoming an unwilling playmate of the otters. 
--  [[Aruhe - Unsaid Macaw]]: Nesting trees along the lake edges. **Wisdom save — `DC 12`** → Speak one truthful sentence about the surfaced thought.
--  [[Aruhe - Stillbloom]] appears only on wooded or marshy shoreline sunbreaks and approaches, never on the open lake shelf.
 -  [[Aruhe - Redheart Berry]] beads along the marshy shoreline, and fallen berries can be foraged from the wet stones.
 -  [[Aruhe - Stonepear]] hangs from low branches beside the black shelf, where a living fruit can be picked if someone accepts Aruhe's response.
 ---

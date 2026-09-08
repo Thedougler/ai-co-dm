@@ -37,6 +37,9 @@ Aruhe is a vast untamed island in the eastern [[Midchain]]: about 500 miles end 
 - **Land at the known sea approach:** [[Aruhe - Beach|Western Landing]].
 - **Approach the southern green wall from the sea:** [[Aruhe - The Mangroves|the Mangroves]] look like seams of water and are not a landing.
 - **Follow inland from the terraces:** [[Aruhe - Old Gardens|the Old Gardens]].
+- **Move beneath a low canopy over a game trail, waterway, or mangrove channel:** [[Aruhe - Snakewood]] coils hang above the route; movement by a Small or larger creature beneath an active colony triggers a **Dexterity save — `DC 14`**. Failure → `1d6` bludgeoning, **Grappled**, and pulled `15 feet` toward the canopy; a **Grappled** creature takes `2d6` acid damage at the start of its turn, increasing by `1d6` each consecutive round to `4d6`. Bait the strike with a moving pack or thrown object, sever the section (**AC 13**, `15 HP`), or escape with **Strength (Athletics) or Dexterity (Acrobatics) — `DC 14`**.
+- **Cross a torn crossing, wallow, or flood-scoured hollow:** [[Aruhe - Razer-Grass]] stands rise pale and glass-edged among the green. Contact deals `1d4` slashing per `5 feet` and slows movement; Dashing, falling, a shove, smashing, or burning triggers a **Dexterity save — `DC 14`** for `2d6` slashing, then a **Constitution save — `DC 14`** against **Glass-Choked** dust. Go around, spend an Action to move `5 feet` carefully, or use reach and cover.
+- **Touch, cut, shake, or burn a flowering stand at an old-growth crossing:** [[Aruhe - Spiritpollen]] sacs burst into a `15-foot` cloud. Each breathing creature makes a **Wisdom save — `DC 15`**; failure causes **Spirit-Haunted**, forcing its Action into an attack, spell, or ability against hallucinated threats until a repeated save succeeds. Cover mouth and nose, use strong wind, or disturb the stand from beyond `15 feet`.
 - **Take a living thing:** Surrounding life converges, hostile. [[Taking on Aruhe]]
 - **Take any living thing:** Surrounding life converges, hostile. [[Taking on Aruhe]]
 
@@ -55,8 +58,6 @@ Aruhe is an old volcanic island, about five hundred miles end to end, with green
 The clearest physical pattern is the root network. Pale, luminous roots run wrist-thick to thigh-thick from the shelf above [[Aruhe - Clear Lake|Clear Lake]], through [[Aruhe - The Marshes|the Marshes]], and into both unmarked graves in [[Aruhe - Memorial Grove|Memorial Grove]]. In [[Aruhe - Lava Tubes|the lava tubes]], the surface forest reaches down as root curtains. A wrecked raiding hull sits above the tideline at [[Aruhe - Beach|Western Landing]], marking the known entry point and the collapse of the Calveno raid landing.
 
 Across those bands, [[Aruhe - Redheart Berry]] beads along wet lowlands and river margins, while [[Aruhe - Giant's Guava]] hangs from high forest branches. Fallen fruit can be foraged; fruit taken from a living branch is a claim against the island.
-
-- The island's hazard palette follows its bands: [[Aruhe - Snakewood]] hangs over Quiet, Marshes, and mangrove waterways; [[Aruhe - Razer-Grass]] marks torn crossings, wallows, and flood-scoured hollows; and [[Aruhe - Spiritpollen]] grows in old growth at crossings or touched flowering stands. These are regional placements, not one encounter site.
 
 Aruhe distinguishes between receiving and taking. Fallen fruit and genuine offerings can be accepted without triggering the island's hostility. A living claim is different: taking fruit from a branch, cutting living growth, trapping an animal, or treating the island as property draws aligned local life into response. [[Taking on Aruhe]] is the reference for adjudicating those claims.
 

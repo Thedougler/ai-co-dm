@@ -33,11 +33,8 @@ The Grasslands are river-cut valleys inside Aruhe's jungle, not a sixth concentr
 - **Climb back toward the terraces:** [[Aruhe - Old Gardens]].
 - **Stay on a ridge or grass edge:** The valleys can be skipped; water and cover are lost.
 - **Walk the eight-foot grass:** Difficult Terrain. Heavily obscures beyond 10 feet. Movement leaves a crushed corridor.
-- **Go around [[Aruhe - Razer-Grass]] islands:** Trails already bend around them. Nothing large walks through.
-  - **Wisdom (Perception) or Wisdom (Survival) — `DC 14`** → Nearby: no trails through it, sparkles stay fixed, old blood on lower blades, a glassy tinkle in the wind. From farther than 30 feet it only looks like frosted grass. Close examine of one blade names it.
-- **Run through an intact stand:** `1d4` slashing per 5 feet; Difficult Terrain.
-  - Careful Passage: one Action, move up to 5 feet through it with no movement damage.
-- **Dash, fall prone, get shoved, smash, or burn a stand:** It shatters. **Dexterity save — `DC 14`** → `2d6` slashing. Breathing the glitter: **Constitution save — `DC 14`** → **Glass-Choked** until a Short or Long Rest (speed −10 ft.; disadvantage on Constitution saves from environmental hazards). The dust is asbestos-like in the lungs.
+- **Step from a channel onto a pale stand at a torn crossing, wallow, or flood-scoured hollow:** [[Aruhe - Razer-Grass]] blades hold fixed glitter and make a glassy tinkle. Contact deals `1d4` slashing per `5 feet` and counts as Difficult Terrain; spend an Action to move up to `5 feet` through it, and careful passage ignores movement damage. Dashing, falling, a shove, smashing, or burning the stand triggers a **Dexterity save — `DC 14`** for `2d6` slashing and a **Constitution save — `DC 14`** against **Glass-Choked** dust. Go around, use reach and cover, or keep weight on the surrounding grass.
+- **Approach the red, yellow, and blue macaws perched along a grassland edge beside an open channel:** When a creature that knows a language comes within `30 feet` and a bird can see it, [[Aruhe - Unsaid Macaw]] repeats the creature's foremost current thought in that creature's exact voice. Once per day after a Surface Echo, the macaw may say "Confess"; a target that fails a **Wisdom save — `DC 12`** speaks one truthful sentence elaborating on the surfaced thought. Step out of sight, move beyond `30 feet`, answer plainly, or cover a mouth before the flock turns the phrase into flock-talk.
 - **Enter the water:** [[Aruhe - River Otter|River Otters]] treat it as play.
 - **Take fruit along wet margins:** Fruit is abundant here. Fallen fruit is receiving. Pluck a living plant → surrounding life converges, hostile. [[Taking on Aruhe]]
 - **Fish, trap, or kill to carry flesh:** Surrounding life converges, hostile. [[Taking on Aruhe]]
@@ -54,9 +51,7 @@ The Grasslands are river-cut valleys inside Aruhe's jungle, not a sixth concentr
 ## What
 
 - Gold-green grass tall enough to hide a standing person. Near water it leans; farther in, anything that does not lean is an animal.
-- [[Aruhe - Razer-Grass]]: Discrete waist-high islands at torn-up crossings, wallows, river bends, and flood-scoured hollows. It is not a blanket. Running through intact stands cuts. After a shatter, the glitter is asbestos-like if inhaled.
 - [[Aruhe - River Otter|River Otters]]: Channels and wet banks. They will not haul a kill onto [[Aruhe - Razer-Grass]].
-- [[Aruhe - Unsaid Macaw]] gathers at grassland edges along the open channels, not in the deep grass. **Wisdom save — `DC 12`** → Speak one truthful sentence about the surfaced thought.
 - [[Aruhe - Bear-Elk]]: Scored-tree beats that cross the openings. [[Aruhe - Terror-Bird|Terror-birds]] step aside.
 - [[Aruhe - Spiguar|Spiguars]]: Motionless grass-mantled cats that pounce from cover, bite deep, and drag prey back into broken sightlines.
 - [[Aruhe - Deerstalker|Deer-Stalkers]] use the grass cover. They will not walk [[Aruhe - Razer-Grass]].

@@ -33,13 +33,9 @@ Miles of ancient terraces run inland from [[Aruhe - Beach|Western Landing]], hum
 - **Follow a terrace edge:** The planted abundance can be skipped.
 - **Walk a narrow trail under hanging rope-vines:** Some of them are [[Vine Lash|Vine Lashes]] and grab.
 - **Walk a wider low-canopy lane:** [[Young Snakewood]] hunts here. Adult [[Snakewood]] lives farther in.
-- **Leave a ticking bloom:** Predators walk around it.
-- **Disturb a hot bloom:** [[Aruhe - Grubnade]] detonates at the end of the turn.
-  - **Wisdom (Perception) — `DC 12`** → Notice them in dense foliage.
-  - **Intelligence (Nature) — `DC 13`** → Reservoirs.
-  - **Intelligence (Nature) — `DC 15`** → Brood chambers.
-- **Cast near a velvet-black bloom:** [[Aruhe - Black Lotus]] turns toward the magic and may close around a creature within `10 feet`.
-  - **Wisdom (Perception) or Intelligence (Nature) — `DC 15`** → Notice old bones beneath the petals, scorch marks around smaller blooms, and the flower tracking magical effects.
+- **Touch, pick up, or disturb a hot yellow bloom along a wet terrace edge:** A fat cream-green [[Aruhe - Grubnade]] rests across the flower. It swells and hisses, then detonates at the end of the current turn; creatures within `5 feet` make a **Dexterity save — `DC 12`** for `2d6` fire damage, half on a success. Go around, use reach or cover, or trigger it from beyond `5 feet`.
+- **Step within `10 feet` of, touch, or cast a spell within `30 feet` of a table-sized velvet-black flower in a magic-rich terrace bed:** [[Aruhe - Black Lotus]] leans toward the magic and lashes shut around one creature within `10 feet`; the target makes a **Dexterity save — `DC 15`**. Failure → **Restrained** inside the flower. At the start of each trapped turn, the lotus drains the highest-level available spell slot; a creature that has exhausted its slots or lacks spellcasting takes `4d6` necrotic damage instead, rising to `6d6` once its slots are gone. Escape with **Strength (Athletics) — `DC 16`**, or have an ally deal `20` slashing or fire damage to the petals. Stay outside `10 feet`, cast from beyond `30 feet`, or bait the bloom with expendable magic.
+- **Step on, strike, or violently disturb a smaller ember-veined black flower on a terrace:** [[Aruhe - Lesser Black Lotus]] asks the nearest spellcaster what ranged spell attack they would use against an attacker, casts that spell from the bloom at the caster's highest available slot, and targets the creature that threatened it; a cantrip uses the caster's level for damage scaling. The bloom is destroyed after the spell resolves. Step around it, probe the ground, keep casters back, or trigger it from range with a disposable target.
 - **Take fruit on the terraces:** [[Aruhe - Redheart Berry]] is abundant here; [[Aruhe - Giant's Guava]] is common and follows the tree line inland. Fallen fruit is receiving. Pluck a living plant → surrounding life converges, hostile. [[Taking on Aruhe]]
   - **Intelligence (Nature) — identify**
     - `DC 13` → Broad function.
@@ -57,9 +53,6 @@ Miles of ancient terraces run inland from [[Aruhe - Beach|Western Landing]], hum
 - Broken terrace steps hold wrist-thick yam vines and fist-sized ordinary citrus, with algae-green irrigation ditches between levels.
 - [[Vine Lash|Vine Lashes]] hang among ordinary rope-vines over the trail lanes.
 - [[Young Snakewood]] hunts the first terraces from connected low branches. Adults live farther in.
-- [[Aruhe - Grubnade|Grubnade]] hot blooms cluster on wet terrace edges and ticking flowers; predators walk around them.
-- [[Aruhe - Black Lotus]] and [[Aruhe - Lesser Black Lotus|Lesser Black Lotus]] grow among the old terrace flowers, especially in magic-rich or scorched patches.
-- [[Aruhe - Unsaid Macaw]]: Orchard edges. **Wisdom save — `DC 12`** → Speak one truthful sentence about the surfaced thought.
 - [[Aruhe - Redheart Berry]] hangs in dozens on the terraces; fallen berries can be foraged from the wet stone.
 - [[Aruhe - Giant's Guava]] follows the tree line inland, with low branches that can be picked.
 

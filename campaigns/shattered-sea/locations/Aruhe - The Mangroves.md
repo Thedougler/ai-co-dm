@@ -39,6 +39,8 @@ The Mangroves are the southern end of [[Aruhe - The Marshes|the Marshes]], where
 - **Attempt to force a vessel through:** Roots catch hulls, poles, oars, rigging, and passengers. Noise carries through both water and canopy.
 - **Enter on foot from the coast:** Possible only as desperation. There is no practical shoreline route to [[Aruhe - Beach|Western Landing]].
 - **Enter from [[Aruhe - The Marshes|the Marshes]]:** Possible, but increasingly slow as open water disappears beneath intertwined roots.
+- **Pole or wade through a mangrove channel beneath low branches:** [[Aruhe - Snakewood]] coils hang over the water and respond to movement below an active colony. The target makes a **Dexterity save — `DC 14`**; failure → `1d6` bludgeoning, **Grappled**, and pulled `15 feet` toward the canopy; a **Grappled** creature takes `2d6` acid damage at the start of its turn, increasing by `1d6` each consecutive round to `4d6`. Bait the strike with a moving pack or thrown object, use solid overhead cover, sever the section (**AC 13**, `15 HP`), or escape with **Strength (Athletics) or Dexterity (Acrobatics) — `DC 14`**.
+- **Step onto a small root-island clearing at a channel crossing:** White [[Aruhe - Spiritpollen]] flowers carry swollen pollen sacs. Touching, cutting, shaking, or burning the stand releases a `15-foot` cloud; each breathing creature makes a **Wisdom save — `DC 15`**, with failure causing **Spirit-Haunted** and forcing its Action into an attack, spell, or ability against hallucinated threats until a repeated save succeeds. Cover mouth and nose, use strong wind, or disturb the stand from beyond `15 feet`.
 - **Move through the root maze:** Difficult Terrain at minimum. In dense stretches movement may fall to a crawl requiring climbing, swimming, ducking beneath roots, and squeezing between trunks within the same hundred feet.
 - **Walk through apparently shallow water:** Depth can change from inches to several feet between roots.
   - **Wisdom (Survival) — `DC 15`** → Pick a line that holds.
@@ -70,7 +72,6 @@ The Mangroves are the southern end of [[Aruhe - The Marshes|the Marshes]], where
 - The mud can swallow a leg to the thigh while neighboring ground is firm enough to stand on.
 - Roots create thousands of enclosed pockets where predators can remain within striking distance without being visible.
 - The canopy is nearly continuous. What cannot reach a traveler from below may reach them from above. Insects occupy the air between.
-- [[Aruhe - Spiritpollen]] appears only in local clearings, root-islands, or crossing pockets, not as blanket growth through the mangroves.
 - In fresher pockets, [[Aruhe - Ghost Plum]] hangs beneath wet leaves, while [[Aruhe - Rotheart]] grows in dark clusters on old vinewood above the channels. Fallen fruit can be foraged from the roots, and living fruit can be picked only by drawing a response from Aruhe.
 - Surf can be heard through much of the outer forest, creating the constant impression that the open sea is only a short distance away. It usually is not.
 - This is a wall, not a harbor. Purple Grung work western reefs and will not set foot on Aruhe; they also do not treat this coast as an entrance.

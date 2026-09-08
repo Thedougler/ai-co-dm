@@ -35,6 +35,8 @@ The Lava Tubes are the underworld beneath Aruhe's living surface: old volcanic p
 - **Follow free-flowing cave seepage:** The water is drinkable.
   - **Wisdom (Survival) — `DC 15`** → Keep the watercourse and reach a route toward [[Aruhe - Clear Lake|Clear Lake]].
   - Failure → Lose the route and spend time backtracking; the seepage remains drinkable.
+- **Pass beneath luminous roots descending through a roof break:** [[Aruhe - Snakewood]] coils thread through the living root network above the basalt. A Small or larger creature moving beneath an active colony makes a **Dexterity save — `DC 14`**; failure → `1d6` bludgeoning, **Grappled**, and pulled `15 feet` toward the root curtain; a **Grappled** creature takes `2d6` acid damage at the start of its turn, increasing by `1d6` each consecutive round to `4d6`. Bait the strike with a moving object, use solid cover, sever the section (**AC 13**, `15 HP`), or escape with **Strength (Athletics) or Dexterity (Acrobatics) — `DC 14`**.
+- **Step into a skylight or root-well opening where daylight reaches the basalt:** A four-foot waxy [[Aruhe - Stillbloom]] stalk raises pale bracts and dark needles. A grounded Small or larger creature within `20 feet` moving more than `10 feet`, Dashing, jumping, falling, being forcibly moved `10 feet` or more, or making another violent motion triggers the volley; each creature within `15 feet` makes a **Dexterity save — `DC 14`** for `2d6` piercing and an embedded spine, followed by a **Constitution save — `DC 12`** for **Exposure**. Walk `10 feet` or less per turn, use total cover, fly over the root mat, or trigger the volley with a thrown object.
 - **Study basalt and vents:**
   - **Intelligence (Nature) — `DC 15`** → Read the volcanic route and identify the likely direction of a hidden connection.
   - Failure → The map remains incomplete and the party loses time at a false branch.
@@ -62,7 +64,6 @@ The Lava Tubes are the underworld beneath Aruhe's living surface: old volcanic p
 - Pale curtains of living root hang through breaks in the ceilings and drip water from their tips. The roots are surface forest reaching down, not a separate flora.
 - The luminous root network points back toward the sick interior and stops at the verge of the last clearing's graves.
 - Free-flowing cave seepage is drinkable. The source remains part of the living cave, not a possession.
-- [[Aruhe - Stillbloom]] can appear at skylight or root-well approaches where light reaches the stone, never in the deep unlit passages.
 - [[Aruhe - Ghost Plum]] hangs beneath the wet root curtains, and [[Aruhe - Stonepear]] fruits beside the seepage where branches find cracks in the basalt. Fallen fruit can be foraged, while living fruit can be picked as a claim against Aruhe.
 - Drips, wingbeats, echoes, and movement along stone make distance difficult to judge.
 - The tubes are a route through Aruhe's underworld, not proof of a hidden city or a single subterranean ruler.

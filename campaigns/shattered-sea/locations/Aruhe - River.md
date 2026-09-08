@@ -33,7 +33,9 @@ The rivers draining [[Aruhe - Clear Lake]] braid through Aruhe and cut across th
 - **Travel on the water:** Hours-scale where navigable. Current, rapids, deep pools, and otter families make it dangerous.
 - **Walk the grassland bank:** Eight-foot blades and rim predators. [[Aruhe - Terror-Bird|Terror-Birds]] end a hunt if prey hits deep grass, water, or [[Aruhe - Razer-Grass]].
 - **Walk the jungle bank:** Root curtains, drops, and things that hang above the water. Cover traded for vertical threat.
-- **Go around [[Aruhe - Razer-Grass]] at river bends:** Trails already bend around the islands. Otters will not haul a kill onto them. Running through an intact stand cuts; after a shatter the glitter is asbestos-like if inhaled. Numbers live on [[Aruhe - Razer-Grass]].
+- **Step from the grassland bank onto a pale stand at a river bend or flood-scoured hollow:** [[Aruhe - Razer-Grass]] blades hold fixed glitter and make a glassy tinkle. Contact deals `1d4` slashing per `5 feet` and counts as Difficult Terrain; spend an Action to move up to `5 feet` through it, and careful passage ignores movement damage. Dashing, falling, a shove, smashing, or burning the stand triggers a **Dexterity save — `DC 14`** for `2d6` slashing and a **Constitution save — `DC 14`** against **Glass-Choked** dust. Go around, use reach and cover, or keep weight on the bank.
+- **Approach the macaws perched in grassland-edge trees above an open channel:** When a creature that knows a language comes within `30 feet` and a bird can see it, [[Aruhe - Unsaid Macaw]] repeats the foremost current thought in the listener's exact voice. Once per day after a Surface Echo, the macaw may say "Confess"; failure on a **Wisdom save — `DC 12`** makes the target speak one truthful sentence elaborating on that thought. Step out of sight, move beyond `30 feet`, answer plainly, or cover a mouth before flock-talk muddies the phrase.
+- **Step beside a yellow flower on a wet riverbank with a fat cream-green caterpillar across it:** [[Aruhe - Grubnade]] swells and hisses when touched, picked up, damaged, or when its support plant is shaken or crushed; it detonates at the end of the current turn. Creatures within `5 feet` make a **Dexterity save — `DC 12`** for `2d6` fire damage, half on a success. Go around, use reach or cover, or trigger it from beyond `5 feet`.
 - **Enter the water:** [[Aruhe - River Otter|River Otters]] treat it as play. Rope, oars, and ankles are toys.
   - Contested Strength (Athletics) or Dexterity (Sleight of Hand) → They take held or worn gear and swim off. No damage while it is still play.
 - **Take anything from the river:** It belongs to the family.
@@ -59,8 +61,6 @@ The rivers draining [[Aruhe - Clear Lake]] braid through Aruhe and cut across th
 - They play with a [[Aruhe - Deerstalker|deer-stalker's]] antlered head in the shallows after a meal. They will not haul a kill onto [[Aruhe - Razer-Grass]], sniff a [[Aruhe - Grubnade]] and leave it, and pull against a [[Aruhe - Crown Squid]] line that trails into occupied water.
 - [[Aruhe - Redheart Berry]] grows beside the grassland bank, where fallen berries can be foraged from the shallows.
 - [[Aruhe - Ghost Plum]] hangs from wet roots on the jungle bank, close enough to pick where the current leaves a foothold.
-- [[Aruhe - Razer-Grass]] islands stand at river bends and flood-scoured hollows.
-- [[Aruhe - Unsaid Macaw]] gathers at grassland edges along the open channels, not on the jungle bank.
 - Flood stage widens the grasslands and makes the current lethal. Dry stage exposes limestone shelves and concentrates the otters.
 - [[Aruhe - Bloodhawk|Bloodhawks]] take canoes in open channel. They will not put a foot in occupied otter water.
 
