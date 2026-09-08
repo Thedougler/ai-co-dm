@@ -127,6 +127,8 @@ Together they are Hinewai's body and **place-bound phylactery**.
 
 There is no detachable object to find and smash.
 
+The Death Bloom's boundary is uncertain. It may be necessary to burn the entire memorial grove to the ground to ensure that every bound root and ritual connection is destroyed. No one knows how far the Bloom extends outward from the two graves, so damage that appears complete may still leave enough of it intact for Hinewai to return.
+
 See [[Aruhe - Memorial Grove]].
 
 ### Rebirth
@@ -399,4 +401,3 @@ actions:
   - name: "Acid Seep (Recharge 6)"
     desc: "A 10-foot-radius patch of ground the Blight can see within 30 feet wells up with acid. Each creature there must make a DC 12 Dexterity saving throw, taking 10 (3d6) acid damage on a failed save, or half as much damage on a successful one. The patch remains as a hazard for 1 minute, and any creature that enters it or starts its turn there for the first time on a turn must make the same save."
 ```
-
