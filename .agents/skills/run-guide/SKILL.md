@@ -28,8 +28,8 @@ as a second framework.
 
 A DM-facing line stays if Nick will use it this slice to **place** someone,
 **roll** something, or **speak**. Distances, speeds, named *rulings*, the
-opposition want, and the spoken block earn their keep. 5e defaults, schema
-commentary, and notes to the writer stay in this skill.
+opposition want, and the spoken block earn their keep. House Partial, 5e
+defaults, schema commentary, and notes to the writer stay in this skill.
 
 ## Workflow
 
@@ -71,10 +71,10 @@ Frontmatter: `type: session-prep` (or `encounter`), `cssclasses: [session-surfac
 | 4 | **DM truth** | Heading `## DM truth` (or `### DM truth` under Now). Opposition want, one sentence. **Before** Initial Narration. Not a `[!secret]` callout. |
 | 5 | **Action cards** | Predator loop and compact numbers you will roll in default mode (AC, one attack, scatter/bloodied thresholds). Next to truth, not under embeds. Named owner actions (`Talon Grab`, `Sickle Claw`), not nicknames (`rake`). |
 | 6 | **Initial Narration** | Empty `> [!narration] Initial Narration` stub on pass 1. Pass 2 fills *scene-setting* (see Scene-setting). If the owner already has an identity image, embed `![[attachments/…]]` beside this block. |
-| 7 | **Procedure** | Heading `## Procedure`. Name *escape mode* or *combat mode*. The loop for this slice, once. Not a `[!mechanic]` callout. |
-| 8 | **Zones** | Table: place \| distance in feet \| cover. Same distances as Now. No Narration column. Immediately after the table: one empty `> [!narration] {Place}` stub per row. |
-| 9 | **Be ready for** | **Partial** defined once above the table (see Partial). Table: intent \| approach (skill) \| DC \| success \| partial \| failure. Approach is **Ability (Skill)**. DC column is `` `DC 14` ``. Dice and damage in cells are inline code. Applied conditions are **bold**. Name the creature, item, and place in every cell. Every cell is a *ruling*. Include **Assess the situation** when the opening could be read as “what is it hunting / doing?” Not a menu to read aloud. Body-copy checks outside this table use the at-table grammar in `obsidian-markdown`. |
-| 10 | **Threat clock** | Heading `## Threat clock`. Table: tick \| what happens. The predators’ turn. Named ticks. 3–4 ticks. Bloodied (write the HP number), cover-reached, minions, scene dials live **in this block**. Immediately after the table: one empty `> [!narration] Tick {n}` stub per tick. |
+| 7 | **Procedure** | Heading `## Procedure`. Name *escape mode* or *combat mode*. This slice's clock trigger and the combat-mode switch, once. Not 5e turn order. Not a `[!mechanic]` callout. |
+| 8 | **Zones** | Table: place \| distance in feet \| cover. Same distances as Now. Optional italic **Narration** column (spoken prose, not a callout). If that column is absent, one empty `> [!narration] {Place}` stub per row after the table. |
+| 9 | **Be ready for** | Table: intent \| approach (skill) \| DC \| success \| partial \| failure. Approach is **Ability (Skill)**. DC column is `` `DC 14` ``. Dice and damage in cells are inline code. Applied conditions are **bold**. Name the creature, item, and place in every cell. Every cell is a *ruling*. Include **Assess the situation** when the opening could be read as “what is it hunting / doing?” Not a menu to read aloud. Body-copy checks outside this table use the at-table grammar in `obsidian-markdown`. |
+| 10 | **Threat clock** | Heading `## Threat clock`. Table: tick \| what happens. Optional italic **Narration** column. The predators’ turn. Named ticks. 3–4 ticks. Bloodied (write the HP number), cover-reached, minions, scene dials live **in this block**. If there is no Narration column, one empty `> [!narration] Tick {n}` stub per tick after the table. |
 | 11 | **Secondary objective** | If Be ready for lists “save / distract X,” one line: beats required, ignore outcome, later consequence. Omit when there is no second objective. |
 | 12 | **Landing** | Next scene’s opening state: where bodies are in **feet**, RAW conditions (Prone), damage already applied. Movement closes gaps. Empty `> [!narration] Landing` plus one titled stub per named variant (Scattered, Crash-landed). |
 | 13 | **Exit narration** | Only when the **next** cockpit is already on this file. Empty `> [!narration] Exit` on pass 1. Spoken transition on pass 2. No “What do you do?” Omit until that beat is ready. |
@@ -89,22 +89,23 @@ There is no peer **Round script**. Clock ticks *are* the old R1–R3. The only `
 Pass 1 places these empty titled callouts. Pass 2 fills all of them. The DM may skip a block at the table; construction may not omit a slot.
 
 - `Initial Narration` — mandatory. After action cards, before Procedure.
-- `{Place}` — one per zone row, immediately after the Zones table.
-- `Tick {n}` — one per clock tick, immediately after the Threat clock table.
+- `{Place}` — only if Zones has no Narration column: one per zone row after the table.
+- `Tick {n}` — only if the clock has no Narration column: one per tick after the table.
 - `Landing` — success-condition spoken state. Plus one stub per named landing variant.
 - `{Creature}` — after each combat-mode roster embed. Situated look for this scene, not the owner-page cold portrait.
 - `Exit` — only when the next cockpit is already on this file.
 
-Do not put `> [!narration]` inside a table cell. Obsidian does not render callouts there.
+Do not put `> [!narration]` inside a table cell. Obsidian does not render callouts there. Italic prose in a Narration column is the spoken line for that row.
 
 ## Procedure
 
 Name the mode. Default for a hunt/chase/escape slice is *escape mode*:
 
-1. Players declare and resolve turns, checks, and movement as normal.
-2. Failures impose the Be ready for *ruling* only. They never advance the clock.
-3. After everyone has acted, if anyone remains exposed (the card’s magnets), advance the threat clock **once** and resolve that tick. Freeze or “we watch” still ticks once at end of round, not per failed check.
-4. Several failed checks in one round still produce **one** tick.
+1. Failures impose the Be ready for *ruling* only. They never advance the clock.
+2. After everyone has acted, if anyone remains exposed (the card’s magnets), advance the threat clock **once** and resolve that tick. Freeze or “we watch” still ticks once at end of round, not per failed check.
+3. Several failed checks in one round still produce **one** tick.
+
+On the card, write this slice's trigger (who counts as exposed) and the combat-mode switch. Do not paste 5e turn order or this list.
 
 *Combat mode:* if the party abandons escape and commits to killing the opposition, stop the clock and run the embedded statblocks. Write that switch on the card.
 
@@ -112,17 +113,17 @@ A skill-challenge or social slice uses the same rule: one clock, filled by the c
 
 ## Partial
 
-Define once above Be ready for:
+House for this vault, in this skill, not on the card:
 
 - **Success:** meet or exceed the DC.
 - **Partial:** miss by 1–4; the player may accomplish the intent at the listed cost.
 - **Failure:** miss by 5 or more, or reject the partial cost.
 
-A row may say “binary — no partial” when the fiction has no middle.
+Table cells assume that. A row may say “binary — no partial” when the fiction has no middle.
 
 ## Ruling
 
-A *ruling* is a 5.5e (2024) action, movement in feet, opportunity attack, named condition, ability check, save, or damage; or a **named feature already on a vault owner**. This vault’s **Partial** (miss by 1–4) is house, written once above the table. Check, save, and DC choice → `dnd5e-mechanics`. The written mark → `obsidian-markdown` at-table scan.
+A *ruling* is a 5.5e (2024) action, movement in feet, opportunity attack, named condition, ability check, save, or damage; or a **named feature already on a vault owner**. This vault’s **Partial** (miss by 1–4) is house, here, not restated on the card. Check, save, and DC choice → `dnd5e-mechanics`. The written mark → `obsidian-markdown` at-table scan.
 
 5.5e actions: Attack, Dash, Disengage, Dodge, Help, Hide, Influence, Magic, Ready, Search, Study, Utilize. Conditions include Prone, Grappled, Restrained.
 
@@ -142,10 +143,7 @@ Stop at the reaction point after those facts, then “What do you do?” Typical
 
 ## Time and cut lines
 
-A 30-minute beat states expected minutes and two *cut lines* (Sly Flourish: Watch the Time):
-
-- **If behind:** what to skip so the scene still ends on its **Scene ends when**.
-- **If ahead:** one extra complication **only if** that complication is fully inlined on this card.
+A 30-minute beat states expected minutes and two *cut lines* (Sly Flourish: Watch the Time). Do not paste a minute-by-minute script of how to spend the half hour.
 
 A hook with a cover endpoint does not also run unbounded travel. “Smoke to camp” belongs on the next cockpit.
 
@@ -174,7 +172,7 @@ Clock ticks are predator **actions** (what fills the clock, what happens, what c
 Completion — all of these hold, or the draft is not done:
 
 - One named *procedure*; Be ready for failures do not also tick the clock.
-- **Partial** defined once (or the table is binary on purpose).
+- No house Partial lecture, 5e-default lecture, or writer note on the card.
 - `## Scene ends when` is the first heading; the end condition is the first line.
 - Time budget + both *cut lines* sit under that heading.
 - Now states positions and speeds in feet; the zone table uses those distances.
