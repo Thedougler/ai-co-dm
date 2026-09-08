@@ -45,14 +45,6 @@ bonus_actions:
 
 # Bear-Elk
 
-![[attachments/shattered-sea/creatures/bear-elk-of-aruhe-01.jpg|Bear-Elk of Aruhe]]
-
-![[attachments/shattered-sea/creatures/bear-elk-of-aruhe-02.jpg|Bear-Elk of Aruhe]]
-
-![[attachments/shattered-sea/creatures/bear-elk-of-aruhe-03.jpg|Bear-Elk of Aruhe]]
-
-![[attachments/shattered-sea/creatures/bear-elk-of-aruhe-04.jpg|Bear-Elk of Aruhe]]
-
 > [!narration] Narration
 > The Bear-Elk moves on a moose's high shoulders and a bear's heavy forelimbs, big enough to shove young trees aside with its chest. Wide shovel antlers fill the space over its head, scraped dark at the base and strung with vines, wet sap, and hanging drops. Its pale long face splits around yellow teeth and black gums, while clawed black forelegs punch through the leaf rot and leave the smell of blood, mud, and torn green behind it.
 
@@ -77,3 +69,11 @@ bonus_actions:
 **Weaknesses.** Its patrol is predictable, and the same size that makes it terrifying also makes it bad at sharp turns, low tangles, deep water, and places where the antlers snag. Careful trackers can read its circuit from tree damage and choose when to avoid, bait, or brace for the charge.
 
 **Aftermath.** A Bear-Elk encounter leaves smashed understory, sap-streaked bark, cracked branches hanging from vines, bloody churned mud, and carcass scraps pressed into the trail. Useful remains can include heavy antler plates, claws, hide, teeth, and sap-stained vine tangles caught in the rack.
+
+![[attachments/shattered-sea/creatures/bear-elk-of-aruhe-01.jpg|Bear-Elk of Aruhe]]
+
+![[attachments/shattered-sea/creatures/bear-elk-of-aruhe-02.jpg|Bear-Elk of Aruhe]]
+
+![[attachments/shattered-sea/creatures/bear-elk-of-aruhe-03.jpg|Bear-Elk of Aruhe]]
+
+![[attachments/shattered-sea/creatures/bear-elk-of-aruhe-04.jpg|Bear-Elk of Aruhe]]
