@@ -20,6 +20,7 @@ Design from **Agentic-System-Designer** (`after-write-path-scope-2026-09-05`). F
 
 - Paths required for real commits.
 - Only named paths staged/committed.
-- Unrelated dirty/staged → **fail closed** (exit 3).
+- Unstaged leftover WIP is left alone (warning, not abort).
+- Extra paths in the commit index → **fail closed** (exit 3).
 - Ops rare escape: `--allow-unrelated-dirty`.
 - qmd update/embed + Mac gate unchanged.

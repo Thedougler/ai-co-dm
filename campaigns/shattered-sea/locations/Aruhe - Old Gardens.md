@@ -24,7 +24,7 @@ Miles of ancient terraces run inland from the landing, made by unknown builders 
 ## Five-sentence kernel
 - **Function:** A terrace route and abundance node for learning how Aruhe grows without assuming anyone owns it.
 - **Fantastic:** Ancient human-scale geometry persists beneath food and flowers beyond ordinary scale.
-- **Conflict:** Surveyors need food, clues, and a route inland; the Hunger Rule forbids claiming living abundance for self.
+- **Conflict:** Surveyors need food, clues, and a route inland; take living plants and animals attack. [[Taking on Aruhe]].
 - **Promise:** Study builders, terraces, fruit, and flowers while choosing passage over harvest.
 - **Trajectory:** If treated as a pantry, the Gardens answer as Aruhe does; if observed, they reveal routes and the island's excess.
 

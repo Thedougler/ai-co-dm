@@ -21,7 +21,7 @@ tags: [location, aruhe, grasslands, rivers]
 River-cut valleys in Aruhe's jungle, not a sixth concentric band. Freshwater forces the canopy apart. These exposed chambers are beautiful, hot, and watched from the shaded rim.
 
 ## Five-sentence kernel
-- **Function:** A broad inland route linking terraces, lake, and grove while making the Hunger Rule practical.
+- **Function:** A broad inland route linking terraces, lake, and grove.
 - **Fantastic:** Water can be safely drunk from free flow, but living river abundance cannot be possessed for self.
 - **Conflict:** Travelers need open movement and water; large life and the temptation to fish turn a route into a claim.
 - **Promise:** Cross visible country, follow water, and choose whether to pass through abundance or take it.

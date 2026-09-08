@@ -32,7 +32,7 @@ Paired with [[Aruhe-River-Grasslands-Tables]] for [[Session-11-00-Angry-Birds]].
 | 4 | Razer-Grass shatter crossing | Hard / medium | [[Razer-Grass]] only |
 | 5 | Hot bloom on the wet margin | Medium trap | 3+ × [[Grubnade]] |
 | 6 | Eight-foot gold-grass corridor | Medium exploration | Gold grass |
-| 7 | Breathmelon in the current | Easy / Hunger Rule | [[Breathmelon]] |
+| 7 | Breathmelon in the current | Easy / taking | [[Breathmelon]] |
 | 8 | Fallen fruit on the bank | Easiest | Already-down fruit |
 
 > [!mechanic] When to roll
@@ -43,7 +43,7 @@ Paired with [[Aruhe-River-Grasslands-Tables]] for [[Session-11-00-Angry-Birds]].
 > Run exactly one of those two rows. Pick the row that matches the ground in front of them.
 > A success means they see the chosen row coming and can go around, engage, or pay a cost and keep walking.
 > A failure means the same row, already in reach or already in the stand.
-> If they pluck living plants, fish for themselves, or kill to carry flesh, both rolls are 2d8 and you keep the lower number on each table, then still pick one row. Fallen fruit, passage, and free-flowing water are not a claim. See [[Aruhe Hunger Rule]].
+> If they pluck living plants, fish for themselves, or kill to carry flesh, both rolls are 2d8 and you keep the lower number on each table, then still pick one row. Fallen fruit, passage, and free-flowing water are not a claim. See [[Taking on Aruhe]].
 > If a row would restage a live spine fight, use the other table's row. If both collide, reroll once among unused rows.
 
 ## L1 · At the table
@@ -216,7 +216,7 @@ Paired with [[Aruhe-River-Grasslands-Tables]] for [[Session-11-00-Angry-Birds]].
 **Now:** Pale green melons bob in the water. Some still hang on living vines. One is already split and floating.
 **Say/show:** Read the narration. Living fruit on the vine is a claim. The split one is already down.
 **Ask/offer:** Take the cut melon. Leave them. Pluck a living one. Squeeze one underwater.
-**Opposition/pressure:** A plucked living melon is a Hunger Rule claim and both later dice go 2d8 take lower. Underwater, a squeezed melon leaks trapped gas and is a loud tell in a claimed hole.
+**Opposition/pressure:** A plucked living melon means animals attack. [[Taking on Aruhe]]. Both later dice go 2d8 take lower. Underwater, a squeezed melon leaks trapped gas and is a loud tell in a claimed hole.
 **Resolve:** Receiving the already-split fruit is passage. Identification is DC 13 Nature or Medicine on the owner page if they spend a minute. Eating is a Bonus Action: one hour of air and water breathing, swim speed equal to walking speed.
 **On success/partial/failure:** Success means they take only what is already loose and move on. Partial means they learn the fruit works and they also made noise in the shallows. Failure means they plucked living fruit, and the next Survival check uses the claim rule.
 **If ignored:** The melons keep bobbing. The split one drifts downstream.
@@ -243,7 +243,7 @@ Paired with [[Aruhe-River-Grasslands-Tables]] for [[Session-11-00-Angry-Birds]].
 **Now:** Overripe fruit is already on the ground. Living bushes stand next to it.
 **Say/show:** Read the narration. What is down is offered. What is still on the stem is not.
 **Ask/offer:** Take the fallen fruit. Walk on. Strip the living bushes.
-**Opposition/pressure:** This is the easy Hunger Rule lesson. Fallen fruit feeds them. Living stems with blood or snapped wood are a claim.
+**Opposition/pressure:** Fallen fruit feeds them. Living stems with blood or snapped wood mean animals attack. [[Taking on Aruhe]].
 **Resolve:** Taking only what is already down is passage. Stripping live bushes is a claim: both later dice become 2d8 take lower.
 **On success/partial/failure:** Success means they eat what is down and the smoke stays the prize. Partial means they take fallen fruit and spend time sorting stems. Failure means they pick living bushes, and the next check is a claim roll.
 **If ignored:** The fallen fruit keeps fermenting. The living bushes stay.
@@ -262,13 +262,13 @@ Paired with [[Aruhe-River-Grasslands-Tables]] for [[Session-11-00-Angry-Birds]].
 - **If violence starts:** Only if they make a claim and you convert this into a later row. This card has no fight of its own.
 - **If ignored:** The pile stays. The smoke does not get closer while they argue over it.
 
-**Spotlight:** [[Perrin Black-Jaw]] on the Hunger Rule. Anyone who reaches for a stem. [[Jean-Claude Tabarnack]] if he wants to keep moving on the prints.
+**Spotlight:** [[Perrin Black-Jaw]] on taking. Anyone who reaches for a stem. [[Jean-Claude Tabarnack]] if he wants to keep moving on the prints.
 
 ## L2 · Deep
 
 ### DM reference
 
-- Place: [[Aruhe - Grasslands]] · [[Aruhe Hunger Rule]] · [[Razer-Grass]]
+- Place: [[Aruhe - Grasslands]] · [[Taking on Aruhe]] · [[Razer-Grass]]
 - Plant roster: [[Strangler Fig]] · [[Young Snakewood]] · [[Vine Lash]] · [[Grubnade]]
 - Fruit: [[Breathmelon]] · [[Lion Citrus]]
 - Fauna pair: [[Aruhe-River-Grasslands-Tables]]
@@ -284,7 +284,7 @@ Paired with [[Aruhe-River-Grasslands-Tables]] for [[Session-11-00-Angry-Birds]].
 
 ### Treasure / fallout
 
-- No planned treasure. Living plants are Hunger Rule claims if they take them to carry.
+- No planned treasure. Living plants: animals attack if they take them to carry. [[Taking on Aruhe]].
 - Fallen fruit is genuinely beneficial. Do not hide a poison in it.
 - A gold-grass crush lasts hours and can feed a later fauna row.
 

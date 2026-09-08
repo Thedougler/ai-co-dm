@@ -16,7 +16,7 @@ Open and active now. The crew is at/around [[Aruhe - Hungry Isle]]; two survivor
 Survey [[Aruhe - Hungry Isle]] for a viable [[Tangle]] anchor, then report whether the island can connect safely to existing Runs without turning living Aruhe into a possession.
 
 ## Stakes
-The [[Passage]] loses a needed route or anchor if Aruhe fails. Perrin's family obligation remains unresolved, and a bad connection could put an existing Run at risk. A route that treats the island as property may provoke the Hunger Rule; the taking-places show that people are already paying for possession.
+The [[Passage]] loses a needed route or anchor if Aruhe fails. Perrin's family obligation remains unresolved, and a bad connection could put an existing Run at risk. A route that treats the island as property means animals attack. [[Taking on Aruhe]]. The taking-places show that people are already paying.
 
 ## Nodes
 - [[Aruhe - Hungry Isle]]: current survey site, inland survivors, taking-places, and crown squid boundary
@@ -48,4 +48,4 @@ The [[Passage]] loses a needed route or anchor if Aruhe fails. Perrin's family o
 - A precise answer about passage versus possession, even if the answer is “do not anchor.”
 
 ## Linked
-[[Passage]] · [[Rattkin Runs and Black-Jaw Run]] · [[The taken 314]] · [[Aruhe Hunger Rule]] · [[Great Crown Squid]]
+[[Passage]] · [[Rattkin Runs and Black-Jaw Run]] · [[The taken 314]] · [[Taking on Aruhe]] · [[Great Crown Squid]]

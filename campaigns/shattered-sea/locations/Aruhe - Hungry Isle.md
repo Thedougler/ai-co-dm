@@ -83,7 +83,7 @@ A country-scale island in the eastern Midchain: roughly 500 miles end-to-end and
 - **The Grove / Death Bloom:** A tree, graves, and earth meet in a restrained node rather than expressing the island's full excess.
 
 ## Information economy
-- **Operational:** [[Aruhe Hunger Rule]] gives the precise distinction: passage is tolerated; possession of living things is answered.
+- **Operational:** Take a living thing and animals attack. [[Taking on Aruhe]].
 - **Physical trace:** A plucked, uprooted, trapped, fished-for, or killed-and-carried thing marks a claim; the surrounding life converges hostilely.
 - **Directional:** Reef rim and one gap, terrace lines, water flow, silence boundaries, decay, graves, and volcanic openings point to the child nodes.
 - **Historical:** The terraces have unknown builders; no town, road, field, or smoke trail explains the island from offshore.
@@ -107,7 +107,7 @@ Advance on plucking, uprooting, trapping, fishing for self, killing to carry fle
 **Move:** The anchor test refuses ownership. **Trigger:** an attempt to make Aruhe a Tangle asset. **Result:** the marked point holds only as passage, shifts, or vanishes. **Opportunity:** propose a non-possessive connection. **Consequence:** the Passage receives a route verdict, not a claim on the island.
 
 ## Connections
-- [[Midchain]] · [[Sparhold]] · [[Karath]] · [[Uncertainty]] · [[Tangle]] · [[Aruhe Hunger Rule]] · [[The Blight]]
+- [[Midchain]] · [[Sparhold]] · [[Karath]] · [[Uncertainty]] · [[Tangle]] · [[Taking on Aruhe]] · [[The Blight]]
 
 ## Hooks
 - Survey Aruhe as a Tangle anchor without treating a living island as property.
@@ -117,7 +117,7 @@ Advance on plucking, uprooting, trapping, fishing for self, killing to carry fle
 - Observe the fiction-only creature roster and how niche boundaries remain in balance; mechanics are intentionally deferred.
 
 ## Secrets (DM)
-- The Hunger Rule is authoritative; the exact origin, builders of the terraces, history of [[The Blight]], and any Tangle-compatible anchor method remain unknown.
+- Origin, terrace builders, history of [[The Blight]], and any Tangle-compatible anchor method remain unknown.
 - No single master predator or hive mind explains the ecology. The island's pressure is aligned hunger across living niches.
 
 ## Mechanics and return
@@ -160,7 +160,7 @@ Run from one and you are usually standing in the next one's country; that bounda
 ## Hinewai's origin pressure
 Aruhe's excess is the success of Hinewai's preservation. After Karath captured the elf archdruid and forced her to enlarge vermin, she fled with an unnamed companion; he drowned in the half-mile channel. She carried him inland, buried him beneath a fruit tree, took the offered fruit as a vow, and later fused herself to the land in a second grave. The memorial became the Death Bloom and the island's law.
 
-Everywhere beyond [[Aruhe - Memorial Grove]], life was prevented from finishing: growth, reproduction, healing, adaptation, and rot lost their brakes. This is not a single intelligence or a new monster ecology. Familiar fauna remain independent animals; Hinewai's presence is the island agreeing with itself. The Hunger Rule is her distinction between receiving and taking, made ecological pressure.
+Everywhere beyond [[Aruhe - Memorial Grove]], life was prevented from finishing: growth, reproduction, healing, adaptation, and rot lost their brakes. This is not a single intelligence or a new monster ecology. Familiar fauna remain independent animals; Hinewai's presence is the island agreeing with itself. Take a living thing and animals attack. [[Taking on Aruhe]].
 
 ## Hinewai continuity
 Luminous roots run wrist-thick to thigh-thick from the shelf above [[Aruhe - Clear Lake]] through [[Aruhe - The Rot]] and point toward the Grove. At the Grove, roots stop at both unmarked graves. The first grave is the drowned companion's reason; Hinewai's second grave is the mechanism. The memorial is a place, not a portable object: tree, graves, black flowers, bound soil, and relationship.

@@ -22,7 +22,7 @@ trap 'rm -f "$PATHS_FILE"' EXIT
 usage() {
   printf '%s\n' "Usage: ./scripts/after-write [--no-embed] [--dry-run] [--allow-unrelated-dirty] \"commit message\" -- path1 [path2…]"
   printf '%s\n' "Real commits require -- and at least one path. Only those paths are staged/committed."
-  printf '%s\n' "Unrelated dirty/staged paths fail closed unless --allow-unrelated-dirty (Ops only)."
+  printf '%s\n' "Commit contains only named paths. Unstaged leftover WIP is left alone (warning). Abort if the index would include a path you did not name, unless --allow-unrelated-dirty."
   printf '%s\n' "Optional: --require-branch NAME or AI_CO_DM_REQUIRE_BRANCH (refuse if HEAD ≠ name)."
 }
 
@@ -112,34 +112,6 @@ is_allowed() {
   return 1
 }
 
-printf '%s\n' "== path-scope check =="
-UNRELATED_FILE=$(mktemp)
-trap 'rm -f "$PATHS_FILE" "$UNRELATED_FILE"' EXIT
-
-# Dirty + staged + untracked (unique)
-{
-  git diff --name-only
-  git diff --cached --name-only
-  git ls-files --others --exclude-standard
-} | sort -u | while IFS= read -r path; do
-  [ -n "$path" ] || continue
-  if ! is_allowed "$path"; then
-    printf '%s\n' "$path"
-  fi
-done >"$UNRELATED_FILE"
-
-if [ -s "$UNRELATED_FILE" ] && [ "$ALLOW_UNRELATED" -eq 0 ]; then
-  printf '%s\n' "ai-co-dm: after-write aborted — unrelated dirty/staged paths (would scoop WIP):" >&2
-  sed 's/^/  /' "$UNRELATED_FILE" >&2
-  printf '%s\n' "Name only your paths after --, or ask Ops for --allow-unrelated-dirty (rare)." >&2
-  exit 3
-fi
-
-if [ -s "$UNRELATED_FILE" ] && [ "$ALLOW_UNRELATED" -eq 1 ]; then
-  printf '%s\n' "ai-co-dm: WARNING --allow-unrelated-dirty: leaving these unstaged:" >&2
-  sed 's/^/  /' "$UNRELATED_FILE" >&2
-fi
-
 printf '%s\n' "== git commit + push (scoped) =="
 # Clear index staging so we only commit named paths (keep working trees)
 git reset HEAD -- . >/dev/null 2>&1 || true
@@ -149,6 +121,40 @@ while IFS= read -r path; do
   [ -n "$path" ] || continue
   git add -A -- "$path"
 done <"$PATHS_FILE"
+
+SCOOP_FILE=$(mktemp)
+LEFTOVER_FILE=$(mktemp)
+trap 'rm -f "$PATHS_FILE" "$SCOOP_FILE" "$LEFTOVER_FILE"' EXIT
+
+git diff --cached --name-only | while IFS= read -r path; do
+  [ -n "$path" ] || continue
+  if ! is_allowed "$path"; then
+    printf '%s\n' "$path"
+  fi
+done >"$SCOOP_FILE"
+
+if [ -s "$SCOOP_FILE" ] && [ "$ALLOW_UNRELATED" -eq 0 ]; then
+  printf '%s\n' "ai-co-dm: after-write aborted — commit index includes paths you did not name:" >&2
+  sed 's/^/  /' "$SCOOP_FILE" >&2
+  printf '%s\n' "Name only your paths after --, or ask Ops for --allow-unrelated-dirty (rare)." >&2
+  git reset HEAD -- . >/dev/null 2>&1 || true
+  exit 3
+fi
+
+{
+  git diff --name-only
+  git ls-files --others --exclude-standard
+} | sort -u | while IFS= read -r path; do
+  [ -n "$path" ] || continue
+  if ! is_allowed "$path"; then
+    printf '%s\n' "$path"
+  fi
+done >"$LEFTOVER_FILE"
+
+if [ -s "$LEFTOVER_FILE" ]; then
+  printf '%s\n' "ai-co-dm: leaving unstaged WIP (not in this commit):" >&2
+  sed 's/^/  /' "$LEFTOVER_FILE" >&2
+fi
 
 if git diff --cached --quiet; then
   printf '%s\n' "nothing to commit for given paths."

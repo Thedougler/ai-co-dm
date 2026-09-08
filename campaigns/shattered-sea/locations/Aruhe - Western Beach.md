@@ -26,7 +26,7 @@ A jagged coral reef lies about half a mile offshore; low tide exposes teeth and 
 ## Five-sentence kernel
 - **Function:** The known sea approach and retreat edge for Aruhe's survey.
 - **Fantastic:** A green country is screened by reef and stone, with only one usable boat gap in the western rim.
-- **Conflict:** A crew needs a landing that can be reversed, while reef life and the Hunger Rule punish careless taking.
+- **Conflict:** A crew needs a landing that can be reversed, while reef life and taking living things mean animals attack. [[Taking on Aruhe]].
 - **Promise:** Read tide, reef, shingle, and safe passage before committing inland.
 - **Trajectory:** Bad timing traps a boat or loses a landing aid; careful observation preserves a route back to the sea.
 

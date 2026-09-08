@@ -43,7 +43,7 @@ Paired with [[Aruhe-River-Grasslands-Plant-Hazards]] for [[Session-11-00-Angry-B
 > Run exactly one of those two rows. Pick the row that matches the ground in front of them.
 > A success means they see the chosen row coming and can go around, engage, or pay a cost and keep walking.
 > A failure means the same row, already in reach or already in the stand.
-> If they pluck living plants, fish for themselves, or kill to carry flesh, both rolls are 2d8 and you keep the lower number on each table, then still pick one row. Fallen fruit, passage, and free-flowing water are not a claim. See [[Aruhe Hunger Rule]].
+> If they pluck living plants, fish for themselves, or kill to carry flesh, both rolls are 2d8 and you keep the lower number on each table, then still pick one row. Fallen fruit, passage, and free-flowing water are not a claim. See [[Taking on Aruhe]].
 > If a row would restage a live spine fight, use the other table's row. If both collide, reroll once among unused rows.
 
 ## L1 · At the table
@@ -268,7 +268,7 @@ Paired with [[Aruhe-River-Grasslands-Plant-Hazards]] for [[Session-11-00-Angry-B
 
 ### DM reference
 
-- Place: [[Aruhe - Grasslands]] · [[Aruhe Hunger Rule]] · [[Razer-Grass]]
+- Place: [[Aruhe - Grasslands]] · [[Taking on Aruhe]] · [[Razer-Grass]]
 - Grass / river / lake roster: [[Terror-Bird]] · [[Bloodhawk]] · [[Aruhe River Otter]]
 - Also here: [[Bear-Elk]] · [[Deer-Stalker]] · [[Thornback]] · [[Wolfrabbit]] · [[Unsaid Macaw]]
 - Plant pair: [[Aruhe-River-Grasslands-Plant-Hazards]]
@@ -284,7 +284,7 @@ Paired with [[Aruhe-River-Grasslands-Plant-Hazards]] for [[Session-11-00-Angry-B
 
 ### Treasure / fallout
 
-- No planned treasure. Carcasses and living plants are Hunger Rule claims if they take them to carry.
+- No planned treasure. Carcasses and living plants: animals attack if they take them to carry. [[Taking on Aruhe]].
 - Noise, fire, and a kill-to-carry can pull a worse row later.
 - Survivor prints and smoke remain the spine prize.
 

@@ -52,7 +52,7 @@ Love did not cool in Hinewai; it metastasized. She loved life so hard that growt
 - [[Aruhe - Memorial Grove]]: her body, memorial, and place-bound phylactery.
 - [[The Unnamed Companion]]: the drowned man she carried inland; his grave is the reason for the island's law.
 - [[Aruhe - Hungry Isle]]: the living country her preservation warped into excess and boundary.
-- [[Aruhe Hunger Rule]]: operational distinction between receiving and taking.
+- [[Taking on Aruhe]]: take a living thing and animals attack.
 - [[Karath]]: captor island and source of her enduring hatred.
 - [[Grung and the Making of Aruhe]]: DM history of the crime and its aftermath.
 - [[Aruhe - Clear Lake]] / [[Aruhe - The Rot]]: lakeward shelf and root direction home.

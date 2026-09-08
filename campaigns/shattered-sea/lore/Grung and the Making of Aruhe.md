@@ -32,7 +32,7 @@ The dump-authoritative autobiography belongs to the DM layer. Hinewai carries th
 - People: [[The Blight]] / Hinewai · [[The Unnamed Companion]]
 - Places: [[Aruhe - Hungry Isle]] · [[Aruhe - Memorial Grove]] · [[Aruhe - Clear Lake]] · [[Karath]] · [[Aruhe - The Rot]]
 - Faction: [[Grung clans]]
-- Lore: [[Aruhe Hunger Rule]]
+- Lore: [[Taking on Aruhe]]
 
 ## Provenance
 Primary source: Nick paste, 2026-09-05. Legacy provenance promoted from `/Users/nick/shattered-sea/wiki/shattered-sea/aruhe-hungry-isle/creature-blight.md` and `/Users/nick/shattered-sea/wiki/shattered-sea/aruhe-hungry-isle/region-aruhe-the-grove.md`; legacy remains read-only.
