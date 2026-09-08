@@ -31,14 +31,13 @@ Clear Lake is the inland freshwater basin at the uphill end of Aruhe's rivers. A
 ---
 ## If the party
 
-- **Splash and be noisy:** otters notice, engage with them and they will start playing. (DC 15 Animal Handling: stop the game or get a toy back; DC 14 Strength or Dexterity save: keep yanked gear)
-- **Follow marsh or shore toward higher green:** [[Aruhe - Memorial Grove]]. (DC 10 Acrobatics: keep feet on moss-slick stone)
+- **Splash and be noisy:** otters notice, engage with them and they will start playing. ==DC 15== **Animal Handling**: stop the game or get a toy back. ==DC 14== **Strength or Dexterity save**: keep yanked gear.
+- **Follow marsh or shore toward higher green:** [[Aruhe - Memorial Grove]]. ==DC 10== **Acrobatics**: keep feet on moss-slick stone.
 - **Follow the outlet downhill:** [[Aruhe - River]].
-- **Listen for the harp in the surrounding woods:** (DC 15 Perception: hear it from the shelf)
-- **A macaw says Confess:** (DC 12 Wisdom save: speak one truthful sentence about the surfaced thought)
-- **Identify fruit on the stem:** (DC 15 Nature)
-- **Take fruit already on the ground:** (DC 10 Survival)
-- **Catch fish:** (DC 10 Survival)
+- **Listen for the harp in the surrounding woods:** ==DC 15== **Perception**: hear it from the shelf.
+- **Identify fruit on the stem:** ==DC 15== **Nature**.
+- **Take fruit already on the ground:** ==DC 10== **Survival**.
+- **Catch fish:** ==DC 10== **Survival**.
 ---
 ## Who
 
@@ -47,7 +46,7 @@ Clear Lake is the inland freshwater basin at the uphill end of Aruhe's rivers. A
 ## What
 
 -  [[Aruhe River Otter|River Otters]]: Anything entering the water near the marshy shoreline, invites becoming an unwilling playmate of the otters. 
--  [[Unsaid Macaw]]: Nesting trees along the lake edges.
+-  [[Unsaid Macaw]]: Nesting trees along the lake edges. ==DC 12== **Wisdom save**: speak one truthful sentence about the surfaced thought.
 -  [[Lion Citrus]] grows around the edges
 -  [[Quickeye Berry]] grows in abundance along the marshy shoreline. 
 -  [[Breathmelon]] orchards line one edge near the marsh, nearly lifting there trees out of the ground. 

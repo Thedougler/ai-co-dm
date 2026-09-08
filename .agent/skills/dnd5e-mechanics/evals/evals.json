@@ -44,11 +44,11 @@
     {
       "id": "certain-outcome-silent",
       "prompt": "On a location bullet 'Splash and be noisy: otters notice and start playing,' add the appropriate checks and saves. Entering the water always starts play.",
-      "expected_output": "DCs live on If the party. Splash starting play stays fiction. Uncertain follow-ups (DC 15 Wisdom (Animal Handling) to stop the game, DC 14 Strength or Dexterity save to keep yanked gear) hang on that attempt. Who/What stay roster. No '(no check to start play)'. No checks table.",
+      "expected_output": "Player-activity tests live under If the party, marked ==DC 15== **Animal Handling** and ==DC 14== **Strength or Dexterity save**. Splash starting play stays unmarked fiction. A creature-imposed macaw Confess may sit on What as ==DC 12== **Wisdom save**. No '(no check)'. No checks table. Type is bold; DC and number are highlighted.",
       "expectations": [
-        "Puts written tests on If the party, not on Who/What roster lines.",
-        "Does not annotate play-start with no check, no roll, or no save.",
-        "Any added test has a DC and can fail; no new checks table."
+        "Puts player-activity tests on If the party using ==DC n== **Type**.",
+        "Leaves play-start unmarked; no no-check annotation.",
+        "Any extra section test is optional, secret, or non-obvious (creature-imposed), still ==DC n== **Type**."
       ]
     }
   ]
