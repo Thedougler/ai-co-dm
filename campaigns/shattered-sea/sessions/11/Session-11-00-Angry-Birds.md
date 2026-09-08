@@ -71,48 +71,48 @@ They come down in moving water and grass high enough to hide a standing person. 
 **Run:** [[Session-11-03-Wolfrabbits]]
 
 - **Purpose:** The first walk toward the smoke is already a fight. Someone can go down here.
-- **Table sees:** They follow the prints off [[Aruhe - River Landing Bank]] onto [[Aruhe - Torn Crossing]]. A [[Aruhe - Spiguar]] is already on a wolfrabbit in the gold grass. Three more [[Aruhe - Wolfrabbit|wolfrabbits]] are in the jump through the print corridor, between the party and the upriver tracks. The river is at their backs. Glassy [[Aruhe - Razer-Grass]] stands sit in the scour if anyone gets shoved.
+- **Table sees:** They follow the prints off [[Aruhe - River Landing Bank]] onto [[Aruhe - Grasslands Torn Crossing]]. A [[Aruhe - Spiguar]] is already on a wolfrabbit in the gold grass. Three more [[Aruhe - Wolfrabbit|wolfrabbits]] are in the jump through the print corridor, between the party and the upriver tracks. The river is at their backs. Glassy [[Aruhe - Razer-Grass]] stands sit in the scour if anyone gets shoved.
 - **Truth:** The [[Aruhe - Spiguar]] owns this channel and is hunting the pack. The crew is not the chosen meal. The flushed rabbits hit whoever is isolated, bleeding, or standing in their escape lane. **Unrevealed:** the cat keeps its wolfrabbit unless someone is isolated, **Prone**, bleeding, loud, or hitting it. Neither predator chases far into deep water. The pack will chase a runner who stays in the grass.
 - **Pressure:** The opening jumps happen now. A miss or a knock-down puts someone in the current, into Razer-Grass, or in front of the [[Aruhe - Spiguar]]. Stopping to pick fruit or make noise pulls more of the pack. Striking the cat makes the crew the meal. The smoke does not get closer while this is happening.
 - **If they break:** If they immediately go back into the river and downstream, the hunt holds the bank; rebuild from retreat. If they fly, they leave the hunt and enter hawk sky. If they burn the grass, they may scatter the pack and drive the cat off its kill, and they also announce themselves down the valley. If they stay off the magnets, the cat keeps the wolfrabbit and the pack can break.
 
-The prints lead onto [[Aruhe - Torn Crossing]]. A reed-matted clump that does not lean has already broken open on a striped body, and three more wolfrabbits come through the corridor at torso height, with the river behind you and the upriver trail on the other side of them.
+The prints lead onto [[Aruhe - Grasslands Torn Crossing]]. A reed-matted clump that does not lean has already broken open on a striped body, and three more wolfrabbits come through the corridor at torso height, with the river behind you and the upriver trail on the other side of them.
 
 ### 4. DEVELOPMENT — Clue (what they ate)
 
 **Run:** [[Session-11-04-What-They-Ate]]
 
 - **Purpose:** Show how the group ahead has been staying alive, and what got someone killed, so the party can copy the right thing.
-- **Table sees:** The crew is on [[Aruhe - Grasslands Line Bank]]. Overripe fruit on the ground, already fermenting: rinds, seeds, no blood. Fresh bushes next to that: stems snapped on the living plant, blood in the dirt. Fish bones, scales, and a crude line at the water.
+- **Table sees:** The crew is on [[Aruhe - River Line Bank]]. Overripe fruit on the ground, already fermenting: rinds, seeds, no blood. Fresh bushes next to that: stems snapped on the living plant, blood in the dirt. Fish bones, scales, and a crude line at the water.
 - **Truth:** They have been living off what was already down, and off fish. Picking living bushes is what left the blood. **Unrevealed:** river fishing can still draw animals later. The evidence here only shows it has been working for them so far.
 - **Pressure:** Easy food is sitting on the ground. The living bushes look better and they are the ones with blood under them. Time spent sorting this is time the smoke moves or thins.
 - **If they break:** If they strip the live bushes, the next hazards-table roll uses `2d8`, keeping the lower result. If they take only fallen fruit and move on, no claim. If they start fishing this hole themselves, treat it as a possible claim when you next roll.
 
-[[Aruhe - Grasslands Line Bank]], three piles. Fermenting fruit on the ground, no blood. Fresh bushes with the stems snapped and blood under them. Fish bones and a line in the wet mud, still pointing upstream with the prints and the smoke.
+[[Aruhe - River Line Bank]], three piles. Fermenting fruit on the ground, no blood. Fresh bushes with the stems snapped and blood under them. Fish bones and a line in the wet mud, still pointing upstream with the prints and the smoke.
 
 ### 5. CLIFFHANGER — Monster, Fright (otter hole)
 
 **Run:** [[Session-11-05-Otter-Hole]]
 
-- **Purpose:** Show that [[Aruhe - Slack Basin]] is already claimed, that it killed people, and that the living survivors left the water here. The fight happens if the party stays in the hole.
-- **Table sees:** The crew follows the prints onto [[Aruhe - Slack Basin]]. The current slows behind a rock lip. Shapes in the still water that are not fish: clothing, a pack, a body the current should have taken. Large otters with those remains. On the bank, a blood smear going up out of the river. Prints leave the water there and cut into the grass and the forest edge, around this hole, then the smoke is still ahead.
-- **Truth:** This family owns [[Aruhe - Slack Basin]]. Some of the inland group tried to pass through it and died. The rest climbed out and detoured the long way along the grassland forest edge. **Unrevealed:** the otters treat anything in the hole as food or toy. They do not start the beat at a full charge. They will if someone wades in, fishes, or pulls a body.
+- **Purpose:** Show that [[Aruhe - River Slack Basin]] is already claimed, that it killed people, and that the living survivors left the water here. The fight happens if the party stays in the hole.
+- **Table sees:** The crew follows the prints onto [[Aruhe - River Slack Basin]]. The current slows behind a rock lip. Shapes in the still water that are not fish: clothing, a pack, a body the current should have taken. Large otters with those remains. On the bank, a blood smear going up out of the river. Prints leave the water there and cut into the grass and the forest edge, around this hole, then the smoke is still ahead.
+- **Truth:** This family owns [[Aruhe - River Slack Basin]]. Some of the inland group tried to pass through it and died. The rest climbed out and detoured the long way along the grassland forest edge. **Unrevealed:** the otters treat anything in the hole as food or toy. They do not start the beat at a full charge. They will if someone wades in, fishes, or pulls a body.
 - **Pressure:** The easy road is the river, and the river here has bodies in it. The safe-looking road is the bloody bank into the trees, which is slower and blind. Standing and watching is fine until someone touches the water or the dead.
 - **If they break:** If they follow the shore prints into the trees, skip the fight and keep the detour as the next walk. If they wade in to loot or to push through, the otters hunt. If they attack from the bank, the otters can close or drag a body under and wait.
 
-The river goes slack at [[Aruhe - Slack Basin]] and the things in it are people. Otters move through the clothes and the packs as if this hole is theirs. Blood leads up the bank out of the water, and the living prints leave with it, into the grass and the trees, around the stretch instead of through it.
+The river goes slack at [[Aruhe - River Slack Basin]] and the things in it are people. Otters move through the clothes and the packs as if this hole is theirs. Blood leads up the bank out of the water, and the living prints leave with it, into the grass and the trees, around the stretch instead of through it.
 
 ### 6. DEVELOPMENT — Obsession (night watch)
 
 **Run:** [[Session-11-06-Night-Watch]]
 
 - **Purpose:** Put the deer-stalker on the night watch and lock its rules so the rest of the session can use them.
-- **Table sees:** A watcher hears something run through the underbrush, then it stops. If they go look: the deer-stalker is on a kill. It runs when it sees them. If they leave camp to follow or wander: a voice they know tries to call them farther out. If the whole party comes up ready to fight: it leaves. It only stands and talks when it has one person.
+- **Table sees:** Night watch on [[Aruhe - Cutoff Lip]]. A watcher hears something run through the knee palisade, then it stops. If they go look: the deer-stalker is on a kill in the root-bowl. It runs when it sees them. If they leave camp to follow or wander: a voice they know tries to call them farther out. If the whole party comes up ready to fight: it leaves. It only stands and talks when it has one person.
 - **Truth:** This is the session’s deer-stalker. The watcher who heard it is the preferred quarry. It mimics a voice to peel that person off the camp. It retreats from a group. When it finally faces someone, it moves wrong, like something else is using the body, says **“You’re not welcome here,”** and attacks. **Unrevealed:** that line is the island’s law coming out of an animal. It is not a conversation.
 - **Pressure:** Staying in camp after the noise means the beast is still out there and will keep calling. Going alone is how the fight starts. Waking everyone scares it off for now and does not end the mark.
 - **If they break:** If the watcher never investigates, run the mimic call anyway. If they all hunt it together, it breaks contact and waits for a split. If they tie themselves together and refuse to leave camp, it waits; the mark stays until someone is isolated later.
 
-Night watch on the forest edge. Something runs through the brush, close, then the sound cuts off and the woods are still.
+Night watch on [[Aruhe - Cutoff Lip]]. Something runs through the knee palisade, close, then the sound cuts off and the woods are still.
 
 ### 7. CLIFFHANGER — Ambush (false help)
 

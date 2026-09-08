@@ -12,7 +12,7 @@ cssclasses: [session-surface]
 
 ## Scene ends when
 
-The crew takes the bloody-bank detour around [[Aruhe - Slack Basin]] (hand toward beat 6 / the edge-trail), or the crew fights or loots in this basin and then leaves, or the crew breaks off the trail. This is the claimed stretch. It is not a hazards-table result, not night watch, and not the deer-stalker.
+The crew takes the bloody-bank detour around [[Aruhe - River Slack Basin]] (hand toward beat 6 / [[Aruhe - Cutoff Lip]]), or the crew fights or loots in this basin and then leaves, or the crew breaks off the trail. This is the claimed stretch. It is not a hazards-table result, not night watch, and not the deer-stalker.
 
 This beat is thirty minutes.
 
@@ -28,11 +28,11 @@ This beat is thirty minutes.
 - **Silence:** Present this basin, then wait. Watching from this bank does not start Hunt.
 - **Situation magnets:** Anyone in this basin, fishing, pulling a body, or attacking from this bank.
 
-The crew is on the wet sand of [[Aruhe - Slack Basin]], just upvalley of [[Aruhe - Grasslands Line Bank|Line Bank]]. The slack pool is 5 feet in front of them. A thin cane stands in the blood smear at the waterline. The closed pack sits 15 feet out in gin-clear slack. The face-down body is 20 feet out. Maroon cloth is 25 feet toward the hanging roots. White water over the rock lip is 30 feet across the pool. Living prints and the blood trail climb 20 feet into the jungle wall. Gold-green grass stands 10 feet left of the path. A 30-foot move reaches the water, the pack, or the first trees. A Dash of 60 feet follows the bloody-bank detour off this basin, or goes downstream toward Line Bank. The smoke is a thin column still ahead up-valley. A Dash does not reach the smoke, the beach, or the terraces. The otters have speed 20 feet, swim 40 feet, and Tail reach 10 feet. They do not chase far overland.
+The crew is on the wet sand of [[Aruhe - River Slack Basin]], just upvalley of [[Aruhe - River Line Bank|Line Bank]]. The slack pool is 5 feet in front of them. A thin cane stands in the blood smear at the waterline. The closed pack sits 15 feet out in gin-clear slack. The face-down body is 20 feet out. Maroon cloth is 25 feet toward the hanging roots. White water over the rock lip is 30 feet across the pool. Living prints and the blood trail climb 20 feet into the jungle wall. Gold-green grass stands 10 feet left of the path. A 30-foot move reaches the water, the pack, or the first trees. A Dash of 60 feet follows the bloody-bank detour off this basin, or goes downstream toward Line Bank. The smoke is a thin column still ahead up-valley. A Dash does not reach the smoke, the beach, or the terraces. The otters have speed 20 feet, swim 40 feet, and Tail reach 10 feet. They do not chase far overland.
 
 ## DM truth
 
-This family owns [[Aruhe - Slack Basin]]. Some of the inland group tried to pass through it and died. The rest climbed out and detoured the long way along the grassland forest edge.
+This family owns [[Aruhe - River Slack Basin]]. Some of the inland group tried to pass through it and died. The rest climbed out and detoured the long way along the grassland forest edge.
 
 **Unrevealed:** The otters treat anything in this hole as food or toy. They do not start this beat at a full charge. They will Hunt if someone wades in, fishes, or pulls a body.
 
@@ -83,13 +83,13 @@ If a crew member takes open valley air, that crew member leaves this hole for ha
 
 | Place | Distance from the crew | Cover | Narration |
 | --- | --- | --- | --- |
-| [[Aruhe - Slack Basin\|This basin]] / wet sand and slack | Here. The slack is 5 feet in front of the crew. | Watching from this sand is fine. Entering this water is participating. A Dash does not cross the valley. | _You stand on wet sand at a still turquoise pool, with white water hissing on a rock lip across the slack. The sand gives underfoot, and the quiet water smells of blood and cool stone._ |
+| [[Aruhe - River Slack Basin\|This basin]] / wet sand and slack | Here. The slack is 5 feet in front of the crew. | Watching from this sand is fine. Entering this water is participating. A Dash does not cross the valley. | _You stand on wet sand at a still turquoise pool, with white water hissing on a rock lip across the slack. The sand gives underfoot, and the quiet water smells of blood and cool stone._ |
 | Pack, cloth, and body | The pack is 15 feet out. The body is 20 feet out. The maroon cloth is 25 feet toward the hanging roots. | These remains hold in gin-clear slack. Pulling any of them starts Hunt. Do not invent pack contents. | _A closed wooden pack sits on the pale stone under still water, with a face-down body in soaked olive cloth and a maroon sleeve turning farther out. The live current beyond the lip does not take them._ |
 | Rock lip / white water | 30 feet across the pool. | This is still claimed water. Crossing the slack to the lip is entering the hole. | _White water tears over grey rock on the far side of the still pool. The current hisses there while this basin stays quiet, and a body in that water is still in the family's hole._ |
 | Bloody-bank detour / jungle wall | The smear is at the waterline. Living prints climb 20 feet into the trees. | This is the detour. The [[Aruhe - River Otter]] do not chase far overland. Hand to beat 6. | _A dark smear climbs out of the slack onto wet dirt, and living prints leave beside it into the first trees. Blood smells close on this bank. The otters stay with the slack._ |
 | Gold grass | 10 feet left of the path. | This grass hides a standing body, is Difficult Terrain, and heavily obscures beyond 10 feet. | _Gold-green grass stands higher than your head to the left of the wet path. Stems rasp together, and a standing body disappears in them after a few steps._ |
 | Inland smoke | A thin column still ahead up-valley. | The smoke is not reachable on this card. A Dash does not reach it. | _Upstream, the smoke is a thin mark on the horizon, still inside this valley. The same wind that moves the hanging roots pulls the top of the column sideways._ |
-| Downstream / [[Aruhe - Grasslands Line Bank\|Line Bank]] / beach / [[Uncertainty]] | Back along the river is toward Line Bank, Torn Crossing, the terrace line, the beach, and [[Uncertainty]]. | A Dash of 60 feet leaves this basin that way. A Dash does not reach the beach or the terraces. | _Downstream, the grass opens back toward the used fruiting margin, the torn crossing, the terrace line, the beach, and Uncertainty. The river picks up again that way._ |
+| Downstream / [[Aruhe - River Line Bank\|Line Bank]] / beach / [[Uncertainty]] | Back along the river is toward Line Bank, Torn Crossing, the terrace line, the beach, and [[Uncertainty]]. | A Dash of 60 feet leaves this basin that way. A Dash does not reach the beach or the terraces. | _Downstream, the grass opens back toward the used fruiting margin, the torn crossing, the terrace line, the beach, and Uncertainty. The river picks up again that way._ |
 | Hawk sky | Flying up out of this stretch is open valley air. | Exposed. Do not restage beat 1. | _Sun and wind take over in open valley air above this basin. Slack water and the bloody bank sit below. At this height, nothing here hides a body._ |
 
 ## Be ready for
@@ -130,14 +130,14 @@ Do not spawn wolfrabbits, a hazards-table result, night watch, or the deer-stalk
 
 ## Landing
 
-If the crew takes the bloody-bank detour around this hole, they are on the forest-edge prints toward the smoke. Hand to beat 6. Do not start the deer-stalker here.
+If the crew takes the bloody-bank detour around this hole, they are on [[Aruhe - Cutoff Lip]] toward the smoke. Hand to beat 6. Do not start the deer-stalker here.
 
-If the crew fought or looted in this hole and then left, they are still toward the smoke along the grass and forest edge, plus any RAW conditions already applied. Hand to beat 6. Do not start the deer-stalker here.
+If the crew fought or looted in this hole and then left, they are still toward the smoke on [[Aruhe - Cutoff Lip]], plus any RAW conditions already applied. Hand to beat 6. Do not start the deer-stalker here.
 
-If the crew broke off the trail, they are heading downstream through the valley toward [[Aruhe - Grasslands Line Bank|Line Bank]], the terrace line, the beach, or [[Uncertainty]], or a flyer is in hawk sky, plus any RAW conditions already applied. Rebuild from that.
+If the crew broke off the trail, they are heading downstream through the valley toward [[Aruhe - River Line Bank|Line Bank]], the terrace line, the beach, or [[Uncertainty]], or a flyer is in hawk sky, plus any RAW conditions already applied. Rebuild from that.
 
 > [!narration] Landing — Bloody-bank detour
-> You leave this hole on the bloody-bank prints. Grass closes first, then tree-shadow, as the track cuts around the slack. The line of living feet keeps going toward the smoke.
+> You leave this hole on the bloody-bank prints. Grass closes first, then tree-shadow, as the track climbs onto [[Aruhe - Cutoff Lip]]. The line of living feet keeps going toward the smoke.
 
 > [!narration] Landing — Return downstream
 > You are already headed downstream through the grass, toward the used fruiting margin, the terrace line, the beach, or Uncertainty. The slack basin sits behind you.
@@ -172,4 +172,4 @@ Do not run the hazards table, night watch, or the deer-stalker here. After this 
 
 ## Backup
 
-[[Aruhe - Slack Basin]] · [[Aruhe - River Otter]] · [[Taking on Aruhe]] · [[Aruhe - Grasslands Line Bank]] · [[Aruhe - Grasslands]] · [[Aruhe-River-Grasslands-Tables]] · [[Session-11-04-What-They-Ate]] · [[Session-11-00-Angry-Birds]]
+[[Aruhe - River Slack Basin]] · [[Aruhe - Cutoff Lip]] · [[Aruhe - River Otter]] · [[Taking on Aruhe]] · [[Aruhe - River Line Bank]] · [[Aruhe - Grasslands]] · [[Aruhe-River-Grasslands-Tables]] · [[Session-11-04-What-They-Ate]] · [[Session-11-00-Angry-Birds]]
