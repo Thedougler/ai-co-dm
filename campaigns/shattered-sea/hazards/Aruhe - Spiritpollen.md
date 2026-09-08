@@ -6,6 +6,7 @@ status: provisional
 visibility: dm
 tags: [hazard, aruhe, flora]
 ---
+![[attachments/shattered-sea/hazards/aruhe-spiritpollen.png]]
 
 > [!narration] Narration
 > A pale flowering plant leans out of the green, its swollen pollen sacs tight as blisters. Old claw marks, weapon cuts, and scorch rings circle the stand, while the plant itself remains untouched.
