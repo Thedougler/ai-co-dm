@@ -8,6 +8,8 @@ visibility: dm
 tags: [hazard, aruhe, flora]
 ---
 
+![[attachments/shattered-sea/hazards/aruhe-grubnade.png]]
+
 > [!narration] Narration
 > A fat cream-green caterpillar longer than a thumb rests on a flower. It chews steadily. Soft segments bunch and ease as it feeds.
 
