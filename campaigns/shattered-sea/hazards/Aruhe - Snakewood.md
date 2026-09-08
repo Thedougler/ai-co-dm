@@ -8,6 +8,8 @@ tags: [hazard, aruhe, flora]
 source: house (user-supplied hazard capture; 2026-09-08)
 ---
 
+![[attachments/shattered-sea/hazards/aruhe-snakewood.png]]
+
 ### Hazard — Snakewood
 
 - **Trigger:** A Small or larger creature moves beneath an active [[Snakewood]] colony section. Snakewood reacts instinctively to movement and attacks from above.
