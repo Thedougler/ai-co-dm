@@ -39,6 +39,13 @@ player verbs, topology audit, or this checklist onto a `campaigns/` page.
 Write `node --edge (route; cost; information; danger; consequence)--> node`.
 
 - **Approaches:**
+- **Cardinal neighbors:**
+  - **North:** [[Location]]; about `~n days of travel`, route/cost.
+  - **East:** [[Location]]; about `~n days of travel`, route/cost.
+  - **South:** [[Location]]; about `~n days of travel`, route/cost.
+  - **West:** [[Location]]; about `~n days of travel`, route/cost.
+  - If canon has no established neighbor for a direction, mark the canon gap
+    plainly instead of inventing one.
 - **Nodes and zones:**
 - **Loop:**
 - **Bypass:**
@@ -130,7 +137,7 @@ set.
 - **Navigation routes first, then interactions, then foraging:** → **If the party**
 - **Creatures and NPCs with behavioral niche:** → **Who**
 - **Environment, flora placement, fauna behavior:** → **What**
-- **Directional connections:** → **Where**
+- **North/east/south/west neighbors, canon gaps, and approximate days of travel:** → **Where**
 - **In-world reasons:** → **Why**
 - **Read-aloud boundary:** `[!narration]` only
 - **Handoffs:** dungeon-design, theatre-of-the-mind, session-beats,
@@ -142,6 +149,8 @@ set.
 - Does the promise create a choice?
 - Do nodes pass the verb test and edges have costs/consequences?
 - Are routes, loops, bypasses, and retreats real rather than labels?
+- Does the filed `Where` section name north, east, south, and west neighbors
+  with approximate days of travel or explicit canon gaps?
 - Are required clues available through about three vectors?
 - Do inhabitants pursue goals and make location moves?
 - Does pressure advance, and does return state remember play?

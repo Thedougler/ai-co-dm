@@ -13,12 +13,12 @@ source:
 ![[attachments/<campaign>/places/<image>|<alt text>]]
 ## Overview
 > [!narration] Narration
-> _Spatial first look: where things sit on approach, what the senses find, flora and fauna woven into the geography. At least one non-sight sense. No secrets, DCs, or unearned names._
+> _Spatial first look: where things sit on approach, what the senses find, flora and fauna woven into the geography. Use cardinal direction words when they help orientation, especially when a battlemap exists. At least one non-sight sense. No secrets, DCs, or unearned names._
 >
 
 ---
 ## At a glance
-What this place is and what defines it. Adjacent locations as [[wikilinks]]. Whether it can be skipped or bypassed, and what staying or leaving costs.
+What this place is and what defines it. Key adjacent locations as [[wikilinks]]. Whether it can be skipped or bypassed, and what staying or leaving costs.
 
 ---
 ## If the party
@@ -54,7 +54,12 @@ What this place is and what defines it. Adjacent locations as [[wikilinks]]. Whe
 ---
 ## Where
 
-- Directional connection to [[Adjacent Location]]
+Required geography ledger. Use natural language, not a coordinate table. When a battlemap exists, treat the top as north, right as east, bottom as south, and left as west.
+
+- **North:** To the north, [[Adjacent Location]] is about `~n days of travel` by the established route. If canon is missing: No established northern neighbor yet.
+- **East:** To the east, [[Adjacent Location]] is about `~n days of travel` by the established route. If canon is missing: No established eastern neighbor yet.
+- **South:** To the south, [[Adjacent Location]] is about `~n days of travel` by the established route. If canon is missing: No established southern neighbor yet.
+- **West:** To the west, [[Adjacent Location]] is about `~n days of travel` by the established route. If canon is missing: No established western neighbor yet.
 
 ---
 ## Why

@@ -37,7 +37,10 @@ ecology facts the parent already states as always-true public appearance, not a
 staged one-shot motion. Do not invent shadow-turn mystery. Do not name DM roster
 or Hunger rules. Include established physical geography
 even when it spans a large region; a compact overview may help, but it is not a
-required first section or universal order.
+required first section or universal order. Use established north, east, south,
+and west relationships from the parent `Where` ledger when they matter to the
+portrait, including approximate days of travel where useful; unknown directions
+remain canon gaps rather than new geography.
 
 **Hard fail — design commentary:** do not narrate place-design kernels
 (Function, Fantastic, Conflict, Promise, Trajectory), Aspects tags, Player verb
@@ -267,6 +270,9 @@ Name one landmark. Hang every later line on it. Full seating lines live in [expe
 - A concrete property on anything they might cross, open, break, or hide behind — an unbroken ring, a floor cleaner than the rest, a half-open kitchen door.
 - One secondary sense when it intensifies the picture — animal musk, surf slapping the hull, sweet rot off the fruit, furnace heat. Each with a source.
 - Seat things relative to this camera — opposite the entrance, far left corner, a long drop below, behind them the mud they came from.
+- When a battlemap is present, share its compass with the table: top is north,
+  right is east, bottom is south, and left is west. Use those words for routes,
+  cover, exits, and neighbors when they make the picture easier to hold.
 - After the relevant visible state is conveyed, end the spatial pass on a pressure, opportunity, micro-reveal, or located change they can hold — a drop hitting the nearer mound, dust forming a woman at the alcove, a figure slipping the far door, or dirt jumping along the crushed path toward the bank. Name what moved or was caught and where it sits from the stage when there is a live change.
 - Draft loaded occupants in attention order, but do not withhold visible bodies because the party is in a doorway. For a requested whole-scene first look, include every relevant visible occupant, object, route, relationship, and current motion in one coherent spoken block before stopping. Attention hierarchy and fold prevent a catalog; the anchor ceiling is not permission to omit relevant visible facts. For a doorway-only snapshot, stop at its current opening. No Layer labels.
 - Audit visible entrances, exits, retreat, cover, blocked paths, and traversable hazards when they affect a decision. Introduce each landmark once, keep units or bands consistent, and do not force a route into a survey frame.

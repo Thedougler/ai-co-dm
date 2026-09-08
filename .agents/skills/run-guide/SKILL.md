@@ -71,7 +71,7 @@ Frontmatter: `type: session-prep` (or `encounter`), `cssclasses: [session-surfac
 | 4 | **DM truth** | Heading `## DM truth`. Opposition want, one sentence. `**Unrevealed:**` marks hidden intent the players have not yet seen. **Before** Initial Narration. Not a `[!secret]` callout. |
 | 5 | **Action cards** | Predator loop and compact numbers you will roll in default mode (AC, one attack, scatter/bloodied thresholds). Next to truth, not under embeds. Named owner actions (`Talon Grab`, `Sickle Claw`), not nicknames (`rake`). |
 | 6 | **Initial Narration** | Empty `> [!narration] Initial Narration` stub on pass 1. Pass 2 fills *scene-setting* (see Scene-setting). If the owner already has an identity image, embed `![[attachments/…]]` beside this block. |
-| 7 | **Battlemap** | Heading `## Battlemap`. Embed existing battlemaps and creature identity images from `attachments/`. Omit if none exist. Between Initial Narration and Procedure. |
+| 7 | **Battlemap** | Heading `## Battlemap`. Embed existing battlemaps and creature identity images from `attachments/`. When a battlemap exists, use the shared compass: top north, right east, bottom south, left west. Omit if none exist. Between Initial Narration and Procedure. |
 | 8 | **Procedure** | Heading `## Procedure`. Name *escape mode* or *combat mode*. This slice’s clock trigger and the combat-mode switch, once. Not 5e turn order. Not a `[!mechanic]` callout. |
 | 9 | **Zones** | Table: place \| distance in feet \| cover \| narration. Same distances as Now. The **Narration** column carries italic spoken prose for that zone (not a callout). When the Narration column is absent, one empty `> [!narration] {Place}` stub per row after the table instead. |
 | 10 | **Be ready for** | Table: intent \| approach (skill) \| DC \| success \| partial \| failure. Approach is **Ability (Skill)**. DC column is `` `DC 14` ``. Dice and damage in cells are inline code. Applied conditions are **bold**. Name the creature, item, and place in every cell. Every cell is a *ruling*. Include **Assess the situation** when the opening could be read as “what is it hunting / doing?” Not a menu to read aloud. No Partial definition on the card. Body-copy checks outside this table use the at-table grammar in `obsidian-markdown`. |
@@ -144,6 +144,10 @@ Write where people are, the distances in **feet**, the speeds that matter, and w
 `theatre-of-the-mind` owns the prose. This skill owns **what must already be in the spoken block** before the question (Angry GM: goal, obstacle, tools; Alexandrian: all immediately perceived facts).
 
 Pass 1 leaves `> [!narration] Initial Narration` empty. Pass 2 fills a complete *scene-setting* block: currently visible cover, routes, relative position, who is being hunted, imminent action, drawable appearance, and at least one non-sight sense, joined as flowing spoken prose. Those facts are not a later clock tick and not a DM catalog under the callout. If the owner already has an identity image, embed it beside the block; the photo does not replace the spoken look.
+If a battlemap is present, orient routes, zones, cover, and exits with the same
+compass used by the map: top north, right east, bottom south, left west. Use
+cardinal words where they help the table hold the scene; do not turn Initial
+Narration into a compass checklist.
 
 Stop at the reaction point after those facts, then “What do you do?” Typical filled length is two to four short spoken paragraphs.
 

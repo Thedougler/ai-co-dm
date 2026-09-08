@@ -27,7 +27,8 @@ playable situation first, then write only the detail that changes a choice.
 3. **Promise.** Tell players what kinds of decisions and experiences the place
    offers. Make the promise actionable, not just an adjective.
 4. **Structure.** Draw nodes and edges before room prose. Mark loops, bypasses,
-   retreats, vertical or strange connections, and route tradeoffs.
+   retreats, vertical or strange connections, route tradeoffs, and the
+   north/east/south/west neighbors with approximate days of travel.
 5. **Life and information.** Give inhabitants goals, movement, and reactions;
    distribute essential knowledge over several clue vectors.
 6. **Pressure and consequences.** Decide what changes while the party acts,
@@ -73,6 +74,8 @@ Represent the place as `node --edge--> node`. A node is a significant situation,
 landmark, resource, threshold, or decision; an edge records route, cost,
 information, danger, and consequence. Good topology usually includes:
 
+- north, east, south, and west neighboring locations, each with a wikilink or
+  explicit canon gap and an approximate `~ days of travel` distance where known;
 - at least two approaches when fiction permits;
 - one loop, one bypass, and one retreat or safe return route;
 - a meaningful vertical, environmental, social, or reality-bending connection;
@@ -148,11 +151,11 @@ the `campaigns/shattered-sea/locations/Aruhe -` set — sites (`Clear Lake`,
 |---|---|
 | Identity image | After the title, before Overview (`visual-aids`) |
 | Opening geography, flora woven in, non-sight sense | **Overview** `[!narration]` (TotM; empty until fill) |
-| Identity, adjacent links, skip/bypass | **At a glance** |
+| Identity, key adjacent links, skip/bypass | **At a glance** |
 | Navigation routes first, then interactions, then foraging tiers | **If the party** (`obsidian-markdown` / `dnd5e-mechanics`) |
 | Creatures and NPCs with behavioral niche | **Who** |
 | Environment, flora placement, fauna behavior, features | **What** |
-| Directional connections to adjacent locations | **Where** |
+| North/east/south/west neighbors, canon gaps, and approximate days of travel | **Where** |
 | In-world reasons to come, stay, or care | **Why** |
 | Battlemaps, non-identity art | **Art** (omit the heading when none exist) |
 
@@ -161,8 +164,9 @@ quality checklist stay in this skill. A climactic or anchor location
 (`Memorial Grove`) may carry kernel, topology, player verbs, hooks, secrets,
 and provenance directly when those facts serve the DM at the table — but the
 standard template stays clean.
-**Complete when:** the filed note matches `templates/Location`, and the skeleton
-is not on the campaign page.
+**Complete when:** the filed note matches `templates/Location`, the `Where`
+section has north, east, south, and west entries with approximate days of travel
+or explicit canon gaps, and the skeleton is not on the campaign page.
 
 Run the audit: identity and promise are clear; topology has choices; nodes pass
 the verb test; clues are robust; factions have goals and moves; pressure changes

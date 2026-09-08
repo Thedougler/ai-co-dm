@@ -410,6 +410,16 @@
         "Fails abstract workshop phrasing such as martial reach or dropped the ledgers; uses plain, drawable public signs instead.",
         "Fails any faction craft label in narration (`face cue`, `Tell`, `mask`, `footprint`) or a meta closer; for Countless, stop on Talon as the name people hear."
       ]
+    },
+    {
+      "id": 44,
+      "prompt": "Write a battlemap-backed first look for a ruined court. The map is oriented with top north and bottom south. The party enters from the south edge, broken stairs climb along the east wall, a fallen statue gives cover in the west, and a north arch exits toward a road. Use only those visible facts.",
+      "expected_output": "The spoken block uses the battlemap compass naturally to orient entry, stairs, cover, and exit without reciting all four directions as a checklist or inventing extra neighbors.",
+      "expectations": [
+        "Uses top/north and bottom/south map orientation correctly, with east and west relationships matching the supplied map.",
+        "Keeps the orientation in flowing player-facing prose rather than a compass inventory.",
+        "Does not add hidden routes, invented travel distances, unsupported creatures, or extra map features."
+      ]
     }
   ]
 }

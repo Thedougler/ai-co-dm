@@ -120,6 +120,16 @@
         "Dungeon design includes loops, bypasses, retreats, factions, pressure, and persistent geography.",
         "Both places include affordances, robust clues, location moves, and a meaningful return state."
       ]
+    },
+    {
+      "id": 13,
+      "prompt": "File a wilderness location into the campaign location template. Public canon establishes a lake two days north, a mangrove wall one day east, no established southern neighbor, and an old road three days west.",
+      "expected_output": "The filed location uses the Location template and its Where section includes natural-language north, east, south, and west entries with wikilinked neighbors where known, approximate days of travel, and an explicit canon gap for the south.",
+      "expectations": [
+        "Includes all four cardinal directions in the filed Where section.",
+        "Names known neighbors as wikilinks and gives approximate travel-day distances rather than precise mileage math.",
+        "Marks the missing southern neighbor as an explicit canon gap instead of inventing a place."
+      ]
     }
   ]
 }

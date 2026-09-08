@@ -100,7 +100,9 @@ possession metaphysics, and rule-talk like `unclaimed` / `claim`. Ban invented
 mystery closers and staged located-change drama unless current table state
 supplies that motion. Creature signs and encounter pressure belong to a
 **situated** first look. Design kernels stay upstream (`place-design`); TotM
-renders geography. Examples teach moves, not sentence architecture to echo.
+renders geography. Respect the owning note's `Where` ledger; do not invent
+north/east/south/west neighbors or travel-day distances. Examples teach moves,
+not sentence architecture to echo.
 
 Cold-place sweep bans: never use the rigid definition -> smell hang-over -> use/closer formula. Do not close on a thesis (treated as a border), leak Aspects/secrets (charts get wrong, Hunger/free-flow ownership), or use opaque caste/jargon nouns (Purple watch, Unknown-quarry stone). Darts, a blue watcher, and similar staged hostility require current table state unless the parent explicitly establishes stable public ecology without encounter film. A dual-title note must publicly render both halves or be retitled. Keep vehicle access kitchen-table (lines, rail, hold), never boarding interface in player prose. Keep lore miracles such as the duck has died and reformed in Secrets/DM. The cold spine is already this place plus body-scale geography and a drawable affordance, and it stops on stable geography.
 
@@ -310,6 +312,12 @@ units consistent. For a spatial first look, a stranger should be able to say
 where they are, what they see, what is moving, and what matters now. A located
 change is a useful live handle, not a mandatory ending when the scene has no
 current movement.
+
+Use cardinal direction words when they clarify player orientation. If a
+battlemap is present, use the shared map frame: top is north, right is east,
+bottom is south, and left is west. Fold only the relevant directions into the
+spoken block as natural geography; do not recite all four compass entries
+unless the scene is a true survey.
 
 The spatial staging card is a private drafting aid: stage, near, far, block,
 three to five anchors, and the current opening. Audit visible entrances,
