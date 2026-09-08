@@ -22,14 +22,14 @@ source: "[[Aruhe - Hungry Isle]]"
 
 ---
 ## At a glance
-Miles of ancient terraces run inland from [[Aruhe - Western Beach|Western Landing]], human-scale stone now crowded with fruit and flowers. The builders are gone. Afternoon air is sugar-sour. The terrace route continues into [[Aruhe - Grasslands]]; a green route leads into [[Aruhe - Quiet Forest]]. Follow a terrace edge and the planted abundance can be skipped; stay on the steps and it remains walls, fruit, hanging vines, and water-cut channels.
+Miles of ancient terraces run inland from [[Aruhe - Beach|Western Landing]], human-scale stone now crowded with fruit and flowers. The builders are gone. Afternoon air is sugar-sour. The terrace route continues into [[Aruhe - Grasslands]]; a green route leads into [[Aruhe - Quiet Forest]]. Follow a terrace edge and the planted abundance can be skipped; stay on the steps and it remains walls, fruit, hanging vines, and water-cut channels.
 
 ---
 ## If the party
 
 - **Follow the terrace route inland:** [[Aruhe - Grasslands]].
 - **Take the green route:** [[Aruhe - Quiet Forest]].
-- **Descend to the beach:** [[Aruhe - Western Beach|Western Landing]].
+- **Descend to the beach:** [[Aruhe - Beach|Western Landing]].
 - **Follow a terrace edge:** The planted abundance can be skipped.
 - **Walk a narrow trail under hanging rope-vines:** Some of them are [[Vine Lash|Vine Lashes]] and grab.
 - **Walk a wider low-canopy lane:** [[Young Snakewood]] hunts here. Adult [[Snakewood]] lives farther in.
@@ -38,7 +38,7 @@ Miles of ancient terraces run inland from [[Aruhe - Western Beach|Western Landin
   - **Wisdom (Perception) — `DC 12`** → Notice them in dense foliage.
   - **Intelligence (Nature) — `DC 13`** → Reservoirs.
   - **Intelligence (Nature) — `DC 15`** → Brood chambers.
-- **Take fruit on the terraces:** [[Redheart Berry]] and [[Lion Citrus]] are abundant here; [[Giant's Guava]] is common and follows the tree line inland; [[Terrace Yam]] and [[Terrace Citrus]] are ordinary staples on the steps. Fallen fruit is receiving. Pluck a living plant → surrounding life converges, hostile. [[Taking on Aruhe]]
+- **Take fruit on the terraces:** [[Aruhe - Redheart Berry]] is abundant here; [[Aruhe - Giant's Guava]] is common and follows the tree line inland. Fallen fruit is receiving. Pluck a living plant → surrounding life converges, hostile. [[Taking on Aruhe]]
   - **Intelligence (Nature) — identify**
     - `DC 13` → Broad function.
     - `DC 15` or *Identify* → Exact effect.
@@ -57,15 +57,13 @@ Miles of ancient terraces run inland from [[Aruhe - Western Beach|Western Landin
 - [[Young Snakewood]] hunts the first terraces from connected low branches. Adults live farther in.
 - Hot blooms: unnamed flowers holding several mature [[Grubnade|Grubnades]]. Predators walk around any bloom that ticks.
 - [[Unsaid Macaw]]: Orchard edges. **Wisdom save — `DC 12`** → Speak one truthful sentence about the surfaced thought.
-- [[Redheart Berry]] hangs in dozens on the terraces.
-- [[Lion Citrus]] is abundant on the first terraces.
-- [[Giant's Guava]] is common here and follows the tree line inland.
-- [[Terrace Yam]] and [[Terrace Citrus]] are ordinary staples on the steps.
+- [[Aruhe - Redheart Berry]] hangs in dozens on the terraces.
+- [[Aruhe - Giant's Guava]] is common here and follows the tree line inland.
 
 ---
 ## Where
 
-- Inland ascent from [[Aruhe - Western Beach|Western Landing]]
+- Inland ascent from [[Aruhe - Beach|Western Landing]]
 - Terrace route to [[Aruhe - Grasslands|the Grasslands]]
 - Green route to [[Aruhe - Quiet Forest|the Quiet]]
 

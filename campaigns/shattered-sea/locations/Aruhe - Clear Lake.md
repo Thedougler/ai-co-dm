@@ -33,15 +33,15 @@ Clear Lake is the inland freshwater basin at the uphill end of Aruhe's rivers. A
   - **Dexterity (Acrobatics) — `DC 10`** → Keep feet on moss-slick stone.
 - **Follow the outlet downhill:** [[Aruhe - River]].
 - **Wisdom (Perception) — `DC 15`** → Hear the harp in the surrounding woods from the shelf.
-- **Take fruit along the shore:** [[Lion Citrus]], [[Breathmelon]], and [[Quickeye Berry]] grow here; animals want them too.
+- **Take fruit along the shore:** Fruit grows along the shore; animals want it too.
   - **Intelligence (Nature) — identify**
     - `DC 10` → Edible fruit, not poison.
     - `DC 15` → Name the variety and its broad use.
     - `DC 20` → Exact prize effect.
   - **Wisdom (Survival) — harvest**
     - `DC 10` → Fallen ordinary take; animals ignore it.
-    - `DC 15` → Ripe [[Lion Citrus]] or [[Breathmelon]].
-    - `DC 20` → Prize [[Quickeye Berry]], or the best specimen still on the plant.
+    - `DC 15` → Ripe shore fruit.
+    - `DC 20` → Prize fruit, or the best specimen still on the plant.
     - Failure → Shore fauna close on the fruit and contest the take.
   - **Dexterity (Stealth) — `DC 15`** → Take without the foragers noticing.
 - **Fish the shallows:**
@@ -59,9 +59,7 @@ Clear Lake is the inland freshwater basin at the uphill end of Aruhe's rivers. A
 
 -  [[Aruhe River Otter|River Otters]]: Anything entering the water near the marshy shoreline, invites becoming an unwilling playmate of the otters. 
 -  [[Unsaid Macaw]]: Nesting trees along the lake edges. **Wisdom save — `DC 12`** → Speak one truthful sentence about the surfaced thought.
--  [[Lion Citrus]] grows around the edges
--  [[Quickeye Berry]] grows in abundance along the marshy shoreline. 
--  [[Breathmelon]] orchards line one edge near the marsh, nearly lifting there trees out of the ground. 
+-  Fruit grows around the edges.
 ---
 ## Where
 

@@ -39,7 +39,7 @@ The Grasslands are river-cut valleys inside Aruhe's jungle, not a sixth concentr
   - Careful Passage: one Action, move up to 5 feet through it with no movement damage.
 - **Dash, fall prone, get shoved, smash, or burn a stand:** It shatters. **Dexterity save — `DC 14`** → `2d6` slashing. Breathing the glitter: **Constitution save — `DC 14`** → **Glass-Choked** until a Short or Long Rest (speed −10 ft.; disadvantage on Constitution saves from environmental hazards). The dust is asbestos-like in the lungs.
 - **Enter the water:** [[Aruhe River Otter|River Otters]] treat it as play.
-- **Take fruit along wet margins:** [[Breathmelon]] is abundant here; [[Quickeye Berry]] is rare; ordinary restorative fruit may occur. Fallen fruit is receiving. Pluck a living plant → surrounding life converges, hostile. [[Taking on Aruhe]]
+- **Take fruit along wet margins:** Fruit is abundant here. Fallen fruit is receiving. Pluck a living plant → surrounding life converges, hostile. [[Taking on Aruhe]]
 - **Fish, trap, or kill to carry flesh:** Surrounding life converges, hostile. [[Taking on Aruhe]]
 
 ---
@@ -57,8 +57,7 @@ The Grasslands are river-cut valleys inside Aruhe's jungle, not a sixth concentr
 - [[Unsaid Macaw]]: Grassland edges. **Wisdom save — `DC 12`** → Speak one truthful sentence about the surfaced thought.
 - [[Bear-Elk]]: Scored-tree beats that cross the openings. [[Terror-Bird|Terror-birds]] step aside.
 - [[Wolfrabbit|Wolfrabbits]]: Jump [[Razer-Grass]] rather than land in it.
-- [[Breathmelon]] grows abundantly along the wet margins, exactly where the water is the best road.
-- [[Quickeye Berry]] is rare in these valleys.
+- Fruit grows abundantly along the wet margins, exactly where the water is the best road.
 
 ---
 ## Where

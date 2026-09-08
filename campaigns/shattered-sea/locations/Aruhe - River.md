@@ -38,7 +38,7 @@ The rivers draining [[Aruhe - Clear Lake]] braid through Aruhe and cut across th
   - Contested Strength (Athletics) or Dexterity (Sleight of Hand) → They take held or worn gear and swim off. No damage while it is still play.
 - **Take anything from the river:** It belongs to the family.
 - **Harm an otter or touch a pup:** Play stops. Ten seconds of silence, then one person is struck from below while the others show only wakes. Pups resume wrestling minutes later.
-- **Take fruit along wet margins:** [[Breathmelon]] is abundant here. Fallen fruit is receiving. Pluck a living plant → surrounding life converges, hostile. [[Taking on Aruhe]]
+- **Take fruit along wet margins:** Fruit is abundant here. Fallen fruit is receiving. Pluck a living plant → surrounding life converges, hostile. [[Taking on Aruhe]]
   - **Intelligence (Nature) — identify**
     - `DC 13` → Broad water-breathing function.
     - `DC 15` or *Identify* → Air and water breathing, and swim speed equals walking speed, for 1 hour.
@@ -57,7 +57,7 @@ The rivers draining [[Aruhe - Clear Lake]] braid through Aruhe and cut across th
 - The water is gin-clear because the otters tend it: they cull grazers, drop shade-trees, and patrol the banks. Concentrated fish, submerged growth, and unnaturally quiet insect life mark a tended reach.
 - Three learnable rules: entering the water is participating; what comes from the river belongs to the family; responding to play teaches a new game.
 - They play with a [[Deer-Stalker|deer-stalker's]] antlered head in the shallows after a meal. They will not haul a kill onto [[Razer-Grass]], sniff a [[Grubnade]] and leave it, and pull against a [[Great Crown Squid]] line that trails into occupied water.
-- [[Breathmelon]] grows abundantly along the wet margins.
+- Fruit grows abundantly along the wet margins.
 - [[Razer-Grass]] islands stand at river bends and flood-scoured hollows.
 - Flood stage widens the grasslands and makes the current lethal. Dry stage exposes limestone shelves and concentrates the otters.
 - [[Bloodhawk|Bloodhawks]] take canoes in open channel. They will not put a foot in occupied otter water.

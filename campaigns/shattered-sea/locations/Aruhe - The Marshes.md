@@ -58,7 +58,7 @@ The Marshes begin along the wet southern shore of [[Aruhe - Clear Lake|Clear Lak
   - **Wisdom (Survival) — harvest**
     - `DC 10` → Fallen ordinary take.
     - `DC 15` → Ripe useful specimen.
-    - `DC 20` → Prize grade, including a [[Skybladder]] in light or a [[Rotheart]] on the sickest interior tree.
+    - `DC 20` → Prize grade, including a [[Aruhe - Rotheart]] on the sickest interior tree.
     - Failure → Local fauna close in, or the living source is claimed.
 
 ---
@@ -85,7 +85,7 @@ The Marshes begin along the wet southern shore of [[Aruhe - Clear Lake|Clear Lak
 - Luminous roots run wrist-thick to thigh-thick through the wet ground from the shelf above Clear Lake, all pointing toward the unmarked graves in [[Aruhe - Memorial Grove]].
 - Soft ground can give way toward volcanic stone: a subsurface breach into [[Aruhe - Lava Tubes]].
 - [[Stillbloom]] begins on the Quiet-to-Marshes trails and sunbreaks, where green first goes black at the leaf edge.
-- [[Whisper Fig]] is uncommon on that same edge. [[Skybladder]] hangs in the sealed canopy and on vines that reach toward open light. [[Rotheart]] appears only on the sickest trees after spore-air has begun to wear a body down.
+- [[Aruhe - Rotheart]] appears only on the sickest trees after spore-air has begun to wear a body down.
 - At night the marsh becomes louder rather than quieter. Frogs, insects, distant splashes, branch movement, and cries overlap until locating any one sound is difficult.
 
 ---

@@ -37,7 +37,7 @@ The Quiet is rainforest above the last terrace of [[Aruhe - Old Gardens]], where
   - **Intelligence (Nature) or Wisdom (Survival) — `DC 14`** → It reads vibration. Slow movement is safe. Watching scavengers for 1 minute teaches this without a roll.
   - Move 10 feet or less on a turn, or fly without touching the root mat: the needles do not fire.
   - Bolt, Dash, jump, fall, or get shoved 10 feet or more: **Dexterity save — `DC 14`** → `2d6` piercing and a spine embeds. The venom is paralytic; Exposure climbs on the owner.
-- **Take fruit under the roof:** [[Stonepear]] is common here, often before [[Terror-Bird]] ground; [[Giant's Guava]] is common, often near [[Bear-Elk]] crossing signs; [[Ghost Plum]] and [[Whisper Fig]] are uncommon. Fallen fruit is receiving. Pluck a living plant → surrounding life converges, hostile. [[Taking on Aruhe]]
+- **Take fruit under the roof:** [[Aruhe - Stonepear]] is common here, often before [[Terror-Bird]] ground; [[Aruhe - Giant's Guava]] is common, often near [[Bear-Elk]] crossing signs; [[Aruhe - Ghost Plum]] is uncommon. Fallen fruit is receiving. Pluck a living plant → surrounding life converges, hostile. [[Taking on Aruhe]]
   - **Intelligence (Nature) — identify**
     - `DC 13` → Broad function.
     - `DC 15` or *Identify* → Exact effect.
@@ -59,10 +59,9 @@ The Quiet is rainforest above the last terrace of [[Aruhe - Old Gardens]], where
 - [[Stillbloom]] begins on the Quiet-to-Marshes trails and sunbreaks, not in open valleys.
 - [[Silence Moths]]: Sail-sized clouds at dusk and dawn on Marshes and Grove approaches through the trees. The jungle goes quiet ahead of them, then the cloud fills a mouth. Fire drives them off; they will not follow anyone out of the trees.
 - Quiet leaves may show neat bites and five-foot scorch rings from [[Grubnade|Grubnades]]. The hot blooms themselves are primary in [[Aruhe - Old Gardens]].
-- [[Stonepear]] is common beneath the roof.
-- [[Giant's Guava]] is common here.
-- [[Ghost Plum]] is uncommon.
-- [[Whisper Fig]] is uncommon here and along the Marshes edge.
+- [[Aruhe - Stonepear]] is common beneath the roof.
+- [[Aruhe - Giant's Guava]] is common here.
+- [[Aruhe - Ghost Plum]] is uncommon.
 
 ---
 ## Where
