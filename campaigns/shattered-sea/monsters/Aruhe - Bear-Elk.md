@@ -49,14 +49,17 @@ bonus_actions:
 > Bigger than a draft horse and low-wide, the Bear-Elk carries an elk rack on a bear's chest. Pale pupil-less eyes face forward, and faint luminous sap drips from the antlers. It runs a fixed daily beat along scored trees and seldom needs to eat.
 
 
-## At the table
-**Tactic:** fixed daily beat along scored trees; seldom needs to eat. **Tell:** elk rack on bear chest, luminous sap on antlers, pale pupil-less eyes.
+## Behavior
 
-## Terrain / friends
-Quiet–Marshes boundary. Terror-birds yield; squid/bloodhawk take from above/sky.
+**Habitat.** Quiet-Marshes boundary, especially routes marked by scored trees and broken vegetation.
+**Behavior.** Patrols a fixed daily beat through its territory. Terror-birds yield to it, while crown squid and bloodhawks take it from above when the ground or sky gives them the chance.
+**Diet.** Rarely needs to eat, drawing enough from the strange living stock of Aruhe to keep moving between hunts.
+**Social Structure.** Solitary territorial beast with no known herd, mate bond, or hierarchy.
 
-## Canon ecology - living stock ingest
-- Bigger than a draft horse and low-wide, with an elk rack on a bear's chest, pale pupil-less eyes, and faint luminous sap dripping from its antlers. It runs a fixed daily beat along scored trees and rarely needs to eat. [[Aruhe - Terror-Bird|Terror-birds]] step aside; [[Aruhe - Great Crown Squid]] takes it from above; [[Aruhe - Bloodhawk]] takes it in a cut of open sky.
+## Tactics
 
-## Provenance
-Wiki `creature.bear-elk` + inbox living-stock 2026-09-05. Blight gardens pressure; does not possess. Fence-first Fantasy Statblocks. Numbers from wiki — not reinvented.
+**Signs.** Scored trees, snapped brush, huge split tracks, churned marsh edge, and faint luminous sap left on bark or reeds.
+**Instincts.** Defends its patrol route and reacts hardest to anything standing its ground in that path.
+**Tactics.** Charges in a straight rush, sweeps with its antlers, knocks prey down, and crushes anything prone beneath its weight.
+**Weaknesses.** Predictable route and timing; creatures that read the patrol path can avoid or prepare for the charge.
+**Aftermath.** Broken trees, flattened ground, deep hoof-and-claw marks, sap traces, and scavengers waiting for whatever the bear-elk leaves behind.
