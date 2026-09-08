@@ -9,6 +9,7 @@ visibility: dm
 tags: [monster, aruhe]
 ---
 # Aruhe River Otter
+![[attachments/shattered-sea/creatures/aruhe-river-otter-of-aruhe.png|Aruhe River Otter]]
 
 > [!narration] Narration
 > Twelve-foot chocolate-black river otters work the Long Reach and clear lake in blood-kin families, their pale throat marks as distinct as fingerprints. They roll through the shallows with rope, oars, ankles, or a dead deerstalker's head as if every loose thing in the water has joined their game. The water stays glass-clear around them, and the whole family goes still when play becomes a hunt.
@@ -75,7 +76,3 @@ bonus_actions:
 **Weaknesses.** They dominate occupied water but are less willing to fight on dry land, razer-grass, or any haul-out that traps their bodies away from the current. Fire, ropes, and repeated tricks are remembered by the family, which means a clever party can bait, redirect, or avoid them once the pattern is learned.
 
 **Aftermath.** A river-otter encounter leaves scrubbed banks, disturbed mud slides, missing gear, chewed rope, drowned carcass scraps, and clear water gone briefly cloudy where the family struck. Against [[Aruhe - Crown Squid|crown squid]], the river otters form an ecological boundary: a grabber trailing into occupied water can meet six enormous bodies pulling the other direction.
-
-## Provenance
-
-Wiki provisional. Individual numbers are filled to make the family runnable; keep the chassis marked provisional until playtest.
