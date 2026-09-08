@@ -119,12 +119,12 @@ Night watch on [[Aruhe - Quiet Forest Cutoff Lip]]. Something runs through the k
 **Run:** [[Session-11-07-False-Help]]
 
 - **Purpose:** Put time and a choice between the mark and the smoke. The deer-stalker uses the survivors they are already hunting for.
-- **Table sees:** Morning on [[Aruhe - Quiet Forest Print Braid]]. Smoke is closer through the trees. The real prints keep the inland strand, heading for that smoke. Off that strand, a wood fork with no matching feet holds voices: people in trouble, asking for help, sounding like the same group. Nothing answers a shouted question with new information. The voices stay in the wood fork.
+- **Table sees:** Morning on [[Aruhe - Grasslands Print Braid]]. Smoke is closer through the trees. The real prints keep the inland strand through the grass, heading for that smoke. Off that strand, a wood fork with no matching feet holds voices: people in trouble, asking for help, sounding like the same group. Nothing answers a shouted question with new information. The voices stay in the wood fork.
 - **Truth:** The help is the deer-stalker. It watched the inland group and can copy their mouths. The real survivors are still at the smoke. **Unrevealed:** it wants the quarry, or whoever walks the wood fork alone. It does not attack at the start of this beat.
 - **Pressure:** Ignoring the voices means walking on while people might be dying. Answering with the whole party makes the voices move and die off. Sending one person is how the face starts: wrong movement, **“You’re not welcome here,”** then the hit.
 - **If they break:** If they ignore the voices and stay on the prints, no fight here; keep the mark. If they answer as a group, the stalker breaks contact. If they already fought it in beat 6, use the voices once as a test and do not repeat the same combat.
 
-Morning on [[Aruhe - Quiet Forest Print Braid]]. The smoke is nearer through the trees, the packed prints still run toward it, and off that strand someone is calling for help from a wood fork that has no matching feet.
+Morning on [[Aruhe - Grasslands Print Braid]]. The smoke is nearer through the trees, the packed prints still run toward it through the grass, and off that strand someone is calling for help from a wood fork that has no matching feet.
 
 ### 8. DEVELOPMENT — Alliance (the farthest camp)
 

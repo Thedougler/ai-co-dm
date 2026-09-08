@@ -13,7 +13,7 @@ cssclasses: [session-surface]
 
 ## Scene ends when
 
-The camp's split is on the table and the crew has a live choice (stay the night, try to extract, or play along toward a garden they will not reach tonight), then hand to beat 9's second-night watch, or the crew breaks (forced march, attack, or leave). This is the farthest camp. It is not [[Aruhe - Quiet Forest Print Braid]], not [[Aruhe - Memorial Grove]], and not [[Talon Skarn]].
+The camp's split is on the table and the crew has a live choice (stay the night, try to extract, or play along toward a garden they will not reach tonight), then hand to beat 9's second-night watch, or the crew breaks (forced march, attack, or leave). This is the farthest camp. It is not [[Aruhe - Grasslands Print Braid]], not [[Aruhe - Memorial Grove]], and not [[Talon Skarn]].
 
 This beat is thirty minutes.
 
@@ -36,7 +36,7 @@ This beat is thirty minutes.
 
 ## Now
 
-The crew is at this camp fire. The smoke is this fire. Several people from the Calveno wreck sit here, fewer than the tracks that led here. Already-picked fruit is down by this fire. Living stems around this camp still hang. Trees stand close on every side. The prints run back toward [[Aruhe - Quiet Forest Print Braid]]. Garden talk points into the woods. A Dash does not reach the garden, the beach, or [[Uncertainty]].
+The crew is at this camp fire. The smoke is this fire. Several people from the Calveno wreck sit here, fewer than the tracks that led here. Already-picked fruit is down by this fire. Living stems around this camp still hang. Trees stand close on every side. The prints run back toward [[Aruhe - Grasslands Print Braid]]. Garden talk points into the woods. A Dash does not reach the garden, the beach, or [[Uncertainty]].
 
 ## DM truth
 
@@ -91,7 +91,7 @@ This camp wants to see the woman's garden. The woman is [[Aruhe - Hinewai]] / Hi
 | --- | --- | --- |
 | This camp / fire | The crew is here. The smoke is this fire. | The people at the fire and the already-picked fruit are in reach. This slice has no named predator. |
 | Trees around the fire | The trees stand close around this camp. | The people at the fire look this way when the branches stir. Anyone who slips leaves this way. |
-| Forest-edge prints behind | The prints run back toward [[Aruhe - Quiet Forest Print Braid]], the otter hole, and the river. | Breaking off this way is a rebuild. A Dash does not reach the beach or the terraces. |
+| Forest-edge prints behind | The prints run back toward [[Aruhe - Grasslands Print Braid]], the otter hole, and the river. | Breaking off this way is a rebuild. A Dash does not reach the beach or the terraces. |
 | Deeper inland | Garden talk points into these woods. | This is not [[Aruhe - Memorial Grove]]. A Dash does not reach the garden. |
 | Beach / [[Uncertainty]] | Down-valley, past the terrace line. | A forced march tonight is a rebuild. A Dash does not reach [[Uncertainty]]. |
 | Hawk sky | Flying up out of this camp is open valley air. | Exposed. Do not restage beat 1. |
@@ -105,7 +105,7 @@ This camp wants to see the woman's garden. The woman is [[Aruhe - Hinewai]] / Hi
 >
 
 > [!narration] Forest-edge prints behind
-> Packed prints run back from the fire toward [[Aruhe - Quiet Forest Print Braid]]. The dirt is hard underfoot on that line. The beach remains beyond a hard run.
+> Packed prints run back from the fire toward [[Aruhe - Grasslands Print Braid]]. The dirt is hard underfoot on that line. The beach remains beyond a hard run.
 >
 
 > [!narration] Deeper inland
@@ -195,7 +195,7 @@ If the crew forced a march tonight, some of the people at this fire balked or sl
 
 If the crew attacked this camp, the prize is gone. They still need a night watch. Rebuild from that. Do not invent a statblock.
 
-If the crew left this camp, they are heading back toward [[Aruhe - Quiet Forest Print Braid]], the river, the terrace line, the beach, or [[Uncertainty]], or a flyer is in hawk sky, plus any RAW conditions already applied. Rebuild from that. The mark can still sit on the locked quarry.
+If the crew left this camp, they are heading back toward [[Aruhe - Grasslands Print Braid]], the river, the terrace line, the beach, or [[Uncertainty]], or a flyer is in hawk sky, plus any RAW conditions already applied. Rebuild from that. The mark can still sit on the locked quarry.
 
 > [!narration] Landing
 > You are still at this fire as night comes in. The two stories keep passing between mouths, and the people who stayed sit close to the coals.
@@ -204,7 +204,7 @@ If the crew left this camp, they are heading back toward [[Aruhe - Quiet Forest 
 >
 > The people at the fire scatter. Fallen fruit and coals remain in the dirt.
 >
-> You are already heading back toward [[Aruhe - Quiet Forest Print Braid]], the river, the terrace line, the beach, or Uncertainty. The fire drops behind you.
+> You are already heading back toward [[Aruhe - Grasslands Print Braid]], the river, the terrace line, the beach, or Uncertainty. The fire drops behind you.
 >
 > You are already in hawk sky over the valley. Wind moves here.
 >
