@@ -11,4 +11,4 @@ tags: [index, hazard]
 
 ## Aruhe flora
 - [[Stillbloom]] · [[Razer-Grass]]
-- Flora frame: [[Aruhe - Hungry Isle#Flora frame and zones]]
+- Flora frame: [[Aruhe - Hungry Isle#What]]
