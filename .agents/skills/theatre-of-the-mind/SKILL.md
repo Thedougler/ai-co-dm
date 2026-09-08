@@ -338,12 +338,21 @@ other prey may be visible windup; do not resolve PC injury. Visible grass,
 river, or shipward sky that is already under or beside them belongs in this
 block, not on a later clock tick. Then stop at the reaction point and ask.
 
-**Session-beat fill is pass 2.** Pass 1 (`run-guide`) leaves titled empty
-stubs. Fill every stub. The DM may skip a block at the table; the writer
-fills all of them. Titles: `Initial Narration` (mandatory, long), `{Place}`
-per zone, `Tick {n}` per clock tick, `Landing` plus named variants,
-`{Creature}` after each roster embed, `Exit` only when the next cockpit is
-on the same file. Smaller blocks do not restage Initial Narration.
+**Session-beat fill is pass 2.** Pass 1 (`run-guide`) leaves empty prose
+slots. Fill every one. The DM may skip a block at the table; the writer
+fills all of them.
+
+**Callout stubs:** `Initial Narration` (mandatory, long scene-setting),
+`Landing` plus named variants, `{Creature}` after each roster embed,
+`Exit` only when the next cockpit is on the same file.
+
+**Table Narration columns:** when Zones or Threat clock tables include a
+Narration column, write italic spoken prose in that cell — one to three
+sentences, one job per cell. These replace `{Place}` and `Tick {n}` stubs.
+When the column is absent, fill callout stubs after the table instead.
+
+Smaller blocks (zone, tick, landing, creature-in-scene) do not restage
+Initial Narration.
 
 ## Draft and review
 

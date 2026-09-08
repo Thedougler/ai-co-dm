@@ -13,7 +13,7 @@ cssclasses: [session-surface]
 
 Disposable run sheet — rewrite next time; not canon.
 
-A live beat that will be run as a cockpit copies [[templates/Encounter]] (or the `run-guide` cockpit): mechanical card plus empty titled `[!narration]` stubs, then TotM fill.
+A live beat that will be run as a cockpit copies [[templates/Encounter]] (or the `run-guide` cockpit): mechanical card plus empty `[!narration]` stubs and Narration table columns, then TotM fill.
 
 ## L0 · At a glance
 

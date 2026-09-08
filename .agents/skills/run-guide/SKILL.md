@@ -65,37 +65,43 @@ Frontmatter: `type: session-prep` (or `encounter`), `cssclasses: [session-surfac
 
 | Order | Field | Shape |
 |---|---|---|
-| 1 | **Scene ends when** | Heading is `## Scene ends when`. First line is the end condition. Then the 30-minute budget and **If behind** / **If ahead** *cut lines*. |
+| 1 | **Scene ends when** | Heading is `## Scene ends when`. First line is the end condition. Then the 30-minute budget. Then **If behind:** and **If ahead:** as bold-label paragraphs (not bullets). |
 | 2 | **Glance** | `## L0 · Glance` bullets: stakes, goal, exit, danger, Silence, **situation magnets** (who is high, loud, or obvious *now*). Not a named-PC roster and not how they already move. |
 | 3 | **Now** | One paragraph. Who starts where, in **feet**. Speeds that matter. What a move vs Dash reaches. Current situation once. No separate Starting state heading. |
-| 4 | **DM truth** | Heading `## DM truth` (or `### DM truth` under Now). Opposition want, one sentence. **Before** Initial Narration. Not a `[!secret]` callout. |
+| 4 | **DM truth** | Heading `## DM truth`. Opposition want, one sentence. `**Unrevealed:**` marks hidden intent the players have not yet seen. **Before** Initial Narration. Not a `[!secret]` callout. |
 | 5 | **Action cards** | Predator loop and compact numbers you will roll in default mode (AC, one attack, scatter/bloodied thresholds). Next to truth, not under embeds. Named owner actions (`Talon Grab`, `Sickle Claw`), not nicknames (`rake`). |
 | 6 | **Initial Narration** | Empty `> [!narration] Initial Narration` stub on pass 1. Pass 2 fills *scene-setting* (see Scene-setting). If the owner already has an identity image, embed `![[attachments/…]]` beside this block. |
-| 7 | **Procedure** | Heading `## Procedure`. Name *escape mode* or *combat mode*. This slice's clock trigger and the combat-mode switch, once. Not 5e turn order. Not a `[!mechanic]` callout. |
-| 8 | **Zones** | Table: place \| distance in feet \| cover. Same distances as Now. Optional italic **Narration** column (spoken prose, not a callout). If that column is absent, one empty `> [!narration] {Place}` stub per row after the table. |
-| 9 | **Be ready for** | Table: intent \| approach (skill) \| DC \| success \| partial \| failure. Approach is **Ability (Skill)**. DC column is `` `DC 14` ``. Dice and damage in cells are inline code. Applied conditions are **bold**. Name the creature, item, and place in every cell. Every cell is a *ruling*. Include **Assess the situation** when the opening could be read as “what is it hunting / doing?” Not a menu to read aloud. Body-copy checks outside this table use the at-table grammar in `obsidian-markdown`. |
-| 10 | **Threat clock** | Heading `## Threat clock`. Table: tick \| what happens. Optional italic **Narration** column. The predators’ turn. Named ticks. 3–4 ticks. Bloodied (write the HP number), cover-reached, minions, scene dials live **in this block**. If there is no Narration column, one empty `> [!narration] Tick {n}` stub per tick after the table. |
-| 11 | **Secondary objective** | If Be ready for lists “save / distract X,” one line: beats required, ignore outcome, later consequence. Omit when there is no second objective. |
-| 12 | **Landing** | Next scene’s opening state: where bodies are in **feet**, RAW conditions (Prone), damage already applied. Movement closes gaps. Empty `> [!narration] Landing` plus one titled stub per named variant (Scattered, Crash-landed). |
-| 13 | **Exit narration** | Only when the **next** cockpit is already on this file. Empty `> [!narration] Exit` on pass 1. Spoken transition on pass 2. No “What do you do?” Omit until that beat is ready. |
-| 14 | **Roster embeds** | `![[Monster#Statblock]]` for opposition you will roll in *combat mode*. Keep the full fences; the DM scrolls. After each embed: empty `> [!narration] {Creature}`. Item headings only if this slice spends charges or the item is the pressure. |
-| 15 | **Travel** | Default: omit. This-beat only when the slice *is* the travel, and then one specific complication with every number on this card plus a failure endpoint. |
-| 16 | **Backup** | Extra wikilinks only. |
+| 7 | **Battlemap** | Heading `## Battlemap`. Embed existing battlemaps and creature identity images from `attachments/`. Omit if none exist. Between Initial Narration and Procedure. |
+| 8 | **Procedure** | Heading `## Procedure`. Name *escape mode* or *combat mode*. This slice’s clock trigger and the combat-mode switch, once. Not 5e turn order. Not a `[!mechanic]` callout. |
+| 9 | **Zones** | Table: place \| distance in feet \| cover \| narration. Same distances as Now. The **Narration** column carries italic spoken prose for that zone (not a callout). When the Narration column is absent, one empty `> [!narration] {Place}` stub per row after the table instead. |
+| 10 | **Be ready for** | Table: intent \| approach (skill) \| DC \| success \| partial \| failure. Approach is **Ability (Skill)**. DC column is `` `DC 14` ``. Dice and damage in cells are inline code. Applied conditions are **bold**. Name the creature, item, and place in every cell. Every cell is a *ruling*. Include **Assess the situation** when the opening could be read as “what is it hunting / doing?” Not a menu to read aloud. No Partial definition on the card. Body-copy checks outside this table use the at-table grammar in `obsidian-markdown`. |
+| 11 | **Threat clock** | Heading `## Threat clock`. Table: tick \| what happens \| narration. The predators’ turn. Named ticks. 3–4 ticks. The **Narration** column carries italic spoken prose for that tick. When the column is absent, one empty `> [!narration] Tick {n}` stub per tick after the table instead. Bloodied (write the HP number), cover-reached, scene dials live as paragraphs **after** the table. |
+| 12 | **Secondary objective** | Heading `## Secondary objective`. If Be ready for lists “save / distract X,” one paragraph: beats required, ignore outcome, later consequence. Omit when there is no second objective. |
+| 13 | **Landing** | Heading `## Landing`. Next scene’s opening state: where bodies are in **feet**, RAW conditions (Prone), damage already applied. Movement closes gaps. Empty `> [!narration] Landing` plus one titled stub per named variant (Scattered, Crash-landed). |
+| 14 | **Exit narration** | Only when the **next** cockpit is already on this file. Empty `> [!narration] Exit` on pass 1. Spoken transition on pass 2. No “What do you do?” Omit until that beat is ready. |
+| 15 | **Roster embeds** | Heading `## Roster`. `![[Monster#Statblock]]` for opposition you will roll in *combat mode*. Keep the full fences; the DM scrolls. After each embed: empty `> [!narration] {Creature}`. Item headings only if this slice spends charges or the item is the pressure. |
+| 16 | **Travel** | Default: omit. This-beat only when the slice *is* the travel, and then one specific complication with every number on this card plus a failure endpoint. |
+| 17 | **Backup** | Heading `## Backup`. Extra wikilinks only. |
 
 There is no peer **Round script**. Clock ticks *are* the old R1–R3. The only `> [!` on the card is `[!narration]`.
 
 ## TotM stubs
 
-Pass 1 places these empty titled callouts. Pass 2 fills all of them. The DM may skip a block at the table; construction may not omit a slot.
+Pass 1 places all player-facing prose slots. Pass 2 fills every one. The DM may skip a block at the table; construction may not omit a slot.
 
-- `Initial Narration` — mandatory. After action cards, before Procedure.
-- `{Place}` — only if Zones has no Narration column: one per zone row after the table.
-- `Tick {n}` — only if the clock has no Narration column: one per tick after the table.
+**Callout stubs** (empty titled `> [!narration]` blocks):
+- `Initial Narration` — mandatory. After action cards, before Battlemap.
 - `Landing` — success-condition spoken state. Plus one stub per named landing variant.
 - `{Creature}` — after each combat-mode roster embed. Situated look for this scene, not the owner-page cold portrait.
 - `Exit` — only when the next cockpit is already on this file.
 
-Do not put `> [!narration]` inside a table cell. Obsidian does not render callouts there. Italic prose in a Narration column is the spoken line for that row.
+**Table Narration columns** (italic prose in the cell, not a callout):
+- Zones table — one cell per zone row. Replaces `{Place}` stubs.
+- Threat clock table — one cell per tick row. Replaces `Tick {n}` stubs.
+
+When a table has no Narration column, use callout stubs after the table instead: `{Place}` per zone, `Tick {n}` per tick.
+
+Do not put `> [!narration]` inside a table cell. Obsidian does not render callouts there. The Narration column uses italic prose.
 
 ## Procedure
 
@@ -174,19 +180,20 @@ Completion — all of these hold, or the draft is not done:
 - One named *procedure*; Be ready for failures do not also tick the clock.
 - No house Partial lecture, 5e-default lecture, or writer note on the card.
 - `## Scene ends when` is the first heading; the end condition is the first line.
-- Time budget + both *cut lines* sit under that heading.
+- Time budget + both *cut lines* as paragraphs under that heading.
 - Now states positions and speeds in feet; the zone table uses those distances.
-- DM truth is a heading before Initial Narration, not a `[!secret]` callout.
-- Pass 1: empty titled stubs at every TotM slot; no player-facing prose in those bodies.
-- Pass 2: Initial Narration contains currently visible cover, routes, relative position, imminent action, drawable look, and a non-sight sense, then the question. Every stub is filled.
-- Action cards sit with DM truth; clock holds bloodied as a number, cover-reached, minions, dials.
+- DM truth is a `##` heading before Initial Narration, not a `[!secret]` callout. `**Unrevealed:**` marks hidden opposition intent.
+- Pass 1: empty callout stubs and empty Narration-column cells at every TotM slot; no player-facing prose in those bodies.
+- Pass 2: Initial Narration contains currently visible cover, routes, relative position, imminent action, drawable look, and a non-sight sense, then the question. Every stub and Narration cell is filled.
+- Action cards sit with DM truth; Bloodied, cover-reached, and scene dials are paragraphs after the Threat clock table.
 - Every consequence is a *ruling* (see Ruling).
-- Secondary intent, if listed, has beats / ignore / later consequence.
-- Combat-mode owners heading-embedded below. Default-mode rolls have numbers on the action cards.
+- Secondary objective, Landing, Roster, Backup are `##` headings.
+- Combat-mode owners heading-embedded under Roster. Default-mode rolls have numbers on the action cards.
+- Battlemap embeds existing images between Initial Narration and Procedure. Omit if none exist.
 - Existing owner identity image embedded when the owner page already lists one.
 - Travel omitted, or one inlined complication with a failure endpoint.
 - One cockpit: Glance once, no second Run-now, no separate Ask callout, no Scene menu, no peer Round script.
-- The only `> [!` on the card is `[!narration]`. No callouts inside table cells.
+- The only `> [!` on the card is `[!narration]`. Italic prose in Narration table columns, not callouts in cells.
 - Every DM-facing line is used this slice to place, roll, or speak.
 
 ## Whole-session branch
