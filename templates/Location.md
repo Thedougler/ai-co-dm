@@ -13,7 +13,7 @@ source:
 
 ## Overview
 > [!narration] Narration
-> _Spatial first look (survey/approach). Theatre of the mind (Place)._
+> _Spatial first look (survey/approach). Theatre of the mind (Place). Contains everything the players can interact with in natural flowing language_
 >
 
 ---
@@ -62,3 +62,4 @@ In-world reasons someone comes, stays, or cares.
 
 ---
 ## Art
+_Battlemaps and other non-identity art. Omit this heading when none exist. Identity image sits after the title._

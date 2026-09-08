@@ -151,7 +151,7 @@ into `templates/Location`. On create or edit, match that shape. Filled exemplar:
 | Fauna, flora, features | **What** |
 | Routes, adjoining sites | **Where** |
 | In-world reasons to come, stay, or care | **Why** |
-| Battlemaps, non-identity art | **Art** |
+| Battlemaps, non-identity art | **Art** (omit the heading when none exist) |
 | Identity image | After the title when one exists (`visual-aids`) |
 
 Kernel, 3Fs, promise, player-verb lists, topology audit, references, and the

@@ -81,6 +81,3 @@ Aruhe is a country-scale island in the eastern [[Midchain]]: about 500 miles end
 - Cross, watch, shelter, and map a country-sized ecology while keeping a route back to the sea.
 - Use fruit and water without taking a living thing.
 - The island's excess is [[The Blight|Hinewai]]'s preservation of a grave at [[Aruhe - Memorial Grove]].
-
----
-## Art
