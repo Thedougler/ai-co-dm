@@ -11,8 +11,10 @@ tags: [item, aruhe, consumable]
 ---
 # Stonepear
 
+![[attachments/shattered-sea/items/aruhe-stonepear.png]]
+
 > [!narration] Narration
-> A grey-green pear is hard as pumice and roughens the fingertips. Grit coats the skin until the flesh breaks. Inside is cold, sweet, and mineral on the tongue.
+> A stonepear hangs like a heavy pear with a short thick stem and a rind of fitted stone scales. Grey and moss-green plates cover the fruit from neck to base, each one rough, chipped, and pale at the edges. In the hand it has the dry scrape of pumice and more weight than its size promises.
 
 Consumable, Rare
 
