@@ -14,7 +14,7 @@ tags: [item, aruhe, consumable]
 ![[attachments/shattered-sea/items/aruhe-redheart-berry.png]]
 
 > [!narration] Narration
-> A glossy red berry swells under broad wet leaves, round and ridged like it has grown against its own skin. Its short stem bites into a mossy branch that holds the fruit out over steep green cliffs and bright water far below. Rain gathers on the skin in clear beads, and the whole branch bends around the weight without giving way.
+> A glossy red berry hangs heavy on a short thick stem, its round body pulled into deep ridges under a crown of curled leaves. Clear water beads across the tight skin and rolls slowly over the red, leaving the fruit looking freshly washed and hard to bruise. Even ripe, it holds its shape with a firm weight in the hand before the dark juice breaks loose.
 
 Consumable, Rare
 
