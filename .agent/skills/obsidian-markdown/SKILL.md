@@ -132,6 +132,16 @@ Several approaches:
 - **Wisdom (Perception) — `DC 17`** → Notice it watching from the canopy.
 ```
 
+Quality ladder (one attempt, stacked rungs; `dnd5e-mechanics`):
+
+```markdown
+**Wisdom (Survival) — harvest the grove**
+- `DC 10` → Fallen ordinary take; no contest.
+- `DC 15` → Ripe useful specimen; some noise.
+- `DC 20` → Prize grade.
+- Failure → Local fauna close in, or the living source is claimed.
+```
+
 Narration stays visually isolated. Mechanics sit in the DM layer after it:
 
 ```markdown

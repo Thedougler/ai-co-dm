@@ -18,7 +18,7 @@ The model default is 2014 PHB. Replace those procedures with the 5.5e target.
 | Repeat the same *check* until it works | One *d20 test*; then change the situation (`traps-trials`) |
 | Majority group Athletics *check* | SRD 5.2 has no 2014 group *check*. One *check*, or Help |
 | Generic opposed *check* / contest | Use Hide's stored total, Influence, or a typical-band *DC* |
-| Skill challenge as a stack of identical DCs | `encounter-prep` / `traps-trials` for structure; this skill names each distinct test |
+| Skill challenge as a stack of identical DCs | `encounter-prep` / `traps-trials` for structure; a *quality ladder* is one *check* with several *rungs* (`ladders.md`) |
 
 Load this file when a draft still reads as 2014. The positive targets live in
 `SKILL.md`, `checks.md`, `saves.md`, and `difficulty.md`.

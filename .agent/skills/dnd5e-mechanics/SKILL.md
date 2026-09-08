@@ -4,15 +4,19 @@ description: >-
   Choose and set D&D 5.5e (2024 / SRD 5.2.1) ability checks, saving throws, and
   DCs when writing or auditing wiki content. Use whenever a note needs a skill
   check, save, DC, Hide/Search/Study/Influence/Utilize resolution, grapple or
-  shove DC, or a player action mapped to a roll. Do not use for monster CR
-  chassis, trap telegraphing, or TotM prose.
+  shove DC, or a player action mapped to a roll. Also use when loot, harvest,
+  secrets, or other graded world objects need checks (quality ladder,
+  risk/reward), or when calibrating a check DC to the live party. Do not use
+  for monster CR chassis, trap telegraphing, or TotM prose.
 ---
 
 # D&D 5.5e checks and saves
 
 Adjudicate *d20 tests* as **5.5e RAW** (public SRD 5.2.1). Pick the correct
 *check* or *save*, name the ability and skill or tool, and set the *DC* from a
-published procedure or the typical band.
+published procedure or the typical band. A world object the party would want
+is an *interactable*: write risk and reward, and sanity-check each *rung*
+against the live party.
 
 This work includes material from the System Reference Document 5.2 (“SRD 5.2”)
 by Wizards of the Coast LLC, available at https://www.dndbeyond.com/srd. The
@@ -25,7 +29,13 @@ License, available at https://creativecommons.org/licenses/by/4.0/legalcode.
 - Every written test is one *d20 test* (*check*, *save*, or attack) with a *DC*
   (or AC). Mark it **Wisdom (Survival) — `DC 15`** (at-table grammar in
   `obsidian-markdown`).
-- The *DC* is a typical-band rung, a named 2024 procedure, or `8 + PB + ability modifier` for an imposed *save*.
+- The *DC* is a typical-band *rung*, a named 2024 procedure, or `8 + PB + ability modifier` for an imposed *save*.
+- A valuable, contested, or graded *interactable* has a *quality ladder* or two
+  approaches, plus a failure that changes play. The prize sits on Hard (`DC 20`)
+  or Very Hard (`DC 25`).
+- Each band *DC* matches Easy / Medium / Hard / *showcase* intent for this
+  party's untrained / proficient / specialist bonuses (or this campaign's
+  current tier on owner pages).
 - Certain outcomes stay fiction: drink the lake, start otter play, a macaw's
   Surface Echo. Those lines have no parenthetical about rolling.
 - Player-facing `[!narration]` has no *DC*, save type, or unearned name.
@@ -56,7 +66,26 @@ A *check* is something the creature **does**. A *save* is something that
 **Complete when:** the note names exactly one of *check* / *save* / attack
 plus the ability, and does not also ask for the other two for the same attempt.
 
-### 3. Name skill, tool, and 2024 action (*checks* only)
+### 3. Write the *interactable* (*checks* on world objects)
+
+A world object the party would want — loot, harvest, a tool, a secret, a
+contested resource — is an *interactable*. Load `references/ladders.md`. Write
+an interaction:
+
+- a *quality ladder* on one attempt when the prize is valuable, contested, or
+  graded, or
+- at least two approaches (different skills that change the fiction),
+- and a failure that changes play.
+
+Binary Easy is for a trivial take with no grade and no competition. *Saves*,
+attacks, and named procedures (Hide 15, stabilize 10) continue without this
+step.
+
+**Complete when:** a valuable, contested, or graded object has a ladder or two
+approaches plus a failure that changes play; a trivial take is still one
+*d20 test* with a failure.
+
+### 4. Name skill, tool, and 2024 action (*checks* only)
 
 Load `references/checks.md`. Prefer the action the rules already name:
 
@@ -77,7 +106,7 @@ Constitution *check* against poison.
 **Complete when:** the *check* is written `Ability (Skill)` or `Ability (Tool)`
 and names the 2024 action when one applies.
 
-### 4. Set the *DC*
+### 5. Set the *DC*
 
 Load `references/difficulty.md`. Use this order:
 
@@ -91,18 +120,34 @@ Load `references/difficulty.md`. Use this order:
 Monster save *numbers* still come from `homebrew-monsters-5e` chassis after
 the save *type* is chosen here.
 
-**Complete when:** the *DC* is a listed rung or a named formula.
+**Complete when:** the *DC* is a listed *rung* or a named formula.
 
-### 5. Write the ruling
+### 6. Sanity-check the party (*checks* on the typical band)
+
+Load `references/difficulty.md` (Party archetypes). Fill untrained /
+proficient / specialist for this skill. Confirm each written *rung* matches
+Easy / Medium / Hard / *showcase* intent for those bonuses.
+
+Owner pages use the campaign's current tier, not a named PC. Session surfaces
+use live bonuses when Foundry or sheets exist. If the feel is wrong, pick a
+different typical-band *rung*. Named procedures and `8 + PB + mod` *saves*
+continue without this step.
+
+**Complete when:** the floor *rung* is reachable by untrained on a good roll,
+the default by proficient, and the *showcase* by the specialist — without
+minting an off-band number.
+
+### 7. Write the ruling
 
 One attempt, one *d20 test*, unless a rule repeats the *save* (end of turn,
-concentration per hit). Success, fail, and Partial (house: miss by 1–4, per
-`run-guide`) are world changes, not “roll again at a higher *DC*.”
+concentration per hit). A *quality ladder* is still one test: the total meets
+the highest *rung* it reaches. Success, fail, and Partial (house: miss by 1–4,
+per `run-guide`) are world changes, not “roll again at a higher *DC*.”
 
 **Complete when:** each listed outcome changes position, information, time,
 or cost.
 
-### 6. Place the number
+### 8. Place the number
 
 Write the test with the **at-table check grammar** in `obsidian-markdown`:
 
@@ -110,7 +155,7 @@ Write the test with the **at-table check grammar** in `obsidian-markdown`:
 - Success → Notices claw marks beneath the window.
 - Failure → Nothing appears disturbed.
 
-Compress when the consequence is obvious: **Strength (Athletics) — `DC 13`** → Climb the wet wall. Saves: **Dexterity save — `DC 15`**. `DC n` and dice are inline code. Ability and skill are bold.
+Compress when the consequence is obvious: **Strength (Athletics) — `DC 13`** → Climb the wet wall. Saves: **Dexterity save — `DC 15`**. A *quality ladder* stacks `DC n` outcomes on one **Ability (Skill)** attempt. `DC n` and dice are inline code. Ability and skill are bold.
 
 **Home:** player activities — on a location, **If the party**. Hang the mark on
 the attempt they take.
@@ -131,8 +176,9 @@ exists only to say a roll is absent.
 ## Handoffs
 
 - Challenge telegraph, fail-forward, escalation of the *situation* → `traps-trials`.
+- Encounter, cockpit, or success-count skill challenge → `encounter-prep` then
+  `run-guide`. A *quality ladder* on one *check* stays here.
 - Monster attack bonus, HP, and save *number* → `homebrew-monsters-5e`.
-- Encounter / cockpit structure → `encounter-prep` then `run-guide`.
 - Spoken prose → `theatre-of-the-mind` after the mechanical pass.
 
 ## References
@@ -141,5 +187,6 @@ exists only to say a roll is absent.
 |---|---|
 | `references/checks.md` | Skill, tool, 2024 action, player intent |
 | `references/saves.md` | Which *save*; concentration, death, cover, grapple/shove |
-| `references/difficulty.md` | Typical band, fixed procedures, `8 + PB + mod` |
+| `references/difficulty.md` | Typical band, fixed procedures, `8 + PB + mod`, party archetypes |
+| `references/ladders.md` | Loot, harvest, secrets, contested or graded world objects |
 | `references/leftovers.md` | Draft still reads as 2014 |
