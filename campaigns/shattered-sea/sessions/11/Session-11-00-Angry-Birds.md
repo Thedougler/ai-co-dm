@@ -36,7 +36,7 @@ Between story beats, navigate the valley with the single d8 [[Aruhe-River-Grassl
 4. DEVELOPMENT — Clue (what they ate)
 5. CLIFFHANGER — Monster, Fright (otter hole)
 6. DEVELOPMENT — Obsession (night watch)
-7. CLIFFHANGER — Ambush (false help)
+7. DEVELOPMENT — Not What It Seems (false help)
 8. DEVELOPMENT — Alliance (the farthest camp)
 9. CLIMAX — Final Battle (theft on the watch)
 
@@ -107,24 +107,24 @@ The river goes slack at [[Aruhe - River Slack Basin]] and the things in it are p
 **Run:** [[Session-11-06-Night-Watch]]
 
 - **Purpose:** Put the deer-stalker on the night watch and lock its rules so the rest of the session can use them.
-- **Table sees:** Night watch on [[Aruhe - Cutoff Lip]]. A watcher hears something run through the knee palisade, then it stops. If they go look: the deer-stalker is on a kill in the root-bowl. It runs when it sees them. If they leave camp to follow or wander: a voice they know tries to call them farther out. If the whole party comes up ready to fight: it leaves. It only stands and talks when it has one person.
+- **Table sees:** Night watch on [[Aruhe - Quiet Forest Cutoff Lip]]. A watcher hears something run through the knee palisade, then it stops. If they go look: the deer-stalker is on a kill in the root-bowl. It runs when it sees them. If they leave camp to follow or wander: a voice they know tries to call them farther out. If the whole party comes up ready to fight: it leaves. It only stands and talks when it has one person.
 - **Truth:** This is the session’s deer-stalker. The watcher who heard it is the preferred quarry. It mimics a voice to peel that person off the camp. It retreats from a group. When it finally faces someone, it moves wrong, like something else is using the body, says **“You’re not welcome here,”** and attacks. **Unrevealed:** that line is the island’s law coming out of an animal. It is not a conversation.
 - **Pressure:** Staying in camp after the noise means the beast is still out there and will keep calling. Going alone is how the fight starts. Waking everyone scares it off for now and does not end the mark.
 - **If they break:** If the watcher never investigates, run the mimic call anyway. If they all hunt it together, it breaks contact and waits for a split. If they tie themselves together and refuse to leave camp, it waits; the mark stays until someone is isolated later.
 
-Night watch on [[Aruhe - Cutoff Lip]]. Something runs through the knee palisade, close, then the sound cuts off and the woods are still.
+Night watch on [[Aruhe - Quiet Forest Cutoff Lip]]. Something runs through the knee palisade, close, then the sound cuts off and the woods are still.
 
-### 7. CLIFFHANGER — Ambush (false help)
+### 7. DEVELOPMENT — Not What It Seems (false help)
 
 **Run:** [[Session-11-07-False-Help]]
 
-- **Purpose:** Put time and a choice between the mark and the attack. The deer-stalker uses the survivors they are already hunting for.
-- **Table sees:** Morning on the forest edge. Smoke is closer through the trees. The real prints keep to the edge, heading for that smoke. Off the trail, downslope or deeper in the woods, voices: people in trouble, asking for help, sounding like the same group. Nothing answers a shouted question with new information. The voices stay off the line.
-- **Truth:** The help is the deer-stalker. It watched the inland group and can copy their mouths. The real survivors are still at the smoke. **Unrevealed:** it wants the quarry, or whoever walks toward the voices alone. It does not attack at the start of this beat.
-- **Pressure:** Ignoring the voices means walking on while people might be dying. Answering with the whole party makes the voices move and die off. Sending one person is the ambush: wrong movement, **“You’re not welcome here,”** then the hit.
-- **If they break:** If they rope together and go to the voices as a knot, the stalker breaks contact and tries one more peel on the way back. If they ignore the voices and stay on the prints, no fight here; keep the mark. If they already fought it in beat 6, use the voices once as a test and do not repeat the same combat.
+- **Purpose:** Put time and a choice between the mark and the smoke. The deer-stalker uses the survivors they are already hunting for.
+- **Table sees:** Morning on [[Aruhe - Quiet Forest Print Braid]]. Smoke is closer through the trees. The real prints keep the inland strand, heading for that smoke. Off that strand, a wood fork with no matching feet holds voices: people in trouble, asking for help, sounding like the same group. Nothing answers a shouted question with new information. The voices stay in the wood fork.
+- **Truth:** The help is the deer-stalker. It watched the inland group and can copy their mouths. The real survivors are still at the smoke. **Unrevealed:** it wants the quarry, or whoever walks the wood fork alone. It does not attack at the start of this beat.
+- **Pressure:** Ignoring the voices means walking on while people might be dying. Answering with the whole party makes the voices move and die off. Sending one person is how the face starts: wrong movement, **“You’re not welcome here,”** then the hit.
+- **If they break:** If they ignore the voices and stay on the prints, no fight here; keep the mark. If they answer as a group, the stalker breaks contact. If they already fought it in beat 6, use the voices once as a test and do not repeat the same combat.
 
-Morning on the edge-trail. The smoke is nearer through the trees, the prints still run toward it, and off the path someone is calling for help in a survivor’s voice.
+Morning on [[Aruhe - Quiet Forest Print Braid]]. The smoke is nearer through the trees, the packed prints still run toward it, and off that strand someone is calling for help from a wood fork that has no matching feet.
 
 ### 8. DEVELOPMENT — Alliance (the farthest camp)
 

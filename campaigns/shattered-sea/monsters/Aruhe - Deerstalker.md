@@ -62,7 +62,7 @@ reactions:
 
 ## Behavior
 
-**Habitat.** Deer-Stalkers keep to the dim edges of [[Aruhe - Quiet Forest|the Quiet]] and [[Aruhe - The Marshes|the Marshes]], using game trails, wet paths, root shadows, and grassland margins where a sick deer shape can stand half-hidden. The grassland-river seam is [[Aruhe - Cutoff Lip]]. They avoid [[Aruhe - Razer-Grass]] and [[Aruhe - Grubnade|Grubnades]].
+**Habitat.** Deer-Stalkers keep to the dim edges of [[Aruhe - Quiet Forest|the Quiet]] and [[Aruhe - The Marshes|the Marshes]], using game trails, wet paths, root shadows, and grassland margins where a sick deer shape can stand half-hidden. The grassland-river seam is [[Aruhe - Quiet Forest Cutoff Lip]]. North of that lip the packed prints braid at [[Aruhe - Quiet Forest Print Braid]]. They avoid [[Aruhe - Razer-Grass]] and [[Aruhe - Grubnade|Grubnades]].
 
 **Behavior.** A Deer-Stalker holds unnaturally still until the wrong details become visible: forward-set eyes, clawed forelimbs, blood on the pale muzzle, and hips that do not sit like a grazing animal's hips. When disturbed at a meal, it crashes away too loudly, then returns through dim cover once the quarry is isolated.
 

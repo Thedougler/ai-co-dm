@@ -12,7 +12,7 @@ tags: [index, location]
 - [[Vault of the First Factor]] — unconfirmed Midchain limestone-spire rumour.
 - [[Warren]] · [[Shelfworks]] · [[Fathomrush]] · [[Sparhold Isle]] · [[Sparhold]] · [[Aruhe - Hungry Isle]] · [[Karath]] · [[Murrat]]
 - [[Sorn|Sorn]] · [[Dreth|Dreth]] · [[Orak|Orak]] · [[Veth West Beach]] · [[Sorn Guarded Beach]] · [[Dreth-Orak Channel]] · [[Sanvashti]]
-- [[Aruhe - Beach]] · [[Aruhe - Old Gardens]] · [[Aruhe - Quiet Forest]] · [[Aruhe - Cutoff Lip]] · [[Aruhe - Grasslands]] · [[Aruhe - Grasslands Torn Crossing]] · [[Aruhe - River Line Bank]] · [[Aruhe - River Slack Basin]] · [[Aruhe - River]] · [[Aruhe - River Landing Bank]] · [[Aruhe - The Marshes]] · [[Aruhe - The Mangroves]] · [[Aruhe - Clear Lake]] · [[Aruhe - Memorial Grove]] · [[Aruhe - Lava Tubes]]
+- [[Aruhe - Beach]] · [[Aruhe - Old Gardens]] · [[Aruhe - Quiet Forest]] · [[Aruhe - Quiet Forest Cutoff Lip]] · [[Aruhe - Quiet Forest Print Braid]] · [[Aruhe - Grasslands]] · [[Aruhe - Grasslands Torn Crossing]] · [[Aruhe - River Line Bank]] · [[Aruhe - River Slack Basin]] · [[Aruhe - River]] · [[Aruhe - River Landing Bank]] · [[Aruhe - The Marshes]] · [[Aruhe - The Mangroves]] · [[Aruhe - Clear Lake]] · [[Aruhe - Memorial Grove]] · [[Aruhe - Lava Tubes]]
 - [[Uncertainty]] · [[Kalowe]] · [[Yssenmoor]] · [[Vestra]] · [[Mercatura]] · [[Vault of the First Factor]]
 
 ## Crown ingest

@@ -8,247 +8,155 @@ visibility: dm
 tags: [session-prep, run-guide]
 cssclasses: [session-surface]
 ---
-
 # Session 11 — False help
 
 ## Scene ends when
 
-The crew stays on the prints toward the smoke (hand to beat 8, mark still live), or the one-person ambush resolves, or the whole party answers, the voices die off, and they return to the prints. This is the false-help ambush. It is not the night watch, not the farthest camp, and not a hazards-table result.
+The crew stays on the packed inland prints of [[Aruhe - Quiet Forest Print Braid]] toward the smoke (hand to beat 8, mark still live), or the whole party answers the wood-fork voices until those voices die off and they return to the prints, or one person walks that fork and that commit resolves, or the crew breaks off the braid. This is the false-help choice on Print Braid. It is not the night watch, not the farthest camp, and not a hazards-table result.
 
 This beat is thirty minutes.
 
-- **0–3 minutes:** Open the prints versus the voices and take declarations.
-- **3–18 minutes:** Let the crew stay on the line, shout, send one person, or answer as a group.
-- **18–22 minutes:** Take the walk-on with the mark live, the one-person ambush, or the voices dying off.
-- **22–30 minutes:** Hand to beat 8, or land the ambush, or rebuild from a break.
+**If behind:** Show the packed inland prints versus the wood-fork voices. Take one choice. Land.
 
-**If behind:** Show the prints versus the voices. Take one choice. Land.
+**If ahead:** Still end on trail-to-camp or the choice. Do not run the farthest camp on this card. Inlined extra only if fully on this card: shouting into a wood fork returns the same stretched word and no new information.
 
-**If ahead:** Still end on trail-to-camp or ambush. Do not run the farthest camp on this card.
+## At a Glance
 
-## L0 · Glance
+- **Stakes:** Ignoring the help-calls means walking on while people might be dying. The packed prints do not enter the wood fork.
+- **Goal / exit:** Stay on the inland strand (beat 8), answer as a group until the voices die, or break off the braid.
+- **This braid:** Packed inland prints, a wood fork with no matching feet, a grass tongue northeast, a cobble ring southwest, nearer smoke north through the trees.
+- **Voices:** The same word loops off the prints. A shout gets no new information.
+- **Silence:** Present the prints versus the voices, then wait.
 
-- **Stakes:** The mark is still live. Ignoring the help-calls means walking on while people might be dying.
-- **Goal / exit:** Stay on the prints (beat 8), resolve the one-person ambush, or answer as a group until the voices die.
-- **Danger:** One person walking out is the ambush. The whole party makes the voices move and die off.
-- **Silence:** Present the prints versus the voices, then wait. If the crew freezes, tick the clock once at the end of the round.
-- **Situation magnets:** Anyone walking toward the voices alone. The locked quarry if isolated. Anyone off the trail apart from the group.
-
-## Now
-
-The crew starts on the forest-edge trail. The prints keep to this line toward the smoke. The smoke shows nearer through the trees. Help-calls come from off the path, downslope in the woods. Trees and underbrush close both sides of the line. The [[Aruhe - Deerstalker]] has speed 40 feet and climb 20 feet. Lost Nerve is two ready hostiles within 30 feet. A Dash does not reach the farthest camp, the beach, or the terraces.
+The crew starts on the packed inland strand of [[Aruhe - Quiet Forest Print Braid]], north of [[Aruhe - Quiet Forest Cutoff Lip]]. The prints keep this line toward the smoke. The smoke shows nearer through the trees. Help-calls come from a wood fork 20 feet off the prints, downslope in wet leaf and hanging roots. The grass tongue stands 25 feet northeast. The cobble ring and river sit 30 feet southwest. Deeper Quiet is 50 feet into the wood forks. The [[Aruhe - Deerstalker]] has speed 40 feet and climb 20 feet. Two ready hostiles within 30 feet scare it off. A 30-foot move reaches the wood fork, the grass tongue, or the cobbles. A Dash of 60 feet reaches deeper wood or turns south toward Cutoff Lip. A Dash does not reach the farthest camp, the beach, or the terraces.
 
 ## DM truth
 
-The help is this [[Aruhe - Deerstalker]]. It watched the inland group and can copy their mouths. The real survivors are still at the smoke. It wants the locked quarry, or whoever walks toward the voices alone.
+The help is this [[Aruhe - Deerstalker]]. It watched the inland group and can copy their mouths. The real survivors are still at the smoke. It wants the locked quarry, or whoever walks the wood fork alone.
 
 **Unrevealed:** It does not attack at the start of this beat. The face line is the island's law coming out of an animal. It is not a conversation.
 
 ### Action cards
 
+**Development.** This braid is a look-and-commit slice. Do not attack at the start of this beat. Do not force a fight if the crew stays grouped on the inland prints.
+
 **One [[Aruhe - Deerstalker]] on Easy.** It is not Famished unless beat 6 already set Famished or Hard. Do not spawn a second. Do not roll the hazards table here. Keep any hit points already lost in beat 6.
 
-**Loop.** Borrowed Voice as survivor help-calls off the trail. Do not attack at the start of this beat. One person walking to the voices gets wrong movement, "You're not welcome here," then Claw. The whole party answering makes the voices move and die off. A knot that goes together: the [[Aruhe - Deerstalker]] breaks contact and tries one more peel on the way back. Stay on the prints: no fight here; keep the mark. If they already fought in beat 6, use the voices once as a test; do not repeat the same combat. Snatch from the Dim only while hidden in dim light, darkness, or foliage, and only on an isolated quarry. Do not speak a finished haul.
+**Compact numbers.** AC 15. Hit points 85, or whatever remains from beat 6. Claw +8 to hit, `12` slashing, reach 10 feet, and if the target is Medium or smaller the [[Aruhe - Deerstalker]] can Grapple it (escape `DC 16`) instead of dealing the slashing. Multiattack is two Claw attacks. The [[Aruhe - Deerstalker]] can Grapple only one creature at a time. Speed 40 feet, climb 20 feet.
 
-**Compact numbers.** AC 15. Hit points 85, or whatever remains from beat 6. Claw +8 to hit, 12 slashing, reach 10 feet, and if the target is Medium or smaller the [[Aruhe - Deerstalker]] can Grapple it (escape DC 14) instead of dealing the slashing. Multiattack is two Claw attacks. The [[Aruhe - Deerstalker]] can Grapple only one creature at a time. Speed 40 feet, climb 20 feet.
+**This Meal.** The quarry is still the locked mark from the night watch, unless someone else walks the wood fork alone. Then that walker is isolated and can become the quarry. The [[Aruhe - Deerstalker]] knows that quarry's direction within 1 mile. Once per turn, a hit on the quarry deals extra `7` (`2d6`) while fewer than two other conscious creatures are within 10 feet of that quarry.
 
-**This Meal.** The quarry is still the locked mark from the night watch, unless someone else walks toward the voices alone. Then that walker is isolated and can become the quarry. The [[Aruhe - Deerstalker]] knows that quarry's direction within 1 mile. Once per turn, a hit on the quarry deals extra 7 (2d6) while fewer than two other conscious creatures are within 10 feet of that quarry.
-
-**Borrowed Voice.** Bonus action. The sound comes from the [[Aruhe - Deerstalker]]'s space and does not automatically reveal it if it is hidden. A hearer knows the direction. This beat uses help-calls that sound like the inland group: people in trouble, asking for help. Loop a word such as help, or stretch a cry, out of context. Nothing answers a shouted question with new information. The voices stay off the line. A creature that can see the original speaker knows the sound is an imitation. A creature that heard the original has advantage on a DC 14 Wisdom (Insight) check to recognize the imitation. After the [[Aruhe - Deerstalker]] uses a given sound without drawing a creature closer, it abandons that sound.
-
-**Snatch from the Dim (Recharge 5–6).** Only while hidden in dim light, darkness, or natural foliage. Morning foliage still counts. The [[Aruhe - Deerstalker]] moves up to 40 feet without opportunity attacks and makes one Claw attack. On a hit, normal Claw damage, and if the target is Medium or smaller the target is also Grappled (escape DC 14). Then it can move up to 20 feet, carrying a Grappled creature without reducing its speed. If the target is the quarry, This Meal can apply. Do not speak a finished haul.
-
-**Lost Nerve.** At the start of its turn, if two or more ready hostiles are within 30 feet (Easy: not Famished), the [[Aruhe - Deerstalker]] must Dash or Hide and move away. It can drag one Grappled creature with it without reducing its speed. This trait does not apply if it reduced a creature to 0 hit points since the start of its last turn.
-
-**Silent Retreat.** When the [[Aruhe - Deerstalker]] is hit, if three or more ready hostiles are within 30 feet, or if it is not Famished (Easy: always, unless beat 6 already set Famished), it can move up to 20 feet without opportunity attacks. If it ends that move in dim light, darkness, or foliage, it can Hide.
-
-**Wasting Stillness / Shadow Cover.** Hide as a bonus action in dim light, darkness, or foliage. Movement makes no sound. While motionless, the [[Aruhe - Deerstalker]] is indistinguishable from a sick deer until it speaks, attacks, or a creature sees the clawed forelimbs or forward-set eyes up close. On this trail the first pressure is the help-calls, not the sick-deer freeze.
+**Borrowed Voice.** Bonus action. The sound comes from the [[Aruhe - Deerstalker]]'s space and does not automatically reveal it if it is hidden. A hearer knows the direction. This beat uses help-calls that sound like the inland group: people in trouble, asking for help. Loop a word such as help, or stretch a cry, out of context. Nothing answers a shouted question with new information. The voices stay in the wood fork. A creature that can see the original speaker knows the sound is an imitation. A creature that heard the original has advantage on a **Wisdom (Insight) — `DC 14`** check to recognize the imitation. After the [[Aruhe - Deerstalker]] uses a given sound without drawing a creature closer, it abandons that sound.
 
 **Abort.** Two ready hostiles within 30 feet scare it off for now. The mark stays. It waits for a split. It will not walk [[Aruhe - Razer-Grass]].
 
-**One-person face.** Speak this only when one person has walked to the voices, then roll. It says, "You're not welcome here." Do not put island law on the line. Do not speak a finished Snatch or haul.
-
 **Already fought.** If they already fought this [[Aruhe - Deerstalker]] in beat 6, speak the Open voices once. If anyone walks toward them, the voices move and die off. Do not speak the face. Do not switch to combat mode.
 
-> [!narration] Initial Narration
-> You see the packed prints still on this forest-edge trail, heading inland toward the smoke. Morning sits on the trunks. Trees and underbrush close both sides of the line. You feel packed dirt underfoot and cool air on this edge.
->
-> Through the stems you see the smoke nearer now, a thin column between the trees. You smell it on the morning air.
->
-> Off the path, downslope in the woods, you hear help-calls. Someone shouts "Help," and the same word comes again, stretched, from that lower ground. Nothing shows with it.
->
-> The prints keep this line. The calls stay off it. Behind you the packed ground falls back toward last night's camp. Open sky sits over this edge.
->
-> What do you do?
->
-
-## Battlemap
-
-![[attachments/shattered-sea/battlemaps/session-11-07-false-help-base.png|Session 11-07 False Help battlemap]]
+**[[Taking on Aruhe]].** Drinking the river is not a claim. Fallen fruit on this braid is receiving. Plucking a living plant is a claim.
 
 ![[attachments/shattered-sea/creatures/deer-stalker-of-aruhe.png|Deer-Stalker of Aruhe]]
 
+> [!narration] Initial Narration
+> You see packed dirt split under the first Quiet trunks, one hard inland strand still holding crushed prints toward a nearer column of smoke between the leaves. Morning sits on the trunks. Other dirt strands peel off that line: one into denser wood, one toward a gold-green grass tongue, one down to a stone river bank. You feel packed dirt underfoot on the print line and cool shade where the roof closes.
+>
+> Off the inland strand, a wood fork drops into wet leaf and hanging roots. You hear someone shout "Help," and the same word comes again, stretched, from that lower fork. Nothing shows with it. The packed prints do not turn into that fork.
+>
+> Southwest, river water talks against cobbles ringed on the bank. Northeast, eight-foot grass stands in a bright tongue against the wood. You smell the nearer smoke on the morning air.
+>
+> What do you do?
+
+## Battlemap
+
+![[attachments/shattered-sea/battlemaps/session-11-07-false-help-base.png|Session 11-07 Print Braid battlemap]]
+
 ## Procedure
 
-**False-help / peel mode** is the default. This is not a required fight. Do not attack at the start of this beat. Do not force the full fight if the crew stays grouped on the prints.
+**Development.** This braid is a look-and-commit slice. The help-calls are the contradiction, not a required fight. Do not attack at the start of this beat. Do not force the full fight if the crew stays grouped on the inland prints.
 
-- Players declare and resolve turns, checks, and movement as normal.
-- Failures impose the Be ready for ruling only. Failures never advance the threat clock.
-- After everyone has acted, if anyone remains on the magnets (anyone walking toward the voices alone, the locked quarry isolated, or anyone off the trail apart from the group), advance the threat clock once and resolve that tick.
-- Freeze or "we watch" on the edge-trail ticks once at the end of the round, not per failed check. That tick is the voices persisting off the line.
-- Several failed checks in one round still produce one tick.
-- Staying on the prints and committing to the smoke resolves the walk-on in Be ready for. Do not also tick. The mark stays live. This scene can end.
-- The whole party answering the voices resolves Lost Nerve in Be ready for. Do not also tick Lost Nerve for that same action. The voices die off. They can return to the prints. This scene can end.
-- One person reaching the voices resolves the face in Be ready for. Do not also play that face as a clock tick.
-- A knot that stays tied resolves break-contact in Be ready for. The one more peel on the way back is the next clock tick if anyone remains on the magnets.
-- If they already fought in beat 6, the voices play once as a test. Do not switch to combat mode. Do not repeat the same combat.
-- If a crew member takes open valley air, that crew member leaves this trail for hawk sky. Do not restage beat 1 on this card.
-- **Combat mode:** if one person is at the voices and the [[Aruhe - Deerstalker]] attacks, stop the clock and run the embedded statblock. If the whole party comes up ready, it leaves. If they already fought this combat in beat 6, do not run it again.
+When the crew stays on the prints, answers as a group, or breaks off the braid, the scene ends. If they stall, keep the packed inland strand versus the wood-fork voices visible, then ask. If they race, still end on that follow or that break.
+
+One person walking the wood fork resolves that commit in Be ready for. Do not also play that face as a later clock. If they already fought in beat 6, the voices play once as a test. Do not switch to combat mode on that already-fought path.
+
+If a crew member takes open valley air, that crew member leaves this braid for hawk sky. Do not restage beat 1 on this card.
+
+**Combat mode:** if one person is in the wood fork and the [[Aruhe - Deerstalker]] attacks, stop looking and run the embedded statblock. If the whole party comes up ready, it leaves. If they already fought this combat in beat 6, do not run it again.
 
 ## Zones
 
-| Place | Distance from the crew | Cover |
-| --- | --- | --- |
-| Edge-trail / prints | The crew starts here, on the forest-edge trail. The prints keep to this line toward the smoke. | Grouped crew here count for Lost Nerve. Staying on this line is the walk-on. |
-| Off-trail / downslope woods | The help-calls come from here, off the path, downslope or deeper in the woods. | Isolated. Foliage. The [[Aruhe - Deerstalker]] Hides here. One person who reaches this place gets the face, unless they already fought in beat 6. |
-| Deeper woods | Farther off the line than the first calls, where a peel tries to draw someone. | The [[Aruhe - Deerstalker]] peels a loner this way. Lost Nerve retreats this way. |
-| Inland smoke | The smoke shows nearer through the trees. | The farthest camp is not reachable on this card. A Dash does not reach it. |
-| Back toward the night camp / otter hole | Behind the crew, the detour runs toward last night's camp, the slack hole, and the river. | Breaking off the trail this way is a rebuild. Do not restage the night watch or the otter hole. |
-| Hawk sky | Flying up out of this edge is open valley air. | Exposed. Do not restage beat 1. A Dash does not reach the beach, the smoke, or the terraces. |
-
-> [!narration] Edge-trail / prints
-> You see the packed prints keep this edge toward the nearer smoke. Anyone standing here together is still on the line. You hear the help-calls stay off it, downslope.
->
-
-> [!narration] Off-trail / downslope woods
-> The ground drops off the packed line into leaf and stems. You feel wet leaf underfoot and branches at the shoulders. You hear the help-calls from this slope, looping the same word.
->
-
-> [!narration] Deeper woods
-> Past the first slope the trunks pack tighter and the ground keeps dropping. You see no packed line here. You hear the same call sit farther in, still one word.
->
-
-> [!narration] Inland smoke
-> You see the smoke column nearer through the trees, still ahead up this edge. You smell it on the morning air. From this trail it stays that far.
->
-
-> [!narration] Back toward the night camp / otter hole
-> Behind you the packed ground falls back toward last night's camp and the river. You hear water that way, farther than a hard run. This trail still heads inland.
->
-
-> [!narration] Hawk sky
-> You feel wind and open morning air above this edge. The trail and the tree crowns sit below. Nothing at that height hides a body.
->
+| Place | Distance from the crew | Cover | Narration |
+| --- | --- | --- | --- |
+| [[Aruhe - Quiet Forest Print Braid\|Inland prints]] | Here. Packed dirt on the hard inland strand. | Grouped crew here count as ready hostiles. Staying on this line is the walk-on. | _You stand on packed dirt under Quiet trunks, with crushed prints still heading inland toward the nearer smoke. Cool shade sits on this line, and the help-calls stay off it in the wood._ |
+| Wood fork / voices | 20 feet off the prints, downslope in wet leaf. | Isolated. Foliage. The wood heavily obscures beyond 10 feet. One person who reaches this fork gets the face, unless they already fought in beat 6. | _The ground drops off the packed line into wet leaf and hanging roots. Branches catch at the shoulders, and the same stretched word loops from this fork._ |
+| Deeper Quiet | 50 feet into the wood forks. | The [[Aruhe - Deerstalker]] peels a loner this way. A grouped answer drives it this way. | _Past the first fork the trunks pack tighter and the ground keeps dropping. You see no packed prints here. The same call sits farther in, still one word._ |
+| Grass tongue | 25 feet northeast. | Eight-foot grass is Difficult Terrain and heavily obscures beyond 10 feet. | _Gold-green grass stands higher than a person where the roof breaks, with heavy pink-gold fruit bowing the first branches. Seed heads rasp, and the wood sits close behind that tongue._ |
+| Cobble ring / river | 30 feet southwest. | Open bank. Drinkable water. Breaking this way is a rebuild if they leave the prints. | _Wet cobbles sit in a ring on the stone bank, with no coals and no kit. Clear water talks against those stones, and the packed inland line stays above this bank._ |
+| Inland smoke | Nearer through the trees, still ahead on the print strand. | The farthest camp is not reachable on this card. A Dash does not reach it. | _The smoke column stands nearer through the trees, still ahead up this inland strand. You smell it on the morning air. From this braid it stays that far._ |
+| Back toward [[Aruhe - Quiet Forest Cutoff Lip]] | South along the packed line. | Breaking off this way is a rebuild. Do not restage the night watch. | _Behind you the packed ground falls back toward last night's lip, then the river. You hear water that way, farther than a hard run. This braid still heads inland._ |
+| Hawk sky | Flying up out of this braid is open valley air. | Exposed. Do not restage beat 1. A Dash does not reach the beach, the smoke, or the terraces. | _You feel wind and open morning air above this roof. The braid and the tree crowns sit below. Nothing at that height hides a body._ |
 
 ## Be ready for
 
-**Partial** is defined once for this table.
-
-- **Success:** meet or exceed the DC.
-- **Partial:** miss by 1–4; the player may accomplish the intent at the listed cost.
-- **Failure:** miss by 5 or more, or reject the partial cost.
-
 | Intent | Approach | DC | Success | Partial | Failure |
 | --- | --- | --- | --- | --- | --- |
-| Assess the situation | Wisdom (Perception), Wisdom (Survival), or Intelligence (Nature) | DC 12 | The looker gets that the prints keep to this edge toward the nearer smoke, and that the help-calls stay off the line, downslope or deeper in the woods. Whether the callers are real stays unknown. How far the smoke is stays unknown. | The looker gets the prints versus the voices, but spends the round on this edge-trail. Apply this listed cost only. Do not also tick. | The looker wastes the round on this edge-trail. Apply this listed cost only. Do not also tick. The end-of-round clock still ticks once if anyone remains on the magnets. |
-| Test the voices | Wisdom (Insight), or shouting a question from the prints | DC 14 Wisdom (Insight) if that crew member heard the original mouths (advantage if they did). No roll to shout. | That crew member knows the sound is an imitation if the Insight succeeds, or if they can see the original speaker. A shout gets no new information. The voices stay off the line. Walking toward them anyway still peels that crew member. | That crew member is unsure and still leans toward the woods. The [[Aruhe - Deerstalker]] keeps that sound. That crew member is still on the magnets if they step off the prints. Apply this listed cost only. Do not also tick. | That crew member treats the help-calls as real. A shout still gets no new information. The voices stay off the line. Apply this listed cost only. Do not also tick. The end-of-round clock still ticks once if anyone remains on the magnets. |
-| Stay on the prints | Committing to follow the edge-trail prints toward the smoke and ignore the voices | No roll | The crew stays on the prints toward the smoke. No fight here. The mark stays live. Hand to beat 8. This scene ends. | Binary — no partial. | Binary — no partial. Staying on the prints ends this scene. |
-| Send one person | Walking off the trail toward the voices alone | No roll to walk out | That crew member reaches the off-trail voices. That crew member is isolated and on the magnets. Speak the face lines, then the [[Aruhe - Deerstalker]] attacks, unless they already fought in beat 6. Do not resolve Snatch from the Dim at the start of the walk. If they already fought in beat 6, the voices move and die off instead. Do not switch to combat mode on that already-fought path. | Binary — no partial. Walking out alone still sits on the magnets. | That crew member spends the round on the edge-trail and does not reach the voices. Apply this listed cost only. Do not also tick. The end-of-round clock still ticks once if anyone remains on the magnets. |
-| Whole party answers | Walking to the voices together as a ready group | No roll | Two or more ready hostiles are within 30 feet of the [[Aruhe - Deerstalker]], or it breaks contact before they close. Lost Nerve: it must Dash or Hide and move away. The voices move and die off. The mark stays. They can return to the prints. This scene ends. Do not start beat 8's camp. | Binary — no partial. | The group bunches slowly and someone is still apart off the trail. That person remains a magnet. Apply this listed cost only. Do not also tick. The end-of-round clock still ticks once if anyone remains on the magnets. |
-| Rope together as a knot | Tying on and going to the voices as one knot | No roll | The crew reaches the off-trail voices still tied. The [[Aruhe - Deerstalker]] breaks contact. The voices die off here. The mark stays. On the way back it tries one more peel. If the knot stays tied through that peel, there is no fight here. They can return to the prints. | Binary — no partial. A knot that then sends one person off the rope is the send-one-person row. | The knot frays and someone is still apart off the trail. That person remains a magnet. Apply this listed cost only. Do not also tick. The end-of-round clock still ticks once if anyone remains on the magnets. |
-| One-person face or fight | Attack vs AC 15, or standing alone at the voices when the [[Aruhe - Deerstalker]] shows | Attack vs AC 15, or no roll for the face | If the [[Aruhe - Deerstalker]] has one person at the voices, speak the face lines, then it attacks. Switch to combat mode and stop the clock. Claw +8 to hit, 12 slashing, reach 10 feet, optional Grapple escape DC 14. Multiattack is two Claws. This Meal extra 7 (2d6) if fewer than two other conscious creatures are within 10 feet of the quarry. Do not speak a finished Snatch or haul. If they already fought this combat in beat 6, do not run it again. | That crew member is still alone off the trail. The [[Aruhe - Deerstalker]] still has them. The clock still ticks at end of round if anyone remains on the magnets, unless you already switched to combat mode. | The attack misses, or that crew member is still alone when it faces them. Speak the face lines if you have not. Claw still comes. Apply this listed cost only. Do not also tick if you have switched to combat mode. |
-| Escape a Grapple or Snatch | Action to escape Grappled (escape DC 14 on the owner Claw or Snatch from the Dim) | Escape DC 14 | That crew member is no longer Grappled. If they are still alone off the trail, they remain on the magnets. Do not speak a finished haul. | That crew member is still Grappled. The [[Aruhe - Deerstalker]] can still move up to 20 feet carrying them if Snatch from the Dim already hit. Apply this listed cost only. Do not also tick. | That crew member stays Grappled. Apply this listed cost only. Do not also tick. Do not speak a finished haul. |
-| Break off the trail | Walking back toward the night camp, the otter hole, the river, the terrace line, the beach, or [[Uncertainty]], or flying up into open valley air | No roll to walk off | The crew leaves this edge-trail off the prints. Rebuild from that. This scene ends. The mark can still sit on the locked quarry. | Binary — no partial. | If a crew member flies open valley air, that is hawk sky. Do not restage beat 1. Do not start beat 8 on this card. |
+| Assess the situation | **Wisdom (Perception)**, **Wisdom (Survival)**, or **Intelligence (Nature)** | `DC 12` | The looker gets that the packed prints keep the inland strand toward the nearer smoke, and that the help-calls stay in a wood fork that has no matching feet. Whether the callers are real stays unknown. How far the smoke is stays unknown. | The looker gets the prints versus the voices, but spends the round on this inland strand. | The looker wastes the round on this braid. |
+| Test the voices | **Wisdom (Insight)**, or shouting a question from the prints | `DC 14`, or no roll to shout | That crew member knows the sound is an imitation if the Insight succeeds, or if they can see the original speaker. Advantage applies if that crew member heard the original mouths. A shout gets no new information. The same word comes back stretched from the wood fork. Walking toward the voices anyway still peels that crew member. | That crew member is unsure and still leans toward the wood fork. The [[Aruhe - Deerstalker]] keeps that sound. | That crew member treats the help-calls as real. A shout still gets no new information. The voices stay in the wood fork. |
+| Stay on the prints | Committing to follow the inland prints toward the smoke and ignore the voices | Commit | The crew stays on the prints toward the smoke. No fight here. The mark stays live. Hand to beat 8. This scene ends. | Binary — no partial. | Binary — no partial. Staying on the prints ends this scene. |
+| Send one person | Walking the wood fork toward the voices alone | Walk | That crew member reaches the wood-fork voices. That crew member is isolated. Speak the face lines, then the [[Aruhe - Deerstalker]] attacks, unless they already fought in beat 6. Do not resolve Snatch from the Dim at the start of the walk. If they already fought in beat 6, the voices move and die off instead. Do not switch to combat mode on that already-fought path. | Binary — no partial. Walking out alone still isolates that crew member. | That crew member spends the round on the inland strand and does not reach the voices. |
+| Whole party answers | Walking to the voices together as a ready group | Walk | Two or more ready hostiles are within 30 feet of the [[Aruhe - Deerstalker]], or it breaks contact before they close. It must Dash or Hide and move away. The voices move and die off. The mark stays. They can return to the prints. This scene ends. Do not start beat 8's camp. | Binary — no partial. | The group bunches slowly and someone is still apart in the wood fork. That person remains isolated. |
+| Search the cobble ring | **Intelligence (Investigation)** or **Wisdom (Perception)** | `DC 12` | Wet river stones sit in a ring, with no coals and no kit. Searching them does not name who stacked them. The inland prints still do not turn down to this bank. | That crew member spends the round at the stones and gets that this bank is cold, nothing more. | That crew member wastes the round poking the cobbles. |
+| Pick fruit on this braid | **Intelligence (Nature)** or **Wisdom (Survival)** to sort fallen fruit from living stems. **Utilize** if that crew member plucks without sorting. Plucking living stems on purpose is a claim. | `DC 12` | That crew member takes only fruit already down on this braid. That is not a claim. The trail, smoke, and voices remain. | That crew member takes some living stems on this braid. That is an [[Taking on Aruhe]] claim. The later hazards-table roll uses `2d8`, keeping the lower result. | That crew member strips living fruit on this braid. That is an [[Taking on Aruhe]] claim. The later hazards-table roll uses `2d8`, keeping the lower result. |
+| One-person face or fight | Attack vs AC 15, or standing alone in the wood fork when the [[Aruhe - Deerstalker]] shows | Attack vs AC 15, or Face | If the [[Aruhe - Deerstalker]] has one person in the wood fork, speak the face lines, then it attacks. Switch to combat mode. Claw +8 to hit, `12` slashing, reach 10 feet, optional Grapple escape `DC 16`. Multiattack is two Claws. This Meal extra `7` (`2d6`) if fewer than two other conscious creatures are within 10 feet of the quarry. Do not speak a finished Snatch or haul. If they already fought this combat in beat 6, do not run it again. | That crew member is still alone in the wood fork. The [[Aruhe - Deerstalker]] still has them. | The attack misses. That crew member is still alone in the wood fork. |
+| Escape a Grapple | Action to escape **Grappled** (escape `DC 16` on the owner Claw or Snatch from the Dim) | Escape `DC 16` | That crew member is no longer **Grappled**. If they are still alone in the wood, they remain isolated. Do not speak a finished haul. | That crew member is still **Grappled**. The [[Aruhe - Deerstalker]] can still move up to 20 feet carrying them if Snatch from the Dim already hit. | That crew member stays **Grappled**. Do not speak a finished haul. |
+| Break off the braid | Walking back toward [[Aruhe - Quiet Forest Cutoff Lip]], the river, the terrace line, the beach, or [[Uncertainty]], or flying up into open valley air | Walk | The crew leaves [[Aruhe - Quiet Forest Print Braid]] off the prints. Rebuild from that. This scene ends. The mark can still sit on the locked quarry. | Binary — no partial. | If a crew member flies open valley air, that is hawk sky. Do not restage beat 1. Do not start beat 8 on this card. |
 
-Unforeseen intents use the same want: this [[Aruhe - Deerstalker]] wants the locked quarry, or whoever walks toward the voices alone, and it will not stand for a group. Rule from zones, the clock, and whether the approach stays on the prints, goes out alone, answers as a party, or goes as a knot.
-
-## Threat clock
-
-The predators' turn happens after everyone has acted, and only if anyone remains on the magnets. Table failures do not also tick. A walk-on already resolved in Be ready for does not also tick. A whole-party answer already resolved in Be ready for does not also tick Lost Nerve. A one-person arrival already resolved in Be ready for does not also play as a clock face.
-
-| Tick | What happens |
-| --- | --- |
-| 1 | Voices persist. If the crew froze on the edge-trail or shouted from the prints, the [[Aruhe - Deerstalker]] keeps Borrowed Voice off the line: help-calls, no new information, still downslope or deeper. If they already fought in beat 6, this tick is the one test, then the voices die off. Do not switch to combat mode on that path. |
-| 2 | Peel. If someone has stepped toward the voices without the whole party, the [[Aruhe - Deerstalker]] draws that crew member farther off the trail. If they came as a knot, this tick is the one more peel on the way back. Do not resolve Snatch from the Dim on this tick. |
-| 3 | One-person face. If one person is off the trail at the voices and you have not already resolved the face in Be ready for, the [[Aruhe - Deerstalker]] stands for that one person. Wrong movement. It says, "You're not welcome here." Then Claw (+8 to hit, 12 slashing, reach 10 feet, optional Grapple escape DC 14). Switch to combat mode and stop the clock. Do not speak a finished Snatch or haul. Skip this tick if they already fought in beat 6. |
-| 4 | Group scare. If two or more ready hostiles are within 30 feet of the [[Aruhe - Deerstalker]], Lost Nerve forces Dash or Hide away. The voices move and die off. Silent Retreat if it was hit (Easy: not Famished, unless beat 6 already set Famished). The mark stays. They can return to the prints. Do not start beat 8's camp. |
-
-> [!narration] Tick 1
-> From off the path you hear the same help-call again, one word looped and stretched, still downslope. You hear it come from one direction in the trees. No body shows with it.
->
-
-> [!narration] Tick 2
-> The help-call sits farther off the packed line, still looping the same word. You see the trail already behind that person. The sound sits deeper between the trunks.
->
-
-> [!narration] Tick 3
-> From the downslope stems a deer-tall body stands for the person who walked out alone, shaggy coat, antlers crowding the trunks, long forelimbs ending in blood-marked claws. You see a pale muzzle and forward-set eyes that do not blink, hips hitching a beat late, as it says, "You're not welcome here." Those claws stretch toward that person.
->
-
-> [!narration] Tick 4
-> The help-calls jump farther into the wood, then cut off. You hear something heavy crash away through the deeper stems. The slope and the packed trail sit empty.
->
-
-**Bloodied.** Bloodied is 42 hit points on the [[Aruhe - Deerstalker]], or half of whatever hit points remain from beat 6. This card has no extra bloodied action. Keep peel and Lost Nerve. Easy stays not Famished unless beat 6 already set Famished or Hard.
-
-**Cover reached.** Two ready hostiles within 30 feet, a whole-party answer, or a tied knot: the [[Aruhe - Deerstalker]] breaks contact. The mark stays. A loner off the trail is still quarry.
-
-**Minions / dials.** Easy: one [[Aruhe - Deerstalker]], not Famished, Lost Nerve at two ready hostiles, unless beat 6 already set Famished or Hard. Do not spawn a second. Do not roll the hazards table on this clock.
-
-Do not spawn otters, wolfrabbits, or the farthest camp on this clock. Taking the prints toward the smoke ends this scene with the mark still live. Freeze on the trail still ticks the voices once.
+Unforeseen intents use the same want: this [[Aruhe - Deerstalker]] wants the locked quarry, or whoever walks the wood fork alone, and it will not stand for a group. Rule from zones and whether the approach stays on the prints, goes out alone, answers as a party, or leaves the braid.
 
 ## Landing
 
-If the crew stayed on the prints toward the smoke, they are still on the forest-edge trail, mark still live. Hand to beat 8. Do not run the farthest camp here.
+If the crew stayed on the inland prints toward the smoke, they are still on [[Aruhe - Quiet Forest Print Braid]], mark still live. Hand to beat 8. Do not run the farthest camp here.
 
 If the whole party answered and the voices died off, they can return to the prints, mark still live. Hand to beat 8.
 
-If they went as a knot, the [[Aruhe - Deerstalker]] broke contact and tried one more peel on the way back. They can return to the prints, mark still live. Hand to beat 8 if they stay on that line.
+If the one-person commit resolved, apply any RAW damage and conditions already on that fight. Do not speak a finished Snatch or haul. They may still return to the prints (hand to beat 8) or break off the braid (rebuild). Do not start beat 8's camp on this card.
 
-If the one-person ambush resolved, apply any RAW damage and conditions already on that fight. Do not speak a finished Snatch or haul. They may still return to the prints (hand to beat 8) or break off the trail (rebuild). Do not start beat 8's camp on this card.
+If they already fought in beat 6, the voices played once as a test and there was no repeat combat. They are still on the inland strand, mark still live. Hand to beat 8.
 
-If they already fought in beat 6, the voices played once as a test and there was no repeat combat. They are still on the edge-trail, mark still live. Hand to beat 8.
+If the crew broke off the braid, they are heading back toward [[Aruhe - Quiet Forest Cutoff Lip]], the river, the terrace line, the beach, or [[Uncertainty]], or a flyer is in hawk sky, plus any RAW conditions already applied. Rebuild from that. The mark can still sit on the locked quarry.
 
-If the crew broke off the trail, they are heading back toward the night camp, the otter hole, the river, the terrace line, the beach, or [[Uncertainty]], or a flyer is in hawk sky, plus any RAW conditions already applied. Rebuild from that. The mark can still sit on the locked quarry.
+> [!narration] Landing — Inland prints
+> The packed prints still keep this inland strand toward the nearer smoke. You see morning on the trunks. The wood forks off the line stay those forks.
 
-> [!narration] Landing
-> The packed prints still keep this forest-edge trail toward the nearer smoke. You see morning on the trunks. The woods off the line stay those woods.
->
-> You are already heading back toward last night's camp, the river, the terrace line, the beach, or Uncertainty. This edge-trail sits behind you.
->
+> [!narration] Landing — Return downstream
+> You are already heading back toward last night's lip, the river, the terrace line, the beach, or Uncertainty. This braid sits behind you.
+
+> [!narration] Landing — Hawk sky
 > You are already in hawk sky over this valley. Morning wind has this height.
->
 
-**Crash-landed.** That crew member still has 2d6 bludgeoning already applied and is Prone until they stand.
+**Crash-landed.** That crew member still has `2d6` bludgeoning already applied and is **Prone** until they stand.
 
 > [!narration] Crash-landed
-> You are still down on this forest-edge trail. You feel packed dirt and leaf at ground height until you stand.
->
+> You are still down on this packed strand. You feel packed dirt and leaf at ground height until you stand.
 
 **Scattered.** That crew member is still apart until they join up.
 
 > [!narration] Scattered
-> You are still apart on this edge. You see trunks or brush in the gap until you join up.
->
+> You are still apart on this braid. You see trunks or brush in the gap until you join up.
 
-**Prone.** Anyone knocked down on this trail is Prone until they stand.
+**Prone.** Anyone knocked down on this braid is **Prone** until they stand.
 
-**Grappled.** Anyone still Grappled by the [[Aruhe - Deerstalker]] at a break is still Grappled (escape DC 14) until they escape or it drops them.
+**Grappled.** Anyone still **Grappled** by the [[Aruhe - Deerstalker]] at a break is still **Grappled** (escape `DC 16`) until they escape or it drops them.
 
-**[[Aruhe - Razer-Grass]].** Anyone shoved through or Shatter-dumped in the island has that damage already applied.
-
-Do not run the hazards table, the night watch, or the farthest camp here. After this trail is used, do not roll the hazards table on this stretch again. This is the same [[Aruhe - Deerstalker]].
+Do not run the hazards table, the night watch, or the farthest camp here. After this braid is used, do not roll the hazards table on this stretch again. This is the same [[Aruhe - Deerstalker]].
 
 ## Roster
 
 ![[Aruhe - Deerstalker#Statblock]]
 
 > [!narration] Deer-Stalker
-> A deer-tall body stands in the downslope stems, shaggy coat and branching antlers filling the gap between trunks, long forelimbs ending in blood-marked claws. You see a pale muzzle and forward-set eyes that do not blink, hips hitching a beat late, and you smell blood on that coat. You hear the help-call come from that same space, the word still looping.
->
+> A deer-tall body stands in the wood-fork stems, shaggy coat and branching antlers filling the gap between trunks, long forelimbs ending in blood-marked claws. You see a pale muzzle and forward-set eyes that do not blink, hips hitching a beat late, and you smell blood on that coat. You hear the help-call come from that same space, the word still looping.
 
-![[Aruhe - Deerstalker#At the table]]
+![[Aruhe - Deerstalker#Tactics]]
 
 ## Backup
 
-[[Aruhe - Deerstalker]] · [[Aruhe - Cutoff Lip]] · [[Session-11-06-Night-Watch]] · [[Session-11-00-Angry-Birds]] · [[Aruhe - Grasslands]]
+[[Aruhe - Quiet Forest Print Braid]] · [[Aruhe - Deerstalker]] · [[Taking on Aruhe]] · [[Aruhe - Quiet Forest Cutoff Lip]] · [[Aruhe - Quiet Forest]] · [[Aruhe - Grasslands]] · [[Aruhe - River]] · [[Aruhe - Stonepear]] · [[Aruhe - Giant's Guava]] · [[Aruhe - Ghost Plum]] · [[Aruhe-River-Grasslands-Tables]] · [[Session-11-06-Night-Watch]] · [[Session-11-08-Farthest-Camp]] · [[Session-11-00-Angry-Birds]]
