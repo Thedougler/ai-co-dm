@@ -8,6 +8,8 @@ visibility: dm
 tags: [hazard, aruhe, fauna]
 ---
 
+![[attachments/shattered-sea/hazards/aruhe-unsaid-macaw.png]]
+
 > [!narration] Narration
 > Healthy bright clear-eyed macaws eat fruit, nuts, and occasional shellfish along orchards and lake margins. A bird speaks in a listener's own voice, repeating words that were almost said. Flocks teach phrases until later speech is hard to tell from old flock-talk.
 
