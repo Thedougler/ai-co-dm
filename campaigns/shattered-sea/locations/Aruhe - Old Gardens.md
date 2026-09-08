@@ -58,7 +58,7 @@ Miles of ancient terraces run inland from [[Aruhe - Beach|Western Landing]], hum
 - [[Vine Lash|Vine Lashes]] hang among ordinary rope-vines over the trail lanes.
 - [[Young Snakewood]] hunts the first terraces from connected low branches. Adults live farther in.
 - Hot blooms: unnamed flowers holding several mature [[Aruhe - Grubnade|Grubnades]]. Predators walk around any bloom that ticks.
-- [[Aruhe - Black Lotus]] grows among the old terrace flowers, feeding on ambient magic and stored spell energy. Smaller disturbed blooms may detonate as Spellburst Blooms.
+- [[Aruhe - Black Lotus]] grows among the old terrace flowers, feeding on ambient magic and stored spell energy. Smaller disturbed blooms may detonate as [[Aruhe - Lesser Black Lotus|Spellburst Blooms]].
 - [[Aruhe - Unsaid Macaw]]: Orchard edges. **Wisdom save — `DC 12`** → Speak one truthful sentence about the surfaced thought.
 - [[Aruhe - Redheart Berry]] hangs in dozens on the terraces; fallen berries can be foraged from the wet stone.
 - [[Aruhe - Giant's Guava]] follows the tree line inland, with low branches that can be picked.
