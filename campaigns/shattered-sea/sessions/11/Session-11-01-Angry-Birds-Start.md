@@ -15,13 +15,7 @@ cssclasses: [session-surface]
 
 The crew drops into eight-foot grass and moving water, crash-lands in the terrace woods, or forces the beach. This is not a fight to the death with the adult [[Aruhe - Bloodhawk]] or the [[Aruhe - Crown Squid]].
 
-This beat is thirty minutes.
-
-**If behind:** Skip saving the squid. Keep the dive aimed at the squid, then land the crew in grass and river.
-
-**If ahead:** Still end on grass and river, a crash, or the beach. Do not start beat 2's sign-reading or the hazards table. Diverting the adult Bloodhawk for two threat beats lets the squid reach dense inland canopy.
-
-## L0 · Glance
+## At a Glance
 
 - **Stakes:** Land in the grass, or take hits in this air.
 - **Goal / exit:** A quiet drop into grass and moving water.
@@ -29,15 +23,7 @@ This beat is thirty minutes.
 - **Silence:** Present the dive, then wait. If the crew freezes, tick the clock once at the end of the round.
 - **Situation magnets:** Anyone still in High air. Anyone who attacks, flares, or screams.
 
-## Now
-
 The crew is 60 feet up over the old terraces. The [[Aruhe - Crown Squid]] is 30 feet ahead at the same height, bracing through the last trees. An adult [[Aruhe - Bloodhawk]] is already dropping out of the sun onto that squid. Grass and river cover lie 60 feet straight down. A Dash of 60 feet from High air reaches that grass. A normal move of 30 feet does not. The beach and [[Uncertainty]] are 60 feet of open sky toward the ship. The adult Bloodhawk flies 120 feet.
-
-## DM truth
-
-The adult [[Aruhe - Bloodhawk]] is hunting the [[Aruhe - Crown Squid]]. The crew is not the chosen meal unless the crew makes itself one.
-
-**Unrevealed:** The adult Bloodhawk will follow the squid down. It will also take a player who draws that attention. It does not care about the beach, the ship, or the night's later story.
 
 ### Action cards
 
@@ -54,31 +40,23 @@ The [[Aruhe - Crown Squid]] is fleeing through the last trees. It is not a secon
 >
 > What do you do?
 
-## Battlemap
-
-![[attachments/shattered-sea/battlemaps/session-11-01-angry-birds-base.png|Session 11-01 Angry Birds battlemap]]
-
-![[attachments/shattered-sea/creatures/bloodhawk-of-aruhe.jpg|Bloodhawk of Aruhe]]
-
-![[attachments/shattered-sea/creatures/great-crown-squid-of-aruhe-01.jpg|Great Crown Squid of Aruhe]]
-
 ## Procedure
 
 **Escape mode.** After everyone has acted, if anyone remains exposed (high, loud, or obvious), tick once. Freeze still ticks once. **Combat mode:** if the party commits to killing the adult [[Aruhe - Bloodhawk]], stop the clock and run the embedded Bloodhawk statblock.
 
 ## Zones
 
-| Place | Distance from the crew | Cover | Narration |
-| --- | --- | --- | --- |
-| High air | Here. 60 feet up over the old terraces. | No cover. Sun-glare and steady wind. Nothing breaks the line between the crew and the hawk. | _You hang in the open hunt lane with sun-glare in your eyes and steady wind pushing across your body. The terrace woods and river are a long drop below. Up here, no branch or grass breaks the line between you and the hawk._ |
-| Last trees | 30 feet ahead, same height. The [[Aruhe - Crown Squid]] is here. | Thin roof of mangrove and old terrace crown. Branches sit low and open enough for the adult hawk to keep its dive. | _Ahead of you, the last trees make a thin roof of mangrove and old terrace crown. The squid's bark-dark arms are already spread across that roof, its violet mantle barely loading the wood, while hooked lines trail down through the leaves. The branches sit low and open enough for the diving hawk to keep its line. Leaves snap and shake under both bodies._ |
-| Terrace woods | 30 feet down. Old gardens, mangroves, and stone. | Thin catch among broken steps, fruit, and algae-green channels. More landing mess than hiding place. | _Thirty feet down, stacked garden stone and mangrove roots make a rough catch below the thin crowns. Broken steps, split orange fruit, tight red berry clusters along the terrace lips, and algae-green channels crowd the ground. Warm sugar-sour air rises from the wet stone. The eight-foot grass is still farther below._ |
-| Grass and river | 60 feet straight down. Eight-foot grass and moving water. | This grass hides a standing body. The adult [[Aruhe - Bloodhawk]] will not follow into it. | _Straight down, gold-green grass stands eight feet high along a clear river, its blades leaning where the current presses through pale stone. You hear water pulling through the stems, and you smell warm wet earth from the cut. A standing body could vanish inside that grass._ |
-| Beach / [[Uncertainty]] | 60 feet of open sky toward the ship. | Exposed. The hunt still crosses that air. | _Toward the beach, empty sky runs all the way to the short shingle and [[Uncertainty]] on the water, hull and rigging sharp in the salt wind. You smell the sea from that direction. Nothing breaks the air between here and the ship._ |
+| Place                                                               | Distance from the crew                                           | Cover                                                                                                              | Narration                                                                                                                                                                                                                                                                                                                                                           |
+| ------------------------------------------------------------------- | ---------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| High air                                                            | Here. 60 feet up over the old terraces.                          | No cover. Sun-glare and steady wind. Nothing breaks the line between the crew and the hawk.                        | _You hang in the open hunt lane with sun-glare in your eyes and steady wind pushing across your body. The terrace woods and river are a long drop below. Up here, no branch or grass breaks the line between you and the hawk._                                                                                                                                     |
+| Last trees                                                          | 30 feet ahead, same height. The [[Aruhe - Crown Squid]] is here. | Thin roof of mangrove and old terrace crown. Branches sit low and open enough for the adult hawk to keep its dive. | _Ahead of you, the last trees make a thin roof of mangrove and old terrace crown. The squid's bark-dark arms are already spread across that roof, its violet mantle barely loading the wood, while hooked lines trail down through the leaves. The branches sit low and open enough for the diving hawk to keep its line. Leaves snap and shake under both bodies._ |
+| [[Aruhe - The Mangroves\|Mangroves]]                                | 30 feet down. Old gardens, mangroves, and stone.                 | Thin catch among broken steps, fruit, and algae-green channels. More landing mess than hiding place.               | _Thirty feet down, stacked garden stone and mangrove roots make a rough catch below the thin crowns. Broken steps, split orange fruit, tight red berry clusters along the terrace lips, and algae-green channels crowd the ground. Warm sugar-sour air rises from the wet stone. The eight-foot grass is still farther below._                                      |
+| [[Aruhe - Grasslands\|Grasslands]] and [[Aruhe - River\|The River]] | 60 feet straight down. Eight-foot grass and moving water.        | This grass hides a standing body. The adult [[Aruhe - Bloodhawk]] will not follow into it.                         | _Straight down, gold-green grass stands eight feet high along a clear river, its blades leaning where the current presses through pale stone. You hear water pulling through the stems, and you smell warm wet earth from the cut. A standing body could vanish inside that grass._                                                                                 |
+| [[Aruhe - Beach\|Aruhe Beach]] / [[Uncertainty]]                    | 60 feet of open sky toward the ship.                             | Exposed. The hunt still crosses that air.                                                                          | _Toward the beach, empty sky runs all the way to the short shingle and [[Uncertainty]] on the water, hull and rigging sharp in the salt wind. You smell the sea from that direction. Nothing breaks the air between here and the ship._                                                                                                                             |
 
 ## Be ready for
 
-| Intent | Approach | DC | Success | Partial | Failure |
+| Intent                                       | Approach                                                                               | DC                                                                   | Success                                                                                                                                                       | Partial                                                                                                                                      | Failure                                                                                                                                                                                                                                 |
 | -------------------------------------------- | -------------------------------------------------------------------------------------- | -------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | Assess the situation                         | **Wisdom (Nature)** or **Wisdom (Perception)**                                         | `DC 12`                                                              | The adult [[Aruhe - Bloodhawk]] is hunting the [[Aruhe - Crown Squid]], not the crew.                                                                         | The looker gets that, but spends the round at it.                                                                                            | The looker wastes the round watching.                                                                                                                                                                                                   |
 | Escape the hunt                              | **Dexterity (Stealth)**, or no roll if the crew reaches grass and river this round     | `DC 14`, or no roll (a 60-foot Dash from High air reaches the grass) | The crew lands in grass and river. The adult [[Aruhe - Bloodhawk]] stays on the [[Aruhe - Crown Squid]].                                                      | The crew reaches grass and river after the adult [[Aruhe - Bloodhawk]] uses Beak (+13 to hit, 28 piercing) on one still-exposed crew member. | The crew is still visible in High air.                                                                                                                                                                                                  |
@@ -107,7 +85,7 @@ If the adult [[Aruhe - Bloodhawk]] is diverted for **two** threat beats, the [[A
 
 ## Landing
 
-The crew is in moving water and eight-foot grass, or crash-landed or scattered in Terrace woods. On this same bank the crew can already see tracks and, inland in this valley, a thin column of smoke. Beat 2 is [[Session-11-02-Landing-Sign-Run]]. Do not run Survival checks or the hazards table here.
+The crew is in moving water and eight-foot grass, or crash-landed or scattered in Terrace woods. On this same bank the crew can already see tracks and, inland in this valley, a thin column of smoke. Beat 2 is [[Session-11-02-Landing-Sign]]. Do not run Survival checks or the hazards table here.
 
 > [!narration] Landing
 > You come down in moving water with gold-green grass standing over your head. The clear river pulls at the stems around you, and mud sucks at the bank where fresh prints have already cut through it. Inland, up the valley, a thin column of smoke rises above the grass.
@@ -128,12 +106,18 @@ The crew is in moving water and eight-foot grass, or crash-landed or scattered i
 
 > [!narration] Bloodhawk
 > The adult charcoal hawk folds four crimson-black wings into a narrow falling body over the squid in the last trees. Its gold eye stays fixed on the violet mantle below it while the pale hook and rowboat talons open together. The buffet from its dive slaps the last leaves flat.
+> 
+![[attachments/shattered-sea/creatures/bloodhawk-of-aruhe.jpg|Bloodhawk of Aruhe]]
 
 ![[Aruhe - Crown Squid#Statblock]]
 
 > [!narration] Great Crown Squid
 > Thirty feet ahead, the great squid braces through the last trees, a house-sized clear mantle swollen with pale violet light. Bark-dark arms take separate trunks while thinner hooked lines hang toward the floor, and one eye turns inside the crown as the hawk's shadow crosses it.
-
+> 
+![[attachments/shattered-sea/creatures/great-crown-squid-of-aruhe-01.jpg|Great Crown Squid of Aruhe]]
 ## Backup
 
 [[Aruhe - Old Gardens]] · [[Aruhe - Grasslands]] · [[Aruhe - River]] · [[Aruhe - Beach]] · [[Uncertainty]] · [[Session-11-00-Angry-Birds]] · [[Aruhe-River-Grasslands-Tables]]
+## Battlemap
+
+![[attachments/shattered-sea/battlemaps/session-11-01-angry-birds-base.png|Session 11-01 Angry Birds battlemap]]

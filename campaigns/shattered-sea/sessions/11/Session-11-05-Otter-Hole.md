@@ -12,7 +12,7 @@ cssclasses: [session-surface]
 
 ## Scene ends when
 
-The crew takes the bloody-bank detour around [[Aruhe - River Slack Basin]] (hand toward beat 6 / [[Aruhe - Cutoff Lip]]), or the crew fights or loots in this basin and then leaves, or the crew breaks off the trail. This is the claimed stretch. It is not a hazards-table result, not night watch, and not the deer-stalker.
+The crew takes the bloody-bank detour around [[Aruhe - River Slack Basin]] (hand toward beat 6 / [[Aruhe - Quiet Forest Cutoff Lip]]), or the crew fights or loots in this basin and then leaves, or the crew breaks off the trail. This is the claimed stretch. It is not a hazards-table result, not night watch, and not the deer-stalker.
 
 This beat is thirty minutes.
 
@@ -130,14 +130,14 @@ Do not spawn wolfrabbits, a hazards-table result, night watch, or the deer-stalk
 
 ## Landing
 
-If the crew takes the bloody-bank detour around this hole, they are on [[Aruhe - Cutoff Lip]] toward the smoke. Hand to beat 6. Do not start the deer-stalker here.
+If the crew takes the bloody-bank detour around this hole, they are on [[Aruhe - Quiet Forest Cutoff Lip]] toward the smoke. Hand to beat 6. Do not start the deer-stalker here.
 
-If the crew fought or looted in this hole and then left, they are still toward the smoke on [[Aruhe - Cutoff Lip]], plus any RAW conditions already applied. Hand to beat 6. Do not start the deer-stalker here.
+If the crew fought or looted in this hole and then left, they are still toward the smoke on [[Aruhe - Quiet Forest Cutoff Lip]], plus any RAW conditions already applied. Hand to beat 6. Do not start the deer-stalker here.
 
 If the crew broke off the trail, they are heading downstream through the valley toward [[Aruhe - River Line Bank|Line Bank]], the terrace line, the beach, or [[Uncertainty]], or a flyer is in hawk sky, plus any RAW conditions already applied. Rebuild from that.
 
 > [!narration] Landing — Bloody-bank detour
-> You leave this hole on the bloody-bank prints. Grass closes first, then tree-shadow, as the track climbs onto [[Aruhe - Cutoff Lip]]. The line of living feet keeps going toward the smoke.
+> You leave this hole on the bloody-bank prints. Grass closes first, then tree-shadow, as the track climbs onto [[Aruhe - Quiet Forest Cutoff Lip]]. The line of living feet keeps going toward the smoke.
 
 > [!narration] Landing — Return downstream
 > You are already headed downstream through the grass, toward the used fruiting margin, the terrace line, the beach, or Uncertainty. The slack basin sits behind you.
@@ -172,4 +172,4 @@ Do not run the hazards table, night watch, or the deer-stalker here. After this 
 
 ## Backup
 
-[[Aruhe - River Slack Basin]] · [[Aruhe - Cutoff Lip]] · [[Aruhe - River Otter]] · [[Taking on Aruhe]] · [[Aruhe - River Line Bank]] · [[Aruhe - Grasslands]] · [[Aruhe-River-Grasslands-Tables]] · [[Session-11-04-What-They-Ate]] · [[Session-11-00-Angry-Birds]]
+[[Aruhe - River Slack Basin]] · [[Aruhe - Quiet Forest Cutoff Lip]] · [[Aruhe - River Otter]] · [[Taking on Aruhe]] · [[Aruhe - River Line Bank]] · [[Aruhe - Grasslands]] · [[Aruhe-River-Grasslands-Tables]] · [[Session-11-04-What-They-Ate]] · [[Session-11-00-Angry-Birds]]

@@ -236,4 +236,4 @@ Do not run the hazards table, the [[Aruhe - Deerstalker]], [[Talon Vantyrus]], o
 
 ## Backup
 
-[[Session-11-08-Farthest-Camp-Run]] · [[Session-11-00-Angry-Birds]] · [[Crissdalynn Khinriss]] · [[Talon Skarn]] · [[Fate Spinner]] · [[Uncertainty]] · [[Aruhe - Memorial Grove]] · [[Talon Vantyrus]]
+[[Session-11-08-Farthest-Camp]] · [[Session-11-00-Angry-Birds]] · [[Crissdalynn Khinriss]] · [[Talon Skarn]] · [[Fate Spinner]] · [[Uncertainty]] · [[Aruhe - Memorial Grove]] · [[Talon Vantyrus]]

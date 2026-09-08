@@ -57,7 +57,7 @@ bonus_actions:
 
 ## Behavior
 
-**Habitat.** Aruhe River Otters hold [[Aruhe - River|the Long Reach]] and [[Aruhe - Clear Lake|the clear lake]], especially the open cuts where bank, shallows, and deep water let the family watch both land and current. [[Aruhe - Slack Basin]] is one such cut. They keep the water gin-clear on purpose by culling grazers, dropping shade-trees, and patrolling the banks.
+**Habitat.** Aruhe River Otters hold [[Aruhe - River|the Long Reach]] and [[Aruhe - Clear Lake|the clear lake]], especially the open cuts where bank, shallows, and deep water let the family watch both land and current. [[Aruhe - River Slack Basin]] is one such cut. They keep the water gin-clear on purpose by culling grazers, dropping shade-trees, and patrolling the banks.
 
 **Behavior.** They play first: rope, oars, ankles, trailing packs, and a [[Aruhe - Deerstalker|deerstalker's]] antlered head can all become tug toys in the shallows. Entering the water is treated as joining the game, and responding to play teaches the family a new game.
 

@@ -13,7 +13,7 @@ cssclasses: [session-surface]
 
 ## Scene ends when
 
-The [[Aruhe - Spiguar]] has a wolfrabbit and the remaining pack breaks off [[Aruhe - Torn Crossing]], and the crew can keep the upriver prints (hand to beat 4), or the crew breaks: back into the river and downstream (the hunt holds the bank), or a crew member takes open valley air (hawk sky). This is the fight. Someone can go down here. It is not a fight to the death with the channel cat, and it is not beat 4's fruit piles.
+The [[Aruhe - Spiguar]] has a wolfrabbit and the remaining pack breaks off [[Aruhe - Grasslands Torn Crossing]], and the crew can keep the upriver prints (hand to beat 4), or the crew breaks: back into the river and downstream (the hunt holds the bank), or a crew member takes open valley air (hawk sky). This is the fight. Someone can go down here. It is not a fight to the death with the channel cat, and it is not beat 4's fruit piles.
 
 This beat is thirty minutes.
 
@@ -29,7 +29,7 @@ This beat is thirty minutes.
 - **Silence:** Present the hunt, then wait. If the crew freezes in the grass, tick the clock once at the end of the round.
 - **Situation magnets:** Anyone isolated, bleeding, standing in the grass, loud, or striking the [[Aruhe - Spiguar]]. Flyers leave this hunt for hawk sky.
 
-The crew is on [[Aruhe - Torn Crossing]], just off [[Aruhe - River Landing Bank]], standing on the flood-torn muddy corridor. The river is 10 feet at their backs. Three [[Aruhe - Wolfrabbit]] are already in a 30-foot jump at mid-height through this corridor, flushed toward the crew. The [[Aruhe - Spiguar]] is 20 feet off the path in the gold grass, already on a fourth striped body. A pale [[Aruhe - Razer-Grass]] island stands 15 feet left in the scour. Two more pale stands sit 25 feet right in the grass. Bank-woods stand 40 feet inland. The upriver prints continue 30 feet beyond the leaping pack, then off this stretch toward the smoke. The smoke is a thin column on the horizon up-valley and does not get closer while this is happening. Wolfrabbit speed is 50 feet. Spiguar speed is 60 feet. A 30-foot move stays on this stretch: river, nearest razer island, or still in the grass. A Dash of 60 feet reaches the bank-woods or follows the prints off this stretch. A Dash does not reach the beach, the smoke, or the terraces. Crash-landed crew starts **Prone** until they stand.
+The crew is on [[Aruhe - Grasslands Torn Crossing]], just off [[Aruhe - River Landing Bank]], standing on the flood-torn muddy corridor. The river is 10 feet at their backs. Three [[Aruhe - Wolfrabbit]] are already in a 30-foot jump at mid-height through this corridor, flushed toward the crew. The [[Aruhe - Spiguar]] is 20 feet off the path in the gold grass, already on a fourth striped body. A pale [[Aruhe - Razer-Grass]] island stands 15 feet left in the scour. Two more pale stands sit 25 feet right in the grass. Bank-woods stand 40 feet inland. The upriver prints continue 30 feet beyond the leaping pack, then off this stretch toward the smoke. The smoke is a thin column on the horizon up-valley and does not get closer while this is happening. Wolfrabbit speed is 50 feet. Spiguar speed is 60 feet. A 30-foot move stays on this stretch: river, nearest razer island, or still in the grass. A Dash of 60 feet reaches the bank-woods or follows the prints off this stretch. A Dash does not reach the beach, the smoke, or the terraces. Crash-landed crew starts **Prone** until they stand.
 
 ## DM truth
 
@@ -88,7 +88,7 @@ If a crew member takes open valley air, that crew member leaves this hunt for ha
 
 | Place | Distance from the crew | Cover | Narration |
 | --- | --- | --- | --- |
-| [[Aruhe - Torn Crossing\|This crossing]] / grass and corridor | Here. Eight-foot grass and flood-torn mud. | This grass hides a standing body, is Difficult Terrain, and heavily obscures beyond 10 feet. It is also the pack's escape lane. | _You stand in gold-green grass higher than your head on wet, cut-up ground, with a muddy corridor of crushed stems running through the middle. The stems rasp at your legs, and torn mud smells sharp underfoot._ |
+| [[Aruhe - Grasslands Torn Crossing\|This crossing]] / grass and corridor | Here. Eight-foot grass and flood-torn mud. | This grass hides a standing body, is Difficult Terrain, and heavily obscures beyond 10 feet. It is also the pack's escape lane. | _You stand in gold-green grass higher than your head on wet, cut-up ground, with a muddy corridor of crushed stems running through the middle. The stems rasp at your legs, and torn mud smells sharp underfoot._ |
 | River at their backs | 10 feet behind the crew. | Deep water is cover from this hunt. The pack and the [[Aruhe - Spiguar]] hold the bank if the crew goes downstream. | _Clear turquoise water pulls along a rocky lip behind you, pale stone showing under the current. Deep water puts a body beyond this hunt's jump._ |
 | Upriver prints | 30 feet beyond the leaping pack, then off this stretch. | The flushed pack stands between the crew and those prints until the hunt leaves. | _The line of feet continues through the grass beyond the leaping bodies, still aimed toward the smoke. The prints are on the far side of the claws._ |
 | [[Aruhe - Razer-Grass]] islands | Nearest island 15 feet left in the scour. Two more 25 feet right in the grass. | Nothing large walks through them. The pack jumps them rather than land in them. The [[Aruhe - Spiguar]] will not willingly rush them. A knockdown can dump someone into one. | _Pale blades stand waist-high, edges bright and hard, sparkles fixed instead of swaying. No trail crosses those stands. The hunters bound over them, and a light tick comes off the white stalks._ |
@@ -142,7 +142,7 @@ If Be ready for is used to pull a dragged crew member, that person is **Grappled
 
 ## Landing
 
-If the [[Aruhe - Spiguar]] keeps its wolfrabbit and the pack breaks or is driven off this stretch, the crew can keep the upriver prints. Hand to [[Aruhe - Line Bank]] and beat 4. Smoke still stands on the horizon if they stayed on the trail. Movement closes gaps.
+If the [[Aruhe - Spiguar]] keeps its wolfrabbit and the pack breaks or is driven off this stretch, the crew can keep the upriver prints. Hand to [[Aruhe - River Line Bank]] and beat 4. Smoke still stands on the horizon if they stayed on the trail. Movement closes gaps.
 
 If the crew went back into the river and downstream, they are in the river heading toward [[Aruhe - River Landing Bank]], the terrace line, the beach, and [[Uncertainty]], and the hunt holds the bank. Rebuild from retreat.
 
@@ -193,4 +193,4 @@ Do not run the hazards table, the otter hole, or beat 4's fruit piles here. Afte
 
 ## Backup
 
-[[Aruhe - Torn Crossing]] · [[Aruhe - Grasslands]] · [[Aruhe - Spiguar]] · [[Aruhe - Wolfrabbit]] · [[Aruhe - Razer-Grass]] · [[Taking on Aruhe]] · [[Aruhe-River-Grasslands-Tables]] · [[Aruhe - River Landing Bank]] · [[Session-11-02-Landing-Sign]] · [[Session-11-00-Angry-Birds]] · [[Aruhe - Young Bloodhawk]]
+[[Aruhe - Grasslands Torn Crossing]] · [[Aruhe - Grasslands]] · [[Aruhe - Spiguar]] · [[Aruhe - Wolfrabbit]] · [[Aruhe - Razer-Grass]] · [[Taking on Aruhe]] · [[Aruhe-River-Grasslands-Tables]] · [[Aruhe - River Landing Bank]] · [[Session-11-02-Landing-Sign]] · [[Session-11-00-Angry-Birds]] · [[Aruhe - Young Bloodhawk]]
