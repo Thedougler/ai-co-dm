@@ -4,67 +4,72 @@ campaign: shattered-sea
 kind: dungeon
 region: aruhe
 visibility: dm
-tags: [location, aruhe, lava-tubes, underworld]
+aliases:
+  - Lava Tubes
+tags:
+  - location
+  - aruhe
+  - lava-tubes
+  - underworld
+source: "[[Aruhe - Hungry Isle]]"
 ---
 # Lava Tubes
-
-## Art
-![[attachments/shattered-sea/places/aruhe-the-lava-tubes.jpeg]]
+![[attachments/shattered-sea/places/aruhe-the-lava-tubes.jpeg|Lava Tubes, broad basalt passages beneath Aruhe]]
+## Overview
 > [!narration] Narration
 > The lava tubes under Aruhe open as broad black basalt passages, high enough for old roots to hang through breaks in the ceiling and trail down toward the stone. Shallow water gathers across the uneven floor in dark pools and drinkable seepage, with loose rock underfoot and a tunnel mouth continuing into deeper shadow. Warm mineral air moves out of the vents in pale breaths, carrying the sound of drips and small echoes along the walls.
 
-## Battlemap
-
-![[attachments/shattered-sea/battlemaps/aruhe-lava-tubes-day.png|Aruhe Lava Tubes battlemap for Foundry VTT]]
-
+---
 ## At a glance
-An underworld of old volcanic tubes beneath Aruhe's soil, connected to basalt and vents. The tubes are not a separate island; they are the depth beneath the country-scale living surface.
+The Lava Tubes are the underworld beneath Aruhe's living surface: old volcanic passages, warm vents, root curtains, and cave routes through basalt. [[Aruhe - The Rot]] opens into them through a subsurface breach; [[Aruhe - Memorial Grove]] reaches them by a root-and-grave descent; free-flowing cave seepage can lead toward [[Aruhe - Clear Lake]]. The surface is a safer bypass. Entering commits travelers to darkness, vertical travel, uneven stone, and routes that may change when cave life or the descent is disturbed.
 
-## Five-sentence kernel
-- **Function:** A vertical route and underworld for studying Aruhe's volcanic body and hidden connections.
-- **Fantastic:** Basalt, vents, and lava tubes run under soil that supports the island's ecology.
-- **Conflict:** Surveyors want a deep route and possible anchor knowledge; cave life, darkness, and possession pressure make entry committing.
-- **Promise:** Descend, map volcanic voids, and connect surface ecology to an underground route without taking living cave life.
-- **Trajectory:** Disturbance closes or complicates the descent; careful passage reveals depth and returns to the surface through more than one boundary.
+---
+## If the party
 
-## Aspects
-`basalt depth, vents under soil, committed descent`
+- **Descend from [[Aruhe - The Rot|the Rot]]:** Use the subsurface breach as a committed route into the tubes.
+- **Descend from [[Aruhe - Memorial Grove|the Grove]]:** Follow the root-and-grave route into the underworld.
+- **Follow free-flowing cave seepage:** Reach a route toward [[Aruhe - Clear Lake|Clear Lake]]; the water is drinkable.
+- **Study basalt and vents:** Trace Aruhe's old volcanic body and its hidden connections.
+- **Follow echoes or cave signs:** Find deeper passages and signs of the cave-life roster without requiring a full dungeon or creature package.
+- **Leave living cave life unclaimed:** The fauna remains where it is, and the route stays a passage rather than a possession.
+- **Remain on the surface:** Bypass the tubes, keeping a safer route but losing volcanic and underworld information.
+- **Retreat through the entry breach:** Return before cave-life disturbance or route collapse changes the cost of the descent.
 
-## Senses
-- **Sight:** Basalt, tube walls, vents, shadow, and narrow re-emergence points.
-- **Sound:** Drips, cave echoes, wingbeats, and movement along stone.
-- **Touch / smell:** Rough volcanic rock, warm vents, damp seepage, and mineral air.
+---
+## Who
 
-## Topology
-- `[[The Rot]] -- subsurface breach --> Lava Tubes`.
-- `[[The Grove - Death Bloom]] -- root/grave descent --> Lava Tubes`.
-- `Lava Tubes -- cave seepage route (drinkable when free-flowing) --> [[Clear Lake]]`.
-- **Bypass:** Remain on the surface; safer, loses volcanic and underworld information.
-- **Retreat:** Return through the entry breach before a cave-life claim or route collapse changes the cost.
+- [[Blackrail]] owns miles of the cave road in the fiction roster; it is a 40-foot cave centipede, not a combat encounter stored here.
+- [[Glass Crickets]] occupy root wells and skylight approaches; their stillness can warn of Blackrail country.
+- [[Cave Bats]] use skylights, wells, and the lava tubes as part of the underworld food cycle.
+- Giant spiders, ordinary, use the dark passages.
+- [[Snakewood]] reaches down through the living root network rather than forming a separate subterranean flora.
 
-## Who is here
-- **Fiction only:** Blackrail (40-foot cave centipede), Glass Cricket, Cave Bat, Giant Spider (ordinary), Snakewood.
-- Free-flowing cave seepage is drinkable; living cave fauna remains where it is.
+---
+## What
 
-## Player verbs
-`descend, map, listen, study basalt, drink seepage, shelter, follow echoes, retreat, leave living things unclaimed`.
-
-## Hooks
-- Trace vents and basalt to understand the island's old volcanic body.
-- Use free-flowing cave seepage without treating the source as a possession.
-- Follow Blackrail-scale cave signs without requiring a full dungeon or creature package.
-
-## Secrets (DM)
+- Broad black basalt passages, warm mineral vents, uneven loose rock, and dark pools of shallow water.
+- Pale curtains of living root hang through breaks in the ceilings and drip water from their tips. The roots are surface forest reaching down, not a separate flora.
+- The luminous root network points back toward the sick interior and stops at the verge of the last clearing's graves.
+- Free-flowing cave seepage is drinkable. The source remains part of the living cave, not a possession.
+- Drips, wingbeats, echoes, and movement along stone make distance difficult to judge.
 - The tubes are a route through Aruhe's underworld, not proof of a hidden city or a single subterranean ruler.
 
-## Mechanics and return
-- Treat darkness, vertical travel, vents, and cave routes as honest environmental constraints; no creature mechanics are included.
-- **Return state:** entry route, map, vent/stone observations, seepage, and cave-life disturbance.
+---
+## Where
 
-## Flora ecology
-- Pale curtains of living root pass through the tube ceilings, dripping water from their tips. They are surface forest reaching down, not a separate flora.
-- The luminous root network points back toward the sick interior and stops at the verge of the last clearing's graves.
+- Subsurface breach from [[Aruhe - The Rot|the Rot]]
+- Root-and-grave descent from [[Aruhe - Memorial Grove|the Grove / Death Bloom]]
+- Cave seepage route toward [[Aruhe - Clear Lake|Clear Lake]]
+- Deeper basalt passages, vents, root wells, and narrow re-emergence points
 
-## Flora provenance
-- Existing location updated from Nick's Aruhe flora paste, 2026-09-05.
-- Legacy provenance: `/Users/nick/shattered-sea/wiki/shattered-sea/aruhe-hungry-isle/region-aruhe-the-cave.md`.
+---
+## Why
+
+- Study Aruhe's volcanic body and the hidden connections beneath its living surface.
+- Reach a committed underworld route between the Rot, the Grove, and Clear Lake.
+- Drink free-flowing cave seepage without claiming the living source.
+- Follow cave signs, echoes, and root light into a place that remains interesting even when no fight occurs.
+
+---
+## Art
+![[attachments/shattered-sea/battlemaps/aruhe-lava-tubes-day.png|Lava Tubes battlemap, basalt passages and root-lit vents]]
