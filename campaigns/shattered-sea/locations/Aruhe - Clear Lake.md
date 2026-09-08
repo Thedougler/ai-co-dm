@@ -17,27 +17,25 @@ source: "[[Aruhe - Hungry Isle]]"
 ![[attachments/shattered-sea/places/aruhe-the-clear-lake.jpeg|Clear Lake, a wide inland basin cupped by forested walls]]
 ## Overview
 > [!narration] Narration
-> Clear Lake fills a cup of steep green walls, wide enough that the far bank thins to a tree line and pale cliff scars. A shelf of black hexagonal stone steps into water so clear that schools of small fish show over round pale rocks and moss. Marsh grass and a slow brown channel gather along one side, then the color falls into deep blue. Cool wet air comes off the lake, and the stone underfoot is solid enough to drink from, walk, or keep along the shore toward the higher green.
+> The Clear Lake fills a crater of cold clear water and steep green walls, wide enough that the far bank thins to a tree line and pale cliff scars. A shelf of black hexagonal stone steps into water so clear that schools of small fish show over round pale rocks and moss. Marsh grass and a slow brown channel gather along one side, then the color falls into deep blue. Cool wet air comes off the lake, and the stone underfoot is solid enough to drink from, walk, or keep along the shore toward the higher green.
 
 ---
 ## At a glance
 Clear Lake is the inland freshwater basin at the uphill end of Aruhe's rivers. A shelf of black hexagonal stone and glass-clear shallows make drinking and camping straightforward. Otter families occupy this water. The outlet fans downhill into [[Aruhe - River]]; the marsh and stone edge continue toward [[Aruhe - Memorial Grove]]. Stay on a valley rim and the basin can be skipped; stay on the shelf and it remains water and stone.
 
 ---
-## Atmosphere
-> [!narration] Narration
-> Black hexagonal stone shelves into water so clear the bottom still shows, cold and drinkable, with schools of small fish over round pale rocks and moss. Water taps the shelf in small regular hits, and the stone is solid underfoot, slick where moss holds. Marsh grass and a brown channel hold one bank, insects working the reeds, the ground giving into mud. The far shore thins to trees and pale scars in the steep green walls.
-
----
 ## If the party
 
-- **Splash and be noisy:** otters notice, engage with them and they will start playing. **DC 15** *Animal Handling*: stop the game or get a toy back. **DC 14** *Strength or Dexterity save*: keep yanked gear.
-- **Follow marsh or shore toward higher green:** [[Aruhe - Memorial Grove]]. **DC 10** *Acrobatics*: keep feet on moss-slick stone.
+- **Splash and be noisy:** Otters notice, engage, and start playing.
+  - **Wisdom (Animal Handling) — `DC 15`** → Stop the game or get a toy back.
+  - **Strength or Dexterity save — `DC 14`** → Keep yanked gear.
+- **Follow marsh or shore toward higher green:** [[Aruhe - Memorial Grove]].
+  - **Dexterity (Acrobatics) — `DC 10`** → Keep feet on moss-slick stone.
 - **Follow the outlet downhill:** [[Aruhe - River]].
-- **Listen for the harp in the surrounding woods:** **DC 15** *Perception*: hear it from the shelf.
-- **Identify fruit on the stem:** **DC 15** *Nature*.
-- **Take fruit already on the ground:** **DC 10** *Survival*.
-- **Catch fish:** **DC 10** *Survival*.
+- **Wisdom (Perception) — `DC 15`** → Hear the harp in the surrounding woods from the shelf.
+- **Intelligence (Nature) — `DC 15`** → Identify fruit on the stem.
+- **Wisdom (Survival) — `DC 10`** → Take fruit already on the ground.
+- **Wisdom (Survival) — `DC 10`** → Catch fish.
 ---
 ## Who
 
@@ -46,7 +44,7 @@ Clear Lake is the inland freshwater basin at the uphill end of Aruhe's rivers. A
 ## What
 
 -  [[Aruhe River Otter|River Otters]]: Anything entering the water near the marshy shoreline, invites becoming an unwilling playmate of the otters. 
--  [[Unsaid Macaw]]: Nesting trees along the lake edges. **DC 12** *Wisdom save*: speak one truthful sentence about the surfaced thought.
+-  [[Unsaid Macaw]]: Nesting trees along the lake edges. **Wisdom save — `DC 12`** → Speak one truthful sentence about the surfaced thought.
 -  [[Lion Citrus]] grows around the edges
 -  [[Quickeye Berry]] grows in abundance along the marshy shoreline. 
 -  [[Breathmelon]] orchards line one edge near the marsh, nearly lifting there trees out of the ground. 
