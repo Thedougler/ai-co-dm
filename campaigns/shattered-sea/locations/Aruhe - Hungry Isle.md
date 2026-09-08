@@ -33,8 +33,8 @@ Aruhe is a vast untamed island in the eastern [[Midchain]]: about 500 miles end 
   - **Intelligence (Nature) — `DC 15`** → Name the adjoining band and the safer edge.
   - Failure → The next region is still there; the party spends time confirming it on foot.
 - **Land at the known sea approach:** [[Aruhe - Beach|Western Landing]].
-- **Approach the southern green wall from the sea:** [[Aruhe - The Mangroves]] look like seams of water and are not a landing.
-- **Follow inland from the terraces:** [[Aruhe - Old Gardens]].
+- **Approach the southern green wall from the sea:** [[Aruhe - The Mangroves|the Mangroves]] look like seams of water and are not a landing.
+- **Follow inland from the terraces:** [[Aruhe - Old Gardens|the Old Gardens]].
 - **Take a living thing:** Surrounding life converges, hostile. [[Taking on Aruhe]]
 - **Take any living thing:** Surrounding life converges, hostile. [[Taking on Aruhe]]
 
@@ -43,14 +43,14 @@ Aruhe is a vast untamed island in the eastern [[Midchain]]: about 500 miles end 
 
 Aruhe has no known state, town, road network, or visible settled population. The current people on the island are scattered survivors from the Calveno raid, storm-thrown Grung raiders, and anyone still moving inland after the wrecks. Two raid survivors are aboard [[Uncertainty]], and more remain somewhere in the interior. They report that roughly a hundred to a hundred and fifty people came ashore after the raid ships broke, most are already dead, the landing is failing, fruit and island plants can kill, open-water fishing seemed safer, and Grung are treated as hostile by the island.
 
-[[The Blight|Hinewai]] is joined to Aruhe as pressure, grief, and preservation, not as a ruler or hive mind. Her walking form and memorial are in [[Aruhe - Memorial Grove]]. The island's plants and animals still act from their own niches and claims. They may respond to taking, trespass, hunger, fear, or opportunity, but they are not controlled bodies or minions.
+[[The Blight|Hinewai]] is joined to Aruhe as pressure, grief, and preservation, not as a ruler or hive mind. Her walking form and memorial are in [[Aruhe - Memorial Grove|Memorial Grove]]. The island's plants and animals still act from their own niches and claims. They may respond to taking, trespass, hunger, fear, or opportunity, but they are not controlled bodies or minions.
 
 ---
 ## What
 
 Aruhe is an old volcanic island, about five hundred miles end to end, with green slopes, crater water, shore reef, basalt shelves, vents, and lava tubes. It is not a wasteland or a place of scarcity. It is familiar life with its limits loosened: growth, healing, adaptation, reproduction, feeding, and rot continue past normal ecological checks. The result is a real place whose living systems have become excessive and dangerous, not one monster wearing the shape of an island.
 
-The clearest physical pattern is the root network. Pale, luminous roots run wrist-thick to thigh-thick from the shelf above [[Aruhe - Clear Lake]], through [[Aruhe - The Marshes]], and into both unmarked graves in [[Aruhe - Memorial Grove]]. In [[Aruhe - Lava Tubes]], the surface forest reaches down as root curtains. A wrecked raiding hull sits above the tideline at [[Aruhe - Beach|Western Landing]], marking the known entry point and the collapse of the Calveno raid landing.
+The clearest physical pattern is the root network. Pale, luminous roots run wrist-thick to thigh-thick from the shelf above [[Aruhe - Clear Lake|Clear Lake]], through [[Aruhe - The Marshes|the Marshes]], and into both unmarked graves in [[Aruhe - Memorial Grove|Memorial Grove]]. In [[Aruhe - Lava Tubes|the lava tubes]], the surface forest reaches down as root curtains. A wrecked raiding hull sits above the tideline at [[Aruhe - Beach|Western Landing]], marking the known entry point and the collapse of the Calveno raid landing.
 
 Aruhe distinguishes between receiving and taking. Fallen fruit and genuine offerings can be accepted without triggering the island's hostility. A living claim is different: taking fruit from a branch, cutting living growth, trapping an animal, or treating the island as property draws aligned local life into response. [[Taking on Aruhe]] is the reference for adjudicating those claims.
 
