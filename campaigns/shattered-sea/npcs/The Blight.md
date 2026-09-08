@@ -29,7 +29,7 @@ Hinewai took the old druid bargain past its breaking point: she fused soul and b
 
 If her walking form is cut down while the memorial stands, she reforms at the tree in a handful of days. Strike the tree and she weakens with it. Ruin the Death Bloom — the tree, both graves, ring, bound soil, and ritual relationship — and she stays dead permanently. The Grove does not explode when it fails: wind returns, stasis loosens, and the island changes over weeks, months, and years. See [[Aruhe - Memorial Grove]].
 
-Luminous roots run from the shelf above [[Aruhe - Clear Lake]] through [[Aruhe - The Rot]], wrist-thick to thigh-thick, all pointing home. No root crosses either grave. Her companion's grave is the reason; her own is the mechanism.
+Luminous roots run from the shelf above [[Aruhe - Clear Lake]] through [[Aruhe - The Marshes]], wrist-thick to thigh-thick, all pointing home. No root crosses either grave. Her companion's grave is the reason; her own is the mechanism.
 
 ## Hook, look, and voice
 Most of Hinewai is gone. What remains is hatred of Grung and invaders, love of living things, love of Aruhe, and love for the man she carried uphill. She may not remember her own name. Concrete verbs still fit her mouth: `take, break, cut, kill, carry, eat, drink, leave, return, grow, feed`.
@@ -55,7 +55,7 @@ Love did not cool in Hinewai; it metastasized. She loved life so hard that growt
 - [[Taking on Aruhe]]: take a living thing and animals attack.
 - [[Karath]]: captor island and source of her enduring hatred.
 - [[Grung and the Making of Aruhe]]: DM history of the crime and its aftermath.
-- [[Aruhe - Clear Lake]] / [[Aruhe - The Rot]]: lakeward shelf and root direction home.
+- [[Aruhe - Clear Lake]] / [[Aruhe - The Marshes]]: lakeward shelf and root direction home.
 
 ## Resources
 Can meet guests calmly, explain the memorial in fragments, weaken when the tree is struck, return from bodily destruction while the Bloom stands, and make the island's ecological agreement legible. No combat math belongs in this ingest note; fight mechanics remain with Monster-Brewer.

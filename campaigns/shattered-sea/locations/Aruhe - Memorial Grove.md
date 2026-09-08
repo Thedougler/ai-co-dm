@@ -28,7 +28,7 @@ A clearing roughly 150 feet across where Aruhe's appetite stops. One fruit tree 
 - **Trajectory:** Leave the Bloom and its ten-year stillness endures; ruin it and Hinewai stays dead while the country slowly releases itself.
 
 ## Approach and senses
-Luminous roots run through [[Aruhe - The Rot]] from the shelf above [[Aruhe - Clear Lake]], pointing home. In the clearing the roots stop at both graves. The air is sweet with rot that will not finish. Flowers stay open. Fruit hangs at the ripeness it had the hour Hinewai laid her companion down. Wind does not cross the grass while the memorial holds.
+Luminous roots run through [[Aruhe - The Marshes]] from the shelf above [[Aruhe - Clear Lake]], pointing home. In the clearing the roots stop at both graves. The air is sweet with rot that will not finish. Flowers stay open. Fruit hangs at the ripeness it had the hour Hinewai laid her companion down. Wind does not cross the grass while the memorial holds.
 
 Predators gather at the tree line: terror-birds, walking deadwood, Crown Squid, upright deer, and other established fauna. They do not hunt, graze, posture, or cross. They are mourners, not a hive mind.
 
@@ -60,7 +60,7 @@ If the Bloom is left intact, return in ten years finds the same ripe fruit, open
 ## Topology
 - `[[Aruhe - Grasslands]] -- open route --> The Grove / Death Bloom`.
 - `[[Clear Lake]] -- shore/watercourse route --> The Grove / Death Bloom`.
-- `[[The Rot]] -- decay route --> The Grove / Death Bloom`.
+- `[[Aruhe - The Marshes]] -- wet/decay route --> The Grove / Death Bloom`.
 - `The Grove / Death Bloom -- root/grave route --> [[Lava Tubes]]`.
 - **Bypass:** Circle the Grove and lose its restraint and origin clues.
 - **Retreat:** Return by water or grassland without taking or disturbing the memorial.

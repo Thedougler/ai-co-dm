@@ -77,7 +77,7 @@ Ambusher/controller, standard adult at CR 6. The 60-foot reach and restraint are
 - **Constrict / External Digestion:** choose immediate damage or a limited sap clock, not both as free riders.
 
 ## Terrain / friends
-Quiet / Rot canopy. Adults live farther in so they do not replace the vine lashes on the first terraces. Clonal stems cross trunks and branches; the plant is strongest where it has continuous vegetation and weakest over a clean gap.
+Quiet / Marshes / mangrove canopy. Adults live farther in so they do not replace the vine lashes on the first terraces. Clonal stems cross trunks and branches; the plant is strongest where it has continuous vegetation and weakest over a clean gap.
 
 ## Running notes
 - **Opening tell and preferred position:** motionless in connected canopy, with a clear 60-foot lane to an isolated target.

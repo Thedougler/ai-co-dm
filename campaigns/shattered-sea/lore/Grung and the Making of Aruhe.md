@@ -30,7 +30,7 @@ The dump-authoritative autobiography belongs to the DM layer. Hinewai carries th
 
 ## Linked
 - People: [[The Blight]] / Hinewai · [[The Unnamed Companion]]
-- Places: [[Aruhe - Hungry Isle]] · [[Aruhe - Memorial Grove]] · [[Aruhe - Clear Lake]] · [[Karath]] · [[Aruhe - The Rot]]
+- Places: [[Aruhe - Hungry Isle]] · [[Aruhe - Memorial Grove]] · [[Aruhe - Clear Lake]] · [[Karath]] · [[Aruhe - The Marshes]] · [[Aruhe - The Mangroves]]
 - Faction: [[Grung clans]]
 - Lore: [[Taking on Aruhe]]
 

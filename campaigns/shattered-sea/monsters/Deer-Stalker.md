@@ -86,7 +86,7 @@ reactions:
 This Meal (quarry lock) · Borrowed Voice · Snatch from the Dim · Lost Nerve (retreats from crowds)
 
 ## Terrain / friends
-Quiet → Rot; Grasslands cover. Skirts [[Razer-Grass]] and [[Grubnade]]. Yields carcasses to Bear-Elk / Terror-Bird. Different horror from [[Great Crown Squid]] (pursuit vs canopy selection).
+Quiet → Marshes; Grasslands cover. Skirts [[Razer-Grass]] and [[Grubnade]]. Yields carcasses to Bear-Elk / Terror-Bird. Different horror from [[Great Crown Squid]] (pursuit vs canopy selection).
 
 ## Loot / aftermath
 Interrupted kill site; sweet rot; nothing worth keeping.

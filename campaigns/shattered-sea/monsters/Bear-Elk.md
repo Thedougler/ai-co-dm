@@ -53,7 +53,7 @@ bonus_actions:
 **Tactic:** fixed daily beat along scored trees; seldom needs to eat. **Tell:** elk rack on bear chest, luminous sap on antlers, pale pupil-less eyes.
 
 ## Terrain / friends
-Quiet–Rot boundary. Terror-birds yield; squid/bloodhawk take from above/sky.
+Quiet–Marshes boundary. Terror-birds yield; squid/bloodhawk take from above/sky.
 
 ## Canon ecology - living stock ingest
 - Bigger than a draft horse and low-wide, with an elk rack on a bear's chest, pale pupil-less eyes, and faint luminous sap dripping from its antlers. It runs a fixed daily beat along scored trees and rarely needs to eat. [[Terror-Bird|Terror-birds]] step aside; [[Great Crown Squid]] takes it from above; [[Bloodhawk]] takes it in a cut of open sky.

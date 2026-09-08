@@ -44,16 +44,16 @@ actions:
 # Corpsewood
 
 > [!narration] Narration
-> A forty-foot dead tree walks the deep Rot on dragging roots. Split bark knits with wet wood fibers as it moves. Fresh breaks close until fire leaves a black scar that will not knit.
+> A forty-foot dead tree walks the deep Marshes on dragging roots. Split bark knits with wet wood fibers as it moves. Fresh breaks close until fire leaves a black scar that will not knit.
 
 
 ## At the table
-**Tactic:** patrol the deep Rot like a dead tree that refuses to stay broken; drag roots through the line, slam anything that blocks the beat, and uproot the ground when surrounded. **Tell:** split bark knits visibly until fire blackens the seams.
+**Tactic:** patrol the deep Marshes like a dead tree that refuses to stay broken; drag roots through the line, slam anything that blocks the beat, and uproot the ground when surrounded. **Tell:** split bark knits visibly until fire blackens the seams.
 
 ## Fiction signature
 - **Fantasy:** a forty-foot dead tree walking on dragging roots.
 - **Signature:** every impact tears it apart, then the wood knits back together unless fire interrupts it.
-- **Goal:** keep its seasonal patrol through the deep Rot and clear anything from the beat.
+- **Goal:** keep its seasonal patrol through the deep Marshes and clear anything from the beat.
 - **Fear:** fire and open ground outside the tree line.
 - **Counterplay:** apply fire to suppress regeneration, kite its 20-foot speed, leave the corrupted ground, and spread out before Uproot.
 - **Proof:** fresh breaks close with wet wood fibers; fire leaves an obvious black, unknitting scar until the next turn.
@@ -67,7 +67,7 @@ Bruiser/patrol, standard CR 12. Its strong axes are HP, regeneration, and three 
 - **Fire-gated knitting:** the encounter's central defense tell, not a hidden bonus.
 
 ## Terrain / friends
-Deep Rot, always near the tree line. It follows a seasonal beat and does not leave the forest. Silence moths, thornbacks, or ordinary Rot terrain can create movement problems, but the corpsewood should remain the obvious durable target rather than gain a pile of immunities.
+Deep Marshes, always near the tree line. It follows a seasonal beat and does not leave the forest. Silence moths, thornbacks, or ordinary marsh terrain can create movement problems, but the corpsewood should remain the obvious durable target rather than gain a pile of immunities.
 
 ## Running notes
 - **Opening tell and preferred position:** forty feet of split deadwood crossing the patrol line; the first visible hit begins a seam that closes unless fire is used.
@@ -78,7 +78,7 @@ Deep Rot, always near the tree line. It follows a seasonal beat and does not lea
 - **Revision knobs:** if it is a bag of hit points, lower HP by 20 and add a clear patrol objective; if its damage is too high, make Uproot a full action rather than part of Multiattack before reducing Slam damage.
 
 ## Canon ecology - living stock ingest
-- A dead tree walks: forty feet of split bark and dragging roots. It patrols deep [[Aruhe - The Rot]] on a seasonal beat and never leaves the tree line. Fire is the one thing that stops it knitting itself back together. The wood died years ago; what moves it did not.
+- A dead tree walks: forty feet of split bark and dragging roots. It patrols deep [[Aruhe - The Marshes]] on a seasonal beat and never leaves the tree line. Fire is the one thing that stops it knitting itself back together. The wood died years ago; what moves it did not.
 
 ## Design notes
 - **Path:** variant/revision, not a full redesign; the bruiser and patrol identity stay, while the defense is narrowed and the fire tell is made observable.

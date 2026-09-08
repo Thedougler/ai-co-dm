@@ -21,12 +21,12 @@ source: "[[Aruhe - Hungry Isle]]"
 
 ---
 ## At a glance
-The Lava Tubes are the underworld beneath Aruhe's living surface: old volcanic passages, warm vents, root curtains, and cave routes through basalt. [[Aruhe - The Rot]] opens into them through a subsurface breach; [[Aruhe - Memorial Grove]] reaches them by a root-and-grave descent; free-flowing cave seepage can lead toward [[Aruhe - Clear Lake]]. The surface is a safer bypass. Entering commits travelers to darkness, vertical travel, uneven stone, and routes that may change when cave life or the descent is disturbed.
+The Lava Tubes are the underworld beneath Aruhe's living surface: old volcanic passages, warm vents, root curtains, and cave routes through basalt. [[Aruhe - The Marshes]] opens into them through a subsurface breach; [[Aruhe - Memorial Grove]] reaches them by a root-and-grave descent; free-flowing cave seepage can lead toward [[Aruhe - Clear Lake]]. The surface is a safer bypass. Entering commits travelers to darkness, vertical travel, uneven stone, and routes that may change when cave life or the descent is disturbed.
 
 ---
 ## If the party
 
-- **Descend from [[Aruhe - The Rot|the Rot]]:** Use the subsurface breach as a committed route into the tubes.
+- **Descend from [[Aruhe - The Marshes|the Marshes]]:** Use the subsurface breach as a committed route into the tubes.
 - **Descend from [[Aruhe - Memorial Grove|the Grove]]:** Follow the root-and-grave route into the underworld.
 - **Cross an exposed loose-rock section:**
   - **Dexterity (Acrobatics) — `DC 10`** → Keep footing and continue to the next stable shelf.
@@ -68,7 +68,7 @@ The Lava Tubes are the underworld beneath Aruhe's living surface: old volcanic p
 ---
 ## Where
 
-- Subsurface breach from [[Aruhe - The Rot|the Rot]]
+- Subsurface breach from [[Aruhe - The Marshes|the Marshes]]
 - Root-and-grave descent from [[Aruhe - Memorial Grove|the Grove / Death Bloom]]
 - Cave seepage route toward [[Aruhe - Clear Lake|Clear Lake]]
 - Deeper basalt passages, vents, root wells, and narrow re-emergence points
@@ -77,7 +77,7 @@ The Lava Tubes are the underworld beneath Aruhe's living surface: old volcanic p
 ## Why
 
 - Study Aruhe's volcanic body and the hidden connections beneath its living surface.
-- Reach a committed underworld route between the Rot, the Grove, and Clear Lake.
+- Reach a committed underworld route between the Marshes, the Grove, and Clear Lake.
 - Drink free-flowing cave seepage without claiming the living source.
 - Follow cave signs, echoes, and root light into a place that remains interesting even when no fight occurs.
 

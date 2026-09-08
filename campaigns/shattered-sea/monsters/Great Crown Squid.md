@@ -100,7 +100,7 @@ Escape is geography (open grass, deep water, low cover), not a DPS race. It hunt
 4. **Mouth-Blind Zone** — safest place is horrifyingly close under the beak.
 
 ## Terrain / friends
-Prime: Quiet canopy. Oldest: Rot. Avoids open Grasslands and deep otter water. River Otters are an ecological boundary. Fleeing into grass trades this for Terror-Bird territory.
+Prime: Quiet canopy. Oldest: Marshes and mangrove roof. Avoids open Grasslands and deep otter water. River Otters are an ecological boundary. Fleeing into grass trades this for Terror-Bird territory.
 
 ## Loot / aftermath
 Sucker scars 70 ft up; polished antler with no carcass; prey tracks that end going **up**. No treasure expected.
@@ -115,7 +115,7 @@ Sucker scars 70 ft up; polished antler with no carcass; prey tracks that end goi
 ## Canon ecology - living stock ingest
 - Sixty to eighty feet of rubbery mantle and eight working arms carry a forest of finer lines that can reach another eighty to a hundred feet. The mantle is a gas bag: living, it barely loads the trees; dead, it weighs tons.
 - It flows through the canopy like a jumping spider the size of a house, skin matching bark until a principal eye rolls inside the clear head to look. That eye-roll is the tell before it watches a trail, selects an isolated target, hooks an ankle, and lifts.
-- It likes a chase but will not deliberately enter open grassland or occupied river water. Juveniles sometimes work the upper terraces; the oldest sit heavier in [[Aruhe - The Rot]], where food is easy. A shredded sixty-foot vine hanging from a branch is its leftover, not a [[Snakewood]] kill.
+- It likes a chase but will not deliberately enter open grassland or occupied river water. Juveniles sometimes work the upper terraces; the oldest sit heavier in [[Aruhe - The Marshes]], where food is easy, and can use mangrove roof that walkers cannot reach. A shredded sixty-foot vine hanging from a branch is its leftover, not a [[Snakewood]] kill.
 
 ## Provenance
 Wiki `creature.aruhe-crown-squid` (provisional). Upgraded: Hookline to-hit aligned to +13; Rip Through moved off 2-cost legendary onto Recharge to match 2024 1-cost LA pattern.

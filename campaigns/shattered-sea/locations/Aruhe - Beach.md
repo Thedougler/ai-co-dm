@@ -15,6 +15,7 @@ tags:
 source: "[[Aruhe - Hungry Isle]]"
 ---
 # Western Landing
+![[attachments/shattered-sea/places/aruhe-western-landing-alternative-map-view.jpg|Alternative aerial map view of Aruhe's beach and western landing edge]]
 ## Overview
 > [!narration] Narration
 > Western Landing is a jagged coral reef about half a mile offshore; at low tide the teeth show, and one boat gap leads to a short shingle beach that takes only minutes to cross end to end. Elsewhere the coast is cliffs, coves, or beaches trapped behind reef. Surf works the coral and salt spray carries over loose stone.
@@ -49,7 +50,7 @@ Western Landing is Aruhe's known sea approach and retreat edge: a jagged reef, o
 
 - Jagged coral reef about half a mile offshore, with teeth exposed at low tide and one boat gap through the western rim.
 - A short shingle beach takes only minutes to cross end to end. Loose stone, surf, and sharp coral make the landing a boundary rather than a neutral beach.
-- Elsewhere the coast is cliffs, coves, or beaches trapped behind reef; the boat gap is the known usable approach.
+- Elsewhere the coast is cliffs, coves, or beaches trapped behind reef; the southern mangrove wall is not a landing. The boat gap is the known usable approach.
 - Reef movement, hull strain, surf on coral, salt spray, and wet stone make the approach legible before the party commits.
 - Giant sharks, giant crabs, Bloodhawks, and [[Reef Skull|Reef Skulls]] make the reef and shingle a landing problem without requiring reef-fauna mechanics here.
 - A loose stone or shed shell can mark the route. A living claim draws surrounding life into hostility. [[Taking on Aruhe]]
@@ -72,8 +73,5 @@ Western Landing is Aruhe's known sea approach and retreat edge: a jagged reef, o
 
 ---
 ## Art
-![[attachments/shattered-sea/places/aruhe-western-landing-alternative-map-view.jpg|Alternative aerial map view of Aruhe's beach and western landing edge]]
-
-This overhead reference is map/source art, not a measured battlemap, and does not replace the established reef gap, short shingle beach, or route topology above.
 
 ![[attachments/shattered-sea/battlemaps/aruhe-western-landing-battlemap.jpg|Western Landing battlemap, reef gap and short shingle beach]]

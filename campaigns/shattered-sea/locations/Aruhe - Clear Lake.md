@@ -21,7 +21,7 @@ source: "[[Aruhe - Hungry Isle]]"
 
 ---
 ## At a glance
-Clear Lake is the inland freshwater basin at the uphill end of Aruhe's rivers. A shelf of black hexagonal stone and glass-clear shallows make drinking and camping straightforward. Otter families occupy this water. The outlet fans downhill into [[Aruhe - River]]; the marsh and stone edge continue toward [[Aruhe - Memorial Grove]]. Stay on a valley rim and the basin can be skipped; stay on the shelf and it remains water and stone.
+Clear Lake is the inland freshwater basin at the uphill end of Aruhe's rivers. A shelf of black hexagonal stone and glass-clear shallows make drinking and camping straightforward. Otter families occupy this water. The outlet fans downhill into [[Aruhe - River]]; the marshy southern shore becomes [[Aruhe - The Marshes]]; the marsh and stone edge also continue toward [[Aruhe - Memorial Grove]]. Stay on a valley rim and the basin can be skipped; stay on the shelf and it remains water and stone.
 
 ---
 ## If the party
@@ -65,9 +65,10 @@ Clear Lake is the inland freshwater basin at the uphill end of Aruhe's rivers. A
 ---
 ## Where
 
-- Directly feeds the [[Aruhe - River|River]] 
-- Borders with [[Aruhe - Quiet Forest|The Forest]]
-- Marshy shoreline borders the [[Aruhe - The Rot|The Mangroves]]
+- Directly feeds the [[Aruhe - River|River]]
+- Borders with [[Aruhe - Quiet Forest|the Quiet]]
+- Marshy southern shore into [[Aruhe - The Marshes|the Marshes]]
+- Marsh and stone edge toward [[Aruhe - Memorial Grove|the Grove]]
 ---
 ## Why
 

@@ -23,16 +23,16 @@ source: "[[Aruhe - Hungry Isle]]"
 
 ---
 ## At a glance
-The Quiet is rainforest above the last terrace of [[Aruhe - Old Gardens]], where small life has been eaten out. The silence is that absence, not hidden birds. Sight dies in a few paces. A green route returns along the terrace edge; the silence boundary continues into [[Aruhe - The Rot]]. Stay on the terrace or grassland edge and the Quiet can be skipped; stay under the roof and it remains trunks, game trails, and no small sound.
+The Quiet is rainforest above the last terrace of [[Aruhe - Old Gardens]], where small life has been eaten out. The silence is that absence, not hidden birds. Sight dies in a few paces. A green route returns along the terrace edge; the silence boundary continues into [[Aruhe - The Marshes]]. Stay on the terrace or grassland edge and the Quiet can be skipped; stay under the roof and it remains trunks, game trails, and no small sound.
 
 ---
 ## If the party
 
 - **Follow the green route back:** [[Aruhe - Old Gardens]].
-- **Follow the silence boundary:** [[Aruhe - The Rot]].
+- **Follow the silence boundary:** [[Aruhe - The Marshes]].
 - **Stay on a terrace or grassland edge:** The Quiet can be skipped.
 - **Walk a game trail pinched through stone:** A single [[Strangler Fig]] may fill the bottleneck with hanging roots and a hollow trunk.
-- **Walk the Quiet-to-Rot trails and sunbreaks:** [[Stillbloom]] stands where green first goes black at the leaf edge.
+- **Walk the Quiet-to-Marshes trails and sunbreaks:** [[Stillbloom]] stands where green first goes black at the leaf edge.
   - **Wisdom (Perception) — `DC 14`** → Launch-spines, punctured carcasses, odd scavenger paths.
   - **Intelligence (Nature) or Wisdom (Survival) — `DC 14`** → It reads vibration. Slow movement is safe. Watching scavengers for 1 minute teaches this without a roll.
   - Move 10 feet or less on a turn, or fly without touching the root mat: the needles do not fire.
@@ -46,29 +46,29 @@ The Quiet is rainforest above the last terrace of [[Aruhe - Old Gardens]], where
 ## Who
 
 - [[Great Crown Squid]] hunts the Quiet canopy. It avoids open grass and deep otter water.
-- [[Deer-Stalker|Deer-Stalkers]] work the Quiet floor into the Rot. Meeting is a carcass interrupt.
+- [[Deer-Stalker|Deer-Stalkers]] work the Quiet floor into the Marshes. Meeting is a carcass interrupt.
 - [[Thornback|Thornbacks]] root the Quiet floor, solitary. Spent spines litter the trails they shove open. Two in one stretch fight each other first.
-- [[Bear-Elk]] run scored-tree beats on the Quiet–Rot boundary. [[Terror-Bird|Terror-birds]] step aside.
+- [[Bear-Elk]] run scored-tree beats on the Quiet–Marshes boundary. [[Terror-Bird|Terror-birds]] step aside.
 
 ---
 ## What
 
 - Small life is gone. No insect-saw, no bird chatter. Ordinary warning signs that depend on that life are missing. [[Unsaid Macaw|Unsaid Macaws]] do not belong here.
 - [[Strangler Fig|Strangler Figs]] sit singly where packed game trails pinch between stone. Aerial roots hang in curtains; old bones show in the hollow trunk.
-- [[Snakewood]] adults live in the Quiet and Rot canopy, farther in than the first terraces.
-- [[Stillbloom]] begins on the Quiet-to-Rot trails and sunbreaks, not in open valleys.
-- [[Silence Moths]]: Sail-sized clouds at dusk and dawn on Rot and Grove approaches through the trees. The jungle goes quiet ahead of them, then the cloud fills a mouth. Fire drives them off; they will not follow anyone out of the trees.
+- [[Snakewood]] adults live in the Quiet and Marshes canopy, farther in than the first terraces.
+- [[Stillbloom]] begins on the Quiet-to-Marshes trails and sunbreaks, not in open valleys.
+- [[Silence Moths]]: Sail-sized clouds at dusk and dawn on Marshes and Grove approaches through the trees. The jungle goes quiet ahead of them, then the cloud fills a mouth. Fire drives them off; they will not follow anyone out of the trees.
 - Quiet leaves may show neat bites and five-foot scorch rings from [[Grubnade|Grubnades]]. The hot blooms themselves are primary in [[Aruhe - Old Gardens]].
 - [[Stonepear]] is common beneath the roof.
 - [[Giant's Guava]] is common here.
 - [[Ghost Plum]] is uncommon.
-- [[Whisper Fig]] is uncommon here and along the Rot edge.
+- [[Whisper Fig]] is uncommon here and along the Marshes edge.
 
 ---
 ## Where
 
 - Green route from [[Aruhe - Old Gardens|the Old Gardens]]
-- Silence boundary into [[Aruhe - The Rot|the Rot]]
+- Silence boundary into [[Aruhe - The Marshes|the Marshes]]
 - Lateral channels with [[Aruhe - River|the River]]
 - Borders [[Aruhe - Clear Lake|Clear Lake]]
 
@@ -77,7 +77,7 @@ The Quiet is rainforest above the last terrace of [[Aruhe - Old Gardens]], where
 
 - Cover and a sheltered heading inland from the terraces.
 - Fruit under the roof.
-- The silence itself is the boundary clue toward the Rot.
+- The silence itself is the boundary clue toward the Marshes.
 
 ---
 ## Art

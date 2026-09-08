@@ -26,13 +26,13 @@ Genuinely beneficial — no secret poison. Plucking living fruit from Aruhe draw
 
 ## Charges / limits
 - One fruit, one use.
-- Uncommon in the Quiet and along the Rot edge, where quiet minutes gather.
+- Uncommon in the Quiet and along the Marshes edge, where quiet minutes gather.
 
 ## Story hooks
 Mind-signal fruit for a silent negotiation, a hidden route, or a conversation the party was not meant to hear. The quiet around the eater is its tell.
 
 ## Provenance
-Quiet/Rot-edge fig. Pale vein-like flesh carries a short-lived mind-signal, a familiar plant network pushed into telepathy by the Blight.
+Quiet/Marshes-edge fig. Pale vein-like flesh carries a short-lived mind-signal, a familiar plant network pushed into telepathy by the Blight.
 
 ## Identification
 DC 13 Nature/Medicine (1 min): broad mental-sensing function. DC 15 or *Identify*: *detect thoughts* effects for 10 minutes, save DC 13, no Concentration.

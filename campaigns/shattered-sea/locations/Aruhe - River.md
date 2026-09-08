@@ -22,14 +22,14 @@ source: "[[Aruhe - Hungry Isle]]"
 
 ---
 ## At a glance
-The rivers draining [[Aruhe - Clear Lake]] braid through Aruhe and cut across the island's bands. They are the best road, and they are occupied: the fast clear water belongs to [[Aruhe River Otter|River Otter]] families. Follow the current downhill or the water uphill toward the lake. Lateral channels reach [[Aruhe - Grasslands]], [[Aruhe - The Rot]], and [[Aruhe - Quiet Forest]]. Stay on a bank and the channel can be skipped; enter the water and it is otter play.
+The rivers draining [[Aruhe - Clear Lake]] braid through Aruhe and cut across the island's bands. They are the best road, and they are occupied: the fast clear water belongs to [[Aruhe River Otter|River Otter]] families. Follow the current downhill or the water uphill toward the lake. Lateral channels reach [[Aruhe - Grasslands]], [[Aruhe - The Marshes]], and [[Aruhe - Quiet Forest]]. Stay on a bank and the channel can be skipped; enter the water and it is otter play.
 
 ---
 ## If the party
 
 - **Drink from free-flowing water:** The water is drinkable.
 - **Follow the water uphill:** [[Aruhe - Clear Lake]].
-- **Follow a lateral channel:** [[Aruhe - Grasslands]], [[Aruhe - The Rot]], or [[Aruhe - Quiet Forest]].
+- **Follow a lateral channel:** [[Aruhe - Grasslands]], [[Aruhe - The Marshes]], or [[Aruhe - Quiet Forest]].
 - **Travel on the water:** Hours-scale where navigable. Current, rapids, deep pools, and otter families make it dangerous.
 - **Walk the grassland bank:** Eight-foot blades and rim predators. [[Terror-Bird|Terror-Birds]] end a hunt if prey hits deep grass, water, or [[Razer-Grass]].
 - **Walk the jungle bank:** Root curtains, drops, and things that hang above the water. Cover traded for vertical threat.
@@ -66,7 +66,7 @@ The rivers draining [[Aruhe - Clear Lake]] braid through Aruhe and cut across th
 ## Where
 
 - Outlet fans from [[Aruhe - Clear Lake|Clear Lake]]
-- Lateral channels into [[Aruhe - Grasslands|the Grasslands]], [[Aruhe - The Rot|the Rot]], and [[Aruhe - Quiet Forest|the Quiet]]
+- Lateral channels into [[Aruhe - Grasslands|the Grasslands]], [[Aruhe - The Marshes|the Marshes]], and [[Aruhe - Quiet Forest|the Quiet]]
 - Grassland bank lower and open; jungle bank a wall of leaves and roots
 
 ---
