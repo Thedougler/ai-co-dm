@@ -103,14 +103,14 @@ or cost.
 
 ### 6. Place the number
 
-Hang the test on the existing DM bullet as
-`(DC 15 Survival: catch fish this hour)`. Keep the note's layout. A *Be ready
-for* table is for `run-guide` only. Vault format is `obsidian-markdown`.
-`[!narration]` stays player-safe.
+Hang the test on the **attempt**, as `(DC 15 Survival: catch fish this hour)`.
+On a location, that is **If the party** (what they do). Who / What / Where /
+Why stay fiction and roster. A *Be ready for* table is for `run-guide` only.
+Vault format is `obsidian-markdown`. `[!narration]` stays player-safe.
 
-**Complete when:** each hung test has a *DC* and a failure meaning; player
-prose has no *DC*, save type, or unearned name; no line exists only to say a
-roll is absent.
+**Complete when:** each hung test sits on an attempt, has a *DC*, and names a
+failure meaning; roster lines have no *DC*; player prose has no *DC*, save
+type, or unearned name; no line exists only to say a roll is absent.
 
 ## Handoffs
 

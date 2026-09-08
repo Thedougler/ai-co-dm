@@ -44,11 +44,11 @@
     {
       "id": "certain-outcome-silent",
       "prompt": "On a location bullet 'Splash and be noisy: otters notice and start playing,' add the appropriate checks and saves. Entering the water always starts play.",
-      "expected_output": "The splash bullet stays fiction. Any written test is a later uncertain attempt (for example DC 15 Wisdom (Animal Handling) to stop the game, or DC 14 Strength or Dexterity save to keep yanked gear). No '(no check to start play)' or similar.",
+      "expected_output": "DCs live on If the party. Splash starting play stays fiction. Uncertain follow-ups (DC 15 Wisdom (Animal Handling) to stop the game, DC 14 Strength or Dexterity save to keep yanked gear) hang on that attempt. Who/What stay roster. No '(no check to start play)'. No checks table.",
       "expectations": [
-        "Does not annotate the splash/play-start line with no check, no roll, or no save.",
-        "Any added test has a DC and can fail.",
-        "Keeps the existing bullet layout; does not add a checks table."
+        "Puts written tests on If the party, not on Who/What roster lines.",
+        "Does not annotate play-start with no check, no roll, or no save.",
+        "Any added test has a DC and can fail; no new checks table."
       ]
     }
   ]
