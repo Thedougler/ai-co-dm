@@ -25,6 +25,7 @@ _The Blight of Aruhe_
 
 ## Art
 ![[attachments/shattered-sea/portraits/hinewai-portrait.jpg|Hinewai portrait]]
+![[attachments/shattered-sea/portraits/hinewai-moonlit-harp.png|Hinewai playing harp in the moonlit jungle]]
 
 > [!narration] Narration
 > Hinewai stands at the edge of the jungle like a woman grown from it: long black hair frames her pointed ears and cold blue eyes, while thin luminous lines branch across her face, neck, chest, and arms. Sharp teeth show between parted lips. Vines, broad leaves, and small white and tan flowers wrap her in a living dress, its roots and foliage trailing down her body.
