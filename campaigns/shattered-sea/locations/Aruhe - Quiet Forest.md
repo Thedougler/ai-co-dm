@@ -1,70 +1,84 @@
 ---
 type: location
 campaign: shattered-sea
-kind: site
+kind: region
 region: aruhe
 visibility: dm
-tags: [location, aruhe, rainforest, quiet]
+aliases:
+  - The Quiet
+  - Quiet
+  - Quiet Forest
+tags:
+  - location
+  - aruhe
+  - rainforest
+  - quiet
+source: "[[Aruhe - Hungry Isle]]"
 ---
 # The Quiet
-
-## Art
-![[attachments/shattered-sea/places/aruhe-the-quiet.jpeg]]
+![[attachments/shattered-sea/places/aruhe-the-quiet.jpeg|The Quiet, rainforest where small life has been eaten out]]
+## Overview
 > [!narration] Narration
 > Above the last terrace, the rainforest closes into trunks broader than doorways and leaves wide enough to roof a passage. A narrow game trail runs under hanging curtains of root and vine, with moss-slick stones at the edges and wet leaves pressed flat into the mud. The green is dense, but it has too little small motion in it: no insect-saw, no bird chatter, only dripping water and the soft drag of leaves against each other. Farther in, the trail darkens between the roots where the forest stops looking like cover and starts looking like a mouth.
 
-## Battlemap
-
-![[attachments/shattered-sea/battlemaps/aruhe-quiet-forest-day.png|Aruhe Quiet Forest battlemap for Foundry VTT]]
-
+---
 ## At a glance
-A rainforest region where silence is ecological: small life has been eaten out. The absence is an operational clue, not merely atmosphere.
+The Quiet is rainforest above the last terrace of [[Aruhe - Old Gardens]], where small life has been eaten out. The silence is that absence, not hidden birds. Sight dies in a few paces. A green route returns along the terrace edge; the silence boundary continues into [[Aruhe - The Rot]]. Stay on the terrace or grassland edge and the Quiet can be skipped; stay under the roof and it remains trunks, game trails, and no small sound.
 
-## Five-sentence kernel
-- **Function:** A rainforest passage that shows what predation and niche boundaries have removed.
-- **Fantastic:** Silence has a living cause; small life is absent rather than merely hidden.
-- **Conflict:** Travelers need cover and direction, while silence moths and the missing small life make ordinary shelter uncertain.
-- **Promise:** Read absence, move quietly, and learn what the forest boundary is saying.
-- **Trajectory:** Noise, possession, or prolonged rest makes the quiet disclose a less forgiving route; observation keeps the clue intact.
+---
+## If the party
 
-## Aspects
-`rainforest silence, eaten-out small life, boundary clue`
+- **Follow the green route back:** [[Aruhe - Old Gardens]].
+- **Follow the silence boundary:** [[Aruhe - The Rot]].
+- **Stay on a terrace or grassland edge:** The Quiet can be skipped.
+- **Walk a game trail pinched through stone:** A single [[Strangler Fig]] may fill the bottleneck with hanging roots and a hollow trunk.
+- **Walk the Quiet-to-Rot trails and sunbreaks:** [[Stillbloom]] stands where green first goes black at the leaf edge.
+  - **Wisdom (Perception) — `DC 14`** → Launch-spines, punctured carcasses, odd scavenger paths.
+  - **Intelligence (Nature) or Wisdom (Survival) — `DC 14`** → It reads vibration. Slow movement is safe. Watching scavengers for 1 minute teaches this without a roll.
+  - Move 10 feet or less on a turn, or fly without touching the root mat: the needles do not fire.
+  - Bolt, Dash, jump, fall, or get shoved 10 feet or more: **Dexterity save — `DC 14`** → `2d6` piercing and a spine embeds. The venom is paralytic; Exposure climbs on the owner.
+- **Take fruit under the roof:** [[Stonepear]] is common here, often before [[Terror-Bird]] ground; [[Giant's Guava]] is common, often near [[Bear-Elk]] crossing signs; [[Ghost Plum]] and [[Whisper Fig]] are uncommon. Fallen fruit is receiving. Pluck a living plant → surrounding life converges, hostile. [[Taking on Aruhe]]
+  - **Intelligence (Nature) — identify**
+    - `DC 13` → Broad function.
+    - `DC 15` or *Identify* → Exact effect.
 
-## Senses
-- **Sight:** Dense green, little small movement, and signs of larger passage.
-- **Sound:** Rainforest sound falling away into quiet.
-- **Touch / smell:** Wet leaves, close air, and soil with too few small-life disturbances.
+---
+## Who
 
-## Topology
-- `[[Old Gardens]] -- sheltered green route --> The Quiet`.
-- `The Quiet -- silence boundary --> [[The Rot]]`.
-- `The Quiet -- return by terrace edge --> [[Old Gardens]]`.
-- **Bypass:** Remain on the terrace or grassland edge; safer, less informative.
+- [[Great Crown Squid]] hunts the Quiet canopy. It avoids open grass and deep otter water.
+- [[Deer-Stalker|Deer-Stalkers]] work the Quiet floor into the Rot. Meeting is a carcass interrupt.
+- [[Thornback|Thornbacks]] root the Quiet floor, solitary. Spent spines litter the trails they shove open. Two in one stretch fight each other first.
+- [[Bear-Elk]] run scored-tree beats on the Quiet–Rot boundary. [[Terror-Bird|Terror-birds]] step aside.
 
-## Who is here
-- **Fiction only:** Silence Moths; small life has been eaten out of the rainforest.
-- Other Aruhe creatures remain possible beyond the quiet boundary; no full roster or mechanics here.
+---
+## What
 
-## Player verbs
-`listen, compare absence, move, study tracks, shelter briefly, map the boundary, retreat`.
+- Small life is gone. No insect-saw, no bird chatter. Ordinary warning signs that depend on that life are missing. [[Unsaid Macaw|Unsaid Macaws]] do not belong here.
+- [[Strangler Fig|Strangler Figs]] sit singly where packed game trails pinch between stone. Aerial roots hang in curtains; old bones show in the hollow trunk.
+- [[Snakewood]] adults live in the Quiet and Rot canopy, farther in than the first terraces.
+- [[Stillbloom]] begins on the Quiet-to-Rot trails and sunbreaks, not in open valleys.
+- [[Silence Moths]]: Sail-sized clouds at dusk and dawn on Rot and Grove approaches through the trees. The jungle goes quiet ahead of them, then the cloud fills a mouth. Fire drives them off; they will not follow anyone out of the trees.
+- Quiet leaves may show neat bites and five-foot scorch rings from [[Grubnade|Grubnades]]. The hot blooms themselves are primary in [[Aruhe - Old Gardens]].
+- [[Stonepear]] is common beneath the roof.
+- [[Giant's Guava]] is common here.
+- [[Ghost Plum]] is uncommon.
+- [[Whisper Fig]] is uncommon here and along the Rot edge.
 
-## Hooks
-- Determine what the silence has eaten without treating the missing life as a puzzle with a single named predator.
-- Use the boundary toward [[Aruhe - The Rot]] as directional evidence.
-- Test whether shelter is passage or possession before resting.
+---
+## Where
 
-## Secrets (DM)
-- “Silence” is an ecological state. It is not a hive-mind signal and does not name one master predator.
+- Green route from [[Aruhe - Old Gardens|the Old Gardens]]
+- Silence boundary into [[Aruhe - The Rot|the Rot]]
+- Lateral channels with [[Aruhe - River|the River]]
+- Borders [[Aruhe - Clear Lake|Clear Lake]]
 
-## Mechanics and return
-- Use observation and Study/Search; silence can remove ordinary warning signs without negating hearing or other capabilities.
-- **Return state:** boundary location, signs of large life, rest site, and whether the party disturbed a living thing.
+---
+## Why
 
-## Flora ecology
-- Above the last terrace riser, canopy closes over trunks too thick, shield leaves, and aerial roots hanging in curtains. Sight dies in a few paces.
-- [[Strangler Fig|Strangler Figs]] sit singly where packed game trails pinch between stone. [[Stonepear]] is common beneath the roof; [[Ghost plum]] is less common.
-- [[Stillbloom]] begins where green first goes black at the leaf edge, in game trails and sunbreaks rather than open valleys.
+- Cover and a sheltered heading inland from the terraces.
+- Fruit under the roof.
+- The silence itself is the boundary clue toward the Rot.
 
-## Flora provenance
-- Existing location updated from Nick's Aruhe flora paste, 2026-09-05.
-- Legacy provenance: `/Users/nick/shattered-sea/wiki/shattered-sea/aruhe-hungry-isle/region-aruhe-the-quiet.md`.
+---
+## Art
+![[attachments/shattered-sea/battlemaps/aruhe-quiet-forest-day.png|Quiet Forest battlemap, rainforest game trail]]
