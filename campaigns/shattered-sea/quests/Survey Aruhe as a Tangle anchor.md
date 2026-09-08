@@ -48,4 +48,4 @@ The [[Passage]] loses a needed route or anchor if Aruhe fails. Perrin's family o
 - A precise answer about passage versus possession, even if the answer is “do not anchor.”
 
 ## Linked
-[[Passage]] · [[Rattkin Runs and Black-Jaw Run]] · [[The taken 314]] · [[Taking on Aruhe]] · [[Aruhe - Great Crown Squid]]
+[[Passage]] · [[Rattkin Runs and Black-Jaw Run]] · [[The taken 314]] · [[Taking on Aruhe]] · [[Aruhe - Crown Squid]]

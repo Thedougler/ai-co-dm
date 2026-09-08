@@ -64,7 +64,7 @@ The Marshes begin along the wet southern shore of [[Aruhe - Clear Lake|Clear Lak
 ---
 ## Who
 
-- [[Aruhe - Great Crown Squid]] move through the lower canopy, using flooded openings where prey cannot easily sprint away. The oldest sit heavier here, where food is easy.
+- [[Aruhe - Crown Squid]] move through the lower canopy, using flooded openings where prey cannot easily sprint away. The oldest sit heavier here, where food is easy.
 - [[Aruhe - Deerstalker|Deer-Stalkers]] use the firmer animal paths and root ridges from the Quiet floor.
 - [[Corpsewood]] patrols the deep tree line on a seasonal beat and never leaves the forest.
 - [[Snakewood]] grows heavily here, with branches crossing above waterways that appear open from below.

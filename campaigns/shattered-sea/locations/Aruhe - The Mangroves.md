@@ -53,7 +53,7 @@ The Mangroves are the southern end of [[Aruhe - The Marshes|the Marshes]], where
 ---
 ## Who
 
-- [[Aruhe - Great Crown Squid]] can move through sections of the upper mangrove canopy that are effectively inaccessible to anything walking below.
+- [[Aruhe - Crown Squid]] can move through sections of the upper mangrove canopy that are effectively inaccessible to anything walking below.
 - [[Snakewood]] uses branches directly above channels, where travelers watch the water instead of the roof.
 - Flying predators hunt openings in the canopy and tidal gaps. [[Aruhe - Bloodhawk|Bloodhawks]] will not stoop closed canopy or put a foot in this water.
 - Insects occur in numbers beyond nuisance: biting flies, mosquitoes, midges, beetles, stinging colonies, and parasites fill different layers of the forest.

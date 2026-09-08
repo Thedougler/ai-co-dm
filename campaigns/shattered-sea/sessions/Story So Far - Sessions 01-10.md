@@ -117,7 +117,7 @@ At last they reached Aruhe, the Hungry Isle.
 
 They pulled two survivors aboard. A hundred to a hundred fifty people had come off the raid ships. Most were dead. The island was taking the rest. Taking fruit or island things had gotten people killed. Ocean fishing seemed safer. The Grung were hunted hardest, which did not make the place merciful. It only meant the island had preferences.
 
-Delmar, Jean-Claude, Crissdalynn, and Perrin went onto the terraces. They found wolfrabbits. They found fruit marked with blood and skulls. They found at least six dead nearby. Jean-Claude killed a spore plant, and then the water below answered with something worse: a [[Aruhe - Great Crown Squid]] rising from beneath, striking Delmar, trying to take people for itself. They escaped by illusion and flight. The squid stopped at the tree line and remained in the water, watching from the edge of its own law.
+Delmar, Jean-Claude, Crissdalynn, and Perrin went onto the terraces. They found wolfrabbits. They found fruit marked with blood and skulls. They found at least six dead nearby. Jean-Claude killed a spore plant, and then the water below answered with something worse: a [[Aruhe - Crown Squid]] rising from beneath, striking Delmar, trying to take people for itself. They escaped by illusion and flight. The squid stopped at the tree line and remained in the water, watching from the edge of its own law.
 
 So *Uncertainty* stayed mobile instead of anchoring close.
 

@@ -8,7 +8,8 @@ source: house (rough draft and image concept 2026-09-08)
 visibility: dm
 tags: [monster, aruhe, grasslands]
 ---
-
+# Spiguar
+![[attachments/shattered-sea/creatures/spiguar-of-aruhe.png|Spiguar of Aruhe]]
 ## Statblock
 
 ```statblock
@@ -82,18 +83,3 @@ bonus_actions:
 
 **Aftermath.** A Spiguar kill site shows only a brief struggle in the open and a much uglier one in the grass beyond: a pounced lane, blood on seed heads, a drag trail vanishing under bent reeds, and a feeding hollow hidden far enough from the path that the next traveler may miss it until the smell arrives.
 
-## Running Notes
-
-This is a grassland ambusher that uses a living mantle and explosive pounce to isolate prey, fears denied cover, and gives players counterplay through fire, height, open ground, water, tight formation, and reading the grass before entering it. The visible proof is the wrong stillness: a clump that does not sway right, a trail that stops, or grass that falls quiet around a bend.
-
-**Reference gate.** The rough draft is a full house monster. The chassis is kept near other Aruhe CR 11 predators: [[Aruhe - Bear-Elk]] for same-CR durability and charge pressure, [[Aruhe - Bloodhawk]] for same-CR isolation play, and [[Aruhe - Deerstalker]] for ambusher counterplay. Public 2024/2025 monster-building references support treating CR 11 as high tier-3 pressure with meaningful damage, readable weaknesses, and a three-round action loop instead of stacked defenses.
-
-**Three-round script.** Round 1: hidden approach, Claw pounce, Saber Bite if the target falls, then Drag Through Grass if a grapple sticks. Round 2: Multiattack against the isolated target or Cloaking Crouch if cover and line of sight matter more. Round 3: drag, release, or circle for a new pounce depending on whether the party denies grass cover. Routine damage is lower than a pure bruiser, but burst, forced rescue, and sightline collapse carry the encounter.
-
-## Art
-
-![[attachments/shattered-sea/creatures/spiguar-of-aruhe.png|Spiguar of Aruhe]]
-
-## Provenance
-
-Nick rough draft and supplied image, 2026-09-08. Integrated as Aruhe life with the brakes removed; the Blight pressures the ecology but does not ride or command the animal.

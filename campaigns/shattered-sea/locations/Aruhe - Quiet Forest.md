@@ -45,7 +45,7 @@ The Quiet is rainforest above the last terrace of [[Aruhe - Old Gardens]], where
 ---
 ## Who
 
-- [[Aruhe - Great Crown Squid]] hunts the Quiet canopy. It avoids open grass and deep otter water.
+- [[Aruhe - Crown Squid]] hunts the Quiet canopy. It avoids open grass and deep otter water.
 - [[Aruhe - Deerstalker|Deer-Stalkers]] work the Quiet floor into the Marshes. Meeting is a carcass interrupt.
 - [[Aruhe - Thornback|Thornbacks]] root the Quiet floor, solitary. Spent spines litter the trails they shove open. Two in one stretch fight each other first.
 - [[Aruhe - Bear-Elk]] run scored-tree beats on the Quiet–Marshes boundary. [[Aruhe - Terror-Bird|Terror-birds]] step aside.

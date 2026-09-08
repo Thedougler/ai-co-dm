@@ -20,8 +20,8 @@ cssclasses: [session-surface]
 >
 > At [[Aruhe - Hungry Isle|Aruhe]], the Hungry Isle, you pulled two survivors aboard. A hundred to a hundred fifty had come off the raid ships. Most are dead. The island is taking the rest. Taking fruit or island things got people killed. Ocean fishing seemed safer. The Grung were hunted hardest.
 >
-> Delmar, [[Jean-Claude Tabarnack|Jean-Claude]], [[Crissdalynn Khinriss|Crissdalynn]], and [[Perrin Black-Jaw|Perrin]] went onto the terraces. They found [[Aruhe - Wolfrabbit|wolfrabbits]], fruit with blood and skulls, and at least six dead nearby. After Jean-Claude killed a spore plant, a [[Aruhe - Great Crown Squid]] came from below, hit Delmar, and tried to take people. You escaped with illusion and flight. The squid stopped at the tree line and stayed in the water. You kept *Uncertainty* mobile instead of anchoring close. Two survivors are aboard. Inland people are still inland. The island is still hungry.
+> Delmar, [[Jean-Claude Tabarnack|Jean-Claude]], [[Crissdalynn Khinriss|Crissdalynn]], and [[Perrin Black-Jaw|Perrin]] went onto the terraces. They found [[Aruhe - Wolfrabbit|wolfrabbits]], fruit with blood and skulls, and at least six dead nearby. After Jean-Claude killed a spore plant, a [[Aruhe - Crown Squid]] came from below, hit Delmar, and tried to take people. You escaped with illusion and flight. The squid stopped at the tree line and stayed in the water. You kept *Uncertainty* mobile instead of anchoring close. Two survivors are aboard. Inland people are still inland. The island is still hungry.
 
 ## Highlights
 
-[[Shepherd Grigori]] warned that [[Talon Vantyrus]] had sent a ship for the [[Fate Spinner]]. You left that ship listing and fled. At [[Aruhe - Hungry Isle|Aruhe]] you took two survivors, met a [[Aruhe - Great Crown Squid]] on the terraces, and kept *[[Uncertainty]]* mobile.
+[[Shepherd Grigori]] warned that [[Talon Vantyrus]] had sent a ship for the [[Fate Spinner]]. You left that ship listing and fled. At [[Aruhe - Hungry Isle|Aruhe]] you took two survivors, met a [[Aruhe - Crown Squid]] on the terraces, and kept *[[Uncertainty]]* mobile.

@@ -56,7 +56,7 @@ The rivers draining [[Aruhe - Clear Lake]] braid through Aruhe and cut across th
 
 - The water is gin-clear because the otters tend it: they cull grazers, drop shade-trees, and patrol the banks. Concentrated fish, submerged growth, and unnaturally quiet insect life mark a tended reach.
 - Three learnable rules: entering the water is participating; what comes from the river belongs to the family; responding to play teaches a new game.
-- They play with a [[Aruhe - Deerstalker|deer-stalker's]] antlered head in the shallows after a meal. They will not haul a kill onto [[Aruhe - Razer-Grass]], sniff a [[Aruhe - Grubnade]] and leave it, and pull against a [[Aruhe - Great Crown Squid]] line that trails into occupied water.
+- They play with a [[Aruhe - Deerstalker|deer-stalker's]] antlered head in the shallows after a meal. They will not haul a kill onto [[Aruhe - Razer-Grass]], sniff a [[Aruhe - Grubnade]] and leave it, and pull against a [[Aruhe - Crown Squid]] line that trails into occupied water.
 - [[Aruhe - Redheart Berry]] grows beside the grassland bank, where fallen berries can be foraged from the shallows.
 - [[Aruhe - Ghost Plum]] hangs from wet roots on the jungle bank, close enough to pick where the current leaves a foothold.
 - [[Aruhe - Razer-Grass]] islands stand at river bends and flood-scoured hollows.

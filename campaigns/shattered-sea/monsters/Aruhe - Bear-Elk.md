@@ -7,7 +7,12 @@ source: house (wiki creature.bear-elk; living-stock 2026-09-05)
 visibility: dm
 tags: [monster, aruhe]
 ---
+# Bear-Elk
+![[attachments/shattered-sea/creatures/bear-elk-of-aruhe-02.jpg|Bear-Elk of Aruhe]]
+> [!narration] Narration
+> The Bear-Elk moves on a moose's high shoulders and a bear's heavy forelimbs, big enough to shove young trees aside with its chest. Wide shovel antlers fill the space over its head, scraped dark at the base and strung with vines, wet sap, and hanging drops. Its pale long face splits around yellow teeth and black gums, while clawed black forelegs punch through the leaf rot and leave the smell of blood, mud, and torn green behind it.
 
+## Statblock
 ```statblock
 layout: Basic 5e Layout
 name: "Bear-Elk"
@@ -42,17 +47,11 @@ bonus_actions:
   - name: "Crushing Stomp"
     desc: "Melee Weapon Attack: +13 to hit, reach 5 ft., one prone creature. Hit: 21 (2d12 + 8) bludgeoning damage."
 ```
-
-# Bear-Elk
-
-> [!narration] Narration
-> The Bear-Elk moves on a moose's high shoulders and a bear's heavy forelimbs, big enough to shove young trees aside with its chest. Wide shovel antlers fill the space over its head, scraped dark at the base and strung with vines, wet sap, and hanging drops. Its pale long face splits around yellow teeth and black gums, while clawed black forelegs punch through the leaf rot and leave the smell of blood, mud, and torn green behind it.
-
 ## Behavior
 
 **Habitat.** The Bear-Elk holds the wet floor where [[Aruhe - Quiet Forest|the Quiet]] gives way to [[Aruhe - The Marshes|the Marshes]]. It favors vine-choked game trails, soft black earth, and narrow tree gaps where its antlers scrape the canopy and its weight can break a path that smaller creatures only slip through.
 
-**Behavior.** It follows the same scored circuit day after day, shouldering through brush, rubbing sap-wet antlers against trunks, and roaring when another large body refuses to move. [[Aruhe - Terror-Bird|Terror-birds]] give its route room. [[Aruhe - Great Crown Squid|Crown squid]] and [[Aruhe - Bloodhawk|bloodhawks]] take it only when canopy, open sky, or bad footing gives them the better angle.
+**Behavior.** It follows the same scored circuit day after day, shouldering through brush, rubbing sap-wet antlers against trunks, and roaring when another large body refuses to move. [[Aruhe - Terror-Bird|Terror-birds]] give its route room. [[Aruhe - Crown Squid|Crown squid]] and [[Aruhe - Bloodhawk|bloodhawks]] take it only when canopy, open sky, or bad footing gives them the better angle.
 
 **Diet.** It seldom needs a normal meal, but it will tear into carrion, soft marsh plants, fruiting growth, and anything broken on its path. The current Aruhe frame is pressure from the Blight gardens, not possession, so its hunger stays animal and territorial rather than commanded.
 
@@ -71,8 +70,6 @@ bonus_actions:
 **Aftermath.** A Bear-Elk encounter leaves smashed understory, sap-streaked bark, cracked branches hanging from vines, bloody churned mud, and carcass scraps pressed into the trail. Useful remains can include heavy antler plates, claws, hide, teeth, and sap-stained vine tangles caught in the rack.
 
 ![[attachments/shattered-sea/creatures/bear-elk-of-aruhe-01.jpg|Bear-Elk of Aruhe]]
-
-![[attachments/shattered-sea/creatures/bear-elk-of-aruhe-02.jpg|Bear-Elk of Aruhe]]
 
 ![[attachments/shattered-sea/creatures/bear-elk-of-aruhe-03.jpg|Bear-Elk of Aruhe]]
 

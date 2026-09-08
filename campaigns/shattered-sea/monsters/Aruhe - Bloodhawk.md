@@ -8,7 +8,10 @@ source: house (2024 Roc chassis, SRD peer)
 visibility: dm
 tags: [monster, aruhe]
 ---
-
+# Bloodhark
+![[attachments/shattered-sea/creatures/bloodhawk-of-aruhe.jpg|Bloodhawk of Aruhe]]
+> [!narration] Narration
+> The Bloodhawk of Aruhe is an ordinary hawk made enormous, with charcoal feathers, a ragged red crest, and crimson flight feathers spread across an eighty-foot shadow. Four broad wings hold it in the air while a pale hooked beak and boat-long talons do the close work. It circles without calling, and when the wings fold, the red-black body becomes a falling shape before the wind reaches the ground.
 ## Statblock
 
 ```statblock
@@ -57,11 +60,6 @@ reactions:
     desc: "Trigger: The bloodhawk is hit by a ranged attack while flying and isn't grappling a Gargantuan creature. Response: The attacker must reroll the attack and use the new roll."
 ```
 
-# Bloodhawk of Aruhe
-
-> [!narration] Narration
-> The Bloodhawk of Aruhe is an ordinary hawk made enormous, with charcoal feathers, a ragged red crest, and crimson flight feathers spread across an eighty-foot shadow. Four broad wings hold it in the air while a pale hooked beak and boat-long talons do the close work. It circles without calling, and when the wings fold, the red-black body becomes a falling shape before the wind reaches the ground.
-
 ## Behavior
 
 **Habitat.** Bloodhawks own the open sky above [[Aruhe - Hungry Isle]], especially lake bowls, reef gaps, river openings, canopy breaks, and hard-lit grassland rims. They avoid closed canopy, eight-foot grass, charted shingle, and occupied [[Aruhe - River Otter|otter]] water.
@@ -84,6 +82,5 @@ reactions:
 
 **Aftermath.** A Bloodhawk strike leaves torn feathers, falling blood, cracked branches, dropped nest fiber from high canopy, a stinking wound that will not close until treated, and sometimes a carcass placed where no ground trail reaches it.
 
-![[attachments/shattered-sea/creatures/bloodhawk-of-aruhe.jpg|Bloodhawk of Aruhe]]
-
+## Art 
 ![[attachments/shattered-sea/creatures/bloodhawk-token.png|Bloodhawk FoundryVTT token]]
