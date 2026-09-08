@@ -9,57 +9,74 @@ visibility: dm
 tags: [monster, aruhe]
 ---
 
-## Statblock
-
-```statblock
-layout: Basic 5e Layout
-name: Wolfrabbit
-size: Medium
-type: monstrosity
-alignment: unaligned
-ac: "14 (natural armor)"
-hp: 45
-hit_dice: 6d10 + 12
-speed: 40 ft.
-stats: [16, 18, 14, 4, 14, 6]
-skillsaves:
-  - Perception: 4
-  - Stealth: 6
-senses: darkvision 60 ft., passive Perception 14
-languages: "—"
-cr: 2
-traits:
-  - name: Standing Leap
-    desc: "The wolfrabbit can long jump up to 30 feet and high jump up to 15 feet, with or without a running start. It can jump over creatures smaller than itself, and nonmagical difficult terrain on the ground does not cost it additional movement while jumping."
-  - name: Pack Rend
-    desc: "Once per turn when the wolfrabbit hits a Prone creature with its Bite, the attack deals an extra 4 (1d8) piercing damage if another wolfrabbit is within 5 feet of the target."
-  - name: Blood-Scented
-    desc: "The wolfrabbit has advantage on Wisdom (Perception) checks made to locate a creature that is below its hit point maximum."
-actions:
-  - name: Bite
-    desc: "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 9 (1d12 + 3) piercing damage."
-  - name: Raking Claws
-    desc: "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 8 (2d4 + 3) slashing damage."
-  - name: Pouncing Bound
-    desc: "The wolfrabbit leaps up to 30 feet to an unoccupied space it can see and makes one Raking Claws attack against a creature within 5 feet of where it lands. If the wolfrabbit began the leap at least 20 feet from the target and the attack hits, the target must succeed on a DC 13 Strength saving throw or fall Prone. If the target remains standing after the attack, the wolfrabbit can immediately leap up to 10 feet to an unoccupied space it can see. This movement does not provoke an opportunity attack from that target."
-bonus_actions:
-  - name: Devour the Pack
-    desc: "The wolfrabbit tears into the corpse of another wolfrabbit within 5 feet that died since the end of the wolfrabbit's previous turn. The corpse is mangled and cannot be used for this ability again. The wolfrabbit gains 7 temporary hit points and becomes Frenzied until the end of its next turn. While Frenzied, its speed increases by 10 feet and its Bite deals an extra 3 (1d6) piercing damage."
-reactions:
-  - name: Frenzy Toward the Fallen
-    desc: "When another wolfrabbit the wolfrabbit can see within 30 feet drops to 0 hit points, the wolfrabbit can immediately leap up to 15 feet toward that creature without provoking opportunity attacks."
-```
-
 # Wolfrabbit
 
-## Art
 ![[attachments/shattered-sea/creatures/wolfrabbit-of-aruhe.png|Wolfrabbit of Aruhe]]
 
 > [!narration] Narration
 > A dark-striped hunting cat crouches over the boat, its enormous ears pricked above a broad, furred head. Red eyes track you through the terrace brush, a twitching nose wet with saliva and hooked claws gripping the rim. Wolf-sized and built to spring, it can cross the gap before the boat clears the bank.
 
-## Ecology 
-- Wolf-sized, dark-striped hunters with long ears and a twitching nose on a hunting-cat body. Packs of four to six work the collapsed first terraces at dawn and dusk; a bound from a wall can cover thirty feet.
-- Warrens honeycomb terrace stone. When one falls, the others eat it from hunger, not spite. They will not den past the Old Mouth once daylight dies in the tube; something below outranks them.
-- They jump [[Aruhe - Razer-Grass]] stands rather than land in them, know [[Snakewood]] strike-lanes, and will drive prey under those branches on purpose. They break a pounce for the smell of a mature [[Aruhe - Grubnade]].
-- **Canon frame:** Aruhe removes brakes from a known animal; the Blight pressures the garden and does not ride the pack.
+## Statblock
+
+```statblock
+layout: Basic 5e Layout
+name: "Wolfrabbit"
+size: Medium
+type: monstrosity
+alignment: unaligned
+ac: "14 (natural armor)"
+hp: 45
+hit_dice: "6d10 + 12"
+speed: "40 ft."
+stats: [16, 18, 14, 4, 14, 6]
+skillsaves:
+  - Perception: 4
+  - Stealth: 6
+senses: "darkvision 60 ft., passive Perception 14"
+languages: "—"
+cr: 2
+traits:
+  - name: Standing Leap
+    desc: "The wolfrabbit can long jump up to 30 feet and high jump up to 15 feet, with or without a running start."
+  - name: Pack Rend
+    desc: "Once per turn when the wolfrabbit hits a Prone creature with its Bite, the attack deals an extra 4 (1d8) Piercing damage if another wolfrabbit is within 5 feet of the target."
+  - name: Blood-Scented
+    desc: "The wolfrabbit has Advantage on Wisdom (Perception) checks to locate a creature that is missing any Hit Points."
+actions:
+  - name: Multiattack
+    desc: "The wolfrabbit makes two attacks: one with its Bite and one with its Raking Claws."
+  - name: Bite
+    desc: "Melee Attack Roll: +5, reach 5 feet, one target. Hit: 9 (1d12 + 3) Piercing damage."
+  - name: Raking Claws
+    desc: "Melee Attack Roll: +5, reach 5 feet, one target. Hit: 8 (2d4 + 3) Slashing damage."
+  - name: Pouncing Bound
+    desc: "The wolfrabbit leaps up to 30 feet to an unoccupied space it can see and makes one Raking Claws attack against a creature within 5 feet of where it lands. If it began the leap at least 20 feet from the target and the attack hits, the target must succeed on a DC 13 Strength saving throw or have the Prone condition. If the target succeeds, the wolfrabbit can immediately leap up to 10 feet to an unoccupied space it can see. This movement doesn't provoke Opportunity Attacks from that target."
+bonus_actions:
+  - name: Devour the Pack
+    desc: "The wolfrabbit tears into the corpse of another wolfrabbit within 5 feet that died since the end of the wolfrabbit's previous turn. The corpse is mangled and can't be used for this ability again. The wolfrabbit gains 7 temporary Hit Points and becomes Frenzied until the end of its next turn. While Frenzied, its Speed increases by 10 feet and its Bite deals an extra 3 (1d6) Piercing damage."
+reactions:
+  - name: Frenzy Toward the Fallen
+    desc: "Trigger: Another wolfrabbit the wolfrabbit can see within 30 feet drops to 0 Hit Points. Response: The wolfrabbit leaps up to 15 feet toward that creature without provoking Opportunity Attacks."
+```
+
+## Behavior
+
+**Habitat.** Wolfrabbits keep to the collapsed first terraces of Aruhe, where they can spring from broken walls and vanish into brush. Packs of four to six hunt at dawn and dusk, and a bound from a terrace wall can cover 30 feet.
+
+**Behavior.** A Wolfrabbit is a wolf-sized, dark-striped hunting cat with long ears, a twitching nose, and a body built to spring. The pack's warrens honeycomb the terrace stone. When one falls, the others eat it from hunger rather than spite. They will not den past the Old Mouth once daylight dies in the tube; something below outranks them.
+
+**Diet.** They break a pounce for the smell of a mature [[Aruhe - Grubnade|Grubnade]], and they jump [[Aruhe - Razer-Grass]] stands rather than land in them. They know [[Snakewood]] strike-lanes and will drive prey under those branches on purpose.
+
+**Social Structure.** Packs work as a single hunting body, but each Wolfrabbit still reacts to a fallen packmate. The corpse-eating is hunger, not spite.
+
+## Tactics
+
+**Signs.** Paired claw marks in terrace stone, dark fur caught on wall edges, small warrens opening between fallen blocks, and fresh tracks that break into long launch lines mark a Wolfrabbit pack's ground.
+
+**Instincts.** The pack isolates anything bleeding, knocks it down with a long bound, and closes around a creature that has lost its footing. It avoids [[Aruhe - Razer-Grass]] and abandons a pounce when it smells a mature [[Aruhe - Grubnade|Grubnade]].
+
+**Tactics.** A Wolfrabbit begins from a wall, boat rim, or terrace break with Pouncing Bound, then uses Multiattack against a Prone target while another packmate stays close enough to trigger Pack Rend. When a packmate falls, the others leap toward it; when one can reach the corpse safely, it devours the body and surges back into the hunt.
+
+**Weaknesses.** A Wolfrabbit loses Pack Rend when separated from its pack, and its pounce is easier to deny in tight spaces or against a creature that holds its ground. Razer-Grass, mature Grubnades, and broken launch lines turn its preferred approach into a liability.
+
+**Canon frame.** Aruhe removes brakes from a known animal; the Blight pressures the garden and does not ride the pack.
