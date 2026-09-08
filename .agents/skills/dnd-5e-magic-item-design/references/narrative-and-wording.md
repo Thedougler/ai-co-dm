@@ -15,21 +15,31 @@ Use explicit stages. For each stage record trigger, new capability, cost or trad
 ## 2024/5.5e rules language
 Use concise player-facing notation: `DC 15`, `+7 to hit`, `Hit: 11 (2d8 + 2) damage`, `Speed 30 feet`, `1/Day`, `Recharge 5–6`, explicit ranges, targets, durations, triggers, and repeat-save timing. On wiki body (item notes, run cards), write checks and saves with the at-table grammar in `obsidian-markdown`. Say “the spell is cast from the item” when relevant. Name concentration. Specify whether a use requires an action, bonus action, reaction, or no action. Avoid copying published text; express the function in original language.
 
-## Player-facing item template
-```markdown
-### [Item name]
-*[Item type], [rarity] (requires attunement [by ...])*
+## Player-facing item text
 
-[One or two sentences of fiction and the item's visible tell.]
+Use this structure for the mechanics block in the wiki note. Simple items (consumables, mundane) need 1-3 sentences. Complex items expand with bold-label properties:
 
-**[Passive or chassis feature].** [Clear effect, limits, and stacking interaction.]
-
-**[Activated feature].** [Action cost, range, targets, roll/DC, duration, concentration, and frequency.]
-
-**[Risk, curse, or sentience].** [Tell, player choice, consequence, and exit or resolution.]
-
-**[Charges/recharge].** [Exact tracking and recovery procedure, if any.]
+**Simple** (Aruhe consumable pattern):
 ```
+Kind, Rarity
+
+As a Bonus Action, eat this fruit. Effect statement with **bold conditions**, `dice`, and duration.
+```
+
+**Complex** (magic weapons, relics, attunement items):
+```
+Kind, Rarity (requires attunement [by ...])
+
+**[Passive or chassis feature].** Effect, limits, stacking interaction.
+
+**[Activated feature].** Action cost, range, targets, roll/DC, duration, concentration, frequency.
+
+**[Risk, curse, or sentience].** Tell, player choice, consequence, exit or resolution.
+
+**[Charges/recharge].** Tracking and recovery procedure.
+```
+
+The wiki note follows `templates/Item.md` — flat body, no L0/L1/L2 sections. Design-process artifacts (comparator matrix, power envelope, engagement loop) stay in the conversation or design doc, not in the wiki note.
 
 ## Required design notes
 Include these headings in the design notes, with links inline rather than a separate bibliography:

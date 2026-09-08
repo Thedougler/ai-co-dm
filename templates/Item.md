@@ -1,7 +1,8 @@
 ---
 type: item
 campaign: 
-kind: # mundane | consumable | magic | artifact | relic
+region: 
+kind: # mundane | consumable | magic | artifact | relic | technique
 rarity: 
 attunement: false
 owner: 
@@ -11,38 +12,11 @@ tags: [item]
 
 # {{name}}
 
-## L0 · At a glance
+![[attachments/<campaign>/items/<slug>.png]]
 
 > [!narration] Narration
-> _Cold object portrait (appearance / affordance only). Theatre of the mind (Object)._
->
+> Cold object portrait — appearance and affordance only. No secrets, DCs, or unearned names.
 
-### Look
+Kind, Rarity
 
-One sensory line.
-
-### What it does (table)
-
-Effects in house words. No book paste — cite SRD or page if mirroring a published item.
-
-## L1 · At the table
-
-### Charges / limits
-
-- 
-
-## L2 · Deep
-
-### Story hooks
-
-Who wants it, curses, intelligence, and faction heat.
-
-### Provenance
-
-Where it came from and where it goes if lost.
-
-## Constraints
-
-- No full DMG item text.
-- Do not dump every similar item variant here.
-- Wiki-body checks and saves use the at-table grammar in `obsidian-markdown` (`**Dexterity save — \`DC 15\`**`). Statblock YAML keeps 5e fence phrasing.
+Mechanics — terse, runnable. Action cost, trigger, effect, duration, limits. 2024/5.5e language. No WotC paste — cite SRD or page if mirroring a published item. Wiki-body checks and saves use at-table grammar in `obsidian-markdown` (`**Dexterity save — \`DC 15\`**`).

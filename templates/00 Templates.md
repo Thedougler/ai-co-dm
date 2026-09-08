@@ -7,14 +7,19 @@ tags: [templates]
 
 Copy one (or use Obsidian Templates → folder `templates/`). One note per entity. Delete unused sections rather than leaving filler. Campaign notes are facts; design decisions and process stay in skills / [[AGENTS]].
 
-Most templates use the same disclosure bands — see [[docs/obsidian-presentation]]:
+Most templates use disclosure bands — see [[docs/obsidian-presentation]]:
 
 1. **L0 · At a glance** — first five seconds
 2. **L1 · At the table** — what you run or choose
 3. **L2 · Deep** — bank, links, densify
 4. **Constraints** — what never belongs here
 
-**Location** is the exception: [[templates/Location]] (filled: [[campaigns/shattered-sea/locations/Aruhe - Clear Lake]]).
+**Exceptions** — these templates use purpose-driven sections instead of L0/L1/L2:
+
+- **NPC:** [[templates/NPC]] — at-a-glance table, DM thesis, Running section, History, Relationships table, Combat (exemplar: [[campaigns/shattered-sea/npcs/Aruhe - Hinewai]]).
+- **Location:** [[templates/Location]] (site: [[campaigns/shattered-sea/locations/Aruhe - Clear Lake]]; region: [[campaigns/shattered-sea/locations/Aruhe - Hungry Isle]]).
+- **Monster:** [[templates/Monster]] — `## Behavior` + `## Tactics` with bold-label paragraphs (exemplar: [[campaigns/shattered-sea/monsters/Aruhe - Bear-Elk]]).
+- **Item:** [[templates/Item]] — flat: image → narration → type-line → mechanics. No L0/L1/L2. Complex items add flat sections below mechanics when needed (exemplar: [[campaigns/shattered-sea/items/Aruhe - Ghost Plum]]).
 
 ## Core
 

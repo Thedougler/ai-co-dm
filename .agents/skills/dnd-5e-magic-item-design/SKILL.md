@@ -69,9 +69,9 @@ Use `references/mechanical-audit.md` for the offense, defense, action economy, s
 - **homebrew-monsters-5e:** an item that creates, commands, transforms into, or is balanced around a monster; keep creature math in that skill.
 - **qmd-retrieval:** campaign-vault facts and canon; do not invent setting details when retrieval is silent.
 
-## Campaign item workflow (merged from writing-items)
+## Campaign item workflow
 
-This existing skill is the single item-design authority in ai-co-dm; no parallel writing-items skill is shipped. It now also owns notable-object classification, acquisition context, runnable handling, reveal boundaries, and persistence. Stackable gear remains PC/inventory data; mint one type: item note only when play, a query, or another note needs to cite the object.
+Single item-design authority in ai-co-dm. Stackable gear remains PC/inventory data; mint a type: item note only when play, a query, or another note needs to cite the object.
 
 Before design, retrieve the target PC, campaign hot page, relevant front/quest/session, existing signature gear, and three same-tier comparators. State tier, intended wielder, acquisition mode, campaign constraints, attunement, cadence, and strongest party synergy. Write one Signature sentence: object + distinctive verb + why it belongs here.
 
@@ -79,6 +79,17 @@ Make every property runnable: trigger, action type, prerequisite, target/range, 
 
 Separate reveal into first sight, handling, known mechanics, earned lore, and DM truth. Invoke theatre-of-the-mind for player-facing appearance prose; flesh-out-content may supply missing lived-in facts and visual-aids may ground an identity image.
 
-Persist or patch one item note from templates/Item.md under campaigns/<campaign>/items/ (or the established item bucket), run obsidian-markdown and applicable checks, and finish with ./scripts/after-write "design or revise magic item".
+### Note format
 
-Merge decision: these unique procedure gaps were folded into dnd-5e-magic-item-design because both skills own notable item design. The merged gaps are acquisition mode, Signature-first identity, handling/reveal boundaries, special-item branches, owner persistence, and handoffs to flesh-out, visual-aids, statblocks, and event notes.
+Copy `templates/Item.md`. Exemplars: the Aruhe consumables under `campaigns/shattered-sea/items/Aruhe - *.md`. The note is flat — no L0/L1/L2 scaffold:
+
+1. **Frontmatter** — `type: item`, plus `campaign`, `region`, `kind`, `rarity`, `attunement`, `owner`, `visibility`, `tags` (include region and kind in tags).
+2. **Title** — `# Item Name`.
+3. **Image embed** — `![[attachments/<campaign>/items/<slug>.png]]` when art exists.
+4. **Narration callout** — `> [!narration] Narration` — one paragraph cold object portrait. No secrets, DCs, unearned names.
+5. **Type-line** — `Kind, Rarity` (e.g., `Consumable, Rare`).
+6. **Mechanics** — terse runnable text. 2024/5.5e language; at-table grammar from `obsidian-markdown`.
+
+Complex items (magic weapons, relics, artifacts, sentient/cursed/evolving) add flat sections below mechanics when needed — `## Story hooks`, `## Provenance`, `## Charges`, or bold-label properties. Do not add sections a simple item does not need.
+
+Run obsidian-markdown and applicable checks. Finish with `./scripts/after-write "design or revise item"`.
