@@ -153,7 +153,7 @@ A hook with a cover endpoint does not also run unbounded travel. “Smoke to cam
 
 Put the operational loop (Dive → Talon Grab → Haul Aloft → Sickle Claw) and default-mode compact numbers next to DM truth.
 
-Keep full `![[Name#Statblock]]` (optional `![[Name#At the table]]`) at the bottom. Do not retype an owner’s full Multiattack/HP table into prose above the embed. Do not embed the ecology essay. How the party already moves (flight, swim, mounts, boats) is not roster.
+Keep full `![[Name#Statblock]]` (optional `![[Name#At the table]]`, or `![[Name#Tactics]]` for monster notes) at the bottom. Do not retype an owner’s full Multiattack/HP table into prose above the embed. Do not embed the ecology essay. How the party already moves (flight, swim, mounts, boats) is not roster.
 
 If the owner lacks `## Statblock`, add that heading above the fence on the owner (no math rewrite), then embed. If no owner exists for a creature you will roll, stop and packet `homebrew-monsters-5e`.
 

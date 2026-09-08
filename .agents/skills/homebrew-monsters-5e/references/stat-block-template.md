@@ -57,12 +57,29 @@ Use original names and concise paraphrase. Replace bracketed fields; delete fiel
 **Bloodied.** [Threshold and response; do not hide a full reset.]
 
 ## Running the Monster
-- **Opening tell and preferred position:** [ ]
-- **Default choice:** [ ]
-- **If pressured / if signature is answered:** [ ]
-- **Target priority:** [ ]
-- **Three-round script:** [round 1 / round 2 / round 3]
-- **Resource tracking:** [recharge, pool, reaction, phase]
-- **Player-facing counterplay:** [at least two answers]
-- **Retreat, surrender, or failure state:** [ ]
-- **Encounter integration:** [allies, terrain, lightning rods, reinforcements]
+Design-time fields — work through these during creation, then distribute into the wiki note.
+
+### Standalone creature → `templates/Monster.md`
+
+- **Opening tell and preferred position:** [ ] → Tactics: **Signs**, **Instincts**
+- **Default choice:** [ ] → Tactics: **Tactics**
+- **If pressured / if signature is answered:** [ ] → Tactics: **Tactics**, **Weaknesses**
+- **Target priority:** [ ] → Tactics: **Instincts**
+- **Three-round script:** [round 1 / round 2 / round 3] → stays in design conversation
+- **Resource tracking:** [recharge, pool, reaction, phase] → stays in design conversation
+- **Player-facing counterplay:** [at least two answers] → Tactics: **Weaknesses**
+- **Retreat, surrender, or failure state:** [ ] → Tactics: **Aftermath**
+- **Encounter integration:** [allies, terrain, lightning rods, reinforcements] → Behavior: **Habitat**, **Social Structure**
+
+### NPC with combat form → `templates/NPC.md`
+
+When statblocks embed in an NPC file, the same design fields distribute differently:
+
+- **Opening tell and preferred position:** [ ] → `## Running [Name]`
+- **Default choice, pressure response:** [ ] → `## Running [Name]` subsections
+- **Target priority, counterplay:** [ ] → `## Running [Name]`
+- **Encounter rule (which statblock to use):** [ ] → `# Combat` preamble
+- **Stage/form conditions:** [ ] → one statblock fence per condition under `# Combat`
+- **Retreat, surrender, failure state:** [ ] → `## Running [Name]`
+- **Encounter integration:** [ ] → Relationships table + Running section
+- **Three-round script, resource tracking:** → stays in design conversation

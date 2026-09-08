@@ -139,23 +139,28 @@ exposure, limits, or consequences.
 
 Design with the [location skeleton](references/location-skeleton.md) and
 [node-key-and-affordances](references/node-key-and-affordances.md). File **facts**
-into `templates/Location`. On create or edit, match that shape. Filled exemplar:
-`campaigns/shattered-sea/locations/Aruhe - Clear Lake.md`.
+into `templates/Location`. On create or edit, match that shape. Filled exemplars:
+the `campaigns/shattered-sea/locations/Aruhe -` set — sites (`Clear Lake`,
+`Beach`, `Old Gardens`), regions (`Hungry Isle`, `Grasslands`, `Quiet Forest`,
+`River`, `The Marshes`, `The Mangroves`), and dungeon (`Lava Tubes`).
 
 | Design work | Location note |
 |---|---|
-| Opening geography | **Overview** `[!narration]` (TotM; empty until fill) |
-| Identity, skip, occupants, links | **At a glance** |
-| Affordances, tests, DCs | **If the party** (`obsidian-markdown` / `dnd5e-mechanics`) |
-| People, factions | **Who** |
-| Fauna, flora, features | **What** |
-| Routes, adjoining sites | **Where** |
+| Identity image | After the title, before Overview (`visual-aids`) |
+| Opening geography, flora woven in, non-sight sense | **Overview** `[!narration]` (TotM; empty until fill) |
+| Identity, adjacent links, skip/bypass | **At a glance** |
+| Navigation routes first, then interactions, then foraging tiers | **If the party** (`obsidian-markdown` / `dnd5e-mechanics`) |
+| Creatures and NPCs with behavioral niche | **Who** |
+| Environment, flora placement, fauna behavior, features | **What** |
+| Directional connections to adjacent locations | **Where** |
 | In-world reasons to come, stay, or care | **Why** |
 | Battlemaps, non-identity art | **Art** (omit the heading when none exist) |
-| Identity image | After the title when one exists (`visual-aids`) |
 
 Kernel, 3Fs, promise, player-verb lists, topology audit, references, and the
-quality checklist stay in this skill. The campaign note is the place as it is.
+quality checklist stay in this skill. A climactic or anchor location
+(`Memorial Grove`) may carry kernel, topology, player verbs, hooks, secrets,
+and provenance directly when those facts serve the DM at the table — but the
+standard template stays clean.
 **Complete when:** the filed note matches `templates/Location`, and the skeleton
 is not on the campaign page.
 

@@ -99,7 +99,7 @@ Match `docs/obsidian-presentation.md` and the note's template. Delete unused sec
 | **L0 · At a glance** | What is this *now*? Hook, identity, Look/voice, `[!narration]` | Complete sentences for a five-second glance. Enough to improv. |
 | **L1 · At the table** | What to run, say, or choose | Complete grammatical sentences. Scannable bold heads. Run cards use the **cockpit** in `.agent/skills/run-guide/SKILL.md`. |
 | **L2 · Deep** | Bank: relationships, resources, clue *content* | Usable facts. Not a biography since birth. Not a room-by-room novel. |
-| **Location** | Match `templates/Location` | Facts. Filled exemplar: `campaigns/shattered-sea/locations/Aruhe - Clear Lake.md`. |
+| **Location** | Match `templates/Location` | Facts. Filled exemplars: `campaigns/shattered-sea/locations/Aruhe -` set. |
 | **`[!narration]` / boxed** | Seen-in-a-glance; player-safe | TotM: flowing spoken block. Item/creature cold portraits ~three connected sentences. Session-beat `Initial Narration`: two to four short spoken paragraphs. Situational beat stubs: one to three sentences, one job. |
 
 Session/run surfaces: complete grammatical sentences (vault rule). Private scratch shorthand stays off this wiki.
@@ -128,7 +128,7 @@ Dynamic elements that may have moved live in DM text unless current table state 
 ## Per-type
 
 - **NPC / PC:** Face + current action + want. Look/voice as sensory or manner cues. Drive as want, fear, and method.
-- **Location:** *This* place, not the concept of a lake. Match `templates/Location`. Kernel, 3Fs, and player-verb inventories stay in `place-design`.
+- **Location:** *This* place, not the concept of a lake. Match `templates/Location`. Navigation routes first in If the party; flora woven into narration and What; directional connections in Where. Kernel, 3Fs, and player-verb inventories stay in `place-design`.
 - **Vehicle:** *This* craft. Playable aspects. Senses. Sequenced keys.
 - **Faction:** Public mask, concrete method, one tell a bystander could notice. L1 = how they operate now.
 - **Quest / front:** Stakes, clock, visible sign, consequence if ignored — complete sentences.

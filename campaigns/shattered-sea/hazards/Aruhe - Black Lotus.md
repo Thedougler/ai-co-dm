@@ -12,7 +12,7 @@ tags: [hazard, aruhe, flora]
 > [!narration] Narration
 > A flower the size of a low table spreads out of the wet Aruhe growth, its black petals broad enough to cover the ground and curl over the moss at their edges. Rain beads on the slick surfaces, and thin violet veins glow up through them toward a tight crown of dark filaments in the center. Under the lowest petals, old ribs and finger bones show through the greenery beside patches of scorched plants; when nearby magic stirs, the bloom slowly leans toward it.
 
-### Hazard — Black Lotus
+### Hazard
 
 - **Trigger:** A creature enters within `10 feet`, touches the flower, or casts a spell within `30 feet`.
 - **Notice:** **Wisdom (Perception) or Intelligence (Nature) — `DC 15`** to notice old bones beneath the petals, scorched vegetation nearby, and the flower turning subtly toward magical effects.

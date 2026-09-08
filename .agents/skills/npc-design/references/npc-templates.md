@@ -14,19 +14,21 @@
 
 ## Significant or recurring NPC card
 
-- **Identity and public function:**
-- **Current scene function:**
-- **Immediate want / longer want:**
-- **Leverage / need / cost:**
-- **Limit and productive contradiction:**
-- **Attitude:** Friendly / Indifferent / Hostile.
-- **Request posture:** Willing / Unwilling / Hesitant, and why.
-- **Influence approach:** What argument, evidence, gift, threat, or service moves them?
-- **Relationships:** One line per PC, faction, or recurring NPC.
-- **Four portrayal signals:** Visual; behavior; voice principle; sample line.
-- **Activity log:** See below; add one change after every appearance.
-- **Next move / interrupt point:**
-- **Exit or failure future:**
+Design fields that feed the wiki note (see `templates/NPC.md` and exemplar `Aruhe - Hinewai`):
+
+| Design field | Wiki destination |
+| --- | --- |
+| Identity, public function, role | **At a glance** table (Role, Nature rows) |
+| Immediate want, longer want, fear | **At a glance** table (Wants, Fears rows) |
+| Leverage, need, cost, limit | **At a glance** table (add rows per-NPC) |
+| Productive contradiction | **DM thesis** |
+| Four portrayal signals | **`[!narration]`** block + **Running** section |
+| Attitude, request posture, influence approach | **Running** subsections |
+| Relationships per PC, faction, NPC | **Relationships** table (wikilink + meaning) |
+| Origin, companion, formative events | **History** (by narrative beats) |
+| Combat identity, stages, conditions | **Combat** (encounter rule + statblocks) |
+| Activity log | Appended after each appearance |
+| Next move / interrupt point | **Running** section or **At a glance** row |
 
 ## Activity log
 

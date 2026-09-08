@@ -69,6 +69,29 @@ Use `DC 15`; `+7 to hit`; `Hit: 11 (2d8 + 2) damage`; `Recharge 5–6`; `1/Day`;
 7. Encounter integration: allies, terrain, lightning rods, tells, escape/failure state.
 8. Running notes, counterplay, and revision knobs.
 
+## Wiki note structure
+
+Two paths depending on whether the creature has a personal identity:
+
+### Standalone creature → `templates/Monster.md`
+H1 title → image embed → `[!narration]` → `## Statblock` fence → `## Behavior` → `## Tactics`.
+
+**Behavior** uses bold-label paragraphs: **Habitat** (terrain, territory, where it lives), **Behavior** (observable habits, body language, movement patterns), **Diet** (what it eats, feeding signs, hunger drivers), **Social Structure** (solitary/pack/herd, interactions with other creatures).
+
+**Tactics** uses bold-label paragraphs: **Signs** (what trackers find — tracks, marks, smells, sounds), **Instincts** (what triggers aggression, what ends a hunt), **Tactics** (how it fights — opening, follow-up, preferred conditions), **Weaknesses** (exploitable flaws — terrain it hates, movement it cannot make, formations that shut it down), **Aftermath** (what the scene looks like after an encounter, salvageable remains).
+
+Design outputs map: fiction signature → narration + Behavior; decision loop → Tactics; three-round script informs Tactics but stays in the design conversation; encounter integration → Habitat + Social Structure + Instincts; counterplay → Weaknesses; running notes → Tactics + Aftermath.
+
+### NPC with combat form → embedded in `templates/NPC.md`
+When the creature has a name, history, relationships, and a personal identity, statblocks live in the NPC file's `# Combat` section — not a separate monster note. The NPC file owns identity, history, and relationships; the `# Combat` section owns the stat fences.
+
+- State an **encounter rule** before the statblocks: the fiction condition that selects which block to use.
+- One statblock per stage or form, keyed to fiction conditions (memorial damage, pact state, betrayal), not HP thresholds alone.
+- Alternate forms get their own `[!narration]` block earlier in the NPC file (under `## Running`), separate from the statblock fence.
+- Behavior and Tactics fields fold into the NPC's `## Running` section instead of standalone `## Behavior` / `## Tactics` sections.
+
+Exemplar: `campaigns/shattered-sea/npcs/Aruhe - Hinewai` (three staged statblocks keyed to Death Bloom condition).
+
 ## Handoffs
 - **dnd5e-mechanics**: which save or check a feature uses; chassis still owns the DC number.
 - **theatre-of-the-mind**: spatial prose, tells, and runnable descriptions without a map.

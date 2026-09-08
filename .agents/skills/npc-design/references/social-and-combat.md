@@ -36,16 +36,23 @@ with a résumé or secret monologue.
 
 ## Monster-style combat package
 
-Use this for a named NPC whose identity matters in a fight; hand off numbers,
-CR, damage, and stat-block balance to `homebrew-monsters-5e`.
+Use this for a named NPC whose identity matters in a fight. Statblocks embed
+in the NPC file's `# Combat` section (not a separate monster note). Hand off
+numbers, CR, damage, and stat-block balance to `homebrew-monsters-5e`.
 
-- **Objective:** What are they trying to do besides “win”?
-- **Signature:** One action that expresses identity and changes the position.
-- **Fallback:** Reliable action when the signature is unavailable or costly.
-- **Move/reaction:** A reposition, defense, bargain, escape, or response to a PC.
-- **Escalation:** A phase, resource spend, environmental change, or desperate choice.
-- **Tell/limit:** What players can notice, exploit, or force.
-- **Exit:** Conditions for surrender, flight, capture, or death.
+Design these fields, then distribute into `## Running [Name]` and `# Combat`:
+
+- **Objective:** What are they trying to do besides “win”? → Running section.
+- **Signature:** One action that expresses identity and changes the position. → statblock.
+- **Fallback:** Reliable action when the signature is unavailable or costly. → statblock.
+- **Move/reaction:** A reposition, defense, bargain, escape, or response to a PC. → statblock.
+- **Escalation:** A phase, resource spend, environmental change, or desperate choice. → Running section + staged statblocks.
+- **Tell/limit:** What players can notice, exploit, or force. → Running section.
+- **Exit:** Conditions for surrender, flight, capture, or death. → Running section.
+
+Multi-stage NPCs: state an **encounter rule** in `# Combat` that keys each
+statblock to a fiction condition (see Hinewai exemplar: Death Bloom state
+determines which of three stages to use).
 
 ### Boss action economy
 

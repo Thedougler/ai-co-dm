@@ -100,12 +100,36 @@ choice with risk, not a predetermined moral reward.
 
 ## Combat handoff
 
-If an NPC has a personal identity but needs a fight, give them a monster-style
-package, not a full player-character sheet: signature action, fallback action,
-movement/reaction, escalation, and a reason to fight or flee. Hand off combat
-math, balance, and stat-block construction to `homebrew-monsters-5e`. Hand off
-dialogue/narration to `theatre-of-the-mind`, place context to `place-design`,
-pacing to `session-beats`, and vault lookup to `qmd-retrieval`.
+If an NPC has a personal identity but needs a fight, embed combat in the NPC
+file's `# Combat` section — not a separate monster note. State an **encounter
+rule** (the condition that selects the statblock), then embed statblock fences
+directly. NPCs with multiple forms or stages get one statblock per condition,
+keyed to fiction state (memorial damage, phase, betrayal), not just HP
+thresholds. Hand off stat-block numbers, balance, and chassis to
+`homebrew-monsters-5e`. See Hinewai exemplar:
+`campaigns/shattered-sea/npcs/Aruhe - Hinewai`.
+
+Hand off dialogue/narration to `theatre-of-the-mind`, place context to
+`place-design`, pacing to `session-beats`, and vault lookup to
+`qmd-retrieval`.
+
+## Wiki note structure
+
+The final wiki note follows `templates/NPC.md`. Structure:
+
+- `# Name` + italic epithet → image embed → `[!narration]` named after the character.
+- `## At a glance` — quick-reference **table** (rows: Role, Nature, Home, Wants, Fears; add rows per-NPC: Hates, Loves, True weakness, Return condition, Permanent death).
+- `> **DM thesis:**` — one sentence: what this NPC is *about*, not what they do.
+- `## Running [Name]` — practical DM guidance per situation (subsections: first meeting, anger, alternate contexts).
+- Alternate forms get their own subsection with portrait + `[!narration]` block.
+- Signature mechanics (phylactery, pact, curse) get their own `#` section with rules.
+- `# History` — backstory by narrative beats (subsections), not chronological biography.
+- `# Relationships` — **table** with wikilinks and one-line meaning per link.
+- `# Combat` — encounter rule + embedded statblock(s). See **Combat handoff** above.
+
+Build-step outputs map: steps 1–3 → At a glance table; step 4 → limit rows in the table; step 5 → DM thesis; step 6 → narration + Running section; step 7 → Relationships table. History is filled from origin material. Combat is filled via `homebrew-monsters-5e`.
+
+Exemplar: `campaigns/shattered-sea/npcs/Aruhe - Hinewai`.
 
 ## Templates, audits, and references
 

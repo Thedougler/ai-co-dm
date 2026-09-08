@@ -5,53 +5,73 @@ status: alive # alive | dead | missing | unknown
 role: # patron | rival | ally | villain | contact | extra
 location: 
 faction: 
+aliases: []
 visibility: dm
 tags: [npc]
+source: # "house (skill; ingest DATE)" / book+page — never paste proprietary text
 ---
 
 # {{name}}
 
-## L0 · At a glance
+*{{epithet — one phrase, the name the world whispers}}*
 
-> [!narration] Narration
-> _Standalone Face portrait, or situated first look when met. Theatre of the mind (Person)._
->
+![[attachments/]]
 
-### Hook
+> [!narration] {{name}}
+> 
 
-One line: why the party cares *now*.
+## At a glance
 
-### Look / voice
+| **Role**   |  |
+| ---------- | --- |
+| **Nature** |  |
+| **Home**   |  |
+| **Wants**  |  |
+| **Fears**  |  |
 
-Three to five sensory or manner cues. Enough to improv; not a novel.
+> **DM thesis:** 
 
-## L1 · At the table
+---
 
-### Drive
+## Running {{name}}
 
-Want, fear, and method. Fiction archetype optional.
+### First meeting
 
-### Public face vs secret
 
-What they show versus what they hide (DM).
 
-## L2 · Deep
+---
 
-### Relationships
+## History
 
-- [[NPC or PC]]: 
-- [[Faction]]: 
 
-### Resources
 
-What they can grant, deny, or threaten.
+---
 
-### Appearances
+# Relationships
 
-Session links only.
+| Relationship | Meaning |
+| ------------ | ------- |
+| [[]]         |         |
 
-## Constraints
+---
 
-- No full character sheet unless they fight as a boss (then link [[Monster]] or encounter).
-- No book NPC text paste.
-- No biography since birth.
+# Combat
+
+> **Encounter rule:** 
+
+```statblock
+layout: Basic 5e Layout
+name: "{{name}}"
+size: Medium
+type: humanoid
+alignment: "any alignment"
+ac: 10
+hp: 10
+hit_dice: 2d8
+speed: "30 ft."
+stats: [10, 10, 10, 10, 10, 10]
+cr: 0
+actions:
+  - name: Attack
+    desc: "Melee Weapon Attack: +2 to hit, reach 5 ft., one target. Hit: 3 (1d4 + 1) bludgeoning."
+```

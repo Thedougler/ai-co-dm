@@ -1,24 +1,30 @@
 ---
 type: monster
 campaign: 
-role: # minion | skirmisher | brute | artillery | controller | leader | solo
+role: # ambusher | artillery | bruiser | controller | defender | leader | skirmisher | solo
 cr: 
-source: # SRD link / “house” / book+page — never paste proprietary text
+source: # SRD link / "house (wiki creature.X; living-stock DATE)" / book+page — never paste proprietary text
 visibility: dm
 tags: [monster]
 ---
+# {{name}}
+![[attachments/]]
+
+> [!narration] Narration
+> 
 
 ## Statblock
 
 ```statblock
-name: {{name}}
+layout: Basic 5e Layout
+name: "{{name}}"
 size: Medium
 type: beast
 alignment: unaligned
 ac: 10
 hp: 10
 hit_dice: 2d8
-speed: 30 ft.
+speed: "30 ft."
 stats: [10, 10, 10, 10, 10, 10]
 cr: 0
 traits:
@@ -29,41 +35,24 @@ actions:
     desc: "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 5 (1d6 + 2) piercing."
 ```
 
-# {{name}}
+## Behavior
 
-## L0 · At a glance
+**Habitat.** 
 
-> [!narration] Narration
-> _Creature first look or cold species portrait. Theatre of the mind (Creature)._
->
+**Behavior.** 
 
-### At the table
+**Diet.** 
 
-One-line tactic and tell (what players notice before math).
+**Social Structure.** 
 
-## L1 · At the table
+## Tactics
 
-### Role / dials
+**Signs.** 
 
-How to use as easy, hard, or horde. What to cut when bloodied.
+**Instincts.** 
 
-### Signature moves
+**Tactics.** 
 
-Two to four verbs. Paraphrase; no copyrighted block text.
+**Weaknesses.** 
 
-## L2 · Deep
-
-### Terrain / allies
-
-Where it shines; common allies.
-
-### Loot / aftermath
-
-- 
-
-## Constraints
-
-- Do not paste Monster Manual or proprietary stat blocks.
-- Put nothing before the `statblock` fence (it must be first after frontmatter).
-- Do not write house math as prose `**AC**` tables — use the fence (`./scripts/lint-statblocks`).
-- Novel ecology essays belong in [[Lore]] unless the table needs them here.
+**Aftermath.** 
