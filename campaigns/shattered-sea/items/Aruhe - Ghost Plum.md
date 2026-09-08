@@ -11,9 +11,11 @@ tags: [item, aruhe, consumable]
 ---
 # Ghost Plum
 
+![[attachments/shattered-sea/items/aruhe-ghost-plum.png]]
+
 > [!narration] Narration
-> A milk-glass plum hangs under a thick white bloom, pale enough to catch dim light. The bloom powders the fingers. In low light its outline thins until the fruit is hard to keep in sight.
+> A ghost plum hangs heavy under broad wet leaves, oval and bigger than a hand. Its glassy skin holds green, gold, and bruised purple in mottled layers, with thin rainbow color running over the curve when light catches it. Water beads along the rind and gathers at the pointed end before it drops from the fruit.
 
 Consumable, Rare
 
-When you eat this fruit, you have the **Invisible** condition for **1 hour**. The effect ends early if you make an attack roll, deal damage, or cast a spell.
+When you eat this fruit, you have the **Invisible** condition for **1 hour**.
