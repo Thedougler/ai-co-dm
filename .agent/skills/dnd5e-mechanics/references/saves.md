@@ -24,9 +24,10 @@ Area damage the target can **dodge** is Dexterity. A toxin already in the
 blood is Constitution. A spell rewriting the mind is Wisdom. A glamour the
 target can **disbelieve** is Intelligence.
 
-Write `DC 15 Dexterity saving throw`. On a damaging *save*, roll damage once
-for all targets hit by the same effect. Many such effects deal half damage
-(round down) on a success.
+Write **Dexterity save — `DC 15`** (at-table grammar in `obsidian-markdown`).
+Statblock YAML still uses `DC 15 Dexterity saving throw`. On a damaging
+*save*, roll damage once for all targets hit by the same effect. Many such
+effects deal half damage (round down) on a success.
 
 ## Cover (Dexterity *saves* and AC)
 

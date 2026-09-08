@@ -45,3 +45,4 @@ Where it came from and where it goes if lost.
 
 - No full DMG item text.
 - Do not dump every similar item variant here.
+- Wiki-body checks and saves use the at-table grammar in `obsidian-markdown` (`**Dexterity save — \`DC 15\`**`). Statblock YAML keeps 5e fence phrasing.

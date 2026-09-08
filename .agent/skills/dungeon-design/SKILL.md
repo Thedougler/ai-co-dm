@@ -149,7 +149,8 @@ Hand player-facing room, landmark, NPC, and encounter prose to
 theatre-of-the-mind. Retrieve vault facts through qmd-retrieval; do not invent
 setting/campaign canon when the vault is silent—say so and leave a
 clearly marked stub. Keep design truth, clocks, DCs, and hidden information out
-of player-facing prose.
+of player-facing prose. Write keyed checks and saves with the at-table grammar
+in `obsidian-markdown`.
 
 ## GM-prep and world-bible gates
 

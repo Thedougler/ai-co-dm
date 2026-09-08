@@ -54,7 +54,7 @@ commentary, and notes to the writer stay in this skill.
 4. **Table gate.** Reading view is one downward pass of the Cockpit table.
    Completion: every item in **Table gate** below holds for this pass.
 
-5. **File.** `obsidian-markdown` (wikilinks, `session-surface`, real newlines).
+5. **File.** `obsidian-markdown` (wikilinks, `session-surface`, real newlines, at-table scan).
    The only callout on the card is `[!narration]`. Pass 2 fills stubs via TotM.
    `./scripts/after-write` on named paths.
 
@@ -73,7 +73,7 @@ Frontmatter: `type: session-prep` (or `encounter`), `cssclasses: [session-surfac
 | 6 | **Initial Narration** | Empty `> [!narration] Initial Narration` stub on pass 1. Pass 2 fills *scene-setting* (see Scene-setting). If the owner already has an identity image, embed `![[attachments/…]]` beside this block. |
 | 7 | **Procedure** | Heading `## Procedure`. Name *escape mode* or *combat mode*. The loop for this slice, once. Not a `[!mechanic]` callout. |
 | 8 | **Zones** | Table: place \| distance in feet \| cover. Same distances as Now. No Narration column. Immediately after the table: one empty `> [!narration] {Place}` stub per row. |
-| 9 | **Be ready for** | **Partial** defined once above the table (see Partial). Table: intent \| approach (skill) \| DC \| success \| partial \| failure. Name the creature, item, and place in every cell. Every cell is a *ruling*. Include **Assess the situation** when the opening could be read as “what is it hunting / doing?” Not a menu to read aloud. |
+| 9 | **Be ready for** | **Partial** defined once above the table (see Partial). Table: intent \| approach (skill) \| DC \| success \| partial \| failure. Approach is **Ability (Skill)**. DC column is `` `DC 14` ``. Dice and damage in cells are inline code. Applied conditions are **bold**. Name the creature, item, and place in every cell. Every cell is a *ruling*. Include **Assess the situation** when the opening could be read as “what is it hunting / doing?” Not a menu to read aloud. Body-copy checks outside this table use the at-table grammar in `obsidian-markdown`. |
 | 10 | **Threat clock** | Heading `## Threat clock`. Table: tick \| what happens. The predators’ turn. Named ticks. 3–4 ticks. Bloodied (write the HP number), cover-reached, minions, scene dials live **in this block**. Immediately after the table: one empty `> [!narration] Tick {n}` stub per tick. |
 | 11 | **Secondary objective** | If Be ready for lists “save / distract X,” one line: beats required, ignore outcome, later consequence. Omit when there is no second objective. |
 | 12 | **Landing** | Next scene’s opening state: where bodies are in **feet**, RAW conditions (Prone), damage already applied. Movement closes gaps. Empty `> [!narration] Landing` plus one titled stub per named variant (Scattered, Crash-landed). |
@@ -122,7 +122,7 @@ A row may say “binary — no partial” when the fiction has no middle.
 
 ## Ruling
 
-A *ruling* is a 5.5e (2024) action, movement in feet, opportunity attack, named condition, ability check, save, or damage; or a **named feature already on a vault owner**. This vault’s **Partial** (miss by 1–4) is house, written once above the table. Check, save, and DC choice → `dnd5e-mechanics`.
+A *ruling* is a 5.5e (2024) action, movement in feet, opportunity attack, named condition, ability check, save, or damage; or a **named feature already on a vault owner**. This vault’s **Partial** (miss by 1–4) is house, written once above the table. Check, save, and DC choice → `dnd5e-mechanics`. The written mark → `obsidian-markdown` at-table scan.
 
 5.5e actions: Attack, Dash, Disengage, Dodge, Help, Hide, Influence, Magic, Ready, Search, Study, Utilize. Conditions include Prone, Grappled, Restrained.
 

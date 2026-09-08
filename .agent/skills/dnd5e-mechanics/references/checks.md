@@ -39,7 +39,7 @@ pairing as `Charisma (Athletics)`, not a new skill.
 ### Hide
 
 Prerequisites: Heavily Obscured **or** Three-Quarters / Total Cover, and out of
-any enemy's line of sight. Dexterity (Stealth) against **DC 15**. Success:
+any enemy's line of sight. Dexterity (Stealth) against `DC 15`. Success:
 Invisible while hidden; **record the total** — that total is the *DC* for a
 Wisdom (Perception) *check* to find you. Hidden ends if you make a sound louder
 than a whisper, an enemy finds you, you make an attack roll, or you cast a

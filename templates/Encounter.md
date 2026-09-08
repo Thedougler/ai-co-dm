@@ -61,8 +61,8 @@ Escape mode: players act; failures impose listed rulings only; after everyone ha
 
 | Intent | Approach | DC | Success | Partial | Failure |
 | --- | --- | --- | --- | --- | --- |
-| Assess the situation | Name the skill | DC | Name what they learn | Name the cost | Name the listed cost; do not also tick the clock |
-| Name the goal | Name who does what, and where | Skill DC | Name who ends where, and what the opposition does | Name the ruling (5.5e action, feet, condition, or owner feature) | Name the ruling |
+| Assess the situation | **Wisdom (Perception)** | `DC 15` | Name what they learn | Name the cost | Name the listed cost; do not also tick the clock |
+| Name the goal | **Ability (Skill)** | `DC n` | Name who ends where, and what the opposition does | Name the ruling (5.5e action, feet, condition, or owner feature) | Name the ruling |
 
 ## Threat clock
 
@@ -130,7 +130,7 @@ Session links.
 
 ## Constraints
 
-- Complete grammatical sentences on live cards.
+- Complete grammatical sentences on live cards. Checks and saves use the at-table grammar in `obsidian-markdown`.
 - The only callout is `[!narration]`. Empty titled stubs on mechanical pass 1; TotM fills every stub on pass 2.
 - Do not put callouts inside table cells. Titled stubs sit after the Zones table and after the Threat clock table.
 - Embed an existing owner identity image (`![[attachments/…]]`) when the owner page already lists one. Delete the image line if none exists. Do not mint art here.

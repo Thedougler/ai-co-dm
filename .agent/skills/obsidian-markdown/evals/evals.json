@@ -60,6 +60,17 @@
         "Rejects telegram shorthand, letter-code-only clauses, and decoder-dependent slash-stacks.",
         "Retains open mechanic/secret callouts and real body newlines."
       ]
+    },
+    {
+      "id": 7,
+      "prompt": "On a location If the party section, mark noticing a concealed tunnel as a Wisdom (Perception) check DC 14 that reveals claw marks on success, and a Dexterity save DC 15 for a fire trap that deals 3d6 on a failure.",
+      "expected_output": "Uses at-table scan grammar: **Wisdom (Perception) — `DC 14`** with Success/Failure → lines; **Dexterity save — `DC 15`** with `3d6` in inline code. Does not bold the DC. DCs stay out of [!narration].",
+      "expectations": [
+        "Writes checks as **Ability (Skill) — `DC n`**, not **DC n** *Skill*.",
+        "Puts DC and damage dice in inline code.",
+        "Uses Success/Failure → (or a one-line →) for consequences.",
+        "Does not put the DC inside [!narration]."
+      ]
     }
   ]
 }

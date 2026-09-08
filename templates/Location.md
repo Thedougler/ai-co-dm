@@ -43,6 +43,14 @@ Exits, routes, and linked sites. Node pointers, not a map essay.
 
 Things to do or discover here.
 
+### If the party
+
+Player-activity tests. Hang each mark on the attempt they take (`dnd5e-mechanics`). Several approaches as bullets:
+
+- **Wisdom (Survival) — `DC 13`** → Follow the tracks.
+- **Intelligence (Nature) — `DC 15`** → Identify the creature.
+- **Wisdom (Perception) — `DC 17`** → Notice it watching from the canopy.
+
 ## L2 · Deep
 
 ### Secrets (DM)
@@ -53,3 +61,4 @@ Clues available here (Alexandrian) — the content of the clue, not only “roll
 
 - No room-by-room novelization unless this is a keyed dungeon (then use subsections sparingly).
 - No stat blocks in the location note (link [[Encounter]] / [[Monster]]).
+- Checks and saves use the at-table grammar in `obsidian-markdown`. `DC n` is inline code.

@@ -207,7 +207,10 @@ the host is a multi-room dungeon. If the challenge exists but
 the fiction is still generic, invoke `flesh-out`.
 
 Default to sensory bullets. Add `[!narration]` only when the DM must
-speak a picture. Hidden mechanism stays in `[!secret]-`.
+speak a picture. Hidden mechanism stays in `[!secret]-`. Write triggers,
+checks, and saves with the at-table grammar in `obsidian-markdown`:
+**Trigger:**, **Ability (Skill) — `DC n`**, Success/Failure → outcomes,
+damage as `` `2d6` ``.
 
 **Complete when:** a DM unfamiliar with the design can run the challenge
 from the page alone.

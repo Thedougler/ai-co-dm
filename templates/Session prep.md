@@ -48,7 +48,11 @@ Playable scene cards — a menu, not a path. About one card per forty-five minut
 The trigger and how it can surface.
 
 **Procedure**
-One check or procedure: trigger, DC or source, success, and fail-forward.
+**Wisdom (Perception) — `DC 14`**
+- Success → Notices claw marks beneath the window.
+- Failure → Nothing appears disturbed.
+
+**Trigger:** Name the fictional action that starts it.
 
 **If violence starts:** Opening behaviour, terrain, morale, and opposition goal.  
 **If ignored:** One independent pressure step.  
@@ -137,7 +141,7 @@ Parcels if earned.
 
 ## Constraints
 
-- Write complete grammatical sentences on this surface — no telegram shorthand.
+- Write complete grammatical sentences on this surface — no telegram shorthand. Checks and saves use the at-table grammar in `obsidian-markdown`.
 - The only callout is `[!narration]`. Empty titled stubs on mechanical pass 1; TotM fills every stub on pass 2.
 - Do not use collapsed callouts (`[!…]-`); the DM must see every line.
 - No scripted dialogue trees.

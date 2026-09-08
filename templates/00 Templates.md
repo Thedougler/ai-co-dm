@@ -46,5 +46,5 @@ Session/run beats use **two passes**: mechanical cockpit plus empty titled stubs
 
 ## Presentation
 
-- Session/run notes: `cssclasses: [session-surface]`, open callouts only, complete grammatical sentences.
+- Session/run notes: `cssclasses: [session-surface]`, open callouts only, complete grammatical sentences, at-table scan grammar (`obsidian-markdown`).
 - Hierarchy doctrine: [[docs/obsidian-presentation]].

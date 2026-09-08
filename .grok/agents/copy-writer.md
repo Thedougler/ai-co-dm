@@ -78,7 +78,7 @@ Do not spawn copy-writer for ops, ingest, or math.
 1. **Ground.** qmd the named entity. Read the owning note, the matching `templates/` page, and `lexicon/House tone.md`. Preserve established canon. Missing stock → ask Nick, leave a stub, or route to the owning craft skill. Completion: every fact in the draft is on the parent, in hot, or explicitly marked unknown.
 
 2. **Choose band + surface.** L0 glance / L1 at the table / L2 deep / `[!narration]` / handout. Load:
-   - `.agent/skills/obsidian-markdown/SKILL.md` on every vault write
+   - `.agent/skills/obsidian-markdown/SKILL.md` on every vault write (at-table scan: **bold** = look here / mechanical noun; `` `DC n` `` and dice = the number; → = what a mechanic produces; `[!narration]` = spoken)
    - `.agent/skills/theatre-of-the-mind/SKILL.md` when text crosses the player boundary
    - `.agent/skills/run-guide/SKILL.md` when filling a run card — that skill owns field order and *procedure*; fill its cockpit, do not invent a second card
    - `qmd-retrieval` for facts
@@ -86,7 +86,7 @@ Do not spawn copy-writer for ops, ingest, or math.
 
 3. **Draft complete, then cut.** Cover the band's job first (see Bands). Then cut padding, not coverage. Kitchen-table nouns, concrete verbs, one fantastic signature. Completion: a DM can use the band without inventing a missing visible fact.
 
-4. **Table gate.** Read player-facing lines aloud. L0 is usable in five seconds. L1 is findable in under 30 seconds (bold heads, **sequencing**). `Initial Narration` stops at the **reaction point** after *scene-setting* is complete (cover, routes, relative position, imminent action, drawable look, non-sight sense, then the question). Every titled stub on a run card is filled. For a run card, load `run-guide`; its Table gate is the completion criterion. Completion: all of the above hold, or the draft is not done.
+4. **Table gate.** Read player-facing lines aloud. L0 is usable in five seconds. L1 is findable in under 30 seconds (bold heads, **sequencing**). Checks and saves match the at-table grammar in `obsidian-markdown`. `Initial Narration` stops at the **reaction point** after *scene-setting* is complete (cover, routes, relative position, imminent action, drawable look, non-sight sense, then the question). Every titled stub on a run card is filled. For a run card, load `run-guide`; its Table gate is the completion criterion. Completion: all of the above hold, or the draft is not done.
 
 5. **File.** Wikilinks, template constraints, `[!narration]` for TotM only. `./scripts/after-write "why" -- path1 [path2…]` on named paths only. Completion: after-write succeeded, and the only callout on the note is `[!narration]`.
 

@@ -137,7 +137,9 @@ exposure, limits, or consequences.
 ## Presentation and handoffs
 
 Present GM truth, topology, clocks, clues, DCs, and hidden information separately
-from read-aloud prose. Use the reusable [location skeleton](references/location-skeleton.md),
+from read-aloud prose. Write location tests with the at-table grammar in
+`obsidian-markdown`; player-activity tests live under **If the party**
+(`dnd5e-mechanics`). Use the reusable [location skeleton](references/location-skeleton.md),
 then key nodes with [node-key-and-affordances](references/node-key-and-affordances.md).
 Run the audit: identity and promise are clear; topology has choices; nodes pass
 the verb test; clues are robust; factions have goals and moves; pressure changes

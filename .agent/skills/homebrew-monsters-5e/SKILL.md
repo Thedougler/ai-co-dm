@@ -57,7 +57,7 @@ Do not solve solo play with inflated AC/HP alone. Use lightning rods — groups 
 Integrate objective, terrain, allies (usually two or three complementary types), reinforcements, escape, and failure states other than TPK. Trap counterplay must not depend on one check.
 
 ## 2024 notation
-Use `DC 15`; `+7 to hit`; `Hit: 11 (2d8 + 2) damage`; `Recharge 5–6`; `1/Day`; `Speed 30 feet`; `PB +3`; explicit save/repeat timing; and clear shapes, ranges, targets, durations, and triggers. Label any 2014 recalibration.
+Use `DC 15`; `+7 to hit`; `Hit: 11 (2d8 + 2) damage`; `Recharge 5–6`; `1/Day`; `Speed 30 feet`; `PB +3`; explicit save/repeat timing; and clear shapes, ranges, targets, durations, and triggers. Label any 2014 recalibration. Statblock YAML keeps that 5e fence phrasing. Wiki-body checks and saves outside the fence use the at-table grammar in `obsidian-markdown`.
 
 ## Default output
 1. Path chosen and assumptions.

@@ -29,7 +29,7 @@ Obsidian LLM wiki for Nick's home D&D. **Markdown is the product.**
 
 ## Write
 
-- **Format:** every vault `.md` uses skill `obsidian-markdown` (Obsidian Flavored Markdown — wikilinks, embeds, callouts, properties). Load `SKILL.md` on any create/edit; `references/` only if stuck.
+- **Format:** every vault `.md` uses skill `obsidian-markdown` (Obsidian Flavored Markdown — wikilinks, embeds, callouts, properties, at-table scan). Load `SKILL.md` on any create/edit; `references/` only if stuck.
 - **Create vs update:** qmd for existing entity first; update in place; new note only if no hit; link nearest index/MOC.
 - Wikilinks; one topic/note; stub > empty folder.
 - **Images:** store under `attachments/` (use `attachments/<campaign>/` when campaign-specific). Embed `![[attachments/…]]` or wikilink `[[attachments/…]]` — never bare disk paths or `![](file:///…)` for vault art.
@@ -69,7 +69,7 @@ This repo is an **Obsidian prose wiki**, not an application codebase. Prefer vau
 
 | Job | Skill |
 |---|---|
-| Format any vault `.md` (Obsidian) | `obsidian-markdown` — **required on every wiki write** |
+| Format any vault `.md` (Obsidian) | `obsidian-markdown` — **required on every wiki write**; one Markdown treatment = one at-table meaning (`DC n` is inline code) |
 | Find vault facts | `qmd-retrieval` |
 | LLM-wiki pattern / doctrine | `llm-wiki` |
 | Eval whether wiki helps / quality harness | `llm-wiki-eval` → **Ops** / **Skill-Creator** / **Organizer** |

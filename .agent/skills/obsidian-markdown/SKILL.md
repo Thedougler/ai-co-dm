@@ -2,8 +2,10 @@
 name: obsidian-markdown
 description: >-
   Format every ai-co-dm vault `.md` with Obsidian Flavored Markdown (wikilinks,
-  embeds, callouts, properties). Required on any create or edit of wiki notes —
-  campaigns/, lexicon/, templates/, inbox/, hubs, indexes — before or while
+  embeds, callouts, properties) and the at-table scan grammar (one Markdown
+  treatment = one meaning; checks/saves as **Ability (Skill) — `DC n`**;
+  `DC n` and dice in inline code). Required on any create or edit of wiki notes
+  — campaigns/, lexicon/, templates/, inbox/, hubs, indexes — before or while
   writing. Use whenever writing Obsidian markdown in this vault.
 ---
 
@@ -20,8 +22,9 @@ write must preserve vault wikilinks, applicable callouts, and AGENTS properties.
 - **Player prose:** owner pages use leading `> [!narration] Narration` (empty until TotM fill). Session/run beats use mandatory `> [!narration] Initial Narration` plus titled stubs per `run-guide` TotM slots. Empty on mechanical pass 1; fill on pass 2. No secrets/DCs/unearned names inside `[!narration]`.
 - **Live session surfaces:** In run-guide, session-prep, session, and beat notes, never use collapsed callouts (`[!…]-`); keep DM information open so session cards do not hide it. Collapsed secrets remain allowed on long-lived owner pages (NPC/PC/faction) when useful.
 - **Real body newlines:** Prose, lists, and callout bodies must use real line breaks, never a literal backslash followed by `n`. This is especially strict for run-guide, session-prep, session, and beat notes. The only exemptions are YAML frontmatter and fenced code/statblocks (including YAML string values inside a statblock fence); outside those regions, a literal `\n` is a FAIL.
-- **Complete sentences on live surfaces:** Every DM-facing line on a run guide, session prep, or beat card must be a **complete grammatical sentence** (or a short list of complete sentences). Telegram shorthand, letter-code-only clauses, and slash-stacks that need a decoder are presentation fails. Wikilinks, bold field labels, and compact tables are allowed when cells remain readable sentences or clear subject-bearing fragments.
-- **Monsters:** Fantasy Statblocks fence (```` ```statblock ````) immediately after frontmatter, or after a single `## Statblock` heading so run cards can `![[Name#Statblock]]`. See `templates/Monster.md` + `./scripts/lint-statblocks`. Never a prose AC/HP table instead of the fence. No WotC book paste.
+- **Complete sentences on live surfaces:** Every DM-facing line on a run guide, session prep, or beat card must be a **complete grammatical sentence** (or a short list of complete sentences). Telegram shorthand, letter-code-only clauses, and slash-stacks that need a decoder are presentation fails. Wikilinks, bold field labels, compact tables, and the **at-table check/save grammar** below are allowed when cells remain readable sentences or clear subject-bearing fragments.
+- **At-table scan:** each Markdown treatment has exactly one meaning (table under Syntax). `DC 15` is inline code. Private DM notes are headings on session/run surfaces, and `[!secret]` / `[!mechanic]` on owner pages.
+- **Monsters:** Fantasy Statblocks fence (```` ```statblock ````) immediately after frontmatter, or after a single `## Statblock` heading so run cards can `![[Name#Statblock]]`. See `templates/Monster.md` + `./scripts/lint-statblocks`. Never a prose AC/HP table instead of the fence. No WotC book paste. The fence keeps 5e YAML phrasing (`DC 15 Constitution saving throw`); at-table scan is for wiki body, not the fence.
 - **Run-card roster:** embed the owner heading (`![[Bloodhawk#Statblock]]`) at the bottom. Put default-mode compact numbers on the action cards (`run-guide`). Do not retype the owner's full Multiattack/HP table into the card body. Do not embed the whole monster essay.
 - **Paths:** scratch → `inbox/`; **images/media** under `attachments/` (campaign subfolders ok). Embed with `![[attachments/…]]`; wikilink with `[[attachments/…]]`. See [[attachments/00 Attachments]] + [references/EMBEDS.md](references/EMBEDS.md). No parallel `wiki/` · `concepts/` · `sources/` tree.
 - **Finish:** Run `./scripts/after-write "why" -- path1 [path2…]` with named paths only; it is path-scoped and pushes the commit.
@@ -80,6 +83,71 @@ Session/run: only `[!narration]`. Owner pages may still use `[!mechanic]` and `[
 
 Other types (`note`, `tip`, `warning`, …): [references/CALLOUTS.md](references/CALLOUTS.md).
 
+### At-table scan
+
+One treatment, one meaning. **Bold** always means look here / mechanical noun — triggers, applied states, and named checks share that meaning.
+
+| Content | Syntax | Example |
+|---|---|---|
+| DM instructions / information | Plain text | The bridge collapses when two creatures cross. |
+| Important trigger / state | **Bold** | **Trigger:** A creature touches the idol. |
+| Game term / creature / item emphasis | *Italics* | *poisoned*, *Giant Eagle* |
+| Skill / check / save | **Bold** | **Wisdom (Perception)** |
+| DC | `inline code` | `DC 15` |
+| Damage / mechanical numbers | `inline code` | `2d6 + 3` fire damage |
+| Result / consequence | → arrow | → Spots the concealed tunnel. |
+| Player narration | Narration callout | `> [!narration]` |
+
+**Bold** = look here / mechanical noun. `` `code` `` = the number you need. Plain text = what happens. → = what a mechanic produces. `[!narration]` = words potentially spoken aloud.
+
+Check, save, and DC choice still come from `dnd5e-mechanics`. This section is the mark.
+
+Checks:
+
+```markdown
+**Wisdom (Perception) — `DC 14`**
+- Success → Notices claw marks beneath the window.
+- Failure → Nothing appears disturbed.
+```
+
+Saves:
+
+```markdown
+**Dexterity save — `DC 15`**
+- Success → Half damage.
+- Failure → `3d6` fire damage and falls **prone**.
+```
+
+Obvious consequence, one line:
+
+```markdown
+**Strength (Athletics) — `DC 13`** → Climb the wet wall.
+```
+
+Several approaches:
+
+```markdown
+- **Wisdom (Survival) — `DC 13`** → Follow the tracks.
+- **Intelligence (Nature) — `DC 15`** → Identify the creature.
+- **Wisdom (Perception) — `DC 17`** → Notice it watching from the canopy.
+```
+
+Narration stays visually isolated. Mechanics sit in the DM layer after it:
+
+```markdown
+> [!narration]
+> The grass parts ahead of you. Something enormous moves through it without making a sound.
+
+**Wisdom (Perception) — `DC 14`**
+- Success → They see the feathers before the creature emerges.
+
+**Trigger:** Someone enters the grass.
+
+The creature attacks from concealment.
+```
+
+On a `run-guide` Be ready for table, the same treatments apply inside cells: approach is **Ability (Skill)**; DC column is `` `DC 14` ``; dice and damage are inline code; applied conditions are **bold**. The columns already split success / partial / failure, so those cells do not also need →.
+
 ### Properties
 
 ```yaml
@@ -97,7 +165,7 @@ Types and tags: [references/PROPERTIES.md](references/PROPERTIES.md).
 
 ### Also supported (use when needed)
 
-`==highlight==` · `%%comment%%` · `$math$` / `$$` · ` ```mermaid ` · footnotes `[^1]`
+`%%comment%%` · `$math$` / `$$` · ` ```mermaid ` · footnotes `[^1]`
 
 ## Anti-patterns
 
@@ -108,6 +176,8 @@ Types and tags: [references/PROPERTIES.md](references/PROPERTIES.md).
 | Prose monster stats / fence not first | `## Statblock` then `statblock` fence, or fence first |
 | Owner's full Multiattack/HP table retyped above the embed | `![[Monster#Statblock]]` at the bottom plus action-card compact numbers (`run-guide`) |
 | Secrets inside `[!narration]` | Session/run: DM truth as a heading. Owner pages: `[!secret]` / `[!secret]-` |
+| `**DC 15**` or `**DC 15** *Perception*` | `**Wisdom (Perception) — \`DC 15\`**` |
+| `==highlight==` for a private DM note | Session/run: a heading. Owner page: `[!secret]` / `[!mechanic]` |
 | New `wiki/` or `concepts/` folders | `campaigns/` · `lexicon/` · `inbox/` |
 | WotC book paste | paraphrase / house / SRD link in `source` |
 | `![](…)` / absolute disk paths for vault art | `![[attachments/…]]` / `[[attachments/…]]` |

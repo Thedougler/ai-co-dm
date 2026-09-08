@@ -25,7 +25,8 @@ Every wiki note uses the same disclosure bands. Empty sections are deleted, not 
 3. Player-facing prose lives in `> [!narration]`. Owner pages: one leading block near L0. Session/run beats: mandatory `Initial Narration` plus titled situational stubs (zones, ticks, landing, roster), never buried and never inside table cells.
 4. On session/run surfaces the only callout is `[!narration]`. DM truth and procedure are headings.
 5. Complete grammatical sentences on session/run surfaces.
-6. Canonical facts stay on owner pages. Session/run notes **embed** combat/item headings (`![[Bloodhawk#Statblock]]`) at the bottom and write scene *procedure* plus default-mode action-card numbers above. Do not retype an owner's full Multiattack/HP table into the card body. Do not dump owner essays. Embed an existing owner identity image when the owner page already lists one.
+6. At-table scan grammar lives in `obsidian-markdown`: **bold** = look here / mechanical noun; `` `code` `` = the number; → = what a mechanic produces; `[!narration]` = spoken. `DC 15` is inline code.
+7. Canonical facts stay on owner pages. Session/run notes **embed** combat/item headings (`![[Bloodhawk#Statblock]]`) at the bottom and write scene *procedure* plus default-mode action-card numbers above. Do not retype an owner's full Multiattack/HP table into the card body. Do not dump owner essays. Embed an existing owner identity image when the owner page already lists one.
 
 ## Session / run surfaces
 

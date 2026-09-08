@@ -13,7 +13,7 @@ Define its want, fear, manner, boundaries, tell, leverage, and response to refus
 Use explicit stages. For each stage record trigger, new capability, cost or trade, tell, and how the party can accept, delay, redirect, or end the evolution. Do not add every stage's maximum benefits at once. Re-audit rarity, attunement, action economy, stacking, and party role whenever a stage unlocks.
 
 ## 2024/5.5e rules language
-Use concise player-facing notation: `DC 15`, `+7 to hit`, `Hit: 11 (2d8 + 2) damage`, `Speed 30 feet`, `1/Day`, `Recharge 5–6`, explicit ranges, targets, durations, triggers, and repeat-save timing. Say “the spell is cast from the item” when relevant. Name concentration. Specify whether a use requires an action, bonus action, reaction, or no action. Avoid copying published text; express the function in original language.
+Use concise player-facing notation: `DC 15`, `+7 to hit`, `Hit: 11 (2d8 + 2) damage`, `Speed 30 feet`, `1/Day`, `Recharge 5–6`, explicit ranges, targets, durations, triggers, and repeat-save timing. On wiki body (item notes, run cards), write checks and saves with the at-table grammar in `obsidian-markdown`. Say “the spell is cast from the item” when relevant. Name concentration. Specify whether a use requires an action, bonus action, reaction, or no action. Avoid copying published text; express the function in original language.
 
 ## Player-facing item template
 ```markdown

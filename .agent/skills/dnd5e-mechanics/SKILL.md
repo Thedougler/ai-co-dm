@@ -23,7 +23,8 @@ License, available at https://creativecommons.org/licenses/by/4.0/legalcode.
 
 - Every written test is *uncertain*: it can fail, and failure changes play.
 - Every written test is one *d20 test* (*check*, *save*, or attack) with a *DC*
-  (or AC). Mark it **DC 15** *Survival* (bold number, italic type).
+  (or AC). Mark it **Wisdom (Survival) — `DC 15`** (at-table grammar in
+  `obsidian-markdown`).
 - The *DC* is a typical-band rung, a named 2024 procedure, or `8 + PB + ability modifier` for an imposed *save*.
 - Certain outcomes stay fiction: drink the lake, start otter play, a macaw's
   Surface Echo. Those lines have no parenthetical about rolling.
@@ -103,8 +104,13 @@ or cost.
 
 ### 6. Place the number
 
-Write **DC 15** *Survival*: catch fish this hour. Bold the *DC* and number;
-italic the *check* or *save* type. That pair is the mark.
+Write the test with the **at-table check grammar** in `obsidian-markdown`:
+
+**Wisdom (Perception) — `DC 14`**
+- Success → Notices claw marks beneath the window.
+- Failure → Nothing appears disturbed.
+
+Compress when the consequence is obvious: **Strength (Athletics) — `DC 13`** → Climb the wet wall. Saves: **Dexterity save — `DC 15`**. `DC n` and dice are inline code. Ability and skill are bold.
 
 **Home:** player activities — on a location, **If the party**. Hang the mark on
 the attempt they take.
@@ -113,10 +119,11 @@ the attempt they take.
 it belongs to (a creature-imposed *save* on What, a hidden listen in
 `[!secret]`). Obvious roster and fiction stay unmarked.
 
-A *Be ready for* table is for `run-guide` only; cells still use the same mark.
-Vault format is `obsidian-markdown`. `[!narration]` stays player-safe.
+A *Be ready for* table is for `run-guide` only; cells still use the same
+treatments (approach **Ability (Skill)**; DC column `` `DC 14` ``).
+`[!narration]` stays player-safe.
 
-**Complete when:** every written test uses **DC n** *Type*; player-activity
+**Complete when:** every written test matches that grammar; player-activity
 tests live under **If the party**; only optional/secret/non-obvious tests sit
 elsewhere; player prose has no *DC*, save type, or unearned name; no line
 exists only to say a roll is absent.

@@ -6,7 +6,7 @@ The model default is 2014 PHB. Replace those procedures with the 5.5e target.
 |---|---|
 | Grapple or shove as Strength (Athletics) contest | Unarmed Strike option: target makes a Strength or Dexterity *save* vs `8 + Strength modifier + PB` |
 | Escape grapple vs the grappler's Athletics roll | Strength (Athletics) or Dexterity (Acrobatics) *check* vs the grapple *DC* |
-| Hide vs contested Perception | Hide is Dexterity (Stealth) **DC 15**; the total becomes the find-*DC* |
+| Hide vs contested Perception | Hide is Dexterity (Stealth) `DC 15`; the total becomes the find-*DC* |
 | Investigation to notice a hidden creature or object | Search → Wisdom (**Perception**) |
 | Perception to deduce a trap mechanism, pit lid, or cipher | Study → Intelligence (**Investigation**) |
 | Perception to recall monster lore | Study → Arcana / History / Nature / Religion by creature type |
