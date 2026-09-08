@@ -59,51 +59,31 @@ reactions:
 
 # Bloodhawk of Aruhe
 
-![[attachments/shattered-sea/creatures/bloodhawk-of-aruhe.jpg|Bloodhawk of Aruhe]]
-![[attachments/shattered-sea/creatures/bloodhawk-token.png|Bloodhawk FoundryVTT token]]
-
 > [!narration] Narration
-> A charcoal-bodied bloodhawk bursts from the storm-dark sky, its broad wings black beneath a sheen of crimson. A shaggy red nape frames its amber eye and pale hooked beak; talons long enough to rake a boat grip the back of a breaching whale. When those wings fold, the red-black feathers narrow into a falling blade.
+> The Bloodhawk of Aruhe is an ordinary hawk made enormous, with charcoal feathers, a ragged red crest, and crimson flight feathers spread across an eighty-foot shadow. Four broad wings hold it in the air while a pale hooked beak and boat-long talons do the close work. It circles without calling, and when the wings fold, the red-black body becomes a falling shape before the wind reaches the ground.
 
+## Behavior
 
+**Habitat.** Bloodhawks own the open sky above [[Aruhe - Hungry Isle]], especially lake bowls, reef gaps, river openings, canopy breaks, and hard-lit grassland rims. They avoid closed canopy, eight-foot grass, charted shingle, and occupied [[Aruhe - River Otter|otter]] water.
 
-## At the table
-**Tactic:** Dive → grab → haul aloft → rake. **Tell:** wings fold and crimson tips flash before a dive.
+**Behavior.** A Bloodhawk rides thermals in wide silent circles, watching for bodies that leave cover or cross open water. It does not scream over its territory. Over land, the warning is a moving bar of dark on the floor; over water, crimson underwings flashing against storm light.
 
-## Role / dials
-- **Easy:** no Dive recharge; Multiattack only.
-- **Hard / apex:** start Dive charged; add a thrashing whale or livestock as the first grab target (lightning rod).
-- **Bloodied (≤ half HP):** stop grabbing; beak and claws only, fly toward the cloud line if it can.
+**Diet.** It takes whales, canoes in open channel, [[Aruhe - Bear-Elk|Bear-Elk]] that step into open cuts, and [[Aruhe - Terror-Bird|terror-birds]] that hold a rim too long in hard noon. It does not eat skybladder fruit or work the island like a scavenger flock.
 
-## Signature moves
-1. **Canopy Dive** — telegraphed straight-line strike from above.
-2. **Talon Grab + Haul Aloft** — snatch and climb.
-3. **Sickle rake** — punish whoever is already grappled.
-4. **Serrated beak** — ongoing wound until stanched or healed.
+**Social Structure.** Solitary adults hold inland sky lanes. Young Bloodhawks may follow what an adult flushes, but they are pressure around the hunt rather than equal rivals.
 
-## Terrain / friends
-Cloud-canopy nests and open water on [[Aruhe - Hungry Isle]]. Hungry ground below still eats careless landings. Noise/distraction: purple Grung, wolfrabbits — not damage peers.
+## Tactics
 
-## Loot / aftermath
-- Crimson primary feathers (ritual / trophy).
-- Nest material high in the canopy (surveyors may want a look).
-- Optional: a branded band or fetish marking the druid lich’s sculpting (**brief-canon**; not yet on the Aruhe location note).
+**Signs.** A moving wing-shadow with no call, crushed grass circles with no exit trail, bear-elk bones on terrace stone with no approach tracks, whale blood in open water, crimson primary feathers, and gouges where talons struck wood, hide, or stone.
 
-## Running notes
-- **Default:** Dive if ready → Talon Grab → Haul Aloft → Sickle on the grappled target.
-- **Answered:** if the dive is wasted or LOS breaks, Multiattack from altitude; if grounded, it’s slow and unhappy — punish that.
-- **Dense canopy:** treat fly speed as halved until it clears the canopy line (terrain rule, not a trait).
-- **Counterplay:** Ready the dive, stanch/heal the wound, escape DC 19, force it low, stay under cover.
+**Instincts.** It keys on height, noise, exposed movement, open water, and prey already flushed from cover. It breaks off when the target vanishes under closed canopy, deep grass, or protected water.
 
-## Canon ecology - living stock ingest
-- **Big Bloodhawks only:** the inland sky-holder is the same ordinary stooping hawk as the small beach bird with the size cap removed, not a newly invented animal. It has a charcoal body, crimson-on-black flight feathers, shaggy red nape, cream hook-beak, amber eye, talons the size of a rowboat, and an eighty- to hundred-foot wingspan.
-- It owns the hole in the canopy, circling a valley or lake bowl on a thermal without screaming. Over land, the tell is a moving bar of dark on the floor; over water, the crimson underwing.
-- It takes whales, canoes in open channel, a [[Aruhe - Bear-Elk]] that steps into a cut, or a [[Terror-Birds|terror-bird]] that holds a rim too long in hard noon. It will not stoop closed canopy or eight-foot grass, does not work the charted shingle, and does not put a foot in occupied otter water.
-- A crushed grass circle with no exit trail, or bear-elk bones on terrace stone with no approach tracks, is its work. Skybladder fruit hangs on Marshes-edge vines leaning into light; the bird does not eat it.
+**Tactics.** It folds its wings, drops in a straight line, bites or hooks the exposed body, and climbs while the four wings keep lift under the weight. Once prey is held, it rakes with sickle claws and uses altitude as the threat.
 
-## Conflict notes
-- Existing provisional prose names a "druid lich's sculpting" and cloud-canopy nests. This ingest's canon frame says Aruhe does not invent new animals and the Blight gardens pressure rather than riding bodies; the older detail is retained for review, not silently reconciled.
+**Weaknesses.** It is slow and unhappy on the ground, bad under a sealed roof of leaves, and unwilling to put its feet into occupied otter water. Cover, low flight, tall grass, and broken sightlines rob the dive of its clean line.
 
-## Do not
-- Paste Monster Manual / proprietary Roc text.
-- Treat cloud canopy or the druid lich as old Aruhe vault canon — they enter with this brief.
+**Aftermath.** A Bloodhawk strike leaves torn feathers, falling blood, cracked branches, dropped nest fiber from high canopy, a stinking wound that will not close until treated, and sometimes a carcass placed where no ground trail reaches it.
+
+![[attachments/shattered-sea/creatures/bloodhawk-of-aruhe.jpg|Bloodhawk of Aruhe]]
+
+![[attachments/shattered-sea/creatures/bloodhawk-token.png|Bloodhawk FoundryVTT token]]
