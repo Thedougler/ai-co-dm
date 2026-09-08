@@ -72,7 +72,7 @@ Clear Lake is the inland freshwater basin at the uphill end of Aruhe's rivers. A
 ## Why
 
 - Abundant clean Water. 
-- Food, the fish taken from this lake do not trigger the wrath of [[campaigns/shattered-sea/npcs/The Blight|Hinewai]]
+- Food from the shore fruit and the lake fish.
 - The only calm area of Aruhe, tranquil and peaceful. 
 ---
 ## Art
