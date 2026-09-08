@@ -83,12 +83,12 @@ The prints lead onto [[Aruhe - Torn Crossing]]. A reed-matted clump that does no
 **Run:** [[Session-11-04-What-They-Ate]]
 
 - **Purpose:** Show how the group ahead has been staying alive, and what got someone killed, so the party can copy the right thing.
-- **Table sees:** The bank is a camp-in-passing. Overripe fruit on the ground, already fermenting: rinds, seeds, no blood. Fresh bushes next to that: stems snapped on the living plant, blood in the dirt. Fish bones, scales, and a crude line or spear at the water.
+- **Table sees:** The crew is on [[Aruhe - Line Bank]]. Overripe fruit on the ground, already fermenting: rinds, seeds, no blood. Fresh bushes next to that: stems snapped on the living plant, blood in the dirt. Fish bones, scales, and a crude line at the water.
 - **Truth:** They have been living off what was already down, and off fish. Picking living bushes is what left the blood. **Unrevealed:** river fishing can still draw animals later. The evidence here only shows it has been working for them so far.
 - **Pressure:** Easy food is sitting on the ground. The living bushes look better and they are the ones with blood under them. Time spent sorting this is time the smoke moves or thins.
 - **If they break:** If they strip the live bushes, the next hazards-table roll uses `2d8`, keeping the lower result. If they take only fallen fruit and move on, no claim. If they start fishing this hole themselves, treat it as a possible claim when you next roll.
 
-Same bank, three piles. Fermenting fruit on the ground, no blood. Fresh bushes with the stems snapped and blood under them. Fish bones and a line in the wet mud, still pointing upstream with the prints and the smoke.
+[[Aruhe - Line Bank]], three piles. Fermenting fruit on the ground, no blood. Fresh bushes with the stems snapped and blood under them. Fish bones and a line in the wet mud, still pointing upstream with the prints and the smoke.
 
 ### 5. CLIFFHANGER — Monster, Fright (otter hole)
 

@@ -8,35 +8,27 @@ visibility: dm
 tags: [session-prep, run-guide]
 cssclasses: [session-surface]
 ---
-
 # Session 11 — What they ate
 
 ## Scene ends when
 
-The crew copies the right thing on this bank and keeps the upriver prints (hand to beat 5), or the crew claims living plants or fishes this hole (the cost lands, the trail remains), or the crew breaks off the trail. This is the food lesson. It is not the otter hole, not a hazards-table result, and not another wolfrabbit stretch.
+The crew follows the upriver prints off [[Aruhe - Line Bank]] toward the smoke (hand to beat 5), or the crew breaks for [[Aruhe - Torn Crossing]], the beach, or the downstream terraces. This is the food lesson. This is not a fight. This is not the otter hole.
 
 This beat is thirty minutes.
 
-- **0–3 minutes:** Open the three piles on this bank and take declarations.
-- **3–18 minutes:** Let the crew read the piles, take fallen fruit, or decide.
-- **18–22 minutes:** Take the move-on along the upriver prints, or the claim, or the break off the trail.
-- **22–30 minutes:** Hand to beat 5, or rebuild from a break.
+**If behind:** Skip extra sorting of the three piles on this bank. Show the three piles, the pole, and the blood only at living stems. Ask. Then the crew moves or claims.
 
-**If behind:** Skip extra sorting of the three piles on this bank. Show the three piles. Ask. Then the crew moves or claims.
+**If ahead:** Still end on follow or break. Do not start the otter hole or the hazards table. Fruit-stripping is the inlined extra: an [[Taking on Aruhe]] claim means the later hazards-table roll uses `2d8`, keeping the lower result. Fishing this bank is a possible claim when you next roll.
 
-**If ahead:** Still end on move-on or claim. Do not start the otter hole or the hazards table. Fruit-stripping is the inlined extra: an [[Taking on Aruhe]] claim means the later hazards-table roll uses `2d8`, keeping the lower result. Fishing this hole is a possible claim when you next roll.
-
-## L0 · Glance
+## At a Glance
 
 - **Stakes:** Easy food is on the ground. Living bushes have blood under them.
-- **Goal / exit:** Take fallen fruit and keep the prints (beat 5), or claim, or break.
-- **Danger:** Picking living bushes is the claim. Fishing this hole is a later claim. Lingering thins the smoke.
-- **Silence:** Present the three piles, then wait. If the crew freezes, tick the clock once at the end of the round.
-- **Situation magnets:** Anyone lingering, picking live stems, or fishing this hole.
+- **Goal / exit:** Take fallen fruit and keep the prints (beat 5), or break off the trail.
+- **This bank:** Three fruit piles, a pole with a line in the water, fish bones, living fruit still hanging, blood only at snapped stems, drinkable river, eight-foot grass.
+- **Claim:** Fruit already on the ground is down. Plucking a living plant is a [[Taking on Aruhe]] claim. Fishing this bank is a possible later claim.
+- **Silence:** Present this bank, then wait.
 
-## Now
-
-The crew is here, on the upriver prints at this camp-in-passing bank. The three piles are in reach on this bank. The crude line sits in the wet mud at this bank. The tracks continue upstream toward the smoke. The smoke is a thin column on the horizon up-valley and is not reachable this slice. A Dash does not reach the smoke, the beach, or the terraces. Downstream runs back through the grass toward [[Aruhe - Torn Crossing]], the terrace line, the beach, and [[Uncertainty]].
+The crew is on [[Aruhe - Line Bank]], in eight-foot gold-green grass and moving water, just upvalley of [[Aruhe - Torn Crossing]]. The prints are underfoot as a double muddy track. The river-side pile, pole, and line sit 10 feet from the water. The downstream pile sits 20 feet along this same bank. The inland pile sits 25 feet toward the jungle wall. A 30-foot move stays on this bank. A Dash of 60 feet follows the prints off this bank, or goes downstream toward Torn Crossing. The smoke is a thin column on the horizon upstream. It is not reachable this slice. Downstream, the grass still runs back toward Torn Crossing, the terrace line, the beach, and [[Uncertainty]].
 
 ## DM truth
 
@@ -46,14 +38,18 @@ The group ahead has been living off fruit already down on this bank, and off fis
 
 ### Action cards
 
-**[[Taking on Aruhe]] claim.** Fruit already on the ground of this bank is down. Fallen fruit has no blood. Taking only that fruit is not a claim. Ordinary restorative fruit may occur. [[Aruhe - Lion Citrus]] or [[Aruhe - Breathmelon]] already down is enough. Do not invent a new mechanical item. Living stems on this bank still hold fruit. Stems snapped on the living plant with blood in the dirt are the claim already made by someone else. Plucking living bushes on this bank is a claim. On that claim, do not roll the hazards table now. The later [[Aruhe-River-Grasslands-Tables]] roll is `2d8`, keeping the lower result. Free-flowing river water on this bank is drinkable passage. If the crew fishes this hole themselves, treat it as a possible claim when you next roll. Do not start the otter hole. The trail and smoke remain.
+**This bank.** Eight-foot gold-green grass is Difficult Terrain and heavily obscures beyond 10 feet. Movement leaves a crushed corridor. Free-flowing river water is drinkable.
+
+**[[Taking on Aruhe]] claim.** Fruit already on the ground of this bank is down. Fallen fruit has no blood. Taking only that fruit is not a claim. Eating a still-firm fallen fruit is a Bonus Action and regains `8d4 + 8` hit points, as [[Aruhe - Redheart Berry]]. Do not invent a new mechanical item. Living stems on this bank still hold tawny orange fruit. Stems snapped on the living plant with blood in the dirt are the claim already made by someone else. Plucking living bushes on this bank is a claim. On that claim, do not roll the hazards table now. The later [[Aruhe-River-Grasslands-Tables]] roll is `2d8`, keeping the lower result. If the crew fishes this bank themselves, treat it as a possible claim when you next roll. Do not start the otter hole.
+
+![[attachments/shattered-sea/items/aruhe-redheart-berry.png|Redheart Berry]]
 
 > [!narration] Initial Narration
-> Wet mud takes your weight on this bank, where the upriver prints pass through. Gold-green grass leans into the water, and the river worries those stems while three piles wait within reach.
+> You see gold-green grass standing higher than a person along a clear turquoise bend, pale stone showing under the water where submerged blades bend with the current. A double line of muddy tracks cuts through crushed stems up this bank, and three fruiting bushes stand in reach, each with tawny orange fruit still hanging over a heap of whole globes and split skins.
 >
-> The first pile smells sweet and sour, fruit already fallen: rinds, seeds, a fist-sized citrus in a tawny, pelt-rough skin, and a pale green melon pinched into two lobes. The dirt under that pile is clean. Beside it, living bushes still hold fruit, but snapped stems hang over mud darkened with blood.
+> Ten feet from the water, a wooden pole leans on a short frame with a thin line still in the current, fish bones and loose silver scales on the wet sand beside it. The dirt under the fallen fruit is clean. Dark red mud packs only around the living roots, where snapped stems hang over fruit that is still on the wood. You smell the split skins where they have gone sharp and sweet. You hear water pulling at the line, and you feel the bank sucking at the prints.
 >
-> At the river, a crude line lies in wet mud with fish bones and loose scales beside it, still pointed upstream. The prints follow that heading toward a thin column of smoke on the up-valley horizon. Downstream, the grass runs back toward the terrace line, the beach, and Uncertainty, while the smoke remains out of reach.
+> Upstream, a thin column of smoke stands on the horizon in this same valley. Inland, a jungle wall closes the grass. Downstream, the gold stems run back toward the torn crossing, the terrace line, the beach, and [[Uncertainty]] on the water.
 >
 > What do you do?
 
@@ -63,116 +59,58 @@ The group ahead has been living off fruit already down on this bank, and off fis
 
 ## Procedure
 
-**Development mode** is the default. This is not escape mode.
-
-- Players declare and resolve turns, checks, and movement as normal.
-- Failures impose the Be ready for ruling only. Failures never advance the threat clock.
-- After everyone has acted, if anyone remains on the magnets (lingering, picking live stems, or fishing this hole), advance the threat clock once and resolve that tick.
-- Freeze or "we watch" ticks once at the end of the round, not per failed check.
-- Several failed checks in one round still produce one tick.
+**Development.** This bank is a look-and-commit slice. There is no fight on this card. When the crew follows the prints or breaks off the trail, the scene ends. If they stall, keep the three piles, the pole, and the smoke visible, then ask. If they race, still end on that follow or that break. Do not add an otter ambush. Do not roll the hazards table here.
 
 ## Zones
 
-| Place | Distance from the crew | Cover |
-| --- | --- | --- |
-| This bank / three piles | The crew is here, on the upriver prints at this camp-in-passing bank. | The three piles are in reach on this bank. This slice has no named predator. |
-| River at the line | The crude line sits in the wet mud at this bank. | Free-flowing river water is drinkable passage. Fishing this hole is a possible later claim. This is not the otter hole. |
-| Upriver prints | The tracks continue upstream toward the smoke. | Following those prints is the beat 5 handoff. Do not start the otter hole here. |
-| Inland smoke | The smoke is a thin column on the horizon up-valley. It is not reachable this slice. | The smoke is not reachable on this card. A Dash does not reach it. |
-| Downstream valley | Downstream runs back through the grass toward the first stretch, the terrace line, the beach, and [[Uncertainty]]. | Breaking off the trail this way is a rebuild. A Dash does not reach the beach or the terraces. |
-
-> [!narration] This bank / three piles
-> The three piles sit close enough to touch. Fallen fruit slumps sweet and sour among rinds and seeds with clean mud underneath, while blood marks only snapped stems on fruiting bushes.
-
-> [!narration] River at the line
-> The current pulls steadily along this bank. A crude line lies in the wet mud among fish bones and silver scales, angled upstream, and clear cold water keeps moving past it.
-
-> [!narration] Upriver prints
-> The prints leave this bank and press upriver through the grass. The river keeps talking beside the track, and the line of feet points toward the smoke.
-
-> [!narration] Inland smoke
-> A thin column of smoke stands on the up-valley horizon. Wind tugs its top sideways, but from this bank it stays a distant mark.
-
-> [!narration] Downstream valley
-> Downstream, the grass opens back toward the terrace line, the beach, and Uncertainty. Wet bank and sun-warmed stems carry that way, but the beach and terraces remain beyond even a hard run.
+| Place | Distance from the crew | Cover | Narration |
+| --- | --- | --- | --- |
+| [[Aruhe - Line Bank\|This bank]] / grass and river | Here. Eight-foot grass and moving water. | This grass hides a standing body, is Difficult Terrain, and heavily obscures beyond 10 feet. | _You stand in gold-green grass higher than your head, with clear turquoise water pulling at the bank and pale stone showing under the current. Submerged blades bend around your legs, and the stems rasp together at the waterline._ |
+| River-side pile and pole | 10 feet from the water, on the river side of the prints. | Open sand around tawny fallen fruit, a wooden pole, and fish bones. | _A fruiting bush holds tawny orange globes over a heap of whole fruit and split skins, with clean dirt under what has fallen. A wooden pole leans on a short frame, a thin line still in the current, and fish bones and silver scales lie on the wet sand. Dark red mud packs only around the living roots._ |
+| Downstream pile | 20 feet along this same bank. | Open grass around pale-green fallen fruit and a second fruiting bush. | _A second bush holds tawny fruit over a heap of pale green globes and burst skins. The dirt under that heap is clean. Dark red mud sits only at the living wood, where snapped stems hang over fruit still on the branch._ |
+| Inland pile | 25 feet toward the jungle wall. | Thin cover as the grass thickens toward the trees. | _A third bush stands closer to the jungle wall, tawny fruit still hanging over a darker heap of rinds and whole globes. Sweet rot is stronger here. Blood-dark mud rings only the living roots._ |
+| Upriver prints | The prints run 60 feet up this bank, then off toward the smoke. | Following that trail is beat 5. Do not start the otter hole here. | _The double track leaves this fruiting margin and follows the river inland, a crushed corridor through gold-green stems. The river keeps talking beside that path. Farther up the same valley, the thin smoke still marks the direction._ |
+| Inland smoke | A thin column on the horizon upstream in this same valley. | The smoke is not reachable on this card. | _Upstream, the smoke is a thin mark on the horizon, still inside this valley but beyond this slice of ground. The same wind that leans the seed heads pulls the top of the column sideways._ |
+| Jungle wall | 40 feet inland of the prints. | Shade under the first trunks. This is not the otter-hole detour. | _The grass thickens and then breaks against a dark wall of leaves and trunks. Shade sits under that edge, and the open stems stop at the first wood._ |
+| Downstream / [[Aruhe - Torn Crossing]] / beach / [[Uncertainty]] | 40 feet back toward Torn Crossing. A Dash of 60 feet leaves this bank that way. | That route is the way back to the torn crossing, the terrace line, the beach, and the ship. | _Downstream, the grass runs back toward the torn crossing, the terrace line, the beach, and [[Uncertainty]]. Salt does not reach this far, but the used hunt-lane still opens that way._ |
 
 ## Be ready for
 
-**Partial** is defined once for this table.
-
-- **Success:** meet or exceed the DC.
-- **Partial:** miss by 1–4; the player may accomplish the intent at the listed cost.
-- **Failure:** miss by 5 or more, or reject the partial cost.
-
 | Intent | Approach | DC | Success | Partial | Failure |
 | --- | --- | --- | --- | --- | --- |
-| Assess the situation | Wisdom (Perception), Wisdom (Survival), or Intelligence (Nature) | DC 12 | The fermenting fruit on this bank is already down, rinds and seeds, no blood. The living bushes have stems snapped on the plant and blood in the dirt. Fish bones, scales, and a crude line sit at the river, still pointing upstream with the prints and the smoke. How far the smoke is stays unknown. Whether fishing this hole will draw animals later stays unknown. | The looker gets the three piles on this bank and the upriver line toward the smoke, but spends the round at it. Apply this listed cost only. Do not also tick. | The looker wastes the round watching this bank. Apply this listed cost only. Do not also tick. The end-of-round clock still ticks once if anyone remains on the magnets. |
-| Take fallen fruit | Intelligence (Nature) or Wisdom (Survival) to take only fruit already down on this bank. Utilize if that crew member picks from the ground pile on purpose. | No roll if that crew member takes only the fermenting ground pile. DC 12 if that crew member sorts mixed stems. | That crew member takes only fruit already down on this bank. Ordinary restorative fruit may occur. [[Aruhe - Lion Citrus]] or [[Aruhe - Breathmelon]] already down is enough. Use the owner if that crew member eats what is already down. That is not an [[Taking on Aruhe]] claim. The trail and smoke remain. | That crew member takes some living stems on this bank. That is an [[Taking on Aruhe]] claim. The later hazards-table roll uses `2d8`, keeping the lower result. The trail and smoke remain. | That crew member strips living fruit on this bank. That is an [[Taking on Aruhe]] claim. The later hazards-table roll uses `2d8`, keeping the lower result. The trail and smoke remain. |
-| Strip living bushes | Utilize if that crew member plucks living stems on this bank on purpose. | No roll | That crew member strips living bushes on this bank. That is an [[Taking on Aruhe]] claim. The later hazards-table roll uses `2d8`, keeping the lower result. Do not roll the table on this card. Do not start the otter hole. The upriver prints remain. | Binary — no partial. | Binary — no partial. Stripping living bushes on this bank is the claim. |
-| Fish this hole | Utilize the crude line or spear at this river, or Wisdom (Survival) to fish this hole. | No roll to start fishing this hole | That crew member fishes this hole. Treat it as a possible [[Taking on Aruhe]] claim when you next roll. Do not start the otter hole. The evidence on this bank only shows fishing has been working for the group ahead so far. The upriver prints remain. | Binary — no partial. Fishing this hole still sits on the magnets. The clock still ticks at end of round if anyone remains on the magnets. | That crew member spends the round at the river on this bank. Apply this listed cost only. Do not also tick. The end-of-round clock still ticks once if anyone remains on the magnets. |
-| Keep walking the prints | Committing to follow the upriver prints toward the smoke | No roll | The crew leaves this camp-in-passing still on the prints. Hand to beat 5. This scene ends. If that crew member took only fallen fruit on this bank, that is not a claim. If that crew member already claimed living plants or fished this hole, the cost is already applied and the trail remains. | Binary — no partial. | Binary — no partial. Walking the upriver prints ends this scene. |
-| Break off the trail | Walking downstream through the valley, or leaving the upriver prints | No roll to walk downstream | The crew leaves this bank off the prints, toward the first stretch, the terrace line, the beach, or [[Uncertainty]]. Rebuild from that. This scene ends. | Binary — no partial. | If a crew member flies open valley air on the way, that is hawk sky. Do not restage beat 1. Do not start the otter hole on this card. |
+| Assess the situation | **Wisdom (Perception)**, **Wisdom (Survival)**, or **Intelligence (Nature)** | `DC 12` | The fermenting fruit on this bank is already down, rinds and seeds, no blood. The living bushes have stems snapped on the plant and blood in the dirt. Fish bones, scales, and a crude line sit at the river, still pointing upstream with the prints and the smoke. How far the smoke is stays unknown. Whether fishing this bank will draw animals later stays unknown. | The looker gets the three piles on this bank and the upriver line toward the smoke, but spends the round at it. | The looker wastes the round watching this bank. |
+| Follow the upriver prints off this bank | Committing to follow the prints upriver along this valley | Commit | The crew commits to the upriver trail toward the smoke. Hand to beat 5. This scene ends. If that crew member took only fallen fruit on this bank, that is not a claim. If that crew member already claimed living plants or fished this bank, the cost is already applied and the trail remains. | Binary — no partial. | Binary — no partial. |
+| Return toward [[Aruhe - Torn Crossing]] or [[Uncertainty]] | Walking downstream through the valley | Walk | The crew leaves this bank for a return through [[Aruhe - Torn Crossing]] toward the terrace line, the beach, or [[Uncertainty]]. Rebuild from that. This scene ends. | Binary — no partial. | If a crew member flies open valley air on the way, that is hawk sky. Do not restage beat 1. Do not start the otter hole on this card. |
+| Search the pole, bones, and line | **Intelligence (Investigation)** or **Wisdom (Perception)** | `DC 12` | That crew member can take the crude pole and line. The bones and scales are already on the sand. Searching them does not name how many people fished or what they caught. Do not invent a catch. | That crew member spends the round at the pole and scales and gets that this stop is fresh, nothing more. | That crew member wastes the round poking the line. |
+| Pick fruit on this bank | **Intelligence (Nature)** or **Wisdom (Survival)** to sort fallen fruit from living stems. **Utilize** if that crew member plucks without sorting. Plucking living stems on purpose is a claim. | `DC 12` | That crew member takes only fruit already down on this bank. That is not a claim. Eating a still-firm fallen fruit is a Bonus Action and regains `8d4 + 8` hit points, as [[Aruhe - Redheart Berry]]. The trail and smoke remain. | That crew member takes some living stems on this bank. That is an [[Taking on Aruhe]] claim. The later hazards-table roll uses `2d8`, keeping the lower result. The trail and smoke remain. | That crew member strips living fruit on this bank. That is an [[Taking on Aruhe]] claim. The later hazards-table roll uses `2d8`, keeping the lower result. Do not roll the table on this card. Do not start the otter hole. The trail and smoke remain. |
+| Fish this bank | **Utilize** the crude line or spear at this river, or **Wisdom (Survival)** to fish this bank | Commit | That crew member fishes this bank. Treat it as a possible [[Taking on Aruhe]] claim when you next roll. Do not start the otter hole. The evidence on this bank only shows fishing has been working for the group ahead so far. The upriver prints remain. | Binary — no partial. | Binary — no partial. Fishing this bank is the possible later claim. |
 
-Unforeseen intents use the same want: the group ahead has been living off fallen fruit and fish, and picking living bushes is what left the blood. Rule from zones, the clock, and whether the approach lingers, picks live stems, fishes this hole, keeps the upriver prints, or breaks off the trail.
-
-## Threat clock
-
-The delay turn happens after everyone has acted, and only if anyone remains on the magnets. Table failures do not also tick.
-
-| Tick | What happens |
-| --- | --- |
-| 1 | The thin column of smoke thins while they sort the three piles on this bank. |
-| 2 | The fermenting fruit on this bank keeps rotting. The living bushes still hang with fruit. The column is thinner. |
-| 3 | The smoke is a smear on the horizon. The upriver prints are still here. |
-| 4 | The column is gone. The prints on this bank still run upriver. The smoke is no longer a landmark this slice. |
-
-> [!narration] Tick 1
-> The smoke on the horizon thins while the three piles wait on this bank. The fallen fruit keeps breathing its sweet rot from the dirt.
-
-> [!narration] Tick 2
-> The fallen fruit softens in mud, rinds splitting. Fruit still hangs from the bushes, and the smoke narrows again.
-
-> [!narration] Tick 3
-> The smoke has become a faint smear on the horizon. The upriver prints remain in wet mud, with the river still working beside them.
-
-> [!narration] Tick 4
-> The column is gone from the horizon. Wet mud still holds the prints running upriver from this bank, but smoke no longer marks the sky.
-
-**Claim made.** Stripping living bushes on this bank is an [[Taking on Aruhe]] claim. The later hazards-table roll uses `2d8`, keeping the lower result. Do not roll the table on this card. Fishing this hole is a possible claim when you next roll. Do not start the otter hole. The trail remains.
-
-**Smoke lost.** If tick 4 fills, the column is gone. The crew can still walk the upriver prints. Hand to beat 5 if they keep the trail, or rebuild if they break.
-
-Do not spawn otters, wolfrabbits, or table rows on this clock.
+Unforeseen intents use the same want: the group ahead has been living off fallen fruit and fish, and picking living bushes is what left the blood. Rule from zones and whether the approach lingers, picks live stems, fishes this bank, keeps the upriver prints, or breaks off the trail.
 
 ## Landing
 
-If the crew copies the right thing and keeps the upriver prints, they leave this camp-in-passing still on the prints toward the smoke. Hand to beat 5.
+If the crew follows the prints, they have committed to the upriver trail along this valley toward the smoke. That is beat 5's opening.
 
-If the crew claimed living plants or fished this hole, the cost is already applied and they are still on the upriver prints. Hand to beat 5. Do not start the otter hole here.
+If the crew claimed living plants or fished this bank, the cost is already applied and they are still on the upriver prints if they keep walking. Hand to beat 5. Do not start the otter hole here.
 
-If the crew broke off the trail, they are heading downstream through the valley toward the terrace line, the beach, or [[Uncertainty]], plus any RAW conditions already applied. Rebuild from that.
+If the crew broke, they are returning through [[Aruhe - Torn Crossing]] toward the terrace line, the beach, or [[Uncertainty]], plus any RAW conditions already applied.
 
-> [!narration] Landing
-> You leave this bank on the upriver prints, gold-green stems rasping against you. The line of feet keeps its course toward the smoke.
->
-> Or you turn downstream through the grass toward the terrace line, the beach, or Uncertainty, leaving the used bank behind.
+> [!narration] Landing — Upriver prints
+> You leave the fruiting margin on the upriver prints, following the crushed gold-green corridor toward the smoke. Stems rasp at your legs, and the clear river keeps pace beside the path.
 
-**Crash-landed.** That crew member still has 2d6 bludgeoning already applied and is Prone until they stand.
+> [!narration] Landing — Return downstream
+> You turn back through the grass toward [[Aruhe - Torn Crossing]], the terrace line, the beach, and [[Uncertainty]]. The three piles and the pole fall behind you, and the used hunt-lane opens ahead.
 
-> [!narration] Crash-landed
-> You are still down on this bank, with wet mud and overripe fruit close to your face until you stand.
+**Scattered.** That crew member is still 30 feet apart in the grass until they join up.
 
-**Scattered.** That crew member is still apart until they join up.
+**Crash-landed.** That crew member still has `2d6` bludgeoning already applied and is **Prone** until they stand.
 
-> [!narration] Scattered
-> You are still apart on this bank. Fruit piles, river mud, and gold grass fill the gap until you join up.
+**Prone.** Anyone knocked down on the last stretch is **Prone** until they stand.
 
-**Prone.** Anyone knocked down on the last stretch is Prone until they stand.
-
-**[[Aruhe - Razer-Grass]].** Anyone shoved through or Shatter-dumped in the island has that damage already applied.
+**[[Aruhe - Razer-Grass]].** Anyone shoved through or Shatter-dumped on the last stretch has that damage already applied.
 
 Do not run the hazards table, wolfrabbits, or the otter hole here. After this bank is used, do not roll the hazards table on this bank again.
 
 ## Backup
 
-[[Taking on Aruhe]] · [[Aruhe - Lion Citrus]] · [[Aruhe - Breathmelon]] · [[Aruhe - Grasslands]] · [[Aruhe - Torn Crossing]] · [[Aruhe-River-Grasslands-Tables]] · [[Session-11-03-Wolfrabbits]] · [[Session-11-00-Angry-Birds]]
+[[Aruhe - Line Bank]] · [[Aruhe - Torn Crossing]] · [[Aruhe - River Landing Bank]] · [[Aruhe-River-Grasslands-Tables]] · [[Taking on Aruhe]] · [[Aruhe - Grasslands]] · [[Aruhe - River]] · [[Aruhe - Redheart Berry]] · [[Uncertainty]] · [[Session-11-03-Wolfrabbits]] · [[Session-11-00-Angry-Birds]] · [[Session-11-05-Otter-Hole]]

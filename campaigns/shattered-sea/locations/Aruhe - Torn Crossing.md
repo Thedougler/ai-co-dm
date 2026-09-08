@@ -29,7 +29,7 @@ Torn Crossing is a flood-scoured hunting lane inside [[Aruhe - Grasslands]], jus
 ## If the party
 
 - **Drink from the free-flowing river:** The water is drinkable.
-- **Follow the prints upriver:** The crushed corridor continues this valley through [[Aruhe - Grasslands]] along [[Aruhe - River]].
+- **Follow the prints upriver:** [[Aruhe - Line Bank|Line Bank]].
 - **Walk back downstream:** [[Aruhe - River Landing Bank]].
 - **Stay on a ridge or grass edge and skip the cut:** The water, prints, and hunting lane are lost.
 - **Walk the eight-foot grass:** The grass is Difficult Terrain and heavily obscures beyond 10 feet. Movement leaves a crushed corridor. A clump that does not lean while the seed heads around it do is an animal.
@@ -62,7 +62,7 @@ Torn Crossing is a flood-scoured hunting lane inside [[Aruhe - Grasslands]], jus
 ## Where
 
 - Grasslands site upvalley of [[Aruhe - River Landing Bank]]
-- The cut continues upvalley through [[Aruhe - Grasslands]]
+- The cut continues upvalley through [[Aruhe - Grasslands]] to [[Aruhe - Line Bank|Line Bank]]
 - Inland woods on the jungle side of the grass
 - Downstream to [[Aruhe - River Landing Bank]]
 - Smoke inland in this same valley, not a place on this stretch

@@ -142,7 +142,7 @@ If Be ready for is used to pull a dragged crew member, that person is **Grappled
 
 ## Landing
 
-If the [[Aruhe - Spiguar]] keeps its wolfrabbit and the pack breaks or is driven off this stretch, the crew can keep the upriver prints. Hand to beat 4. Smoke still stands on the horizon if they stayed on the trail. Movement closes gaps.
+If the [[Aruhe - Spiguar]] keeps its wolfrabbit and the pack breaks or is driven off this stretch, the crew can keep the upriver prints. Hand to [[Aruhe - Line Bank]] and beat 4. Smoke still stands on the horizon if they stayed on the trail. Movement closes gaps.
 
 If the crew went back into the river and downstream, they are in the river heading toward [[Aruhe - River Landing Bank]], the terrace line, the beach, and [[Uncertainty]], and the hunt holds the bank. Rebuild from retreat.
 

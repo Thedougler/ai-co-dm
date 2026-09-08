@@ -22,7 +22,7 @@ source: "[[Aruhe - Hungry Isle]]"
 
 ---
 ## At a glance
-The rivers draining [[Aruhe - Clear Lake]] braid through Aruhe and cut across the island's bands. They are the best road, and they are occupied: the fast clear water belongs to [[Aruhe - River Otter|River Otter]] families. Follow the current downhill or the water uphill toward the lake. Lateral channels reach [[Aruhe - Grasslands]], [[Aruhe - The Marshes]], and [[Aruhe - Quiet Forest]]. The first grassland mouth after the terraces is [[Aruhe - River Landing Bank|Landing Bank]]. Stay on a bank and the channel can be skipped; enter the water and it is otter play.
+The rivers draining [[Aruhe - Clear Lake]] braid through Aruhe and cut across the island's bands. They are the best road, and they are occupied: the fast clear water belongs to [[Aruhe - River Otter|River Otter]] families. Follow the current downhill or the water uphill toward the lake. Lateral channels reach [[Aruhe - Grasslands]], [[Aruhe - The Marshes]], and [[Aruhe - Quiet Forest]]. The first grassland mouth after the terraces is [[Aruhe - River Landing Bank|Landing Bank]]. Upvalley of the first hunting lane, the used fruiting margin is [[Aruhe - Line Bank|Line Bank]]. Stay on a bank and the channel can be skipped; enter the water and it is otter play.
 
 ---
 ## If the party
@@ -31,6 +31,7 @@ The rivers draining [[Aruhe - Clear Lake]] braid through Aruhe and cut across th
 - **Follow the water uphill:** [[Aruhe - Clear Lake]].
 - **Follow a lateral channel:** [[Aruhe - Grasslands]], [[Aruhe - The Marshes]], or [[Aruhe - Quiet Forest]].
 - **Drop from the terraces into the first grassland mouth:** [[Aruhe - River Landing Bank|Landing Bank]].
+- **Walk the grassland bank upvalley of the first hunting lane:** [[Aruhe - Line Bank|Line Bank]].
 - **Travel on the water:** Hours-scale where navigable. Current, rapids, deep pools, and otter families make it dangerous.
 - **Walk the grassland bank:** Eight-foot blades and rim predators. [[Aruhe - Terror-Bird|Terror-Birds]] end a hunt if prey hits deep grass, water, or [[Aruhe - Razer-Grass]].
 - **Walk the jungle bank:** Root curtains, drops, and things that hang above the water. Cover traded for vertical threat.
@@ -71,6 +72,7 @@ The rivers draining [[Aruhe - Clear Lake]] braid through Aruhe and cut across th
 - Outlet fans from [[Aruhe - Clear Lake|Clear Lake]]
 - Lateral channels into [[Aruhe - Grasslands|the Grasslands]], [[Aruhe - The Marshes|the Marshes]], and [[Aruhe - Quiet Forest|the Quiet]]
 - First grassland mouth after the terraces: [[Aruhe - River Landing Bank|Landing Bank]]
+- Used fruiting margin upvalley of Torn Crossing: [[Aruhe - Line Bank|Line Bank]]
 - Grassland bank lower and open; jungle bank a wall of leaves and roots
 
 ---
