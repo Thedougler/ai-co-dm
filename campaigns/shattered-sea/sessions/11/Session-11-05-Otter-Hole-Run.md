@@ -13,7 +13,7 @@ cssclasses: [session-surface]
 
 ## Scene ends when
 
-The crew takes the bloody-bank detour around this hole (hand toward beat 6 / the edge-trail), or the crew fights or loots in this hole and then leaves, or the crew breaks off the trail. This is the claimed stretch. It is not a grassland table row, not night watch, and not the deer-stalker.
+The crew takes the bloody-bank detour around this hole (hand toward beat 6 / the edge-trail), or the crew fights or loots in this hole and then leaves, or the crew breaks off the trail. This is the claimed stretch. It is not a hazards-table result, not night watch, and not the deer-stalker.
 
 This beat is thirty minutes.
 
@@ -185,7 +185,7 @@ The Hunt turn happens after everyone has acted, and only if anyone remains on th
 
 **Minions / dials.** Easy: two Hunt adults. Do not spawn a family of four to six on this card.
 
-Do not spawn wolfrabbits, a grassland table row, night watch, or the deer-stalker on this clock. Taking the bloody-bank detour before anyone is on the magnets ends this scene with no tick.
+Do not spawn wolfrabbits, a hazards-table result, night watch, or the deer-stalker on this clock. Taking the bloody-bank detour before anyone is on the magnets ends this scene with no tick.
 
 ## Landing
 
@@ -221,7 +221,7 @@ If the crew broke off the trail, they are heading downstream through the valley 
 
 **[[Aruhe - Razer-Grass]].** Anyone shoved through or Shatter-dumped in the island has that damage already applied.
 
-Do not run grassland tables, night watch, or the deer-stalker here. After this hole is used, skip [[Aruhe-River-Grasslands-Tables]] row 4 on this stretch. A later roll of 4 is a different hole and a different family.
+Do not run the hazards table, night watch, or the deer-stalker here. After this hole is used, do not roll the hazards table on this stretch again.
 
 ## Roster
 

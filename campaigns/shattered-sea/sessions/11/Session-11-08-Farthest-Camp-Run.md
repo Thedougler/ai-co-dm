@@ -52,7 +52,7 @@ This camp wants to see the woman's garden. The woman is [[Aruhe - Hinewai]] / Hi
 
 **Invitation.** The people at this fire look into the trees when the branches move. [[Aruhe - Hinewai]] is not standing at this fire as a named body. Do not stage [[Aruhe - Memorial Grove]]. Do not treat this as a charm spell.
 
-**[[Taking on Aruhe]] practice.** Already-picked fruit is down by this fire. Living stems around this camp still hang. Taking only fruit already down is not a claim. Plucking living plants at this fire is a claim. On that claim, do not roll grassland tables now. Both later [[Aruhe-River-Grasslands-Tables]] and [[Aruhe-River-Grasslands-Plant-Hazards]] rolls are 2d8 keep the lower number, then pick one row.
+**[[Taking on Aruhe]] practice.** Already-picked fruit is down by this fire. Living stems around this camp still hang. Taking only fruit already down is not a claim. Plucking living plants at this fire is a claim. On that claim, do not roll the hazards table now. The later [[Aruhe-River-Grasslands-Tables]] roll is `2d8`, keeping the lower result.
 
 **Attack is a break.** If someone attacks this camp, stop the clock, lose the prize, and rebuild. Do not invent a statblock. Do not embed a roster. They still have a night watch.
 
@@ -137,8 +137,8 @@ This camp wants to see the woman's garden. The woman is [[Aruhe - Hinewai]] / Hi
 | Force a march tonight | Influence: Charisma (Intimidation), or herding people off this fire toward [[Uncertainty]] tonight | No roll to start walking them. DC 15 Charisma (Intimidation) if the table rolls. | Some of the people at this fire balk or slip into the trees. The only friendly inland group breaks. Rebuild from that. This scene ends. Do not start beat 9 on a clean watch. | Binary — no partial. Starting the march tonight still sits on the magnets until this row resolves the break. | The people at this fire refuse and look into the trees. If the crew keeps pushing, someone slips on the clock. Apply this listed cost only. Do not also tick if this row already ended the scene as a break. |
 | Play along toward the garden | Agreeing to go admire the garden, or to "just see" it | No roll | The crew is committing past this valley. Do not reach [[Aruhe - Memorial Grove]] tonight. Night is coming. Hand to beat 9's second-night watch. This scene ends. | Binary — no partial. | Binary — no partial. Playing along ends this scene on watch setup. |
 | Stay the night | Making camp at this fire, setting a watch, or waiting until morning | No roll | The split is on the table. Night is coming. Hand to beat 9's second-night watch. This scene ends. Do not run [[Talon Skarn]] on this card. | Binary — no partial. | Binary — no partial. Staying the night ends this scene. |
-| Take fallen fruit | Utilize if that crew member takes fruit already down by this fire | No roll if that crew member takes only fruit already down | That crew member takes only fruit already down by this fire. That is not an [[Taking on Aruhe]] claim. Ordinary restorative fruit may occur. Do not invent a new mechanical item. | That crew member takes some living stems at this camp. That is an [[Taking on Aruhe]] claim. Both later tables use 2d8 take lower, then pick one row. | That crew member strips living fruit at this camp. That is an [[Taking on Aruhe]] claim. Both later tables use 2d8 take lower, then pick one row. |
-| Strip living plants | Utilize if that crew member plucks living stems at this fire on purpose | No roll | That crew member strips living plants at this fire. That is an [[Taking on Aruhe]] claim. Both later tables use 2d8 take lower, then pick one row. Do not roll those tables on this card. This camp notices. The people who listened to the woman treat that taking as the wrong walk. | Binary — no partial. | Binary — no partial. Stripping living plants at this fire is the claim. |
+| Take fallen fruit | Utilize if that crew member takes fruit already down by this fire | No roll if that crew member takes only fruit already down | That crew member takes only fruit already down by this fire. That is not an [[Taking on Aruhe]] claim. Ordinary restorative fruit may occur. Do not invent a new mechanical item. | That crew member takes some living stems at this camp. That is an [[Taking on Aruhe]] claim. The later hazards-table roll uses `2d8`, keeping the lower result. | That crew member strips living fruit at this camp. That is an [[Taking on Aruhe]] claim. The later hazards-table roll uses `2d8`, keeping the lower result. |
+| Strip living plants | Utilize if that crew member plucks living stems at this fire on purpose | No roll | That crew member strips living plants at this fire. That is an [[Taking on Aruhe]] claim. The later hazards-table roll uses `2d8`, keeping the lower result. Do not roll the table on this card. This camp notices. The people who listened to the woman treat that taking as the wrong walk. | Binary — no partial. | Binary — no partial. Stripping living plants at this fire is the claim. |
 | Attack this camp | Attack, or drawing a weapon on the people at this fire | No roll to start the violence | The crew loses the prize. The people at this fire scatter or fight as unnamed people. Do not invent a statblock. They still have a night watch. Rebuild from that. This scene ends. Do not run [[Talon Skarn]] here. | Binary — no partial. | Binary — no partial. Attacking this camp is the break. |
 | Leave this camp | Walking back toward the forest-edge trail, the river, the terrace line, the beach, or [[Uncertainty]], or flying up into open valley air, without a deal | No roll to walk off | The crew leaves this fire without the alliance. Rebuild from that. This scene ends. The mark can still sit on the locked quarry. | Binary — no partial. | If a crew member flies open valley air, that is hawk sky. Do not restage beat 1. Do not start beat 9 on this card. |
 
@@ -175,7 +175,7 @@ The delay turn happens after everyone has acted, and only if anyone remains on t
 
 **Cover reached.** People who slip leave this fire for the trees around the camp, then deeper inland. That is the broken alliance, not a cover endpoint for a hunt.
 
-**Minions / dials.** Several unnamed people, fewer than the tracks. Do not invent a head count. Do not invent a statblock. [[Talon Skarn]] is not this card. Do not roll [[Aruhe-River-Grasslands-Tables]] on this clock.
+**Minions / dials.** Several unnamed people, fewer than the tracks. Do not invent a head count. Do not invent a statblock. [[Talon Skarn]] is not this card. Do not roll the hazards table on this clock.
 
 Do not spawn the [[Aruhe - Deerstalker]], otters, wolfrabbits, or [[Aruhe - Memorial Grove]] on this clock. Freeze at this fire still ticks night coming once.
 
@@ -227,7 +227,7 @@ If the crew left this camp, they are heading back toward the forest-edge trail, 
 
 **[[Aruhe - Razer-Grass]].** Anyone shoved through or Shatter-dumped in the island has that damage already applied.
 
-Do not run grassland tables, the [[Aruhe - Deerstalker]], or [[Talon Skarn]] here. The people at this fire stay unnamed.
+Do not run the hazards table, the [[Aruhe - Deerstalker]], or [[Talon Skarn]] here. The people at this fire stay unnamed.
 
 ## Backup
 

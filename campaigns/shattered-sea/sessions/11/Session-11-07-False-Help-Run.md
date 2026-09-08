@@ -13,7 +13,7 @@ cssclasses: [session-surface]
 
 ## Scene ends when
 
-The crew stays on the prints toward the smoke (hand to beat 8, mark still live), or the one-person ambush resolves, or the whole party answers, the voices die off, and they return to the prints. This is the false-help ambush. It is not the night watch, not the farthest camp, and not a grassland table row.
+The crew stays on the prints toward the smoke (hand to beat 8, mark still live), or the one-person ambush resolves, or the whole party answers, the voices die off, and they return to the prints. This is the false-help ambush. It is not the night watch, not the farthest camp, and not a hazards-table result.
 
 This beat is thirty minutes.
 
@@ -46,7 +46,7 @@ The help is this [[Aruhe - Deerstalker]]. It watched the inland group and can co
 
 ### Action cards
 
-**One [[Aruhe - Deerstalker]] on Easy.** It is not Famished unless beat 6 already set Famished or Hard. Do not spawn a second. Do not roll [[Aruhe-River-Grasslands-Tables]] row 6 here. Keep any hit points already lost in beat 6.
+**One [[Aruhe - Deerstalker]] on Easy.** It is not Famished unless beat 6 already set Famished or Hard. Do not spawn a second. Do not roll the hazards table here. Keep any hit points already lost in beat 6.
 
 **Loop.** Borrowed Voice as survivor help-calls off the trail. Do not attack at the start of this beat. One person walking to the voices gets wrong movement, "You're not welcome here," then Claw. The whole party answering makes the voices move and die off. A knot that goes together: the [[Aruhe - Deerstalker]] breaks contact and tries one more peel on the way back. Stay on the prints: no fight here; keep the mark. If they already fought in beat 6, use the voices once as a test; do not repeat the same combat. Snatch from the Dim only while hidden in dim light, darkness, or foliage, and only on an isolated quarry. Do not speak a finished haul.
 
@@ -193,7 +193,7 @@ The predators' turn happens after everyone has acted, and only if anyone remains
 
 **Cover reached.** Two ready hostiles within 30 feet, a whole-party answer, or a tied knot: the [[Aruhe - Deerstalker]] breaks contact. The mark stays. A loner off the trail is still quarry.
 
-**Minions / dials.** Easy: one [[Aruhe - Deerstalker]], not Famished, Lost Nerve at two ready hostiles, unless beat 6 already set Famished or Hard. Do not spawn a second. Do not roll [[Aruhe-River-Grasslands-Tables]] row 6 on this clock.
+**Minions / dials.** Easy: one [[Aruhe - Deerstalker]], not Famished, Lost Nerve at two ready hostiles, unless beat 6 already set Famished or Hard. Do not spawn a second. Do not roll the hazards table on this clock.
 
 Do not spawn otters, wolfrabbits, or the farthest camp on this clock. Taking the prints toward the smoke ends this scene with the mark still live. Freeze on the trail still ticks the voices once.
 
@@ -237,7 +237,7 @@ If the crew broke off the trail, they are heading back toward the night camp, th
 
 **[[Aruhe - Razer-Grass]].** Anyone shoved through or Shatter-dumped in the island has that damage already applied.
 
-Do not run grassland tables, the night watch, or the farthest camp here. After this trail is used, skip [[Aruhe-River-Grasslands-Tables]] row 6 on later rolls this session. This is the same [[Aruhe - Deerstalker]].
+Do not run the hazards table, the night watch, or the farthest camp here. After this trail is used, do not roll the hazards table on this stretch again. This is the same [[Aruhe - Deerstalker]].
 
 ## Roster
 

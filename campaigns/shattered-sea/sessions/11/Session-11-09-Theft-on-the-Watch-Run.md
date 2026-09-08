@@ -220,7 +220,7 @@ If [[Talon Skarn]] is grounded and the crew keeps hitting, still end here. [[Tal
 
 **[[Aruhe - Razer-Grass]].** Anyone shoved through or Shatter-dumped in the island has that damage already applied.
 
-Do not run grassland tables, the [[Aruhe - Deerstalker]], [[Talon Vantyrus]], or [[Aruhe - Memorial Grove]] here. The people at this fire stay unnamed.
+Do not run the hazards table, the [[Aruhe - Deerstalker]], [[Talon Vantyrus]], or [[Aruhe - Memorial Grove]] here. The people at this fire stay unnamed.
 
 ## Roster
 

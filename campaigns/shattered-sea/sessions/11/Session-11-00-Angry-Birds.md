@@ -26,7 +26,7 @@ Working spine: Driven Inland. Run tonight from [[Session-11-01-Angry-Birds-Run]]
 
 Story line: smoke, river, survivors, woman in the woods, Skarn.
 
-Between story beats, navigate the valley with [[Aruhe-River-Grasslands-Tables]] and [[Aruhe-River-Grasslands-Plant-Hazards]]. Each Survival check rolls both tables. Run one row. No Grung material.
+Between story beats, navigate the valley with the single d8 [[Aruhe-River-Grasslands-Tables]]. Each Survival check rolls once on the current-hazards table. No Grung material.
 
 ## Skeleton
 
@@ -62,7 +62,7 @@ RESOLUTION — cut.
 - **Table sees:** They land in the river and tall grass. On this same bank: tracks, a scraped fire spot or dropped kit, fruit already picked and left, feet heading upriver. Inland, in this valley, a thin column of smoke.
 - **Truth:** A group of raid survivors stopped here, took what they dared, and kept following the water. The smoke is that group, or the next camp they lit, still in this valley. **Unrevealed:** how many are left, and whether the fruit was found loose or picked as a claim.
 - **Pressure:** The sign is fresh enough to follow. Waiting lets the smoke thin and the trail go cold. Downstream is still the terraces and the beach.
-- **If they break:** If they ignore the tracks and the smoke and go to the ship, rebuild from that. If they linger to pick more living fruit, that is a claim; both tables use 2d8 take lower, then pick one row. The trail and smoke are still there.
+- **If they break:** If they ignore the tracks and the smoke and go to the ship, rebuild from that. If they linger to pick more living fruit, that is a claim; the next hazards-table roll uses `2d8`, keeping the lower result. The trail and smoke are still there.
 
 They come down in moving water and grass high enough to hide a standing person. This bank is already used: prints in the mud, a scraped fire patch, fruit skins, and a line of feet following the river inland. On the horizon upstream, in the same valley, a thin column of smoke is still standing.
 
@@ -86,7 +86,7 @@ The prints lead into grass that does not lean, and that grass breaks first. Wolf
 - **Table sees:** The bank is a camp-in-passing. Overripe fruit on the ground, already fermenting: rinds, seeds, no blood. Fresh bushes next to that: stems snapped on the living plant, blood in the dirt. Fish bones, scales, and a crude line or spear at the water.
 - **Truth:** They have been living off what was already down, and off fish. Picking living bushes is what left the blood. **Unrevealed:** river fishing can still draw animals later. The evidence here only shows it has been working for them so far.
 - **Pressure:** Easy food is sitting on the ground. The living bushes look better and they are the ones with blood under them. Time spent sorting this is time the smoke moves or thins.
-- **If they break:** If they strip the live bushes, both tables use 2d8 take lower, then pick one row. If they take only fallen fruit and move on, no claim. If they start fishing this hole themselves, treat it as a possible claim when you next roll.
+- **If they break:** If they strip the live bushes, the next hazards-table roll uses `2d8`, keeping the lower result. If they take only fallen fruit and move on, no claim. If they start fishing this hole themselves, treat it as a possible claim when you next roll.
 
 Same bank, three piles. Fermenting fruit on the ground, no blood. Fresh bushes with the stems snapped and blood under them. Fish bones and a line in the wet mud, still pointing upstream with the prints and the smoke.
 

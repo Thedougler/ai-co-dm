@@ -158,7 +158,7 @@ The Great Crown Squid is fleeing through the last trees, not fighting the crew u
 
 ## Landing
 
-The crew is in moving water and eight-foot grass, or crash-landed or scattered in Terrace woods. On this same bank the crew can already see tracks and, inland in this valley, a thin column of smoke. Beat 2 is [[Session-11-02-Landing-Sign-Run]]. Do not run Survival checks or grassland tables here.
+The crew is in moving water and eight-foot grass, or crash-landed or scattered in Terrace woods. On this same bank the crew can already see tracks and, inland in this valley, a thin column of smoke. Beat 2 is [[Session-11-02-Landing-Sign-Run]]. Do not run Survival checks or the hazards table here.
 
 > [!narration] Landing
 > You come down in moving water with grass standing over your head. The river pulls at the stems around you, and mud sucks at the bank where fresh prints have already cut through it. Inland, up the valley, a thin column of smoke rises above the grass.
@@ -194,4 +194,4 @@ The crew is in moving water and eight-foot grass, or crash-landed or scattered i
 
 ## Backup
 
-[[Aruhe - Old Gardens]] · [[Aruhe - Grasslands]] · [[Uncertainty]] · [[Session-11-00-Angry-Birds]] · [[Aruhe-River-Grasslands-Tables]] · [[Aruhe-River-Grasslands-Plant-Hazards]]
+[[Aruhe - Old Gardens]] · [[Aruhe - Grasslands]] · [[Uncertainty]] · [[Session-11-00-Angry-Birds]] · [[Aruhe-River-Grasslands-Tables]]

@@ -13,7 +13,7 @@ cssclasses: [session-surface]
 
 ## Scene ends when
 
-The mark is locked (the [[Aruhe - Deerstalker]] ran from a group, or the mimic call landed, or a one-person face happened) and you can hand to morning / beat 7, or they fought it here and the mark still stands, or they break. This is the night watch. It is not a grassland table row, not the otter hole, and not beat 7's false-help voices.
+The mark is locked (the [[Aruhe - Deerstalker]] ran from a group, or the mimic call landed, or a one-person face happened) and you can hand to morning / beat 7, or they fought it here and the mark still stands, or they break. This is the night watch. It is not a hazards-table result, not the otter hole, and not beat 7's false-help voices.
 
 This beat is thirty minutes.
 
@@ -46,7 +46,7 @@ This is the session's [[Aruhe - Deerstalker]]. The person on watch who heard the
 
 ### Action cards
 
-**One [[Aruhe - Deerstalker]] on Easy.** It is not Famished. Do not spawn a second. Do not roll [[Aruhe-River-Grasslands-Tables]] row 6 here.
+**One [[Aruhe - Deerstalker]] on Easy.** It is not Famished. Do not spawn a second. Do not roll the hazards table here.
 
 **Loop.** Interrupt the meal, then a loud bolt as a ruse, then Borrowed Voice to peel the person on watch, then a stand and talk only for one person, then Claw. Snatch from the Dim only while hidden in dim light, darkness, or foliage, and only on an isolated quarry. Lost Nerve if two ready hostiles are within 30 feet. Do not force the full fight if the crew stays grouped. Lock these rules for beat 7.
 
@@ -192,7 +192,7 @@ The predators' turn happens after everyone has acted, and only if anyone remains
 
 **Cover reached.** Two ready hostiles within 30 feet, or a grouped awake camp: the [[Aruhe - Deerstalker]] breaks contact. The mark stays. A loner in the underbrush or deeper woods is still quarry.
 
-**Minions / dials.** Easy: one [[Aruhe - Deerstalker]], not Famished, Lost Nerve at two ready hostiles. Do not spawn a second. Do not roll [[Aruhe-River-Grasslands-Tables]] row 6 on this clock.
+**Minions / dials.** Easy: one [[Aruhe - Deerstalker]], not Famished, Lost Nerve at two ready hostiles. Do not spawn a second. Do not roll the hazards table on this clock.
 
 Do not spawn otters, wolfrabbits, or beat 7's false-help voices on this clock. Taking a group hunt that triggers Lost Nerve ends this scene with the mark locked. Freeze in camp still ticks the call once.
 
@@ -234,7 +234,7 @@ If the crew broke off the trail, they are heading back toward the otter hole, th
 
 **[[Aruhe - Razer-Grass]].** Anyone shoved through or Shatter-dumped in the island has that damage already applied.
 
-Do not run grassland tables, the otter hole, or beat 7's false-help voices here. After this watch, skip [[Aruhe-River-Grasslands-Tables]] row 6 on later rolls this session. This is the same [[Aruhe - Deerstalker]]. A later roll of 6 is a different wander-kill, not this watch.
+Do not run the hazards table, the otter hole, or beat 7's false-help voices here. After this watch, do not roll the hazards table on this stretch again. This is the same [[Aruhe - Deerstalker]].
 
 ## Roster
 

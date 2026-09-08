@@ -24,7 +24,7 @@ This beat is thirty minutes.
 
 **If behind:** Skip extra searching of kit and fruit on this bank. Keep the smoke and the tracks visible. Ask.
 
-**If ahead:** Still end on a commit to the trail or a break to the ship. Do not add a grassland complication or a wolfrabbit ambush on this card. Fruit-picking is the inlined extra: an [[Taking on Aruhe]] claim means both later tables use 2d8 take lower, then pick one row. The trail and smoke remain.
+**If ahead:** Still end on a commit to the trail or a break to the ship. Do not add a grassland complication or a wolfrabbit ambush on this card. Fruit-picking is the inlined extra: an [[Taking on Aruhe]] claim means the later hazards-table roll uses `2d8`, keeping the lower result. The trail and smoke remain.
 
 ## L0 · Glance
 
@@ -46,7 +46,7 @@ A group of raid survivors already moved on from this bank toward the smoke in th
 
 ### Action cards
 
-**[[Taking on Aruhe]] claim.** Fruit skins and fruit already on the ground of this bank are down. Living stems still hold fruit. Taking what is already down is not a claim. Plucking living plants on this bank is a claim. Free-flowing river water on this bank is drinkable passage. On a claim, do not roll grassland tables now. Both later [[Aruhe-River-Grasslands-Tables]] and [[Aruhe-River-Grasslands-Plant-Hazards]] rolls are 2d8 keep the lower number, then pick one row. The trail and smoke remain.
+**[[Taking on Aruhe]] claim.** Fruit skins and fruit already on the ground of this bank are down. Living stems still hold fruit. Taking what is already down is not a claim. Plucking living plants on this bank is a claim. Free-flowing river water on this bank is drinkable passage. On a claim, do not roll the hazards table now. The later [[Aruhe-River-Grasslands-Tables]] roll is `2d8`, keeping the lower result. The trail and smoke remain.
 
 > [!narration] Initial Narration
 > The river pulls at your legs where the bank drops into moving water, and eight-foot gold-green grass leans over the edge around you. The stems rasp together at the waterline. A standing body could vanish in this grass a few steps from you.
@@ -110,7 +110,7 @@ A group of raid survivors already moved on from this bank toward the smoke in th
 | Follow the upriver prints and smoke off this bank | Committing to follow the prints upriver along this valley | No roll | The crew commits to the upriver trail toward the smoke. Hand to beat 3. This scene ends. | Binary — no partial. | If a crew member flies open valley air toward the smoke, that is hawk sky. Point at a [[Aruhe - Young Bloodhawk]]. Do not start beat 3 from the air on this card. |
 | Return to the beach or [[Uncertainty]] | Walking downstream through the terrace line, or flying open valley air toward the ship | No roll to walk downstream through the terraces. Dexterity (Stealth) DC 14 if that crew member tries to stay low under hawk sky. | The crew leaves this bank for a return through the terrace line to the beach or [[Uncertainty]]. Rebuild from that. This scene ends. | The crew takes open valley air on the way back. A [[Aruhe - Young Bloodhawk]] can still see that air. Do not restage beat 1 on this card. | A crew member takes open valley air. Point at hawk sky / a [[Aruhe - Young Bloodhawk]]. The trail and smoke on this bank remain if anyone is still here. |
 | Hide in the eight-foot grass on this bank | Dexterity (Stealth) | DC 14 | That crew member is hidden in the eight-foot grass on this river-valley bank. Lingering still ticks the clock at end of round if anyone remains on the magnets. | That crew member is in the eight-foot grass on this bank but makes noise. The clock still ticks at end of round if anyone remains on the magnets. | That crew member is still obvious on this river-valley bank. Apply this listed cost only. Do not also tick. |
-| Pick fruit on this river-valley bank | Intelligence (Nature) or Wisdom (Survival) to sort fallen fruit from living stems. Utilize if that crew member plucks without sorting. | DC 12, or no roll if that crew member plucks living stems on purpose | That crew member takes only fruit already down on this bank. That is not a claim. The trail and smoke remain. | That crew member takes some living stems on this bank. That is an [[Taking on Aruhe]] claim. Both later tables use 2d8 take lower, then pick one row. The trail and smoke remain. | That crew member strips living fruit on this bank. That is an [[Taking on Aruhe]] claim. Both later tables use 2d8 take lower, then pick one row. The trail and smoke remain. |
+| Pick fruit on this river-valley bank | Intelligence (Nature) or Wisdom (Survival) to sort fallen fruit from living stems. Utilize if that crew member plucks without sorting. | DC 12, or no roll if that crew member plucks living stems on purpose | That crew member takes only fruit already down on this bank. That is not a claim. The trail and smoke remain. | That crew member takes some living stems on this bank. That is an [[Taking on Aruhe]] claim. The later hazards-table roll uses `2d8`, keeping the lower result. The trail and smoke remain. | That crew member strips living fruit on this bank. That is an [[Taking on Aruhe]] claim. The later hazards-table roll uses `2d8`, keeping the lower result. The trail and smoke remain. |
 
 Unforeseen intents use the same want: the raid survivors already moved on toward the smoke, and delay is the pressure. Rule from zones, the clock, and whether the approach lingers, claims living plants, makes noise, or walks downstream toward open beach and hawk sky.
 
@@ -139,7 +139,7 @@ The delay turn happens after everyone has acted, and only if anyone remains on t
 
 **Cover reached.** Remaining in eight-foot grass and moving water on this bank keeps the adult [[Aruhe - Bloodhawk]] off this slice. Taking open valley air is hawk sky. Point at a [[Aruhe - Young Bloodhawk]]. Do not restage beat 1.
 
-**Claim made.** Picking living fruit on this bank is an [[Taking on Aruhe]] claim. Both later tables use 2d8 take lower, then pick one row. Do not roll those tables on this card. The trail and smoke remain.
+**Claim made.** Picking living fruit on this bank is an [[Taking on Aruhe]] claim. The later hazards-table roll uses `2d8`, keeping the lower result. Do not roll the table on this card. The trail and smoke remain.
 
 **Smoke lost.** If tick 4 fills, the column is gone and the prints on this bank are cold. The crew can still walk upriver. Hand to beat 3 if they commit, or rebuild if they break for the ship.
 
@@ -163,4 +163,4 @@ If the crew broke, they are returning through the terrace line toward the beach 
 
 ## Backup
 
-[[Aruhe-River-Grasslands-Tables]] · [[Aruhe-River-Grasslands-Plant-Hazards]] · [[Taking on Aruhe]] · [[Aruhe - Grasslands]] · [[Aruhe - Old Gardens]] · [[Uncertainty]] · [[Session-11-00-Angry-Birds]] · [[Session-11-01-Angry-Birds-Run]]
+[[Aruhe-River-Grasslands-Tables]] · [[Taking on Aruhe]] · [[Aruhe - Grasslands]] · [[Aruhe - Old Gardens]] · [[Uncertainty]] · [[Session-11-00-Angry-Birds]] · [[Session-11-01-Angry-Birds-Run]]
