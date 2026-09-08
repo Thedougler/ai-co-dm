@@ -62,43 +62,35 @@ reactions:
 
 # Deer-Stalker
 
-## Art
+> [!narration] Narration
+> The Deer-Stalker is a tall, starving deer dragged almost upright by overlong forelimbs, with thin hind legs tucked beneath a shaggy brown hide. Bone-pale arms hang past its knees and end in black claws, often dark with blood up to the wrists. Its antlers branch above a long white face, and pale forward eyes stare over a wet muzzle while blood and spit thread from its teeth into the leaf rot.
+
+## Behavior
+
+**Habitat.** Deer-Stalkers keep to the dim edges of [[Aruhe - Quiet Forest|the Quiet]] and [[Aruhe - The Marshes|the Marshes]], using game trails, wet paths, root shadows, and grassland margins where a sick deer shape can stand half-hidden. They avoid [[Aruhe - Razer-Grass]] and [[Aruhe - Grubnade|Grubnades]].
+
+**Behavior.** A Deer-Stalker holds unnaturally still until the wrong details become visible: forward-set eyes, clawed forelimbs, blood on the pale muzzle, and hips that do not sit like a grazing animal's hips. When disturbed at a meal, it crashes away too loudly, then returns through dim cover once the quarry is isolated.
+
+**Diet.** It eats fresh kills and interrupted carcasses, tearing soft meat first and leaving sweet rot around the site. It is always hungry until it feeds, but the current Aruhe frame keeps that hunger animal and territorial rather than possessed or commanded.
+
+**Social Structure.** Solitary. Two Deer-Stalkers in the same stretch ignore one another unless a carcass or quarry forces them too close, and neither will contest a [[Aruhe - Bear-Elk|Bear-Elk]] or [[Aruhe - Terror-Bird|terror-bird]].
+
+## Tactics
+
+**Signs.** Deer tracks that become handlike claw marks, blood on low leaves, a dragged carcass, torn bark at shoulder height, long pauses in ordinary forest sound, sweet rot, and a familiar voice repeated wetly from the wrong place.
+
+**Instincts.** It wants the isolated body, the creature that touched its meal, or the one that answers a sound alone. Crowds, bright light before the first hit, and several ready threats push it back into cover.
+
+**Tactics.** It hides as a sick deer or a still shape in foliage, waits for one target to separate, then snatches from dim cover with its long forelimbs. If the hunt turns against it, it retreats silently, changes angle, and uses a borrowed voice to pull the quarry back toward shadow.
+
+**Weaknesses.** It loses nerve when too many conscious enemies stay close together, and feeding makes it easier to drive off. Bright light, tight formation, open ground, and refusing the voice lure all make the hunt worse for it.
+
+**Aftermath.** A Deer-Stalker encounter leaves an interrupted kill site, blood threads on leaves and roots, clawed drag marks, hoofprints that stop making sense, and a lingering stink of sweet rot. There is usually nothing worth keeping.
+
 ![[attachments/shattered-sea/creatures/deer-stalker-of-aruhe.png|Deer-Stalker of Aruhe]]
 
-> [!narration] Narration
-> In the dark between the trees, a shaggy deer towers over the path, its branching antlers filling the gap above its head. Its hips sit wrong beneath the heavy coat, and its long forelimbs end in blood-marked claws. A pale muzzle and forward-set eyes face you without a blink; dark blood threads from its mouth before it moves.
+![[attachments/shattered-sea/creatures/deer-stalker-of-aruhe-01.jpg|Deer-Stalker of Aruhe]]
 
+![[attachments/shattered-sea/creatures/deer-stalker-of-aruhe-02.jpg|Deer-Stalker of Aruhe]]
 
-
-
-
-
-
-## At the table
-**Tactic:** interrupt meal → loud bolt (ruse) → night return with Borrowed Voice → Snatch from the Dim on isolated quarry. **Tell:** motionless "sick deer" that doesn't lean with the wind; voice looping a word wrong.
-
-## Role / dials
-- **Easy:** not Famished; Lost Nerve at 2 ready threats.
-- **Hard:** Famished + Snatch charged; camp at night.
-- **Bloodied / fed:** after Feed, stricter Lost Nerve — easier to drive off.
-
-## Signature moves
-This Meal (quarry lock) · Borrowed Voice · Snatch from the Dim · Lost Nerve (retreats from crowds)
-
-## Terrain / friends
-Quiet → Marshes; Grasslands cover. Skirts [[Aruhe - Razer-Grass]] and [[Aruhe - Grubnade]]. Yields carcasses to Bear-Elk / Terror-Bird. Different horror from [[Aruhe - Great Crown Squid]] (pursuit vs canopy selection).
-
-## Loot / aftermath
-Interrupted kill site; sweet rot; nothing worth keeping.
-
-## Running notes
-Meeting = carcass interrupt. Crash away → return. Prefer one awake PC. Three ready threats = leave. Answering a lure isn't cursed; walking to it is.
-
-## Canon ecology - living stock ingest
-- A deer remade by pressure: hips turned wrong, forelimbs ending in knife-claws, forward-set eyes, and a permanently starved look. It stands on a carcass, crashes away too loudly when disturbed, then returns from the trees minutes later.
-- It locks onto whoever is most alone or whoever last touched the meal. It hunts the dim edge and plays back heard voices, especially a name from a prior fire, held wet and too long.
-- It will not walk [[Aruhe - Razer-Grass]], and will not contest a [[Aruhe - Bear-Elk]] or [[Terror-Birds|terror-bird]]. Two deer-stalkers in the same stretch ignore one another.
-- **Canon frame:** this is a hungry deer hunting like itself under pressure; it is not a Blight-ridden mount.
-
-## Provenance
-Wiki provisional. Block kept; 2024 wording cleaned.
+![[attachments/shattered-sea/creatures/deer-stalker-of-aruhe-03.jpg|Deer-Stalker of Aruhe]]
