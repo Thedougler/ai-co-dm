@@ -50,22 +50,12 @@ bonus_actions:
 
 ## Behavior
 
-**Habitat.** Quiet-Marshes boundary, especially routes marked by scored trees and broken vegetation.
-
-**Behavior.** Patrols a fixed daily beat through its territory. [[Aruhe - Terror-Bird|Terror-birds]] yield to it, while [[Aruhe - Great Crown Squid|crown squid]] and [[Aruhe - Bloodhawk|bloodhawks]] take it from above when the ground or sky gives them the chance.
-
-**Diet.** Rarely needs to eat, drawing enough from the strange living stock of Aruhe to keep moving between hunts.
-
-**Social Structure.** Solitary territorial beast with no known herd, mate bond, or hierarchy.
-
-## Tactics
-
-**Signs.** Scored trees, snapped brush, huge split tracks, churned marsh edge, and faint luminous sap left on bark or reeds.
-
-**Instincts.** Defends its patrol route and reacts hardest to anything standing its ground in that path.
-
-**Tactics.** Charges in a straight rush, sweeps with its antlers, knocks prey down, and crushes anything prone beneath its weight.
-
-**Weaknesses.** Predictable route and timing; creatures that read the patrol path can avoid or prepare for the charge.
-
-**Aftermath.** Broken trees, flattened ground, deep hoof-and-claw marks, sap traces, and scavengers waiting for whatever the bear-elk leaves behind.
+| **Habitat**          |                                                                                                                       |
+| -------------------- | --------------------------------------------------------------------------------------------------------------------- |
+| **Behavior**         |                                                                                                                       |
+| **Preferred Diet**   |                                                                                                                       |
+| **Social Structure** |                                                                                                                       |
+| **Signs.**           | Scored trees, snapped brush, huge split tracks                                                                        |
+| **Instincts**        |                                                                                                                       |
+| **Tactics.**         | Charges in a straight rush, sweeps with its antlers, knocks prey down, and crushes anything prone beneath its weight. |
+| **Weaknesses.**      |                                                                                                                       |

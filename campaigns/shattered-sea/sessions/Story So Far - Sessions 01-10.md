@@ -83,7 +83,7 @@ Only it did not simply come down. It opened. The city above was suddenly part of
 
 The town answered with the Warren's old signal: hide or get ready to fight.
 
-Kyzil took the brood. Catarina was in Otar's mouth when Delmar ended the thing with a chair and a shot through the eye. She came out into daylight. Nobody cheered. Some victories are too wet, too close, too full of other people's missing names. The carcass rotted where it fell. The party took [[Solange's Authority Seal]] and [[A Sliver of the Unstable Form]]. A scrap of paper sat in the rot, unread.
+Kyzil took the brood. Catarina was in Otar's mouth when Delmar ended the thing with a chair and a shot through the eye. She came out into daylight. Nobody cheered. Some victories are too wet, too close, too full of other people's missing names. The carcass rotted where it fell. The party took [[Grung - Authority Seal]] and [[A Sliver of the Unstable Form]]. A scrap of paper sat in the rot, unread.
 
 [[Fieschi|Iacopo Fieschi]] found them in the plaza and brought them to an office with the smoking crater in the window. There he signed them as Calveno's Defenders on [[Tessarine Concordat|Tessarine]] letterhead, because the Crown had not defended Calveno. Someone in that office had orders from [[Rupert Knighton]], given days before the ceiling opened, to gather what she could and evacuate. Fieschi had received no warning.
 
