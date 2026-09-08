@@ -47,6 +47,7 @@ The Grasslands are river-cut valleys inside Aruhe's jungle, not a sixth concentr
 ## Who
 
 - [[Aruhe - Terror-Bird|Terror-Birds]] hold the shaded rims and grass cuts, about a quarter-mile each. Eight-foot grass, water, or a [[Aruhe - Razer-Grass]] stand ends the hunt.
+- [[Aruhe - Spiguar|Spiguars]] own the long grass channels and river bends where prey must stop, drink, or choose between cover and sightline.
 - [[Aruhe - Deerstalker|Deer-Stalkers]] use the grass cover. They will not walk [[Aruhe - Razer-Grass]].
 
 ---
@@ -57,6 +58,7 @@ The Grasslands are river-cut valleys inside Aruhe's jungle, not a sixth concentr
 - [[Aruhe - River Otter|River Otters]]: Channels and wet banks. They will not haul a kill onto [[Aruhe - Razer-Grass]].
 - [[Aruhe - Unsaid Macaw]]: Grassland edges. **Wisdom save — `DC 12`** → Speak one truthful sentence about the surfaced thought.
 - [[Aruhe - Bear-Elk]]: Scored-tree beats that cross the openings. [[Aruhe - Terror-Bird|Terror-birds]] step aside.
+- [[Aruhe - Spiguar|Spiguars]]: Motionless grass-mantled cats that pounce from cover, bite deep, and drag prey back into broken sightlines.
 - [[Aruhe - Deerstalker|Deer-Stalkers]] use the grass cover. They will not walk [[Aruhe - Razer-Grass]].
 - [[Aruhe - Wolfrabbit|Wolfrabbits]]: Jump [[Aruhe - Razer-Grass]] rather than land in it.
 - [[Aruhe - Redheart Berry]] grows at the wet bends, where fallen berries can be foraged from the mud and stone.

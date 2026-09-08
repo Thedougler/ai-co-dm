@@ -14,7 +14,7 @@ tags: [index, monster]
 - **Old Gardens / first terraces:** [[Aruhe - Wolfrabbit]] - [[Aruhe - Grinning Ape|Grinning Apes]] - [[Vine Lash|Vine Lashes]] - [[Young Snakewood]] - [[Snakewood]]
 - **Quiet / Marshes floor:** [[Aruhe - Crown Squid]] - [[Aruhe - Deerstalker]] - [[Aruhe - Thornback|Thornbacks]] - [[Aruhe - Bear-Elk]] - [[Aruhe - Strangler Fig|Strangler Figs]] - [[Corpsewood]] - [[Silence Moths]]
 - **Mangrove canopy / roots:** [[Aruhe - Crown Squid]] - [[Snakewood]]
-- **Grass / river / lake:** [[Aruhe - Terror-Bird|Terror-Birds]] - [[Aruhe - Bloodhawk]] · [[Aruhe - Young Bloodhawk]] (juvenile) - [[Aruhe - River Otter]]
+- **Grass / river / lake:** [[Aruhe - Terror-Bird|Terror-Birds]] - [[Aruhe - Spiguar|Spiguars]] - [[Aruhe - Bloodhawk]] · [[Aruhe - Young Bloodhawk]] (juvenile) - [[Aruhe - River Otter]]
 - **Under-island:** [[Cave Bats]] - [[Root Roaches]] - [[Glass Crickets]] - [[Blackrail]]
 
 > **Canon frame:** Aruhe removes brakes from known animals; the Blight gardens pressure but does not ride bodies. These are zone claims, not one king.
