@@ -21,21 +21,25 @@ License, available at https://creativecommons.org/licenses/by/4.0/legalcode.
 
 ## Success criteria
 
-- Every roll on the note is one *d20 test*: *check*, *save*, or attack.
-- The ability, skill or tool (if any), 2024 action (if any), and *DC* are
-  named in 2024 notation (`DC 15`, `Strength (Athletics)`, `Dexterity saving throw`).
+- Every written test is *uncertain*: it can fail, and failure changes play.
+- Every written test is one *d20 test* (*check*, *save*, or attack) with a *DC*
+  (or AC), in 2024 notation (`DC 15 Wisdom (Survival)`, `DC 14 Dexterity saving throw`).
 - The *DC* is a typical-band rung, a named 2024 procedure, or `8 + PB + ability modifier` for an imposed *save*.
-- Success and failure each change the situation. Player-facing `[!narration]` has no *DC*, save type, or unearned name.
+- Certain outcomes stay fiction: drink the lake, start otter play, a macaw's
+  Surface Echo. Those lines have no parenthetical about rolling.
+- Player-facing `[!narration]` has no *DC*, save type, or unearned name.
 
 ## Workflow
 
 ### 1. Decide whether to roll
 
-Call a *d20 test* only when the attempt is possible, the outcome is uncertain,
-and both success and failure change play. Otherwise narrate the result.
+A *d20 test* is for an *uncertain* attempt: it is possible, it can fail, and
+failure changes play. Write that test. Certain outcomes (willing Influence,
+obvious shallows, drinking free-flowing water) stay ordinary fiction.
 
-**Complete when:** the note either has no roll or states the uncertainty the
-roll resolves.
+**Complete when:** every new parenthetical or listed test has a *DC* and a
+failure that changes play. Delete `(no check…)`, `(no roll)`, `(no save)`,
+and `automatic success` annotations; they are unfinished output.
 
 ### 2. Classify the *d20 test*
 
@@ -99,10 +103,14 @@ or cost.
 
 ### 6. Place the number
 
-Put ability, skill, *DC*, and *save* type in DM-facing headings or tables.
-Vault format is `obsidian-markdown`. `[!narration]` stays player-safe.
+Hang the test on the existing DM bullet as
+`(DC 15 Survival: catch fish this hour)`. Keep the note's layout. A *Be ready
+for* table is for `run-guide` only. Vault format is `obsidian-markdown`.
+`[!narration]` stays player-safe.
 
-**Complete when:** player prose has no *DC*, save type, or unearned name.
+**Complete when:** each hung test has a *DC* and a failure meaning; player
+prose has no *DC*, save type, or unearned name; no line exists only to say a
+roll is absent.
 
 ## Handoffs
 

@@ -24,11 +24,11 @@
     {
       "id": "influence-hostile",
       "prompt": "The rogue wants to talk a Hostile city guard into handing over a cell key during a quiet watch.",
-      "expected_output": "Influence action. Roll only if the guard is hesitant. Charisma (Persuasion) or (Deception) as the approach; Disadvantage because Hostile; DC 15 or the guard's Intelligence, whichever is higher. Willing/unwilling skip the roll.",
+      "expected_output": "If the guard is hesitant: Influence, Charisma (Persuasion) or (Deception), Disadvantage because Hostile, DC 15 or the guard's Intelligence, whichever is higher. If willing or unwilling: fiction only, no DC parenthetical.",
       "expectations": [
-        "Names the Influence action and a Charisma skill (or states willing/unwilling with no roll).",
-        "Applies Disadvantage for Hostile attitude.",
-        "Sets DC to 15 or the monster's Intelligence, whichever is higher."
+        "Writes an Influence DC only for a hesitant guard.",
+        "Applies Disadvantage when the attitude is Hostile and a check is written.",
+        "Leaves willing compliance and unwilling refusal as fiction without a no-check annotation."
       ]
     },
     {
@@ -39,6 +39,16 @@
         "Calls a Constitution saving throw, not a Constitution check.",
         "Does not keep DC 18 unless a named formula produces it; prefers 15/20 or 8+PB+mod.",
         "Does not treat a natural 20 as an automatic success on the save."
+      ]
+    },
+    {
+      "id": "certain-outcome-silent",
+      "prompt": "On a location bullet 'Splash and be noisy: otters notice and start playing,' add the appropriate checks and saves. Entering the water always starts play.",
+      "expected_output": "The splash bullet stays fiction. Any written test is a later uncertain attempt (for example DC 15 Wisdom (Animal Handling) to stop the game, or DC 14 Strength or Dexterity save to keep yanked gear). No '(no check to start play)' or similar.",
+      "expectations": [
+        "Does not annotate the splash/play-start line with no check, no roll, or no save.",
+        "Any added test has a DC and can fail.",
+        "Keeps the existing bullet layout; does not add a checks table."
       ]
     }
   ]

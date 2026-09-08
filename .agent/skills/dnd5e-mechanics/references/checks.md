@@ -77,11 +77,14 @@ tests. A tripwire you can see is Search. How a pit lid is built is Study.
 
 ### Influence
 
-Urge a monster. Roleplay first. Roll only if the creature is **hesitant**:
+Urge a monster. Roleplay first. Write an Influence *check* only when the
+creature is **hesitant**. Default *DC* is **15 or the monster's Intelligence
+score, whichever is higher**. Hostile attitude: Disadvantage. Friendly /
+Indifferent / Hostile are glossary attitudes.
 
-- **Willing** (request matches its desires) — no *check*; it complies in its way.
-- **Unwilling** (repugnant or against its alignment) — no *check*; it refuses.
-- **Hesitant** — *check*. Default *DC* is **15 or the monster's Intelligence score, whichever is higher**. Hostile attitude: Disadvantage on the Influence *check*. Friendly / Indifferent / Hostile are glossary attitudes.
+**Willing** (the request matches its desires): it complies in its way — fiction
+only. **Unwilling** (repugnant or against its alignment): it refuses — fiction
+only. The *DC* belongs on hesitant.
 
 | *Check* | Interaction |
 |---|---|
