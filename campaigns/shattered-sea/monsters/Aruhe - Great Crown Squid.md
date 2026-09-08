@@ -117,5 +117,3 @@ Sucker scars 70 ft up; polished antler with no carcass; prey tracks that end goi
 - It flows through the canopy like a jumping spider the size of a house, skin matching bark until a principal eye rolls inside the clear head to look. That eye-roll is the tell before it watches a trail, selects an isolated target, hooks an ankle, and lifts.
 - It likes a chase but will not deliberately enter open grassland or occupied river water. Juveniles sometimes work the upper terraces; the oldest sit heavier in [[Aruhe - The Marshes]], where food is easy, and can use mangrove roof that walkers cannot reach. A shredded sixty-foot vine hanging from a branch is its leftover, not a [[Snakewood]] kill.
 
-## Provenance
-Wiki `creature.aruhe-crown-squid` (provisional). Upgraded: Hookline to-hit aligned to +13; Rip Through moved off 2-cost legendary onto Recharge to match 2024 1-cost LA pattern.

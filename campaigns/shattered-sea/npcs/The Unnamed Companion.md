@@ -24,7 +24,7 @@ No name, face, or surviving biography is established. He drowned in the half-mil
 He has no independent present-day drive; he is dead. In Hinewai's remaining memory, his grave is the reason for the Grove and the island's grief law.
 
 ## Relationships
-- [[The Blight]] / Hinewai: companion in flight from Karath; she carried him inland and made the second grave her own.
+- [[Aruhe - Hinewai]] / Hinewai: companion in flight from Karath; she carried him inland and made the second grave her own.
 - [[Aruhe - Memorial Grove]]: first, older, unmarked grave beneath the memorial tree.
 - [[Aruhe - Hungry Isle]]: his preservation is the origin pressure behind the island's excess and boundaries.
 

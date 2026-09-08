@@ -86,7 +86,7 @@ reactions:
 This Meal (quarry lock) · Borrowed Voice · Snatch from the Dim · Lost Nerve (retreats from crowds)
 
 ## Terrain / friends
-Quiet → Marshes; Grasslands cover. Skirts [[Razer-Grass]] and [[Grubnade]]. Yields carcasses to Bear-Elk / Terror-Bird. Different horror from [[Great Crown Squid]] (pursuit vs canopy selection).
+Quiet → Marshes; Grasslands cover. Skirts [[Aruhe - Razer-Grass]] and [[Aruhe - Grubnade]]. Yields carcasses to Bear-Elk / Terror-Bird. Different horror from [[Aruhe - Great Crown Squid]] (pursuit vs canopy selection).
 
 ## Loot / aftermath
 Interrupted kill site; sweet rot; nothing worth keeping.
@@ -97,7 +97,7 @@ Meeting = carcass interrupt. Crash away → return. Prefer one awake PC. Three r
 ## Canon ecology - living stock ingest
 - A deer remade by pressure: hips turned wrong, forelimbs ending in knife-claws, forward-set eyes, and a permanently starved look. It stands on a carcass, crashes away too loudly when disturbed, then returns from the trees minutes later.
 - It locks onto whoever is most alone or whoever last touched the meal. It hunts the dim edge and plays back heard voices, especially a name from a prior fire, held wet and too long.
-- It will not walk [[Razer-Grass]], and will not contest a [[Bear-Elk]] or [[Terror-Birds|terror-bird]]. Two deer-stalkers in the same stretch ignore one another.
+- It will not walk [[Aruhe - Razer-Grass]], and will not contest a [[Aruhe - Bear-Elk]] or [[Terror-Birds|terror-bird]]. Two deer-stalkers in the same stretch ignore one another.
 - **Canon frame:** this is a hungry deer hunting like itself under pressure; it is not a Blight-ridden mount.
 
 ## Provenance

@@ -38,26 +38,26 @@ The Grasslands are river-cut valleys inside Aruhe's jungle, not a sixth concentr
 - **Run through an intact stand:** `1d4` slashing per 5 feet; Difficult Terrain.
   - Careful Passage: one Action, move up to 5 feet through it with no movement damage.
 - **Dash, fall prone, get shoved, smash, or burn a stand:** It shatters. **Dexterity save — `DC 14`** → `2d6` slashing. Breathing the glitter: **Constitution save — `DC 14`** → **Glass-Choked** until a Short or Long Rest (speed −10 ft.; disadvantage on Constitution saves from environmental hazards). The dust is asbestos-like in the lungs.
-- **Enter the water:** [[Aruhe River Otter|River Otters]] treat it as play.
+- **Enter the water:** [[Aruhe - River Otter|River Otters]] treat it as play.
 - **Take fruit along wet margins:** Fruit is abundant here. Fallen fruit is receiving. Pluck a living plant → surrounding life converges, hostile. [[Taking on Aruhe]]
 - **Fish, trap, or kill to carry flesh:** Surrounding life converges, hostile. [[Taking on Aruhe]]
 
 ---
 ## Who
 
-- [[Terror-Bird|Terror-Birds]] hold the shaded rims and grass cuts, about a quarter-mile each. Eight-foot grass, water, or a [[Aruhe - Razer-Grass]] stand ends the hunt.
-- [[Deer-Stalker|Deer-Stalkers]] use the grass cover. They will not walk [[Aruhe - Razer-Grass]].
+- [[Aruhe - Terror-Bird|Terror-Birds]] hold the shaded rims and grass cuts, about a quarter-mile each. Eight-foot grass, water, or a [[Aruhe - Razer-Grass]] stand ends the hunt.
+- [[Aruhe - Deerstalker|Deer-Stalkers]] use the grass cover. They will not walk [[Aruhe - Razer-Grass]].
 
 ---
 ## What
 
 - Gold-green grass tall enough to hide a standing person. Near water it leans; farther in, anything that does not lean is an animal.
 - [[Aruhe - Razer-Grass]]: Discrete waist-high islands at torn-up crossings, wallows, river bends, and flood-scoured hollows. It is not a blanket. Running through intact stands cuts. After a shatter, the glitter is asbestos-like if inhaled.
-- [[Aruhe River Otter|River Otters]]: Channels and wet banks. They will not haul a kill onto [[Aruhe - Razer-Grass]].
-- [[Unsaid Macaw]]: Grassland edges. **Wisdom save — `DC 12`** → Speak one truthful sentence about the surfaced thought.
-- [[Bear-Elk]]: Scored-tree beats that cross the openings. [[Terror-Bird|Terror-birds]] step aside.
-- [[Deer-Stalker|Deer-Stalkers]] use the grass cover. They will not walk [[Aruhe - Razer-Grass]].
-- [[Wolfrabbit|Wolfrabbits]]: Jump [[Aruhe - Razer-Grass]] rather than land in it.
+- [[Aruhe - River Otter|River Otters]]: Channels and wet banks. They will not haul a kill onto [[Aruhe - Razer-Grass]].
+- [[Aruhe - Unsaid Macaw]]: Grassland edges. **Wisdom save — `DC 12`** → Speak one truthful sentence about the surfaced thought.
+- [[Aruhe - Bear-Elk]]: Scored-tree beats that cross the openings. [[Aruhe - Terror-Bird|Terror-birds]] step aside.
+- [[Aruhe - Deerstalker|Deer-Stalkers]] use the grass cover. They will not walk [[Aruhe - Razer-Grass]].
+- [[Aruhe - Wolfrabbit|Wolfrabbits]]: Jump [[Aruhe - Razer-Grass]] rather than land in it.
 - [[Aruhe - Redheart Berry]] grows at the wet bends, where fallen berries can be foraged from the mud and stone.
 - [[Aruhe - Giant's Guava]] hangs above the grass at the jungle rim, low enough to pick from a living branch if Aruhe is willing to answer.
 

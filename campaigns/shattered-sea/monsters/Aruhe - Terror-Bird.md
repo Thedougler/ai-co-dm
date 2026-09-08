@@ -60,7 +60,7 @@ actions:
 Grass cuts and shaded rims. Quarter-mile claims. Ends hunt if prey hits deep grass, water, or razer.
 
 ## Canon ecology - living stock ingest
-- Taller than a horse, black, and mossed over so a still bird reads as a trunk with a yellow eye. It does not fly. Each bird holds about a quarter-mile; the ground shakes before its one committed charge. Eight-foot grass, water, or a white [[Razer-Grass]] stand ends the hunt. A fed bird becomes moss and a tremor that does not close, leaving flattened digest-circles, bone, and a sour bolus.
+- Taller than a horse, black, and mossed over so a still bird reads as a trunk with a yellow eye. It does not fly. Each bird holds about a quarter-mile; the ground shakes before its one committed charge. Eight-foot grass, water, or a white [[Aruhe - Razer-Grass]] stand ends the hunt. A fed bird becomes moss and a tremor that does not close, leaving flattened digest-circles, bone, and a sour bolus.
 
 ## Provenance
 Wiki `creature.terror-bird` + inbox living-stock 2026-09-05. Blight gardens pressure; does not possess. Fence-first Fantasy Statblocks. Numbers from wiki — not reinvented.

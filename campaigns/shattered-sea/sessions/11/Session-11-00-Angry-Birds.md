@@ -19,7 +19,7 @@ Working spine: Driven Inland. Run tonight from [[Session-11-01-Angry-Birds-Run]]
 **Tone:** inland hunt, claimed river, false voices
 **Level band:** current table
 **Prize:** reach the farthest inland Calveno survivors; keep the [[Fate Spinner]] on [[Crissdalynn Khinriss]]
-**Opposition:** [[Bloodhawk]] stoop, bank packs, claimed water, [[Deer-Stalker]], then [[Talon Skarn]]
+**Opposition:** [[Aruhe - Bloodhawk]] stoop, bank packs, claimed water, [[Aruhe - Deerstalker]], then [[Talon Skarn]]
 **Hook:** Play a Cliffhanger / Ambush (action)
 **Climax:** Final Battle / theft on the watch (action)
 **Resolution:** cut — the night ends on beat 9
@@ -71,7 +71,7 @@ They come down in moving water and grass high enough to hide a standing person. 
 **Run:** [[Session-11-03-Wolfrabbits-Run]]
 
 - **Purpose:** The first walk toward the smoke is already a fight. Someone can go down here.
-- **Table sees:** They follow the prints off the landing bank into the first stretch of tall grass and torn crossing. The grass that was still starts moving at mid-height. Three to five wolfrabbits come out of it at jump range, between the party and the upriver tracks. The river is at their backs. The glassy [[Razer-Grass]] stands are still in the scour if anyone gets shoved.
+- **Table sees:** They follow the prints off the landing bank into the first stretch of tall grass and torn crossing. The grass that was still starts moving at mid-height. Three to five wolfrabbits come out of it at jump range, between the party and the upriver tracks. The river is at their backs. The glassy [[Aruhe - Razer-Grass]] stands are still in the scour if anyone gets shoved.
 - **Truth:** The pack is working this bank because people and blood have already been here. They hit whoever is isolated, bleeding, or standing in the grass. They are not a message. **Unrevealed:** they will not chase far into deep water or into the bank-woods. They will chase a runner who stays in the grass.
 - **Pressure:** The opening jumps happen now. A miss or a knock-down puts someone in the current or into Razer-Grass. Stopping to pick fruit or make noise pulls more of the pack. The smoke does not get closer while this is happening.
 - **If they break:** If they immediately go back into the river and downstream, the pack holds the bank; rebuild from retreat. If they fly, they leave the pack and enter hawk sky. If they burn the grass, they may scatter the pack and they also announce themselves down the valley.
@@ -135,7 +135,7 @@ Morning on the edge-trail. The smoke is nearer through the trees, the prints sti
   One story: a woman in the woods has been whispering, asking them to come admire her garden, telling them where to walk and what not to take.
   The other story, from people who already left this fire or from argument in it: she is leading them deeper into danger, and anyone who listens is mad.
   This camp listened. They are alive. They want to see the garden. They look past the party when the trees move.
-- **Truth:** The woman is [[The Blight]] / Hinewai. She is courteous to guests. She is drawing them inland toward [[Aruhe - Memorial Grove]], which is still far beyond tonight. These people survived because they followed her rules (fallen fruit, leave the living plants). They are not charmed in a spell sense. They are caught on the invitation. **Unrevealed:** her name, the graves, and how far the garden is.
+- **Truth:** The woman is [[Aruhe - Hinewai]] / Hinewai. She is courteous to guests. She is drawing them inland toward [[Aruhe - Memorial Grove]], which is still far beyond tonight. These people survived because they followed her rules (fallen fruit, leave the living plants). They are not charmed in a spell sense. They are caught on the invitation. **Unrevealed:** her name, the graves, and how far the garden is.
 - **Pressure:** If the party came to take people back to [[Uncertainty]], this camp does not all want to go. Pushing them breaks the only friendly group inland. Playing along points the night deeper into [[Aruhe - Hungry Isle]], not back to the beach. Night is coming. [[Talon Skarn]] does not care about the argument.
 - **If they break:** If they force a march to the ship tonight, some survivors balk or slip into the trees. If they agree to “just see the garden,” they are committing past this valley; do not reach the Grove tonight. If they attack the camp, they lose the prize and they still have a night watch.
 

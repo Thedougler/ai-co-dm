@@ -97,7 +97,7 @@ The party spent their pay with the urgency of people who knew the road had teeth
 
 The paint on the Defender writ was still wet. The list was still growing. The raiders had their head start. Osset had appeared in two different mouths, which is the sort of thing that can mean coincidence in a kinder world.
 
-*Uncertainty* left La Vasca refit and bound for [[Sparhold]], first stop on the Grung fleet's trail. Nona's spellcaster had pulled the destination from a captured purple Grung: the captives were bound for [[Karath]], the Grung center of power. For a few breaths, the party saw through the skin of a purple Grung on [[Aruhe - Hungry Isle|Aruhe]], the Hungry Isle. Two other guards from another garrison were beside them. [[Wolfrabbit|Wolfrabbit]] packs came out of the brush. They ran, swam, threw a spear. No rescue came.
+*Uncertainty* left La Vasca refit and bound for [[Sparhold]], first stop on the Grung fleet's trail. Nona's spellcaster had pulled the destination from a captured purple Grung: the captives were bound for [[Karath]], the Grung center of power. For a few breaths, the party saw through the skin of a purple Grung on [[Aruhe - Hungry Isle|Aruhe]], the Hungry Isle. Two other guards from another garrison were beside them. [[Aruhe - Wolfrabbit|Wolfrabbit]] packs came out of the brush. They ran, swam, threw a spear. No rescue came.
 
 Back aboard *Uncertainty*, Crissdalynn flew ahead over wreckage and found three sun-blasted Calveno captives on a shattered hull. An eastern hurricane had split the raid fleet in half.
 
@@ -117,7 +117,7 @@ At last they reached Aruhe, the Hungry Isle.
 
 They pulled two survivors aboard. A hundred to a hundred fifty people had come off the raid ships. Most were dead. The island was taking the rest. Taking fruit or island things had gotten people killed. Ocean fishing seemed safer. The Grung were hunted hardest, which did not make the place merciful. It only meant the island had preferences.
 
-Delmar, Jean-Claude, Crissdalynn, and Perrin went onto the terraces. They found wolfrabbits. They found fruit marked with blood and skulls. They found at least six dead nearby. Jean-Claude killed a spore plant, and then the water below answered with something worse: a [[Great Crown Squid]] rising from beneath, striking Delmar, trying to take people for itself. They escaped by illusion and flight. The squid stopped at the tree line and remained in the water, watching from the edge of its own law.
+Delmar, Jean-Claude, Crissdalynn, and Perrin went onto the terraces. They found wolfrabbits. They found fruit marked with blood and skulls. They found at least six dead nearby. Jean-Claude killed a spore plant, and then the water below answered with something worse: a [[Aruhe - Great Crown Squid]] rising from beneath, striking Delmar, trying to take people for itself. They escaped by illusion and flight. The squid stopped at the tree line and remained in the water, watching from the edge of its own law.
 
 So *Uncertainty* stayed mobile instead of anchoring close.
 

@@ -42,8 +42,8 @@ Western Landing is Aruhe's known sea approach and retreat edge: a jagged reef, o
 ---
 ## Who
 
-- **Reef fauna, fiction only:** Giant sharks, giant crabs, Bloodhawks, and [[Reef Skull|Reef Skulls]].
-- [[Reef Skull|Reef Skulls]] are dog-sized hermit crabs in hull pieces or skulls; they bury in the shingle.
+- **Reef fauna, fiction only:** Giant sharks, giant crabs, Bloodhawks, and [[Aruhe - Reef Skull|Reef Skulls]].
+- [[Aruhe - Reef Skull|Reef Skulls]] are dog-sized hermit crabs in hull pieces or skulls; they bury in the shingle.
 
 ---
 ## What
@@ -52,7 +52,7 @@ Western Landing is Aruhe's known sea approach and retreat edge: a jagged reef, o
 - A short shingle beach takes only minutes to cross end to end. Loose stone, surf, and sharp coral make the landing a boundary rather than a neutral beach.
 - Elsewhere the coast is cliffs, coves, or beaches trapped behind reef; the southern mangrove wall is not a landing. The boat gap is the known usable approach.
 - Reef movement, hull strain, surf on coral, salt spray, and wet stone make the approach legible before the party commits.
-- Giant sharks, giant crabs, Bloodhawks, and [[Reef Skull|Reef Skulls]] make the reef and shingle a landing problem without requiring reef-fauna mechanics here.
+- Giant sharks, giant crabs, Bloodhawks, and [[Aruhe - Reef Skull|Reef Skulls]] make the reef and shingle a landing problem without requiring reef-fauna mechanics here.
 - At the inland edge, [[Aruhe - Ghost Plum]] hangs beneath wet leaves and [[Aruhe - Giant's Guava]] fruits above the stream. Fallen specimens can be foraged, while living branches can be picked at the cost of drawing Aruhe's response.
 - A loose stone or shed shell can mark the route. A living claim draws surrounding life into hostility. [[Taking on Aruhe]]
 

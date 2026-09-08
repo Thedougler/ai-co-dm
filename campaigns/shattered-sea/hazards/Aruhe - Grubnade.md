@@ -66,7 +66,7 @@ Make it cute first. Delay to end of turn is the whole encounter. After one pop, 
 ## Canon ecology - living stock ingest
 - Thumb-long cream-green caterpillars work flower throats. Touch, shake the plant, or burn it and two dark lines race together under the skin; the grub swells, hisses like fat in a pan, and pops.
 - The flash is small and hot. What crawls away afterward are its daughters, blown ten to thirty feet into the leaves; there is no moth, because the explosion is how this species breeds.
-- Feeding marks remain on leaves because nothing eats the eater. [[Aruhe River Otter|Otters]], [[Deer-Stalker|deer-stalkers]], and [[Wolfrabbit|wolfrabbits]] give them room.
+- Feeding marks remain on leaves because nothing eats the eater. [[Aruhe - River Otter|Otters]], [[Aruhe - Deerstalker|deer-stalkers]], and [[Aruhe - Wolfrabbit|wolfrabbits]] give them room.
 
 ## Provenance
 Wiki provisional. Kept as written.

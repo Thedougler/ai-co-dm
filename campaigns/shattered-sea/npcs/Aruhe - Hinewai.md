@@ -33,19 +33,17 @@ source: "house (Monster-Brewer; legacy Fantasy Statblock import; Hinewai/Death B
 
 ## At a glance
 
-|                     |                                                                                    |                                     |
-| ------------------- | ---------------------------------------------------------------------------------- | ----------------------------------- |
-| **Role**            | Rival, guardian, source of Aruhe's ecological excess                               |                                     |
-| **Nature**          | Dead archdruid fused to Aruhe                                                      |                                     |
-| **Home**            | [[Aruhe - Memorial Grove]]                                                         |                                     |
-| **Wants**           | Protect the memorial and living Aruhe from taking, waste, and careless destruction |                                     |
-| **Fears**           | Ownership, careless change, and destruction of the memorial                        |                                     |
-| **Hates**           | Grung and invaders                                                                 |                                     |
-| **Loves**           | Living things, Aruhe, and the companion she buried                                 |                                     |
-| **True weakness**   | The [[Aruhe - Memorial Grove|Death Bloom]], not her walking body |
-| **Return**          | `1d10 days` if her body is destroyed while the Death Bloom survives                |                                     |
-| **Permanent death** | Ruin the Death Bloom, then destroy her walking body                                |                                     |
-| **Key tell**        | She may no longer remember her own name                                            |                                     |
+| **Role**            | Undead Guardian of all life on Aruhe's                              |
+| ------------------- | ------------------------------------------------------------------- |
+| **Nature**          | Tortured, and mad genius, love of nature                            |
+| **Home**            | [[Aruhe - Memorial Grove]]                                          |
+| **Wants**           | Aruhe will be unspoiled.                                            |
+| **Fears**           | Wildfire, her pets dying, her plants dying                          |
+| **Hates**           | Grung and invaders                                                  |
+| **Loves**           | Living things, Aruhe, and the companion she buried                  |
+| **True weakness**   | The [[Aruhe - Memorial GroveDeath Bloom]]                           |
+| **Return**          | `1d10 days` if her body is destroyed while the Death Bloom survives |
+| **Permanent death** | Ruin the Death Bloom, then destroy her walking body                 |
 
 > **DM thesis:** Love did not cool in Hinewai; it metastasized. She loved life so fiercely that growth, reproduction, healing, adaptation, and rot lost their brakes. Aruhe is the successful preservation of one dead thing at the cost of a living country.
 
@@ -55,32 +53,9 @@ source: "house (Monster-Brewer; legacy Fantasy Statblock import; Hinewai/Death B
 
 ### First meeting
 
-Hinewai treats visitors as **guests until they behave like takers**. She can be calm, proud, old, and courteous around those who observe, receive, remember, or leave living things untouched. She does not need to threaten. She states consequences as though describing weather. A claim against the island — plucking, cutting, trapping, taking, owning, or careless destruction — turns that warmth off cleanly.
+Hinewai treats visitors as **guests until they behave like invaders**. She can be serene, calm, proud, and even seem at ease around those who do not harm nature. 
 
-### Roleplay priorities
-
-1. **Protect the memorial.**
-2. **Prevent anyone from treating Aruhe as property.**
-3. **Preserve living things, even when preservation itself has become monstrous.**
-4. **Destroy Grung without hesitation.**
-5. **Remember her companion more clearly than she remembers herself.**
-
-### Voice
-
-* Quiet rather than theatrical.
-* Speaks about Aruhe as kin, never territory.
-* Describes consequences instead of issuing threats.
-* Rarely explains herself unless someone approaches the Grove respectfully.
-* Her hatred of Grung is immediate and personal even where other memories have rotted away.
-* She may not remember the name **Hinewai**.
-
----
-
-## Drives
-
-* **Want:** Keep the memorial and living Aruhe from being taken, wasted, or carelessly destroyed.
-* **Fear:** Ownership, careless change, and the loss of the memorial that holds her companion and herself.
-* **Method:** Stillness at the Grove; silence, ecological pressure, and aligned local hunger elsewhere.
+If angered, she disappears into the forest, sending all nearby fauna and predatory flora are compelled to kill the aggressor at all costs. 
 
 ---
 
@@ -124,21 +99,11 @@ Damage to the memorial weakens Hinewai.
 
 | Memorial State | Hinewai                                   |
 | -------------- | ----------------------------------------- |
-| **Whole**      | [[#Death Bloom Whole|Stage 1]]            |
-| **Wounded**    | [[#Death Bloom Wounded|Stage 2]]          |
-| **Near Ruin**  | [[#Death Bloom Near Ruin|Stage 3]]        |
+| **Whole**      | [[#Death Bloom WholeStage 1]]             |
+| **Wounded**    | [[#Death Bloom WoundedStage 2]]           |
+| **Near Ruin**  | [[#Death Bloom Near RuinStage 3]]         |
 | **Ruined**     | No rebirth; body destruction is permanent |
 
-### What happens when it dies
-
-The Grove does **not** explode. When the Death Bloom fails:
-
-* wind returns;
-* biological stasis loosens;
-* fruit begins aging;
-* flowers begin closing;
-* roots stop communicating;
-* Aruhe changes over weeks, months, and years.
 
 See [[Aruhe - Memorial Grove#Destruction timeline]].
 

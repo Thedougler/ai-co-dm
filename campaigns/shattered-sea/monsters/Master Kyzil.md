@@ -71,10 +71,3 @@ legendary_actions:
     desc: "Each creature of Kyzil's choice within 10 feet must succeed on a DC 19 Strength saving throw or take 9 (2d8) bludgeoning damage, be pushed 10 feet, and be knocked prone."
 ```
 
-# Master Kyzil
-
-## At the table
-Use the original legacy Fantasy Statblock when this creature or combatant enters play.
-
-## Provenance
-Legacy fence imported verbatim from `/Users/nick/shattered-sea/wiki/shattered-sea/schism-of-the-eyrie/npc.master-kyzil.md`.

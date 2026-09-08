@@ -110,7 +110,7 @@ The five islands of [[Verdant Teeth]], Vethka war proas, reef and channel patrol
 - [[Simone's hunters]] — Simone's report, leak hunt, and toxin stock make the family pressure actionable.
 
 ## Aruhe connection (DM)
-The Grung clans made [[Aruhe - Hungry Isle]] what it is today. Hundreds of years ago they captured a druid from a far Midchain island, tortured her, drove her mad, and killed her companion when the two escaped to Aruhe. The full confession belongs in [[Grung and the Making of Aruhe]], not in player-facing narration. [[The Blight]] carries this history as its origin.
+The Grung clans made [[Aruhe - Hungry Isle]] what it is today. Hundreds of years ago they captured a druid from a far Midchain island, tortured her, drove her mad, and killed her companion when the two escaped to Aruhe. The full confession belongs in [[Grung and the Making of Aruhe]], not in player-facing narration. [[Aruhe - Hinewai]] carries this history as its origin.
 
 ## Provenance
 Primary source: staged Nick dump, `inbox/archive/FILED-2026-09-05-grung-teeth.md`. Promoted legacy context: `/Users/nick/shattered-sea/wiki/shattered-sea/the-grung-clans/faction-grung-clans.md` (poison equalizer, deteriorating water reach, raid calculus, cornered escalation), `/Users/nick/shattered-sea/wiki/shattered-sea/the-grung-clans/region-verdant-teeth.md` (closed interior), and `/Users/nick/shattered-sea/wiki/shattered-sea/the-grung-clans/region-sorn.md` (Botukuri and Simone).

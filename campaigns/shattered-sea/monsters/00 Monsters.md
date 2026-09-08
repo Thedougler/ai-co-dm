@@ -7,22 +7,22 @@ tags: [index, monster]
 ---
 # Monsters
 ## Aruhe - key encounter
-- [[The Blight|Hinewai / The Blight]] — Death Bloom objective fight; see the house statblocks and state track.
+- [[Aruhe - The Blight|Hinewai / The Blight]] — Death Bloom objective fight; see the house statblocks and state track.
 
 ## Aruhe - claims map roster
-- **Beach / reef gap:** [[Reef Skull|Reef Skulls]] - [[Small Blood Hawk|Small Blood Hawks]]
-- **Old Gardens / first terraces:** [[Wolfrabbit]] - [[Grinning Ape|Grinning Apes]] - [[Vine Lash|Vine Lashes]] - [[Grubnade]] - [[Unsaid Macaw|Unsaid Macaws]] - [[Young Snakewood]] - [[Snakewood]]
-- **Quiet / Marshes floor:** [[Great Crown Squid]] - [[Deer-Stalker]] - [[Thornback|Thornbacks]] - [[Bear-Elk]] - [[Strangler Fig|Strangler Figs]] - [[Corpsewood]] - [[Silence Moths]]
-- **Mangrove canopy / roots:** [[Great Crown Squid]] - [[Snakewood]]
-- **Grass / river / lake:** [[Terror-Bird|Terror-Birds]] - [[Bloodhawk]] · [[Young Bloodhawk]] (juvenile) - [[Aruhe River Otter]]
+- **Beach / reef gap:** [[Aruhe - Reef Skull|Reef Skulls]] - [[Aruhe - Small Blood Hawk|Small Blood Hawks]]
+- **Old Gardens / first terraces:** [[Aruhe - Wolfrabbit]] - [[Aruhe - Grinning Ape|Grinning Apes]] - [[Vine Lash|Vine Lashes]] - [[Aruhe - Grubnade]] - [[Aruhe - Unsaid Macaw|Unsaid Macaws]] - [[Young Snakewood]] - [[Snakewood]]
+- **Quiet / Marshes floor:** [[Aruhe - Great Crown Squid]] - [[Aruhe - Deerstalker]] - [[Aruhe - Thornback|Thornbacks]] - [[Aruhe - Bear-Elk]] - [[Aruhe - Strangler Fig|Strangler Figs]] - [[Corpsewood]] - [[Silence Moths]]
+- **Mangrove canopy / roots:** [[Aruhe - Great Crown Squid]] - [[Snakewood]]
+- **Grass / river / lake:** [[Aruhe - Terror-Bird|Terror-Birds]] - [[Aruhe - Bloodhawk]] · [[Aruhe - Young Bloodhawk]] (juvenile) - [[Aruhe - River Otter]]
 - **Under-island:** [[Cave Bats]] - [[Root Roaches]] - [[Glass Crickets]] - [[Blackrail]]
 
 > **Canon frame:** Aruhe removes brakes from known animals; the Blight gardens pressure but does not ride bodies. These are zone claims, not one king.
 
 ## Aruhe flora links
-- Plant-monsters: [[Vine Lash|Vine Lashes]] · [[Snakewood]] · [[Strangler Fig|Strangler Figs]] · [[Corpsewood]]
-- Flora hazards and zones: [[Razer-Grass]] · [[Stillbloom]] · [[Aruhe - Hungry Isle#What]]
-- Hot blooms: [[Grubnade]]
+- Plant-monsters: [[Vine Lash|Vine Lashes]] · [[Snakewood]] · [[Aruhe - Strangler Fig|Strangler Figs]] · [[Corpsewood]]
+- Flora hazards and zones: [[Aruhe - Razer-Grass]] · [[Aruhe - Stillbloom]] · [[Aruhe - Hungry Isle#What]]
+- Hot blooms: [[Aruhe - Grubnade]]
 
 ## Drowned Maw fiction stubs
 - [[Welak]] / whip shark — surface hull hunter and pump-vibration patrol; Monster-Brewer pending.

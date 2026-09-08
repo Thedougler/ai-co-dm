@@ -14,8 +14,8 @@ tags: [item, aruhe, consumable]
 ![[attachments/shattered-sea/items/aruhe-giants-guava.png]]
 
 > [!narration] Narration
-> A giant guava hangs from a thick branch in deep pink and gold ribs, broad enough that two hands look like the polite way to take it. Its glossy skin is speckled and slightly puckered, with leaves bent around it and the wood above bowed under the weight. Up close it smells sweet and wet, with a musky edge like the trail of something big pushing through the trees.
+> A giant guava hangs from a thick branch in deep pink and gold ribs, broad enough that two hands are necessary to catch one. Its glossy skin is speckled and slightly puckered, with leaves bent around it and the wood above bowed under the weight. Up close it smells sweet with a musky edge like the trail of something big pushing through the trees.
 
 Consumable, Rare
 
-When you eat this fruit, your **Strength score becomes 25** for **1 hour**.
+When you eat this fruit, your **Primary Ability score becomes 25** for **1 hour**.

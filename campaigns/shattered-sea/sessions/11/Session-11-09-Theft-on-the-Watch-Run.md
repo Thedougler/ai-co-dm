@@ -178,7 +178,7 @@ The steal turn happens after everyone has acted, and only if [[Talon Skarn]] is 
 
 **Minions / dials.** None. Do not invent a second flier. Do not play [[Talon Vantyrus]]. Survivors who run are cover for [[Talon Skarn]], not extra enemies.
 
-Do not spawn the [[Deer-Stalker]], otters, wolfrabbits, or [[Aruhe - Memorial Grove]] on this clock. Do not restage beat 1. Freeze on this watch still ticks the steal once.
+Do not spawn the [[Aruhe - Deerstalker]], otters, wolfrabbits, or [[Aruhe - Memorial Grove]] on this clock. Do not restage beat 1. Freeze on this watch still ticks the steal once.
 
 ## Secondary objective
 
@@ -216,11 +216,11 @@ If [[Talon Skarn]] is grounded and the crew keeps hitting, still end here. [[Tal
 
 **Prone.** Anyone knocked down at this watch is Prone until they stand.
 
-**Grappled.** Anyone still Grappled by the [[Deer-Stalker]] at a break is still Grappled (escape DC 14) until they escape or it drops them.
+**Grappled.** Anyone still Grappled by the [[Aruhe - Deerstalker]] at a break is still Grappled (escape DC 14) until they escape or it drops them.
 
-**[[Razer-Grass]].** Anyone shoved through or Shatter-dumped in the island has that damage already applied.
+**[[Aruhe - Razer-Grass]].** Anyone shoved through or Shatter-dumped in the island has that damage already applied.
 
-Do not run grassland tables, the [[Deer-Stalker]], [[Talon Vantyrus]], or [[Aruhe - Memorial Grove]] here. The people at this fire stay unnamed.
+Do not run grassland tables, the [[Aruhe - Deerstalker]], [[Talon Vantyrus]], or [[Aruhe - Memorial Grove]] here. The people at this fire stay unnamed.
 
 ## Roster
 

@@ -70,7 +70,7 @@ If the Bloom is left intact, return in ten years finds the same ripe fruit, open
 - **Retreat:** Return by water or grassland without taking or disturbing the memorial.
 
 ## Who is here
-- [[The Blight]] / Hinewai, joined to the place as its body and presence.
+- [[Aruhe - Hinewai]] / Hinewai, joined to the place as its body and presence.
 - [[The Unnamed Companion]], only as the first grave and remembered absence.
 - Independent fauna at the mourner line; they do not become her puppets.
 

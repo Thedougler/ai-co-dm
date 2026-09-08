@@ -33,7 +33,7 @@ The name Hungry Isle means too much of everything, not lack. Outsiders may call 
 
 ## Linked
 - **Places:** [[Aruhe - Hungry Isle]] · [[Aruhe - Beach]] · [[Aruhe - Grasslands]] · [[Aruhe - The Marshes]] · [[Aruhe - The Mangroves]] · [[Aruhe - Clear Lake]] · [[Aruhe - Memorial Grove]] · [[Aruhe - Lava Tubes]]
-- **People:** [[The Blight]] · [[The Unnamed Companion]] · [[Perrin Black-Jaw]] · [[Nona Black-Jaw]]
+- **People:** [[Aruhe - Hinewai]] · [[The Unnamed Companion]] · [[Perrin Black-Jaw]] · [[Nona Black-Jaw]]
 - **Factions:** [[Tangle]] · [[Passage]] · [[Grung clans]]
 
 ## Table use

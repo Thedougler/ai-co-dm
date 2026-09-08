@@ -43,14 +43,6 @@ actions:
 > Healthy bright clear-eyed macaws eat fruit, nuts, and occasional shellfish along orchards and lake margins. A bird speaks in a listener's own voice, repeating words that were almost said. Flocks teach phrases until later speech is hard to tell from old flock-talk.
 
 
-## At the table
-**Social hazard, not a fight.** Speaks the almost-said in your voice. Flocks teach phrases.
-
-## Terrain / friends
-Orchards, grassland edges, lake margin — not the Quiet.
 
 ## Canon ecology - living stock ingest
 - Healthy, bright, clear-eyed macaws eat fruit, nuts, and occasional shellfish. A bird hears the thought you almost said and speaks it in your voice; flocks teach phrases, making later speech hard to distinguish from old flock-talk. They do not belong in [[Aruhe - Quiet Forest]], where birdsong is supposed to be absent.
-
-## Provenance
-Wiki `creature.unsaid-macaw` + inbox living-stock 2026-09-05. Blight gardens pressure; does not possess. Fence-first Fantasy Statblocks. Numbers from wiki — not reinvented.

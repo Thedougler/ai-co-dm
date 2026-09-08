@@ -29,7 +29,7 @@ The dump-authoritative autobiography belongs to the DM layer. Hinewai carries th
 - **Older UNKNOWN framing:** prior notes did not know the druid's name, origin, companion, or whether a separate self remained. That uncertainty is superseded as canon by the 2026-09-05 dump, but may remain as in-world incomplete knowledge.
 
 ## Linked
-- People: [[The Blight]] / Hinewai · [[The Unnamed Companion]]
+- People: [[Aruhe - Hinewai]] / Hinewai · [[The Unnamed Companion]]
 - Places: [[Aruhe - Hungry Isle]] · [[Aruhe - Memorial Grove]] · [[Aruhe - Clear Lake]] · [[Karath]] · [[Aruhe - The Marshes]] · [[Aruhe - The Mangroves]]
 - Faction: [[Grung clans]]
 - Lore: [[Taking on Aruhe]]

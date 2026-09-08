@@ -15,7 +15,7 @@ cssclasses:
 
 # Aruhe River / Grasslands Plant Hazards
 
-Paired with [[Aruhe-River-Grasslands-Tables]] for [[Session-11-00-Angry-Birds]]. Each Survival check rolls both tables. Run one row. No Grung. Do not restage beat 9 ([[Talon Skarn]]) or pull [[The Blight]].
+Paired with [[Aruhe-River-Grasslands-Tables]] for [[Session-11-00-Angry-Birds]]. Each Survival check rolls both tables. Run one row. No Grung. Do not restage beat 9 ([[Talon Skarn]]) or pull [[Aruhe - Hinewai]].
 
 ## L0 · At a glance
 
@@ -26,13 +26,13 @@ Paired with [[Aruhe-River-Grasslands-Tables]] for [[Session-11-00-Angry-Birds]].
 
 | d8 | Hazard | Band | Forces |
 | ---: | --- | --- | --- |
-| 1 | Strangler Fig at a stone pinch | Deadly+ / go around | 1 × [[Strangler Fig]] |
+| 1 | Strangler Fig at a stone pinch | Deadly+ / go around | 1 × [[Aruhe - Strangler Fig]] |
 | 2 | Young Snakewood on bank canopy | Deadly, one haul | 1 × [[Young Snakewood]] |
 | 3 | Vine Lash over a bank trail | Hard | 1 × [[Vine Lash]] |
-| 4 | Razer-Grass shatter crossing | Hard / medium | [[Razer-Grass]] only |
-| 5 | Hot bloom on the wet margin | Medium trap | 3+ × [[Grubnade]] |
+| 4 | Razer-Grass shatter crossing | Hard / medium | [[Aruhe - Razer-Grass]] only |
+| 5 | Hot bloom on the wet margin | Medium trap | 3+ × [[Aruhe - Grubnade]] |
 | 6 | Eight-foot gold-grass corridor | Medium exploration | Gold grass |
-| 7 | Breathmelon in the current | Easy / taking | [[Breathmelon]] |
+| 7 | Breathmelon in the current | Easy / taking | [[Aruhe - Breathmelon]] |
 | 8 | Fallen fruit on the bank | Easiest | Already-down fruit |
 
 > [!mechanic] When to roll
@@ -48,7 +48,7 @@ Paired with [[Aruhe-River-Grasslands-Tables]] for [[Session-11-00-Angry-Birds]].
 
 ## L1 · At the table
 
-### 1. Strangler Fig at a stone pinch — [[Strangler Fig]]
+### 1. Strangler Fig at a stone pinch — [[Aruhe - Strangler Fig]]
 
 **When live:** This row is live on a roll of 1 when the DM picks the plant die, on a tree-line trail already pinched through stone.
 **Now:** Aerial roots hang across a bottleneck. The trunk in that pinch is hollow.
@@ -65,7 +65,7 @@ Paired with [[Aruhe-River-Grasslands-Tables]] for [[Session-11-00-Angry-Birds]].
 
 ### Run now
 
-- **On the table:** One [[Strangler Fig]] fills a stone-pinched tree-line trail. Gold grass and the river are the long way around. Upriver smoke is still visible if anyone looks that way.
+- **On the table:** One [[Aruhe - Strangler Fig]] fills a stone-pinched tree-line trail. Gold grass and the river are the long way around. Upriver smoke is still visible if anyone looks that way.
 - **DM truth:**
 > [!secret] Hidden
 > The fig is rooted. Clearing the curtain or abandoning the trail ends the hunt. Escape DC 16 is on the owner Root Lash. An ally adjacent to the trunk can pull an engulfed creature free with the same DC 16 check. Fire is the strong answer and not the only one. [[Perrin Black-Jaw]] and [[Jean-Claude Tabarnack]] are the engulf risk. [[Catarina Da'Virelli]] can work from outside the pinch.
@@ -129,9 +129,9 @@ Paired with [[Aruhe-River-Grasslands-Tables]] for [[Session-11-00-Angry-Birds]].
 
 **Spotlight:** [[Delmar Fisk]] on the bundle. [[Perrin Black-Jaw]] if he walks the lane. [[Catarina Da'Virelli]] from off the trail.
 
-### 4. Razer-Grass shatter crossing — [[Razer-Grass]]
+### 4. Razer-Grass shatter crossing — [[Aruhe - Razer-Grass]]
 
-**When live:** This row is live on a roll of 4 when the DM picks the plant die, at a torn crossing, wallow, or flood-scoured bend. Do not add a [[Thornback]].
+**When live:** This row is live on a roll of 4 when the DM picks the plant die, at a torn crossing, wallow, or flood-scoured bend. Do not add a [[Aruhe - Thornback]].
 **Now:** A winter-white island sits in the short ford. The glitter does not lean.
 **Say/show:** Read the narration. The grass is the encounter. Fire, a Dash, a fall, or a smash is the fuse.
 **Ask/offer:** Go around the island. Careful Passage. Soak it. Cross fast. Burn it.
@@ -146,7 +146,7 @@ Paired with [[Aruhe-River-Grasslands-Tables]] for [[Session-11-00-Angry-Birds]].
 
 ### Run now
 
-- **On the table:** Discrete [[Razer-Grass]] islands close a torn river crossing. No animal is in this row. Gold grass and a longer bend are the way around.
+- **On the table:** Discrete [[Aruhe - Razer-Grass]] islands close a torn river crossing. No animal is in this row. Gold grass and a longer bend are the way around.
 - **DM truth:**
 > [!secret] Hidden
 > Razor Field is 1d4 slashing per 5 feet through intact stands, no save. Careful Passage is an action: 5 feet with no movement damage. Shatter is DC 14 Dexterity, 7 (2d6) slashing, if someone falls prone in it, Dashes, is forced 10 feet, or smashes a section. Fire automatically Shatters that section and starts Glass Bloom. Glass-Choked is DC 14 Constitution, speed −10 feet, until a Short or Long Rest. [[Delmar Fisk]] pays if he Dashes the ford. [[Catarina Da'Virelli]] can work from outside the islands. [[Jean-Claude Tabarnack]] can take Careful Passage or the long way.
@@ -156,7 +156,7 @@ Paired with [[Aruhe-River-Grasslands-Tables]] for [[Session-11-00-Angry-Birds]].
 
 **Spotlight:** [[Jean-Claude Tabarnack]] on the long way or Careful Passage. [[Delmar Fisk]] if he takes the ford at speed. [[Catarina Da'Virelli]] from outside the white.
 
-### 5. Hot bloom on the wet margin — [[Grubnade]]
+### 5. Hot bloom on the wet margin — [[Aruhe - Grubnade]]
 
 **When live:** This row is live on a roll of 5 when the DM picks the plant die, on a wet-margin or terrace-edge flower that ticks.
 **Now:** A huge flower is open on the bank. Caterpillars chew in the throat. The bloom ticks.
@@ -173,7 +173,7 @@ Paired with [[Aruhe-River-Grasslands-Tables]] for [[Session-11-00-Angry-Birds]].
 
 ### Run now
 
-- **On the table:** One hot bloom holds three or more mature [[Grubnade]]. Scorch rings and bent tracks are already on the mud. The river and the long grass are the walk-around.
+- **On the table:** One hot bloom holds three or more mature [[Aruhe - Grubnade]]. Scorch rings and bent tracks are already on the mud. The river and the long grass are the walk-around.
 - **DM truth:**
 > [!secret] Hidden
 > Harmless until touched. Disturbed means it detonates at the end of the current turn. Chemical Burst is DC 12 Dexterity, 7 (2d6) fire, 5-foot flash. Blast-Birth hurls 1d4 + 1 juveniles that cannot detonate. Normal footsteps nearby do not trigger it. DC 12 Perception notices a grub in dense foliage if the tick is not already obvious. [[Perrin Black-Jaw]] may pick the cute one. [[Catarina Da'Virelli]] can throw a plucked grub (improvised, 20/60) and that pluck disturbs it. Learned predators on the fauna table already refuse these flowers.
@@ -210,7 +210,7 @@ Paired with [[Aruhe-River-Grasslands-Tables]] for [[Session-11-00-Angry-Birds]].
 
 **Spotlight:** [[Jean-Claude Tabarnack]] on lean versus crush. [[Crissdalynn Khinriss]] if she takes the air. [[Catarina Da'Virelli]] if they try to burn a lane.
 
-### 7. Breathmelon in the current — [[Breathmelon]]
+### 7. Breathmelon in the current — [[Aruhe - Breathmelon]]
 
 **When live:** This row is live on a roll of 7 when the DM picks the plant die, at a wet margin or slack shallows.
 **Now:** Pale green melons bob in the water. Some still hang on living vines. One is already split and floating.
@@ -227,7 +227,7 @@ Paired with [[Aruhe-River-Grasslands-Tables]] for [[Session-11-00-Angry-Birds]].
 
 ### Run now
 
-- **On the table:** Living [[Breathmelon]] on wet-margin vines, at least one already-split melon in the current, submerged grass ribbons, and a log. The bank is dry footing.
+- **On the table:** Living [[Aruhe - Breathmelon]] on wet-margin vines, at least one already-split melon in the current, submerged grass ribbons, and a log. The bank is dry footing.
 - **DM truth:**
 > [!secret] Hidden
 > The fruit is genuinely beneficial. The cost is possession, not poison. DC 15 or Identify gives the full hour of air and water breathing plus swim parity. Squeezing a melon underwater is a tell in otter water. [[Delmar Fisk]] and [[Perrin Black-Jaw]] are the likely waders. [[Catarina Da'Virelli]] can work from the bank. Do not run an otter hunt on this card; that is fauna row 4 or beat 5.
@@ -257,7 +257,7 @@ Paired with [[Aruhe-River-Grasslands-Tables]] for [[Session-11-00-Angry-Birds]].
 - **On the table:** Already-down fruit (citrus, melon, or terrace leftovers), living bushes with fruit still attached, and upriver prints. No animal starts on this card.
 - **DM truth:**
 > [!secret] Hidden
-> Match beat 4's lesson if that bank already played: fallen fruit has no blood; living stems are the claim. Ordinary restorative fruit may occur; do not invent a new mechanical item here. [[Lion Citrus]] or [[Breathmelon]] already down is enough. [[Perrin Black-Jaw]] is the likely reader of take versus receive. If they strip live bushes, the next Survival check uses the claim rule on both tables.
+> Match beat 4's lesson if that bank already played: fallen fruit has no blood; living stems are the claim. Ordinary restorative fruit may occur; do not invent a new mechanical item here. [[Aruhe - Lion Citrus]] or [[Aruhe - Breathmelon]] already down is enough. [[Perrin Black-Jaw]] is the likely reader of take versus receive. If they strip live bushes, the next Survival check uses the claim rule on both tables.
 - **Procedure:** Put fallen and living fruit in the same look. Let them choose. Do not hide a curse in the flesh.
 - **If violence starts:** Only if they make a claim and you convert this into a later row. This card has no fight of its own.
 - **If ignored:** The pile stays. The smoke does not get closer while they argue over it.
@@ -268,9 +268,9 @@ Paired with [[Aruhe-River-Grasslands-Tables]] for [[Session-11-00-Angry-Birds]].
 
 ### DM reference
 
-- Place: [[Aruhe - Grasslands]] · [[Taking on Aruhe]] · [[Razer-Grass]]
-- Plant roster: [[Strangler Fig]] · [[Young Snakewood]] · [[Vine Lash]] · [[Grubnade]]
-- Fruit: [[Breathmelon]] · [[Lion Citrus]]
+- Place: [[Aruhe - Grasslands]] · [[Taking on Aruhe]] · [[Aruhe - Razer-Grass]]
+- Plant roster: [[Aruhe - Strangler Fig]] · [[Young Snakewood]] · [[Vine Lash]] · [[Aruhe - Grubnade]]
+- Fruit: [[Aruhe - Breathmelon]] · [[Aruhe - Lion Citrus]]
 - Fauna pair: [[Aruhe-River-Grasslands-Tables]]
 - Session spine: [[Session-11-00-Angry-Birds]]
 - Do not copy owner essays or statblocks onto this page.
@@ -296,6 +296,6 @@ Paired with [[Aruhe-River-Grasslands-Tables]] for [[Session-11-00-Angry-Birds]].
 
 - Complete grammatical sentences on every live card.
 - No collapsed callouts on this session surface.
-- No Grung, no [[Talon Skarn]], no [[The Blight]], no Grove tonight.
+- No Grung, no [[Talon Skarn]], no [[Aruhe - Hinewai]], no Grove tonight.
 - No secrets, DCs, or unearned names inside `[!narration]`.
 - Narration stops at the reaction point. Resolve contact after the table acts.

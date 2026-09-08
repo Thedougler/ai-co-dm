@@ -56,7 +56,7 @@ bonus_actions:
 Quiet–Marshes boundary. Terror-birds yield; squid/bloodhawk take from above/sky.
 
 ## Canon ecology - living stock ingest
-- Bigger than a draft horse and low-wide, with an elk rack on a bear's chest, pale pupil-less eyes, and faint luminous sap dripping from its antlers. It runs a fixed daily beat along scored trees and rarely needs to eat. [[Terror-Bird|Terror-birds]] step aside; [[Great Crown Squid]] takes it from above; [[Bloodhawk]] takes it in a cut of open sky.
+- Bigger than a draft horse and low-wide, with an elk rack on a bear's chest, pale pupil-less eyes, and faint luminous sap dripping from its antlers. It runs a fixed daily beat along scored trees and rarely needs to eat. [[Aruhe - Terror-Bird|Terror-birds]] step aside; [[Aruhe - Great Crown Squid]] takes it from above; [[Aruhe - Bloodhawk]] takes it in a cut of open sky.
 
 ## Provenance
 Wiki `creature.bear-elk` + inbox living-stock 2026-09-05. Blight gardens pressure; does not possess. Fence-first Fantasy Statblocks. Numbers from wiki — not reinvented.

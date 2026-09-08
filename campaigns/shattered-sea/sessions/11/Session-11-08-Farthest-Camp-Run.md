@@ -40,9 +40,9 @@ The crew is at this camp fire. The smoke is this fire. Several people from the C
 
 ## DM truth
 
-This camp wants to see the woman's garden. The woman is [[The Blight]] / Hinewai. She is courteous to guests. She is drawing these people inland toward [[Aruhe - Memorial Grove]], which is still far beyond tonight. These people survived because they followed her rules: fallen fruit, leave the living plants. They are not charmed in a spell sense. They are caught on the invitation.
+This camp wants to see the woman's garden. The woman is [[Aruhe - Hinewai]] / Hinewai. She is courteous to guests. She is drawing these people inland toward [[Aruhe - Memorial Grove]], which is still far beyond tonight. These people survived because they followed her rules: fallen fruit, leave the living plants. They are not charmed in a spell sense. They are caught on the invitation.
 
-**Unrevealed:** Her name, the graves, and how far the garden is. Do not put those in the Open. Do not name [[The Blight]], Hinewai, or [[Aruhe - Memorial Grove]] at the table.
+**Unrevealed:** Her name, the graves, and how far the garden is. Do not put those in the Open. Do not name [[Aruhe - Hinewai]], Hinewai, or [[Aruhe - Memorial Grove]] at the table.
 
 [[Talon Skarn]] does not care about the argument. Do not run him on this card.
 
@@ -50,7 +50,7 @@ This camp wants to see the woman's garden. The woman is [[The Blight]] / Hinewai
 
 **Camp split.** Two stories are already in the talk. One story: a woman in the woods has been whispering, asking them to come admire her garden, telling them where to walk and what not to take. The other story: she is leading them deeper into danger, and anyone who listens is mad. This camp listened. They are alive. They want to see the garden. People who already left this fire, or who argue inside it, hold the second story. Do not invent named survivors.
 
-**Invitation.** The people at this fire look into the trees when the branches move. [[The Blight]] is not standing at this fire as a named body. Do not stage [[Aruhe - Memorial Grove]]. Do not treat this as a charm spell.
+**Invitation.** The people at this fire look into the trees when the branches move. [[Aruhe - Hinewai]] is not standing at this fire as a named body. Do not stage [[Aruhe - Memorial Grove]]. Do not treat this as a charm spell.
 
 **[[Taking on Aruhe]] practice.** Already-picked fruit is down by this fire. Living stems around this camp still hang. Taking only fruit already down is not a claim. Plucking living plants at this fire is a claim. On that claim, do not roll grassland tables now. Both later [[Aruhe-River-Grasslands-Tables]] and [[Aruhe-River-Grasslands-Plant-Hazards]] rolls are 2d8 keep the lower number, then pick one row.
 
@@ -142,7 +142,7 @@ This camp wants to see the woman's garden. The woman is [[The Blight]] / Hinewai
 | Attack this camp | Attack, or drawing a weapon on the people at this fire | No roll to start the violence | The crew loses the prize. The people at this fire scatter or fight as unnamed people. Do not invent a statblock. They still have a night watch. Rebuild from that. This scene ends. Do not run [[Talon Skarn]] here. | Binary — no partial. | Binary — no partial. Attacking this camp is the break. |
 | Leave this camp | Walking back toward the forest-edge trail, the river, the terrace line, the beach, or [[Uncertainty]], or flying up into open valley air, without a deal | No roll to walk off | The crew leaves this fire without the alliance. Rebuild from that. This scene ends. The mark can still sit on the locked quarry. | Binary — no partial. | If a crew member flies open valley air, that is hawk sky. Do not restage beat 1. Do not start beat 9 on this card. |
 
-Unforeseen intents use the same want: this camp wants the garden, and [[The Blight]] wants these people inland. Rule from zones, the clock, and whether the approach stays the night, tries to extract, plays along, attacks, or leaves.
+Unforeseen intents use the same want: this camp wants the garden, and [[Aruhe - Hinewai]] wants these people inland. Rule from zones, the clock, and whether the approach stays the night, tries to extract, plays along, attacks, or leaves.
 
 ## Threat clock
 
@@ -177,7 +177,7 @@ The delay turn happens after everyone has acted, and only if anyone remains on t
 
 **Minions / dials.** Several unnamed people, fewer than the tracks. Do not invent a head count. Do not invent a statblock. [[Talon Skarn]] is not this card. Do not roll [[Aruhe-River-Grasslands-Tables]] on this clock.
 
-Do not spawn the [[Deer-Stalker]], otters, wolfrabbits, or [[Aruhe - Memorial Grove]] on this clock. Freeze at this fire still ticks night coming once.
+Do not spawn the [[Aruhe - Deerstalker]], otters, wolfrabbits, or [[Aruhe - Memorial Grove]] on this clock. Freeze at this fire still ticks night coming once.
 
 ## Secondary objective
 
@@ -223,12 +223,12 @@ If the crew left this camp, they are heading back toward the forest-edge trail, 
 
 **Prone.** Anyone knocked down at this camp is Prone until they stand.
 
-**Grappled.** Anyone still Grappled by the [[Deer-Stalker]] at a break is still Grappled (escape DC 14) until they escape or it drops them.
+**Grappled.** Anyone still Grappled by the [[Aruhe - Deerstalker]] at a break is still Grappled (escape DC 14) until they escape or it drops them.
 
-**[[Razer-Grass]].** Anyone shoved through or Shatter-dumped in the island has that damage already applied.
+**[[Aruhe - Razer-Grass]].** Anyone shoved through or Shatter-dumped in the island has that damage already applied.
 
-Do not run grassland tables, the [[Deer-Stalker]], or [[Talon Skarn]] here. The people at this fire stay unnamed.
+Do not run grassland tables, the [[Aruhe - Deerstalker]], or [[Talon Skarn]] here. The people at this fire stay unnamed.
 
 ## Backup
 
-[[The Blight]] · [[Taking on Aruhe]] · [[Uncertainty]] · [[Aruhe - Memorial Grove]] · [[Aruhe - Hungry Isle]] · [[Session-11-07-False-Help-Run]] · [[Session-11-00-Angry-Birds]]
+[[Aruhe - Hinewai]] · [[Taking on Aruhe]] · [[Uncertainty]] · [[Aruhe - Memorial Grove]] · [[Aruhe - Hungry Isle]] · [[Session-11-07-False-Help-Run]] · [[Session-11-00-Angry-Birds]]

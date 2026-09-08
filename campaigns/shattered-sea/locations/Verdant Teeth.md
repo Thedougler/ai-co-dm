@@ -56,7 +56,7 @@ Quiet → alert → contested → transformed. The fleet's water loss makes ever
 - [[Aruhe - Hungry Isle]] · [[Grung and the Making of Aruhe]] · [[Warren]] · [[Sparhold]]
 
 ## Secrets (DM)
-The Grung clans' historical crime against a far-Midchain druid and her companion is the reason [[Aruhe - Hungry Isle]] exists as it does today. The full origin is in [[Grung and the Making of Aruhe]] and [[The Blight]]. Do not put the confession in the public narration.
+The Grung clans' historical crime against a far-Midchain druid and her companion is the reason [[Aruhe - Hungry Isle]] exists as it does today. The full origin is in [[Grung and the Making of Aruhe]] and [[Aruhe - Hinewai]]. Do not put the confession in the public narration.
 
 ## Provenance
 Primary source: staged Nick dump, `inbox/archive/FILED-2026-09-05-grung-teeth.md`. Legacy geography and closed-interior context: `/Users/nick/shattered-sea/wiki/shattered-sea/the-grung-clans/region-verdant-teeth.md`.

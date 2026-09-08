@@ -16,7 +16,7 @@ cssclasses: [session-surface]
 >
 > *Uncertainty* left La Vasca refit, bound for [[Sparhold]], first stop on the Grung fleet's trail. Nona's spellcaster had already pulled the destination from a captured purple Grung: the captives were bound for [[Karath]], the Grung center of power.
 >
-> For a few breaths you were a purple Grung on [[Aruhe - Hungry Isle|Aruhe]], the Hungry Isle, two other guards from another garrison beside you. [[Wolfrabbit|wolfrabbit]] packs came out of the brush. You ran, you swam, you threw a spear. No rescue came.
+> For a few breaths you were a purple Grung on [[Aruhe - Hungry Isle|Aruhe]], the Hungry Isle, two other guards from another garrison beside you. [[Aruhe - Wolfrabbit|wolfrabbit]] packs came out of the brush. You ran, you swam, you threw a spear. No rescue came.
 >
 > Aboard *Uncertainty* again, [[Crissdalynn Khinriss]] flew ahead over wreckage and found three sun-blasted Calveno captives on a shattered hull. An eastern hurricane had cut the raid fleet in half.
 >

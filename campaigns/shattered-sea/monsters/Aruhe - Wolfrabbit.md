@@ -58,35 +58,8 @@ reactions:
 > [!narration] Narration
 > A dark-striped hunting cat crouches over the boat, its enormous ears pricked above a broad, furred head. Red eyes track you through the terrace brush, a twitching nose wet with saliva and hooked claws gripping the rim. Wolf-sized and built to spring, it can cross the gap before the boat clears the bank.
 
-
-
-## At the table
-**Tactic:** elevation Pouncing Bound → prone → Pack Rend Bites. **Tell:** thirty-foot silent launch from terrace brush.
-
-Pack of 4–6 ≈ CR 5 encounter. They do not chase far.
-
-## Role / dials
-- **Easy:** 3 rabbits, no Devour.
-- **Hard:** 6 + cascade frenzy when one drops.
-- **Bloodied:** irrelevant per individual — when one dies, survivors frenzy.
-
-## Signature moves
-Pouncing Bound · Pack Rend · Devour the Pack (cannibalize fallen ally)
-
-## Terrain / friends
-[[Aruhe - Old Gardens]] terraces into [[Aruhe - Quiet Forest]]. Leap over narrow [[Razer-Grass]]; abort pounce if they smell a mature [[Grubnade]]. Prey for [[Great Crown Squid]].
-
-## Loot / aftermath
-Warren burrows in terrace stone. Nothing of value.
-
-## Running notes
-Opener: Bound from elevation. Focus Prone targets. On a kill in the pack, Devour cascades. Exit: break off pursuit once the party leaves the terrace line.
-
-## Canon ecology - living stock ingest
+## Ecology 
 - Wolf-sized, dark-striped hunters with long ears and a twitching nose on a hunting-cat body. Packs of four to six work the collapsed first terraces at dawn and dusk; a bound from a wall can cover thirty feet.
 - Warrens honeycomb terrace stone. When one falls, the others eat it from hunger, not spite. They will not den past the Old Mouth once daylight dies in the tube; something below outranks them.
-- They jump [[Razer-Grass]] stands rather than land in them, know [[Snakewood]] strike-lanes, and will drive prey under those branches on purpose. They break a pounce for the smell of a mature [[Grubnade]].
+- They jump [[Aruhe - Razer-Grass]] stands rather than land in them, know [[Snakewood]] strike-lanes, and will drive prey under those branches on purpose. They break a pounce for the smell of a mature [[Aruhe - Grubnade]].
 - **Canon frame:** Aruhe removes brakes from a known animal; the Blight pressures the garden and does not ride the pack.
-
-## Provenance
-Wiki provisional. Numbers kept; table notes tightened.

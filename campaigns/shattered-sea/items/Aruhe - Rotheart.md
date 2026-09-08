@@ -14,7 +14,7 @@ tags: [item, aruhe, consumable]
 ![[attachments/shattered-sea/items/aruhe-rotheart.png]]
 
 > [!narration] Narration
-> Rotheart grows in heavy clusters on old vinewood, each fruit almost black and built from tight glossy beads larger than a thumb joint. Serrated green leaves crowd around the stems, and the dark skins catch light like wet stone. In the hand the berry sits warm, with a faint pulse under the skin and pulp the color of old blood when it splits.
+> Rotheart grows in heavy clusters on old vinewood, each fruit almost black and built from tight glossy beads larger than a thumb joint. Serrated green leaves crowd around the stems, and the dark skins catch light like wet stone. 
 
 Consumable, Very Rare
 

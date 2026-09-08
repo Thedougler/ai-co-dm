@@ -45,7 +45,7 @@ Aruhe is a vast untamed island in the eastern [[Midchain]]: about 500 miles end 
 
 Aruhe has no known state, town, road network, or visible settled population. The current people on the island are scattered survivors from the Calveno raid, storm-thrown Grung raiders, and anyone still moving inland after the wrecks. Two raid survivors are aboard [[Uncertainty]], and more remain somewhere in the interior. They report that roughly a hundred to a hundred and fifty people came ashore after the raid ships broke, most are already dead, the landing is failing, fruit and island plants can kill, open-water fishing seemed safer, and Grung are treated as hostile by the island.
 
-[[The Blight|Hinewai]] is joined to Aruhe as pressure, grief, and preservation, not as a ruler or hive mind. Her walking form and memorial are in [[Aruhe - Memorial Grove|Memorial Grove]]. The island's plants and animals still act from their own niches and claims. They may respond to taking, trespass, hunger, fear, or opportunity, but they are not controlled bodies or minions.
+[[Aruhe - Hinewai|Hinewai]] is joined to Aruhe as pressure, grief, and preservation, not as a ruler or hive mind. Her walking form and memorial are in [[Aruhe - Memorial Grove|Memorial Grove]]. The island's plants and animals still act from their own niches and claims. They may respond to taking, trespass, hunger, fear, or opportunity, but they are not controlled bodies or minions.
 
 ---
 ## What
@@ -74,6 +74,6 @@ The inward pull of Aruhe leads toward [[Aruhe - Memorial Grove|Memorial Grove]],
 ---
 ## Why
 
-The island's excess comes from [[The Blight|Hinewai]] preserving a grave at [[Aruhe - Memorial Grove|Memorial Grove]]. The Death Bloom is not a portable object hidden somewhere on the island. It is the tree, both graves, the black-flower ring, the bound soil, and the relationship holding them together. That grief has made Aruhe's life systems overactive: too much growth, too much repair, too much adaptation, and a violent response to taking.
+The island's excess comes from [[Aruhe - Hinewai|Hinewai]] preserving a grave at [[Aruhe - Memorial Grove|Memorial Grove]]. The Death Bloom is not a portable object hidden somewhere on the island. It is the tree, both graves, the black-flower ring, the bound soil, and the relationship holding them together. That grief has made Aruhe's life systems overactive: too much growth, too much repair, too much adaptation, and a violent response to taking.
 
 Right now, Aruhe matters because the Calveno raid broke here. Some survivors are aboard [[Uncertainty]], more remain inland, and the crew can still recover people before the island kills them or absorbs them into its local pressures. The broader campaign handle is to survey a possible [[Tangle]] anchor without treating a living island as property, rescue the living, preserve a route back to the sea, and decide what to do about the grief at the island's heart.

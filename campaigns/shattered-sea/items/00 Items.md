@@ -9,9 +9,9 @@ tags: [index, item]
 - [[Pearl of Souls]] · [[Fate Spinner]] · [[Nightmantle]] · [[Lamarae's Fang]] · [[Truth Stone]]
 - [[Long Reach]] · [[Long Sight]]
 ## Aruhe
-- [[Redheart Berry]] · [[Lion Citrus]] · [[Giant's Guava]] · [[Stonepear]]
-- [[Ghost Plum]] · [[Quickeye Berry]] · [[Breathmelon]] · [[Whisper Fig]]
-- [[Skybladder]] · [[Rotheart]] · [[Terrace Yam]] · [[Terrace Citrus]]
+- [[Aruhe - Redheart Berry]] · [[Aruhe - Lion Citrus]] · [[Aruhe - Giant's Guava]] · [[Aruhe - Stonepear]]
+- [[Aruhe - Ghost Plum]] · [[Quickeye Berry]] · [[Aruhe - Breathmelon]] · [[Aruhe - Whisper Fig]]
+- [[Aruhe - Skybladder]] · [[Aruhe - Rotheart]] · [[Terrace Yam]] · [[Aruhe - Terrace Citrus]]
 
 ## Grung / toxin
 - [[Karath Gold-Seal Toxin]] · [[Crown Substitute Toxin]]

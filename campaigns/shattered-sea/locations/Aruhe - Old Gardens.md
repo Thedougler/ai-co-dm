@@ -34,7 +34,7 @@ Miles of ancient terraces run inland from [[Aruhe - Beach|Western Landing]], hum
 - **Walk a narrow trail under hanging rope-vines:** Some of them are [[Vine Lash|Vine Lashes]] and grab.
 - **Walk a wider low-canopy lane:** [[Young Snakewood]] hunts here. Adult [[Snakewood]] lives farther in.
 - **Leave a ticking bloom:** Predators walk around it.
-- **Disturb a hot bloom:** [[Grubnade]] detonates at the end of the turn.
+- **Disturb a hot bloom:** [[Aruhe - Grubnade]] detonates at the end of the turn.
   - **Wisdom (Perception) — `DC 12`** → Notice them in dense foliage.
   - **Intelligence (Nature) — `DC 13`** → Reservoirs.
   - **Intelligence (Nature) — `DC 15`** → Brood chambers.
@@ -46,8 +46,8 @@ Miles of ancient terraces run inland from [[Aruhe - Beach|Western Landing]], hum
 ---
 ## Who
 
-- [[Grinning Ape|Grinning Apes]] sit in the terrace canopy in groups of three to five. Stones come first, then the group drops as one.
-- [[Wolfrabbit|Wolfrabbits]] work the collapsed first terraces at dawn and dusk. Packs of four to six. Warrens honeycomb the terrace stone. They abort a pounce for the smell of a mature [[Grubnade]].
+- [[Aruhe - Grinning Ape|Grinning Apes]] sit in the terrace canopy in groups of three to five. Stones come first, then the group drops as one.
+- [[Aruhe - Wolfrabbit|Wolfrabbits]] work the collapsed first terraces at dawn and dusk. Packs of four to six. Warrens honeycomb the terrace stone. They abort a pounce for the smell of a mature [[Aruhe - Grubnade]].
 
 ---
 ## What
@@ -55,8 +55,8 @@ Miles of ancient terraces run inland from [[Aruhe - Beach|Western Landing]], hum
 - Broken terrace steps hold wrist-thick yam vines and fist-sized ordinary citrus, with algae-green irrigation ditches between levels.
 - [[Vine Lash|Vine Lashes]] hang among ordinary rope-vines over the trail lanes.
 - [[Young Snakewood]] hunts the first terraces from connected low branches. Adults live farther in.
-- Hot blooms: unnamed flowers holding several mature [[Grubnade|Grubnades]]. Predators walk around any bloom that ticks.
-- [[Unsaid Macaw]]: Orchard edges. **Wisdom save — `DC 12`** → Speak one truthful sentence about the surfaced thought.
+- Hot blooms: unnamed flowers holding several mature [[Aruhe - Grubnade|Grubnades]]. Predators walk around any bloom that ticks.
+- [[Aruhe - Unsaid Macaw]]: Orchard edges. **Wisdom save — `DC 12`** → Speak one truthful sentence about the surfaced thought.
 - [[Aruhe - Redheart Berry]] hangs in dozens on the terraces; fallen berries can be foraged from the wet stone.
 - [[Aruhe - Giant's Guava]] follows the tree line inland, with low branches that can be picked.
 

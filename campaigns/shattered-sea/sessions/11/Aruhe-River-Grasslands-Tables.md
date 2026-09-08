@@ -15,7 +15,7 @@ cssclasses:
 
 # Aruhe River / Grasslands Tables
 
-Paired with [[Aruhe-River-Grasslands-Plant-Hazards]] for [[Session-11-00-Angry-Birds]]. Each Survival check rolls both tables. Run one row. No Grung. Do not restage beat 9 ([[Talon Skarn]]) or pull [[The Blight]].
+Paired with [[Aruhe-River-Grasslands-Plant-Hazards]] for [[Session-11-00-Angry-Birds]]. Each Survival check rolls both tables. Run one row. No Grung. Do not restage beat 9 ([[Talon Skarn]]) or pull [[Aruhe - Hinewai]].
 
 ## L0 · At a glance
 
@@ -26,14 +26,14 @@ Paired with [[Aruhe-River-Grasslands-Plant-Hazards]] for [[Session-11-00-Angry-B
 
 | d8 | Encounter | Band | Forces |
 | ---: | --- | --- | --- |
-| 1 | Terror-Bird on a grass cut | Deadly+ / survive | 1 × [[Terror-Bird]] |
-| 2 | Bloodhawk stoop | Deadly | 1 × [[Bloodhawk]] |
-| 3 | Bear-Elk on the scored-tree beat | Deadly, readable | 1 × [[Bear-Elk]] |
-| 4 | Otter hunt on a claimed hole | Hard | 2 × [[Aruhe River Otter]] (Hunt) |
-| 5 | Thornback at a razer crossing | Hard / medium | 1 × [[Thornback]] plus [[Razer-Grass]] |
-| 6 | Deer-Stalker at a river-edge kill | Medium | 1 × [[Deer-Stalker]] |
-| 7 | Wolfrabbit bank pack | Easy / medium | 3 × [[Wolfrabbit]] (no Devour) |
-| 8 | Unsaid Macaw flock | Easy / social | Flock of [[Unsaid Macaw]] |
+| 1 | Terror-Bird on a grass cut | Deadly+ / survive | 1 × [[Aruhe - Terror-Bird]] |
+| 2 | Bloodhawk stoop | Deadly | 1 × [[Aruhe - Bloodhawk]] |
+| 3 | Bear-Elk on the scored-tree beat | Deadly, readable | 1 × [[Aruhe - Bear-Elk]] |
+| 4 | Otter hunt on a claimed hole | Hard | 2 × [[Aruhe - River Otter]] (Hunt) |
+| 5 | Thornback at a razer crossing | Hard / medium | 1 × [[Aruhe - Thornback]] plus [[Aruhe - Razer-Grass]] |
+| 6 | Deer-Stalker at a river-edge kill | Medium | 1 × [[Aruhe - Deerstalker]] |
+| 7 | Wolfrabbit bank pack | Easy / medium | 3 × [[Aruhe - Wolfrabbit]] (no Devour) |
+| 8 | Unsaid Macaw flock | Easy / social | Flock of [[Aruhe - Unsaid Macaw]] |
 
 > [!mechanic] When to roll
 > When the crew navigates a new stretch of grassland or river, they make a Wisdom (Survival) check against DC 13.
@@ -48,12 +48,12 @@ Paired with [[Aruhe-River-Grasslands-Plant-Hazards]] for [[Session-11-00-Angry-B
 
 ## L1 · At the table
 
-### 1. Terror-Bird on a grass cut — [[Terror-Bird]]
+### 1. Terror-Bird on a grass cut — [[Aruhe - Terror-Bird]]
 
 **When live:** This row is live on a roll of 1, or on a claim that pulls the worst answer in this valley.
 **Now:** A quarter-mile grass cut already belongs to one bird. The ground is shaking.
 **Say/show:** Read the narration. The hunt is the straight charge, not a circling duel.
-**Ask/offer:** Break the line into deep grass, the river, or a white [[Razer-Grass]] stand. Stand the charge. Try to drop it.
+**Ask/offer:** Break the line into deep grass, the river, or a white [[Aruhe - Razer-Grass]] stand. Stand the charge. Try to drop it.
 **Opposition/pressure:** The bird wants one swallow and a full belly. It does not fly. It commits to one straight run.
 **Resolve:** This is a survive-the-hunt scene. Ending the hunt by leaving its cut counts as success. Killing it is possible and costly.
 **On success/partial/failure:** Success means the bird loses the line and becomes moss and a tremor that does not close. Partial means someone is grabbed or downed and the rest reach cover. Failure means a Small body is inside it, or the charge has flattened the cut and the smoke trail is lost for this hour.
@@ -65,7 +65,7 @@ Paired with [[Aruhe-River-Grasslands-Plant-Hazards]] for [[Session-11-00-Angry-B
 
 ### Run now
 
-- **On the table:** One [[Terror-Bird]] stands in its grass cut. Deep eight-foot grass, the river, and a white [[Razer-Grass]] island sit off the charge line. Upriver smoke is still visible if anyone looks that way.
+- **On the table:** One [[Aruhe - Terror-Bird]] stands in its grass cut. Deep eight-foot grass, the river, and a white [[Aruhe - Razer-Grass]] island sit off the charge line. Upriver smoke is still visible if anyone looks that way.
 - **DM truth:**
 > [!secret] Hidden
 > Each bird holds about a quarter-mile. The ground-shake is the fair tell. Prey that reaches deep grass, water, or razer ends the hunt. A fed bird stops closing. Small bodies ([[Perrin Black-Jaw]], [[Jean-Claude Tabarnack]]) are the swallow risk. [[Crissdalynn Khinriss]] taking sky leaves this hunt and enters hawk sky.
@@ -75,7 +75,7 @@ Paired with [[Aruhe-River-Grasslands-Plant-Hazards]] for [[Session-11-00-Angry-B
 
 **Spotlight:** [[Jean-Claude Tabarnack]] can read the cut and the shake. [[Catarina Da'Virelli]] has range in the open. [[Perrin Black-Jaw]] is a swallow target if he stays on the line.
 
-### 2. Bloodhawk stoop — [[Bloodhawk]]
+### 2. Bloodhawk stoop — [[Aruhe - Bloodhawk]]
 
 **When live:** This row is live on a roll of 2, or if anyone hangs in open valley air after beat 1 is over.
 **Now:** Open sky over the grass. A four-winged hunter is folding for a stoop.
@@ -92,7 +92,7 @@ Paired with [[Aruhe-River-Grasslands-Plant-Hazards]] for [[Session-11-00-Angry-B
 
 ### Run now
 
-- **On the table:** One [[Bloodhawk]] works the open sky. Tall grass and the river are cover. Do not add young unless beat 1 already established them and this is the same bird.
+- **On the table:** One [[Aruhe - Bloodhawk]] works the open sky. Tall grass and the river are cover. Do not add young unless beat 1 already established them and this is the same bird.
 - **DM truth:**
 > [!secret] Hidden
 > Skip this row if beat 1’s adult is still on them. A later stoop is only for someone still high or noisy. On the easy dial, use Multiattack only and leave Dive uncharged. On the hard dial, start with Dive charged. When bloodied, the hawk stops grabbing and climbs for the cloud line. [[Crissdalynn Khinriss]] and [[Delmar Fisk]] in the [[Flying Boots]] are the magnets.
@@ -102,7 +102,7 @@ Paired with [[Aruhe-River-Grasslands-Plant-Hazards]] for [[Session-11-00-Angry-B
 
 **Spotlight:** [[Crissdalynn Khinriss]] and [[Delmar Fisk]] own the sky choice. [[Catarina Da'Virelli]] can shoot from cover if they get under the bird.
 
-### 3. Bear-Elk on the scored-tree beat — [[Bear-Elk]]
+### 3. Bear-Elk on the scored-tree beat — [[Aruhe - Bear-Elk]]
 
 **When live:** This row is live on a roll of 3 along a tree-scored grass edge.
 **Now:** A daily patrol is coming down a marked line of clawed trunks.
@@ -119,7 +119,7 @@ Paired with [[Aruhe-River-Grasslands-Plant-Hazards]] for [[Session-11-00-Angry-B
 
 ### Run now
 
-- **On the table:** One [[Bear-Elk]] follows the scored trees on packed patrol dirt. Grass off the lane and the nearby river are ways off the beat.
+- **On the table:** One [[Aruhe - Bear-Elk]] follows the scored trees on packed patrol dirt. Grass off the lane and the nearby river are ways off the beat.
 - **DM truth:**
 > [!secret] Hidden
 > The readable patrol is the counterplay. [[Jean-Claude Tabarnack]] is the likely reader. Terror-birds yield to this animal, and it does not yield to the party. It does not chase far off its beat. Siege Monster wrecks a barricade or cannon cart if they plant one in the lane.
@@ -129,7 +129,7 @@ Paired with [[Aruhe-River-Grasslands-Plant-Hazards]] for [[Session-11-00-Angry-B
 
 **Spotlight:** [[Jean-Claude Tabarnack]] on the scored trees. [[Catarina Da'Virelli]] if they try to block the lane with gear.
 
-### 4. Otter hunt on a claimed hole — [[Aruhe River Otter]]
+### 4. Otter hunt on a claimed hole — [[Aruhe - River Otter]]
 
 **When live:** This row is live on a roll of 4 at a slack hole that is not beat 5’s otter stretch.
 **Now:** Two adults are already hunting this water. Gear and cloth turn in the hole.
@@ -146,24 +146,24 @@ Paired with [[Aruhe-River-Grasslands-Plant-Hazards]] for [[Session-11-00-Angry-B
 
 ### Run now
 
-- **On the table:** Two [[Aruhe River Otter]] adults hunt a slack hole of clear water. A pack and clothing turn in the current. The bank and deep water behind the hole are the exits.
+- **On the table:** Two [[Aruhe - River Otter]] adults hunt a slack hole of clear water. A pack and clothing turn in the current. The bank and deep water behind the hole are the exits.
 - **DM truth:**
 > [!secret] Hidden
 > Use a different family than beat 5 if that hole already played. These two are in Hunt, not play. Watery Ambush applies if both otters are on a swimmer. Dunk (Recharge 5–6) is the payoff. Small bodies dunk first. [[Catarina Da'Virelli]] is safer on the bank with [[Ragnetto]]. The family remembers fire and ropes if those are used.
 - **Procedure:** Show the hole and the turning cloth first. Hunt starts when someone enters, fishes, or pulls a body. Escape DC 14 is on the owner Bite.
-- **If violence starts:** The otters coordinate Bite and Tail, then Dunk a grappled target. They can wait under a dragged body. They do not haul out onto [[Razer-Grass]]. They hold the hole and do not chase far overland.
+- **If violence starts:** The otters coordinate Bite and Tail, then Dunk a grappled target. They can wait under a dragged body. They do not haul out onto [[Aruhe - Razer-Grass]]. They hold the hole and do not chase far overland.
 - **If ignored:** They keep the hole and the next river stretch is claimed.
 
 **Spotlight:** [[Perrin Black-Jaw]] and [[Jean-Claude Tabarnack]] as dunk risk. [[Delmar Fisk]] if he goes in. [[Catarina Da'Virelli]] from the bank.
 
-### 5. Thornback at a razer crossing — [[Thornback]]
+### 5. Thornback at a razer crossing — [[Aruhe - Thornback]]
 
 **When live:** This row is live on a roll of 5 at a torn crossing, wallow, or flood-scoured bend.
 **Now:** One boar-bulk is rooting the crossing. White razer islands close the easy way around it.
 **Say/show:** Read the narration. The quills and the glittering grass are both the problem.
 **Ask/offer:** Go around the islands and the animal. Drive it. Cross the torn ground.
 **Opposition/pressure:** The thornback shoves a trail and will gore whatever is in it. It will not walk into intact razer. It will shove someone else in.
-**Resolve:** Going around costs time on the smoke. Crossing puts them in Gore range with [[Razer-Grass]] at their heels. Two thornbacks are not this row; a second one would fight the first.
+**Resolve:** Going around costs time on the smoke. Crossing puts them in Gore range with [[Aruhe - Razer-Grass]] at their heels. Two thornbacks are not this row; a second one would fight the first.
 **On success/partial/failure:** Success means they are past on the long way. Partial means quills and a nick of razer, animal still in the crossing. Failure means someone is prone in the razer or taking a Spine Volley into the stand.
 **If ignored:** The thornback finishes the crossing, leaves spent spines, and the white islands grow thicker where the ground was torn.
 **Move on to:** The long way around, then the spine.
@@ -173,17 +173,17 @@ Paired with [[Aruhe-River-Grasslands-Plant-Hazards]] for [[Session-11-00-Angry-B
 
 ### Run now
 
-- **On the table:** One [[Thornback]] roots a torn crossing at the river bend. Discrete [[Razer-Grass]] islands and spent spines close the easy way around it.
+- **On the table:** One [[Aruhe - Thornback]] roots a torn crossing at the river bend. Discrete [[Aruhe - Razer-Grass]] islands and spent spines close the easy way around it.
 - **DM truth:**
 > [!secret] Hidden
-> This animal is solitary. Quill Defense hurts melee attackers. Spine Volley (Recharge 5–6) into a razer stand is the nasty combination. Razer rules stay on [[Razer-Grass]]: 1d4 slashing per 5 feet through intact stands, and Shatter if someone falls prone or is forced through a stand. [[Delmar Fisk]] in rapier range takes the quills. [[Catarina Da'Virelli]] can work from outside the islands.
+> This animal is solitary. Quill Defense hurts melee attackers. Spine Volley (Recharge 5–6) into a razer stand is the nasty combination. Razer rules stay on [[Aruhe - Razer-Grass]]: 1d4 slashing per 5 feet through intact stands, and Shatter if someone falls prone or is forced through a stand. [[Delmar Fisk]] in rapier range takes the quills. [[Catarina Da'Virelli]] can work from outside the islands.
 - **Procedure:** Show the fixed glitter and the spines before contact. Charge if they take the ford. Do not place a second thornback.
 - **If violence starts:** The thornback charges into Gore, then uses Quill Lash. It uses Spine Volley if they cluster. It will not enter intact razer. It holds the crossing and does not chase into deep grass.
 - **If ignored:** It roots through, spines regenerate in hours, razer thickens.
 
 **Spotlight:** [[Delmar Fisk]] if he closes. [[Catarina Da'Virelli]] at range. [[Jean-Claude Tabarnack]] if he scouts the long way.
 
-### 6. Deer-Stalker at a river-edge kill — [[Deer-Stalker]]
+### 6. Deer-Stalker at a river-edge kill — [[Aruhe - Deerstalker]]
 
 **When live:** This row is live on a roll of 6 on a forest-edge bank, or on a wander off the survivor prints.
 **Now:** A kill is in progress. The body over it is wrong for a deer.
@@ -200,7 +200,7 @@ Paired with [[Aruhe-River-Grasslands-Plant-Hazards]] for [[Session-11-00-Angry-B
 
 ### Run now
 
-- **On the table:** One [[Deer-Stalker]] stands over a kill in tree-line dim and river-edge grass. Real survivor prints still head toward smoke, off this carcass.
+- **On the table:** One [[Aruhe - Deerstalker]] stands over a kill in tree-line dim and river-edge grass. Real survivor prints still head toward smoke, off this carcass.
 - **DM truth:**
 > [!secret] Hidden
 > If beats 6–7 already marked someone, this is that animal, not a second stalker. Quarry prefers the isolated watcher or whoever touched the meal. Borrowed Voice does not reveal the stalker while it is hidden. When it finally faces one person, it says “You’re not welcome here,” then attacks. That line is island law, not a conversation. On the easy dial it is not Famished. On the hard dial it is Famished and Snatch is charged.
@@ -210,7 +210,7 @@ Paired with [[Aruhe-River-Grasslands-Plant-Hazards]] for [[Session-11-00-Angry-B
 
 **Spotlight:** The isolated watcher. [[Perrin Black-Jaw]] if the borrowed voice copies someone he reads. [[Crissdalynn Khinriss]] if she is already the night-watch prize later.
 
-### 7. Wolfrabbit bank pack — [[Wolfrabbit]]
+### 7. Wolfrabbit bank pack — [[Aruhe - Wolfrabbit]]
 
 **When live:** This row is live on a roll of 7 on a grass bank that is not beat 3’s first stretch.
 **Now:** Three pack hunters are already in the jump at mid-height.
@@ -227,7 +227,7 @@ Paired with [[Aruhe-River-Grasslands-Plant-Hazards]] for [[Session-11-00-Angry-B
 
 ### Run now
 
-- **On the table:** Three [[Wolfrabbit]] come through tall grass with the river at the bank. [[Razer-Grass]] stands in the scour, and upriver prints lie beyond the pack.
+- **On the table:** Three [[Aruhe - Wolfrabbit]] come through tall grass with the river at the bank. [[Aruhe - Razer-Grass]] stands in the scour, and upriver prints lie beyond the pack.
 - **DM truth:**
 > [!secret] Hidden
 > Skip or move to a new bank if beat 3 already used this pack size on the first stretch. On the easy dial, do not use Devour. Pouncing Bound can dump someone into razer or current; the Strength save is DC 13 on the owner page. They frenzy toward a fallen rabbit only if you add that later. Blood-Scented hunts the wounded.
@@ -237,7 +237,7 @@ Paired with [[Aruhe-River-Grasslands-Plant-Hazards]] for [[Session-11-00-Angry-B
 
 **Spotlight:** [[Jean-Claude Tabarnack]] on the ambush. [[Delmar Fisk]] in the jump lane. [[Perrin Black-Jaw]] if he is the isolated small target.
 
-### 8. Unsaid Macaw flock — [[Unsaid Macaw]]
+### 8. Unsaid Macaw flock — [[Aruhe - Unsaid Macaw]]
 
 **When live:** This row is live on a roll of 8 on a grass edge, orchard margin, or fruiting bushes.
 **Now:** A healthy flock is feeding and talking in stolen voices.
@@ -254,7 +254,7 @@ Paired with [[Aruhe-River-Grasslands-Plant-Hazards]] for [[Session-11-00-Angry-B
 
 ### Run now
 
-- **On the table:** A flock of [[Unsaid Macaw]] works fruiting bushes at the grass edge. Open sky above them is hawk country if the table makes a racket.
+- **On the table:** A flock of [[Aruhe - Unsaid Macaw]] works fruiting bushes at the grass edge. Open sky above them is hawk country if the table makes a racket.
 - **DM truth:**
 > [!secret] Hidden
 > Do not put the actual private thought in the narration. Pick one PC’s foremost surface thought from what they just said or clearly hesitated on, echo it in their voice, then stop. Confess elaborates one truthful sentence, not a dump. [[Perrin Black-Jaw]] and anyone sitting on a secret are the best echoes. These birds do not belong in [[Aruhe - Quiet Forest]]. A beak deals 1 piercing damage, and scattering them is easy and loud.
@@ -268,9 +268,9 @@ Paired with [[Aruhe-River-Grasslands-Plant-Hazards]] for [[Session-11-00-Angry-B
 
 ### DM reference
 
-- Place: [[Aruhe - Grasslands]] · [[Taking on Aruhe]] · [[Razer-Grass]]
-- Grass / river / lake roster: [[Terror-Bird]] · [[Bloodhawk]] · [[Aruhe River Otter]]
-- Also here: [[Bear-Elk]] · [[Deer-Stalker]] · [[Thornback]] · [[Wolfrabbit]] · [[Unsaid Macaw]]
+- Place: [[Aruhe - Grasslands]] · [[Taking on Aruhe]] · [[Aruhe - Razer-Grass]]
+- Grass / river / lake roster: [[Aruhe - Terror-Bird]] · [[Aruhe - Bloodhawk]] · [[Aruhe - River Otter]]
+- Also here: [[Aruhe - Bear-Elk]] · [[Aruhe - Deerstalker]] · [[Aruhe - Thornback]] · [[Aruhe - Wolfrabbit]] · [[Aruhe - Unsaid Macaw]]
 - Plant pair: [[Aruhe-River-Grasslands-Plant-Hazards]]
 - Session spine: [[Session-11-00-Angry-Birds]]
 - Do not copy owner essays or statblocks onto this page.
@@ -296,6 +296,6 @@ Paired with [[Aruhe-River-Grasslands-Plant-Hazards]] for [[Session-11-00-Angry-B
 
 - Complete grammatical sentences on every live card.
 - No collapsed callouts on this session surface.
-- No Grung, no [[Talon Skarn]], no [[The Blight]], no Grove tonight.
+- No Grung, no [[Talon Skarn]], no [[Aruhe - Hinewai]], no Grove tonight.
 - No secrets, DCs, or unearned names inside `[!narration]`.
 - Narration stops at the reaction point. Resolve contact after the table acts.
