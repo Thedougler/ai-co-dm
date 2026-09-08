@@ -65,7 +65,8 @@ The Grasslands are river-cut valleys inside Aruhe's jungle, not a sixth concentr
 
 - Terrace descent from [[Aruhe - Old Gardens]] onto [[Aruhe - River Landing Bank|Landing Bank]]
 - First flood-scoured hunting lane upvalley of Landing Bank: [[Aruhe - Torn Crossing|Torn Crossing]]
-- Used fruiting margin upvalley of Torn Crossing: [[Aruhe - Line Bank|Line Bank]]
+- Used fruiting margin upvalley of Torn Crossing: [[Aruhe - Grasslands Line Bank|Line Bank]]
+- Claimed otter basin upvalley of Line Bank: [[Aruhe - Slack Basin|Slack Basin]]
 - Follow water uphill into [[Aruhe - River|the River]] and [[Aruhe - Clear Lake|Clear Lake]]
 - Open route to [[Aruhe - Memorial Grove|the Grove]]
 - Lateral channels with [[Aruhe - River|the River]]
