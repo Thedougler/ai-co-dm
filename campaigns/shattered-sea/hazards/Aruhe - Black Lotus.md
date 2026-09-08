@@ -10,7 +10,7 @@ tags: [hazard, aruhe, flora]
 ![[attachments/shattered-sea/hazards/aruhe-black-lotus.png]]
 
 > [!narration] Narration
-> A velvet-black flower spreads wider than a crouched person, its petals heavy enough to hide the ground beneath them. Faint violet veins pulse through the dark bloom when magic moves nearby. Old bones lie under the petal edge.
+> A flower the size of a low table spreads out of the wet Aruhe growth, its black petals broad enough to cover the ground and curl over the moss at their edges. Rain beads on the slick surfaces, and thin violet veins glow up through them toward a tight crown of dark filaments in the center. Under the lowest petals, old ribs and finger bones show through the greenery beside patches of scorched plants; when nearby magic stirs, the bloom slowly leans toward it.
 
 ### Hazard — Black Lotus
 
