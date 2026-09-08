@@ -11,7 +11,7 @@ tags: [hazard, aruhe, flora]
 ![[attachments/shattered-sea/hazards/aruhe-grubnade.png]]
 
 > [!narration] Narration
-> A fat cream-green caterpillar longer than a thumb rests on a flower. It chews steadily. Soft segments bunch and ease as it feeds.
+> A fat cream-green caterpillar longer than a thumb lies heavy across the leaves of a yellow flower. Its glossy body is almost the color of new plant flesh, with soft rings bunched along its back and dark oval marks set into its sides. The black head stays buried among the flower's thick stamens while it chews, slow and steady. Each bite makes the whole body gather and ease, wet-looking skin sliding over the leaf beneath it.
 
 ### Hazard — Grubnade
 
