@@ -10,6 +10,9 @@ source: house (user-supplied hazard capture; 2026-09-08)
 
 ![[attachments/shattered-sea/hazards/aruhe-snakewood.png]]
 
+> [!narration] Narration
+> Thick, bark-dark vines coil through the canopy above like heavy branches that have learned to hang in loops. Wet leaves and dangling roots hide much of the tangle, but stripped bones hang caught among the higher coils where the green opens. Some vines sit unnaturally smooth against the tree limbs, thicker than the hanging roots around them. Over a trail or waterway, the coils slowly change their set overhead, wood sliding over wood with a low creak.
+
 ### Hazard — Snakewood
 
 - **Trigger:** A Small or larger creature moves beneath an active [[Snakewood]] colony section. Snakewood reacts instinctively to movement and attacks from above.
