@@ -4,88 +4,78 @@ campaign: shattered-sea
 region: aruhe
 role: controller
 cr: 4
-source: house (wiki creature.aruhe-river-otter; individual chassis filled provisional)
+source: house (wiki creature.aruhe-river-otter; living-stock 2026-09-05; individual chassis provisional)
 visibility: dm
 tags: [monster, aruhe]
 ---
+# Aruhe River Otter
+
+> [!narration] Narration
+> Twelve-foot chocolate-black river otters work the Long Reach and clear lake in blood-kin families, their pale throat marks as distinct as fingerprints. They roll through the shallows with rope, oars, ankles, or a dead deerstalker's head as if every loose thing in the water has joined their game. The water stays glass-clear around them, and the whole family goes still when play becomes a hunt.
 
 ## Statblock
 
 ```statblock
 layout: Basic 5e Layout
-name: Aruhe River Otter
+name: "Aruhe River Otter"
 size: Large
 type: monstrosity
 alignment: unaligned
 ac: 15
 hp: 76
-hit_dice: 9d10 + 27
-speed: 20 ft., swim 40 ft.
+hit_dice: "9d10 + 27"
+speed: "20 ft., swim 40 ft."
 stats: [18, 16, 16, 6, 14, 8]
 skillsaves:
   - Athletics: 6
   - Perception: 4
   - Stealth: 5
-senses: darkvision 60 ft., passive Perception 14
+senses: "darkvision 60 ft., passive Perception 14"
 languages: "—"
 cr: 4
 traits:
-  - name: Hold Breath
+  - name: "Hold Breath"
     desc: "The otter can hold its breath for 30 minutes."
-  - name: Family Memory
+  - name: "Family Memory"
     desc: "The family remembers fire, ropes, and who enters the water (DM tags)."
-  - name: Watery Ambush
+  - name: "Watery Ambush"
     desc: "Hunt mode only. The otter has advantage on attack rolls against creatures in the water if at least one other otter is within 10 feet of the target."
 actions:
-  - name: Multiattack (Hunt)
+  - name: "Multiattack (Hunt)"
     desc: "The otter makes one Bite attack and one Tail attack."
-  - name: Bite
+  - name: "Bite"
     desc: "Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 14 (2d8 + 4) piercing damage, and if the target is Medium or smaller it has the Grappled condition (escape DC 14)."
-  - name: Tail
+  - name: "Tail"
     desc: "Melee Weapon Attack: +6 to hit, reach 10 ft., one target. Hit: 11 (2d6 + 4) bludgeoning damage."
-  - name: Dunk (Recharge 5–6)
+  - name: "Dunk (Recharge 5–6)"
     desc: "One creature Grappled by the otter is pulled up to 20 feet and shoved underwater (or held under if already in water). The target has the Restrained condition until the grapple ends."
 bonus_actions:
-  - name: Tug Toy (Play mode only)
+  - name: "Tug Toy (Play mode only)"
     desc: "Contested Athletics or Sleight of Hand against a held or worn object within 5 feet (or a trailing rope). On a success, the otter takes the object and swims 10 feet; no damage."
 ```
 
-# Aruhe River Otter
+## Behavior
 
-> [!narration] Narration
-> Twelve-foot chocolate-black river otters work the Long Reach and lake, each with a pale throat mark unique as a fingerprint. Families of four to six adults keep the water gin-clear and patrol the banks. They play with rope, oars, and ankles in the shallows until the game turns serious.
+**Habitat.** Aruhe River Otters hold [[Aruhe - River|the Long Reach]] and [[Aruhe - Clear Lake|the clear lake]], especially the open cuts where bank, shallows, and deep water let the family watch both land and current. They keep the water gin-clear on purpose by culling grazers, dropping shade-trees, and patrolling the banks.
 
+**Behavior.** They play first: rope, oars, ankles, trailing packs, and a [[Aruhe - Deerstalker|deerstalker's]] antlered head can all become tug toys in the shallows. Entering the water is treated as joining the game, and responding to play teaches the family a new game.
 
+**Diet.** The otters eat river animals, bank grazers, careless predators, and Deerstalkers they kill for sport as much as food. They will not haul a kill onto [[Aruhe - Razer-Grass|razer-grass]], and they sniff a [[Aruhe - Grubnade|grubnade]] once before leaving it alone.
 
-## At the table
-**Not a fair fight first.** Escalation ladder: Watch → steal gear → test reactions → dunk-and-release → **Hunt Switch** if harmed / pup touched / overstayed.
+**Social Structure.** Families hold four to six adults plus pups. The lake family is larger, and its matriarch is older than the wreck on the beach. Play is blood kin only; harm an adult, touch a pup, or overstay in claimed water, and the whole family shifts from game to military silence.
 
-Family of 4–6 adults + pups. Magnificent, not diseased — perfected otter xenophobia.
+## Tactics
 
-## Role / dials
-- **Play session:** no damage; contested Athletics/Sleight to tug gear.
-- **Hunt:** use individual block × adults as one coordinated fight.
-- **Lake matriarch (provisional):** Huge, CR bump — not statted here.
+**Signs.** Glass-clear water, polished slides in the mud, pale throat flashes below the surface, ropes drawn tight from under a boat, oars tugged from hands, and a recently killed Deerstalker head bobbing where no current should hold it.
 
-## Signature moves
-Play ladder · Coordinated dunk · Hunt Switch (silent military coordination)
+**Instincts.** The family watches first, steals gear second, tests reactions third, dunks and releases fourth, and only fully hunts once the line is crossed. What comes from the river belongs to the family.
 
-## Terrain / friends
-[[The River]] / Long Reach / Clear Lake approaches. Ecological boundary vs [[Aruhe - Crown Squid]]. Kill Deer-Stalkers for play. Avoid Razer-Grass haul-outs and Grubnades.
+**Tactics.** In play mode, use one family initiative and avoid damage: Tug Toy moves gear, exposes footing, and teaches the table the boundary. In hunt mode, adults strike as a coordinated controller pack, using Watery Ambush, grapples, and Dunk to split one target from the group while the others see only wakes.
 
-## Three rules (learnable)
-1. Entering the water is participating.  
-2. What comes from the river belongs to the family.  
-3. Responding to play teaches a new game.
+**Weaknesses.** They dominate occupied water but are less willing to fight on dry land, razer-grass, or any haul-out that traps their bodies away from the current. Fire, ropes, and repeated tricks are remembered by the family, which means a clever party can bait, redirect, or avoid them once the pattern is learned.
 
-## Running notes
-Stage 1–3: one family initiative, no damage. Stage 4: dunk theater. Stage 5: full Hunt Multiattack. Show a Deer-Stalker head as tug-of-war before the party ever fights them.
-
-## Canon ecology - living stock ingest
-- Twelve-foot, chocolate-black river otters with pale throat marks unique as fingerprints. Families hold four to six adults and a few pups; the lake family is larger, and its matriarch is older than the wreck on the beach.
-- They keep the Long Reach and lake gin-clear on purpose: cull grazers, drop shade-trees, patrol banks. They play with rope, oars, ankles, or a [[Aruhe - Deerstalker|deer-stalker's]] antlered head tossed in the shallows after the meal.
-- Play is blood kin only. Anything entering the water is in the game. Harm one or touch a pup and the family vanishes; one person is hit from below while the others see only wakes, then the pups resume wrestling minutes later.
-- They will not haul a kill onto [[Aruhe - Razer-Grass]], sniff a [[Aruhe - Grubnade]] and leave it, and pull against a [[Aruhe - Crown Squid]] line that trails into occupied water.
+**Aftermath.** A river-otter encounter leaves scrubbed banks, disturbed mud slides, missing gear, chewed rope, drowned carcass scraps, and clear water gone briefly cloudy where the family struck. Against [[Aruhe - Crown Squid|crown squid]], the river otters form an ecological boundary: a grabber trailing into occupied water can meet six enormous bodies pulling the other direction.
 
 ## Provenance
-Wiki provisional. Individual numbers filled to make the family runnable; mark provisional until playtest.
+
+Wiki provisional. Individual numbers are filled to make the family runnable; keep the chassis marked provisional until playtest.
