@@ -63,7 +63,7 @@ The Grasslands are river-cut valleys inside Aruhe's jungle, not a sixth concentr
 ---
 ## Where
 
-- Terrace descent from [[Aruhe - Old Gardens]]
+- Terrace descent from [[Aruhe - Old Gardens]] onto [[Aruhe - River Landing Bank|Landing Bank]]
 - Follow water uphill into [[Aruhe - River|the River]] and [[Aruhe - Clear Lake|Clear Lake]]
 - Open route to [[Aruhe - Memorial Grove|the Grove]]
 - Lateral channels with [[Aruhe - River|the River]]

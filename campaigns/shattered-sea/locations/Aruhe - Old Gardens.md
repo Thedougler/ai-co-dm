@@ -27,7 +27,7 @@ Miles of ancient terraces run inland from [[Aruhe - Beach|Western Landing]], hum
 ---
 ## If the party
 
-- **Follow the terrace route inland:** [[Aruhe - Grasslands]].
+- **Follow the terrace route inland:** [[Aruhe - River Landing Bank|Landing Bank]] into [[Aruhe - Grasslands]].
 - **Take the green route:** [[Aruhe - Quiet Forest]].
 - **Descend to the beach:** [[Aruhe - Beach|Western Landing]].
 - **Follow a terrace edge:** The planted abundance can be skipped.
@@ -60,7 +60,7 @@ Miles of ancient terraces run inland from [[Aruhe - Beach|Western Landing]], hum
 ## Where
 
 - Inland ascent from [[Aruhe - Beach|Western Landing]]
-- Terrace route to [[Aruhe - Grasslands|the Grasslands]]
+- Terrace route to [[Aruhe - River Landing Bank|Landing Bank]] and [[Aruhe - Grasslands|the Grasslands]]
 - Green route to [[Aruhe - Quiet Forest|the Quiet]]
 
 ---

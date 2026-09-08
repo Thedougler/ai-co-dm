@@ -23,7 +23,7 @@ The crew commits to following the upriver prints and smoke off this bank (hand t
 - **Claim:** Fallen fruit is already down. Plucking a living plant is a [[Taking on Aruhe]] claim.
 - **Silence:** Present this bank, then wait.
 
-The crew is on this river-valley bank, in eight-foot gold-green grass and moving water. The prints are underfoot and run 60 feet up this bank toward the smoke. The fire scrape, closed crate, and fallen fruit sit 15 feet from the water on the river side of those prints. Mossy terrace stone stands 20 feet the other way. Crash-landed crew starts **Prone** in those terrace woods. A 30-foot move stays on this bank. A Dash of 60 feet follows the prints off this bank, or goes downstream toward the terrace return. The smoke is a thin column on the horizon upstream. It is not reachable this slice. Downstream, the old terraces still run back toward the beach and [[Uncertainty]].
+The crew is on [[Aruhe - River Landing Bank]], in eight-foot gold-green grass and moving water. The prints are underfoot and run 60 feet up this bank toward the smoke. The fire scrape, closed crate, and fallen fruit sit 15 feet from the water on the river side of those prints. Mossy terrace stone stands 20 feet the other way. Crash-landed crew starts **Prone** in those terrace woods. A 30-foot move stays on this bank. A Dash of 60 feet follows the prints off this bank, or goes downstream toward the terrace return. The smoke is a thin column on the horizon upstream. It is not reachable this slice. Downstream, the old terraces still run back toward the beach and [[Uncertainty]].
 
 ## DM truth
 
@@ -62,7 +62,7 @@ Raid survivors already used this bank and walked upriver toward the smoke. There
 
 | Place | Distance from the crew | Cover | Narration |
 | --- | --- | --- | --- |
-| This bank / grass and river | Here. Eight-foot grass and moving water. | This grass hides a standing body, is Difficult Terrain, and heavily obscures beyond 10 feet. | _You stand in gold-green grass higher than your head, with clear turquoise water pulling at the bank and pale stone showing under the current. Submerged blades bend around your legs, and the stems rasp together at the waterline._ |
+| [[Aruhe - River Landing Bank|This bank]] / grass and river | Here. Eight-foot grass and moving water. | This grass hides a standing body, is Difficult Terrain, and heavily obscures beyond 10 feet. | _You stand in gold-green grass higher than your head, with clear turquoise water pulling at the bank and pale stone showing under the current. Submerged blades bend around your legs, and the stems rasp together at the waterline._ |
 | The used stop | 15 feet from the water, on the river side of the prints. | Open grass around ash, crate, and fallen fruit. | _A ring of stones holds grey ash in cleared dirt. A closed wooden crate sits in the grass beside orange whole fruit, split skins, and a couple of bowls. The skins smell sharp and sweet where they have already burst._ |
 | Terrace woods | 20 feet inland of the prints. Crash-landed crew starts here, **Prone**. | Thin cover among mossy garden stone, mangrove roots, and fruiting steps. | _Mossy terrace walls stack above the grass, wet steps crowded with split orange fruit and pink-gold globes. Sugar-sour air sits close to the stone. Through the trees, the old terraces run back toward the beach and [[Uncertainty]]._ |
 | Upriver prints | The prints run 60 feet up this bank, then off toward the smoke. | Following that trail is beat 3. Do not start that fight here. | _The footprints leave the muddy lip and follow the river inland, a crushed corridor through gold-green stems. The river keeps talking beside that path. Farther up the same valley, the thin smoke still marks the direction._ |
@@ -97,4 +97,4 @@ If the crew broke, they are returning through the terrace line toward the beach 
 
 ## Backup
 
-[[Aruhe-River-Grasslands-Tables]] · [[Taking on Aruhe]] · [[Aruhe - Grasslands]] · [[Aruhe - River]] · [[Aruhe - Old Gardens]] · [[Aruhe - Redheart Berry]] · [[Uncertainty]] · [[Session-11-00-Angry-Birds]] · [[Session-11-01-Angry-Birds-Start]]
+[[Aruhe - River Landing Bank]] · [[Aruhe-River-Grasslands-Tables]] · [[Taking on Aruhe]] · [[Aruhe - Grasslands]] · [[Aruhe - River]] · [[Aruhe - Old Gardens]] · [[Aruhe - Redheart Berry]] · [[Uncertainty]] · [[Session-11-00-Angry-Birds]] · [[Session-11-01-Angry-Birds-Start]]
