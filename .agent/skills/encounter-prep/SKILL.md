@@ -84,8 +84,9 @@ complex encounters live under the campaign's established encounters bucket; sess
 stay inline. Use `sandbox-narrative` for an anti-railroading pass and `obsidian-markdown` for
 structure. Finish writes with `./scripts/after-write "add encounter procedure"`.
 
-`npc-design`, `place-design`, `dungeon-design`, `dnd-5e-magic-item-design`, `run-guide`, and
-`homebrew-monsters-5e` own their respective handoffs.
+Ability check, save, and DC choice → `dnd5e-mechanics`. `npc-design`, `place-design`,
+`dungeon-design`, `dnd-5e-magic-item-design`, `run-guide`, and `homebrew-monsters-5e`
+own their respective handoffs.
 
 ## Table-prep gate
 

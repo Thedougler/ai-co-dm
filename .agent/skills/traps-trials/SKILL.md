@@ -190,8 +190,7 @@ Consider: party level, expected resources, frequency, number affected,
 compounding failure, whether optional, telegraph strength, recovery
 availability, reward value.
 
-Consult trap DC tables and SRD examples in `rules/` when those pages
-exist. Otherwise use the campaign's existing 5e math.
+Check type and DC → `dnd5e-mechanics`. Escalate the situation, not the number.
 
 **Complete when:** mechanical threat is proportional to telegraphing,
 frequency, recoverability, and narrative stakes.

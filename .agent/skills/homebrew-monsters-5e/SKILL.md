@@ -70,6 +70,7 @@ Use `DC 15`; `+7 to hit`; `Hit: 11 (2d8 + 2) damage`; `Recharge 5–6`; `1/Day`;
 8. Running notes, counterplay, and revision knobs.
 
 ## Handoffs
+- **dnd5e-mechanics**: which save or check a feature uses; chassis still owns the DC number.
 - **theatre-of-the-mind**: spatial prose, tells, and runnable descriptions without a map.
 - **dungeon-design**: sites, rooms, hazards, terrain, and encounter architecture.
 - **session-beats**: reveal, escalation, pacing, and scene timing.

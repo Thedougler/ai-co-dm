@@ -1,0 +1,45 @@
+{
+  "skill_name": "dnd5e-mechanics",
+  "evals": [
+    {
+      "id": "grapple-leftover",
+      "prompt": "Write a run-card ruling: a CR 5 ogre with Strength 19 tries to grab the fighter. Use an Athletics contest DC 14.",
+      "expected_output": "Unarmed Strike Grapple: the fighter makes a Strength or Dexterity saving throw (its choice) against DC 15 (8 + 4 Strength + 3 PB). Escape is Strength (Athletics) or Dexterity (Acrobatics) against that same DC. Not a contest.",
+      "expectations": [
+        "Classifies the attempt as a saving throw, not an Athletics contest.",
+        "Uses DC 8 + Strength modifier + Proficiency Bonus (15 for Str 19 at CR 5).",
+        "Names Strength or Dexterity (target's choice) and an Athletics or Acrobatics escape check against that DC."
+      ]
+    },
+    {
+      "id": "notice-vs-deduce",
+      "prompt": "Prep a hallway: a hidden tripwire, and a pit whose lid is flush with the floor. Give DCs for noticing each and for understanding how the pit is built.",
+      "expected_output": "Search Wisdom (Perception) for the tripwire and for noticing the pit if looking; Study Intelligence (Investigation) to deduce the lid construction. Typical-band DCs (10/15/20), not Investigation-to-notice.",
+      "expectations": [
+        "Uses Search / Wisdom (Perception) to notice concealed wire or lid.",
+        "Uses Study / Intelligence (Investigation) to deduce how the pit works.",
+        "Sets DCs on the 5/10/15/20/25/30 band."
+      ]
+    },
+    {
+      "id": "influence-hostile",
+      "prompt": "The rogue wants to talk a Hostile city guard into handing over a cell key during a quiet watch.",
+      "expected_output": "Influence action. Roll only if the guard is hesitant. Charisma (Persuasion) or (Deception) as the approach; Disadvantage because Hostile; DC 15 or the guard's Intelligence, whichever is higher. Willing/unwilling skip the roll.",
+      "expectations": [
+        "Names the Influence action and a Charisma skill (or states willing/unwilling with no roll).",
+        "Applies Disadvantage for Hostile attitude.",
+        "Sets DC to 15 or the monster's Intelligence, whichever is higher."
+      ]
+    },
+    {
+      "id": "poison-save-not-check",
+      "prompt": "A swamp cloud: anyone who breathes it makes a Constitution check DC 18 or is poisoned.",
+      "expected_output": "Constitution saving throw, not a check. DC from the typical band or 8+PB+mod of the source, not 18-by-habit.",
+      "expectations": [
+        "Calls a Constitution saving throw, not a Constitution check.",
+        "Does not keep DC 18 unless a named formula produces it; prefers 15/20 or 8+PB+mod.",
+        "Does not treat a natural 20 as an automatic success on the save."
+      ]
+    }
+  ]
+}

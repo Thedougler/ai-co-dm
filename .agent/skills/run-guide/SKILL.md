@@ -122,7 +122,7 @@ A row may say “binary — no partial” when the fiction has no middle.
 
 ## Ruling
 
-A *ruling* is a 5.5e (2024) action, movement in feet, opportunity attack, named condition, ability check, save, or damage; or a **named feature already on a vault owner**. This vault’s **Partial** (miss by 1–4) is house, written once above the table.
+A *ruling* is a 5.5e (2024) action, movement in feet, opportunity attack, named condition, ability check, save, or damage; or a **named feature already on a vault owner**. This vault’s **Partial** (miss by 1–4) is house, written once above the table. Check, save, and DC choice → `dnd5e-mechanics`.
 
 5.5e actions: Attack, Dash, Disengage, Dodge, Help, Hide, Influence, Magic, Ready, Search, Study, Utilize. Conditions include Prone, Grappled, Restrained.
 
@@ -205,7 +205,8 @@ Still no Scene menu that is only prep-management.
 owns reusable encounter stock that fits this cockpit. This skill owns pass 1
 (mechanical card + empty stubs). `theatre-of-the-mind` owns pass 2 fill (TUI
 copy-writer; Grok Bots Visualizer). `visual-aids` assembles an already-listed
-owner image onto the card. Monster math → `homebrew-monsters-5e`. Do not invent
+owner image onto the card. Monster math → `homebrew-monsters-5e`. Check, save,
+and DC → `dnd5e-mechanics`. Do not invent
 canon, copy owner essays, or write player decisions.
 
 Finish with `./scripts/after-write "add run guide" -- path1 [path2…]`.

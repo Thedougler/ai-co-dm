@@ -97,6 +97,7 @@ This repo is an **Obsidian prose wiki**, not an application codebase. Prefer vau
 | Monsters | `homebrew-monsters-5e` → **Monster-Brewer** |
 | Magic items | `dnd-5e-magic-item-design` → **Item-Brewer** |
 | Challenge design | `traps-trials` → **Homebrewer** (craft); TotM of result → `theatre-of-the-mind` |
+| 5.5e checks, saves, DCs | `dnd5e-mechanics` — load when writing or auditing a DC, skill check, saving throw, or the player action that resolves it |
 | Situation topology | `narrative-islands` → **Co-DM** / **Session-Planner** |
 | Campaign architecture | `campaign-planning` → **Co-DM** / **Session-Planner** |
 | Faction prep | `faction-prep` → **Co-DM** |
