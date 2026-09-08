@@ -5,16 +5,18 @@ Scans vault markdown with frontmatter `type: monster`.
 Skips hubs (`00 …`) and `templates/`.
 
 Statuses:
-  ok                          — ```statblock is first body content after frontmatter
-                                (optional `## Statblock` heading immediately above the fence)
+  ok                          — ```statblock appears at the top of the monster note,
+                                allowing an identity block first: H1, Obsidian
+                                embeds, and `[!narration]` callout prose
   prose_not_fantasy_statblock — house/prose AC·HP block without ```statblock (fail)
-  statblock_not_first         — has ```statblock but something else precedes it (fail)
+  statblock_not_first         — has ```statblock but non-identity prose precedes it (fail)
   missing_statblock           — no fence and no prose block (stub / pending; warn)
 
 Exit 1 if any prose_not_fantasy_statblock (use --strict to also fail on missing).
 
 Usage (vault root):
   ./scripts/lint-statblocks
+  ./scripts/lint-statblocks path/to/Monster.md
   ./scripts/lint-statblocks --json
   ./scripts/lint-statblocks --strict
 """
@@ -30,6 +32,10 @@ ROOT = Path(__file__).resolve().parents[1]
 STATBLOCK_FENCE = re.compile(r"^```statblock\b", re.I | re.M)
 STATBLOCK_HEADING = re.compile(r"^##\s+Statblock\s*$", re.I)
 TYPE_MONSTER = re.compile(r"^type:\s*monster\s*$", re.I | re.M)
+H1 = re.compile(r"^#\s+\S")
+OBSIDIAN_EMBED = re.compile(r"^!\[\[[^\]]+\]\]\s*$")
+NARRATION_CALLOUT = re.compile(r"^>\s*\[!narration\](?:\s|$)", re.I)
+CALLOUT_LINE = re.compile(r"^>")
 
 PROSE_MARKERS = [
     re.compile(r"^##\s+Stat block\b", re.I | re.M),
@@ -41,9 +47,12 @@ PROSE_MARKERS = [
 ]
 
 
-def iter_monster_notes() -> list[Path]:
+def iter_monster_notes(paths: list[str] | None = None) -> list[Path]:
     out: list[Path] = []
-    for path in ROOT.rglob("*.md"):
+    candidates = [resolve_path(path) for path in paths] if paths else ROOT.rglob("*.md")
+    for path in candidates:
+        if not path.exists() or path.suffix != ".md":
+            continue
         rel = path.relative_to(ROOT).as_posix()
         if rel.startswith(
             (".agent/", "node_modules/", ".git/", "inbox/", "templates/", "docs/")
@@ -67,6 +76,34 @@ def body_after_frontmatter(text: str) -> str:
     m = FRONTMATTER.match(text)
     return text[m.end() :] if m else text
 
+
+def resolve_path(raw: str) -> Path:
+    path = Path(raw)
+    if not path.is_absolute():
+        path = ROOT / path
+    return path.resolve()
+
+
+def statblock_starts_here(nonempty: list[str], index: int) -> bool:
+    line = nonempty[index]
+    if STATBLOCK_FENCE.match(line):
+        return True
+    if STATBLOCK_HEADING.match(line):
+        return index + 1 < len(nonempty) and STATBLOCK_FENCE.match(nonempty[index + 1])
+    return False
+
+
+def is_allowed_identity_line(line: str, in_narration: bool) -> tuple[bool, bool]:
+    if H1.match(line):
+        return True, False
+    if OBSIDIAN_EMBED.match(line):
+        return True, False
+    if NARRATION_CALLOUT.match(line):
+        return True, True
+    if in_narration and CALLOUT_LINE.match(line):
+        return True, True
+    return False, False
+
 def classify(text: str) -> str:
     if not STATBLOCK_FENCE.search(text):
         if any(p.search(text) for p in PROSE_MARKERS):
@@ -76,13 +113,15 @@ def classify(text: str) -> str:
     nonempty = [ln for ln in body.splitlines() if ln.strip()]
     if not nonempty:
         return "missing_statblock"
-    first = nonempty[0]
-    if STATBLOCK_FENCE.match(first):
+    if statblock_starts_here(nonempty, 0):
         return "ok"
-    if STATBLOCK_HEADING.match(first):
-        if len(nonempty) > 1 and STATBLOCK_FENCE.match(nonempty[1]):
+    in_narration = False
+    for index, line in enumerate(nonempty):
+        if statblock_starts_here(nonempty, index):
             return "ok"
-        return "statblock_not_first"
+        allowed, in_narration = is_allowed_identity_line(line, in_narration)
+        if not allowed:
+            return "statblock_not_first"
     return "statblock_not_first"
 
 
@@ -94,11 +133,16 @@ def main() -> int:
         action="store_true",
         help="also fail when type:monster has no ```statblock (stubs)",
     )
+    ap.add_argument(
+        "paths",
+        nargs="*",
+        help="optional monster note paths to lint instead of scanning the vault",
+    )
     args = ap.parse_args()
 
     findings = []
     ok = 0
-    for path in iter_monster_notes():
+    for path in iter_monster_notes(args.paths):
         kind = classify(path.read_text(encoding="utf-8"))
         rel = path.relative_to(ROOT).as_posix()
         if kind == "ok":
@@ -124,6 +168,7 @@ def main() -> int:
         if fails:
             print(
                 "\nConvert house prose to Fantasy Statblocks (fence FIRST after frontmatter):\n"
+                "An H1, Obsidian image embeds, and a `[!narration]` callout may appear first.\n"
                 "```statblock\n"
                 "name: Creature\n"
                 "size: Medium\n"
