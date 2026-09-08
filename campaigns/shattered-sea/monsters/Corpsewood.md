@@ -78,7 +78,7 @@ Deep Rot, always near the tree line. It follows a seasonal beat and does not lea
 - **Revision knobs:** if it is a bag of hit points, lower HP by 20 and add a clear patrol objective; if its damage is too high, make Uproot a full action rather than part of Multiattack before reducing Slam damage.
 
 ## Canon ecology - living stock ingest
-- A dead tree walks: forty feet of split bark and dragging roots. It patrols deep [[The Rot]] on a seasonal beat and never leaves the tree line. Fire is the one thing that stops it knitting itself back together. The wood died years ago; what moves it did not.
+- A dead tree walks: forty feet of split bark and dragging roots. It patrols deep [[Aruhe - The Rot]] on a seasonal beat and never leaves the tree line. Fire is the one thing that stops it knitting itself back together. The wood died years ago; what moves it did not.
 
 ## Design notes
 - **Path:** variant/revision, not a full redesign; the bruiser and patrol identity stay, while the defense is narrowed and the fire tell is made observable.

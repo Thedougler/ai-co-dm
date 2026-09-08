@@ -32,7 +32,7 @@ The rule is the operational truth of Aruhe. Surveyors learn it from observation,
 The name Hungry Isle means too much of everything, not lack. Outsiders may call any disappearance hunger, but the useful distinction is passage versus possession and taking versus receiving.
 
 ## Linked
-- **Places:** [[Aruhe - Hungry Isle]] · [[Western Landing]] · [[Grasslands - River Valleys]] · [[Clear Lake]] · [[The Grove - Death Bloom]] · [[Lava Tubes]]
+- **Places:** [[Aruhe - Hungry Isle]] · [[Aruhe - Western Beach]] · [[Aruhe - Grasslands]] · [[Aruhe - Clear Lake]] · [[Aruhe - Memorial Grove]] · [[Aruhe - Lava Tubes]]
 - **People:** [[The Blight]] · [[The Unnamed Companion]] · [[Perrin Black-Jaw]] · [[Nona Black-Jaw]]
 - **Factions:** [[Tangle]] · [[Passage]] · [[Grung clans]]
 

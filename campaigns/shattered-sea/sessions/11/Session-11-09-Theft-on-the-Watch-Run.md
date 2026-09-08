@@ -13,7 +13,7 @@ cssclasses: [session-surface]
 
 ## Scene ends when
 
-The steal attempt is disrupted and [[Talon Skarn]] goes for sky, or [[Talon Skarn]] has (or does not have) the [[Fate Spinner]] and the watch has answered, and the night cuts. Resolution is cut. The night ends on this beat. This is the theft on the watch. It is not [[Talon Vantyrus]], and it is not [[The Grove - Death Bloom]].
+The steal attempt is disrupted and [[Talon Skarn]] goes for sky, or [[Talon Skarn]] has (or does not have) the [[Fate Spinner]] and the watch has answered, and the night cuts. Resolution is cut. The night ends on this beat. This is the theft on the watch. It is not [[Talon Vantyrus]], and it is not [[Aruhe - Memorial Grove]].
 
 This beat is thirty minutes.
 
@@ -24,7 +24,7 @@ This beat is thirty minutes.
 
 **If behind:** Stoop, one grab attempt, watch partner in it, [[Talon Skarn]] leaves or is grounded. Then cut.
 
-**If ahead:** Still end here. Do not add [[Talon Vantyrus]] or [[The Grove - Death Bloom]].
+**If ahead:** Still end here. Do not add [[Talon Vantyrus]] or [[Aruhe - Memorial Grove]].
 
 ## L0 · Glance
 
@@ -56,7 +56,7 @@ This is a theft. [[Talon Skarn]] followed the ship from the disabled hunter. [[T
 
 **If they break.** If [[Crissdalynn Khinriss]] is alone, the nearest watcher is already on this watch. If they ground [[Talon Skarn]], he still plays the steal, then goes for sky. If they throw a fake object, [[Talon Skarn]] checks it once and comes back at [[Crissdalynn Khinriss]]. If they already handed the [[Fate Spinner]] off before this camp, [[Talon Skarn]] is wrong, and that is the only time he changes targets.
 
-**Abort.** After the attempt, grab or no grab, [[Talon Skarn]] goes for sky. Do not linger into a speech. Do not add [[Talon Vantyrus]] or [[The Grove - Death Bloom]].
+**Abort.** After the attempt, grab or no grab, [[Talon Skarn]] goes for sky. Do not linger into a speech. Do not add [[Talon Vantyrus]] or [[Aruhe - Memorial Grove]].
 
 > [!narration] Initial Narration
 > Night narrows to this fire. You see Crissdalynn Khinriss and one other of you at its edge, her blue-black feathers catching coal-light, geometric leather and chart satchel close against half-folded wings. The rest of the camp sleeps around the coals. Picked fruit sits in the dirt. Woodsmoke and warm rind hang low. Night air touches your front; heat presses at your backs. Close trees ring the fire, and open sky waits above the crowns.
@@ -85,7 +85,7 @@ This is a theft. [[Talon Skarn]] followed the ship from the disabled hunter. [[T
 - If [[Talon Skarn]] uses Windshear Retreat to open valley air after the attempt, this scene can end.
 - Grounding [[Talon Skarn]] does not end the steal. [[Talon Skarn]] still plays the steal, then goes for sky.
 - If a crew member flies after [[Talon Skarn]], that crew member is in open valley air. A Dash of 30 feet or 60 feet from the ground does not catch fly 90. Do not restage beat 1.
-- Do not add [[Talon Vantyrus]] or [[The Grove - Death Bloom]].
+- Do not add [[Talon Vantyrus]] or [[Aruhe - Memorial Grove]].
 
 ## Zones
 
@@ -96,7 +96,7 @@ This is a theft. [[Talon Skarn]] followed the ship from the disabled hunter. [[T
 | Trees around this fire | Trees stand close around this camp. | Anyone who is not between [[Talon Skarn]] and [[Crissdalynn Khinriss]] is ignored. |
 | Open valley air | [[Talon Skarn]]'s stoop is fly 90 feet, then fly 90 feet away. Windshear Retreat adds 30 feet of fly that turn. | This is [[Talon Skarn]]'s exit. A Dash of 30 feet or 60 feet from the ground does not catch fly 90. |
 | Beach / [[Uncertainty]] | Down-valley, past the terrace line. | A Dash does not reach [[Uncertainty]]. |
-| Deeper inland | Garden talk from beat 8 still points into these woods. | This is not [[The Grove - Death Bloom]]. A Dash does not reach the garden. |
+| Deeper inland | Garden talk from beat 8 still points into these woods. | This is not [[Aruhe - Memorial Grove]]. A Dash does not reach the garden. |
 
 > [!narration] This watch / pair
 > You see Crissdalynn Khinriss and the other watcher at the fire's edge. Talon Skarn's drop lines up on them, shoving air across your face.
@@ -178,11 +178,11 @@ The steal turn happens after everyone has acted, and only if [[Talon Skarn]] is 
 
 **Minions / dials.** None. Do not invent a second flier. Do not play [[Talon Vantyrus]]. Survivors who run are cover for [[Talon Skarn]], not extra enemies.
 
-Do not spawn the [[Deer-Stalker]], otters, wolfrabbits, or [[The Grove - Death Bloom]] on this clock. Do not restage beat 1. Freeze on this watch still ticks the steal once.
+Do not spawn the [[Deer-Stalker]], otters, wolfrabbits, or [[Aruhe - Memorial Grove]] on this clock. Do not restage beat 1. Freeze on this watch still ticks the steal once.
 
 ## Secondary objective
 
-Keep the [[Fate Spinner]] on [[Crissdalynn Khinriss]]. Beats required: disrupt the steal, with the watch partner in it. Ignore outcome: freeze still lets [[Talon Skarn]] get the attempt off, and the night still cuts. Later consequence: if [[Talon Skarn]] leaves with the [[Fate Spinner]], the crew does not have it; if the steal is disrupted, [[Talon Skarn]] is still in the sky over this valley. Do not start [[Talon Vantyrus]] or [[The Grove - Death Bloom]] tonight.
+Keep the [[Fate Spinner]] on [[Crissdalynn Khinriss]]. Beats required: disrupt the steal, with the watch partner in it. Ignore outcome: freeze still lets [[Talon Skarn]] get the attempt off, and the night still cuts. Later consequence: if [[Talon Skarn]] leaves with the [[Fate Spinner]], the crew does not have it; if the steal is disrupted, [[Talon Skarn]] is still in the sky over this valley. Do not start [[Talon Vantyrus]] or [[Aruhe - Memorial Grove]] tonight.
 
 ## Landing
 
@@ -192,7 +192,7 @@ If the steal is disrupted, [[Talon Skarn]] is in open valley air, or grounded at
 
 If [[Talon Skarn]] leaves with the [[Fate Spinner]], the [[Fate Spinner]] is in his talons in open valley air. The watch has answered.
 
-If [[Talon Skarn]] is grounded and the crew keeps hitting, still end here. [[Talon Skarn]] still played the steal. Do not add [[Talon Vantyrus]] or [[The Grove - Death Bloom]].
+If [[Talon Skarn]] is grounded and the crew keeps hitting, still end here. [[Talon Skarn]] still played the steal. Do not add [[Talon Vantyrus]] or [[Aruhe - Memorial Grove]].
 
 > [!narration] Landing
 > The night ends on this watch. Talon Skarn hangs in open valley air above the fire. Crissdalynn Khinriss remains at its edge, straps and pouches still on her, or a torn item lies in the dirt.
@@ -220,7 +220,7 @@ If [[Talon Skarn]] is grounded and the crew keeps hitting, still end here. [[Tal
 
 **[[Razer-Grass]].** Anyone shoved through or Shatter-dumped in the island has that damage already applied.
 
-Do not run grassland tables, the [[Deer-Stalker]], [[Talon Vantyrus]], or [[The Grove - Death Bloom]] here. The people at this fire stay unnamed.
+Do not run grassland tables, the [[Deer-Stalker]], [[Talon Vantyrus]], or [[Aruhe - Memorial Grove]] here. The people at this fire stay unnamed.
 
 ## Roster
 
@@ -236,4 +236,4 @@ Do not run grassland tables, the [[Deer-Stalker]], [[Talon Vantyrus]], or [[The 
 
 ## Backup
 
-[[Session-11-08-Farthest-Camp-Run]] · [[Session-11-00-Angry-Birds]] · [[Crissdalynn Khinriss]] · [[Talon Skarn]] · [[Fate Spinner]] · [[Uncertainty]] · [[The Grove - Death Bloom]] · [[Talon Vantyrus]]
+[[Session-11-08-Farthest-Camp-Run]] · [[Session-11-00-Angry-Birds]] · [[Crissdalynn Khinriss]] · [[Talon Skarn]] · [[Fate Spinner]] · [[Uncertainty]] · [[Aruhe - Memorial Grove]] · [[Talon Vantyrus]]

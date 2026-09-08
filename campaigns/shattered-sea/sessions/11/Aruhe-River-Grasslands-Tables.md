@@ -3,10 +3,14 @@ type: encounter
 campaign: shattered-sea
 session: 11
 status: ready
-location: "[[Grasslands - River Valleys]]"
+location: "[[Aruhe - Grasslands]]"
 visibility: dm
-tags: [encounter, aruhe, session-11]
-cssclasses: [session-surface]
+tags:
+  - encounter
+  - aruhe
+  - session-11
+cssclasses:
+  - session-surface
 ---
 
 # Aruhe River / Grasslands Tables
@@ -15,7 +19,7 @@ Paired with [[Aruhe-River-Grasslands-Plant-Hazards]] for [[Session-11-00-Angry-B
 
 ## L0 · At a glance
 
-- **Where:** The table is on a [[Grasslands - River Valleys]] bank, in the grass, at a river hole, or in open valley sky.
+- **Where:** The table is on a [[Aruhe - Grasslands]] bank, in the grass, at a river hole, or in open valley sky.
 - **Party band:** Five PCs are level 5 and fight as 6. Tune to that band, not to a printed CR chart.
 - **Hardest / easiest:** A roll of 1 is the hardest row. A roll of 8 is the easiest.
 - **Spine:** The night still wants smoke, river, survivors, the woman in the woods, and [[Talon Skarn]]. Come back to that chart when the extra fight ends.
@@ -253,7 +257,7 @@ Paired with [[Aruhe-River-Grasslands-Plant-Hazards]] for [[Session-11-00-Angry-B
 - **On the table:** A flock of [[Unsaid Macaw]] works fruiting bushes at the grass edge. Open sky above them is hawk country if the table makes a racket.
 - **DM truth:**
 > [!secret] Hidden
-> Do not put the actual private thought in the narration. Pick one PC’s foremost surface thought from what they just said or clearly hesitated on, echo it in their voice, then stop. Confess elaborates one truthful sentence, not a dump. [[Perrin Black-Jaw]] and anyone sitting on a secret are the best echoes. These birds do not belong in [[The Quiet]]. A beak deals 1 piercing damage, and scattering them is easy and loud.
+> Do not put the actual private thought in the narration. Pick one PC’s foremost surface thought from what they just said or clearly hesitated on, echo it in their voice, then stop. Confess elaborates one truthful sentence, not a dump. [[Perrin Black-Jaw]] and anyone sitting on a secret are the best echoes. These birds do not belong in [[Aruhe - Quiet Forest]]. A beak deals 1 piercing damage, and scattering them is easy and loud.
 - **Procedure:** One echo first. Confess only if you need a press. If they attack, the flock breaks and you may roll again with the claim rule if the noise counts as lingering.
 - **If violence starts:** The macaws make Flyby pecks, then scatter. The real cost is attention down the valley, not hit points.
 - **If ignored:** The phrase becomes local flock-talk.
@@ -264,7 +268,7 @@ Paired with [[Aruhe-River-Grasslands-Plant-Hazards]] for [[Session-11-00-Angry-B
 
 ### DM reference
 
-- Place: [[Grasslands - River Valleys]] · [[Aruhe Hunger Rule]] · [[Razer-Grass]]
+- Place: [[Aruhe - Grasslands]] · [[Aruhe Hunger Rule]] · [[Razer-Grass]]
 - Grass / river / lake roster: [[Terror-Bird]] · [[Bloodhawk]] · [[Aruhe River Otter]]
 - Also here: [[Bear-Elk]] · [[Deer-Stalker]] · [[Thornback]] · [[Wolfrabbit]] · [[Unsaid Macaw]]
 - Plant pair: [[Aruhe-River-Grasslands-Plant-Hazards]]

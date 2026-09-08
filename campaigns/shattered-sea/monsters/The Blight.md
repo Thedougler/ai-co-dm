@@ -193,7 +193,7 @@ The Death Bloom is **the tree, both graves, black-flower ring, bound soil, and t
 
 ### Reform and failure state
 
-If the walking body reaches 0 hit points while any part of the Death Bloom still holds, the body is destroyed but the encounter is not won. Hinewai reforms at the tree in **1d10 days** (house assumption for “a handful of days”), using the stage that the memorial has reached when she returns. If the party only focuses her body, they have bought time, not killed her; the Grove remains the real target. If the Bloom is ruined first, body destruction is permanent and the Grove follows the slower release timeline in [[The Grove - Death Bloom#Destruction timeline]].
+If the walking body reaches 0 hit points while any part of the Death Bloom still holds, the body is destroyed but the encounter is not won. Hinewai reforms at the tree in **1d10 days** (house assumption for “a handful of days”), using the stage that the memorial has reached when she returns. If the party only focuses her body, they have bought time, not killed her; the Grove remains the real target. If the Bloom is ruined first, body destruction is permanent and the Grove follows the slower release timeline in [[Aruhe - Memorial Grove#Destruction timeline]].
 
 ## Tells and counterplay
 
@@ -240,4 +240,4 @@ Terror-birds, walking deadwood, Crown Squid, upright deer, and other established
 
 ## Provenance
 
-House fight sheet owned by Monster-Brewer. Canon constraints and ecology cross-linked from [[The Blight]] and [[The Grove - Death Bloom]]. The three runnable fences are a legacy Fantasy Statblock import from `/Users/nick/shattered-sea/wiki/shattered-sea/aruhe-hungry-isle/creature.blight.md`, restored as the primary stage blocks. No proprietary text was added beyond the legacy fences. No 2024 notation fix was required by lint.
+House fight sheet owned by Monster-Brewer. Canon constraints and ecology cross-linked from [[The Blight]] and [[Aruhe - Memorial Grove]]. The three runnable fences are a legacy Fantasy Statblock import from `/Users/nick/shattered-sea/wiki/shattered-sea/aruhe-hungry-isle/creature.blight.md`, restored as the primary stage blocks. No proprietary text was added beyond the legacy fences. No 2024 notation fix was required by lint.

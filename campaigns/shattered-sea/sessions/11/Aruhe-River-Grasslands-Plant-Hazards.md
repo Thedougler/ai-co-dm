@@ -3,10 +3,14 @@ type: encounter
 campaign: shattered-sea
 session: 11
 status: ready
-location: "[[Grasslands - River Valleys]]"
+location: "[[Aruhe - Grasslands]]"
 visibility: dm
-tags: [encounter, aruhe, session-11]
-cssclasses: [session-surface]
+tags:
+  - encounter
+  - aruhe
+  - session-11
+cssclasses:
+  - session-surface
 ---
 
 # Aruhe River / Grasslands Plant Hazards
@@ -15,7 +19,7 @@ Paired with [[Aruhe-River-Grasslands-Tables]] for [[Session-11-00-Angry-Birds]].
 
 ## L0 · At a glance
 
-- **Where:** The table is on a [[Grasslands - River Valleys]] bank, in the gold grass, at a razer crossing, or on the tree line that follows the river.
+- **Where:** The table is on a [[Aruhe - Grasslands]] bank, in the gold grass, at a razer crossing, or on the tree line that follows the river.
 - **Party band:** Five PCs are level 5 and fight as 6. Tune to that band, not to a printed CR chart.
 - **Hardest / easiest:** A roll of 1 is the hardest row. A roll of 8 is the easiest.
 - **Spine:** The night still wants smoke, river, survivors, the woman in the woods, and [[Talon Skarn]]. Come back to that chart when the extra scene ends.
@@ -264,7 +268,7 @@ Paired with [[Aruhe-River-Grasslands-Tables]] for [[Session-11-00-Angry-Birds]].
 
 ### DM reference
 
-- Place: [[Grasslands - River Valleys]] · [[Aruhe Hunger Rule]] · [[Razer-Grass]]
+- Place: [[Aruhe - Grasslands]] · [[Aruhe Hunger Rule]] · [[Razer-Grass]]
 - Plant roster: [[Strangler Fig]] · [[Young Snakewood]] · [[Vine Lash]] · [[Grubnade]]
 - Fruit: [[Breathmelon]] · [[Lion Citrus]]
 - Fauna pair: [[Aruhe-River-Grasslands-Tables]]

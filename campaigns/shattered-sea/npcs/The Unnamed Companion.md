@@ -25,7 +25,7 @@ He has no independent present-day drive; he is dead. In Hinewai's remaining memo
 
 ## Relationships
 - [[The Blight]] / Hinewai: companion in flight from Karath; she carried him inland and made the second grave her own.
-- [[The Grove - Death Bloom]]: first, older, unmarked grave beneath the memorial tree.
+- [[Aruhe - Memorial Grove]]: first, older, unmarked grave beneath the memorial tree.
 - [[Aruhe - Hungry Isle]]: his preservation is the origin pressure behind the island's excess and boundaries.
 
 ## Resources

@@ -30,7 +30,7 @@ Pale, hand-sized roaches cluster harmlessly around wells where surface roots pun
 Cluster - Sense vibration - Vanish into cracks.
 
 ## Terrain / allies
-Basalt wells and root-punch ceilings in [[Lava Tubes]]; prey-sign for [[Blackrail]].
+Basalt wells and root-punch ceilings in [[Aruhe - Lava Tubes]]; prey-sign for [[Blackrail]].
 
 ## Loot / aftermath
 - Ecology-forward stub; no mechanics or harvest assumptions yet.

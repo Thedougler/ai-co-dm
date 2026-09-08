@@ -30,7 +30,7 @@ Long-legged, long-antennaed, pale crickets live in the same wells as root roache
 Jump - Hold still - Signal the vibration.
 
 ## Terrain / allies
-Root wells and skylight approaches in [[Lava Tubes]]; stillness is the warning before [[Blackrail]].
+Root wells and skylight approaches in [[Aruhe - Lava Tubes]]; stillness is the warning before [[Blackrail]].
 
 ## Loot / aftermath
 - Ecology-forward stub; no mechanics or harvest assumptions yet.

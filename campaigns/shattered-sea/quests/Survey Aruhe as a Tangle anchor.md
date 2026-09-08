@@ -20,10 +20,10 @@ The [[Passage]] loses a needed route or anchor if Aruhe fails. Perrin's family o
 
 ## Nodes
 - [[Aruhe - Hungry Isle]]: current survey site, inland survivors, taking-places, and crown squid boundary
-- [[Western Landing]]: one boat gap, reef hazards, and retreat edge
-- [[Old Gardens]]: ancient terraces and genuine abundance
-- [[The Quiet]] · [[Grasslands - River Valleys]] · [[The Rot]]: ecological route boundaries
-- [[Clear Lake]] · [[The Grove - Death Bloom]] · [[Lava Tubes]]: water, restraint, and volcanic underworld nodes
+- [[Aruhe - Western Beach]]: one boat gap, reef hazards, and retreat edge
+- [[Aruhe - Old Gardens]]: ancient terraces and genuine abundance
+- [[Aruhe - Quiet Forest]] · [[Aruhe - Grasslands]] · [[Aruhe - The Rot]]: ecological route boundaries
+- [[Aruhe - Clear Lake]] · [[Aruhe - Memorial Grove]] · [[Aruhe - Lava Tubes]]: water, restraint, and volcanic underworld nodes
 - [[Karath]]: near-edge neighbor, not a shortcut to Aruhe's heart
 - [[Perrin Black-Jaw]]: assigned surveyor and family obligation
 - [[Warren]]: deepest anchor and elder teaching

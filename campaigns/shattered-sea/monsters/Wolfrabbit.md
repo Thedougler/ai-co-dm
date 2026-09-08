@@ -74,7 +74,7 @@ Pack of 4–6 ≈ CR 5 encounter. They do not chase far.
 Pouncing Bound · Pack Rend · Devour the Pack (cannibalize fallen ally)
 
 ## Terrain / friends
-[[Old Gardens]] terraces into [[The Quiet]]. Leap over narrow [[Razer-Grass]]; abort pounce if they smell a mature [[Grubnade]]. Prey for [[Great Crown Squid]].
+[[Aruhe - Old Gardens]] terraces into [[Aruhe - Quiet Forest]]. Leap over narrow [[Razer-Grass]]; abort pounce if they smell a mature [[Grubnade]]. Prey for [[Great Crown Squid]].
 
 ## Loot / aftermath
 Warren burrows in terrace stone. Nothing of value.

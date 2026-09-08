@@ -50,7 +50,7 @@ actions:
 Orchards, grassland edges, lake margin — not the Quiet.
 
 ## Canon ecology - living stock ingest
-- Healthy, bright, clear-eyed macaws eat fruit, nuts, and occasional shellfish. A bird hears the thought you almost said and speaks it in your voice; flocks teach phrases, making later speech hard to distinguish from old flock-talk. They do not belong in [[The Quiet]], where birdsong is supposed to be absent.
+- Healthy, bright, clear-eyed macaws eat fruit, nuts, and occasional shellfish. A bird hears the thought you almost said and speaks it in your voice; flocks teach phrases, making later speech hard to distinguish from old flock-talk. They do not belong in [[Aruhe - Quiet Forest]], where birdsong is supposed to be absent.
 
 ## Provenance
 Wiki `creature.unsaid-macaw` + inbox living-stock 2026-09-05. Blight gardens pressure; does not possess. Fence-first Fantasy Statblocks. Numbers from wiki — not reinvented.
