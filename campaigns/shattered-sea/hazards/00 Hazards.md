@@ -7,8 +7,8 @@ tags: [index, hazard]
 ---
 # Hazards
 ## Aruhe
-- [[Stillbloom]] · [[Razer-Grass]]
+- [[Aruhe - Snakewood]] · [[Aruhe - Stillbloom]] · [[Aruhe - Razer-Grass]]
 
 ## Aruhe flora
-- [[Stillbloom]] · [[Razer-Grass]]
+- [[Aruhe - Snakewood]] · [[Aruhe - Stillbloom]] · [[Aruhe - Razer-Grass]]
 - Flora frame: [[Aruhe - Hungry Isle#What]]
