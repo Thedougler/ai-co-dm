@@ -77,43 +77,28 @@ legendary_actions:
 # Great Crown Squid
 
 > [!narration] Narration
-> Sixty to eighty feet of rubbery mantle and eight working arms hang in the canopy, with finer lines that can reach another eighty feet. Skin matches bark brown and leaf green on the body until a principal eye rolls inside the clear head. The mantle barely loads the trees while the squid is alive.
+> The Great Crown Squid hangs high between the trees, a house-sized clear mantle swollen with pale violet light and veined like a wet leaf. Thick arms brace against trunks around it, while dozens of thinner lines trail down through the mist like roots looking for the forest floor. Its rubbery skin carries bark-dark ridges, thorny suckers, and hanging water, and the whole body barely bends the canopy until one eye turns inside the crown.
 
+## Behavior
 
+**Habitat.** The Great Crown Squid owns high, wet canopy in [[Aruhe - Quiet Forest|the Quiet]], [[Aruhe - The Marshes|the Marshes]], and the roof of [[Aruhe - The Mangroves|the Mangroves]]. It favors massive trunks, hanging roots, mist, and broken light where its mantle and arms can read as part of the trees.
 
+**Behavior.** It waits above trails and waterways with its mantle braced between trunks and its finer hooklines hanging below. It watches before it commits, choosing isolated prey and shifting through the canopy with almost no weight on the branches while alive.
 
-## At the table
-**Tactic:** watch → select isolated prey → Hookline → Reel → Beak. **Tell:** principal eyes roll inside the translucent mantle toward a target without the body moving.
+**Diet.** It eats large animals, travelers, and anything it can draw up into the canopy. Juveniles sometimes work the upper terraces, while the oldest sit heavier in the Marshes where food is easy and walkers cannot easily reach the roof.
 
-Escape is geography (open grass, deep water, low cover), not a DPS race. It hunts like a predator, not a villain.
+**Social Structure.** Solitary apex predator. Each adult holds a stretch of canopy and treats other large Aruhe hunters as boundaries rather than allies.
 
-## Role / dials
-- **Elite scare (not full solo):** cut legendary actions; one Hookline + Reel loop.
-- **Apex solo:** full block below.
-- **Bloodied (≤ half HP):** stops treating the party as snacks — canopy pursuit, Canopy Pounce, route anticipation. It **likes** a chase.
-- **Juvenile:** Old Gardens terraces only — drop to Huge, CR ~8–10 provisional (not statted here).
+## Tactics
 
-## Signature moves
-1. **Hookline** — 80 ft snatch, restrain, severable line.
-2. **Reel** — haul prey to the beak.
-3. **Canopy Pounce** — silent tree-to-tree commit.
-4. **Mouth-Blind Zone** — safest place is horrifyingly close under the beak.
+**Signs.** Sucker scars high on trunks, bark stripped upward, shredded sixty-foot vines, broken branches that never fell, prey tracks that end going up, polished antler caught in the canopy, and long rootlike lines hanging where no root should move.
 
-## Terrain / friends
-Prime: Quiet canopy. Oldest: Marshes and mangrove roof. Avoids open Grasslands and deep otter water. River Otters are an ecological boundary. Fleeing into grass trades this for Terror-Bird territory.
+**Instincts.** It wants isolated prey, trailing bodies, wounded creatures, and targets that step under open canopy. It avoids open grassland and occupied [[Aruhe - River Otter|river otter]] water.
 
-## Loot / aftermath
-Sucker scars 70 ft up; polished antler with no carcass; prey tracks that end going **up**. No treasure expected.
+**Tactics.** It stays above the fight, sends hooklines down through leaves and mist, reels prey toward the mantle, and shifts tree to tree when a line is cut. If the chase becomes more interesting than the meal, it uses the canopy route to stay ahead rather than dropping to the ground.
 
-## Running notes
-- Open with surveillance, not a fair fight on the ground.
-- Prefer isolated / trailing / wounded prey (Selected Prey).
-- If a line is cut: relocate and pick a different target — interest, not rage.
-- Counterplay: stay clustered, sever Hooklines, stand in the Mouth-Blind Zone, force open ground or deep water, Ready the tell (eye-roll).
-- Signs beforehand: upward bark strips, sucker scar circles high in trunks, prey trails that vanish upward (Survival DC 14 notice / 17 identify).
+**Weaknesses.** Open grass, deep occupied water, clustered targets, severed hooklines, and the blind space directly beneath the mantle all interfere with its hunt. Dead, the gas mantle loses its lift and the body becomes tons of wet weight.
 
-## Canon ecology - living stock ingest
-- Sixty to eighty feet of rubbery mantle and eight working arms carry a forest of finer lines that can reach another eighty to a hundred feet. The mantle is a gas bag: living, it barely loads the trees; dead, it weighs tons.
-- It flows through the canopy like a jumping spider the size of a house, skin matching bark until a principal eye rolls inside the clear head to look. That eye-roll is the tell before it watches a trail, selects an isolated target, hooks an ankle, and lifts.
-- It likes a chase but will not deliberately enter open grassland or occupied river water. Juveniles sometimes work the upper terraces; the oldest sit heavier in [[Aruhe - The Marshes]], where food is easy, and can use mangrove roof that walkers cannot reach. A shredded sixty-foot vine hanging from a branch is its leftover, not a [[Snakewood]] kill.
+**Aftermath.** A Crown Squid encounter leaves torn canopy, sucker rings, sap-wet bark, broken vines, blood high overhead, and trails that simply stop beneath the trees. There is no treasure expected, though severed hooklines, rubbery hide, and mantle tissue may interest a careful harvester.
 
+![[attachments/shattered-sea/creatures/great-crown-squid-of-aruhe-01.jpg|Great Crown Squid of Aruhe]]
