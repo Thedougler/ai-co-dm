@@ -7,6 +7,8 @@ visibility: dm
 tags: [hazard, aruhe, flora]
 ---
 
+![[attachments/shattered-sea/hazards/aruhe-black-lotus.png]]
+
 > [!narration] Narration
 > A velvet-black flower spreads wider than a crouched person, its petals heavy enough to hide the ground beneath them. Faint violet veins pulse through the dark bloom when magic moves nearby. Old bones lie under the petal edge.
 
