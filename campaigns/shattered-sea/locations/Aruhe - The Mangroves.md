@@ -54,7 +54,7 @@ The Mangroves are the southern end of [[Aruhe - The Marshes|the Marshes]], where
 ## Who
 
 - [[Aruhe - Crown Squid]] can move through sections of the upper mangrove canopy that are effectively inaccessible to anything walking below.
-- [[Snakewood]] uses branches directly above channels, where travelers watch the water instead of the roof.
+- [[Aruhe - Snakewood|Snakewood]] uses branches directly above channels, where travelers watch the water instead of the roof.
 - Flying predators hunt openings in the canopy and tidal gaps. [[Aruhe - Bloodhawk|Bloodhawks]] will not stoop closed canopy or put a foot in this water.
 - Insects occur in numbers beyond nuisance: biting flies, mosquitoes, midges, beetles, stinging colonies, and parasites fill different layers of the forest.
 - Crabs and scavengers cover exposed mud at low tide and disappear into holes as larger animals approach.
@@ -70,6 +70,7 @@ The Mangroves are the southern end of [[Aruhe - The Marshes|the Marshes]], where
 - The mud can swallow a leg to the thigh while neighboring ground is firm enough to stand on.
 - Roots create thousands of enclosed pockets where predators can remain within striking distance without being visible.
 - The canopy is nearly continuous. What cannot reach a traveler from below may reach them from above. Insects occupy the air between.
+- [[Aruhe - Spiritpollen]] appears only in local clearings, root-islands, or crossing pockets, not as blanket growth through the mangroves.
 - In fresher pockets, [[Aruhe - Ghost Plum]] hangs beneath wet leaves, while [[Aruhe - Rotheart]] grows in dark clusters on old vinewood above the channels. Fallen fruit can be foraged from the roots, and living fruit can be picked only by drawing a response from Aruhe.
 - Surf can be heard through much of the outer forest, creating the constant impression that the open sea is only a short distance away. It usually is not.
 - This is a wall, not a harbor. Purple Grung work western reefs and will not set foot on Aruhe; they also do not treat this coast as an entrance.

@@ -59,6 +59,7 @@ Clear Lake is the inland freshwater basin at the uphill end of Aruhe's rivers. A
 
 -  [[Aruhe - River Otter|River Otters]]: Anything entering the water near the marshy shoreline, invites becoming an unwilling playmate of the otters. 
 -  [[Aruhe - Unsaid Macaw]]: Nesting trees along the lake edges. **Wisdom save — `DC 12`** → Speak one truthful sentence about the surfaced thought.
+-  [[Aruhe - Stillbloom]] appears only on wooded or marshy shoreline sunbreaks and approaches, never on the open lake shelf.
 -  [[Aruhe - Redheart Berry]] beads along the marshy shoreline, and fallen berries can be foraged from the wet stones.
 -  [[Aruhe - Stonepear]] hangs from low branches beside the black shelf, where a living fruit can be picked if someone accepts Aruhe's response.
 ---

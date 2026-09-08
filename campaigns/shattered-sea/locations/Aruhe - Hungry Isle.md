@@ -56,6 +56,8 @@ The clearest physical pattern is the root network. Pale, luminous roots run wris
 
 Across those bands, [[Aruhe - Redheart Berry]] beads along wet lowlands and river margins, while [[Aruhe - Giant's Guava]] hangs from high forest branches. Fallen fruit can be foraged; fruit taken from a living branch is a claim against the island.
 
+- The island's hazard palette follows its bands: [[Aruhe - Snakewood]] hangs over Quiet, Marshes, and mangrove waterways; [[Aruhe - Razer-Grass]] marks torn crossings, wallows, and flood-scoured hollows; and [[Aruhe - Spiritpollen]] grows in old growth at crossings or touched flowering stands. These are regional placements, not one encounter site.
+
 Aruhe distinguishes between receiving and taking. Fallen fruit and genuine offerings can be accepted without triggering the island's hostility. A living claim is different: taking fruit from a branch, cutting living growth, trapping an animal, or treating the island as property draws aligned local life into response. [[Taking on Aruhe]] is the reference for adjudicating those claims.
 
 ---

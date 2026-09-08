@@ -67,7 +67,7 @@ The Marshes begin along the wet southern shore of [[Aruhe - Clear Lake|Clear Lak
 - [[Aruhe - Crown Squid]] move through the lower canopy, using flooded openings where prey cannot easily sprint away. The oldest sit heavier here, where food is easy.
 - [[Aruhe - Deerstalker|Deer-Stalkers]] use the firmer animal paths and root ridges from the Quiet floor.
 - [[Corpsewood]] patrols the deep tree line on a seasonal beat and never leaves the forest.
-- [[Snakewood]] grows heavily here, with branches crossing above waterways that appear open from below.
+- [[Aruhe - Snakewood|Snakewood]] grows heavily here, with branches crossing above waterways that appear open from below.
 - [[Aruhe - Bear-Elk]] run scored-tree beats on the Quiet–Marshes boundary.
 - [[Silence Moths]] drift dusk and dawn on marsh and Grove approaches through the trees.
 - [[Aruhe - River Otter|River Otters]] hold only the lake-fed clear channels. Brown standing water is not their claim.

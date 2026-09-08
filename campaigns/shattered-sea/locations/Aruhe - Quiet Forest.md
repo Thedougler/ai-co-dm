@@ -55,8 +55,7 @@ The Quiet is rainforest above the last terrace of [[Aruhe - Old Gardens]], where
 
 - Small life is gone. No insect-saw, no bird chatter. Ordinary warning signs that depend on that life are missing. [[Aruhe - Unsaid Macaw|Unsaid Macaws]] do not belong here.
 - [[Aruhe - Strangler Fig|Strangler Figs]] sit singly where packed game trails pinch between stone. Aerial roots hang in curtains; old bones show in the hollow trunk.
-- [[Snakewood]] adults live in the Quiet and Marshes canopy, farther in than the first terraces.
-- [[Aruhe - Stillbloom]] begins on the Quiet-to-Marshes trails and sunbreaks, not in open valleys.
+- [[Aruhe - Snakewood|Snakewood]] adults live in the Quiet and Marshes canopy, especially above the deeper game trails; [[Aruhe - Stillbloom]] begins on the Quiet-to-Marshes trails and sunbreaks, not in open valleys.
 - [[Silence Moths]]: Sail-sized clouds at dusk and dawn on Marshes and Grove approaches through the trees. The jungle goes quiet ahead of them, then the cloud fills a mouth. Fire drives them off; they will not follow anyone out of the trees.
 - Quiet leaves may show neat bites and five-foot scorch rings from [[Aruhe - Grubnade|Grubnades]]. The hot blooms themselves are primary in [[Aruhe - Old Gardens]].
 - [[Aruhe - Stonepear]] is common beneath the roof, and fallen fruit can be foraged from the moss.

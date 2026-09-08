@@ -54,6 +54,7 @@ Western Landing is Aruhe's known sea approach and retreat edge: a jagged reef, o
 - Reef movement, hull strain, surf on coral, salt spray, and wet stone make the approach legible before the party commits.
 - Giant sharks, giant crabs, Bloodhawks, and [[Aruhe - Reef Skull|Reef Skulls]] make the reef and shingle a landing problem without requiring reef-fauna mechanics here.
 - At the inland edge, [[Aruhe - Ghost Plum]] hangs beneath wet leaves and [[Aruhe - Giant's Guava]] fruits above the stream. Fallen specimens can be foraged, while living branches can be picked at the cost of drawing Aruhe's response.
+- At that inland wet-leaf edge, where fruit trees meet the stream and dense growth, [[Aruhe - Grubnade]] hot blooms and [[Aruhe - Spiritpollen]] stands can mark the approach; neither belongs on the bare shingle.
 - A loose stone or shed shell can mark the route. A living claim draws surrounding life into hostility. [[Taking on Aruhe]]
 
 ---

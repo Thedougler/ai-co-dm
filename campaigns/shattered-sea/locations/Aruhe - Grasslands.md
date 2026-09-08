@@ -56,7 +56,7 @@ The Grasslands are river-cut valleys inside Aruhe's jungle, not a sixth concentr
 - Gold-green grass tall enough to hide a standing person. Near water it leans; farther in, anything that does not lean is an animal.
 - [[Aruhe - Razer-Grass]]: Discrete waist-high islands at torn-up crossings, wallows, river bends, and flood-scoured hollows. It is not a blanket. Running through intact stands cuts. After a shatter, the glitter is asbestos-like if inhaled.
 - [[Aruhe - River Otter|River Otters]]: Channels and wet banks. They will not haul a kill onto [[Aruhe - Razer-Grass]].
-- [[Aruhe - Unsaid Macaw]]: Grassland edges. **Wisdom save — `DC 12`** → Speak one truthful sentence about the surfaced thought.
+- [[Aruhe - Unsaid Macaw]] gathers at grassland edges along the open channels, not in the deep grass. **Wisdom save — `DC 12`** → Speak one truthful sentence about the surfaced thought.
 - [[Aruhe - Bear-Elk]]: Scored-tree beats that cross the openings. [[Aruhe - Terror-Bird|Terror-birds]] step aside.
 - [[Aruhe - Spiguar|Spiguars]]: Motionless grass-mantled cats that pounce from cover, bite deep, and drag prey back into broken sightlines.
 - [[Aruhe - Deerstalker|Deer-Stalkers]] use the grass cover. They will not walk [[Aruhe - Razer-Grass]].

@@ -60,6 +60,7 @@ The rivers draining [[Aruhe - Clear Lake]] braid through Aruhe and cut across th
 - [[Aruhe - Redheart Berry]] grows beside the grassland bank, where fallen berries can be foraged from the shallows.
 - [[Aruhe - Ghost Plum]] hangs from wet roots on the jungle bank, close enough to pick where the current leaves a foothold.
 - [[Aruhe - Razer-Grass]] islands stand at river bends and flood-scoured hollows.
+- [[Aruhe - Unsaid Macaw]] gathers at grassland edges along the open channels, not on the jungle bank.
 - Flood stage widens the grasslands and makes the current lethal. Dry stage exposes limestone shelves and concentrates the otters.
 - [[Aruhe - Bloodhawk|Bloodhawks]] take canoes in open channel. They will not put a foot in occupied otter water.
 

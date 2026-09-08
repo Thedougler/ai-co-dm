@@ -35,6 +35,7 @@ Predators gather at the tree line: terror-birds, walking deadwood, Crown Squid, 
 ## What
 
 - The central tree bears [[Aruhe - Redheart Berry]] in bright lower clusters and [[Aruhe - Giant's Guava]] above them. Fallen fruit can be foraged, while fruit picked from the living tree begins aging once removed.
+- [[Aruhe - Stillbloom]] and [[Aruhe - Spiritpollen]] may mark forest approaches, the treeline, or sunbreak routes, but neither enters the still memorial clearing; the Grove's black-flower ring is a memorial boundary, not a Black Lotus patch.
 
 ## The memorial
 - The **first grave** is the drowned companion's, the reason for the Grove.

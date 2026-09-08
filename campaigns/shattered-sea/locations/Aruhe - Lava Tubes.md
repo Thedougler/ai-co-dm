@@ -53,7 +53,7 @@ The Lava Tubes are the underworld beneath Aruhe's living surface: old volcanic p
 - [[Glass Crickets]] occupy root wells and skylight approaches; their stillness can warn of Blackrail country.
 - [[Cave Bats]] use skylights, wells, and the lava tubes as part of the underworld food cycle.
 - Giant spiders, ordinary, use the dark passages.
-- [[Snakewood]] reaches down through the living root network rather than forming a separate subterranean flora.
+- [[Aruhe - Snakewood|Snakewood]] reaches down through the living root network rather than forming a separate subterranean flora.
 
 ---
 ## What
@@ -62,6 +62,7 @@ The Lava Tubes are the underworld beneath Aruhe's living surface: old volcanic p
 - Pale curtains of living root hang through breaks in the ceilings and drip water from their tips. The roots are surface forest reaching down, not a separate flora.
 - The luminous root network points back toward the sick interior and stops at the verge of the last clearing's graves.
 - Free-flowing cave seepage is drinkable. The source remains part of the living cave, not a possession.
+- [[Aruhe - Stillbloom]] can appear at skylight or root-well approaches where light reaches the stone, never in the deep unlit passages.
 - [[Aruhe - Ghost Plum]] hangs beneath the wet root curtains, and [[Aruhe - Stonepear]] fruits beside the seepage where branches find cracks in the basalt. Fallen fruit can be foraged, while living fruit can be picked as a claim against Aruhe.
 - Drips, wingbeats, echoes, and movement along stone make distance difficult to judge.
 - The tubes are a route through Aruhe's underworld, not proof of a hidden city or a single subterranean ruler.
