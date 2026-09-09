@@ -78,7 +78,7 @@ Follow skill `agentic-system-designer` (Intake → Baseline → Fix → Prove �
 
 **status:** closed
 
-**Fix:** `.agents/skills/run-guide/SKILL.md` — Step 1 (Ground) verifies beat identity: card filename's number matches its skeleton position (`Session-<session>-<NN>-Label.md` = beat NN); mismatch → rename before writing. Table gate bullet enforces the same invariant. Measure: agent-facing files enforcing beat-filename = skeleton position in `.agents/skills` 0 → 1. Cheap check: `rg -l --glob '*.md' 'skeleton position' .agents/skills`. SHA pending.
+**Fix:** `.agents/skills/run-guide/SKILL.md` — Step 1 (Ground) verifies beat identity: card filename's number matches its skeleton position (`Session-<session>-<NN>-Label.md` = beat NN); mismatch → rename before writing. Table gate bullet enforces the same invariant. Measure: agent-facing files enforcing beat-filename = skeleton position in `.agents/skills` 0 → 1. Cheap check: `rg -l --glob '*.md' 'skeleton position' .agents/skills`. SHA `ab341e6`.
 
 ### 2026-09-09 — Beat 6 written as watch furniture
 
@@ -92,7 +92,7 @@ Follow skill `agentic-system-designer` (Intake → Baseline → Fix → Prove �
 
 **status:** closed
 
-**Fix:** `.agents/skills/run-guide/SKILL.md` — Step 1 (Ground) verifies beat identity: purpose, dramatis personae, and hand-off match the skeleton; card filename number = skeleton position. Table gate bullet enforces the check. Shared root cause with "Session beat number reused on a different card." Measure: agent-facing files with beat-identity verification step in `.agents/skills` 0 → 1. Cheap check: `rg -l --glob '*.md' 'beat identity' .agents/skills`. SHA pending.
+**Fix:** `.agents/skills/run-guide/SKILL.md` — Step 1 (Ground) verifies beat identity: purpose, dramatis personae, and hand-off match the skeleton; card filename number = skeleton position. Table gate bullet enforces the check. Shared root cause with "Session beat number reused on a different card." Measure: agent-facing files with beat-identity verification step in `.agents/skills` 0 → 1. Cheap check: `rg -l --glob '*.md' 'beat identity' .agents/skills`. SHA `ab341e6`.
 
 ### 2026-09-09 — Beat 6 missing required owners
 
@@ -106,7 +106,7 @@ Follow skill `agentic-system-designer` (Intake → Baseline → Fix → Prove �
 
 **status:** closed
 
-**Fix:** `.agents/skills/run-guide/SKILL.md` — Step 2 (Diagnose) identifies the central element the table will ask the DM to describe; that element and its dramatis personae must have owners before the card is written, created via the appropriate craft skill. Table gate bullet: central element may not be marked unknown. Measure: agent-facing files gating on central-element owner in `.agents/skills` 0 → 1. Cheap check: `rg -l --glob '*.md' 'central element' .agents/skills`. SHA pending.
+**Fix:** `.agents/skills/run-guide/SKILL.md` — Step 2 (Diagnose) identifies the central element the table will ask the DM to describe; that element and its dramatis personae must have owners before the card is written, created via the appropriate craft skill. Table gate bullet: central element may not be marked unknown. Measure: agent-facing files gating on central-element owner in `.agents/skills` 0 → 1. Cheap check: `rg -l --glob '*.md' 'central element' .agents/skills`. SHA `ab341e6`.
 
 ### 2026-09-09 — Landing used as a full path tree
 
