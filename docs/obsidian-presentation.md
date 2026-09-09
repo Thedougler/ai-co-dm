@@ -22,7 +22,7 @@ Most wiki notes use the same disclosure bands. Empty sections are deleted, not f
 **Rules**
 1. Higher bands never depend on scrolling past Bank.
 2. At a Glance is bullets or one short paragraph — no essays.
-3. Player-facing prose lives in `> [!narration]`. Owner pages: one block where the template places it. Session/run beats: mandatory `Initial Narration` plus titled situational stubs (zones, ticks, landing, roster), never buried and never inside table cells.
+3. Player-facing prose lives in `> [!narration]`. Owner pages: one block where the template places it. Session/run beats: mandatory `Initial Narration` plus titled situational stubs (zones, ticks, How the Scene Resolves, roster), never buried and never inside table cells. Conditional spoken in a table cell is `==_italic_==`.
 4. On session/run surfaces the only callout is `[!narration]`. DM truth and procedure are headings.
 5. Complete grammatical sentences on session/run surfaces.
 6. At-table scan grammar lives in `obsidian-markdown`: **bold** = look here / mechanical noun; `` `code` `` = the number; → = what a mechanic produces; `[!narration]` = spoken. `DC 15` is inline code.
@@ -40,7 +40,7 @@ Most wiki notes use the same disclosure bands. Empty sections are deleted, not f
 
 ### Scene card stack (inside At the table)
 
-Use the **cockpit** in `.agent/skills/run-guide/SKILL.md` (Scene ends when → Glance → Now in feet → DM truth heading → action cards → empty Initial Narration stub → procedure heading → zones plus per-place stubs → Be ready for → clock plus per-tick stubs → landing stubs → embeds plus per-creature stubs → exit stub only if the next beat is on this file). Two passes: mechanical stubs, then TotM fill. One downward pass. One *procedure*. Exit does not ask what they do. Do not keep a second Run-now copy. Do not add a separate Ask callout. Do not add a peer round script.
+Use the **cockpit** in `.agents/skills/run-guide/SKILL.md` (Scene ends when → Glance → Now in feet → DM truth heading → action cards → empty Initial Narration stub → procedure heading → zones plus per-place stubs → Be ready for → clock plus per-tick stubs → How the Scene Resolves (one callout plus options table) → embeds plus per-creature stubs → exit stub only if the next beat is on this file). Two passes: mechanical stubs, then TotM fill. One downward pass. One *procedure*. Exit does not ask what they do. Do not keep a second Run-now copy. Do not add a separate Ask callout. Do not add a peer round script.
 
 ### Session log bands
 1. Recap narration

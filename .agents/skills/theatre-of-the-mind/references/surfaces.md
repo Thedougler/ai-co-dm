@@ -154,7 +154,7 @@ metadata, not a line to read):
 - **Initial Narration** — mandatory *scene-setting* first look
 - **{Place}** — zone first look
 - **Tick {n}** — clock-tick combat update
-- **How the Scene Resolves** — beat-end spoken state for the most likely options only
+- **How the Scene Resolves** — one unconditional beat-end spoken state; most-likely options in the companion table as `==_italic_==`
 - **{Creature}** — situated look after that roster embed
 - **Exit** — handoff when the next cockpit is on this file
 

@@ -131,11 +131,11 @@ in an existing file unless moving a section makes the card easier to run.
 | **Initial Narration** | Every live beat needs the first spoken look. | Empty `> [!narration] Initial Narration` stub on pass 1. Pass 2 fills scene-setting, accessible scene stock, and the first real choice. If the owner already has an identity image, embed `![[attachments/…]]` near this block. |
 | **Battlemap** | A battlemap or exact-scene image exists. | Heading `## Battlemap` at the bottom of the file after the runnable card. Embed existing battlemap art from `attachments/`. Use the shared compass: top north, right east, bottom south, left west. Omit if none exists. |
 | **Procedure** | The beat has a named mode, fuse, clock trigger, combat switch, pursuit rule, or repeated resolution loop. | Heading `## Procedure`. Name the mode and this slice's trigger once. Not 5e turn order. Not a `[!mechanic]` callout. |
-| **Zones** | Positions, routes, cover, distance, search areas, or scene stock matter. | Table: place \| distance in feet \| cover \| narration. Same concrete distances and compass directions as Now. Each row names decision-useful scene stock in that zone. The **Narration** column carries italic spoken prose for that zone, not a callout. When the Narration column is absent, one empty `> [!narration] {Place}` stub per row after the table instead. |
+| **Zones** | Positions, routes, cover, distance, search areas, or scene stock matter. | Table: place \| distance in feet \| cover \| narration. Same concrete distances and compass directions as Now. Each row names decision-useful scene stock in that zone. The **Narration** column carries conditional spoken prose as `==_italic_==`, not a callout. When the Narration column is absent, one empty `> [!narration] {Place}` stub per row after the table instead. |
 | **Be ready for** | Players are likely to attempt consequential actions, checks, tactics, or negotiations. | Table: intent \| approach \| DC \| success \| partial \| failure. Approach is **Ability (Skill)** when a check applies. DC column is `` `DC 14` ``. Dice and damage in cells are inline code. Applied conditions are **bold**. Name the creature, item, and place in every cell. Every cell is a *ruling*. Include **Assess the situation** only when success and failure both say what changes. No Partial definition on the card. |
-| **Threat clock** | A fuse or opposition turn changes the situation. | Heading `## Threat clock`. Table: tick \| what happens \| narration. Named ticks. 3-4 ticks. Each tick states what newly becomes visible, usable, threatened, blocked, or changed. The **Narration** column carries italic spoken prose. When the column is absent, one empty `> [!narration] Tick {n}` stub per tick after the table instead. Bloodied, cover-reached, and scene dials live as paragraphs after the table. |
+| **Threat clock** | A fuse or opposition turn changes the situation. | Heading `## Threat clock`. Table: tick \| what happens \| narration. Named ticks. 3-4 ticks. Each tick states what newly becomes visible, usable, threatened, blocked, or changed. The **Narration** column carries conditional spoken prose as `==_italic_==`. When the column is absent, one empty `> [!narration] Tick {n}` stub per tick after the table instead. Bloodied, cover-reached, and scene dials live as paragraphs after the table. |
 | **Secondary objective** | A second question runs in parallel and changes outcome or later consequence. | Heading `## Secondary objective`. One paragraph: beats required, ignore outcome, later consequence. Omit when there is no second objective. |
-| **How the Scene Resolves** | Every live beat needs the next state. | Heading is `## How the Scene Resolves`. Write only the most likely options, usually one or two. Next state, damage already applied, relevant conditions, and what follows. Empty `> [!narration]` plus one titled stub per likely option. Do not list every path the party might take. |
+| **How the Scene Resolves** | Every live beat needs the next state. | Heading is `## How the Scene Resolves`. Write only the most likely options, usually one or two. Next state, damage already applied, relevant conditions, and what follows. One empty `> [!narration] How the Scene Resolves` for the unconditional spoken state, plus a table for those likely options (`If` \| `Next` \| `Narration`). Narration cells use `==_spoken_==`. Do not stack a titled callout per option. |
 | **Exit narration** | The next cockpit is already on this file. | Empty `> [!narration] Exit` on pass 1. Spoken transition on pass 2. Omit until that beat is ready. |
 | **Roster embeds** | The DM will roll a creature or item in this beat. | Heading `## Roster`. `![[Monster#Statblock]]` for opposition you will roll in combat mode. Keep the full fences; the DM scrolls. After each embed: empty `> [!narration] {Creature}`. Item embeds only if this slice spends charges or the item is the pressure. |
 | **Backup** | Extra owner links would save table hunting. | Heading `## Backup`. Extra wikilinks only. Omit when all required owners are already embedded or linked above. |
@@ -151,17 +151,18 @@ should not create slots for outcomes the beat cannot produce.
 
 **Callout stubs** (empty titled `> [!narration]` blocks):
 - `Initial Narration` — before the first player choice.
-- `How the Scene Resolves` — spoken state for each most likely option only. One stub per likely option, not a path tree.
+- `How the Scene Resolves` — one unconditional spoken state for what is always true when this beat ends.
 - `{Creature}` — after each combat-mode roster embed. Situated look for this scene, not the owner-page cold portrait.
 - `Exit` — only when the next cockpit is already on this file.
 
-**Table Narration columns** (italic prose in the cell, not a callout):
+**Table Narration columns** (conditional spoken as `==_italic_==` in the cell, not a callout):
 - Zones table — one cell per zone row. Replaces `{Place}` stubs.
 - Threat clock table — one cell per tick row. Replaces `Tick {n}` stubs.
+- How the Scene Resolves options table — one cell per most likely option, usually one or two. This table sits with the one unconditional How the Scene Resolves callout.
 
-When a table has no Narration column, use callout stubs after the table instead: `{Place}` per zone, `Tick {n}` per tick.
+When a Zones or Threat clock table has no Narration column, use callout stubs after the table instead: `{Place}` per zone, `Tick {n}` per tick.
 
-Do not put `> [!narration]` inside a table cell. Obsidian does not render callouts there. The Narration column uses italic prose.
+Do not put `> [!narration]` inside a table cell. Obsidian does not render callouts there. Conditional spoken in a cell is `==_italic_==` (`obsidian-markdown`).
 
 ## Scene stock
 
@@ -277,7 +278,7 @@ The spoken Initial Narration shows the situation and ends on the question, then 
 Clock ticks are pressure **actions**: what fills the clock, what happens, and
 what completion changes. Visible geography the viewpoint already has does not
 wait for tick 1. When the table has a Narration column, that cell is the spoken
-update slot; otherwise use `Tick {n}` callout stubs.
+update slot as `==_italic_==`; otherwise use `Tick {n}` callout stubs.
 
 **Tells.** Any conclusion the table must be able to reach gets three independent visible tells in Initial Narration or Now (Three Clue Rule).
 Tells are for actionable conclusions, not hidden teaser content. If a clue has
@@ -305,8 +306,8 @@ Completion — all of these hold, or the draft is not done:
 - No `DM truth` section. Hidden intent, opposition wants, and canon constraints live inline where the DM uses them.
 - No coy placeholders, mystery hedges, or "do not reveal this" notes in DM-facing text. Name the DM fact plainly or omit it.
 - No naked checks. Every check says what success reveals or changes, what failure changes, and why the result matters now.
-- Pass 1: empty callout stubs and empty Narration-column cells at the TotM slots this beat can actually use; no player-facing prose in those bodies.
-- Pass 2: `theatre-of-the-mind` was loaded, and Initial Narration concisely sets the scene with perceivable subjects, relationships, routes or cover, relative position, imminent pressure, actionable scene stock, drawable appearance, and a non-sight sense, then the first real player opening. Every stub and Narration cell is filled.
+- Pass 1: empty callout stubs and empty Narration-column cells at the TotM slots this beat can actually use; no player-facing prose in those bodies. How the Scene Resolves is one unconditional stub plus an options table, not a stack of variant callouts.
+- Pass 2: `theatre-of-the-mind` was loaded, and Initial Narration concisely sets the scene with perceivable subjects, relationships, routes or cover, relative position, imminent pressure, actionable scene stock, drawable appearance, and a non-sight sense, then the first real player opening. Every stub is filled. Every Narration cell that is spoken is `==_italic_==`.
 - Action cards sit near the procedure or ruling they support. Bloodied, cover-reached, and scene dials are paragraphs after the Threat clock table when a Threat clock exists.
 - Every consequence is a *ruling* (see Ruling).
 - Optional sections stay absent unless this beat spends them at the table.
@@ -316,7 +317,7 @@ Completion — all of these hold, or the draft is not done:
 - Battlemap art is embedded at the bottom when exact-scene art exists. Omit if none exists.
 - Travel omitted, or one inlined complication with a failure endpoint.
 - One cockpit: Glance once, no second Run-now, no separate Ask callout, no Scene menu, no peer Round script.
-- The only `> [!` on the card is `[!narration]`. Italic prose in Narration table columns, not callouts in cells.
+- The only `> [!` on the card is `[!narration]`. Conditional spoken in Narration table columns is `==_italic_==`, not a callout in the cell.
 - Every DM-facing line is signal-only: it changes placement, a roll, spoken words, risk, route, clock, resource, or NPC response.
 
 ## Whole-session branch

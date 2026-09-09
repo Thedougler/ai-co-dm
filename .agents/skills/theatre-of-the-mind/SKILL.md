@@ -61,7 +61,7 @@ the long *scene-setting* block: typically **two to four short spoken
 paragraphs** covering every currently perceivable subject, relationship,
 cover/route, relative position, imminent action, drawable appearance, scene
 stock, and at least one non-sight sense. Situational beat stubs (zone, tick,
-landing, creature-in-this-scene) are shorter: one to three sentences, one job,
+How the Scene Resolves, creature-in-this-scene) are shorter: one to three sentences, one job,
 no restage of Initial Narration. Fill missing visual nouns; do not pad with
 purple, mood-by-negation, or cover-story similes. Do **not** use the hit-line
 license to compress a creature first look or Initial Narration into a
@@ -378,8 +378,8 @@ slots. Fill every one. The DM may skip a block at the table; the writer
 fills all of them.
 
 **Callout stubs:** `Initial Narration` (mandatory, long scene-setting),
-`How the Scene Resolves` for the most likely options only, `{Creature}` after each roster embed,
-`Exit` only when the next cockpit is on the same file.
+one `How the Scene Resolves` for the unconditional end state, `{Creature}` after each roster embed,
+`Exit` only when the next cockpit is on the same file. Most-likely options sit in a table beside that callout (`run-guide`).
 
 **Cliffhanger beat narration:** a Cliffhanger stub carries the same contracts
 as other session-beat stubs with a physical-pressure focus. Initial Narration
@@ -429,7 +429,7 @@ already in motion. Weave drawable appearance and at least one non-sight sense
 into the opening picture, including the scene stock needed for the first real
 choice. The reaction point for a Hook is the first player decision of the
 session — stop when the party has enough to choose a response, not after the DM
-has described every prepared element. Smaller Hook stubs (zone, tick, landing)
+has described every prepared element. Smaller Hook stubs (zone, tick, How the Scene Resolves)
 stay one to three sentences, one job. Intensity in a Hook comes from immediacy
 and concrete stakes, not volume or purple urgency.
 
@@ -441,12 +441,14 @@ natural stop is a renewed choice: players can name what is different and what
 they want next. Do not smuggle in DM conclusions, future montage, or moral
 summary.
 
-**Table Narration columns:** when Zones or Threat clock tables include a
-Narration column, write italic spoken prose in that cell — one to three
-sentences, one job per cell. These replace `{Place}` and `Tick {n}` stubs.
-When the column is absent, fill callout stubs after the table instead.
+**Table Narration columns:** when Zones, Threat clock, or How the Scene Resolves
+options tables include a Narration column, write conditional spoken prose in
+that cell as `==_italic_==` — one to three sentences, one job per cell. These
+replace `{Place}` and `Tick {n}` stubs, and they replace stacked variant
+callouts. When a Zones or Threat clock column is absent, fill callout stubs
+after the table instead.
 
-Smaller blocks (zone, tick, landing, creature-in-scene) do not restage
+Smaller blocks (zone, tick, How the Scene Resolves, creature-in-scene) do not restage
 Initial Narration.
 
 ## Draft and review

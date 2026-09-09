@@ -8,7 +8,7 @@ description: >
   (the only callout), boxed text, room keys, dialogue, flavor, and DM-facing
   headings and body copy. Use to fill empty session-beat [!narration] stubs
   after mechanical run-guide construction (Initial Narration plus zone, tick,
-  landing, and roster stubs).
+  How the Scene Resolves, and roster stubs).
   Use when default Grok copy is too terse, telegraphic, or novel-like.
   Not canon invention, monster/item math, MOC/index structure, ingest
   routing, or run-guide schema.

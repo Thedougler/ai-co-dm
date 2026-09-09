@@ -77,8 +77,8 @@ in `run-guide`; this skill supplies table-useful stock:
    success and failure both say what changes. Every cell is a *ruling*
    (`run-guide` Ruling). No Partial definition on the card. Not a menu to read
    aloud.
-10. **Landing payload:** the next scene's opening state in feet and RAW
-    conditions, plus only variants the beat can actually produce.
+10. **How the Scene Resolves:** the next scene's opening state in feet and RAW
+    conditions, plus only the most likely options the beat can actually produce.
 11. **If ignored:** one-step independent consequence when delay changes play.
 12. **Time:** 30-minute budget and *cut lines* only when they change a pacing
     choice. Unbounded travel is the next beat, not this stock.

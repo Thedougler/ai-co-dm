@@ -77,10 +77,14 @@ This beat is thirty minutes.
 
 ## How the Scene Resolves
 
-Write only the most likely options.
+Write only the most likely options. Narration cells use `==_spoken_==`.
 
 > [!narration] How the Scene Resolves
 >
+
+| If | Next | Narration |
+| --- | --- | --- |
+|  |  |  |
 
 ## Roster
 

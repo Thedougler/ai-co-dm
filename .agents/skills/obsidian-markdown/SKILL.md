@@ -19,7 +19,7 @@ write must preserve vault wikilinks, applicable callouts, and AGENTS properties.
 
 - **Wikilinks in-vault:** `[[Note]]` / `[[Note|text]]` / `[[Note#Heading]]`. Markdown links only for external `https://` URLs.
 - **Frontmatter (AGENTS):** include when applicable — `type`, `campaign`, `status`, `tags`, `visibility: table | dm`. Prefer AGENTS fields over generic `title`-only notes. `type` enum: `hub` | `campaign` | `session-prep` | `session` | `npc` | `pc` | `location` | `faction` | `quest` | `front` | `encounter` | `item` | `monster` | `lore` | `template` | `lexicon`.
-- **Player prose:** owner pages use leading `> [!narration] Narration` (empty until TotM fill). Session/run beats use mandatory `> [!narration] Initial Narration` plus titled stubs per `run-guide` TotM slots. Empty on mechanical pass 1; fill on pass 2. No secrets/DCs/unearned names inside `[!narration]`.
+- **Player prose:** owner pages use leading `> [!narration] Narration` (empty until TotM fill). Session/run beats use mandatory `> [!narration] Initial Narration` plus titled stubs per `run-guide` TotM slots. Unconditional spoken stays in `[!narration]`. Conditional spoken lives in a table cell as `==_italic_==`. Empty on mechanical pass 1; fill on pass 2. No secrets/DCs/unearned names inside `[!narration]` or those highlighted cells.
 - **Live session surfaces:** In run-guide, session-prep, session, and beat notes, never use collapsed callouts (`[!…]-`); keep DM information open so session cards do not hide it. Collapsed secrets remain allowed on long-lived owner pages (NPC/PC/faction) when useful.
 - **Real body newlines:** Prose, lists, and callout bodies must use real line breaks, never a literal backslash followed by `n`. This is especially strict for run-guide, session-prep, session, and beat notes. The only exemptions are YAML frontmatter and fenced code/statblocks (including YAML string values inside a statblock fence); outside those regions, a literal `\n` is a FAIL.
 - **Complete sentences on live surfaces:** Every DM-facing line on a run guide, session prep, or beat card must be a **complete grammatical sentence** (or a short list of complete sentences). Telegram shorthand, letter-code-only clauses, and slash-stacks that need a decoder are presentation fails. Wikilinks, bold field labels, compact tables, and the **at-table check/save grammar** below are allowed when cells remain readable sentences or clear subject-bearing fragments.
@@ -38,7 +38,7 @@ write must preserve vault wikilinks, applicable callouts, and AGENTS properties.
 3. If `type: monster` → optional `## Statblock`, then the `statblock` fence.
 4. Leading `[!narration]` when the template expects it.
 5. Body: one topic/note; facts to run, say, or know; wikilink nearest index/MOC/`hot` as needed. Drop `## Do not` and other author-process bans.
-6. On session/run beats, DM truth and procedure are headings; the only callout is `[!narration]`. Do not put callouts inside table cells. On owner pages, DM procedure / hidden truth → `[!mechanic]` or `[!secret]`. Use collapsed `[!secret]-` only on long-lived owner pages such as NPC/PC/faction pages.
+6. On session/run beats, DM truth and procedure are headings; the only callout is `[!narration]`. Do not put callouts inside table cells. Conditional spoken in a cell is `==_italic_==`. On owner pages, DM procedure / hidden truth → `[!mechanic]` or `[!secret]`. Use collapsed `[!secret]-` only on long-lived owner pages such as NPC/PC/faction pages.
 7. In prose, lists, and callout bodies, type each line break as a real newline; do not serialize it as a backslash-`n` sequence.
 
 ## Syntax (day-to-day)
@@ -97,9 +97,10 @@ One treatment, one meaning. **Bold** always means look here / mechanical noun �
 | DC | `inline code` | `DC 15` |
 | Damage / mechanical numbers | `inline code` | `2d6 + 3` fire damage |
 | Result / consequence | → arrow | → Spots the concealed tunnel. |
-| Player narration | Narration callout | `> [!narration]` |
+| Unconditional spoken | Narration callout | `> [!narration]` |
+| Conditional spoken in a table cell | Highlighted italic | `==_The grass closes over you._==` |
 
-**Bold** = look here / mechanical noun. `` `code` `` = the number you need. Plain text = what happens. → = what a mechanic produces. `[!narration]` = words potentially spoken aloud.
+**Bold** = look here / mechanical noun. `` `code` `` = the number you need. Plain text = what happens. → = what a mechanic produces. `[!narration]` = words always spoken on this slot. `==_italic_==` in a table cell = words spoken only if that row is live.
 
 Check, save, and DC choice still come from `dnd5e-mechanics`. This section is the mark.
 
@@ -157,7 +158,7 @@ Narration stays visually isolated. Mechanics sit in the DM layer after it:
 The creature attacks from concealment.
 ```
 
-On a `run-guide` Be ready for table, the same treatments apply inside cells: approach is **Ability (Skill)**; DC column is `` `DC 14` ``; dice and damage are inline code; applied conditions are **bold**. The columns already split success / partial / failure, so those cells do not also need →.
+On a `run-guide` Be ready for table, the same treatments apply inside cells: approach is **Ability (Skill)**; DC column is `` `DC 14` ``; dice and damage are inline code; applied conditions are **bold**. The columns already split success / partial / failure, so those cells do not also need →. Zones, Threat clock, and How the Scene Resolves Narration cells are spoken variants: wrap the italic sentence in `==_…_==`. Ruling cells stay plain.
 
 ### Properties
 
@@ -188,7 +189,8 @@ Types and tags: [references/PROPERTIES.md](references/PROPERTIES.md).
 | Owner's full Multiattack/HP table retyped above the embed | `![[Monster#Statblock]]` at the bottom plus action-card compact numbers (`run-guide`) |
 | Secrets inside `[!narration]` | Session/run: DM truth as a heading. Owner pages: `[!secret]` / `[!secret]-` |
 | `**DC 15**` or `**DC 15** *Perception*` | `**Wisdom (Perception) — \`DC 15\`**` |
-| `==highlight==` for a private DM note | Session/run: a heading. Owner page: `[!secret]` / `[!mechanic]` |
+| `==highlight==` for a private DM note | Session/run: a heading. Owner page: `[!secret]` / `[!mechanic]`. Session/run table cells use `==_spoken_==` only for conditional player-facing prose |
+| Stacked variant `[!narration]` blocks for if/then outcomes | One unconditional `[!narration]`; likely options in a table with `==_text_==` (`run-guide`) |
 | `## Do not` / author-process bans on campaign pages | Facts to run, say, or know; unresolved as unknowns or table limits |
 | New `wiki/` or `concepts/` folders | `campaigns/` · `lexicon/` · `inbox/` |
 | WotC book paste | paraphrase / house / SRD link in `source` |
