@@ -44,3 +44,16 @@ For each **status:** `open` entry:
 4. Set **status:** `closed` and add **Fix:** path + one line what changed.
 
 ## Log
+
+### 2026-09-09 — L0 Glance heading
+
+**Error:** wrote `## L0 · Glance` on [[Session-11-03-Wolfrabbits]].
+
+**Correction:** Do not use an L0 section. Use `## At a Glance`.
+
+**Read:** `campaigns/shattered-sea/sessions/11/Session-11-03-Wolfrabbits.md`; `skill://run-guide`
+
+**count:** 1
+
+**status:** open
+
