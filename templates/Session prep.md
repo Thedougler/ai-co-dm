@@ -39,8 +39,9 @@ Playable scene cards — a menu, not a path. About one card per forty-five minut
 - **Spotlight:** [[PC]] — the specific thread.
 - **Scene stock:** Visible hazards, loot, monsters, routes, clues, lore signs,
   and world details players can act on now.
-- **Language / media:** Descriptive, specific, plain language. Distinct prose
-  and distinct art or map for this scene.
+- **Language / media:** Descriptive, specific, plain language. Normal words
+  unless a normal word would be inaccurate. Distinct prose and distinct art or
+  map for this scene.
 
 > [!narration] On arrival
 >
@@ -155,7 +156,8 @@ Parcels if earned.
 - Narration blocks must weave all accessible scene stock into flowing spoken
   prose before asking the table to act.
 - Use descriptive, specific, plain language everywhere; no opaque internal
-  labels. Different scenes need distinct prose and distinct media.
+  labels or fancy terms where normal words work. Different scenes need distinct
+  prose and distinct media.
 - Do not use collapsed callouts (`[!…]-`); the DM must see every line.
 - No scripted dialogue trees.
 - No locked clue locations.

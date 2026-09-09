@@ -32,9 +32,10 @@ Obsidian LLM wiki for Nick's home D&D. **Markdown is the product.**
   different thing.
 - No opaque internal labels. Use normal kitchen-table names in DM notes and
   player prose; if a name needs decoding, rename or describe the ordinary thing.
-- Descriptive, specific, plain language is the default everywhere. Prefer the
-  ordinary noun plus the visible difference over coined labels, poetic shorthand,
-  or private campaign jargon.
+- Descriptive, specific, plain language is the default everywhere. Use common,
+  normal human words unless the common word would be inaccurate. Prefer the
+  ordinary noun plus the visible difference over coined labels, poetic
+  shorthand, fancy terminology, or private campaign jargon.
 
 ## Write
 

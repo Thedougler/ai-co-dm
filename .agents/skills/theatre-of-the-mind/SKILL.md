@@ -27,6 +27,9 @@ that paints a complete picture for that surface, not a telegram of facts.
 Descriptive, specific, plain language is the default everywhere: the ordinary
 noun plus the visible difference beats a coined label, poetic shorthand, or
 private campaign term.
+Use common, normal human words unless the common word would be inaccurate. The
+goal is clear table communication, not literary display. A line that sounds like
+it is trying to impress an English professor is failing the table.
 
 **Complete picture, not pad.** Cover every relevant player-visible fact the
 surface owes (subject, relationships, senses the viewpoint can use, motion or
@@ -274,12 +277,13 @@ wrapper follows the host or page request; do not force an encounter question.
 
 ## Invariants across surfaces
 
-- Use a plain noun and a concrete verb first (**kitchen-table** language on
-  places, creatures, and items alike: river mouths, not river cuts; clear body,
-  not lobed mantle). Add at most one unusual comparison when it makes the thing
-  memorable. Give one setting-specific signature property (material, practice,
-  sound, behavior, or contradiction) to a usable noun or affordance. Generic
-  mood must come from evidence. A signature or camouflage claim must be
+- Use a common noun and a concrete verb first (**kitchen-table** language on
+  places, creatures, and items alike: river mouths, not river cuts; body, not
+  lobed mantle). Use a specialist term only when the common word would be wrong
+  or too vague for a table decision. Add at most one unusual comparison when it
+  makes the thing clearer. Give one setting-specific signature property
+  (material, practice, sound, behavior, or contradiction) to a usable noun or
+  affordance. Generic mood must come from evidence. A signature or camouflage claim must be
   **drawable evidence** (named color, material, edge, mismatch a looker could
   miss), not a purple merge (`takes branch and leaf`, `becomes the canopy`,
   `merges with the green`). Do not fake completeness with **mood-by-negation**

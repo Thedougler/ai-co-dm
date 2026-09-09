@@ -21,16 +21,23 @@ the description.
 
 Write so a player can hear it once and know what they can point at, understand,
 or answer. Use the concrete noun and verb first; let one setting-specific
-signature property do memorable work. Plain word before specialist word
-(**kitchen-table** for places too: river mouths, wet stone, far bank). One
-unusual comparison can sharpen a picture, but a private metaphor must not
-become the subject. Generic mood is not evidence.
+signature property do memorable work. Use common, normal human words unless the
+common word would be inaccurate. This is table communication, not literary
+display: river mouths, wet stone, far bank; not river cuts, embouchure, thalweg,
+or ornate synonyms. One unusual comparison can sharpen a picture only when it
+makes the image clearer. A private metaphor must not become the subject.
+Generic mood is not evidence.
 
 Use normal kitchen-table language for campaign labels in DM notes and
 player-facing prose. A name such as `Print Braid` fails because it is opaque;
 write the ordinary thing instead: tracks split, cross, and join again. If the
 DM would need to ask what the word means, replace it with the ordinary noun and
 visible action before it enters a note or reaches `[!narration]`.
+
+Fancy terminology fails unless it carries necessary precision that normal
+language cannot. Do not use rare words, coined terms, academic labels, craft
+vocabulary, or poetic compression to make simple information feel elevated.
+Say the thing plainly and directly so normal humans can act on it.
 
 **Hard ban in player-facing prose:** the em dash (`—`) and en-dash clones used
 as AI slop punctuation. Prefer period, comma, or parenthesis. Do not echo
@@ -165,6 +172,7 @@ evidence.
 | em dash (`—`) or en-dash used as stylish pause in player prose | period, comma, or parenthesis |
 | river cuts / embouchure / thalweg / other workshop geography | river mouths, where the rivers open into the lake, lake edge |
 | braid / print braid / other opaque campaign label as spoken geography | tracks split, cross, and join; prints in the mud; forked trail |
+| fancy, academic, or poetic term where a normal word works | the common word and the visible difference |
 | invented mystery closer (`shadow turns, then still` / `then everything goes still`) on cold place portrait | cut; stable geography only unless table state supplies current motion |
 | enormous life theme with no parent-stable ecology fact | defer to DM/encounter; do not invent a motion sting |
 | spins like a meditation focus / as a focus for prayer (as the description) | how it physically spins, wobbles, sits, or weighs; cover names stay Identified/DM |

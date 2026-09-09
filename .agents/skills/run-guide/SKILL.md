@@ -30,7 +30,8 @@ A DM-facing line stays if Nick will use it this slice to **place** someone,
 **roll** something, or **speak**. Distances, speeds, named *rulings*, the
 opposition want, and the spoken block earn their keep. House Partial, 5e
 defaults, schema commentary, and notes to the writer stay in this skill.
-Use descriptive, specific, plain language on the DM card too. If a name or
+Use descriptive, specific, plain language on the DM card too. Use common,
+normal human words unless the common word would be inaccurate. If a name or
 field needs decoding, replace it with the ordinary thing and visible action.
 
 ## Workflow
