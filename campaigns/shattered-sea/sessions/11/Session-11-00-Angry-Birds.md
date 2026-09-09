@@ -131,7 +131,7 @@ Morning on [[Aruhe - Grasslands Print Braid]]. The smoke is nearer through the t
 **Run:** [[Session-11-08-Farthest-Camp]]
 
 - **Purpose:** They meet the Calveno wreck people who got farthest inland. The prize is complicated: some of them want rescue, and this camp wants a garden.
-- **Table sees:** A small camp at the smoke. Several survivors, fewer than the tracks, the farthest any of that wreck has reached. Already-picked fruit. A split you can hear as soon as they talk.
+- **Table sees:** A packed dirt hub at [[Aruhe - Quiet Forest Spoke Ring]]. Several survivors, fewer than the tracks, the farthest any of that wreck has reached. Already-picked [[Aruhe - Stonepear]]. A split you can hear as soon as they talk.
   One story: a woman in the woods has been whispering, asking them to come admire her garden, telling them where to walk and what not to take.
   The other story, from people who already left this fire or from argument in it: she is leading them deeper into danger, and anyone who listens is mad.
   This camp listened. They are alive. They want to see the garden. They look past the party when the trees move.
@@ -139,7 +139,7 @@ Morning on [[Aruhe - Grasslands Print Braid]]. The smoke is nearer through the t
 - **Pressure:** If the party came to take people back to [[Uncertainty]], this camp does not all want to go. Pushing them breaks the only friendly group inland. Playing along points the night deeper into [[Aruhe - Hungry Isle]], not back to the beach. Night is coming. [[Talon Skarn]] does not care about the argument.
 - **If they break:** If they force a march to the ship tonight, some survivors balk or slip into the trees. If they agree to “just see the garden,” they are committing past this valley; do not reach the Grove tonight. If they attack the camp, they lose the prize and they still have a night watch.
 
-The smoke is a camp of Calveno wreck-survivors, the farthest inland of that raid, arguing in half-voices over a woman in the woods who asked them to come admire her garden. This group listened. They are still alive. They look at the trees as if she is already there.
+The smoke is [[Aruhe - Quiet Forest Spoke Ring]], a camp of Calveno wreck-survivors, the farthest inland of that raid, arguing in half-voices over a woman in the woods who asked them to come admire her garden. This group listened. They are still alive. They look at the trees as if she is already there.
 
 ### 9. CLIMAX — Final Battle (theft on the watch)
 

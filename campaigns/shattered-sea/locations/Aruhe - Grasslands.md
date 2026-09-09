@@ -22,7 +22,7 @@ source: "[[Aruhe - Hungry Isle]]"
 
 ---
 ## At a glance
-The Grasslands are river-cut valleys inside Aruhe's jungle, not a sixth concentric band. Freshwater forces the canopy apart into hot, open chambers of eight-foot gold-green grass, watched from the shaded rim. Free-flowing channels are drinkable. Follow water uphill into [[Aruhe - River]] and [[Aruhe - Clear Lake]]; an open route continues toward [[Aruhe - Memorial Grove]]; the terrace descent comes down from [[Aruhe - Old Gardens]]. The forest-edge print braid north of [[Aruhe - Quiet Forest Cutoff Lip|Cutoff Lip]] is [[Aruhe - Grasslands Print Braid|Print Braid]]. Stay on a ridge or grass edge and the water and cover drop away; stay in the cuts and it remains grass, river, and rim. Light and water make travelers linger in the open long enough to be seen.
+The Grasslands are river-cut valleys inside Aruhe's jungle, not a sixth concentric band. Freshwater forces the canopy apart into hot, open chambers of eight-foot gold-green grass, watched from the shaded rim. Free-flowing channels are drinkable. Follow water uphill into [[Aruhe - River]] and [[Aruhe - Clear Lake]]; an open route continues toward [[Aruhe - Memorial Grove]]; the terrace descent comes down from [[Aruhe - Old Gardens]]. The forest-edge print braid north of [[Aruhe - Quiet Forest Cutoff Lip|Cutoff Lip]] is [[Aruhe - Grasslands Print Braid|Print Braid]]. North of that braid the first Quiet hub is [[Aruhe - Quiet Forest Spoke Ring|Spoke Ring]]. Stay on a ridge or grass edge and the water and cover drop away; stay in the cuts and it remains grass, river, and rim. Light and water make travelers linger in the open long enough to be seen.
 
 ---
 ## If the party
@@ -33,6 +33,7 @@ The Grasslands are river-cut valleys inside Aruhe's jungle, not a sixth concentr
 - **Climb back toward the terraces:** [[Aruhe - Old Gardens]].
 - **Stay on a ridge or grass edge:** The valleys can be skipped; water and cover are lost.
 - **Follow the forest-edge prints north of Cutoff Lip:** [[Aruhe - Grasslands Print Braid|Print Braid]].
+- **Follow the inland prints off Print Braid into the Quiet hub:** [[Aruhe - Quiet Forest Spoke Ring|Spoke Ring]].
 - **Walk the eight-foot grass:** Difficult Terrain. Heavily obscures beyond 10 feet. Movement leaves a crushed corridor.
 - **Step from a channel onto a pale stand at a torn crossing, wallow, or flood-scoured hollow:** [[Aruhe - Razer-Grass]] blades hold fixed glitter and make a glassy tinkle. Contact deals `1d4` slashing per `5 feet` and counts as Difficult Terrain; spend an Action to move up to `5 feet` through it, and careful passage ignores movement damage. Dashing, falling, a shove, smashing, or burning the stand triggers a **Dexterity save — `DC 14`** for `2d6` slashing and a **Constitution save — `DC 14`** against **Glass-Choked** dust. Go around, use reach and cover, or keep weight on the surrounding grass.
 - **Approach the red, yellow, and blue macaws perched along a grassland edge beside an open channel:** When a creature that knows a language comes within `30 feet` and a bird can see it, [[Aruhe - Unsaid Macaw]] repeats the creature's foremost current thought in that creature's exact voice. Once per day after a Surface Echo, the macaw may say "Confess"; a target that fails a **Wisdom save — `DC 12`** speaks one truthful sentence elaborating on the surfaced thought. Step out of sight, move beyond `30 feet`, answer plainly, or cover a mouth before the flock turns the phrase into flock-talk.
@@ -70,6 +71,7 @@ The Grasslands are river-cut valleys inside Aruhe's jungle, not a sixth concentr
 - Claimed otter basin upvalley of Line Bank: [[Aruhe - River Slack Basin|Slack Basin]]
 - Forest-edge detour off Slack Basin: [[Aruhe - Quiet Forest Cutoff Lip|Cutoff Lip]]
 - Forest-edge print braid north of that lip: [[Aruhe - Grasslands Print Braid|Print Braid]]
+- First Quiet hub north of that braid: [[Aruhe - Quiet Forest Spoke Ring|Spoke Ring]]
 - Follow water uphill into [[Aruhe - River|the River]] and [[Aruhe - Clear Lake|Clear Lake]]
 - Open route to [[Aruhe - Memorial Grove|the Grove]]
 - Lateral channels with [[Aruhe - River|the River]]

@@ -23,13 +23,13 @@ source: "[[Aruhe - Grasslands]]"
 
 ---
 ## At a glance
-Print Braid is a forest-edge stretch of [[Aruhe - Grasslands]], north of [[Aruhe - Quiet Forest Cutoff Lip|Cutoff Lip]], with [[Aruhe - River]] on the southwest bank and [[Aruhe - Quiet Forest]] as the jungle wall. Unlike Cutoff Lip's packed sleep-shelf and knee palisade, this site is grass and dirt: one inland strand keeps the hard prints toward nearer smoke, and the other strands drop to river stones or into the wood. Stay on a ridge or turn back to Cutoff Lip and the braid can be skipped; walk the packed inland line and it remains prints through eight-foot grass, wood forks with no matching feet, and a cobble ring at the water. The inland group kept the grass strand. The wood forks have no matching feet.
+Print Braid is a forest-edge stretch of [[Aruhe - Grasslands]], north of [[Aruhe - Quiet Forest Cutoff Lip|Cutoff Lip]], with [[Aruhe - River]] on the southwest bank and [[Aruhe - Quiet Forest]] as the jungle wall. Unlike Cutoff Lip's packed sleep-shelf and knee palisade, this site is grass and dirt: one inland strand keeps the hard prints toward [[Aruhe - Quiet Forest Spoke Ring|Spoke Ring]], and the other strands drop to river stones or into the wood. Stay on a ridge or turn back to Cutoff Lip and the braid can be skipped; walk the packed inland line and it remains prints through eight-foot grass, wood forks with no matching feet, and a cobble ring at the water. The inland group kept the grass strand. The wood forks have no matching feet.
 
 ---
 ## If the party
 
 - **Drink from the free-flowing river:** The water is drinkable. That is not a claim.
-- **Follow the packed inland prints:** The hard strand keeps north through the grass toward the smoke. That walk is beat 8.
+- **Follow the packed inland prints:** The hard strand keeps north through the grass onto [[Aruhe - Quiet Forest Spoke Ring|Spoke Ring]]. That walk is beat 8.
 - **Walk back south:** [[Aruhe - Quiet Forest Cutoff Lip|Cutoff Lip]].
 - **Stay on a ridge or turn back and skip the braid:** The wood forks, grass, cobble ring, and print line are lost.
 - **Walk the eight-foot grass:** Difficult Terrain. Heavily obscures beyond 10 feet. Movement leaves a crushed corridor.
@@ -57,12 +57,12 @@ Print Braid is a forest-edge stretch of [[Aruhe - Grasslands]], north of [[Aruhe
 - [[Aruhe - Ghost Plum]] hangs under wet leaves in the wood forks, hard to place until pollen catches its edge.
 - A ring of wet cobbles sits on the southwest river bank. There is no fire and no kit. Free-flowing water there is drinkable.
 - Open sky sits over the grass. The jungle wall takes the small sounds as soon as a path enters the wood.
-- A thin column of smoke stands nearer along the inland strand. It is not on this braid.
+- The inland strand keeps toward [[Aruhe - Quiet Forest Spoke Ring|Spoke Ring]]. That hub is not on this braid.
 
 ---
 ## Where
 
-- **North:** Packed prints follow the inland strand through this grassland edge toward inland smoke. This is the same valley, not a day's travel. The smoke is not on this braid. No established named camp on that trail yet.
+- **North:** Packed prints follow the inland strand through this grassland edge onto [[Aruhe - Quiet Forest Spoke Ring|Spoke Ring]]. This is the same valley, not a day's travel.
 - **East:** More [[Aruhe - Grasslands]] opens where the grass stands highest. No established next named grassland site on that opening.
 - **South:** The packed line returns to [[Aruhe - Quiet Forest Cutoff Lip|Cutoff Lip]], then the bloody-bank detour toward [[Aruhe - River Slack Basin|Slack Basin]].
 - **West:** Wood forks enter [[Aruhe - Quiet Forest]]. The river bank and cobble ring sit southwest on [[Aruhe - River]].
@@ -70,7 +70,7 @@ Print Braid is a forest-edge stretch of [[Aruhe - Grasslands]], north of [[Aruhe
 ---
 ## Why
 
-- The packed prints keep going toward the nearer smoke.
+- The packed prints keep going toward [[Aruhe - Quiet Forest Spoke Ring|Spoke Ring]].
 - The braid offers grass, wood, and water as soon as the inland line splits.
 - Fallen fruit hangs at the jungle rim and in the wood forks.
 
