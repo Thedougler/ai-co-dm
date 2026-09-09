@@ -52,22 +52,40 @@ clock is only suspense when players can perceive and influence its direction.
 ## Output
 
 Use `templates/Encounter.md` for reusable notes. A session-only scene that will be
-run tonight is a **cockpit** (`run-guide`); emit the stock that cockpit inlines.
-Field order and *procedure* live in `run-guide`; this skill supplies the stock:
+run tonight is a **cockpit** (`run-guide`); emit only the stock that cockpit
+inlines. Field order, lean section choice, image placement, and *procedure* live
+in `run-guide`; this skill supplies table-useful stock:
 
 1. **Brief:** who, where, why now, visible pressure and fuse.
-2. **Now / positions:** who starts where, in feet from cover; speeds that matter; what a move vs Dash reaches. (The cockpit writes this under Now, not a Starting state heading.)
-3. **Action cards:** opposition loop with named actions; compact default-mode numbers (AC, one attack, scatter/bloodied HP). Missing owner → `homebrew-monsters-5e`.
-4. **Roster embeds:** `![[Monster#Statblock]]` targets for *combat mode*. Full fences stay on the card; do not retype the owner’s Multiattack/HP table into the brief. Empty `{Creature}` TotM stub after each embed.
-5. **Zones:** 3–5 named places with distances in feet; same numbers as Now; features both sides can use. Prefer a **Narration** column (italic spoken prose per row). When the column is absent, empty `{Place}` TotM stub after the table for each row instead.
-6. **Procedure + threat clock:** one loop. Clock **is** the opposition’s turn (the old R1–R3 live as ticks). Bloodied as an HP number; cover-reached; scene dials as paragraphs after the table. Failures impose listed *rulings* and do not also tick. Prefer a **Narration** column (italic prose per tick). When absent, empty `Tick {n}` stub after the table instead.
-7. **Battlemap:** embed existing battlemaps and creature identity images from `attachments/` between Initial Narration and Procedure. When a battlemap exists, use the shared compass for zones and spoken orientation: top north, right east, bottom south, left west. Omit if none exist.
-8. **Tells:** three independent player-visible clues for any conclusion the table must reach. Currently visible cover/routes belong in Initial Narration, not on tick 1. Leave `Initial Narration` empty; TotM fill is pass 2.
-9. **Be ready for:** likely intents including **Assess the situation** when the opening is readable as “what is it hunting?” Every cell is a *ruling* (`run-guide` Ruling). No Partial definition on the card. Not a menu to read aloud.
-10. **Secondary objective:** if “save X” is listed, beats required, ignore outcome, later consequence.
-11. **Landing payload:** the next scene’s opening state in feet and RAW conditions, plus empty Landing / variant stubs.
-12. **If ignored:** one-step independent consequence (tick 1 of the clock after a freeze round).
-13. **Time:** 30-minute budget and *cut lines* as paragraphs (If behind / If ahead). Unbounded travel is the next beat, not this stock.
+2. **Now / positions:** who starts where, in feet from cover; compass directions
+   that matter; speeds that matter; what a move vs Dash reaches. The cockpit
+   writes this under Now only when Glance would otherwise get crowded.
+3. **Action cards:** opposition loop with named actions; compact default-mode
+   numbers the DM will roll. Missing owner → `homebrew-monsters-5e`.
+4. **Roster embeds:** only for creatures or items the DM will roll or spend.
+5. **Zones:** named places with distances in feet and compass directions; same
+   numbers as Now; features either side can use.
+6. **Procedure + threat clock:** one loop. Failures impose listed *rulings* and
+   do not also tick. Clock ticks state what becomes visible, usable,
+   threatened, blocked, or changed.
+7. **Images:** overview or identity art is a top anchor; battlemap art is a
+   bottom anchor after the runnable card. Omit missing art.
+8. **Tells:** clues only for conclusions the table can act on now. Every tell
+   needs a concrete player use; otherwise cut it. Currently visible cover and
+   routes belong in Initial Narration, not on tick 1.
+9. **Be ready for:** likely intents including **Assess the situation** only when
+   success and failure both say what changes. Every cell is a *ruling*
+   (`run-guide` Ruling). No Partial definition on the card. Not a menu to read
+   aloud.
+10. **Landing payload:** the next scene's opening state in feet and RAW
+    conditions, plus only variants the beat can actually produce.
+11. **If ignored:** one-step independent consequence when delay changes play.
+12. **Time:** 30-minute budget and *cut lines* only when they change a pacing
+    choice. Unbounded travel is the next beat, not this stock.
+
+Do not emit coy hidden-info placeholders, "do not reveal" notes, or negative
+facts that do not change a current choice. The cockpit is DM-facing; name the
+DM fact plainly, then keep unearned knowledge out of player-facing prose.
 14. **Owner image:** reuse any identity image already listed on the owner page (`![[attachments/…]]`). Do not mint art. Do not fill TotM.
 
 For combat compare action economy, burst/sustained damage, control, terrain, escape, and party

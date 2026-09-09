@@ -48,11 +48,17 @@ distance, or travel time is also present.
 session. Every later beat starts from the immediate current situation and does
 not summarize earlier beats, prior-session events, or how the party got here.
 
+**No coy DM text.** The card is for the DM. If the DM needs to know who or what
+is present, name it plainly in DM-facing text. If the players have not earned
+that knowledge, keep it out of `[!narration]`; do not write vague placeholders
+such as "a figure may be there" or instructions such as "do not call that out."
+
 A DM-facing line stays only if Nick will use it this slice to **place** someone,
 **roll** something, **speak**, or decide a changed risk, route, clock, resource,
 or NPC response. Distances, speeds, named *rulings*, the opposition want, and
 the spoken block earn their keep. Default safety, ordinary permission, Partial
 rules, 5e defaults, schema commentary, and notes to the writer stay out.
+Negative facts earn space only when they change a current choice or ruling.
 Use descriptive, specific, plain language on the DM card too. Use common,
 normal human words unless the common word would be inaccurate. If a name or
 field needs decoding, replace it with the ordinary thing and visible action.
@@ -129,7 +135,7 @@ heading unless creating a new file; for new beat files, prefer `L0 · Glance`.
 | **Battlemap** | A battlemap or exact-scene image exists. | Heading `## Battlemap` at the bottom of the file after the runnable card. Embed existing battlemap art from `attachments/`. Use the shared compass: top north, right east, bottom south, left west. Omit if none exists. |
 | **Procedure** | The beat has a named mode, fuse, clock trigger, combat switch, pursuit rule, or repeated resolution loop. | Heading `## Procedure`. Name the mode and this slice's trigger once. Not 5e turn order. Not a `[!mechanic]` callout. |
 | **Zones** | Positions, routes, cover, distance, search areas, or scene stock matter. | Table: place \| distance in feet \| cover \| narration. Same concrete distances and compass directions as Now. Each row names decision-useful scene stock in that zone. The **Narration** column carries italic spoken prose for that zone, not a callout. When the Narration column is absent, one empty `> [!narration] {Place}` stub per row after the table instead. |
-| **Be ready for** | Players are likely to attempt consequential actions, checks, tactics, or negotiations. | Table: intent \| approach \| DC \| success \| partial \| failure. Approach is **Ability (Skill)** when a check applies. DC column is `` `DC 14` ``. Dice and damage in cells are inline code. Applied conditions are **bold**. Name the creature, item, and place in every cell. Every cell is a *ruling*. Include **Assess the situation** only when the opening could be read as “what is it hunting / doing?” No Partial definition on the card. |
+| **Be ready for** | Players are likely to attempt consequential actions, checks, tactics, or negotiations. | Table: intent \| approach \| DC \| success \| partial \| failure. Approach is **Ability (Skill)** when a check applies. DC column is `` `DC 14` ``. Dice and damage in cells are inline code. Applied conditions are **bold**. Name the creature, item, and place in every cell. Every cell is a *ruling*. Include **Assess the situation** only when success and failure both say what changes. No Partial definition on the card. |
 | **Threat clock** | A fuse or opposition turn changes the situation. | Heading `## Threat clock`. Table: tick \| what happens \| narration. Named ticks. 3-4 ticks. Each tick states what newly becomes visible, usable, threatened, blocked, or changed. The **Narration** column carries italic spoken prose. When the column is absent, one empty `> [!narration] Tick {n}` stub per tick after the table instead. Bloodied, cover-reached, and scene dials live as paragraphs after the table. |
 | **Secondary objective** | A second question runs in parallel and changes outcome or later consequence. | Heading `## Secondary objective`. One paragraph: beats required, ignore outcome, later consequence. Omit when there is no second objective. |
 | **Landing** | Every live beat needs the next state. | Heading `## Landing`. Next state, damage already applied, relevant conditions, and what follows. Empty `> [!narration] Landing` plus one titled stub per named variant. Keep only variants this beat can actually produce. |
@@ -277,6 +283,8 @@ wait for tick 1. When the table has a Narration column, that cell is the spoken
 update slot; otherwise use `Tick {n}` callout stubs.
 
 **Tells.** Any conclusion the table must be able to reach gets three independent visible tells in Initial Narration or Now (Three Clue Rule).
+Tells are for actionable conclusions, not hidden teaser content. If a clue has
+no clear success result, failure result, and player use, cut it.
 
 **Exit narration.** Player-facing handoff into the next live card. Empty stub on pass 1 only when that card exists on this file. It does not ask what they do.
 
@@ -298,6 +306,8 @@ Completion — all of these hold, or the draft is not done:
 - If `## Now` is present, it states positions and speeds in feet; the zone table uses those distances.
 - Spatial and travel measurements use north, south, east, west, feet for tactical 5.5e distance, and days, hours, or minutes for travel time; no range bands or abstract distance labels stand in for measurement.
 - No `DM truth` section. Hidden intent, opposition wants, and canon constraints live inline where the DM uses them.
+- No coy placeholders, mystery hedges, or "do not reveal this" notes in DM-facing text. Name the DM fact plainly or omit it.
+- No naked checks. Every check says what success reveals or changes, what failure changes, and why the result matters now.
 - Pass 1: empty callout stubs and empty Narration-column cells at the TotM slots this beat can actually use; no player-facing prose in those bodies.
 - Pass 2: `theatre-of-the-mind` was loaded, and Initial Narration concisely sets the scene with perceivable subjects, relationships, routes or cover, relative position, imminent pressure, actionable scene stock, drawable appearance, and a non-sight sense, then the first real player opening. Every stub and Narration cell is filled.
 - Action cards sit near the procedure or ruling they support. Bloodied, cover-reached, and scene dials are paragraphs after the Threat clock table when a Threat clock exists.

@@ -152,6 +152,11 @@ or “if anyone touches it” branch to spoken text.
 If a description gives the table a false mental model, correct it directly.
 Communication must not become a hidden challenge. Do not hide obvious geometry,
 conspicuous danger, or normal expertise to manufacture mystery.
+DM-facing notes do not need coy fog. Name the fact for the DM, and withhold it
+only from player-facing prose until the table earns it. Do not write vague
+placeholders such as "someone may be there" when the source identifies the
+actor, and do not add "do not reveal this" reminders as spoken or table-facing
+content.
 
 ## Parent, canon, and stock
 

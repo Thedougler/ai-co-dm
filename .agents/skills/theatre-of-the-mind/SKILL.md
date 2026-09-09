@@ -48,7 +48,7 @@ the smoke beyond the prints, the glass grass under the only dry route, the
 priest's stained sleeve beside the missing coin box. Do not dump a catalog.
 Omitting actionable scene stock is a failure; padding the block with
 non-actionable color is also a failure.
-Player-facing prose is signal-only too: every sentence must change the picture, attention, risk, route, relationship, or possible action. Cut ordinary defaults and no-effect reassurance.
+Player-facing prose is signal-only too: every sentence must change the picture, attention, risk, route, relationship, or possible action. Cut ordinary defaults and no-effect reassurance. State a visible relation once in its strongest place; repeating the same line-of-sight, cover, route, or absence claim in both a table cell and the spoken prose is padding unless the second use changes the picture or choice.
 
 Length still follows the moment: a hit, reveal, or dialogue turn may be one
 tight line; a `[!narration]` portrait, room/place first look, creature first
@@ -465,9 +465,10 @@ they have currently visible cover, routes, relative position, imminent action,
 relevant scene stock, drawable look, and a non-sight sense, or if
 look/sound/scene stock were left as a DM list under the callout.
 Cut telegram lists, isolated details, private metaphors, premature labels,
-unsupported mechanics, and future outcomes. Cut purple register that adds no
-drawable fact. Add the missing noun, relationship, second sense, access, or
-opening when the picture or agency is incomplete — never by stacking synonyms.
+unsupported mechanics, future outcomes, and repeated line-of-sight, cover,
+route, or absence claims. Cut purple register that adds no drawable fact. Add
+the missing noun, relationship, second sense, access, or opening when the
+picture or agency is incomplete — never by stacking synonyms.
 
 For **session-beat** situated narration, use second person and present tense:
 **you see**, **you hear**, **you feel** (physical), **you smell**. Owner-page

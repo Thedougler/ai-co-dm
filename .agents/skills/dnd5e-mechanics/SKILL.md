@@ -29,6 +29,9 @@ License, available at https://creativecommons.org/licenses/by/4.0/legalcode.
 - Every written test is one *d20 test* (*check*, *save*, or attack) with a *DC*
   (or AC). Mark it **Wisdom (Survival) — `DC 15`** (at-table grammar in
   `obsidian-markdown`).
+- Every written test is complete on the page: what success reveals or changes,
+  what failure changes, and why the result matters now. A naked check such as
+  "optional Perception `DC 20`" with no concrete result is unfinished output.
 - The *DC* is a typical-band *rung*, a named 2024 procedure, or `8 + PB + ability modifier` for an imposed *save*.
 - A valuable, contested, or graded *interactable* has a *quality ladder* or two
   approaches, plus a failure that changes play. The prize sits on Hard (`DC 20`)
@@ -171,7 +174,8 @@ treatments (approach **Ability (Skill)**; DC column `` `DC 14` ``).
 **Complete when:** every written test matches that grammar; player-activity
 tests live under **If the party**; only optional/secret/non-obvious tests sit
 elsewhere; player prose has no *DC*, save type, or unearned name; no line
-exists only to say a roll is absent.
+exists only to say a roll is absent; no naked optional check remains without a
+success result, failure result, and current player use.
 
 ## Handoffs
 
