@@ -117,7 +117,7 @@ The crew is in moving water and eight-foot grass, or crash-landed or scattered i
 ![[attachments/shattered-sea/creatures/great-crown-squid-of-aruhe-01.jpg|Great Crown Squid of Aruhe]]
 ## Backup
 
-[[Aruhe - Old Gardens]] · [[Aruhe - Grasslands]] · [[Aruhe - River]] · [[Aruhe - Beach]] · [[Uncertainty]] · [[Session-11-00-Angry-Birds]] · [[Aruhe-River-Grasslands-Tables]]
+[[Aruhe - Old Gardens]] · [[Aruhe - Grasslands]] · [[Aruhe - River]] · [[Aruhe - Beach]] · [[Uncertainty]] · [[Session-11-00-Birds-of-a-Feather]] · [[Aruhe-River-Grasslands-Tables]]
 ## Battlemap
 
 ![[attachments/shattered-sea/battlemaps/session-11-01-angry-birds-base.png|Session 11-01 Angry Birds battlemap]]

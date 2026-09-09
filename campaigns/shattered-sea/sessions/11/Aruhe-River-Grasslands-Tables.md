@@ -15,7 +15,7 @@ cssclasses:
 
 # Aruhe River / Grasslands Hazards
 
-The single current-hazards table for [[Session-11-00-Angry-Birds]]. No Grung. Do not restage beat 9 ([[Talon Skarn]]) or pull [[Aruhe - Hinewai]].
+The single current-hazards table for [[Session-11-00-Birds-of-a-Feather]]. No Grung. Do not restage beat 9 ([[Talon Skarn]]) or pull [[Aruhe - Hinewai]].
 
 ## L0 · At a glance
 
@@ -59,7 +59,7 @@ If the rolled hazard does not belong in the current ground, reroll once. If a de
 
 ## Ran in
 
-[[Session-11-00-Angry-Birds]]
+[[Session-11-00-Birds-of-a-Feather]]
 
 ## Constraints
 
