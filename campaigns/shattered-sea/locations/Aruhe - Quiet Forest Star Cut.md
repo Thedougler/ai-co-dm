@@ -85,7 +85,8 @@ Star Cut is the night-watch aisle north of [[Aruhe - Quiet Forest Spoke Ring|Spo
 ---
 ## Art
 
-- ![[attachments/shattered-sea/places/aruhe-star-cut.png|Star Cut identity image]]
-- ![[attachments/shattered-sea/battlemaps/session-11-09-theft-on-the-watch-base.png|Star Cut battlemap, north-south night aisle, east fire, west rolls and guavas, star-cut of sky]]
+![[attachments/shattered-sea/places/aruhe-star-cut.png|Star Cut identity image]]
+![[attachments/shattered-sea/battlemaps/aruhe-star-cut-battlemap.png|Star Cut Foundry battlemap, north-south night aisle, east fire, west rolls and guavas]]
+![[attachments/shattered-sea/battlemaps/session-11-09-theft-on-the-watch-base.png|Session 11-09 watch battlemap, north-south night aisle, east fire, west rolls and guavas, star-cut of sky]]
 - The identity image owns the public first look: a straight wet dirt aisle under Quiet leaves, the narrow star slit at the north mouth, warm coals offset east, west-wall sleeping rolls, pink-gold guavas, close jungle walls, and river sound through the west roots.
-- The battlemap owns this stretch: top is north, right is east, bottom is south, and left is west. The star-cut is the north mouth. The stone fire sits east of the aisle. West holds sleeping rolls and fallen guavas. South is the packed return toward Spoke Ring.
+- The Foundry battlemap owns this stretch for table play: top is north, right is east, bottom is south, and left is west. The star-cut is the north mouth. The stone fire sits east of the aisle. West holds sleeping rolls and fallen guavas. South is the packed return toward Spoke Ring. Use `25x45` squares in Foundry, with no baked grid.
