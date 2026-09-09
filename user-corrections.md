@@ -52,3 +52,16 @@ Follow skill `agentic-system-designer` (Intake → Baseline → Fix → Prove �
 
 **Fix:** `templates/` (`## At a Glance`, `## At the table`, `## Bank` / session-log section names), `docs/obsidian-presentation.md`, `run-guide` Glance heading, `copy-writer` heading recipe, `vehicle-design` + item-note format. Measure: production `^## L0|^## L1|^## L2` files in `templates docs .agents/skills` 10 → 0. Cheap check: `rg -l '^## L0|^## L1|^## L2' templates docs .agents/skills --glob '*.md'`. SHA `83875ca`.
 
+### 2026-09-09 — Do Not sections in production notes
+
+**Error:** production vault files contain Do Not advice or Do Not sections.
+
+**Correction:** that guidance is for the agent creating the content. Human-facing notes carry what to run, say, or know. Agent-facing Do Not stays in skills, AGENTS, and templates-for-agents — not in the compiled campaign pages.
+
+**Read:** `AGENTS.md` (user-correction line); `user-corrections.md` (append recipe)
+
+**count:** 1
+
+**status:** open
+
+
