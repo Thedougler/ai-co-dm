@@ -175,6 +175,24 @@ aliases: [Optional other name]
 
 Types and tags: [references/PROPERTIES.md](references/PROPERTIES.md).
 
+### Columns (obsidian-columns plugin)
+
+`[!col]` makes each top-level item a column. Nest `[!col-md]` to group items. Append a width multiplier: `[!col-md-3]` = three times wider.
+
+```markdown
+> [!col]
+> Left column content.
+>
+>> [!col-md-2]
+>> Right column, twice as wide.
+>>
+>> More right-column content.
+```
+
+Callout syntax preferred (live preview, pure CSS). Codeblock syntax (`col` / `col-md` fences) available when height limits or borders needed. Avoid columns on session/run surfaces — linear flow reads faster under pressure; use on reference pages, hubs, and owner pages.
+
+Full reference: [references/COLUMNS.md](references/COLUMNS.md).
+
 ### Also supported (use when needed)
 
 `%%comment%%` · `$math$` / `$$` · ` ```mermaid ` · footnotes `[^1]`

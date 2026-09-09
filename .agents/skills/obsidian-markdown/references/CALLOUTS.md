@@ -78,3 +78,7 @@ inside a statblock fence); elsewhere, a literal `\n` is a FAIL.
 ## Built-in types
 
 `note` · `abstract`/`summary`/`tldr` · `info` · `todo` · `tip`/`hint`/`important` · `success`/`check`/`done` · `question`/`help`/`faq` · `warning`/`caution`/`attention` · `failure`/`fail`/`missing` · `danger`/`error` · `bug` · `example` · `quote`/`cite`
+
+## Plugin callout types
+
+`[!col]` · `[!col-md]` / `[!col-md-N]` — obsidian-columns layout. See [COLUMNS.md](COLUMNS.md).
