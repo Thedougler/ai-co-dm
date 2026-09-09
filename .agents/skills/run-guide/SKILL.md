@@ -37,6 +37,13 @@ the top of the file as the visual first look. If the beat has battlemap art,
 keep it fixed at the bottom of the file after the runnable card. These anchors
 are placement rules for existing art, not permission to add unused sections.
 
+**Concrete measure.** Spatial and travel notes use concrete units: north,
+south, east, west, feet for tactical 5.5e distances, and days, hours, or
+minutes for travel time. Do not use distance bands, range bands, or abstract
+labels such as near, far, close, inner, outer, nearby, or distant as the
+measurement. A label may name a place only when the concrete direction,
+distance, or travel time is also present.
+
 **Recap boundary.** Only the first beat of a session may recap the previous
 session. Every later beat starts from the immediate current situation and does
 not summarize earlier beats, prior-session events, or how the party got here.
@@ -116,12 +123,12 @@ heading unless creating a new file; for new beat files, prefer `L0 · Glance`.
 | **Scene ends when** | Every live beat needs a stop condition. | Heading is `## Scene ends when`. First line is the end condition. Then the time budget. Add **If behind:** and **If ahead:** only when the pacing choice is not obvious. |
 | **Glance** | Every live beat needs a short at-table scan. | `## At a Glance` or `## L0 · Glance` bullets: stakes, goal or exit, danger, Silence, and situation magnets. Not a recap except on the session's first beat. |
 | **Overview image** | An exact overview or identity image exists. | Embed the image near the top of the file before the runnable sections, usually just after the title or frontmatter. Omit if none exists. |
-| **Now** | Positions, distances, speeds, current possession, or starting state would otherwise clutter Glance. | One paragraph. Who starts where, in **feet** when tactical distance matters. Speeds that matter. What a move vs Dash reaches. Current situation once. Do not add a separate Starting state heading. |
+| **Now** | Positions, distances, speeds, current possession, or starting state would otherwise clutter Glance. | One paragraph. Who starts where, in **feet** when tactical distance matters. Use north, south, east, and west for orientation. Speeds that matter. What a move vs Dash reaches. Current situation once. Do not add a separate Starting state heading. |
 | **Action cards** | The DM will roll compact default-mode numbers or follow an opposition loop. | `### Action cards`. The operational loop and compact numbers you will roll in default mode: AC, hit points when needed, one attack, thresholds, grab, scatter, or bloodied rule. Use owner action names. |
 | **Initial Narration** | Every live beat needs the first spoken look. | Empty `> [!narration] Initial Narration` stub on pass 1. Pass 2 fills scene-setting, accessible scene stock, and the first real choice. If the owner already has an identity image, embed `![[attachments/…]]` near this block. |
 | **Battlemap** | A battlemap or exact-scene image exists. | Heading `## Battlemap` at the bottom of the file after the runnable card. Embed existing battlemap art from `attachments/`. Use the shared compass: top north, right east, bottom south, left west. Omit if none exists. |
 | **Procedure** | The beat has a named mode, fuse, clock trigger, combat switch, pursuit rule, or repeated resolution loop. | Heading `## Procedure`. Name the mode and this slice's trigger once. Not 5e turn order. Not a `[!mechanic]` callout. |
-| **Zones** | Positions, routes, cover, distance, search areas, or scene stock matter. | Table: place \| distance in feet \| cover \| narration. Same distances as Now. Each row names decision-useful scene stock in that zone. The **Narration** column carries italic spoken prose for that zone, not a callout. When the Narration column is absent, one empty `> [!narration] {Place}` stub per row after the table instead. |
+| **Zones** | Positions, routes, cover, distance, search areas, or scene stock matter. | Table: place \| distance in feet \| cover \| narration. Same concrete distances and compass directions as Now. Each row names decision-useful scene stock in that zone. The **Narration** column carries italic spoken prose for that zone, not a callout. When the Narration column is absent, one empty `> [!narration] {Place}` stub per row after the table instead. |
 | **Be ready for** | Players are likely to attempt consequential actions, checks, tactics, or negotiations. | Table: intent \| approach \| DC \| success \| partial \| failure. Approach is **Ability (Skill)** when a check applies. DC column is `` `DC 14` ``. Dice and damage in cells are inline code. Applied conditions are **bold**. Name the creature, item, and place in every cell. Every cell is a *ruling*. Include **Assess the situation** only when the opening could be read as “what is it hunting / doing?” No Partial definition on the card. |
 | **Threat clock** | A fuse or opposition turn changes the situation. | Heading `## Threat clock`. Table: tick \| what happens \| narration. Named ticks. 3-4 ticks. Each tick states what newly becomes visible, usable, threatened, blocked, or changed. The **Narration** column carries italic spoken prose. When the column is absent, one empty `> [!narration] Tick {n}` stub per tick after the table instead. Bloodied, cover-reached, and scene dials live as paragraphs after the table. |
 | **Secondary objective** | A second question runs in parallel and changes outcome or later consequence. | Heading `## Secondary objective`. One paragraph: beats required, ignore outcome, later consequence. Omit when there is no second objective. |
@@ -188,8 +195,8 @@ the next state. Keep combat sections only when the hook is itself a combat
 encounter. A hook with a cover endpoint does not also run unbounded Travel.
 
 **Travel:** use this skill only when travel is the live slice. Inline one
-specific complication, every number needed to run it, and a failure endpoint.
-Otherwise omit Travel entirely.
+specific complication, travel time in days, hours, or minutes, every number
+needed to run it, and a failure endpoint. Otherwise omit Travel entirely.
 
 ## Procedure
 
@@ -225,7 +232,11 @@ An evocative label (`scattered`, `crash-landed`) is a name for a *ruling* alread
 
 ## Now (positions)
 
-Write where people are, the distances in **feet**, the speeds that matter, and what a move or Dash reaches from here, in the Now paragraph. Reuse those distances in the zone table. Do not invent a second movement model later. Named places (High air, grass, beach) label those distances; they do not replace them. There is no separate Starting state heading.
+Write where people are, the distances in **feet**, the compass directions that
+matter, the speeds that matter, and what a move or Dash reaches from here, in
+the Now paragraph. Reuse those distances and directions in the zone table. Do
+not invent a second movement model later. Place labels do not replace concrete
+measurements. There is no separate Starting state heading.
 
 ## Scene-setting (Initial Narration)
 
@@ -269,7 +280,10 @@ update slot; otherwise use `Tick {n}` callout stubs.
 
 **Exit narration.** Player-facing handoff into the next live card. Empty stub on pass 1 only when that card exists on this file. It does not ask what they do.
 
-**Travel.** Omit on a 30-minute hook. When this slice *is* travel: one complication, every number on this card, a failure endpoint. Wikilink further tables only as backup, not as required procedure.
+**Travel.** Omit on a 30-minute hook. When this slice *is* travel: one
+complication, travel time in days, hours, or minutes, every number needed to
+run it, and a failure endpoint. Wikilink further tables only as backup, not as
+required procedure.
 
 ## Table gate
 
@@ -282,6 +296,7 @@ Completion — all of these hold, or the draft is not done:
 - `## Scene ends when` is the first heading; the end condition is the first line.
 - Time budget is present. Cut lines appear only when they change a pacing choice.
 - If `## Now` is present, it states positions and speeds in feet; the zone table uses those distances.
+- Spatial and travel measurements use north, south, east, west, feet for tactical 5.5e distance, and days, hours, or minutes for travel time; no range bands or abstract distance labels stand in for measurement.
 - No `DM truth` section. Hidden intent, opposition wants, and canon constraints live inline where the DM uses them.
 - Pass 1: empty callout stubs and empty Narration-column cells at the TotM slots this beat can actually use; no player-facing prose in those bodies.
 - Pass 2: `theatre-of-the-mind` was loaded, and Initial Narration concisely sets the scene with perceivable subjects, relationships, routes or cover, relative position, imminent pressure, actionable scene stock, drawable appearance, and a non-sight sense, then the first real player opening. Every stub and Narration cell is filled.

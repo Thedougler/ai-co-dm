@@ -16,10 +16,12 @@ hazard after the event is chosen.
 ## Ground
 
 Read the campaign `hot.md`, current session prep/log, route and destination owners, live
-fronts/quests, PC threads, and route hazards. Establish method, distance/pace from stated facts,
-the spotlight PC who is overdue a meaningful moment, pressures that can reach the leg, and one
-named steerable landmark. If no specific PC thread, faction pressure, or resource tension reaches
-the leg, ask which pressure to pull on; never substitute generic filler.
+fronts/quests, PC threads, and route hazards. Establish method, direction, and travel time
+from stated facts: north, south, east, west, and days, hours, or minutes of travel. The
+spotlight PC who is overdue a meaningful moment, pressures that can reach the leg, and one
+named steerable landmark come from those facts. If no specific PC thread, faction pressure,
+or resource tension reaches the leg, ask which pressure to pull on; never substitute generic
+filler.
 
 ## Five slots
 
@@ -27,9 +29,13 @@ Fill these in order: (1) **departure cost** — what going now leaves, spends, r
 (2) **landmark** — a named thing that can be approached, avoided, or exploited; (3) **events** —
 the smallest set of derived beats; (4) **toll** — a concrete cost in time, resources, position,
 relationship, information, or danger; (5) **arrival changed** — how the party arrives different.
-Choose 1 event for a close leg, 2 for far, 3–4 for very far; add a centerpiece only when travel is
-the session's subject. For two or more events include a non-combat beat and do not repeat a
-register back-to-back.
+Scale events from stated travel time, not distance bands: a short leg measured in minutes or
+hours usually needs 1 event; a multi-day leg may need 2; a route that is the session's subject
+may need 3-4 and a centerpiece. For two or more events include a non-combat beat and do not
+repeat a register back-to-back.
+
+Do not write close, far, very far, nearby, distant, inner, outer, range band, or distance band as
+the measure of a route. Use compass direction and travel time instead.
 
 ```markdown
 ### Event: title — [combat | social | exploration | hybrid]

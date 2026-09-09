@@ -262,7 +262,11 @@ Name one landmark. Hang every later line on it. Full seating lines live in [expe
 
 ## What to copy
 
-- Camera first. Sentence one says where the viewpoint stands — from the door, at the tree line, far below you, looking across — plus how large the space is and one band. Not a secluded grove. Keep one camera within the selected spatial frame. Stage, near, far, and block before a fourth subject.
+- Camera first. Sentence one says where the viewpoint stands — from the door,
+  at the tree line, looking north across the room, or forty feet below the
+  ledge — plus how large the space is in concrete terms. Keep one camera within
+  the selected spatial frame. Place the first anchors with north, south, east,
+  west, feet, or travel time before adding more subjects.
 - Image first. Name the visible thing, then the likeness. The canopy packed so tight it looks like a floor. The lake flashing between the trees. Do not let the metaphor be the subject. A phrase they cannot mark on a sketch is not a stage.
 - One dominant abnormality when the place is wrong — sick trees ending at a ring; inside, wet-green grass. Evidence, not the explanation.
 - Where the light is, and the ground underfoot — evening fog on the first steps, torch pools, wet stones.

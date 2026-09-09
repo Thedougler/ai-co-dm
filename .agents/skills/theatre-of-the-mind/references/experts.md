@@ -166,13 +166,13 @@ Mike Shea — objects in front of each other, not a coordinate list:
 
 Mike Shea — creature seated on the object the table can use:
 
-> The orc shaman stands behind the altar at the far end of the room. The room is long-enough that it would be long range for your short bows, but only medium range for your long bows.
+> The orc shaman stands behind the altar at the north end of the room.
 
-> There are eight orc warriors standing between the door you came in and the altar at the far end. They’re spread out in a manner to prevent you from easily running to interrupt the shaman’s ritual. The line of orc warriors stands about twenty feet away from you and they appear ready for a fight.
+> Eight orc warriors stand about twenty feet south of the altar, between you and the ritual.
 
-AbyssalBrews — three distance bands spoken as speech, not feet:
+Concrete tactical distance spoken as speech:
 
-> The goal is to get to where you can just say “The bugbear is near Julip,” and Julip’s player can know that that means they can get there in a turn.
+> The bugbear is twenty feet east of Julip, close enough for her to reach with one move.
 
 ## Hits, morale, kills
 

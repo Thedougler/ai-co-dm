@@ -338,10 +338,18 @@ bottom is south, and left is west. Fold only the relevant directions into the
 spoken block as natural geography; do not recite all four compass entries
 unless the scene is a true survey.
 
-The spatial staging card is a private drafting aid: stage, near, far, block,
-three to five anchors, and the current opening. Audit visible entrances,
-exits, retreat, cover, blocked paths, and traversable hazards whenever those
-facts affect a decision. Introduce each landmark once, then reuse it.
+Use concrete measurement. Spatial and travel prose may use north, south, east,
+west, feet for tactical 5.5e distance, and days, hours, or minutes for travel
+time. Do not use range bands, distance bands, near, far, close, nearby,
+distant, inner, or outer as measurements. If one of those words appears as
+ordinary descriptive prose, pair it with a concrete direction, distance, or
+travel time when orientation matters.
+
+The spatial staging card is a private drafting aid: viewpoint, compass frame,
+concrete distance or travel time, blocked paths, three to five anchors, and the
+current opening. Audit visible entrances, exits, retreat, cover, blocked paths,
+and traversable hazards whenever those facts affect a decision. Introduce each
+landmark once, then reuse it.
 
 For a requested full or loaded spatial first look, complete the current visible
 state in that one block before stopping: include every relevant visible subject,
