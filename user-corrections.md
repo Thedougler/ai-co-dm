@@ -1,3 +1,7 @@
+---
+summary: Nick's correction log. Writers append on #ERROR. ASD drains open entries. Open now: beat-number reuse, beat 6 furniture, beat 6 missing owners, and missing frontmatter summary.
+---
+
 # User corrections
 
 Living log of mistakes Nick corrected. **Not boot material.** Writers append. **Agentic-System-Designer** reads open entries and ships a durable fix. Other agents do not study this file to “learn from mistakes.”
@@ -135,4 +139,16 @@ Follow skill `agentic-system-designer` (Intake → Baseline → Fix → Prove �
 **status:** closed
 
 **Fix:** `.agents/skills/obsidian-markdown/SKILL.md` + `run-guide` TotM slots — unconditional spoken stays in `[!narration]`; conditional spoken (zone, tick, most-likely option) is `==_italic_==` in the table cell. Replaced “one titled stub per likely option.” Encounter template now has the options table. Measure: `==_` production-grammar files in `.agents/skills` + `templates` 0 → 8; stub-per-option files 1 → 0. Cheap check: `rg -l --glob '*.md' -e 'stub per likely option' -e 'one titled stub per likely' .agents/skills templates`; `rg -l --glob '*.md' '==_' .agents/skills templates`. SHA `88ff1e9`.
+
+### 2026-09-09 — Frontmatter summary unused
+
+**Error:** Agents read whole notes instead of using the Obsidian markdown frontmatter `summary` to see what a file is.
+
+**Correction:** Use the frontmatter `summary` to understand a file without reading the whole file. Create it if missing. Update it whenever the note is updated. Keep it concise, focused, direct, specific, and useful, and mention anything different or unexpected.
+
+**Read:** `.agents/skills/agentic-system-designer/SKILL.md`; `.grok/agents/agentic-system-designer.md`; `user-corrections.md`; `.agents/skills/qmd-retrieval/SKILL.md`; `.agents/skills/agentic-system-designer/references/measures.md`; `.agents/skills/writing-for-agents/SKILL.md`; `.agents/skills/llm-wiki/SKILL.md`
+
+**count:** 1
+
+**status:** open
 
