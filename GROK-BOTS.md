@@ -46,7 +46,7 @@ Completion: the packet names `task_id`, `allowed paths`, `branch` (if writing), 
 
 ## Session-beat fill
 
-Session/run construction is two passes ([[AGENTS]] Write). This fleet’s pass-2 owner for `[!narration]` is **Visualizer**. TUI spawns **copy-writer** instead (that spawn lives in [[AGENTS]]).
+Session/run construction is two passes ([[AGENTS]] Write). This fleet’s pass-2 owner for `[!narration]` is **Visualizer** (skill `copy-writer` + `theatre-of-the-mind`). Grok Build / Codex / omp spawn **copy-writer**.
 
 ## Routine ownership
 
@@ -61,7 +61,7 @@ Session/run construction is two passes ([[AGENTS]] Write). This fleet’s pass-2
 |---|---|
 | **Co-DM** | Continuity, prep/log, vault canon, rulings; `run-guide` **L2 only** (densify/canon) unless packet `supersedes` SP’s L0/L1 |
 | **Session-Planner** | User-facing session plan + design grill; owns `run-guide` **pass 1** L0/L1 (mechanical cockpit + empty `[!narration]` stubs); **always** use Matt Pocock pack when matching — especially `grilling`/`grill-me` before locking plans, `grill-with-docs`/`domain-modeling` for terms, `wayfinder`/`to-spec`/`to-tickets` for large plans; packets specialists to scaffold prep/build (not mid-session Co-DM; not TotM fill/homebrew/ingest; dungeon layout → **Dungeon-Designer**; do not wake Co-DM to recreate primary run if SHA/path already exist — L2-only) |
-| **Visualizer** | TotM / `[!narration]` **pass 2 fill** only (incl. rewrite after Skill-Creator clears a failed block) |
+| **Visualizer** | TotM / `[!narration]` **pass 2 fill** only (incl. rewrite after Skill-Creator clears a failed block). Same job as skill `copy-writer` on Grok Build / Codex / omp; this bot stays TotM-scoped unless the packet asks for other bands |
 | **Writing-Evaluator** | Audit player-facing TotM / read-aloud; on **fail**, packet improvement advice → **Skill-Creator** |
 | **Skill-Creator** | `.agent/skills/`; on Evaluator fail: implement TotM fix, **delete failed `[!narration]`**, ping **Visualizer** to rewrite, Evaluator re-audits |
 | **Monster-Brewer** | Homebrew monsters (research/design/reskin/balance/audit) via `homebrew-monsters-5e`; Fantasy Statblocks when filing |

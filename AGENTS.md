@@ -49,7 +49,7 @@ Obsidian LLM wiki for Nick's home D&D. **Markdown is the product.**
 - **Owner pages:** `> [!narration] Narration` where the template places it — empty until TotM fill.
 - **Session/run beats (two passes):**
   1. **Mechanical cockpit** (`run-guide`): sole-authority card plus **empty titled `[!narration]` stubs** at every slot (mandatory `Initial Narration`, then per zone, per clock tick, landing / variants, per roster embed, `Exit` only if the next cockpit is on this file). Do not write player-facing prose in this pass. Embed an existing owner identity image (`![[attachments/…]]`) when the owner page already lists one.
-  2. **Copy fill:** `theatre-of-the-mind` fills **every** stub. TUI: spawn **copy-writer** (`.grok/agents/copy-writer.md`). Grok Bots: **Visualizer** ([[GROK-BOTS]]). Weave drawable appearance and a non-sight sense into the spoken sentences. A `ready` beat has no empty `[!narration]` body.
+  2. **Copy fill:** `theatre-of-the-mind` fills **every** stub. Spawn **copy-writer** (`copy-writer` skill; `.grok/agents/` · `.codex/agents/` · `.omp/agents/`). Grok Bots: **Visualizer** (same skill). Weave drawable appearance and a non-sight sense into the spoken sentences. A `ready` beat has no empty `[!narration]` body.
 - On session/run surfaces the only callout is `[!narration]`. DM truth and procedure are headings. Callouts do not go inside table cells; titled stubs sit immediately after the Zones table and after the Threat clock table.
 - Session: [[templates/Session prep]] → run → [[templates/Session log]]; move still-relevant prep forward.
 - Scraps → `inbox/`, then **Ingest** (`wiki-ingest`). Table recordings → `session-transcript-ingest` first, then Ingest if filing remains.
@@ -96,8 +96,8 @@ This repo is an **Obsidian prose wiki**, not an application codebase. Prefer vau
 | Existing-note graph / index integration | `wiki-integrate` → **Organizer** |
 | Stale / contradiction sweep | `wiki-update` → **Organizer** / **Linter** (confirm-before-write) |
 | Answer from vault (qmd; optional file-back) | `wiki-query` → **Co-DM** / **Organizer** |
-| Wiki prose / D&D copy, including session-beat `[!narration]` fill (TUI) | spawn **copy-writer** (`.grok/agents/copy-writer.md`) — table-ready body copy on typed notes; session beats: fill every empty stub via `theatre-of-the-mind`; run cards fill the `run-guide` cockpit |
-| Player-facing prose / `[!narration]` | `theatre-of-the-mind` — session-beat fill is pass 2 (TUI: copy-writer). Grok Bots: [[GROK-BOTS]] (**Visualizer**) |
+| Wiki prose / D&D copy, including session-beat `[!narration]` fill | `copy-writer` — Grok Build / Codex / omp spawn; Grok Bot **Visualizer**; TotM via `theatre-of-the-mind`; run cards fill the `run-guide` cockpit |
+| Player-facing prose / `[!narration]` | `theatre-of-the-mind` — session-beat fill is pass 2 (`copy-writer`). Grok Bots: [[GROK-BOTS]] (**Visualizer**) |
 | Audit player-facing TotM / read-aloud | **Writing-Evaluator** (critique only) |
 | TotM fail → skill fix → rewrite loop | [[GROK-BOTS]] |
 | Session pacing | `session-beats` — live beats `run-guide` will render are two passes (mechanical stubs → TotM fill) |
@@ -175,7 +175,7 @@ This repo is an **Obsidian prose wiki**, not an application codebase. Prefer vau
 | `campaigns/` · `campaigns/<id>/vehicles/` · `templates/` · `lexicon/` · `inbox/` · `attachments/` | Wiki (Obsidian: new notes → inbox, embeds → attachments; named craft → vehicles/) |
 | `GROK-BOTS.md` | Grok Bot fleet: Mac host, packets, roster, TotM fail loop |
 | `user-corrections.md` | Nick’s correction log — write on correction or `#ERROR`; increment **count:** on repeats; do not boot-load |
-| `.grok/agents/` · `.codex/agents/` · `.omp/agents/` | Host spawn adapters for **Agentic-System-Designer**; body is skill `agentic-system-designer` |
+| `.grok/agents/` · `.codex/agents/` · `.omp/agents/` | Host spawn adapters; bodies are skills (`agentic-system-designer`, `copy-writer`) |
 | `.obsidian/` | Human vault config + Statblocks/Leaflet (ignore workspace) |
 | `.agents/skills/` | Vault / D&D fleet procedures + Matt Pocock process pack. QMD `skills` indexes `**/SKILL.md` only. |
 | `scripts/after-write` · `scripts/qmd` · `scripts/qmd-refresh` · `scripts/lint-statblocks` · `scripts/lint-obsidian-markdown` · `scripts/lint-fat-notes` · `scripts/lint-literal-newlines` | Agent CLI |
