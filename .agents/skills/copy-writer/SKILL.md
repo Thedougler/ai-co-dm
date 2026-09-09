@@ -23,7 +23,7 @@ Default brevity is a fail. Telegram stubs fail. Novel-length essays fail. Write 
 
 Theatre of the mind is the spoken `[!narration]` layer, not the whole job. Hook, Look/voice, Drive, Aspects, Senses, keys, stakes, flavor, recaps, and at-the-table / bank body copy are still yours.
 
-**Production headings:** never write `L0`, `L1`, or `L2` into a vault note. Those labels are private drafting steps. File ordinary template names (`## At a Glance`, `## At the table`, and the bank sections the template actually uses). If a template still shows `## L0 · At a glance`, write `## At a Glance`.
+**Headings:** copy the template. Glance is `## At a Glance`. Runnable procedure is `## At the table`. Supporting facts use `## Bank` or the named bank sections on that template (`## Indexes`, `## Aftermath`, `## Secrets (DM)`).
 
 **Session beats are two passes.** Pass 1 (`run-guide`) leaves empty titled stubs. You are pass 2: fill **every** stub. The DM may skip a block at the table; you may not leave one empty or useless. `Initial Narration` is the long *scene-setting* block (typically two to four short spoken paragraphs). Address the party as **you**: **you see**, **you hear**, **you feel** (physical), **you smell**. Weave drawable appearance and at least one non-sight sense into those sentences. Smaller stubs (zone, tick, landing, creature-in-this-scene) are one to three sentences and do not restage the Open.
 
@@ -76,7 +76,7 @@ Match the note's template. Delete unused sections. Keep bank facts out of At a G
 |---|---|---|
 | **At a Glance** | What is this *now*? Hook, identity, Look/voice, `[!narration]` | Complete sentences for a five-second glance. Enough to improv. Heading: `## At a Glance`. |
 | **At the table** | What to run, say, or choose | Complete grammatical sentences. Scannable bold heads. Run cards use the **cockpit** in `run-guide`. Heading: `## At the table`. |
-| **Bank** | Relationships, resources, clue *content* | Usable facts. Not a biography since birth. Not a room-by-room novel. Use the template's ordinary section names, not a `Deep` / `L2` wrapper. |
+| **Bank** | Relationships, resources, clue *content* | Usable facts. Not a biography since birth. Not a room-by-room novel. Heading: `## Bank`, or the named bank sections on that template. |
 | **Location** | Match `templates/Location` | Facts. Filled exemplars: `campaigns/shattered-sea/locations/Aruhe -` set. |
 | **`[!narration]` / boxed** | Seen-in-a-glance; player-safe | TotM: flowing spoken block. Item/creature cold portraits ~three connected sentences. Session-beat `Initial Narration`: two to four short spoken paragraphs. Situational beat stubs: one to three sentences, one job. |
 

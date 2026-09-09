@@ -121,13 +121,10 @@ or words to speak. The stable spine is:
 Add other sections only as the beat needs them. Keep the order already present
 in an existing file unless moving a section makes the card easier to run.
 
-`At a Glance` and `L0 · Glance` are both valid. Preserve the file's chosen
-heading unless creating a new file; for new beat files, prefer `L0 · Glance`.
-
 | Field | Keep when | Shape |
 |---|---|---|
 | **Scene ends when** | Every live beat needs a stop condition. | Heading is `## Scene ends when`. First line is the end condition. Then the time budget. Add **If behind:** and **If ahead:** only when the pacing choice is not obvious. |
-| **Glance** | Every live beat needs a short at-table scan. | `## At a Glance` or `## L0 · Glance` bullets: stakes, goal or exit, danger, Silence, and situation magnets. Not a recap except on the session's first beat. |
+| **Glance** | Every live beat needs a short at-table scan. | Heading is `## At a Glance`. Bullets: stakes, goal or exit, danger, Silence, and situation magnets. Not a recap except on the session's first beat. |
 | **Overview image** | An exact overview or identity image exists. | Embed the image near the top of the file before the runnable sections, usually just after the title or frontmatter. Omit if none exists. |
 | **Now** | Positions, distances, speeds, current possession, or starting state would otherwise clutter Glance. | One paragraph. Who starts where, in **feet** when tactical distance matters. Use north, south, east, and west for orientation. Speeds that matter. What a move vs Dash reaches. Current situation once. Do not add a separate Starting state heading. |
 | **Action cards** | The DM will roll compact default-mode numbers or follow an opposition loop. | `### Action cards`. The operational loop and compact numbers you will roll in default mode: AC, hit points when needed, one attack, thresholds, grab, scatter, or bloodied rule. Use owner action names. |

@@ -18,7 +18,7 @@ This beat is thirty minutes.
 
 **If ahead:**
 
-## L0 · Glance
+## At a Glance
 
 - **Stakes:**
 - **Goal / exit:**

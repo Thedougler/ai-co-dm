@@ -9,7 +9,7 @@ tags: [faction]
 
 # {{name}}
 
-## L0 · At a glance
+## At a Glance
 
 > [!narration] Narration
 > _Public face when the group is encountered — no secret goals. Theatre of the mind._
@@ -19,7 +19,7 @@ tags: [faction]
 
 What they claim.
 
-## L1 · At the table
+## At the table
 
 ### Methods
 
@@ -36,7 +36,7 @@ Named [[NPC]]s who embody the group.
 
 What they can actually do (coin, force, favors, lore).
 
-## L2 · Deep
+## Bank
 
 ### Secret goal
 

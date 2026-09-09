@@ -13,37 +13,31 @@ cssclasses: [session-surface]
 
 Durable record. Write after play. Link entities that changed.
 
-## L0 · At a glance
-
 > [!narration] Recap
 > _Past-tense recap players can hear. Theatre of the mind._
 >
 
-## L1 · At the table
-
-### What happened
+## What happened
 
 Beats in order. Wikilink NPCs, places, and items as they appear.
 
-## L2 · Deep
+## Aftermath
 
-### Aftermath
-
-#### Secrets revealed
+### Secrets revealed
 
 What left DM-only knowledge and became table knowledge.
 
-#### Loose threads
+### Loose threads
 
 Open questions and clocks that advanced.
 
-#### Rewards
+### Rewards
 
 XP, loot, and boons. Link [[Item]] notes.
 
-### Forward
+## Forward
 
-#### Next hooks
+### Next hooks
 
 Player-facing options only — not a planned path.
 

@@ -15,7 +15,7 @@ Disposable run sheet — rewrite next time; not canon.
 
 A live beat that will be run as a cockpit copies [[templates/Encounter]] (or the `run-guide` cockpit): mechanical card plus empty `[!narration]` stubs and Narration table columns, then TotM fill.
 
-## L0 · At a glance
+## At a Glance
 
 Dashboard for the first five seconds. Bullets only; delete empties.
 
@@ -28,7 +28,7 @@ Dashboard for the first five seconds. Bullets only; delete empties.
 > [!narration] Initial Narration
 >
 
-## L1 · At the table
+## At the table
 
 Playable scene cards — a menu, not a path. About one card per forty-five minutes. Put a blank line between cards. Prefer a full `run-guide` cockpit per live beat; this menu is for remaining candidates.
 
@@ -116,7 +116,7 @@ The trigger and how it can surface.
 **If ignored:**  
 **Advance when:**
 
-## L2 · Deep
+## Bank
 
 Drop-in bank. Abstracted — do not lock clues to a single room.
 

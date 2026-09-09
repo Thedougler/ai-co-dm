@@ -39,7 +39,7 @@ Kind, Rarity (requires attunement [by ...])
 **[Charges/recharge].** Tracking and recovery procedure.
 ```
 
-The wiki note follows `templates/Item.md` — flat body, no L0/L1/L2 sections. Design-process artifacts (comparator matrix, power envelope, engagement loop) stay in the conversation or design doc, not in the wiki note.
+The wiki note follows `templates/Item.md` — flat body: image, narration, type-line, mechanics. Design-process artifacts (comparator matrix, power envelope, engagement loop) stay in the conversation or design doc, not in the wiki note.
 
 ## Required design notes
 Include these headings in the design notes, with links inline rather than a separate bibliography:

@@ -10,47 +10,41 @@ tags: [vehicle]
 
 # {{name}}
 
-## L0 · At a glance
-
 > [!narration] Narration
 > _Craft first look (silhouette / approach). Theatre of the mind (Vehicle) — kitchen-table access: lines, rail, hold, hatch. Never “boarding interface” in player prose._
 >
 
-### At a glance
+## At a Glance
 
 One sentence plus a “feels like…” mood. State the class of craft in plain words.
 
-### Aspects
+## Aspects
 
 Three playable traits (Lazy DM): `aspect, aspect, aspect`
 
-### Vehicle surface / topology
+## Vehicle surface / topology
 
 Kitchen-table access and layout the table can point at: rail, deck, hold, hatch, lines, tiller — not interface jargon.
 
-## L1 · At the table
-
-### Who is here
+## Who is here
 
 - [[NPC]] / [[Faction]] / crew pattern
 
-### Connections
+## Connections
 
 Berth, routes, linked places, and other craft.
 
 - → [[Location]] / [[Vehicle]]
 
-### Hooks
+## Hooks
 
 Things to do or discover aboard or from this craft.
 
-## L2 · Deep
-
-### Secrets (DM)
+## Secrets (DM)
 
 Clues available here — the content of the clue, not only “roll Investigation.”
 
-### Mechanics
+## Mechanics
 
 Play dials only (no invented numeric ship stats unless Nick or **Homebrewer** later). Link [[Encounter]] / [[Monster]] when needed.
 

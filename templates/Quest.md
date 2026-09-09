@@ -8,7 +8,7 @@ tags: [quest]
 
 # {{title}}
 
-## L0 · At a glance
+## At a Glance
 
 > [!narration] Narration
 > _Patron pitch / hook as spoken to the party. Theatre of the mind._
@@ -26,7 +26,7 @@ What “done” looks like in player-comprehensible terms.
 
 What happens if ignored or failed.
 
-## L1 · At the table
+## At the table
 
 ### Nodes
 
@@ -44,7 +44,7 @@ For each conclusion the party may need, list at least three independent clues (A
 2. 
 3. 
 
-## L2 · Deep
+## Bank
 
 ### Rewards
 

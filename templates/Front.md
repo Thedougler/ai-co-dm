@@ -9,7 +9,7 @@ tags: [front]
 
 # {{title}}
 
-## L0 · At a glance
+## At a Glance
 
 > [!narration] Narration
 > _Only when the front becomes table-visible — current pressure, not the doom text. Theatre of the mind._
@@ -19,7 +19,7 @@ tags: [front]
 
 Irrevocable bad outcome if unchecked.
 
-## L1 · At the table
+## At the table
 
 ### Dangers
 
@@ -44,7 +44,7 @@ One to three open questions play will answer.
 
 - 
 
-## L2 · Deep
+## Bank
 
 ### Cast
 

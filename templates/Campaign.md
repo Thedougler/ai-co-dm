@@ -8,7 +8,7 @@ tags: [campaign]
 
 # {{title}}
 
-## L0 · At a glance
+## At a Glance
 
 > [!narration] Narration
 > _Table pitch / premise. Player-safe; no spoilers. Theatre of the mind._
@@ -25,7 +25,7 @@ One paragraph. Tone and central pressure. No plot railroad.
 - Safety / lines: 
 - House tone: [[lexicon/House tone]]
 
-## L1 · At the table
+## At the table
 
 ### Current arc
 
@@ -36,7 +36,7 @@ What the table is pointing at *now*. Link fronts and quests.
 Active [[fronts]]:  
 Open [[quests]]: 
 
-## L2 · Deep
+## Bank
 
 ### Indexes
 

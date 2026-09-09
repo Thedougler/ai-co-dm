@@ -9,7 +9,7 @@ tags: [pc]
 
 # {{name}}
 
-## L0 · At a glance
+## At a Glance
 
 > [!narration] Narration
 > _Optional public-facing portrait (reputation / how strangers see them). Theatre of the mind._
@@ -19,7 +19,7 @@ tags: [pc]
 
 Class, lineage, and vibe in one line. No sheet dump.
 
-## L1 · At the table
+## At the table
 
 ### Bonds / ideals that matter
 
@@ -35,7 +35,7 @@ NPCs, factions, items, and secrets that pull them in.
 
 - 
 
-## L2 · Deep
+## Bank
 
 ### Gear that matters
 

@@ -81,7 +81,7 @@ Separate reveal into first sight, handling, known mechanics, earned lore, and DM
 
 ### Note format
 
-Copy `templates/Item.md`. Exemplars: the Aruhe consumables under `campaigns/shattered-sea/items/Aruhe - *.md`. The note is flat — no L0/L1/L2 scaffold:
+Copy `templates/Item.md`. Exemplars: the Aruhe consumables under `campaigns/shattered-sea/items/Aruhe - *.md`. The note is flat: image → narration → type-line → mechanics:
 
 1. **Frontmatter** — `type: item`, plus `campaign`, `region`, `kind`, `rarity`, `attunement`, `owner`, `visibility`, `tags` (include region and kind in tags).
 2. **Title** — `# Item Name`.

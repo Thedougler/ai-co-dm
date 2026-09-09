@@ -96,7 +96,7 @@ Fill the body in the template's order and with its intent:
 - `[!narration] Narration`: leave empty for Visualizer, or provide a narrow
   handoff brief outside player prose. Do not independently author the final
   read-aloud block here.
-- `## At a glance`: one sentence naming the class of craft and its immediate
+- `## At a Glance`: one sentence naming the class of craft and its immediate
   playable identity, followed by a supported “feels like…” mood. Do not turn
   this into a history paragraph.
 - `## Aspects`: exactly three playable traits in Lazy DM style. Make each one

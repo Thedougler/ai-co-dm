@@ -9,7 +9,7 @@ tags: [lore]
 
 # {{title}}
 
-## L0 · At a glance
+## At a Glance
 
 > [!narration] Narration
 > _Table-safe telling or rumor — mark disputed canon in prose, not labels. Theatre of the mind._
@@ -19,7 +19,7 @@ tags: [lore]
 
 Three to five sentences. What an informed NPC might know.
 
-## L1 · At the table
+## At the table
 
 ### Known to
 
@@ -29,7 +29,7 @@ Who believes or teaches this (table versus DM layers).
 
 How this shows up: rumor, mural, taboo, or clue.
 
-## L2 · Deep
+## Bank
 
 ### Variants
 
