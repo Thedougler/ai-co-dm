@@ -5,6 +5,26 @@ card names a trigger, stakes, and player options; adjust it to the current state
 
 ## Hook
 
+A Hook is the session's **strong start** — the first situation demanding a
+response. Choose the card whose trigger best matches the current fiction:
+
+- What did the previous session's ending leave unresolved? A prior cliffhanger
+  or open threat often selects the card.
+- Which card touches an active PC goal or bond? A Hook that connects to what
+  players already care about earns attention faster.
+- Which pressure mode fits the session's agreed energy? A Crisis or Kidnapped
+  Hook opens with urgency; a Discovery or Revelation Hook opens with a question.
+- **Play a Cliffhanger as Hook** and **Play a Development as Hook** borrow the
+  other beat type's shape when the fiction calls for immediate action or
+  immediate information as the opening beat. The best Cliffhanger-as-Hook
+  cards are Confrontation, Ambush, and Fist Fight — they propel the party
+  into the plotline by introducing opposition or allies. The best
+  Development-as-Hook cards are Secret Meeting, Mistaken Identity, Romance,
+  and Betrayal — they open with mystery or social tension.
+
+One Hook per session. The card names a trigger, stakes, and player options;
+adjust it to the current state.
+
 ### Kidnapped
 - **Use when:** Someone the players care about is taken, or the players are targets.
 - **Do:** Trigger a credible abduction; show who is at risk and time or leverage at stake; offer pursuit, negotiation, investigation, or refusal.
@@ -57,8 +77,22 @@ card names a trigger, stakes, and player options; adjust it to the current state
 
 ## Cliffhanger
 
+A Cliffhanger changes the **physical situation** — position, resources, safety,
+time. It is a contest whose outcome stays in doubt up to the end. Cliffhangers
+test what Developments revealed: a Chase tests the escape route a clue
+identified, a Battle tests the alliance a negotiation built, an Ambush tests
+the warning a spy delivered. Front-load the threat: put the danger visible
+from the start, keep the Cliffhanger short, and let it resolve. Cliffhanger
+after Cliffhanger dulls danger faster than it builds excitement. Chase pairs
+naturally after a Kidnapping or Revelation. Race follows a Discovery that
+gives the target. Retreat follows a Cliffhanger the party lost. Scale
+opposition across the arc — early Cliffhangers use weaker foes that teach
+strengths and weaknesses; later ones raise the stakes as both sides have
+invested more.
+
 ### Chase
 - **Use when:** A target, pursuer, escape route, or moving objective matters immediately.
+- **Pairs with:** Works best right after a Kidnapping or Revelation Hook, or after a Development reveals who to pursue or flee from.
 - **Do:** Trigger it with a clear lead; show terrain, stakes, and what losing ground changes; offer speed, shortcuts, obstacles, ambush, surrender, or abandonment.
 - **Agency note:** Let players change the route or objective; do not make capture or escape automatic.
 
@@ -69,6 +103,7 @@ card names a trigger, stakes, and player options; adjust it to the current state
 
 ### Race
 - **Use when:** Actors compete to reach, secure, or complete something first.
+- **Pairs with:** Follows a Discovery or clue Development that gives players a target and a reason to move fast.
 - **Do:** Trigger it with a shared deadline and finish condition; show routes, costs, and stakes; offer speed, sabotage, cooperation, shortcuts, or changing the goal.
 - **Agency note:** Resolve choices and agreed procedures transparently; let players lose, tie, or redefine success.
 
@@ -124,8 +159,21 @@ card names a trigger, stakes, and player options; adjust it to the current state
 
 ## Development
 
+A Development changes the **decision space** — what players know, can reach,
+or choose between — and **sets the direction** of action until the next
+Development changes it again. Developments reveal new facets of active
+threads: a clue advances a mystery, an alliance shifts a faction clock, a
+warning makes an approaching Cliffhanger legible. Developments can chain —
+meeting the mentor leads to learning the weakness leads to discovering the
+ally — each building capability toward the Climax. When they chain, break
+them with Cliffhangers so knowledge is tested under cost before the next
+piece arrives. Secret Meeting and Foreshadowing Developments pair naturally
+before a Clue, Revelation, or Alliance Development. A Development is complete
+when players can name what they now know or can decide that they could not
+before.
+
 ### Warning
-- **Use when:** Evidence of impending danger can change a decision before impact.
+- **Use when:** Evidence of impending danger can change a decision before impact. Unlike Foreshadowing (which gives only vague hints), a Warning is always explicit: it names the nature of the threat.
 - **Do:** Trigger it with a credible sign or messenger; show what is at stake and what preparation can alter; offer heed, verify, prepare, warn others, or ignore.
 - **Agency note:** Make warnings actionable, not compulsory; ignoring one produces grounded consequences.
 
@@ -135,7 +183,7 @@ card names a trigger, stakes, and player options; adjust it to the current state
 - **Agency note:** Do not hide the only answer behind one roll; let players find, invent, or reject approaches with consequences.
 
 ### Revelation
-- **Use when:** New truth changes the meaning of an active situation.
+- **Use when:** New truth changes the meaning of an active situation. Unlike a Clue (which reveals a piece), a Revelation shows the whole picture in one shot — use it sparingly, only when players should know the full story and that knowledge will not collapse the remaining choices.
 - **Do:** Trigger it with evidence; show who benefits, what is at stake, and at least two decisions it enables; offer verify, confront, conceal, ally, or exploit.
 - **Agency note:** Reveal information, not a prescribed response; keep uncertainty where evidence warrants it.
 
@@ -151,6 +199,7 @@ card names a trigger, stakes, and player options; adjust it to the current state
 
 ### Retreat
 - **Use when:** Withdrawal can preserve lives, resources, or a better position.
+- **Pairs with:** Usually follows a Cliffhanger the party lost or is losing — the opposition breaks off its attack, retreats under cover, or the tide turns for unknown reasons.
 - **Do:** Trigger it when pressure makes staying costly; show what is lost and what can be saved; offer withdraw, delay, bargain, cover an ally, or risk staying.
 - **Agency note:** Treat retreat as a real success condition with consequences, not cowardice or a forced reset.
 
@@ -171,6 +220,7 @@ card names a trigger, stakes, and player options; adjust it to the current state
 
 ### Secret Meeting
 - **Use when:** An unseen negotiation or alliance can change faction intent.
+- **Pairs with:** Usually played before a Clue, Revelation, or Alliance Development — what the meeting decided becomes the information those Developments reveal. A Cliffhanger (Ambush, Skirmish) can interrupt the meeting.
 - **Do:** Trigger it when actors have motive and privacy; show stakes and clues players can discover; offer attend, spy, infiltrate, expose, interrupt, or let it happen.
 - **Agency note:** A secret is not a cutscene; make detection and intervention possible and let terms respond to play.
 
@@ -271,6 +321,17 @@ card names a trigger, stakes, and player options; adjust it to the current state
 
 ## Climax
 
+The highest-stakes confrontation the players' choices made inevitable — the
+moment that **harvests** what the middle planted. Threads that Developments
+revealed and Cliffhangers tested converge here. A final battle is one shape
+among many; the Climax is whatever confrontation the party's choices made
+unavoidable. Before an action Climax, end the preceding beat with a
+Development; before a cerebral Climax, end it with a Cliffhanger. Recognize
+formation: when most open routes have closed, the remaining paths carry the
+session's highest stakes, and players are committing irreplaceable resources
+or relationships, the Climax is near. Call it when players commit, not when
+the chart says it is due.
+
 ### Final Revelation
 - **Use when:** The highest-stakes confrontation is deciding, exposing, or surviving a truth rather than trading blows.
 - **Do:** Trigger it after choices make the truth unavoidable; show who gains, what is at stake, and options to expose, conceal, bargain, sacrifice, or act.
@@ -281,7 +342,55 @@ card names a trigger, stakes, and player options; adjust it to the current state
 - **Do:** Trigger it with established opposing goals; show objective, stakes, terrain, and alternatives; offer fight, negotiate, retreat, protect, sabotage, surrender, or change the win condition.
 - **Agency note:** A climax can be any other high-stakes confrontation players earned; do not require a battle, villain, or total victory.
 
+### Sacrifice
+- **Use when:** A PC or key ally must give up something irreplaceable — life, freedom, power, a bond — to resolve the central stakes.
+- **Do:** Trigger it after prior play establishes what is at stake and what the sacrifice costs; show the choice clearly — what is saved, what is lost, and who bears the cost; offer accept, refuse, find another way, share the burden, or bargain for terms.
+- **Agency note:** The sacrifice must be a genuine choice with a refusal path that has its own consequences; do not force the loss or decide which character pays.
+
+### Desperate Gambit
+- **Use when:** Conventional approaches have failed or been foreclosed and the party commits to an improvised, high-risk plan.
+- **Do:** Trigger it after prior beats close safer routes; show the plan's moving parts and what breaks if any piece fails; offer execute, modify, abort, split the party, or change the objective.
+- **Agency note:** Let the plan be the players' invention; provide the obstacles and costs, not the method; partial success and creative pivots mid-execution are valid outcomes.
+
+### Reckoning
+- **Use when:** Multiple consequences, debts, or delayed threats converge and demand simultaneous resolution.
+- **Do:** Trigger it after clocks, faction moves, and prior choices create a collision; show each arriving thread and its immediate demand; offer triage, prioritize, delegate, sacrifice one to save another, or attempt to address all at cost.
+- **Agency note:** Each unhandled thread produces its own consequence rather than vanishing; do not resolve threads the players have not addressed.
+
+### Siege
+- **Use when:** The party defends something precious — a place, person, object, or principle — against overwhelming or sustained pressure.
+- **Do:** Trigger it through established opposition strength or numbers; show what is defended, what the attackers want, where the defense is weakest, and what can be abandoned; offer hold, retreat, counterattack, negotiate, sacrifice ground, or call for aid.
+- **Agency note:** Let the party choose what to protect and what to give up; an overrun defense is a consequence, not a cutscene; relief or reinforcement follows established fiction.
+
+### Negotiation Under Duress
+- **Use when:** The climax is brokering a deal, truce, surrender, or alliance while the situation actively deteriorates.
+- **Do:** Trigger it after prior play establishes the stakes and the deteriorating conditions; show the terms available, the cost of delay, what each side can offer, and what breaks if talks fail; offer accept, counter, stall, walk away, or change the leverage.
+- **Agency note:** Both sides act on established interests; a bad deal accepted is a valid climax outcome; do not make the counterparty irrational to force a fight.
+
+### Catastrophe
+- **Use when:** The opposition is a force — storm, collapse, plague, magical unraveling, divine event — rather than a person, and survival or prevention is the confrontation.
+- **Do:** Trigger it through established warning signs or prior actions that set the catastrophe in motion; show scope, rate, shelter, and cost; offer prevent, redirect, endure, flee, sacrifice something to reduce harm, or accept the change.
+- **Agency note:** The catastrophe follows fictional causes the players can trace; survival with loss is a valid outcome; do not use a force-of-nature climax to override player choices.
+
+### Trial
+- **Use when:** A formal or informal judgment — court, council, divine test, community verdict — determines real stakes such as freedom, war, exile, execution, or alliance.
+- **Do:** Trigger it after prior play establishes the charge, the evidence, and who decides; show the procedure, the evidence available, what testimony or argument can change, and the range of verdicts; offer argue, present evidence, call witnesses, confess, challenge the court, or accept judgment.
+- **Agency note:** The verdict follows the evidence and argument the players actually present; do not predetermine the outcome or make the judge immune to persuasion when the fiction supports it.
+
+### Betrayal Cascade
+- **Use when:** A trusted ally, faction, or institution turns against the party and the climax is the fracture itself — choosing sides, exposing the betrayer, or surviving the reversal.
+- **Do:** Trigger it after established trust and planted evidence of duplicity; show who is turning, what they want, who is caught in the middle, and what each side can offer; offer confront, expose, join, flee, negotiate, or fight.
+- **Agency note:** The betrayal must follow from established character motivation and planted evidence; let players who spotted the signs early act on their preparation; do not invalidate prior trust-building that the fiction supported.
+
 ## Resolution
+
+The *aftermath* — and the arc's echo. Show the changed world: threads planted
+in the Hook and middle at their final state, costs paid across the session
+visible, PC goals with a clear new status. Match scope to the Climax. The
+Resolution can reveal something that changes the meaning of everything before
+it — but that reframing must follow from established fiction, not GM
+convenience. Stop when the players can name what is different and what they
+want next.
 
 ### Happy Ending
 - **Use when:** Player choices produce safety, reunion, justice, freedom, or another earned good outcome.

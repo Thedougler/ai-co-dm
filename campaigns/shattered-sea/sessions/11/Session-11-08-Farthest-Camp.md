@@ -46,7 +46,7 @@ This camp wants to see the woman's garden. The woman is [[Aruhe - Hinewai]] / Hi
 
 **Invitation.** The people at this fire look into the spokes when the branches move. [[Aruhe - Hinewai]] is not standing at this fire as a named body. Do not stage [[Aruhe - Memorial Grove]]. Do not treat this as a charm spell.
 
-**[[Taking on Aruhe]] practice.** Already-picked [[Aruhe - Stonepear]] is down by this fire. Living stonepears around this ring still hang. Taking only fruit already down is not a claim. Plucking living plants at this fire is a claim. On that claim, do not roll the hazards table now. The later [[Aruhe-River-Grasslands-Tables]] roll is `2d8`, keeping the lower result.
+**[[Taking on Aruhe]] practice.** Already-picked [[Aruhe - Stonepear]] is down by this fire. Living stonepears around this ring still hang. Taking only fruit already down is not a claim. Plucking living plants at this fire is a claim. On that claim, do not roll the hazards table now. The later [[Session-11-00-Random-Tables]] roll is `2d8`, keeping the lower result.
 
 **Fallen [[Aruhe - Stonepear]].** Eating one is a Bonus Action and grants **Resistance to all damage** for 1 minute.
 
@@ -146,4 +146,4 @@ Do not run the hazards table, the [[Aruhe - Deerstalker]], or [[Talon Skarn]] he
 
 ## Backup
 
-[[Aruhe - Quiet Forest Spoke Ring]] · [[Aruhe - Quiet Forest Star Cut]] · [[Aruhe - Stonepear]] · [[Aruhe - Hinewai]] · [[Taking on Aruhe]] · [[Uncertainty]] · [[Aruhe - Memorial Grove]] · [[Aruhe - Quiet Forest]] · [[Aruhe - Grasslands - Print Braid]] · [[Aruhe - Grasslands]] · [[Aruhe - River]] · [[Aruhe-River-Grasslands-Tables]] · [[Session-11-07-False-Help]] · [[Session-11-00-Birds-of-a-Feather]]
+[[Aruhe - Quiet Forest Spoke Ring]] · [[Aruhe - Quiet Forest Star Cut]] · [[Aruhe - Stonepear]] · [[Aruhe - Hinewai]] · [[Taking on Aruhe]] · [[Uncertainty]] · [[Aruhe - Memorial Grove]] · [[Aruhe - Quiet Forest]] · [[Aruhe - Grasslands - Print Braid]] · [[Aruhe - Grasslands]] · [[Aruhe - River]] · [[Session-11-00-Random-Tables]] · [[Session-11-07-False-Help]] · [[Session-11-00-Birds-of-a-Feather]]

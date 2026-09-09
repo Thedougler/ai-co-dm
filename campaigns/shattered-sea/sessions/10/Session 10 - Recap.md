@@ -11,6 +11,7 @@ cssclasses: [session-surface]
 
 # Session 10 - Recap
 
+## Recap
 > [!narration] Recap
 > Last time on the Shattered Sea, you took the prize *[[Uncertainty]]*. [[Delmar Fisk]]'s fleet stole the [[Pearl of Souls]], and [[Umberlee]] named that Pearl as her price. [[Otar the Foul]] died in the [[Mercatura]] crater. [[Nona Black-Jaw]]'s list climbed past three hundred fourteen fighting-age men. You were bound for [[Sparhold]], and [[HCS Ordinance|Ordinance]] sailed for [[Calven and Calveno|Calveno]] with your story.
 >

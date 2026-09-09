@@ -40,7 +40,7 @@ The group ahead has been living off fruit already down on this bank, and off fis
 
 **This bank.** Eight-foot gold-green grass is Difficult Terrain and heavily obscures beyond 10 feet. Movement leaves a crushed corridor.
 
-**[[Taking on Aruhe]] claim.** Fruit already on the ground of this bank is down. Fallen fruit has no blood. Taking only that fruit is not a claim. Eating a still-firm fallen fruit is a Bonus Action and regains `8d4 + 8` hit points, as [[Aruhe - Redheart Berry]]. Do not invent a new mechanical item. Living stems on this bank still hold tawny orange fruit. Stems snapped on the living plant with blood in the dirt are the claim already made by someone else. Plucking living bushes on this bank is a claim. On that claim, do not roll the hazards table now. The later [[Aruhe-River-Grasslands-Tables]] roll is `2d8`, keeping the lower result. If the crew fishes this bank themselves, treat it as a possible claim when you next roll. Do not start [[Aruhe - River Slack Basin]].
+**[[Taking on Aruhe]] claim.** Fruit already on the ground of this bank is down. Fallen fruit has no blood. Taking only that fruit is not a claim. Eating a still-firm fallen fruit is a Bonus Action and regains `8d4 + 8` hit points, as [[Aruhe - Redheart Berry]]. Do not invent a new mechanical item. Living stems on this bank still hold tawny orange fruit. Stems snapped on the living plant with blood in the dirt are the claim already made by someone else. Plucking living bushes on this bank is a claim. On that claim, do not roll the hazards table now. The later [[Session-11-00-Random-Tables]] roll is `2d8`, keeping the lower result. If the crew fishes this bank themselves, treat it as a possible claim when you next roll. Do not start [[Aruhe - River Slack Basin]].
 
 ![[attachments/shattered-sea/items/aruhe-redheart-berry.png|Redheart Berry]]
 
@@ -113,4 +113,4 @@ Do not run the hazards table, wolfrabbits, or [[Aruhe - River Slack Basin]] here
 
 ## Backup
 
-[[Aruhe - River Line Bank]] · [[Aruhe - Grasslands Torn Crossing]] · [[Aruhe - River Landing Bank]] · [[Aruhe - River Slack Basin]] · [[Aruhe-River-Grasslands-Tables]] · [[Taking on Aruhe]] · [[Aruhe - Grasslands]] · [[Aruhe - River]] · [[Aruhe - Redheart Berry]] · [[Uncertainty]] · [[Session-11-03-Wolfrabbits]] · [[Session-11-00-Birds-of-a-Feather]] · [[Session-11-05-Otter-Hole]]
+[[Aruhe - River Line Bank]] · [[Aruhe - Grasslands Torn Crossing]] · [[Aruhe - River Landing Bank]] · [[Aruhe - River Slack Basin]] · [[Session-11-00-Random-Tables]] · [[Taking on Aruhe]] · [[Aruhe - Grasslands]] · [[Aruhe - River]] · [[Aruhe - Redheart Berry]] · [[Uncertainty]] · [[Session-11-03-Wolfrabbits]] · [[Session-11-00-Birds-of-a-Feather]] · [[Session-11-05-Otter-Hole]]

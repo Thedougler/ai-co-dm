@@ -35,7 +35,7 @@ Raid survivors already used this bank and walked upriver toward the smoke. There
 
 **This bank.** Eight-foot gold-green grass is Difficult Terrain and heavily obscures beyond 10 feet. Movement leaves a crushed corridor.
 
-**[[Taking on Aruhe]] claim.** Fruit skins and whole fruit already on the ground are down. Living [[Aruhe - Redheart Berry]] still hangs on short thick stems at the wet margin. Taking what is already down is not a claim. Plucking living plants is a claim. Fishing, trapping, or killing to carry flesh is a claim. On a claim, do not roll the hazards table now. The later [[Aruhe-River-Grasslands-Tables]] roll is `2d8`, keeping the lower result. The trail and smoke remain.
+**[[Taking on Aruhe]] claim.** Fruit skins and whole fruit already on the ground are down. Living [[Aruhe - Redheart Berry]] still hangs on short thick stems at the wet margin. Taking what is already down is not a claim. Plucking living plants is a claim. Fishing, trapping, or killing to carry flesh is a claim. On a claim, do not roll the hazards table now. The later [[Session-11-00-Random-Tables]] roll is `2d8`, keeping the lower result. The trail and smoke remain.
 
 **Fallen [[Aruhe - Redheart Berry]].** Eating one is a Bonus Action and regains `8d4 + 8` hit points.
 
@@ -97,4 +97,4 @@ If the crew broke, they are returning through the terrace line toward the beach 
 
 ## Backup
 
-[[Aruhe - River Landing Bank]] · [[Aruhe - Grasslands Torn Crossing]] · [[Aruhe-River-Grasslands-Tables]] · [[Taking on Aruhe]] · [[Aruhe - Grasslands]] · [[Aruhe - River]] · [[Aruhe - Old Gardens]] · [[Aruhe - Redheart Berry]] · [[Uncertainty]] · [[Session-11-00-Birds-of-a-Feather]] · [[Session-11-01-Angry-Birds-Start]]
+[[Aruhe - River Landing Bank]] · [[Aruhe - Grasslands Torn Crossing]] · [[Session-11-00-Random-Tables]] · [[Taking on Aruhe]] · [[Aruhe - Grasslands]] · [[Aruhe - River]] · [[Aruhe - Old Gardens]] · [[Aruhe - Redheart Berry]] · [[Uncertainty]] · [[Session-11-00-Birds-of-a-Feather]] · [[Session-11-01-Angry-Birds]]

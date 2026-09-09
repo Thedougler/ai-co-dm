@@ -187,4 +187,4 @@ Do not run the hazards table, [[Aruhe - River Slack Basin]], or beat 7's false-h
 
 ## Backup
 
-[[Aruhe - Quiet Forest Cutoff Lip]] · [[Aruhe - Deerstalker]] · [[Taking on Aruhe]] · [[Aruhe - Quiet Forest]] · [[Aruhe - River Slack Basin]] · [[Aruhe - Grasslands]] · [[Aruhe - River]] · [[Aruhe-River-Grasslands-Tables]] · [[Session-11-05-Otter-Hole]] · [[Session-11-00-Birds-of-a-Feather]]
+[[Aruhe - Quiet Forest Cutoff Lip]] · [[Aruhe - Deerstalker]] · [[Taking on Aruhe]] · [[Aruhe - Quiet Forest]] · [[Aruhe - River Slack Basin]] · [[Aruhe - Grasslands]] · [[Aruhe - River]] · [[Session-11-00-Random-Tables]] · [[Session-11-05-Otter-Hole]] · [[Session-11-00-Birds-of-a-Feather]]

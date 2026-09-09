@@ -48,6 +48,12 @@ open unless the fiction makes it impossible. Resolve a Contest by the agreed
 procedure. Let a failed attempt change the situation instead of quietly
 converting it into success.
 
+**Between beats:** Does the Landing create a visible opening for the next
+situation, or is the transition a teleport? Can players see why the new
+situation follows from what just happened? If the transition requires the party
+to ignore a live option or abandon an active thread, that is a railroad — offer
+the option and recompute.
+
 **After a beat:** Ask what is now true, not what the outline wanted. Cross out
 obsolete scenes. Promote choices that created new problems. If the next planned
 beat is no longer the most consequential available situation, replace it.
@@ -70,13 +76,44 @@ fits the new state, not by manufacturing motion.
 
 ## Climax and resolution tests
 
+### Recognizing the climax
+
 Call something the Climax only after asking: “Which player choices made this
 the highest-stakes confrontation?” If the party negotiated, fled, exposed a
-conspiracy, protected someone, or reframed the problem, make that choice the
-center of the climax. A planned villain duel is only a candidate.
+conspiracy, protected someone, defended a position, sacrificed something
+irreplaceable, survived a catastrophe, brokered a deal under pressure, or
+reframed the problem, make that choice the center of the climax. A planned
+villain duel is only a candidate.
 
-Call the next beat Resolution when it shows the immediate changed world and
-what the players can now pursue. Do not erase failure with a rescue or revive a
-foe solely for a rematch. A surviving threat is valid only when its survival
-follows from established fiction and leaves the players with consequential
-knowledge or options.
+The climax is forming when three signs converge: most open routes have closed
+or narrowed, the remaining paths carry the session's highest stakes, and
+players are committing resources or relationships they cannot recover. Call
+it when players commit, not when the chart reaches its planned slot.
+
+### Early and avoided climax
+
+When the central question resolves before its planned slot, that early
+resolution is the climax. Compress the remaining budget: deliver the
+Resolution beat and close or rebudget the session.
+
+When the party avoids the anticipated climax entirely — negotiating past the
+battle, preventing the catastrophe, fleeing the confrontation — treat the
+avoided candidate's consequences as the new world state. Recompute. A different
+confrontation may earn the climax, or the session may close with a Resolution
+from the avoidance itself.
+
+When two candidates become live simultaneously, let the party choose which
+confrontation to engage. The unchosen candidate produces its own consequence
+through the recompute loop.
+
+### Resolution handoff
+
+Call the next beat Resolution when it shows the *aftermath*: what changed, what
+it cost, and what the players can now pursue. Match scope to the Climax — a
+relationship-scale climax gets a relationship-scale resolution; a faction-scale
+climax gets a power-vacuum resolution, not a world-state summary.
+
+Honor the outcome the Climax produced. A surviving threat earns its place only
+when its survival follows from established fiction and leaves the players with
+consequential knowledge or options. Completion: the players can name what is
+different and what they want next.

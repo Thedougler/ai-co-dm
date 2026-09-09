@@ -26,6 +26,54 @@ surprise. A pressure point is ready when the threat is visible enough to act
 on, the fuse advances without permission, the clean answer remains uncertain,
 and every response costs something.
 
+## Composition
+
+The five beat types compose a session when they advance shared **threads** — a
+faction clock, a PC goal, a mystery, a relationship under pressure, a depleting
+resource. Plant threads in early beats. Let Developments reveal new facets. Let
+Cliffhangers test them under cost. Let the Climax **harvest** what the middle
+planted. A beat advancing no live thread is filler; a beat advancing an
+abandoned thread is a railroad.
+
+**Developments set direction; Cliffhangers test it.** Each Development is a
+"bump" that reorients the party's trajectory — setting the direction of action
+until the next Development changes it again. Cliffhangers are contests whose
+outcome stays in doubt up to the end; they test the direction a Development
+set and produce the changed state the next Development must interpret.
+Developments can chain: one Development (meet the mentor) leads to another
+(learn the weakness) that leads to a third (discover the ally), each building
+capability toward the Climax. When Developments chain, break them with
+Cliffhangers so the knowledge is tested under cost before the next piece
+arrives.
+
+**The Hook sets the session's key.** An action Hook (pursuit, fight, crisis)
+opens a physical key — the middle explores and survives a dangerous situation.
+A cerebral Hook (discovery, offer, revelation) opens an informational key — the
+middle decides what to do with knowledge. The Climax resolves the question the
+Hook opened, transformed by the middle's costs and revelations.
+
+**Each beat's Landing is the next beat's Trigger.** Prepare transitions, not
+just beats — the seam carries momentum. A Cliffhanger ending in a new place
+opens the next Development with what can be learned there. A Development
+revealing a betrayal triggers the Cliffhanger where the betrayer acts. A
+transition that teleports past a live option is a railroad.
+
+**Stakes escalate across the arc.** Early Development/Cliffhanger pairs
+explore the problem space at lower personal cost — gathering information,
+meeting actors, testing terrain, choosing sides. Later pairs narrow the field
+and raise the price — alliances tested, resources committed, routes foreclosed.
+The Climax arrives where threads converge and the remaining choice carries the
+session's highest cost.
+
+**Balance action and introspection.** A session of pure Cliffhangers is
+exhausting; a session of pure Developments is inert. The chart keeps a
+balance — action to process, danger to plan, spend to invest — and the
+alternation rule is how that balance works mechanically.
+
+**Resolution echoes the whole arc,** not only the Climax's immediate outcome.
+Threads planted early show their final state. Costs paid in the middle are
+visible. PC goals pursued since the Hook have a clear new status.
+
 ## Run the chart
 
 1. **State the promise and starting situation.** Name the experience, question,
@@ -47,15 +95,42 @@ and every response costs something.
    three materially different response paths, a delay consequence, and a partial
    success shape. Mark the candidate as a Hook, Development, Cliffhanger,
    Climax, or Resolution only when it fires.
-4. **Fire one Hook at the start.** Present an actionable problem, offer, threat,
-   discovery, or opening. If the Hook is action-heavy, make the next beat a
-   Development; if it is cerebral or conversational, make the next beat a
-   Cliffhanger. Offer choices whenever the fiction allows them.
-5. **Alternate the middle.** Use Developments for non-action change—clues,
-   talk, revelation, planning, or character change. Use Cliffhangers for action,
-   peril, pursuit, fights, ambushes, and immediate obstacles. Do not place two
-   Developments or two Cliffhangers consecutively. A player-caused pause,
-   detour, or departure is not a license to force the next prepared beat.
+4. **Fire one Hook at the start.** The Hook is the session's **strong start**:
+   the first pressure the party faces, landing in one spoken delivery. Present
+   an actionable problem, offer, threat, discovery, or opening. Choose the
+   Hook card whose trigger matches the current fiction — prefer cards that
+   connect to the previous session's ending or an active PC goal.
+
+   *Polarity handoff:* if the Hook is action-heavy (pursuit, fight, crisis,
+   ambush), make the next beat a Development so the party can process what
+   happened. If the Hook is cerebral or conversational (discovery, revelation,
+   offer), make the next beat a Cliffhanger to raise physical stakes.
+
+   *Completion:* the party has committed to a response — they can name what
+   they are doing about the opening pressure. The DM can state what changed
+   and what the next beat's trigger is. One Hook per session; a session with
+   two Hooks has a pacing problem, not an energy surplus.
+5. **Alternate the middle.** Developments change the *decision space* — what
+   players know, can reach, or choose between. Cliffhangers change the
+   *physical situation* — position, resources, safety. Use Developments for
+   clues, talk, revelation, planning, alliance, or character change. Use
+   Cliffhangers for action, peril, pursuit, fights, ambushes, and immediate
+   obstacles. Do not place two Developments or two Cliffhangers consecutively.
+   Each Development makes the next Cliffhanger's stakes legible; each
+   Cliffhanger makes the next Development's information urgent. Two of the
+   same type dulls both — Cliffhanger after Cliffhanger dulls danger faster
+   than it builds excitement.
+
+   Front-load the threat in a Cliffhanger: put the danger visible and the
+   outcome uncertain from the start, keep it short, and let it resolve. A
+   Chase works well after a Kidnapping or Revelation Hook. A Race follows a
+   Discovery or clue Development that gives players a target. A Retreat
+   follows a Cliffhanger the party lost. These pairings are the natural
+   grammar, not a mandate.
+
+   A Development is complete when players can name what they now know or can
+   decide that they could not before. A player-caused pause, detour, or
+   departure is not a license to force the next prepared beat.
 6. **Recompute after every beat.** Update actors, knowledge, resources, routes,
    clocks, relationships, and player goals. Drop obsolete candidates, promote
    emergent situations, and change labels or order as the new state demands.
@@ -68,19 +143,41 @@ and every response costs something.
    Escape rare, costly, and unable to erase meaningful consequences.
 8. **Escalate pressure without stacking fights.** Advance visible clocks and
    change the problem when players delay; do not turn an undisclosed trigger
-   into a hidden punishment. Early opposition may be weak, partial, or avoidable;
-   later opposition may be tougher or more consequential.
+   into a hidden punishment. Scale opposition across the arc: early Cliffhangers
+   use weaker, avoidable, or partial opposition that teaches strengths and
+   weaknesses on both sides; later Cliffhangers use tougher or more
+   consequential opposition as the party's capabilities and the threat's
+   desperation grow together.
    Keep Cliffhangers short and legible, save the strongest pressure for the
    Climax, and interleave social, investigative, travel, and recovery beats.
-9. **Earn the Climax.** Before an action Climax, end the preceding beat with a
-   Development; before a cerebral Climax, end it with a Cliffhanger. Define the
-   Climax as the highest-stakes confrontation the players' choices made
-   inevitable. Negotiation, retreat, prevention, sacrifice, or reframing can be
-   the climax; do not require a final battle.
-10. **Resolve the changed world.** Follow Climax with one Resolution. Show the
-    consequences of player choices, including costs, altered relationships,
-    opened routes, unresolved danger, or new opportunities. Make any sequel
-    follow the fiction; do not preserve an antagonist merely to demand a rematch.
+   As threads advance, narrow the options and raise the personal cost — the
+   arc escalates through what players have invested, not through stacking
+   opponents.
+9. **Earn the Climax.** The Climax harvests what the middle planted — threads
+   that Developments revealed and Cliffhangers tested converge into the
+   highest-stakes confrontation the players' choices made inevitable. Before
+   an action Climax, end the preceding
+   beat with a Development; before a cerebral Climax, end it with a Cliffhanger.
+   A final battle is one shape among many: sacrifice, defense, desperate gambit,
+   reckoning, negotiation under duress, catastrophe survival, trial, betrayal
+   cascade, or reframing can be the climax. Recognize formation: when player
+   choices close most open routes and the remaining paths converge on one
+   high-stakes confrontation, the climax is near — call it when players commit,
+   not when the chart says it is due. If the central question resolves early,
+   that early resolution is the climax; compress and deliver the Resolution
+   rather than padding the session to reach a planned slot. If the party avoids
+   the anticipated climax entirely, the avoided confrontation's consequences
+   become the new world state; recompute and let a different confrontation earn
+   the role or close with a Resolution.
+10. **Show the aftermath.** Follow Climax with one Resolution. Match scope to
+    the Climax: a relationship-scale climax gets a relationship-scale
+    resolution; a faction-scale climax gets a power-vacuum resolution. Show
+    what changed, what it cost, and what the players can now pursue. Honor the
+    outcome — a surviving threat earns its place only when its survival follows
+    from established fiction and leaves the players with consequential knowledge
+    or options. Threads planted in the Hook and middle show their final
+    state; costs paid across the session are visible. Completion: the players
+    can name what is different in the world and what they want to do next.
 
 ## Agency gates
 
@@ -100,11 +197,23 @@ and every response costs something.
 
 ## Beat order audit
 
-Before play, write `Hook → (D/C pairs as needed) → Climax → Resolution` and mark
-whether the Hook, each transition, and the Climax prelude satisfy the polarity
-rules. During play, cross out or rewrite candidates after each recompute. A
-chart is healthy when it creates pressure and openings without deciding what
-players must choose.
+Before play, write `Hook → (D/C pairs as needed) → Climax → Resolution` and
+check:
+
+- **Polarity:** does each transition satisfy the alternation rule? Does the
+  Climax prelude use the correct opposite type?
+- **Threads:** does every prepared beat advance at least one live thread? Does
+  the Climax harvest threads the middle planted? Does the Resolution show
+  their final state?
+- **Escalation:** do early pairs explore at lower cost while later pairs narrow
+  and raise the price? Is the Climax the highest-stakes convergence, not a
+  flat peer of the middle beats?
+- **Transitions:** does each beat's Landing create a visible trigger for the
+  next? Are there teleports, time-skips, or forced options between beats?
+
+During play, cross out or rewrite candidates after each recompute. A chart is
+healthy when it creates pressure and openings without deciding what players
+must choose.
 
 Read [references/agency.md](references/agency.md) for the recompute loop and
 anti-railroad tests. Use [references/beat-types.md](references/beat-types.md)

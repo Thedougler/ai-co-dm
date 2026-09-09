@@ -11,6 +11,7 @@ cssclasses: [session-surface]
 
 # Session 11 — Angry Birds
 
+![[Session 10 - Recap#Recap]]
 ## Scene ends when
 
 The crew drops into eight-foot grass and moving water, crash-lands in the terrace woods, or forces the beach. This is not a fight to the death with the adult [[Aruhe - Bloodhawk]] or the [[Aruhe - Crown Squid]].
@@ -117,7 +118,7 @@ The crew is in moving water and eight-foot grass, or crash-landed or scattered i
 ![[attachments/shattered-sea/creatures/great-crown-squid-of-aruhe-01.jpg|Great Crown Squid of Aruhe]]
 ## Backup
 
-[[Aruhe - Old Gardens]] · [[Aruhe - Grasslands]] · [[Aruhe - River]] · [[Aruhe - Beach]] · [[Uncertainty]] · [[Session-11-00-Birds-of-a-Feather]] · [[Aruhe-River-Grasslands-Tables]]
+[[Aruhe - Old Gardens]] · [[Aruhe - Grasslands]] · [[Aruhe - River]] · [[Aruhe - Beach]] · [[Uncertainty]] · [[Session-11-00-Birds-of-a-Feather]] · [[Session-11-00-Random-Tables]]
 ## Battlemap
 
 ![[attachments/shattered-sea/battlemaps/session-11-01-angry-birds-base.png|Session 11-01 Angry Birds battlemap]]
