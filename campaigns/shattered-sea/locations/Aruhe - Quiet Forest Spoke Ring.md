@@ -19,13 +19,14 @@ tags:
 source: "[[Aruhe - Quiet Forest]]"
 ---
 # Spoke Ring
+![[attachments/shattered-sea/places/aruhe-spoke-ring.png|Spoke Ring, radial fire hub under Quiet leaves]]
 ## Overview
 > [!narration] Narration
-> Packed dirt holds a hub under Quiet leaves, wide enough for a fire, with packed trails cutting out through buttress-root trunks like spokes from a ring of river stones. Stonepears hang heavy from mossed branches over that ring, each fruit scaled in grey-green plates, while more of the same fruit already lies down on the dirt. South, gold-green grass still shows between the last trunks. West, river water talks through a root-cut. The leaf roof holds smoke and drip, and the small sounds of the grass stop as soon as a path enters the wood.
+> Packed dirt holds a round hub under Quiet leaves, wide enough for a fire, with narrow trails cutting away through buttress-root trunks like spokes from a ring of river stones. Stonepears hang above it in grey-green scales, heavy enough to bow the mossed branches; fallen fruit sits beside the coals as if it were placed there. South, one spoke opens onto a hot slice of gold-green grass. West, another drops through hanging roots to a strip of clear water, close enough to hear but not wide enough to make this a river camp. North, the spokes darken under leaves where the smoke cannot rise and every small grassland sound stops at the mouths of the trails.
 
 ---
 ## At a glance
-Spoke Ring is the first Quiet hub north of [[Aruhe - Grasslands Print Braid|Print Braid]], where game trails meet on the seam of [[Aruhe - Quiet Forest]], [[Aruhe - Grasslands]], and [[Aruhe - River]]. Unlike Print Braid's grass braid and cobble ring, or [[Aruhe - Quiet Forest Cutoff Lip|Cutoff Lip]]'s packed sleep-shelf and knee palisade, this site is a dirt star under leaf roof: a stone fire ring at the hub, radiating packed spokes, and stonepears on mossed branches. Stay on a grassland ridge or turn back on Print Braid and the hub can be skipped; walk the inland prints into the wood and it remains the fire ring, four sleeping mats, fallen stonepears, and spokes that do not all want the same night. The inland group stopped here. The smoke the prints followed is this fire.
+Spoke Ring is the first Quiet hub north of [[Aruhe - Grasslands Print Braid|Print Braid]], where game trails meet on the seam of [[Aruhe - Quiet Forest]], [[Aruhe - Grasslands]], and a small root-cut of [[Aruhe - River]]. Unlike Print Braid's grass braid and cobble ring, or [[Aruhe - Quiet Forest Cutoff Lip|Cutoff Lip]]'s packed sleep-shelf and knee palisade, this site is a radial dirt star under leaf roof: a live stone fire at the center, four mats set at equal remove, heavy stonepears overhead, and exits that offer different kinds of wrong direction. Stay on a grassland ridge or turn back on Print Braid and the hub can be skipped; walk the inland prints into the wood and it remains the fire ring, mats, fallen stonepears, and spokes that do not all want the same night. The inland group stopped here. The smoke the prints followed is this fire.
 
 ---
 ## If the party
@@ -53,12 +54,12 @@ Spoke Ring is the first Quiet hub north of [[Aruhe - Grasslands Print Braid|Prin
 ---
 ## What
 
-- A packed dirt hub sits under Quiet leaves. It is wide enough for a crew to stand around a fire. River stones form a live ring at the center. Smoke hangs as a haze under the leaf roof instead of rising as a column.
-- Packed trails cut out through buttress-root trunks like spokes. The south spoke still holds crushed prints from [[Aruhe - Grasslands Print Braid|Print Braid]]. North spokes darken into [[Aruhe - Quiet Forest]]. The west spoke drops toward [[Aruhe - River]] through a root-cut.
-- Four sleeping mats lie about 10 feet from the ring: woven fiber with a rolled blanket, a dark green pad, a rust pillow, and a grey pillow. Fruit sits beside the northeast mat.
-- [[Aruhe - Stonepear]] hangs from mossed branches over the ring. Fallen fruit already down by the coals is receiving. Living stems still hang.
+- A round packed-dirt hub sits under Quiet leaves, with a live fire ring of wet river stones at the center. Smoke pools beneath the leaf roof instead of rising as a column.
+- The spokes are the landmark: narrow packed trails radiate from the fire through buttress-root trunks. The south spoke still holds crushed prints from [[Aruhe - Grasslands Print Braid|Print Braid]]. North spokes darken into [[Aruhe - Quiet Forest]]. The west spoke drops through hanging roots toward a narrow strip of [[Aruhe - River]].
+- Four sleeping mats lie about 10 feet from the ring: woven fiber with a rolled blanket, a dark green pad, a rust pillow, and a grey pillow. Their spacing makes the hub feel measured, not accidental.
+- [[Aruhe - Stonepear]] hangs from mossed branches directly over the ring. Fallen fruit already down by the coals is receiving. Living stems still hang above the same fire.
+- The west water is close but secondary: enough clear flow for drinking, washing, and listening through roots, not enough open channel to invite otter play as the main scene.
 - Gold-green grass still shows between the last trunks on the south spoke. That is the last grassland light. The Quiet has no insect-saw and no bird chatter past the trail mouths.
-- Free-flowing water talks through the west root-cut. That water is drinkable.
 
 ---
 ## Where
@@ -73,10 +74,10 @@ Spoke Ring is the first Quiet hub north of [[Aruhe - Grasslands Print Braid|Prin
 
 - The smoke the inland prints followed is this fire.
 - Fallen stonepears sit already down by the coals.
-- The spokes offer grass behind, river beside, and Quiet ahead as soon as the hub splits.
+- The radial hub turns the route into a choice: grass behind, root-cut water beside, and several darker Quiet spokes ahead.
 
 ---
 ## Art
 
-- ![[attachments/shattered-sea/battlemaps/session-11-08-farthest-camp-base.png|Spoke Ring battlemap, packed dirt hub, stone fire ring, sleeping mats, and radiating Quiet trails]]
+- ![[attachments/shattered-sea/battlemaps/aruhe-spoke-ring-battlemap.png|Spoke Ring battlemap, radial fire hub under Quiet leaves]]
 - The battlemap owns this stretch: top is north, right is east, bottom is south, and left is west. The fire ring sits at the hub. South is the grassland mouth back to Print Braid. West is the river root-cut. North is deeper Quiet.
