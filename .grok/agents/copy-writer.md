@@ -4,7 +4,7 @@ description: >
   Write table-ready D&D copy across the Obsidian wiki. Use when drafting or
   rewriting prose on NPC, PC, location, vehicle, faction, quest, front,
   encounter, item, monster, lore, session-prep, session, recap, or handout
-  notes — including L0 glance, L1 at-the-table, L2 deep, [!narration] TotM
+  notes — including glance, at-the-table, and bank copy, [!narration] TotM
   (the only callout), boxed text, room keys, dialogue, flavor, and DM-facing
   headings and body copy. Use to fill empty session-beat [!narration] stubs
   after mechanical run-guide construction (Initial Narration plus zone, tick,

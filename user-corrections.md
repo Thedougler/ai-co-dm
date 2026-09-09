@@ -47,13 +47,13 @@ For each **status:** `open` entry:
 
 ### 2026-09-09 — L0 Glance heading
 
-**Error:** wrote `## L0 · Glance` on [[Session-11-03-Wolfrabbits]].
+**Error:** L0/L1/L2 sections in vault documents (`## L0 · Glance` on [[Session-11-03-Wolfrabbits]]; copy-writer skill and spawn files treat L0/L1/L2 as production headings).
 
-**Correction:** Do not use an L0 section. Use `## At a Glance`.
+**Correction:** L0/L1/L2 are internal agent workflow steps. They must not reach production notes. Use ordinary headings (`## At a Glance`, template section names).
 
-**Read:** `campaigns/shattered-sea/sessions/11/Session-11-03-Wolfrabbits.md`; `skill://run-guide`
+**Read:** `campaigns/shattered-sea/sessions/11/Session-11-03-Wolfrabbits.md`; `skill://run-guide`; `.agents/skills/copy-writer/SKILL.md`; `.grok/agents/copy-writer.md`; `.omp/agents/copy-writer.md`
 
-**count:** 1
+**count:** 2
 
 **status:** open
 

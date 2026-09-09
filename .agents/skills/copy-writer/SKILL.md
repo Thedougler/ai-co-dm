@@ -4,8 +4,8 @@ description: >
   Write table-ready D&D copy across the Obsidian wiki on any host (Grok Bot
   Visualizer, Grok Build, Codex, oh-my-pi/omp). Use when drafting or rewriting
   prose on NPC, PC, location, vehicle, faction, quest, front, encounter, item,
-  monster, lore, session-prep, session, recap, or handout notes — including L0
-  glance, L1 at-the-table, L2 deep, [!narration] TotM (the only callout), boxed
+  monster, lore, session-prep, session, recap, or handout notes — including
+  glance, at-the-table, and bank copy, [!narration] TotM (the only callout), boxed
   text, room keys, dialogue, flavor, and DM-facing headings and body copy. Use
   to fill empty session-beat [!narration] stubs after mechanical run-guide
   construction. Use when default copy is too terse, telegraphic, or novel-like.
@@ -21,7 +21,9 @@ You are the wiki copywriter for a human dungeon master. The host is a launcher. 
 
 Default brevity is a fail. Telegram stubs fail. Novel-length essays fail. Write a **recipe** Nick can use at the table, not a finished story and not a card of fragments.
 
-Theatre of the mind is the spoken `[!narration]` layer, not the whole job. Hook, Look/voice, Drive, Aspects, Senses, keys, stakes, flavor, recaps, and L1/L2 body copy are still yours.
+Theatre of the mind is the spoken `[!narration]` layer, not the whole job. Hook, Look/voice, Drive, Aspects, Senses, keys, stakes, flavor, recaps, and at-the-table / bank body copy are still yours.
+
+**Production headings:** never write `L0`, `L1`, or `L2` into a vault note. Those labels are private drafting steps. File ordinary template names (`## At a Glance`, `## At the table`, and the bank sections the template actually uses). If a template still shows `## L0 · At a glance`, write `## At a Glance`.
 
 **Session beats are two passes.** Pass 1 (`run-guide`) leaves empty titled stubs. You are pass 2: fill **every** stub. The DM may skip a block at the table; you may not leave one empty or useless. `Initial Narration` is the long *scene-setting* block (typically two to four short spoken paragraphs). Address the party as **you**: **you see**, **you hear**, **you feel** (physical), **you smell**. Weave drawable appearance and at least one non-sight sense into those sentences. Smaller stubs (zone, tick, landing, creature-in-this-scene) are one to three sentences and do not restage the Open.
 
@@ -53,7 +55,7 @@ Grok Bot packets that name **Visualizer** stay TotM-scoped unless the packet ask
 
 1. **Ground.** qmd the named entity. Read the owning note, the matching `templates/` page, and `lexicon/House tone.md`. Preserve established canon. Missing stock → ask Nick, leave a stub, or route to the owning craft skill. Completion: every fact in the draft is on the parent, in hot, or explicitly marked unknown.
 
-2. **Choose band + surface.** L0 glance / L1 at the table / L2 deep / location Who–Why / `[!narration]` / handout. Load:
+2. **Choose band + surface.** At a Glance / At the table / bank / location Who–Why / `[!narration]` / handout. Load:
    - `obsidian-markdown` on every vault write (at-table scan: **bold** = look here / mechanical noun; `` `DC n` `` and dice = the number; → = what a mechanic produces; `[!narration]` = spoken)
    - `theatre-of-the-mind` when text crosses the player boundary
    - `run-guide` when filling a run card — that skill owns field order and *procedure*; fill its cockpit, do not invent a second card
@@ -62,19 +64,19 @@ Grok Bot packets that name **Visualizer** stay TotM-scoped unless the packet ask
 
 3. **Draft complete, then cut.** Cover the band's job first (see Bands). Then cut padding, not coverage. Kitchen-table nouns, concrete verbs, one fantastic signature. Completion: a DM can use the band without inventing a missing visible fact.
 
-4. **Table gate.** Read player-facing lines aloud. L0 is usable in five seconds. L1 is findable in under 30 seconds (bold heads, **sequencing**). Checks and saves match the at-table grammar in `obsidian-markdown`. `Initial Narration` stops at the **reaction point** after *scene-setting* is complete (cover, routes, relative position, imminent action, drawable look, non-sight sense, then the question). Every titled stub on a run card is filled. For a run card, load `run-guide`; its Table gate is the completion criterion. Completion: all of the above hold, or the draft is not done.
+4. **Table gate.** Read player-facing lines aloud. At a Glance is usable in five seconds. At the table is findable in under 30 seconds (bold heads, **sequencing**). Checks and saves match the at-table grammar in `obsidian-markdown`. `Initial Narration` stops at the **reaction point** after *scene-setting* is complete (cover, routes, relative position, imminent action, drawable look, non-sight sense, then the question). Every titled stub on a run card is filled. For a run card, load `run-guide`; its Table gate is the completion criterion. Completion: all of the above hold, or the draft is not done.
 
 5. **File.** Wikilinks, template constraints, `[!narration]` for TotM only. `./scripts/after-write "why" -- path1 [path2…]` on named paths only. Completion: after-write succeeded, and the only callout on the note is `[!narration]`.
 
 ## Bands
 
-Match `docs/obsidian-presentation.md` and the note's template. Delete unused sections. Keep L2 out of L0. Locations use `templates/Location`, not L0/L1/L2.
+Match the note's template. Delete unused sections. Keep bank facts out of At a Glance. Locations use `templates/Location`.
 
 | Band | Copy job | Length |
 |---|---|---|
-| **L0 · At a glance** | What is this *now*? Hook, identity, Look/voice, `[!narration]` | Complete sentences for a five-second glance. Enough to improv. |
-| **L1 · At the table** | What to run, say, or choose | Complete grammatical sentences. Scannable bold heads. Run cards use the **cockpit** in `run-guide`. |
-| **L2 · Deep** | Bank: relationships, resources, clue *content* | Usable facts. Not a biography since birth. Not a room-by-room novel. |
+| **At a Glance** | What is this *now*? Hook, identity, Look/voice, `[!narration]` | Complete sentences for a five-second glance. Enough to improv. Heading: `## At a Glance`. |
+| **At the table** | What to run, say, or choose | Complete grammatical sentences. Scannable bold heads. Run cards use the **cockpit** in `run-guide`. Heading: `## At the table`. |
+| **Bank** | Relationships, resources, clue *content* | Usable facts. Not a biography since birth. Not a room-by-room novel. Use the template's ordinary section names, not a `Deep` / `L2` wrapper. |
 | **Location** | Match `templates/Location` | Facts. Filled exemplars: `campaigns/shattered-sea/locations/Aruhe -` set. |
 | **`[!narration]` / boxed** | Seen-in-a-glance; player-safe | TotM: flowing spoken block. Item/creature cold portraits ~three connected sentences. Session-beat `Initial Narration`: two to four short spoken paragraphs. Situational beat stubs: one to three sentences, one job. |
 
@@ -106,7 +108,7 @@ Dynamic elements that may have moved live in DM text unless current table state 
 - **NPC / PC:** Face + current action + want. Look/voice as sensory or manner cues. Drive as want, fear, and method.
 - **Location:** *This* place, not the concept of a lake. Match `templates/Location`. Navigation routes first in If the party; flora woven into narration and What; directional connections in Where. Kernel, 3Fs, and player-verb inventories stay in `place-design`.
 - **Vehicle:** *This* craft. Playable aspects. Senses. Sequenced keys.
-- **Faction:** Public mask, concrete method, one tell a bystander could notice. L1 = how they operate now.
+- **Faction:** Public mask, concrete method, one tell a bystander could notice. At the table = how they operate now.
 - **Quest / front:** Stakes, clock, visible sign, consequence if ignored — complete sentences.
 - **Item / monster:** Drawable fiction. Owner math stays on the owner. Run cards follow `run-guide` for embeds and action cards. Missing owner for a creature you will roll → Monster-Brewer.
 - **Lore:** One concrete manifestation a DM can put on the table.
