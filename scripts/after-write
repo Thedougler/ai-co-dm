@@ -1,5 +1,5 @@
 #!/bin/sh
-# Post-write sync for ai-co-dm Grok Bots.
+# Path-scoped commit + push. QMD index/embed is background (hooks + qmd-refresh).
 # From vault root:
 #   ./scripts/after-write "commit message" -- path1 [path2…]
 # Flags: --no-embed | --dry-run | --allow-unrelated-dirty (Ops rare escape)
@@ -79,16 +79,8 @@ if [ -n "$REQUIRE_BRANCH" ]; then
   fi
 fi
 
-printf '%s\n' "== qmd update =="
-if ! ./scripts/qmd update; then
-  printf '%s\n' 'ai-co-dm: after-write aborted — ./scripts/qmd failed (often missing Node 26 on macbook.lan).' >&2
-  printf '%s\n' 'Fix host/Node, then rerun ./scripts/after-write. Do not push without a successful after-write.' >&2
-  exit 127
-fi
-
-if [ "$DO_EMBED" -eq 1 ]; then
-  printf '%s\n' "== qmd embed =="
-  ./scripts/qmd embed --no-gpu 2>/dev/null || ./scripts/qmd embed
+if [ "$DRY" -eq 0 ] && [ "$DO_EMBED" -eq 1 ]; then
+  ./scripts/qmd-refresh || true
 fi
 
 if [ "$DRY" -eq 1 ]; then
@@ -163,5 +155,4 @@ fi
 
 git commit -m "$MSG"
 git push -u origin HEAD
-git status -sb
 git log -1 --oneline

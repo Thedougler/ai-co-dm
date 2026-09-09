@@ -65,16 +65,11 @@ Then:
 
 ## After writes
 
-Prefer `./scripts/after-write "why"` (qmd update + embed + commit/push). Manual fallback:
+Do not run `qmd update` / `embed` yourself. Session-start and post-write hooks, plus `./scripts/after-write`, refresh the index in the background via `./scripts/qmd-refresh`.
 
-When you add or edit vault markdown and QMD is available:
+Path-scoped commit/push: `./scripts/after-write "why" -- path1 [path2…]`.
 
-```bash
-./scripts/qmd update
-./scripts/qmd embed -c wiki   # or -c skills if skills changed
-```
-
-If refresh fails, keep the markdown write and report QMD status separately. The vault is source of truth.
+If search looks stale, wait a few seconds or run `./scripts/qmd-refresh` again. Vault markdown is source of truth; a failed refresh does not undo a write.
 
 ## MCP (optional)
 

@@ -54,7 +54,7 @@ Obsidian LLM wiki for Nick's home D&D. **Markdown is the product.**
 - Session: [[templates/Session prep]] → run → [[templates/Session log]]; move still-relevant prep forward.
 - Scraps → `inbox/`, then **Ingest** (`wiki-ingest`). Table recordings → `session-transcript-ingest` first, then Ingest if filing remains.
 - Canon owner remains **Co-DM** — Ingest compiles sources; does not silently invent table truth.
-- **After-write mandatory (path-scoped):** finish every vault change with `./scripts/after-write "short why" -- path1 [path2…]` naming **only** the surgical paths you changed. The commit is those paths; leftover unstaged WIP stays in the working tree. Failed after-write (incl. missing Node 26 / qmd, or extra paths in the index) means the write is **not done** — fix host/tooling or narrow paths and rerun. Do **not** use bare `git commit`/`git push`, do **not** `git add -A`. Ops-only escape: `--allow-unrelated-dirty`.
+- **After-write mandatory (path-scoped):** finish every vault change with `./scripts/after-write "short why" -- path1 [path2…]` naming **only** the surgical paths you changed. That command commits and pushes those paths; leftover unstaged WIP stays in the working tree. Extra paths in the index abort the commit (Ops `--allow-unrelated-dirty` only). Do **not** use bare `git commit`/`git push`, do **not** `git add -A`. QMD index/embed is automatic (session-start and post-write hooks); after-write does not wait on it. Failed after-write means the commit did not land — narrow paths and rerun.
 
 ### `type` enum
 
@@ -174,7 +174,7 @@ This repo is an **Obsidian prose wiki**, not an application codebase. Prefer vau
 | `.obsidian/` | Human vault config + Statblocks/Leaflet (ignore workspace) |
 | `.agent/skills/` | Vault / D&D fleet procedures |
 | `.agents/skills/` | Matt Pocock process pack — **always when appropriate**; not qmd `skills` collection |
-| `scripts/after-write` · `scripts/qmd` · `scripts/lint-statblocks` · `scripts/lint-obsidian-markdown` · `scripts/lint-fat-notes` · `scripts/lint-literal-newlines` | Agent CLI |
+| `scripts/after-write` · `scripts/qmd` · `scripts/qmd-refresh` · `scripts/lint-statblocks` · `scripts/lint-obsidian-markdown` · `scripts/lint-fat-notes` · `scripts/lint-literal-newlines` | Agent CLI |
 | `docs/agents/` | Eng triage — skip for table work. Wave detail: [[docs/agents/coordination]] |
 
 ## Region subfolder policy (proposal)

@@ -18,3 +18,4 @@ Thumbs.db
 .qmd/index.sqlite
 .qmd/*.sqlite
 .qmd/*.sqlite-*
+.qmd/refresh.*

@@ -1,0 +1,54 @@
+#!/bin/sh
+# Request a QMD index+embed refresh and return immediately.
+# Concurrent callers coalesce onto one worker. Hooks may invoke this
+# with JSON on stdin; drain it and ignore.
+#
+#   ./scripts/qmd-refresh
+#   ./scripts/qmd-refresh --worker   (internal)
+set -eu
+
+# Drain hook stdin (JSON). Skip a TTY so a manual run cannot hang.
+[ -t 0 ] || cat >/dev/null || true
+
+WORKER=0
+for arg in "$@"; do
+  case "$arg" in
+    --worker) WORKER=1 ;;
+  esac
+done
+
+ROOT="${GROK_WORKSPACE_ROOT:-}"
+if [ -z "$ROOT" ]; then
+  ROOT=$(CDPATH= cd -P "$(dirname "$0")/.." && pwd -P)
+fi
+cd "$ROOT"
+
+STATE="$ROOT/.qmd"
+mkdir -p "$STATE"
+DIRTY="$STATE/refresh.dirty"
+LOCKDIR="$STATE/refresh.lock"
+LOG="$STATE/refresh.log"
+SELF="$ROOT/scripts/qmd-refresh"
+
+refresh_once() {
+  ./scripts/qmd update || return 0
+  ./scripts/qmd embed --no-gpu 2>/dev/null || ./scripts/qmd embed || true
+}
+
+if [ "$WORKER" -eq 1 ]; then
+  trap 'rmdir "$LOCKDIR" 2>/dev/null || true' EXIT
+  n=0
+  while [ -f "$DIRTY" ]; do
+    rm -f "$DIRTY"
+    refresh_once
+    n=$((n + 1))
+    [ "$n" -ge 5 ] && break
+  done
+  exit 0
+fi
+
+: >"$DIRTY"
+if mkdir "$LOCKDIR" 2>/dev/null; then
+  nohup "$SELF" --worker </dev/null >>"$LOG" 2>&1 &
+fi
+exit 0
