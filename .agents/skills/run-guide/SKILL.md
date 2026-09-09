@@ -32,6 +32,11 @@ vault: flat, direct, and only as sectioned as play requires. Preserve the
 existing heading spine, section names, and order when editing. Add a section
 only when the DM will use it to run this beat.
 
+**Image anchors.** If the beat has an overview or identity image, keep it near
+the top of the file as the visual first look. If the beat has battlemap art,
+keep it fixed at the bottom of the file after the runnable card. These anchors
+are placement rules for existing art, not permission to add unused sections.
+
 A DM-facing line stays only if Nick will use it this slice to **place** someone,
 **roll** something, **speak**, or decide a changed risk, route, clock, resource,
 or NPC response. Distances, speeds, named *rulings*, the opposition want, and
@@ -91,11 +96,12 @@ heading unless creating a new file; for new beat files, prefer `L0 · Glance`.
 |---|---|---|
 | **Scene ends when** | Every live beat needs a stop condition. | Heading is `## Scene ends when`. First line is the end condition. Then the time budget. Add **If behind:** and **If ahead:** only when the pacing choice is not obvious. |
 | **Glance** | Every live beat needs a short at-table scan. | `## At a Glance` or `## L0 · Glance` bullets: stakes, goal or exit, danger, Silence, and situation magnets. |
+| **Overview image** | An exact overview or identity image exists. | Embed the image near the top of the file before the runnable sections, usually just after the title or frontmatter. Omit if none exists. |
 | **Now** | Positions, distances, speeds, current possession, or starting state would otherwise clutter Glance. | One paragraph. Who starts where, in **feet** when tactical distance matters. Speeds that matter. What a move vs Dash reaches. Current situation once. Do not add a separate Starting state heading. |
 | **DM truth** | The beat has hidden intent, opposition want, hidden cause, or canon constraint. | Heading `## DM truth`. Opposition want, one sentence when present. `**Unrevealed:**` marks hidden intent the players have not yet seen. Before Initial Narration. Not a `[!secret]` callout. |
 | **Action cards** | The DM will roll compact default-mode numbers or follow an opposition loop. | `### Action cards`. The operational loop and compact numbers you will roll in default mode: AC, hit points when needed, one attack, thresholds, grab, scatter, or bloodied rule. Use owner action names. |
 | **Initial Narration** | Every live beat needs the first spoken look. | Empty `> [!narration] Initial Narration` stub on pass 1. Pass 2 fills scene-setting, accessible scene stock, and the first real choice. If the owner already has an identity image, embed `![[attachments/…]]` near this block. |
-| **Battlemap** | A battlemap or exact-scene image exists. | Heading `## Battlemap`. Embed existing battlemaps and creature identity images from `attachments/`. When a battlemap exists, use the shared compass: top north, right east, bottom south, left west. Omit if none exist. |
+| **Battlemap** | A battlemap or exact-scene image exists. | Heading `## Battlemap` at the bottom of the file after the runnable card. Embed existing battlemap art from `attachments/`. Use the shared compass: top north, right east, bottom south, left west. Omit if none exists. |
 | **Procedure** | The beat has a named mode, fuse, clock trigger, combat switch, pursuit rule, or repeated resolution loop. | Heading `## Procedure`. Name the mode and this slice's trigger once. Not 5e turn order. Not a `[!mechanic]` callout. |
 | **Zones** | Positions, routes, cover, distance, search areas, or scene stock matter. | Table: place \| distance in feet \| cover \| narration. Same distances as Now. Each row names decision-useful scene stock in that zone. The **Narration** column carries italic spoken prose for that zone, not a callout. When the Narration column is absent, one empty `> [!narration] {Place}` stub per row after the table instead. |
 | **Be ready for** | Players are likely to attempt consequential actions, checks, tactics, or negotiations. | Table: intent \| approach \| DC \| success \| partial \| failure. Approach is **Ability (Skill)** when a check applies. DC column is `` `DC 14` ``. Dice and damage in cells are inline code. Applied conditions are **bold**. Name the creature, item, and place in every cell. Every cell is a *ruling*. Include **Assess the situation** only when the opening could be read as “what is it hunting / doing?” No Partial definition on the card. |
@@ -206,7 +212,7 @@ Write where people are, the distances in **feet**, the speeds that matter, and w
 
 `theatre-of-the-mind` owns the prose. This skill owns **what must already be in the spoken block** before the question (Angry GM: goal, obstacle, tools; Alexandrian: all immediately perceived facts).
 
-Pass 1 leaves `> [!narration] Initial Narration` empty. Pass 2 fills a complete *scene-setting* block: currently visible cover, routes, relative position, who is being hunted, imminent action, drawable appearance, accessible scene stock, and at least one non-sight sense, joined as flowing spoken prose. Those facts are not a later clock tick and not a DM catalog under the callout. If the owner already has an identity image, embed it beside the block; the photo does not replace the spoken look.
+Pass 1 leaves `> [!narration] Initial Narration` empty. Pass 2 fills a complete *scene-setting* block: currently visible cover, routes, relative position, who is being hunted, imminent action, drawable appearance, accessible scene stock, and at least one non-sight sense, joined as flowing spoken prose. Those facts are not a later clock tick and not a DM catalog under the callout. If the owner already has an identity or overview image, keep it as the top visual anchor; the image does not replace the spoken look.
 If a battlemap is present, orient routes, zones, cover, and exits with the same
 compass used by the map: top north, right east, bottom south, left west. Use
 cardinal words where they help the table hold the scene; do not turn Initial
@@ -261,8 +267,8 @@ Completion — all of these hold, or the draft is not done:
 - Optional sections stay absent unless this beat spends them at the table.
 - Secondary objective, Landing, Roster, and Backup use `##` headings when present.
 - Combat-mode owners are heading-embedded under Roster when the DM will roll them. Default-mode rolls have numbers on the action cards.
-- Battlemap embeds existing images when exact-scene art exists. Omit if none exist.
-- Existing owner identity image embedded when the owner page already lists one.
+- Existing overview or identity image is embedded near the top when exact art exists. Omit if none exists.
+- Battlemap art is embedded at the bottom when exact-scene art exists. Omit if none exists.
 - Travel omitted, or one inlined complication with a failure endpoint.
 - One cockpit: Glance once, no second Run-now, no separate Ask callout, no Scene menu, no peer Round script.
 - The only `> [!` on the card is `[!narration]`. Italic prose in Narration table columns, not callouts in cells.
