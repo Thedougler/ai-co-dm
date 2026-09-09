@@ -39,6 +39,8 @@ Playable scene cards — a menu, not a path. About one card per forty-five minut
 - **Spotlight:** [[PC]] — the specific thread.
 - **Scene stock:** Visible hazards, loot, monsters, routes, clues, lore signs,
   and world details players can act on now.
+- **Language / media:** Descriptive, specific, plain language. Distinct prose
+  and distinct art or map for this scene.
 
 > [!narration] On arrival
 >
@@ -69,6 +71,7 @@ The trigger and how it can surface.
 - **Pressure / stakes:**
 - **Spotlight:**
 - **Scene stock:**
+- **Language / media:**
 
 > [!narration] On arrival
 >
@@ -94,6 +97,7 @@ The trigger and how it can surface.
 - **Pressure / stakes:**
 - **Spotlight:**
 - **Scene stock:**
+- **Language / media:**
 
 > [!narration] On arrival
 >
@@ -150,6 +154,8 @@ Parcels if earned.
 - The only callout is `[!narration]`. Empty titled stubs on mechanical pass 1; TotM fills every stub on pass 2.
 - Narration blocks must weave all accessible scene stock into flowing spoken
   prose before asking the table to act.
+- Use descriptive, specific, plain language everywhere; no opaque internal
+  labels. Different scenes need distinct prose and distinct media.
 - Do not use collapsed callouts (`[!…]-`); the DM must see every line.
 - No scripted dialogue trees.
 - No locked clue locations.

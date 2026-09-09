@@ -27,6 +27,12 @@ Leave unrelated campaign portraits, other-session art, and character sheets.
 One image per owner is enough when near-duplicates exist; prefer portrait over
 banner over token.
 
+Distinct things need distinct pictures. An image or battlemap of a different
+owner, nearby place, earlier scene, or similar-looking subject is vibe reference
+only. It can suggest palette, density, weather, or genre, but it must not become
+the described identity or the embedded asset for the new thing. If no exact
+depiction exists, write from parent prose and route a new visual-aid request.
+
 ## Open
 
 Resolve `![[attachments/…]]` / `[[attachments/…]]` to the vault file. Open each

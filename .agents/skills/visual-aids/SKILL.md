@@ -12,6 +12,12 @@ The owner's appearance prose is the source of truth. A reference image supports 
 illustration depicts one moment and never becomes identity. Spoken `[!narration]` remains the
 table's descriptive layer and an image follows the same information boundary.
 
+Distinct things need distinct assets. Existing art, portraits, tokens, and
+battlemaps may guide vibe, palette, or genre, but they are depictions of other
+owners, sites, or moments. Use an existing asset only for the exact same
+depicted owner/site/moment. For new content, mint or request a new image rather
+than reusing one that will make different things blur together at the table.
+
 ## Ground
 
 Read the named owner's look, existing image links, campaign style guidance if present, and output
@@ -27,7 +33,8 @@ page's image.
 ## Branch and persist
 
 **Attach** an existing file under `attachments/<campaign>/` (or the established attachment bucket),
-link with `![[attachments/...]]`, and list it on the owner only when the identity is truly shared.
+link with `![[attachments/...]]`, and list it on the owner only when the identity is truly shared
+because the file depicts that exact owner.
 Do not mark player-safe by default. On a location, embed the identity image immediately after the
 title. Battlemaps and other non-identity art go under **Art**.
 
@@ -37,9 +44,11 @@ player-approved material. **Mint illustration** only for an explicitly named ses
 it session-scoped and out of identity lists. **Promote/kill** accepted candidates without leaving
 competing faces active. **Assemble** only approved player-safe images for entities actually in the
 guide; no gallery backfill. On a run-guide **pass 1** beat card, embed an
-identity image already listed on that owner's page (`![[attachments/…]]`)
-beside Initial Narration or the matching roster heading. Do not mint identity
-during beat construction. Spoken `[!narration]` still owns the look.
+identity image already listed on that exact owner's page (`![[attachments/…]]`)
+beside Initial Narration or the matching roster heading. Do not use a parent
+region image, nearby creature portrait, old battlemap, or similar-looking asset
+as identity for a new thing. Do not mint identity during beat construction.
+Spoken `[!narration]` still owns the look.
 
 Ground pixels only in style guidance, the depicted owner's look, and that owner's approved identity
 references. Exclude secrets, hidden events, inaccessible pages, unrelated illustrations, and details

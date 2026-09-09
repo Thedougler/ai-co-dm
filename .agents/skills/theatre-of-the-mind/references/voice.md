@@ -26,6 +26,12 @@ signature property do memorable work. Plain word before specialist word
 unusual comparison can sharpen a picture, but a private metaphor must not
 become the subject. Generic mood is not evidence.
 
+Use normal kitchen-table language for campaign labels in DM notes and
+player-facing prose. A name such as `Print Braid` fails because it is opaque;
+write the ordinary thing instead: tracks split, cross, and join again. If the
+DM would need to ask what the word means, replace it with the ordinary noun and
+visible action before it enters a note or reaches `[!narration]`.
+
 **Hard ban in player-facing prose:** the em dash (`—`) and en-dash clones used
 as AI slop punctuation. Prefer period, comma, or parenthesis. Do not echo
 example sentence architecture from references.
@@ -158,6 +164,7 @@ evidence.
 | offer rest and direction / provide shelter (as theme) / stays unclaimed / claim the water | pointable shore, channel, cool water, wet stone; no kernel metaphysics |
 | em dash (`—`) or en-dash used as stylish pause in player prose | period, comma, or parenthesis |
 | river cuts / embouchure / thalweg / other workshop geography | river mouths, where the rivers open into the lake, lake edge |
+| braid / print braid / other opaque campaign label as spoken geography | tracks split, cross, and join; prints in the mud; forked trail |
 | invented mystery closer (`shadow turns, then still` / `then everything goes still`) on cold place portrait | cut; stable geography only unless table state supplies current motion |
 | enormous life theme with no parent-stable ecology fact | defer to DM/encounter; do not invent a motion sting |
 | spins like a meditation focus / as a focus for prayer (as the description) | how it physically spins, wobbles, sits, or weighs; cover names stay Identified/DM |

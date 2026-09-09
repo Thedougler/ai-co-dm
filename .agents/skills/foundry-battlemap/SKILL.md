@@ -12,6 +12,13 @@ Make one Czepeku-grade overhead battlemap the table can drop into Foundry.
 
 Hand off creature stamps to **foundry-token**. Hand off room keys and site spines to **dungeon-architect**. This skill is the floor, not the actors and not the key.
 
+Each new place or tactical moment needs its own map. Existing battlemaps may
+guide vibe, layout density, palette, or terrain language, but a map of a
+different site is not a deliverable for this site. Reusing it makes locations
+feel interchangeable and confuses players. A variant is allowed only for the
+same site and same layout with a changed time, weather, damage state, or other
+explicitly requested state change.
+
 ## Output
 
 One Imagine image on disk, the same image shown in chat, plus a short import line.
@@ -45,7 +52,9 @@ Need:
 
 Do not ask for grid color, DPI, wall-layer JSON, or token placement.
 
-A variant of an earlier map is a new run. Reuse PLACE, TACTICS, and SCALE. Change only TIME, WEATHER, or damage state.
+A variant of an earlier map is a new run for the same site. Reuse PLACE,
+TACTICS, and SCALE only when the prior map depicts that exact site and layout.
+Change only TIME, WEATHER, or damage state.
 
 **Done when** PLACE and BIOME are filled.
 

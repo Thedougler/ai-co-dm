@@ -26,6 +26,15 @@ Obsidian LLM wiki for Nick's home D&D. **Markdown is the product.**
 - No “update the whole wiki” — surgical page sets only. Ingest → **Ingest**; lint/audit → **Linter**; structure/MOCs → **Organizer**; don’t full-wiki rewrite.
 - No full-transcript handoffs. No re-ls when `hot` + qmd suffice.
 - No silent overwrite of canon — flag in the note / ask Co-DM|Nick.
+- No reused identity for new content. Different places, creatures, NPCs, items,
+  moments, art, tokens, and battlemaps need distinct prose and distinct assets.
+  Existing prose or media may guide vibe only; it is not the deliverable for a
+  different thing.
+- No opaque internal labels. Use normal kitchen-table names in DM notes and
+  player prose; if a name needs decoding, rename or describe the ordinary thing.
+- Descriptive, specific, plain language is the default everywhere. Prefer the
+  ordinary noun plus the visible difference over coined labels, poetic shorthand,
+  or private campaign jargon.
 
 ## Write
 
@@ -33,7 +42,7 @@ Obsidian LLM wiki for Nick's home D&D. **Markdown is the product.**
 - **Facts:** `campaigns/` states what is true in the world. Copy the matching `templates/` note. Design decisions, justifications, and process stay in skills and this file. Locations: `templates/Location` on create or edit.
 - **Create vs update:** qmd for existing entity first; update in place; new note only if no hit; link nearest index/MOC.
 - Wikilinks; one topic/note; stub > empty folder.
-- **Images:** store under `attachments/` (use `attachments/<campaign>/` when campaign-specific). Embed `![[attachments/…]]` or wikilink `[[attachments/…]]` — never bare disk paths or `![](file:///…)` for vault art.
+- **Images:** store under `attachments/` (use `attachments/<campaign>/` when campaign-specific). Embed `![[attachments/…]]` or wikilink `[[attachments/…]]` — never bare disk paths or `![](file:///…)` for vault art. Use an existing image, token, or battlemap only when it depicts the exact same owner/site/moment. For new content, make or request a distinct asset; prior art is vibe reference only.
 - Frontmatter: `type`, `campaign`, `status`, `tags`, `visibility: table | dm`.
 - **Owner pages:** `> [!narration] Narration` where the template places it — empty until TotM fill.
 - **Session/run beats (two passes):**

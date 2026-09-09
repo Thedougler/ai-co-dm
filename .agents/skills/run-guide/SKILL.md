@@ -30,6 +30,8 @@ A DM-facing line stays if Nick will use it this slice to **place** someone,
 **roll** something, or **speak**. Distances, speeds, named *rulings*, the
 opposition want, and the spoken block earn their keep. House Partial, 5e
 defaults, schema commentary, and notes to the writer stay in this skill.
+Use descriptive, specific, plain language on the DM card too. If a name or
+field needs decoding, replace it with the ordinary thing and visible action.
 
 ## Workflow
 
@@ -119,6 +121,11 @@ channel, an owner or local ruling, and a player use. TotM weaves those items
 into narration by relationship and affordance. The run card does not outsource
 required first-look details to Backup links, later clock ticks, or the DM's
 memory.
+
+Distinct things need distinct text and media. Existing narration, art, tokens,
+and battlemaps are valid only for the exact same owner/site/moment. For new
+content, use prior assets as vibe reference and make or request a distinct
+asset.
 
 ## Resolution cockpit
 

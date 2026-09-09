@@ -24,6 +24,9 @@ and hidden truth outside that prose in `[!mechanic]` and collapsed
 Narration controls attention. Give the player a concrete thing, body, or
 change they can point at and act on, and write it as **natural flowing prose**
 that paints a complete picture for that surface, not a telegram of facts.
+Descriptive, specific, plain language is the default everywhere: the ordinary
+noun plus the visible difference beats a coined label, poetic shorthand, or
+private campaign term.
 
 **Complete picture, not pad.** Cover every relevant player-visible fact the
 surface owes (subject, relationships, senses the viewpoint can use, motion or

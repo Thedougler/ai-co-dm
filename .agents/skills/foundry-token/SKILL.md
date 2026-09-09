@@ -12,6 +12,11 @@ Make one overhead Foundry token the table can drop on a grid.
 
 Hand off sheet portraits and pog face-crops. Hand off battlemaps to **foundry-battlemap**. This skill is the token stamp, not the floor and not the actor portrait.
 
+Each new creature, NPC, or prop needs its own token. Existing tokens and
+portraits may guide vibe, palette, gear language, or anatomy, but a token of a
+different owner is not a deliverable for this owner. Use an existing image as
+an identity lock only when it depicts the exact same owner.
+
 ## Output
 
 One Imagine image plus a short import line.
@@ -39,7 +44,8 @@ Need:
 - `POSE` — default combat-ready if they did not name one
 - `STYLE` — default painted VTT if they did not name one
 - `FRAMING` — `RAW_CUTOUT` or `RING_SAFE`
-- Reference image, if they have one, as identity lock only
+- Reference image, if they have one, as identity lock only for the same owner;
+  otherwise vibe reference only
 
 Do not ask for face detail, backstory, or ring color.
 

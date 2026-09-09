@@ -26,6 +26,8 @@ This beat is thirty minutes.
 - **Silence:** Present the situation, ask what they do, then wait.
 - **Situation magnets / scene stock:** Visible hazards, loot, monsters, routes,
   clues, lore signs, and world details players can act on now.
+- **Language / media:** Descriptive, specific, plain language. Distinct prose
+  and distinct art or battlemap for this owner/site/moment.
 
 ## Now
 
