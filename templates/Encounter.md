@@ -24,7 +24,8 @@ This beat is thirty minutes.
 - **Goal / exit:**
 - **Danger:**
 - **Silence:** Present the situation, ask what they do, then wait.
-- **Situation magnets:**
+- **Situation magnets / scene stock:** Visible hazards, loot, monsters, routes,
+  clues, lore signs, and world details players can act on now.
 
 ## Now
 
@@ -43,7 +44,7 @@ This beat is thirty minutes.
 
 ## Zones
 
-| Place | Distance from the crew | Cover | Narration |
+| Place | Distance from the crew | Cover / scene stock | Narration |
 | --- | --- | --- | --- |
 |  |  |  |  |
 

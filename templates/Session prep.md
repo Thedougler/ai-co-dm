@@ -37,12 +37,15 @@ Playable scene cards — a menu, not a path. About one card per forty-five minut
 - **Live when:** The world-state that makes this card live.
 - **Pressure / stakes:** What is already moving, and what changes if engaged or ignored.
 - **Spotlight:** [[PC]] — the specific thread.
+- **Scene stock:** Visible hazards, loot, monsters, routes, clues, lore signs,
+  and world details players can act on now.
 
 > [!narration] On arrival
 >
 
 **On the table**
-- Actors, exits, objects, clues, and choices available now.
+- Actors, exits, objects, hazards, loot, monsters, clues, lore signs, world
+  details, and choices available now.
 
 **DM truth**
 The trigger and how it can surface.
@@ -65,6 +68,7 @@ The trigger and how it can surface.
 - **Live when:**
 - **Pressure / stakes:**
 - **Spotlight:**
+- **Scene stock:**
 
 > [!narration] On arrival
 >
@@ -89,6 +93,7 @@ The trigger and how it can surface.
 - **Live when:**
 - **Pressure / stakes:**
 - **Spotlight:**
+- **Scene stock:**
 
 > [!narration] On arrival
 >
@@ -143,6 +148,8 @@ Parcels if earned.
 
 - Write complete grammatical sentences on this surface — no telegram shorthand. Checks and saves use the at-table grammar in `obsidian-markdown`.
 - The only callout is `[!narration]`. Empty titled stubs on mechanical pass 1; TotM fills every stub on pass 2.
+- Narration blocks must weave all accessible scene stock into flowing spoken
+  prose before asking the table to act.
 - Do not use collapsed callouts (`[!…]-`); the DM must see every line.
 - No scripted dialogue trees.
 - No locked clue locations.

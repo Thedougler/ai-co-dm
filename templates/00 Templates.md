@@ -49,7 +49,7 @@ See [[AGENTS]] — `visibility`, no WotC paste, no prep/log mash. Specs that see
 
 Owner pages keep `> [!narration] Narration` where the template places it. Player-safe only — no DCs, HP, secrets, or unearned names. Leave empty until TotM fill. NPC dialogue uses `Narration — speaker`.
 
-Session/run beats use **two passes**: mechanical cockpit plus empty titled stubs (`Initial Narration` mandatory, then per zone, per clock tick, landing / variants, per roster embed), then TotM fill (TUI copy-writer). Do not put callouts inside table cells. See `run-guide` and [[templates/Encounter]].
+Session/run beats use **two passes**: mechanical cockpit plus empty titled stubs (`Initial Narration` mandatory, then per zone, per clock tick, landing / variants, per roster embed), then TotM fill (TUI copy-writer). The cockpit must name actionable scene stock before fill: visible hazards, loot, monsters, routes, clues, lore signs, and world details players can act on now. Do not put callouts inside table cells. See `run-guide` and [[templates/Encounter]].
 
 ## Presentation
 

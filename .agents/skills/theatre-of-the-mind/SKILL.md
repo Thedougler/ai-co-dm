@@ -22,7 +22,7 @@ and hidden truth outside that prose in `[!mechanic]` and collapsed
 `[!secret]-` callouts.
 
 Narration controls attention. Give the player a concrete thing, body, or
-change they can point at and act on — and write it as **natural flowing prose**
+change they can point at and act on, and write it as **natural flowing prose**
 that paints a complete picture for that surface, not a telegram of facts.
 
 **Complete picture, not pad.** Cover every relevant player-visible fact the
@@ -31,6 +31,17 @@ stable behavior). Join those facts into connected sentences with plain nouns
 and concrete verbs. Do not stop at a single encyclopedic clause when the
 picture is still incomplete. Do not add purple adjectives, theme sentences, or
 mood claims to fake completeness.
+
+For a session beat, completeness means **scene stock**: every currently
+perceivable thing the players can question, touch, take, fight, avoid, follow,
+use as cover, learn from, or spend time on. Include hazards, loot, monsters,
+routes, navigation handles, lore signs, world-building details, weather, light,
+sound, smell, and changing pressure when they are present and accessible. Fold
+them into the spoken picture by relationship and use: the idol beside the pit,
+the smoke beyond the prints, the glass grass under the only dry route, the
+priest's stained sleeve beside the missing coin box. Do not dump a catalog.
+Omitting actionable scene stock is a failure; padding the block with
+non-actionable color is also a failure.
 
 Length still follows the moment: a hit, reveal, or dialogue turn may be one
 tight line; a `[!narration]` portrait, room/place first look, creature first
@@ -41,12 +52,12 @@ silhouette/scale, material/parts/wear, and one stable sensory or physical
 behavior — not a one- or two-line stub. **Session-beat `Initial Narration`** is
 the long *scene-setting* block: typically **two to four short spoken
 paragraphs** covering every currently perceivable subject, relationship,
-cover/route, relative position, imminent action, drawable appearance, and at
-least one non-sight sense. Situational beat stubs (zone, tick, landing,
-creature-in-this-scene) are shorter: one to three sentences, one job, no
-restage of Initial Narration. Fill missing visual nouns; do not pad
-with purple, mood-by-negation, or cover-story similes. Do **not** use the
-hit-line license to compress a creature first look or Initial Narration into a
+cover/route, relative position, imminent action, drawable appearance, scene
+stock, and at least one non-sight sense. Situational beat stubs (zone, tick,
+landing, creature-in-this-scene) are shorter: one to three sentences, one job,
+no restage of Initial Narration. Fill missing visual nouns; do not pad with
+purple, mood-by-negation, or cover-story similes. Do **not** use the hit-line
+license to compress a creature first look or Initial Narration into a
 resolved-snatch telegram. Stop at the next meaningful player opening — for a
 creature first look or Initial Narration, that is the reaction point
 (telegraph), never after the haul.
@@ -354,6 +365,66 @@ fills all of them.
 `Landing` plus named variants, `{Creature}` after each roster embed,
 `Exit` only when the next cockpit is on the same file.
 
+**Cliffhanger beat narration:** a Cliffhanger stub carries the same contracts
+as other session-beat stubs with a physical-pressure focus. Initial Narration
+front-loads the visible danger, the contested position or resource, the
+available routes/tools, the relevant scene stock, and the cost already in
+motion. The natural stop is the reaction point: the danger is visible and the
+outcome is unresolved. Smaller Cliffhanger stubs are short combat, chase,
+escape, or pressure updates that show what physically changed and what can be
+acted on next.
+
+**Climax beat narration:** a climax stub carries the same contracts as other
+session-beat stubs (second person, present tense, sensory verbs, reaction
+point) with three additions. First, make costs and stakes **perceivable**: if
+the sacrifice, defense, negotiation, or catastrophe has visible consequences,
+those consequences belong in the spoken block as concrete nouns — not as DM
+summary after the fact. Second, **echo prior choices**: things the party did
+in earlier beats should be visible in the environment, NPC behavior, or
+available options — the climax narration connects the session's thread. Third,
+the **resolution transition**: the final climax stub (Landing or last tick)
+describes the changed world in present tense before the DM asks what the party
+does next. A climax stub is still one to three sentences per slot; intensity
+comes from concrete specificity, not from longer blocks or purple language.
+
+**Development beat narration:** a Development stub uses the same tense and
+viewpoint contracts as other session-beat stubs (second person, present tense,
+sensory verbs) with a different focus. Initial Narration shows who is present
+and what they are doing, the social or environmental atmosphere, discoverable
+details, relevant scene stock, and at least one non-sight sense. The spoken
+picture carries what the players can perceive, question, or act on in a
+conversation or investigation — make discoverable details concrete and
+drawable. The natural stop is the **decision point**: enough visible information
+is on the table for players to choose what to ask, propose, or do. Smaller
+Development stubs (an NPC's visible reaction, a revealed object, a pressure
+moment) are one to three sentences, one job per slot. Intensity in a
+Development comes from specificity of detail and social tension, not physical
+danger language.
+
+**Hook beat narration:** a Hook stub uses the same contracts as other
+session-beat stubs (second person, present tense, sensory verbs, reaction
+point) with a **strong-start** focus. Initial Narration is the most critical
+spoken block of the session — it must land the situation in one continuous
+delivery and leave the party ready to act. Lead with the immediate pressure:
+what is happening, who is at stake, what demands attention right now. Make
+the opening problem perceivable and actionable within the first paragraph:
+visible danger, an urgent offer, a discovery with consequences, or a crisis
+already in motion. Weave drawable appearance and at least one non-sight sense
+into the opening picture, including the scene stock needed for the first real
+choice. The reaction point for a Hook is the first player decision of the
+session — stop when the party has enough to choose a response, not after the DM
+has described every prepared element. Smaller Hook stubs (zone, tick, landing)
+stay one to three sentences, one job. Intensity in a Hook comes from immediacy
+and concrete stakes, not volume or purple urgency.
+
+**Resolution beat narration:** a Resolution stub shows the aftermath at the
+same scale as the Climax. Initial Narration shows what changed, what remains
+usable or lost, who is present, what costs are visible, what rewards or routes
+are now accessible, and which unresolved pressure is still perceivable. The
+natural stop is a renewed choice: players can name what is different and what
+they want next. Do not smuggle in DM conclusions, future montage, or moral
+summary.
+
 **Table Narration columns:** when Zones or Threat clock tables include a
 Narration column, write italic spoken prose in that cell — one to three
 sentences, one job per cell. These replace `{Place}` and `Tick {n}` stubs.
@@ -373,10 +444,10 @@ Read the result aloud once. Ask the branch's questions from
 [references/surfaces.md](references/surfaces.md), then run the slop and thin
 gates in [references/voice.md](references/voice.md). Fail the draft if a
 player hearing it once cannot sketch or distinguish the subject. Fail a
-situated encounter Initial Narration if the table is asked to act before they
-have currently visible cover, routes, relative position, imminent action,
-drawable look, and a non-sight sense, or if look/sound were left as a DM list
-under the callout.
+situated session-beat Initial Narration if the table is asked to act before
+they have currently visible cover, routes, relative position, imminent action,
+relevant scene stock, drawable look, and a non-sight sense, or if
+look/sound/scene stock were left as a DM list under the callout.
 Cut telegram lists, isolated details, private metaphors, premature labels,
 unsupported mechanics, and future outcomes. Cut purple register that adds no
 drawable fact. Add the missing noun, relationship, second sense, access, or
