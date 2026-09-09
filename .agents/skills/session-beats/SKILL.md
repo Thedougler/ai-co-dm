@@ -100,6 +100,9 @@ visible. PC goals pursued since the Hook have a clear new status.
    an actionable problem, offer, threat, discovery, or opening. Choose the
    Hook card whose trigger matches the current fiction — prefer cards that
    connect to the previous session's ending or an active PC goal.
+   Only this first beat may recap the previous session. Later beats start from
+   the immediate current situation and do not summarize earlier beats or
+   prior-session events.
 
    *Polarity handoff:* if the Hook is action-heavy (pursuit, fight, crisis,
    ambush), make the next beat a Development so the party can process what

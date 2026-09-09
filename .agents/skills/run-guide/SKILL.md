@@ -37,6 +37,10 @@ the top of the file as the visual first look. If the beat has battlemap art,
 keep it fixed at the bottom of the file after the runnable card. These anchors
 are placement rules for existing art, not permission to add unused sections.
 
+**Recap boundary.** Only the first beat of a session may recap the previous
+session. Every later beat starts from the immediate current situation and does
+not summarize earlier beats, prior-session events, or how the party got here.
+
 A DM-facing line stays only if Nick will use it this slice to **place** someone,
 **roll** something, **speak**, or decide a changed risk, route, clock, resource,
 or NPC response. Distances, speeds, named *rulings*, the opposition want, and
@@ -110,7 +114,7 @@ heading unless creating a new file; for new beat files, prefer `L0 · Glance`.
 | Field | Keep when | Shape |
 |---|---|---|
 | **Scene ends when** | Every live beat needs a stop condition. | Heading is `## Scene ends when`. First line is the end condition. Then the time budget. Add **If behind:** and **If ahead:** only when the pacing choice is not obvious. |
-| **Glance** | Every live beat needs a short at-table scan. | `## At a Glance` or `## L0 · Glance` bullets: stakes, goal or exit, danger, Silence, and situation magnets. |
+| **Glance** | Every live beat needs a short at-table scan. | `## At a Glance` or `## L0 · Glance` bullets: stakes, goal or exit, danger, Silence, and situation magnets. Not a recap except on the session's first beat. |
 | **Overview image** | An exact overview or identity image exists. | Embed the image near the top of the file before the runnable sections, usually just after the title or frontmatter. Omit if none exists. |
 | **Now** | Positions, distances, speeds, current possession, or starting state would otherwise clutter Glance. | One paragraph. Who starts where, in **feet** when tactical distance matters. Speeds that matter. What a move vs Dash reaches. Current situation once. Do not add a separate Starting state heading. |
 | **Action cards** | The DM will roll compact default-mode numbers or follow an opposition loop. | `### Action cards`. The operational loop and compact numbers you will roll in default mode: AC, hit points when needed, one attack, thresholds, grab, scatter, or bloodied rule. Use owner action names. |
@@ -125,6 +129,7 @@ heading unless creating a new file; for new beat files, prefer `L0 · Glance`.
 | **Exit narration** | The next cockpit is already on this file. | Empty `> [!narration] Exit` on pass 1. Spoken transition on pass 2. Omit until that beat is ready. |
 | **Roster embeds** | The DM will roll a creature or item in this beat. | Heading `## Roster`. `![[Monster#Statblock]]` for opposition you will roll in combat mode. Keep the full fences; the DM scrolls. After each embed: empty `> [!narration] {Creature}`. Item embeds only if this slice spends charges or the item is the pressure. |
 | **Backup** | Extra owner links would save table hunting. | Heading `## Backup`. Extra wikilinks only. Omit when all required owners are already embedded or linked above. |
+| **Previous-session recap** | Only this file is the first beat of the session. | Keep it brief and player-facing. Omit from every other beat file. |
 
 There is no peer **Round script**. Clock ticks *are* the old R1–R3. The only `> [!` on the card is `[!narration]`.
 
@@ -273,6 +278,7 @@ Completion — all of these hold, or the draft is not done:
 - One named *procedure*; Be ready for failures do not also tick the clock.
 - No Partial lecture, 5e-default lecture, or writer note on the card.
 - `dnd5e-mechanics` was loaded for every check, save, DC, grapple, shove, attack, damage, quality ladder, or player action mapped to a roll.
+- Previous-session recap appears only on the first beat of the session. Every later beat starts from the immediate current situation.
 - `## Scene ends when` is the first heading; the end condition is the first line.
 - Time budget is present. Cut lines appear only when they change a pacing choice.
 - If `## Now` is present, it states positions and speeds in feet; the zone table uses those distances.
