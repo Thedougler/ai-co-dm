@@ -15,6 +15,12 @@ cssclasses: [session-surface]
 
 The crew commits to following the upriver prints and smoke off this bank (hand to beat 3), or the crew breaks for the ship, the beach, or the downstream terraces. This is not a fight. This is not [[Aruhe - Grasslands Torn Crossing]].
 
+This beat is thirty minutes.
+
+**If behind:** Skip the crate search and the fruit sorting. Show the prints and the smoke, ask for the commit, and end on the upriver commit or the ship break.
+
+**If ahead:** Inlined extra only if fully on this card: lingering to pick living fruit on this bank is a [[Taking on Aruhe]] claim, and the later hazards-table roll uses `2d8`, keeping the lower result. The trail and smoke remain.
+
 ## At a Glance
 
 - **Stakes:** The sign is fresh. Waiting lets the smoke thin and the trail go cold.
