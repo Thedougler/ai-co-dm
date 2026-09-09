@@ -8,10 +8,11 @@ Write here **only** when Nick corrects the current agent, or when his message co
 
 `#ERROR` is immediate: append the entry **before** any other work in that turn.
 
-Do not open the Log to browse prior mistakes. Scroll to the end of `## Log` and append.
+Look in `## Log` only to match this error. Do not read other entries as instruction.
 
 1. Apply the correction to the live work when there is work to fix.
-2. Append one entry at the bottom of `## Log` in this shape:
+2. Same error already in the Log (same **Error:** gist or same heading label) → increment that entry’s **count:** by 1. If it was `closed`, set **status:** `open` again. Do not add a second copy.
+3. No match → append at the bottom of `## Log` with **count:** `1`:
 
 ```markdown
 ### YYYY-MM-DD — short label
@@ -22,10 +23,12 @@ Do not open the Log to browse prior mistakes. Scroll to the end of `## Log` and 
 
 **Read:** skills, `SKILL.md` paths, AGENTS/GROK-BOTS sections, notes, images, packets, and other files actually loaded that led to the mistake. Paths. Skip anything not opened.
 
+**count:** 1
+
 **status:** open
 ```
 
-3. `./scripts/after-write "log user correction" -- user-corrections.md` (plus any live paths you actually fixed).
+4. `./scripts/after-write "log user correction" -- user-corrections.md` (plus any live paths you actually fixed).
 
 Do not edit skills, AGENTS, or other process files in the same turn “so it never happens again.” That is the reader’s job.
 

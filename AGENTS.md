@@ -55,7 +55,7 @@ Obsidian LLM wiki for Nick's home D&D. **Markdown is the product.**
 - Scraps → `inbox/`, then **Ingest** (`wiki-ingest`). Table recordings → `session-transcript-ingest` first, then Ingest if filing remains.
 - Canon owner remains **Co-DM** — Ingest compiles sources; does not silently invent table truth.
 - **After-write mandatory (path-scoped):** finish every vault change with `./scripts/after-write "short why" -- path1 [path2…]` naming **only** the surgical paths you changed. That command commits and pushes those paths; leftover unstaged WIP stays in the working tree. Extra paths in the index abort the commit (Ops `--allow-unrelated-dirty` only). Do **not** use bare `git commit`/`git push`, do **not** `git add -A`. QMD index/embed is automatic (session-start and post-write hooks); after-write does not wait on it. Failed after-write means the commit did not land — narrow paths and rerun.
-- **User correction (all agents):** when Nick corrects this agent, or his message contains `#ERROR` plus a description, append to [[user-corrections]] using that file’s recipe (error, then correction, then what was read). `#ERROR` is immediate — log before other work. Do not boot-load the log. Live work follows the correction; durable process fix is **Agentic-System-Designer**.
+- **User correction (all agents):** when Nick corrects this agent, or his message contains `#ERROR` plus a description, write [[user-corrections]] using that file’s recipe (error, then correction, then what was read, plus **count:**). Same error → increment **count:**; new error → **count:** `1`. `#ERROR` is immediate — log before other work. Do not boot-load the log. Live work follows the correction; durable process fix is **Agentic-System-Designer**.
 
 ### `type` enum
 
@@ -128,7 +128,7 @@ This repo is an **Obsidian prose wiki**, not an application codebase. Prefer vau
 | Tag audit/normalization (ai-co-dm vocab) | `tag-taxonomy` → **Organizer**; AGENTS/schema → **Ops** |
 | Multi-owner decompose before broad work | `decomposing-campaign-content` → **Agentic-System-Designer** (routing design); filing → **Ingest** |
 | Post-ingest evidence reconciliation | `reconciling-session-evidence` → **Co-DM** / **Ingest** (after `session-transcript-ingest`) |
-| Nick corrects an agent, or `#ERROR` | append [[user-corrections]] (do not boot-load); durable fix → **Agentic-System-Designer** |
+| Nick corrects an agent, or `#ERROR` | write [[user-corrections]] (count +1 if same error; do not boot-load); durable fix → **Agentic-System-Designer** |
 
 **Brew routing:** **Homebrewer** is the default general-purpose brew bot. Dedicated brew specialists (pattern: Monster-Brewer, Item-Brewer, **Dungeon-Designer**) are spun **lazily** when a content type is frequent/important — not pre-created. Until then, that type stays on Homebrewer. Places that are **dungeons** / megadungeons → **Dungeon-Designer** (already earned). New brew specialist → **Team-Leader** routes design to **dr eggbot**, then **Ops** wires AGENTS. Roster detail: [[GROK-BOTS]].
 
@@ -173,7 +173,7 @@ This repo is an **Obsidian prose wiki**, not an application codebase. Prefer vau
 | `campaigns/<id>/hot.md` | Boot “now” |
 | `campaigns/` · `campaigns/<id>/vehicles/` · `templates/` · `lexicon/` · `inbox/` · `attachments/` | Wiki (Obsidian: new notes → inbox, embeds → attachments; named craft → vehicles/) |
 | `GROK-BOTS.md` | Grok Bot fleet: Mac host, packets, roster, TotM fail loop |
-| `user-corrections.md` | Nick’s correction log — append on correction or `#ERROR`; do not boot-load |
+| `user-corrections.md` | Nick’s correction log — write on correction or `#ERROR`; increment **count:** on repeats; do not boot-load |
 | `.obsidian/` | Human vault config + Statblocks/Leaflet (ignore workspace) |
 | `.agents/skills/` | Vault / D&D fleet procedures + Matt Pocock process pack. QMD `skills` indexes `**/SKILL.md` only. |
 | `scripts/after-write` · `scripts/qmd` · `scripts/qmd-refresh` · `scripts/lint-statblocks` · `scripts/lint-obsidian-markdown` · `scripts/lint-fat-notes` · `scripts/lint-literal-newlines` | Agent CLI |
