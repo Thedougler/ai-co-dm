@@ -19,13 +19,14 @@ tags:
 source: "[[Aruhe - Quiet Forest]]"
 ---
 # Star Cut
+![[attachments/shattered-sea/places/aruhe-star-cut.png|Star Cut, night-watch aisle under a slit of stars]]
 ## Overview
 > [!narration] Narration
-> Packed dirt holds a north-south aisle under Quiet leaves, wide enough for a fire, and the leaf roof splits at the north end so a clean cut of night sky shows between the crowns. A ring of stones sits east of that aisle with live coals, clay bowls, and sleeping rolls in the same light. West, more rolls lie against the jungle wall, and heavy pink-gold guavas rest in the leaf litter where the branches bow. The wood on both sides is close enough to touch. Drip off leaf is the only small sound, and west of the wall a thin river talks through roots.
+> Packed dirt runs straight under the Quiet leaves, an aisle of wet black earth aimed at a narrow split of stars in the canopy. The fire does not sit in the road; it glows off to the east in a low ring of stones, with clay bowls catching ember light beside it. West of the aisle, sleeping rolls press against the jungle wall beneath heavy pink-gold guavas, some still ribbed on the branch and some already down in the leaf litter. The trees stand close enough to touch on both sides, and beyond the west roots a thin river talks under the drip from the leaves.
 
 ---
 ## At a glance
-Star Cut is the night-watch aisle north of [[Aruhe - Quiet Forest Spoke Ring|Spoke Ring]], on the seam of [[Aruhe - Quiet Forest]], [[Aruhe - Grasslands]], and [[Aruhe - River]]. Unlike Spoke Ring's round hub, center fire, and leaf roof that holds smoke, this site is a packed north-south aisle with the fire offset east and a star-cut of open sky at the north mouth. Unlike [[Aruhe - Quiet Forest Cutoff Lip|Cutoff Lip]]'s knee palisade and sleep-shelf, there is no drumroot wall here. Stay under Spoke Ring's roof or turn back on the south aisle and this cut can be skipped. Walk the north spoke for a watch that can see sky, and it remains the aisle, the east fire, the west guavas, and a lane that runs straight at the coals.
+Star Cut is the night-watch aisle north of [[Aruhe - Quiet Forest Spoke Ring|Spoke Ring]], on the seam of [[Aruhe - Quiet Forest]], [[Aruhe - Grasslands]], and [[Aruhe - River]]. Its identity is the straight sightline: packed dirt aimed north at one open strip of sky, a fire offset east of the path, and west-wall bedrolls under [[Aruhe - Giant's Guava|giant guava]] branches. Unlike Spoke Ring's round hub, center fire, and leaf roof that holds smoke, this site is linear and exposed to stars at the north mouth. Unlike [[Aruhe - Quiet Forest Cutoff Lip|Cutoff Lip]]'s knee palisade and sleep-shelf, there is no drumroot wall here. Stay under Spoke Ring's roof or turn back on the south aisle and this cut can be skipped. Walk the north spoke for a watch that can see sky, and it remains the aisle, the east fire, the west guavas, and a lane where someone at the coals can look straight into the dark.
 
 ---
 ## If the party
@@ -84,5 +85,7 @@ Star Cut is the night-watch aisle north of [[Aruhe - Quiet Forest Spoke Ring|Spo
 ---
 ## Art
 
+- ![[attachments/shattered-sea/places/aruhe-star-cut.png|Star Cut identity image]]
 - ![[attachments/shattered-sea/battlemaps/session-11-09-theft-on-the-watch-base.png|Star Cut battlemap, north-south night aisle, east fire, west rolls and guavas, star-cut of sky]]
+- The identity image owns the public first look: a straight wet dirt aisle under Quiet leaves, the narrow star slit at the north mouth, warm coals offset east, west-wall sleeping rolls, pink-gold guavas, close jungle walls, and river sound through the west roots.
 - The battlemap owns this stretch: top is north, right is east, bottom is south, and left is west. The star-cut is the north mouth. The stone fire sits east of the aisle. West holds sleeping rolls and fallen guavas. South is the packed return toward Spoke Ring.
