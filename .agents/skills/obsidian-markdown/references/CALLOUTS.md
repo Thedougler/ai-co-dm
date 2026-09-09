@@ -30,7 +30,7 @@ On run-guide, session-prep, session, and beat notes:
 
 - The only callout is `[!narration]`.
 - Title the mandatory scene-setting block **Initial Narration**.
-- Place additional titled stubs after the Zones table (`{Place}`), after the Threat clock table (`Tick {n}`), at Landing / variants, and after each roster embed (`{Creature}`).
+- Place additional titled stubs after the Zones table (`{Place}`), after the Threat clock table (`Tick {n}`), at How the Scene Resolves for the most likely options only, and after each roster embed (`{Creature}`).
 - Empty stub bodies are required on mechanical pass 1. Pass 2 fills every body.
 - DM truth and procedure are **headings**, not `[!secret]` / `[!mechanic]`.
 - Never put a callout inside a table cell. Obsidian does not render it there.

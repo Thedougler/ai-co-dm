@@ -14,7 +14,7 @@ description: >-
 
 Build one **cockpit** the DM can run from Reading view without hunting the vault.
 Owners stay canon. Full statblocks **embed** at the bottom (the DM scrolls).
-Scene *procedure*, zones, tells, action cards, and landing are written here.
+Scene *procedure*, zones, tells, action cards, and how the scene resolves are written here.
 A missing owner is a diagnostic, not permission to invent canon or math.
 
 **Two passes.** Pass 1 writes the mechanical card and **empty titled `[!narration]` stubs**. Pass 2 (`theatre-of-the-mind`; TUI **copy-writer**, Grok Bots **Visualizer**) fills every stub. Pass 1 does not write player-facing prose.
@@ -116,7 +116,7 @@ Frontmatter: `type: session-prep` (or `encounter`), `cssclasses: [session-surfac
 Use this as a section catalog, not a template to fill completely. A section
 earns space only when it changes a ruling, route, clock, resource, NPC response,
 or words to speak. The stable spine is:
-`Scene ends when`, `Glance`, `Initial Narration`, `Landing`.
+`Scene ends when`, `Glance`, `Initial Narration`, `How the Scene Resolves`.
 
 Add other sections only as the beat needs them. Keep the order already present
 in an existing file unless moving a section makes the card easier to run.
@@ -135,7 +135,7 @@ in an existing file unless moving a section makes the card easier to run.
 | **Be ready for** | Players are likely to attempt consequential actions, checks, tactics, or negotiations. | Table: intent \| approach \| DC \| success \| partial \| failure. Approach is **Ability (Skill)** when a check applies. DC column is `` `DC 14` ``. Dice and damage in cells are inline code. Applied conditions are **bold**. Name the creature, item, and place in every cell. Every cell is a *ruling*. Include **Assess the situation** only when success and failure both say what changes. No Partial definition on the card. |
 | **Threat clock** | A fuse or opposition turn changes the situation. | Heading `## Threat clock`. Table: tick \| what happens \| narration. Named ticks. 3-4 ticks. Each tick states what newly becomes visible, usable, threatened, blocked, or changed. The **Narration** column carries italic spoken prose. When the column is absent, one empty `> [!narration] Tick {n}` stub per tick after the table instead. Bloodied, cover-reached, and scene dials live as paragraphs after the table. |
 | **Secondary objective** | A second question runs in parallel and changes outcome or later consequence. | Heading `## Secondary objective`. One paragraph: beats required, ignore outcome, later consequence. Omit when there is no second objective. |
-| **Landing** | Every live beat needs the next state. | Heading `## Landing`. Next state, damage already applied, relevant conditions, and what follows. Empty `> [!narration] Landing` plus one titled stub per named variant. Keep only variants this beat can actually produce. |
+| **How the Scene Resolves** | Every live beat needs the next state. | Heading is `## How the Scene Resolves`. Write only the most likely options, usually one or two. Next state, damage already applied, relevant conditions, and what follows. Empty `> [!narration]` plus one titled stub per likely option. Do not list every path the party might take. |
 | **Exit narration** | The next cockpit is already on this file. | Empty `> [!narration] Exit` on pass 1. Spoken transition on pass 2. Omit until that beat is ready. |
 | **Roster embeds** | The DM will roll a creature or item in this beat. | Heading `## Roster`. `![[Monster#Statblock]]` for opposition you will roll in combat mode. Keep the full fences; the DM scrolls. After each embed: empty `> [!narration] {Creature}`. Item embeds only if this slice spends charges or the item is the pressure. |
 | **Backup** | Extra owner links would save table hunting. | Heading `## Backup`. Extra wikilinks only. Omit when all required owners are already embedded or linked above. |
@@ -151,7 +151,7 @@ should not create slots for outcomes the beat cannot produce.
 
 **Callout stubs** (empty titled `> [!narration]` blocks):
 - `Initial Narration` — before the first player choice.
-- `Landing` — success-condition spoken state. Plus one stub per named landing variant the beat can actually produce.
+- `How the Scene Resolves` — spoken state for each most likely option only. One stub per likely option, not a path tree.
 - `{Creature}` — after each combat-mode roster embed. Situated look for this scene, not the owner-page cold portrait.
 - `Exit` — only when the next cockpit is already on this file.
 
@@ -167,8 +167,8 @@ Do not put `> [!narration]` inside a table cell. Obsidian does not render callou
 
 Before pass 2, make the card able to answer follow-up questions without opening
 the vault cold. Record actionable player-visible stock wherever the leanest
-surface can hold it: a paragraph, table row, clock tick, landing state, or
-backup link.
+surface can hold it: a paragraph, table row, clock tick, how the scene
+resolves, or backup link.
 
 Completion: every stock item that belongs in the spoken first look has an access
 channel, an owner or local ruling, and a player use. TotM weaves those items
@@ -185,7 +185,7 @@ asset.
 Beat type changes which catalog sections earn space. It does not create a
 second template.
 
-**Resolution:** keep the aftermath state, Initial Narration, Landing, and any
+**Resolution:** keep the aftermath state, Initial Narration, How the Scene Resolves, and any
 Zones or Be ready for rows the players can still act on. Cut combat sections
 when the opposition is resolved.
 
@@ -193,7 +193,7 @@ when the opposition is resolved.
 what, and the consequential approaches. Keep Procedure or Threat clock only
 when there is a named mode or external fuse. Cut combat-only sections.
 
-**Hook:** keep the immediate pressure, first response paths, and Landing into
+**Hook:** keep the immediate pressure, first response paths, and How the Scene Resolves into
 the next state. Keep combat sections only when the hook is itself a combat
 encounter. A hook with a cover endpoint does not also run unbounded Travel.
 
@@ -310,7 +310,7 @@ Completion — all of these hold, or the draft is not done:
 - Action cards sit near the procedure or ruling they support. Bloodied, cover-reached, and scene dials are paragraphs after the Threat clock table when a Threat clock exists.
 - Every consequence is a *ruling* (see Ruling).
 - Optional sections stay absent unless this beat spends them at the table.
-- Secondary objective, Landing, Roster, and Backup use `##` headings when present.
+- Secondary objective, How the Scene Resolves, Roster, and Backup use `##` headings when present.
 - Combat-mode owners are heading-embedded under Roster when the DM will roll them. Default-mode rolls have numbers on the action cards.
 - Existing overview or identity image is embedded near the top when exact art exists. Omit if none exists.
 - Battlemap art is embedded at the bottom when exact-scene art exists. Omit if none exists.

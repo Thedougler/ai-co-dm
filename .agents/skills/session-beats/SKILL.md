@@ -52,7 +52,7 @@ A cerebral Hook (discovery, offer, revelation) opens an informational key — th
 middle decides what to do with knowledge. The Climax resolves the question the
 Hook opened, transformed by the middle's costs and revelations.
 
-**Each beat's Landing is the next beat's Trigger.** Prepare transitions, not
+**How the Scene Resolves is the next beat's Trigger.** Prepare transitions, not
 just beats — the seam carries momentum. A Cliffhanger ending in a new place
 opens the next Development with what can be learned there. A Development
 revealing a betrayal triggers the Cliffhanger where the betrayer acts. A
@@ -211,7 +211,7 @@ check:
 - **Escalation:** do early pairs explore at lower cost while later pairs narrow
   and raise the price? Is the Climax the highest-stakes convergence, not a
   flat peer of the middle beats?
-- **Transitions:** does each beat's Landing create a visible trigger for the
+- **Transitions:** does How the Scene Resolves create a visible trigger for the
   next? Are there teleports, time-skips, or forced options between beats?
 
 During play, cross out or rewrite candidates after each recompute. A chart is

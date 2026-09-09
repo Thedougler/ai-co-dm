@@ -75,9 +75,11 @@ This beat is thirty minutes.
 
 ## Secondary objective
 
-## Landing
+## How the Scene Resolves
 
-> [!narration] Landing
+Write only the most likely options.
+
+> [!narration] How the Scene Resolves
 >
 
 ## Roster

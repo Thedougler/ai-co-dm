@@ -48,7 +48,7 @@ open unless the fiction makes it impossible. Resolve a Contest by the agreed
 procedure. Let a failed attempt change the situation instead of quietly
 converting it into success.
 
-**Between beats:** Does the Landing create a visible opening for the next
+**Between beats:** Does How the Scene Resolves create a visible opening for the next
 situation, or is the transition a teleport? Can players see why the new
 situation follows from what just happened? If the transition requires the party
 to ignore a live option or abandon an active thread, that is a railroad — offer

@@ -69,7 +69,7 @@ can discover it.
 - **Information threshold:** What ends this beat? What do players know or decide when it is done?
 - **Pressure mode:** Mystery (hidden info to dig for), surprise (hidden until detonation), or suspense (visible threat + fuse)?
 - **Discoverable details:** What investigation, conversation, or observation reveals — at least two paths to each important truth.
-- **Transition from:** What Landing from the preceding beat opens this Development?
+- **Transition from:** What How the Scene Resolves from the preceding beat opens this Development?
 
 ## 4. Cliffhanger pool
 

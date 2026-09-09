@@ -92,3 +92,39 @@ Follow skill `agentic-system-designer` (Intake → Baseline → Fix → Prove �
 
 **status:** open
 
+### 2026-09-09 — Beat 6 missing required owners
+
+**Error:** [[Session-11-06-Farthest-Camp]] danced around the most important thing in the scene, the thing the players will ask the DM to describe. Required narrative content was missing entirely, not NPCs only. This is not a literal inventory of every entity.
+
+**Correction:** Stop and examine every required element of the task. Write the thing the table will ask about. Create missing owners when that thing needs one. Distinct texture and flavour. Do not stall on unnamed handles.
+
+**Read:** `campaigns/shattered-sea/sessions/11/Session-11-06-Farthest-Camp.md`; `campaigns/shattered-sea/sessions/11/Session-11-05-Otter-Hole.md`; `campaigns/shattered-sea/sessions/11/Session-11-00-Birds-of-a-Feather.md`; `.agents/skills/npc-design/SKILL.md`; `.agents/skills/npc-design/references/npc-templates.md`; `templates/NPC.md`; `.agents/skills/obsidian-markdown/SKILL.md`; `.agents/skills/wiki-ingest/SKILL.md`; `.agents/skills/decomposing-campaign-content/SKILL.md`
+
+**count:** 1
+
+**status:** open
+
+### 2026-09-09 — Landing used as a full path tree
+
+**Error:** Agents treat `## Landing` as a complete tree of every path the party might take, plus a titled narration stub per path.
+
+**Correction:** Remove `## Landing`. Use `## How the Scene Resolves`. Write only the most likely options. Not every potential path.
+
+**Read:** `campaigns/shattered-sea/sessions/11/Session-11-06-Farthest-Camp.md`; `.agents/skills/run-guide/SKILL.md`; `templates/Encounter.md`; `.agents/skills/theatre-of-the-mind/SKILL.md`; `.agents/skills/copy-writer/SKILL.md`
+
+**count:** 1
+
+**status:** open
+
+### 2026-09-09 — Conditional narration shown sequentially
+
+**Error:** Conditional narration was written as sequential `[!narration]` blocks. Tables that held conditional narration lacked `==_text_==` highlighting. Present on all session 11 beats where `## Landing` was misused, and on tables with unhighlighted conditional narration.
+
+**Correction:** Unconditional narration stays in `[!narration]` blocks. Conditional narration goes in a table, highlighted with `==_text_==`. Use that table in addition to the unconditional blocks. Do not stack variant callouts in sequence.
+
+**Read:** `campaigns/shattered-sea/sessions/11/Session-11-06-Farthest-Camp.md`; `campaigns/shattered-sea/sessions/11/Session-11-01-Angry-Birds.md`; `campaigns/shattered-sea/sessions/11/Session-11-07-False-Help.md`; `.agents/skills/run-guide/SKILL.md`; `.agents/skills/obsidian-markdown/SKILL.md`; `.agents/skills/theatre-of-the-mind/SKILL.md`
+
+**count:** 1
+
+**status:** open
+

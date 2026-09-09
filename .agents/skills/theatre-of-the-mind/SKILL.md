@@ -378,7 +378,7 @@ slots. Fill every one. The DM may skip a block at the table; the writer
 fills all of them.
 
 **Callout stubs:** `Initial Narration` (mandatory, long scene-setting),
-`Landing` plus named variants, `{Creature}` after each roster embed,
+`How the Scene Resolves` for the most likely options only, `{Creature}` after each roster embed,
 `Exit` only when the next cockpit is on the same file.
 
 **Cliffhanger beat narration:** a Cliffhanger stub carries the same contracts
@@ -398,7 +398,7 @@ those consequences belong in the spoken block as concrete nouns — not as DM
 summary after the fact. Second, **echo prior choices**: things the party did
 in earlier beats should be visible in the environment, NPC behavior, or
 available options — the climax narration connects the session's thread. Third,
-the **resolution transition**: the final climax stub (Landing or last tick)
+the **resolution transition**: the final climax stub (How the Scene Resolves or last tick)
 describes the changed world in present tense before the DM asks what the party
 does next. A climax stub is still one to three sentences per slot; intensity
 comes from concrete specificity, not from longer blocks or purple language.

@@ -90,22 +90,16 @@ The [[Aruhe - Crown Squid]] is fleeing through the last trees.
 
 If the adult [[Aruhe - Bloodhawk]] is diverted for **two** threat beats, the [[Aruhe - Crown Squid]] reaches dense inland canopy and escapes. Later, a living Great Crown Squid still claims those crowns. Otherwise the adult Bloodhawk pins the Great Crown Squid at tick 3. Later, a pinned carcass lies in the last trees, and this animal gives no later help. Damaging the adult Bloodhawk counts as a diversion only if that damage actually pulls the adult Bloodhawk off the Great Crown Squid for that beat.
 
-## Landing
+## How the Scene Resolves
 
-The party is in moving water and eight-foot grass, or crash-landed or scattered in Terrace woods. On this same bank the party can already see tracks and, inland in this valley, a thin column of smoke. Beat 2 is [[Session-11-02-Landing-Sign]]. Do not run Survival checks or the hazards table here.
+The party comes down in moving water and eight-foot grass on this bank. Tracks and a thin inland smoke column are already visible. Beat 2 is [[Session-11-02-Landing-Sign]].
 
-> [!narration] Landing
+> [!narration] Grass and river
 > You come down in moving water with gold-green grass standing over your head. The clear river pulls at the stems around you, and mud sucks at the bank where fresh prints have already cut through it. Inland, up the valley, a thin column of smoke rises above the grass.
 
 **Scattered.** That party member lands 30 feet from the others.
 
-> [!narration] Scattered
-> You come down thirty feet from the others with tall grass and moving water between you. The river fills the gap with noise, and only broken glimpses of bodies show through the stems.
-
 **Crash-landed.** That party member takes `2d6` bludgeoning and is **Prone** in Terrace woods.
-
-> [!narration] Crash-landed
-> You hit the terrace woods and go down hard among stacked garden stone, mangrove roots, and split orange fruit. Sugar-sour air presses close to the wet steps, and leaves keep shaking above you.
 
 ## Roster
 

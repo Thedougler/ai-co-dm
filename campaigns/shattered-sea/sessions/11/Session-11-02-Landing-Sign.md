@@ -82,26 +82,12 @@ Raid survivors already used this bank and walked north upriver toward the smoke.
 
 Unforeseen intents use the same want: wreck people already used this bank and walked north toward the smoke. Rule from zones and whether the approach lingers, picks live stems, keeps the north prints, breaks south, or takes open valley air.
 
-## Landing
+## How the Scene Resolves
 
-If the party follows the prints, they have committed to the north trail along this valley toward the smoke. That is [[Aruhe - Grasslands Torn Crossing]] and [[Session-11-03-Wolfrabbits]].
+The party follows the north prints toward the smoke onto [[Aruhe - Grasslands Torn Crossing]]. That is [[Session-11-03-Wolfrabbits]].
 
-If the party broke, they are returning south through the terrace line toward the beach or [[Uncertainty]], plus any RAW conditions already applied.
-
-If a party member took open valley air, that party member is in hawk sky. Point at a [[Aruhe - Young Bloodhawk]].
-
-> [!narration] Landing — Upriver prints
+> [!narration] Upriver prints
 > You leave the bank on the north prints, following the crushed gold-green corridor onto [[Aruhe - Grasslands Torn Crossing]] toward the smoke. Stems rasp at your legs, and the clear river keeps pace to the east.
-
-> [!narration] Landing — Return to Uncertainty
-> You are already in the terrace woods, headed south for [[Uncertainty]]. The beach lies ahead through mossy garden stone and mangrove, the riverbank falls behind you, and salt comes in on the wind off the water.
-
-> [!narration] Landing — Hawk sky
-> Sun and wind fill the height over the valley. The used bank drops away below you, and a smaller charcoal hawk already cuts that open air.
-
-**Scattered.** That party member is still 30 feet apart in the grass or terrace woods until they join up.
-
-**Crash-landed.** That party member still has `2d6` bludgeoning already applied and is **Prone** until they stand.
 
 ## Backup
 

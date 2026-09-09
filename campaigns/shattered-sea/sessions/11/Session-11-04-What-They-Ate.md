@@ -87,32 +87,12 @@ The group ahead has been living off fruit already down on this bank, and off fis
 
 Unforeseen intents use the same want: the group ahead has been living off fallen fruit and fish, and picking living bushes is what left the blood. Rule from zones and whether the approach lingers, picks live stems, keeps the north prints, breaks south, or takes open valley air.
 
-## Landing
+## How the Scene Resolves
 
-If the party follows the prints, they have committed to the north trail along this valley toward the smoke. [[Aruhe - River Slack Basin]] is in view. That is [[Session-11-05-Otter-Hole]].
+The party follows the north prints toward the smoke. [[Aruhe - River Slack Basin]] is in view. That is [[Session-11-05-Otter-Hole]].
 
-If the party claimed living plants, the cost is already applied and they are still on the north prints if they keep walking. Hand to [[Session-11-05-Otter-Hole]].
-
-If the party broke, they are returning south through [[Aruhe - Grasslands Torn Crossing]] toward the terrace line, the beach, or [[Uncertainty]], plus any RAW conditions already applied.
-
-If a party member took open valley air, that party member is in hawk sky. Point at a [[Aruhe - Young Bloodhawk]].
-
-> [!narration] Landing — Upriver prints
+> [!narration] Upriver prints
 > You leave the fruiting margin on the north prints, following the crushed gold-green corridor toward the smoke. Stems rasp at your legs, and the clear river keeps pace to the east.
-
-> [!narration] Landing — Return downstream
-> You turn south through the grass toward [[Aruhe - Grasslands Torn Crossing]], the terrace line, the beach, and [[Uncertainty]]. The three piles and the pole fall behind you.
-
-> [!narration] Landing — Hawk sky
-> Sun and wind fill the height over the valley. The fruiting bank drops away below you, and a smaller charcoal hawk already cuts that open air.
-
-**Scattered.** That party member is still 30 feet apart in the grass until they join up.
-
-**Prone.** Anyone knocked down on the last stretch is **Prone** until they stand.
-
-**[[Aruhe - Razer-Grass]].** Anyone shoved through or Shatter-dumped on the last stretch has that damage already applied.
-
-Do not run the hazards table or [[Aruhe - River Slack Basin]] here. After this bank is used, do not roll the hazards table on this bank again.
 
 ## Backup
 

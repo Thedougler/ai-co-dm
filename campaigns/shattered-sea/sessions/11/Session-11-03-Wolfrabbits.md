@@ -120,33 +120,16 @@ Unforeseen intents use the same want: the [[Aruhe - Spiguar]] is hunting the pac
 
 The bunched prints are the survivor-safe lane: they skirt the white stands and stay out of the cat's grass. Reading that lane and staying in it keeps the trail without becoming the meal. Spreading into the gold grass or a white stand is how a body becomes isolated. If Be ready for is used to pull a dragged party member, that person is **Grappled** (escape `DC 18`) and 30 feet into the grass toward the bank-woods. Getting them free does not end the hunt.
 
-## Landing
+## How the Scene Resolves
 
-If the [[Aruhe - Spiguar]] keeps its wolfrabbit and the pack breaks or is driven off this stretch, the party can keep the upriver prints. Those prints still bunch through one corridor, still bend around the white stands, and still stay out of the cat's grass. The party has seen that the survivors went this way and that they learned where large predators will and will not follow. Hand to [[Aruhe - River Line Bank]] and [[Session-11-04-What-They-Ate]]. Smoke still stands on the northern horizon if they stayed on the trail. Do not start the deerstalker or the woman here.
+The [[Aruhe - Spiguar]] keeps its wolfrabbit and the pack breaks off this stretch. The upriver prints still bunch through one corridor. Hand to [[Aruhe - River Line Bank]] and [[Session-11-04-What-They-Ate]].
 
-If the party went back into the river and downstream, they are in the river heading toward [[Aruhe - River Landing Bank]], and the hunt holds the bank. Rebuild from retreat.
-
-If a party member took open valley air, that party member is in hawk sky. Point at a [[Aruhe - Young Bloodhawk]].
-
-> [!narration] Landing — Hunt leaves
+> [!narration] Hunt leaves
 > The spotted cat hauls its striped kill under the bank-woods, and the remaining hunters break off this stretch. The upriver prints still cut one bunched line through the grass, still bent around the white stands and still clear of the empty cat lane, and the smoke still stands on the northern horizon.
-
-> [!narration] Landing — Return to the river
-> The current takes you south toward the used bank while the hunt holds the torn crossing. Gold-green stems and white blades stay on that bank, and the prints do not follow you downstream.
-
-> [!narration] Landing — Hawk sky
-> Sun and wind fill the height over the valley. The grass hunt drops away below you, and a smaller charcoal hawk already cuts that open air.
-
-**Scattered.** That party member is still 30 feet apart until they join up.
-
-> [!narration] Scattered
-> You are still apart on this stretch, with tall grass, river water, or a glassy island filling the gap until you join up.
 
 **Prone.** Anyone knocked down on this stretch is **Prone** until they stand.
 
 **Grappled.** Anyone the [[Aruhe - Spiguar]] dragged is **Grappled** (escape `DC 18`) until they break the hold.
-
-**[[Aruhe - Razer-Grass]].** Anyone shoved through or Shatter-dumped in an island has that damage already applied, plus **Glass-Choked** if they failed the dust save.
 
 ## Monsters
 
