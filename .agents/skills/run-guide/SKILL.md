@@ -61,7 +61,14 @@ field needs decoding, replace it with the ordinary thing and visible action.
    every actionable hazard, loot, monster, route, clue, lore sign, and world
    detail has an owner or is marked unknown.
 
-3. **Write one cockpit per live beat** in play order. Keep only sections that
+3. **Write mechanics.** Load `dnd5e-mechanics` before writing or auditing any
+   player-interaction mechanics: checks, saves, DCs, Hide/Search/Study/Influence/
+   Utilize resolution, grapples, shoves, attacks, damage, quality ladders, or
+   player actions mapped to a roll. Completion: every player interaction is a
+   5.5e ruling with a consequence that changes play, or it stays ordinary
+   fiction with no roll language.
+
+4. **Write one cockpit per live beat** in play order. Keep only sections that
    this beat spends at the table. Place **empty titled
    `[!narration]` stubs** at the required slots in **TotM stubs**. Embed an
    existing owner identity image (`![[attachments/…]]`) when the owner page
@@ -69,10 +76,18 @@ field needs decoding, replace it with the ordinary thing and visible action.
    slice will use is present; unused sections are absent; clock and Be ready for
    are one *procedure*, not two escalation tracks.
 
-4. **Table gate.** Reading view is one downward pass of the Cockpit table.
+5. **Fill narration.** Load `theatre-of-the-mind` for pass 2 before filling
+   `Initial Narration` or any other `[!narration]` slot. Initial Narration is
+   one concise, complete scene-setting block for the players: perceivable
+   subjects, relationships, routes or cover, relative position, imminent
+   pressure, actionable scene stock, drawable appearance, and a non-sight sense.
+   Completion: it reaches the first real player opening without hidden truth,
+   DCs, mechanics talk, or padded mood.
+
+6. **Table gate.** Reading view is one downward pass of the Cockpit table.
    Completion: every item in **Table gate** below holds for this pass.
 
-5. **File.** `obsidian-markdown` (wikilinks, `session-surface`, real newlines, at-table scan).
+7. **File.** `obsidian-markdown` (wikilinks, `session-surface`, real newlines, at-table scan).
    The only callout on the card is `[!narration]`. Pass 2 fills stubs via TotM.
    `./scripts/after-write` on named paths.
 
@@ -257,12 +272,13 @@ Completion — all of these hold, or the draft is not done:
 
 - One named *procedure*; Be ready for failures do not also tick the clock.
 - No Partial lecture, 5e-default lecture, or writer note on the card.
+- `dnd5e-mechanics` was loaded for every check, save, DC, grapple, shove, attack, damage, quality ladder, or player action mapped to a roll.
 - `## Scene ends when` is the first heading; the end condition is the first line.
 - Time budget is present. Cut lines appear only when they change a pacing choice.
 - If `## Now` is present, it states positions and speeds in feet; the zone table uses those distances.
 - No `DM truth` section. Hidden intent, opposition wants, and canon constraints live inline where the DM uses them.
 - Pass 1: empty callout stubs and empty Narration-column cells at the TotM slots this beat can actually use; no player-facing prose in those bodies.
-- Pass 2: Initial Narration contains currently visible cover, routes, relative position, imminent action, relevant scene stock, drawable look, and a non-sight sense, then the question. Every stub and Narration cell is filled.
+- Pass 2: `theatre-of-the-mind` was loaded, and Initial Narration concisely sets the scene with perceivable subjects, relationships, routes or cover, relative position, imminent pressure, actionable scene stock, drawable appearance, and a non-sight sense, then the first real player opening. Every stub and Narration cell is filled.
 - Action cards sit near the procedure or ruling they support. Bloodied, cover-reached, and scene dials are paragraphs after the Threat clock table when a Threat clock exists.
 - Every consequence is a *ruling* (see Ruling).
 - Optional sections stay absent unless this beat spends them at the table.
@@ -289,8 +305,8 @@ owns reusable encounter stock that fits this cockpit. This skill owns pass 1
 (mechanical card + empty stubs). `theatre-of-the-mind` owns pass 2 fill (TUI
 copy-writer; Grok Bots Visualizer). `visual-aids` assembles an already-listed
 owner image onto the card. Monster math → `homebrew-monsters-5e`. Check, save,
-and DC → `dnd5e-mechanics`. Do not invent
-canon, copy owner essays, or write player decisions.
+DC, and player-interaction mechanics → `dnd5e-mechanics`. Do not invent canon,
+copy owner essays, or write player decisions.
 
 Finish with `./scripts/after-write "add run guide" -- path1 [path2…]`.
 
