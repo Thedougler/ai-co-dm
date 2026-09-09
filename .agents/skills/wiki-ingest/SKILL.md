@@ -66,15 +66,17 @@ inventing an entity.
 For **each** checklist item, run both searches before deciding create vs update:
 
 ```bash
-./scripts/qmd search "<distinctive entity or claim>" -c wiki -n 5
+./scripts/qmd search "<distinctive entity or claim>" -c shattered-sea -c wiki -n 5
 ./scripts/qmd search "<distinctive entity or claim>" -c legacy-ss -n 5
 ```
 
-The `wiki` search is mandatory for create-vs-update. The `legacy-ss` search is
-mandatory for every Shattered Sea item, even when `wiki` misses. A Shattered
-Sea ingest without a recorded `legacy-ss` pass for every named item is
-**incomplete** and must not be filed. Record each result, including a clean
-no-hit, against its checklist line.
+The live-vault search (`-c shattered-sea -c wiki`) is mandatory for
+create-vs-update: campaign owner pages live in `shattered-sea`, hubs / lexicon /
+templates in `wiki`. The `legacy-ss` search is mandatory for every Shattered
+Sea item, even when the live collections miss. A Shattered Sea ingest without a
+recorded `legacy-ss` pass for every named item is **incomplete** and must not
+be filed. Record each result, including a clean no-hit, against its checklist
+line. Use `-c inbox` only when checking uncompiled captures, not as canon.
 
 Treat snippets as leads only. Open every hit that could change create-vs-update,
 canon, ownership, or relationship with `./scripts/qmd get … --full` or its known

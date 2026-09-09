@@ -14,37 +14,46 @@ instead of other QMD indexes on the machine.
 
 Snippets are leads only. Fetch full docs before claiming facts.
 
-Also load `.agent/skills/qmd/SKILL.md` (bootstrap → `./scripts/qmd skill show`) for CLI details.
+Also load `.agents/skills/qmd/SKILL.md` (bootstrap → `./scripts/qmd skill show`) for CLI details.
 
 ## Collections
 
-| Collection | Path | Use when |
-|---|---|---|
-| `wiki` | vault markdown (hubs, campaigns, lexicon, templates, inbox, README, AGENTS), including imported Shattered Sea session records under `campaigns/shattered-sea/sessions/` | campaign / table / wiki truth and canonical imported session evidence |
-| `skills` | `.agent/skills/**/*.md` | how agents should write or search |
-| `legacy-ss` | `/Users/nick/shattered-sea/wiki/shattered-sea/**` | READ-ONLY prior Shattered Sea non-session context (Ingest); not the canonical location for imported session records |
+Default search (omit `-c`) hits only `shattered-sea` and `wiki`. Other collections are opt-in.
 
-Dotdirs are not covered by the `wiki` collection — that is why `skills` is separate. Never write under the legacy path; compile into `campaigns/shattered-sea/`.
+| Collection | Path | Default | Use when |
+|---|---|---|---|
+| `shattered-sea` | `campaigns/shattered-sea/**/*.md` (not `session-transcript*`) | yes | live Shattered Sea facts, session reports/recaps, `hot.md` |
+| `wiki` | root hubs, `lexicon/`, `templates/`, `campaigns/*.md`, `attachments/**/*.md` | yes | contract, hubs, lexicon, templates — not campaign owner pages |
+| `skills` | `.agents/skills/**/SKILL.md` | no | how agents should write or search; open `references/` on disk if stuck |
+| `inbox` | `inbox/**/*.md` | no | uncompiled captures; triage/ingest only, not canon |
+| `docs` | `docs/**/*.md` | no | fleet/eng notes, not table facts |
+| `legacy-ss` | `/Users/nick/shattered-sea/wiki/shattered-sea/**` | no | READ-ONLY prior Shattered Sea context (Ingest); never write here |
+
+Dotdirs are not covered by `wiki`. Never write under the legacy path; compile into `campaigns/shattered-sea/`.
+
+New campaign folder `campaigns/<slug>/`: add a same-named collection on that path (`**/*.md`), give it collection context, then `./scripts/qmd-refresh`. Keep `wiki` as hubs/lexicon/templates only.
 
 ### Shattered Sea session evidence
 
-Use `-c wiki` for imported reports and transcripts at
+Use `-c shattered-sea` for reports and recaps under
 `campaigns/shattered-sea/sessions/<NN>/`, linked from
-`[[campaigns/shattered-sea/sessions/00 Sessions]]`. The live-vault copies are
-the canonical session records; `legacy-ss` remains read-only prior non-session
-context when an older campaign lookup is needed. Only link or claim a transcript
-when one is present beside its report.
+`[[campaigns/shattered-sea/sessions/00 Sessions]]`. Transcripts are not indexed;
+open a known `session-transcript*.md` path directly. The live-vault copies are
+the canonical session records; `legacy-ss` is prior non-session context only
+when an older lookup is needed.
 
 ## Protocol (stop when answered)
 
 ### 1. Known path or wikilink
 ```bash
 ./scripts/qmd get "qmd://wiki/00-Home.md" --full
+./scripts/qmd get "qmd://shattered-sea/hot.md" --full
 ./scripts/qmd get "#docid" --full
 ```
 
 ### 2. Exact names — BM25
 ```bash
+./scripts/qmd search "Pearl of Souls" -c shattered-sea -n 5
 ./scripts/qmd search "house tone" -c wiki -n 5
 ./scripts/qmd search "theatre of the mind" -c skills -n 5
 ./scripts/qmd search "Pearl of Souls" -c legacy-ss -n 5
@@ -56,7 +65,7 @@ when one is present beside its report.
 ```
 
 ### 4. Unsure which collection
-Omit `-c`, or search both: `-c wiki -c skills`.
+Omit `-c` for compiled facts (`shattered-sea` + `wiki`). Add `-c skills` for procedure. Add `-c inbox` / `-c docs` / `-c legacy-ss` only when that corpus is in play.
 
 Then:
 ```bash
@@ -73,12 +82,12 @@ If search looks stale, wait a few seconds or run `./scripts/qmd-refresh` again. 
 
 ## MCP (optional)
 
-From the vault root: `./scripts/qmd mcp` (stdio) or `./scripts/qmd mcp --http`. See `.agent/skills/qmd/references/mcp-setup.md`.
+From the vault root: `./scripts/qmd mcp` (stdio) or `./scripts/qmd mcp --http`. See `.agents/skills/qmd/references/mcp-setup.md`.
 Grok Bots should prefer CLI via Shell on macbook.lan with cwd = vault root.
 
 ## Pitfalls
 
 - Do not invent canon when search returns nothing — say so.
 - Do not answer from snippets alone.
-- Prefer the collection row above for live vault facts and imported session evidence; use `-c skills` for procedure and `-c legacy-ss` only for prior non-session Shattered Sea context (read-only).
+- Campaign facts: `-c shattered-sea`. Hubs/lexicon/templates: `-c wiki`. Procedure: `-c skills`. Prior Shattered Sea: `-c legacy-ss` only (read-only). Inbox and docs are not canon.
 - Never paste WotC proprietary book text; follow [[AGENTS]].

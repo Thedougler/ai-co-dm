@@ -13,7 +13,7 @@ Obsidian LLM wiki for Nick's home D&D. **Markdown is the product.**
 ## Boot
 
 1. This file + [[00 Home]] + [[campaigns/shattered-sea/hot]] (not the whole tree).
-2. **Hard gate:** qmd via skill `qmd-retrieval` (`./scripts/qmd`). Collections: `wiki` · `skills` · `legacy-ss` (read-only prior Shattered Sea). Snippets ≠ facts. `SKILL.md` only unless stuck. Needs **Node 26** on the Mac (Homebrew `node@26`).
+2. **Hard gate:** qmd via skill `qmd-retrieval` (`./scripts/qmd`). Default collections: `shattered-sea` (campaign facts) · `wiki` (hubs, lexicon, templates, contract). Opt-in: `skills` · `inbox` · `docs` · `legacy-ss` (read-only prior Shattered Sea). Snippets ≠ facts. `SKILL.md` only unless stuck. Needs **Node 26** on the Mac (Homebrew `node@26`).
 3. Missing canon → ask Nick / Co-DM. No silent contradiction.
 4. New entity → copy `templates/` match; fill facts play needs; link nearest index/MOC. Format with skill `obsidian-markdown` (wikilinks, callouts, properties).
 
@@ -87,7 +87,7 @@ This repo is an **Obsidian prose wiki**, not an application codebase. Prefer vau
 | Eval whether wiki helps / quality harness | `llm-wiki-eval` → **Ops** / **Skill-Creator** / **Organizer** |
 | Web URL → clean Markdown capture | `defuddle` → `wiki-ingest` → **Ingest** |
 | Inbox / source triage before ingest | `wiki-triage` → **Ingest** / **Organizer** |
-| Ingest source → typed notes | `wiki-ingest` → **Ingest** — decompose checklist → organize → dual-search `-c wiki` + `-c legacy-ss` per named entity → file **all** related (not thin skim) |
+| Ingest source → typed notes | `wiki-ingest` → **Ingest** — decompose checklist → organize → dual-search `-c shattered-sea -c wiki` + `-c legacy-ss` per named entity → file **all** related (not thin skim) |
 | Wiki health / orphans / hot drift | `wiki-lint` → **Linter** |
 | Citation / claim audit (one note) | `wiki-audit` → **Linter** (Organizer light use) |
 | Durable capture / session synthesis | `wiki-crystallize` → **Ingest** / **Co-DM** / **Session-Planner** |
@@ -162,7 +162,7 @@ This repo is an **Obsidian prose wiki**, not an application codebase. Prefer vau
 | Throwaway prototype for a design question | `prototype` |
 | Resolve in-progress merge/rebase conflict | `resolving-merge-conflicts` |
 | One-time pack setup (tracker / labels / domain layout) | `setup-matt-pocock-skills` |
-| Eng tooling (only when coding this repo) | `setup-pre-commit` · `setup-ts-deep-modules` · `git-guardrails-claude-code` · `migrate-to-shoehorn` · `scaffold-exercises` · `qmd` (Pocock bootstrap — vault search still `.agent/skills/qmd-retrieval`) |
+| Eng tooling (only when coding this repo) | `setup-pre-commit` · `setup-ts-deep-modules` · `git-guardrails-claude-code` · `migrate-to-shoehorn` · `scaffold-exercises` · `qmd` (Pocock bootstrap — vault search still `.agents/skills/qmd-retrieval`) |
 
 ## Layout
 
@@ -172,8 +172,7 @@ This repo is an **Obsidian prose wiki**, not an application codebase. Prefer vau
 | `campaigns/` · `campaigns/<id>/vehicles/` · `templates/` · `lexicon/` · `inbox/` · `attachments/` | Wiki (Obsidian: new notes → inbox, embeds → attachments; named craft → vehicles/) |
 | `GROK-BOTS.md` | Grok Bot fleet: Mac host, packets, roster, TotM fail loop |
 | `.obsidian/` | Human vault config + Statblocks/Leaflet (ignore workspace) |
-| `.agent/skills/` | Vault / D&D fleet procedures |
-| `.agents/skills/` | Matt Pocock process pack — **always when appropriate**; not qmd `skills` collection |
+| `.agents/skills/` | Vault / D&D fleet procedures + Matt Pocock process pack. QMD `skills` indexes `**/SKILL.md` only. |
 | `scripts/after-write` · `scripts/qmd` · `scripts/qmd-refresh` · `scripts/lint-statblocks` · `scripts/lint-obsidian-markdown` · `scripts/lint-fat-notes` · `scripts/lint-literal-newlines` | Agent CLI |
 | `docs/agents/` | Eng triage — skip for table work. Wave detail: [[docs/agents/coordination]] |
 

@@ -10,7 +10,7 @@ Answer from the compiled vault, not memory. This skill **must** route discovery 
 ## Retrieve
 
 1. Read `AGENTS.md` and load `qmd-retrieval`.
-2. Use `./scripts/qmd search` for exact names or `./scripts/qmd query` for concepts, usually `-c wiki`; include `-c skills` only when the question is about procedure. Use `./scripts/qmd get --full` or `multi-get` for every source that supports the answer. Snippets are leads, not facts.
+2. Use `./scripts/qmd search` for exact names or `./scripts/qmd query` for concepts. Campaign facts: `-c shattered-sea`. Hubs, lexicon, templates: `-c wiki`. Omit `-c` to search both. Include `-c skills` only when the question is about procedure. Use `./scripts/qmd get --full` or `multi-get` for every source that supports the answer. Snippets are leads, not facts.
 3. Read relevant notes in full and follow one level of resolved `[[wikilinks]]` when needed. Prefer `campaigns/` and `lexicon/`; use `inbox/` only as clearly labeled evidence, not as settled canon.
 
 ## Answer

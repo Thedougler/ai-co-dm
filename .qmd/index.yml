@@ -1,19 +1,40 @@
 collections:
+  shattered-sea:
+    path: /Users/nick/Documents/ai-co-dm/campaigns/shattered-sea
+    pattern: "**/*.md"
+    ignore:
+      - "**/session-transcript*.md"
+    context:
+      "": "Shattered Sea campaign canon — NPCs, PCs, locations, factions, items, monsters, vehicles, quests, fronts, hazards, lore, session reports/recaps, hot.md. Live table facts. Prefer -c shattered-sea for campaign lookups. Session transcripts are not indexed; open them by known path."
   wiki:
     path: /Users/nick/Documents/ai-co-dm
-    pattern: "**/*.md"
+    pattern: "{*.md,lexicon/**/*.md,templates/**/*.md,campaigns/*.md,attachments/**/*.md}"
     context:
-      "": "ai-co-dm Obsidian LLM wiki: campaigns, lexicon, templates, inbox, AGENTS.md, README, and imported Shattered Sea session reports/transcripts under campaigns/shattered-sea/sessions/. Public vault for Nick home D&D. Prefer -c wiki for live co-DM / homebrew wiki lookups and canonical session evidence."
+      "": "Cross-campaign compiled wiki — 00 Home, AGENTS, GROK-BOTS, README, campaigns hub, lexicon, templates, attachment indexes. Schema and hubs, not campaign owner pages (use the campaign collection). Not inbox, docs, or skills."
+  inbox:
+    path: /Users/nick/Documents/ai-co-dm/inbox
+    pattern: "**/*.md"
+    includeByDefault: false
+    context:
+      "": "Uncompiled inbox captures and archive. Not canon. Use -c inbox during triage or ingest only."
+  docs:
+    path: /Users/nick/Documents/ai-co-dm/docs
+    pattern: "**/*.md"
+    includeByDefault: false
+    context:
+      "": "Engineering and fleet docs under docs/. Not campaign canon. Use -c docs for agent-system or ops notes."
   skills:
-    path: /Users/nick/Documents/ai-co-dm/.agent/skills
-    pattern: "**/*.md"
+    path: /Users/nick/Documents/ai-co-dm/.agents/skills
+    pattern: "**/SKILL.md"
+    includeByDefault: false
     context:
-      "": Agent skills for ai-co-dm (theatre-of-the-mind, qmd, qmd-retrieval). Use when looking up how agents should write or search.
+      "": "Agent SKILL.md procedures (vault D&D skills and process pack). Use -c skills for how to write or search. Load a skill's references/ from disk only if stuck."
   legacy-ss:
     path: /Users/nick/shattered-sea/wiki/shattered-sea
     pattern: "**/*.md"
+    includeByDefault: false
     context:
-      "": READ-ONLY legacy Shattered Sea Campaign OS wiki (~/shattered-sea/wiki/shattered-sea) for prior non-session context. Imported session reports/transcripts are canonical in ai-co-dm campaigns/shattered-sea/sessions/ under wiki. Never write here — compile into ai-co-dm campaigns/shattered-sea instead.
+      "": "READ-ONLY prior Shattered Sea Campaign OS wiki. Not live canon. Ingest: search -c legacy-ss after live collections. Never write here — compile into campaigns/shattered-sea."
 models:
   embed: hf:ggml-org/embeddinggemma-300M-GGUF/embeddinggemma-300M-Q8_0.gguf
   generate: hf:tobil/qmd-query-expansion-1.7B-gguf/qmd-query-expansion-1.7B-q4_k_m.gguf
