@@ -2,10 +2,8 @@ collections:
   shattered-sea:
     path: /Users/nick/Documents/ai-co-dm/campaigns/shattered-sea
     pattern: "**/*.md"
-    ignore:
-      - "**/session-transcript*.md"
     context:
-      "": "Shattered Sea campaign canon — NPCs, PCs, locations, factions, items, monsters, vehicles, quests, fronts, hazards, lore, session reports/recaps, hot.md. Live table facts. Prefer -c shattered-sea for campaign lookups. Session transcripts are not indexed; open them by known path."
+      "": "Shattered Sea campaign canon — NPCs, PCs, locations, factions, items, monsters, vehicles, quests, fronts, hazards, lore, session reports, recaps, transcripts, hot.md. Live table facts. Prefer -c shattered-sea for campaign lookups, including session evidence."
   wiki:
     path: /Users/nick/Documents/ai-co-dm
     pattern: "{*.md,lexicon/**/*.md,templates/**/*.md,campaigns/*.md,attachments/**/*.md}"

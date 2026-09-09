@@ -22,7 +22,7 @@ Default search (omit `-c`) hits only `shattered-sea` and `wiki`. Other collectio
 
 | Collection | Path | Default | Use when |
 |---|---|---|---|
-| `shattered-sea` | `campaigns/shattered-sea/**/*.md` (not `session-transcript*`) | yes | live Shattered Sea facts, session reports/recaps, `hot.md` |
+| `shattered-sea` | `campaigns/shattered-sea/**/*.md` | yes | live Shattered Sea facts, session reports, recaps, transcripts, `hot.md` |
 | `wiki` | root hubs, `lexicon/`, `templates/`, `campaigns/*.md`, `attachments/**/*.md` | yes | contract, hubs, lexicon, templates — not campaign owner pages |
 | `skills` | `.agents/skills/**/SKILL.md` | no | how agents should write or search; open `references/` on disk if stuck |
 | `inbox` | `inbox/**/*.md` | no | uncompiled captures; triage/ingest only, not canon |
@@ -35,10 +35,9 @@ New campaign folder `campaigns/<slug>/`: add a same-named collection on that pat
 
 ### Shattered Sea session evidence
 
-Use `-c shattered-sea` for reports and recaps under
+Use `-c shattered-sea` for reports, recaps, and transcripts under
 `campaigns/shattered-sea/sessions/<NN>/`, linked from
-`[[campaigns/shattered-sea/sessions/00 Sessions]]`. Transcripts are not indexed;
-open a known `session-transcript*.md` path directly. The live-vault copies are
+`[[campaigns/shattered-sea/sessions/00 Sessions]]`. The live-vault copies are
 the canonical session records; `legacy-ss` is prior non-session context only
 when an older lookup is needed.
 
