@@ -34,14 +34,7 @@ Do not edit skills, AGENTS, or other process files in the same turn “so it nev
 
 ## Drain (Agentic-System-Designer)
 
-Load this file when the wake is `agentic-system-designer`, Nick asks to drain corrections, the weekday `daily-agentic-optimization` pass (Grok Bot), or an open entry exists and ASD is already awake. Any host: Grok Bot, Grok Build, Codex, omp.
-
-For each **status:** `open` entry:
-
-1. Find the owner of the error (skill, AGENTS line, template, roster, hook).
-2. Ship the **simplest durable fix at the lowest token cost** — usually one edit to the skill or instruction that produced the error. Encode the **positive** target behaviour. Advanced techniques (new skill, agent, hook, workflow) only when a one-place instruction edit cannot hold.
-3. Packet **Ops** / **Skill-Creator** / **Team-Leader** / **dr eggbot** when they own the write.
-4. Set **status:** `closed` and add **Fix:** path + one line what changed.
+Follow skill `agentic-system-designer` (Intake → Baseline → Fix → Prove → Record). Close an entry only after a before/after measure. Writers do not run this section.
 
 ## Log
 

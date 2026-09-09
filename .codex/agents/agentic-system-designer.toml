@@ -1,3 +1,3 @@
 developer_instructions = """
-Read and follow .agents/skills/agentic-system-designer/SKILL.md. Then do the assigned task.
+Read and follow .agents/skills/agentic-system-designer/SKILL.md. Run that skill's loop (prove each fix with a measure). Then do the assigned task.
 """

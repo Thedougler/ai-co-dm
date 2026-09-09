@@ -75,7 +75,7 @@ This repo is an **Obsidian prose wiki**, not an application codebase. Prefer vau
 - **Model the domain:** encode campaign language in `lexicon/`, AGENTS `type` enum, templates, and `.agents/skills/domain-modeling` — not scattered ad-hoc sections. Prefer Matt Pocock `domain-modeling` / `grill-with-docs` when sharpening terms.
 - **Prove wiki health:** use existing vault scripts (`./scripts/lint-*`, `./scripts/qmd`, `./scripts/after-write`) and `wiki-lint` / `llm-wiki-eval` — do **not** invent app-style UI verification skills for this repo unless Nick asks.
 - **Cursor/plugin skills** (`skill-authoring`, `principle-model-the-domain`, etc.): use when the wake matches; adapt to prose/wiki outcomes, not code refactors.
-- **Fleet / agentic-system design review:** **Agentic-System-Designer** (`agentic-system-designer`) on any host — Grok Bot, Grok Build, Codex, omp. Drains [[user-corrections]]; designs AGENTS/skill/handoff architecture. This host implements unless Nick names another owner. Grok Bot packets **Ops** / **Skill-Creator** / **Team-Leader** / **dr eggbot**. Spawn files: `.grok/agents/` · `.codex/agents/` · `.omp/agents/`.
+- **Fleet / agentic-system design review:** **Agentic-System-Designer** (`agentic-system-designer`) on any host — Grok Bot, Grok Build, Codex, omp. Drains [[user-corrections]] and runs the improvement loop; closes a correction only after a before/after measure. This host implements unless Nick names another owner. Grok Bot packets **Ops** / **Skill-Creator** / **Team-Leader** / **dr eggbot**. Spawn files: `.grok/agents/` · `.codex/agents/` · `.omp/agents/`.
 - **Template / Obsidian readability:** **Wiki-UI** — human scan of `templates/`, run surfaces look, `.obsidian` presentation patterns. **Organizer** keeps MOCs/indexes/hot structure.
 
 `session-wrapup` / `campaign-qa`: AntTheLimey/gm-apprentice (CC-BY-SA). `wiki-triage` / `llm-wiki-eval`: po4yka-llm-wiki-skills (MIT). `wiki-crystallize` / `wiki-integrate`: vanillaflava (MIT). `defuddle`: kepano adapt — see skill. See each skill’s attribution block.
@@ -129,7 +129,7 @@ This repo is an **Obsidian prose wiki**, not an application codebase. Prefer vau
 | Multi-owner decompose before broad work | `decomposing-campaign-content` → **Agentic-System-Designer** (routing design); filing → **Ingest** |
 | Post-ingest evidence reconciliation | `reconciling-session-evidence` → **Co-DM** / **Ingest** (after `session-transcript-ingest`) |
 | Nick corrects an agent, or `#ERROR` | write [[user-corrections]] (count +1 if same error; do not boot-load); durable fix → `agentic-system-designer` |
-| Agentic system design / drain corrections | `agentic-system-designer` → **Agentic-System-Designer** (Grok Bot, Grok Build, Codex, omp) |
+| Agentic system design / drain corrections | `agentic-system-designer` → **Agentic-System-Designer** — prove with a measure (Grok Bot, Grok Build, Codex, omp) |
 
 **Brew routing:** **Homebrewer** is the default general-purpose brew bot. Dedicated brew specialists (pattern: Monster-Brewer, Item-Brewer, **Dungeon-Designer**) are spun **lazily** when a content type is frequent/important — not pre-created. Until then, that type stays on Homebrewer. Places that are **dungeons** / megadungeons → **Dungeon-Designer** (already earned). New brew specialist → **Team-Leader** routes design to **dr eggbot**, then **Ops** wires AGENTS. Roster detail: [[GROK-BOTS]].
 
