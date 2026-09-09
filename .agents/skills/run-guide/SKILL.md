@@ -98,7 +98,6 @@ heading unless creating a new file; for new beat files, prefer `L0 · Glance`.
 | **Glance** | Every live beat needs a short at-table scan. | `## At a Glance` or `## L0 · Glance` bullets: stakes, goal or exit, danger, Silence, and situation magnets. |
 | **Overview image** | An exact overview or identity image exists. | Embed the image near the top of the file before the runnable sections, usually just after the title or frontmatter. Omit if none exists. |
 | **Now** | Positions, distances, speeds, current possession, or starting state would otherwise clutter Glance. | One paragraph. Who starts where, in **feet** when tactical distance matters. Speeds that matter. What a move vs Dash reaches. Current situation once. Do not add a separate Starting state heading. |
-| **DM truth** | The beat has hidden intent, opposition want, hidden cause, or canon constraint. | Heading `## DM truth`. Opposition want, one sentence when present. `**Unrevealed:**` marks hidden intent the players have not yet seen. Before Initial Narration. Not a `[!secret]` callout. |
 | **Action cards** | The DM will roll compact default-mode numbers or follow an opposition loop. | `### Action cards`. The operational loop and compact numbers you will roll in default mode: AC, hit points when needed, one attack, thresholds, grab, scatter, or bloodied rule. Use owner action names. |
 | **Initial Narration** | Every live beat needs the first spoken look. | Empty `> [!narration] Initial Narration` stub on pass 1. Pass 2 fills scene-setting, accessible scene stock, and the first real choice. If the owner already has an identity image, embed `![[attachments/…]]` near this block. |
 | **Battlemap** | A battlemap or exact-scene image exists. | Heading `## Battlemap` at the bottom of the file after the runnable card. Embed existing battlemap art from `attachments/`. Use the shared compass: top north, right east, bottom south, left west. Omit if none exists. |
@@ -228,8 +227,10 @@ A hook with a cover endpoint does not also run unbounded travel. “Smoke to cam
 
 ## Action cards and embeds
 
-Put the operational loop and default-mode compact numbers next to DM truth or
-the first section that needs them.
+Put the operational loop and default-mode compact numbers in the first section
+that needs them. Hidden intent, opposition wants, and canon constraints are
+ordinary DM-facing facts; write them inline where they change a ruling or
+choice. Do not create a `DM truth` section.
 
 Keep full `![[Name#Statblock]]` (optional `![[Name#At the table]]`, or `![[Name#Tactics]]` for monster notes) at the bottom. Do not retype an owner’s full Multiattack/HP table into prose above the embed. Do not embed the ecology essay. How the party already moves (flight, swim, mounts, boats) is not roster.
 
@@ -259,10 +260,10 @@ Completion — all of these hold, or the draft is not done:
 - `## Scene ends when` is the first heading; the end condition is the first line.
 - Time budget is present. Cut lines appear only when they change a pacing choice.
 - If `## Now` is present, it states positions and speeds in feet; the zone table uses those distances.
-- If DM truth is present, it is a `##` heading before Initial Narration, not a `[!secret]` callout. `**Unrevealed:**` marks hidden opposition intent.
+- No `DM truth` section. Hidden intent, opposition wants, and canon constraints live inline where the DM uses them.
 - Pass 1: empty callout stubs and empty Narration-column cells at the TotM slots this beat can actually use; no player-facing prose in those bodies.
 - Pass 2: Initial Narration contains currently visible cover, routes, relative position, imminent action, relevant scene stock, drawable look, and a non-sight sense, then the question. Every stub and Narration cell is filled.
-- Action cards sit near the truth or procedure they support. Bloodied, cover-reached, and scene dials are paragraphs after the Threat clock table when a Threat clock exists.
+- Action cards sit near the procedure or ruling they support. Bloodied, cover-reached, and scene dials are paragraphs after the Threat clock table when a Threat clock exists.
 - Every consequence is a *ruling* (see Ruling).
 - Optional sections stay absent unless this beat spends them at the table.
 - Secondary objective, Landing, Roster, and Backup use `##` headings when present.
