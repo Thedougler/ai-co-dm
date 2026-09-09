@@ -23,7 +23,7 @@ source: "[[Aruhe - Hungry Isle]]"
 
 ---
 ## At a glance
-The Quiet is rainforest above the last terrace of [[Aruhe - Old Gardens]], where small life has been eaten out. The silence is that absence, not hidden birds. Sight dies in a few paces. A green route returns along the terrace edge; the silence boundary continues into [[Aruhe - The Marshes]]. The grassland-river seam is [[Aruhe - Quiet Forest Cutoff Lip]]. North of that lip the forest-edge grass is [[Aruhe - Grasslands Print Braid]]. North of that braid the first Quiet hub is [[Aruhe - Quiet Forest Spoke Ring|Spoke Ring]]. Stay on the terrace or grassland edge and the Quiet can be skipped; stay under the roof and it remains trunks, game trails, and no small sound.
+The Quiet is rainforest above the last terrace of [[Aruhe - Old Gardens]], where small life has been eaten out. The silence is that absence, not hidden birds. Sight dies in a few paces. A green route returns along the terrace edge; the silence boundary continues into [[Aruhe - The Marshes]]. The grassland-river seam is [[Aruhe - Quiet Forest Cutoff Lip]]. North of that lip the forest-edge grass is [[Aruhe - Grasslands Print Braid]]. North of that braid the first Quiet hub is [[Aruhe - Quiet Forest Spoke Ring|Spoke Ring]]. North of that hub the night-watch aisle is [[Aruhe - Quiet Forest Star Cut|Star Cut]]. Stay on the terrace or grassland edge and the Quiet can be skipped; stay under the roof and it remains trunks, game trails, and no small sound.
 
 ---
 ## If the party
@@ -34,6 +34,7 @@ The Quiet is rainforest above the last terrace of [[Aruhe - Old Gardens]], where
 - **Camp the grassland-river seam:** [[Aruhe - Quiet Forest Cutoff Lip]].
 - **Follow the packed prints north of the lip:** [[Aruhe - Grasslands Print Braid]].
 - **Follow the inland prints off Print Braid into the Quiet hub:** [[Aruhe - Quiet Forest Spoke Ring|Spoke Ring]].
+- **Follow the north spoke off Spoke Ring onto the night aisle:** [[Aruhe - Quiet Forest Star Cut|Star Cut]].
 - **Walk a game trail pinched through stone:** A single [[Aruhe - Strangler Fig]] may fill the bottleneck with hanging roots and a hollow trunk.
 - **Move through a Quiet-to-Marshes game trail or sunbreak beside a four-foot waxy stalk:** [[Aruhe - Stillbloom]] raises pale bracts around dark needles. A charged mature stalk fires when a grounded Small or larger creature within `20 feet` moves more than `10 feet`, Dashes, jumps, falls, is forced `10 feet` or more, or makes a violent motion; each creature within `15 feet` makes a **Dexterity save — `DC 14`**. Failure → `2d6` piercing and an embedded spine, followed by a **Constitution save — `DC 12`** for **Exposure**. Walk `10 feet` or less per turn, throw an object to trigger the volley, fly over the root mat, or use total cover during the reload.
 - **Walk a deeper Quiet game trail beneath smooth dark coils and hanging carcasses:** [[Aruhe - Snakewood]] reacts to any Small or larger creature moving below an active colony; the target makes a **Dexterity save — `DC 14`**. Failure → `1d6` bludgeoning, **Grappled**, and pulled `15 feet` toward the canopy; a **Grappled** creature takes `2d6` acid damage at the start of its turn, increasing by `1d6` each consecutive round to `4d6`. Bait the strike with a moving object, stay beneath solid cover, sever the section (**AC 13**, `15 HP`), or escape with **Strength (Athletics) or Dexterity (Acrobatics) — `DC 14`**.
@@ -68,6 +69,7 @@ The Quiet is rainforest above the last terrace of [[Aruhe - Old Gardens]], where
 - Grassland-river seam: [[Aruhe - Quiet Forest Cutoff Lip|Cutoff Lip]]
 - Grassland edge north of that lip: [[Aruhe - Grasslands Print Braid|Print Braid]]
 - Trail-star hub north of that braid: [[Aruhe - Quiet Forest Spoke Ring|Spoke Ring]]
+- Night-watch aisle north of that hub: [[Aruhe - Quiet Forest Star Cut|Star Cut]]
 - Borders [[Aruhe - Clear Lake|Clear Lake]]
 
 ---

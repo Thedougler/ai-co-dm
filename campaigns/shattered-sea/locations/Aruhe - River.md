@@ -36,6 +36,7 @@ The rivers draining [[Aruhe - Clear Lake]] braid through Aruhe and cut across th
 - **Climb the jungle-bank lip off Slack Basin:** [[Aruhe - Quiet Forest Cutoff Lip|Cutoff Lip]].
 - **Walk the packed prints north of that lip:** [[Aruhe - Grasslands Print Braid|Print Braid]].
 - **Follow the inland prints off Print Braid into the Quiet hub:** [[Aruhe - Quiet Forest Spoke Ring|Spoke Ring]].
+- **Follow the north spoke off Spoke Ring onto the night aisle:** [[Aruhe - Quiet Forest Star Cut|Star Cut]].
 - **Travel on the water:** Hours-scale where navigable. Current, rapids, deep pools, and otter families make it dangerous.
 - **Walk the grassland bank:** Eight-foot blades and rim predators. [[Aruhe - Terror-Bird|Terror-Birds]] end a hunt if prey hits deep grass, water, or [[Aruhe - Razer-Grass]].
 - **Walk the jungle bank:** Root curtains, drops, and things that hang above the water. Cover traded for vertical threat.
@@ -81,6 +82,7 @@ The rivers draining [[Aruhe - Clear Lake]] braid through Aruhe and cut across th
 - Jungle-bank lip after Slack Basin: [[Aruhe - Quiet Forest Cutoff Lip|Cutoff Lip]]
 - Packed-print braid north of that lip: [[Aruhe - Grasslands Print Braid|Print Braid]]
 - Trail-star Quiet hub north of that braid: [[Aruhe - Quiet Forest Spoke Ring|Spoke Ring]]
+- Night-watch aisle north of that hub: [[Aruhe - Quiet Forest Star Cut|Star Cut]]
 - Grassland bank lower and open; jungle bank a wall of leaves and roots
 
 ---

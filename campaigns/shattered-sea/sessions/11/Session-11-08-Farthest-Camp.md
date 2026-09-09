@@ -12,7 +12,7 @@ cssclasses: [session-surface]
 
 ## Scene ends when
 
-The split at [[Aruhe - Quiet Forest Spoke Ring]] is on the table and the crew has a live choice (stay the night, try to extract, or play along toward a garden they will not reach tonight), then hand to beat 9's second-night watch, or the crew breaks (forced march, attack, or leave). This is not [[Aruhe - Grasslands Print Braid]], not [[Aruhe - Memorial Grove]], and not [[Talon Skarn]].
+The split at [[Aruhe - Quiet Forest Spoke Ring]] is on the table and the crew has a live choice (stay the night, try to extract, or play along toward a garden they will not reach tonight), then hand to beat 9's second-night watch at [[Aruhe - Quiet Forest Star Cut]], or the crew breaks (forced march, attack, or leave). This is not [[Aruhe - Grasslands Print Braid]], not [[Aruhe - Memorial Grove]], and not [[Talon Skarn]].
 
 This beat is thirty minutes.
 
@@ -107,11 +107,11 @@ Unforeseen intents use the same want: this camp wants the garden, and [[Aruhe - 
 
 ## Landing
 
-If the crew stays the night, they are at this fire with the split on the table. Hand to beat 9's second-night watch. Do not run [[Talon Skarn]] here.
+If the crew stays the night, they leave this hub's leaf roof and post the second-night watch at [[Aruhe - Quiet Forest Star Cut]]. Hand to beat 9. Do not run [[Talon Skarn]] here.
 
-If the crew plays along toward the garden, they are still at this fire tonight, committed past this valley. Do not reach [[Aruhe - Memorial Grove]]. Hand to beat 9's second-night watch.
+If the crew plays along toward the garden, they are still in this valley tonight, committed past Spoke Ring. They take the north spoke to [[Aruhe - Quiet Forest Star Cut]]. Do not reach [[Aruhe - Memorial Grove]]. Hand to beat 9's second-night watch.
 
-If Persuasion peeled some mouths toward [[Uncertainty]] and the crew waits until morning, they are still at this fire tonight. Hand to beat 9's second-night watch.
+If Persuasion peeled some mouths toward [[Uncertainty]] and the crew waits until morning, they still post tonight's watch at [[Aruhe - Quiet Forest Star Cut]]. Hand to beat 9.
 
 If the crew forced a march tonight, some of the people at this fire balked or slipped into the north spokes, plus any RAW conditions already applied. Rebuild from that.
 
@@ -120,7 +120,7 @@ If the crew attacked this camp, the prize is gone. They still need a night watch
 If the crew left this camp, they are heading back toward [[Aruhe - Grasslands Print Braid]], the river, the terrace line, the beach, or [[Uncertainty]], or a flyer is in hawk sky, plus any RAW conditions already applied. Rebuild from that. The mark can still sit on the locked quarry.
 
 > [!narration] Landing — Watch setup
-> You are still at this fire as night comes in. The two stories keep passing between mouths, and the people who stayed sit close to the coals. Woodsmoke hangs under the leaf roof, and the spokes go dark.
+> You leave this hub's leaf roof and take the north spoke. Packed dirt opens onto a night aisle with a star-cut in the crowns, an east fire, and sleeping rolls along both walls.
 
 > [!narration] Landing — Forced march
 > Some people balk at the edge of the fire, or slip into the north spokes around camp. Stems close after them, and the packed hub sits emptier by the coals.
@@ -146,4 +146,4 @@ Do not run the hazards table, the [[Aruhe - Deerstalker]], or [[Talon Skarn]] he
 
 ## Backup
 
-[[Aruhe - Quiet Forest Spoke Ring]] · [[Aruhe - Stonepear]] · [[Aruhe - Hinewai]] · [[Taking on Aruhe]] · [[Uncertainty]] · [[Aruhe - Memorial Grove]] · [[Aruhe - Quiet Forest]] · [[Aruhe - Grasslands Print Braid]] · [[Aruhe - Grasslands]] · [[Aruhe - River]] · [[Aruhe-River-Grasslands-Tables]] · [[Session-11-07-False-Help]] · [[Session-11-00-Angry-Birds]]
+[[Aruhe - Quiet Forest Spoke Ring]] · [[Aruhe - Quiet Forest Star Cut]] · [[Aruhe - Stonepear]] · [[Aruhe - Hinewai]] · [[Taking on Aruhe]] · [[Uncertainty]] · [[Aruhe - Memorial Grove]] · [[Aruhe - Quiet Forest]] · [[Aruhe - Grasslands Print Braid]] · [[Aruhe - Grasslands]] · [[Aruhe - River]] · [[Aruhe-River-Grasslands-Tables]] · [[Session-11-07-False-Help]] · [[Session-11-00-Angry-Birds]]
