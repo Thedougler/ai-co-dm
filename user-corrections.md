@@ -114,7 +114,9 @@ Follow skill `agentic-system-designer` (Intake → Baseline → Fix → Prove �
 
 **count:** 1
 
-**status:** open
+**status:** closed
+
+**Fix:** `.agents/skills/run-guide/SKILL.md` — heading is `## How the Scene Resolves`; write only the most likely options as one unconditional `[!narration]` plus an `If | Next | Narration` table. Pointers in TotM, copy-writer, encounter-prep, `templates/Encounter.md`, `templates/00 Templates.md`, `docs/obsidian-presentation.md`, AGENTS two-pass, and `.grok/agents/copy-writer.md` dropped `## Landing` / landing stubs. Measure: agent-facing files teaching landing as a beat stub/heading 5 → 0. Cheap check: `rg -l --glob '*.md' -e 'landing / variants' -e 'tick, landing' -e 'landing stubs' -e 'Landing payload' .agents/skills templates docs`. SHA `88ff1e9`.
 
 ### 2026-09-09 — Conditional narration shown sequentially
 
@@ -126,5 +128,7 @@ Follow skill `agentic-system-designer` (Intake → Baseline → Fix → Prove �
 
 **count:** 1
 
-**status:** open
+**status:** closed
+
+**Fix:** `.agents/skills/obsidian-markdown/SKILL.md` + `run-guide` TotM slots — unconditional spoken stays in `[!narration]`; conditional spoken (zone, tick, most-likely option) is `==_italic_==` in the table cell. Replaced “one titled stub per likely option.” Encounter template now has the options table. Measure: `==_` production-grammar files in `.agents/skills` + `templates` 0 → 8; stub-per-option files 1 → 0. Cheap check: `rg -l --glob '*.md' -e 'stub per likely option' -e 'one titled stub per likely' .agents/skills templates`; `rg -l --glob '*.md' '==_' .agents/skills templates`. SHA `88ff1e9`.
 
