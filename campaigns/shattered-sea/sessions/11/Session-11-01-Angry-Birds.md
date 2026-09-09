@@ -14,29 +14,28 @@ cssclasses: [session-surface]
 ![[Session 10 - Recap#Recap]]
 ## Scene ends when
 
-The crew drops into eight-foot grass and moving water, crash-lands in the terrace woods, or forces the beach. This is not a fight to the death with the adult [[Aruhe - Bloodhawk]], her young, or the [[Aruhe - Crown Squid]]. When they hit the river valley, the beat is over.
+The party drops into eight-foot grass and moving water, crash-lands in the terrace woods, or forces the beach. This is not a fight to the death with the adult [[Aruhe - Bloodhawk]], her young, or the [[Aruhe - Crown Squid]]. When they hit the river valley, the beat is over.
 
 ## At a Glance
 
 - **Stakes:** Exposed or isolated bodies become prey. Land in the grass, or take hits in this air.
 - **Goal / exit:** A quiet drop away from both animals, into grass and moving water.
-- **Danger:** An adult [[Aruhe - Bloodhawk]] and her young are already dropping out of the sun. The [[Aruhe - Crown Squid]] is the thing she is diving on. High, loud, or obvious puts a dive on the crew.
-- **Silence:** Present the dive, then wait. If the crew freezes, tick the clock once at the end of the round.
+- **Danger:** An adult [[Aruhe - Bloodhawk]] and her young are already dropping out of the sun. The [[Aruhe - Crown Squid]] is the thing she is diving on. High, loud, or obvious puts a dive on the party.
+- **Silence:** Present the dive, then wait. If the party freezes, tick the clock once at the end of the round.
 - **Situation magnets:** Anyone still in High air. Anyone who attacks, flares, screams, grabs the squid, or flies toward the young.
 
-The crew is 60 feet up over the old terraces. The [[Aruhe - Crown Squid]] is 30 feet ahead at the same height, bracing through the last trees. An adult [[Aruhe - Bloodhawk]] is already dropping out of the sun onto that squid. Her young are on that same dive, learning it, and will hit whatever she flushes. Grass and river cover lie 60 feet straight down. A Dash of 60 feet from High air reaches that grass. A normal move of 30 feet does not. The beach and [[Uncertainty]] are 60 feet of open sky toward the ship. The adult Bloodhawk flies 120 feet. Up-sun, a man-sized flyer may be there. Do not call that flyer out.
+The party is 60 feet up over the old terraces. The [[Aruhe - Crown Squid]] is 30 feet ahead at the same height, bracing through the last trees. An adult [[Aruhe - Bloodhawk]] is already dropping out of the sun onto that squid. Her young are on that same dive, learning it, and will hit whatever she flushes. Grass and river cover lie 60 feet straight down. A Dash of 60 feet from High air reaches that grass. A normal move of 30 feet does not. The beach and [[Uncertainty]] are 60 feet of open sky toward the ship. The adult Bloodhawk flies 120 feet. [[Talon Skarn]] is up-sun.
 
 ### Action cards
 
-**Adult [[Aruhe - Bloodhawk]].** AC 15. Loop: Canopy Dive → Talon Grab → Haul Aloft → Sickle Claw. Tell: the four wings fold and the crimson tips flash. Bloodied at **124 HP or fewer:** the adult Bloodhawk releases a grabbed crew member and climbs for the cloud line. The adult Bloodhawk will not dive into closed canopy or eight-foot grass. Easy dial: Multiattack only, no Canopy Dive recharge. Canopy Dive or Beak is +13 to hit. Beak deals 28 piercing. Talon Grab is +13 to hit, 23 slashing, **Grappled** (escape `DC 19`) and **Restrained**.
+**Adult [[Aruhe - Bloodhawk]].** AC 15. Loop: Canopy Dive → Talon Grab → Haul Aloft → Sickle Claw. Tell: the four wings fold and the crimson tips flash. Bloodied at **124 HP or fewer:** the adult Bloodhawk releases a grabbed party member and climbs for the cloud line. The adult Bloodhawk will not dive into closed canopy or eight-foot grass. Easy dial: Multiattack only, no Canopy Dive recharge. Canopy Dive or Beak is +13 to hit. Beak deals 28 piercing. Talon Grab is +13 to hit, 23 slashing, **Grappled** (escape `DC 19`) and **Restrained**.
 
-The adult hawk is hunting the squid. The party is not the chosen meal. They become one if they make themselves obvious: hanging in the open, hitting the hawk, loud magic, grabbing the squid, flying toward the young. She will follow the squid down. She will also take a player who draws that attention. She does not care about the beach, the ship, or the night's later story.
+The adult hawk is hunting the squid. The party is not the chosen meal. They become one if they make themselves obvious: hanging in the open, hitting the hawk, loud magic, grabbing the squid, flying toward the young. She will follow the squid down. She will also take a player who draws that attention.
 
-**Young [[Aruhe - Bloodhawk|Bloodhawks]].** Smaller four-winged charcoal hawks on the same dive. They hit whatever the adult flushes. They are pressure around the hunt, not a second boss. They will not follow into eight-foot grass or closed canopy. A young hawk's dive drives a flushed body 30 feet down. If that body is already within 30 feet of the terrace woods, that body is crash-landed (`2d6` bludgeoning and **Prone**). There is no young statblock on this card.
+**Young [[Aruhe - Bloodhawk|Bloodhawks]].** Smaller four-winged charcoal hawks on the same dive. They hit whatever the adult flushes. They are pressure around the hunt, not a second boss. They will not follow into eight-foot grass or closed canopy. A young hawk's dive drives a flushed body 30 feet down. If that body is already within 30 feet of the terrace woods, that body is crash-landed (`2d6` bludgeoning and **Prone**). 
 
-The [[Aruhe - Crown Squid]] is fleeing through the last trees. It is not a second boss unless someone stays glued to it.
+The [[Aruhe - Crown Squid]] is fleeing through the last trees. 
 
-If anyone looks off the hawk into the sun, optional **Wisdom (Perception) — `DC 27`**. Do not prompt that check. Do not name the flyer.
 
 > [!narration] Initial Narration
 > You see sixty feet of open air under you. North, stacked garden stone, mossy terrace walls, and split orange fruit sit far below. Thirty feet ahead, at your same height, a house-sized squid braces through the last mangrove crowns. Its swollen body is clear as wet glass, veined like a leaf and lit pale violet from inside. Thick bark-dark arms take separate trunks, and thinner hooked lines hang toward the forest floor like roots looking for ground.
@@ -53,24 +52,24 @@ If anyone looks off the hawk into the sun, optional **Wisdom (Perception) — `D
 
 ## Zones
 
-| Place | Distance from the crew | Cover | Narration |
+| Place | Distance from the party | Cover | Narration |
 | --- | --- | --- | --- |
-| High air | Here. 60 feet up over the old terraces. | No cover. Sun-glare and steady wind. Nothing breaks the line between the crew and the hawks. | _You hang in the open hunt lane with sun-glare in your eyes and steady wind pushing across your body. The terrace woods and river are a long drop below. Up here, no branch or grass breaks the line between you and the hawks._ |
-| Last trees | 30 feet ahead, same height. The [[Aruhe - Crown Squid]] is here. | Thin roof of mangrove and old terrace crown. Branches sit low and open enough for the adult hawk to keep its dive. | _Ahead of you, the last trees make a thin roof of mangrove and old terrace crown. The squid's bark-dark arms are already spread across that roof, its violet body barely loading the wood, while hooked lines trail down through the leaves. The branches sit low and open enough for the diving hawk to keep its line. Leaves snap and shake under both bodies._ |
-| [[Aruhe - The Mangroves\|Mangroves]] | 30 feet down. Old gardens, mangroves, and stone. | Thin catch among broken steps, fruit, and algae-green channels. More landing mess than hiding place. | _Thirty feet down, stacked garden stone and mangrove roots make a rough catch below the thin crowns. Broken steps, split orange fruit, tight red berry clusters along the terrace lips, and algae-green channels crowd the ground. Warm sugar-sour air rises from the wet stone. The eight-foot grass is still farther below._ |
-| [[Aruhe - Grasslands\|Grasslands]] and [[Aruhe - River\|The River]] | 60 feet straight down. Eight-foot grass and moving water. | This grass hides a standing body. The adult [[Aruhe - Bloodhawk]] will not follow into it. | _Straight down, gold-green grass stands eight feet high along a clear turquoise river, its blades leaning where the current presses through pale stone. You hear water pulling through the stems, and you smell warm wet earth from the cut. A standing body could vanish inside that grass._ |
-| [[Aruhe - Beach\|Aruhe Beach]] / [[Uncertainty]] | 60 feet of open sky toward the ship. | Exposed. The hunt still crosses that air. | _Toward the beach, empty sky runs all the way to the short shingle and [[Uncertainty]] on the water, hull and rigging sharp in the salt wind. You smell the sea from that direction. Nothing breaks the air between here and the ship._ |
+| High air | Here. 60 feet up over the old terraces. | No cover. Sun-glare and steady wind. | _You hang in the open hunt lane with sun-glare in your eyes and steady wind pushing across your body. The terrace woods and river are a long drop below. Up here, no branch or grass breaks the line between you and the hawks._ |
+| Last trees                                                          | 30 feet ahead, same height. The [[Aruhe - Crown Squid]] is here. | Thin roof of mangrove and old terrace crown. Branches sit low and open enough for the adult hawk to keep its dive. | _Ahead of you, the last trees make a thin roof of mangrove and old terrace crown. The squid's bark-dark arms are already spread across that roof, its violet body barely loading the wood, while hooked lines trail down through the leaves. The branches sit low and open enough for the diving hawk to keep its line. Leaves snap and shake under both bodies._ |
+| [[Aruhe - The Mangroves\|Mangroves]]                                | 30 feet down. Old gardens, mangroves, and stone.                 | Thin catch among broken steps, fruit, and algae-green channels. More landing mess than hiding place.               | _Thirty feet down, stacked garden stone and mangrove roots make a rough catch below the thin crowns. Broken steps, split orange fruit, tight red berry clusters along the terrace lips, and algae-green channels crowd the ground. Warm sugar-sour air rises from the wet stone. The eight-foot grass is still farther below._                                    |
+| [[Aruhe - Grasslands\|Grasslands]] and [[Aruhe - River\|The River]] | 60 feet straight down. Eight-foot grass and moving water.        | This grass hides a standing body. The adult [[Aruhe - Bloodhawk]] will not follow into it.                         | _Straight down, gold-green grass stands eight feet high along a clear turquoise river, its blades leaning where the current presses through pale stone. You hear water pulling through the stems, and you smell warm wet earth from the cut. A standing body could vanish inside that grass._                                                                     |
+| [[Aruhe - Beach\|Aruhe Beach]] / [[Uncertainty]]                    | 60 feet of open sky toward the ship.                             | Exposed. The hunt still crosses that air.                                                                          | _Toward the beach, empty sky runs all the way to the short shingle and [[Uncertainty]] on the water, hull and rigging sharp in the salt wind. You smell the sea from that direction. Nothing breaks the air between here and the ship._                                                                                                                           |
 
 ## Be ready for
 
 | Intent | Approach | DC | Success | Partial | Failure |
 | --- | --- | --- | --- | --- | --- |
-| Assess the situation | **Wisdom (Nature)** or **Wisdom (Perception)** | `DC 12` | The adult [[Aruhe - Bloodhawk]] is hunting the [[Aruhe - Crown Squid]], not the crew. The smaller hawks will hit whatever she flushes. The party is not the chosen meal unless they hang in the open, hit her, make loud magic, grab the squid, or fly at the young. | The looker identifies the [[Aruhe - Crown Squid]] as the target, but remains in High air until their next action. | The looker remains in High air and draws the next threat tick if still exposed. |
-| Look off the hawk into the sun | **Wisdom (Perception)**, only if they ask who that flyer is. Do not prompt. | `DC 27` | A man-sized flyer is up-sun, then gone. Do not name it. | Sun-glare only. The looker stays in High air. | Sun-glare only. The looker stays in High air. |
-| Escape the hunt | **Dexterity (Stealth)**, or no roll if the crew reaches grass and river this round | `DC 14`, or no roll (a 60-foot Dash from High air reaches the grass) | The crew lands in grass and river. The adult [[Aruhe - Bloodhawk]] stays on the [[Aruhe - Crown Squid]]. | The crew reaches grass and river after the adult [[Aruhe - Bloodhawk]] uses Beak (+13 to hit, 28 piercing) on one still-exposed crew member. | The crew is still visible in High air. |
-| Save or distract the [[Aruhe - Crown Squid]] | An attack roll against the adult [[Aruhe - Bloodhawk]], or **Charisma (Intimidation)** | Attack vs AC 15, or `DC 16` | The adult [[Aruhe - Bloodhawk]] breaks off the [[Aruhe - Crown Squid]] for one threat beat, and now treats that noisy crew member as prey. | The noisy crew member stays in High air. A young hawk drives that body 30 feet down. | The adult [[Aruhe - Bloodhawk]] uses Talon Grab (+13 to hit, 23 slashing, **Grappled** escape `DC 19`, **Restrained**) on the loudest crew member still in the air. |
-| Reach the beach or [[Uncertainty]] | **Dexterity (Acrobatics)** to stay low | `DC 14` | The crew arrives at the beach. If that crew member stayed high, the adult [[Aruhe - Bloodhawk]] uses Multiattack on the way. The hunt still crosses that air. | Each still-open crew member takes one Beak (+13 to hit, 28 piercing) from the adult [[Aruhe - Bloodhawk]]. | The adult [[Aruhe - Bloodhawk]] uses Talon Grab (+13 to hit, 23 slashing, **Grappled** escape `DC 19`, **Restrained**) on one crew member, or the crew is forced down in Terrace woods (crash-landed: `2d6` bludgeoning and **Prone**). |
-| Hide in canopy or grass | **Dexterity (Stealth)** | `DC 14` | The adult [[Aruhe - Bloodhawk]] will not follow. The clock stops. | Rough landing. The landing crew member takes `1d6` bludgeoning and is **Prone**, in Terrace woods or grass as the fiction says. | One carried object falls 30 feet away. The crew is still in the open hunt lane. |
+| Assess the situation | **Wisdom (Nature)** or **Wisdom (Perception)** | `DC 12` | The adult [[Aruhe - Bloodhawk]] is hunting the [[Aruhe - Crown Squid]], not the party. The smaller hawks will hit whatever she flushes. The party is not the chosen meal unless they hang in the open, hit her, make loud magic, grab the squid, or fly at the young. | The looker identifies the [[Aruhe - Crown Squid]] as the target, but remains in High air until their next action. | The looker remains in High air and draws the next threat tick if still exposed. |
+| Look off the hawk into the sun | **Wisdom (Perception)**, only if they ask who that flyer is | `DC 27` | The looker sees [[Talon Skarn]] up-sun: a man-sized peregrine body in the glare, then gone. | Sun-glare only. The looker stays in High air. | Sun-glare only. The looker stays in High air. |
+| Escape the hunt | **Dexterity (Stealth)**, or a 60-foot Dash from High air that reaches the grass | `DC 14` | The party lands in grass and river. The adult [[Aruhe - Bloodhawk]] stays on the [[Aruhe - Crown Squid]]. | The party reaches grass and river after the adult [[Aruhe - Bloodhawk]] uses Beak (+13 to hit, 28 piercing) on one still-exposed party member. | The party is still visible in High air. |
+| Save or distract the [[Aruhe - Crown Squid]] | An attack roll against the adult [[Aruhe - Bloodhawk]], or **Charisma (Intimidation)** | Attack vs AC 15, or `DC 16` | The adult [[Aruhe - Bloodhawk]] breaks off the [[Aruhe - Crown Squid]] for one threat beat, and now treats that noisy party member as prey. | The noisy party member stays in High air. A young hawk drives that body 30 feet down. | The adult [[Aruhe - Bloodhawk]] uses Talon Grab (+13 to hit, 23 slashing, **Grappled** escape `DC 19`, **Restrained**) on the loudest party member still in the air. |
+| Reach the beach or [[Uncertainty]] | **Dexterity (Acrobatics)** to stay low | `DC 14` | The party arrives at the beach. If that party member stayed high, the adult [[Aruhe - Bloodhawk]] uses Multiattack on the way. The hunt still crosses that air. | Each still-open party member takes one Beak (+13 to hit, 28 piercing) from the adult [[Aruhe - Bloodhawk]]. | The adult [[Aruhe - Bloodhawk]] uses Talon Grab (+13 to hit, 23 slashing, **Grappled** escape `DC 19`, **Restrained**) on one party member, or the party is forced down in Terrace woods (crash-landed: `2d6` bludgeoning and **Prone**). |
+| Hide in canopy or grass | **Dexterity (Stealth)** | `DC 14` | The adult [[Aruhe - Bloodhawk]] will not follow. The clock stops. | Rough landing. The landing party member takes `1d6` bludgeoning and is **Prone**, in Terrace woods or grass as the fiction says. | One carried object falls 30 feet away. The party is still in the open hunt lane. |
 
 ## Threat clock
 
@@ -78,10 +77,10 @@ If anyone looks off the hawk into the sun, optional **Wisdom (Perception) — `D
 | --- | --- | --- |
 | 1 | The adult [[Aruhe - Bloodhawk]] hits the [[Aruhe - Crown Squid]] with Canopy Dive (Beak +13 with advantage, extra 14 (`4d6`) piercing on a hit). On Easy, the adult Bloodhawk uses Beak +13 instead. The young stay on that same dive. | _The adult hawk pins all four wings and drops the rest of the way into the last trees. Its pale hook drives for the squid's violet body, the squid jerks sideways, and the crowns thrash under them. Smaller charcoal hawks cut the same air. High air around you stays empty and open._ |
 | 2 | The adult [[Aruhe - Bloodhawk]] wheels through High air without leaving the squid. Anyone still in High air is driven 30 feet down. If anyone attacked, flared, screamed, grabbed the squid, or flew at the young this round, a young hawk dives that flushed body 30 feet down instead, or the adult uses Beak (+13 to hit, 28 piercing) on the loudest of those bodies. | _The hawk's four wings beat once through your height as it stays on the squid. The buffet slams you toward the terrace woods. If someone just made noise, a smaller hawk cuts that way, or the pale beak turns._ |
-| 3 | The adult [[Aruhe - Bloodhawk]] uses Talon Grab (+13 to hit, 23 slashing, **Grappled** escape `DC 19`, **Restrained**), then Haul Aloft, on the biggest or loudest crew member still airborne. If the [[Aruhe - Crown Squid]] has not been diverted for two beats, the adult Bloodhawk also pins the Great Crown Squid here. | _The adult hawk lifts its head from the squid and beats four wings for height. Boat-length talons open toward the biggest or loudest body still in the air. Below that rising shadow, the squid remains pinned in the shaking crowns._ |
-| 4 | Any crew still airborne and obvious is grabbed (Talon Grab) or crash-landed (`2d6` bludgeoning, **Prone**, Terrace woods). | _If you are still obvious in the air, the hunt reaches you. Talons close out of the glare, or the terrace woods rush up in a blur of branches, stone, and fruit._ |
+| 3 | The adult [[Aruhe - Bloodhawk]] uses Talon Grab (+13 to hit, 23 slashing, **Grappled** escape `DC 19`, **Restrained**), then Haul Aloft, on the biggest or loudest party member still airborne. If the [[Aruhe - Crown Squid]] has not been diverted for two beats, the adult Bloodhawk also pins the Great Crown Squid here. | _The adult hawk lifts its head from the squid and beats four wings for height. Boat-length talons open toward the biggest or loudest body still in the air. Below that rising shadow, the squid remains pinned in the shaking crowns._ |
+| 4 | Any party member still airborne and obvious is grabbed (Talon Grab) or crash-landed (`2d6` bludgeoning, **Prone**, Terrace woods). | _If you are still obvious in the air, the hunt reaches you. Talons close out of the glare, or the terrace woods rush up in a blur of branches, stone, and fruit._ |
 
-**Bloodied 124 HP.** The adult [[Aruhe - Bloodhawk]] releases a grabbed crew member and climbs for the cloud line.
+**Bloodied 124 HP.** The adult [[Aruhe - Bloodhawk]] releases a grabbed party member and climbs for the cloud line.
 
 **Cover reached.** The adult [[Aruhe - Bloodhawk]] will not dive into closed canopy or eight-foot grass. The clock stops.
 
@@ -93,17 +92,17 @@ If the adult [[Aruhe - Bloodhawk]] is diverted for **two** threat beats, the [[A
 
 ## Landing
 
-The crew is in moving water and eight-foot grass, or crash-landed or scattered in Terrace woods. On this same bank the crew can already see tracks and, inland in this valley, a thin column of smoke. Beat 2 is [[Session-11-02-Landing-Sign]]. Do not run Survival checks or the hazards table here.
+The party is in moving water and eight-foot grass, or crash-landed or scattered in Terrace woods. On this same bank the party can already see tracks and, inland in this valley, a thin column of smoke. Beat 2 is [[Session-11-02-Landing-Sign]]. Do not run Survival checks or the hazards table here.
 
 > [!narration] Landing
 > You come down in moving water with gold-green grass standing over your head. The clear river pulls at the stems around you, and mud sucks at the bank where fresh prints have already cut through it. Inland, up the valley, a thin column of smoke rises above the grass.
 
-**Scattered.** That crew member lands 30 feet from the others.
+**Scattered.** That party member lands 30 feet from the others.
 
 > [!narration] Scattered
 > You come down thirty feet from the others with tall grass and moving water between you. The river fills the gap with noise, and only broken glimpses of bodies show through the stems.
 
-**Crash-landed.** That crew member takes `2d6` bludgeoning and is **Prone** in Terrace woods.
+**Crash-landed.** That party member takes `2d6` bludgeoning and is **Prone** in Terrace woods.
 
 > [!narration] Crash-landed
 > You hit the terrace woods and go down hard among stacked garden stone, mangrove roots, and split orange fruit. Sugar-sour air presses close to the wet steps, and leaves keep shaking above you.
@@ -125,7 +124,7 @@ The crew is in moving water and eight-foot grass, or crash-landed or scattered i
 ![[attachments/shattered-sea/creatures/great-crown-squid-of-aruhe-01.jpg|Great Crown Squid of Aruhe]]
 ## Backup
 
-[[Aruhe - Old Gardens]] · [[Aruhe - Grasslands]] · [[Aruhe - River]] · [[Aruhe - Beach]] · [[Uncertainty]] · [[Aruhe - Young Bloodhawk]] · [[Session-11-00-Birds-of-a-Feather]] · [[Session-11-00-Random-Tables]] · [[Session-11-02-Landing-Sign]]
+[[Aruhe - Old Gardens]] · [[Aruhe - Grasslands]] · [[Aruhe - River]] · [[Aruhe - Beach]] · [[Uncertainty]] · [[Aruhe - Young Bloodhawk]] · [[Talon Skarn]] · [[Session-11-00-Birds-of-a-Feather]] · [[Session-11-00-Random-Tables]] · [[Session-11-02-Landing-Sign]]
 ## Battlemap
 
 ![[attachments/shattered-sea/battlemaps/session-11-01-angry-birds-base.png|Session 11-01 Angry Birds battlemap]]
