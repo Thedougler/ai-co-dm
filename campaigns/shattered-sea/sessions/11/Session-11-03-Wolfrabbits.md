@@ -50,9 +50,9 @@ The [[Aruhe - Spiguar]] owns this channel and is hunting the pack. The party is 
 
 **Abort.** The pack jumps [[Aruhe - Razer-Grass]] rather than land in it. The [[Aruhe - Spiguar]] will not spend itself on long pursuit into deep water, onto [[Aruhe - Razer-Grass]], or under open sky. A knockdown can dump someone into the current or into a razer island.
 
-![[attachments/shattered-sea/creatures/wolfrabbit-of-aruhe.png|Wolfrabbit of Aruhe]]
 
-![[attachments/shattered-sea/creatures/spiguar-of-aruhe.png|Spiguar of Aruhe]]
+
+
 
 ![[attachments/shattered-sea/hazards/aruhe-razer-grass.png|Razer-Grass]]
 
@@ -155,17 +155,22 @@ If a party member took open valley air, that party member is in hawk sky. Point 
 
 **[[Aruhe - Razer-Grass]].** Anyone shoved through or Shatter-dumped in an island has that damage already applied, plus **Glass-Choked** if they failed the dust save.
 
-## Roster
+## Monsters
+
+### Wolfrabbit
 
 ![[Aruhe - Wolfrabbit#Statblock]]
-
+![[attachments/shattered-sea/creatures/wolfrabbit-of-aruhe.png|Wolfrabbit of Aruhe]]
 > [!narration] Wolfrabbit
 > Three wolf-sized hunters cross the torn ground in one long leap, flushed down the muddy corridor. Dark-striped bodies cut over the grass with long ears laid back: one torn left ear, one white blaze down the muzzle, one kinked tail. Rust-orange shows inside those ears, red eyes hold the lane, and hooked black claws open on the way down.
 
 ![[Aruhe - Wolfrabbit#Tactics]]
 
-![[Aruhe - Spiguar#Statblock]]
+---
+### Spiguar
 
+![[Aruhe - Spiguar#Statblock]]
+![[attachments/shattered-sea/creatures/spiguar-of-aruhe.png|Spiguar of Aruhe]]
 > [!narration] Spiguar
 > A heavy spotted cat is already on a striped body 20 feet east of the path, living ferns and grass piled over its back and neck. Pale saber teeth show against the dark muzzle, yellow eyes low, the whole shape flatter in the gold than a leopard should sit. The grass around it barely moves except where it has the kill.
 
