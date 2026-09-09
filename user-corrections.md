@@ -79,3 +79,16 @@ Follow skill `agentic-system-designer` (Intake → Baseline → Fix → Prove �
 **status:** open
 
 
+
+### 2026-09-09 — Beat 6 written as watch furniture
+
+**Error:** Beat 6 was treated as a night-watch card. The spoken scene spent attention on bedrolls and camp furniture instead of the rescued survivor and the other wreck people. Split-lip from [[Session-11-05-Otter-Hole]] was omitted. The card still handed to beat 9.
+
+**Correction:** Beat 6 is [[Session-11-06-Farthest-Camp]], not Night Watch. It follows the otter-hole rescue. The live work is talking to Split-lip and the other survivors about the woman and the garden split. Hand to [[Session-11-07-False-Help]].
+
+**Read:** `campaigns/shattered-sea/sessions/11/Session-11-00-Birds-of-a-Feather.md`; `campaigns/shattered-sea/sessions/11/Session-11-05-Otter-Hole.md`; `campaigns/shattered-sea/sessions/11/Session-11-06-Farthest-Camp.md`; `campaigns/shattered-sea/sessions/11/Session-11-08-Night-Watch.md`; `skill://run-guide`; `skill://theatre-of-the-mind`; `skill://npc-design`; `skill://dnd5e-mechanics`; `skill://obsidian-markdown`
+
+**count:** 1
+
+**status:** open
+
