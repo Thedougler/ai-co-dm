@@ -31,9 +31,9 @@ Rules:
 
 ### Friction self-report (all bots)
 
-When a specialist hits **repeated** friction — token waste, wrong-owner wakes, missing skill gates, fuzzy handoffs, or process that forces rework — **immediately** packet **Agentic-System-Designer** (`9f12ff5d-62f0-4e19-a213-e4f2f284b621`). Do **not** wait for the weekday optimization pass. Do **not** silently work around for long.
+When a specialist hits **repeated** friction — token waste, wrong-owner wakes, missing skill gates, fuzzy handoffs, or process that forces rework — **immediately** packet **Agentic-System-Designer** (`9f12ff5d-62f0-4e19-a213-e4f2f284b621`) or, off this fleet, run skill `agentic-system-designer` on Grok Build / Codex / omp. Do **not** wait for the weekday optimization pass. Do **not** silently work around for long.
 
-Nick’s live corrections (all agents, not only this fleet) live in [[user-corrections]]. Writers append there; ASD drains open entries on the weekday pass and when already awake. Friction-report packets remain for bot-to-ASD process pain.
+Nick’s live corrections (all agents, not only this fleet) live in [[user-corrections]]. Writers append there; ASD drains open entries via the skill on any host (Grok Bot weekday pass is one cadence). Friction-report packets remain for bot-to-ASD process pain.
 
 ASD triages immediately → design fix → packets implementers (**Ops** AGENTS/scripts · **Skill-Creator** skills · **Team-Leader** personas · **dr eggbot** CreateAgent).
 

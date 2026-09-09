@@ -34,7 +34,7 @@ Do not edit skills, AGENTS, or other process files in the same turn “so it nev
 
 ## Drain (Agentic-System-Designer)
 
-Load this file when the wake is to process user corrections, on the weekday `daily-agentic-optimization` pass, or when an open entry exists and ASD is already awake for fleet work.
+Load this file when the wake is `agentic-system-designer`, Nick asks to drain corrections, the weekday `daily-agentic-optimization` pass (Grok Bot), or an open entry exists and ASD is already awake. Any host: Grok Bot, Grok Build, Codex, omp.
 
 For each **status:** `open` entry:
 
