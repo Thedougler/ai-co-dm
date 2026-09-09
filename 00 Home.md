@@ -19,6 +19,7 @@ See [[campaigns/00 Campaigns]].
 - [[inbox/00 Inbox]]
 - [[AGENTS]]
 - [[GROK-BOTS]]
+- [[user-corrections]]
 
 ## Status
 
