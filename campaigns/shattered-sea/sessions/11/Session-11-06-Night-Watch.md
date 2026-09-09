@@ -10,181 +10,139 @@ cssclasses: [session-surface]
 ---
 # Session 11 — Night watch
 
+![[attachments/shattered-sea/places/aruhe-spoke-ring.png|Spoke Ring, radial fire hub under Quiet leaves]]
+
 ## Scene ends when
 
-The mark is locked (the [[Aruhe - Deerstalker]] ran from a group, or the mimic call landed, or a one-person face happened) and you can hand to morning / beat 7, or they fought it here and the mark still stands, or they break. This is the night watch on [[Aruhe - Quiet Forest Cutoff Lip]]. It is not a hazards-table result, not [[Aruhe - River Slack Basin]], and not beat 7's false-help voices.
+Watch terms are locked (fortified, paired, or thin; quiet or messy; [[Crissdalynn Khinriss]] on the watch or not) and you can hand to [[Session-11-09-Theft-on-the-Watch]], or they are already walking, or they break. This is the watch-posting slice at [[Aruhe - Quiet Forest Spoke Ring]]. It is not a fight, not [[Aruhe - Memorial Grove]], and not the theft.
 
 This beat is thirty minutes.
 
-**If behind:** Skip extra searching of the woods. Give the boom in the knees, then one look or one call, lock the quarry, and end.
+**If behind:** Ask who watches, where everyone stands, how [[Crissdalynn Khinriss]] and the [[Fate Spinner]] are protected, and whether the fire is quiet or messy. Lock fortified, paired, or thin, then end.
 
-**If ahead:** Still end on the mark locked. Do not run beat 7's false-help voices on this card. If they already get the full one-person fight, do not also run the same combat in beat 7.
+**If ahead:** Still end on watch terms. Do not run [[Talon Skarn]] or the [[Aruhe - Deerstalker]] on this card. Do not reach [[Aruhe - Memorial Grove]].
 
 ## L0 · Glance
 
-- **Stakes:** The thing is still past the knee palisade and will keep calling. The mark lasts past this watch.
-- **Goal / exit:** Lock the mark and hand to beat 7, or they fought it here and the mark still stands, or they break.
-- **Danger:** Going alone starts the fight. Waking everyone scares it off and does not end the mark.
-- **Silence:** Present the run and the cutoff, then wait. If the crew freezes, tick the clock once at the end of the round.
-- **Situation magnets:** The person on watch at the knees. Anyone who leaves camp alone. Anyone isolated.
+- **Stakes:** Isolation on this hub is how a body becomes prey. The watch they post is how [[Talon Skarn]] opens.
+- **Goal / exit:** Lock watch terms, then hand to [[Session-11-09-Theft-on-the-Watch]], or they are already walking.
+- **Danger:** A thin watch lets [[Talon Skarn]] start close, with the first chain already set. A messy fire is cover for him. Sending one person north is isolation.
+- **Silence:** Present the fire, the garden talk, and the need for a watch, then wait.
+- **Situation magnets:** Anyone left alone is a magnet. The marked person is a magnet if that person takes a north trail alone. [[Crissdalynn Khinriss]] is a magnet if she stands a thin watch.
 
-The crew is camped on the packed print shelf of [[Aruhe - Quiet Forest Cutoff Lip]], inland of [[Aruhe - River Slack Basin]]. Sleepers and gear sit on that hard dirt. The person on watch stands 15 feet east at the hollow knee palisade. The root-bowl is 30 feet east of camp, 15 feet past those knees. Deeper Quiet is 50 feet east. The rock seep and thinning gold-green grass sit 20 feet west, downslope. Packed prints run north along this lip toward the smoke. The [[Aruhe - Deerstalker]] has speed 40 feet and climb 20 feet. Lost Nerve is two ready hostiles within 30 feet. A 30-foot move reaches the root-bowl or the seep. A Dash of 60 feet reaches deeper wood or turns south toward Slack Basin. A Dash does not reach the smoke, the beach, or the terraces.
+## Now
 
-## DM truth
-
-This is the session's [[Aruhe - Deerstalker]]. The person on watch who heard the run is the preferred quarry. It mimics a voice to peel that person off the camp. It retreats from a group. When it finally faces one person, it moves wrong, as if something else is using the body, says "You're not welcome here," and attacks.
-
-**Unrevealed:** That line is the island's law coming out of an animal. It is not a conversation.
+The crew is on the packed dirt hub of [[Aruhe - Quiet Forest Spoke Ring]]. Night has this fire. The stone ring sits at the center. Four woven mats lie 10 feet out from those coals. Unnamed wreck people sit in that light, fewer than the crushed prints that enter from the south. Fallen [[Aruhe - Stonepear]] sits by the coals. Living stonepears still hang. Two spears rest on the packed dirt south of the ring. The south spoke runs 20 feet to gold-green grass still showing between the last trunks. The west spoke runs 30 feet to the river through a root-cut. North spokes run 20 feet into darker wood. [[Aruhe - Quiet Forest Star Cut]] is the walk beyond that, farther than a Dash. A 30-foot move stays on this hub. A Dash of 60 feet follows a spoke off this ring. A Dash does not reach Star Cut, the garden, the beach, or [[Uncertainty]]. Packed hub is ordinary ground. Wood beyond the trail mouths is Difficult Terrain and heavily obscures beyond 10 feet. If someone is already marked, that person is still the peel if they go north alone.
 
 ### Action cards
 
-**One [[Aruhe - Deerstalker]] on Easy.** It is not Famished. Do not spawn a second. Do not roll the hazards table here.
+**Watch posting.** This is a Development. There is no fight on this card. Ask what they actually do, where everyone stands, how [[Crissdalynn Khinriss]] and the [[Fate Spinner]] are protected, what is visible, and what deception or contingency they prepare. Do not collapse this beat into one set-watch check.
 
-**Loop.** Interrupt the meal in the root-bowl, then a loud bolt as a ruse, then Borrowed Voice to peel the person on watch, then a stand and talk only for one person, then Claw. Snatch from the Dim only while hidden in dim light, darkness, or foliage, and only on an isolated quarry. Lost Nerve if two ready hostiles are within 30 feet. Do not force the full fight if the crew stays grouped. Lock these rules for beat 7.
+**Watch states.** Fortified means they establish positions, lines of sight, and contingencies before [[Talon Skarn]] enters. Paired means opposed detection and a roughly even opening. Thin means [[Talon Skarn]] starts close, the first chain can already be set up, and the party reacts from disadvantage. Also record quiet or messy, and whether [[Crissdalynn Khinriss]] is on the watch.
 
-**Compact numbers.** AC 15. Hit points 85. Claw +8 to hit, `12` slashing, reach 10 feet, and if the target is Medium or smaller the [[Aruhe - Deerstalker]] can Grapple it (escape `DC 14`) instead of dealing the slashing. Multiattack is two Claw attacks. The [[Aruhe - Deerstalker]] can Grapple only one creature at a time. Speed 40 feet, climb 20 feet.
+**[[Talon Skarn]] wants the carrier on a thin watch.** He does not appear on this card. The sun is gone.
 
-**This Meal.** The quarry is the person on watch who heard the run, unless someone else interrupted the kill or last touched the meal. The [[Aruhe - Deerstalker]] knows that quarry's direction within 1 mile. Once per turn, a hit on the quarry deals extra `7` (`2d6`) while fewer than two other conscious creatures are within 10 feet of that quarry.
+**[[Aruhe - Deerstalker]] waits for another split.** It does not appear on this card. It does not appear on [[Session-11-09-Theft-on-the-Watch]].
 
-**Borrowed Voice.** Bonus action. The sound comes from the [[Aruhe - Deerstalker]]'s space and does not automatically reveal it if it is hidden. A hearer knows the direction. Pick a voice that crew member would move toward (a crewmate, or a name already spoken at a fire). Loop a word or stretch a phrase, out of context. A creature that can see the original speaker knows the sound is an imitation. A creature that heard the original has advantage on a **Wisdom (Insight) — `DC 14`** check to recognize the imitation. After the [[Aruhe - Deerstalker]] uses a given sound without drawing a creature closer, it abandons that sound. Do not use beat 7's help-calls on this card.
+**[[Aruhe - Hinewai]] is not standing at this fire.** Garden talk still points north.
 
-**Snatch from the Dim (Recharge 5–6).** Only while hidden in dim light, darkness, or natural foliage. The [[Aruhe - Deerstalker]] moves up to 40 feet without opportunity attacks and makes one Claw attack. On a hit, normal Claw damage, and if the target is Medium or smaller the target is also **Grappled** (escape `DC 14`). Then it can move up to 20 feet, carrying a **Grappled** creature without reducing its speed. If the target is the quarry, This Meal can apply. Do not speak a finished haul.
+**[[Taking on Aruhe]].** Fallen [[Aruhe - Stonepear]] is receiving. Plucking a living plant is a claim. Surrounding life converges, hostile. This camp notices. Do not roll the hazards table on this card. Do not spawn the [[Aruhe - Deerstalker]].
 
-**Lost Nerve.** At the start of its turn, if two or more ready hostiles are within 30 feet (Easy: not Famished), the [[Aruhe - Deerstalker]] must Dash or Hide and move away. It can drag one **Grappled** creature with it without reducing its speed. This trait does not apply if it reduced a creature to 0 hit points since the start of its last turn.
-
-**Silent Retreat.** When the [[Aruhe - Deerstalker]] is hit, if three or more ready hostiles are within 30 feet, or if it is not Famished (Easy: always), it can move up to 20 feet without opportunity attacks. If it ends that move in dim light, darkness, or foliage, it can Hide.
-
-**Wasting Stillness / Shadow Cover.** Hide as a bonus action in dim light, darkness, or foliage. Movement makes no sound. While motionless, the [[Aruhe - Deerstalker]] is indistinguishable from a sick deer until it speaks, attacks, or a creature sees the clawed forelimbs or forward-set eyes up close. On this watch the first look is the kill in the root-bowl, then the loud bolt, not the sick-deer freeze.
-
-**Abort.** Two ready hostiles within 30 feet scare it off for now. The mark stays. It waits for a split. It will not walk [[Aruhe - Razer-Grass]].
-
-**If they go look.** Speak the root-bowl kill, then wait. Do not name it. Do not speak a finished Snatch or haul.
-
-**One-person face.** Speak this only when the [[Aruhe - Deerstalker]] has one person, then roll. It says, "You're not welcome here." Do not put island law on the line. Do not speak a finished Snatch or haul.
-
-**[[Taking on Aruhe]].** Drinking the downslope seep is not a claim. Taking flesh from the root-bowl kill is a claim. Plucking a living plant under the first trunks is a claim.
-
-![[attachments/shattered-sea/creatures/deer-stalker-of-aruhe.png|Deer-Stalker of Aruhe]]
+**Fallen [[Aruhe - Stonepear]].** Eating one is a Bonus Action and grants **Resistance to all damage** for 1 minute.
 
 > [!narration] Initial Narration
-> You see a packed dirt shelf under the first Quiet trunks, prints still heading inland along this lip, sleepers and gear bunched on that hard ground. Fifteen feet toward the wood, hollow knee-roots stand in a palisade as high as your chest, pale thin wood with dark insides, the first true trees leaning over them. Whoever among you is on watch stands at those knees, a few steps from camp, where the packed dirt ends and the darker wood begins.
+> You see packed dirt around a ring of wet river stones, coals still live, smoke hanging under the leaves instead of rising. Night has this hub. Heat comes off those coals, sharp with woodsmoke. Four woven mats lie about ten feet out, some kicked crooked, and two spears rest on the dirt south of the ring. Fewer people sit in this light than the crushed prints that come in from the south.
 >
-> Close past that palisade, something heavy runs. The hollow knees boom like struck drums, stems crack, then the sound cuts off so sharply the wood goes still. You smell damp leaf and the older thread of inland smoke. You hear the river talking downslope behind camp, twenty feet through thinning gold-green grass. You feel cool night air on this open lip, and packed dirt hard underfoot.
+> You hear them talking in low, broken pieces about a woman in the woods: admire the garden, this way, do not take the living plants. No woman stands at this fire. Fallen stonepears sit by the coals, grey-green plates chipped pale, and living ones still hang from mossed branches, each fruit a heavy pear of mossed stone plates. You feel packed dirt hard underfoot.
 >
-> East of the knees the Quiet shuts down into trunks and leaf-dark gaps. North, the prints keep this same lip toward a thin column of smoke still up-valley, farther than a hard run. West, grass and water fall away toward the slack you already left.
+> South, gold-green grass still shows between the last trunks. West, water talks through hanging roots, cool and close. North, packed trails go darker between buttress roots, and drip off leaf is the only small sound from that dark. The leaf roof hides the sky here.
 >
 > What do you do?
 
-## Battlemap
-
-[[attachments/shattered-sea/battlemaps/session-11-06-cutoff-lip-base.png|Session 11-06 Cutoff Lip battlemap]]
-
 ## Procedure
 
-**Night-watch / peel mode** is the default. This is not a required fight. Do not force the full fight if the crew stays grouped.
+**Development.** This hub is a watch-posting slice. There is no fight on this card. When the crew posts a fortified, paired, or thin watch, sits awake in a knot, or starts walking, the scene ends. If they stall, keep the need for a watch visible, then ask.
 
-Failures impose the Be ready for ruling only. Failures never advance the threat clock. After everyone has acted, if anyone remains on the magnets (the person on watch still apart at the knees, anyone who left camp alone, or anyone isolated from the group), advance the threat clock once and resolve that tick. Freeze or "we watch" from camp ticks once at the end of the round, not per failed check. That tick is the mimic call. Several failed checks in one round still produce one tick.
+Failures impose the Be ready for ruling only. There is no threat clock on this card.
 
-A look that reaches the root-bowl resolves the carcass and the loud bolt in Be ready for. Do not also play that bolt as a clock tick. The clock then uses the return voice. Waking everyone and coming up ready resolves Lost Nerve in Be ready for. Do not also tick Lost Nerve for that same action. The mark is locked. This scene can end.
+If they force a march tonight, beat 9 is the column. Do not teleport to [[Aruhe - Quiet Forest Star Cut]].
 
-If a crew member takes open valley air, that crew member leaves this watch for hawk sky. Do not restage beat 1 on this card.
+If they all sit awake in a knot, [[Talon Skarn]] still comes, and a messy camp is his cover. Hand to beat 9 at this fire.
 
-**Combat mode:** if the [[Aruhe - Deerstalker]] has one person and attacks, stop the clock and run the embedded statblock. If the whole party comes up ready to fight, it leaves. If they already get the full one-person fight here, do not also run the same combat in beat 7.
+If they send the marked person to [[Aruhe - Quiet Forest Star Cut]] alone, the nearest watcher is already there, and isolation is worse. Hand to beat 9 as Thin.
+
+If a crew member takes open valley air, that crew member leaves this hub for hawk sky. This is not the bloodhawk stoop.
+
+**Combat mode:** if someone attacks this camp, stop looking and rebuild. Lose the prize. They still need a watch.
 
 ## Zones
 
 | Place | Distance from the crew | Cover | Narration |
 | --- | --- | --- | --- |
-| [[Aruhe - Quiet Forest Cutoff Lip\|Packed shelf]] / camp | Here. Hard dirt under the first trunks. | Grouped, awake crew here count for Lost Nerve. Sleepers do not count as ready. | _You stand on packed dirt under the first Quiet trunks, sleepers and gear bunched on the hard prints. Cool night air sits on this open lip, and the river talks downslope through the grass._ |
-| Watch post / knee palisade | 15 feet east of camp. | Isolated. Dim light and foliage. That person is the preferred quarry. | _Hollow knee-roots stand chest-high in a palisade, pale wood thin enough to show the dark inside. Darker wood opens past them, and the knot of sleepers sits behind on the packed shelf._ |
-| Root-bowl / kill | 30 feet east of camp, 15 feet past the knees. | Dim light and foliage. The [[Aruhe - Deerstalker]] Hides here. The first look is the carcass, then the loud bolt. | _In a hollow of stained leaf between the knees, a carcass lies torn open and wet. Sweet rot comes off the meat just before something heavy crashes away through the stems, far too loud, and leaves the bowl shaking empty._ |
-| Deeper Quiet | 50 feet east, farther than the root-bowl. | The [[Aruhe - Deerstalker]] peels a loner this way. Lost Nerve retreats this way. | _Past the first palisade, trunks crowd close and the dark gets thicker between them. Stems catch at anyone this far out, and camp is already broken into bits behind a wall of wood._ |
-| Inland smoke | A thin column still ahead up-valley, north along this lip. | The smoke is not reachable on this card. A Dash does not reach it. | _The smoke still stands ahead up-valley, thin and gray against the night. You can smell it from this lip, but it stays well beyond a hard run._ |
-| Grass-river downslope / [[Aruhe - River Slack Basin\|Slack Basin]] | 20 feet west, then south along the bloody-bank prints. | Breaking off the trail this way is a rebuild. Do not restage the otter hole. | _Behind camp the packed ground drops toward thinning gold-green grass and a rock seep. Water sounds from that direction, farther than a hard run, while this watch remains fixed on the knee palisade._ |
-| Hawk sky | Flying up out of this lip is open valley air. | Exposed. Do not restage beat 1. A Dash does not reach the beach, the smoke, or the terraces. | _Wind opens over this lip, cold and unbroken. Camp and knee-roots lie below, and nothing at this height gives a body cover._ |
+| [[Aruhe - Quiet Forest Spoke Ring\|This hub]] / fire | The crew starts here on packed dirt around the stone ring. The smoke is this fire. | Grouped, awake crew here are not isolated. Sleepers do not count as a posted watch. Fallen stonepears and two spears are in reach. | _Heat comes off the live coals, and woodsmoke hangs under the leaf roof. Fallen stonepears and two spears sit in reach on this packed dirt._ |
+| Sleeping mats | 10 feet out from the coals, four mats around the ring. | Open dirt. A body on a mat is still on this hub. | _Four woven mats lie in the firelight, some kicked crooked, with fewer bedrolls than the prints that entered from the south. Salt-stiff cloth still holds the shape of the people who sleep here._ |
+| South spoke / last grass | 20 feet south, then back toward the packed inland prints. | Breaking off this way is a rebuild. Gold-green still shows between the last trunks. A Dash does not reach the beach. | _Packed prints run south through the last trunks, where gold-green grass still shows in the gap. Seed heads rasp out there, and the beach stays south beyond this grass, farther than a sixty-foot run._ |
+| West spoke / river | 30 feet west, down a root-cut. | Open root-cut. A Dash can reach the river. This is not [[Aruhe - River Slack Basin]]. | _The packed dirt drops west between hanging roots. You hear clear water talking through that cut, cool and close._ |
+| North spokes / darker wood | 20 feet into the wood. Garden talk points this way. | The wood is Difficult Terrain and heavily obscures beyond 10 feet. A body on a spoke is isolated from anyone who stayed at the fire. This is not [[Aruhe - Memorial Grove]]. A Dash does not reach [[Aruhe - Quiet Forest Star Cut]]. | _North trails darken between buttress-root trunks. Drip off leaf comes from that dark, and the garden talk points that way._ |
+| Hawk sky | Flying up out of this hub is open valley air. | Exposed. This is not the bloodhawk stoop. | _Wind opens over this leaf roof, cold and unbroken. The fire and close trunks shrink below, and nothing at this height hides a body._ |
 
 ## Be ready for
 
 | Intent | Approach | DC | Success | Partial | Failure |
 | --- | --- | --- | --- | --- | --- |
-| Assess the situation | **Wisdom (Perception)**, **Wisdom (Survival)**, or **Intelligence (Nature)** | `DC 12` | The looker gets the close run, the drum boom in the knees, the cutoff, and the still woods on [[Aruhe - Quiet Forest Cutoff Lip]]. Camp sits behind the person on watch. The palisade ahead can hide a standing body. Whether the thing left, and how far the smoke is, stay unknown. | The looker gets the run and still woods, but remains at the knee palisade while the mimic call can tick. | The still woods stay unread; the person at the knees remains the magnet. |
-| Go look alone | Walking from the knees into the root-bowl toward the sound | Walk | That crew member reaches the root-bowl. Speak the kill-site lines. The [[Aruhe - Deerstalker]] crashes away when it sees them. That crew member is still isolated and still on the magnets. The quarry is still the person on watch who heard the run, or this looker if they were that person. Do not resolve Snatch from the Dim here. | Binary — no partial. Walking out alone still sits on the magnets. | That crew member spends the round at the knees and does not reach the root-bowl. The end-of-round clock still ticks the mimic call once if anyone remains on the magnets. |
-| Stay in camp, tie together, or refuse to leave | Staying grouped on the packed shelf, tying on, or waking no one | Stay | The crew refuses to leave camp. The [[Aruhe - Deerstalker]] waits past the knees. The mark stays until someone is isolated later. The person on watch is still a magnet unless the whole camp is awake and grouped. This scene does not end until a call lands or they break. | Binary — no partial. | Binary — no partial. Staying in camp still lets the clock tick the mimic call. |
-| Follow a voice or wander out | Walking toward a Borrowed Voice, or wandering off [[Aruhe - Quiet Forest Cutoff Lip]] alone | **Wisdom (Insight) — `DC 14`** if that crew member heard the original voice; Walk to walk | That crew member knows the sound is an imitation if the Insight succeeds, or if they can see the original speaker. Walking toward it anyway peels that crew member farther from camp. That crew member is isolated and on the magnets. Do not resolve Snatch from the Dim here. Answering the lure is not a curse. Walking to it is how the face starts. | That crew member is unsure and still steps toward the woods. The [[Aruhe - Deerstalker]] keeps that sound. That crew member is still on the magnets. | That crew member treats the voice as real and walks toward it. That crew member is isolated and on the magnets. |
-| Wake everyone and hunt together | Waking the camp and coming up ready as a group | Wake | Two or more ready hostiles are within 30 feet of the [[Aruhe - Deerstalker]], or it breaks contact before they close. Lost Nerve: it must Dash or Hide and move away. The mark stays. The mark is locked because it ran from a group. This scene ends. Do not start beat 7. | Binary — no partial. | The camp wakes slowly and someone is still apart at the knees. That person remains a magnet. The end-of-round clock still ticks once if anyone remains on the magnets. |
-| Search the knees, bark, and root-bowl | **Intelligence (Investigation)** or **Wisdom (Perception)** | `DC 12` | White wood shows at shoulder height, with dark hair and dry velvet in the tears. The root-bowl holds stained leaf and the interrupted kill. Searching does not name the hunter. Do not invent loot on the carcass. | That crew member spends the round at the palisade and confirms something heavy uses these knees. | That crew member loses the trail in the roots; the hunter stays unnamed and the magnet remains live. |
-| Take flesh from the root-bowl | **Utilize** the carcass, or **Wisdom (Survival)** to cut meat | Take | That crew member takes flesh from the kill. That is an [[Taking on Aruhe]] claim. That crew member is still on the magnets if they are still alone in the bowl. Do not invent what the body was. | Binary — no partial. Taking flesh on this lip is still a claim. | That crew member spends the round at the carcass. The end-of-round clock still ticks once if anyone remains on the magnets. |
-| One-person face or fight | Attack vs AC 15, or standing alone when the [[Aruhe - Deerstalker]] returns | Attack vs AC 15, or Face | If the [[Aruhe - Deerstalker]] has one person, speak the face lines, then it attacks. Switch to combat mode and stop the clock. Claw +8 to hit, `12` slashing, reach 10 feet, optional Grapple escape `DC 14`. Multiattack is two Claws. This Meal extra `7` (`2d6`) if fewer than two other conscious creatures are within 10 feet of the quarry. Do not speak a finished Snatch or haul. If they finish this fight here, do not also run it in beat 7. | That crew member is still alone on this lip. The [[Aruhe - Deerstalker]] still has them. The clock still ticks at end of round if anyone remains on the magnets, unless you already switched to combat mode. | The attack misses. That crew member is still alone. The end-of-round clock still ticks once if anyone remains on the magnets, unless you already switched to combat mode. |
-| Escape a Grapple or Snatch | Action to escape **Grappled** (escape `DC 14` on the owner Claw or Snatch from the Dim) | Escape `DC 14` | That crew member is no longer **Grappled**. If they are still alone in the woods, they remain on the magnets. Do not speak a finished haul. | That crew member is still **Grappled**. The [[Aruhe - Deerstalker]] can still move up to 20 feet carrying them if Snatch from the Dim already hit. | That crew member stays **Grappled**. Do not speak a finished haul. |
-| Break off the trail | Walking back toward [[Aruhe - River Slack Basin]], the river, the terrace line, the beach, or [[Uncertainty]], or flying up into open valley air | Walk | The crew leaves [[Aruhe - Quiet Forest Cutoff Lip]] off the prints. Rebuild from that. This scene ends. The mark can still sit on the person on watch who heard the run. | Binary — no partial. | If a crew member flies open valley air, that is hawk sky. Do not restage beat 1. Do not start beat 7 on this card. |
+| Assess the situation | **Wisdom (Perception)**, **Wisdom (Survival)**, or **Wisdom (Insight)** | `DC 10` | The looker gets that this leaf roof hides the sky, that a north trail is the watch that can see it, that the garden talk is live, that no woman stands at this fire, and that a body alone on a spoke is isolated. How far the garden is stays unknown. Her name stays unknown. | The looker gets the need for a watch, but remains under this roof with watch terms unset. | The crew spends the round under this leaf roof with no posted watch. Anyone still apart on a north trail remains isolated. Watch terms stay unset. |
+| Fortify the watch | Setting positions, lines of sight, and contingencies before anyone sleeps | Commit | Watch terms lock as Fortified. They post that watch at [[Aruhe - Quiet Forest Star Cut]]. Hand to beat 9. This scene ends. | Binary — no partial. | Binary — no partial. Fortifying the watch ends this scene. |
+| Post a paired watch | Two people on watch, including or excluding [[Crissdalynn Khinriss]] | Commit | Watch terms lock as Paired. Record whether [[Crissdalynn Khinriss]] is on it, and whether the fire is quiet or messy. They post that watch at [[Aruhe - Quiet Forest Star Cut]]. Hand to beat 9. This scene ends. | Binary — no partial. | Binary — no partial. Posting a paired watch ends this scene. |
+| Post a thin watch | One person on watch, leaving the marked person alone, or sending the marked person north alone | Commit | Watch terms lock as Thin. [[Talon Skarn]] starts close, and the first chain can already be set up. If they send the marked person to [[Aruhe - Quiet Forest Star Cut]] alone, the nearest watcher is already there, and isolation is worse. Hand to beat 9. This scene ends. | Binary — no partial. | Binary — no partial. A thin watch still ends this scene. |
+| Sit awake in a knot | Everyone stays awake around this fire | Commit | They remain on this hub. [[Talon Skarn]] still comes. A messy camp is cover for him. Hand to beat 9 at this fire. Do not teleport to [[Aruhe - Quiet Forest Star Cut]]. This scene ends. | Binary — no partial. | Binary — no partial. Sitting awake in a knot ends this scene. |
+| Protect [[Crissdalynn Khinriss]] and the [[Fate Spinner]] | **Dexterity (Sleight of Hand)** or Utilize to keep the [[Fate Spinner]] in a pouch, wrap, or hand that is not in view | `DC 15` | The [[Fate Spinner]] stays hidden. Record the contingency. Watch terms are still unset until a watch-posting row resolves. | The [[Fate Spinner]] stays on [[Crissdalynn Khinriss]], but a strap or pouch is obvious. | The [[Fate Spinner]] is in view, or the protection is unfinished. [[Talon Skarn]] can read a target on her when beat 9 starts. |
+| Look for the woman | **Wisdom (Perception)** among the spokes around this fire, or walking a short way north | `DC 10` | No woman stands at this fire. The people at the fire still look into the trees when the branches stir. How far the garden is stays unknown. Her name stays unknown. Do not start [[Aruhe - Memorial Grove]]. A body that walks a north spoke alone is isolated. | That crew member spends the round at a trail mouth. No woman appears, and the fire still needs a watch. | That crew member loses the fire in the spokes. The woman remains absent from this card. If that crew member is still alone, they remain on the magnets. |
+| Chase the garden tonight | Agreeing to go admire the garden, or to "just see" it tonight | Commit | The crew is committing past this valley. Do not reach [[Aruhe - Memorial Grove]] tonight. They still post a watch at [[Aruhe - Quiet Forest Star Cut]], or they start walking. [[Talon Skarn]] still finds the carrier. Hand to beat 9. This scene ends. | Binary — no partial. | Binary — no partial. Chasing the garden tonight still ends this scene on watch terms or a walk. |
+| Extract or force a march tonight | Influence: **Charisma (Persuasion)** to ask them to the ship. **Charisma (Intimidation)** or herding people off this fire tonight. | `DC 15`, or Walk to start walking | Some of the people at this fire balk or refuse. If the crew starts walking anyway, beat 9 is the column, still the carrier. Do not teleport to [[Aruhe - Quiet Forest Star Cut]]. This scene ends. | They listen, then look at the trees. The round is spent. Watch terms stay unset. | They refuse. If the crew keeps pushing a march tonight, some mouths slip into a north spoke, and the only friendly inland group breaks. Rebuild from that, or hand to beat 9 as the column. |
+| Take fallen fruit | **Intelligence (Nature)** or **Wisdom (Survival)** to sort fallen fruit from living stems. **Utilize** if that crew member takes fruit already down by this fire. | `DC 10` | That crew member takes only fruit already down by this fire. That is not a claim. Eating a fallen [[Aruhe - Stonepear]] is a Bonus Action and grants **Resistance to all damage** for 1 minute. | That crew member takes some living stems at this fire. That is an [[Taking on Aruhe]] claim. This camp notices. Do not roll the hazards table. | That crew member strips living fruit at this fire. That is an [[Taking on Aruhe]] claim. This camp notices. The people who listened treat that taking as the wrong walk. Do not roll the hazards table. Do not spawn the [[Aruhe - Deerstalker]]. |
+| Leave this camp | Walking the south spoke toward the last grass, the river, the terrace line, the beach, or [[Uncertainty]], or flying up into open valley air, without a watch | Walk | The crew leaves this fire. Rebuild from that. This scene ends. The mark can still sit on the locked quarry. | Binary — no partial. | If a crew member flies open valley air, that is hawk sky. This is not the bloodhawk stoop. Do not start beat 9 on this card. |
 
-Unforeseen intents use the same want: this [[Aruhe - Deerstalker]] wants the person on watch peeled off the camp, and it will not stand for a group. Rule from zones, the clock, and whether the approach stays grouped, goes out alone, or takes the voice.
-
-## Threat clock
-
-The predators' turn happens after everyone has acted, and only if anyone remains on the magnets. Table failures do not also tick. A root-bowl look already resolved in Be ready for does not also play as a clock bolt. A group hunt already resolved in Be ready for does not also tick Lost Nerve.
-
-| Tick | What happens | Narration |
-| --- | --- | --- |
-| 1 | Mimic call. If the person on watch never investigated, or the crew stayed in camp, the [[Aruhe - Deerstalker]] uses Borrowed Voice from past the knees: a voice that crew member knows, looping a word, calling farther out. The quarry is the person on watch who heard the run. If they already reached the root-bowl, use this tick as the return voice after the bolt, not a second crash-away. The mark can lock here because the call landed. | _From past the knee palisade, a familiar voice calls one word over and over, each repeat held too long and farther from camp. The sound has one direction in the dark, but no body shows with it._ |
-| 2 | Peel. If someone leaves camp alone toward the voice or the root-bowl, the [[Aruhe - Deerstalker]] draws that crew member farther from camp. Do not resolve Snatch from the Dim on this tick. | _The same voice stays ahead of whoever walked out, looping the word from deeper between the trunks. The knee palisade and the knot of sleepers are already behind that person, broken by hollow roots and dark wood._ |
-| 3 | One-person face. The [[Aruhe - Deerstalker]] stands for that one person. Wrong movement. It says, "You're not welcome here." Then Claw (+8 to hit, `12` slashing, reach 10 feet, optional Grapple escape `DC 14`). Switch to combat mode and stop the clock. Do not speak a finished Snatch or haul. | _A shaggy deer-shape stands for whoever came out alone, hips set wrong under the heavy coat, long pale forelimbs ending in blood-marked claws. Its white face hangs below forward-set eyes that do not blink, blood threading from the muzzle, and its legs hitch a beat late as it says, "You're not welcome here." Those claws reach toward that person._ |
-| 4 | Group scare. If two or more ready hostiles are within 30 feet of the [[Aruhe - Deerstalker]], Lost Nerve forces Dash or Hide away. Silent Retreat if it was hit (Easy: not Famished). The mark stays. Do not start beat 7. | _Something heavy crashes away through the deeper wood. Hollow knees boom once in a loud line, then stop. The palisade and the root-bowl sit empty._ |
-
-**Bloodied.** Bloodied is 42 hit points on the [[Aruhe - Deerstalker]]. This card has no extra bloodied action. Keep peel and Lost Nerve. Easy stays not Famished.
-
-**Cover reached.** Two ready hostiles within 30 feet, or a grouped awake camp: the [[Aruhe - Deerstalker]] breaks contact. The mark stays. A loner in the root-bowl or deeper Quiet is still quarry.
-
-**Minions / dials.** Easy: one [[Aruhe - Deerstalker]], not Famished, Lost Nerve at two ready hostiles. Do not spawn a second. Do not roll the hazards table on this clock.
-
-Do not spawn otters, wolfrabbits, or beat 7's false-help voices on this clock. Taking a group hunt that triggers Lost Nerve ends this scene with the mark locked. Freeze in camp still ticks the call once.
+Unforeseen intents use the same want: [[Talon Skarn]] wants the carrier on a thin watch. Rule from zones and whether the approach fortifies, pairs, thins, sits awake, marches, or leaves.
 
 ## Landing
 
-If the [[Aruhe - Deerstalker]] ran from a group, the mimic call landed, or a one-person face happened, the mark is locked on the person on watch who heard the run (or on whoever it chose if someone else interrupted the kill). Hand to morning / beat 7. Do not start the false-help voices here.
+If they fortify, pair, or thin the watch, they post that watch at [[Aruhe - Quiet Forest Star Cut]], plus any RAW damage and conditions already applied. Hand to [[Session-11-09-Theft-on-the-Watch]]. The sun is gone.
 
-If they fought it here, the mark still stands, plus any RAW damage and conditions already applied. Do not also run the same combat in beat 7.
+If they sit awake in a knot, they remain on this hub. [[Talon Skarn]] still comes. A messy camp is his cover. Hand to beat 9 at this fire.
 
-If they hunted together, it broke contact and waits for a split. The mark stays.
+If they force a march tonight, they are already walking, still the carrier, plus any RAW conditions already applied. Beat 9 is the column. Do not teleport to Star Cut.
 
-If they tied themselves and refused to leave camp, it waits. The mark stays until someone is isolated later.
+If they chased the garden tonight, they are still in this valley, committed past this hub. They take a north trail to [[Aruhe - Quiet Forest Star Cut]]. Do not reach [[Aruhe - Memorial Grove]]. Hand to beat 9.
 
-If the crew broke off the trail, they are heading back toward [[Aruhe - River Slack Basin]], the river, the terrace line, the beach, or [[Uncertainty]], or a flyer is in hawk sky, plus any RAW conditions already applied. Rebuild from that. The mark can still sit on the person on watch who heard the run.
+If the crew left this camp, they are heading back toward the last grass, the river, the terrace line, the beach, or [[Uncertainty]], or a flyer is in hawk sky, plus any RAW conditions already applied. Rebuild from that.
 
-> [!narration] Landing — Mark locked
-> This watch ends on [[Aruhe - Quiet Forest Cutoff Lip]], with the packed prints still aimed toward the smoke and morning light caught in the first trunks. The knee palisade that went still remains ahead.
+> [!narration] Landing — Fortified watch
+> You leave this fire along a north trail and come onto packed dirt aimed at a split of stars. An east stone ring holds live coals. Posted positions and lines of sight already hold this aisle.
+
+> [!narration] Landing — Paired watch
+> You leave this fire along a north trail onto packed dirt aimed at a split of stars. Two of you stand the east coals, facing that cut.
+
+> [!narration] Landing — Thin watch
+> You leave this fire along a north trail onto packed dirt aimed at a split of stars. One person holds the east coals, and the rest of this camp is already behind.
+
+> [!narration] Landing — Knot
+> You are still on packed dirt around this stone ring. Everyone is awake in the firelight. Smoke still hangs under the leaf roof.
+
+> [!narration] Landing — Column
+> You are already walking, still in this valley. This fire sits behind you.
 
 > [!narration] Landing — Return downstream
-> You are already heading back toward the slack, the river, the terrace line, the beach, or Uncertainty. The packed lip sits behind you.
+> You are already heading south toward the last grass, the river, the terrace line, the beach, or Uncertainty. This fire drops behind you.
 
 > [!narration] Landing — Hawk sky
-> You are already in hawk sky over this valley, where night wind has the height.
+> You are already in open night air over this valley. Wind has this height, and the leaf roof and fire sit below.
 
-**Crash-landed.** That crew member still has `2d6` bludgeoning already applied and is **Prone** until they stand.
-
-> [!narration] Crash-landed
-> You are still down on the packed lip, with hard dirt and leaf pressed close until you stand.
-
-**Scattered.** That crew member is still apart until they join up.
-
-> [!narration] Scattered
-> You are still apart on this lip, with trunks or knee-roots filling the gap until you join up.
-
-**Prone.** Anyone knocked down on this watch is **Prone** until they stand.
-
-**Grappled.** Anyone still **Grappled** by the [[Aruhe - Deerstalker]] at a break is still **Grappled** (escape `DC 14`) until they escape or it drops them.
-
-Do not run the hazards table, [[Aruhe - River Slack Basin]], or beat 7's false-help voices here. After this watch, do not roll the hazards table on this stretch again. This is the same [[Aruhe - Deerstalker]].
-
-## Roster
-
-![[Aruhe - Deerstalker#Statblock]]
-
-> [!narration] Deer-Stalker
-> A shaggy deer-shape stands over a torn carcass in the root-bowl, branching antlers crowding the knees, hips wrong under the heavy coat. You see long pale forelimbs ending in blood-marked claws, a white face, and forward-set eyes that do not blink, dark blood threading from its muzzle. Then it crashes away through the stems, too loud, and you smell sweet rot off the kill.
-
-![[Aruhe - Deerstalker#Tactics]]
+Do not run the hazards table, the [[Aruhe - Deerstalker]], or [[Talon Skarn]] here. The people at this fire stay unnamed.
 
 ## Backup
 
-[[Aruhe - Quiet Forest Cutoff Lip]] · [[Aruhe - Deerstalker]] · [[Taking on Aruhe]] · [[Aruhe - Quiet Forest]] · [[Aruhe - River Slack Basin]] · [[Aruhe - Grasslands]] · [[Aruhe - River]] · [[Session-11-00-Random-Tables]] · [[Session-11-05-Otter-Hole]] · [[Session-11-00-Birds-of-a-Feather]]
+[[Aruhe - Quiet Forest Spoke Ring]] · [[Aruhe - Quiet Forest Star Cut]] · [[Aruhe - Stonepear]] · [[Crissdalynn Khinriss]] · [[Fate Spinner]] · [[Talon Skarn]] · [[Aruhe - Hinewai]] · [[Taking on Aruhe]] · [[Uncertainty]] · [[Aruhe - Memorial Grove]] · [[Aruhe - Quiet Forest]] · [[Aruhe - River]] · [[Session-11-07-False-Help]] · [[Session-11-09-Theft-on-the-Watch]] · [[Session-11-00-Birds-of-a-Feather]]
+
+## Battlemap
+
+![[attachments/shattered-sea/battlemaps/aruhe-spoke-ring-battlemap.png|Spoke Ring battlemap, radial fire hub under Quiet leaves]]

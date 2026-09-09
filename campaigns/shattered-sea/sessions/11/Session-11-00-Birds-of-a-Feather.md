@@ -147,7 +147,7 @@ The smoke is [[Aruhe - Quiet Forest Spoke Ring]], a camp of Calveno wreck-surviv
 
 ### 8. DEVELOPMENT — Preparation (set the watch)
 
-This beat lives on this spine until a run card is cut.
+**Run:** [[Session-11-06-Night-Watch]]
 
 - **Purpose:** Interpret beat 7 before [[Talon Skarn]]. This is where the party demonstrates whether it learned the session's isolation lesson. Their actual precautions, not a generic skill challenge, determine who owns the opening of the Climax. Set who watches, how thin, and how messy. That watch is his approach condition. This beat exists so beat 9 is earned, not scheduled.
 - **Table sees:** The fire at [[Aruhe - Quiet Forest Spoke Ring]] again, thinner or messier depending on beat 7. The garden talk is worse now, because they all heard her. Fallen [[Aruhe - Stonepear]] still down; living ones still hanging. Night. They need a watch. The star-cut north of camp is the only open roof. No woman stands at this fire. There is no deerstalker fight on this card.
