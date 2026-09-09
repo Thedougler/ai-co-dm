@@ -65,7 +65,7 @@ This camp wants to see the woman's garden. The woman is [[Aruhe - Hinewai]] / Hi
 
 ## Battlemap
 
-![[attachments/shattered-sea/battlemaps/session-11-08-farthest-camp-base.png|Session 11-08 Spoke Ring battlemap]]
+![[attachments/shattered-sea/battlemaps/session-11-06-farthest-camp-base.png|Session 11-06 Spoke Ring battlemap]]
 
 ## Procedure
 

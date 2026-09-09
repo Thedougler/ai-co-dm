@@ -66,4 +66,16 @@ Follow skill `agentic-system-designer` (Intake → Baseline → Fix → Prove �
 
 **Fix:** `.agents/skills/obsidian-markdown/SKILL.md` — production notes state what to run, say, or know; `## Do not` / author-process bans stay in skills, AGENTS, and templates-for-agents. Stripped compiled Do Not sections on Taking on Aruhe, The Unnamed Companion, Master Kyzil, Grung clans, Cosimo Verantio. Measure: production Do Not headings/`**Do not:**` files in `campaigns/` 5 → 0. Cheap check: `rg -l --glob '*.md' -e '^#{1,6}[[:space:]]+.*[Dd]o [Nn]ot' -e '^\s*[-*][[:space:]]+\*\*Do [Nn]ot' campaigns`. SHA `9baa4bb`.
 
+### 2026-09-09 — Session beat number reused on a different card
+
+**Error:** Session 11 plan beat 6 ran `[[Session-11-08-Farthest-Camp]]` and beat 8 ran `[[Session-11-06-Night-Watch]]`. Numbered filenames were reused for different beats instead of being renamed so the beat number is the file name. That swap was left in the live plan. This agent then started rewriting beat-card bodies while those beats were already being rewritten.
+
+**Correction:** Agents cannot be confusing. Things must be clearly named and labelled. If a numbered card is used for a different beat, rename the file immediately. Re-use like this is a critical failing and must be noted immediately. Do not rewrite beat content in that pass. Fix the session plan so beat N is `Session-11-0N-…`.
+
+**Read:** `campaigns/shattered-sea/sessions/11/Session-11-00-Birds-of-a-Feather.md`; `campaigns/shattered-sea/sessions/11/Session-11-06-Night-Watch.md` (now `Session-11-08-Night-Watch.md`); `campaigns/shattered-sea/sessions/11/Session-11-08-Farthest-Camp.md` (now `Session-11-06-Farthest-Camp.md`); `campaigns/shattered-sea/sessions/11/Session-11-05-Otter-Hole.md`; `campaigns/shattered-sea/sessions/11/Session-11-07-False-Help.md`; `.agents/skills/run-guide/SKILL.md`; `.agents/skills/session-beats/SKILL.md`; `.agents/skills/obsidian-markdown/SKILL.md`; `.agents/skills/qmd-retrieval/SKILL.md`
+
+**count:** 1
+
+**status:** open
+
 

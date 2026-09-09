@@ -38,16 +38,18 @@ Between story beats, navigate the valley with the single d8 [[Session-11-00-Rand
 
 ## Skeleton
 
-1. HOOK — Dogfight / Crisis (bloodhawk stoop)
-2. DEVELOPMENT — Clue (landing sign and smoke)
-3. CLIFFHANGER — Monster / Obstacle (Torn Crossing hunt)
-4. DEVELOPMENT — Clue (what they ate)
-5. CLIFFHANGER — Obstacle (rescue at the otter hole)
-6. DEVELOPMENT — Warning / Secret Meeting (the farthest camp)
-7. CLIFFHANGER — Ambush (borrowed voice)
-8. DEVELOPMENT — Preparation (set the watch)
-9. CLIMAX — Final Battle (theft on the watch)
-10. RESOLUTION — Aftermath
+Beat number matches the card filename.
+
+1. HOOK — Dogfight / Crisis (bloodhawk stoop) — [[Session-11-01-Angry-Birds]]
+2. DEVELOPMENT — Clue (landing sign and smoke) — [[Session-11-02-Landing-Sign]]
+3. CLIFFHANGER — Monster / Obstacle (Torn Crossing hunt) — [[Session-11-03-Wolfrabbits]]
+4. DEVELOPMENT — Clue (what they ate) — [[Session-11-04-What-They-Ate]]
+5. CLIFFHANGER — Obstacle (rescue at the otter hole) — [[Session-11-05-Otter-Hole]]
+6. DEVELOPMENT — Warning / Secret Meeting (the farthest camp) — [[Session-11-06-Farthest-Camp]]
+7. CLIFFHANGER — Ambush (borrowed voice) — [[Session-11-07-False-Help]]
+8. DEVELOPMENT — Preparation (set the watch) — [[Session-11-08-Night-Watch]]
+9. CLIMAX — Final Battle (theft on the watch) — [[Session-11-09-Theft-on-the-Watch]]
+10. RESOLUTION — Aftermath — this spine until a run card is cut
 
 ## Beats
 
@@ -117,11 +119,11 @@ The prints lead onto [[Aruhe - Grasslands Torn Crossing]]. A reed-matted clump t
 
 The river goes slack at [[Aruhe - River Slack Basin]] and the things in it are people. Otters move through the clothes and the packs as if this hole is theirs. Blood leads up the bank out of the water, and the living prints leave with it, into the grass and the trees, around the stretch instead of through it.
 
-**Landing:** Forest-edge prints toward the smoke. Travel and one hazards-table roll if needed. Arrive at [[Aruhe - Quiet Forest Spoke Ring]] at dusk. Beat 6 is [[Session-11-08-Farthest-Camp]]. Do not run [[Session-11-06-Night-Watch]]. Do not run help-calls on [[Aruhe - Grasslands - Print Braid]].
+**Landing:** Forest-edge prints toward the smoke. Travel and one hazards-table roll if needed. Arrive at [[Aruhe - Quiet Forest Spoke Ring]] at dusk. Beat 6 is [[Session-11-06-Farthest-Camp]]. Do not run [[Session-11-08-Night-Watch]]. Do not run help-calls on [[Aruhe - Grasslands - Print Braid]].
 
 ### 6. DEVELOPMENT — Warning / Secret Meeting (the farthest camp)
 
-**Run:** [[Session-11-08-Farthest-Camp]]
+**Run:** [[Session-11-06-Farthest-Camp]]
 
 - **Purpose:** They meet the Calveno wreck people who got farthest inland. Use this as a warning and secret meeting, not an automatic alliance. Introduce the woman and her rules explicitly. Put social pressure on the table because survivors disagree over whether to return or continue toward the garden. Complete Skarn's daylight progression by showing metallic or chained equipment up-sun and his repeated attention to [[Crissdalynn Khinriss]]. Pass versus take becomes faces: this camp lived by her rules. Clue 3 is last sun over the leaf roof, then gone. Do not stop the argument for it.
 - **Table sees:** A packed dirt hub at [[Aruhe - Quiet Forest Spoke Ring]]. Several survivors, fewer than the tracks, the farthest any of that wreck has reached. Already-picked [[Aruhe - Stonepear]]. A split you can hear as soon as they talk. One story: a woman in the woods has been whispering, asking them to come admire her garden, telling them where to walk and what not to take. The other story, from people who already left this fire or from argument in it: she is leading them deeper into danger, and anyone who listens is mad. This camp listened. They are alive. They want to see the garden. They can vouch, bargain, refuse evacuation, or help later, but they are not automatically the party's allies. They look past the party when the trees move. At last sun over the leaf roof, the up-sun flyer may flash metal or chain and angle his attention toward [[Crissdalynn Khinriss]] before he is gone. Do not stop the argument for it.
@@ -141,13 +143,13 @@ The smoke is [[Aruhe - Quiet Forest Spoke Ring]], a camp of Calveno wreck-surviv
 - **Table sees:** Night on the north spokes off [[Aruhe - Quiet Forest Spoke Ring]]. The fire is behind them. No matching feet on that spoke. The whisper is the woman they just heard: admire the garden, this way, do not take the living plants. Nothing answers a shouted question with new information. The voice stays off the packed hub. Some survivors at the fire hear it too, and some stand up.
 - **Truth:** The voice is the [[Aruhe - Deerstalker]]. It listened at beat 6. It wants whoever steps out alone, or a survivor who believes her. It does not attack at the start of this beat. Two or more ready hostiles within 30 feet make it leave. One person in the spoke gets the face: wrong movement, **"You're not welcome here,"** then the hit. That line is island law, not the woman. **Unrevealed:** she is not in this spoke tonight.
 - **Pressure:** Ignoring the voice means walking away from the woman they came inland to understand, and some survivors may go anyway. Answering with the whole party makes the voices move and die off. Sending one person is how the face starts.
-- **If they break:** If they stay grouped at the fire, there is no fight and the mark stays; stop a peeling NPC or lose that person into Quiet. If they follow as a group, it breaks contact, leads them a little north, and dies off. If one person walks the spoke, the fight is here. Do not run [[Session-11-06-Night-Watch]]. Do not put this creature on beat 9.
+- **If they break:** If they stay grouped at the fire, there is no fight and the mark stays; stop a peeling NPC or lose that person into Quiet. If they follow as a group, it breaks contact, leads them a little north, and dies off. If one person walks the spoke, the fight is here. Do not run [[Session-11-08-Night-Watch]]. Do not put this creature on beat 9.
 
 **Landing:** They are back on the hub, or on the north spoke short of the Grove, plus whoever is missing, marked, or convinced it was her, and a fire that may already be in disorder. They still need a watch. Beat 8 lives on this spine.
 
 ### 8. DEVELOPMENT — Preparation (set the watch)
 
-**Run:** [[Session-11-06-Night-Watch]]
+**Run:** [[Session-11-08-Night-Watch]]
 
 - **Purpose:** Interpret beat 7 before [[Talon Skarn]]. This is where the party demonstrates whether it learned the session's isolation lesson. Their actual precautions, not a generic skill challenge, determine who owns the opening of the Climax. Set who watches, how thin, and how messy. That watch is his approach condition. This beat exists so beat 9 is earned, not scheduled.
 - **Table sees:** The fire at [[Aruhe - Quiet Forest Spoke Ring]] again, thinner or messier depending on beat 7. The garden talk is worse now, because they all heard her. Fallen [[Aruhe - Stonepear]] still down; living ones still hanging. Night. They need a watch. The star-cut north of camp is the only open roof. No woman stands at this fire. There is no deerstalker fight on this card.

@@ -175,4 +175,4 @@ Do not run the hazards table, the [[Aruhe - Deerstalker]], [[Talon Vantyrus]], o
 
 ## Backup
 
-[[Aruhe - Quiet Forest Star Cut]] · [[Session-11-08-Farthest-Camp]] · [[Session-11-00-Birds-of-a-Feather]] · [[Crissdalynn Khinriss]] · [[Talon Skarn]] · [[Fate Spinner]] · [[Aruhe - Giant's Guava]] · [[Uncertainty]] · [[Aruhe - Quiet Forest Spoke Ring]] · [[Aruhe - Memorial Grove]] · [[Talon Vantyrus]]
+[[Aruhe - Quiet Forest Star Cut]] · [[Session-11-06-Farthest-Camp]] · [[Session-11-00-Birds-of-a-Feather]] · [[Crissdalynn Khinriss]] · [[Talon Skarn]] · [[Fate Spinner]] · [[Aruhe - Giant's Guava]] · [[Uncertainty]] · [[Aruhe - Quiet Forest Spoke Ring]] · [[Aruhe - Memorial Grove]] · [[Talon Vantyrus]]
