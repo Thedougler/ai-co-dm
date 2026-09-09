@@ -2,10 +2,11 @@
 name: run-guide
 description: >-
   Assemble a table-ready, DM-only cockpit for one session or one 30-minute beat
-  from existing prep and owner pages. Use for "run tonight", "build a run guide",
-  or a session-prep document that is hard to scan. Pass 1 writes the mechanical
-  card plus empty titled [!narration] stubs (Initial Narration mandatory). Pass 2
-  is theatre-of-the-mind fill. Not beat composition, canon invention, or session
+  from existing prep and owner pages in the vault's lean style: flat, direct,
+  and only as sectioned as play requires. Use for "run tonight", "build a run
+  guide", or a session-prep document that is hard to scan. Pass 1 writes the
+  mechanical card plus empty titled [!narration] stubs. Pass 2 is
+  theatre-of-the-mind fill. Not beat composition, canon invention, or session
   reconciliation.
 ---
 
@@ -26,11 +27,16 @@ embed and no action-card numbers fails.
 One opposition want, said once. One *procedure*, named. Nothing restated later
 as a second framework.
 
+**Lean contract.** Run guides use the same default style as the rest of the
+vault: flat, direct, and only as sectioned as play requires. Preserve the
+existing heading spine, section names, and order when editing. Add a section
+only when the DM will use it to run this beat.
+
 A DM-facing line stays only if Nick will use it this slice to **place** someone,
 **roll** something, **speak**, or decide a changed risk, route, clock, resource,
 or NPC response. Distances, speeds, named *rulings*, the opposition want, and
-the spoken block earn their keep. Default safety, ordinary permission, house
-Partial, 5e defaults, schema commentary, and notes to the writer stay out.
+the spoken block earn their keep. Default safety, ordinary permission, Partial
+rules, 5e defaults, schema commentary, and notes to the writer stay out.
 Use descriptive, specific, plain language on the DM card too. Use common,
 normal human words unless the common word would be inaccurate. If a name or
 field needs decoding, replace it with the ordinary thing and visible action.
@@ -50,13 +56,13 @@ field needs decoding, replace it with the ordinary thing and visible action.
    every actionable hazard, loot, monster, route, clue, lore sign, and world
    detail has an owner or is marked unknown.
 
-3. **Write one cockpit per live beat** in play order (below). Delete unused
-   mechanical sections. Place **empty titled `[!narration]` stubs** at every
-   slot in **TotM stubs**. Embed an existing owner identity image
-   (`![[attachments/…]]`) when the owner page already lists one; do not mint
-   art. Completion: every mechanical field this slice will use is present;
-   every required stub exists and is empty; clock and Be ready for are one
-   *procedure*, not two escalation tracks.
+3. **Write one cockpit per live beat** in play order. Keep only sections that
+   this beat spends at the table. Place **empty titled
+   `[!narration]` stubs** at the required slots in **TotM stubs**. Embed an
+   existing owner identity image (`![[attachments/…]]`) when the owner page
+   already lists one; do not mint art. Completion: every mechanical field this
+   slice will use is present; unused sections are absent; clock and Be ready for
+   are one *procedure*, not two escalation tracks.
 
 4. **Table gate.** Reading view is one downward pass of the Cockpit table.
    Completion: every item in **Table gate** below holds for this pass.
@@ -65,40 +71,52 @@ field needs decoding, replace it with the ordinary thing and visible action.
    The only callout on the card is `[!narration]`. Pass 2 fills stubs via TotM.
    `./scripts/after-write` on named paths.
 
-## Cockpit (the only card)
+## Lean Surface
 
 Frontmatter: `type: session-prep` (or `encounter`), `cssclasses: [session-surface]`,
 `visibility: dm`.
 
-| Order | Field | Shape |
+Use this as a section catalog, not a template to fill completely. A section
+earns space only when it changes a ruling, route, clock, resource, NPC response,
+or words to speak. The stable spine is:
+`Scene ends when`, `Glance`, `Initial Narration`, `Landing`.
+
+Add other sections only as the beat needs them. Keep the order already present
+in an existing file unless moving a section makes the card easier to run.
+
+`At a Glance` and `L0 · Glance` are both valid. Preserve the file's chosen
+heading unless creating a new file; for new beat files, prefer `L0 · Glance`.
+
+| Field | Keep when | Shape |
 |---|---|---|
-| 1 | **Scene ends when** | Heading is `## Scene ends when`. First line is the end condition. Then the 30-minute budget. Then **If behind:** and **If ahead:** as bold-label paragraphs (not bullets). |
-| 2 | **Glance** | `## L0 · Glance` bullets: stakes, goal, exit, danger, Silence, **situation magnets** (who is high, loud, or obvious *now*). Not a named-PC roster and not how they already move. |
-| 3 | **Now** | One paragraph. Who starts where, in **feet**. Speeds that matter. What a move vs Dash reaches. Current situation once. No separate Starting state heading. |
-| 4 | **DM truth** | Heading `## DM truth`. Opposition want, one sentence. `**Unrevealed:**` marks hidden intent the players have not yet seen. **Before** Initial Narration. Not a `[!secret]` callout. |
-| 5 | **Action cards** | Predator loop and compact numbers you will roll in default mode (AC, one attack, scatter/bloodied thresholds). Next to truth, not under embeds. Named owner actions (`Talon Grab`, `Sickle Claw`), not nicknames (`rake`). |
-| 6 | **Initial Narration** | Empty `> [!narration] Initial Narration` stub on pass 1. Pass 2 fills *scene-setting* (see Scene-setting), including accessible scene stock. If the owner already has an identity image, embed `![[attachments/…]]` beside this block. |
-| 7 | **Battlemap** | Heading `## Battlemap`. Embed existing battlemaps and creature identity images from `attachments/`. When a battlemap exists, use the shared compass: top north, right east, bottom south, left west. Omit if none exist. Between Initial Narration and Procedure. |
-| 8 | **Procedure** | Heading `## Procedure`. Name *escape mode* or *combat mode*. This slice’s clock trigger and the combat-mode switch, once. Not 5e turn order. Not a `[!mechanic]` callout. |
-| 9 | **Zones** | Table: place \| distance in feet \| cover \| narration. Same distances as Now. Each row names decision-useful scene stock in that zone. The **Narration** column carries italic spoken prose for that zone (not a callout). When the Narration column is absent, one empty `> [!narration] {Place}` stub per row after the table instead. |
-| 10 | **Be ready for** | Table: intent \| approach (skill) \| DC \| success \| partial \| failure. Approach is **Ability (Skill)**. DC column is `` `DC 14` ``. Dice and damage in cells are inline code. Applied conditions are **bold**. Name the creature, item, and place in every cell. Every cell is a *ruling*. Include **Assess the situation** when the opening could be read as “what is it hunting / doing?” Not a menu to read aloud. No Partial definition on the card. Body-copy checks outside this table use the at-table grammar in `obsidian-markdown`. |
-| 11 | **Threat clock** | Heading `## Threat clock`. Table: tick \| what happens \| narration. The predators’ turn or pressure changes. Named ticks. 3–4 ticks. Each tick states what newly becomes visible, usable, threatened, blocked, or changed. The **Narration** column carries italic spoken prose for that tick. When the column is absent, one empty `> [!narration] Tick {n}` stub per tick after the table instead. Bloodied (write the HP number), cover-reached, scene dials live as paragraphs **after** the table. |
-| 12 | **Secondary objective** | Heading `## Secondary objective`. If Be ready for lists “save / distract X,” one paragraph: beats required, ignore outcome, later consequence. Omit when there is no second objective. |
-| 13 | **Landing** | Heading `## Landing`. Next scene’s opening state: where bodies are in **feet**, RAW conditions (Prone), damage already applied. Movement closes gaps. Empty `> [!narration] Landing` plus one titled stub per named variant (Scattered, Crash-landed). |
-| 14 | **Exit narration** | Only when the **next** cockpit is already on this file. Empty `> [!narration] Exit` on pass 1. Spoken transition on pass 2. No “What do you do?” Omit until that beat is ready. |
-| 15 | **Roster embeds** | Heading `## Roster`. `![[Monster#Statblock]]` for opposition you will roll in *combat mode*. Keep the full fences; the DM scrolls. After each embed: empty `> [!narration] {Creature}`. Item headings only if this slice spends charges or the item is the pressure. |
-| 16 | **Travel** | Default: omit. This-beat only when the slice *is* the travel, and then one specific complication with every number on this card plus a failure endpoint. |
-| 17 | **Backup** | Heading `## Backup`. Extra wikilinks only. |
+| **Scene ends when** | Every live beat needs a stop condition. | Heading is `## Scene ends when`. First line is the end condition. Then the time budget. Add **If behind:** and **If ahead:** only when the pacing choice is not obvious. |
+| **Glance** | Every live beat needs a short at-table scan. | `## At a Glance` or `## L0 · Glance` bullets: stakes, goal or exit, danger, Silence, and situation magnets. |
+| **Now** | Positions, distances, speeds, current possession, or starting state would otherwise clutter Glance. | One paragraph. Who starts where, in **feet** when tactical distance matters. Speeds that matter. What a move vs Dash reaches. Current situation once. Do not add a separate Starting state heading. |
+| **DM truth** | The beat has hidden intent, opposition want, hidden cause, or canon constraint. | Heading `## DM truth`. Opposition want, one sentence when present. `**Unrevealed:**` marks hidden intent the players have not yet seen. Before Initial Narration. Not a `[!secret]` callout. |
+| **Action cards** | The DM will roll compact default-mode numbers or follow an opposition loop. | `### Action cards`. The operational loop and compact numbers you will roll in default mode: AC, hit points when needed, one attack, thresholds, grab, scatter, or bloodied rule. Use owner action names. |
+| **Initial Narration** | Every live beat needs the first spoken look. | Empty `> [!narration] Initial Narration` stub on pass 1. Pass 2 fills scene-setting, accessible scene stock, and the first real choice. If the owner already has an identity image, embed `![[attachments/…]]` near this block. |
+| **Battlemap** | A battlemap or exact-scene image exists. | Heading `## Battlemap`. Embed existing battlemaps and creature identity images from `attachments/`. When a battlemap exists, use the shared compass: top north, right east, bottom south, left west. Omit if none exist. |
+| **Procedure** | The beat has a named mode, fuse, clock trigger, combat switch, pursuit rule, or repeated resolution loop. | Heading `## Procedure`. Name the mode and this slice's trigger once. Not 5e turn order. Not a `[!mechanic]` callout. |
+| **Zones** | Positions, routes, cover, distance, search areas, or scene stock matter. | Table: place \| distance in feet \| cover \| narration. Same distances as Now. Each row names decision-useful scene stock in that zone. The **Narration** column carries italic spoken prose for that zone, not a callout. When the Narration column is absent, one empty `> [!narration] {Place}` stub per row after the table instead. |
+| **Be ready for** | Players are likely to attempt consequential actions, checks, tactics, or negotiations. | Table: intent \| approach \| DC \| success \| partial \| failure. Approach is **Ability (Skill)** when a check applies. DC column is `` `DC 14` ``. Dice and damage in cells are inline code. Applied conditions are **bold**. Name the creature, item, and place in every cell. Every cell is a *ruling*. Include **Assess the situation** only when the opening could be read as “what is it hunting / doing?” No Partial definition on the card. |
+| **Threat clock** | A fuse or opposition turn changes the situation. | Heading `## Threat clock`. Table: tick \| what happens \| narration. Named ticks. 3-4 ticks. Each tick states what newly becomes visible, usable, threatened, blocked, or changed. The **Narration** column carries italic spoken prose. When the column is absent, one empty `> [!narration] Tick {n}` stub per tick after the table instead. Bloodied, cover-reached, and scene dials live as paragraphs after the table. |
+| **Secondary objective** | A second question runs in parallel and changes outcome or later consequence. | Heading `## Secondary objective`. One paragraph: beats required, ignore outcome, later consequence. Omit when there is no second objective. |
+| **Landing** | Every live beat needs the next state. | Heading `## Landing`. Next state, damage already applied, relevant conditions, and what follows. Empty `> [!narration] Landing` plus one titled stub per named variant. Keep only variants this beat can actually produce. |
+| **Exit narration** | The next cockpit is already on this file. | Empty `> [!narration] Exit` on pass 1. Spoken transition on pass 2. Omit until that beat is ready. |
+| **Roster embeds** | The DM will roll a creature or item in this beat. | Heading `## Roster`. `![[Monster#Statblock]]` for opposition you will roll in combat mode. Keep the full fences; the DM scrolls. After each embed: empty `> [!narration] {Creature}`. Item embeds only if this slice spends charges or the item is the pressure. |
+| **Backup** | Extra owner links would save table hunting. | Heading `## Backup`. Extra wikilinks only. Omit when all required owners are already embedded or linked above. |
 
 There is no peer **Round script**. Clock ticks *are* the old R1–R3. The only `> [!` on the card is `[!narration]`.
 
 ## TotM stubs
 
-Pass 1 places all player-facing prose slots. Pass 2 fills every one. The DM may skip a block at the table; construction may not omit a slot.
+Pass 1 places the player-facing prose slots this beat can actually use. Pass 2
+fills every placed slot. The DM may skip a block at the table; construction
+should not create slots for outcomes the beat cannot produce.
 
 **Callout stubs** (empty titled `> [!narration]` blocks):
-- `Initial Narration` — mandatory. After action cards, before Battlemap.
-- `Landing` — success-condition spoken state. Plus one stub per named landing variant.
+- `Initial Narration` — before the first player choice.
+- `Landing` — success-condition spoken state. Plus one stub per named landing variant the beat can actually produce.
 - `{Creature}` — after each combat-mode roster embed. Situated look for this scene, not the owner-page cold portrait.
 - `Exit` — only when the next cockpit is already on this file.
 
@@ -113,126 +131,40 @@ Do not put `> [!narration]` inside a table cell. Obsidian does not render callou
 ## Scene stock
 
 Before pass 2, make the card able to answer follow-up questions without opening
-the vault cold. Record actionable player-visible stock in Now, Zones, Be ready
-for, Threat clock, Landing, or Backup as appropriate: hazards, loot, monsters,
-NPCs, vehicles, doors, tracks, trails, tools, food, water, clues, inscriptions,
-map features, weather, light, sound, smell, and world-building signs.
+the vault cold. Record actionable player-visible stock wherever the leanest
+surface can hold it: a paragraph, table row, clock tick, landing state, or
+backup link.
 
 Completion: every stock item that belongs in the spoken first look has an access
 channel, an owner or local ruling, and a player use. TotM weaves those items
-into narration by relationship and affordance. The run card does not outsource
-required first-look details to Backup links, later clock ticks, or the DM's
-memory.
+into narration by relationship and affordance. Required first-look details live
+on the card, not only in Backup links.
 
 Distinct things need distinct text and media. Existing narration, art, tokens,
 and battlemaps are valid only for the exact same owner/site/moment. For new
 content, use prior assets as vibe reference and make or request a distinct
 asset.
 
-## Resolution cockpit
+## Beat Type Trimming
 
-When the beat is a Resolution (*aftermath*), the cockpit shrinks. Keep: Scene
-ends when, Glance, Now, DM truth, Initial Narration, Landing. Cut: Action
-cards, Procedure, Threat clock, Roster embeds — the opposition is resolved.
+Beat type changes which catalog sections earn space. It does not create a
+second template.
 
-Keep Zones when the aftermath has spatial meaning (a battlefield to search, a
-collapsed structure to navigate). Keep Be ready for when players will
-investigate, negotiate, or make consequential choices in the aftermath.
+**Resolution:** keep the aftermath state, Initial Narration, Landing, and any
+Zones or Be ready for rows the players can still act on. Cut combat sections
+when the opposition is resolved.
 
-DM truth carries the world state after the Climax and any unrevealed
-consequences. Initial Narration shows the *aftermath* — what the players see,
-hear, and feel in the changed world. Landing carries what comes next.
+**Development:** keep the information pressure: what can be learned, who wants
+what, and the consequential approaches. Keep Procedure or Threat clock only
+when there is a named mode or external fuse. Cut combat-only sections.
 
-Scene ends when the players name what they want to do next. Match scope to the
-Climax — a relationship-scale climax gets a relationship-scale resolution, not
-a world-state summary.
+**Hook:** keep the immediate pressure, first response paths, and Landing into
+the next state. Keep combat sections only when the hook is itself a combat
+encounter. A hook with a cover endpoint does not also run unbounded Travel.
 
-## Development cockpit
-
-When the beat is a Development (*clue, warning, revelation, alliance,
-negotiation, planning*), the cockpit trades physical pressure for information
-pressure. Keep: Scene ends when, Glance, Now, DM truth, Initial Narration,
-Be ready for, Landing, Backup. Cut: Action cards, Roster embeds.
-
-Procedure: keep when the beat has a named mode (*investigation*,
-*negotiation*, *audience*) and a threshold that ends it. Cut when the beat
-is open conversation with no fuse.
-
-Zones: keep when positions matter (a market to search, a divided room, a
-court with a gallery). Cut when purely conversational.
-
-Threat clock: keep when external time pressure drives the beat (patrol
-approaching, tide rising, ceremony starting). Label it a **pressure clock**:
-ticks are situation changes, not predator actions. Cut when the Development
-has no fuse.
-
-Secondary objective: keep when a second question runs in parallel. Cut when
-there is one thread.
-
-Travel: cut. A Development that *is* travel uses the travel beat.
-
-**Field shifts:**
-- **Scene ends when** states the *information threshold*: what the players
-  know or can decide when the beat is done. **If behind / If ahead** adjust
-  how much investigation fits the time, not how many zones to cut.
-- **Glance** lists stakes, the question, who is present and what they want,
-  and what is discoverable.
-- **Now** states who is where, the social or environmental setup, and what
-  is observable. Not positions in feet and speeds unless spatial.
-- **DM truth** carries the hidden answer, faction intent, and what each
-  present actor wants. `**Unrevealed:**` marks what investigation discovers.
-- **Be ready for** lists investigative and social approaches: Insight,
-  Persuasion, Investigation, Perception, Deception, History, free-form
-  questioning. Same table structure (intent | approach | DC | success |
-  partial | failure). Every cell is still a *ruling*.
-- **Initial Narration** scope: who is present and what they are doing,
-  atmosphere, discoverable detail, scene stock, and a non-sight sense.
-  `theatre-of-the-mind` owns the prose. Cover, routes, and imminent physical
-  action only when the Development is spatially situated.
-
-## Hook cockpit
-
-When the beat is a Hook (*strong start: the opening problem, offer, threat,
-discovery, or crisis*), the cockpit delivers immediate momentum. Keep: Scene
-ends when, Glance, Now, DM truth, Initial Narration, Be ready for, Landing,
-Backup. Keep Zones when positions matter on entry. Keep Procedure when the
-Hook has a named mode (*escape*, *pursuit*, *boarding*). Keep Threat clock when
-an external fuse drives the opening.
-
-Cut: Action cards, Roster embeds — unless the Hook is itself a combat
-encounter. A Hook that opens with physical danger keeps these; a Hook that
-opens with discovery, an offer, or social pressure cuts them.
-
-Secondary objective: keep only when the Hook carries a parallel question from
-the start. Travel: cut — a Hook with a cover endpoint does not also run
-unbounded travel.
-
-**Field shifts:**
-- **Scene ends when** states the *commitment threshold*: the party has chosen
-  a response to the opening pressure. **If behind:** compress the opening
-  situation — fewer reveals, faster fuse — so the party still reaches a
-  decision. **If ahead:** one prepared complication that enriches the chosen
-  path, fully inlined.
-- **Glance** leads with the immediate pressure: what is wrong, what is at
-  stake, who is present, and why now. Situation magnets are the first thing
-  demanding attention.
-- **Now** states the opening positions, distances, and speeds. A Hook's Now
-  may be shorter than a Cliffhanger's — only what the party perceives at the
-  moment of first contact.
-- **DM truth** carries the opposition want and what the Hook is really about
-  when the surface differs. `**Unrevealed:**` marks what the party has not
-  yet seen.
-- **Be ready for** anticipates the party's first responses. A strong Hook
-  typically produces 2–4 clear response paths; each path earns a row. Include
-  **Assess the situation** when the opening is legible enough to study.
-- **Initial Narration** is the **strong start**: the single most important
-  spoken block of the session. `theatre-of-the-mind` owns the prose. The block
-  lands the situation — who, what, why now, visible stakes, and the scene stock
-  needed for the first real choice — and reaches the reaction point in one
-  continuous delivery.
-- **Landing** carries what follows the party's commitment: the next beat's
-  opening state. Prepare the polarity handoff — if the Hook was action-heavy,
-  the landing sets up a Development; if cerebral, a Cliffhanger.
+**Travel:** use this skill only when travel is the live slice. Inline one
+specific complication, every number needed to run it, and a failure endpoint.
+Otherwise omit Travel entirely.
 
 ## Procedure
 
@@ -250,7 +182,7 @@ A skill-challenge or social slice uses the same rule: one clock, filled by the c
 
 ## Partial
 
-House for this vault, in this skill, not on the card:
+Ruling convention for this skill, not text for the card:
 
 - **Success:** meet or exceed the DC.
 - **Partial:** miss by 1–4; the player may accomplish the intent at the listed cost.
@@ -260,7 +192,7 @@ Table cells assume that. A row may say “binary — no partial” when the fict
 
 ## Ruling
 
-A *ruling* is a 5.5e (2024) action, movement in feet, opportunity attack, named condition, ability check, save, or damage; or a **named feature already on a vault owner**. This vault’s **Partial** (miss by 1–4) is house, here, not restated on the card. Check, save, and DC choice → `dnd5e-mechanics`. The written mark → `obsidian-markdown` at-table scan.
+A *ruling* is a 5.5e (2024) action, movement in feet, opportunity attack, named condition, ability check, save, or damage; or a **named feature already on a vault owner**. Partial success is defined here, not restated on the card. Check, save, and DC choice → `dnd5e-mechanics`. The written mark → `obsidian-markdown` at-table scan.
 
 5.5e actions: Attack, Dash, Disengage, Dodge, Help, Hide, Influence, Magic, Ready, Search, Study, Utilize. Conditions include Prone, Grappled, Restrained.
 
@@ -290,7 +222,8 @@ A hook with a cover endpoint does not also run unbounded travel. “Smoke to cam
 
 ## Action cards and embeds
 
-Put the operational loop (Dive → Talon Grab → Haul Aloft → Sickle Claw) and default-mode compact numbers next to DM truth.
+Put the operational loop and default-mode compact numbers next to DM truth or
+the first section that needs them.
 
 Keep full `![[Name#Statblock]]` (optional `![[Name#At the table]]`, or `![[Name#Tactics]]` for monster notes) at the bottom. Do not retype an owner’s full Multiattack/HP table into prose above the embed. Do not embed the ecology essay. How the party already moves (flight, swim, mounts, boats) is not roster.
 
@@ -300,7 +233,10 @@ If the owner lacks `## Statblock`, add that heading above the fence on the owner
 
 The spoken Initial Narration shows the situation and ends on the question, then wait. Anticipated intents live in the table so unforeseen approaches can still be ruled from want + zones + clock (intention / approach).
 
-Clock ticks are predator **actions** (what fills the clock, what happens, what completion does — Sly Flourish progress clocks). Visible geography the viewpoint already has does not wait for tick 1. Each tick has an empty `Tick {n}` stub on pass 1 for the spoken combat-update if that tick fires.
+Clock ticks are pressure **actions**: what fills the clock, what happens, and
+what completion changes. Visible geography the viewpoint already has does not
+wait for tick 1. When the table has a Narration column, that cell is the spoken
+update slot; otherwise use `Tick {n}` callout stubs.
 
 **Tells.** Any conclusion the table must be able to reach gets three independent visible tells in Initial Narration or Now (Three Clue Rule).
 
@@ -313,18 +249,19 @@ Clock ticks are predator **actions** (what fills the clock, what happens, what c
 Completion — all of these hold, or the draft is not done:
 
 - One named *procedure*; Be ready for failures do not also tick the clock.
-- No house Partial lecture, 5e-default lecture, or writer note on the card.
+- No Partial lecture, 5e-default lecture, or writer note on the card.
 - `## Scene ends when` is the first heading; the end condition is the first line.
-- Time budget + both *cut lines* as paragraphs under that heading.
-- Now states positions and speeds in feet; the zone table uses those distances.
-- DM truth is a `##` heading before Initial Narration, not a `[!secret]` callout. `**Unrevealed:**` marks hidden opposition intent.
-- Pass 1: empty callout stubs and empty Narration-column cells at every TotM slot; no player-facing prose in those bodies.
+- Time budget is present. Cut lines appear only when they change a pacing choice.
+- If `## Now` is present, it states positions and speeds in feet; the zone table uses those distances.
+- If DM truth is present, it is a `##` heading before Initial Narration, not a `[!secret]` callout. `**Unrevealed:**` marks hidden opposition intent.
+- Pass 1: empty callout stubs and empty Narration-column cells at the TotM slots this beat can actually use; no player-facing prose in those bodies.
 - Pass 2: Initial Narration contains currently visible cover, routes, relative position, imminent action, relevant scene stock, drawable look, and a non-sight sense, then the question. Every stub and Narration cell is filled.
-- Action cards sit with DM truth; Bloodied, cover-reached, and scene dials are paragraphs after the Threat clock table.
+- Action cards sit near the truth or procedure they support. Bloodied, cover-reached, and scene dials are paragraphs after the Threat clock table when a Threat clock exists.
 - Every consequence is a *ruling* (see Ruling).
-- Secondary objective, Landing, Roster, Backup are `##` headings.
-- Combat-mode owners heading-embedded under Roster. Default-mode rolls have numbers on the action cards.
-- Battlemap embeds existing images between Initial Narration and Procedure. Omit if none exist.
+- Optional sections stay absent unless this beat spends them at the table.
+- Secondary objective, Landing, Roster, and Backup use `##` headings when present.
+- Combat-mode owners are heading-embedded under Roster when the DM will roll them. Default-mode rolls have numbers on the action cards.
+- Battlemap embeds existing images when exact-scene art exists. Omit if none exist.
 - Existing owner identity image embedded when the owner page already lists one.
 - Travel omitted, or one inlined complication with a failure endpoint.
 - One cockpit: Glance once, no second Run-now, no separate Ask callout, no Scene menu, no peer Round script.
@@ -333,11 +270,10 @@ Completion — all of these hold, or the draft is not done:
 
 ## Whole-session branch
 
-When rendering a **full** 3–5 hour night (not a single 30-minute beat), open with
-Glance for the first live card, then 5–7 cockpits in likely-play order. Put a
-floating secrets bank, parachute, and treasure **after** the live cards, as
-bullets that link owners — not a second card schema. Still no densify/WIP dump.
-Still no Scene menu that is only prep-management.
+When rendering a **full** 3-5 hour night (not a single 30-minute beat), write
+one lean card per live beat in likely-play order. Put overflow material after
+the live cards as owner links or short bullets only when it will save table
+hunting. Do not add a second card schema or prep-management menu.
 
 ## Handoffs
 
