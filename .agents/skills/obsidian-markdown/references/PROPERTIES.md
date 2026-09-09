@@ -11,6 +11,7 @@ YAML between `---` at the top of the note.
 | `status` | as used by the note (live, stub, …) |
 | `tags` | YAML list |
 | `visibility` | `table` \| `dm` |
+| `summary` | One sentence — what the note is and anything non-obvious. Use to assess a note without full read; create on new notes; update when the note changes |
 | `aliases` | optional alternate link names |
 
 Monster extras often include `role`, `cr`, `source` (see `templates/Monster.md`).

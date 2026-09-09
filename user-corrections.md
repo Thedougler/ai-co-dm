@@ -1,5 +1,5 @@
 ---
-summary: Nick's correction log. Writers append on #ERROR. ASD drains open entries. Open now: beat-number reuse, beat 6 furniture, beat 6 missing owners, and missing frontmatter summary.
+summary: Nick's correction log. Writers append on #ERROR. ASD drains open entries. All entries closed as of 2026-09-09.
 ---
 
 # User corrections
@@ -150,5 +150,7 @@ Follow skill `agentic-system-designer` (Intake → Baseline → Fix → Prove �
 
 **count:** 1
 
-**status:** open
+**status:** closed
+
+**Fix:** `.agents/skills/obsidian-markdown/SKILL.md` — `summary` frontmatter hard rule: one sentence, what the note is plus anything non-obvious; use to assess without full read; create on new notes, update on changes. Added to write workflow step 2, Properties example, `references/PROPERTIES.md` table, and `AGENTS.md` frontmatter field list. Measure: agent-facing files instructing on `summary` frontmatter in `.agents/skills` 0 → 1. Cheap check: `rg -l --glob '*.md' 'summary..frontmatter' .agents/skills`.
 

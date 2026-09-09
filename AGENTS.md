@@ -45,7 +45,7 @@ Obsidian LLM wiki for Nick's home D&D. **Markdown is the product.**
 - **Create vs update:** qmd for existing entity first; update in place; new note only if no hit; link nearest index/MOC.
 - Wikilinks; one topic/note; stub > empty folder.
 - **Images:** store under `attachments/` (use `attachments/<campaign>/` when campaign-specific). Embed `![[attachments/…]]` or wikilink `[[attachments/…]]` — never bare disk paths or `![](file:///…)` for vault art. Use an existing image, token, or battlemap only when it depicts the exact same owner/site/moment. For new content, make or request a distinct asset; prior art is vibe reference only.
-- Frontmatter: `type`, `campaign`, `status`, `tags`, `visibility: table | dm`.
+- Frontmatter: `type`, `campaign`, `status`, `tags`, `visibility: table | dm`, `summary`.
 - **Owner pages:** `> [!narration] Narration` where the template places it — empty until TotM fill.
 - **Session/run beats (two passes):**
   1. **Mechanical cockpit** (`run-guide`): sole-authority card plus **empty titled `[!narration]` stubs** at every slot (mandatory `Initial Narration`, then per zone, per clock tick, one How the Scene Resolves callout plus a most-likely-options table, per roster embed, `Exit` only if the next cockpit is on this file). Do not write player-facing prose in this pass. Embed an existing owner identity image (`![[attachments/…]]`) when the owner page already lists one.

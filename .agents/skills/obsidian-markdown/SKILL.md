@@ -18,7 +18,8 @@ write must preserve vault wikilinks, applicable callouts, and AGENTS properties.
 ## Hard rules
 
 - **Wikilinks in-vault:** `[[Note]]` / `[[Note|text]]` / `[[Note#Heading]]`. Markdown links only for external `https://` URLs.
-- **Frontmatter (AGENTS):** include when applicable — `type`, `campaign`, `status`, `tags`, `visibility: table | dm`. Prefer AGENTS fields over generic `title`-only notes. `type` enum: `hub` | `campaign` | `session-prep` | `session` | `npc` | `pc` | `location` | `faction` | `quest` | `front` | `encounter` | `item` | `monster` | `lore` | `template` | `lexicon`.
+- **Frontmatter (AGENTS):** include when applicable — `type`, `campaign`, `status`, `tags`, `visibility: table | dm`, `summary`. Prefer AGENTS fields over generic `title`-only notes. `type` enum: `hub` | `campaign` | `session-prep` | `session` | `npc` | `pc` | `location` | `faction` | `quest` | `front` | `encounter` | `item` | `monster` | `lore` | `template` | `lexicon`.
+- **`summary` frontmatter:** one sentence — what the note is and anything non-obvious or unexpected. Use it to assess a note without reading the full file. Create on every new note; update whenever the note changes. Keep it concise, specific, and direct.
 - **Player prose:** owner pages use leading `> [!narration] Narration` (empty until TotM fill). Session/run beats use mandatory `> [!narration] Initial Narration` plus titled stubs per `run-guide` TotM slots. Unconditional spoken stays in `[!narration]`. Conditional spoken lives in a table cell as `==_italic_==`. Empty on mechanical pass 1; fill on pass 2. No secrets/DCs/unearned names inside `[!narration]` or those highlighted cells.
 - **Live session surfaces:** In run-guide, session-prep, session, and beat notes, never use collapsed callouts (`[!…]-`); keep DM information open so session cards do not hide it. Collapsed secrets remain allowed on long-lived owner pages (NPC/PC/faction) when useful.
 - **Real body newlines:** Prose, lists, and callout bodies must use real line breaks, never a literal backslash followed by `n`. This is especially strict for run-guide, session-prep, session, and beat notes. The only exemptions are YAML frontmatter and fenced code/statblocks (including YAML string values inside a statblock fence); outside those regions, a literal `\n` is a FAIL.
@@ -34,7 +35,7 @@ write must preserve vault wikilinks, applicable callouts, and AGENTS properties.
 ## Write workflow
 
 1. Copy matching `templates/` note when creating.
-2. Fill frontmatter (`type` + campaign fields).
+2. Fill frontmatter (`type` + campaign fields + `summary`).
 3. If `type: monster` → optional `## Statblock`, then the `statblock` fence.
 4. Leading `[!narration]` when the template expects it.
 5. Body: one topic/note; facts to run, say, or know; wikilink nearest index/MOC/`hot` as needed. Drop `## Do not` and other author-process bans.
@@ -169,6 +170,7 @@ campaign: shattered-sea
 status: live
 tags: [npc]
 visibility: dm
+summary: Grung war-chief leading the river clan; secretly allied with the aboleth.
 aliases: [Optional other name]
 ---
 ```
