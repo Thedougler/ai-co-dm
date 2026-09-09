@@ -18,21 +18,20 @@ source: "[[Aruhe - Hungry Isle]]"
 ![[attachments/shattered-sea/places/aruhe-the-grasslands.jpeg|Grasslands, river-cut valleys of gold-green grass]]
 ## Overview
 > [!narration] Narration
-> Clear water winds through the grasslands in channels a body can follow, with muddy bends low enough to kneel at and drink from. Gold-green grass rises higher than a person on both banks, bent flat where feet and water have worked the ground, then standing thick again as the valley climbs toward the dark jungle rim. Sunlight comes down in bright shafts through the open cuts of sky, flashing on wet stones and pale seed heads while warm water-smell and bird calls carry along the stream. Redheart berries shine at the bends, and heavy giant's guavas show above the grass where the channels enter the jungle rim.
+> Clear water winds through the grasslands in channels a body can follow, with muddy bends low enough to kneel at the bank. Gold-green grass rises higher than a person on both banks, bent flat where feet and water have worked the ground, then standing thick again as the valley climbs toward the dark jungle rim. Sunlight comes down in bright shafts through the open cuts of sky, flashing on wet stones and pale seed heads while warm water-smell and bird calls carry along the stream. Redheart berries shine at the bends, and heavy giant's guavas show above the grass where the channels enter the jungle rim.
 
 ---
 ## At a glance
-The Grasslands are river-cut valleys inside Aruhe's jungle, not a sixth concentric band. Freshwater forces the canopy apart into hot, open chambers of eight-foot gold-green grass, watched from the shaded rim. Free-flowing channels are drinkable. Follow water uphill into [[Aruhe - River]] and [[Aruhe - Clear Lake]]; an open route continues toward [[Aruhe - Memorial Grove]]; the terrace descent comes down from [[Aruhe - Old Gardens]]. The forest-edge print braid north of [[Aruhe - Quiet Forest Cutoff Lip|Cutoff Lip]] is [[Aruhe - Grasslands Print Braid|Print Braid]]. North of that braid the first Quiet hub is [[Aruhe - Quiet Forest Spoke Ring|Spoke Ring]]. Stay on a ridge or grass edge and the water and cover drop away; stay in the cuts and it remains grass, river, and rim. Light and water make travelers linger in the open long enough to be seen.
+The Grasslands are river-cut valleys inside Aruhe's jungle, not a sixth concentric band. Freshwater forces the canopy apart into hot, open chambers of eight-foot gold-green grass, watched from the shaded rim. Follow water uphill into [[Aruhe - River]] and [[Aruhe - Clear Lake]]; an open route continues toward [[Aruhe - Memorial Grove]]; the terrace descent comes down from [[Aruhe - Old Gardens]]. The forest-edge print braid north of [[Aruhe - Quiet Forest Cutoff Lip|Cutoff Lip]] is [[Aruhe - Grasslands - Print Braid|Print Braid]]. North of that braid the first Quiet hub is [[Aruhe - Quiet Forest Spoke Ring|Spoke Ring]]. Stay on a ridge or grass edge and the water and cover drop away; stay in the cuts and it remains grass, river, and rim. Light and water make travelers linger in the open long enough to be seen.
 
 ---
 ## If the party
 
-- **Drink from a free-flowing channel:** The water is drinkable.
 - **Follow water uphill:** [[Aruhe - River]] toward [[Aruhe - Clear Lake]].
 - **Take the open route toward higher green:** [[Aruhe - Memorial Grove]].
 - **Climb back toward the terraces:** [[Aruhe - Old Gardens]].
 - **Stay on a ridge or grass edge:** The valleys can be skipped; water and cover are lost.
-- **Follow the forest-edge prints north of Cutoff Lip:** [[Aruhe - Grasslands Print Braid|Print Braid]].
+- **Follow the forest-edge prints north of Cutoff Lip:** [[Aruhe - Grasslands - Print Braid|Print Braid]].
 - **Follow the inland prints off Print Braid into the Quiet hub:** [[Aruhe - Quiet Forest Spoke Ring|Spoke Ring]].
 - **Follow the north spoke off Spoke Ring onto the night aisle:** [[Aruhe - Quiet Forest Star Cut|Star Cut]].
 - **Walk the eight-foot grass:** Difficult Terrain. Heavily obscures beyond 10 feet. Movement leaves a crushed corridor.
@@ -71,7 +70,7 @@ The Grasslands are river-cut valleys inside Aruhe's jungle, not a sixth concentr
 - Used fruiting margin upvalley of Torn Crossing: [[Aruhe - River Line Bank|Line Bank]]
 - Claimed otter basin upvalley of Line Bank: [[Aruhe - River Slack Basin|Slack Basin]]
 - Forest-edge detour off Slack Basin: [[Aruhe - Quiet Forest Cutoff Lip|Cutoff Lip]]
-- Forest-edge print braid north of that lip: [[Aruhe - Grasslands Print Braid|Print Braid]]
+- Forest-edge print braid north of that lip: [[Aruhe - Grasslands - Print Braid|Print Braid]]
 - First Quiet hub north of that braid: [[Aruhe - Quiet Forest Spoke Ring|Spoke Ring]]
 - Night-watch aisle north of that hub: [[Aruhe - Quiet Forest Star Cut|Star Cut]]
 - Follow water uphill into [[Aruhe - River|the River]] and [[Aruhe - Clear Lake|Clear Lake]]
@@ -81,7 +80,6 @@ The Grasslands are river-cut valleys inside Aruhe's jungle, not a sixth concentr
 ---
 ## Why
 
-- Drinkable free-flowing water.
 - The open heading through the jungle.
 - Food on the wet margins.
 

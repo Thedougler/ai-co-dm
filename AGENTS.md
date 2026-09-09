@@ -36,6 +36,7 @@ Obsidian LLM wiki for Nick's home D&D. **Markdown is the product.**
   normal human words unless the common word would be inaccurate. Prefer the
   ordinary noun plus the visible difference over coined labels, poetic
   shorthand, fancy terminology, or private campaign jargon.
+- **Signal-only DM text:** Keep only facts that change a choice, ruling, risk, resource, route, clock, NPC response, or words to speak. Omit default, normal, and no-effect facts; state water, food, weather, light, safety, or permission only when it changes play because it is unsafe, costly, scarce, magical, claimed, time-bound, or a visible clue.
 
 ## Write
 

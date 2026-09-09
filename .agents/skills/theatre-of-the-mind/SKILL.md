@@ -48,6 +48,7 @@ the smoke beyond the prints, the glass grass under the only dry route, the
 priest's stained sleeve beside the missing coin box. Do not dump a catalog.
 Omitting actionable scene stock is a failure; padding the block with
 non-actionable color is also a failure.
+Player-facing prose is signal-only too: every sentence must change the picture, attention, risk, route, relationship, or possible action. Cut ordinary defaults and no-effect reassurance.
 
 Length still follows the moment: a hit, reveal, or dialogue turn may be one
 tight line; a `[!narration]` portrait, room/place first look, creature first
@@ -110,7 +111,7 @@ of that spine. Fail **Strong-echo / checklist cadence** (one fact per sentence
 in shore → depth → mouths → Grove → cool air order, or parroting a Strong
 example’s architecture). Fail thin telegram openers (`The shore is wet stone.`).
 Require body-scale size and at least one usable affordance cue as nouns/verbs
-(drinkable water, wet stone underfoot, followable channel) — never theme
+(wet stone underfoot, followable channel, climbable ledge) — never theme
 (`rest`/`direction`). Ban place-design kernel fields and schema voice: Function,
 Fantastic, Conflict, Promise, Trajectory, Aspects, Player verbs, Hunger /
 possession metaphysics, and rule-talk like `unclaimed` / `claim`. Ban invented

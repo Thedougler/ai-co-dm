@@ -238,7 +238,7 @@ evidence.
 | location `[!narration]` is place-design kernel or schema verbs with no landmark | rewrite as cold place portrait: form/scale, topology/approaches, sensory; no invented mystery closer |
 | place `[!narration]` is Strong-echo / checklist (shore→depth→mouths→Grove→cool air, one fact per sentence) | one spine sentence for *this* place; fold facts as dependents; fresh phrasing |
 | place opens with thin telegram (`The shore is wet stone.`) | seat scale/spine first; fold underfoot wet stone into a fuller sentence |
-| place has no body-scale size or usable affordance nouns | far bank / width + drinkable water / underfoot shore / followable channel |
+| place has no body-scale size or usable affordance nouns | far bank / width + underfoot shore / followable channel / climbable ledge |
 | place is the concept of a lake/forest (generic filing fields) | Colville: concrete dominating feature of *this* site |
 | facts arrive as a telegram or bullet-shaped clauses | join owned details into flowing sentences with concrete verbs |
 | item Appearance uses catalog/rules gloss (`carries as`, `ordinary X for Y`, `shoulder firearm for one shooter`) | concrete noun + scale-vs-body + material/wear + one sense/behavior; read aloud test |

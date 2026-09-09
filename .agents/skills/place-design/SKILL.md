@@ -14,7 +14,8 @@ description: >-
 
 A place is **identity + topology + affordances + inhabitants + information +
 pressure + consequences**. It is not a backdrop or a list of rooms. Design the
-playable situation first, then write only the detail that changes a choice.
+playable situation first, then write only details that change a choice, route,
+risk, resource, clue, pressure, or response.
 
 ## Build the place in this order
 
@@ -152,7 +153,7 @@ the `campaigns/shattered-sea/locations/Aruhe -` set — sites (`Clear Lake`,
 | Identity image | After the title, before Overview (`visual-aids`) |
 | Opening geography, flora woven in, non-sight sense | **Overview** `[!narration]` (TotM; empty until fill) |
 | Identity, key adjacent links, skip/bypass | **At a glance** |
-| Navigation routes first, then interactions, then foraging tiers | **If the party** (`obsidian-markdown` / `dnd5e-mechanics`) |
+| Navigation routes first, then interactions with changed consequences, then foraging tiers | **If the party** (`obsidian-markdown` / `dnd5e-mechanics`); omit default-safe, normal, or no-effect actions. |
 | Creatures and NPCs with behavioral niche | **Who** |
 | Environment, flora placement, fauna behavior, features | **What** |
 | North/east/south/west neighbors, canon gaps, and approximate days of travel | **Where** |

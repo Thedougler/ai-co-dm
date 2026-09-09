@@ -31,7 +31,6 @@ Star Cut is the night-watch aisle north of [[Aruhe - Quiet Forest Spoke Ring|Spo
 ---
 ## If the party
 
-- **Drink from the west river through the wood:** Free-flowing water of [[Aruhe - River]] is drinkable. That is not a claim.
 - **Follow the south aisle:** Packed dirt returns toward [[Aruhe - Quiet Forest Spoke Ring|Spoke Ring]]. Gold-green grass still shows beyond that hub, not on this aisle.
 - **Follow the north star-cut:** The packed dirt darkens into [[Aruhe - Quiet Forest]]. Garden talk from Spoke Ring still points that way. This is not [[Aruhe - Memorial Grove]].
 - **Stay under Spoke Ring's leaf roof or turn back and skip this cut:** The aisle, the east fire, the west guavas, and the star-cut of sky are lost.
@@ -72,8 +71,8 @@ Star Cut is the night-watch aisle north of [[Aruhe - Quiet Forest Spoke Ring|Spo
 
 - **North:** The star-cut opens into deeper [[Aruhe - Quiet Forest]]. Garden talk points that way. This is the same valley, not a day's travel. This is not [[Aruhe - Memorial Grove]].
 - **East:** More [[Aruhe - Quiet Forest]] follows the jungle wall past the fire. No established next named Quiet site on that wall.
-- **South:** Packed dirt returns onto [[Aruhe - Quiet Forest Spoke Ring|Spoke Ring]], then [[Aruhe - Grasslands Print Braid|Print Braid]]. Gold-green grass still shows at Spoke Ring's south mouth, not here.
-- **West:** Jungle wall, then a root-talk of [[Aruhe - River]]. Drinkable water sits through those roots. This aisle is not [[Aruhe - River Slack Basin]].
+- **South:** Packed dirt returns onto [[Aruhe - Quiet Forest Spoke Ring|Spoke Ring]], then [[Aruhe - Grasslands - Print Braid|Print Braid]]. Gold-green grass still shows at Spoke Ring's south mouth, not here.
+- **West:** Jungle wall, then a root-talk of [[Aruhe - River]]. This aisle is not [[Aruhe - River Slack Basin]].
 
 ---
 ## Why

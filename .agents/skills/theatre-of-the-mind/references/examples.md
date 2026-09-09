@@ -141,7 +141,7 @@ See also the lake Weak/Strong pair in [places.md](places.md).
 
 **Weak:** `offer rest and direction`, `stays unclaimed`, `enormous life` with no body.
 
-**Strong:** one spine for *this* water body (scale + drinkable clarity); fold shore/mouths/channel/sense as dependents — never shore→depth→mouths→Grove→air checklist. No Hunger/claim, em dashes, mystery closers. Kitchen-table nouns. Large life stays DM/encounter unless stable ecology.
+**Strong:** one spine for *this* water body (scale + clear depth); fold shore/mouths/channel/sense as dependents — never shore→depth→mouths→Grove→air checklist. No Hunger/claim, em dashes, mystery closers. Kitchen-table nouns. Large life stays DM/encounter unless stable ecology.
 
 ## Item mood fluff vs concrete behavior
 

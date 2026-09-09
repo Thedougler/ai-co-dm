@@ -57,24 +57,24 @@ the parent's headings or a fixed contract order.
 
 ### Kernel voice vs drawable lake (cold portrait)
 
-**Wilderness / lake recipe:** no table state → cold portrait of **stable geography** with **one organizing spine** (Colville: describe *this* lake, not the concept of a lake). Fold wet stone, depth, river mouths, channels as dependents of that spine — never a parallel checklist (shore → depth → mouths → Grove → cool air). Weave one fingerprint sense mid-block. Include body-scale size and at least one usable affordance noun/verb (drinkable water, wet stone underfoot, followable channel). With table state → seated survey; only then may a **supplied** current motion appear. Do not invent a mystery sting or fake encounter drama on wiki Appearance. Large life stays Who is here / secrets / encounter unless parent states stable public ecology.
+**Wilderness / lake recipe:** no table state → cold portrait of **stable geography** with **one organizing spine** (Colville: describe *this* lake, not the concept of a lake). Fold wet stone, depth, river mouths, channels as dependents of that spine — never a parallel checklist (shore → depth → mouths → Grove → cool air). Weave one fingerprint sense mid-block. Include body-scale size and at least one usable affordance noun/verb (wet stone underfoot, followable channel, climbable bank). With table state → seated survey; only then may a **supplied** current motion appear. Do not invent a mystery sting or fake encounter drama on wiki Appearance. Large life stays Who is here / secrets / encounter unless parent states stable public ecology.
 
 **Kernel → narration map (ban left column in `[!narration]`):**
 
 | Kernel / theme | Player prose |
 |---|---|
-| rest / direction / promise | shores, channels, paths you can walk or drink from |
+| rest / direction / promise | shores, channels, paths you can walk or follow |
 | Hunger / unclaimed / claim | omit (or a currently perceivable consequence only) |
 | “enormous life” theme | omit from cold Appearance; stage in encounter / Who is here (or one stable always-true ecology fact if parent states it, never a turn-then-still sting) |
 | Function / Conflict / Promise / Aspects / Player verbs | stay in DM / Aspects / secrets — never Appearance |
 
 **Weak: design kernel / metaphysics**
 
-> A clear inland lake where cool drinkable water meets long submerged movement beneath the surface. Shores and channels offer rest and direction; river valleys feed in, and enormous life turns beneath the clarity when the water stays unclaimed.
+> A clear inland lake where cool water meets long submerged movement beneath the surface. Shores and channels offer rest and direction; river valleys feed in, and enormous life turns beneath the clarity when the water stays unclaimed.
 
 **Strong: one spine that is already *this* place (not a field list)**
 
-> Clear water fills a lake wide enough that the far bank is a thin dark line. You can drink from it at the wet-stone shore where the bottom shows underfoot; farther out the blue goes dark. Slow river mouths feed in, and one channel keeps toward the Grove with cool lake-smell on the air.
+> Clear water fills a lake wide enough that the far bank is a thin dark line. Wet stone shows the bottom underfoot near the shore; farther out the blue goes dark. Slow river mouths feed in, and one channel keeps toward the Grove with cool lake-smell on the air.
 
 Coverage may include shore, depth, mouths, channel, sense — but **not** as one-fact-per-sentence in that fixed order. Steal the move (glance geography + affordance), not the architecture. Hunger, Squid/otter names, mystery beats, and “unclaimed” stay in DM / encounter sections.
 

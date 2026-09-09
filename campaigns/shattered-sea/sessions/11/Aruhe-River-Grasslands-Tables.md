@@ -40,7 +40,7 @@ When the crew navigates a new stretch of grassland or river, they make a **Wisdo
 
 On every check, pass or fail, roll `1d8` on this table and run the linked hazard that fits the ground in front of the crew. A success means they see the hazard coming and can go around, engage, or pay a cost and keep walking. A failure means the same hazard is already in reach or already active.
 
-If they pluck living plants, fish for themselves, or kill to carry flesh, roll `2d8` and keep the lower result. Fallen fruit, passage, and free-flowing water are not a claim. See [[Taking on Aruhe]].
+If they pluck living plants, fish for themselves, or kill to carry flesh, roll `2d8` and keep the lower result. Fallen fruit and passage are not a claim. See [[Taking on Aruhe]].
 
 If the rolled hazard does not belong in the current ground, reroll once. If a dedicated scene already used that hazard, reroll once among hazards that have not appeared on this stretch.
 
@@ -54,7 +54,7 @@ If the rolled hazard does not belong in the current ground, reroll once. If a de
 ## Deep
 
 - The current hazard roster is also indexed at [[00 Hazards]].
-- Dedicated scene cards take precedence over this table. Do not roll it during the landing, the wolfrabbit pack, [[Aruhe - River Line Bank]], the otter hole, the night watch, [[Aruhe - Grasslands Print Braid]], or [[Aruhe - Quiet Forest Spoke Ring]].
+- Dedicated scene cards take precedence over this table. Do not roll it during the landing, the wolfrabbit pack, [[Aruhe - River Line Bank]], the otter hole, the night watch, [[Aruhe - Grasslands - Print Braid]], or [[Aruhe - Quiet Forest Spoke Ring]].
 - No planned treasure is attached to a roll. Living plants remain subject to [[Taking on Aruhe]]; fallen fruit is genuinely beneficial when its owner note says it is.
 
 ## Ran in

@@ -26,13 +26,12 @@ source: "[[Aruhe - Quiet Forest]]"
 
 ---
 ## At a glance
-Spoke Ring is the first Quiet hub north of [[Aruhe - Grasslands Print Braid|Print Braid]], where game trails meet on the seam of [[Aruhe - Quiet Forest]], [[Aruhe - Grasslands]], and a small root-cut of [[Aruhe - River]]. Unlike Print Braid's grass braid and cobble ring, or [[Aruhe - Quiet Forest Cutoff Lip|Cutoff Lip]]'s packed sleep-shelf and knee palisade, this site is a radial dirt star under leaf roof: a live stone fire at the center, four mats set at equal remove, heavy stonepears overhead, and exits that offer different kinds of wrong direction. Stay on a grassland ridge or turn back on Print Braid and the hub can be skipped; walk the inland prints into the wood and it remains the fire ring, mats, fallen stonepears, and spokes that do not all want the same night. The inland group stopped here. The smoke the prints followed is this fire.
+Spoke Ring is the first Quiet hub north of [[Aruhe - Grasslands - Print Braid|Print Braid]], where game trails meet on the seam of [[Aruhe - Quiet Forest]], [[Aruhe - Grasslands]], and a small root-cut of [[Aruhe - River]]. Unlike Print Braid's grass braid and cobble ring, or [[Aruhe - Quiet Forest Cutoff Lip|Cutoff Lip]]'s packed sleep-shelf and knee palisade, this site is a radial dirt star under leaf roof: a live stone fire at the center, four mats set at equal remove, heavy stonepears overhead, and exits that offer different kinds of wrong direction. Stay on a grassland ridge or turn back on Print Braid and the hub can be skipped; walk the inland prints into the wood and it remains the fire ring, mats, fallen stonepears, and spokes that do not all want the same night. The inland group stopped here. The smoke the prints followed is this fire.
 
 ---
 ## If the party
 
-- **Drink from the west spoke:** Root-cut water of [[Aruhe - River]] is drinkable. That is not a claim.
-- **Follow the south spoke:** Packed prints return through the last gold-green onto [[Aruhe - Grasslands Print Braid|Print Braid]].
+- **Follow the south spoke:** Packed prints return through the last gold-green onto [[Aruhe - Grasslands - Print Braid|Print Braid]].
 - **Follow a north spoke:** Packed dirt opens onto [[Aruhe - Quiet Forest Star Cut|Star Cut]]. Garden talk still points past that aisle. This is not [[Aruhe - Memorial Grove]].
 - **Stay on a ridge or turn back on Print Braid and skip the hub:** The fire ring, mats, stonepears, and split at this fire are lost.
 - **Walk the packed hub:** The dirt around the fire is ordinary ground. The wood beyond the trail mouths is Difficult Terrain and heavily obscures beyond 10 feet.
@@ -55,7 +54,7 @@ Spoke Ring is the first Quiet hub north of [[Aruhe - Grasslands Print Braid|Prin
 ## What
 
 - A round packed-dirt hub sits under Quiet leaves, with a live fire ring of wet river stones at the center. Smoke pools beneath the leaf roof instead of rising as a column.
-- The spokes are the landmark: narrow packed trails radiate from the fire through buttress-root trunks. The south spoke still holds crushed prints from [[Aruhe - Grasslands Print Braid|Print Braid]]. North spokes open onto [[Aruhe - Quiet Forest Star Cut|Star Cut]]. The west spoke drops through hanging roots toward a narrow strip of [[Aruhe - River]].
+- The spokes are the landmark: narrow packed trails radiate from the fire through buttress-root trunks. The south spoke still holds crushed prints from [[Aruhe - Grasslands - Print Braid|Print Braid]]. North spokes open onto [[Aruhe - Quiet Forest Star Cut|Star Cut]]. The west spoke drops through hanging roots toward a narrow strip of [[Aruhe - River]].
 - Four sleeping mats lie about 10 feet from the ring: woven fiber with a rolled blanket, a dark green pad, a rust pillow, and a grey pillow. Their spacing makes the hub feel measured, not accidental.
 - [[Aruhe - Stonepear]] hangs from mossed branches directly over the ring. Fallen fruit already down by the coals is receiving. Living stems still hang above the same fire.
 - The west water is close but secondary: enough clear flow for drinking, washing, and listening through roots, not enough open channel to invite otter play as the main scene.
@@ -66,8 +65,8 @@ Spoke Ring is the first Quiet hub north of [[Aruhe - Grasslands Print Braid|Prin
 
 - **North:** North spokes open onto [[Aruhe - Quiet Forest Star Cut|Star Cut]]. Garden talk still points past that aisle. This is the same valley, not a day's travel. This is not [[Aruhe - Memorial Grove]].
 - **East:** More [[Aruhe - Quiet Forest]] follows the jungle wall. No established next named Quiet site on that trail yet.
-- **South:** Packed prints return onto [[Aruhe - Grasslands Print Braid|Print Braid]], then [[Aruhe - Quiet Forest Cutoff Lip|Cutoff Lip]]. Gold-green grass still shows at this south mouth.
-- **West:** A root-cut drops to [[Aruhe - River]]. Drinkable water talks through those roots. This hub is not [[Aruhe - River Slack Basin]].
+- **South:** Packed prints return onto [[Aruhe - Grasslands - Print Braid|Print Braid]], then [[Aruhe - Quiet Forest Cutoff Lip|Cutoff Lip]]. Gold-green grass still shows at this south mouth.
+- **West:** A root-cut drops to [[Aruhe - River]]. Water talks through those roots. This hub is not [[Aruhe - River Slack Basin]].
 
 ---
 ## Why

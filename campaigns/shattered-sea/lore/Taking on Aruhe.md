@@ -18,7 +18,7 @@ Aruhe tolerates crossing, watching, sheltering, and passage. The garden minds wh
 - **Passage tolerated:** Cross the island, watch life, shelter, map, and pass through without taking a living thing.
 - **Taking answered:** Plucking, uprooting, trapping, fishing for self, or killing to carry flesh. The nearest animals turn.
 - **Receiving allowed:** Fruit and other offerings can be genuinely beneficial, with no hidden curse on the flesh; the meaningful distinction is whether someone takes living abundance for ownership or receives what the island offers.
-- **Safe nonliving use:** Loose stone and shed shell are acceptable. Free-flowing spring, stream, and cave seepage are drinkable.
+- **Safe nonliving use:** Loose stone and shed shell are acceptable.
 - **Living place:** Living things belong where they are. Ownership, waste, and careless destruction offend the island.
 - **Convergence:** On a take, surrounding life converges hostilely. The response is ecological alignment, not a single mind or master predator.
 

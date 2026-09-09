@@ -63,7 +63,7 @@ bonus_actions:
 
 ## Behavior
 
-**Habitat.** Spiguars dominate the hottest open cuts of [[Aruhe - Grasslands]], especially the long channels where drinkable water, shaded banks, and eight-foot grass make travelers choose between cover and clear sight. They favor low rises, game trails, river bends, and the line where the grass gives way to the darker jungle rim.
+**Habitat.** Spiguars dominate the hottest open cuts of [[Aruhe - Grasslands]], especially the long channels where shaded banks and eight-foot grass make travelers choose between cover and clear sight. They favor low rises, game trails, river bends, and the line where the grass gives way to the darker jungle rim.
 
 **Behavior.** A Spiguar hunts from stillness. It lies under its living mantle until wind, insects, and birds accept the shape as another grass clump, then explodes through the lane in one crushing rush. It does not spend itself on long pursuit into deep water, bare stone, or broken ground.
 

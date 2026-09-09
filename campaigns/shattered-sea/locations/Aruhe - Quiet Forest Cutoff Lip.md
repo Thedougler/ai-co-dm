@@ -31,8 +31,7 @@ Cutoff Lip is the first Quiet, a dry packed print shelf above a downslope seep o
 ---
 ## If the party
 
-- **Drink from the downslope seep:** The water is drinkable. That is not a claim.
-- **Follow the prints north along this lip:** The trail stays on packed dirt onto [[Aruhe - Grasslands Print Braid]], then [[Aruhe - Quiet Forest Spoke Ring|Spoke Ring]].
+- **Follow the prints north along this lip:** The trail stays on packed dirt onto [[Aruhe - Grasslands - Print Braid]], then [[Aruhe - Quiet Forest Spoke Ring|Spoke Ring]].
 - **Walk back south:** [[Aruhe - River Slack Basin|Slack Basin]].
 - **Stay on a ridge or drop to the river and skip the shelf:** The knee palisade, the packed camp, and the root-bowl are lost.
 - **Stand watch at the knee palisade:** That post is 15 feet into the wood from the packed shelf. Dim light and foliage. A body there is isolated from camp.
@@ -55,14 +54,14 @@ Cutoff Lip is the first Quiet, a dry packed print shelf above a downslope seep o
 - Hollow knee-roots stand chest-high in a palisade along the east edge of the shelf. The wood is thin and dark inside. A heavy body striking them makes a drum boom, then the Quiet takes the sound.
 - Shoulder-height bark on the first trunks is torn to white wood. Dark hair and dry velvet hang in those tears.
 - A root-bowl opens 15 feet past the palisade, a hollow of stained leaf between knees. Interrupted kills collect there.
-- Gold-green grass still stands downslope to the west, thinning toward a rock seep of [[Aruhe - River]]. Free-flowing water there is drinkable.
+- Gold-green grass still stands downslope to the west, thinning toward a rock seep of [[Aruhe - River]].
 - Past the knees, the Quiet has no insect-saw and no bird chatter. Sight dies in a few paces.
 - A thin column of smoke stands up-valley along this same lip. It is not on this shelf.
 
 ---
 ## Where
 
-- **North:** Packed prints follow this lip onto [[Aruhe - Grasslands Print Braid|Print Braid]], then [[Aruhe - Quiet Forest Spoke Ring|Spoke Ring]]. This is the same valley, not a day's travel. The hub is not on this lip.
+- **North:** Packed prints follow this lip onto [[Aruhe - Grasslands - Print Braid|Print Braid]], then [[Aruhe - Quiet Forest Spoke Ring|Spoke Ring]]. This is the same valley, not a day's travel. The hub is not on this lip.
 - **East:** [[Aruhe - Quiet Forest]] interior past the knee palisade. No established next named site on that trail yet.
 - **South:** The bloody-bank prints return toward [[Aruhe - River Slack Basin|Slack Basin]] and the grassland river, the way the detour climbed.
 - **West:** Downslope [[Aruhe - Grasslands]] and [[Aruhe - River]] at the rock seep. Slack Basin is the claimed water behind this lip, not this shelf.

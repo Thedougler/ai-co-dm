@@ -19,7 +19,7 @@ The crew commits to following the upriver prints and smoke off this bank (hand t
 
 - **Stakes:** The sign is fresh. Waiting lets the smoke thin and the trail go cold.
 - **Goal / exit:** Commit to the upriver prints (beat 3), or break for the ship.
-- **This bank:** Fresh prints, a scraped fire, a closed crate, fallen fruit, living red berries on the wet stems, drinkable river, eight-foot grass.
+- **This bank:** Fresh prints, a scraped fire, a closed crate, fallen fruit, living red berries on the wet stems, river, eight-foot grass.
 - **Claim:** Fallen fruit is already down. Plucking a living plant is a [[Taking on Aruhe]] claim.
 - **Silence:** Present this bank, then wait.
 
@@ -33,7 +33,7 @@ Raid survivors already used this bank and walked upriver toward the smoke. There
 
 ### Action cards
 
-**This bank.** Eight-foot gold-green grass is Difficult Terrain and heavily obscures beyond 10 feet. Movement leaves a crushed corridor. Free-flowing river water is drinkable.
+**This bank.** Eight-foot gold-green grass is Difficult Terrain and heavily obscures beyond 10 feet. Movement leaves a crushed corridor.
 
 **[[Taking on Aruhe]] claim.** Fruit skins and whole fruit already on the ground are down. Living [[Aruhe - Redheart Berry]] still hangs on short thick stems at the wet margin. Taking what is already down is not a claim. Plucking living plants is a claim. Fishing, trapping, or killing to carry flesh is a claim. On a claim, do not roll the hazards table now. The later [[Aruhe-River-Grasslands-Tables]] roll is `2d8`, keeping the lower result. The trail and smoke remain.
 
@@ -73,10 +73,10 @@ Raid survivors already used this bank and walked upriver toward the smoke. There
 
 | Intent | Approach | DC | Success | Partial | Failure |
 | --- | --- | --- | --- | --- | --- |
-| Assess the situation | **Wisdom (Perception)**, **Wisdom (Survival)**, or **Intelligence (Investigation)** | `DC 12` | The prints, fire scrape, crate, and fruit skins on this bank are fresh. Feet lead upriver toward the smoke. Fruit on the ground is off the plant. Living red berries still hang on stems at the wet margin. How many people passed, and whether those people claimed living fruit, stay unknown. | The looker gets the fresh prints on this bank and the upriver line toward the smoke, but spends the round at it. | The looker wastes the round watching this bank. |
+| Assess the situation | **Wisdom (Perception)**, **Wisdom (Survival)**, or **Intelligence (Investigation)** | `DC 12` | The prints, fire scrape, crate, and fruit skins on this bank are fresh. Feet lead upriver toward the smoke. Fruit on the ground is off the plant. Living red berries still hang on stems at the wet margin. How many people passed, and whether those people claimed living fruit, stay unknown. | The looker gets the fresh prints and upriver line, but the crew spends the round on this bank while the smoke thins. | The bank does not resolve into a useful read; if the crew waits, the smoke thins and the trail cools. |
 | Follow the upriver prints and smoke off this bank | Committing to follow the prints upriver along this valley | Commit | The crew commits to the upriver trail toward the smoke. Hand to beat 3. This scene ends. | Binary — no partial. | Binary — no partial. |
 | Return to the beach or [[Uncertainty]] | Walking downstream through the terrace line | Walk | The crew leaves this bank for a return through the terrace line to the beach or [[Uncertainty]]. Rebuild from that. This scene ends. | Binary — no partial. | Binary — no partial. |
-| Search the crate and fire scrape | **Intelligence (Investigation)** or **Wisdom (Perception)** | `DC 12` | That crew member can take the closed crate. The fire scrape is cold ash in cleared dirt. Opening the crate does not name how many people passed or whether they claimed fruit. Do not invent contents. | That crew member spends the round at the crate and ash and gets that this stop is fresh, nothing more. | That crew member wastes the round poking the kit. |
+| Search the crate and fire scrape | **Intelligence (Investigation)** or **Wisdom (Perception)** | `DC 12` | That crew member can take the closed crate. The fire scrape is cold ash in cleared dirt. Opening the crate does not name how many people passed or whether they claimed fruit. Do not invent contents. | That crew member spends the round at the crate and confirms this stop is fresh. | That crew member spends the round on the kit; the crate contents and head count remain unknown. |
 | Pick fruit on this river-valley bank | **Intelligence (Nature)** or **Wisdom (Survival)** to sort fallen fruit from living stems. **Utilize** if that crew member plucks without sorting. Plucking living stems on purpose is a claim. | `DC 12` | That crew member takes only fruit already down on this bank. That is not a claim. Eating a fallen [[Aruhe - Redheart Berry]] is a Bonus Action and regains `8d4 + 8` hit points. The trail and smoke remain. | That crew member takes some living stems on this bank. That is an [[Taking on Aruhe]] claim. The later hazards-table roll uses `2d8`, keeping the lower result. The trail and smoke remain. | That crew member strips living fruit on this bank. That is an [[Taking on Aruhe]] claim. The later hazards-table roll uses `2d8`, keeping the lower result. The trail and smoke remain. |
 
 ## Landing

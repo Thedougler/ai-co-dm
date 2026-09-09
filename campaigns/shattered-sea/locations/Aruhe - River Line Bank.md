@@ -31,10 +31,8 @@ Line Bank is a used fruiting margin of [[Aruhe - River]] inside [[Aruhe - Grassl
 ---
 ## If the party
 
-- **Drink from the free-flowing river:** The water is drinkable.
 - **Follow the prints upriver:** [[Aruhe - River Slack Basin|Slack Basin]].
 - **Walk back downstream:** [[Aruhe - Grasslands Torn Crossing]].
-- **Stay on a ridge or grass edge and skip the margin:** The piles, the line, and the prints are lost.
 - **Walk the eight-foot grass:** The grass is Difficult Terrain and heavily obscures beyond 10 feet. Movement leaves a crushed corridor.
 - **Search the pole, bones, and line:** **Intelligence (Investigation)** or **Wisdom (Perception) — `DC 12`** → The pole is a crude frame still holding a line in the water, with fish bones and loose scales on the wet sand. Searching it does not name how many people fished or what they caught. Do not invent a catch. Failure → The searcher spends time at the line and learns only that this stop is fresh.
 - **Take fruit along the wet margin:** Fallen fruit is receiving. Plucking a living plant makes surrounding life converge, hostile. [[Taking on Aruhe]]
@@ -54,7 +52,7 @@ Line Bank is a used fruiting margin of [[Aruhe - River]] inside [[Aruhe - Grassl
 ## What
 
 - Eight-foot gold-green grass hides a standing body. A double muddy track of crushed stems runs through the middle of the stretch.
-- The river is gin-clear over pale stone, with submerged grass in the current. Free-flowing water here is drinkable passage.
+- The river is gin-clear over pale stone, with submerged grass in the current.
 - Three fruiting bushes stand in the grass: one at the wet sand by the pole, one farther down the same bank, and one inland toward the jungle wall. Tawny orange fruit still hangs on the living wood. Piles of whole fruit and split skins sit at the roots, pale green globes in one heap and tawny orange globes in the others.
 - Dirt under fruit already on the ground is clean. Dark red mud packs only around living stems whose branches have been snapped on the plant. [[Aruhe - Redheart Berry]] can occur among fruit already down at the wet margin.
 - A wooden pole on a short frame leans over the water. A thin line still hangs in the current. Fish bones and loose silver scales lie on the wet sand beside it.
@@ -75,7 +73,6 @@ Line Bank is a used fruiting margin of [[Aruhe - River]] inside [[Aruhe - Grassl
 
 - The sign of how the group ahead has been staying alive, and what left blood on this bank.
 - Fallen fruit already down, and a line that has been catching fish.
-- Drinkable free-flowing water on the same prints toward the smoke.
 
 ---
 ## Art

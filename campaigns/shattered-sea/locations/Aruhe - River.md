@@ -22,19 +22,18 @@ source: "[[Aruhe - Hungry Isle]]"
 
 ---
 ## At a glance
-The rivers draining [[Aruhe - Clear Lake]] braid through Aruhe and cut across the island's bands. They are the best road, and they are occupied: the fast clear water belongs to [[Aruhe - River Otter|River Otter]] families. Follow the current downhill or the water uphill toward the lake. Lateral channels reach [[Aruhe - Grasslands]], [[Aruhe - The Marshes]], and [[Aruhe - Quiet Forest]]. The first grassland mouth after the terraces is [[Aruhe - River Landing Bank|Landing Bank]]. Upvalley of the first hunting lane, the used fruiting margin is [[Aruhe - River Line Bank|Line Bank]]. Upvalley of Line Bank, the claimed slack is [[Aruhe - River Slack Basin|Slack Basin]]. The jungle-bank lip after Slack Basin is [[Aruhe - Quiet Forest Cutoff Lip|Cutoff Lip]]. North of that lip the packed prints braid at [[Aruhe - Grasslands Print Braid|Print Braid]]. Stay on a bank and the channel can be skipped; enter the water and it is otter play.
+The rivers draining [[Aruhe - Clear Lake]] braid through Aruhe and cut across the island's bands. They are the best road, and they are occupied: the fast clear water belongs to [[Aruhe - River Otter|River Otter]] families. Follow the current downhill or the water uphill toward the lake. Lateral channels reach [[Aruhe - Grasslands]], [[Aruhe - The Marshes]], and [[Aruhe - Quiet Forest]]. The first grassland mouth after the terraces is [[Aruhe - River Landing Bank|Landing Bank]]. Upvalley of the first hunting lane, the used fruiting margin is [[Aruhe - River Line Bank|Line Bank]]. Upvalley of Line Bank, the claimed slack is [[Aruhe - River Slack Basin|Slack Basin]]. The jungle-bank lip after Slack Basin is [[Aruhe - Quiet Forest Cutoff Lip|Cutoff Lip]]. North of that lip the packed prints braid at [[Aruhe - Grasslands - Print Braid|Print Braid]]. Stay on a bank and the channel can be skipped; enter the water and it is otter play.
 
 ---
 ## If the party
 
-- **Drink from free-flowing water:** The water is drinkable.
 - **Follow the water uphill:** [[Aruhe - Clear Lake]].
 - **Follow a lateral channel:** [[Aruhe - Grasslands]], [[Aruhe - The Marshes]], or [[Aruhe - Quiet Forest]].
 - **Drop from the terraces into the first grassland mouth:** [[Aruhe - River Landing Bank|Landing Bank]].
 - **Walk the grassland bank upvalley of the first hunting lane:** [[Aruhe - River Line Bank|Line Bank]].
 - **Walk the grassland bank upvalley of Line Bank:** [[Aruhe - River Slack Basin|Slack Basin]].
 - **Climb the jungle-bank lip off Slack Basin:** [[Aruhe - Quiet Forest Cutoff Lip|Cutoff Lip]].
-- **Walk the packed prints north of that lip:** [[Aruhe - Grasslands Print Braid|Print Braid]].
+- **Walk the packed prints north of that lip:** [[Aruhe - Grasslands - Print Braid|Print Braid]].
 - **Follow the inland prints off Print Braid into the Quiet hub:** [[Aruhe - Quiet Forest Spoke Ring|Spoke Ring]].
 - **Follow the north spoke off Spoke Ring onto the night aisle:** [[Aruhe - Quiet Forest Star Cut|Star Cut]].
 - **Travel on the water:** Hours-scale where navigable. Current, rapids, deep pools, and otter families make it dangerous.
@@ -80,7 +79,7 @@ The rivers draining [[Aruhe - Clear Lake]] braid through Aruhe and cut across th
 - Used fruiting margin upvalley of Torn Crossing: [[Aruhe - River Line Bank|Line Bank]]
 - Claimed slack upvalley of Line Bank: [[Aruhe - River Slack Basin|Slack Basin]]
 - Jungle-bank lip after Slack Basin: [[Aruhe - Quiet Forest Cutoff Lip|Cutoff Lip]]
-- Packed-print braid north of that lip: [[Aruhe - Grasslands Print Braid|Print Braid]]
+- Packed-print braid north of that lip: [[Aruhe - Grasslands - Print Braid|Print Braid]]
 - Trail-star Quiet hub north of that braid: [[Aruhe - Quiet Forest Spoke Ring|Spoke Ring]]
 - Night-watch aisle north of that hub: [[Aruhe - Quiet Forest Star Cut|Star Cut]]
 - Grassland bank lower and open; jungle bank a wall of leaves and roots
@@ -88,7 +87,6 @@ The rivers draining [[Aruhe - Clear Lake]] braid through Aruhe and cut across th
 ---
 ## Why
 
-- Drinkable free-flowing water.
 - The fastest heading across the island's bands.
 - Food on the wet margins and in the tended fish.
 

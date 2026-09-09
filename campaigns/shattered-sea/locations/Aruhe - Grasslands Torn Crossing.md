@@ -23,12 +23,11 @@ source: "[[Aruhe - Grasslands]]"
 
 ---
 ## At a glance
-Torn Crossing is the rock-and-water break inside [[Aruhe - Grasslands]], just upvalley of [[Aruhe - River Landing Bank]]. Unlike the open grassland river lane, this stretch is a flood tear: exposed black rocks, a pale stone shelf, crushed stems, drinkable fast water, and pale [[Aruhe - Razer-Grass]] stands that force travelers to snake through the mud instead of walking straight. People already walked the crushed corridor toward inland smoke. Stay on a ridge or grass edge and the lane can be skipped; drop into the cut and it becomes water, prints, slick stone, glass stands, and cover that hides a standing body. Downstream returns to Landing Bank. A [[Aruhe - Spiguar]] owns this grass channel and hunts [[Aruhe - Wolfrabbit|wolfrabbit]] packs that work the cut.
+Torn Crossing is the rock-and-water break inside [[Aruhe - Grasslands]], just upvalley of [[Aruhe - River Landing Bank]]. Unlike the open grassland river lane, this stretch is a flood tear: exposed black rocks, a pale stone shelf, crushed stems, fast water, and pale [[Aruhe - Razer-Grass]] stands that force travelers to snake through the mud instead of walking straight. People already walked the crushed corridor toward inland smoke. Stay on a ridge or grass edge and the lane can be skipped; drop into the cut and it becomes water, prints, slick stone, glass stands, and cover that hides a standing body. Downstream returns to Landing Bank. A [[Aruhe - Spiguar]] owns this grass channel and hunts [[Aruhe - Wolfrabbit|wolfrabbit]] packs that work the cut.
 
 ---
 ## If the party
 
-- **Drink from the free-flowing river:** The water is drinkable.
 - **Follow the prints upriver:** [[Aruhe - River Line Bank|Line Bank]].
 - **Walk back downstream:** [[Aruhe - River Landing Bank]].
 - **Stay on a ridge or grass edge and skip the cut:** The water, prints, and hunting lane are lost.
@@ -52,7 +51,7 @@ Torn Crossing is the rock-and-water break inside [[Aruhe - Grasslands]], just up
 
 - Eight-foot gold-green grass hides a standing body. Near the crossing the flood has combed the blades flat into slick lanes, while the unbroken grass stands higher on both sides. Farther in, anything that does not lean is an animal.
 - A muddy corridor of crushed stems and wet stone carries fresh upriver prints through the middle of the stretch.
-- The river is gin-clear over pale stone shelves and broken black rock. Free-flowing water here is drinkable passage, but the current makes the stone lip loud and slick.
+- The river is gin-clear over pale stone shelves and broken black rock. The current makes the stone lip loud and slick.
 - Pale [[Aruhe - Razer-Grass]] islands stand in the scour and in the grass, waist-high, with fixed sparkle and a thin glass tick. Trails bend around them. Old reddish smears mark a few lower stalks.
 - [[Aruhe - Redheart Berry]] still hangs on short thick stems at the wet margin.
 - Bank-woods and a jungle wall close the inland edge. The pack will not chase far under that shade. The [[Aruhe - Spiguar]] drags meat that way before feeding.

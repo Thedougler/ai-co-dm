@@ -32,7 +32,6 @@ Slack Basin is a claimed backwater of [[Aruhe - River]] inside [[Aruhe - Grassla
 ---
 ## If the party
 
-- **Drink from the wet sand without entering the slack:** The water is drinkable. That is not a claim and is not a hunt.
 - **Follow the blood trail into the trees:** The living prints leave this water and climb onto [[Aruhe - Quiet Forest Cutoff Lip]].
 - **Walk back downstream:** [[Aruhe - River Line Bank|Line Bank]].
 - **Stay on a ridge or grass edge and skip the basin:** The slack, the remains, and the bloody-bank detour are lost.
@@ -52,7 +51,7 @@ Slack Basin is a claimed backwater of [[Aruhe - River]] inside [[Aruhe - Grassla
 ---
 ## What
 
-- A still turquoise basin sits behind a rock lip while white water keeps moving on the far side. The slack is gin-clear over pale stone. Free-flowing water at the wet sand is drinkable if no one steps in.
+- A still turquoise basin sits behind a rock lip while white water keeps moving on the far side. The slack is gin-clear over pale stone.
 - Wet sand and polished stone make a low shelf at the waterline. Jungle roots hang into the quiet side.
 - A thin cane stands in a dark blood smear at that shelf, pointing into the pool. Living prints leave beside the smear and climb into the trees.
 - A closed wooden pack, a maroon sleeve of clothing, and a face-down body in soaked olive cloth hold in the slack. The live current beyond the lip does not take them. Do not invent pack contents.
@@ -74,7 +73,6 @@ Slack Basin is a claimed backwater of [[Aruhe - River]] inside [[Aruhe - Grassla
 
 - The river road stops being safe here.
 - Proof that people already died trying this water, and that the living left around it.
-- Drinkable water on the sand if no one enters the family's hole.
 
 ---
 ## Art

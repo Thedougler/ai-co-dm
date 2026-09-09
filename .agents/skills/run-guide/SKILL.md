@@ -26,10 +26,11 @@ embed and no action-card numbers fails.
 One opposition want, said once. One *procedure*, named. Nothing restated later
 as a second framework.
 
-A DM-facing line stays if Nick will use it this slice to **place** someone,
-**roll** something, or **speak**. Distances, speeds, named *rulings*, the
-opposition want, and the spoken block earn their keep. House Partial, 5e
-defaults, schema commentary, and notes to the writer stay in this skill.
+A DM-facing line stays only if Nick will use it this slice to **place** someone,
+**roll** something, **speak**, or decide a changed risk, route, clock, resource,
+or NPC response. Distances, speeds, named *rulings*, the opposition want, and
+the spoken block earn their keep. Default safety, ordinary permission, house
+Partial, 5e defaults, schema commentary, and notes to the writer stay out.
 Use descriptive, specific, plain language on the DM card too. Use common,
 normal human words unless the common word would be inaccurate. If a name or
 field needs decoding, replace it with the ordinary thing and visible action.
@@ -328,7 +329,7 @@ Completion — all of these hold, or the draft is not done:
 - Travel omitted, or one inlined complication with a failure endpoint.
 - One cockpit: Glance once, no second Run-now, no separate Ask callout, no Scene menu, no peer Round script.
 - The only `> [!` on the card is `[!narration]`. Italic prose in Narration table columns, not callouts in cells.
-- Every DM-facing line is used this slice to place, roll, or speak.
+- Every DM-facing line is signal-only: it changes placement, a roll, spoken words, risk, route, clock, resource, or NPC response.
 
 ## Whole-session branch
 

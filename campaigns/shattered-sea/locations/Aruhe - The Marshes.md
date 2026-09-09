@@ -51,7 +51,7 @@ The Marshes begin along the wet southern shore of [[Aruhe - Clear Lake|Clear Lak
 - **Move quickly through reeds or floating plants:** Movement becomes visible as wakes, shaking leaves, and clouds of disturbed insects.
 - **Remain still:** Mosquitoes, biting flies, leeches, and smaller things accumulate immediately.
 - **Drink standing water:** Unsafe without treatment.
-- **Find flowing water:** Rare away from the lake-fed channels; free-flowing water is drinkable and valuable enough to shape a route.
+- **Find flowing water:** Rare away from the lake-fed channels; channels shape routes through the flooded forest.
 - **Take fruit, eggs, prey, or living plants:** Surrounding life converges, hostile. [[Taking on Aruhe]]
   - Fallen fruit and genuine offerings can be received.
   - **Intelligence (Nature) — identify**
