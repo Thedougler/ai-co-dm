@@ -181,7 +181,7 @@ At CR 18, Cosimo uses PB +6, AC 19, 255 HP, attack bonus +13, and save DC 21. A 
 - **Default target:** the character closest to a proof point, then the character carrying or protecting a visible document.
 - **If the signature is answered:** stop using area pressure as the main plan. Use Seal Talons, Ledger Step, and ordinary spellcasting while the party works the track.
 - **If Cosimo is cornered:** offer terms that create a player choice but do not make agreement mandatory. A bargain can buy time, reveal a clue, or cost a resource; it cannot restore a reduced Paper Trust mark without a new table-earned reversal.
-- **Do not:** make factors telepathic, treat coin destruction as hoard damage, reveal the Vault as confirmed before play earns it, or bolt on a breath weapon that makes the paper game irrelevant.
+- **Table limits:** Factors are independent people, not telepathic. Destroying coin does not damage the hoard. The Vault stays unconfirmed until play earns it. Cosimo has no breath weapon; the paper game is the fight.
 
 ## Design dossier
 

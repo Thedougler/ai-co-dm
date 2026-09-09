@@ -51,10 +51,7 @@ After the Red Lady sank, Kyzil tracked current and weather, searched [[Kalowe]] 
 Sentinel authority, observation ledgers, training, and the ability to direct or withhold pilgrimage judgement. He has no confirmed knowledge of Vantyrus’s present identity or Countless leadership.
 
 ## Next move / interrupt point
-Continue the Calveno investigation and refuse to declare Crissdalynn’s pilgrimage complete. Players can give him evidence, challenge the third-name assumption, or force the distinction between recording and acting.
-
-## Do not
-Do not reveal Osset = Vantyrus to Kyzil unless play earns it; do not give him knowledge of the Soul Incarnate as a conscious being.
+Continue the Calveno investigation and refuse to declare Crissdalynn’s pilgrimage complete. Players can give him evidence, challenge the third-name assumption, or force the distinction between recording and acting. Osset = Vantyrus and the Soul Incarnate as a conscious being stay off his knowledge until play earns them.
 
 ## Ingest delta
 - [[Crissdalynn Khinriss]] still has an unfinished [[Drowned Maw]] map and an open pilgrimage.

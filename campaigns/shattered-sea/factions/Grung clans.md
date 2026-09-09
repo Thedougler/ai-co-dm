@@ -115,9 +115,9 @@ The Grung clans made [[Aruhe - Hungry Isle]] what it is today. Hundreds of years
 ## Provenance
 Primary source: staged Nick dump, `inbox/archive/FILED-2026-09-05-grung-teeth.md`. Promoted legacy context: `/Users/nick/shattered-sea/wiki/shattered-sea/the-grung-clans/faction-grung-clans.md` (poison equalizer, deteriorating water reach, raid calculus, cornered escalation), `/Users/nick/shattered-sea/wiki/shattered-sea/the-grung-clans/region-verdant-teeth.md` (closed interior), and `/Users/nick/shattered-sea/wiki/shattered-sea/the-grung-clans/region-sorn.md` (Botukuri and Simone).
 
-## Unknowns / do not decide
+## Unknowns
 - Whether Auralis is a constructed demigod, a conduit, a creature, or a story made effective by congregation.
 - The exact diet list, sealing words, gold presence's physical nature, and complete caste offices.
 - The full Twiceborn process, the identity of every clan leader, and whether every red-marked Grung shares one role.
 - A complete fleet roster or a single command hierarchy.
-- Any mechanical homebrew beyond existing creature/encounter pages; keep this note cultural and fictional.
+- Creature math lives on existing creature and encounter pages; this note stays cultural and fictional.

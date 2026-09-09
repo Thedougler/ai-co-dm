@@ -37,13 +37,7 @@ The name Hungry Isle means too much of everything, not lack. Outsiders may call 
 - **Factions:** [[Tangle]] · [[Passage]] · [[Grung clans]]
 
 ## Table use
-This page is the only explanation. On every other note, when a take is in play, write the consequence: animals attack. Link [[Taking on Aruhe]]. Do not lecture claiming versus receiving. Beneficial fruit is not secretly poisonous.
+This page is the only explanation. On every other note, when a take is in play, write the consequence: animals attack. Link [[Taking on Aruhe]]. Beneficial fruit is not secretly poisonous.
 
 ## Provenance
 Primary source: Nick paste, 2026-09-05. Legacy context promoted from `/Users/nick/shattered-sea/wiki/shattered-sea/aruhe-hungry-isle/creature-blight.md` and `/Users/nick/shattered-sea/wiki/shattered-sea/aruhe-hungry-isle/region-aruhe-the-grove.md`. Renamed from an older title; keep that name off other notes.
-
-## Do not
-- Treat the response as a hive mind, single master predator, or arbitrary negation of player capabilities.
-- Turn ordinary passage, watching, sheltering, loose stone, shed shell, or free-flowing water into a take.
-- Write fruit or beast mechanics in this lore note.
-- Restate this lecture on other notes.

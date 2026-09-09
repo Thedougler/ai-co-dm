@@ -29,11 +29,7 @@ He has no independent present-day drive; he is dead. In Hinewai's remaining memo
 - [[Aruhe - Hungry Isle]]: his preservation is the origin pressure behind the island's excess and boundaries.
 
 ## Resources
-The grave, the fruit he loved, and the preserved memory of his death are clues, not loot or a detachable magic object.
+The grave stays under the memorial tree in [[Aruhe - Memorial Grove]]. The fruit he loved and the preserved memory of his death are clues, not loot, a detachable magic object, or a portable phylactery. His name, face, and biography remain unknown.
 
 ## Provenance
 Primary source: Nick paste, 2026-09-05. Legacy memorial context: `/Users/nick/shattered-sea/wiki/shattered-sea/aruhe-hungry-isle/region-aruhe-the-grove.md`.
-
-## Do not
-- Invent his name, identity, or biography.
-- Treat his grave as a separate portable phylactery.

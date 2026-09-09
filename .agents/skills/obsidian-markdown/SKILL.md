@@ -23,7 +23,7 @@ write must preserve vault wikilinks, applicable callouts, and AGENTS properties.
 - **Live session surfaces:** In run-guide, session-prep, session, and beat notes, never use collapsed callouts (`[!…]-`); keep DM information open so session cards do not hide it. Collapsed secrets remain allowed on long-lived owner pages (NPC/PC/faction) when useful.
 - **Real body newlines:** Prose, lists, and callout bodies must use real line breaks, never a literal backslash followed by `n`. This is especially strict for run-guide, session-prep, session, and beat notes. The only exemptions are YAML frontmatter and fenced code/statblocks (including YAML string values inside a statblock fence); outside those regions, a literal `\n` is a FAIL.
 - **Complete sentences on live surfaces:** Every DM-facing line on a run guide, session prep, or beat card must be a **complete grammatical sentence** (or a short list of complete sentences). Telegram shorthand, letter-code-only clauses, and slash-stacks that need a decoder are presentation fails. Wikilinks, bold field labels, compact tables, and the **at-table check/save grammar** below are allowed when cells remain readable sentences or clear subject-bearing fragments.
-- **Signal-only lines:** Every wiki line must earn table attention by changing a choice, ruling, risk, resource, route, clock, NPC response, or words to speak. Cut default, normal, and no-effect statements; mention safety, permission, ordinary water, weather, or light only when that fact changes play.
+- **Signal-only lines:** Every wiki line must earn table attention by changing a choice, ruling, risk, resource, route, clock, NPC response, or words to speak. Cut default, normal, and no-effect statements; mention safety, permission, ordinary water, weather, or light only when that fact changes play. Campaign and session notes state what to run, say, or know; agent-process bans stay in skills, AGENTS, and templates-for-agents.
 - **At-table scan:** each Markdown treatment has exactly one meaning (table under Syntax). `DC 15` is inline code. Private DM notes are headings on session/run surfaces, and `[!secret]` / `[!mechanic]` on owner pages.
 - **Monsters:** Fantasy Statblocks fence (```` ```statblock ````) immediately after frontmatter, or after a single `## Statblock` heading so run cards can `![[Name#Statblock]]`. See `templates/Monster.md` + `./scripts/lint-statblocks`. Never a prose AC/HP table instead of the fence. No WotC book paste. The fence keeps 5e YAML phrasing (`DC 15 Constitution saving throw`); at-table scan is for wiki body, not the fence.
 - **Run-card roster:** embed the owner heading (`![[Bloodhawk#Statblock]]`) at the bottom. Put default-mode compact numbers on the action cards (`run-guide`). Do not retype the owner's full Multiattack/HP table into the card body. Do not embed the whole monster essay.
@@ -37,7 +37,7 @@ write must preserve vault wikilinks, applicable callouts, and AGENTS properties.
 2. Fill frontmatter (`type` + campaign fields).
 3. If `type: monster` → optional `## Statblock`, then the `statblock` fence.
 4. Leading `[!narration]` when the template expects it.
-5. Body: one topic/note; wikilink nearest index/MOC/`hot` as needed.
+5. Body: one topic/note; facts to run, say, or know; wikilink nearest index/MOC/`hot` as needed. Drop `## Do not` and other author-process bans.
 6. On session/run beats, DM truth and procedure are headings; the only callout is `[!narration]`. Do not put callouts inside table cells. On owner pages, DM procedure / hidden truth → `[!mechanic]` or `[!secret]`. Use collapsed `[!secret]-` only on long-lived owner pages such as NPC/PC/faction pages.
 7. In prose, lists, and callout bodies, type each line break as a real newline; do not serialize it as a backslash-`n` sequence.
 
@@ -189,6 +189,7 @@ Types and tags: [references/PROPERTIES.md](references/PROPERTIES.md).
 | Secrets inside `[!narration]` | Session/run: DM truth as a heading. Owner pages: `[!secret]` / `[!secret]-` |
 | `**DC 15**` or `**DC 15** *Perception*` | `**Wisdom (Perception) — \`DC 15\`**` |
 | `==highlight==` for a private DM note | Session/run: a heading. Owner page: `[!secret]` / `[!mechanic]` |
+| `## Do not` / author-process bans on campaign pages | Facts to run, say, or know; unresolved as unknowns or table limits |
 | New `wiki/` or `concepts/` folders | `campaigns/` · `lexicon/` · `inbox/` |
 | WotC book paste | paraphrase / house / SRD link in `source` |
 | `![](…)` / absolute disk paths for vault art | `![[attachments/…]]` / `[[attachments/…]]` |
