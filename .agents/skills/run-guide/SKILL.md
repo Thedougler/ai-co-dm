@@ -66,17 +66,26 @@ field needs decoding, replace it with the ordinary thing and visible action.
 ## Workflow
 
 1. **Ground.** Read `hot.md`, tonight's session prep, the latest log, and only
-   the linked owners needed to interpret this slice. `qmd-retrieval`. Completion:
-   every named actor, place, and item has an owner path or is marked unknown.
+   the linked owners needed to interpret this slice. `qmd-retrieval`. Verify
+   beat identity: the card filename's number matches its skeleton position
+   (`Session-<session>-<NN>-Label.md` = beat NN), its purpose and dramatis
+   personae match the skeleton, and its hand-off targets the skeleton's next
+   beat. Mismatch → rename the file before writing. Completion: beat identity
+   confirmed; every named actor, place, and item has an owner path or is
+   marked unknown.
 
 2. **Diagnose.** Mark each beat `ready`, `missing owner`, `missing prep`, or
-   `proposal`. Missing mechanical stock → owning skill (`encounter-prep`,
+   `proposal`. Identify the central element the table will ask the DM to
+   describe — the skeleton's Purpose and Table sees name it. That element and
+   its dramatis personae must have owners before the card is written; create
+   via the appropriate craft skill (`npc-design`, `place-design`,
+   `vehicle-design`). Missing mechanical stock → owning skill (`encounter-prep`,
    `session-beats`). Missing player-visible scene stock → owning page or craft
    skill before TotM fill. Empty `[!narration]` stubs are expected on this pass;
    TotM fill is pass 2. A creature you will roll that has no owner →
-   `homebrew-monsters-5e`. Choose live beats. Completion: no invented canon and
-   every actionable hazard, loot, monster, route, clue, lore sign, and world
-   detail has an owner or is marked unknown.
+   `homebrew-monsters-5e`. Choose live beats. Completion: no invented canon;
+   the central element has an owner; every actionable hazard, loot, monster,
+   route, clue, lore sign, and world detail has an owner or is marked unknown.
 
 3. **Write mechanics.** Load `dnd5e-mechanics` before writing or auditing any
    player-interaction mechanics: checks, saves, DCs, Hide/Search/Study/Influence/
@@ -296,6 +305,8 @@ required procedure.
 Completion — all of these hold, or the draft is not done:
 
 - One named *procedure*; Be ready for failures do not also tick the clock.
+- Beat identity: the card filename's number matches its skeleton position; the card's purpose, dramatis personae, and hand-off match the skeleton.
+- The central element the table will ask about has an owner and appears on the card. Background detail may be marked unknown; the central element may not.
 - No Partial lecture, 5e-default lecture, or writer note on the card.
 - `dnd5e-mechanics` was loaded for every check, save, DC, grapple, shove, attack, damage, quality ladder, or player action mapped to a roll.
 - Previous-session recap appears only on the first beat of the session. Every later beat starts from the immediate current situation.
