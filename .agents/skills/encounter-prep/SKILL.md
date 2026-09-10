@@ -79,6 +79,7 @@ in `run-guide`; this skill supplies table-useful stock:
    aloud.
 10. **How the Scene Resolves:** the next scene's opening state in feet and RAW
     conditions, plus only the most likely options the beat can actually produce.
+    Each option hands off to a beat on the session skeleton — not off-scene.
 11. **If ignored:** one-step independent consequence when delay changes play.
 12. **Time:** 30-minute budget and *cut lines* only when they change a pacing
     choice. Unbounded travel is the next beat, not this stock.
