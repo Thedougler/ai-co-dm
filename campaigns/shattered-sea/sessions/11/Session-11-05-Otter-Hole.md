@@ -41,7 +41,7 @@ The party stands on the wet sand of [[Aruhe - River Slack Basin]], facing east, 
 
 **Easy.** Two Hunt adults. A family of four to six is ecology, not this card's default. Do not spawn extra otters here.
 
-**[[Matteo Scola|Isolated person]].** Use Split-lip as the handle until the party asks his name or pulls him onto the bank. Split lip, one missing boot, grey salt-stiff shirt. Clinging to hanging roots 20 feet north, hips in the slack. No statblock. He deserted the inland group after rejecting the woman in the woods' garden advice, then went back for the pack after the group climbed out. He wants the bank. He does not name the woman.
+**[[Matteo Scola]].** Until they pull him onto the bank, call him the man in the grey shirt. His lip is split, one boot is missing, and the shirt is grey and salt-stiff. He clings to hanging roots 20 feet north, hips in the slack. No statblock. He deserted the inland group after rejecting the woman in the woods' garden advice, then went back for the pack after the group climbed out. He wants the bank. He does not name the woman. After they pull him onto the bank, if he can speak, he gives his name: Matteo. If he is **Unconscious**, he does not give his name until he wakes.
 
 **Compact numbers.** AC 15. Hit points 76. Bite +6 to hit, `14` piercing, reach 5 feet, and if the target is Medium or smaller it has the **Grappled** condition (escape `DC 14`). Tail +6 to hit, `11` bludgeoning, reach 10 feet. Dunk (Recharge 5–6): one creature **Grappled** by that otter is pulled up to 20 feet and shoved underwater, or held under if already in this water; that target has the **Restrained** condition until the grapple ends. Watery Ambush: advantage on attack rolls against a creature in this water if the other otter is within 10 feet of that target. Speed 20 feet, swim 40 feet. Hold Breath 30 minutes on the owner. Play Tug Toy: contested Athletics or Sleight of Hand against a held or worn object within 5 feet; on a success the otter takes the object and swims 10 feet, with no damage.
 
@@ -56,7 +56,7 @@ The party stands on the wet sand of [[Aruhe - River Slack Basin]], facing east, 
 ![[aruhe-river-otter-of-aruhe.jpg|Aruhe River Otter]]
 
 > [!narration] Initial Narration
-> You see a person in a grey salt-stiff shirt hanging from thick jungle roots twenty feet north, both hands on the wood, one boot missing, split lip dripping, hips already in still turquoise water. A twelve-foot chocolate-black otter rolls at those legs, a thin pale streak bright at its throat. At the sand underfoot, another twelve-foot otter holds a chewed pole and a wet rope, a tight white whorl on the pale chest, amber eyes on this bank, whiskers dripping.
+> You see a man in a grey salt-stiff shirt hanging from thick jungle roots twenty feet north, both hands on the wood, one boot missing, blood running from a split in his lip, hips already in still turquoise water. A twelve-foot chocolate-black otter rolls at those legs, a thin pale streak bright at its throat. At the sand underfoot, another twelve-foot otter holds a chewed pole and a wet rope, a tight white whorl on the pale chest, amber eyes on this bank, whiskers dripping.
 >
 > Five feet east the pool sits quiet, clear over pale stone. Fifteen feet out a closed wooden pack rests on that stone. Farther on a body in soaked olive cloth lies face-down, and a maroon sleeve turns beside it. White water keeps tearing along a rock lip thirty feet east, and that current does not take them.
 >
@@ -110,7 +110,7 @@ The Hunt or play turn happens after everyone has acted, and only if the isolated
 | Tick | What happens | Narration |
 | --- | --- | --- |
 | 1 | Play. Whorl-bib uses Tug Toy on the isolated person or on a trailing shirt: that person is pulled 10 feet off the roots toward the pack, coughing, still in this hole. No damage. If Hunt has already started, Whorl-bib uses Multiattack instead: Bite (+6 to hit, `14` piercing, reach 5 feet, **Grappled** escape `DC 14` if Medium or smaller) and Tail (+6 to hit, `11` bludgeoning, reach 10 feet) against the party member who entered this hole, fished it, pulled a body or that person, or struck from this bank. | ==_The whorl-marked otter yanks the clinging person off the hanging roots and toward the pack. The person comes off the wood coughing, grey shirt streaming._== |
-| 2 | Play going bad, or Dunk. Thin-streak rolls the isolated person under. That person has the **Grappled** condition (escape `DC 14`). No Bite damage yet if still in play. If Hunt has started and a party member is **Grappled**, Dunk (Recharge 5–6): pulled up to 20 feet and shoved or held under, **Restrained** until the grapple ends. If Dunk does not recharge, that otter uses Multiattack again. They do not drop to 0 hit points on this tick. | ==_The thin-streaked otter rolls the grey-shirted person under the slack. Water closes over that split lip._== |
+| 2 | Play going bad, or Dunk. Thin-streak rolls the isolated person under. That person has the **Grappled** condition (escape `DC 14`). No Bite damage yet if still in play. If Hunt has started and a party member is **Grappled**, Dunk (Recharge 5–6): pulled up to 20 feet and shoved or held under, **Restrained** until the grapple ends. If Dunk does not recharge, that otter uses Multiattack again. They do not drop to 0 hit points on this tick. | ==_The thin-streaked otter rolls the man in the grey shirt under the slack. Water closes over his face._== |
 | 3 | Cost lands. If the isolated person is still under, they drop to 0 hit points and are **Unconscious**. If a party member is in this water, Watery Ambush: the second [[Aruhe - River Otter]] is within 10 feet of that target and has advantage on attack rolls. They can wait under a dragged body. | ==_The grey shirt hangs slack in the clear water and does not come up._== |
 | 4 | Hold this hole. The otters do not chase far overland. They do not haul out onto [[Aruhe - Razer-Grass]]. They can wait under a body. The isolated person, if still here, is another body in this hole. Do not start [[Session-11-06-Farthest-Camp]] on this tick. | ==_The two otters hold the slack, circling the pack, clothing, and bodies. They do not follow far onto this bank._== |
 
@@ -124,7 +124,7 @@ Do not spawn wolfrabbits, a hazards-table result, night watch, or the deer-stalk
 
 ## Secondary objective
 
-Get the isolated person onto this sand before tick 3. If the party ignores them, they become another body in this hole, and [[Session-11-06-Farthest-Camp]] is fewer than the tracks. If they are on this sand, they walk the detour with the party and can say the others left while they went back for the pack. They do not name the woman.
+Get the isolated person onto this sand before tick 3. If the party ignores him, he becomes another body in this hole, and [[Session-11-06-Farthest-Camp]] is fewer than the tracks. If he is on this sand and can speak, he walks the detour, gives his name as Matteo, and can say the others left while he went back for the pack. He does not name the woman.
 
 ## How the Scene Resolves
 
@@ -139,7 +139,7 @@ The party takes the bloody-bank detour toward the smoke on [[Aruhe - Quiet Fores
 
 | If | Next | Narration |
 | --- | --- | --- |
-| Person rescued | The isolated person is on this sand and walks the detour. Hand to [[Session-11-06-Farthest-Camp]]. | ==_The grey-shirted person walks with you, one boot still missing. He says the others kept walking. He went back for the pack._== |
+| Person rescued | The isolated person is on this sand and walks the detour. Hand to [[Session-11-06-Farthest-Camp]]. | ==_The man in the grey shirt walks with you, one boot still missing. He says his name is Matteo. He says the others kept walking. He went back for the pack._== |
 | Left them | The isolated person remains in this hole. Hand to [[Session-11-06-Farthest-Camp]] without him. | ==_The slack basin and the grey shirt stay behind you. The line of living feet keeps going toward the smoke._== |
 
 ## Roster
@@ -153,7 +153,7 @@ The party takes the bloody-bank detour toward the smoke on [[Aruhe - Quiet Fores
 
 ## Backup
 
-[[Aruhe - River Slack Basin]] · [[Aruhe - Quiet Forest Cutoff Lip]] · [[Aruhe - Quiet Forest Spoke Ring]] · [[Aruhe - River Otter]] · [[Taking on Aruhe]] · [[Aruhe - River Line Bank]] · [[Aruhe - Grasslands]] · [[Aruhe - Young Bloodhawk]] · [[Session-11-00-Random-Tables]] · [[Session-11-04-What-They-Ate]] · [[Session-11-06-Farthest-Camp]] · [[Session-11-00-Birds-of-a-Feather]]
+[[Aruhe - River Slack Basin]] · [[Aruhe - Quiet Forest Cutoff Lip]] · [[Aruhe - Quiet Forest Spoke Ring]] · [[Aruhe - River Otter]] · [[Matteo Scola]] · [[Taking on Aruhe]] · [[Aruhe - River Line Bank]] · [[Aruhe - Grasslands]] · [[Aruhe - Young Bloodhawk]] · [[Session-11-00-Random-Tables]] · [[Session-11-04-What-They-Ate]] · [[Session-11-06-Farthest-Camp]] · [[Session-11-00-Birds-of-a-Feather]]
 
 ## Battlemap
 

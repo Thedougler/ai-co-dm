@@ -1,5 +1,5 @@
 ---
-summary: Nick's correction log. Writers append on #ERROR; ASD drains. Four open: over-scoped `.agent` typo fix; session beat third/fourth copy passes; skimmed working files; preload writing skills.
+summary: Nick's correction log. Writers append on #ERROR; ASD drains. Open: over-scoped `.agent` typo; scenery shorthand; TotM poetry; wound used as a person-handle.
 ---
 
 # User corrections
@@ -287,6 +287,18 @@ Follow skill `agentic-system-designer` (Intake → Baseline → Fix → Prove �
 **Correction:** Do not add a poetic edge. TotM is not poetry. Use ordinary kitchen-table words a listener can picture on one hearing. Do not use workshop metonymy or coined labels (mouths for people, stories in mouths, last sun, garden words, north dark, leaf roof).
 
 **Read:** `campaigns/shattered-sea/sessions/11/Session-11-06-Farthest-Camp.md`; `campaigns/shattered-sea/sessions/11/Session-11-05-Otter-Hole.md`; `skill://theatre-of-the-mind`; `user-corrections.md`
+
+**count:** 1
+
+**status:** open
+
+### 2026-09-09 — Wound used as a person-handle
+
+**Error:** Session 11 cards referred to [[Matteo Scola]] as "Split-lip" the way a person would say "the man." A visible wound was treated as a normal referring term for a human.
+
+**Correction:** Use ordinary human words for a person: the man, that person, he. After he introduces himself when the party rescues him, use his name. Do not use a wound, garment, or other feature as if it were a name.
+
+**Read:** `campaigns/shattered-sea/sessions/11/Session-11-05-Otter-Hole.md`; `campaigns/shattered-sea/sessions/11/Session-11-06-Farthest-Camp.md`; `campaigns/shattered-sea/sessions/11/Session-11-07-False-Help.md`; `campaigns/shattered-sea/npcs/Matteo Scola.md`; `.agents/skills/copy-writer/SKILL.md`; `.agents/skills/theatre-of-the-mind/SKILL.md`; `.agents/skills/obsidian-markdown/SKILL.md`; `lexicon/House tone.md`; `user-corrections.md`
 
 **count:** 1
 

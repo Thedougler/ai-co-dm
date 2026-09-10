@@ -16,16 +16,14 @@ tags:
   - aruhe
   - calveno
   - survivor
-summary: Calveno wreck survivor who deserted the inland group after rejecting Hinewai's garden warning and was mauled by river otters at Slack Basin.
+summary: Calveno wreck survivor who deserted the inland group after rejecting Hinewai's garden warning and was mauled by river otters at Slack Basin. Call him the man until he gives his name after rescue.
 source: "house (session 11 beat 05; created 2026-09-09)"
 ---
 
 # Matteo Scola
 
-*Split-lip*
-
 > [!narration] Matteo Scola
-> The man in the grey salt-stiff shirt keeps one hand near his split lip and the other near the missing boot. Wet hair sticks flat to his forehead. He watches the living people first, the water second, and the dark north trails only when someone else looks that way.
+> The man in the grey salt-stiff shirt keeps one hand near the split in his lip and the other near the missing boot. Wet hair sticks flat to his forehead. He watches the living people first, the water second, and the dark north trails only when someone else looks that way.
 
 ## At a glance
 
@@ -46,11 +44,11 @@ source: "house (session 11 beat 05; created 2026-09-09)"
 
 ### First meeting
 
-Use Split-lip as the table handle until a player asks his name or he has been pulled onto the bank. He is clinging to roots in [[Aruhe - River Slack Basin]], one boot gone, split lip bleeding, hips in the slack while two [[Aruhe - River Otter|river otters]] play him loose from the bank.
+Until the party pulls him onto the bank, call him the man in the grey shirt. He is clinging to roots in [[Aruhe - River Slack Basin]], one boot gone, his lip split and bleeding, hips in the slack while two [[Aruhe - River Otter|river otters]] play him loose from the bank.
 
-Matteo asks for the bank before he explains anything. If rescued, he stays close to whoever pulled him out and answers in short, wet sentences.
+He asks for the bank before he explains anything. If rescued and able to speak, he gives his name: Matteo. He stays close to whoever pulled him out and answers in short, wet sentences.
 
-**Sample line:** "They kept walking. I went back for the pack."
+**Sample line:** "Matteo. They kept walking. I went back for the pack."
 
 ### If asked why he was alone
 
