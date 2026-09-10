@@ -5,18 +5,21 @@ player: Kaitlin
 status: active
 visibility: dm
 tags: [pc]
+summary: White-haired, physically frail human Artillerist and owner of Cat's Curios; pursuing a nonmagical flying machine.
 ---
 # Catarina Da'Virelli
 
 ## Art
-![[catarina-davirelli-banner.jpg]]
+![[attachments/shattered-sea/character-references/catarina-davirelli-reference-sheet.png|Catarina Da'Virelli character reference sheet]]
+
+**Current visual canon:** Player-supplied reference sheet. It establishes Catarina's short white curls, copper goggles, red-brown dress and bodice, gathered white sleeves, mechanical gloves, sturdy boots, cross necklace, and owl automaton. The unnamed small-automaton studies remain visual studies, not separate named entities.
 
 > [!narration] Narration
-> A white-haired, frail human artificer who keeps referral-only Cat’s Curios. An owl named Strix and the eldritch cannon Ragnetto mark the workshop; she treats beggars and nobles to the same sentence and refuses to pretend a prototype works.
+> A young-adult human artificer with short white curls, copper goggles, and a red-brown bodice over gathered white sleeves. An owl named Strix and the eldritch cannon Ragnetto mark the workshop; she treats beggars and nobles to the same sentence and refuses to pretend a prototype works.
 
 
 ## Player-facing summary
-White-haired, frail human Artillerist Artificer; owner of referral-only Cat's Curios, with owl Strix and eldritch cannon [[Ragnetto]].
+White-haired, frail young-adult human Artillerist Artificer; owner of referral-only Cat's Curios, with copper goggles, owl Strix, and eldritch cannon [[Ragnetto]].
 
 ## Bonds / ideals that matter
 - Raiders took her as a child; her father made a distraction and she jumped from cliffs into water. She has not seen him since.
