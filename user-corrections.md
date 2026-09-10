@@ -1,5 +1,5 @@
 ---
-summary: Nick's correction log. Writers append on #ERROR; ASD drains. Open: over-scoped `.agent` typo; scenery shorthand; TotM poetry; wound used as a person-handle; useless non-info.
+summary: Nick's correction log. Writers append on #ERROR; ASD drains. Open: over-scoped `.agent` typo; scenery shorthand; TotM poetry; wound used as a person-handle; useless non-info; off-stage Hinewai.
 ---
 
 # User corrections
@@ -311,6 +311,18 @@ Follow skill `agentic-system-designer` (Intake → Baseline → Fix → Prove �
 **Correction:** Do not write useless non-info. Do not tell the DM that someone is not present, that a name or distance stays unknown, or that "the woman in their mouths is her." If a line does not change a choice, ruling, risk, or words to speak, do not write it.
 
 **Read:** `campaigns/shattered-sea/sessions/11/Session-11-06-Farthest-Camp.md`; `campaigns/shattered-sea/sessions/11/Session-11-07-False-Help.md`; `campaigns/shattered-sea/sessions/11/Session-11-08-Night-Watch.md`; `user-corrections.md`
+
+**count:** 1
+
+**status:** open
+
+### 2026-09-09 — Off-stage NPC obsessed on the session card
+
+**Error:** Session 11 kept naming and stocking [[Aruhe - Hinewai]] even though she never appears this session.
+
+**Correction:** She does not show up this session. Mention her only if she does. She is a rumour about a woman in the woods. Do not obsess over people or things that do not show up in the session at all.
+
+**Read:** `user-corrections.md`; `campaigns/shattered-sea/sessions/11/Session-11-06-Farthest-Camp.md`; `campaigns/shattered-sea/sessions/11/Session-11-07-False-Help.md`; `campaigns/shattered-sea/sessions/11/Session-11-00-Birds-of-a-Feather.md`; `campaigns/shattered-sea/sessions/11/Session-11-00-Random-Tables.md`; `campaigns/shattered-sea/sessions/11/Session-11-08-Night-Watch.md`; `campaigns/shattered-sea/sessions/11/Session-11-10-Aftermath.md`
 
 **count:** 1
 

@@ -15,7 +15,7 @@ cssclasses:
 
 # Aruhe River / Grasslands Hazards
 
-The single current-hazards table for [[Session-11-00-Birds-of-a-Feather]]. No Grung. Do not restage beat 9 ([[Talon Skarn]]) or pull [[Aruhe - Hinewai]].
+The single current-hazards table for [[Session-11-00-Birds-of-a-Feather]]. No Grung. Do not restage beat 9 ([[Talon Skarn]]).
 
 ## L0 · At a glance
 
@@ -65,5 +65,5 @@ If the rolled hazard does not belong in the current ground, reroll once. If a de
 
 - Complete grammatical sentences on every live card.
 - No collapsed callouts on this session surface.
-- No Grung, no [[Talon Skarn]], no [[Aruhe - Hinewai]], no Grove tonight.
+- No Grung, no [[Talon Skarn]], no Grove tonight.
 - No secrets, DCs, or unearned names inside `[!narration]`.

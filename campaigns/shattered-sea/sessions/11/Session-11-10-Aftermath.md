@@ -11,7 +11,7 @@ summary: Resolution after the Star Cut theft; hawks hunt Skarn only if the Fate 
 ---
 # Session 11 — Aftermath
 
-![[attachments/shattered-sea/places/aruhe-star-cut.png|Star Cut, night-watch aisle under a slit of stars]]
+![[aruhe-star-cut.jpg|Star Cut, night-watch aisle under a slit of stars]]
 
 ## Scene ends when
 
@@ -37,7 +37,7 @@ The party is still on [[Aruhe - Quiet Forest Star Cut]] unless beat 8 broke. [[C
 
 **Held.** The steal was disrupted. The [[Fate Spinner]] is on [[Crissdalynn Khinriss]], on the packed dirt at this watch, or recovered. [[Talon Skarn]] is already in Quiet north of the star-cut, empty-handed, farther than 60 feet. There is no hawk stoop, because nothing left this island. Speak Initial Narration.
 
-**Stolen.** [[Talon Skarn]] has the [[Fate Spinner]] in a hooked blade. He has already left the aisle on his wings and hangs 40 feet up over the north mouth. The adult [[Aruhe - Bloodhawk]] and her young, if they lived, are already dropping on him, not on this camp. They try to haul him inland toward the darker wood, not toward the party. [[Aruhe - Hinewai]] rages at a take from her island and sends those hawks to bring him back. Speak the Open sky zone Narration as the first look.
+**Stolen.** [[Talon Skarn]] has the [[Fate Spinner]] in a hooked blade. He has already left the aisle on his wings and hangs 40 feet up over the north mouth. The adult [[Aruhe - Bloodhawk]] and her young, if they lived, are already dropping on him, not on this camp. They try to haul him inland toward the darker wood, not toward the party. Speak the Open sky zone Narration as the first look.
 
 **Hawk dead.** If the adult [[Aruhe - Bloodhawk]] died on beat 1, there is no stoop. [[Talon Skarn]] still leaves with the [[Fate Spinner]] on Stolen. Stay or chase him without hawks.
 
@@ -102,7 +102,7 @@ If they climb into that air after him, beat 1's grammar applies: obvious bodies 
 
 | Intent | Approach | DC | Success | Partial | Failure |
 | --- | --- | --- | --- | --- | --- |
-| Assess the situation | **Wisdom (Perception)** or **Wisdom (Insight)** | `DC 10` | On Stolen, the looker gets that the adult [[Aruhe - Bloodhawk]] is hunting [[Talon Skarn]], not this camp, and that joining Open sky can make a body the meal. On Held, the looker gets that [[Talon Skarn]] is already gone north empty-handed, that this camp still splits ship versus garden, and that the garden words came once more without a walker. How far the garden is stays unknown. Her name stays unknown. | The looker gets the hawk-versus-thief split, or the ship-versus-garden split, and the round is spent. | The looker loses the split. Open sky still makes a body prey. Walking a north trail alone still isolates that party member. |
+| Assess the situation | **Wisdom (Perception)** or **Wisdom (Insight)** | `DC 10` | On Stolen, the looker gets that the adult [[Aruhe - Bloodhawk]] is hunting [[Talon Skarn]], not this camp, and that joining Open sky can make a body the meal. On Held, the looker gets that [[Talon Skarn]] is already gone north empty-handed, that this camp still splits ship versus garden, and that the garden words came once more without a walker. | The looker gets the hawk-versus-thief split, or the ship-versus-garden split, and the round is spent. | The looker loses the split. Open sky still makes a body prey. Walking a north trail alone still isolates that party member. |
 | Stay on this dirt | Committing to hold this fire and let the air resolve | Commit | On Stolen, the hawks are [[Talon Skarn]]'s problem. The [[Fate Spinner]] leaves this fire. This camp remains. On Held, the [[Fate Spinner]] stays on [[Crissdalynn Khinriss]] or on this dirt. This scene can end on sleep. | Binary — no partial. | Binary — no partial. Staying on this dirt ends the inverted hunt against the party. |
 | Chase into Open sky | Flying up the north mouth, or **Strength (Athletics) — `DC 10`** to climb the jungle wall into the crown split | Fly, or `DC 10` | That party member reaches Open sky, 40 feet up. Beat 1's grammar applies. Obvious bodies can become the meal. The [[Fate Spinner]] may come back on a hawk or on [[Talon Skarn]]. This valley still does not reach [[Aruhe - Memorial Grove]] tonight. | The climber spends the round in hanging roots and stays on this floor. | The climber stays on this floor. A flyer who hangs obvious in Open sky draws the next threat tick. |
 | Recover the [[Fate Spinner]] | Attack vs AC 15 against the adult [[Aruhe - Bloodhawk]], or **Strength (Athletics)** to tear the [[Fate Spinner]] from a talon or a hooked blade | Attack vs AC 15, or `DC 15` | The [[Fate Spinner]] comes free. It is a thumb-sized quartz four-sided top, cool, with worn faces. The adult [[Aruhe - Bloodhawk]] still has [[Talon Skarn]] if it already grabbed him. | The [[Fate Spinner]] stays in the talon or the blade. That party member is still in Open sky. The clock still ticks at end of round if anyone remains exposed. | The adult [[Aruhe - Bloodhawk]] treats that party member as flushed prey. Beak +13 to hit, 28 piercing, or a young hawk drives that body 30 feet down. |
@@ -170,8 +170,8 @@ The people at this fire stay unnamed.
 
 ## Backup
 
-[[Aruhe - Quiet Forest Star Cut]] · [[Session-11-09-Theft-on-the-Watch]] · [[Session-11-00-Birds-of-a-Feather]] · [[Crissdalynn Khinriss]] · [[Talon Skarn]] · [[Fate Spinner]] · [[Aruhe - Bloodhawk]] · [[Aruhe - Young Bloodhawk]] · [[Aruhe - Giant's Guava]] · [[Aruhe - Stonepear]] · [[Taking on Aruhe]] · [[Aruhe - Quiet Forest Spoke Ring]] · [[Aruhe - Hinewai]] · [[Aruhe - Deerstalker]] · [[Uncertainty]] · [[Aruhe - Memorial Grove]]
+[[Aruhe - Quiet Forest Star Cut]] · [[Session-11-09-Theft-on-the-Watch]] · [[Session-11-00-Birds-of-a-Feather]] · [[Crissdalynn Khinriss]] · [[Talon Skarn]] · [[Fate Spinner]] · [[Aruhe - Bloodhawk]] · [[Aruhe - Young Bloodhawk]] · [[Aruhe - Giant's Guava]] · [[Aruhe - Stonepear]] · [[Taking on Aruhe]] · [[Aruhe - Quiet Forest Spoke Ring]] · [[Aruhe - Deerstalker]] · [[Uncertainty]] · [[Aruhe - Memorial Grove]]
 
 ## Battlemap
 
-![[attachments/shattered-sea/battlemaps/session-11-09-theft-on-the-watch-base.png|Session 11-09 Star Cut battlemap]]
+![[session-11-09-theft-on-the-watch-base.jpg|Session 11-09 Star Cut battlemap]]

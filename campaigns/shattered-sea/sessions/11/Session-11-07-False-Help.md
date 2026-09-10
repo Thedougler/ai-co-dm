@@ -47,7 +47,7 @@ The party is on the packed dirt hub of [[Aruhe - Quiet Forest Spoke Ring]]. Nigh
 
 **Voice.** The whisper comes from the [[Aruhe - Deerstalker]]'s space. A hearer knows the direction. The sound does not automatically reveal it if it is Hidden. This beat uses the garden words from the fire: come admire her garden, this way, leave the living plants. Loop a phrase, or stretch it. Nothing answers a shouted question with new information. The voice stays off the packed hub. After it uses a given sound without drawing a creature closer, it abandons that sound.
 
-**Face.** One person in the north trail gets wrong movement, then "You're not welcome here," then the hit. That line is island law, not the woman. [[Aruhe - Hinewai]] is not in this trail tonight.
+**Face.** One person in the north trail gets wrong movement, then "You're not welcome here," then the hit.
 
 **Abort.** Two ready hostiles within 30 feet scare it off for now. The mark stays. It waits for a split. It will not walk [[Aruhe - Razer-Grass]].
 
@@ -102,7 +102,7 @@ If a party member takes open valley air, that party member leaves this hub for h
 
 | Intent | Approach | DC | Success | Partial | Failure |
 | --- | --- | --- | --- | --- | --- |
-| Assess the situation | **Wisdom (Perception)**, **Wisdom (Survival)**, or **Intelligence (Nature)** | `DC 10` | The packed hub still holds this fire, and the garden-voice stays in a north trail that has no matching feet. A body that steps off this dirt is alone. Whether the caller is the woman stays unknown. How far the garden is stays unknown. | The looker gets the fire versus the whisper, but remains on this hub while the calls continue. | The looker loses the fire-versus-voice split. Walking toward the sound still peels a body into the north trail. |
+| Assess the situation | **Wisdom (Perception)**, **Wisdom (Survival)**, or **Intelligence (Nature)** | `DC 10` | The packed hub still holds this fire, and the garden-voice stays in a north trail that has no matching feet. A body that steps off this dirt is alone. | The looker gets the fire versus the whisper, but remains on this hub while the calls continue. | The looker loses the fire-versus-voice split. Walking toward the sound still peels a body into the north trail. |
 | Test the voices | **Wisdom (Insight)**. Shouting a question from this hub returns the same stretched garden words. | `DC 15` | That party member knows the sound is an imitation. Advantage applies if that party member heard the original mouths at this fire. A shout brings the same phrase back stretched from the north trail. Walking toward the voice anyway still peels that party member. | That party member is unsure and still leans toward the north trail. The [[Aruhe - Deerstalker]] keeps that sound. | That party member treats the garden-voice as the woman. The voice stays in the north trail. |
 | Stay grouped at this fire | Committing to hold this hub and ignore the voice | Commit | The party stays on this dirt. If a garden-mouth is standing, they keep that person on this hub. No fight here. The mark stays live. Hand to [[Session-11-08-Night-Watch]]. This scene ends. | Binary — no partial. | Binary — no partial. Staying grouped ends this scene only if no one is still peeling. If a garden-mouth is still walking, use the stop-peeler row or let the clock tick. |
 | Stop a peeling survivor | Influence: **Charisma (Persuasion)** or **Charisma (Intimidation)** on a hesitant garden-mouth | `DC 15` | That person stays on this hub. The mark stays. They can still return to the coals. | That person hesitates at the trail mouth. The round is spent. The clock still ticks at end of round if they remain off this dirt. | That person keeps walking the north trail. They remain isolated. |
@@ -168,7 +168,7 @@ Do not run the hazards table, night watch, or [[Talon Skarn]] here. After this h
 
 ## Backup
 
-[[Aruhe - Quiet Forest Spoke Ring]] · [[Aruhe - Deerstalker]] · [[Aruhe - Hinewai]] · [[Taking on Aruhe]] · [[Aruhe - Quiet Forest Star Cut]] · [[Aruhe - Stonepear]] · [[Matteo Scola]] · [[Aruhe - Quiet Forest]] · [[Aruhe - River]] · [[Aruhe - Memorial Grove]] · [[Uncertainty]] · [[Talon Skarn]] · [[Session-11-06-Farthest-Camp]] · [[Session-11-08-Night-Watch]] · [[Session-11-09-Theft-on-the-Watch]] · [[Session-11-00-Birds-of-a-Feather]]
+[[Aruhe - Quiet Forest Spoke Ring]] · [[Aruhe - Deerstalker]] · [[Taking on Aruhe]] · [[Aruhe - Quiet Forest Star Cut]] · [[Aruhe - Stonepear]] · [[Matteo Scola]] · [[Aruhe - Quiet Forest]] · [[Aruhe - River]] · [[Aruhe - Memorial Grove]] · [[Uncertainty]] · [[Talon Skarn]] · [[Session-11-06-Farthest-Camp]] · [[Session-11-08-Night-Watch]] · [[Session-11-09-Theft-on-the-Watch]] · [[Session-11-00-Birds-of-a-Feather]]
 
 ## Battlemap
 
