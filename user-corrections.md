@@ -442,11 +442,12 @@ Follow skill `agentic-system-designer` (Intake → Baseline → Fix → Prove �
 ### 2026-09-09 — Telegraphing scene spoilers
 
 **Error:** Used narration that telegraphs spoilers and takes control of player interaction: "You see Crissdalynn Khinriss and one other watcher at the fire's north edge. Her blue-black feathers catch coal-light. Geometric leather and a chart satchel sit close against half-folded wings."
+**Additional example:** "You see Crissdalynn Khinriss still at the fire's north edge. The peregrine is gone from this mouth. Living pink-gold fruit still hangs over the west wall, ribbed and heavy, and fallen fruit still sits in the wet leaves. Heat still comes off the east coals. You smell woodsmoke. You hear drip off leaf, and west of the wall a thin river still talks through the roots."
 
 **Correction:** Narration must not depend on the players. Describe the scene, then let the DM handle interaction when the players engage with it. End this narration by asking Cryssdalyn what she is doing right now and calling for a Perception check to notice Talon Skarn; put that specific conditional narration in the conditional section instead.
 
 **Read:** `AGENTS.md`; `user-corrections.md`; `skill://agentic-system-designer`; `skill://obsidian-markdown`
 
-**count:** 1
+**count:** 2
 
 **status:** open
