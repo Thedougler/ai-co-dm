@@ -1,5 +1,5 @@
 ---
-summary: Nick's correction log. Writers append on #ERROR; ASD drains. Two open: over-scoped `.agent` typo fix; session beat third/fourth copy passes.
+summary: Nick's correction log. Writers append on #ERROR; ASD drains. Three open: over-scoped `.agent` typo fix; session beat third/fourth copy passes; skimmed working files.
 ---
 
 # User corrections
@@ -231,6 +231,18 @@ Follow skill `agentic-system-designer` (Intake → Baseline → Fix → Prove �
 **Correction:** After session files are created, copy-writer performs a DM usability, readability, and usefulness pass and edit of the session beat copy. Afterwards a fourth pass is performed for theatre-of-the-mind copy.
 
 **Read:** `AGENTS.md` Write (session/run beats two passes); `user-corrections.md` append recipe.
+
+**count:** 1
+
+**status:** open
+
+### 2026-09-09 — Skimmed working files
+
+**Error:** Skimmed the session plan, previous beat, owners, and the Otter Hole card. Relied on truncated Read output, range selectors, and structural summaries instead of reading the full files being edited.
+
+**Correction:** Read full files you are working on. Do not skim them.
+
+**Read:** `campaigns/shattered-sea/sessions/11/Session-11-05-Otter-Hole.md`; `campaigns/shattered-sea/sessions/11/Session-11-00-Birds-of-a-Feather.md`; `campaigns/shattered-sea/sessions/11/Session-11-04-What-They-Ate.md`; `campaigns/shattered-sea/sessions/11/Session-11-03-Wolfrabbits.md`; `campaigns/shattered-sea/sessions/11/Session-11-06-Farthest-Camp.md`; `campaigns/shattered-sea/locations/Aruhe - River Slack Basin.md`; `campaigns/shattered-sea/monsters/Aruhe - River Otter.md`
 
 **count:** 1
 
