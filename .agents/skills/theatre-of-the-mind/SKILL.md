@@ -379,9 +379,10 @@ other prey may be visible windup; do not resolve PC injury. Visible grass,
 river, or shipward sky that is already under or beside them belongs in this
 block, not on a later clock tick. Then stop at the reaction point and ask.
 
-**Session-beat fill is pass 2.** Pass 1 (`run-guide`) leaves empty prose
-slots. Fill every one. The DM may skip a block at the table; the writer
-fills all of them.
+**Session-beat spoken fill is pass 3.** Pass 1 (`run-guide`) leaves empty prose
+slots, and pass 2 (`copy-writer`) edits DM-facing copy first. Load this skill
+only when pass 3 begins, then fill every spoken slot. The DM may skip a block
+at the table; the writer fills all of them.
 
 **Callout stubs:** `Initial Narration` (mandatory, long scene-setting),
 one `How the Scene Resolves` for the unconditional end state, `{Creature}` after each roster embed,

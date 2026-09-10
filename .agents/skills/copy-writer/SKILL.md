@@ -7,8 +7,9 @@ description: >
   monster, lore, session-prep, session, recap, or handout notes — including
   glance, at-the-table, and bank copy, [!narration] TotM (the only callout), boxed
   text, room keys, dialogue, flavor, and DM-facing headings and body copy. Use
-  to fill empty session-beat [!narration] stubs after mechanical run-guide
-  construction. Use when default copy is too terse, telegraphic, or novel-like.
+  to run the session-beat DM-copy pass after mechanical run-guide construction,
+  and to fill empty [!narration] stubs only when the TotM pass begins. Use when
+  default copy is too terse, telegraphic, or novel-like.
   Not canon invention, monster/item math, MOC/index structure, ingest routing,
   or run-guide schema.
 ---
@@ -25,7 +26,7 @@ Theatre of the mind is the spoken `[!narration]` layer, not the whole job. Hook,
 
 **Headings:** copy the template. Glance is `## At a Glance`. Runnable procedure is `## At the table`. Supporting facts use `## Bank` or the named bank sections on that template (`## Indexes`, `## Aftermath`, `## Secrets (DM)`).
 
-**Session beats are two passes.** Pass 1 (`run-guide`) leaves empty titled stubs. You are pass 2: fill **every** stub. The DM may skip a block at the table; you may not leave one empty or useless. `Initial Narration` is the long *scene-setting* block (typically two to four short spoken paragraphs). Address the party as **you**: **you see**, **you hear**, **you feel** (physical), **you smell**. Weave drawable appearance and at least one non-sight sense into those sentences. Smaller stubs (zone, tick, How the Scene Resolves, creature-in-this-scene) are one to three sentences and do not restage the Open.
+**Session beats are four passes.** Pass 1 (`run-guide`) leaves empty titled stubs. You own pass 2: edit DM-facing copy for usability, readability, and table usefulness while the `[!narration]` stubs stay empty. Pass 3 fills **every** spoken stub with `theatre-of-the-mind`. Pass 4 checks Reading view. The DM may skip a block at the table; construction may not leave one empty or useless. `Initial Narration` is the long *scene-setting* block (typically two to four short spoken paragraphs). Address the party as **you**: **you see**, **you hear**, **you feel** (physical), **you smell**. Weave drawable appearance and at least one non-sight sense into those sentences. Smaller stubs (zone, tick, How the Scene Resolves, creature-in-this-scene) are one to three sentences and do not restage the Open.
 
 **Callouts:** `[!narration]` is the only callout. Use it when the block is spoken to the players (`Initial Narration`, `{Place}`, `Tick n`, one `How the Scene Resolves`, `{Creature}`, `Exit`, boxed read-aloud). Conditional spoken (zone, tick, most-likely option) goes in the table cell as `==_italic_==` (`obsidian-markdown`). DM truth, procedure, clocks, rulings, and secrets are headings plus body copy, tables, and bold labels. They are not `[!secret]`, `[!mechanic]`, `[!note]`, `[!warning]`, or any other callout. Do not put callouts inside table cells. Completion: the only `> [!` on the note is `[!narration]`.
 
@@ -53,18 +54,18 @@ Grok Bot packets that name **Visualizer** stay TotM-scoped unless the packet ask
 
 ## Workflow
 
-1. **Ground.** qmd the named entity. Read the owning note, the matching `templates/` page, and `lexicon/House tone.md`. Preserve established canon. Missing stock → ask Nick, leave a stub, or route to the owning craft skill. Completion: every fact in the draft is on the parent, in hot, or explicitly marked unknown.
+1. **Ground.** qmd the named entity. Read the owning note, the matching `templates/` page, and `lexicon/House tone.md`. For a run card, read the session skeleton, previous beat, and current card end-to-end before editing; summaries, snippets, truncated output, and range reads may help target the files but do not satisfy grounding. Preserve established canon. Missing stock → ask Nick, leave a stub, or route to the owning craft skill. Completion: every working file has been read end-to-end, and every fact in the draft is on the parent, in hot, or explicitly marked unknown.
 
 2. **Choose band + surface.** At a Glance / At the table / bank / location Who–Why / `[!narration]` / handout. Load:
    - `obsidian-markdown` on every vault write (at-table scan: **bold** = look here / mechanical noun; `` `DC n` `` and dice = the number; → = what a mechanic produces; `[!narration]` = spoken)
-   - `theatre-of-the-mind` when text crosses the player boundary
+   - `theatre-of-the-mind` only when the pass crosses the player boundary
    - `run-guide` when filling a run card — that skill owns field order and *procedure*; fill its cockpit, do not invent a second card
    - `qmd-retrieval` for facts
-   Completion: one band and one surface named before drafting.
+   Completion: one band, one surface, and the current pass named before drafting.
 
 3. **Draft complete, then cut.** Cover the band's job first (see Bands). Then cut padding, not coverage. Kitchen-table nouns, concrete verbs, one fantastic signature. Completion: a DM can use the band without inventing a missing visible fact.
 
-4. **Table gate.** Read player-facing lines aloud. At a Glance is usable in five seconds. At the table is findable in under 30 seconds (bold heads, **sequencing**). Checks and saves match the at-table grammar in `obsidian-markdown`. `Initial Narration` stops at the **reaction point** after *scene-setting* is complete (cover, routes, relative position, imminent action, drawable look, non-sight sense, then the question). Every titled stub on a run card is filled. For a run card, load `run-guide`; its Table gate is the completion criterion. Completion: all of the above hold, or the draft is not done.
+4. **Table gate.** Read player-facing lines aloud when this pass has player-facing lines. At a Glance is usable in five seconds. At the table is findable in under 30 seconds (bold heads, **sequencing**). Checks and saves match the at-table grammar in `obsidian-markdown`. `Initial Narration` stops at the **reaction point** after *scene-setting* is complete (cover, routes, relative position, imminent action, drawable look, non-sight sense, then the question). Every titled stub on a run card is filled by pass 3. For a run card, load `run-guide`; its Table gate is the completion criterion. Completion: all of the above hold, or the draft is not done.
 
 5. **File.** Wikilinks, template constraints, `[!narration]` for TotM only. `./scripts/after-write "why" -- path1 [path2…]` on named paths only. Completion: after-write succeeded, and the only callout on the note is `[!narration]`.
 
@@ -112,7 +113,7 @@ Dynamic elements that may have moved live in DM text unless current table state 
 - **Quest / front:** Stakes, clock, visible sign, consequence if ignored — complete sentences.
 - **Item / monster:** Drawable fiction. Owner math stays on the owner. Run cards follow `run-guide` for embeds and action cards. Missing owner for a creature you will roll → Monster-Brewer.
 - **Lore:** One concrete manifestation a DM can put on the table.
-- **Session / recap / run card:** Play-made truths + tonight's handle. Recaps in past tense. Run cards: pass 2 fills every empty `run-guide` TotM stub; do not invent procedure. Open once (see above). Complete sentences. Address the party as **you see** / **you hear** / **you feel**. Name the creature, item, and place; `her` / `flier` / `the crew` fail. Vary verbs.
+- **Session / recap / run card:** Play-made truths + tonight's handle. Recaps in past tense. Run cards: pass 2 edits DM-facing copy; pass 3 fills every empty `run-guide` TotM stub; do not invent procedure. Open once (see above). Complete sentences. Address the party as **you see** / **you hear** / **you feel**. Name the creature, item, and place; `her` / `flier` / `the crew` fail. Vary verbs.
 
 House tone (`lexicon/House tone.md`): **deadly, political, weird** in that order. Attach the strange to a noun and a consequence.
 
@@ -122,7 +123,7 @@ House tone (`lexicon/House tone.md`): **deadly, political, weird** in that order
 - Missing **stock** (NPC design, place kernel, encounter math) → owning craft skill; write copy only after stock exists.
 - **Monster / item math** → Monster-Brewer / Item-Brewer / Homebrewer.
 - **MOCs, indexes, hot structure** → Organizer.
-- **Run-guide cockpit** → Session-Planner owns pass 1 schema (`run-guide`); you fill every empty `[!narration]` stub and remaining table-ready copy. TotM titles stay `[!narration]`. *Rulings* follow that skill’s Ruling section.
+- **Run-guide cockpit** → Session-Planner owns pass 1 schema (`run-guide`); you own pass 2 DM-facing copy, then fill every empty `[!narration]` stub only on the TotM pass. TotM titles stay `[!narration]`. *Rulings* follow that skill’s Ruling section.
 - TotM fail loop: [[GROK-BOTS]] (Writing-Evaluator → Skill-Creator → Visualizer / this skill).
 
 ## Attribution

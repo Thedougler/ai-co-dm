@@ -5,9 +5,9 @@ description: >-
   from existing prep and owner pages in the vault's lean style: flat, direct,
   and only as sectioned as play requires. Use for "run tonight", "build a run
   guide", or a session-prep document that is hard to scan. Pass 1 writes the
-  mechanical card plus empty titled [!narration] stubs. Pass 2 is
-  theatre-of-the-mind fill. Not beat composition, canon invention, or session
-  reconciliation.
+  mechanical card plus empty titled [!narration] stubs. Later passes edit
+  DM-facing copy, fill theatre-of-the-mind prose, and run the ready check. Not
+  beat composition, canon invention, or session reconciliation.
 ---
 
 # Run Guide
@@ -17,7 +17,7 @@ Owners stay canon. Full statblocks **embed** at the bottom (the DM scrolls).
 Scene *procedure*, zones, tells, action cards, and how the scene resolves are written here.
 A missing owner is a diagnostic, not permission to invent canon or math.
 
-**Two passes.** Pass 1 writes the mechanical card and **empty titled `[!narration]` stubs**. Pass 2 (`theatre-of-the-mind`; TUI **copy-writer**, Grok Bots **Visualizer**) fills every stub. Pass 1 does not write player-facing prose.
+**Four passes.** Pass 1 writes the mechanical card and **empty titled `[!narration]` stubs**. Pass 2 (`copy-writer`) edits DM-facing copy for usability, readability, and table usefulness. Pass 3 TotM (`theatre-of-the-mind`; TUI **copy-writer**, Grok Bots **Visualizer**) fills every spoken stub. Pass 4 checks Reading view. Pass 1 does not write player-facing prose.
 
 **Sole-authority:** a tired DM at minute 90 can roll and speak this slice
 without opening another note. Every default-mode *ruling* lives on the card.
@@ -67,15 +67,17 @@ field needs decoding, replace it with the ordinary thing and visible action.
 
 1. **Ground.** Read `hot.md`, tonight's session prep, the latest log, the
    previous beat card when one exists, and only the linked owners needed to
-   interpret this slice. `qmd-retrieval`. The previous beat's How the Scene
+   interpret this slice. Read each working file end-to-end before editing it;
+   summaries, snippets, truncated output, and range reads may help target the
+   file but do not satisfy grounding. `qmd-retrieval`. The previous beat's How the Scene
    Resolves is this beat's entry state — the situation, position, and changed
    world the party walks in with. Verify beat identity: the card filename's
    number matches its skeleton position (`Session-<session>-<NN>-Label.md` =
    beat NN), its purpose and dramatis personae match the skeleton, and its
    hand-off targets the skeleton's next beat. Mismatch → rename the file
    before writing. Completion: beat identity confirmed; entry state known from
-   the previous beat; every named actor, place, and item has an owner path or
-   is marked unknown.
+   the previous beat; every working file has been read end-to-end; every named
+   actor, place, and item has an owner path or is marked unknown.
 
 2. **Diagnose.** Mark each beat `ready`, `missing owner`, `missing prep`, or
    `proposal`. Identify the central element the table will ask the DM to
@@ -85,7 +87,7 @@ field needs decoding, replace it with the ordinary thing and visible action.
    `vehicle-design`). Missing mechanical stock → owning skill (`encounter-prep`,
    `session-beats`). Missing player-visible scene stock → owning page or craft
    skill before TotM fill. Empty `[!narration]` stubs are expected on this pass;
-   TotM fill is pass 2. A creature you will roll that has no owner →
+   TotM fill is pass 3. A creature you will roll that has no owner →
    `homebrew-monsters-5e`. Choose live beats. Completion: no invented canon;
    the central element has an owner; every actionable hazard, loot, monster,
    route, clue, lore sign, and world detail has an owner or is marked unknown.
@@ -105,7 +107,13 @@ field needs decoding, replace it with the ordinary thing and visible action.
    slice will use is present; unused sections are absent; clock and Be ready for
    are one *procedure*, not two escalation tracks.
 
-5. **Fill narration.** Load `theatre-of-the-mind` for pass 2 before filling
+5. **Edit DM copy.** Load `copy-writer` for pass 2 and edit the DM-facing
+   cockpit text for usability, readability, and table usefulness before any
+   spoken prose fill. Completion: Scene ends when, Glance, Now, Procedure,
+   Be ready for, clocks, and How the Scene Resolves are complete sentences the
+   DM can scan and use without inventing missing rulings.
+
+6. **Fill narration.** Load `theatre-of-the-mind` for pass 3 before filling
    `Initial Narration` or any other `[!narration]` slot. Initial Narration is
    one concise, complete scene-setting block for the players: perceivable
    subjects, relationships, routes or cover, relative position, imminent
@@ -113,11 +121,12 @@ field needs decoding, replace it with the ordinary thing and visible action.
    Completion: it reaches the first real player opening without hidden truth,
    DCs, mechanics talk, or padded mood.
 
-6. **Table gate.** Reading view is one downward pass of the Cockpit table.
+7. **Table gate.** Pass 4 is one downward pass of the Cockpit table in Reading
+   view.
    Completion: every item in **Table gate** below holds for this pass.
 
-7. **File.** `obsidian-markdown` (wikilinks, `session-surface`, real newlines, at-table scan).
-   The only callout on the card is `[!narration]`. Pass 2 fills stubs via TotM.
+8. **File.** `obsidian-markdown` (wikilinks, `session-surface`, real newlines, at-table scan).
+   The only callout on the card is `[!narration]`. Pass 3 fills stubs via TotM.
    `./scripts/after-write` on named paths.
 
 ## Lean Surface
@@ -157,7 +166,7 @@ There is no peer **Round script**. Clock ticks *are* the old R1–R3. The only `
 
 ## TotM stubs
 
-Pass 1 places the player-facing prose slots this beat can actually use. Pass 2
+Pass 1 places the player-facing prose slots this beat can actually use. Pass 3
 fills every placed slot. The DM may skip a block at the table; construction
 should not create slots for outcomes the beat cannot produce.
 
@@ -178,7 +187,7 @@ Do not put `> [!narration]` inside a table cell. Obsidian does not render callou
 
 ## Scene stock
 
-Before pass 2, make the card able to answer follow-up questions without opening
+Before pass 3, make the card able to answer follow-up questions without opening
 the vault cold. Record actionable player-visible stock wherever the leanest
 surface can hold it: a paragraph, table row, clock tick, how the scene
 resolves, or backup link.
@@ -258,7 +267,7 @@ measurements. There is no separate Starting state heading.
 
 `theatre-of-the-mind` owns the prose. This skill owns **what must already be in the spoken block** before the question (Angry GM: goal, obstacle, tools; Alexandrian: all immediately perceived facts).
 
-Pass 1 leaves `> [!narration] Initial Narration` empty. Pass 2 fills a complete *scene-setting* block: currently visible cover, routes, relative position, who is being hunted, imminent action, drawable appearance, accessible scene stock, and at least one non-sight sense, joined as flowing spoken prose. Those facts are not a later clock tick and not a DM catalog under the callout. If the owner already has an identity or overview image, keep it as the top visual anchor; the image does not replace the spoken look.
+Pass 1 leaves `> [!narration] Initial Narration` empty. Pass 3 fills a complete *scene-setting* block: currently visible cover, routes, relative position, who is being hunted, imminent action, drawable appearance, accessible scene stock, and at least one non-sight sense, joined as flowing spoken prose. Those facts are not a later clock tick and not a DM catalog under the callout. If the owner already has an identity or overview image, keep it as the top visual anchor; the image does not replace the spoken look.
 If a battlemap is present, orient routes, zones, cover, and exits with the same
 compass used by the map: top north, right east, bottom south, left west. Use
 cardinal words where they help the table hold the scene; do not turn Initial
@@ -322,7 +331,9 @@ Completion — all of these hold, or the draft is not done:
 - No coy placeholders, mystery hedges, or "do not reveal this" notes in DM-facing text. Name the DM fact plainly or omit it.
 - No naked checks. Every check says what success reveals or changes, what failure changes, and why the result matters now.
 - Pass 1: empty callout stubs and empty Narration-column cells at the TotM slots this beat can actually use; no player-facing prose in those bodies. How the Scene Resolves is one unconditional stub plus an options table, not a stack of variant callouts. Each option hands off to a beat on the skeleton, not off-scene.
-- Pass 2: `theatre-of-the-mind` was loaded, and Initial Narration concisely sets the scene with perceivable subjects, relationships, routes or cover, relative position, imminent pressure, actionable scene stock, drawable appearance, and a non-sight sense, then the first real player opening. Every stub is filled. Every Narration cell that is spoken is `==_italic_==`.
+- Pass 2: `copy-writer` was loaded after pass 1, and DM-facing copy is usable, readable, useful, complete, and signal-only before spoken prose is filled.
+- Pass 3: `theatre-of-the-mind` was loaded after pass 2, and Initial Narration concisely sets the scene with perceivable subjects, relationships, routes or cover, relative position, imminent pressure, actionable scene stock, drawable appearance, and a non-sight sense, then the first real player opening. Every stub is filled. Every Narration cell that is spoken is `==_italic_==`.
+- Pass 4: Reading view was checked top to bottom; no `[!narration]` body or Narration table cell that should be spoken is empty.
 - Action cards sit near the procedure or ruling they support. Bloodied, cover-reached, and scene dials are paragraphs after the Threat clock table when a Threat clock exists.
 - Every consequence is a *ruling* (see Ruling).
 - Optional sections stay absent unless this beat spends them at the table.
@@ -347,8 +358,9 @@ hunting. Do not add a second card schema or prep-management menu.
 
 `session-beats` owns missing beat charts and *cut line* pacing. `encounter-prep`
 owns reusable encounter stock that fits this cockpit. This skill owns pass 1
-(mechanical card + empty stubs). `theatre-of-the-mind` owns pass 2 fill (TUI
-copy-writer; Grok Bots Visualizer). `visual-aids` assembles an already-listed
+(mechanical card + empty stubs). `copy-writer` owns pass 2 DM copy.
+`theatre-of-the-mind` owns pass 3 spoken fill (TUI copy-writer; Grok Bots Visualizer).
+Pass 4 is the ready check. `visual-aids` assembles an already-listed
 owner image onto the card. Monster math → `homebrew-monsters-5e`. Check, save,
 DC, and player-interaction mechanics → `dnd5e-mechanics`. Do not invent canon,
 copy owner essays, or write player decisions.

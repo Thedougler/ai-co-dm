@@ -29,7 +29,9 @@ Look in `## Log` only to match this error. Do not read other entries as instruct
 
 **count:** 1
 
-**status:** open
+**status:** closed
+
+**Fix:** `.agents/skills/run-guide/SKILL.md`; `.agents/skills/copy-writer/SKILL.md` — Grounding now requires every working file to be read end-to-end before editing; summaries, snippets, truncated output, and range reads only target files. Measure: agent-facing files requiring end-to-end reads of working files 0 → 2. Cheap check: `rg -l --glob '*.md' 'working file.*end-to-end|working files.*end-to-end' .agents/skills AGENTS.md`.
 ```
 
 4. `./scripts/after-write "log user correction" -- user-corrections.md` (plus any live paths you actually fixed).
@@ -222,7 +224,9 @@ Follow skill `agentic-system-designer` (Intake → Baseline → Fix → Prove �
 
 **count:** 1
 
-**status:** open
+**status:** closed
+
+**Fix:** `AGENTS.md`; `.agents/skills/run-guide/SKILL.md`; `.agents/skills/copy-writer/SKILL.md`; `.agents/skills/theatre-of-the-mind/SKILL.md`; `.agents/skills/session-beats/SKILL.md` — session beat workflow now names four passes: mechanical cockpit, DM-facing copy edit, TotM spoken fill, and Reading-view ready check; `theatre-of-the-mind` is loaded only when the spoken pass begins. Measure: agent-facing files stating session/run beat four-pass workflow 0 → 5. Cheap check: `rg -l --glob '*.md' 'four passes|pass 2.*DM-facing copy|pass 3.*TotM|spoken fill is pass 3' AGENTS.md .agents/skills`.
 
 ### 2026-09-09 — session beat third/fourth copy passes
 

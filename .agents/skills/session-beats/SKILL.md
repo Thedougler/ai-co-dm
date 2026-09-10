@@ -85,8 +85,9 @@ visible. PC goals pursued since the Hook have a clear new status.
    table speed, not the clock alone. Each live beat that `run-guide` will render
    carries **Scene ends when** plus two *cut lines*: **If behind** (what to skip
    so the beat still ends) and **If ahead** (one extra complication only if it is
-   fully inlined). `run-guide` builds that beat in **two passes**: mechanical
-   cockpit plus empty titled `[!narration]` stubs, then TotM fill. A Hook with a
+   fully inlined). `run-guide` builds that beat through **four passes**:
+   mechanical cockpit plus empty titled `[!narration]` stubs, DM-facing copy
+   edit, TotM fill, then Reading-view ready check. A Hook with a
    cover endpoint does not also run unbounded travel; the walk to the next
    landmark is the next beat (Sly Flourish: Watch the Time).
 3. **Prepare situations, not outcomes.** For each candidate, record trigger,
@@ -192,7 +193,7 @@ visible. PC goals pursued since the Hook have a clear new status.
 - Let players ignore a Development, fail a Cliffhanger, or pursue a goal they
   create. Apply visible consequences and recompute; do not hide a correct path.
 - Let the chart shrink, branch, pause, or end early when the new state warrants it.
-- Make player-facing prose a theatre-of-the-mind **pass 2** fill of the empty
+- Make player-facing prose a theatre-of-the-mind **pass 3** fill of the empty
   stubs `run-guide` placed. Use dungeon-design for sites, routes, pressure
   procedures, and decision graphs. Retrieve setting canon with qmd-retrieval;
   if the vault is silent, use a marked stub rather than inventing canon. Never
