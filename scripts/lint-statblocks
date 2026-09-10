@@ -7,7 +7,8 @@ Skips hubs (`00 …`) and `templates/`.
 Statuses:
   ok                          — ```statblock appears at the top of the monster note,
                                 allowing an identity block first: H1, Obsidian
-                                embeds, and `[!narration]` callout prose
+                                embeds, `[!narration]` callout prose, and the
+                                established `col`/`col-md` presentation wrapper
   prose_not_fantasy_statblock — house/prose AC·HP block without ```statblock (fail)
   statblock_not_first         — has ```statblock but non-identity prose precedes it (fail)
   missing_statblock           — no fence and no prose block (stub / pending; warn)
@@ -36,6 +37,9 @@ H1 = re.compile(r"^#\s+\S")
 OBSIDIAN_EMBED = re.compile(r"^!\[\[[^\]]+\]\]\s*$")
 NARRATION_CALLOUT = re.compile(r"^>\s*\[!narration\](?:\s|$)", re.I)
 CALLOUT_LINE = re.compile(r"^>")
+COLUMN_OPEN = re.compile(r"^`{3,}col(?:-md(?:-\d+)?)?\s*$", re.I)
+COLUMN_LAYOUT_LINE = re.compile(r"^(?:flexGrow=\d+|===)\s*$", re.I)
+COLUMN_CLOSE = re.compile(r"^`{3,}\s*$")
 
 PROSE_MARKERS = [
     re.compile(r"^##\s+Stat block\b", re.I | re.M),
@@ -104,6 +108,15 @@ def is_allowed_identity_line(line: str, in_narration: bool) -> tuple[bool, bool]
         return True, True
     return False, False
 
+
+def is_allowed_column_line(line: str, in_columns: bool) -> tuple[bool, bool]:
+    """Allow only the code-fence syntax used by the vault's column wrapper."""
+    if COLUMN_OPEN.match(line):
+        return True, True
+    if in_columns and (COLUMN_LAYOUT_LINE.match(line) or COLUMN_CLOSE.match(line)):
+        return True, True
+    return False, in_columns
+
 def classify(text: str) -> str:
     if not STATBLOCK_FENCE.search(text):
         if any(p.search(text) for p in PROSE_MARKERS):
@@ -116,9 +129,15 @@ def classify(text: str) -> str:
     if statblock_starts_here(nonempty, 0):
         return "ok"
     in_narration = False
+    in_columns = False
     for index, line in enumerate(nonempty):
         if statblock_starts_here(nonempty, index):
             return "ok"
+        allowed, in_columns = is_allowed_column_line(line, in_columns)
+        if allowed:
+            continue
+        if STATBLOCK_HEADING.match(line):
+            continue
         allowed, in_narration = is_allowed_identity_line(line, in_narration)
         if not allowed:
             return "statblock_not_first"
@@ -167,8 +186,8 @@ def main() -> int:
             print(f"  [{tag}/{f['status']}] {f['path']}")
         if fails:
             print(
-                "\nConvert house prose to Fantasy Statblocks (fence FIRST after frontmatter):\n"
-                "An H1, Obsidian image embeds, and a `[!narration]` callout may appear first.\n"
+                "\nUse a Fantasy Statblocks fence after frontmatter; preserve the identity block and any `col`/`col-md` wrapper.\n"
+                "An H1, Obsidian image embeds, a `[!narration]` callout, and the established column presentation may appear first.\n"
                 "```statblock\n"
                 "name: Creature\n"
                 "size: Medium\n"
