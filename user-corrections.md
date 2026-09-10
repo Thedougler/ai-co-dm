@@ -351,3 +351,15 @@ Follow skill `agentic-system-designer` (Intake → Baseline → Fix → Prove �
 **count:** 1
 
 **status:** open
+
+### 2026-09-09 — Clunky, hard-to-picture prose
+
+**Error:** Wrote clunky language and sentence structure that was hard to picture and did not paint a vivid picture with words: "You see the charcoal hawk already falling out of the sun, four wings pinning into a narrow body, crimson feathers flashing on the black undersides. The ragged red crest streams."
+
+**Correction:** _Not stated._
+
+**Read:** `AGENTS.md`; `user-corrections.md`; `skill://agentic-system-designer`; `skill://obsidian-markdown`
+
+**count:** 1
+
+**status:** open
