@@ -1,5 +1,5 @@
 ---
-summary: Nick's correction log. Writers append on #ERROR. ASD drains open entries. All entries closed as of 2026-09-09.
+summary: Nick's correction log. Writers append on #ERROR; ASD drains. Open: session beats written without the previous beat, so the cards do not flow.
 ---
 
 # User corrections
@@ -153,4 +153,16 @@ Follow skill `agentic-system-designer` (Intake → Baseline → Fix → Prove �
 **status:** closed
 
 **Fix:** `.agents/skills/obsidian-markdown/SKILL.md` — `summary` frontmatter hard rule: one sentence, what the note is plus anything non-obvious; use to assess without full read; create on new notes, update on changes. Added to write workflow step 2, Properties example, `references/PROPERTIES.md` table, and `AGENTS.md` frontmatter field list. Measure: agent-facing files instructing on `summary` frontmatter in `.agents/skills` 0 → 1. Cheap check: `rg -l --glob '*.md' 'summary..frontmatter' .agents/skills`.
+
+### 2026-09-09 — Session beats ignore previous beat
+
+**Error:** Agents wrote session beats without considering the previous beat, so the cards do not flow together for the DM.
+
+**Correction:** Agents writing session beats must consider the previous beat so they flow together naturally for the DM.
+
+**Read:** `user-corrections.md`
+
+**count:** 1
+
+**status:** open
 
