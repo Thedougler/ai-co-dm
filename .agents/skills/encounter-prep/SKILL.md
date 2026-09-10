@@ -73,10 +73,11 @@ in `run-guide`; this skill supplies table-useful stock:
 8. **Tells:** clues only for conclusions the table can act on now. Every tell
    needs a concrete player use; otherwise cut it. Currently visible cover and
    routes belong in Initial Narration, not on tick 1.
-9. **Be ready for:** likely intents including **Assess the situation** only when
-   success and failure both say what changes. Every cell is a *ruling*
-   (`run-guide` Ruling). No Partial definition on the card. Not a menu to read
-   aloud.
+9. **Be ready for:** selective ruling table — only intents that change a ruling,
+   risk, route, clock, resource, NPC response, or information. Omit ordinary or
+   redundant actions. Include **Assess the situation** only when success and
+   failure both say what changes. Every cell is a *ruling* (`run-guide` Ruling).
+   No Partial definition on the card.
 10. **How the Scene Resolves:** the next scene's opening state in feet and RAW
     conditions, plus only the most likely options the beat can actually produce.
     Each option hands off to a beat on the session skeleton — not off-scene.

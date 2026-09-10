@@ -519,4 +519,6 @@ Follow skill `agentic-system-designer` (Intake → Baseline → Fix → Prove �
 
 **count:** 1
 
-**status:** open
+**status:** closed
+
+**Fix:** `.agents/skills/run-guide/SKILL.md`; `.agents/skills/encounter-prep/SKILL.md` — Be ready for field, section, and table gate now say "selective ruling table"; include only intents that change a ruling, risk, route, clock, resource, NPC response, or information; omit ordinary, boring, or redundant actions. Measure: agent-facing files with selective Be ready for constraint 0 → 2. Cheap check: `rg -l --glob '*.md' -e 'selective ruling table' -e 'Omit ordinary' .agents/skills`.

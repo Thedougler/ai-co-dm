@@ -153,7 +153,7 @@ in an existing file unless moving a section makes the card easier to run.
 | **Battlemap** | A battlemap or exact-scene image exists. | Heading `## Battlemap` at the bottom of the file after the runnable card. Embed existing battlemap art from `attachments/`. Use the shared compass: top north, right east, bottom south, left west. Omit if none exists. |
 | **Procedure** | The beat has a named mode, fuse, clock trigger, combat switch, pursuit rule, or repeated resolution loop. | Heading `## Procedure`. Name the mode and this slice's trigger once. Not 5e turn order. Not a `[!mechanic]` callout. |
 | **Zones** | Positions, routes, cover, distance, search areas, or scene stock matter. | Table: place \| distance in feet \| cover \| narration. Same concrete distances and compass directions as Now. Each row names decision-useful scene stock in that zone. The **Narration** column carries conditional spoken prose as `==_italic_==`, not a callout. When the Narration column is absent, one empty `> [!narration] {Place}` stub per row after the table instead. |
-| **Be ready for** | Players are likely to attempt consequential actions, checks, tactics, or negotiations. | Table: intent \| approach \| DC \| success \| partial \| failure. Approach is **Ability (Skill)** when a check applies. DC column is `` `DC 14` ``. Dice and damage in cells are inline code. Applied conditions are **bold**. Name the creature, item, and place in every cell. Every cell is a *ruling*. Include **Assess the situation** only when success and failure both say what changes. No Partial definition on the card. |
+| **Be ready for** | Players are likely to attempt consequential actions, checks, tactics, or negotiations. | Selective ruling table — include only intents that change a ruling, risk, route, clock, resource, NPC response, or information the party gains. Omit ordinary, boring, or redundant actions; unforeseen approaches are ruled from procedure, zones, and clock. Table: intent \| approach \| DC \| success \| partial \| failure. Approach is **Ability (Skill)** when a check applies. DC column is `` `DC 14` ``. Dice and damage in cells are inline code. Applied conditions are **bold**. Name the creature, item, and place in every cell. Every cell is a *ruling*. Include **Assess the situation** only when success and failure both say what changes. No Partial definition on the card. |
 | **Threat clock** | A fuse or opposition turn changes the situation. | Heading `## Threat clock`. Table: tick \| what happens \| narration. Named ticks. 3-4 ticks. Each tick states what newly becomes visible, usable, threatened, blocked, or changed. The **Narration** column carries conditional spoken prose as `==_italic_==`. When the column is absent, one empty `> [!narration] Tick {n}` stub per tick after the table instead. Bloodied, cover-reached, and scene dials live as paragraphs after the table. |
 | **Secondary objective** | A second question runs in parallel and changes outcome or later consequence. | Heading `## Secondary objective`. One paragraph: beats required, ignore outcome, later consequence. Omit when there is no second objective. |
 | **How the Scene Resolves** | Every live beat needs the next state. | Heading is `## How the Scene Resolves`. Write only the most likely options, usually one or two. Each option hands off to a beat on this session's skeleton — it advances the scene, not exits it. Next state, damage already applied, relevant conditions, and what follows. One empty `> [!narration] How the Scene Resolves` for the unconditional spoken state, plus a table for those likely options (`If` \| `Next` \| `Narration`). Narration cells use `==_spoken_==`. Do not stack a titled callout per option. |
@@ -294,7 +294,7 @@ If the owner lacks `## Statblock`, add that heading above the fence on the owner
 
 ## Be ready for and the clock
 
-The spoken Initial Narration shows the situation and ends on the question, then wait. Anticipated intents live in the table so unforeseen approaches can still be ruled from want + zones + clock (intention / approach).
+A selective ruling table, not a catalog. Include only intents that change a ruling, risk, route, clock, resource, NPC response, or information. Omit ordinary or boring actions — unforeseen approaches are ruled from procedure, zones, and clock (intention / approach). The spoken Initial Narration shows the situation and ends on the question, then wait.
 
 Clock ticks are pressure **actions**: what fills the clock, what happens, and
 what completion changes. Visible geography the viewpoint already has does not
@@ -316,7 +316,7 @@ required procedure.
 
 Completion — all of these hold, or the draft is not done:
 
-- One named *procedure*; Be ready for failures do not also tick the clock.
+- One named *procedure*; Be ready for failures do not also tick the clock. Be ready for is selective — no ordinary, boring, or redundant rows.
 - Beat identity: the card filename's number matches its skeleton position; the card's purpose, dramatis personae, and hand-off match the skeleton.
 - This beat's opening follows from the previous beat's How the Scene Resolves — no state reset, teleport, or unexplained jump between cards.
 - The central element the table will ask about has an owner and appears on the card. Background detail may be marked unknown; the central element may not.
