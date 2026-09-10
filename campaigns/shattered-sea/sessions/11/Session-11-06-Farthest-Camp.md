@@ -11,7 +11,7 @@ summary: Development at Spoke Ring. Calveno wreck people split over the garden a
 ---
 # Session 11 — The farthest camp
 
-![[aruhe-spoke-ring.jpg|Spoke Ring, radial fire hub under Quiet leaves]]
+![[attachments/shattered-sea/places/aruhe-spoke-ring.jpg|Spoke Ring, radial fire hub under Quiet leaves]]
 
 ## Scene ends when
 
@@ -57,7 +57,7 @@ Three or four other Calveno wreck people sit in the firelight. One watches the n
 - `DC 10` → edible, not poison.
 - `DC 15` or *Identify* → eating a fallen [[Aruhe - Stonepear]] is a Bonus Action and grants **Resistance to all damage** for 1 minute.
 
-![[aruhe-stonepear.jpg|Stonepear]]
+![[attachments/shattered-sea/items/aruhe-stonepear.jpg|Stonepear]]
 
 > [!narration] Initial Narration
 > You hear three or four people arguing in low voices around a fire on packed dirt beneath the trees. One says a woman in the woods asked them to come admire her garden, this way, and not to take the living plants. Another says she is leading them into danger, and anyone who listens is mad.
@@ -145,4 +145,4 @@ If [[Matteo Scola]] is with the party, he is still on this dirt or on the north 
 
 ## Battlemap
 
-![[session-11-06-farthest-camp-base.jpg|Session 11-06 Spoke Ring battlemap]]
+![[attachments/shattered-sea/battlemaps/session-11-06-farthest-camp-base.jpg|Session 11-06 Spoke Ring battlemap]]
