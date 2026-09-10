@@ -11,12 +11,17 @@ tags: [monster, aruhe]
 
 # Deer-Stalker
 
+## Statblock
+````col
+```col-md
+flexGrow=3
+===
 ![[deer-stalker-of-aruhe.jpg|Deer-Stalker of Aruhe]]
-
 > [!narration] Narration
 > The Deer-Stalker is a tall, starving deer dragged almost upright by overlong forelimbs, with thin hind legs tucked beneath a shaggy brown hide. Bone-pale arms hang past its knees and end in black claws, often dark with blood up to the wrists. Its antlers branch above a long white face, and pale forward eyes stare over a wet muzzle while blood and spit thread from its teeth into the leaf rot.
+```
 
-## Statblock
+```col-md
 
 ```statblock
 layout: Basic 5e Layout
@@ -60,6 +65,15 @@ reactions:
     desc: "Trigger: The deer-stalker is hit by an attack while at least three hostile creatures are within 30 feet of it, or at least two if it isn't Famished. Response: The deer-stalker moves up to half its Speed without provoking Opportunity Attacks. If it ends this movement in dim light, darkness, or natural foliage, it can take the Hide action as part of this reaction."
 ```
 
+```
+````
+
+
+
+
+
+## Statblock
+
 ## Behavior
 
 **Habitat.** Deer-Stalkers keep to the dim edges of [[Aruhe - Quiet Forest|the Quiet]] and [[Aruhe - The Marshes|the Marshes]], using game trails, wet paths, root shadows, and grassland margins where a sick deer shape can stand half-hidden. The grassland-river seam is [[Aruhe - Quiet Forest Cutoff Lip]]. North of that lip they work the forest-edge grass at [[Aruhe - Grasslands - Print Braid]]. They avoid [[Aruhe - Razer-Grass]] and [[Aruhe - Grubnade|Grubnades]].
@@ -83,9 +97,18 @@ reactions:
 **Aftermath.** A Deer-Stalker encounter leaves an interrupted kill site, blood threads on leaves and roots, clawed drag marks, hoofprints that stop making sense, and a lingering stink of sweet rot. There is usually nothing worth keeping.
 
 ## Art
-
+````col
+```col-md
 ![[attachments/shattered-sea/creatures/deer-stalker-of-aruhe-01.jpg|Deer-Stalker of Aruhe]]
-
-![[attachments/shattered-sea/creatures/deer-stalker-of-aruhe-02.jpg|Deer-Stalker of Aruhe]]
-
 ![[attachments/shattered-sea/creatures/deer-stalker-of-aruhe-03.jpg|Deer-Stalker of Aruhe]]
+```
+
+```col-md
+![[attachments/shattered-sea/creatures/deer-stalker-of-aruhe-02.jpg|Deer-Stalker of Aruhe]]
+```
+````
+
+
+
+
+

@@ -10,13 +10,17 @@ tags: [monster, aruhe]
 ---
 # Great Crown Squid
 
+## Statblock
+````col
+```col-md
+flexGrow=3
+===
 ![[attachments/shattered-sea/creatures/great-crown-squid-of-aruhe-01.jpg|Great Crown Squid of Aruhe]]
-
 > [!narration] Narration
 > The Great Crown Squid hangs high between the trees, a house-sized clear mantle swollen with pale violet light and veined like a wet leaf. Thick arms brace against trunks around it, while dozens of thinner hooklines trail down through the mist like roots looking for the forest floor. Its rubbery skin carries bark-dark ridges, thorny suckers, and hanging water, and the whole body barely bends the canopy until one eye turns inside the crown.
+```
 
-## Statblock
-
+```col-md
 ```statblock
 layout: Basic 5e Layout
 name: "Great Crown Squid"
@@ -79,25 +83,20 @@ legendary_actions:
   - name: "Reel"
     desc: "One Grappled creature is pulled up to 20 feet toward the squid."
 ```
+```
+````
 
 ## Behavior
 
-**Habitat.** The Great Crown Squid owns high, wet canopy in [[Aruhe - Quiet Forest|the Quiet]], [[Aruhe - The Marshes|the Marshes]], and the roof of [[Aruhe - The Mangroves|the Mangroves]]. It favors massive trunks, hanging roots, mist, and broken light where its clear mantle and bark-dark arms can read as part of the trees.
-
-**Behavior.** It waits above trails and waterways with its mantle braced between trunks and its finer hooklines hanging below. It watches before it commits, choosing isolated prey and shifting through the canopy with almost no weight on the branches. The one the crew saw after the spore plant disturbance stopped at the tree line instead of following into open ground.
-
-**Diet.** It eats large animals, travelers, and anything it can draw up into the canopy. [[Aruhe - Bear-Elk|Bear-Elk]], wounded hunters, climbing creatures, and people who trail behind a group are good meals. Juveniles sometimes work the upper terraces, while the oldest sit heavier in the Marshes where food is easy and walkers cannot easily reach the roof.
-
-**Social Structure.** Solitary apex predator. Each adult holds a stretch of canopy and treats other large Aruhe hunters as boundaries rather than allies. Adults do not share a kill unless one is already beaten and leaving.
+- **Habitat.** The Great Crown Squid owns high, wet canopy in [[Aruhe - Quiet Forest|the Quiet]], [[Aruhe - The Marshes|the Marshes]], and the roof of [[Aruhe - The Mangroves|the Mangroves]]. It favors massive trunks, hanging roots, mist, and broken light where its clear mantle and bark-dark arms can read as part of the trees.
+- **Behavior.** It waits above trails and waterways with its mantle braced between trunks and its finer hooklines hanging below. It watches before it commits, choosing isolated prey and shifting through the canopy with almost no weight on the branches. The one the crew saw after the spore plant disturbance stopped at the tree line instead of following into open ground.
+- **Diet.** It eats large animals, travelers, and anything it can draw up into the canopy. [[Aruhe - Bear-Elk|Bear-Elk]], wounded hunters, climbing creatures, and people who trail behind a group are good meals. Juveniles sometimes work the upper terraces, while the oldest sit heavier in the Marshes where food is easy and walkers cannot easily reach the roof.
+- **Social Structure.** Solitary apex predator. Each adult holds a stretch of canopy and treats other large Aruhe hunters as boundaries rather than allies. Adults do not share a kill unless one is already beaten and leaving.
 
 ## Tactics
 
-**Signs.** Sucker scars high on trunks, bark stripped upward, shredded sixty-foot vines, broken branches that never fell, prey tracks that end going up, polished antler caught in the canopy, wet hookline cuts, and long rootlike lines hanging where no root should move.
-
-**Instincts.** It wants isolated prey, trailing bodies, wounded creatures, and targets that step under open canopy. It avoids open grassland, occupied [[Aruhe - River Otter|river otter]] water, and prey that clusters tightly enough to cut hooklines or hide under its mouth.
-
-**Tactics.** It stays above the fight, sends hooklines down through leaves and mist, reels prey toward the mantle, and shifts tree to tree when a line is cut. It uses Canopy Pounce to cross the roof and put fresh lines on separated targets, then bites only once prey is already held. If the chase becomes more interesting than the meal, it stays ahead by the canopy route rather than dropping to the ground.
-
-**Weaknesses.** Open grass, deep occupied water, clustered targets, severed hooklines, and the blind space directly beneath the mantle all interfere with its hunt. Fire, loud cutting, and heavy blows on the hooklines do not scare it, but they make the meal expensive. Dead, the gas mantle loses its lift and the body becomes tons of wet weight.
-
-**Aftermath.** A Crown Squid encounter leaves torn canopy, sucker rings, sap-wet bark, broken vines, blood high overhead, and trails that simply stop beneath the trees. There is no treasure expected, though severed hooklines, rubbery hide, and mantle tissue may interest a careful harvester.
+- **Signs.** Sucker scars high on trunks, bark stripped upward, shredded sixty-foot vines, broken branches that never fell, prey tracks that end going up, polished antler caught in the canopy, wet hookline cuts, and long rootlike lines hanging where no root should move.
+- **Instincts.** It wants isolated prey, trailing bodies, wounded creatures, and targets that step under open canopy. It avoids open grassland, occupied [[Aruhe - River Otter|river otter]] water, and prey that clusters tightly enough to cut hooklines or hide under its mouth.
+- **Tactics.** It stays above the fight, sends hooklines down through leaves and mist, reels prey toward the mantle, and shifts tree to tree when a line is cut. It uses Canopy Pounce to cross the roof and put fresh lines on separated targets, then bites only once prey is already held. If the chase becomes more interesting than the meal, it stays ahead by the canopy route rather than dropping to the ground.
+- **Weaknesses.** Open grass, deep occupied water, clustered targets, severed hooklines, and the blind space directly beneath the mantle all interfere with its hunt. Fire, loud cutting, and heavy blows on the hooklines do not scare it, but they make the meal expensive. Dead, the gas mantle loses its lift and the body becomes tons of wet weight.
+- **Aftermath.** A Crown Squid encounter leaves torn canopy, sucker rings, sap-wet bark, broken vines, blood high overhead, and trails that simply stop beneath the trees. There is no treasure expected, though severed hooklines, rubbery hide, and mantle tissue may interest a careful harvester.

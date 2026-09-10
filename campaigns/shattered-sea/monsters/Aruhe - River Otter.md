@@ -9,13 +9,19 @@ visibility: dm
 tags: [monster, aruhe]
 ---
 # Aruhe River Otter
+
+## Statblock
+````col
+```col-md
+flexGrow=3
+===
 ![[aruhe-river-otter-of-aruhe.jpg|Aruhe River Otter]]
 
 > [!narration] Narration
 > Twelve-foot chocolate-black river otters work the Long Reach and clear lake in blood-kin families, their pale throat marks as distinct as fingerprints. They roll through the shallows with rope, oars, ankles, or a dead deerstalker's head as if every loose thing in the water has joined their game. The water stays glass-clear around them, and the whole family goes still when play becomes a hunt.
+```
 
-## Statblock
-
+```col-md
 ```statblock
 layout: Basic 5e Layout
 name: "Aruhe River Otter"
@@ -55,24 +61,19 @@ bonus_actions:
     desc: "Contested Athletics or Sleight of Hand against a held or worn object within 5 feet (or a trailing rope). On a success, the otter takes the object and swims 10 feet; no damage."
 ```
 
+```
+````
 ## Behavior
 
-**Habitat.** Aruhe River Otters hold [[Aruhe - River|the Long Reach]] and [[Aruhe - Clear Lake|the clear lake]], especially the open cuts where bank, shallows, and deep water let the family watch both land and current. [[Aruhe - River Slack Basin]] is one such cut. They keep the water gin-clear on purpose by culling grazers, dropping shade-trees, and patrolling the banks.
-
-**Behavior.** They play first: rope, oars, ankles, trailing packs, and a [[Aruhe - Deerstalker|deerstalker's]] antlered head can all become tug toys in the shallows. Entering the water is treated as joining the game, and responding to play teaches the family a new game.
-
-**Diet.** The otters eat river animals, bank grazers, careless predators, and Deerstalkers they kill for sport as much as food. They will not haul a kill onto [[Aruhe - Razer-Grass|razer-grass]], and they sniff a [[Aruhe - Grubnade|grubnade]] once before leaving it alone.
-
-**Social Structure.** Families hold four to six adults plus pups. The lake family is larger, and its matriarch is older than the wreck on the beach. Play is blood kin only; harm an adult, touch a pup, or overstay in claimed water, and the whole family shifts from game to military silence.
+- **Habitat.** Aruhe River Otters hold [[Aruhe - River|the Long Reach]] and [[Aruhe - Clear Lake|the clear lake]], especially the open cuts where bank, shallows, and deep water let the family watch both land and current. [[Aruhe - River Slack Basin]] is one such cut. They keep the water gin-clear on purpose by culling grazers, dropping shade-trees, and patrolling the banks.
+- **Behavior.** They play first: rope, oars, ankles, trailing packs, and a [[Aruhe - Deerstalker|deerstalker's]] antlered head can all become tug toys in the shallows. Entering the water is treated as joining the game, and responding to play teaches the family a new game.
+- **Diet.** The otters eat river animals, bank grazers, careless predators, and Deerstalkers they kill for sport as much as food. They will not haul a kill onto [[Aruhe - Razer-Grass|razer-grass]], and they sniff a [[Aruhe - Grubnade|grubnade]] once before leaving it alone.
+- **Social Structure.** Families hold four to six adults plus pups. The lake family is larger, and its matriarch is older than the wreck on the beach. Play is blood kin only; harm an adult, touch a pup, or overstay in claimed water, and the whole family shifts from game to military silence.
 
 ## Tactics
 
-**Signs.** Glass-clear water, polished slides in the mud, pale throat flashes below the surface, ropes drawn tight from under a boat, oars tugged from hands, and a recently killed Deerstalker head bobbing where no current should hold it.
-
-**Instincts.** The family watches first, steals gear second, tests reactions third, dunks and releases fourth, and only fully hunts once the line is crossed. What comes from the river belongs to the family.
-
-**Tactics.** In play mode, use one family initiative and avoid damage: Tug Toy moves gear, exposes footing, and teaches the table the boundary. In hunt mode, adults strike as a coordinated controller pack, using Watery Ambush, grapples, and Dunk to split one target from the group while the others see only wakes.
-
-**Weaknesses.** They dominate occupied water but are less willing to fight on dry land, razer-grass, or any haul-out that traps their bodies away from the current. Fire, ropes, and repeated tricks are remembered by the family, which means a clever party can bait, redirect, or avoid them once the pattern is learned.
-
-**Aftermath.** A river-otter encounter leaves scrubbed banks, disturbed mud slides, missing gear, chewed rope, drowned carcass scraps, and clear water gone briefly cloudy where the family struck. Against [[Aruhe - Crown Squid|crown squid]], the river otters form an ecological boundary: a grabber trailing into occupied water can meet six enormous bodies pulling the other direction.
+- **Signs.** Glass-clear water, polished slides in the mud, pale throat flashes below the surface, ropes drawn tight from under a boat, oars tugged from hands, and a recently killed Deerstalker head bobbing where no current should hold it.
+- **Instincts.** The family watches first, steals gear second, tests reactions third, dunks and releases fourth, and only fully hunts once the line is crossed. What comes from the river belongs to the family.
+- **Tactics.** In play mode, use one family initiative and avoid damage: Tug Toy moves gear, exposes footing, and teaches the table the boundary. In hunt mode, adults strike as a coordinated controller pack, using Watery Ambush, grapples, and Dunk to split one target from the group while the others see only wakes.
+- **Weaknesses.** They dominate occupied water but are less willing to fight on dry land, razer-grass, or any haul-out that traps their bodies away from the current. Fire, ropes, and repeated tricks are remembered by the family, which means a clever party can bait, redirect, or avoid them once the pattern is learned.
+- **Aftermath.** A river-otter encounter leaves scrubbed banks, disturbed mud slides, missing gear, chewed rope, drowned carcass scraps, and clear water gone briefly cloudy where the family struck. Against [[Aruhe - Crown Squid|crown squid]], the river otters form an ecological boundary: a grabber trailing into occupied water can meet six enormous bodies pulling the other direction.

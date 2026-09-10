@@ -53,8 +53,6 @@ The party stands on the wet sand of [[Aruhe - River Slack Basin]], facing east, 
 
 **[[Taking on Aruhe]].** Fishing this hole is Hunt, and it is a possible claim when you next roll. Carrying flesh from this hole is a claim. Do not invent pack contents.
 
-![[aruhe-river-otter-of-aruhe.jpg|Aruhe River Otter]]
-
 > [!narration] Initial Narration
 > You see a man in a grey salt-stiff shirt gripping thick jungle roots twenty feet north, one boot missing and blood running from a split in his lip. His hips are already in the still turquoise water. A twelve-foot chocolate-black otter circles his legs and cuts him off whenever he reaches for the roots, a thin pale streak bright at its throat. On the wet sand under your feet, another twelve-foot otter holds a chewed pole and a wet rope. A tight white whorl marks its pale chest; amber eyes stay on this bank, and water drips from its whiskers.
 >
@@ -147,11 +145,6 @@ The party takes the bloody-bank detour toward the smoke on [[Aruhe - Quiet Fores
 ## Roster
 
 ![[Aruhe - River Otter#Statblock]]
-
-> [!narration] Aruhe River Otter
-> Water drips from long whiskers. The streaked otter stays at the hanging roots, waiting for the man to move.
-
-![[Aruhe - River Otter#Tactics]]
 
 ## Backup
 

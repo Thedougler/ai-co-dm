@@ -9,11 +9,18 @@ visibility: dm
 tags: [monster, aruhe]
 ---
 # Bloodhark
+
+## Statblock
+````col
+```col-md
+flexGrow=3
+===
 ![[attachments/shattered-sea/creatures/bloodhawk-of-aruhe.jpg|Bloodhawk of Aruhe]]
 > [!narration] Narration
 > The Bloodhawk of Aruhe is an ordinary hawk made enormous, with charcoal feathers, a ragged red crest, and crimson flight feathers spread across an eighty-foot shadow. Four broad wings hold it in the air while a pale hooked beak and boat-long talons do the close work. It circles without calling, and when the wings fold, the red-black body becomes a falling shape before the wind reaches the ground.
-## Statblock
+```
 
+```col-md
 ```statblock
 layout: Basic 5e Layout
 name: Bloodhawk
@@ -59,28 +66,24 @@ reactions:
   - name: Wing Buffet
     desc: "Trigger: The bloodhawk is hit by a ranged attack while flying and isn't grappling a Gargantuan creature. Response: The attacker must reroll the attack and use the new roll."
 ```
+```
+````
+
 
 ## Behavior
 
-**Habitat.** Bloodhawks own the open sky above [[Aruhe - Hungry Isle]], especially lake bowls, reef gaps, river openings, canopy breaks, and hard-lit grassland rims. They avoid closed canopy, eight-foot grass, charted shingle, and occupied [[Aruhe - River Otter|otter]] water.
-
-**Behavior.** A Bloodhawk rides thermals in wide silent circles, watching for bodies that leave cover or cross open water. It does not scream over its territory. Over land, the warning is a moving bar of dark on the floor; over water, crimson underwings flashing against storm light.
-
-**Diet.** It takes whales, canoes in open channel, [[Aruhe - Bear-Elk|Bear-Elk]] that step into open cuts, and [[Aruhe - Terror-Bird|terror-birds]] that hold a rim too long in hard noon. It does not eat skybladder fruit or work the island like a scavenger flock.
-
-**Social Structure.** Solitary adults hold inland sky lanes. Young Bloodhawks may follow what an adult flushes, but they are pressure around the hunt rather than equal rivals.
+- **Habitat.** Bloodhawks own the open sky above [[Aruhe - Hungry Isle]], especially lake bowls, reef gaps, river openings, canopy breaks, and hard-lit grassland rims. They avoid closed canopy, eight-foot grass, charted shingle, and occupied [[Aruhe - River Otter|otter]] water.
+- **Behavior.** A Bloodhawk rides thermals in wide silent circles, watching for bodies that leave cover or cross open water. It does not scream over its territory. Over land, the warning is a moving bar of dark on the floor; over water, crimson underwings flashing against storm light.
+- **Diet.** It takes whales, canoes in open channel, [[Aruhe - Bear-Elk|Bear-Elk]] that step into open cuts, and [[Aruhe - Terror-Bird|terror-birds]] that hold a rim too long in hard noon.
+- **Social Structure.** Solitary adults hold inland sky lanes. Young Bloodhawks may follow what an adult flushes, but they are pressure around the hunt rather than equal rivals.
 
 ## Tactics
 
-**Signs.** A moving wing-shadow with no call, crushed grass circles with no exit trail, bear-elk bones on terrace stone with no approach tracks, whale blood in open water, crimson primary feathers, and gouges where talons struck wood, hide, or stone.
-
-**Instincts.** It keys on height, noise, exposed movement, open water, and prey already flushed from cover. It breaks off when the target vanishes under closed canopy, deep grass, or protected water.
-
-**Tactics.** It folds its wings, drops in a straight line, bites or hooks the exposed body, and climbs while the four wings keep lift under the weight. Once prey is held, it rakes with sickle claws and uses altitude as the threat.
-
-**Weaknesses.** It is slow and unhappy on the ground, bad under a sealed roof of leaves, and unwilling to put its feet into occupied otter water. Cover, low flight, tall grass, and broken sightlines rob the dive of its clean line.
-
-**Aftermath.** A Bloodhawk strike leaves torn feathers, falling blood, cracked branches, dropped nest fiber from high canopy, a stinking wound that will not close until treated, and sometimes a carcass placed where no ground trail reaches it.
+- **Signs.** A moving wing-shadow with no call, crushed grass circles with no exit trail, bear-elk bones on terrace stone with no approach tracks, whale blood in open water, crimson primary feathers, and gouges where talons struck wood, hide, or stone.
+- **Instincts.** It keys on height, noise, exposed movement, open water, and prey already flushed from cover. It breaks off when the target vanishes under closed canopy, deep grass, or protected water.
+- **Tactics.** It folds its wings, drops in a straight line, bites or hooks the exposed body, and climbs while the four wings keep lift under the weight. Once prey is held, it rakes with sickle claws and uses altitude as the threat.
+- **Weaknesses.** It is slow and unhappy on the ground, bad under a sealed roof of leaves, and unwilling to put its feet into occupied otter water. Cover, low flight, tall grass, and broken sightlines rob the dive of its clean line.
+- **Aftermath.** A Bloodhawk strike leaves torn feathers, falling blood, cracked branches, dropped nest fiber from high canopy, a stinking wound that will not close until treated, and sometimes a carcass placed where no ground trail reaches it.
 
 ## Art 
 ![[bloodhawk-token.jpg|Bloodhawk FoundryVTT token]]
