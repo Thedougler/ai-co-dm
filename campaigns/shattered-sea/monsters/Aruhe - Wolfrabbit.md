@@ -9,13 +9,19 @@ visibility: dm
 tags: [monster, aruhe]
 ---
 # Wolfrabbit
+## Statblock
+
+````col
+```col-md
+flexGrow=3
+===
 ![[wolfrabbit-of-aruhe.jpg|Wolfrabbit of Aruhe]]
 
 > [!narration] Narration
 > A dark-striped hunting cat crouches over the boat, its enormous ears pricked above a broad, furred head. Red eyes track you through the terrace brush, a twitching nose wet with saliva and hooked claws gripping the rim. Wolf-sized and built to spring, it can cross the gap before the boat clears the bank.
+```
 
-## Statblock
-
+```col-md
 ```statblock
 layout: Basic 5e Layout
 name: "Wolfrabbit"
@@ -56,6 +62,8 @@ reactions:
   - name: "Frenzy Toward the Fallen"
     desc: "Trigger: Another wolfrabbit the wolfrabbit can see within 30 feet drops to 0 Hit Points. Response: The wolfrabbit leaps up to 15 feet toward that creature without provoking Opportunity Attacks."
 ```
+```
+````
 
 ## Behavior
 
