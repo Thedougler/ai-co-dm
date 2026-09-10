@@ -58,11 +58,9 @@ The [[Aruhe - Spiguar]] owns this channel and is hunting the pack. The party is 
 ![[attachments/shattered-sea/hazards/aruhe-razer-grass.png|Razer-Grass]]
 
 > [!narration] Initial Narration
-> You see three wolf-sized hunters already mid-leap down the muddy corridor at torso height, coming from the north with long ears laid back and hooked black claws open. Dark stripes and spots run the tan-brown hides. A torn left ear, a white blaze down a muzzle, and a kinked tail mark the three as they come. Red eyes hold the lane. Spit trails from wet muzzles, and rust-orange shows inside the pinned ears.
+> You see three wolf-sized hunters already mid-leap down this flood-torn corridor at torso height, long ears laid back, hooked black claws open. Dark stripes run the tan-brown hides. A torn left ear, a white blaze down a muzzle, and a kinked tail mark the three as they come. Spit trails from wet muzzles.
 >
-> Grass higher than a person crowds the flood-torn mud under you. Ten feet south, turquoise water knocks the black rock and pale stone lip at your backs, and glossy red berries hang on short thick stems at that wet margin. The same crushed corridor carries a bunched line of feet that bends around the white stands, stays out of the still grass to the east, and keeps going north on the far side of those claws.
->
-> Fifteen feet west, waist-high white blades hold bright points that do not sway, and two more white stands sit 25 feet east. Twenty feet east of the path, a reed-matted clump has broken open on a heavy spotted cat already pinning a fourth striped body, living grass piled over its back, pale saber teeth in the dark muzzle, yellow eyes low. You hear water rasp on the rocks and a thin glass tick off the white stalks. You smell torn mud and wet fur. You feel the mud pull at the crushed stems. Forty feet east, the grass breaks against bank-woods. North, a thin smoke column still stands on the horizon. Open sky sits above the grass.
+> The river is at your backs now, knocking a pale stone lip. A bunched line of feet through this cut bends around waist-high white blades that do not sway, and stays out of the still grass to the east. Twenty feet east, a reed-matted clump has broken open on a heavy spotted cat already pinning a fourth striped body, living grass piled over its back, pale saber teeth in the dark muzzle. You hear a thin glass tick off those white stalks, and you smell wet fur.
 >
 > What do you do?
 
@@ -78,12 +76,12 @@ If a party member takes open valley air, that person leaves this hunt. Point at 
 
 | Place | Distance from the party | Cover | Narration |
 | --- | --- | --- | --- |
-| [[Aruhe - Grasslands Torn Crossing\|This crossing]] | Here, facing north. Eight-foot grass and flood-torn mud. | This grass hides a standing body, is Difficult Terrain, and heavily obscures beyond 10 feet. It is also the pack's escape lane. | ==_Gold-green grass stands higher than your head on wet, cut-up ground, and a muddy corridor of crushed stems runs north through the middle. The stems rasp at your legs, and torn mud smells sharp underfoot._== |
-| River | 10 feet south at their backs, and along the west bank. | Deep water is cover from this hunt. Glossy red berries hang on short thick stems at the wet lip. | ==_Clear turquoise water knocks against black rock and a pale stone lip behind you. Glossy red berries hang on short thick stems at that wet margin._== |
-| Upriver prints | 30 feet north beyond the leaping pack, then off this stretch. | The flushed pack stands between the party and those prints until the hunt leaves. The prints bunch through this one corridor, bend around the white stands, and stay out of the cat's grass. | ==_The line of feet continues north through the grass beyond the leaping bodies, still bunched in one corridor and still bent around the white stands._== |
-| [[Aruhe - Razer-Grass]] islands | Nearest island 15 feet west in the scour. Two more 25 feet east in the grass. | Nothing large walks through them. The pack jumps them rather than land in them. The [[Aruhe - Spiguar]] will not willingly rush them. A knockdown can dump someone into one. | ==_Pale blades stand waist-high, edges bright and hard, with old reddish smears on a few lower stalks. The prints bend around those stands, and a light tick comes off the white stalks._== |
-| [[Aruhe - Spiguar]] lane | 20 feet east of the path in the gold grass. | Grass Mantle. While it is on its wolfrabbit, creatures more than 10 feet away have disadvantage to spot it if it goes still again. | ==_A reed-matted clump has broken open off the path. A heavy spotted cat is already on a striped body there, living grass piled over its back, pale saber teeth in the dark muzzle._== |
-| Bank-woods | 40 feet east. | The pack breaks contact among the first trunks. The [[Aruhe - Spiguar]] drags a kill that way to feed. | ==_The grass thickens, then breaks against the trees. Shade sits under that wall, and the open stems stop at the first trunks._== |
+| [[Aruhe - Grasslands Torn Crossing\|This crossing]] | Here, facing north. Eight-foot grass and flood-torn mud. | This grass hides a standing body, is Difficult Terrain, and heavily obscures beyond 10 feet. It is also the pack's escape lane. | ==_The stems they launched from are still falling into the mud at your feet._== |
+| River | 10 feet south at their backs, and along the west bank. | Deep water is cover from this hunt. Glossy red berries hang on short thick stems at the wet lip. | ==_The current takes you off this lip at once._== |
+| Upriver prints | 30 feet north beyond the leaping pack, then off this stretch. | The flushed pack stands between the party and those prints until the hunt leaves. The prints bunch through this one corridor, bend around the white stands, and stay out of the cat's grass. | ==_On the far side of the claws, those feet never enter the still grass or the white stands._== |
+| [[Aruhe - Razer-Grass]] islands | Nearest island 15 feet west in the scour. Two more 25 feet east in the grass. | Nothing large walks through them. The pack jumps them rather than land in them. The [[Aruhe - Spiguar]] will not willingly rush them. A knockdown can dump someone into one. | ==_Old reddish smears mark a few lower stalks._== |
+| [[Aruhe - Spiguar]] lane | 20 feet east of the path in the gold grass. | Grass Mantle. While it is on its wolfrabbit, creatures more than 10 feet away have disadvantage to spot it if it goes still again. | ==_Yellow eyes sit low in the dark muzzle, and the whole body is flatter in the gold than a hunting cat should sit._== |
+| Bank-woods | 40 feet east. | The pack breaks contact among the first trunks. The [[Aruhe - Spiguar]] drags a kill that way to feed. | ==_The grass breaks against a wall of trunks forty feet east._== |
 
 ## Be ready for
 
@@ -105,10 +103,10 @@ Unforeseen intents use the same want: the [[Aruhe - Spiguar]] is hunting the pac
 
 | Tick | What happens | Narration |
 | --- | --- | --- |
-| 1 | Opening flush. Each remaining [[Aruhe - Wolfrabbit]] uses Pouncing Bound (leap up to 30 feet, Raking Claws +7 to hit, `12` slashing). If the leap began at least 20 feet away and hits, **Strength save — `DC 15`** or **Prone**. They hit whoever is isolated, bleeding, or standing in the grass on this stretch. The [[Aruhe - Spiguar]] stays on its wolfrabbit unless a party member is already on the magnets as a better meal. | ==_The stems they launched from are still falling as the three hunters come down the corridor at anyone isolated, bleeding, or standing in this grass. Torn ear, white blaze, and kinked tail drop together, hooked claws open. Off the path, the spotted cat keeps its striped body._== |
-| 2 | Pack Rend, or the cat switches. A [[Aruhe - Wolfrabbit]] Bites (+7 to hit, `14` piercing) a **Prone** party member on this stretch. If another [[Aruhe - Wolfrabbit]] is within 5 feet of that target, extra `5 (1d10)` piercing. If a party member is **Prone**, isolated, bleeding, or hitting the [[Aruhe - Spiguar]], it drops the wolfrabbit enough to Pounce or Saber Bite that party member. If not, it uses Drag Through Grass on its wolfrabbit toward the bank-woods. | ==_The nearest hunter drives its teeth into anyone already down. Another of the three crowds that same body on the torn crossing. In the east grass, the spotted cat either hauls its striped kill toward the trees or turns those saber teeth toward a body that has gone still._== |
-| 3 | Dump or drag. A knock-down puts a **Prone** party member into the river current or into a [[Aruhe - Razer-Grass]] island (`1d4` slashing per 5 feet; Shatter **Dexterity save — `DC 14`**, `2d6` slashing if they fall **Prone** in it). If the [[Aruhe - Spiguar]] has a **Grappled** party member, it uses Drag Through Grass up to 30 feet toward the bank-woods. | ==_A knock sends anyone already down toward the river at your backs or into a glassy island in the scour. The pale blades tick in the wind. If the spotted cat has someone, it hauls that body into the gold grass toward the trees._== |
-| 4 | Extra rabbit only if they lingered, claimed living fruit, burned the grass, or struck the [[Aruhe - Spiguar]]: an unnamed extra [[Aruhe - Wolfrabbit]] joins from the grass. If they did not, the [[Aruhe - Spiguar]] finishes dragging its kill into cover and the remaining pack breaks off this stretch unless someone is still on the magnets. | ==_Another dark-striped hunter shoulders out of the tall grass, long-eared and gathering for a leap. If no new body comes, the spotted cat disappears under bent reeds with its kill, and the three still hold the torn crossing only if someone remains in the lane._== |
+| 1 | Opening flush. Each remaining [[Aruhe - Wolfrabbit]] uses Pouncing Bound (leap up to 30 feet, Raking Claws +7 to hit, `12` slashing). If the leap began at least 20 feet away and hits, **Strength save — `DC 15`** or **Prone**. They hit whoever is isolated, bleeding, or standing in the grass on this stretch. The [[Aruhe - Spiguar]] stays on its wolfrabbit unless a party member is already on the magnets as a better meal. | ==_The three hunters come down the corridor at anyone still in this grass._== |
+| 2 | Pack Rend, or the cat switches. A [[Aruhe - Wolfrabbit]] Bites (+7 to hit, `14` piercing) a **Prone** party member on this stretch. If another [[Aruhe - Wolfrabbit]] is within 5 feet of that target, extra `5 (1d10)` piercing. If a party member is **Prone**, isolated, bleeding, or hitting the [[Aruhe - Spiguar]], it drops the wolfrabbit enough to Pounce or Saber Bite that party member. If not, it uses Drag Through Grass on its wolfrabbit toward the bank-woods. | ==_The nearest hunter drives its teeth into anyone already down. Another crowds that same body. In the east grass, the spotted cat either hauls its kill toward the trees or turns those saber teeth toward a body that has gone still._== |
+| 3 | Dump or drag. A knock-down puts a **Prone** party member into the river current or into a [[Aruhe - Razer-Grass]] island (`1d4` slashing per 5 feet; Shatter **Dexterity save — `DC 14`**, `2d6` slashing if they fall **Prone** in it). If the [[Aruhe - Spiguar]] has a **Grappled** party member, it uses Drag Through Grass up to 30 feet toward the bank-woods. | ==_A knock sends anyone already down toward the river or into a white stand. If the spotted cat has someone, it hauls that body into the gold grass toward the trees._== |
+| 4 | Extra rabbit only if they lingered, claimed living fruit, burned the grass, or struck the [[Aruhe - Spiguar]]: an unnamed extra [[Aruhe - Wolfrabbit]] joins from the grass. If they did not, the [[Aruhe - Spiguar]] finishes dragging its kill into cover and the remaining pack breaks off this stretch unless someone is still on the magnets. | ==_Another dark-striped hunter shoulders out of the tall grass, gathering for a leap. If no new body comes, the spotted cat disappears under bent reeds with its kill._== |
 
 **Bloodied.** When one [[Aruhe - Wolfrabbit]] dies, survivors frenzy on Hard (Devour the Pack and Frenzy Toward the Fallen). Easy skips Devour the Pack. The [[Aruhe - Spiguar]] prefers a wolfrabbit corpse over a standing group. Spiguar bloodied is 93 hit points; if it takes that much, it Drags its current body into the bank-woods and breaks contact rather than standing in the open.
 
@@ -129,19 +127,19 @@ The [[Aruhe - Spiguar]] keeps its wolfrabbit and the pack breaks off this stretc
 **Grappled.** Anyone the [[Aruhe - Spiguar]] dragged is **Grappled** (escape `DC 18`) until they break the hold.
 
 > [!narration] How the Scene Resolves
-> The spotted cat is under the trees with its kill, and the remaining hunters break off this stretch. The bunched prints still run north through the grass, bent around the white stands, and the thin smoke still stands on the northern horizon.
+> The spotted cat is gone under the trees with its kill, and the remaining hunters break off this stretch.
 
 | If | Next | Narration |
 | --- | --- | --- |
-| Hunt leaves | The party keeps the upriver prints toward [[Aruhe - River Line Bank]]. The [[Aruhe - Spiguar]] kept its wolfrabbit. Hand to [[Session-11-04-What-They-Ate]]. | ==_The spotted cat hauls its striped kill under the bank-woods, and the remaining hunters break off this stretch. The upriver prints still cut one bunched line through the grass._== |
-| Costly leave | The party keeps the upriver prints with **Prone**, **Grappled**, or a [[Taking on Aruhe]] claim already applied. Hand to [[Session-11-04-What-They-Ate]]. | ==_You are past the leaping bodies with someone still down or claimed, and the bunched prints still run north through the grass toward the smoke._== |
+| Hunt leaves | The party keeps the upriver prints toward [[Aruhe - River Line Bank]]. The [[Aruhe - Spiguar]] kept its wolfrabbit. Hand to [[Session-11-04-What-They-Ate]]. | ==_The bunched prints are clear ahead._== |
+| Costly leave | The party keeps the upriver prints with **Prone**, **Grappled**, or a [[Taking on Aruhe]] claim already applied. Hand to [[Session-11-04-What-They-Ate]]. | ==_Someone is still down or claimed as you take that north line._== |
 
 ## Roster
 
 ![[Aruhe - Wolfrabbit#Statblock]]
 
 > [!narration] Wolfrabbit
-> Three wolf-sized hunters cross the torn ground in one long leap, flushed down the muddy corridor. Dark-striped bodies cut over the grass with long ears laid back: one torn left ear, one white blaze down the muzzle, one kinked tail. Rust-orange shows inside those ears, red eyes hold the lane, and hooked black claws open on the way down.
+> The nearest hunter's wet nose twitches as it comes down, wolf-sized, hooked claws still open.
 
 ![[attachments/shattered-sea/creatures/wolfrabbit-of-aruhe.png|Wolfrabbit of Aruhe]]
 
@@ -150,7 +148,7 @@ The [[Aruhe - Spiguar]] keeps its wolfrabbit and the pack breaks off this stretc
 ![[Aruhe - Spiguar#Statblock]]
 
 > [!narration] Spiguar
-> A heavy spotted cat is already on a striped body 20 feet east of the path, living ferns and grass piled over its back and neck. Pale saber teeth show against the dark muzzle, yellow eyes low, the whole shape flatter in the gold than a leopard should sit. The grass around it barely moves except where it has the kill.
+> The spotted cat stays flat over its kill, yellow eyes low, the grass around it barely moving except where it has the body.
 
 ![[attachments/shattered-sea/creatures/spiguar-of-aruhe.png|Spiguar of Aruhe]]
 

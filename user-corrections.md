@@ -1,5 +1,5 @@
 ---
-summary: Nick's correction log. Writers append on #ERROR; ASD drains. All entries closed.
+summary: Nick's correction log. Writers append on #ERROR; ASD drains. Open: TotM repeats already-spoken prose.
 ---
 
 # User corrections
@@ -197,3 +197,15 @@ Follow skill `agentic-system-designer` (Intake → Baseline → Fix → Prove �
 **status:** closed
 
 **Fix:** `AGENTS.md` prime directive (always-on, every agent), `run-guide/SKILL.md` table gate bullet, `dnd5e-mechanics/SKILL.md` step 6 sanity-check — fun overrides consistency, symmetry, and prior-beat precedent for DCs and design choices. Instruction rung; if count rises, escalate to a dedicated skill. Measure: agent-facing files stating fun as overriding goal 0 → 3. Cheap check: `rg -l --glob '*.md' 'serves.*fun' AGENTS.md .agents/skills`.
+
+### 2026-09-09 — TotM repeats already-spoken prose
+
+**Error:** Wrote theatre-of-the-mind blocks in a vacuum on [[Session-11-03-Wolfrabbits]]. Zone, tick, creature, and How the Scene Resolves prose restated Initial Narration, and Initial Narration restated beat 2's already-spoken grass, river, berries, and smoke, without a scene change.
+
+**Correction:** TotM blocks must consider what has already been said to the player. Do not needlessly repeat unless the scene has changed.
+
+**Read:** `campaigns/shattered-sea/sessions/11/Session-11-03-Wolfrabbits.md`; `campaigns/shattered-sea/sessions/11/Session-11-02-Landing-Sign.md`; `skill://theatre-of-the-mind`; `skill://theatre-of-the-mind/references/voice.md`; `skill://run-guide`; `skill://obsidian-markdown`
+
+**count:** 1
+
+**status:** open
