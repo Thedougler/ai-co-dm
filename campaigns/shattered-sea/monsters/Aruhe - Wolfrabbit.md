@@ -7,6 +7,7 @@ cr: 4
 source: house (wiki creature.wolfrabbit; living-stock 2026-09-05; 2024 CR 4 conversion)
 visibility: dm
 tags: [monster, aruhe]
+summary: CR 4 pack skirmisher that uses a 30-foot pounce to knock targets prone and lets nearby packmates rend them.
 ---
 # Wolfrabbit
 ## Statblock
@@ -45,7 +46,7 @@ traits:
   - name: "Pack Rend"
     desc: "Once per turn when the wolfrabbit hits a Prone creature with its Bite, the attack deals an extra 5 (1d10) Piercing damage if another wolfrabbit is within 5 feet of the target."
   - name: "Blood-Scented"
-    desc: "The wolfrabbit has Advantage on Wisdom (Perception) checks to locate a creature that is missing any Hit Points."
+    desc: "The wolfrabbit has Advantage on Wisdom (Perception) checks that rely on smell to locate a creature that doesn't have all its Hit Points."
 actions:
   - name: "Multiattack"
     desc: "The wolfrabbit makes two attacks: one with its Bite and one with its Raking Claws."
@@ -54,13 +55,13 @@ actions:
   - name: "Raking Claws"
     desc: "Melee Attack Roll: +7, reach 5 feet, one target. Hit: 12 (2d6 + 5) Slashing damage."
   - name: "Pouncing Bound"
-    desc: "The wolfrabbit leaps up to 30 feet to an unoccupied space it can see and makes one Raking Claws attack against a creature within 5 feet of where it lands. If it began the leap at least 20 feet from the target and the attack hits, the target must succeed on a DC 15 Strength saving throw or have the Prone condition. If the target succeeds, the wolfrabbit can immediately leap up to 10 feet to an unoccupied space it can see. This movement doesn't provoke Opportunity Attacks from that target."
+    desc: "The wolfrabbit jumps up to 30 feet, without needing a running start, to an unoccupied space it can see, then makes one Raking Claws attack against one creature within 5 feet of where it lands. If the wolfrabbit moved at least 20 feet straight toward the target and the attack hits, the target must succeed on a DC 15 Strength saving throw or have the Prone condition. On a successful save, the wolfrabbit can move up to 10 feet without provoking Opportunity Attacks from the target."
 bonus_actions:
   - name: "Devour the Pack"
-    desc: "The wolfrabbit tears into the corpse of another wolfrabbit within 5 feet that died since the end of the wolfrabbit's previous turn. The corpse is mangled and can't be used for this ability again. The wolfrabbit gains 10 temporary Hit Points and becomes Frenzied until the end of its next turn. While Frenzied, its Speed increases by 10 feet and its Bite deals an extra 3 (1d6) Piercing damage."
+    desc: "The wolfrabbit tears into the corpse of another wolfrabbit within 5 feet that died since the end of the wolfrabbit's previous turn. A corpse can be targeted only once by this bonus action. The wolfrabbit gains 10 temporary Hit Points and enters a frenzy until the end of its next turn. During the frenzy, its Speed increases by 10 feet and its Bite deals an extra 3 (1d6) Piercing damage."
 reactions:
   - name: "Frenzy Toward the Fallen"
-    desc: "Trigger: Another wolfrabbit the wolfrabbit can see within 30 feet drops to 0 Hit Points. Response: The wolfrabbit leaps up to 15 feet toward that creature without provoking Opportunity Attacks."
+    desc: "Trigger: Another wolfrabbit the wolfrabbit can see within 30 feet drops to 0 Hit Points. Response: The wolfrabbit moves up to 15 feet toward that creature's space without provoking Opportunity Attacks."
 ```
 ```
 ````
