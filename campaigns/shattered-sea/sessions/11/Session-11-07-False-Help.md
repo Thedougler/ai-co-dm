@@ -11,7 +11,7 @@ summary: Cliffhanger borrowed-voice ambush on the north trails off Spoke Ring. T
 ---
 # Session 11 — False help
 
-![[attachments/shattered-sea/places/aruhe-spoke-ring.jpg|Spoke Ring, radial fire hub under Quiet leaves]]
+![[attachments/shattered-sea/sessions/session-11-07-false-help-overview.png|False Help overview: the fire against the empty north trail]]
 
 ## Scene ends when
 
