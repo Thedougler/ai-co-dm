@@ -536,3 +536,17 @@ Follow skill `agentic-system-designer` (Intake → Baseline → Fix → Prove �
 **status:** closed
 
 **Fix:** `campaigns/shattered-sea/monsters/Aruhe - Bear-Elk.md` — converted Behavior and Tactics fields to bullets and grouped the three additional art embeds under `## Art` with columns. Measure: Bear-Elk peer-layout details missing 2 → 0.
+
+### 2026-09-10 — Crown Squid columns removed
+
+**Error:** Removed the Crown Squid's existing multi-column identity/statblock layout while simplifying its mechanics.
+
+**Correction:** Preserve the existing columns when revising the Crown Squid statblock.
+
+**Read:** `AGENTS.md`; `campaigns/shattered-sea/monsters/Aruhe - Crown Squid.md`; `campaigns/shattered-sea/monsters/Aruhe - Bloodhawk.md`; `.agents/skills/obsidian-markdown/SKILL.md`; `.agents/skills/homebrew-monsters-5e/SKILL.md`; `.agents/skills/qmd-retrieval/SKILL.md`; `templates/Monster.md`; `user-corrections.md`.
+
+**count:** 1
+
+**status:** closed
+
+**Fix:** `campaigns/shattered-sea/monsters/Aruhe - Crown Squid.md` — restore the two-column identity/statblock presentation while retaining the CR 11 simplification.
