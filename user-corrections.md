@@ -1,5 +1,5 @@
 ---
-summary: Nick's correction log. Writers append on #ERROR; ASD drains. One open: over-scoped `.agent` typo fix.
+summary: Nick's correction log. Writers append on #ERROR; ASD drains. Two open: over-scoped `.agent` typo fix; session beat third/fourth copy passes.
 ---
 
 # User corrections
@@ -219,6 +219,18 @@ Follow skill `agentic-system-designer` (Intake → Baseline → Fix → Prove �
 **Correction:** Update AGENTS.md only. The two-roots line is a typo (`.agent/` → `.agents/`). One root is already `.agents/skills/`.
 
 **Read:** `AGENTS.md` Skills (progressive); `GROK-BOTS.md` roster; `README.md` layout; `scripts/lint-obsidian-markdown`; `.claude/skills` vs `.agents/skills` listings.
+
+**count:** 1
+
+**status:** open
+
+### 2026-09-09 — session beat third/fourth copy passes
+
+**Error:** Session files are created in two passes (mechanical cockpit, then TotM fill). Missing a third pass where copy-writer edits session beat copy for DM usability, readability, and usefulness, then a fourth pass for theatre-of-the-mind copy.
+
+**Correction:** After session files are created, copy-writer performs a DM usability, readability, and usefulness pass and edit of the session beat copy. Afterwards a fourth pass is performed for theatre-of-the-mind copy.
+
+**Read:** `AGENTS.md` Write (session/run beats two passes); `user-corrections.md` append recipe.
 
 **count:** 1
 
