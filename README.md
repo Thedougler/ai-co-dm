@@ -19,7 +19,7 @@ Local-only (gitignored): workspace layout, graph layout, plugin `data.json`, `.t
 
 ## Agent conventions
 
-See [AGENTS.md](AGENTS.md). Grok Bots also load [GROK-BOTS.md](GROK-BOTS.md). Short version: use wikilinks, keep notes small, update indexes when you add pages, never paste proprietary book text, no real player PII in this public repo. Agents ignore Obsidian UI chrome — markdown is the product.
+See [AGENTS.md](AGENTS.md). Grok Bots also load [GROK-BOTS.md](GROK-BOTS.md), and agents running in oh-my-pi load [OMP.md](OMP.md). Short version: use wikilinks, keep notes small, update indexes when you add pages, never paste proprietary book text, no real player PII in this public repo. Agents ignore Obsidian UI chrome — markdown is the product.
 
 ## Layout
 
@@ -28,6 +28,7 @@ See [AGENTS.md](AGENTS.md). Grok Bots also load [GROK-BOTS.md](GROK-BOTS.md). Sh
 | `00 Home.md` | Hub |
 | `AGENTS.md` | Vault schema / write contract |
 | `GROK-BOTS.md` | Grok Bot fleet: Mac host, packets, roster |
+| `OMP.md` | Oh My Pi runtime and delegation guide |
 | `campaigns/` | One folder per campaign |
 | `templates/` | New-note templates (Obsidian Templates folder) |
 | `lexicon/` | Shared terms, house rules pointers |

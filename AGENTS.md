@@ -9,7 +9,7 @@ Obsidian LLM wiki for Nick's home D&D. **Markdown is the product.**
 | Remote | `https://github.com/Thedougler/ai-co-dm` |
 | Active | [[campaigns/shattered-sea/hot]] → [[campaigns/shattered-sea/00 Shattered Sea]] |
 
-**Grok Bots also load [[GROK-BOTS]].** Do not boot-load [[user-corrections]].
+**Grok Bots also load [[GROK-BOTS]]. Agents running in oh-my-pi load [[OMP]].** Do not boot-load [[user-corrections]].
 
 ## Boot
 
