@@ -1,0 +1,6 @@
+#!/bin/sh
+# Refresh the local QMD index and embeddings when an agent session starts.
+set -eu
+
+ROOT=$(CDPATH= cd -P "$(dirname "$0")/.." && pwd -P)
+exec "$ROOT/scripts/qmd-refresh"
