@@ -11,6 +11,8 @@ summary: "Landing Bank development beat: fresh prints, cold ash, loose fruit, an
 ---
 # Session 11 — Landing sign and smoke
 
+![[attachments/shattered-sea/sessions/session-11-02-landing-sign-overview.png|Session 11-02 Landing Sign overview]]
+
 ## Scene ends when
 
 The party follows the fresh northbound prints toward the inland smoke, handing to [[Session-11-03-Wolfrabbits]].
