@@ -522,3 +522,17 @@ Follow skill `agentic-system-designer` (Intake → Baseline → Fix → Prove �
 **status:** closed
 
 **Fix:** `.agents/skills/run-guide/SKILL.md`; `.agents/skills/encounter-prep/SKILL.md` — Be ready for field, section, and table gate now say "selective ruling table"; include only intents that change a ruling, risk, route, clock, resource, NPC response, or information; omit ordinary, boring, or redundant actions. Measure: agent-facing files with selective Be ready for constraint 0 → 2. Cheap check: `rg -l --glob '*.md' -e 'selective ruling table' -e 'Omit ordinary' .agents/skills`.
+
+### 2026-09-10 — Bear-Elk missed peer layout details
+
+**Error:** Updated Bear-Elk to the multi-column identity/statblock layout but missed the Deerstalker page's bullet formatting for Behavior and Tactics and its multi-column layout for additional art.
+
+**Correction:** When matching the Deerstalker monster layout, use bullet paragraphs for every Behavior and Tactics field and put additional art under `## Art` in the same multi-column wrapper.
+
+**Read:** `campaigns/shattered-sea/monsters/Aruhe - Bear-Elk.md`; `campaigns/shattered-sea/monsters/Aruhe - Deerstalker.md`; `.agents/skills/obsidian-markdown/SKILL.md`; `.agents/skills/homebrew-monsters-5e/SKILL.md`; `.agents/skills/writing-for-agents/SKILL.md`; `user-corrections.md`.
+
+**count:** 1
+
+**status:** closed
+
+**Fix:** `campaigns/shattered-sea/monsters/Aruhe - Bear-Elk.md` — converted Behavior and Tactics fields to bullets and grouped the three additional art embeds under `## Art` with columns. Measure: Bear-Elk peer-layout details missing 2 → 0.
