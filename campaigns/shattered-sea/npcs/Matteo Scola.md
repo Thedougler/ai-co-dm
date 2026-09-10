@@ -16,7 +16,7 @@ tags:
   - aruhe
   - calveno
   - survivor
-summary: Calveno wreck survivor who deserted the inland group after rejecting Hinewai's garden warning and was mauled by river otters at Slack Basin. Call him the man until he gives his name after rescue.
+summary: Calveno wreck survivor who deserted the inland group after rejecting Hinewai's garden warning and accidentally started a deadly game of tag with river otters at Slack Basin. Call him the man until he gives his name after rescue.
 source: "house (session 11 beat 05; created 2026-09-09)"
 ---
 
@@ -44,7 +44,7 @@ source: "house (session 11 beat 05; created 2026-09-09)"
 
 ### First meeting
 
-Until the party pulls him onto the bank, call him the man in the grey shirt. He is clinging to roots in [[Aruhe - River Slack Basin]], one boot gone, his lip split and bleeding, hips in the slack while two [[Aruhe - River Otter|river otters]] play him loose from the bank.
+Until the party pulls him onto the bank, call him the man in the grey shirt. He is clinging to roots in [[Aruhe - River Slack Basin]], one boot gone, his lip split and bleeding, hips in the slack while two [[Aruhe - River Otter|river otters]] play tag with him and take the game too far.
 
 He asks for the bank before he explains anything. If rescued and able to speak, he gives his name: Matteo. He stays close to whoever pulled him out and answers in short, wet sentences.
 
@@ -52,7 +52,7 @@ He asks for the bank before he explains anything. If rescued and able to speak, 
 
 ### If asked why he was alone
 
-Matteo says the woman in the woods told them to admire her garden, walk carefully, and not take living plants. The garden mouths wanted to follow. Matteo called it madness, left the argument, and tried to prove the safer answer was back toward the river and the pack. The otters took him before he could return with anything.
+Matteo says the woman in the woods told them to admire her garden, walk carefully, and not take living plants. The garden mouths wanted to follow. Matteo called it madness, left the argument, and tried to prove the safer answer was back toward the river and the pack. He splashed, ran the waterline, or grabbed a pole, and the otters treated that as him being it.
 
 He does not say Hinewai's name. He does not know the graves, the Death Bloom, or how far the garden lies.
 
@@ -72,7 +72,7 @@ Matteo survived the wrecks and moved inland with the Calveno group that reached 
 
 ## The otter hole
 
-The river otters found him isolated. By the time the party reaches [[Session-11-05-Otter-Hole]], Matteo is not a brave scout or a secret guide. He is the visible proof that on Aruhe, a person alone becomes prey.
+The river otters found him isolated and treated his return for the pack as the start of a chase. By the time the party reaches [[Session-11-05-Otter-Hole]], Matteo is not a brave scout or a secret guide. He is the visible proof that on Aruhe, a person alone becomes the game.
 
 ---
 
@@ -84,7 +84,7 @@ The river otters found him isolated. By the time the party reaches [[Session-11-
 | [[Aruhe - Quiet Forest Spoke Ring]] | The farthest camp if the party rescues him and follows the bloody-bank prints. |
 | [[Aruhe - Hinewai]] | The woman whose garden advice Matteo rejected; he does not name her. |
 | [[Uncertainty]] | The ship and safer human group he can be persuaded to favor. |
-| [[Aruhe - River Otter]] | The predators that punish his isolation. |
+| [[Aruhe - River Otter]] | The otters that played him toward drowning after he went back alone. |
 
 ---
 
