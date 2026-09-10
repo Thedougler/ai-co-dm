@@ -245,6 +245,12 @@ wrapper follows the host or page request; do not force an encounter question.
    locked canon, distinguish beliefs from facts, and do not add canon in this
    prose pass. If the parent lacks a usable signature, first-sight facts, or
    affordance, invoke the owning craft skill before drafting.
+   **Already-spoken gate (session-beat stubs):** before drafting any stub, read
+   the previous beat's spoken prose and this beat's own Initial Narration (for
+   non-Initial stubs). Do not restate facts already spoken to the players unless
+   the scene has physically changed since they were spoken. Grass, river,
+   smoke, sky, and terrain the party already stands in do not reappear as
+   discovery. New prose shows what is **new, changed, or newly actionable**.
 4. **Pixels.** When the job is `[!narration]`, a portrait, a first look, or
    scene-setting, and related images exist on the parent, run card, roster
    owners, or as user attachments, read
@@ -449,7 +455,8 @@ callouts. When a Zones or Threat clock column is absent, fill callout stubs
 after the table instead.
 
 Smaller blocks (zone, tick, How the Scene Resolves, creature-in-scene) do not restage
-Initial Narration.
+Initial Narration. Each stub shows only what is **new, changed, or newly
+actionable** at that moment — not a second pass over facts already spoken.
 
 ## Draft and review
 

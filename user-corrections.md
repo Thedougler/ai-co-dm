@@ -1,5 +1,5 @@
 ---
-summary: Nick's correction log. Writers append on #ERROR; ASD drains. Open: TotM repeats already-spoken prose.
+summary: Nick's correction log. Writers append on #ERROR; ASD drains. All entries closed.
 ---
 
 # User corrections
@@ -208,4 +208,6 @@ Follow skill `agentic-system-designer` (Intake → Baseline → Fix → Prove �
 
 **count:** 1
 
-**status:** open
+**status:** closed
+
+**Fix:** `.agents/skills/theatre-of-the-mind/SKILL.md` — Already-spoken gate in Before drafting step 3: read previous beat's spoken prose and this beat's Initial Narration before drafting any stub; do not restate facts already spoken unless scene physically changed. Within-beat reinforcement: smaller blocks show only what is new, changed, or newly actionable. Measure: agent-facing files with already-spoken prose gate 0 → 1. Cheap check: `rg -l --glob '*.md' 'Already-spoken gate' .agents/skills`.
