@@ -35,4 +35,4 @@ See [AGENTS.md](AGENTS.md). Grok Bots also load [GROK-BOTS.md](GROK-BOTS.md), an
 | `inbox/` | Scratch captures before filing (Obsidian new-note default) |
 | `attachments/` | Images / embeds dropped from Obsidian |
 | `.obsidian/` | Shared vault config + critical plugins |
-| `.agent/skills/` | Agent procedures |
+| `.agents/skills/` | Agent procedures |
