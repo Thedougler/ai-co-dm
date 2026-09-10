@@ -339,3 +339,15 @@ Follow skill `agentic-system-designer` (Intake → Baseline → Fix → Prove �
 **count:** 1
 
 **status:** open
+
+### 2026-09-09 — Uncommon scenery word
+
+**Error:** Used an uncommon word such as "shingle" instead of an immediately picturable phrase such as "pebble beach."
+
+**Correction:** Prefer ordinary, concrete words that a listener can picture on one hearing. Replace uncommon or technical scenery terms with a visible description, such as "pebble beach."
+
+**Read:** `AGENTS.md`; `user-corrections.md`; `skill://agentic-system-designer`; `skill://obsidian-markdown`
+
+**count:** 1
+
+**status:** open
