@@ -17,7 +17,7 @@ flexGrow=3
 ===
 ![[attachments/shattered-sea/creatures/bloodhawk-of-aruhe-portrait.png|Bloodhawk of Aruhe]]
 > [!narration] Narration
-> The Bloodhawk of Aruhe is an ordinary hawk made enormous, with charcoal feathers, a ragged red crest, and crimson flight feathers spread across an eighty-foot shadow. Four broad wings hold it in the air while a pale hooked beak and boat-long talons do the close work. It circles without calling, and when the wings fold, the red-black body becomes a falling shape before the wind reaches the ground.
+> Seen against storm light, the Aruhe Bloodhawk fills the sky with four broad wings, two rising high and two spread low, their charcoal feathers edged and streaked with deep crimson. Its body is an enormous hawk's body, heavy through the chest, with a ragged red crest above a pale hooked beak and long scaled legs that end in black curved talons. It rides the open sky over Aruhe's water and grassland rims in wide, silent circles, and the light catches red across its wings before the dark shape passes on.
 ```
 
 ```col-md
