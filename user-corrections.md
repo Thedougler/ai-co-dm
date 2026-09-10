@@ -358,12 +358,13 @@ Follow skill `agentic-system-designer` (Intake → Baseline → Fix → Prove �
 **Additional example:** "You see a crushed corridor of gold-green stems around you, and you feel mud sucking at a double line of footprints that still hold water."
 **Additional example:** "You see pale rock under the current, and the flow folds the underwater grass against your calves."
 **Additional example:** "You see three wolf-sized hunters already mid-leap down this flood-torn corridor at torso height, long ears laid back, hooked black claws open. Dark stripes run the tan-brown hides. A torn left ear, a white blaze down a muzzle, and a kinked tail mark the three as they come. Spit trails from wet muzzles."
+**Additional example:** "You see three fruiting bushes standing in reach along this wet margin, tawny orange globes still heavy on the living wood. Whole fruit and split skins heap at the roots: tawny orange ten feet toward the water, pale green twenty feet south along this bank, and a darker heap twenty-five feet west toward the jungle wall. The dirt under what has already fallen is clean. Dark red mud packs only around the living roots, where snapped stems hang over fruit still on the branch."
 
 **Correction:** _Not stated._
 
 **Read:** `AGENTS.md`; `user-corrections.md`; `skill://agentic-system-designer`; `skill://obsidian-markdown`
 
-**count:** 7
+**count:** 8
 
 **status:** open
 
