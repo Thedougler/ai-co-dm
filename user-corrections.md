@@ -402,12 +402,13 @@ Follow skill `agentic-system-designer` (Intake → Baseline → Fix → Prove �
 ### 2026-09-09 — Repeated “still” wording
 
 **Error:** Used the word "still" twice in a short narration passage, a symptom of a deeper prose error: "> Matteo sits five feet from the fire, his lip still split and wet, one boot still missing. He stays close to whoever pulled him. He does not look at the trails going north."
+**Additional example:** "Fallen stonepears still sit by the coals, grey-green plates chipped pale, and two spears still lie on the dirt south of the ring. Mats sit about ten feet out, some kicked crooked. You smell woodsmoke trapped under the leaves. You feel packed dirt hard underfoot."
 
 **Correction:** Never use "still" in narration. Each sentence must add new descriptive information or be omitted.
 
 **Read:** `AGENTS.md`; `user-corrections.md`; `skill://agentic-system-designer`; `skill://obsidian-markdown`
 
-**count:** 2
+**count:** 3
 
 **status:** open
 
