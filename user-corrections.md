@@ -509,3 +509,14 @@ Follow skill `agentic-system-designer` (Intake → Baseline → Fix → Prove �
 **status:** closed
 
 **Fix:** `.agents/skills/obsidian-markdown/SKILL.md`; `.agents/skills/copy-writer/SKILL.md` — surgical-scope edit constraint: edit only in-scope elements for the current pass; preserve existing image embeds, wikilink paths, frontmatter fields, and file extensions unless that exact element is broken and verified. Measure: agent-facing files with surgical-scope edit constraint 0 → 2. Cheap check: `rg -l --glob '*.md' -e 'Surgical edits only' -e 'Surgical scope' .agents/skills`.
+### 2026-09-09 — Exhaustive `Be ready for` tables
+
+**Error:** Agents are using the `Be ready for` section as an exhaustive list of everything players could possibly do. Session 11 beat 06, `campaigns/shattered-sea/sessions/11/Session-11-06-Farthest-Camp.md`, demonstrates the problem: redundant, boring, and non-informational rows reduce signal-to-noise and make the card harder for the DM to scan.
+
+**Correction:** `Be ready for` is a selective ruling table, not a catalog of every possible player action. Include only likely, relevant, interesting intents that change a ruling, risk, route, clock, resource, NPC response, or information, and keep rows non-redundant. Do not enumerate ordinary or boring actions. Unforeseen approaches should be ruled from the procedure, scene stock, zones, and NPC wants.
+
+**Read:** `AGENTS.md`; `user-corrections.md`; `campaigns/shattered-sea/sessions/11/Session-11-06-Farthest-Camp.md`; `skill://run-guide`; `skill://obsidian-markdown`; `skill://copy-writer`
+
+**count:** 1
+
+**status:** open
