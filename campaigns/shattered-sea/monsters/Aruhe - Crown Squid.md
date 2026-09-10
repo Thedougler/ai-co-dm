@@ -17,7 +17,7 @@ flexGrow=3
 ===
 ![[attachments/shattered-sea/creatures/great-crown-squid-of-aruhe-01.jpg|Great Crown Squid of Aruhe]]
 > [!narration] Narration
-> The Great Crown Squid hangs high between the trees, a house-sized clear mantle swollen with pale violet light and veined like a wet leaf. Thick arms brace against trunks around it, while dozens of thinner hooklines trail down through the mist like roots looking for the forest floor. Its rubbery skin carries bark-dark ridges, thorny suckers, and hanging water, and the whole body barely bends the canopy until one eye turns inside the crown.
+> The Great Crown Squid hangs between the trees, its house-sized mantle broad as a roof and translucent enough to show a deep violet glow inside. Thick arms spread from beneath it to grip the trunks, their bark-dark skin ridged and studded with thorny suckers, while a curtain of fine tendrils hangs toward the forest floor. Mist beads on the rubbery body and falls from the trailing tendrils as the whole shape stays almost still above the canopy.
 
 ```
 
