@@ -10,7 +10,7 @@ cssclasses: [session-surface]
 ---
 # Session 11 — False help
 
-![[attachments/shattered-sea/places/aruhe-spoke-ring.png|Spoke Ring, radial fire hub under Quiet leaves]]
+![[aruhe-spoke-ring.jpg|Spoke Ring, radial fire hub under Quiet leaves]]
 
 ## Scene ends when
 
@@ -32,7 +32,7 @@ This beat is thirty minutes.
 
 ## Now
 
-The party is on the packed dirt hub of [[Aruhe - Quiet Forest Spoke Ring]]. Night has this fire. The stone ring sits at the center. Smoke hangs under the leaf roof. Split-lip sits 5 feet from the coals if they pulled him at the hole: split lip still wet, one boot missing, grey salt-stiff shirt still damp. If they left him in the hole, he is not here. Three or four other Calveno wreck people sit in this light. Garden mouths stand when the whisper comes. Fallen [[Aruhe - Stonepear]] sits by the coals. Living stonepears still hang. Two spears rest on the packed dirt south of the ring. Four woven mats lie 10 feet out. The south trail runs 20 feet to gold-green grass. The west trail runs 30 feet to the river through a root-cut. North trails run 20 feet into darker wood. The whisper comes from a north spoke 20 feet off this hub. That spoke holds no matching feet. Deeper wood is 50 feet north. [[Aruhe - Quiet Forest Star Cut]] is farther than a Dash. A 30-foot move stays on this hub or reaches the first north trail mouth. A Dash of 60 feet follows a spoke off this ring. A Dash does not reach [[Aruhe - Quiet Forest Star Cut]], [[Aruhe - Memorial Grove]], the beach, or the terraces. The [[Aruhe - Deerstalker]] has speed 40 feet and climb 20 feet. Two ready hostiles within 30 feet scare it off. If they played along from [[Session-11-06-Farthest-Camp]], the party starts 20 feet north on the first packed trail, with this fire 20 feet south. If a forced march already put someone on a north spoke, that person is already isolated.
+The party is on the packed dirt hub of [[Aruhe - Quiet Forest Spoke Ring]]. Night has this fire. The stone ring sits at the center. Smoke hangs under the leaf roof. [[Matteo Scola|Split-lip]] sits 5 feet from the coals if they pulled him at the hole: split lip still wet, one boot missing, grey salt-stiff shirt still damp. If they left him in the hole, he is not here. Three or four other Calveno wreck people sit in this light. Garden mouths stand when the whisper comes. Fallen [[Aruhe - Stonepear]] sits by the coals. Living stonepears still hang. Two spears rest on the packed dirt south of the ring. Four woven mats lie 10 feet out. The south trail runs 20 feet to gold-green grass. The west trail runs 30 feet to the river through a root-cut. North trails run 20 feet into darker wood. The whisper comes from a north spoke 20 feet off this hub. That spoke holds no matching feet. Deeper wood is 50 feet north. [[Aruhe - Quiet Forest Star Cut]] is farther than a Dash. A 30-foot move stays on this hub or reaches the first north trail mouth. A Dash of 60 feet follows a spoke off this ring. A Dash does not reach [[Aruhe - Quiet Forest Star Cut]], [[Aruhe - Memorial Grove]], the beach, or the terraces. The [[Aruhe - Deerstalker]] has speed 40 feet and climb 20 feet. Two ready hostiles within 30 feet scare it off. If they played along from [[Session-11-06-Farthest-Camp]], the party starts 20 feet north on the first packed trail, with this fire 20 feet south. If a forced march already put someone on a north spoke, that person is already isolated.
 
 ### Action cards
 
@@ -54,11 +54,11 @@ The party is on the packed dirt hub of [[Aruhe - Quiet Forest Spoke Ring]]. Nigh
 
 **Ship mouths.** Unnamed. They call the listeners mad. They talk over a peel if someone holds this fire.
 
-**Split-lip.** Unnamed. Handle after the Face: split lip, one missing boot, grey salt-stiff shirt. He wants living people. He does not walk a north trail alone. If he was left in the hole, cut him from this card.
+**[[Matteo Scola|Split-lip]].** Handle after the Face: split lip, one missing boot, grey salt-stiff shirt. He wants living people. He does not walk a north trail alone. If he was left in the hole, cut him from this card.
 
 **[[Aruhe - Hinewai]] is not standing at this fire.** The woman in their mouths is her. Her name, the graves, and how far the garden is stay unknown.
 
-![[attachments/shattered-sea/creatures/deer-stalker-of-aruhe.png|Deer-Stalker of Aruhe]]
+![[deer-stalker-of-aruhe.jpg|Deer-Stalker of Aruhe]]
 
 > [!narration] Initial Narration
 > You see night on packed dirt around a ring of river-stone coals. Heat comes off those coals. Woodsmoke hangs under the leaves instead of rising. Four woven mats lie about ten feet out, and two spears rest on the dirt south of the ring. Fallen stonepears sit by the coals, grey-green plates chipped pale. Living ones still hang from mossed branches over this fire.
@@ -196,4 +196,4 @@ Do not run the hazards table, night watch, or [[Talon Skarn]] here. After this h
 
 ## Battlemap
 
-![[attachments/shattered-sea/battlemaps/aruhe-spoke-ring-battlemap.png|Spoke Ring battlemap, radial fire hub under Quiet leaves]]
+![[aruhe-spoke-ring-battlemap.jpg|Spoke Ring battlemap, radial fire hub under Quiet leaves]]

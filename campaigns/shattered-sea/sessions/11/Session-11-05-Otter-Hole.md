@@ -11,7 +11,7 @@ summary: Cliffhanger rescue at Slack Basin. Two otters play a separated survivor
 ---
 # Session 11 — Rescue at the otter hole
 
-![[attachments/shattered-sea/places/aruhe-river-slack-basin.png|Slack Basin, still claimed pool behind the rock lip]]
+![[aruhe-river-slack-basin.jpg|Slack Basin, still claimed pool behind the rock lip]]
 
 ## Scene ends when
 
@@ -41,7 +41,7 @@ The party stands on the wet sand of [[Aruhe - River Slack Basin]], facing east, 
 
 **Easy.** Two Hunt adults. A family of four to six is ecology, not this card's default. Do not spawn extra otters here.
 
-**Isolated person.** Unnamed. Split lip, one missing boot, grey salt-stiff shirt. Clinging to hanging roots 20 feet north, hips in the slack. No statblock. He went back for the pack after the group climbed out. He wants the bank. He does not name the woman. Once the table has seen the Face, Split-lip is the handle.
+**[[Matteo Scola|Isolated person]].** Use Split-lip as the handle until the party asks his name or pulls him onto the bank. Split lip, one missing boot, grey salt-stiff shirt. Clinging to hanging roots 20 feet north, hips in the slack. No statblock. He deserted the inland group after rejecting the woman in the woods' garden advice, then went back for the pack after the group climbed out. He wants the bank. He does not name the woman.
 
 **Compact numbers.** AC 15. Hit points 76. Bite +6 to hit, `14` piercing, reach 5 feet, and if the target is Medium or smaller it has the **Grappled** condition (escape `DC 14`). Tail +6 to hit, `11` bludgeoning, reach 10 feet. Dunk (Recharge 5–6): one creature **Grappled** by that otter is pulled up to 20 feet and shoved underwater, or held under if already in this water; that target has the **Restrained** condition until the grapple ends. Watery Ambush: advantage on attack rolls against a creature in this water if the other otter is within 10 feet of that target. Speed 20 feet, swim 40 feet. Hold Breath 30 minutes on the owner. Play Tug Toy: contested Athletics or Sleight of Hand against a held or worn object within 5 feet; on a success the otter takes the object and swims 10 feet, with no damage.
 
@@ -53,7 +53,7 @@ The party stands on the wet sand of [[Aruhe - River Slack Basin]], facing east, 
 
 **[[Taking on Aruhe]].** Fishing this hole is Hunt, and it is a possible claim when you next roll. Carrying flesh from this hole is a claim. Do not invent pack contents.
 
-![[attachments/shattered-sea/creatures/aruhe-river-otter-of-aruhe.png|Aruhe River Otter]]
+![[aruhe-river-otter-of-aruhe.jpg|Aruhe River Otter]]
 
 > [!narration] Initial Narration
 > You see a person in a grey salt-stiff shirt hanging from thick jungle roots twenty feet north, both hands on the wood, one boot missing, split lip dripping, hips already in still turquoise water. A twelve-foot chocolate-black otter rolls at those legs, a thin pale streak bright at its throat. At the sand underfoot, another twelve-foot otter holds a chewed pole and a wet rope, a tight white whorl on the pale chest, amber eyes on this bank, whiskers dripping.
@@ -157,4 +157,4 @@ The party takes the bloody-bank detour toward the smoke on [[Aruhe - Quiet Fores
 
 ## Battlemap
 
-![[attachments/shattered-sea/battlemaps/session-11-05-otter-hole-base.png|Session 11-05 Slack Basin battlemap]]
+![[session-11-05-otter-hole-base.jpg|Session 11-05 Slack Basin battlemap]]

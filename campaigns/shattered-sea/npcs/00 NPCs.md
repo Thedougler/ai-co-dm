@@ -9,7 +9,7 @@ tags: [index, npc]
 - [[Nona Black-Jaw]] · [[Beaumont Sel]] · [[Shepherd Grigori]] · [[Aleksander Malone]] · [[Otho]] · [[Aldric Drave]] · [[Aldous Draves]] · [[Master Kyzil]] · [[Talon Vantyrus]] · [[Talon Skarn]]
 - [[Umberlee - Branca]] · [[Fieschi]] · [[Simone]] · [[Barnaby Rook]] · [[Governor Voss]] · [[Lavinia Sordi]] · [[Rupert Knighton]] · [[Corbin Knighton]]
 - [[Prospero Morsani]] · [[Geoffrey Draves]] · [[Felix Aho]] · [[Ruma Delacroix]] · [[Bazzoth]] · [[Fisk's Captains]] · [[Cosimo Verantio]] · [[Oriana Becht]] · [[Maret]] · [[Estratto]] · [[Samuel]]
-- [[Auralis]] · [[Enzo]] · [[Ruk]] · [[Vashu the Weeping Veil]] · [[Ozzeth]] · [[Ussa]] · [[Aruhe - Hinewai]]
+- [[Auralis]] · [[Enzo]] · [[Ruk]] · [[Vashu the Weeping Veil]] · [[Ozzeth]] · [[Ussa]] · [[Aruhe - Hinewai]] · [[Matteo Scola]]
 
 ## Crown ingest
 - [[Aldric Drave]] — secret founder-lich; public service does not know him.
