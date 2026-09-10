@@ -1,5 +1,5 @@
 ---
-summary: Nick's correction log. Writers append on #ERROR; ASD drains. Open: session beats written without the previous beat, so the cards do not flow.
+summary: Nick's correction log. Writers append on #ERROR; ASD drains. No open corrections.
 ---
 
 # User corrections
@@ -164,5 +164,7 @@ Follow skill `agentic-system-designer` (Intake → Baseline → Fix → Prove �
 
 **count:** 1
 
-**status:** open
+**status:** closed
+
+**Fix:** `.agents/skills/run-guide/SKILL.md` — Step 1 (Ground) reads the previous beat card and uses its How the Scene Resolves as this beat's entry state. Table gate bullet enforces continuity: no state reset, teleport, or unexplained jump between cards. Measure: agent-facing files gating pass 1 on previous beat 0 → 1. Cheap check: `rg -l --glob '*.md' "previous beat card" .agents/skills`.
 

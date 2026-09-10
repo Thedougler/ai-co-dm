@@ -65,14 +65,17 @@ field needs decoding, replace it with the ordinary thing and visible action.
 
 ## Workflow
 
-1. **Ground.** Read `hot.md`, tonight's session prep, the latest log, and only
-   the linked owners needed to interpret this slice. `qmd-retrieval`. Verify
-   beat identity: the card filename's number matches its skeleton position
-   (`Session-<session>-<NN>-Label.md` = beat NN), its purpose and dramatis
-   personae match the skeleton, and its hand-off targets the skeleton's next
-   beat. Mismatch → rename the file before writing. Completion: beat identity
-   confirmed; every named actor, place, and item has an owner path or is
-   marked unknown.
+1. **Ground.** Read `hot.md`, tonight's session prep, the latest log, the
+   previous beat card when one exists, and only the linked owners needed to
+   interpret this slice. `qmd-retrieval`. The previous beat's How the Scene
+   Resolves is this beat's entry state — the situation, position, and changed
+   world the party walks in with. Verify beat identity: the card filename's
+   number matches its skeleton position (`Session-<session>-<NN>-Label.md` =
+   beat NN), its purpose and dramatis personae match the skeleton, and its
+   hand-off targets the skeleton's next beat. Mismatch → rename the file
+   before writing. Completion: beat identity confirmed; entry state known from
+   the previous beat; every named actor, place, and item has an owner path or
+   is marked unknown.
 
 2. **Diagnose.** Mark each beat `ready`, `missing owner`, `missing prep`, or
    `proposal`. Identify the central element the table will ask the DM to
@@ -306,6 +309,7 @@ Completion — all of these hold, or the draft is not done:
 
 - One named *procedure*; Be ready for failures do not also tick the clock.
 - Beat identity: the card filename's number matches its skeleton position; the card's purpose, dramatis personae, and hand-off match the skeleton.
+- This beat's opening follows from the previous beat's How the Scene Resolves — no state reset, teleport, or unexplained jump between cards.
 - The central element the table will ask about has an owner and appears on the card. Background detail may be marked unknown; the central element may not.
 - No Partial lecture, 5e-default lecture, or writer note on the card.
 - `dnd5e-mechanics` was loaded for every check, save, DC, grapple, shove, attack, damage, quality ladder, or player action mapped to a roll.
