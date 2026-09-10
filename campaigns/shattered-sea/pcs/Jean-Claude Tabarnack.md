@@ -5,12 +5,14 @@ player: Chad
 status: active
 visibility: dm
 tags: [pc, grung, botukuri, twiceborn]
+summary: Active blue Grung Gloom Stalker Ranger with a red beret, false moustache, and established identity art plus a new character design reference.
 ---
 # Jean-Claude Tabarnack
 
 ## Art
 ![[jean-claude-tabarnack-banner.jpg]]
 ![[jean-claude-tabarnack-token.jpg|Jean-Claude Tabarnack FoundryVTT token]]
+![[attachments/shattered-sea/pcs/jean-claude-tabarnack-character-design-sheet.png|Jean-Claude Tabarnack character design reference]]
 
 > [!narration] Narration
 > A three-foot electric-blue Grung, scarred and hard to mistake, in a red beret and false moustache he calls Corto di Velo. Kin can read the hat as a Twiceborn censure sign and walk past rather than claim him.
@@ -18,6 +20,16 @@ tags: [pc, grung, botukuri, twiceborn]
 
 ## Player-facing summary
 Three-foot electric-blue Grung Gloom Stalker Ranger, scarred, wearing a red beret and the false moustache called Corto di Velo.
+
+## Visual reference
+
+The user-supplied character design sheet supports the established look:
+
+- A small, lean, athletic blue frog with darker spots, large yellow eyes, a curled dark false moustache, red beret, hooded brown-green cloak, worn leather straps and pouches, wrist wraps, quiver, arrows, and bow.
+- The turnaround and silhouette preserve the same recognizable cues from front, side, and back, including long legs and splayed toes.
+- Expression studies cover neutral, subtly happy, serious, angry or determined, surprised, and sad or emotional presentations. Pose studies cover relaxed, confident, walking, crouched or resting, drawing, and ready or alert stances.
+- The portrait includes a cigarette as a visible reference prop; it is not a new mechanical or gear entry.
+- “Forest Archer,” “ranger / archer,” “quiet, witty, observant,” and the approximate seven-head proportion are design-sheet labels, not changes to Jean-Claude’s established class, backstory, relationships, hidden facts, or campaign mechanics.
 
 ## Bonds / ideals that matter
 
