@@ -9,9 +9,19 @@ visibility: dm
 tags: [monster, aruhe, grasslands]
 ---
 # Spiguar
-![[spiguar-of-aruhe.jpg|Spiguar of Aruhe]]
 ## Statblock
 
+````col
+```col-md
+flexGrow=3
+===
+![[spiguar-of-aruhe.jpg|Spiguar of Aruhe]]
+
+> [!narration] Narration
+> A low spotted cat shape slides through the gold grass, almost invisible beneath a mat of reeds, creepers, and wet green leaves. Its saber teeth show first, pale against a dark muzzle, then the whole heavy body drops flatter than a hunting leopard should be able to move. The grass barely whispers until it breaks open at once and the weight of the thing arrives before the roar does.
+```
+
+```col-md
 ```statblock
 layout: Basic 5e Layout
 name: Spiguar
@@ -55,11 +65,8 @@ bonus_actions:
   - name: "Cloaking Crouch"
     desc: "The spiguar takes the Hide action."
 ```
-
-# Spiguar
-
-> [!narration] Narration
-> A low spotted cat shape slides through the gold grass, almost invisible beneath a mat of reeds, creepers, and wet green leaves. Its saber teeth show first, pale against a dark muzzle, then the whole heavy body drops flatter than a hunting leopard should be able to move. The grass barely whispers until it breaks open at once and the weight of the thing arrives before the roar does.
+```
+````
 
 ## Behavior
 
@@ -82,4 +89,3 @@ bonus_actions:
 **Weaknesses.** Deep water, wide bare ground, fire, and clean overhead sightlines blunt its advantage. It will not willingly rush through [[Aruhe - Razer-Grass]], and it loses much of its edge if forced onto open stone, into the river, or under a view from above.
 
 **Aftermath.** A Spiguar kill site shows only a brief struggle in the open and a much uglier one in the grass beyond: a pounced lane, blood on seed heads, a drag trail vanishing under bent reeds, and a feeding hollow hidden far enough from the path that the next traveler may miss it until the smell arrives.
-
