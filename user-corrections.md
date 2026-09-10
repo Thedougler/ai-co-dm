@@ -1,5 +1,5 @@
 ---
-summary: Nick's correction log. Writers append on #ERROR; ASD drains. No open corrections.
+summary: Nick's correction log. Writers append on #ERROR; ASD drains. Open: fun is the session goal.
 ---
 
 # User corrections
@@ -183,3 +183,15 @@ Follow skill `agentic-system-designer` (Intake → Baseline → Fix → Prove �
 
 **Fix:** `run-guide/SKILL.md` How the Scene Resolves field and Table gate pass 1 bullet — each option hands off to a beat on the session skeleton, not off-scene. Same constraint added to `encounter-prep/SKILL.md` step 10 and `templates/Encounter.md`. Measure: agent-facing files constraining How the Scene Resolves options to skeleton hand-offs 0 → 3. Cheap check: `rg -l --glob '*.md' 'hands off to a beat on.*skeleton' .agents/skills templates`.
 
+
+### 2026-09-09 — Fun is the session goal
+
+**Error:** Kept DCs the same on [[Session-11-03-Wolfrabbits]] for consistency with beat 2, treating consistency as a constraint.
+
+**Correction:** The primary goal of this repo is a D&D session that is fun for the players and easy for the DM to run. Nothing may come against that. Change anything if it makes it funner. Nothing is sacred. Fun is the goal. Agents need a skill about making games fun.
+
+**Read:** `campaigns/shattered-sea/sessions/11/Session-11-03-Wolfrabbits.md`; `campaigns/shattered-sea/sessions/11/Session-11-02-Landing-Sign.md`; `campaigns/shattered-sea/sessions/11/Session-11-00-Birds-of-a-Feather.md`; `skill://run-guide`; `skill://dnd5e-mechanics`; `skill://dnd5e-mechanics/references/difficulty.md`; `skill://obsidian-markdown`; `user-corrections.md`
+
+**count:** 1
+
+**status:** open
