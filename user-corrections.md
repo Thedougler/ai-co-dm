@@ -363,12 +363,13 @@ Follow skill `agentic-system-designer` (Intake → Baseline → Fix → Prove �
 **Additional example:** "You leave the fruiting margin on the north prints, following the crushed corridor toward the smoke. Stems rasp at your legs,"
 **Additional example:** "You see wet river stones ringing live coals in the middle of a round clearing. You feel heat off those stones, and you smell woodsmoke under the leaves. Four woven mats sit about ten feet out. Heavy pear-shaped fruit hangs from the mossy branches, grey-green plates chipped pale, and more of that fruit already sits by the coals."
 **Additional example:** "West, you hear water through hanging roots. North, packed trails go darker between the big roots. A branch moves that way. The people who want the garden look into the trees and stop talking."
+**Additional example:** "You hear a whisper from the packed trail twenty feet north of this fire: come admire her garden, this way, leave the living plants. The same words come again, stretched, from that darker wood. You see no matching feet on that dirt. Nothing shows with them."
 
 **Correction:** _Not stated._
 
 **Read:** `AGENTS.md`; `user-corrections.md`; `skill://agentic-system-designer`; `skill://obsidian-markdown`
 
-**count:** 12
+**count:** 13
 
 **status:** open
 
@@ -413,6 +414,21 @@ Follow skill `agentic-system-designer` (Intake → Baseline → Fix → Prove �
 **Error:** Gave the DM strange, over-explained information in a warning whose necessity and phrasing were unclear: "**Warning.** This fire is a talk-and-commit slice. There is no fight on this card. When the ship-versus-garden split is on the table and the party stays, plays along, waits, or breaks, the scene ends. If they stall, keep [[Matteo Scola]] and the two stories visible, then ask. Leave the argument unfinished on purpose."
 
 **Correction:** _Not stated._
+
+**Read:** `AGENTS.md`; `user-corrections.md`; `skill://agentic-system-designer`; `skill://obsidian-markdown`
+
+**count:** 1
+
+**status:** open
+
+### 2026-09-09 — Later encounter spoiled by narration
+
+**Error:** Wrote prose that ruins the later encounter by narrating other people going toward it, even though the deer stalker attacks isolated targets:
+> Some of the people at this fire look north. Heat still comes off the river-stone coals. Woodsmoke hangs under the leaves. Fallen stonepears sit by the coals, grey-green plates chipped pale, and two spears lie on the dirt south of the ring.
+>
+> South, gold-green grass still shows between the last trees. West, you hear water through hanging roots, cool and close. You smell wet leaf on the woodsmoke. You feel packed dirt hard underfoot.
+
+**Correction:** Do not narrate other people going toward the deer stalker. It attacks isolated targets; preserve that later encounter setup.
 
 **Read:** `AGENTS.md`; `user-corrections.md`; `skill://agentic-system-designer`; `skill://obsidian-markdown`
 
