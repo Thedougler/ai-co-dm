@@ -49,7 +49,7 @@ Beat number matches the card filename.
 7. CLIFFHANGER — Ambush (borrowed voice) — [[Session-11-07-False-Help]]
 8. DEVELOPMENT — Preparation (set the watch) — [[Session-11-08-Night-Watch]]
 9. CLIMAX — Final Battle (theft on the watch) — [[Session-11-09-Theft-on-the-Watch]]
-10. RESOLUTION — Aftermath — this spine until a run card is cut
+10. RESOLUTION — Aftermath — [[Session-11-10-Aftermath]]
 
 ## Beats
 
@@ -175,11 +175,11 @@ The smoke is [[Aruhe - Quiet Forest Spoke Ring]], a camp of Calveno wreck-surviv
 
 Second night is wrong. This is the same night. [[Aruhe - Quiet Forest Star Cut]]. Crissdalynn and one other on watch at the east fire. The peregrine in the north mouth is already on her, chains lifting toward wherever on her person the Fate Spinner is.
 
-**Landing:** The watch has answered. The [[Fate Spinner]] is on her, on the dirt, or in a hooked blade. He is in the star-cut, or already in the open with it. Beat 10 is the aftermath. Do not cut. If he has the dreidel and is leaving, that take is what beat 10 answers. Do not fight bloodhawks on this card.
+**Landing:** The watch has answered. The [[Fate Spinner]] is on her, on the dirt, or in a hooked blade. He is in the star-cut, or already in the open with it. Beat 10 is [[Session-11-10-Aftermath]]. Do not cut. If he has the dreidel and is leaving, that take is what beat 10 answers. Do not fight bloodhawks on this card.
 
 ### 10. RESOLUTION — Aftermath
 
-This beat lives on this spine until a run card is cut.
+**Run:** [[Session-11-10-Aftermath]]
 
 - **Purpose:** Show what changed, what it cost, and what they can pursue. Echo the hawk, the taking-rule, the woman, and the steal. Do not start [[Aruhe - Memorial Grove]]. Do not name [[Aruhe - Hinewai]].
 - **Table sees, if he leaves with the [[Fate Spinner]]:** Skarn in the open with the dreidel. Then the same hunt as beat 1, inverted: the adult [[Aruhe - Bloodhawk]] and her young, if they lived, stoop on him, not on the camp. He is the isolated body in the air. They try to haul him back inland, toward the garden-dark, not toward the party. The camp, the woman-split, and the mark are still here.

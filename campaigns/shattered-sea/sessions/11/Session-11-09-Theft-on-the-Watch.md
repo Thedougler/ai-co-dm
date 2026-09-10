@@ -7,7 +7,7 @@ date: 2026-09-06
 visibility: dm
 tags: [session-prep, run-guide]
 cssclasses: [session-surface]
-summary: Climax theft on the Star Cut watch, or the column if they marched; Talon Skarn makes one committed attempt at the Fate Spinner, then the watch answers into beat 10.
+summary: Climax theft on the Star Cut watch, or the column if they marched; Talon Skarn makes one committed attempt at the Fate Spinner, then the watch answers into [[Session-11-10-Aftermath]].
 ---
 # Session 11 — Theft on the watch
 
@@ -15,18 +15,18 @@ summary: Climax theft on the Star Cut watch, or the column if they marched; Talo
 
 ## Scene ends when
 
-The steal attempt is disrupted and [[Talon Skarn]] breaks contact down the star-cut, or [[Talon Skarn]] has or does not have the [[Fate Spinner]] and the watch has answered. Hand to beat 10. Do not cut the night. This is the theft on the watch at [[Aruhe - Quiet Forest Star Cut]], or on the column if they marched. It is not [[Talon Vantyrus]], not [[Aruhe - Memorial Grove]], and not a bloodhawk stoop.
+The steal attempt is disrupted and [[Talon Skarn]] breaks contact down the star-cut, or [[Talon Skarn]] has or does not have the [[Fate Spinner]] and the watch has answered. Hand to [[Session-11-10-Aftermath]]. Do not cut the night. This is the theft on the watch at [[Aruhe - Quiet Forest Star Cut]], or on the column if they marched. It is not [[Talon Vantyrus]], not [[Aruhe - Memorial Grove]], and not a bloodhawk stoop.
 
 This beat is thirty minutes.
 
-**If behind:** Resolve one Hook and Drag on [[Crissdalynn Khinriss]], with the watch partner in it. [[Talon Skarn]] breaks contact down the star-cut. Then hand to beat 10.
+**If behind:** Resolve one Hook and Drag on [[Crissdalynn Khinriss]], with the watch partner in it. [[Talon Skarn]] breaks contact down the star-cut. Then hand to [[Session-11-10-Aftermath]].
 
 **If ahead:** Still end here. Do not add [[Talon Vantyrus]], [[Aruhe - Memorial Grove]], or bloodhawks.
 
 ## At a Glance
 
 - **Stakes:** [[Talon Skarn]] tries to take the [[Fate Spinner]] off [[Crissdalynn Khinriss]]. Isolation is how he steals.
-- **Goal / exit:** Disrupt the steal. [[Talon Skarn]] breaks contact with or without it. Hand to beat 10.
+- **Goal / exit:** Disrupt the steal. [[Talon Skarn]] breaks contact with or without it. Hand to [[Session-11-10-Aftermath]].
 - **Danger:** If the [[Fate Spinner]] stays hidden, he keeps [[Crissdalynn Khinriss]] in the fight. If it comes into view, the theft can end in one Hook and Drag. A messy camp is cover for him.
 - **Silence:** Present the north-mouth approach on this pair, then wait. If the party freezes, tick the clock once at the end of the round.
 - **Situation magnets:** [[Crissdalynn Khinriss]]. The watch partner. Anyone between [[Talon Skarn]] and her. Anyone who shows the [[Fate Spinner]]. Anyone standing in the 15-foot chain lane. Anyone left alone.
@@ -117,7 +117,7 @@ The steal turn happens after everyone has acted, and only if [[Talon Skarn]] is 
 | 1 | Cut gear. [[Talon Skarn]] uses Multiattack (three Chained Blade attacks, +10 to hit, `16` slashing plus necrotic, reach 15 feet) at straps, pouches, hands, and hips on [[Crissdalynn Khinriss]]. He ignores sleepers, fruit, and anyone who is not between him and [[Crissdalynn Khinriss]]. If the [[Fate Spinner]] is already in view, skip to the object. | ==_The peregrine's hooked blades snap at Crissdalynn Khinriss's straps, pouches, hands, and hips. He passes sleepers and fruit without turning. Leather and cloth part under the chains. His eyes stay on her gear._== |
 | 2 | Grab attempt. [[Talon Skarn]] uses Hook and Drag (+10 to hit, `14` slashing, reach 20 feet). **Strength save — `DC 18`** or she is pulled up to 15 feet toward him, and if pulled within 5 feet she is also **Prone**. He almost surely gets this attempt off. If he already spent Hook and Drag this turn, keep [[Crissdalynn Khinriss]] in the fight with Chained Blade until he can pull again. | ==_A black chain hooks toward Crissdalynn Khinriss and draws taut. The peregrine pulls along the aisle, and her straps and pouches come with the line._== |
 | 3 | Watch partner. If the second watcher hits [[Talon Skarn]], he spends this beat on that person only long enough to make the grab possible again, with Chain Snare if they move or Chained Blade if they stay. He does not switch to killing the camp. He almost surely gets disrupted before he leaves with the [[Fate Spinner]]. | ==_The peregrine turns off Crissdalynn Khinriss onto the other watcher for one beat. A chain flashes, or the line bends toward them. Then his eyes snap back to her hands and hips._== |
-| 4 | Break contact. [[Talon Skarn]] uses Predator's Rush or Stalking Advance and goes for the star-cut, with or without the [[Fate Spinner]]. If he is **Grappled**, Unbroken Hatred at 85 hit points ends that condition, or he still plays the steal, then the cut. The watch has answered. Hand to beat 10. | ==_The peregrine breaks from the watch and takes the north mouth. Night air takes him into the star-cut, with a torn thing in a hooked blade or nothing at all. Fire and close walls fall behind._== |
+| 4 | Break contact. [[Talon Skarn]] uses Predator's Rush or Stalking Advance and goes for the star-cut, with or without the [[Fate Spinner]]. If he is **Grappled**, Unbroken Hatred at 85 hit points ends that condition, or he still plays the steal, then the cut. The watch has answered. Hand to [[Session-11-10-Aftermath]]. | ==_The peregrine breaks from the watch and takes the north mouth. Night air takes him into the star-cut, with a torn thing in a hooked blade or nothing at all. Fire and close walls fall behind._== |
 
 **Bloodied 85 HP.** Unbroken Hatred fires. [[Talon Skarn]] still plays the steal, then breaks contact down the star-cut. This is not a TPK.
 
@@ -129,15 +129,15 @@ Do not spawn the [[Aruhe - Deerstalker]], otters, wolfrabbits, [[Talon Vantyrus]
 
 ## Secondary objective
 
-Keep the [[Fate Spinner]] on [[Crissdalynn Khinriss]]. Beats required: disrupt the steal, with the watch partner in it. Ignore outcome: freeze still lets [[Talon Skarn]] get the attempt off, and the watch still answers. Later consequence: if he leaves with the [[Fate Spinner]], beat 10 answers that take; if the steal is disrupted, he is still in the Quiet north of this aisle.
+Keep the [[Fate Spinner]] on [[Crissdalynn Khinriss]]. Beats required: disrupt the steal, with the watch partner in it. Ignore outcome: freeze still lets [[Talon Skarn]] get the attempt off, and the watch still answers. Later consequence: if he leaves with the [[Fate Spinner]], [[Session-11-10-Aftermath]] answers that take; if the steal is disrupted, he is still in the Quiet north of this aisle.
 
 ## How the Scene Resolves
 
-The watch has answered. The [[Fate Spinner]] is on [[Crissdalynn Khinriss]], on the packed dirt, or in a hooked blade. [[Talon Skarn]] is in the star-cut, still on this aisle, or already in the open with it. Plus any RAW damage and conditions already applied. Hand to beat 10. Do not cut the night. Do not fight bloodhawks on this card.
+The watch has answered. The [[Fate Spinner]] is on [[Crissdalynn Khinriss]], on the packed dirt, or in a hooked blade. [[Talon Skarn]] is in the star-cut, still on this aisle, or already in the open with it. Plus any RAW damage and conditions already applied. Hand to [[Session-11-10-Aftermath]]. Do not cut the night. Do not fight bloodhawks on this card.
 
 If the steal is disrupted, [[Talon Skarn]] is in the star-cut, or still on this aisle, without a clean steal. The [[Fate Spinner]] is still on [[Crissdalynn Khinriss]], or on the packed dirt at this watch if it was torn and not recovered.
 
-If [[Talon Skarn]] leaves with the [[Fate Spinner]], the [[Fate Spinner]] is in a hooked blade as he takes the north mouth. That take is what beat 10 answers.
+If [[Talon Skarn]] leaves with the [[Fate Spinner]], the [[Fate Spinner]] is in a hooked blade as he takes the north mouth. That take is what [[Session-11-10-Aftermath]] answers.
 
 If [[Talon Skarn]] is **Grappled** and the party keeps hitting, still end here. He still played the steal. Do not add [[Talon Vantyrus]] or [[Aruhe - Memorial Grove]].
 
@@ -146,8 +146,8 @@ If [[Talon Skarn]] is **Grappled** and the party keeps hitting, still end here. 
 
 | If | Next | Narration |
 | --- | --- | --- |
-| The steal is disrupted | [[Talon Skarn]] is in the star-cut, or still on this aisle, without a clean steal. The [[Fate Spinner]] is on [[Crissdalynn Khinriss]] or on the packed dirt. Hand to beat 10. | ==_The peregrine stands in the star-cut north of the fire, chains still in his fists. Crissdalynn Khinriss remains at the east ring, straps and pouches still on her, or a torn item lies on the packed dirt._== |
-| The [[Fate Spinner]] is taken | The [[Fate Spinner]] is in a hooked blade as [[Talon Skarn]] takes the north mouth. Hand to beat 10. That take is what beat 10 answers. | ==_A small quartz top shows in a hooked blade as the peregrine takes the north mouth. Crissdalynn Khinriss is still on this watch. Night air comes down the star-cut, and the east coals keep burning._== |
+| The steal is disrupted | [[Talon Skarn]] is in the star-cut, or still on this aisle, without a clean steal. The [[Fate Spinner]] is on [[Crissdalynn Khinriss]] or on the packed dirt. Hand to [[Session-11-10-Aftermath]]. | ==_The peregrine stands in the star-cut north of the fire, chains still in his fists. Crissdalynn Khinriss remains at the east ring, straps and pouches still on her, or a torn item lies on the packed dirt._== |
+| The [[Fate Spinner]] is taken | The [[Fate Spinner]] is in a hooked blade as [[Talon Skarn]] takes the north mouth. Hand to [[Session-11-10-Aftermath]]. That take is what [[Session-11-10-Aftermath]] answers. | ==_A small quartz top shows in a hooked blade as the peregrine takes the north mouth. Crissdalynn Khinriss is still on this watch. Night air comes down the star-cut, and the east coals keep burning._== |
 
 The people at this fire stay unnamed.
 
@@ -162,7 +162,7 @@ The people at this fire stay unnamed.
 
 ## Backup
 
-[[Aruhe - Quiet Forest Star Cut]] · [[Session-11-08-Night-Watch]] · [[Session-11-00-Birds-of-a-Feather]] · [[Crissdalynn Khinriss]] · [[Talon Skarn]] · [[Fate Spinner]] · [[Aruhe - Giant's Guava]] · [[Uncertainty]] · [[Aruhe - Quiet Forest Spoke Ring]] · [[Aruhe - Memorial Grove]] · [[Talon Vantyrus]]
+[[Aruhe - Quiet Forest Star Cut]] · [[Session-11-08-Night-Watch]] · [[Session-11-10-Aftermath]] · [[Session-11-00-Birds-of-a-Feather]] · [[Crissdalynn Khinriss]] · [[Talon Skarn]] · [[Fate Spinner]] · [[Aruhe - Giant's Guava]] · [[Uncertainty]] · [[Aruhe - Quiet Forest Spoke Ring]] · [[Aruhe - Memorial Grove]] · [[Talon Vantyrus]]
 
 ## Battlemap
 
