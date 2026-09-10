@@ -1,5 +1,5 @@
 ---
-summary: Nick's correction log. Writers append on #ERROR; ASD drains. Open: over-scoped `.agent` typo; scenery shorthand; TotM poetry; wound used as a person-handle; useless non-info; off-stage Hinewai.
+summary: Nick's correction log. Writers append on #ERROR; ASD drains. Open: over-scoped `.agent` typo; scenery shorthand; TotM poetry; wound used as a person-handle; useless non-info; off-stage Hinewai; dedicated copy-writer skill.
 ---
 
 # User corrections
@@ -323,6 +323,18 @@ Follow skill `agentic-system-designer` (Intake → Baseline → Fix → Prove �
 **Correction:** She does not show up this session. Mention her only if she does. She is a rumour about a woman in the woods. Do not obsess over people or things that do not show up in the session at all.
 
 **Read:** `user-corrections.md`; `campaigns/shattered-sea/sessions/11/Session-11-06-Farthest-Camp.md`; `campaigns/shattered-sea/sessions/11/Session-11-07-False-Help.md`; `campaigns/shattered-sea/sessions/11/Session-11-00-Birds-of-a-Feather.md`; `campaigns/shattered-sea/sessions/11/Session-11-00-Random-Tables.md`; `campaigns/shattered-sea/sessions/11/Session-11-08-Night-Watch.md`; `campaigns/shattered-sea/sessions/11/Session-11-10-Aftermath.md`
+
+**count:** 1
+
+**status:** open
+
+### 2026-09-09 — Dedicated copy-writer skill
+
+**Error:** There is no dedicated copy-writer skill saved in `.agents/skills/`.
+
+**Correction:** Need a dedicated copy-writer skill saved in `.agents/skills/`.
+
+**Read:** `user-corrections.md`
 
 **count:** 1
 
