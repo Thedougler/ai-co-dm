@@ -334,6 +334,7 @@ Completion — all of these hold, or the draft is not done:
 - One cockpit: Glance once, no second Run-now, no separate Ask callout, no Scene menu, no peer Round script.
 - The only `> [!` on the card is `[!narration]`. Conditional spoken in Narration table columns is `==_italic_==`, not a callout in the cell.
 - Every DM-facing line is signal-only: it changes placement, a roll, spoken words, risk, route, clock, resource, or NPC response.
+- Every ruling, DC, and design choice on this card serves **fun** first. Change a DC, drop a constraint, or reshape a beat when the alternative is more fun — consistency, symmetry, and prior-beat precedent yield to fun.
 
 ## Whole-session branch
 

@@ -136,9 +136,15 @@ use live bonuses when Foundry or sheets exist. If the feel is wrong, pick a
 different typical-band *rung*. Named procedures and `8 + PB + mod` *saves*
 continue without this step.
 
+If a DC inherited from a prior beat or an owner page would be less **fun** —
+too punishing, too trivial, or just the same note twice — pick the *rung* that
+makes this moment land. Fun overrides prior-beat consistency and owner-page
+precedent.
+
 **Complete when:** the floor *rung* is reachable by untrained on a good roll,
 the default by proficient, and the *showcase* by the specialist — without
-minting an off-band number.
+minting an off-band number — and the chosen *rung* is the most fun option for
+this moment.
 
 ### 7. Write the ruling
 

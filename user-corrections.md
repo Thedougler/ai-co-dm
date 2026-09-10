@@ -1,5 +1,5 @@
 ---
-summary: Nick's correction log. Writers append on #ERROR; ASD drains. Open: fun is the session goal.
+summary: Nick's correction log. Writers append on #ERROR; ASD drains. All entries closed.
 ---
 
 # User corrections
@@ -194,4 +194,6 @@ Follow skill `agentic-system-designer` (Intake → Baseline → Fix → Prove �
 
 **count:** 1
 
-**status:** open
+**status:** closed
+
+**Fix:** `AGENTS.md` prime directive (always-on, every agent), `run-guide/SKILL.md` table gate bullet, `dnd5e-mechanics/SKILL.md` step 6 sanity-check — fun overrides consistency, symmetry, and prior-beat precedent for DCs and design choices. Instruction rung; if count rises, escalate to a dedicated skill. Measure: agent-facing files stating fun as overriding goal 0 → 3. Cheap check: `rg -l --glob '*.md' 'serves.*fun' AGENTS.md .agents/skills`.

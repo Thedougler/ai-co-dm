@@ -2,6 +2,8 @@
 
 Obsidian LLM wiki for Nick's home D&D. **Markdown is the product.**
 
+**Prime directive:** a D&D session that is **fun** for the players and easy for the DM to run. Every design choice — DCs, encounters, pacing, structure, rulings — serves fun first. Change anything that would be more fun different. Consistency, symmetry, and convention yield to fun. Nothing is sacred except fun.
+
 | | |
 |---|---|
 | Local | `/Users/nick/Documents/ai-co-dm` |
