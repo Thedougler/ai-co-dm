@@ -1,5 +1,5 @@
 ---
-summary: Nick's correction log. Writers append on #ERROR; ASD drains. No open corrections.
+summary: Nick's correction log. Writers append on #ERROR; ASD drains. One open correction.
 ---
 
 # User corrections
@@ -167,4 +167,17 @@ Follow skill `agentic-system-designer` (Intake → Baseline → Fix → Prove �
 **status:** closed
 
 **Fix:** `.agents/skills/run-guide/SKILL.md` — Step 1 (Ground) reads the previous beat card and uses its How the Scene Resolves as this beat's entry state. Table gate bullet enforces continuity: no state reset, teleport, or unexplained jump between cards. Measure: agent-facing files gating pass 1 on previous beat 0 → 1. Cheap check: `rg -l --glob '*.md' "previous beat card" .agents/skills`.
+
+
+### 2026-09-09 — Off-scene player options on the beat card
+
+**Error:** The [[Session-11-02-Landing-Sign]] rebuild stocked player options that leave the live scene, including going back to the boat, the beach, and flying out.
+
+**Correction:** Do not account for player options that do not lead to the scene. There is no point considering player options that do not involve the scene, like going back to the boat.
+
+**Read:** `campaigns/shattered-sea/sessions/11/Session-11-00-Birds-of-a-Feather.md`; `campaigns/shattered-sea/sessions/11/Session-11-02-Landing-Sign.md`; `campaigns/shattered-sea/sessions/11/Session-11-01-Angry-Birds.md`; `skill://run-guide`; `skill://session-beats`; `skill://theatre-of-the-mind`; `skill://obsidian-markdown`; `skill://dnd5e-mechanics`
+
+**count:** 1
+
+**status:** open
 
