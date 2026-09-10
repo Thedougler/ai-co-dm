@@ -7,6 +7,7 @@ cr: 5
 source: house (wiki creature.deer-stalker, upgraded)
 visibility: dm
 tags: [monster, aruhe]
+summary: CR 5 assassin-style ambusher with a first-strike advantage, an isolated-target damage rider, a long-reach grab and drag, and a group-triggered escape.
 ---
 
 # Deer-Stalker
@@ -45,24 +46,23 @@ senses: "darkvision 120 ft., passive Perception 17"
 languages: "—"
 cr: 5
 traits:
-  - name: Wasting Stillness
-    desc: "While in dim light, darkness, or natural foliage, the deer-stalker can take the Hide action as a Bonus Action. If it hasn't moved since the start of its previous turn, it has Advantage on the Dexterity (Stealth) check. While motionless in natural foliage, it is indistinguishable from a sick deer until it attacks or a creature sees its clawed forelimbs or forward-set eyes at close range."
-  - name: Silent Cover
-    desc: "The deer-stalker's movement makes no sound. While in dim light or darkness, moving at half its Speed or less doesn't reveal its position to a creature from which it is Hidden unless that creature sees it."
-  - name: This Meal
-    desc: "When the deer-stalker notices a creature that disturbed its feeding or needs a new quarry, it chooses one creature it can see as its quarry, preferring an isolated creature or one that last touched its meal. It knows the direction of its quarry while the quarry is within 1 mile, and it has Advantage on Wisdom (Survival) checks to track that creature and Wisdom (Perception) checks to hear it. Once per turn when it hits its quarry with an attack that deals damage while fewer than two conscious creatures other than the quarry are within 10 feet of the quarry, the attack deals an extra 7 (2d6) damage. The deer-stalker chooses a new quarry when the current quarry dies, when two or more conscious creatures other than the quarry are within 10 feet of the quarry at the start of the deer-stalker's turn, or when the deer-stalker ends its turn more than 1 mile from the quarry."
-  - name: Famished
-    desc: "The deer-stalker starts Famished. It is no longer Famished after spending 1 minute feeding on a carcass or a dead creature within 5 feet of it. While Famished, its Skittering Retreat reaction requires at least three hostile creatures within 30 feet; while it is not Famished, that reaction requires only two."
+  - name: Assassinate
+    desc: "During its first turn, the deer-stalker has Advantage on attack rolls against creatures that haven't taken a turn. Once per turn, when it hits a creature that has no conscious ally within 10 feet of it, the attack deals an extra 7 (2d6) damage."
+  - name: Evasion
+    desc: "If the deer-stalker is subjected to an effect that allows it to make a Dexterity saving throw to take only half damage, it instead takes no damage on a successful save and half damage on a failed one. It can't use this trait if it has the Incapacitated condition."
 actions:
   - name: Multiattack
     desc: "The deer-stalker makes two Claw attacks."
   - name: Claw
-    desc: "Melee Attack Roll: +8, reach 10 feet, one target. Hit: 12 (2d6 + 5) Slashing damage. If the target is Medium or smaller, the deer-stalker can impose the Grappled condition on it (escape DC 16) instead of dealing the Slashing damage. The deer-stalker can grapple only one creature at a time."
-  - name: Snatch from the Dim (Recharge 5–6)
-    desc: "The deer-stalker can use this action only while Hidden in dim light, darkness, or natural foliage. It moves up to its Speed without provoking Opportunity Attacks and makes one Claw attack. On a hit, the attack deals its normal damage and, if the target is Medium or smaller, the target has the Grappled condition (escape DC 16). The deer-stalker can then move up to half its Speed, carrying the Grappled target without extra movement cost. This movement doesn't provoke Opportunity Attacks from that target."
+    desc: "Melee Attack Roll: +8, reach 10 feet, one target. Hit: 12 (2d6 + 5) Slashing damage. If the target is Medium or smaller and the deer-stalker isn't grappling another creature, the target has the Grappled condition (escape DC 16)."
+  - name: Lunge and Drag (Recharge 5–6)
+    desc: "The deer-stalker moves up to its Speed and makes one Claw attack against a creature it can reach. On a hit, if the target has the Grappled condition, the deer-stalker can move up to half its Speed while carrying it; this movement doesn't provoke Opportunity Attacks from that target."
+bonus_actions:
+  - name: Cunning Action
+    desc: "The deer-stalker takes the Dash or Disengage action."
 reactions:
-  - name: Skittering Retreat
-    desc: "Trigger: The deer-stalker is hit by an attack while at least three hostile creatures are within 30 feet of it, or at least two if it isn't Famished. Response: The deer-stalker moves up to half its Speed without provoking Opportunity Attacks. If it ends this movement in dim light, darkness, or natural foliage, it can take the Hide action as part of this reaction."
+  - name: Break Contact
+    desc: "Trigger: The deer-stalker is hit by an attack while at least two hostile creatures are within 30 feet of it. Response: The deer-stalker moves up to half its Speed toward dim light, darkness, or natural foliage without provoking Opportunity Attacks."
 ```
 
 ```
@@ -72,29 +72,20 @@ reactions:
 
 
 
-## Statblock
-
 ## Behavior
 
-**Habitat.** Deer-Stalkers keep to the dim edges of [[Aruhe - Quiet Forest|the Quiet]] and [[Aruhe - The Marshes|the Marshes]], using game trails, wet paths, root shadows, and grassland margins where a sick deer shape can stand half-hidden. The grassland-river seam is [[Aruhe - Quiet Forest Cutoff Lip]]. North of that lip they work the forest-edge grass at [[Aruhe - Grasslands - Print Braid]]. They avoid [[Aruhe - Razer-Grass]] and [[Aruhe - Grubnade|Grubnades]].
-
-**Behavior.** A Deer-Stalker holds unnaturally still until the wrong details become visible: forward-set eyes, clawed forelimbs, blood on the pale muzzle, and hips that do not sit like a grazing animal's hips. When disturbed at a meal, it crashes away too loudly, then returns through dim cover once the quarry is isolated.
-
-**Diet.** It eats fresh kills and interrupted carcasses, tearing soft meat first and leaving sweet rot around the site. It is always hungry until it feeds, but the current Aruhe frame keeps that hunger animal and territorial rather than possessed or commanded.
-
-**Social Structure.** Solitary. Two Deer-Stalkers in the same stretch ignore one another unless a carcass or quarry forces them too close, and neither will contest a [[Aruhe - Bear-Elk|Bear-Elk]] or [[Aruhe - Terror-Bird|terror-bird]].
+- **Habitat.** Deer-Stalkers keep to the dim edges of [[Aruhe - Quiet Forest|the Quiet]] and [[Aruhe - The Marshes|the Marshes]], using game trails, wet paths, root shadows, and grassland margins where a sick deer shape can stand half-hidden. The grassland-river seam is [[Aruhe - Quiet Forest Cutoff Lip]]. North of that lip they work the forest-edge grass at [[Aruhe - Grasslands - Print Braid]]. They avoid [[Aruhe - Razer-Grass]] and [[Aruhe - Grubnade|Grubnades]].
+- **Behavior.** A Deer-Stalker stands over a carcass like a sick deer. If disturbed, it crashes away too loudly, circles back through the dim, and repeats a voice it heard until one person follows.
+- **Diet.** It eats fresh kills and interrupted carcasses, tearing soft meat first and leaving sweet rot around the site. Its hunger is animal and territorial, not a separate controlling force.
+- **Social Structure.** Solitary. Two Deer-Stalkers ignore one another, and neither contests a [[Aruhe - Bear-Elk|Bear-Elk]] or [[Aruhe - Terror-Bird|terror-bird]].
 
 ## Tactics
 
-**Signs.** Deer tracks that become handlike claw marks, blood on low leaves, a dragged carcass, torn bark at shoulder height, long pauses in ordinary forest sound, sweet rot, and a familiar voice repeated wetly from the wrong place.
-
-**Instincts.** It wants the isolated body, the creature that touched its meal, or the one that answers a sound alone. Crowds, bright light before the first hit, and several ready threats push it back into cover.
-
-**Tactics.** It hides as a sick deer or a still shape in foliage, waits for one target to separate, then snatches from dim cover with its long forelimbs. If the hunt turns against it, it retreats silently, changes angle, and uses a borrowed voice to pull the quarry back toward shadow.
-
-**Weaknesses.** It loses nerve when too many conscious enemies stay close together, and feeding makes it easier to drive off. Bright light, tight formation, open ground, and refusing the voice lure all make the hunt worse for it.
-
-**Aftermath.** A Deer-Stalker encounter leaves an interrupted kill site, blood threads on leaves and roots, clawed drag marks, hoofprints that stop making sense, and a lingering stink of sweet rot. There is usually nothing worth keeping.
+- **Signs.** Deer tracks that become handlike claw marks, blood on low leaves, a dragged carcass, torn bark at shoulder height, long pauses in ordinary forest sound, sweet rot, and a familiar voice repeated wetly from the wrong place.
+- **Instincts.** It wants the one person who answers a sound or touches its meal alone. It does not use the voice to control anyone; it uses the sound to make separation feel safe.
+- **Tactics.** Open with Multiattack against the isolated target while Assassinate applies. Use Lunge and Drag to cross the gap and carry that target away, or Cunning Action to reposition without giving up the attack next turn. When two or more enemies close, use Break Contact and reset the hunt.
+- **Weaknesses.** Keep allies within 10 feet, force it into bright or open ground, and refuse to follow a voice without the group. It will not walk through [[Aruhe - Razer-Grass|razer-grass]].
+- **Aftermath.** A Deer-Stalker encounter leaves an interrupted kill site, blood threads on leaves and roots, clawed drag marks, hoofprints that stop making sense, and a lingering stink of sweet rot. There is usually nothing worth keeping.
 
 ## Art
 ````col
@@ -107,8 +98,3 @@ reactions:
 ![[attachments/shattered-sea/creatures/deer-stalker-of-aruhe-02.jpg|Deer-Stalker of Aruhe]]
 ```
 ````
-
-
-
-
-

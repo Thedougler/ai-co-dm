@@ -550,3 +550,15 @@ Follow skill `agentic-system-designer` (Intake → Baseline → Fix → Prove �
 **status:** closed
 
 **Fix:** `campaigns/shattered-sea/monsters/Aruhe - Crown Squid.md` — restore the two-column identity/statblock presentation while retaining the CR 11 simplification.
+
+### 2026-09-10 — Deerstalker combat statblock kept the approach fiction
+
+**Error:** Put the Deer-Stalker's sick-deer disguise and borrowed voice in the committed combat statblock, even though that statblock is for the point when it has stopped hiding and is fully attacking.
+
+**Correction:** Keep approach and lure fiction in encounter prose. The committed combat statblock should express the fight through isolation damage, the long-reach grab and drag, and the retreat reaction when the group closes.
+
+**Read:** `AGENTS.md`; `campaigns/shattered-sea/monsters/Aruhe - Deerstalker.md`; `campaigns/shattered-sea/sessions/11/Session-11-07-False-Help.md`; `.agents/skills/homebrew-monsters-5e/SKILL.md`; `.agents/skills/dnd5e-mechanics/SKILL.md`; `.agents/skills/obsidian-markdown/SKILL.md`; `.agents/skills/qmd-retrieval/SKILL.md`; `user-corrections.md`
+
+**count:** 1
+
+**status:** closed
