@@ -11,6 +11,18 @@ tags: [pc]
 ## Art
 ![[attachments/shattered-sea/banners/perrin-black-jaw-banner.jpg]]
 ![[perrin-black-jaw-token.jpg|Perrin Black-Jaw FoundryVTT token]]
+![[attachments/shattered-sea/pcs/perrin-black-jaw-reference.png|Perrin Black-Jaw visual reference sheet]]
+
+## Visual reference
+
+Source-derived appearance anchors from the supplied model sheet. These notes keep Perrin's identity, silhouette, and signature equipment consistent; they add no mechanics or new campaign canon.
+
+- **Silhouette:** Compact barefoot Rattkin at approximately `3.5` stylized head-heights, with large ears, a long tapered tail, and a hooded cloak.
+- **Face and fur:** Charcoal-black head and outer fur; a white forehead blaze, muzzle, chest, and paws; warm brown cheek and eye patches; large dark eyes; and pink inner ears.
+- **Clothing:** Olive-green hooded cloak fastened with a round metal clasp; off-white tunic with rolled sleeves; dark trousers; brown leather belt and backpack; and a sword at the hip.
+- **Signature prop:** [[The Snap]] appears as a round tan drum-shield with a dark central face-like emblem ringed by points. The sheet shows it carried, worn on the back, and inspected.
+- **Materials and palette:** Dark charcoal and cream fur, rose-tan skin, olive cloth, off-white tunic, dark trousers, brown leather, bronze/steel metal, and a tan shield surface.
+- **Expressions and movement:** Neutral, happy, serious, angry, surprised, and sad expressions; relaxed, conversational, walking, resting, shield-inspecting, and ready/adventurer poses.
 
 > [!narration] Narration
 > A three-foot fancy-rat Rattkin who reads people, exits, and edges before he commits. Charm and leverage come first; the next step waits until the room has been counted.

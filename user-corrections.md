@@ -504,7 +504,7 @@ Follow skill `agentic-system-designer` (Intake → Baseline → Fix → Prove �
 
 **Read:** `campaigns/shattered-sea/sessions/11/Session-11-02-Landing-Sign.md`; `user-corrections.md`; `attachments/shattered-sea/items/aruhe-redheart-berry.jpg`; `attachments/shattered-sea/battlemaps/session-11-02-landing-sign-base.jpg`.
 
-**count:** 4
+**count:** 5
 
 **status:** closed
 
