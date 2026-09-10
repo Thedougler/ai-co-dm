@@ -8,13 +8,19 @@ visibility: dm
 tags: [monster, aruhe]
 ---
 # Terror-Bird
+## Statblock
+
+````col
+```col-md
+flexGrow=3
+===
 ![[attachments/shattered-sea/creatures/terror-bird-of-aruhe.jpg|Terror-Bird of Aruhe]]
 
 > [!narration] Narration
 > Taller than a horse, a black Terror-Bird tears through the jungle with ragged wings spread for balance. Moss clings to its feathers, but a yellow eye, serrated beak, and hooked talons make the shape unmistakable. Dust jumps beneath each stride as it bears down the path; the ground shakes before it reaches you.
+```
 
-## Statblock
-
+```col-md
 ```statblock
 layout: Basic 5e Layout
 name: "Terror-Bird"
@@ -50,6 +56,8 @@ actions:
   - name: "Swallow"
     desc: "The terror-bird makes one Serrated Beak attack against a Medium or smaller creature it is grappling. If the attack hits, the target is swallowed, and the grapple ends. The swallowed creature is blinded and restrained, it has total cover against attacks and other effects outside the terror-bird, and it takes 14 (4d6) acid damage at the start of each of the terror-bird's turns. If the terror-bird takes 25 damage or more on a single turn from a creature inside it, the terror-bird must succeed on a DC 18 Constitution saving throw at the end of that turn or regurgitate the creature, which falls prone in a space within 10 feet of the terror-bird. If the terror-bird dies, a swallowed creature is no longer restrained by it and can escape from the corpse using 15 feet of movement, exiting prone."
 ```
+```
+````
 
 ## Behavior
 
