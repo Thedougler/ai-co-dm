@@ -365,3 +365,15 @@ Follow skill `agentic-system-designer` (Intake → Baseline → Fix → Prove �
 **count:** 6
 
 **status:** open
+
+### 2026-09-09 — Conditional narration repeated
+
+**Error:** Repeated conditional player-facing narration verbatim in the main narration blocks and in the conditional narration sections of the table, making the DM say the same language twice.
+
+**Correction:** Do not repeat conditional narration. Specific conditional language belongs only in the conditional table. By definition, it must not also appear in Initial Narration or How the Scene Resolves narration. Treat these optional player-facing segments as having happened or as relied-on context when later narration runs.
+
+**Read:** `AGENTS.md`; `user-corrections.md`; `skill://agentic-system-designer`; `skill://obsidian-markdown`
+
+**count:** 1
+
+**status:** open
