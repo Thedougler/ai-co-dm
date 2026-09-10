@@ -381,3 +381,15 @@ Follow skill `agentic-system-designer` (Intake → Baseline → Fix → Prove �
 **count:** 1
 
 **status:** open
+
+### 2026-09-09 — Awkward NPC dialogue narration
+
+**Error:** Narrated dialogue between NPCs as an awful, indirect summary instead of giving the DM a usable way to speak it: "You hear three or four people arguing in low voices around a fire on packed dirt under the trees. One of them says a woman in the woods asked them to come admire her garden, this way, and not to take the living plants. Another says she is leading them into danger, and anyone who listens is mad."
+
+**Correction:** _Not stated._
+
+**Read:** `AGENTS.md`; `user-corrections.md`; `skill://agentic-system-designer`; `skill://obsidian-markdown`
+
+**count:** 1
+
+**status:** open
