@@ -224,9 +224,7 @@ Follow skill `agentic-system-designer` (Intake → Baseline → Fix → Prove �
 
 **count:** 1
 
-**status:** closed
-
-**Fix:** `AGENTS.md`; `.agents/skills/run-guide/SKILL.md`; `.agents/skills/copy-writer/SKILL.md`; `.agents/skills/theatre-of-the-mind/SKILL.md`; `.agents/skills/session-beats/SKILL.md` — session beat workflow now names four passes: mechanical cockpit, DM-facing copy edit, TotM spoken fill, and Reading-view ready check; `theatre-of-the-mind` is loaded only when the spoken pass begins. Measure: agent-facing files stating session/run beat four-pass workflow 0 → 5. Cheap check: `rg -l --glob '*.md' 'four passes|pass 2.*DM-facing copy|pass 3.*TotM|spoken fill is pass 3' AGENTS.md .agents/skills`. `after-write` SHA: `9e5aba6`.
+**status:** open
 
 ### 2026-09-09 — session beat third/fourth copy passes
 
@@ -238,7 +236,9 @@ Follow skill `agentic-system-designer` (Intake → Baseline → Fix → Prove �
 
 **count:** 1
 
-**status:** open
+**status:** closed
+
+**Fix:** `AGENTS.md`; `.agents/skills/run-guide/SKILL.md`; `.agents/skills/copy-writer/SKILL.md`; `.agents/skills/theatre-of-the-mind/SKILL.md`; `.agents/skills/session-beats/SKILL.md` — session beat workflow now names four passes: mechanical cockpit, DM-facing copy edit, TotM spoken fill, and Reading-view ready check. Measure: agent-facing files stating session/run beat four-pass workflow 0 → 5. Cheap check: `rg -l --glob '*.md' '[Ff]our passes|pass 2.*DM-facing copy|[Pp]ass 3.*TotM|spoken fill is pass 3' AGENTS.md .agents/skills`. `after-write` SHA: `9e5aba6`.
 
 ### 2026-09-09 — Skimmed working files
 
@@ -250,7 +250,9 @@ Follow skill `agentic-system-designer` (Intake → Baseline → Fix → Prove �
 
 **count:** 1
 
-**status:** open
+**status:** closed
+
+**Fix:** `.agents/skills/run-guide/SKILL.md`; `.agents/skills/copy-writer/SKILL.md` — Grounding now requires every working file to be read end-to-end before editing; summaries, snippets, truncated output, and range reads only target files. Measure: agent-facing files requiring end-to-end reads of working files 0 → 2. Cheap check: `rg -l --glob '*.md' 'working file.*end-to-end|working files.*end-to-end' .agents/skills AGENTS.md`. `after-write` SHA: `9e5aba6`.
 
 ### 2026-09-09 — Preload writing skills before their pass
 
@@ -262,4 +264,6 @@ Follow skill `agentic-system-designer` (Intake → Baseline → Fix → Prove �
 
 **count:** 1
 
-**status:** open
+**status:** closed
+
+**Fix:** `.agents/skills/copy-writer/SKILL.md`; `.agents/skills/theatre-of-the-mind/SKILL.md`; `.agents/skills/run-guide/SKILL.md`; `AGENTS.md` — pass wording now defers writing-skill loads to the pass that needs them: copy-writer for pass 2, theatre-of-the-mind only when pass 3 begins. Measure: agent-facing files with pass-scoped writing-skill loading 0 → 4. Cheap check: `rg -l --glob '*.md' 'Load `copy-writer` for pass 2|only when pass 3 begins|only when the pass crosses the player boundary|theatre-of-the-mind` fills every spoken stub last' AGENTS.md .agents/skills`. `after-write` SHA: `9e5aba6`.
