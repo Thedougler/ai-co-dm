@@ -354,12 +354,12 @@ Follow skill `agentic-system-designer` (Intake → Baseline → Fix → Prove �
 
 ### 2026-09-09 — Clunky, hard-to-picture prose
 
-**Error:** Wrote clunky language and sentence structure that was hard to picture and did not paint a vivid picture with words: "You see the charcoal hawk already falling out of the sun, four wings pinning into a narrow body, crimson feathers flashing on the black undersides. The ragged red crest streams." Additional examples: "Smaller charcoal hawks drop on that same line, crimson tips flashing." and "Straight down, gold-green grass stands higher than a person along a clear turquoise river, and you hear water pulling through those stems. You feel the buffet off the folding wings slap the last leaves flat, and warm sugar-sour air comes up off the fruiting steps."
+**Error:** Wrote clunky language and sentence structure that was hard to picture and did not paint a vivid picture with words: "You see the charcoal hawk already falling out of the sun, four wings pinning into a narrow body, crimson feathers flashing on the black undersides. The ragged red crest streams." Additional examples: "Smaller charcoal hawks drop on that same line, crimson tips flashing."; "Straight down, gold-green grass stands higher than a person along a clear turquoise river, and you hear water pulling through those stems. You feel the buffet off the folding wings slap the last leaves flat, and warm sugar-sour air comes up off the fruiting steps."; and "Over the last trees the adult hawk is a falling charcoal body, four wings pinned, crimson feathers flashing on the black undersides. The pale hook and boat-length talons open together toward the squid's violet bulk, and smaller charcoal hawks follow the same dive. Wind from that fall slaps the last leaves flat."
 
 **Correction:** _Not stated._
 
 **Read:** `AGENTS.md`; `user-corrections.md`; `skill://agentic-system-designer`; `skill://obsidian-markdown`
 
-**count:** 3
+**count:** 4
 
 **status:** open
