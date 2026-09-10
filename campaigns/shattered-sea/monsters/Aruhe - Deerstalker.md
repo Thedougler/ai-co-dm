@@ -3,11 +3,11 @@ type: monster
 campaign: shattered-sea
 region: aruhe
 role: ambusher
-cr: 5
+cr: 8
 source: house (wiki creature.deer-stalker, upgraded)
 visibility: dm
 tags: [monster, aruhe]
-summary: CR 5 assassin-style ambusher with a first-strike advantage, an isolated-target damage rider, a long-reach grab and drag, and a group-triggered escape.
+summary: CR 8 assassin-style ambusher with a first-strike advantage, an isolated-target damage rider, a long-reach grab and drag, and a group-triggered escape.
 ---
 
 # Deer-Stalker
@@ -30,9 +30,9 @@ name: "Deer-Stalker"
 size: Large
 type: monstrosity
 alignment: unaligned
-ac: "15 (natural armor)"
-hp: 85
-hit_dice: "10d10 + 30"
+ac: "16 (natural armor)"
+hp: 97
+hit_dice: "13d10 + 26"
 speed: "40 ft., climb 20 ft."
 stats: [16, 20, 16, 6, 18, 6]
 saves:
@@ -44,17 +44,17 @@ skillsaves:
   - Survival: 7
 senses: "darkvision 120 ft., passive Perception 17"
 languages: "—"
-cr: 5
+cr: 8
 traits:
   - name: Assassinate
-    desc: "During its first turn, the deer-stalker has Advantage on attack rolls against creatures that haven't taken a turn. Once per turn, when it hits a creature that has no conscious ally within 10 feet of it, the attack deals an extra 7 (2d6) damage."
+    desc: "During its first turn, the deer-stalker has Advantage on attack rolls against creatures that haven't taken a turn. Once per turn, when it hits a creature that has no conscious ally within 10 feet of it, the attack deals an extra 10 (3d6) damage."
   - name: Evasion
     desc: "If the deer-stalker is subjected to an effect that allows it to make a Dexterity saving throw to take only half damage, it instead takes no damage on a successful save and half damage on a failed one. It can't use this trait if it has the Incapacitated condition."
 actions:
   - name: Multiattack
-    desc: "The deer-stalker makes two Claw attacks."
+    desc: "The deer-stalker makes three Claw attacks."
   - name: Claw
-    desc: "Melee Attack Roll: +8, reach 10 feet, one target. Hit: 12 (2d6 + 5) Slashing damage. If the target is Medium or smaller and the deer-stalker isn't grappling another creature, the target has the Grappled condition (escape DC 16)."
+    desc: "Melee Attack Roll: +8, reach 10 feet, one target. Hit: 14 (2d8 + 5) Slashing damage. If the target is Medium or smaller and the deer-stalker isn't grappling another creature, the target has the Grappled condition (escape DC 16)."
   - name: Lunge and Drag (Recharge 5–6)
     desc: "The deer-stalker moves up to its Speed and makes one Claw attack against a creature it can reach. On a hit, if the target has the Grappled condition, the deer-stalker can move up to half its Speed while carrying it; this movement doesn't provoke Opportunity Attacks from that target."
 bonus_actions:
