@@ -1,5 +1,5 @@
 ---
-summary: Nick's correction log. Writers append on #ERROR; ASD drains. All entries closed.
+summary: Nick's correction log. Writers append on #ERROR; ASD drains. One open: over-scoped `.agent` typo fix.
 ---
 
 # User corrections
@@ -211,3 +211,15 @@ Follow skill `agentic-system-designer` (Intake → Baseline → Fix → Prove �
 **status:** closed
 
 **Fix:** `.agents/skills/theatre-of-the-mind/SKILL.md` — Already-spoken gate in Before drafting step 3: read previous beat's spoken prose and this beat's Initial Narration before drafting any stub; do not restate facts already spoken unless scene physically changed. Within-beat reinforcement: smaller blocks show only what is new, changed, or newly actionable. Measure: agent-facing files with already-spoken prose gate 0 → 1. Cheap check: `rg -l --glob '*.md' 'Already-spoken gate' .agents/skills`.
+
+### 2026-09-09 — over-scoped `.agent` typo fix
+
+**Error:** Treated a one-file `.agent/skills/` typo in AGENTS.md as a skill-tree unification: compared `.claude/skills` vs `.agents/skills`, planned directory symlinks, lint skip rewrites, GROK-BOTS/README/inbox edits.
+
+**Correction:** Update AGENTS.md only. The two-roots line is a typo (`.agent/` → `.agents/`). One root is already `.agents/skills/`.
+
+**Read:** `AGENTS.md` Skills (progressive); `GROK-BOTS.md` roster; `README.md` layout; `scripts/lint-obsidian-markdown`; `.claude/skills` vs `.agents/skills` listings.
+
+**count:** 1
+
+**status:** open
