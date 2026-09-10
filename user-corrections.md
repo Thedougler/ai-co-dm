@@ -276,6 +276,6 @@ Follow skill `agentic-system-designer` (Intake → Baseline → Fix → Prove �
 
 **Read:** `user-corrections.md`; `.agents/skills/obsidian-markdown/SKILL.md`; `.agents/skills/copy-writer/SKILL.md`; `campaigns/shattered-sea/sessions/11/Session-11-01-Angry-Birds.md`
 
-**count:** 2
+**count:** 3
 
-**status:** closed
+**status:** open
