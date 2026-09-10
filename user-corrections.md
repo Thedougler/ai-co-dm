@@ -1,5 +1,5 @@
 ---
-summary: Nick's correction log. Writers append on #ERROR; ASD drains. Open: over-scoped `.agent` typo; scenery shorthand; TotM poetry; wound used as a person-handle; useless non-info; off-stage Hinewai; dedicated copy-writer skill.
+summary: Nick's correction log. Writers append on #ERROR; ASD drains. Open: over-scoped `.agent` typo.
 ---
 
 # User corrections
@@ -278,7 +278,9 @@ Follow skill `agentic-system-designer` (Intake → Baseline → Fix → Prove �
 
 **count:** 3
 
-**status:** open
+**status:** closed
+
+**Fix:** `.agents/skills/copy-writer/SKILL.md`; `AGENTS.md` — three prose principles (Hear it, Earn it, Place it) added as always-on quality gate for all production wiki text; copy-writer elevated to always-on alongside obsidian-markdown; preserving bad copy declared critical failure. Measure: root prose principles in `.agents/skills/copy-writer` 0 → 3; always-on production-text skills in AGENTS.md 1 → 2. Cheap check: `rg -c 'Hear it\.|Earn it\.|Place it\.' .agents/skills/copy-writer/SKILL.md`.
 
 ### 2026-09-10 — TotM is not poetry
 
@@ -290,7 +292,9 @@ Follow skill `agentic-system-designer` (Intake → Baseline → Fix → Prove �
 
 **count:** 1
 
-**status:** open
+**status:** closed
+
+**Fix:** `.agents/skills/copy-writer/SKILL.md`; `AGENTS.md` — three prose principles (Hear it, Earn it, Place it) added as always-on quality gate for all production wiki text; copy-writer elevated to always-on alongside obsidian-markdown; preserving bad copy declared critical failure. Measure: root prose principles in `.agents/skills/copy-writer` 0 → 3; always-on production-text skills in AGENTS.md 1 → 2. Cheap check: `rg -c 'Hear it\.|Earn it\.|Place it\.' .agents/skills/copy-writer/SKILL.md`.
 
 ### 2026-09-09 — Wound used as a person-handle
 
@@ -302,7 +306,9 @@ Follow skill `agentic-system-designer` (Intake → Baseline → Fix → Prove �
 
 **count:** 1
 
-**status:** open
+**status:** closed
+
+**Fix:** `.agents/skills/copy-writer/SKILL.md`; `AGENTS.md` — three prose principles (Hear it, Earn it, Place it) added as always-on quality gate for all production wiki text; copy-writer elevated to always-on alongside obsidian-markdown; preserving bad copy declared critical failure. Measure: root prose principles in `.agents/skills/copy-writer` 0 → 3; always-on production-text skills in AGENTS.md 1 → 2. Cheap check: `rg -c 'Hear it\.|Earn it\.|Place it\.' .agents/skills/copy-writer/SKILL.md`.
 
 ### 2026-09-09 — Useless non-info on the card
 
@@ -314,7 +320,9 @@ Follow skill `agentic-system-designer` (Intake → Baseline → Fix → Prove �
 
 **count:** 1
 
-**status:** open
+**status:** closed
+
+**Fix:** `.agents/skills/copy-writer/SKILL.md`; `AGENTS.md` — three prose principles (Hear it, Earn it, Place it) added as always-on quality gate for all production wiki text; copy-writer elevated to always-on alongside obsidian-markdown; preserving bad copy declared critical failure. Measure: root prose principles in `.agents/skills/copy-writer` 0 → 3; always-on production-text skills in AGENTS.md 1 → 2. Cheap check: `rg -c 'Hear it\.|Earn it\.|Place it\.' .agents/skills/copy-writer/SKILL.md`.
 
 ### 2026-09-09 — Off-stage NPC obsessed on the session card
 
@@ -326,7 +334,9 @@ Follow skill `agentic-system-designer` (Intake → Baseline → Fix → Prove �
 
 **count:** 1
 
-**status:** open
+**status:** closed
+
+**Fix:** `.agents/skills/copy-writer/SKILL.md`; `AGENTS.md` — three prose principles (Hear it, Earn it, Place it) added as always-on quality gate for all production wiki text; copy-writer elevated to always-on alongside obsidian-markdown; preserving bad copy declared critical failure. Measure: root prose principles in `.agents/skills/copy-writer` 0 → 3; always-on production-text skills in AGENTS.md 1 → 2. Cheap check: `rg -c 'Hear it\.|Earn it\.|Place it\.' .agents/skills/copy-writer/SKILL.md`.
 
 ### 2026-09-09 — Dedicated copy-writer skill
 
@@ -338,7 +348,9 @@ Follow skill `agentic-system-designer` (Intake → Baseline → Fix → Prove �
 
 **count:** 1
 
-**status:** open
+**status:** closed
+
+**Fix:** `.agents/skills/copy-writer/SKILL.md`; `AGENTS.md` — three prose principles (Hear it, Earn it, Place it) added as always-on quality gate for all production wiki text; copy-writer elevated to always-on alongside obsidian-markdown; preserving bad copy declared critical failure. Measure: root prose principles in `.agents/skills/copy-writer` 0 → 3; always-on production-text skills in AGENTS.md 1 → 2. Cheap check: `rg -c 'Hear it\.|Earn it\.|Place it\.' .agents/skills/copy-writer/SKILL.md`.
 
 ### 2026-09-09 — Uncommon scenery word
 
@@ -350,7 +362,9 @@ Follow skill `agentic-system-designer` (Intake → Baseline → Fix → Prove �
 
 **count:** 1
 
-**status:** open
+**status:** closed
+
+**Fix:** `.agents/skills/copy-writer/SKILL.md`; `AGENTS.md` — three prose principles (Hear it, Earn it, Place it) added as always-on quality gate for all production wiki text; copy-writer elevated to always-on alongside obsidian-markdown; preserving bad copy declared critical failure. Measure: root prose principles in `.agents/skills/copy-writer` 0 → 3; always-on production-text skills in AGENTS.md 1 → 2. Cheap check: `rg -c 'Hear it\.|Earn it\.|Place it\.' .agents/skills/copy-writer/SKILL.md`.
 
 ### 2026-09-09 — Clunky, hard-to-picture prose
 
@@ -373,7 +387,9 @@ Follow skill `agentic-system-designer` (Intake → Baseline → Fix → Prove �
 
 **count:** 15
 
-**status:** open
+**status:** closed
+
+**Fix:** `.agents/skills/copy-writer/SKILL.md`; `AGENTS.md` — three prose principles (Hear it, Earn it, Place it) added as always-on quality gate for all production wiki text; copy-writer elevated to always-on alongside obsidian-markdown; preserving bad copy declared critical failure. Measure: root prose principles in `.agents/skills/copy-writer` 0 → 3; always-on production-text skills in AGENTS.md 1 → 2. Cheap check: `rg -c 'Hear it\.|Earn it\.|Place it\.' .agents/skills/copy-writer/SKILL.md`.
 
 ### 2026-09-09 — Conditional narration repeated
 
@@ -385,7 +401,9 @@ Follow skill `agentic-system-designer` (Intake → Baseline → Fix → Prove �
 
 **count:** 1
 
-**status:** open
+**status:** closed
+
+**Fix:** `.agents/skills/copy-writer/SKILL.md`; `AGENTS.md` — three prose principles (Hear it, Earn it, Place it) added as always-on quality gate for all production wiki text; copy-writer elevated to always-on alongside obsidian-markdown; preserving bad copy declared critical failure. Measure: root prose principles in `.agents/skills/copy-writer` 0 → 3; always-on production-text skills in AGENTS.md 1 → 2. Cheap check: `rg -c 'Hear it\.|Earn it\.|Place it\.' .agents/skills/copy-writer/SKILL.md`.
 
 ### 2026-09-09 — Awkward NPC dialogue narration
 
@@ -397,7 +415,9 @@ Follow skill `agentic-system-designer` (Intake → Baseline → Fix → Prove �
 
 **count:** 1
 
-**status:** open
+**status:** closed
+
+**Fix:** `.agents/skills/copy-writer/SKILL.md`; `AGENTS.md` — three prose principles (Hear it, Earn it, Place it) added as always-on quality gate for all production wiki text; copy-writer elevated to always-on alongside obsidian-markdown; preserving bad copy declared critical failure. Measure: root prose principles in `.agents/skills/copy-writer` 0 → 3; always-on production-text skills in AGENTS.md 1 → 2. Cheap check: `rg -c 'Hear it\.|Earn it\.|Place it\.' .agents/skills/copy-writer/SKILL.md`.
 
 ### 2026-09-09 — Repeated “still” wording
 
@@ -410,7 +430,9 @@ Follow skill `agentic-system-designer` (Intake → Baseline → Fix → Prove �
 
 **count:** 3
 
-**status:** open
+**status:** closed
+
+**Fix:** `.agents/skills/copy-writer/SKILL.md`; `AGENTS.md` — three prose principles (Hear it, Earn it, Place it) added as always-on quality gate for all production wiki text; copy-writer elevated to always-on alongside obsidian-markdown; preserving bad copy declared critical failure. Measure: root prose principles in `.agents/skills/copy-writer` 0 → 3; always-on production-text skills in AGENTS.md 1 → 2. Cheap check: `rg -c 'Hear it\.|Earn it\.|Place it\.' .agents/skills/copy-writer/SKILL.md`.
 
 ### 2026-09-09 — Unnecessary DM warning
 
@@ -422,7 +444,9 @@ Follow skill `agentic-system-designer` (Intake → Baseline → Fix → Prove �
 
 **count:** 1
 
-**status:** open
+**status:** closed
+
+**Fix:** `.agents/skills/copy-writer/SKILL.md`; `AGENTS.md` — three prose principles (Hear it, Earn it, Place it) added as always-on quality gate for all production wiki text; copy-writer elevated to always-on alongside obsidian-markdown; preserving bad copy declared critical failure. Measure: root prose principles in `.agents/skills/copy-writer` 0 → 3; always-on production-text skills in AGENTS.md 1 → 2. Cheap check: `rg -c 'Hear it\.|Earn it\.|Place it\.' .agents/skills/copy-writer/SKILL.md`.
 
 ### 2026-09-09 — Later encounter spoiled by narration
 
@@ -437,7 +461,9 @@ Follow skill `agentic-system-designer` (Intake → Baseline → Fix → Prove �
 
 **count:** 1
 
-**status:** open
+**status:** closed
+
+**Fix:** `.agents/skills/copy-writer/SKILL.md`; `AGENTS.md` — three prose principles (Hear it, Earn it, Place it) added as always-on quality gate for all production wiki text; copy-writer elevated to always-on alongside obsidian-markdown; preserving bad copy declared critical failure. Measure: root prose principles in `.agents/skills/copy-writer` 0 → 3; always-on production-text skills in AGENTS.md 1 → 2. Cheap check: `rg -c 'Hear it\.|Earn it\.|Place it\.' .agents/skills/copy-writer/SKILL.md`.
 
 ### 2026-09-09 — Telegraphing scene spoilers
 
@@ -450,4 +476,6 @@ Follow skill `agentic-system-designer` (Intake → Baseline → Fix → Prove �
 
 **count:** 2
 
-**status:** open
+**status:** closed
+
+**Fix:** `.agents/skills/copy-writer/SKILL.md`; `AGENTS.md` — three prose principles (Hear it, Earn it, Place it) added as always-on quality gate for all production wiki text; copy-writer elevated to always-on alongside obsidian-markdown; preserving bad copy declared critical failure. Measure: root prose principles in `.agents/skills/copy-writer` 0 → 3; always-on production-text skills in AGENTS.md 1 → 2. Cheap check: `rg -c 'Hear it\.|Earn it\.|Place it\.' .agents/skills/copy-writer/SKILL.md`.

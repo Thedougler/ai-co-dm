@@ -55,7 +55,7 @@ Obsidian LLM wiki for Nick's home D&D. **Markdown is the product.**
 
 **One root:** `.agents/skills/` — vault / D&D fleet skills (table below; default unless noted) plus **Matt Pocock process pack** — extremely high quality; **always use when the job matches** (do not improvise process). Unsure which? `.agents/skills/ask-matt`.
 
-**Always-on:** this table + `obsidian-markdown` for every wiki `.md` write. **On match:** that skill’s `SKILL.md` only. **On demand:** `references/` when the skill says.
+**Always-on:** this table + `obsidian-markdown` + `copy-writer` for every wiki `.md` write; `writing-for-agents` for every agent-facing file (skills, `AGENTS.md`, `CLAUDE.md`, templates-for-agents). **On match:** that skill’s `SKILL.md` only. **On demand:** `references/` when the skill says.
 
 This repo is an **Obsidian prose wiki**, not an application codebase. Prefer vault skills and process packs over software harnesses.
 
