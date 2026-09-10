@@ -267,3 +267,15 @@ Follow skill `agentic-system-designer` (Intake → Baseline → Fix → Prove �
 **status:** closed
 
 **Fix:** `.agents/skills/copy-writer/SKILL.md`; `.agents/skills/theatre-of-the-mind/SKILL.md`; `.agents/skills/run-guide/SKILL.md`; `AGENTS.md` — pass wording now defers writing-skill loads to the pass that needs them: copy-writer for pass 2, theatre-of-the-mind only when pass 3 begins. Measure: agent-facing files with pass-scoped writing-skill loading 0 → 4. Cheap check: `rg -l --glob '*.md' 'Load `copy-writer` for pass 2|only when pass 3 begins|only when the pass crosses the player boundary|theatre-of-the-mind` fills every spoken stub last' AGENTS.md .agents/skills`. `after-write` SHA: `9e5aba6`.
+
+### 2026-09-10 — Scenery shorthand
+
+**Error:** Used scenery shorthand in [[Session-11-01-Angry-Birds]], including "grass cut," "river cut," and "make a track."
+
+**Correction:** Use specific, pictureable scenery. Do not use vague scenery shorthand or empty verbs that force the DM to decode the place. Prefer visible nouns and actions such as footprints pressed into mud, grass beside the river, moving water, terrace steps, trees, and branches.
+
+**Read:** `user-corrections.md`; `.agents/skills/obsidian-markdown/SKILL.md`; `.agents/skills/copy-writer/SKILL.md`; `campaigns/shattered-sea/sessions/11/Session-11-01-Angry-Birds.md`
+
+**count:** 2
+
+**status:** closed
