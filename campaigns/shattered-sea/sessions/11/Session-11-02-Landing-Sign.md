@@ -7,7 +7,7 @@ date: 2026-09-06
 visibility: dm
 tags: [session-prep, run-guide]
 cssclasses: [session-surface]
-summary: Landing Bank development beat: fresh prints, cold ash, loose fruit, and thinning smoke push the party north to Torn Crossing before the trail goes cold.
+summary: "Landing Bank development beat: fresh prints, cold ash, loose fruit, and thinning smoke push the party north to Torn Crossing before the trail goes cold."
 ---
 # Session 11 — Landing sign and smoke
 

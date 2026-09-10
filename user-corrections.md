@@ -479,3 +479,27 @@ Follow skill `agentic-system-designer` (Intake → Baseline → Fix → Prove �
 **status:** closed
 
 **Fix:** `.agents/skills/copy-writer/SKILL.md`; `AGENTS.md` — three prose principles (Hear it, Earn it, Place it) added as always-on quality gate for all production wiki text; copy-writer elevated to always-on alongside obsidian-markdown; preserving bad copy declared critical failure. Measure: root prose principles in `.agents/skills/copy-writer` 0 → 3; always-on production-text skills in AGENTS.md 1 → 2. Cheap check: `rg -c 'Hear it\.|Earn it\.|Place it\.' .agents/skills/copy-writer/SKILL.md`. SHA `04de6f7`.
+
+### 2026-09-09 — Unquoted colon in frontmatter summary
+
+**Error:** Updated `summary` frontmatter to an unquoted YAML scalar containing `: `, breaking the note's frontmatter.
+
+**Correction:** Quote frontmatter strings that contain a colon followed by a space, or rewrite them without that YAML-breaking sequence.
+
+**Read:** `skill://obsidian-markdown`; `skill://qmd-retrieval`; `00 Home.md`; `campaigns/shattered-sea/hot.md`; `campaigns/shattered-sea/sessions/11/Session-11-02-Landing-Sign.md`; `skill://theatre-of-the-mind`; `skill://theatre-of-the-mind/references/surfaces.md`; `skill://theatre-of-the-mind/references/voice.md`; `skill://theatre-of-the-mind/references/examples.md`; `skill://theatre-of-the-mind/references/boundary.md`; `skill://theatre-of-the-mind/references/vision.md`; `attachments/shattered-sea/items/aruhe-redheart-berry.jpg`; `attachments/shattered-sea/battlemaps/session-11-02-landing-sign-base.jpg`; `user-corrections.md`.
+
+**count:** 1
+
+**status:** open
+
+### 2026-09-09 — Non-surgical image embed rewrite
+
+**Error:** Rewrote existing image embeds while doing a copy pass, which removed or broke the overview image in Obsidian.
+
+**Correction:** Be surgical in copy edits. Do not rewrite embeds, frontmatter, paths, or unrelated structure unless that exact thing is broken and verified. When fixing image embeds, preserve the known file extension; these session images exist as `.jpg` files.
+
+**Read:** `campaigns/shattered-sea/sessions/11/Session-11-02-Landing-Sign.md`; `user-corrections.md`; `attachments/shattered-sea/items/aruhe-redheart-berry.jpg`; `attachments/shattered-sea/battlemaps/session-11-02-landing-sign-base.jpg`.
+
+**count:** 2
+
+**status:** open
