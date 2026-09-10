@@ -496,10 +496,10 @@ Follow skill `agentic-system-designer` (Intake → Baseline → Fix → Prove �
 
 **Error:** Rewrote existing image embeds while doing a copy pass, which removed or broke the overview image in Obsidian.
 
-**Correction:** Be surgical in copy edits. Edit only what is in scope. Do not rewrite whole pages, embeds, frontmatter, paths, or unrelated structure unless that exact thing is broken and verified. When fixing image embeds, preserve the known file extension; these session images exist as `.jpg` files.
+**Correction:** Be surgical in all edits. Edit only what is in scope. Do not rewrite whole pages, embeds, frontmatter, paths, or unrelated structure unless that exact thing is broken and verified. When fixing image embeds, preserve the known file extension; these session images exist as `.jpg` files.
 
 **Read:** `campaigns/shattered-sea/sessions/11/Session-11-02-Landing-Sign.md`; `user-corrections.md`; `attachments/shattered-sea/items/aruhe-redheart-berry.jpg`; `attachments/shattered-sea/battlemaps/session-11-02-landing-sign-base.jpg`.
 
-**count:** 3
+**count:** 4
 
 **status:** open
