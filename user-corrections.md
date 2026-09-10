@@ -361,12 +361,13 @@ Follow skill `agentic-system-designer` (Intake → Baseline → Fix → Prove �
 **Additional example:** "You see three fruiting bushes standing in reach along this wet margin, tawny orange globes still heavy on the living wood. Whole fruit and split skins heap at the roots: tawny orange ten feet toward the water, pale green twenty feet south along this bank, and a darker heap twenty-five feet west toward the jungle wall. The dirt under what has already fallen is clean. Dark red mud packs only around the living roots, where snapped stems hang over fruit still on the branch."
 **Additional example:** "You smell the split skins where they have gone sharp and sweet. You hear water pulling at the line, and you feel the wet sand sucking at the prints underfoot."
 **Additional example:** "You leave the fruiting margin on the north prints, following the crushed corridor toward the smoke. Stems rasp at your legs,"
+**Additional example:** "You see wet river stones ringing live coals in the middle of a round clearing. You feel heat off those stones, and you smell woodsmoke under the leaves. Four woven mats sit about ten feet out. Heavy pear-shaped fruit hangs from the mossy branches, grey-green plates chipped pale, and more of that fruit already sits by the coals."
 
 **Correction:** _Not stated._
 
 **Read:** `AGENTS.md`; `user-corrections.md`; `skill://agentic-system-designer`; `skill://obsidian-markdown`
 
-**count:** 10
+**count:** 11
 
 **status:** open
 
