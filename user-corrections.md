@@ -279,3 +279,15 @@ Follow skill `agentic-system-designer` (Intake → Baseline → Fix → Prove �
 **count:** 3
 
 **status:** open
+
+### 2026-09-10 — TotM is not poetry
+
+**Error:** Wrote poetic, workshop TotM on [[Session-11-06-Farthest-Camp]], including "Last sun is gone from this leaf roof. The two stories are still in the mouths around the coals. From the north dark, the same garden words come back in a whisper."
+
+**Correction:** Do not add a poetic edge. TotM is not poetry. Use ordinary kitchen-table words a listener can picture on one hearing. Do not use workshop metonymy or coined labels (mouths for people, stories in mouths, last sun, garden words, north dark, leaf roof).
+
+**Read:** `campaigns/shattered-sea/sessions/11/Session-11-06-Farthest-Camp.md`; `campaigns/shattered-sea/sessions/11/Session-11-05-Otter-Hole.md`; `skill://theatre-of-the-mind`; `user-corrections.md`
+
+**count:** 1
+
+**status:** open

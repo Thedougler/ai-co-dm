@@ -60,11 +60,13 @@ The party is on the packed dirt hub of [[Aruhe - Quiet Forest Spoke Ring]] at la
 ![[attachments/shattered-sea/items/aruhe-stonepear.png|Stonepear]]
 
 > [!narration] Initial Narration
-> You see last gold sitting on a tight leaf roof over packed dirt, wide enough for a fire. Wet river stones ring live coals at the center. You feel heat off those stones, and you smell woodsmoke hanging under the leaves instead of rising. Four woven mats sit about ten feet out. Fallen stonepears rest by the coals, grey-green plates chipped pale, and living ones still hang from mossed branches, each a heavy pear of fitted stone scales.
+> You hear three or four people arguing in low voices around a fire on packed dirt under the trees. One of them says a woman in the woods asked them to come admire her garden, this way, and not to take the living plants. Another says she is leading them into danger, and anyone who listens is mad.
 >
-> You hear three or four wreck people already arguing in half-voices. One mouth says a woman in the woods asked them to come admire her garden, this way, and not to take the living plants. Another says she is leading them into danger, and anyone who listens is mad. The grey-shirted person sits five feet from the fire, split lip still wet, one boot still missing, salt-stiff cloth still damp. He stays close to whoever pulled him. He does not look at the north trails.
+> You see wet river stones ringing live coals in the middle of a round clearing. You feel heat off those stones, and you smell woodsmoke under the leaves. Four woven mats sit about ten feet out. Heavy pear-shaped fruit hangs from the mossy branches, grey-green plates chipped pale, and more of that fruit already sits by the coals.
 >
-> South, gold-green grass still shows between the last trunks. West, water talks through hanging roots, cool and close. North, packed trails go darker between buttress roots, and the garden talk points that way. A branch moves. The people who listened look into that dark while the talk thins.
+> The man in the grey shirt sits five feet from the fire, split lip still wet, one boot still missing. He stays close to whoever pulled him. He does not look at the trails going north.
+>
+> South, gold-green grass still shows between the last trees. West, you hear water through hanging roots. North, packed trails go darker between the big roots. A branch moves that way. The people who want the garden look into the trees and stop talking.
 >
 > What do you do?
 
@@ -88,13 +90,13 @@ If a party member takes open valley air, that party member leaves this hub for h
 
 | Place | Distance from the party | Cover | Narration |
 | --- | --- | --- | --- |
-| [[Aruhe - Quiet Forest Spoke Ring\|This fire]] / Split-lip | Here. Packed dirt around the stone ring. Split-lip sits 5 feet from the coals if they pulled him. Four woven mats lie 10 feet out. | Grouped people here are not isolated. Split-lip will talk from this dirt. | ==_The grey-shirted person watches the living mouths, not the north trails. Heat and woodsmoke sit on that shirt._== |
-| Garden mouths | 10 feet toward the north trail mouths, still on this hub. | They look into the wood when a branch moves. | ==_Those mouths keep the same phrases: admire her garden, this way, leave the living plants. When a branch moves they look north, and the talk thins._== |
-| Ship mouths | 10 feet toward the south trail, still on this hub. | They watch the last grass more than the north trails. | ==_Those mouths talk over the invitation. They say she is leading people into danger, and that anyone who listens is mad._== |
-| South trail / last grass | 20 feet south. Crushed prints enter this hub here. | Breaking off this way is a rebuild. A Dash does not reach the beach. | ==_Packed prints run south through the last trunks, where gold-green grass still shows. Seed heads rasp out there._== |
-| West trail / river | 30 feet west, down a root-cut. | A Dash can reach the river. This is not [[Aruhe - River Slack Basin]]. | ==_The packed dirt drops west between hanging roots. Clear water talks through that cut, cool and close._== |
-| North trails | 20 feet into the wood. Garden talk points this way. | Difficult Terrain. Heavily obscures beyond 10 feet. A body on a trail is isolated. A Dash does not reach the garden. | ==_North trails darken between buttress-root trunks. Drip off leaf comes from that dark, and the garden talk points that way._== |
-| Hawk sky | Flying up out of this hub is open valley air. | Exposed. Last sun is still on this roof until it goes. | ==_Wind opens over this leaf roof. Gold light sits on the crowns, then thins. The fire and close trunks shrink below._== |
+| [[Aruhe - Quiet Forest Spoke Ring\|This fire]] / Split-lip | Here. Packed dirt around the stone ring. Split-lip sits 5 feet from the coals if they pulled him. Four woven mats lie 10 feet out. | Grouped people here are not isolated. Split-lip will talk from this dirt. | ==_He watches the people talking, not the north trails. His shirt is warm from the fire and smells like smoke._== |
+| Garden mouths | 10 feet toward the north trail mouths, still on this hub. | They look into the wood when a branch moves. | ==_They keep saying come admire her garden, this way, leave the living plants. When a branch moves they look north and stop talking._== |
+| Ship mouths | 10 feet toward the south trail, still on this hub. | They watch the last grass more than the north trails. | ==_They talk over the others. They say she is leading people into danger, and anyone who listens is mad._== |
+| South trail / last grass | 20 feet south. Crushed prints enter this hub here. | Breaking off this way is a rebuild. A Dash does not reach the beach. | ==_Footprints run south through the last trees into gold-green grass._== |
+| West trail / river | 30 feet west, down a root-cut. | A Dash can reach the river. This is not [[Aruhe - River Slack Basin]]. | ==_The packed dirt drops west between hanging roots. You hear water down that way._== |
+| North trails | 20 feet into the wood. Garden talk points this way. | Difficult Terrain. Heavily obscures beyond 10 feet. A body on a trail is isolated. A Dash does not reach the garden. | ==_The trails north of the fire go dark between the big roots. Water drips off the leaves in there._== |
+| Hawk sky | Flying up out of this hub is open valley air. | Exposed. Last sun is still on this roof until it goes. | ==_You feel wind above the trees. The sun is still on the treetops. Then it goes. The fire looks small below._== |
 
 ## Be ready for
 
@@ -130,12 +132,12 @@ If they attacked this camp, the prize is gone. They still have a night. Rebuild 
 If Split-lip is with them, he is still on this dirt or on the north trail, split lip wet, one boot missing, unless he was left in the hole.
 
 > [!narration] How the Scene Resolves
-> Last sun is gone from this leaf roof. The two stories are still in the mouths around the coals. From the north dark, the same garden words come back in a whisper.
+> The sun has gone down. The people at the fire are still arguing. From the dark trail north of the fire, someone whispers the same thing they were just saying: come admire her garden, this way, leave the living plants.
 
 | If | Next | Narration |
 | --- | --- | --- |
-| Stay at this fire | The split is live on this hub. Dusk is gone. Hand to [[Session-11-07-False-Help]]. | ==_The grey-shirted person is still in the firelight if they pulled him._== |
-| Play along north | The party is on the first north trail, still in this valley. The garden stays out of reach tonight. Hand to [[Session-11-07-False-Help]]. | ==_You are already on the first packed trail north of this fire. The garden talk is still in your ears. The hub's coals sit behind you._== |
+| Stay at this fire | The split is live on this hub. Dusk is gone. Hand to [[Session-11-07-False-Help]]. | ==_The man in the grey shirt is still sitting in the firelight._== |
+| Play along north | The party is on the first north trail, still in this valley. The garden stays out of reach tonight. Hand to [[Session-11-07-False-Help]]. | ==_You are on the packed trail north of the fire. The fire is behind you._== |
 
 ## Backup
 
