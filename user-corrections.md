@@ -224,7 +224,9 @@ Follow skill `agentic-system-designer` (Intake → Baseline → Fix → Prove �
 
 **count:** 1
 
-**status:** open
+**status:** closed
+
+**Fix:** `AGENTS.md` — typo already fixed (`.agents/skills/` correct at line 56). Root cause shared with "Non-surgical image embed rewrite": scope creep. Durable fix in obsidian-markdown + copy-writer surgical-scope constraints. Measure: agent-facing files with surgical-scope edit constraint 0 → 2. Cheap check: `rg -l --glob '*.md' -e 'Surgical edits only' -e 'Surgical scope' .agents/skills AGENTS.md`.
 
 ### 2026-09-09 — session beat third/fourth copy passes
 
@@ -490,7 +492,9 @@ Follow skill `agentic-system-designer` (Intake → Baseline → Fix → Prove �
 
 **count:** 1
 
-**status:** open
+**status:** closed
+
+**Fix:** `.agents/skills/obsidian-markdown/SKILL.md` — `summary` frontmatter rule now says to quote values containing `: ` (colon-space). Measure: agent-facing files with YAML quoting guidance for frontmatter 0 → 1. Cheap check: `rg -l --glob '*.md' 'colon-space' .agents/skills`.
 
 ### 2026-09-09 — Non-surgical image embed rewrite
 
@@ -502,4 +506,6 @@ Follow skill `agentic-system-designer` (Intake → Baseline → Fix → Prove �
 
 **count:** 4
 
-**status:** open
+**status:** closed
+
+**Fix:** `.agents/skills/obsidian-markdown/SKILL.md`; `.agents/skills/copy-writer/SKILL.md` — surgical-scope edit constraint: edit only in-scope elements for the current pass; preserve existing image embeds, wikilink paths, frontmatter fields, and file extensions unless that exact element is broken and verified. Measure: agent-facing files with surgical-scope edit constraint 0 → 2. Cheap check: `rg -l --glob '*.md' -e 'Surgical edits only' -e 'Surgical scope' .agents/skills`.

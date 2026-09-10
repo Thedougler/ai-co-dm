@@ -23,6 +23,8 @@ Default brevity is a fail. Telegram stubs fail. Novel-length essays fail. Write 
 
 **Preserving bad copy is a critical failure.** When you touch a file and encounter copy that violates these principles, rewrite it. No pass exemption, no "it was already there," no "this isn't the copy pass." Bad copy on the wiki is your problem.
 
+**Surgical scope.** Rewrite copy; preserve structure. Image embeds, wikilink paths, frontmatter fields, and file extensions stay untouched unless that exact element is broken and verified. A copy pass edits words, not plumbing.
+
 Theatre of the mind is the spoken `[!narration]` layer, not the whole job. Hook, Look/voice, Drive, Aspects, Senses, keys, stakes, flavor, recaps, and at-the-table / bank body copy are still yours.
 
 **Headings:** copy the template. Glance is `## At a Glance`. Runnable procedure is `## At the table`. Supporting facts use `## Bank` or the named bank sections on that template (`## Indexes`, `## Aftermath`, `## Secrets (DM)`).
