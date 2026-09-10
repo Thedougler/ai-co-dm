@@ -407,3 +407,15 @@ Follow skill `agentic-system-designer` (Intake → Baseline → Fix → Prove �
 **count:** 2
 
 **status:** open
+
+### 2026-09-09 — Unnecessary DM warning
+
+**Error:** Gave the DM strange, over-explained information in a warning whose necessity and phrasing were unclear: "**Warning.** This fire is a talk-and-commit slice. There is no fight on this card. When the ship-versus-garden split is on the table and the party stays, plays along, waits, or breaks, the scene ends. If they stall, keep [[Matteo Scola]] and the two stories visible, then ask. Leave the argument unfinished on purpose."
+
+**Correction:** _Not stated._
+
+**Read:** `AGENTS.md`; `user-corrections.md`; `skill://agentic-system-designer`; `skill://obsidian-markdown`
+
+**count:** 1
+
+**status:** open
