@@ -394,3 +394,15 @@ Follow skill `agentic-system-designer` (Intake → Baseline → Fix → Prove �
 **count:** 1
 
 **status:** open
+
+### 2026-09-09 — Repeated “still” wording
+
+**Error:** Used the word "still" twice in a short narration passage, a symptom of a deeper prose error: "> Matteo sits five feet from the fire, his lip still split and wet, one boot still missing. He stays close to whoever pulled him. He does not look at the trails going north."
+
+**Correction:** _Not stated._
+
+**Read:** `AGENTS.md`; `user-corrections.md`; `skill://agentic-system-designer`; `skill://obsidian-markdown`
+
+**count:** 1
+
+**status:** open
