@@ -1,5 +1,5 @@
 ---
-summary: Nick's correction log. Writers append on #ERROR; ASD drains. Three open: over-scoped `.agent` typo fix; session beat third/fourth copy passes; skimmed working files.
+summary: Nick's correction log. Writers append on #ERROR; ASD drains. Four open: over-scoped `.agent` typo fix; session beat third/fourth copy passes; skimmed working files; preload writing skills.
 ---
 
 # User corrections
@@ -243,6 +243,18 @@ Follow skill `agentic-system-designer` (Intake → Baseline → Fix → Prove �
 **Correction:** Read full files you are working on. Do not skim them.
 
 **Read:** `campaigns/shattered-sea/sessions/11/Session-11-05-Otter-Hole.md`; `campaigns/shattered-sea/sessions/11/Session-11-00-Birds-of-a-Feather.md`; `campaigns/shattered-sea/sessions/11/Session-11-04-What-They-Ate.md`; `campaigns/shattered-sea/sessions/11/Session-11-03-Wolfrabbits.md`; `campaigns/shattered-sea/sessions/11/Session-11-06-Farthest-Camp.md`; `campaigns/shattered-sea/locations/Aruhe - River Slack Basin.md`; `campaigns/shattered-sea/monsters/Aruhe - River Otter.md`
+
+**count:** 1
+
+**status:** open
+
+### 2026-09-09 — Preload writing skills before their pass
+
+**Error:** When writing a session, agents load multiple writing skills (different styles) before the pass that needs them. Reading those skills early contaminates prior passes and confuses the agent.
+
+**Correction:** Agents should load skills as needed. Do not read a writing skill until the pass that requires it.
+
+**Read:** `AGENTS.md` Skills (progressive) and Write (session/run beats two passes); `user-corrections.md` append recipe; `.agents/skills/obsidian-markdown/SKILL.md`
 
 **count:** 1
 
