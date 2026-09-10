@@ -11,7 +11,7 @@ tags: [npc, moucheron, surety]
 # Ket
 
 ## Art
-![[attachments/shattered-sea/portraits/ket-portrait.webp]]
+![[ket-portrait.jpg]]
 > [!narration] Narration
 > A starving Moucheron Rook, kept as a specimen until fed and freed. Thin wings and hunger mark him; he was let go to fly toward Murrat.
 

@@ -17,7 +17,7 @@ source: "[[Midchain]]"
 # Aruhe
 
 _The Hungry Isle_
-![[attachments/shattered-sea/places/aruhe-hungry-isle-v3.png|Aruhe / Hungry Isle]]
+![[aruhe-hungry-isle-v3.jpg|Aruhe / Hungry Isle]]
 ## Overview
 > [!narration] Narration
 > From offshore Aruhe is a vast green volcanic island in deep blue water. Forested ridges fold around a dark crater lake, gold-tan bands cut the lower slopes, pale beaches break the cliffs, and white water works a reef rim. No town, field, road, or smoke marks the island. Redheart berries mark the wet lowlands in small red flashes, while heavy giant's guavas punctuate the deeper canopy. The green and the gold crowd every slope, more life than an island this size should hold.

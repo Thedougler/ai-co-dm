@@ -15,7 +15,7 @@ tags:
 source: "[[Aruhe - Hungry Isle]]"
 ---
 # Old Gardens
-![[attachments/shattered-sea/places/aruhe-the-old-gardens.jpeg|Old Gardens, stacked stone terraces crowded with fruit]]
+![[aruhe-the-old-gardens.jpg|Old Gardens, stacked stone terraces crowded with fruit]]
 ## Overview
 > [!narration] Narration
 > Old stone terraces climb the forest slope in stacked walls, each level wide enough for a path before the next green drop. Moss darkens the blocks, stair cuts climb between them, and black openings sit under ledges where irrigation water gathers below. Redheart berries hang in tight red clusters along the terrace lips, while giant's guavas bow their branches over the lower steps. Fallen fruit splits open on the wet stone, and the air is warm and sugar-sour. The usable routes are the steps, the terrace edges, and the water-cut channels that keep leading inland.
@@ -71,4 +71,4 @@ Miles of ancient terraces run inland from [[Aruhe - Beach|Western Landing]], hum
 
 ---
 ## Art
-![[attachments/shattered-sea/battlemaps/aruhe-old-gardens-day.png|Old Gardens battlemap, stacked terraces and fruit]]
+![[aruhe-old-gardens-day.jpg|Old Gardens battlemap, stacked terraces and fruit]]

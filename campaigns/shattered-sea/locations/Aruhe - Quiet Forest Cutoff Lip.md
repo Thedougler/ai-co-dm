@@ -19,7 +19,7 @@ tags:
 source: "[[Aruhe - Quiet Forest]]"
 ---
 # Cutoff Lip
-![[attachments/shattered-sea/places/aruhe-cutoff-lip.png|Cutoff Lip, hollow knee-roots at the Quiet grassland seam]]
+![[aruhe-cutoff-lip.jpg|Cutoff Lip, hollow knee-roots at the Quiet grassland seam]]
 ## Overview
 > [!narration] Narration
 > Packed dirt holds a shelf wide enough to sleep on between the gold-green grass slope and the first dark Quiet trunks. Hollow knee-roots stand chest-high along the wood in a pale open-mouthed wall, and a trail of crushed prints keeps to that lip instead of dropping back to the water. Downslope, a rock seep threads through the grass and flashes between black stones. Past the knees the small sounds stop, and the only drip is water off leaf onto packed dirt.
@@ -76,6 +76,6 @@ Cutoff Lip is the first Quiet, a dry packed print shelf above a downslope seep o
 ---
 ## Art
 
-- ![[attachments/shattered-sea/places/aruhe-cutoff-lip.png|Cutoff Lip identity image]]
-- ![[attachments/shattered-sea/battlemaps/session-11-06-cutoff-lip-base.png|Cutoff Lip battlemap, packed shelf, knee-root palisade, grass slope, seep, and root-bowl]]
+- ![[aruhe-cutoff-lip.jpg|Cutoff Lip identity image]]
+- ![[session-11-06-cutoff-lip-base.jpg|Cutoff Lip battlemap, packed shelf, knee-root palisade, grass slope, seep, and root-bowl]]
 - The identity image owns the public first look: a dry shelf between gold-green grass and the first Quiet trunks, hollow pale knee-roots, crushed prints, torn white bark, a downslope seep, and the silence boundary beyond the knees.

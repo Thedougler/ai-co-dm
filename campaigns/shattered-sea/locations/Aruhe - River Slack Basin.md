@@ -20,7 +20,7 @@ tags:
 source: "[[Aruhe - River]]"
 ---
 # Slack Basin
-![[attachments/shattered-sea/places/aruhe-river-slack-basin.png|Slack Basin, still claimed pool behind the rock lip]]
+![[aruhe-river-slack-basin.jpg|Slack Basin, still claimed pool behind the rock lip]]
 ## Overview
 > [!narration] Narration
 > The river breaks around a low stone lip here, white water hissing past while a clear turquoise bowl sits almost still beside it. Tall gold-green grass presses close to the wet sand, and jungle roots hang over the quiet side like dark fingers touching the water. A thin cane stands in a dark smear at the shore, with muddy prints climbing from it into the first trees. Out in the slack, a closed wooden pack and a torn maroon sleeve hang in the clear water instead of drifting toward the rapids. The pool smells of cool stone and wet mud, and every sound from the fast river seems to stop at the edge of this basin.
@@ -77,6 +77,6 @@ Slack Basin is a claimed backwater of [[Aruhe - River]] inside [[Aruhe - Grassla
 ---
 ## Art
 
-- ![[attachments/shattered-sea/places/aruhe-river-slack-basin.png|Slack Basin identity image]]
-- ![[attachments/shattered-sea/battlemaps/session-11-05-otter-hole-base.png|Slack Basin battlemap, still pool, rock lip, and bloody-bank trail]]
+- ![[aruhe-river-slack-basin.jpg|Slack Basin identity image]]
+- ![[session-11-05-otter-hole-base.jpg|Slack Basin battlemap, still pool, rock lip, and bloody-bank trail]]
 - The identity image owns the public first look: still turquoise water behind a rock lip, pack and maroon cloth held in the slack, cane in dark mud, tall grass, hanging roots, and whitewater beyond.

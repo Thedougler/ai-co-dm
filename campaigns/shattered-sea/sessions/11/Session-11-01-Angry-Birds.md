@@ -13,7 +13,7 @@ summary: Hook stoop over the old terraces; the adult Bloodhawk hunts the Crown S
 
 ![[Session 10 - Recap#Recap]]
 
-![[attachments/shattered-sea/sessions/session-11-01-angry-birds-overview.png|Session 11-01 Angry Birds overview]]
+![[session-11-01-angry-birds-overview.jpg|Session 11-01 Angry Birds overview]]
 
 ## Scene ends when
 
@@ -144,4 +144,4 @@ If they forced the beach, they are on the shingle. The hunt still crosses that a
 
 ## Battlemap
 
-![[attachments/shattered-sea/battlemaps/session-11-01-angry-birds-base.png|Session 11-01 Angry Birds battlemap]]
+![[session-11-01-angry-birds-base.jpg|Session 11-01 Angry Birds battlemap]]

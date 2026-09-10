@@ -17,7 +17,7 @@ tags:
 source: "[[Aruhe - Hungry Isle]]"
 ---
 # The Marshes
-![[attachments/shattered-sea/places/aruhe-the-marshes.jpeg|The Marshes, flooded rainforest beneath a dense green canopy]]
+![[aruhe-the-marshes.jpg|The Marshes, flooded rainforest beneath a dense green canopy]]
 ## Overview
 > [!narration] Narration
 > The ground below Clear Lake does not quite become land. Black water lies between hummocks of fern, flooded roots, and trees rising from knee-deep pools, while curtains of vine turn every open direction into another wall of green. Stonepears hang from mossy branches along the firmer ridges, and dark rotheart clusters mark the sickest trees deeper in the flooded forest. Warm rainwater drips from leaves broad enough to hide beneath, insects whine in clouds around exposed skin, and something heavy moves through the reeds without showing more than a wake. Every few hundred feet the earth changes its mind: firm mud becomes sucking water, a shallow pool drops past the waist, or what looked like a channel ends beneath a mat of floating plants.

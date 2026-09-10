@@ -11,7 +11,7 @@ summary: Cliffhanger hunt on Torn Crossing. Three flushed wolfrabbits jump the p
 ---
 # Session 11 — Torn Crossing hunt
 
-![[attachments/shattered-sea/places/aruhe-torn-crossing.png|Torn Crossing, flood-scoured river lip and pale razer-grass stands]]
+![[aruhe-torn-crossing.jpg|Torn Crossing, flood-scoured river lip and pale razer-grass stands]]
 
 ## Scene ends when
 
@@ -55,7 +55,7 @@ The [[Aruhe - Spiguar]] owns this channel and is hunting the pack. The party is 
 
 **Wet-margin berries.** Living stems at the south lip are [[Aruhe - Redheart Berry]]. Eating a fallen berry is a Bonus Action and regains `8d4 + 8` hit points. Plucking a living stem is a [[Taking on Aruhe]] claim and pulls an extra wolfrabbit.
 
-![[attachments/shattered-sea/hazards/aruhe-razer-grass.png|Razer-Grass]]
+![[aruhe-razer-grass.jpg|Razer-Grass]]
 
 > [!narration] Initial Narration
 > You see three wolf-sized hunters already mid-leap down this flood-torn corridor at torso height, long ears laid back, hooked black claws open. Dark stripes run the tan-brown hides. A torn left ear, a white blaze down a muzzle, and a kinked tail mark the three as they come. Spit trails from wet muzzles.
@@ -141,7 +141,7 @@ The [[Aruhe - Spiguar]] keeps its wolfrabbit and the pack breaks off this stretc
 > [!narration] Wolfrabbit
 > The nearest hunter's wet nose twitches as it comes down, wolf-sized, hooked claws still open.
 
-![[attachments/shattered-sea/creatures/wolfrabbit-of-aruhe.png|Wolfrabbit of Aruhe]]
+![[wolfrabbit-of-aruhe.jpg|Wolfrabbit of Aruhe]]
 
 ![[Aruhe - Wolfrabbit#Tactics]]
 
@@ -150,7 +150,7 @@ The [[Aruhe - Spiguar]] keeps its wolfrabbit and the pack breaks off this stretc
 > [!narration] Spiguar
 > The spotted cat stays flat over its kill, yellow eyes low, the grass around it barely moving except where it has the body.
 
-![[attachments/shattered-sea/creatures/spiguar-of-aruhe.png|Spiguar of Aruhe]]
+![[spiguar-of-aruhe.jpg|Spiguar of Aruhe]]
 
 ![[Aruhe - Spiguar#Tactics]]
 
@@ -160,4 +160,4 @@ The [[Aruhe - Spiguar]] keeps its wolfrabbit and the pack breaks off this stretc
 
 ## Battlemap
 
-![[attachments/shattered-sea/battlemaps/session-11-03-wolfrabbits-base.png|Session 11-03 Torn Crossing battlemap]]
+![[session-11-03-wolfrabbits-base.jpg|Session 11-03 Torn Crossing battlemap]]

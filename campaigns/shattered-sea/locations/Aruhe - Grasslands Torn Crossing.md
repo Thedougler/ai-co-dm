@@ -16,7 +16,7 @@ tags:
 source: "[[Aruhe - Grasslands]]"
 ---
 # Torn Crossing
-![[attachments/shattered-sea/places/aruhe-torn-crossing.png|Torn Crossing, flood-scoured river lip and pale razer-grass stands]]
+![[aruhe-torn-crossing.jpg|Torn Crossing, flood-scoured river lip and pale razer-grass stands]]
 ## Overview
 > [!narration] Narration
 > Turquoise river water breaks around a torn lip of pale stone and black rock, leaving a muddy crossing where flattened grass, hooflike prints, and wet stones braid through the flood cut. Tall gold-green grass crowds both sides, but the path keeps bending around waist-high white stands whose glassy blades hold bright points of light instead of swaying with the seed heads. The inland side ends in a dark jungle wall. Water knocks against the rocks, mud sucks at each step, and the pale stalks make a thin ticking sound when the wind reaches them.
@@ -75,4 +75,4 @@ Torn Crossing is the rock-and-water break inside [[Aruhe - Grasslands]], just up
 
 ---
 ## Art
-![[attachments/shattered-sea/battlemaps/session-11-03-wolfrabbits-base.png|Torn Crossing battlemap, print corridor, river lip, and razer islands]]
+![[session-11-03-wolfrabbits-base.jpg|Torn Crossing battlemap, print corridor, river lip, and razer islands]]

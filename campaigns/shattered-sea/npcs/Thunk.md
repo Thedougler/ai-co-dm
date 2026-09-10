@@ -11,7 +11,7 @@ tags: [npc, calveno, cannon]
 # Thunk
 
 ## Art
-![[attachments/shattered-sea/portraits/thunk-portrait.webp]]
+![[thunk-portrait.jpg]]
 > [!narration] Narration
 
 ## Current situation

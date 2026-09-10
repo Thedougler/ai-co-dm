@@ -19,7 +19,7 @@ tags:
 source: "[[Aruhe - River]]"
 ---
 # Line Bank
-![[attachments/shattered-sea/places/aruhe-river-line-bank.png|Line Bank, three-pile fruiting margin and crude fishing line]]
+![[aruhe-river-line-bank.jpg|Line Bank, three-pile fruiting margin and crude fishing line]]
 ## Overview
 > [!narration] Narration
 > The river runs bright turquoise against this narrow strip of wet sand, with pale stone showing through the current and tall gold-green grass crowding the bank. Three fruiting bushes stand along the margin like someone used them as stopping points, their branches heavy with tawny globes while split rinds and whole fallen fruit lie under the roots. Near the water, a rough wooden pole is lashed over a short frame, one thin line still dangling into the current. Fish bones, silver scales, and broken sticks scatter across the sand below it. Sweet rot rises from the fruit piles, the water smells cool off the stones, and far up the green valley a thread of smoke lifts above the trees.
@@ -77,5 +77,5 @@ Line Bank is a used fruiting margin of [[Aruhe - River]] inside [[Aruhe - Grassl
 ---
 ## Art
 
-- ![[attachments/shattered-sea/places/aruhe-river-line-bank.png|Line Bank identity image]]
+- ![[aruhe-river-line-bank.jpg|Line Bank identity image]]
 - The Line Bank image is the distinct identity art for this subregion: three fruit stops on one wet margin, a crude fishing line in the current, fish remains on the sand, high grass, tight jungle edge, and smoke upriver.

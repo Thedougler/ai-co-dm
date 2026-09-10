@@ -12,7 +12,7 @@ tags: [location]
 
 ## Map
 
-![[attachments/shattered-sea/shattered-sea-overview-map.webp|Shattered Sea overview map]]
+![[shattered-sea-overview-map.jpg|Shattered Sea overview map]]
 
 
 ## At a glance

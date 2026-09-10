@@ -15,7 +15,7 @@ tags:
 source: "[[Aruhe - Hungry Isle]]"
 ---
 # Grasslands
-![[attachments/shattered-sea/places/aruhe-the-grasslands.jpeg|Grasslands, river-cut valleys of gold-green grass]]
+![[aruhe-the-grasslands.jpg|Grasslands, river-cut valleys of gold-green grass]]
 ## Overview
 > [!narration] Narration
 > Clear water winds through the grasslands in channels a body can follow, with muddy bends low enough to kneel at the bank. Gold-green grass rises higher than a person on both banks, bent flat where feet and water have worked the ground, then standing thick again as the valley climbs toward the dark jungle rim. Sunlight comes down in bright shafts through the open cuts of sky, flashing on wet stones and pale seed heads while warm water-smell and bird calls carry along the stream. Redheart berries shine at the bends, and heavy giant's guavas show above the grass where the channels enter the jungle rim.
@@ -85,4 +85,4 @@ The Grasslands are river-cut valleys inside Aruhe's jungle, not a sixth concentr
 
 ---
 ## Art
-![[attachments/shattered-sea/battlemaps/aruhe-grasslands-day.png|Grasslands battlemap, river cuts and tall grass]]
+![[aruhe-grasslands-day.jpg|Grasslands battlemap, river cuts and tall grass]]

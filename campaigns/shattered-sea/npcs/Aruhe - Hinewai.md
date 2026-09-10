@@ -26,7 +26,7 @@ source: "house (Monster-Brewer; legacy Fantasy Statblock import; Hinewai/Death B
 
 *The Woman in the Woods*
 
-![[attachments/shattered-sea/portraits/hinewai-moonlit-harp.png|Hinewai playing harp in the moonlit jungle]]
+![[hinewai-moonlit-harp.jpg|Hinewai playing harp in the moonlit jungle]]
 
 > [!narration] Hinewai
 > Hinewai stands at the edge of the jungle like a woman grown from it: long black hair frames her pointed ears and cold blue eyes, while thin luminous lines branch across her face, neck, chest, and arms. Sharp teeth show between parted lips. Vines, broad leaves, and small white and tan flowers wrap her in a living dress, its roots and foliage trailing down her body.

@@ -83,4 +83,4 @@ reactions:
 **Aftermath.** A Bloodhawk strike leaves torn feathers, falling blood, cracked branches, dropped nest fiber from high canopy, a stinking wound that will not close until treated, and sometimes a carcass placed where no ground trail reaches it.
 
 ## Art 
-![[attachments/shattered-sea/creatures/bloodhawk-token.png|Bloodhawk FoundryVTT token]]
+![[bloodhawk-token.jpg|Bloodhawk FoundryVTT token]]

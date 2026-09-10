@@ -9,7 +9,7 @@ visibility: dm
 tags: [npc, waveservant, umberlee, calveno]
 ---
 # Umberlee - Branca
-![[attachments/shattered-sea/portraits/branca-portrait.webp]]
+![[attachments/shattered-sea/portraits/branca-portrait.jpg]]
 
 > [!narration] Narration
 > _Visualizer: Umberlee ingest pending._

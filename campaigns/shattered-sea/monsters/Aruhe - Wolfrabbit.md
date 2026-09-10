@@ -9,7 +9,7 @@ visibility: dm
 tags: [monster, aruhe]
 ---
 # Wolfrabbit
-![[attachments/shattered-sea/creatures/wolfrabbit-of-aruhe.png|Wolfrabbit of Aruhe]]
+![[wolfrabbit-of-aruhe.jpg|Wolfrabbit of Aruhe]]
 
 > [!narration] Narration
 > A dark-striped hunting cat crouches over the boat, its enormous ears pricked above a broad, furred head. Red eyes track you through the terrace brush, a twitching nose wet with saliva and hooked claws gripping the rim. Wolf-sized and built to spring, it can cross the gap before the boat clears the bank.

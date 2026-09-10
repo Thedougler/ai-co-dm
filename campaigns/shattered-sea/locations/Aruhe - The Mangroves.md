@@ -16,7 +16,7 @@ tags:
 source: "[[Aruhe - Hungry Isle]]"
 ---
 # The Mangroves
-![[attachments/shattered-sea/places/aruhe-the-mangroves.jpeg|The Mangroves, impenetrable tidal forest of roots and black water]]
+![[aruhe-the-mangroves.jpg|The Mangroves, impenetrable tidal forest of roots and black water]]
 ## Overview
 > [!narration] Narration
 > The forest stops touching the ground long before it reaches the sea. Mangrove trunks stand packed together in black water, their roots descending in cages, arches, spears, and tangled walls until there is scarcely enough open space to put a foot between them. The canopy seals overhead and turns daylight green. Ghost plums hang beneath the wet leaves in the fresher pockets, while almost-black rotheart clusters cling to old vinewood above the dark channels. Salt, mud, flowers, decay, and stagnant water hang together in the heat while insects crawl over bark and rise in clouds wherever something warm moves. Far beyond the roots comes the dull sound of surf, close enough to hear and completely unreachable.

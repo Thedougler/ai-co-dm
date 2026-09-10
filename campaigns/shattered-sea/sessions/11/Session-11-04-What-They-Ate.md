@@ -11,7 +11,7 @@ summary: Development on Line Bank. Fallen fruit and fish remains with blood only
 ---
 # Session 11 — What they ate
 
-![[attachments/shattered-sea/places/aruhe-river-line-bank.png|Line Bank, three-pile fruiting margin and crude fishing line]]
+![[aruhe-river-line-bank.jpg|Line Bank, three-pile fruiting margin and crude fishing line]]
 
 ## Scene ends when
 
@@ -51,7 +51,7 @@ The group ahead has been living off fruit already down on this bank, and off fis
 
 **Clue 2.** Optional **Wisdom (Perception) — `DC 27`** only if they ask who that flyer is. [[Talon Skarn]] is that man-sized flyer up-sun, then gone. The check is not prompted.
 
-![[attachments/shattered-sea/items/aruhe-redheart-berry.png|Redheart Berry]]
+![[aruhe-redheart-berry.jpg|Redheart Berry]]
 
 > [!narration] Initial Narration
 > You see three fruiting bushes standing in reach along this wet margin, tawny orange globes still heavy on the living wood. Whole fruit and split skins heap at the roots: tawny orange ten feet toward the water, pale green twenty feet south along this bank, and a darker heap twenty-five feet west toward the jungle wall. The dirt under what has already fallen is clean. Dark red mud packs only around the living roots, where snapped stems hang over fruit still on the branch.
@@ -119,4 +119,4 @@ The party follows the north prints toward the smoke. [[Aruhe - River Slack Basin
 
 ## Battlemap
 
-![[attachments/shattered-sea/battlemaps/session-11-04-what-they-ate-base.png|Session 11-04 What They Ate battlemap]]
+![[session-11-04-what-they-ate-base.jpg|Session 11-04 What They Ate battlemap]]

@@ -19,7 +19,7 @@ tags:
 source: "[[Aruhe - Quiet Forest]]"
 ---
 # Spoke Ring
-![[attachments/shattered-sea/places/aruhe-spoke-ring.png|Spoke Ring, radial fire hub under Quiet leaves]]
+![[aruhe-spoke-ring.jpg|Spoke Ring, radial fire hub under Quiet leaves]]
 ## Overview
 > [!narration] Narration
 > Packed dirt holds a round hub under Quiet leaves, wide enough for a fire, with narrow trails cutting away through buttress-root trunks like spokes from a ring of river stones. Stonepears hang above it in grey-green scales, heavy enough to bow the mossed branches; fallen fruit sits beside the coals as if it were placed there. South, one spoke opens onto a hot slice of gold-green grass. West, another drops through hanging roots to a strip of clear water, close enough to hear but not wide enough to make this a river camp. North, the spokes darken under leaves where the smoke cannot rise and every small grassland sound stops at the mouths of the trails.
@@ -78,5 +78,5 @@ Spoke Ring is the first Quiet hub north of [[Aruhe - Grasslands - Print Braid|Pr
 ---
 ## Art
 
-- ![[attachments/shattered-sea/battlemaps/aruhe-spoke-ring-battlemap.png|Spoke Ring battlemap, radial fire hub under Quiet leaves]]
+- ![[aruhe-spoke-ring-battlemap.jpg|Spoke Ring battlemap, radial fire hub under Quiet leaves]]
 - The battlemap owns this stretch: top is north, right is east, bottom is south, and left is west. The fire ring sits at the hub. South is the grassland mouth back to Print Braid. West is the river root-cut. North is [[Aruhe - Quiet Forest Star Cut|Star Cut]].

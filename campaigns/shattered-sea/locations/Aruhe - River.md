@@ -15,7 +15,7 @@ tags:
 source: "[[Aruhe - Hungry Isle]]"
 ---
 # The River
-![[attachments/shattered-sea/places/aruhe-the-river.jpeg|The River, clear channels braiding through Aruhe]]
+![[aruhe-the-river.jpg|The River, clear channels braiding through Aruhe]]
 ## Overview
 > [!narration] Narration
 > Clear green water braids through Aruhe in channels wide enough to follow, shallow at the pale limestone shelves and darker where the pools drop away. Submerged grass bends with the current, silver fish flash between the blades, and roots hang from the jungle bank like wet ropes over the water. Redheart berries brighten the grassland bank at the water's edge, while ghost plums hang in the dripping roots on the jungle side. The river smells of cool stone, dawn mist, and animal musk, and even the quiet places keep the sound of moving water close.
@@ -92,4 +92,4 @@ The rivers draining [[Aruhe - Clear Lake]] braid through Aruhe and cut across th
 
 ---
 ## Art
-![[attachments/shattered-sea/battlemaps/aruhe-river-day.png|River battlemap, limestone shelves and braided channels]]
+![[aruhe-river-day.jpg|River battlemap, limestone shelves and braided channels]]

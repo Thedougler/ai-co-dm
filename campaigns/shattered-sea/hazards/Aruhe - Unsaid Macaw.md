@@ -8,7 +8,7 @@ visibility: dm
 tags: [hazard, aruhe, fauna]
 ---
 
-![[attachments/shattered-sea/hazards/aruhe-unsaid-macaw.png]]
+![[aruhe-unsaid-macaw.jpg]]
 
 > [!narration] Narration
 > Healthy macaws perch along orchard branches and lake margins, bright-eyed and loud among fruit, nuts, and shellfish banks. Red feathers cover the head and chest, with yellow and blue wings folded over a long tail, and the pale face is lined around a heavy hooked beak. A single bird can speak in a listener's own voice, repeating words that were almost said. In a flock, those borrowed phrases pass from bird to bird until later speech is hard to tell from old flock-talk.

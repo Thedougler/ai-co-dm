@@ -19,7 +19,7 @@ tags:
 source: "[[Aruhe - Quiet Forest]]"
 ---
 # Star Cut
-![[attachments/shattered-sea/places/aruhe-star-cut.png|Star Cut, night-watch aisle under a slit of stars]]
+![[aruhe-star-cut.jpg|Star Cut, night-watch aisle under a slit of stars]]
 ## Overview
 > [!narration] Narration
 > Packed dirt runs straight under the Quiet leaves, an aisle of wet black earth aimed at a narrow split of stars in the canopy. The fire does not sit in the road; it glows off to the east in a low ring of stones, with clay bowls catching ember light beside it. West of the aisle, sleeping rolls press against the jungle wall beneath heavy pink-gold guavas, some still ribbed on the branch and some already down in the leaf litter. The trees stand close enough to touch on both sides, and beyond the west roots a thin river talks under the drip from the leaves.
@@ -84,8 +84,8 @@ Star Cut is the night-watch aisle north of [[Aruhe - Quiet Forest Spoke Ring|Spo
 ---
 ## Art
 
-![[attachments/shattered-sea/places/aruhe-star-cut.png|Star Cut identity image]]
-![[attachments/shattered-sea/battlemaps/aruhe-star-cut-battlemap.png|Star Cut Foundry battlemap, north-south night aisle, east fire, west rolls and guavas]]
-![[attachments/shattered-sea/battlemaps/session-11-09-theft-on-the-watch-base.png|Session 11-09 watch battlemap, north-south night aisle, east fire, west rolls and guavas, star-cut of sky]]
+![[aruhe-star-cut.jpg|Star Cut identity image]]
+![[aruhe-star-cut-battlemap.jpg|Star Cut Foundry battlemap, north-south night aisle, east fire, west rolls and guavas]]
+![[session-11-09-theft-on-the-watch-base.jpg|Session 11-09 watch battlemap, north-south night aisle, east fire, west rolls and guavas, star-cut of sky]]
 - The identity image owns the public first look: a straight wet dirt aisle under Quiet leaves, the narrow star slit at the north mouth, warm coals offset east, west-wall sleeping rolls, pink-gold guavas, close jungle walls, and river sound through the west roots.
 - The Foundry battlemap owns this stretch for table play: top is north, right is east, bottom is south, and left is west. The star-cut is the north mouth. The stone fire sits east of the aisle. West holds sleeping rolls and fallen guavas. South is the packed return toward Spoke Ring. Use `25x45` squares in Foundry, with no baked grid.

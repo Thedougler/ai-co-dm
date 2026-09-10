@@ -15,7 +15,7 @@ source: "house (NPC-Designer; legacy Hierarch chassis adapted 2026-09-08)"
 
 *The Wine-Dark Shepherd*
 
-![[attachments/shattered-sea/portraits/shepherd-grigori-portrait.png|Shepherd Grigori in a red-and-gold coat with wine and crimson wrist-light]]
+![[shepherd-grigori-portrait.jpg|Shepherd Grigori in a red-and-gold coat with wine and crimson wrist-light]]
 
 > [!narration] Shepherd Grigori
 > Shepherd Grigori is tall, lean, and ship-hard, with dark hair, a wild beard, and a red-and-gold coat that looks too fine for the places he keeps turning up. A glass of wine is usually close to one hand, and when he offers the other, his skin is cold. He speaks softly and precisely, the sort of man who can make a galley table feel like a private chapel, and when he heals, red light gathers at his wrist without a prayer or a flourish.

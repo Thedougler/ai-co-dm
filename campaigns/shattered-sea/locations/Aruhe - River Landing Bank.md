@@ -16,7 +16,7 @@ tags:
 source: "[[Aruhe - River]]"
 ---
 # Landing Bank
-![[attachments/shattered-sea/battlemaps/session-11-02-landing-sign-base.png|Landing Bank, first river-cut grass mouth after the terraces]]
+![[session-11-02-landing-sign-base.jpg|Landing Bank, first river-cut grass mouth after the terraces]]
 ## Overview
 > [!narration] Narration
 > Clear turquoise water runs the east side of a gold-green bank, pale stone showing under the current where submerged blades bend with the flow. Grass stands higher than a person, and a double muddy track of crushed stems cuts north up the bank. Fifteen feet west of the water a ring of stones holds grey ash beside a closed wooden crate, orange whole fruit, split skins, and a couple of bowls. Glossy red berries hang on short thick stems at the wet margin, water beading on ridged skin. Twenty feet west of the prints, mossy terrace walls and stacked garden stone rise out of the trees. The river knocks against the bank, and the burst skins smell sharp and sweet in the dirt.
@@ -73,4 +73,4 @@ Landing Bank is the first grassland mouth of [[Aruhe - River]] after [[Aruhe - O
 
 ---
 ## Art
-![[attachments/shattered-sea/battlemaps/session-11-02-landing-sign-base.png|Landing Bank battlemap, prints, fire scrape, and river mouth]]
+![[session-11-02-landing-sign-base.jpg|Landing Bank battlemap, prints, fire scrape, and river mouth]]

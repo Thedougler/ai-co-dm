@@ -9,7 +9,7 @@ visibility: dm
 tags: [monster, aruhe]
 ---
 # Aruhe River Otter
-![[attachments/shattered-sea/creatures/aruhe-river-otter-of-aruhe.png|Aruhe River Otter]]
+![[aruhe-river-otter-of-aruhe.jpg|Aruhe River Otter]]
 
 > [!narration] Narration
 > Twelve-foot chocolate-black river otters work the Long Reach and clear lake in blood-kin families, their pale throat marks as distinct as fingerprints. They roll through the shallows with rope, oars, ankles, or a dead deerstalker's head as if every loose thing in the water has joined their game. The water stays glass-clear around them, and the whole family goes still when play becomes a hunt.

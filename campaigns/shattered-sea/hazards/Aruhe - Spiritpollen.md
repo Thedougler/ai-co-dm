@@ -6,7 +6,7 @@ status: provisional
 visibility: dm
 tags: [hazard, aruhe, flora]
 ---
-![[attachments/shattered-sea/hazards/aruhe-spiritpollen.png]]
+![[aruhe-spiritpollen.jpg]]
 
 > [!narration] Narration
 > A pale stand of white flowers rises out of the green, each bloom set among round pollen sacs swollen tight as blisters. The sacs are thin and almost see-through, with pale veins under their skin and yellow dust caught in the flowers around them. Old claw marks, weapon cuts, and black scorch rings scar the grass and mud at the edge of the stand. The plants themselves remain untouched, and a faint powder hangs over the nearest flowers whenever the stalks stir.

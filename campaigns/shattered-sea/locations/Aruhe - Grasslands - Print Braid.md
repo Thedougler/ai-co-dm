@@ -17,7 +17,7 @@ tags:
 source: "[[Aruhe - Grasslands]]"
 ---
 # Print Braid
-![[attachments/shattered-sea/places/aruhe-grasslands-print-braid.png|Print Braid, packed dirt strands through tall Aruhe grass beside river cobbles and fruiting jungle forks]]
+![[aruhe-grasslands-print-braid.jpg|Print Braid, packed dirt strands through tall Aruhe grass beside river cobbles and fruiting jungle forks]]
 ## Overview
 > [!narration] Narration
 > A packed dirt path crosses the tall gold-green grass, with one hard strand printed deep enough to follow and thinner strands peeling away on both sides. To the southwest, turquoise river water runs over pale stone beside a ring of wet cobbles. To the east, dark jungle forks open under hanging roots, pink-gold guavas bend over the grass, and pale oval fruit hangs back under wet leaves. Seed heads rasp in the open sky above the trail, the river keeps talking below it, and each wood fork takes the small grass-sounds as soon as the path enters shade.
@@ -77,7 +77,7 @@ Print Braid is a forest-edge stretch of [[Aruhe - Grasslands]], north of [[Aruhe
 ---
 ## Art
 
-- ![[attachments/shattered-sea/places/aruhe-grasslands-print-braid.png|Print Braid identity image]]
-- ![[attachments/shattered-sea/battlemaps/session-11-07-false-help-base.png|Print Braid battlemap, packed inland strand through grass, wood forks, and river cobbles]]
+- ![[aruhe-grasslands-print-braid.jpg|Print Braid identity image]]
+- ![[session-11-07-false-help-base.jpg|Print Braid battlemap, packed inland strand through grass, wood forks, and river cobbles]]
 - The identity image owns the public first look: a packed dirt braid through eight-foot gold-green grass, one hard inland print strand, side paths to dark fruiting wood, pink-gold guava over the trail, pale ghost plums under wet leaves, and a cold cobble ring beside free-flowing river water.
 - The battlemap owns this stretch: top is north, right is east, bottom is south, and left is west. The river sits southwest. The open grass sits northeast. The packed inland strand runs north along the jungle wall.

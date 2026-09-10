@@ -11,7 +11,7 @@ tags: [npc, sentinel, schism]
 # Master Kyzil
 
 ## Art
-![[attachments/shattered-sea/portraits/master-kyzil-portrait.webp]]
+![[master-kyzil-portrait.jpg]]
 
 > [!narration] Narration
 > A barn-owl Sentinel with pale gold feathers the color of dry straw. He smooths his robes, then refolds his wings right-over-left without noticing. Questions come before orders, exact and controlled.

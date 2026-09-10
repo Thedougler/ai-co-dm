@@ -14,7 +14,7 @@ tags:
 source: "[[Aruhe - Hungry Isle]]"
 ---
 # Lava Tubes
-![[attachments/shattered-sea/places/aruhe-the-lava-tubes.jpeg|Lava Tubes, broad basalt passages beneath Aruhe]]
+![[aruhe-the-lava-tubes.jpg|Lava Tubes, broad basalt passages beneath Aruhe]]
 ## Overview
 > [!narration] Narration
 > The lava tubes under Aruhe open as broad black basalt passages, high enough for old roots to hang through breaks in the ceiling and trail down toward the stone. Shallow water gathers across the uneven floor in dark pools and cave seepage, with loose rock underfoot and a tunnel mouth continuing into deeper shadow. Warm mineral air moves out of the vents in pale breaths, carrying the sound of drips and small echoes along the walls. Near the roof breaks, ghost plums hang beneath wet roots, while stonepears sit heavy on branches forcing through cracks beside the seepage.
@@ -86,4 +86,4 @@ The Lava Tubes are the underworld beneath Aruhe's living surface: old volcanic p
 
 ---
 ## Art
-![[attachments/shattered-sea/battlemaps/aruhe-lava-tubes-day.png|Lava Tubes battlemap, basalt passages and root-lit vents]]
+![[aruhe-lava-tubes-day.jpg|Lava Tubes battlemap, basalt passages and root-lit vents]]

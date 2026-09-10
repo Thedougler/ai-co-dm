@@ -7,7 +7,7 @@ visibility: dm
 tags: [hazard, aruhe, flora]
 ---
 
-![[attachments/shattered-sea/hazards/aruhe-black-lotus.png]]
+![[aruhe-black-lotus.jpg]]
 
 > [!narration] Narration
 > A flower the size of a low table spreads out of the wet Aruhe growth, its black petals broad enough to cover the ground and curl over the moss at their edges. Rain beads on the slick surfaces, and thin violet veins glow up through them toward a tight crown of dark filaments in the center. Under the lowest petals, old ribs and finger bones show through the greenery beside patches of scorched plants; when nearby magic stirs, the bloom slowly leans toward it.

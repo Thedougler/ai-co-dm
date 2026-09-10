@@ -6,7 +6,7 @@ status: provisional
 visibility: dm
 tags: [hazard, aruhe, flora]
 ---
-![[attachments/shattered-sea/hazards/aruhe-razer-grass.png]]
+![[aruhe-razer-grass.jpg]]
 
 > [!narration] Narration
 > A stand of pale white grass grows in a hard patch among the green blades, each stalk broad and clear-edged like thin glass. Sunlight catches on fixed points along the leaves, bright enough that from farther off the patch could pass for dew or frost. The path beside it bends around the stand instead of through it, and old reddish smears mark a few lower stalks. When the surrounding grass moves, these white blades barely give, ticking against each other with a small glass sound.

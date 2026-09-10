@@ -7,7 +7,7 @@ visibility: dm
 tags: [hazard, aruhe, flora]
 ---
 
-![[attachments/shattered-sea/hazards/aruhe-lesser-black-lotus.png]]
+![[aruhe-lesser-black-lotus.jpg]]
 
 > [!narration] Narration
 > A smaller scorched black flower leans out of the wet terrace growth, its dark petals curled open above moss and slick green leaves. Ember-red lines glow through the petal veins and gather around the cup of stamens at the center. The air just above the bloom trembles with heat. When the petals shift, tiny sparks crawl along the black edges and wink out against the damp around it.

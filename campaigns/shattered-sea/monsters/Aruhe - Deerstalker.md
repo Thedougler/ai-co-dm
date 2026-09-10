@@ -11,7 +11,7 @@ tags: [monster, aruhe]
 
 # Deer-Stalker
 
-![[attachments/shattered-sea/creatures/deer-stalker-of-aruhe.png|Deer-Stalker of Aruhe]]
+![[deer-stalker-of-aruhe.jpg|Deer-Stalker of Aruhe]]
 
 > [!narration] Narration
 > The Deer-Stalker is a tall, starving deer dragged almost upright by overlong forelimbs, with thin hind legs tucked beneath a shaggy brown hide. Bone-pale arms hang past its knees and end in black claws, often dark with blood up to the wrists. Its antlers branch above a long white face, and pale forward eyes stare over a wet muzzle while blood and spit thread from its teeth into the leaf rot.

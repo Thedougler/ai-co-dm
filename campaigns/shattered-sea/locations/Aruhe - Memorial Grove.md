@@ -18,7 +18,7 @@ tags:
 source: "[[Aruhe - Hungry Isle]]"
 ---
 # Memorial Grove
-![[attachments/shattered-sea/places/aruhe-the-grove.jpeg|Memorial Grove, a fruit tree and two graves held in a dark forest clearing]]
+![[aruhe-the-grove.jpg|Memorial Grove, a fruit tree and two graves held in a dark forest clearing]]
 ## Overview
 > [!narration] Narration
 > Memorial Grove is a round clearing held inside the dark forest, about a long bowshot across, with the trees pressed back from a ring of black flowers. In the middle, a single fruit tree stands over two low unmarked graves. Redheart berries cluster on the lower branches, giant's guavas hang above them, and fallen fruit rests in grass too green for the dark soil. The air smells sweet and rotten without turning sour, and the clearing stays still enough that no branch or blade moves in wind. The flower ring leaves open ground all the way around the tree, with room to walk, kneel at the graves, or keep to the edge without touching the memorial.
@@ -101,4 +101,4 @@ The Grove does not explode when the Bloom is ruined. The first signs are biologi
 
 ---
 ## Art
-![[attachments/shattered-sea/battlemaps/aruhe-memorial-grove-day.png|Aruhe Memorial Grove battlemap, black-flower ring around the fruit tree and two graves]]
+![[aruhe-memorial-grove-day.jpg|Aruhe Memorial Grove battlemap, black-flower ring around the fruit tree and two graves]]

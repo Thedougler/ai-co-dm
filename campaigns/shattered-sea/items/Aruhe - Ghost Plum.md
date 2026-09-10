@@ -11,7 +11,7 @@ tags: [item, aruhe, consumable]
 ---
 # Ghost Plum
 
-![[attachments/shattered-sea/items/aruhe-ghost-plum.png]]
+![[aruhe-ghost-plum.jpg]]
 
 > [!narration] Narration
 > A ghost plum is an oval fruit bigger than a hand, hanging heavy from a mossy branch under broad wet leaves. Its skin borrows the colors around and behind it, giving it a hard to place silhouette. Pale pollen drifts from the stem and settles over the curve, catching on a thin shimmer that gives away the fruit's edge before it loses itself again.

@@ -47,7 +47,7 @@ Raid survivors already used this bank and walked north upriver toward the smoke.
 - `DC 10` → The red berries are edible, not poison.
 - `DC 15` or *Identify* → Eating a fallen [[Aruhe - Redheart Berry]] is a Bonus Action and regains `8d4 + 8` hit points.
 
-![[attachments/shattered-sea/items/aruhe-redheart-berry.png|Redheart Berry]]
+![[aruhe-redheart-berry.jpg|Redheart Berry]]
 
 > [!narration] Initial Narration
 > You see a crushed corridor of gold-green stems around you, and you feel mud sucking at a double line of footprints that still hold water. Those prints run sixty feet north up this bank and keep going. East, clear river water pulls against this bank at once. You see pale rock under the current, and the flow folds the underwater grass against your calves.
@@ -109,4 +109,4 @@ The party follows the north prints toward the smoke onto [[Aruhe - Grasslands To
 
 ## Battlemap
 
-![[attachments/shattered-sea/battlemaps/session-11-02-landing-sign-base.png|Session 11-02 Landing Sign battlemap]]
+![[session-11-02-landing-sign-base.jpg|Session 11-02 Landing Sign battlemap]]

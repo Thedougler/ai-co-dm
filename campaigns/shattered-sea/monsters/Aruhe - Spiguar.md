@@ -9,7 +9,7 @@ visibility: dm
 tags: [monster, aruhe, grasslands]
 ---
 # Spiguar
-![[attachments/shattered-sea/creatures/spiguar-of-aruhe.png|Spiguar of Aruhe]]
+![[spiguar-of-aruhe.jpg|Spiguar of Aruhe]]
 ## Statblock
 
 ```statblock
