@@ -364,12 +364,14 @@ Follow skill `agentic-system-designer` (Intake → Baseline → Fix → Prove �
 **Additional example:** "You see wet river stones ringing live coals in the middle of a round clearing. You feel heat off those stones, and you smell woodsmoke under the leaves. Four woven mats sit about ten feet out. Heavy pear-shaped fruit hangs from the mossy branches, grey-green plates chipped pale, and more of that fruit already sits by the coals."
 **Additional example:** "West, you hear water through hanging roots. North, packed trails go darker between the big roots. A branch moves that way. The people who want the garden look into the trees and stop talking."
 **Additional example:** "You hear a whisper from the packed trail twenty feet north of this fire: come admire her garden, this way, leave the living plants. The same words come again, stretched, from that darker wood. You see no matching feet on that dirt. Nothing shows with them."
+**Additional example:** "Night has this fire."
+**Additional example:** "ou see the same river-stone coals still burning on this packed dirt. Night has this fire. Smoke still pools into the leaf roof, and no stars show through those leaves. Heat comes off the stones. The people in this light keep the garden words going, worse now: admire her garden, this way, do not take the living plants. Some look north whenever a branch moves."
 
 **Correction:** _Not stated._
 
 **Read:** `AGENTS.md`; `user-corrections.md`; `skill://agentic-system-designer`; `skill://obsidian-markdown`
 
-**count:** 13
+**count:** 15
 
 **status:** open
 
