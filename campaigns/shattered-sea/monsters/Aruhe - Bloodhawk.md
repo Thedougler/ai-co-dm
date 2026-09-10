@@ -15,7 +15,7 @@ tags: [monster, aruhe]
 ```col-md
 flexGrow=3
 ===
-![[attachments/shattered-sea/creatures/bloodhawk-of-aruhe.jpg|Bloodhawk of Aruhe]]
+![[attachments/shattered-sea/creatures/bloodhawk-of-aruhe-portrait.png|Bloodhawk of Aruhe]]
 > [!narration] Narration
 > The Bloodhawk of Aruhe is an ordinary hawk made enormous, with charcoal feathers, a ragged red crest, and crimson flight feathers spread across an eighty-foot shadow. Four broad wings hold it in the air while a pale hooked beak and boat-long talons do the close work. It circles without calling, and when the wings fold, the red-black body becomes a falling shape before the wind reaches the ground.
 ```
