@@ -360,12 +360,13 @@ Follow skill `agentic-system-designer` (Intake → Baseline → Fix → Prove �
 **Additional example:** "You see three wolf-sized hunters already mid-leap down this flood-torn corridor at torso height, long ears laid back, hooked black claws open. Dark stripes run the tan-brown hides. A torn left ear, a white blaze down a muzzle, and a kinked tail mark the three as they come. Spit trails from wet muzzles."
 **Additional example:** "You see three fruiting bushes standing in reach along this wet margin, tawny orange globes still heavy on the living wood. Whole fruit and split skins heap at the roots: tawny orange ten feet toward the water, pale green twenty feet south along this bank, and a darker heap twenty-five feet west toward the jungle wall. The dirt under what has already fallen is clean. Dark red mud packs only around the living roots, where snapped stems hang over fruit still on the branch."
 **Additional example:** "You smell the split skins where they have gone sharp and sweet. You hear water pulling at the line, and you feel the wet sand sucking at the prints underfoot."
+**Additional example:** "You leave the fruiting margin on the north prints, following the crushed corridor toward the smoke. Stems rasp at your legs,"
 
 **Correction:** _Not stated._
 
 **Read:** `AGENTS.md`; `user-corrections.md`; `skill://agentic-system-designer`; `skill://obsidian-markdown`
 
-**count:** 9
+**count:** 10
 
 **status:** open
 
