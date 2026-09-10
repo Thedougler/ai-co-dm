@@ -10,7 +10,7 @@ cssclasses: [session-surface]
 ---
 # Session 11 — Night watch
 
-![[attachments/shattered-sea/places/aruhe-spoke-ring.png|Spoke Ring, radial fire hub under Quiet leaves]]
+![[aruhe-spoke-ring.jpg|Spoke Ring, radial fire hub under Quiet leaves]]
 
 ## Scene ends when
 
@@ -43,8 +43,6 @@ The party is on the packed dirt hub of [[Aruhe - Quiet Forest Spoke Ring]]. Nigh
 **[[Talon Skarn]] wants the carrier on a thin watch.** He does not appear on this card. The sun is gone.
 
 **[[Aruhe - Deerstalker]] waits for another split.** It does not appear on this card. It does not appear on [[Session-11-09-Theft-on-the-Watch]].
-
-**[[Aruhe - Hinewai]] is not standing at this fire.** Garden talk still points north.
 
 **Garden mouths.** Unnamed. They listened. They want the garden. Sample: "She asked us to come admire her garden. This way. Leave the living plants."
 
@@ -140,4 +138,4 @@ The people at this fire stay unnamed.
 
 ## Battlemap
 
-![[attachments/shattered-sea/battlemaps/aruhe-spoke-ring-battlemap.png|Spoke Ring battlemap, radial fire hub under Quiet leaves]]
+![[aruhe-spoke-ring-battlemap.jpg|Spoke Ring battlemap, radial fire hub under Quiet leaves]]

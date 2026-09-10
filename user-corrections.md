@@ -1,5 +1,5 @@
 ---
-summary: Nick's correction log. Writers append on #ERROR; ASD drains. Open: over-scoped `.agent` typo; scenery shorthand; TotM poetry; wound used as a person-handle.
+summary: Nick's correction log. Writers append on #ERROR; ASD drains. Open: over-scoped `.agent` typo; scenery shorthand; TotM poetry; wound used as a person-handle; useless non-info.
 ---
 
 # User corrections
@@ -299,6 +299,18 @@ Follow skill `agentic-system-designer` (Intake → Baseline → Fix → Prove �
 **Correction:** Use ordinary human words for a person: the man, that person, he. After he introduces himself when the party rescues him, use his name. Do not use a wound, garment, or other feature as if it were a name.
 
 **Read:** `campaigns/shattered-sea/sessions/11/Session-11-05-Otter-Hole.md`; `campaigns/shattered-sea/sessions/11/Session-11-06-Farthest-Camp.md`; `campaigns/shattered-sea/sessions/11/Session-11-07-False-Help.md`; `campaigns/shattered-sea/npcs/Matteo Scola.md`; `.agents/skills/copy-writer/SKILL.md`; `.agents/skills/theatre-of-the-mind/SKILL.md`; `.agents/skills/obsidian-markdown/SKILL.md`; `lexicon/House tone.md`; `user-corrections.md`
+
+**count:** 1
+
+**status:** open
+
+### 2026-09-09 — Useless non-info on the card
+
+**Error:** Wrote this on a session card as if it were usable information: "**[[Aruhe - Hinewai]] is not standing at this fire.** The woman in their mouths is her. Her name, the graves, and how far the garden is stay unknown."
+
+**Correction:** Do not write useless non-info. Do not tell the DM that someone is not present, that a name or distance stays unknown, or that "the woman in their mouths is her." If a line does not change a choice, ruling, risk, or words to speak, do not write it.
+
+**Read:** `campaigns/shattered-sea/sessions/11/Session-11-06-Farthest-Camp.md`; `campaigns/shattered-sea/sessions/11/Session-11-07-False-Help.md`; `campaigns/shattered-sea/sessions/11/Session-11-08-Night-Watch.md`; `user-corrections.md`
 
 **count:** 1
 

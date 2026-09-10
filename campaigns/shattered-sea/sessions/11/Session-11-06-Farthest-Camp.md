@@ -43,7 +43,7 @@ The party is on the packed dirt hub of [[Aruhe - Quiet Forest Spoke Ring]] at la
 
 **Ship mouths.** They are unnamed. They call the listeners mad. They watch the south grass more than the north trails. They talk over the invitation. Their voice is harder, still low. Sample: "She is leading you into danger. Anyone who listens is mad."
 
-**[[Aruhe - Hinewai]] is not standing at this fire.** The woman in their mouths is her. She is courteous to guests. She is drawing them inland toward [[Aruhe - Memorial Grove]], which is still far beyond tonight. They are not under a spell. They are caught on the invitation. Her name, the graves, and how far the garden is stay unknown.
+**[[Aruhe - Hinewai]].** She is courteous to guests. She is drawing them inland toward [[Aruhe - Memorial Grove]], which is still far beyond tonight. They are not under a spell. They are caught on the invitation.
 
 **The [[Aruhe - Deerstalker]] is already in the north spokes, listening.** It does not show.
 

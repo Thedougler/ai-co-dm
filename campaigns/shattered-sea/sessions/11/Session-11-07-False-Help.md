@@ -57,8 +57,6 @@ The party is on the packed dirt hub of [[Aruhe - Quiet Forest Spoke Ring]]. Nigh
 
 **[[Matteo Scola]].** If they pulled him at the hole and he could speak, the table has his name. If he is still **Unconscious**, call him the man until he wakes and says Matteo. He wants living people. He does not walk a north trail alone. If he was left in the hole, cut him from this card.
 
-**[[Aruhe - Hinewai]] is not standing at this fire.** The woman in their mouths is her. Her name, the graves, and how far the garden is stay unknown.
-
 ![[attachments/shattered-sea/creatures/deer-stalker-of-aruhe.jpg|Deer-Stalker of Aruhe]]
 
 > [!narration] Initial Narration
