@@ -138,17 +138,9 @@ If the party forced the beach, they are on the shingle. The hunt still crosses t
 
 ![[Aruhe - Bloodhawk#Statblock]]
 
-> [!narration] Bloodhawk
-> Over the last trees, the adult hawk is a falling charcoal body with four wings pinned tight and crimson feathers flashing on the black undersides. Its pale hook and boat-length talons open together toward the squid's purple bulk, and smaller charcoal hawks follow the same dive. Wind from that fall slaps the last leaves flat.
-
-![[attachments/shattered-sea/creatures/bloodhawk-of-aruhe.jpg|Bloodhawk of Aruhe]]
+---
 
 ![[Aruhe - Crown Squid#Statblock]]
-
-> [!narration] Great Crown Squid
-> The squid braces the last crowns, house-sized and clear, with pale violet light veining its swollen body. Bark-dark arms take separate trunks while thinner hooked lines hang through the leaves. An eye rolls inside that crown as the hawk's shadow crosses it.
-
-![[attachments/shattered-sea/creatures/great-crown-squid-of-aruhe-01.jpg|Great Crown Squid of Aruhe]]
 
 ## Backup
 
