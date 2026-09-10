@@ -46,11 +46,25 @@ Completion: a DM reading downward does not meet the same setup three times befor
 
 Three gates every line of production copy passes through. They apply to all vault text — DM-facing and player-facing, session beats and owner pages, glance and bank. A line that fails any gate gets rewritten in the same pass.
 
-**Hear it.** Read aloud. A listener pictures it on one hearing using ordinary human words — the common noun plus the visible difference. Refer to people by name after introduction, or as "the man," "the woman," by a known role. One drawable fact per sentence; break stacked sense-clauses apart. State what is there now. Concrete, specific scenery a person can see: "footprints pressed into mud" and "pebble beach," not shorthand that needs decoding.
+**Hear it.** Read aloud. A listener pictures it on one hearing using ordinary human words — the common noun plus the visible difference. Refer to people by name after introduction, or as "the man," "the woman," by a known role. One drawable fact per sentence; break stacked sense-clauses apart. State what is there now. Concrete, specific scenery a person can see: "footprints pressed into mud" and "pebble beach," not shorthand that needs decoding. Anchor unfamiliar scale to a body part or common object — "broader than doorways," "thumb-sized," "barrel past the forearm." Vary sentence openings across a page: three sentences starting with the same word is a list, not prose. Vary verbs: "sits," "keeps," "watches" paints three pictures; "is," "is," "is" files three cards.
 
-**Earn it.** Every line changes a choice, ruling, risk, resource, route, clock, NPC response, or words the DM will speak. Remove the line; if nothing changes at the table, the line was dead weight. Present characters, conditions, and warnings only when they affect play right now.
+**Earn it.** Every line changes a choice, ruling, risk, resource, route, clock, NPC response, or words the DM will speak. Remove the line; if nothing changes at the table, the line was dead weight. Present characters, conditions, and warnings only when they affect play right now. On a session beat, every line changes a DM action tonight. On an owner page, every line gives the DM something to improv from when this entity appears unplanned — a face to perform, a want to play, a fact to reveal, a relationship to tension. Both fail if the line is dead weight; the test question differs by surface.
 
-**Place it.** Each fact appears once, in the surface where the DM needs it. Conditional language in the conditional table. Narration describes the scene and stops; interaction is the DM's job. Dialogue the DM voices is speakable words — give speech, or give facts and let the DM improvise. Later encounters stay unforetold; narration shows this scene, not the next one.
+**Place it.** Each fact appears once, in the surface where the DM needs it. The surface determines the voice — see Register below. Conditional language in the conditional table. Narration describes the scene and stops; interaction is the DM's job. Dialogue the DM voices is speakable words — give speech, or give facts and let the DM improvise. Later encounters stay unforetold; narration shows this scene, not the next one.
+
+## Failure modes
+
+Named anti-patterns. A line that matches any pattern gets rewritten in the same pass. Before/after examples with vault exemplar pointers: [references/anti-patterns.md](references/anti-patterns.md).
+
+| Pattern | What it is | Self-check |
+|---|---|---|
+| **Role-description** | Names what the character does, not what they look like — job title and inventory instead of a drawable face | Could a sketch artist draw this person from what you wrote? |
+| **Encyclopedia entry** | Classifies the place by type or region instead of placing the reader in it | Swap the proper noun for another — does the sentence still work? |
+| **Thin owner** | Portrait misses material, wear, scale-vs-body, or a non-sight sense | Count the coverage dimensions — are any missing? |
+| **Telegram stub** | Isolated fragments that cannot be read aloud as connected prose | Read it aloud — does it flow as speech? |
+| **Scenic filler** | Atmosphere that changes no choice, ruling, risk, or improv handle | Remove the line — does anything change at the table? |
+| **Register drift** | Wrong voice for the surface (recap voice on an owner page, reference voice on a session beat) | Who reads this surface, when, and what do they need to do with it? |
+| **Stale placeholder** | "ingest pending," empty stubs, legacy fences left on a page the agent is touching | Is every block on this page filled or routed to a craft skill? |
 
 ## Hosts
 
@@ -67,7 +81,7 @@ Grok Bot packets that name **Visualizer** stay TotM-scoped unless the packet ask
 
 ## Workflow
 
-1. **Ground.** qmd the named entity. Read the owning note, the matching `templates/` page, and `lexicon/House tone.md`. For a run card, read the session skeleton, previous beat, and current card end-to-end before editing; summaries, snippets, truncated output, and range reads may help target the files but do not satisfy grounding. Preserve established canon. Missing stock → ask Nick, leave a stub, or route to the owning craft skill. Completion: every working file has been read end-to-end, and every fact in the draft is on the parent, in hot, or explicitly marked unknown.
+1. **Ground.** qmd the named entity. Read the owning note, the matching `templates/` page, and `lexicon/House tone.md`. For a run card, read the session skeleton, previous beat, and current card end-to-end before editing; summaries, snippets, truncated output, and range reads may help target the files but do not satisfy grounding. Preserve established canon. Missing stock → ask Nick, leave a stub, or route to the owning craft skill. When the file contains a stale placeholder ("ingest pending," legacy fence, empty `[!narration]` body), either write the missing copy from available canon or route to the owning craft skill for stock. Do not preserve the placeholder. Completion: every working file has been read end-to-end, every fact in the draft is on the parent, in hot, or explicitly marked unknown, and no stale placeholder survives on a touched page.
 
 2. **Choose band + surface.** At a Glance / At the table / bank / location Who–Why / `[!narration]` / handout. Load:
    - `obsidian-markdown` on every vault write (at-table scan: **bold** = look here / mechanical noun; `` `DC n` `` and dice = the number; → = what a mechanic produces; `[!narration]` = spoken)
@@ -78,7 +92,14 @@ Grok Bot packets that name **Visualizer** stay TotM-scoped unless the packet ask
 
 3. **Draft complete, then cut.** Cover the band's job first (see Bands). Then cut padding, not coverage. Kitchen-table nouns, concrete verbs, one fantastic signature. Completion: a DM can use the band without inventing a missing visible fact.
 
-4. **Table gate.** Read player-facing lines aloud when this pass has player-facing lines. At a Glance is usable in five seconds. At the table is findable in under 30 seconds (bold heads, **sequencing**). Checks and saves match the at-table grammar in `obsidian-markdown`. `Initial Narration` stops at the **reaction point** after *scene-setting* is complete (cover, routes, relative position, imminent action, drawable look, non-sight sense, then the question). Every titled stub on a run card is filled by pass 3. For a run card, load `run-guide`; its Table gate is the completion criterion. Completion: all of the above hold, or the draft is not done.
+4. **Table gate.** Read player-facing lines aloud when this pass has player-facing lines. At a Glance is usable in five seconds. At the table is findable in under 30 seconds (bold heads, **sequencing**). Checks and saves match the at-table grammar in `obsidian-markdown`. `Initial Narration` stops at the **reaction point** after *scene-setting* is complete (cover, routes, relative position, imminent action, drawable look, non-sight sense, then the question). Every titled stub on a run card is filled by pass 3. For a run card, load `run-guide`; its Table gate is the completion criterion. Per-band diagnostics (fail any → rewrite before filing):
+   - **At a Glance:** Could a DM who reads only this section improv a scene with this entity? If not, coverage is missing.
+   - **At the table:** Can the DM find a specific procedure without reading the whole page? If bold heads do not index the procedure, add them.
+   - **Bank:** Does every fact have a use at the table? If a fact never changes a DM response, cut or move it.
+   - **Owner `[!narration]`:** Read aloud. Could a sketch artist draw this subject from the spoken text? If not, the portrait is a Role-description, Encyclopedia entry, or Thin owner — rewrite using the failure modes.
+   - **Owner page overall:** Does the page have enough visible fact for the DM to improv from when this entity appears unplanned? If it is a stub or placeholder, route to the craft skill or write the missing copy.
+
+   Completion: all of the above hold, or the draft is not done.
 
 5. **File.** Wikilinks, template constraints, `[!narration]` for TotM only. `./scripts/after-write "why" -- path1 [path2…]` on named paths only. Completion: after-write succeeded, and the only callout on the note is `[!narration]`.
 
@@ -119,16 +140,31 @@ Dynamic elements that may have moved live in DM text unless current table state 
 
 ## Per-type
 
-- **NPC / PC:** Face + current action + want. Look/voice as sensory or manner cues. Drive as want, fear, and method.
-- **Location:** *This* place, not the concept of a lake. Match `templates/Location`. Navigation routes first in If the party; flora woven into narration and What; directional connections in Where. Kernel, 3Fs, and player-verb inventories stay in `place-design`.
-- **Vehicle:** *This* craft. Playable aspects. Senses. Sequenced keys.
-- **Faction:** Public mask, concrete method, one tell a bystander could notice. At the table = how they operate now.
-- **Quest / front:** Stakes, clock, visible sign, consequence if ignored — complete sentences.
-- **Item / monster:** Drawable fiction. Owner math stays on the owner. Run cards follow `run-guide` for embeds and action cards. Missing owner for a creature you will roll → Monster-Brewer.
-- **Lore:** One concrete manifestation a DM can put on the table.
-- **Session / recap / run card:** Play-made truths + tonight's handle. Recaps in past tense. Run cards: pass 2 edits DM-facing copy; pass 3 fills every empty `run-guide` TotM stub; do not invent procedure. Open once (see above). Complete sentences. Address the party as **you see** / **you hear** / **you feel**. Name the creature, item, and place; `her` / `flier` / `the crew` fail. Vary verbs.
+- **NPC / PC:** Minimum coverage: drawable face, body in posture or action, want producing visible behavior. Look/voice as sensory or manner cues (a stiff shirt, a split lip, a habit with her hands). Drive as want, fear, and method. Common failure: **Role-description** — naming the job instead of showing the body. Self-check: could a sketch artist draw this person from the portrait? Exemplar: [[Matteo Scola]].
+- **Location:** *This* place, not the concept of a lake. Minimum coverage: one body-scale geographic feature, one spine that is already this specific place, one affordance cue (climbable, followable, shelter-giving). Match `templates/Location`. Navigation routes first in If the party; flora woven into narration and What; directional connections in Where. Common failure: **Encyclopedia entry** — classifying the settlement instead of placing the reader in it. Self-check: swap the proper noun — does the sentence still work? Exemplars: [[Aruhe - Quiet Forest]], [[Aruhe - Clear Lake]]. Kernel, 3Fs, and player-verb inventories stay in `place-design`.
+- **Vehicle:** *This* craft. Minimum coverage: silhouette, scale vs crew or passengers, material and construction, one operational sensory detail (engine sound, deck motion, rigging smell). Playable aspects. Senses. Sequenced keys. Common failure: **Thin owner** — stat block without a picture.
+- **Faction:** Minimum coverage: observable public method, concrete footprint a bystander could notice, environmental tell, current operations. Public mask, concrete method, one tell. At the table = how they operate now. Common failure: abstract organization gloss that reads like a corporate bio.
+- **Quest / front:** Stakes, clock, visible sign, consequence if ignored — complete sentences. Common failure: backstory essay without a present-tense hook for tonight.
+- **Item:** Minimum coverage: concrete noun, scale vs body, material + wear, one non-sight sense or ordinary physical behavior. Drawable fiction. Owner math stays on the owner. Common failure: **Thin owner** — inventory line without material or weight. Exemplar: [[Fate Spinner]].
+- **Monster / creature:** Minimum coverage: silhouette and scale, body parts or material, one stable sensory behavior. Drawable fiction. Run cards follow `run-guide` for embeds and action cards. Missing owner for a creature you will roll → Monster-Brewer. Common failure: **Thin owner** — generic species name without a drawable body.
+- **Lore:** One concrete manifestation a DM can put on the table. The manifestation must be drawable or speakable, not an abstract concept.
+- **Session / recap / run card:** Play-made truths + tonight's handle. Recaps in past tense — arc and consequences, not a flat event list. Run cards: pass 2 edits DM-facing copy; pass 3 fills every empty `run-guide` TotM stub; do not invent procedure. Open once (see above). Complete sentences. Address the party as **you see** / **you hear** / **you feel**. Name the creature, item, and place; `her` / `flier` / `the crew` fail. Vary verbs.
 
 House tone (`lexicon/House tone.md`): **deadly, political, weird** in that order. Attach the strange to a noun and a consequence.
+
+## Register
+
+Match the voice to the surface. A DM uses each surface differently; the wrong voice makes the right information hard to find at the moment they need it.
+
+| Surface | Voice | Tense | Reader asks |
+|---|---|---|---|
+| **Session beat** | DM procedure — imperative, scannable bold heads | Present | What do I do and say right now? |
+| **Owner page** | DM reference — descriptive, complete enough to improv | Present | What is this? What can I do with it? |
+| **At a Glance** | Five-second scan — hook, stakes, identity | Present | Why does this matter and what is it? |
+| **Recap / Story So Far** | Narrative — arc, consequences, live handle | Past | What happened? Why does it matter tonight? |
+| **Handout** | Diegetic — the in-world author's voice and format | Varies | What does this document say to the character? |
+
+**Register drift** is a failure mode: see the table above.
 
 ## Handoffs
 
