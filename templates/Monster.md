@@ -8,13 +8,18 @@ visibility: dm
 tags: [monster]
 ---
 # {{name}}
-![[attachments/]]
-
-> [!narration] Narration
-> 
-
 ## Statblock
 
+````col
+```col-md
+flexGrow=3
+===
+![[attachments/]]
+> [!narration] Narration
+> 
+```
+
+```col-md
 ```statblock
 layout: Basic 5e Layout
 name: "{{name}}"
@@ -34,6 +39,8 @@ actions:
   - name: Bite
     desc: "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 5 (1d6 + 2) piercing."
 ```
+```
+````
 
 ## Behavior
 
