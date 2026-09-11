@@ -164,4 +164,4 @@ The [[Aruhe - Spiguar]] keeps its wolfrabbit, and the pack breaks off Torn Cross
 
 ## Battlemap
 
-![[attachments/shattered-sea/battlemaps/session-11-03-torn-crossing-sprawl.png|Session 11-03 Torn Crossing battlemap]]
+![[attachments/shattered-sea/battlemaps/11-03-upscaled.jpg|Session 11-03 Torn Crossing battlemap]]

@@ -11,7 +11,7 @@ summary: "Landing Bank development beat: fresh prints, cold ash, loose fruit, an
 ---
 # Session 11 — Landing sign and smoke
 
-![[attachments/shattered-sea/sessions/session-11-02-landing-sign-overview.png|Session 11-02 Landing Sign overview]]
+![[session-11-02-landing-sign-overview.jpg|Session 11-02 Landing Sign overview]]
 
 ## Scene ends when
 
@@ -111,4 +111,4 @@ The party follows the north prints toward the smoke onto [[Aruhe - Grasslands To
 
 ## Battlemap
 
-![[attachments/shattered-sea/battlemaps/session-11-02-landing-sign-valley.jpg|Session 11-02 Landing Sign battlemap]]
+![[attachments/shattered-sea/battlemaps/11-02-upscaled.jpg|Session 11-02 Landing Sign battlemap]]

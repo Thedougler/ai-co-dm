@@ -11,7 +11,7 @@ summary: Night ambush at Spoke Ring. The [[Aruhe - Deerstalker]] uses the garden
 ---
 # Session 11 — False help
 
-![[attachments/shattered-sea/sessions/session-11-07-false-help-overview.png|False Help overview: the fire against the empty north trail]]
+![[session-11-07-false-help-overview.jpg|False Help overview: the fire against the empty north trail]]
 
 ## Scene ends when
 
@@ -176,4 +176,4 @@ The hazards table, night watch, and [[Talon Skarn]] do not run on this card. Onc
 
 ## Battlemap
 
-![[attachments/shattered-sea/battlemaps/session-11-07-false-help.jpg|Spoke Ring battlemap, fire hub and searchable Quiet with dead-end trails]]
+![[attachments/shattered-sea/battlemaps/11-07-upscaled.jpg|Spoke Ring battlemap, fire hub and searchable Quiet with dead-end trails]]

@@ -14,7 +14,7 @@ summary: Adult Bloodhawk hunts the Crown Squid while young Bloodhawks flush expo
 ![[Session 10 - Recap#Recap]]
 
 ![[attachments/shattered-sea/sessions/session-11-01-angry-birds-overview.jpg|Session 11-01 Angry Birds overview]]
-![[attachments/shattered-sea/sessions/session-11-01-angry-birds-descent.png|Session 11-01 descent over Aruhe]]
+![[session-11-01-angry-birds-descent.jpg|Session 11-01 descent over Aruhe]]
 
 ## Scene ends when
 
@@ -154,4 +154,4 @@ If the party forced the beach, they are on the shingle. The hunt still crosses t
 
 ## Battlemap
 
-![[attachments/shattered-sea/battlemaps/session-11-01-angry-birds-canopy-valley.png|Session 11-01 Angry Birds battlemap]]
+![[attachments/shattered-sea/battlemaps/11-01-upscaled.jpg|Session 11-01 Angry Birds battlemap]]

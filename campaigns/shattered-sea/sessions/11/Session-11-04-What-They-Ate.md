@@ -119,4 +119,4 @@ The party follows the north prints toward the smoke. [[Aruhe - River Slack Basin
 
 ## Battlemap
 
-![[session-11-04-what-they-ate-base.jpg|Session 11-04 What They Ate battlemap]]
+![[attachments/shattered-sea/battlemaps/11-04-upscaled.jpg|Session 11-04 What They Ate battlemap]]
