@@ -817,7 +817,7 @@ Future `foundry-battlemap` upgrades should add a vehicle or deck-plan mode with 
 
 **Error:** Session 11 beat 1 battlemaps were generated at a tight encounter zoom: a small landing spit, then a stacked collage of existing tight maps, then the same-size trees, grass, river, and ruins after a zoom-out request. The perceptual grid stayed large, so the canvas could not hold forests behind and a grassland river leading north. 9:20 was used after Nick wanted 9:16. Session 11 beat 4 Line Bank was generated the same way: a close-up fruiting strip filling the canvas, suggested `36×64`, no room to explore the scene. Session 11 beat 5 Slack Basin shipped the same miss: a river corridor and otter hole filling the canvas at `720×1280`. Nick: way too small; make it big enough. Session 11 beat 9 Star Cut shipped the same miss: a tight Paper Mario aisle filling the canvas.
 
-**Correction:** Default Foundry battlemap scale is zoomed out unless Nick asks for a tight board. Do not default to the smallest SCALE in the table. Suggested grid smallest edge is `100` or larger. Shrink the perceptual grid so more of the place fits: more forest, more grass, more river, and more land left and right. Keep 9:16. Do not bake a grid. The board must be large enough to explore — a landmark in a valley, not a postcard of the hole. Nick upscales after. The accepted [[attachments/shattered-sea/battlemaps/session-11-01-angry-birds-canopy-valley.png]] is the scale bar.
+**Correction:** Default Foundry battlemap scale is zoomed out unless Nick asks for a tight board. Do not default to the smallest SCALE in the table. Suggested grid smallest edge is `100` or larger. Shrink the perceptual grid so more of the place fits: more forest, more grass, more river, and more land left and right. Keep 9:16. Do not bake a grid. The board must be large enough to explore — a landmark in a valley, not a postcard of the hole. Nick upscales after. The accepted [[session-11-01-angry-birds-canopy-valley.jpg]] is the scale bar.
 
 **Read:** `.agents/skills/foundry-battlemap/SKILL.md`; `.agents/skills/foundry-battlemap/references/design.md`; `.agents/skills/foundry-battlemap/references/slots.md`; `.agents/skills/foundry-battlemap/references/prompt.md`; `.agents/skills/foundry-battlemap/references/judge.md`; `.agents/skills/foundry-battlemap/references/repair.md`; `.agents/skills/foundry-battlemap/references/foundry.md`; `.agents/skills/visual-references/SKILL.md`; `.agents/references/image-hosts.md`; `campaigns/shattered-sea/sessions/11/Session-11-01-Angry-Birds.md`; `campaigns/shattered-sea/sessions/11/Session-11-03-Wolfrabbits.md`; `campaigns/shattered-sea/sessions/11/Session-11-04-What-They-Ate.md`; `campaigns/shattered-sea/sessions/11/Session-11-05-Otter-Hole.md`; `campaigns/shattered-sea/locations/Aruhe - Grasslands Torn Crossing.md`; `campaigns/shattered-sea/locations/Aruhe - River Line Bank.md`; `campaigns/shattered-sea/locations/Aruhe - River Slack Basin.md`; `attachments/shattered-sea/battlemaps/session-11-01-angry-birds-base.jpg`; `attachments/shattered-sea/battlemaps/session-11-01-angry-birds-canopy-valley.png`; `attachments/shattered-sea/battlemaps/session-11-01-angry-birds-river-landing-portrait.png`; `attachments/shattered-sea/battlemaps/session-11-03-wolfrabbits-base.jpg`; `attachments/shattered-sea/battlemaps/session-11-04-what-they-ate-base.jpg`; `attachments/shattered-sea/battlemaps/session-11-05-otter-hole-base.jpg`; `attachments/shattered-sea/battlemaps/aruhe-old-gardens-day.jpg`; `attachments/shattered-sea/battlemaps/aruhe-grasslands-day.jpg`; `attachments/shattered-sea/battlemaps/aruhe-river-day.jpg`
 
@@ -924,3 +924,17 @@ Future `foundry-battlemap` upgrades should add a vehicle or deck-plan mode with 
 **status:** open
 
 **Fix:** _No durable process fix in this turn._ Live beat 9 map is being regenerated text-only at zoomed-out Czepeku scale.
+
+### 2026-09-11 — Same-location scenes may reuse battlemaps
+
+**Error:** Treated scenes in the same location as requiring distinct battlemap assets and treated the already-large Session 11 beat 5 file as needing a new high-resolution map reference.
+
+**Correction:** Scenes that share a location may reuse the same battlemap. Session 11 beat 5 is already large enough; do not add or replace its map solely for this asset-refresh pass.
+
+**Read:** `AGENTS.md`; `.agents/skills/obsidian-markdown/SKILL.md`; `campaigns/shattered-sea/sessions/11/Session-11-05-Otter-Hole.md`
+
+**count:** 1
+
+**status:** open
+
+**Fix:** _No durable process fix in this turn._ When refreshing battlemap references, map location ownership and existing file sufficiency before assuming one unique high-resolution asset per scene.
