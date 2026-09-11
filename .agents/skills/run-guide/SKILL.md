@@ -4,10 +4,12 @@ description: >-
   Assemble a table-ready, DM-only cockpit for one session or one 30-minute beat
   from existing prep and owner pages in the vault's lean style: flat, direct,
   and only as sectioned as play requires. Use for "run tonight", "build a run
-  guide", or a session-prep document that is hard to scan. Pass 1 writes the
-  mechanical card plus empty titled [!narration] stubs. Later passes edit
-  DM-facing copy, fill theatre-of-the-mind prose, and run the ready check. Not
-  beat composition, canon invention, or session reconciliation.
+  guide", or a session-prep document that is hard to scan. Four passes, each
+  loading only its skills: pass 1 (dnd5e-mechanics) writes the mechanical card
+  plus empty [!narration] stubs; pass 2 (copy-writer) edits DM-facing copy;
+  pass 3 (theatre-of-the-mind) fills every spoken stub; pass 4 checks Reading
+  view. Do not load a later pass's skill early. Not beat composition, canon
+  invention, or session reconciliation.
 ---
 
 # Run Guide
@@ -17,7 +19,7 @@ Owners stay canon. Full statblocks **embed** at the bottom (the DM scrolls).
 Scene *procedure*, zones, tells, action cards, and how the scene resolves are written here.
 A missing owner is a diagnostic, not permission to invent canon or math.
 
-**Four passes.** Pass 1 writes the mechanical card and **empty titled `[!narration]` stubs**. Pass 2 (`copy-writer`) edits DM-facing copy for usability, readability, and table usefulness. Pass 3 TotM (`theatre-of-the-mind`; TUI **copy-writer**, Grok Bots **Visualizer**) fills every spoken stub. Pass 4 checks Reading view. Pass 1 does not write player-facing prose.
+**Four passes, each loading only its skills.** Pass 1 (`dnd5e-mechanics`) writes the mechanical card and **empty titled `[!narration]` stubs** — no prose skills loaded. Pass 2 (`copy-writer`) edits DM-facing copy for usability, readability, and table usefulness — stubs stay empty. Pass 3 (`theatre-of-the-mind`; TUI **copy-writer**, Grok Bots **Visualizer**) fills every spoken stub — loaded only after DM copy is clean. Pass 4 checks Reading view. Do not load a later pass's skill early.
 
 **Sole-authority:** a tired DM at minute 90 can roll and speak this slice
 without opening another note. Every default-mode *ruling* lives on the card.
@@ -63,13 +65,23 @@ Use descriptive, specific, plain language on the DM card too. Use common,
 normal human words unless the common word would be inaccurate. If a name or
 field needs decoding, replace it with the ordinary thing and visible action.
 
-## Workflow
+## Workflow — four passes
+
+Each pass loads only the skills it needs. Do not load a later pass's skill
+early — loading `copy-writer` during mechanics writing pulls attention toward
+prose polish before the structure exists; loading `theatre-of-the-mind` before
+DM copy is clean fills spoken slots over broken scaffolding. The pass boundary
+is a skill-load boundary.
+
+### Pre-pass: Ground and Diagnose
+
+**Load:** `qmd-retrieval`. No other skills yet.
 
 1. **Ground.** Read `hot.md`, tonight's session prep, the latest log, the
    previous beat card when one exists, and only the linked owners needed to
    interpret this slice. Read each working file end-to-end before editing it;
    summaries, snippets, truncated output, and range reads may help target the
-   file but do not satisfy grounding. `qmd-retrieval`. The previous beat's How the Scene
+   file but do not satisfy grounding. The previous beat's How the Scene
    Resolves is this beat's entry state — the situation, position, and changed
    world the party walks in with. Verify beat identity: the card filename's
    number matches its skeleton position (`Session-<session>-<NN>-Label.md` =
@@ -92,6 +104,16 @@ field needs decoding, replace it with the ordinary thing and visible action.
    the central element has an owner; every actionable hazard, loot, monster,
    route, clue, lore sign, and world detail has an owner or is marked unknown.
 
+### Pass 1: Mechanical cockpit
+
+**Load:** `dnd5e-mechanics`. Also `session-beats` when beat composition or
+pacing is missing, `encounter-prep` when encounter stock is missing. Do **not**
+load `copy-writer` or `theatre-of-the-mind` on this pass.
+
+This pass builds the runnable structure: every section, table, ruling, DC,
+action card, clock, zone, and procedure the DM will use, plus the empty prose
+slots that later passes fill. Player-facing prose is not written here.
+
 3. **Write mechanics.** Load `dnd5e-mechanics` before writing or auditing any
    player-interaction mechanics: checks, saves, DCs, Hide/Search/Study/Influence/
    Utilize resolution, grapples, shoves, attacks, damage, quality ladders, or
@@ -105,28 +127,62 @@ field needs decoding, replace it with the ordinary thing and visible action.
    existing owner identity image (`![[attachments/…]]`) when the owner page
    already lists one; do not mint art. Completion: every mechanical field this
    slice will use is present; unused sections are absent; clock and Be ready for
-   are one *procedure*, not two escalation tracks.
+   are one *procedure*, not two escalation tracks. Every `[!narration]` body is
+   empty. Every Narration table column cell is empty.
 
-5. **Edit DM copy.** Load `copy-writer` for pass 2 and edit the DM-facing
-   cockpit text for usability, readability, and table usefulness before any
-   spoken prose fill. Completion: Scene ends when, Glance, Now, Procedure,
-   Be ready for, clocks, and How the Scene Resolves are complete sentences the
-   DM can scan and use without inventing missing rulings.
+### Pass 2: DM copy
 
-6. **Fill narration.** Load `theatre-of-the-mind` for pass 3 before filling
-   `Initial Narration` or any other `[!narration]` slot. Initial Narration is
-   one concise, complete scene-setting block for the players: perceivable
-   subjects, relationships, routes or cover, relative position, imminent
-   pressure, actionable scene stock, drawable appearance, and a non-sight sense.
-   Completion: it reaches the first real player opening without hidden truth,
-   DCs, mechanics talk, or padded mood.
+**Load:** `copy-writer`. Do **not** load `theatre-of-the-mind` on this pass.
 
-7. **Table gate.** Pass 4 is one downward pass of the Cockpit table in Reading
-   view.
-   Completion: every item in **Table gate** below holds for this pass.
+This pass edits the DM-facing text that pass 1 wrote — Scene ends when, Glance,
+Now, Procedure, Be ready for, clocks, action cards, How the Scene Resolves — for
+usability, readability, and signal density. The `[!narration]` stubs stay empty.
+`copy-writer` owns the prose quality bar; this skill owns the cockpit structure.
+If a structural gap surfaces (missing section, wrong field order), fix it before
+polishing copy.
+
+5. **Edit DM copy.** Read the mechanical cockpit end-to-end, then edit every
+   DM-facing heading and body for table usefulness. Apply the `copy-writer`
+   earn-it test: remove a line; if no choice, ruling, risk, resource, route,
+   clock, NPC response, or spoken picture changes, cut it. Completion: Scene
+   ends when, Glance, Now, Procedure, Be ready for, clocks, and How the Scene
+   Resolves are complete sentences the DM can scan and use without inventing
+   missing rulings. Every `[!narration]` body and Narration column cell is
+   still empty.
+
+### Pass 3: Spoken fill
+
+**Load:** `theatre-of-the-mind`. Read its references before drafting:
+`references/surfaces.md` for surface routing, `references/voice.md` for the
+slop gate, the matching specialist reference, and
+`references/boundary.md` for the access and hidden-truth checks. Open related
+owner, session, or user-attached images with the vision tool and ground the
+spoken picture in the pixels.
+
+This pass fills every empty `[!narration]` stub and every empty Narration table
+cell. The DM copy is already clean — spoken prose is built on solid scaffolding.
+The DM may skip a block at the table; the writer fills all of them.
+
+6. **Fill narration.** Fill `Initial Narration` first — one concise, complete
+   scene-setting block for the players: perceivable subjects, relationships,
+   routes or cover, relative position, imminent pressure, actionable scene
+   stock, drawable appearance, and a non-sight sense. Then fill remaining stubs
+   and Narration cells in reading order. Completion: every `[!narration]` body
+   is filled; every Narration column cell is filled as `==_italic_==`; the
+   Initial Narration reaches the first real player opening without hidden truth,
+   DCs, mechanics talk, or padded mood; no stub restages Initial Narration.
+
+### Pass 4: Ready check
+
+**Load:** nothing new. `obsidian-markdown` for filing.
+
+One downward pass of the cockpit in Reading view.
+
+7. **Table gate.** Completion: every item in **Table gate** below holds for
+   this pass.
 
 8. **File.** `obsidian-markdown` (wikilinks, `session-surface`, real newlines, at-table scan).
-   The only callout on the card is `[!narration]`. Pass 3 fills stubs via TotM.
+   The only callout on the card is `[!narration]`. 
    `./scripts/after-write` on named paths.
 
 ## Lean Surface
@@ -330,9 +386,9 @@ Completion — all of these hold, or the draft is not done:
 - No `DM truth` section. Hidden intent, opposition wants, and canon constraints live inline where the DM uses them.
 - No coy placeholders, mystery hedges, or "do not reveal this" notes in DM-facing text. Name the DM fact plainly or omit it.
 - No naked checks. Every check says what success reveals or changes, what failure changes, and why the result matters now.
-- Pass 1: empty callout stubs and empty Narration-column cells at the TotM slots this beat can actually use; no player-facing prose in those bodies. How the Scene Resolves is one unconditional stub plus an options table, not a stack of variant callouts. Each option hands off to a beat on the skeleton, not off-scene.
-- Pass 2: `copy-writer` was loaded after pass 1, and DM-facing copy is usable, readable, useful, complete, and signal-only before spoken prose is filled.
-- Pass 3: `theatre-of-the-mind` was loaded after pass 2, and Initial Narration concisely sets the scene with perceivable subjects, relationships, routes or cover, relative position, imminent pressure, actionable scene stock, drawable appearance, and a non-sight sense, then the first real player opening. Every stub is filled. Every Narration cell that is spoken is `==_italic_==`.
+- Pass 1: `dnd5e-mechanics` loaded; `copy-writer` and `theatre-of-the-mind` not loaded. Empty callout stubs and empty Narration-column cells at the TotM slots this beat can actually use; no player-facing prose in those bodies. How the Scene Resolves is one unconditional stub plus an options table, not a stack of variant callouts. Each option hands off to a beat on the skeleton, not off-scene.
+- Pass 2: `copy-writer` loaded after pass 1 completes; `theatre-of-the-mind` not loaded. DM-facing copy is usable, readable, useful, complete, and signal-only before spoken prose is filled. Every `[!narration]` body and Narration column cell is still empty.
+- Pass 3: `theatre-of-the-mind` loaded after pass 2 completes. Initial Narration concisely sets the scene with perceivable subjects, relationships, routes or cover, relative position, imminent pressure, actionable scene stock, drawable appearance, and a non-sight sense, then the first real player opening. Every stub is filled. Every Narration cell that is spoken is `==_italic_==`.
 - Pass 4: Reading view was checked top to bottom; no `[!narration]` body or Narration table cell that should be spoken is empty.
 - Action cards sit near the procedure or ruling they support. Bloodied, cover-reached, and scene dials are paragraphs after the Threat clock table when a Threat clock exists.
 - Every consequence is a *ruling* (see Ruling).

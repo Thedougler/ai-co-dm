@@ -82,5 +82,5 @@ Bloodhawks are four-winged Aruhe predators with hawk silhouettes and older, ugli
 
 ---
 ## Art 
-
+### Token
 ![[attachments/shattered-sea/creatures/bloodhawk-of-aruhe-token.png|Bloodhawk FoundryVTT token]]

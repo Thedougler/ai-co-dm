@@ -29,7 +29,7 @@ Theatre of the mind is the spoken `[!narration]` layer, not the whole job. Hook,
 
 **Headings:** copy the template. Glance is `## At a Glance`. Runnable procedure is `## At the table`. Supporting facts use `## Bank` or the named bank sections on that template (`## Indexes`, `## Aftermath`, `## Secrets (DM)`).
 
-**Session beats are four passes.** Pass 1 (`run-guide`) leaves empty titled stubs. You own pass 2: edit DM-facing copy for usability, readability, and table usefulness while the `[!narration]` stubs stay empty. Pass 3 fills **every** spoken stub with `theatre-of-the-mind`. Pass 4 checks Reading view. The DM may skip a block at the table; construction may not leave one empty or useless. `Initial Narration` is the long *scene-setting* block (typically two to four short spoken paragraphs). Address the party as **you**: **you see**, **you hear**, **you feel** (physical), **you smell**. Weave drawable appearance and at least one non-sight sense into those sentences. Smaller stubs (zone, tick, How the Scene Resolves, creature-in-this-scene) are one to three sentences and do not restage the Open.
+**Session beats are four passes, each loading only its skills.** Pass 1 (`run-guide` + `dnd5e-mechanics`) leaves empty titled stubs — `copy-writer` is not loaded. You own pass 2: load this skill after pass 1 completes, then edit DM-facing copy for usability, readability, and table usefulness while the `[!narration]` stubs stay empty. Do not load `theatre-of-the-mind` on this pass. Pass 3 loads `theatre-of-the-mind` after pass 2 completes and fills **every** spoken stub. Pass 4 checks Reading view. The DM may skip a block at the table; construction may not leave one empty or useless. `Initial Narration` is the long *scene-setting* block (typically two to four short spoken paragraphs). Address the party as **you**: **you see**, **you hear**, **you feel** (physical), **you smell**. Weave drawable appearance and at least one non-sight sense into those sentences. Smaller stubs (zone, tick, How the Scene Resolves, creature-in-this-scene) are one to three sentences and do not restage the Open.
 
 **Callouts:** `[!narration]` is the only callout. Use it when the block is spoken to the players (`Initial Narration`, `{Place}`, `Tick n`, one `How the Scene Resolves`, `{Creature}`, `Exit`, boxed read-aloud). Conditional spoken (zone, tick, most-likely option) goes in the table cell as `==_italic_==` (`obsidian-markdown`). DM truth, procedure, clocks, rulings, and secrets are headings plus body copy, tables, and bold labels. They are not `[!secret]`, `[!mechanic]`, `[!note]`, `[!warning]`, or any other callout. Do not put callouts inside table cells. Completion: the only `> [!` on the note is `[!narration]`.
 
@@ -52,12 +52,16 @@ Three gates in priority order. **Earn it** dominates — a line that sounds beau
 - **Atmosphere without consequence** — mood, tone, "a sense of" that changes no choice or improv handle.
 - **Restated setup** — the same fact in Glance, At the table, and the narration. Once, in the surface where the DM needs it.
 - **Foreshadowing** — later encounters stay unforetold; narration shows this scene, not the next one.
+- **Over-explanation** — state the conclusion; if the fact is clear, the scaffold that built it is dead weight.
+- **Preamble and wrap-up** — lead with the point. End on the last useful fact. No intro before the scene, no summary closing after it.
+
+What survives: details specific to THIS entity — amounts, distances, particular failures, the way this thing works or breaks. Generic fantasy that fits any coastal town or dark forest fails the removal test by definition.
 
 On a session beat, every line changes a DM action tonight. On an owner page, every line gives the DM something to improv from when this entity appears unplanned — a face to perform, a want to play, a fact to reveal, a relationship to tension. Both fail if the line is dead weight; the test question differs by surface.
 
 **Place it.** Each fact appears once, in the surface where the DM needs it. The surface determines the voice — see Register below. Conditional language in the conditional table. Narration describes the scene and stops; interaction is the DM's job. Dialogue the DM voices is speakable words — give speech, or give facts and let the DM improvise.
 
-**Hear it.** Read aloud. A listener pictures it on one hearing using ordinary human words — the common noun plus the visible difference. Refer to people by name after introduction, or as "the man," "the woman," by a known role. One drawable fact per sentence; break stacked sense-clauses apart. State what is there now. Concrete, specific scenery a person can see: "footprints pressed into mud," not shorthand that needs decoding. Anchor unfamiliar scale to a body part or common object. Vary sentence openings and verbs across a page.
+**Hear it.** Read aloud. A listener pictures it on one hearing using ordinary human words — every word graspable in a glance, no jargon a player would pause on. The common noun plus the visible difference. Refer to people by name after introduction, or as "the man," "the woman," by a known role. One drawable fact per sentence; break stacked sense-clauses apart. State what is there now. Concrete, specific scenery a person can see: "footprints pressed into mud," not shorthand that needs decoding. Anchor unfamiliar scale to a body part or common object. Vary sentence openings, endings, verbs, and length — uniform cadence is an AI tell. Three sentences ending the same way is a pattern; break it. Short sentence. Then one that stretches. Not five clauses of the same weight in a row. Scan for AI voice: "tapestry of," "nestled between," "a sense of foreboding," "the air is thick with," "it's worth noting," and any phrasing that sounds generated rather than spoken. Rewrite in the voice a DM uses at the kitchen table. Lead with the point; end on the last useful fact.
 
 ## Failure modes
 
@@ -106,6 +110,7 @@ Grok Bot packets that name **Visualizer** stay TotM-scoped unless the packet ask
    - **Bank:** Does every fact have a use at the table? If a fact never changes a DM response, cut or move it.
    - **Owner `[!narration]`:** Read aloud. Could a sketch artist draw this subject from the spoken text? If not, the portrait is a Role-description, Encyclopedia entry, or Thin owner — rewrite using the failure modes.
    - **Owner page overall:** Does the page have enough visible fact for the DM to improv from when this entity appears unplanned? If it is a stub or placeholder, route to the craft skill or write the missing copy.
+   - **Adversarial read:** Read as a DM who has never seen this page. Name three things that would make you stop reading or reach for a different source. Fix them.
 
    Completion: all of the above hold, or the draft is not done.
 

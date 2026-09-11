@@ -18,7 +18,7 @@ Each new place or tactical moment needs its own map. Existing battlemaps may gui
 
 ## Output
 
-One Imagine image on disk, the same image shown in chat, plus a short import line.
+One generated image on disk, the same image shown in chat, plus a short import line.
 
 - Portrait rectangle by default. The Design step sets the FRAME ratio from the tactical footprint (default 9:16).
 - Orthographic top-down, Czepeku painted style
@@ -92,10 +92,10 @@ If a reference map or sketch is attached, add this line after PLACE:
 
 ### 4. Generate
 
-Send the filled prompt to Imagine.
+Send the filled prompt to the host image tool. Read [.agents/references/image-hosts.md](.agents/references/image-hosts.md) for the tool call on the current host.
 
 - Set orientation to match the FRAME (portrait, landscape, or square). One image. Do not tile. Do not stitch.
-- Do not bake a grid. Do not ask Imagine for DPI. Do not constrain resolution — generate the most complete image possible.
+- Do not bake a grid. Do not ask the image tool for DPI. Do not constrain resolution — generate the most complete image possible.
 - Save under `artifacts/battlemaps/` with a slug name (`tavern-common-day.png`).
 
 Multi-level mode: generate one image per layer, same FRAME, same footprint. See [references/modes.md](references/modes.md).
