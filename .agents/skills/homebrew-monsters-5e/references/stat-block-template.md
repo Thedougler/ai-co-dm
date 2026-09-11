@@ -61,6 +61,8 @@ Design-time fields — work through these during creation, then distribute into 
 
 ### Standalone creature → `templates/Monster.md`
 
+Linear layout: H1 → image → `[!narration]` → statblock fence → `---` → Behavior (list items `- **Label.**`) → Tactics (list items `- **Label.**`) → `---` → Art.
+
 - **Opening tell and preferred position:** [ ] → Tactics: **Signs**, **Instincts**
 - **Default choice:** [ ] → Tactics: **Tactics**
 - **If pressured / if signature is answered:** [ ] → Tactics: **Tactics**, **Weaknesses**

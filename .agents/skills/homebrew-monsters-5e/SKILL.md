@@ -74,11 +74,13 @@ Use `DC 15`; `+7 to hit`; `Hit: 11 (2d8 + 2) damage`; `Recharge 5–6`; `1/Day`;
 Two paths depending on whether the creature has a personal identity:
 
 ### Standalone creature → `templates/Monster.md`
-H1 title → image embed → `[!narration]` → `## Statblock` fence → `## Behavior` → `## Tactics`.
+H1 title → image embed → `[!narration]` → `## Statblock` fence → `---` → `## Behavior` → `## Tactics` → `---` → `## Art`. Linear layout — no column wrappers. Frontmatter includes `region` and `source` alongside standard fields.
 
-**Behavior** uses bold-label paragraphs: **Habitat** (terrain, territory, where it lives), **Behavior** (observable habits, body language, movement patterns), **Diet** (what it eats, feeding signs, hunger drivers), **Social Structure** (solitary/pack/herd, interactions with other creatures).
+**Behavior** uses list items with bold labels (`- **Label.** text`): **Habitat** (terrain, territory, where it lives), **Behavior** (observable habits, body language, movement patterns), **Diet** (what it eats, feeding signs, hunger drivers), **Social Structure** (solitary/pack/herd, interactions with other creatures).
 
-**Tactics** uses bold-label paragraphs: **Signs** (what trackers find — tracks, marks, smells, sounds), **Instincts** (what triggers aggression, what ends a hunt), **Tactics** (how it fights — opening, follow-up, preferred conditions), **Weaknesses** (exploitable flaws — terrain it hates, movement it cannot make, formations that shut it down), **Aftermath** (what the scene looks like after an encounter, salvageable remains).
+**Tactics** uses list items with bold labels (`- **Label.** text`): **Signs** (what trackers find — tracks, marks, smells, sounds), **Instincts** (what triggers aggression, what ends a hunt), **Tactics** (how it fights — opening, follow-up, preferred conditions), **Weaknesses** (exploitable flaws — terrain it hates, movement it cannot make, formations that shut it down), **Aftermath** (what the scene looks like after an encounter, salvageable remains).
+
+**Art** holds additional images: tokens, alternate views, reference art. One embed per line.
 
 Design outputs map: fiction signature → narration + Behavior; decision loop → Tactics; three-round script informs Tactics but stays in the design conversation; encounter integration → Habitat + Social Structure + Instincts; counterplay → Weaknesses; running notes → Tactics + Aftermath.
 

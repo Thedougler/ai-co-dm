@@ -1,25 +1,20 @@
 ---
 type: monster
 campaign: 
+region: 
 role: # ambusher | artillery | bruiser | controller | defender | leader | skirmisher | solo
 cr: 
-source: # SRD link / "house (wiki creature.X; living-stock DATE)" / book+page — never paste proprietary text
+source: # house (YEAR chassis, SRD peer) | SRD link — never paste proprietary text
 visibility: dm
 tags: [monster]
 ---
 # {{name}}
-## Statblock
-
-````col
-```col-md
-flexGrow=3
-===
 ![[attachments/]]
 > [!narration] Narration
 > 
-```
 
-```col-md
+## Statblock
+
 ```statblock
 layout: Basic 5e Layout
 name: "{{name}}"
@@ -39,27 +34,23 @@ actions:
   - name: Bite
     desc: "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 5 (1d6 + 2) piercing."
 ```
-```
-````
 
+---
 ## Behavior
 
-**Habitat.** 
-
-**Behavior.** 
-
-**Diet.** 
-
-**Social Structure.** 
+- **Habitat.** 
+- **Behavior.** 
+- **Diet.** 
+- **Social Structure.** 
 
 ## Tactics
 
-**Signs.** 
+- **Signs.** 
+- **Instincts.** 
+- **Tactics.** 
+- **Weaknesses.** 
+- **Aftermath.** 
 
-**Instincts.** 
+---
+## Art
 
-**Tactics.** 
-
-**Weaknesses.** 
-
-**Aftermath.** 
