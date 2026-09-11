@@ -107,6 +107,7 @@ This repo is an **Obsidian prose wiki**, not an application codebase. Prefer vau
 | Human-started PC interviews | `pc-interview` → **Co-DM** / **Session-Planner** |
 | Agency / anti-rail audits | `sandbox-narrative` → **Co-DM** |
 | Grounded identity/session visuals | `visual-aids` — assembles existing owner identity image onto beat card; does not mint art |
+| Gather entity appearance refs before image generation | `visual-references` — collects owner appearance pixels and prose; fires before any generation or edit call |
 | Tag audit/normalization (ai-co-dm vocab) | `tag-taxonomy` → **Organizer**; AGENTS/schema → **Ops** |
 | Multi-owner decompose before broad work | `decomposing-campaign-content` → **Agentic-System-Designer** (routing design); filing → **Ingest** |
 | Post-ingest evidence reconciliation | `reconciling-session-evidence` → **Co-DM** / **Ingest** (after `session-transcript-ingest`) |
