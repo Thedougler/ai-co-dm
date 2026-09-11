@@ -16,6 +16,7 @@ tags: [monster, aruhe, grasslands]
 flexGrow=3
 ===
 ![[spiguar-of-aruhe.jpg|Spiguar of Aruhe]]
+![[attachments/shattered-sea/creatures/spiguar-of-aruhe-token.png|Spiguar of Aruhe Foundry VTT token]]
 
 > [!narration] Narration
 > A low spotted cat shape slides through the gold grass, almost invisible beneath a mat of reeds, creepers, and wet green leaves. Its saber teeth show first, pale against a dark muzzle, then the whole heavy body drops flatter than a hunting leopard should be able to move. The grass barely whispers until it breaks open at once and the weight of the thing arrives before the roar does.
