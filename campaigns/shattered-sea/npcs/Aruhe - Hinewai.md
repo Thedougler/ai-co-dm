@@ -19,6 +19,7 @@ tags:
   - hinewai
   - grung-origin
   - land-fused
+summary: Elf druid lich fused to Aruhe, marked by blue-lit cracks and clothed in living bark, leaves, and vines.
 source: "house (Monster-Brewer; legacy Fantasy Statblock import; Hinewai/Death Bloom ingest 2026-09-05)"
 ---
 
@@ -26,22 +27,28 @@ source: "house (Monster-Brewer; legacy Fantasy Statblock import; Hinewai/Death B
 
 *The Woman in the Woods*
 
-![[hinewai-moonlit-harp.jpg|Hinewai playing harp in the moonlit jungle]]
+![[attachments/shattered-sea/reference/hinewai-reference-sheet.png|Hinewai identity reference sheet]]
+
+![[attachments/shattered-sea/portraits/hinewai-moonlit-harp.jpg|Hinewai playing harp in the moonlit jungle]]
 
 > [!narration] Hinewai
-> Hinewai stands at the edge of the jungle like a woman grown from it: long black hair frames her pointed ears and cold blue eyes, while thin luminous lines branch across her face, neck, chest, and arms. Sharp teeth show between parted lips. Vines, broad leaves, and small white and tan flowers wrap her in a living dress, its roots and foliage trailing down her body.
+> Hinewai stands at the edge of the jungle like a woman grown from it. Long black hair falls down her back around pointed ears and bright blue eyes; fine luminous cracks branch across her pale skin, and sharp teeth show when she speaks. Bark, leaves, and trailing vines make a close-fitted bodice and layered skirt, with small white flowers at her chest and hips. She is slender, long-limbed, and barefoot.
+
+## Visual reference
+
+Hinewai is roughly `175 cm` tall with a narrow, long-limbed silhouette. Her black hair reaches down her back, and her pointed ears, bright blue eyes, fangs, and branching glow-cracks make her face unmistakable. Bark, leaves, roots, and vines form her clothing; small white flowers break up the dark greens and browns. She moves barefoot and keeps the same poised silhouette whether she is standing, walking, seated, reaching into the vines, or dropping into a low crouch.
 
 ## At a glance
 
-| **Role**            | Undead Guardian of all life on Aruhe's                              |
+| **Role**            | Undead guardian fused to Aruhe's living systems                     |
 | ------------------- | ------------------------------------------------------------------- |
-| **Nature**          | Tortured, and mad genius, love of nature                            |
+| **Nature**          | Grieving druid whose love of life became unchecked growth            |
 | **Home**            | [[Aruhe - Memorial Grove]]                                          |
-| **Wants**           | Aruhe will be unspoiled.                                            |
-| **Fears**           | Wildfire, her pets dying, her plants dying                          |
-| **Hates**           | Grung and invaders                                                  |
+| **Wants**           | Aruhe remains unspoiled by takers.                                  |
+| **Fears**           | Wildfire and the death of her plants or animals                     |
+| **Hates**           | The Grung and anyone who takes from Aruhe                           |
 | **Loves**           | Living things, Aruhe, and the companion she buried                  |
-| **True weakness**   | The [[Aruhe - Memorial GroveDeath Bloom]]                           |
+| **True weakness**   | The [[Aruhe - Memorial Grove|Death Bloom]]                          |
 | **Return**          | `1d10 days` if her body is destroyed while the Death Bloom survives |
 | **Permanent death** | Ruin the Death Bloom, then destroy her walking body                 |
 
