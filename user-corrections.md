@@ -1,5 +1,5 @@
 ---
-summary: Nick's correction log. Writers append on #ERROR; ASD drains. Open: over-scoped `.agent` typo; token subject isolation; battlemap default zoom; invented Aruhe claimed works; battlemap from whole session beat.
+summary: Nick's correction log. Writers append on #ERROR; ASD drains. Open: replaced-wrong Beat 1 image; token subject isolation; visual-references image-to-reference template.
 ---
 
 # User corrections
@@ -809,9 +809,9 @@ Future `foundry-battlemap` upgrades should add a vehicle or deck-plan mode with 
 
 **count:** 1
 
-**status:** open
+**status:** closed
 
-**Fix:** _No fix in this turn._ Durable change belongs in `foundry-battlemap` default SCALE/FRAME and judge: zoomed-out landscape unless asked otherwise; reject maps whose props fill the canvas at room scale when the site is a valley, canopy, or other large place.
+**Fix:** `.agents/skills/foundry-battlemap/SKILL.md`; `references/design.md`; `references/slots.md`; `references/judge.md`; `references/foundry.md`; `references/repair.md`; `assets/prompt-template.txt` — Default SCALE is zoomed-out `36×64` on 9:16; tight `18×32`/`25×45` only when asked; judge fails room-scale props on large places and nearby ratios such as 9:20. Measure: files teaching `25×45` as default SCALE 2 → 0. Cheap check: `rg -n 'Default \`25×45\`|default \| 25×45 \| standard encounter' .agents/skills/foundry-battlemap`. `after-write` SHA: `1ec9622`.
 
 ### 2026-09-11 — Invented claimed works on unclaimed Aruhe
 
@@ -823,9 +823,9 @@ Future `foundry-battlemap` upgrades should add a vehicle or deck-plan mode with 
 
 **count:** 1
 
-**status:** open
+**status:** closed
 
-**Fix:** _No fix in this turn._ Durable change belongs in `foundry-battlemap` identity/judge: vault-grounded architecture only; reject invented claimed works (bridges, roads, courtyards, buildings) on unclaimed sites.
+**Fix:** `.agents/skills/foundry-battlemap/SKILL.md`; `references/design.md`; `references/slots.md`; `references/judge.md`; `references/prompt.md`; `references/repair.md`; `assets/prompt-template.txt` — Intake reads the PLACE owner page; identity and judge place only architecture that page names; unclaimed land stays wild (terraces, canopy, grass, river, pale-stone fords). Measure: files requiring owner-page architecture 0 → 3. Cheap check: `rg -l --glob '*.md' 'Architecture and crossings are what that page names' .agents/skills/foundry-battlemap`. `after-write` SHA: `1ec9622`.
 
 ### 2026-09-11 — Battlemap from the whole session beat
 
@@ -837,6 +837,6 @@ Future `foundry-battlemap` upgrades should add a vehicle or deck-plan mode with 
 
 **count:** 1
 
-**status:** open
+**status:** closed
 
-**Fix:** _No fix in this turn._ Durable change belongs in `foundry-battlemap` intake and Design: load the session beat, use beat type and purpose (Hook, Development, Cliffhanger, and so on) as map jobs, and judge the board against those goals and scale.
+**Fix:** `.agents/skills/foundry-battlemap/SKILL.md`; `references/design.md`; `references/slots.md`; `references/judge.md`; `references/prompt.md`; `references/repair.md`; `assets/prompt-template.txt` — Intake loads the whole session beat; Design writes Beat jobs from type and purpose (Development puts things to explore and learn on the map); judge category 8 fails terrain-only boards. Measure: `## Beat jobs` heading in foundry-battlemap 0 → 1. Cheap check: `rg -l --glob '*.md' '## Beat jobs' .agents/skills/foundry-battlemap`. `after-write` SHA: `1ec9622`.
