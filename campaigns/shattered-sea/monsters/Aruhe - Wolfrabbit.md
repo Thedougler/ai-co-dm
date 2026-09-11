@@ -7,7 +7,7 @@ cr: 4
 source: house (wiki creature.wolfrabbit; living-stock 2026-09-05; 2024 CR 4 conversion)
 visibility: dm
 tags: [monster, aruhe]
-summary: CR 4 pack skirmisher that uses a 30-foot pounce to knock targets prone and lets nearby packmates rend them.
+summary: CR 4 pack skirmisher that uses a 30-foot pounce to knock targets prone and lets nearby packmates rend them; the visual reference anchors a tall, tawny, dark-striped feline with oversized ears.
 ---
 # Wolfrabbit
 ## Statblock
@@ -66,6 +66,12 @@ reactions:
 ```
 ```
 ````
+
+## Visual reference
+
+The supplied reference sheet establishes the Wolfrabbit as a tall, serval-like feline with very large upright ears, a tawny coat broken by dark stripes and spots, a pale muzzle and throat, red-orange eyes, dark nose and claws, and a long banded tail. Its low torso and long legs keep the silhouette spring-built rather than rabbit-shaped.
+
+![[attachments/shattered-sea/creatures/wolfrabbit-of-aruhe-reference-sheet.png|Wolfrabbit character reference sheet]]
 
 ## Behavior
 
