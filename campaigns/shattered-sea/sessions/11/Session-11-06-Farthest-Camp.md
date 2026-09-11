@@ -145,4 +145,4 @@ If [[Matteo Scola]] is with the party, he is still on this dirt or on the north 
 
 ## Battlemap
 
-![[attachments/shattered-sea/battlemaps/session-11-06-farthest-camp-base.jpg|Session 11-06 Spoke Ring battlemap]]
+![[attachments/shattered-sea/battlemaps/session-11-06-farthest-camp.jpg|Session 11-06 Spoke Ring battlemap]]
