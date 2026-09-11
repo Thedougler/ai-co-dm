@@ -3,8 +3,9 @@ name: visual-references
 description: >-
   Gather canonical visual anchors before any image generation, edit, art prompt, or art commission
   that depicts a vault PC, NPC, monster, location, vehicle, item, or named session moment. Use this
-  before `image_gen`, `image_edit`, or `generate_image`, especially when vault files or chat
-  attachments can lock identity. Not for placing finished art on pages; use visual-aids for that.
+  before the built-in Codex `image_gen`, Grok `image_gen`/`image_edit`, or OMP `generate_image`,
+  especially when vault files or chat attachments can lock identity. Not for placing finished art
+  on pages; use visual-aids for that.
 ---
 
 # Visual References
@@ -35,7 +36,15 @@ This skill gathers and maps anchors. Host prompt craft stays with that host (`im
    |---|---|---|
    | Grok Build | `image_gen` (`prompt`, `aspect_ratio`) | `image_edit` — `image` is an array of absolute vault paths and/or `[Image #N]` tokens in the same order the prompt names them. A new composition of a known owner still uses `image_edit`. Single-image edits keep the source aspect ratio; pick a matching frame or pass a second image when `aspect_ratio` must change. Load `imagine` for prompt craft. |
    | OMP | `generate_image` | Same tool: files in `input`; name them in `subject` or `changes` as `Image 1`, `Image 2`. |
-   | Codex | `image_gen` with empty refs | `image_gen` with `referenced_image_paths` set to absolute vault paths. |
+   | Codex native | `image_gen` with both image-input fields omitted | `image_gen` with `referenced_image_paths` set to the absolute vault paths. |
+
+   Codex native image inputs have one additional branch: when a reference exists only as a recent
+   chat image, use `num_last_images_to_include` with the smallest count that includes every needed
+   image (up to five), and name those images in the prompt by their conversation order. Never send
+   `num_last_images_to_include` together with `referenced_image_paths`; use the path form when every
+   reference is local. For a local edit target, inspect it with `view_image` before the built-in
+   call. If the required references cannot all be supplied through one of these modes, ask for the
+   missing image again before generating.
 
    For an edit request, state what changes and what must stay: identity, silhouette, palette, gear, or location layout. If the live schema has no image-input field for a canon owner that has reference images, switch to an input-capable route or ask before generating.
 
