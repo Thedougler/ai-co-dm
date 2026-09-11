@@ -612,3 +612,42 @@ Follow skill `agentic-system-designer` (Intake → Baseline → Fix → Prove �
 **count:** 1
 
 **status:** closed
+
+### 2026-09-10 — New battlemap reference became an old entry
+
+**Error:** Treated the newly supplied `/Users/nick/Downloads/FWcxS5a.jpeg` as the earlier battlemap-quality reference and edited that existing correction entry instead of creating a new entry for this distinct image and request.
+
+**Correction:** Each distinct reference image and distinct quality-bar request gets its own correction-log entry. Leave the earlier entry unchanged, and analyze `FWcxS5a.jpeg` as a fresh professional-battlemap benchmark.
+
+**Read:** `user-corrections.md`; `/Users/nick/Downloads/FWcxS5a.jpeg`; `.agents/skills/foundry-battlemap/SKILL.md`; `.agents/skills/foundry-battlemap/references/prompt.md`; `.agents/skills/foundry-battlemap/references/slots.md`; `.agents/skills/foundry-battlemap/references/judge.md`; `.agents/skills/obsidian-markdown/SKILL.md`
+
+**count:** 1
+
+**status:** open
+
+**Fix:** _Deferred by Nick's instruction; this turn records the new image's quality bar only and does not upgrade the skill._
+
+### 2026-09-10 — FWcxS5a professional battlemap quality bar
+
+**Error:** Foundry battlemap generation guidance does not yet capture the image-specific design qualities that make `/Users/nick/Downloads/FWcxS5a.jpeg` a professional, highly usable TTRPG battlemap rather than merely a polished overhead illustration.
+
+**Correction:** Treat this image as a new, separate quality bar. Its strength comes from deliberate encounter composition and tactical communication:
+
+- **Macro plan:** The unusually tall `2380x6720` canvas supports a long ceremonial hall with three immediately readable zones: a sparse approach lane, a central circular arena, and a raised sanctum/throne. A continuous red-carpet axis links the zones and gives the eye and the encounter a clear primary route.
+- **Tactical grammar:** The map offers more than one way to move through the space: a strong toe-to-toe central lane, lateral edge lanes, side recesses, threshold crossings, and flanking opportunities around the central landmark. Stairs, risers, platforms, side structures, and large equestrian statuary communicate elevation, cover, blockers, and line-of-sight breaks through shape and shadow rather than labels.
+- **Staging and negative space:** Landmark clusters and ornament are concentrated at the edges, thresholds, and focal arena, while broad clean floor remains available for tokens. The decoration creates decisions without sealing the play space or making every square visually noisy.
+- **Authored identity:** Repeated architectural language, heraldic motifs, framed side panels, ceremonial carpet, statues, plant groupings, and a unique central medallion make the room feel built for a specific culture and function. Details are coherent and placed with intent; they do not read as generic repeated clutter or a tile collage.
+- **Visual hierarchy:** Neutral cream stone keeps the walkable floor readable. Saturated red, teal, green, and gold reserve attention for routes, focal zones, and landmarks. Bilateral symmetry makes orientation and fairness legible, while small painterly variations keep the scene from feeling mechanically mirrored.
+- **Depth and materials:** Stone, fabric, painted tile or glass, metal gilding, carved relief, and shallow architectural changes each have distinct texture and value. Crisp inked boundaries define stairs, carpet, platforms, and floor motifs; soft cast shadows, edge blending, and restrained highlights supply depth without muddying movement.
+- **Scale discipline:** The faint grid aligns consistently to the architecture, and major props occupy believable multi-square footprints. Route width, step depth, statue scale, and open staging areas all communicate a stable combat scale. Grid readability must survive at thumbnail and ordinary VTT zoom without requiring a baked grid.
+- **Finish and deliverable discipline:** The image fills the canvas edge to edge, has no accidental seam or dead zone, and uses the architectural border as in-world framing rather than page padding. Future generated maps should preserve the clarity and finish while still removing watermark, text, tokens, UI, and other non-map clutter. Aspect ratio should be chosen from the tactical footprint: this reference is approximately `17x48` squares at `140` pixels per square, so a fixed `9:16` requirement should not prevent a longer axial map when the scene needs it.
+
+Future skill upgrades should require a zone plan, primary and alternate routes, a blocker/cover inventory, readable elevation changes, open token staging, a material and value hierarchy, and separate thumbnail/grid-zoom judging. A beautiful image that lacks those tactical reads should fail; a generic map should fail even when it is technically overhead and clean. This entry records the quality bar only; no skill upgrade is being made in this turn.
+
+**Read:** `user-corrections.md`; `/Users/nick/Downloads/FWcxS5a.jpeg`; `.agents/skills/foundry-battlemap/SKILL.md`; `.agents/skills/foundry-battlemap/references/prompt.md`; `.agents/skills/foundry-battlemap/references/slots.md`; `.agents/skills/foundry-battlemap/references/judge.md`; `.agents/skills/foundry-battlemap/references/repair.md`; `.agents/skills/foundry-battlemap/references/foundry.md`; `.agents/skills/obsidian-markdown/SKILL.md`
+
+**count:** 1
+
+**status:** open
+
+**Fix:** _Deferred by Nick's instruction; this turn records the quality bar only and does not upgrade the skill._
