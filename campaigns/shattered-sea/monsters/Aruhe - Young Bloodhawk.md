@@ -15,6 +15,7 @@ summary: CR 2 juvenile Bloodhawk that uses its speed and Flush Dive to drive exp
 > Smaller charcoal hawks drop behind the adult in a ragged line, each with four wings, a red crest, and hooked talons too large for its still-narrow body. They do not call. They fold their wings only long enough to drive a flushed body down, then beat back toward the adult's hunting line.
 
 ## Statblock
+![[young-bloodhawk-of-aruhe-flight.jpg|Young Bloodhawk over Aruhe]]
 
 ```statblock
 layout: Basic 5e Layout
@@ -75,4 +76,4 @@ actions:
 
 ## Art
 
-![[attachments/shattered-sea/creatures/young-bloodhawk-of-aruhe-token.png|Young Bloodhawk FoundryVTT token]]
+![[young-bloodhawk-of-aruhe-token.jpg|Young Bloodhawk FoundryVTT token]]
