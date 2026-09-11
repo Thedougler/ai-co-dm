@@ -14,6 +14,7 @@ summary: Countless peregrine apprentice and CR 13 flying skirmisher whose katana
 ## Art
 ![[attachments/shattered-sea/character-references/talon-skarn-reference-sheet.png|Talon Skarn character reference sheet]]
 ![[attachments/shattered-sea/portraits/talon-skarn-portrait.jpg|Talon Skarn portrait]]
+![[artifacts/tokens/talon-skarn-token.png|Talon Skarn FoundryVTT token]]
 
 > [!narration] Narration
 > A broad peregrine aarakocra stands about five feet tall, heavy wings lifted behind a dark robe. Pale chest feathers climb into a black-and-cream face; red-orange crown feathers flare above steady amber-gold eyes and a yellow beak tipped in black. The robe hangs in dark layers over wrapped ankles and bare talons, with patterned trim catching along the collar and down the front.
