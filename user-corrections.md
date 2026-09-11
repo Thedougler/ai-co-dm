@@ -562,3 +562,15 @@ Follow skill `agentic-system-designer` (Intake → Baseline → Fix → Prove �
 **count:** 1
 
 **status:** closed
+
+### 2026-09-10 — Replaced wrong Session 11 Beat 1 image
+
+**Error:** Replaced the Session 11 Beat 1 overview image when Nick meant the other one of the two images on the beat card.
+
+**Correction:** Distinguish the overview illustration from the battlemap before replacing a Session 11 Beat 1 image. Restore the overview asset until the intended target is confirmed.
+
+**Read:** `campaigns/shattered-sea/sessions/11/Session-11-01-Angry-Birds.md`; `.agents/skills/visual-aids/SKILL.md`; `.agents/skills/obsidian-markdown/SKILL.md`; `user-corrections.md`; `attachments/shattered-sea/sessions/session-11-01-angry-birds-overview.jpg`.
+
+**count:** 1
+
+**status:** open
