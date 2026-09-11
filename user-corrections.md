@@ -756,3 +756,17 @@ Future `foundry-battlemap` upgrades should add a vehicle or deck-plan mode with 
 **status:** closed
 
 **Fix:** `campaigns/shattered-sea/monsters/Aruhe - Bloodhawk.md` — treat the supplied revised document as the adult owner replacement and keep the result single-owner and single-adult. No skill change in this turn.
+
+### 2026-09-10 — User instructions shape the wiki
+
+**Error:** Resisted Nick's explicit instructions to fit the wiki, treating existing wiki conventions and prior structure as reasons to push back instead of applying the requested direction.
+
+**Correction:** Nick's explicit instructions and supplied documents are authoritative inputs that shape the wiki. Apply the requested fit directly, preserve only constraints that do not conflict with that instruction, and continue the requested task without counterproductive resistance.
+
+**Read:** `user-corrections.md`; `AGENTS.md`; `.agents/skills/homebrew-monsters-5e/SKILL.md`; `.agents/skills/obsidian-markdown/SKILL.md`; Nick's current `#ERROR` correction message.
+
+**count:** 1
+
+**status:** closed
+
+**Fix:** Apply the user's requested wiki shape and content directly in the young Bloodhawk owner task that follows. No skill change in this turn.
