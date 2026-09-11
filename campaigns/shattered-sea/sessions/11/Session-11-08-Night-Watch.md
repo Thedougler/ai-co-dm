@@ -143,4 +143,4 @@ Keep the people at this fire unnamed. Identify them only as garden mouths or shi
 
 ## Battlemap
 
-![[attachments/shattered-sea/battlemaps/aruhe-spoke-ring-battlemap.jpg|Spoke Ring battlemap, radial fire hub under Quiet leaves]]
+![[attachments/shattered-sea/battlemaps/session-11-07-false-help.jpg|Spoke Ring battlemap, fire hub and searchable Quiet with dead-end trails]]
