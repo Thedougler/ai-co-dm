@@ -10,8 +10,8 @@ tags: [pc]
 
 ## Art
 ![[attachments/shattered-sea/banners/perrin-black-jaw-banner.jpg]]
-![[artifacts/tokens/perrin-black-jaw-token.png|Perrin Black-Jaw FoundryVTT token]]
-![[attachments/shattered-sea/pcs/perrin-black-jaw-reference.png|Perrin Black-Jaw visual reference sheet]]
+![[attachments/shattered-sea/pcs/perrin-black-jaw-token.png|Perrin Black-Jaw FoundryVTT token]]
+![[perrin-black-jaw-reference.jpg|Perrin Black-Jaw visual reference sheet]]
 
 ## Visual reference
 
