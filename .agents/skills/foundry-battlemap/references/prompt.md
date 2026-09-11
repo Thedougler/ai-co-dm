@@ -1,4 +1,4 @@
-# Locked Imagine prompt
+# Locked prompt
 
 Fill braces from the Design step's tactical brief and the Intake slots. Keep camera, empty-board, and forbidden blocks verbatim.
 

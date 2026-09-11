@@ -22,7 +22,7 @@ Foundry default is 100 px per square. Czepeku ships 140 px per square. The user 
 | square | 30×30 | 3000 × 3000 | 4200 × 4200 |
 | wide 16:9 | 45×25 | 4500 × 2500 | 6300 × 3500 |
 
-If Imagine's file is smaller than the 100 px target, say so on the import line. Upscale is a separate workflow.
+If the generated file is smaller than the 100 px target, say so on the import line. Upscale is a separate workflow.
 
 ## Empty board
 

@@ -1,6 +1,6 @@
 # Tactical brief
 
-Write this brief before touching the prompt template. Every field feeds a slot in the Build step. The brief is not sent to Imagine — it is the design the prompt communicates.
+Write this brief before touching the prompt template. Every field feeds a slot in the Build step. The brief is not sent to the image tool — it is the design the prompt communicates.
 
 ## Zone plan
 
