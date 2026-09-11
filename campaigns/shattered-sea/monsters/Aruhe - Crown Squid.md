@@ -9,19 +9,11 @@ visibility: dm
 tags: [monster, aruhe]
 ---
 # Great Crown Squid
-
-## Statblock
-````col
-```col-md
-flexGrow=3
-===
 ![[attachments/shattered-sea/creatures/great-crown-squid-of-aruhe-01.jpg|Great Crown Squid of Aruhe]]
 > [!narration] Narration
 > The Great Crown Squid hangs between the trees, its house-sized mantle broad as a roof and translucent enough to show a deep violet glow inside. Thick arms spread from beneath it to grip the trunks, their bark-dark skin ridged and studded with thorny suckers, while a curtain of fine tendrils hangs toward the forest floor. Mist beads on the rubbery body and falls from the trailing tendrils as the whole shape stays almost still above the canopy.
 
-```
-
-```col-md
+## Statblock
 ```statblock
 layout: Basic 5e Layout
 name: "Great Crown Squid"
@@ -63,8 +55,6 @@ actions:
   - name: "Canopy Pounce (Recharge 5–6)"
     desc: "The squid moves up to its climb speed without provoking opportunity attacks, then makes one Crushing Arm or Hookline Tentacle attack."
 ```
-```
-````
 
 ## Behavior
 
