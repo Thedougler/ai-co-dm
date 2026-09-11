@@ -75,4 +75,4 @@ Torn Crossing is the rock-and-water break inside [[Aruhe - Grasslands]], just up
 
 ---
 ## Art
-![[session-11-03-wolfrabbits-base.jpg|Torn Crossing battlemap, print corridor, river lip, and razer islands]]
+![[session-11-03-torn-crossing-sprawl.png|Torn Crossing battlemap, print corridor, river lip, and razer islands]]
