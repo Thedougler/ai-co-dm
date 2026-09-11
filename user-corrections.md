@@ -881,4 +881,4 @@ Future `foundry-battlemap` upgrades should add a vehicle or deck-plan mode with 
 
 **status:** closed
 
-**Fix:** `.agents/references/image-hosts.md` — Generate is the default (new image; identity anchors only). Edit a specific frame only when Nick likes that image and asks. Pointers: `foundry-battlemap` Generate+Repair and `references/repair.md`; `visual-references` feed step; `foundry-token` retries and repair. Measure: files stating Generate-is-the-default 0 → 1. Cheap check: `rg -n '\*\*Generate\*\* is the default' .agents/references/image-hosts.md`.
+**Fix:** `.agents/references/image-hosts.md` — Generate is the default (new image; identity anchors only). Edit a specific frame only when Nick likes that image and asks. Pointers: `foundry-battlemap` Generate+Repair and `references/repair.md`; `visual-references` feed step; `foundry-token` retries and repair. Measure: files stating Generate-is-the-default 0 → 1. Cheap check: `rg -n '\*\*Generate\*\* is the default' .agents/references/image-hosts.md`. `after-write` SHA: `4b70905`.
