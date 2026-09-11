@@ -72,3 +72,7 @@ actions:
 - **Weaknesses.** It is pressure around the adult's hunt, not an equal rival. Dropping below the dive line, breaking sight with canopy or tall grass, and forcing it to land remove its Flush Dive advantage. It is slow and exposed on the ground.
 
 - **Aftermath.** A young Bloodhawk strike leaves small crimson feathers, paired gouges in terrace stone or bark, and a short fall line ending in bruised grass, broken fruit, or a body sprawled **Prone** beneath the adult's larger shadow.
+
+## Art
+
+![[attachments/shattered-sea/creatures/young-bloodhawk-of-aruhe-token.png|Young Bloodhawk FoundryVTT token]]
