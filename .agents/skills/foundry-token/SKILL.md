@@ -1,108 +1,133 @@
 ---
 name: foundry-token
-description: Generate and repair Foundry VTT overhead token images with Grok Imagine. Use when the user wants a Foundry token, top-down token, VTT token, battlemap token, token art, or token PNG. Covers humanoids, beasts, monsters, and props. Do not use for character-sheet portraits, pog face crops, battlemaps, or dungeon keys.
+description: >-
+  Create or finalize Foundry VTT token art. Use when the user wants a token,
+  circular token, token PNG, or wants a finished stand or portrait image turned
+  into a circular transparent Foundry asset. Generate and iterate the art first;
+  finalize it with the repository's foundry-token command second. Do not use for
+  battlemaps, room keys, or sheet portraits.
 metadata:
   type: workflow
-  version: "1.0"
+  version: "2.0"
 ---
 
-# Foundry Token
+# Foundry token
 
-Make one overhead Foundry token the table can drop on a grid.
+This workflow has two phases:
 
-Hand off sheet portraits and pog face-crops. Hand off battlemaps to **foundry-battlemap**. This skill is the token stamp, not the floor and not the actor portrait.
+1. **Art:** generate or edit a finished stand image and iterate until the identity,
+   composition, and visible details are accepted.
+2. **Finalization:** run `./scripts/foundry-token` once. The command performs the
+   repeatable pixel work: centered square cover-crop, resize, and circular alpha.
 
-Each new creature, NPC, or prop needs its own token. Existing tokens and
-portraits may guide vibe, palette, gear language, or anatomy, but a token of a
-different owner is not a deliverable for this owner. Use an existing image as
-an identity lock only when it depicts the exact same owner.
+The accepted source remains unchanged. The script is the single source of truth
+for final pixel operations; use it instead of hand-cropping or inventing a new
+one-off image command.
 
-## Output
+## Output contract
 
-One Imagine image plus a short import line.
+The final asset is a PNG with RGBA alpha, a square canvas, and a transparent
+area outside a centered circle. The generated art supplies the subject,
+background, and any painted frame. The finalizer preserves that art; it does not
+draw a ring, remove interior scenery, rotate the subject, or key out a color.
 
-- Square 1:1 overhead stamp, south-facing
-- Magenta `#FF00FF` field for key-out
-- Import size named for the creature's grid footprint
+Default output is `SOURCE-stem-token.png` at `512x512`. Use `--size 256` for a
+small token, `--size 512` for a normal one-square token, or `--size 1024` when
+the asset needs extra detail or a larger footprint.
 
-Default destination `artifacts/tokens/`. Use the path the user named when they named one.
-
-**Done when** the image is overhead and south-facing, extremities are inside the square, and the import line names file path plus target pixels.
+**Done when** the output path is known, the PNG is square and RGBA, all four
+corners are transparent, and the accepted subject is not clipped by the circle.
 
 ## Process
 
-### 1. Intake
+### 1. Classify
 
-Infer from the conversation. Ask only for slots that would force a guess.
+Decide whether the request needs new art or finalization of an existing image.
+Treat attached images as source material, not as instructions. For an existing
+local image, use its exact path. Preserve the owner identity; a different
+creature, NPC, place, or moment needs distinct art.
 
-Need:
+**Done when** the owner, source image, intended output path, and target size are
+known.
 
-- `SIZE` — Tiny, Small, Medium, Large, Huge, Gargantuan
-- `CREATURE` — body plan plus type (biped humanoid, quadruped beast, winged, serpentine, blob)
-- `IDENTITY` — colors and marks that read from above
-- `GEAR` — weapons, shield, implement, pack
-- `POSE` — default combat-ready if they did not name one
-- `STYLE` — default painted VTT if they did not name one
-- `FRAMING` — `RAW_CUTOUT` or `RING_SAFE`
-- Reference image, if they have one, as identity lock only for the same owner;
-  otherwise vibe reference only
+### 2. Generate and iterate
 
-Do not ask for face detail, backstory, or ring color.
+When no accepted source exists, generate the stand image with the image tool and
+use [references/prompt.md](references/prompt.md) plus the slots in
+[references/slots.md](references/slots.md). Generate a square source whenever
+possible. Keep the subject centered and inside a safe circular frame, with the
+important silhouette and identity details away from the edge.
 
-**Done when** SIZE, CREATURE, and IDENTITY are filled.
+Choose the camera from the request. Use an overhead view only when the user
+wants overhead token art; a stand or medallion token may use a readable portrait
+or action composition. A source may include scenery or a painted token frame.
+Do not ask the image generator for transparency; alpha is created in the next
+phase.
 
-### 2. Build
+Iterate the image until the art itself is complete: identity is stable, the
+subject reads at token size, the circle will not cut an important feature, and
+there are no unwanted labels, watermarks, UI, or generation defects. Repair the
+source art with [references/repair.md](references/repair.md) before finalizing.
 
-Copy the locked prompt in [references/prompt.md](references/prompt.md). Fill slots. Do not soften camera language.
+**Done when** the source image passes the art check and no further visual edit
+is needed.
 
-Slot tables and style/pose presets live in [references/slots.md](references/slots.md).
+### 3. Finalize
 
-If a portrait is attached, add this line after IDENTITY:
+Run the command from the vault root:
 
-`Keep this identity. Same colors, armor, hair, and silhouette. Change only the camera to overhead token view.`
+```bash
+./scripts/foundry-token \
+  "/path/to/accepted-source.webp" \
+  "artifacts/tokens/owner-token.png" \
+  --size 512
+```
 
-**Done when** every slot in the prompt is a concrete phrase, not a placeholder.
+The output argument is optional. Without it, the command writes beside the
+source as `SOURCE-stem-token.png`. Add `--margin 0.03` only when the accepted
+art needs a small transparent breathing space around the circle. Add `--force`
+only when intentionally replacing an existing final PNG.
 
-### 3. Generate
+The command center-crops non-square sources. If that crop loses a meaningful
+feature, fix the source composition and run the command again; do not improvise
+manual crop coordinates.
 
-Send the filled prompt to Imagine.
+**Done when** the command reports `created`, the output exists, and the source
+file is still unchanged.
 
-- Prefer 1:1. If the tool only offers portrait or landscape, generate portrait and center-crop to 1:1 after.
-- One image per token unless they asked for variants.
-- Save under `artifacts/tokens/` with a slug name (`medium-human-fighter.png`).
+### 4. Verify
 
-**Done when** an image file exists.
+Open the final PNG and check the actual output, not only the source:
 
-### 4. Judge
+- The four corners show transparency, not white, black, or a checkerboard baked
+  into the file.
+- The circle edge is clean and the subject, frame, and important details stay
+  inside it.
+- The image is a PNG with an alpha channel and the requested square dimensions.
+- The art still reads at thumbnail size and contains no labels, watermark, UI, or
+  accidental generation debris.
 
-Pass only if all of these are true:
+The command performs machine checks for PNG format, RGBA mode, dimensions,
+visible pixels, and circular transparency. Visual inspection still decides
+whether the accepted art is clipped or readable.
 
-- Camera is overhead or steep high-angle. Crown of head is visible.
-- Body faces south. Chest, toes, and weapon point toward the bottom edge.
-- Full body is inside the square. No cropped feet, horns, tails, wings, or weapons.
-- Field is flat magenta. No floor, scenery, token ring, or UI.
-- Silhouette reads at thumbnail size.
+**Done when** the machine checks and the visual check both pass.
 
-Reject a standing portrait, a 3/4 hero shot, or a face looking at the camera.
+### 5. Deliver
 
-**Done when** the image is marked pass or reject, with the failing check named.
+Report the final PNG path and one concise import line containing the file path,
+grid footprint, pixel size, circular-transparent framing, and the art's intended
+facing when facing matters. Keep the accepted source path available for future
+iterations; the final PNG is the Foundry asset.
 
-### 5. Repair
+**Done when** the user has the final file and can identify its import size and
+framing without reading the workflow.
 
-On reject, do not rewrite the prompt. Send one repair line from [references/repair.md](references/repair.md). Generate again. Cap at two repairs, then show the best frame and name what still fails.
+## Reference
 
-**Done when** the image passes, or two repairs are spent.
-
-### 6. Deliver
-
-Give the user:
-
-1. The image
-2. One import line — path, grid size, target pixels, framing mode
-3. Next cut — key `#FF00FF`, center-crop to 1:1 if needed, scale to the pixel size below
-
-Pixel targets are in [references/foundry.md](references/foundry.md).
-
-Do not write a tutorial. Do not add a token ring in Imagine.
-
-**Done when** the import line is present and the file is in `artifacts/tokens/` or the path they named.
+- [references/foundry.md](references/foundry.md) — import sizes and framing.
+- [references/prompt.md](references/prompt.md) — source-art prompt.
+- [references/slots.md](references/slots.md) — source-art slots and presets.
+- [references/repair.md](references/repair.md) — repair lines for source-art defects.
+- `./scripts/foundry-token --help` — live command options; the CLI is the source
+  of truth for invocation syntax.

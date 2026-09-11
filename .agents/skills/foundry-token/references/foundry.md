@@ -1,35 +1,47 @@
 # Foundry import
 
-## Facing
+## Finalizer
 
-Foundry treats rotation 0 as south. The token file must already face south. Chest, toes, and the business end of weapons point to the bottom of the image. Rotate the file before import if Imagine missed.
+The repository finalizer makes the import PNG:
 
-Sheet portrait can stay a face. Prototype Token > Appearance gets this overhead file.
+\`\`\`bash
+./scripts/foundry-token accepted-source.webp artifacts/tokens/owner-token.png --size 512
+\`\`\`
 
-## Format
-
-PNG or WebP with alpha. WebP is smaller. PNG is safer with old modules. Imagine will not emit alpha. Key `#FF00FF` after generation.
+The command center-crops to a square, resizes, preserves the accepted RGB art
+and existing alpha, then applies a centered circular alpha mask. It never
+overwrites the source.
 
 ## Sizes
 
-Foundry default grid is 100 px per square. Community Medium export is 400 px (4x oversample). Dynamic-ring subject art prefers power-of-two 512 / 1024 / 2048.
+Use the size that matches the intended import footprint and the detail the art
+needs:
 
-| Size | Grid | RAW px | RING subject px |
-|---|---|---|---|
-| Tiny | 0.5 | 200 | 256 |
-| Small / Medium | 1 | 400 | 512 |
-| Large | 2 | 800 | 1024 |
-| Huge | 3 | 1200 | 1024 |
-| Gargantuan | 4+ | 1600 | 2048 |
+| Intended footprint | Default final PNG |
+|---|---:|
+| Tiny or Small | \`256x256\` |
+| Medium or one-square token | \`512x512\` |
+| Large or detailed scene token | \`1024x1024\` |
 
-## Dynamic rings
+Foundry can scale a PNG on import. The finalizer's \`--size\` is the pixel size of
+the file, not the grid footprint.
 
-The ring starts two-thirds out from the center. The outer third is padding. Gear that enters the padding pops over the ring. Use `RING_SAFE` framing so the body stays in the inner two-thirds.
+## Framing
 
-Do not paint a ring in Imagine. Let Foundry or Tokenizer draw it.
+The output has transparent pixels outside the circle. A painted ring is part of
+the generated source art and is preserved when present; the finalizer does not
+invent one. Use \`--margin 0.03\` when the accepted art needs a small transparent
+breathing space between the frame and the canvas edge.
+
+## Facing
+
+The finalizer does not rotate or reinterpret the art. Report the intended
+facing only when the source composition makes facing relevant. Overhead art may
+use Foundry rotation \`0\` for south; a portrait or medallion token has no
+automatic facing rule.
 
 ## Import line
 
-One line, this shape:
+Use one concise line:
 
-`artifacts/tokens/medium-human-fighter.png — Medium 1x1 — scale to 400 px — RAW_CUTOUT — key #FF00FF — rotation 0 faces south`
+\`artifacts/tokens/owner-token.png — Medium 1x1 — 512 px — circular transparent alpha — facing from source art\`

@@ -1,70 +1,77 @@
-# Slots
+# Source-art slots
+
+Fill every slot before generating. The finalizer does not repair an ambiguous
+subject or a bad composition.
 
 ## SIZE
 
-| Slot | Grid | RAW pixels | RING pixels |
-|---|---|---|---|
-| Tiny | 0.5 | 200 | 256 |
-| Small | 1 | 400 | 512 |
-| Medium | 1 | 400 | 512 |
-| Large | 2 | 800 | 1024 |
-| Huge | 3 | 1200 | 1024 |
-| Gargantuan | 4+ | 1600 | 2048 |
+Use the creature's intended Foundry footprint:
 
-Use RING pixels when `FRAMING` is `RING_SAFE`.
+- \`Tiny\`, \`Small\`, \`Medium\`, \`Large\`, \`Huge\`, or \`Gargantuan\`
 
-## CREATURE
+## SUBJECT
 
-Name body plan first, type second.
+Name the body plan and subject in ordinary words:
 
-- `Medium humanoid`
-- `Large quadruped beast`
-- `Huge winged dragon`
-- `Large serpentine monstrosity`
-- `Small blob ooze`
+- \`armored skeleton guard\`
+- \`dense swarm of red and black spiders\`
+- \`black jungle eagle in flight\`
+- \`blue-red storm hawk\`
 
 ## IDENTITY
 
-Colors, sex if it changes silhouette, hair or crest from above, marks that survive a 100 px shrink. Skip eye color and expression.
-
-## GEAR
-
-Long weapons on the north-south axis, point toward six o'clock. Shield on their left arm. Bow across the body east-west so the curve reads from above.
-
-`none` is valid for beasts.
+Use colors, silhouette, marks, gear, and other details that survive a thumbnail.
+Skip details that cannot be seen in the final circle.
 
 ## POSE
 
-Default:
+Choose the action that makes the owner recognizable:
 
-`neutral combat-ready stance, feet planted shoulder-width, knees slightly bent, arms clear of the torso`
+- \`standing three-quarter guard pose, weapon held clear of the body\`
+- \`swarm mass filling the center, many legs breaking the outer silhouette\`
+- \`wings spread across the circle, talons visible\`
+- \`diving flight, head and talons aimed toward the lower edge\`
 
-Presets:
+## COMPOSITION
 
-- caster — `staff planted toward the bottom edge, free hand out, feet planted`
-- rogue — `low crouch, blades close to the hips, arms clear of the torso`
-- archer — `bow held east-west across the body, feet planted`
-- quadruped — `standing four-square, head toward the bottom edge, tail toward the top edge, legs apart so each paw reads`
-- flyer — `wings spread east-west, body on the north-south line, head toward the bottom edge`
-- huge — `sprawl or coil filling the inner two-thirds, head toward the bottom edge`
-- fallen — `prone on the square, head toward the bottom edge, limbs inside the frame`
+Keep the subject centered and safe for the crop:
+
+- \`centered medallion composition with even breathing room\`
+- \`subject fills the inner two-thirds, open background at the rim\`
+- \`wide wingspan across the middle, no wingtip touches the circle\`
+- \`large central silhouette with supporting scenery kept near the rim\`
+
+## CAMERA
+
+- \`readable stand or portrait view\`
+- \`steep overhead view\` when the user asks for a top-down token
+- \`action view from a clear three-quarter angle\` when the source is a scene token
+
+## FACING
+
+Use \`front-facing\`, \`three-quarter left\`, \`head toward the lower edge\`, or
+\`not applicable\` according to the requested composition. Do not invent a
+rotation rule for portrait art.
+
+## BACKGROUND
+
+Describe the visible setting only when it contributes to the accepted token:
+
+- \`dark rain and ruined stone\`
+- \`teal cave floor\`
+- \`layered jungle canopy\`
+- \`storm clouds with no text\`
+
+## FRAME
+
+- \`no painted frame, clean circular crop\`
+- \`subtle bronze medallion rim kept inside the circle\`
+- \`weathered wood rim with a clean inner image\`
 
 ## STYLE
 
 Default:
 
-`hand-painted fantasy VTT token, Forgotten Adventures style, semi-realistic digital painting, readable at thumbnail size, strong graphic silhouette, muted battlefield colors`
+\`hand-painted fantasy game art, strong graphic silhouette, readable at thumbnail size, coherent light and material texture\`
 
-Presets:
-
-- grim — `gritty oil-painted dark fantasy, limited palette, dirty metal`
-- graphic — `clean graphic ink and flat color, high contrast silhouette`
-- archer — `Archer TV animation style, thick graphic lines, flat cel color, uncanny`
-- mini — `photoreal painted 28mm tabletop miniature, copy-stand overhead photo`
-
-## FRAMING
-
-- `RAW_CUTOUT` — `Subject fills about 85% of the canvas.` Use when the PNG drops on the map with no ring.
-- `RING_SAFE` — `Subject fills about 65% of the canvas, centered in the inner two-thirds.` Use when Foundry dynamic rings or Tokenizer will add a ring.
-
-Default `RAW_CUTOUT`.
+Named styles may replace the default only when the user asks for one.

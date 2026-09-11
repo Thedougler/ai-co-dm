@@ -627,6 +627,20 @@ Follow skill `agentic-system-designer` (Intake → Baseline → Fix → Prove �
 
 **Fix:** _Deferred by Nick's instruction; this turn records the new image's quality bar only and does not upgrade the skill._
 
+### 2026-09-10 — Reusable circular token finalization
+
+**Error:** Agents were left to improvise how to turn finished stand images into Foundry VTT token art, so circular transparent-background crops were not produced by a repeatable method.
+
+**Correction:** Provide a simple, reusable, agent-shaped script that accepts a finalized stand image and performs the token operations: preserve the finished image as the source, crop it into the necessary circular transparent token, and make the output suitable for Foundry VTT. The `foundry-token` skill must teach the workflow as image generation and iteration first, script finalization second, with writing-for-agents constructions and explicit verification.
+
+**Read:** `user-corrections.md`; `.agents/skills/foundry-token/SKILL.md`; `.agents/skills/writing-for-agents/SKILL.md`; `.agents/skills/obsidian-markdown/SKILL.md`; `/Users/nick/Downloads/SkeletonGuardMedium (17).webp`; `/Users/nick/Downloads/SpiderSwarm (6).webp`; `/Users/nick/Downloads/EagleJungle (1).webp`; `/Users/nick/Downloads/ZephyrHawk (1).webp`; `/Users/nick/Downloads/GiantEagleMountains (5).webp`
+
+**count:** 1
+
+**status:** open
+
+**Fix:** `.agents/skills/foundry-token/SKILL.md`; `scripts/foundry-token`; add a reusable stand-image → circular-transparent-token workflow and validate it against the five supplied images.
+
 ### 2026-09-10 — FWcxS5a professional battlemap quality bar
 
 **Error:** Foundry battlemap generation guidance does not yet capture the image-specific design qualities that make `/Users/nick/Downloads/FWcxS5a.jpeg` a professional, highly usable TTRPG battlemap rather than merely a polished overhead illustration.
