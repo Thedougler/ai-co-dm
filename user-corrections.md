@@ -615,13 +615,13 @@ Follow skill `agentic-system-designer` (Intake → Baseline → Fix → Prove �
 
 ### 2026-09-10 — New battlemap reference became an old entry
 
-**Error:** Treated the newly supplied `/Users/nick/Downloads/FWcxS5a.jpeg` as the earlier battlemap-quality reference and edited that existing correction entry instead of creating a new entry for this distinct image and request.
+**Error:** Treated a newly supplied battlemap reference as an earlier battlemap-quality reference and edited that existing correction entry instead of creating a new entry for the distinct image and request.
 
 **Correction:** Each distinct reference image and distinct quality-bar request gets its own correction-log entry. Leave the earlier entry unchanged, and analyze `FWcxS5a.jpeg` as a fresh professional-battlemap benchmark.
 
-**Read:** `user-corrections.md`; `/Users/nick/Downloads/FWcxS5a.jpeg`; `.agents/skills/foundry-battlemap/SKILL.md`; `.agents/skills/foundry-battlemap/references/prompt.md`; `.agents/skills/foundry-battlemap/references/slots.md`; `.agents/skills/foundry-battlemap/references/judge.md`; `.agents/skills/obsidian-markdown/SKILL.md`
+**Read:** `user-corrections.md`; `/Users/nick/Downloads/FWcxS5a.jpeg`; `/Users/nick/Downloads/UpKwx5O.jpeg`; `.agents/skills/foundry-battlemap/SKILL.md`; `.agents/skills/foundry-battlemap/references/prompt.md`; `.agents/skills/foundry-battlemap/references/slots.md`; `.agents/skills/foundry-battlemap/references/judge.md`; `.agents/skills/obsidian-markdown/SKILL.md`
 
-**count:** 1
+**count:** 2
 
 **status:** open
 
@@ -651,3 +651,28 @@ Future skill upgrades should require a zone plan, primary and alternate routes, 
 **status:** open
 
 **Fix:** _Deferred by Nick's instruction; this turn records the quality bar only and does not upgrade the skill._
+
+### 2026-09-10 — UpKwx5O professional battlemap quality bar
+
+**Error:** Foundry battlemap generation guidance does not yet capture the image-specific design qualities that make `/Users/nick/Downloads/UpKwx5O.jpeg` a professional, highly usable TTRPG battlemap rather than merely a polished overhead illustration.
+
+**Correction:** This is a new, separate issue. No new image is requested or generated in this turn. Use `UpKwx5O.jpeg` as a benchmark for integrating tactical usability with authored visual detail:
+
+- **Macro composition:** The portrait frame is full-bleed and deliberately staged. Dense stalls, tents, trees, supplies, and structures frame the edges and corners; a broad central meadow remains available for tokens. The eye travels through an upper activity band, an open middle, a warm central campfire landmark, and a lower bank-and-water transition. The composition is asymmetrical but balanced, with no accidental dead rectangle.
+- **Tactical topology:** The open center is not featureless. Hay bales, tables, stalls, fences, banks, bridges, water, tents, and edge structures create obstacle islands, cover pockets, approach lanes, crossings, narrow thresholds, loops, and flanking routes. The map supports more than one way between important areas while keeping a clear place to stand and fight.
+- **Spatial hierarchy:** Major landmarks read first, tactical blockers second, and lived-in micro-detail third. At thumbnail size, open ground, water, vegetation, structures, and large blockers separate by silhouette and value. At ordinary VTT zoom, the player can identify walkable squares, cover, line-of-sight breaks, crossings, and terrain changes without decoding the illustration.
+- **Multi-scale detail:** Small props reward closer inspection—food, crates, tables, cloth, tools, hay, planted edges, and camp furniture—without contaminating the movement lanes. Detail is concentrated at the perimeter and around landmarks, so density communicates place instead of becoming visual noise.
+- **Depth and grounding:** Canopy, banks, tents, structures, bridges, shallow water, and overlapping edge masses create layered depth while keeping the camera overhead. Contact shadows, cast shadows, consistent light direction, soft blended boundaries, and material-specific texture keep every prop anchored to the terrain rather than pasted onto it.
+- **Color and material language:** Muted green ground provides the play surface; blue-green water, warm wood and canvas, yellow hay, orange firelight, and small saturated accents zone the scene and guide attention. Inked contours, painterly fill, wood grain, cloth, dirt, water, and vegetation each have a distinct but coherent treatment.
+- **Authored identity:** The combination of fairground or camp structures, bunting, stalls, supplies, fire, water, and border vegetation explains what kind of place this is. Props vary in shape, orientation, and use; they do not read as repeated generic stamps. The map feels inhabited while remaining a combat space.
+- **Deliverable discipline:** The map fills its canvas edge to edge; boundaries, banks, vegetation, and structures blend naturally into the frame rather than ending as clipped tiles or page padding. The visible grid and Patreon watermark in the reference are overlays for presentation and must not be copied into generated art; preserve the existing clean Foundry contract of no baked grid, tokens, UI, labels, watermark, fog, or light overlay.
+
+Future `foundry-battlemap` upgrades should require a pre-prompt zone and route plan, an explicit cover/blocker/elevation inventory, a reserved token-staging area, a value-and-material hierarchy, controlled edge density, and separate thumbnail, normal-zoom, and imagined-grid-scale judging. Reject maps with a generic center, dead space, accidental seams, ambiguous terrain, repeated props, incoherent shadows, ungrounded objects, or decoration that blocks play. This entry records the quality bar only; no skill upgrade is being made in this turn.
+
+**Read:** `user-corrections.md`; `/Users/nick/Downloads/UpKwx5O.jpeg`; `.agents/skills/foundry-battlemap/SKILL.md`; `.agents/skills/foundry-battlemap/references/foundry.md`; `.agents/skills/foundry-battlemap/references/judge.md`; `.agents/skills/foundry-battlemap/references/prompt.md`; `.agents/skills/foundry-battlemap/references/repair.md`; `.agents/skills/foundry-battlemap/references/slots.md`; `.agents/skills/obsidian-markdown/SKILL.md`
+
+**count:** 1
+
+**status:** open
+
+**Fix:** _Deferred by Nick's instruction; this turn records the new image's quality bar only and does not upgrade the skill._
