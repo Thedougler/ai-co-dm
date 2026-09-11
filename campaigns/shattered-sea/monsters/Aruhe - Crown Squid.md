@@ -10,6 +10,7 @@ tags: [monster, aruhe]
 ---
 # Great Crown Squid
 ![[attachments/shattered-sea/creatures/great-crown-squid-of-aruhe-01.jpg|Great Crown Squid of Aruhe]]
+![[attachments/shattered-sea/creatures/great-crown-squid-of-aruhe-token.png|Great Crown Squid FoundryVTT token]]
 > [!narration] Narration
 > The Great Crown Squid hangs between the trees, its house-sized mantle broad as a roof and translucent enough to show a deep violet glow inside. Thick arms spread from beneath it to grip the trunks, their bark-dark skin ridged and studded with thorny suckers, while a curtain of fine tendrils hangs toward the forest floor. Mist beads on the rubbery body and falls from the trailing tendrils as the whole shape stays almost still above the canopy.
 
