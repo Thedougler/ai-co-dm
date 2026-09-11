@@ -48,6 +48,7 @@ Only obvious filename-to-note matches were copied from the legacy wiki. Files li
 | Folder | Files |
 |---|---:|
 | `banners` | 26 |
+| `character-references` | 2 |
 | `character-sheets` | 1 |
 | `creatures` | 3 |
 | `layouts` | 25 |

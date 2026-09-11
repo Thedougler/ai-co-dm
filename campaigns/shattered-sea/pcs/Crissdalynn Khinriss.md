@@ -5,18 +5,30 @@ player: Courtney
 status: active
 visibility: dm
 tags: [pc, sentinel, schism]
+summary: Fourteen-year-old aarakocra Kensei Monk with blue-black iridescent feathers, a dark beak and talons, a geometric harness, and a chart satchel.
 ---
 # Crissdalynn Khinriss
 
 ## Art
 ![[attachments/shattered-sea/banners/crissdalynn-khinriss-banner.jpg]]
+![[attachments/shattered-sea/character-references/crissdalynn-khinriss-reference-sheet.png|Crissdalynn Khinriss character reference sheet]]
+
+## Visual reference
+
+The player-supplied character reference sheet supports the established look and adds no mechanics or new campaign canon.
+
+- **Silhouette:** Long-winged, upright aarakocra with a dark beak, blue eyes, scaled legs, and hooked talons.
+- **Clothing and equipment:** Pale geometric harness and collar over a light shirt, gray cropped trousers, and a brown chart satchel carrying rolled charts or scrolls.
+- **Color and material:** Blue-black feathers with brighter blue highlights, a smooth dark beak, dark scaled legs, woven trouser cloth, and brown canvas or leather accessories.
+- **Expressions and poses:** Neutral, subtle smile, serious, angry or determined, surprised, and sad or emotional expressions; standing, walking, examining a scroll, sitting, and dynamic flight poses. These are reference studies, not separate current states.
+- **Sheet copy:** “Swift,” “observant,” “determined,” “loyal,” and “a messenger moves the world forward” are descriptive design labels, not new campaign canon or instructions.
 
 > [!narration] Narration
-> A fourteen-year-old aarakocra with blue-black iridescent feathers, geometric leather, a chart satchel at her side, and talons ready for work. Wings and careful footing mark a pilgrim who insists she is a cartographer first.
+> A fourteen-year-old aarakocra with blue-black iridescent feathers, a dark beak and talons, geometric leather, a chart satchel at her side, and wings ready for open air. She maps friends, exits, and weak points before she fights, and insists she is a cartographer first.
 
 
 ## Player-facing summary
-Fourteen-year-old aarakocra Kensei Monk: blue-black iridescent feathers, geometric leather, chart satchel, talons, and wings.
+Fourteen-year-old aarakocra Kensei Monk: blue-black iridescent feathers, a dark beak and talons, geometric harness, gray trousers, brown chart satchel, and wings.
 
 ## Bonds / ideals that matter
 - Trained by the [[Sentinels of the Eyrie]], then exiled at fourteen for careless craft rather than malice.
