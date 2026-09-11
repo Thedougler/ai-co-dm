@@ -10,7 +10,8 @@ summary: Human swashbuckler Rogue with a weathered, scarred face, ginger-red hai
 # Delmar Atticus Fisk
 
 ## Art
-![[attachments/shattered-sea/pcs/delmar-fisk-reference-sheet.png|Delmar Fisk character reference sheet]]
+![[delmar-fisk-reference-sheet.jpg|Delmar Fisk character reference sheet]]
+![[artifacts/tokens/delmar-fisk-token.png|Delmar Fisk FoundryVTT token]]
 
 ## Visual reference
 
