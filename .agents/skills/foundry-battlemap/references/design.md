@@ -2,6 +2,20 @@
 
 Write this brief before touching the prompt template. Every field feeds a slot in the Build step. The brief is not sent to the image tool — it is the design the prompt communicates.
 
+## Beat jobs
+
+When Intake loaded a session beat, the map serves that whole beat — type, Scene ends when, Goal, and the beat's zones and clocks — not the place's terrain alone. Design the board holistically for those jobs, at the SCALE that beat needs.
+
+| Beat type | Map jobs |
+|---|---|
+| Development | Things to explore and learn sit on the map: clues, approaches, distinct ground, something to notice or choose between. |
+| Cliffhanger or action Hook | Routes, cover, exits, and the ground the contest uses, at the scale of that chase, hunt, or fight. |
+| Climax | The confrontation ground at the scale of that fight or choice. |
+| Resolution | The place as it now is after the Climax. |
+| No session beat | The fight or exploration this map is for. |
+
+Write one sentence of beat jobs. Those jobs drive the zone plan and SCALE.
+
 ## Zone plan
 
 A zone is a spatial region with a tactical job. Name at least two. State each zone's position, rough footprint, and what it does for the encounter.
@@ -61,33 +75,38 @@ Example:
 
 ## Authored identity
 
-One sentence naming the culture, function, or story this map's architecture and props serve. Every prop should feel placed with intent for that identity. A map where props vary and tell one coherent story reads as a specific place; a map with generic repeated stamps reads as a tile set.
+One sentence naming the culture, function, or story this map's architecture and props serve, taken from the PLACE owner page. Every prop should feel placed with intent for that identity. Architecture and crossings are what that page names. Unclaimed land stays wild: stacked fruiting terraces swallowed by canopy, grass, river, and wild fords over pale stone as the page describes. Roads, stone bridges, cobbled paths, paved courtyards, and buildings appear only when the owner page names them.
 
 Example:
 > Ottoman-baroque royal audience hall built for ceremony, intimidation, and processional theatre.
 
+Example (unclaimed jungle):
+> Abandoned stacked fruiting terraces swallowed by canopy, with a wild pale-stone ford through grassland river — no roads, bridges, or buildings.
+
 ## FRAME
 
-Choose the aspect ratio from the tactical footprint — how the zones and routes lay out in space. Default is portrait 9:16. Override when the site demands it.
+Choose the aspect ratio from the tactical footprint — how the zones and routes lay out in space. Default is portrait 9:16. Keep 9:16 unless the site's footprint demands another ratio and the user did not already name 9:16. Do not substitute a nearby ratio (9:20, 9:18).
 
 | Label | Ratio | Squares (W × H) | When |
 |---|---|---|---|
-| portrait | 9:16 | 25×45 | most encounters, vertical sites |
+| portrait | 9:16 | 36×64 | default — zoomed-out place, more of the site on the canvas |
+| portrait-tight | 9:16 | 18×32 or 25×45 | only when the user asks for a tight board |
 | long-axial | ~9:24+ | 17×48 or fitted | long halls, ship decks, canyons, processional spaces |
 | square | 1:1 | 30×30 | arenas, tower floors, circular clearings |
 | wide | 16:9 | 45×25 | wide decks, bridges, shoreline stretches |
 
-Pick the ratio that fits the zone plan without dead space. State the chosen ratio and square dimensions in the brief.
+Pick the ratio that fits the zone plan without dead space. Default SCALE is zoomed-out so more of the place fits (forest, grass, river, land left and right). Shrink the perceptual grid: trees, rooms, and ruins do not fill the canvas at room scale unless the user asked for a tight board. State the chosen ratio and square dimensions in the brief.
 
 ## Completion
 
 The brief is done when it names:
+- Beat jobs (type and purpose, or the fight/exploration this map is for)
 - At least two zones with position and tactical job
 - A primary route and at least one alternate route
 - Three or more cover/blockers with grid-scale footprint
 - One staging area with approximate size
 - A material ladder of three or more materials
-- An authored identity sentence
-- A FRAME ratio and square dimensions
+- An authored identity sentence grounded in the owner page
+- A FRAME ratio and SCALE (zoomed-out default)
 
 Vehicle and multi-level modes add their own fields — see [modes.md](modes.md).

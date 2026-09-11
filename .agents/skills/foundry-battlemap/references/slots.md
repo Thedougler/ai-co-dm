@@ -2,7 +2,7 @@
 
 ## PLACE
 
-Name the space and the walkable plan, not the adventure plot.
+Name the space and the walkable plan, not the adventure plot. Resolve the owner page with qmd-retrieval and read it before filling architecture.
 
 Good: `two-storey coaching inn common room with bar north, hearth east, stairs west, open floor center`
 Bad: `the party fights goblins here`
@@ -54,19 +54,20 @@ Examples:
 
 ## SCALE
 
-Suggested grid dimensions for the chosen FRAME ratio. Foundry draws the grid — this sets the spatial feel.
+Suggested grid dimensions for the chosen FRAME ratio. Foundry draws the grid — this sets the spatial feel. Default is zoomed-out so more of the place fits. Tight boards only when the user asks for one.
 
 | FRAME | Label | Squares (W × H) | Use |
 |---|---|---|---|
-| portrait 9:16 | tight | 18×32 | single room, boss dais |
-| portrait 9:16 | default | 25×45 | standard encounter |
-| portrait 9:16 | wide-site | 30×54 | street, camp, small wilderness |
+| portrait 9:16 | default | 36×64 | zoomed-out place — more forest, grass, river, land left and right |
+| portrait 9:16 | landscape | 45×80 | still larger valley or canopy |
+| portrait 9:16 | tight | 18×32 | single room, boss dais — only when asked |
+| portrait 9:16 | encounter | 25×45 | room-scale fight — only when asked for a tight board |
 | long-axial | hall | 17×48 | ceremonial hall, canyon |
 | long-axial | ship | 12×40 | vessel deck |
 | square | arena | 30×30 | arena, tower floor, clearing |
 | wide 16:9 | bridge | 45×25 | wide deck, bridge, shoreline |
 
-If they named a grid, use theirs. Match the chosen FRAME ratio.
+If they named a grid, use theirs. Match the chosen FRAME ratio. Features stay small enough that this many squares of the place fit on the canvas.
 
 ## STYLE
 
@@ -88,6 +89,8 @@ Do not switch to photoreal, satellite, Dyson ink-only, or Forgotten Adventures t
 Aspect ratio chosen in the Design step from the tactical footprint. See [design.md — FRAME](design.md#frame) for the selection table.
 
 Default: `tall portrait 9:16 rectangle`
+
+Keep 9:16 unless the site's footprint demands another ratio and the user did not already name 9:16. Do not substitute a nearby ratio.
 
 Presets:
 
@@ -113,7 +116,7 @@ One sentence naming the primary route, one alternate route, and the major cover/
 Examples:
 
 - `Red carpet central axis as primary route, lateral edge lanes for flanking; equestrian statues as LoS blockers, side recesses for cover`
-- `Creek ford as primary crossing, fallen log bridge upstream as alternate; boulders and root clusters for cover on both banks`
+- `Creek ford as primary crossing, stepping-stone riffle upstream as alternate; boulders and root clusters for cover on both banks`
 - `Central deck spine as primary route, side cabins for flanking; cargo crates and mast base as cover`
 
 ## MATERIALS
@@ -128,10 +131,20 @@ Examples:
 
 ## IDENTITY
 
-One sentence naming the culture, function, or story the map's architecture and props serve, drawn from the Design step's authored identity.
+One sentence naming the culture, function, or story the map's architecture and props serve, drawn from the Design step's authored identity and the PLACE owner page. Architecture and crossings are what that page names.
 
 Examples:
 
 - `Ottoman-baroque royal audience hall built for ceremony and processional theatre`
 - `Traveling carnival campsite mid-festival, invaded by a creature from the surrounding wilds`
-- `Druidic koi shrine and meditation garden maintained by a reclusive order`
+- `Abandoned stacked fruiting terraces swallowed by canopy, wild pale-stone ford through grassland river`
+
+## BEAT_JOBS
+
+One sentence of what this board must do for the session beat (or the fight/exploration this map is for), drawn from the Design step's beat jobs.
+
+Examples:
+
+- `Development: stacked fruiting terraces, eight-foot grass, pale-stone ford, and canopy pockets to drop into and read from above`
+- `Cliffhanger hunt: open sky over terrace lip, grass river east, beach line south, canopy cover as the exit`
+- `Skirmish on this tavern floor with bar cover and two exits`

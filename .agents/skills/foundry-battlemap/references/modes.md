@@ -30,7 +30,7 @@ Add these fields to the tactical brief alongside the standard fields:
 
 ### Judge additions
 
-Check these after the standard seven-category judge:
+Check these after the standard eight-category judge:
 
 - Vessel orientation is obvious at thumbnail — bow, stern, and hull shape readable.
 - Playable deck is distinguishable from rigging, sails, and scenic spars by value and material.
@@ -76,7 +76,7 @@ Optional: on underground or interior layers, a faint ghost of the surface footpr
 
 ### Judge additions
 
-Each layer passes the standard seven-category judge on its own. Then check set registration:
+Each layer passes the standard eight-category judge on its own. Then check set registration:
 
 - Shared footprint outline (shore, walls, building perimeter) aligns across all layers within one square of tolerance.
 - Orientation anchors (towers, stairwells, walls) appear in the same grid position on every layer where they should be visible.

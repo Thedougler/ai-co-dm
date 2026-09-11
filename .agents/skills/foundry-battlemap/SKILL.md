@@ -3,7 +3,7 @@ name: foundry-battlemap
 description: Generate Foundry VTT top-down TTRPG battlemap images in Czepeku painted style. Use when the user wants a battlemap, encounter map, VTT map, top-down scene, Czepeku-style map, tactical map, or a map for Foundry. One clean image per run, shown in chat. No grid, tokens, UI, or labels baked in. Do not use for overhead tokens, character portraits, dungeon room keys, or first-person establishing shots.
 metadata:
   type: workflow
-  version: "2.0"
+  version: "2.1"
 ---
 
 # Foundry Battlemap
@@ -20,7 +20,7 @@ Each new place or tactical moment needs its own map. Existing battlemaps may gui
 
 One generated image on disk, the same image shown in chat, plus a short import line.
 
-- Portrait rectangle by default. The Design step sets the FRAME ratio from the tactical footprint (default 9:16).
+- Portrait rectangle by default. The Design step sets the FRAME ratio from the tactical footprint (default 9:16). Default SCALE is zoomed-out `36×64` so more of the place fits; a tight board only when the user asks for one.
 - Orthographic top-down, Czepeku painted style
 - Clean art only — terrain, architecture, and environmental props
 - No grid, no tokens, no UI, no labels, no watermark, no fog, no light overlays
@@ -39,19 +39,21 @@ Infer from the conversation. Ask only for slots that would force a guess.
 
 Need:
 
-- `PLACE` — what this rectangle is (tavern floor, ruined nave, creek ford, ship deck)
+- `PLACE` — what this rectangle is (tavern floor, ruined nave, creek ford, ship deck). Resolve the owner page with qmd-retrieval, and read it (plus linked site pages) before placing any architecture.
+- `BEAT` — when the map serves a session beat, load that whole beat note. Type (Hook, Development, Cliffhanger, Climax, Resolution), Scene ends when, and Goal are map jobs. Design the board for those jobs at the beat's scale.
 - `BIOME` — climate and dominant materials
 - `TIME` — default daylight
 - `WEATHER` — default clear
 - `TACTICS` — one sentence of how combat movement feels (tempo, not spatial plan)
-- `SCALE` — suggested squares for the chosen FRAME. Default `25×45` (portrait 9:16, 5 ft squares)
+- `SCALE` — suggested squares for the chosen FRAME. Default zoomed-out `36×64` (portrait 9:16, 5 ft squares) so more of the place fits — more forest, grass, river, and land left and right. Tight board (`18×32` or `25×45`) only when the user asks for one.
 - `STYLE` — default Czepeku painted if they did not name one
+- `FRAME` — default tall portrait 9:16. Keep 9:16 unless the site's footprint demands another ratio and the user did not already name 9:16.
 
 Do not ask for grid color, DPI, wall-layer JSON, or token placement.
 
 A variant of an earlier map is a new run for the same site. Reuse PLACE, TACTICS, and SCALE only when the prior map depicts that exact site and layout. Change only TIME, WEATHER, or damage state.
 
-**Done when** PLACE and BIOME are filled.
+**Done when** PLACE and BIOME are filled, the PLACE owner page is read or flagged missing, and a session-serving map has BEAT type and purpose.
 
 ### 2. Design
 
@@ -65,16 +67,18 @@ Write a tactical brief before touching the prompt template. The brief designs th
 
 **Write the brief** with these fields. Definitions, examples, and completion tests live in [references/design.md](references/design.md).
 
-- **Zone plan** — name at least two zones, their positions, and their tactical jobs.
+- **Beat jobs** — from Intake BEAT (or the fight/exploration this map is for). Design the board holistically for those jobs at the beat's scale. A Development puts things to explore and learn on the map. A Cliffhanger or action Hook puts the routes, cover, and exits the contest uses. A Climax puts the confrontation ground. A Resolution shows the place as it now is.
+- **Zone plan** — name at least two zones, their positions, and their tactical jobs — including the beat's explore/learn or contest jobs.
 - **Route grammar** — a primary route (toe-to-toe lane) and at least one alternate route (flanking, bypass). Name chokepoints and threshold crossings.
 - **Cover and blocker inventory** — at least three items with grid-scale footprint and tactical effect (half cover, full LoS block, elevation, difficult terrain).
 - **Staging reservation** — where open floor is reserved for tokens. State position and approximate size.
 - **Elevation reads** — stairs, dais, pit, bank, balcony. Only what reads from overhead.
 - **Material ladder** — three or more materials ranked dominant (neutral ground) to accent (focal landmark).
-- **Authored identity** — one sentence: culture, function, story. Props serve this identity.
-- **FRAME** — aspect ratio from the tactical footprint. Default portrait 9:16.
+- **Authored identity** — one sentence: culture, function, story from the owner page. Architecture and crossings are what that page names. Unclaimed land stays wild: terraces, canopy, grass, river, and pale-stone fords as the page describes.
+- **FRAME** — aspect ratio from the tactical footprint. Default portrait 9:16. Keep 9:16 unless the site's footprint demands another ratio.
+- **SCALE** — zoomed-out default `36×64` on 9:16 so more of the place fits. Tight `18×32` or `25×45` only when the user asked for a tight board.
 
-**Done when** the brief names at least two zones, a primary and alternate route, three cover/blockers with footprint, one staging area, a material ladder, an identity sentence, and a FRAME ratio. Vehicle and multi-level modes add their own fields — see [references/modes.md](references/modes.md).
+**Done when** the brief names beat jobs, at least two zones, a primary and alternate route, three cover/blockers with footprint, one staging area, a material ladder, an identity sentence grounded in the owner page, a FRAME ratio, and SCALE. Vehicle and multi-level modes add their own fields — see [references/modes.md](references/modes.md).
 
 ### 3. Build
 
@@ -82,7 +86,7 @@ Copy the locked prompt in [references/prompt.md](references/prompt.md). Fill eve
 
 Slot tables, style lock, and composition recipes live in [references/slots.md](references/slots.md).
 
-New slots from the brief: `{FRAME}`, `{ZONES}`, `{ROUTES_AND_COVER}`, `{MATERIALS}`, `{IDENTITY}`.
+New slots from the brief: `{FRAME}`, `{ZONES}`, `{ROUTES_AND_COVER}`, `{MATERIALS}`, `{IDENTITY}`, `{BEAT_JOBS}`.
 
 If a reference map or sketch is attached, add this line after PLACE:
 
@@ -104,17 +108,17 @@ Multi-level mode: generate one image per layer, same FRAME, same footprint. See 
 
 ### 5. Judge
 
-Pass only if all seven categories are true. Full checklist lives in [references/judge.md](references/judge.md).
+Pass only if all eight categories are true. Full checklist lives in [references/judge.md](references/judge.md).
 
 Three-scale check:
 
 1. **Thumbnail** — zones separate by silhouette and value, orientation obvious, no dead rectangles.
 2. **Normal VTT zoom** — walkable squares, cover, LoS breaks, routes, doors, stairs readable.
-3. **Grid scale** — props have believable multi-square footprints, staging areas hold tokens, material hierarchy works.
+3. **Grid scale** — props have believable multi-square footprints, staging areas hold tokens, material hierarchy works. The perceptual grid matches SCALE: a valley, canopy, or other large place shows more of the place, not room-scale trees filling the canvas.
 
-Plus: camera orthographic, FRAME correct, board empty (no grid, no tokens, no chrome), style is Czepeku painted with authored identity and grounded depth.
+Plus: camera orthographic, FRAME is the declared ratio (default 9:16, not a nearby substitute), board empty (no grid, no tokens, no chrome), style is Czepeku painted with owner-page identity and grounded depth, architecture matches the owner page, beat jobs are on the board at that SCALE.
 
-A beautiful image that lacks tactical reads fails. A generic map that is technically overhead and clean fails.
+A beautiful image that lacks tactical reads fails. A generic map that is technically overhead and clean fails. A map of place-and-terrain alone that ignores the session beat fails.
 
 Vehicle and multi-level modes add judge criteria — see [references/modes.md](references/modes.md).
 
