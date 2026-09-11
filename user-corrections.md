@@ -44,6 +44,20 @@ Follow skill `agentic-system-designer` (Intake → Baseline → Fix → Prove �
 
 ## Log
 
+### 2026-09-10 — Professional-grade battlemap quality bar
+
+**Error:** Generated Foundry battlemaps have been judged mainly on whether they depict the requested scene, without a professional battlemap quality bar for composition, tactical readability, depth, environmental storytelling, and finish.
+
+**Correction:** The supplied reference sets the bar: a purpose-built, top-down, grid-readable map with a strong visual read across distinct tactical zones; irregular but intentional land and water shapes; multiple connected routes, crossings, chokepoints, and flanking lanes; large cover and line-of-sight blockers that remain legible at grid scale; open staging spaces; layered depth through canopy, banks, cliffs, structures, bridges, and shallow water; focal landmarks within an asymmetrical but balanced composition; coherent lighting, shadows, edge blending, texture scale, and color contrast; and environmental details that make the place feel inhabited without obscuring movement. The finished map should fill its canvas with no accidental seams, dead space, generic repetition, labels, tokens, UI, or other non-map clutter. Every major shape should read immediately as terrain, cover, route, elevation, or landmark. This entry records the quality bar only; no skill upgrade is being made in this turn.
+
+**Read:** `user-corrections.md`; `/Users/nick/Downloads/mjdWReS.jpeg`; `.agents/skills/obsidian-markdown/SKILL.md`
+
+**count:** 1
+
+**status:** open
+
+**Fix:** _Deferred by Nick's instruction; this turn records the quality bar only._
+
 ### 2026-09-09 — L0 Glance heading
 
 **Error:** L0/L1/L2 sections in vault documents (`## L0 · Glance` on [[Session-11-03-Wolfrabbits]]; copy-writer skill and spawn files treat L0/L1/L2 as production headings).
