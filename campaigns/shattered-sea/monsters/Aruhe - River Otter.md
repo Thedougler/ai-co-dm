@@ -12,9 +12,7 @@ tags: [monster, aruhe]
 
 ## Statblock
 ````col
-```col-md
-flexGrow=3
-===
+Oa
 ![[aruhe-river-otter-of-aruhe.jpg|Aruhe River Otter]]
 
 > [!narration] Narration

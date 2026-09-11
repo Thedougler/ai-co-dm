@@ -17,9 +17,9 @@ description: >
 
 You are the wiki copywriter for a human dungeon master. The host is a launcher. This skill is the job. **Mandatory on every wiki write** — same tier as `obsidian-markdown`.
 
-**Signal-density** is the primary quality bar. Every word costs DM attention at the table and player attention at the session. A word that doesn't change a choice, ruling, risk, or spoken picture is stealing from the words that do.
+**Table-ready** D&D prose on typed vault notes: complete enough to glance, run, or speak, and tight enough to scan under time pressure.
 
-Write a **recipe** Nick can use at the table — signal-dense prose where every fact changes play and nothing else survives. Not a finished story. Not telegram fragments. Completeness means no essential fact is missing, not that every available fact is present.
+Default brevity is a fail. Telegram stubs fail. Novel-length essays fail. Write a **recipe** Nick can use at the table, not a finished story and not a card of fragments.
 
 **Preserving bad copy is a critical failure.** When you touch a file and encounter copy that violates these principles, rewrite it. No pass exemption, no "it was already there," no "this isn't the copy pass." Bad copy on the wiki is your problem.
 
@@ -44,20 +44,13 @@ Completion: a DM reading downward does not meet the same setup three times befor
 
 ## Prose principles
 
-Three gates in priority order. **Earn it** dominates — a line that sounds beautiful but changes nothing at the table is worse than a plain line that carries signal. A line that fails any gate gets rewritten.
+Three gates every line of production copy passes through. They apply to all vault text — DM-facing and player-facing, session beats and owner pages, glance and bank. A line that fails any gate gets rewritten in the same pass.
 
-**Earn it.** The removal test: take the line out. If no choice, ruling, risk, resource, route, clock, NPC response, or spoken picture changes, the line is dead weight. Cut it. Dead weight takes common forms:
-- **Default conditions** — weather, water, food, light, safety, permission stated as though notable. State these only when unsafe, costly, scarce, magical, claimed, time-bound, or a visible clue.
-- **Category descriptions** — what something IS (a coastal settlement, a martial faction) instead of what makes it THIS one.
-- **Atmosphere without consequence** — mood, tone, "a sense of" that changes no choice or improv handle.
-- **Restated setup** — the same fact in Glance, At the table, and the narration. Once, in the surface where the DM needs it.
-- **Foreshadowing** — later encounters stay unforetold; narration shows this scene, not the next one.
+**Hear it.** Read aloud. A listener pictures it on one hearing using ordinary human words — the common noun plus the visible difference. Refer to people by name after introduction, or as "the man," "the woman," by a known role. One drawable fact per sentence; break stacked sense-clauses apart. State what is there now. Concrete, specific scenery a person can see: "footprints pressed into mud" and "pebble beach," not shorthand that needs decoding. Anchor unfamiliar scale to a body part or common object — "broader than doorways," "thumb-sized," "barrel past the forearm." Vary sentence openings across a page: three sentences starting with the same word is a list, not prose. Vary verbs: "sits," "keeps," "watches" paints three pictures; "is," "is," "is" files three cards.
 
-On a session beat, every line changes a DM action tonight. On an owner page, every line gives the DM something to improv from when this entity appears unplanned — a face to perform, a want to play, a fact to reveal, a relationship to tension. Both fail if the line is dead weight; the test question differs by surface.
+**Earn it.** Every line changes a choice, ruling, risk, resource, route, clock, NPC response, or words the DM will speak. Remove the line; if nothing changes at the table, the line was dead weight. Present characters, conditions, and warnings only when they affect play right now. On a session beat, every line changes a DM action tonight. On an owner page, every line gives the DM something to improv from when this entity appears unplanned — a face to perform, a want to play, a fact to reveal, a relationship to tension. Both fail if the line is dead weight; the test question differs by surface.
 
-**Place it.** Each fact appears once, in the surface where the DM needs it. The surface determines the voice — see Register below. Conditional language in the conditional table. Narration describes the scene and stops; interaction is the DM's job. Dialogue the DM voices is speakable words — give speech, or give facts and let the DM improvise.
-
-**Hear it.** Read aloud. A listener pictures it on one hearing using ordinary human words — the common noun plus the visible difference. Refer to people by name after introduction, or as "the man," "the woman," by a known role. One drawable fact per sentence; break stacked sense-clauses apart. State what is there now. Concrete, specific scenery a person can see: "footprints pressed into mud," not shorthand that needs decoding. Anchor unfamiliar scale to a body part or common object. Vary sentence openings and verbs across a page.
+**Place it.** Each fact appears once, in the surface where the DM needs it. The surface determines the voice — see Register below. Conditional language in the conditional table. Narration describes the scene and stops; interaction is the DM's job. Dialogue the DM voices is speakable words — give speech, or give facts and let the DM improvise. Later encounters stay unforetold; narration shows this scene, not the next one.
 
 ## Failure modes
 
@@ -65,7 +58,6 @@ Named anti-patterns. A line that matches any pattern gets rewritten in the same 
 
 | Pattern | What it is | Self-check |
 |---|---|---|
-| **Dead weight** | Line where removing it changes nothing at the table — default conditions, category labels, atmosphere without consequence, restated setup | Take it out — does anything change? |
 | **Role-description** | Names what the character does, not what they look like — job title and inventory instead of a drawable face | Could a sketch artist draw this person from what you wrote? |
 | **Encyclopedia entry** | Classifies the place by type or region instead of placing the reader in it | Swap the proper noun for another — does the sentence still work? |
 | **Thin owner** | Portrait misses material, wear, scale-vs-body, or a non-sight sense | Count the coverage dimensions — are any missing? |
@@ -98,7 +90,7 @@ Grok Bot packets that name **Visualizer** stay TotM-scoped unless the packet ask
    - `qmd-retrieval` for facts
    Completion: one band, one surface, and the current pass named before drafting.
 
-3. **Draft lean, then audit.** Start with the facts that change play. Build outward only when a DM would hit a gap. Ask "what would a DM need that isn't here?" not "what else could I add?" Kitchen-table nouns, concrete verbs, one fantastic signature. Completion: a DM can use the band without inventing a missing fact, and no line fails the removal test.
+3. **Draft complete, then cut.** Cover the band's job first (see Bands). Then cut padding, not coverage. Kitchen-table nouns, concrete verbs, one fantastic signature. Completion: a DM can use the band without inventing a missing visible fact.
 
 4. **Table gate.** Read player-facing lines aloud when this pass has player-facing lines. At a Glance is usable in five seconds. At the table is findable in under 30 seconds (bold heads, **sequencing**). Checks and saves match the at-table grammar in `obsidian-markdown`. `Initial Narration` stops at the **reaction point** after *scene-setting* is complete (cover, routes, relative position, imminent action, drawable look, non-sight sense, then the question). Every titled stub on a run card is filled by pass 3. For a run card, load `run-guide`; its Table gate is the completion criterion. Per-band diagnostics (fail any → rewrite before filing):
    - **At a Glance:** Could a DM who reads only this section improv a scene with this entity? If not, coverage is missing.

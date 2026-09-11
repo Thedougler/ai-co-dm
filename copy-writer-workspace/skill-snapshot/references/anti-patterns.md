@@ -1,26 +1,6 @@
 # Anti-patterns
 
-Eight named failure modes for DM-facing and owner-page copy. Each entry: what it looks like, why it fails at the table, a before example, and the fix direction with a vault exemplar pointer. The failure modes table in `SKILL.md` names these patterns and their self-check questions; this file provides the diagnostic detail.
-
----
-
-## F0 — Dead weight
-
-**What it looks like:** A line that passes no gate — removing it changes nothing a DM will do, say, or decide at the table. Takes five common forms:
-
-1. **Default conditions.** Weather is normal, water is drinkable, road is safe, air is breathable, light is adequate, people are friendly. These are only worth stating when unsafe, costly, scarce, magical, claimed, time-bound, or a visible clue.
-2. **Category descriptions.** Classifying what something IS ("a coastal trading settlement," "a leather-hilted rapier," "a martial religious order") instead of what makes it THIS one. The category adds no improv handle; the specific difference does.
-3. **Atmosphere without consequence.** Mood, tone, feeling, "a sense of," ambient conditions that change no choice, ruling, risk, or improv handle.
-4. **Restated setup.** The same fact appearing in Glance, At the table, the narration, and the bank. State it once, in the surface where the DM needs it at the moment they need it.
-5. **Foreshadowing.** Hinting at later encounters, future dangers, or coming reveals. Narration shows this scene, not the next one.
-
-**Why it fails:** Every word costs DM attention at the table. Dead weight dilutes signal — the DM scans past the padding and may miss the line that actually matters. A page with ten lines where six are dead weight is harder to use than a page with four lines where all four change play.
-
-**Before:** "The settlement sits along the coast, a modest trading hub where merchants from across the region gather. The weather is fair and the roads are well-maintained. A gentle sea breeze carries the smell of salt and fish. The townsfolk go about their daily business, and the local guard keeps the peace."
-
-Four sentences, zero table value. Nothing the DM can improv from, no hook, no danger, no distinguishing feature. Every fact is a default condition or category label.
-
-**Fix direction:** Cut to what makes THIS place different and what the DM can use. "Barnacles grow up the dock posts past the high-water mark. The harbourmaster's board shows six berths and one name crossed out in red." Two facts: one shows the water level is wrong, one gives the DM a hook. Everything a DM needs to start a scene.
+Seven named failure modes for DM-facing and owner-page copy. Each entry: what it looks like, why it fails at the table, a before example, and the fix direction with a vault exemplar pointer. The failure modes table in `SKILL.md` names these patterns and their self-check questions; this file provides the diagnostic detail.
 
 ---
 
