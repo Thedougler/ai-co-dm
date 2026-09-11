@@ -1,5 +1,5 @@
 ---
-summary: Nick's correction log. Writers append on #ERROR; ASD drains. Open: over-scoped `.agent` typo; token subject isolation; battlemap default zoom; invented Aruhe claimed works.
+summary: Nick's correction log. Writers append on #ERROR; ASD drains. Open: over-scoped `.agent` typo; token subject isolation; battlemap default zoom; invented Aruhe claimed works; battlemap from whole session beat.
 ---
 
 # User corrections
@@ -826,3 +826,17 @@ Future `foundry-battlemap` upgrades should add a vehicle or deck-plan mode with 
 **status:** open
 
 **Fix:** _No fix in this turn._ Durable change belongs in `foundry-battlemap` identity/judge: vault-grounded architecture only; reject invented claimed works (bridges, roads, courtyards, buildings) on unclaimed sites.
+
+### 2026-09-11 — Battlemap from the whole session beat
+
+**Error:** Battlemaps were generated from place and terrain alone, without considering the session beat type they serve or that beat's purpose.
+
+**Correction:** Generating a battlemap must take the entire session beat into consideration. Design the map holistically and harmoniously for that beat's goals and at the appropriate scale. Agents must consider the session beat type they are building the map for. Development beats typically have things to explore and learn, and those should be on the map.
+
+**Read:** `.agents/skills/foundry-battlemap/SKILL.md`; `.agents/skills/foundry-battlemap/references/design.md`; `.agents/skills/foundry-battlemap/references/slots.md`; `campaigns/shattered-sea/sessions/11/Session-11-01-Angry-Birds.md`
+
+**count:** 1
+
+**status:** open
+
+**Fix:** _No fix in this turn._ Durable change belongs in `foundry-battlemap` intake and Design: load the session beat, use beat type and purpose (Hook, Development, Cliffhanger, and so on) as map jobs, and judge the board against those goals and scale.
