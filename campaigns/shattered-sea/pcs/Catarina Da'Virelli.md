@@ -10,7 +10,8 @@ summary: White-haired, physically frail human Artillerist and owner of Cat's Cur
 # Catarina Da'Virelli
 
 ## Art
-![[attachments/shattered-sea/character-references/catarina-davirelli-reference-sheet.png|Catarina Da'Virelli character reference sheet]]
+![[catarina-davirelli-reference-sheet.jpg|Catarina Da'Virelli character reference sheet]]
+![[artifacts/tokens/catarina-davirelli-token.png|Catarina Da'Virelli FoundryVTT token]]
 
 **Current visual canon:** Player-supplied reference sheet. It establishes Catarina's short white curls, copper goggles, red-brown dress and bodice, gathered white sleeves, mechanical gloves, sturdy boots, cross necklace, and owl automaton. The unnamed small-automaton studies remain visual studies, not separate named entities.
 
