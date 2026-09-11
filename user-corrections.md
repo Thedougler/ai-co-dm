@@ -44,6 +44,20 @@ Follow skill `agentic-system-designer` (Intake → Baseline → Fix → Prove �
 
 ## Log
 
+### 2026-09-11 — Talon owner page carries the statblock
+
+**Error:** Treated Talon Skarn's NPC identity page and monster combat page as two owners and began updating both.
+
+**Correction:** Talon Skarn's NPC page is the single owner page; NPCs now carry their statblocks. Condense the duplicate monster page into the NPC owner, then remove the duplicate monster page.
+
+**Read:** `AGENTS.md`; `.agents/skills/wiki-ingest/SKILL.md`; `.agents/skills/obsidian-markdown/SKILL.md`; `.agents/skills/qmd-retrieval/SKILL.md`; `.agents/skills/qmd/SKILL.md`; `campaigns/shattered-sea/npcs/Talon Skarn.md`; `campaigns/shattered-sea/monsters/Talon Skarn.md`; `templates/Monster.md`; `campaigns/shattered-sea/npcs/Master Kyzil.md`; `campaigns/shattered-sea/monsters/Aruhe - Bloodhawk.md`; `/Users/nick/Downloads/ChatGPT Image Sep 11, 2026, 01_47_47 AM.png`; `/Users/nick/Downloads/grok_image_1789115953924.jpg`
+
+**count:** 2
+
+**status:** closed
+
+**Fix:** Consolidate this ingest on `campaigns/shattered-sea/npcs/Talon Skarn.md`; remove the duplicate `campaigns/shattered-sea/monsters/Talon Skarn.md` after verifying its statblock is present on the NPC owner.
+
 ### 2026-09-10 — Professional-grade battlemap quality bar
 
 **Error:** Generated Foundry battlemaps have been judged mainly on whether they depict the requested scene, without a professional battlemap quality bar for composition, tactical readability, depth, environmental storytelling, and finish.
