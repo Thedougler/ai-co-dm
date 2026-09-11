@@ -6,6 +6,7 @@ status: ready
 date: 2026-09-06
 visibility: dm
 tags: [session-prep, run-guide]
+cssclasses: [session-surface]
 summary: Adult Bloodhawk hunts the Crown Squid while young Bloodhawks flush exposed bodies; dropping into grass or river is how the party leaves that hunt.
 ---
 # Session 11 — Angry Birds
@@ -41,8 +42,6 @@ flexGrow=2
 ```
 ````
 
-````col
-```col-md
 ## Now
 
 The party starts 60 feet above the north lip of the old garden terraces. The [[Aruhe - Crown Squid]] is 30 feet north at the same height, braced through the last tree crowns. An adult [[Aruhe - Bloodhawk]] is diving out of the sun toward the squid. The young follow her line.
@@ -50,13 +49,11 @@ The party starts 60 feet above the north lip of the old garden terraces. The [[A
 East and 60 feet below, the river splits through eight-foot grass. A 60-foot Dash from open air reaches that grass; a normal 30-foot move does not. South, [[Aruhe - Beach|the beach]] and [[Uncertainty]] are 60 feet away across open sky. The adult [[Aruhe - Bloodhawk]] flies 160 feet. [[Talon Skarn]] is up-sun if anyone asks to look above the hawk.
 
 The [[Aruhe - Crown Squid]] is fleeing through the last tree crowns.
-```
 
-```col-md
-flexGrow=2
-===
 ## Action cards
 
+````col
+```col-md
 **Adult [[Aruhe - Bloodhawk]].** Her chosen meal is the [[Aruhe - Crown Squid]]. While the party escapes, use Hook Talons → Haul Aloft → Serrated Beak on the squid. If a party member is at least 60 feet below her, use Terminal Stoop to open instead.
 
 - **Tell:** All four wings pin tight. Crimson tips flash against the black undersides, and the pale hook drops first.
@@ -64,11 +61,20 @@ flexGrow=2
 - **Boundary:** She will not dive into closed canopy or eight-foot grass.
 - **Bloodied 124 HP or fewer:** She releases any grabbed party member and climbs for the cloud line.
 - **Easy dial:** Use Multiattack only. Skip Terminal Stoop, Haul Aloft, and Break Turn.
-- **Default rolls:** `AC 15`, `248 HP`, and Fly `160 feet`. Hook Talons is `+13` to hit for `23` slashing; on a hit, the target is **Grappled** (escape `DC 19`) and **Restrained**. Serrated Beak is `+13` to hit for `28` piercing, plus `2d6` slashing against a creature the adult has Grappled. Terminal Stoop moves up to `160 feet` without provoking Opportunity Attacks, then attacks with `+13` and Advantage, adds `27` bludgeoning, and calls for **Constitution saving throw — `DC 17`** or **Stunned** until the start of the adult's next turn. Haul Aloft flies up to `80 feet` without provoking an Opportunity Attack from the creature it has Grappled; Break Turn adds `3` to AC against one visible attack and can move the adult `30 feet` if that attack misses.
+- **Default rolls:** `AC 15`, `248 HP`, and Fly `160 feet`.
+- **Hook Talons:** `+13` to hit for `23` slashing; on a hit, the target is **Grappled** (escape `DC 19`) and **Restrained**.
+- **Serrated Beak:** `+13` to hit for `28` piercing, plus `2d6` slashing against a creature the adult has Grappled.
+- **Terminal Stoop:** Moves up to `160 feet` without provoking Opportunity Attacks, then attacks with `+13` and Advantage, adds `27` bludgeoning, and calls for **Constitution saving throw — `DC 17`** or **Stunned** until the start of the adult's next turn.
+- **Haul Aloft:** Flies up to `80 feet` without provoking an Opportunity Attack from the creature it has Grappled.
+- **Break Turn:** Adds `3` to AC against one visible attack and can move the adult `30 feet` if that attack misses.
+```
 
+```col-md
 **Young [[Aruhe - Young Bloodhawk|Bloodhawks]].** Smaller charcoal four-winged hawks follow the adult's pass and strike whatever she flushes. They are pressure around the hunt, not a second boss.
 
-- **Default rolls:** `AC 14`, `45 HP`, and Fly `80 feet`. Flyby lets a young Bloodhawk leave an enemy's reach without provoking an Opportunity Attack. Its Beak and Talon are `+6` to hit for `8` piercing and `7` slashing.
+- **Default rolls:** `AC 14`, `45 HP`, and Fly `80 feet`.
+- **Flyby:** A young Bloodhawk leaves an enemy's reach without provoking an Opportunity Attack.
+- **Beak and Talon:** `+6` to hit for `8` piercing and `7` slashing.
 - **Boundary:** They will not follow into eight-foot grass or closed canopy.
 - **Flush:** Flush Dive flies up to `80 feet` in a straight line toward one airborne creature and attacks with `+6`. On a hit, the young Bloodhawk drives that body `30 feet` straight down. A body already within `30 feet` of the terrace woods or another solid surface crash-lands, takes `2d6` bludgeoning damage, and falls **Prone**.
 ```
@@ -85,7 +91,7 @@ flexGrow=2
 
 ````col
 ```col-md
-flexGrow=2
+flexGrow=3
 ===
 ## Procedure
 

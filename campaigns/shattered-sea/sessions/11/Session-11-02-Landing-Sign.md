@@ -47,29 +47,41 @@ flexGrow=2
 ```
 ````
 
-````col
-```col-md
 ## Now
 
 The party stands on [[Aruhe - River Landing Bank]], in eight-foot gold-green grass with moving water on the east edge. The river curls around the south edge of this bank. Wet prints start underfoot and run 60 feet north toward the smoke. The fire scrape, closed crate, bowls, and fallen orange fruit sit 15 feet west of the water, on the river side of those prints. Mossy terrace stone stands 20 feet west of the prints. Crash-landed party members start **Prone** in those terrace woods. A 30-foot move stays on this bank. A 60-foot Dash follows the prints north off this bank. The smoke is a thin column on the northern horizon in this valley, not a reachable place in this slice.
+
+## Action cards
+
+````col
+```col-md
+**This bank.** Eight-foot gold-green grass is Difficult Terrain and heavily obscures anything beyond 10 feet.
+
+- **Hide:** The grass hides a standing body.
+- **Corridor:** Movement leaves a visible crushed corridor.
 ```
 
 ```col-md
-flexGrow=2
-===
-## Action cards
+**[[Taking on Aruhe]].** Fruit skins and whole fruit already on the ground are received, not taken.
 
-**This bank.** Eight-foot gold-green grass is Difficult Terrain and heavily obscures anything beyond 10 feet. Movement leaves a visible crushed corridor.
+- **Take:** Plucking living plants, fishing, trapping, or killing to carry flesh is a take.
+- **Hazards table:** Do not roll the hazards table here.
+```
 
-**[[Taking on Aruhe]].** Fruit skins and whole fruit already on the ground are received, not taken. Plucking living plants, fishing, trapping, or killing to carry flesh is a take. Do not roll the hazards table here.
+```col-md
+**Fallen [[Aruhe - Redheart Berry]].** Living red berries still hang from short thick stems at the wet margin.
 
-**Fallen [[Aruhe - Redheart Berry]].** Living red berries still hang from short thick stems at the wet margin. Eating a fallen berry is a Bonus Action and regains `8d4 + 8` hit points. The orange fruit at the crate is already down and has no listed heal.
-
-**Identify.** **Intelligence (Nature) — identify**
-- `DC 10` → The red berries are edible, not poison.
-- `DC 15` or *Identify* → Eating a fallen [[Aruhe - Redheart Berry]] is a Bonus Action and regains `8d4 + 8` hit points.
+- **Fallen:** Eating a fallen berry is a Bonus Action and regains `8d4 + 8` hit points.
+- **Orange fruit:** The orange fruit at the crate is already down and has no listed heal.
 
 ![[attachments/shattered-sea/items/aruhe-redheart-berry.jpg|Redheart Berry]]
+```
+
+```col-md
+**Identify.** **Intelligence (Nature) — identify**
+
+- `DC 10` → The red berries are edible, not poison.
+- `DC 15` or *Identify* → Eating a fallen [[Aruhe - Redheart Berry]] is a Bonus Action and regains `8d4 + 8` hit points.
 ```
 ````
 
