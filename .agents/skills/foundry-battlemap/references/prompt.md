@@ -1,27 +1,31 @@
 # Locked Imagine prompt
 
-Fill braces. Keep camera, frame, empty-board, and forbidden blocks verbatim.
+Fill braces from the Design step's tactical brief and the Intake slots. Keep camera, empty-board, and forbidden blocks verbatim.
 
 ```
-Foundry VTT battlemap. Czepeku-quality hand-painted TTRPG battlemap. Orthographic top-down cartography.
+Foundry VTT battlemap. Czepeku-quality hand-painted TTRPG battlemap. Orthographic top-down cartography. Full and complete map — every square of the canvas is finished terrain.
 
 Camera: locked straight down. 90-degree overhead. Orthographic. No tilt. No isometric. No 3/4 perspective. No horizon. No skybox. No first-person scene.
 
-Frame: tall portrait 9:16 rectangle. The play-space fills the entire canvas edge to edge. No border, no letterbox, no vignette frame.
+Frame: {FRAME}. The play-space fills the entire canvas edge to edge. No border, no letterbox, no vignette frame.
 
 Place: {PLACE}.
+Zones: {ZONES}.
+Routes and cover: {ROUTES_AND_COVER}.
 Biome and materials: {BIOME}.
 Light and time: {TIME}.
 Weather: {WEATHER}.
 Tactics: {TACTICS}.
-Suggested grid feel: {SCALE} squares on this rectangle, five feet each. Do not draw the grid.
+Suggested grid feel: {SCALE} squares on this rectangle, five feet each. Do not draw the grid. No grid lines whatsoever.
 
 Style: {STYLE}.
-Finish: sharp readable materials, painted texture, thin inked edges, rich narrative clutter on the borders and furniture, open floor where tokens will stand.
+Materials: {MATERIALS}.
+Identity: {IDENTITY}.
+Finish: sharp readable materials, painted texture, thin inked edges, rich narrative clutter on the borders and landmarks, open floor where tokens will stand. Contact shadows and cast shadows ground every prop. Edge-to-edge fill — no dead space, no accidental seams.
 
 Empty board: terrain, architecture, furniture, and environmental props only. No player characters. No monster tokens. No corpses unless the place is a battlefield the user named. No fog of war. No light-source overlays. No walls-as-lines.
 
-Forbidden: square grid, hex grid, measurement marks, compass rose, title caption, watermark, UI chrome, token rings, character portraits, isometric 30-degree view, satellite photorealism, fisheye, horizon line, baked lighting regions, page margin.
+Forbidden: square grid, hex grid, measurement marks, compass rose, title caption, watermark, UI chrome, token rings, character portraits, isometric 30-degree view, satellite photorealism, fisheye, horizon line, baked lighting regions, page margin, any grid overlay.
 ```
 
 A copyable blank lives in [../assets/prompt-template.txt](../assets/prompt-template.txt).

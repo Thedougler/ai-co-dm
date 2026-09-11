@@ -30,7 +30,7 @@ Presets:
 
 - dawn — `low warm sidelight from the east edge, long painted shadows, gold haze`
 - dusk — `warm low light from the west edge, cooler fill`
-- night — `moonlit blues and practical lantern pools painted into the surfaces, still no fog overlay`
+- night — `moonlit blues and practical lantern pools painted into the surfaces`
 - planar — name the plane and the light (`fey gold-green, no sun`)
 
 ## WEATHER
@@ -41,28 +41,32 @@ Presets: `light rain sheen on stone`, `fresh snow cover with paths kicked throug
 
 ## TACTICS
 
-One sentence. Force cover, loops, and a place to stand.
+One sentence describing how combat movement feels in this space. The spatial plan (zones, routes, cover positions) lives in ZONES and ROUTES_AND_COVER — TACTICS captures the encounter tempo.
 
-Default if they gave none: `open floor for a medium skirmish, cover along the long edges, one choke, a second path around it`
+Default if they gave none: `medium skirmish with toe-to-toe and flanking options, cover along the long edges`
 
-Czepeku checks to hit:
+Examples:
 
-- hiding spaces that still read as floor
-- more than one path between two points
-- a toe-to-toe lane and a flanking lane
-- elevation only if it stays readable from overhead (stairs, dais, pit, balcony)
+- `running retreat down a long hall, pursuers closing from behind`
+- `defensive stand at a chokepoint with pressure from multiple angles`
+- `ambush in dense cover, short sight lines, close-range engagement`
+- `open arena, nowhere to hide, forced commitment`
 
 ## SCALE
 
-Suggested Foundry grid for this 9:16 frame. Not painted.
+Suggested grid dimensions for the chosen FRAME ratio. Foundry draws the grid — this sets the spatial feel.
 
-| Label | Squares (W x H) | Use |
-|---|---|---|
-| tight | 18x32 | single room, boss dais |
-| default | 25x45 | standard encounter |
-| wide-site | 30x54 | street, camp, small wilderness |
+| FRAME | Label | Squares (W × H) | Use |
+|---|---|---|---|
+| portrait 9:16 | tight | 18×32 | single room, boss dais |
+| portrait 9:16 | default | 25×45 | standard encounter |
+| portrait 9:16 | wide-site | 30×54 | street, camp, small wilderness |
+| long-axial | hall | 17×48 | ceremonial hall, canyon |
+| long-axial | ship | 12×40 | vessel deck |
+| square | arena | 30×30 | arena, tower floor, clearing |
+| wide 16:9 | bridge | 45×25 | wide deck, bridge, shoreline |
 
-If they named a grid, use theirs. Keep the image 9:16 anyway.
+If they named a grid, use theirs. Match the chosen FRAME ratio.
 
 ## STYLE
 
@@ -78,3 +82,56 @@ Presets:
 - sci-fi — `same overhead language, panel lines, hazard stripes, clean alloys, Czepeku sci-fi cartography`
 
 Do not switch to photoreal, satellite, Dyson ink-only, or Forgotten Adventures token style unless they named that.
+
+## FRAME
+
+Aspect ratio chosen in the Design step from the tactical footprint. See [design.md — FRAME](design.md#frame) for the selection table.
+
+Default: `tall portrait 9:16 rectangle`
+
+Presets:
+
+- portrait — `tall portrait 9:16 rectangle`
+- long-axial — `tall portrait rectangle, approximately 9:24 or fitted to the zone plan`
+- square — `square 1:1 rectangle`
+- wide — `wide landscape 16:9 rectangle`
+
+## ZONES
+
+One sentence naming the major zones and their spatial relationship, drawn from the Design step's zone plan. Aim for the macro read — what separates at thumbnail.
+
+Examples:
+
+- `Three zones along the long axis: open approach lane south, circular arena center, raised sanctum north`
+- `Radial layout: central bonfire clearing, perimeter stall ring, rocky cliff border, river margin south`
+- `Two zones divided by a creek ford: dense jungle west, open pebble beach east`
+
+## ROUTES_AND_COVER
+
+One sentence naming the primary route, one alternate route, and the major cover/blockers, drawn from the Design step's route grammar and cover inventory.
+
+Examples:
+
+- `Red carpet central axis as primary route, lateral edge lanes for flanking; equestrian statues as LoS blockers, side recesses for cover`
+- `Creek ford as primary crossing, fallen log bridge upstream as alternate; boulders and root clusters for cover on both banks`
+- `Central deck spine as primary route, side cabins for flanking; cargo crates and mast base as cover`
+
+## MATERIALS
+
+A ranked material ladder from the Design step. State three or more materials from dominant (most area, neutral) to accent (least area, saturated).
+
+Examples:
+
+- `cream marble floor, red carpet runner, green-gold geometric tile, gold gilding`
+- `olive-green grass, warm brown wood and earth, teal-blue water, orange firelight accents`
+- `warm timber planking, burgundy carpet and upholstery, cool blue cabin walls, violet arcane glow`
+
+## IDENTITY
+
+One sentence naming the culture, function, or story the map's architecture and props serve, drawn from the Design step's authored identity.
+
+Examples:
+
+- `Ottoman-baroque royal audience hall built for ceremony and processional theatre`
+- `Traveling carnival campsite mid-festival, invaded by a creature from the surrounding wilds`
+- `Druidic koi shrine and meditation garden maintained by a reclusive order`

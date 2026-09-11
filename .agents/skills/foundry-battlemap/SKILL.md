@@ -1,29 +1,26 @@
 ---
 name: foundry-battlemap
-description: Generate Foundry VTT top-down TTRPG battlemap images in Czepeku painted style. Use when the user wants a battlemap, encounter map, VTT map, top-down scene, Czepeku-style map, czpeku map, or a 9:16 portrait map for Foundry. One clean 9:16 image per run, shown in chat. No grid, tokens, UI, or labels baked in. Do not use for overhead tokens, character portraits, dungeon room keys, or first-person establishing shots.
+description: Generate Foundry VTT top-down TTRPG battlemap images in Czepeku painted style. Use when the user wants a battlemap, encounter map, VTT map, top-down scene, Czepeku-style map, tactical map, or a map for Foundry. One clean image per run, shown in chat. No grid, tokens, UI, or labels baked in. Do not use for overhead tokens, character portraits, dungeon room keys, or first-person establishing shots.
 metadata:
   type: workflow
-  version: "1.0"
+  version: "2.0"
 ---
 
 # Foundry Battlemap
 
-Make one Czepeku-grade overhead battlemap the table can drop into Foundry.
+Make one Czepeku-grade overhead battlemap the table can drop into Foundry. The floor is a tactical architecture, not a backdrop — zones, routes, cover, staging, and identity are designed before the prompt is written.
+
+Generate the most complete image the tool can produce. This skill is not constrained by DPI or resolution. The image may be upscaled in a later pass by another agent. Produce a full, finished TTRPG battlemap, not a sketch.
 
 Hand off creature stamps to **foundry-token**. Hand off room keys and site spines to **dungeon-architect**. This skill is the floor, not the actors and not the key.
 
-Each new place or tactical moment needs its own map. Existing battlemaps may
-guide vibe, layout density, palette, or terrain language, but a map of a
-different site is not a deliverable for this site. Reusing it makes locations
-feel interchangeable and confuses players. A variant is allowed only for the
-same site and same layout with a changed time, weather, damage state, or other
-explicitly requested state change.
+Each new place or tactical moment needs its own map. Existing battlemaps may guide vibe, layout density, palette, or terrain language, but a map of a different site is not a deliverable for this site. Reusing it makes locations feel interchangeable and confuses players. A variant is allowed only for the same site and same layout with a changed time, weather, damage state, or other explicitly requested state change.
 
 ## Output
 
 One Imagine image on disk, the same image shown in chat, plus a short import line.
 
-- Portrait 9:16 rectangle
+- Portrait rectangle by default. The Design step sets the FRAME ratio from the tactical footprint (default 9:16).
 - Orthographic top-down, Czepeku painted style
 - Clean art only — terrain, architecture, and environmental props
 - No grid, no tokens, no UI, no labels, no watermark, no fog, no light overlays
@@ -32,7 +29,7 @@ Default destination `artifacts/battlemaps/`. Use the path the user named when th
 
 Never deliver a path with no picture. The user must see the map in the reply.
 
-**Done when** the image is overhead and 9:16, the board is empty of creatures and chrome, the image is visible in chat, and the import line names file path plus a suggested Foundry grid.
+**Done when** the image is overhead, matches the declared FRAME ratio, the board is empty of creatures and chrome and grid, the image is visible in chat, and the import line names file path plus a suggested Foundry grid.
 
 ## Process
 
@@ -46,23 +43,46 @@ Need:
 - `BIOME` — climate and dominant materials
 - `TIME` — default daylight
 - `WEATHER` — default clear
-- `TACTICS` — one sentence of how a fight moves (choke, loops, elevation, cover, hide)
-- `SCALE` — suggested squares on the 9:16 frame. Default `25x45` (wide x tall, 5 ft squares)
+- `TACTICS` — one sentence of how combat movement feels (tempo, not spatial plan)
+- `SCALE` — suggested squares for the chosen FRAME. Default `25×45` (portrait 9:16, 5 ft squares)
 - `STYLE` — default Czepeku painted if they did not name one
 
 Do not ask for grid color, DPI, wall-layer JSON, or token placement.
 
-A variant of an earlier map is a new run for the same site. Reuse PLACE,
-TACTICS, and SCALE only when the prior map depicts that exact site and layout.
-Change only TIME, WEATHER, or damage state.
+A variant of an earlier map is a new run for the same site. Reuse PLACE, TACTICS, and SCALE only when the prior map depicts that exact site and layout. Change only TIME, WEATHER, or damage state.
 
 **Done when** PLACE and BIOME are filled.
 
-### 2. Build
+### 2. Design
 
-Copy the locked prompt in [references/prompt.md](references/prompt.md). Fill slots. Do not soften camera language.
+Write a tactical brief before touching the prompt template. The brief designs the encounter architecture of the map — what the player fights around, not just what the player sees.
+
+**Detect mode:**
+
+- PLACE names a ship, airship, cart, or craft → **vehicle/deck-plan mode**. Read [references/modes.md](references/modes.md) for additions.
+- User asks for linked levels, floors, or layers → **multi-level/map-set mode**. Read [references/modes.md](references/modes.md) for additions.
+- Otherwise → **standard mode** (this step alone).
+
+**Write the brief** with these fields. Definitions, examples, and completion tests live in [references/design.md](references/design.md).
+
+- **Zone plan** — name at least two zones, their positions, and their tactical jobs.
+- **Route grammar** — a primary route (toe-to-toe lane) and at least one alternate route (flanking, bypass). Name chokepoints and threshold crossings.
+- **Cover and blocker inventory** — at least three items with grid-scale footprint and tactical effect (half cover, full LoS block, elevation, difficult terrain).
+- **Staging reservation** — where open floor is reserved for tokens. State position and approximate size.
+- **Elevation reads** — stairs, dais, pit, bank, balcony. Only what reads from overhead.
+- **Material ladder** — three or more materials ranked dominant (neutral ground) to accent (focal landmark).
+- **Authored identity** — one sentence: culture, function, story. Props serve this identity.
+- **FRAME** — aspect ratio from the tactical footprint. Default portrait 9:16.
+
+**Done when** the brief names at least two zones, a primary and alternate route, three cover/blockers with footprint, one staging area, a material ladder, an identity sentence, and a FRAME ratio. Vehicle and multi-level modes add their own fields — see [references/modes.md](references/modes.md).
+
+### 3. Build
+
+Copy the locked prompt in [references/prompt.md](references/prompt.md). Fill every slot from the tactical brief and the Intake slots. Do not soften camera language.
 
 Slot tables, style lock, and composition recipes live in [references/slots.md](references/slots.md).
+
+New slots from the brief: `{FRAME}`, `{ZONES}`, `{ROUTES_AND_COVER}`, `{MATERIALS}`, `{IDENTITY}`.
 
 If a reference map or sketch is attached, add this line after PLACE:
 
@@ -70,37 +90,43 @@ If a reference map or sketch is attached, add this line after PLACE:
 
 **Done when** every slot in the prompt is a concrete phrase, not a placeholder.
 
-### 3. Generate
+### 4. Generate
 
 Send the filled prompt to Imagine.
 
-- Orientation `portrait`. One image. Do not tile. Do not stitch.
-- Do not bake a grid. Do not ask Imagine for DPI.
+- Set orientation to match the FRAME (portrait, landscape, or square). One image. Do not tile. Do not stitch.
+- Do not bake a grid. Do not ask Imagine for DPI. Do not constrain resolution — generate the most complete image possible.
 - Save under `artifacts/battlemaps/` with a slug name (`tavern-common-day.png`).
 
-**Done when** an image file exists.
+Multi-level mode: generate one image per layer, same FRAME, same footprint. See [references/modes.md](references/modes.md).
 
-### 4. Judge
+**Done when** an image file exists (one per layer in multi-level mode).
 
-Pass only if all of these are true. Checks live in [references/judge.md](references/judge.md).
+### 5. Judge
 
-- Camera is orthographic overhead. Roofs and tabletops read as tops.
-- Frame is a tall 9:16 play-space, edge to edge, no letterbox.
-- No grid, tokens, people-as-combatants, UI, text, or watermark.
-- Walkable floor vs blocking terrain reads at thumbnail size.
-- Style is painted hand-drawn Czepeku, not satellite photo, not isometric 30-degree city.
+Pass only if all seven categories are true. Full checklist lives in [references/judge.md](references/judge.md).
 
-Reject a first-person scene, a hero illustration, an isometric diorama, or a map with a grid burned in.
+Three-scale check:
+
+1. **Thumbnail** — zones separate by silhouette and value, orientation obvious, no dead rectangles.
+2. **Normal VTT zoom** — walkable squares, cover, LoS breaks, routes, doors, stairs readable.
+3. **Grid scale** — props have believable multi-square footprints, staging areas hold tokens, material hierarchy works.
+
+Plus: camera orthographic, FRAME correct, board empty (no grid, no tokens, no chrome), style is Czepeku painted with authored identity and grounded depth.
+
+A beautiful image that lacks tactical reads fails. A generic map that is technically overhead and clean fails.
+
+Vehicle and multi-level modes add judge criteria — see [references/modes.md](references/modes.md).
 
 **Done when** the image is marked pass or reject, with the failing check named.
 
-### 5. Repair
+### 6. Repair
 
 On reject, do not rewrite the prompt. Send one repair line from [references/repair.md](references/repair.md). Generate again. Cap at two repairs, then show the best frame and name what still fails.
 
 **Done when** the image passes, or two repairs are spent.
 
-### 6. Deliver
+### 7. Deliver
 
 Give the user, in this order:
 
@@ -109,6 +135,8 @@ Give the user, in this order:
 3. Next cut — they upscale if they want sharper squares; they draw walls and lights in Foundry
 
 Import shape is in [references/foundry.md](references/foundry.md).
+
+Multi-level mode: one import line per layer, in elevation order. See [references/modes.md](references/modes.md).
 
 Do not write a Foundry tutorial. Do not generate a second variant unless they asked for another run.
 

@@ -54,9 +54,9 @@ Follow skill `agentic-system-designer` (Intake → Baseline → Fix → Prove �
 
 **count:** 1
 
-**status:** open
+**status:** closed
 
-**Fix:** _Deferred by Nick's instruction; this turn records the quality bar only._
+**Fix:** `.agents/skills/foundry-battlemap/SKILL.md`; `references/design.md`; `references/judge.md`; `references/slots.md`; `references/prompt.md`; `references/modes.md` — v2.0 adds Design step with tactical brief (zone plan, route grammar, cover inventory, staging, material ladder, authored identity), three-scale judging (thumbnail, normal-zoom, grid-scale), flexible aspect ratio from tactical footprint, vehicle/deck-plan mode, multi-level mode. Quality bar: beautiful-but-generic fails; technically-clean-but-no-tactical-reads fails. Measure: agent-facing files with tactical-design step in `.agents/skills/foundry-battlemap` 0 → 1; judge check categories 5 → 7. Cheap check: `rg -l --glob '*.md' 'tactical brief' .agents/skills/foundry-battlemap`.
 
 ### 2026-09-09 — L0 Glance heading
 
@@ -623,9 +623,9 @@ Follow skill `agentic-system-designer` (Intake → Baseline → Fix → Prove �
 
 **count:** 2
 
-**status:** open
+**status:** closed
 
-**Fix:** _Deferred by Nick's instruction; this turn records the new image's quality bar only and does not upgrade the skill._
+**Fix:** `.agents/skills/foundry-battlemap/SKILL.md` v2.0; `references/design.md`; `references/judge.md`; `references/modes.md`; `references/slots.md`; `references/prompt.md` — quality bars from FWcxS5a and UpKwx5O integrated into the v2.0 upgrade (shared root cause with all five battlemap quality-bar corrections). Measure: see FWcxS5a entry Fix.
 
 ### 2026-09-10 — Reusable circular token finalization
 
@@ -662,9 +662,9 @@ Future skill upgrades should require a zone plan, primary and alternate routes, 
 
 **count:** 1
 
-**status:** open
+**status:** closed
 
-**Fix:** _Deferred by Nick's instruction; this turn records the quality bar only and does not upgrade the skill._
+**Fix:** `.agents/skills/foundry-battlemap/SKILL.md` v2.0; `references/design.md`; `references/judge.md`; `references/modes.md`; `references/slots.md`; `references/prompt.md`; `references/repair.md`; `references/foundry.md` — Design step with tactical brief (zone plan, route grammar, cover/blocker inventory, staging, material ladder, authored identity, FRAME); three-scale judging (thumbnail, normal-zoom, grid-scale); flexible aspect ratio from tactical footprint; vehicle/deck-plan and multi-level modes; no-DPI-constraint and no-grid messaging. Measure: agent-facing files with tactical-design step in `.agents/skills/foundry-battlemap` 0 → 1; judge check categories 5 → 7; FRAME ratio presets 1 → 4. Cheap check: `rg -l --glob '*.md' 'tactical brief' .agents/skills/foundry-battlemap`; `rg -c 'Thumbnail read\|Normal-zoom read\|Grid-scale read' .agents/skills/foundry-battlemap/references/judge.md`.
 
 ### 2026-09-10 — UpKwx5O professional battlemap quality bar
 
@@ -687,9 +687,9 @@ Future `foundry-battlemap` upgrades should require a pre-prompt zone and route p
 
 **count:** 1
 
-**status:** open
+**status:** closed
 
-**Fix:** _Deferred by Nick's instruction; this turn records the new image's quality bar only and does not upgrade the skill._
+**Fix:** Shared root cause with FWcxS5a correction. `.agents/skills/foundry-battlemap/` v2.0 upgrade integrates this quality bar into the Design step (zone plan, route grammar, cover inventory, staging, material ladder), three-scale judging, and edge-density control. See FWcxS5a Fix for measure and cheap check.
 
 ### 2026-09-10 — XHC2P6q linked-layer battlemap quality bar
 
@@ -713,9 +713,9 @@ Future `foundry-battlemap` upgrades should add an explicit multi-level or map-se
 
 **count:** 1
 
-**status:** open
+**status:** closed
 
-**Fix:** _Deferred by Nick's instruction; this turn records the new image's quality bar only and does not upgrade the skill._
+**Fix:** Shared root cause with FWcxS5a correction. `.agents/skills/foundry-battlemap/references/modes.md` adds multi-level/map-set mode with shared site footprint, orientation anchors, per-layer zone plans, vertical connection inventory, and set-registration judging. See FWcxS5a Fix for measure and cheap check.
 
 ### 2026-09-10 — SilY2cu airship battlemap quality bar
 
@@ -739,6 +739,6 @@ Future `foundry-battlemap` upgrades should add a vehicle or deck-plan mode with 
 
 **count:** 1
 
-**status:** open
+**status:** closed
 
-**Fix:** _Deferred by Nick's instruction; this turn records the new image's quality bar only and does not upgrade the skill._
+**Fix:** Shared root cause with FWcxS5a correction. `.agents/skills/foundry-battlemap/references/modes.md` adds vehicle/deck-plan mode with hull-and-deck inventory, room/threshold map, vertical transitions, dangerous edges, and playable-floor vs scenic-envelope distinction. See FWcxS5a Fix for measure and cheap check.
