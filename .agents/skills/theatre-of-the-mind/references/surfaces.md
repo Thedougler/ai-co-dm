@@ -158,9 +158,10 @@ metadata, not a line to read):
 - **{Creature}** — situated look after that roster embed
 - **Exit** — handoff when the next cockpit is on this file
 
-On session/run surfaces the only callout is `[!narration]`. DM truth and
-procedure are headings, not `[!secret]` / `[!mechanic]`. Do not put callouts
-inside table cells. Pass 1 leaves these stubs empty; pass 2 fills them.
+On session/run surfaces the only callout is `[!narration]`. Procedure is a
+heading. Do not add a `DM truth` section. Do not use `[!secret]` / `[!mechanic]`
+on session/run cards. Do not put callouts inside table cells. Pass 1 leaves
+these stubs empty; pass 2 fills them.
 
 On owner pages, put skills, DCs, saving throws, HP, conditions, and other
 procedure in a separate `[!mechanic]` callout. Keep DM-only truth in collapsed

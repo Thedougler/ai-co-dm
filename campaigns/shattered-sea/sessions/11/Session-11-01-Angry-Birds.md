@@ -13,9 +13,18 @@ summary: Adult Bloodhawk hunts the Crown Squid while young Bloodhawks flush expo
 
 ![[Session 10 - Recap#Recap]]
 
+````col
+```col-md
 ![[attachments/shattered-sea/sessions/session-11-01-angry-birds-overview.jpg|Session 11-01 Angry Birds overview]]
-![[session-11-01-angry-birds-descent.jpg|Session 11-01 descent over Aruhe]]
+```
 
+```col-md
+![[session-11-01-angry-birds-descent.jpg|Session 11-01 descent over Aruhe]]
+```
+````
+
+````col
+```col-md
 ## Scene ends when
 
 This beat ends when the party gets below the open sky. They reach eight-foot grass and moving water, crash-land in the terrace woods, or force a risky line back to the beach.
@@ -25,7 +34,11 @@ Plan for about thirty minutes.
 **If behind:** Skip the Assess row and the beach line. Run tick 1, then tick 3, and bring the party down in the grass, river, or terrace woods.
 
 **If ahead:** Cut when the party reaches the river valley. Do not add Survival checks or the hazards table here.
+```
 
+```col-md
+flexGrow=2
+===
 ## At a Glance
 
 - **Stakes:** Anyone still high, loud, separated, or glued to the squid can become prey.
@@ -33,14 +46,24 @@ Plan for about thirty minutes.
 - **Danger:** The adult [[Aruhe - Bloodhawk]] hunts the [[Aruhe - Crown Squid]]. Young Bloodhawks use Flush Dive on whatever stays airborne after the adult's pass. The party becomes prey if they stay exposed, get loud, attack, grab the squid, or fly toward the young.
 - **Silence:** Present the dive, ask what they do, and wait. If the party freezes, tick the clock once at the end of the round.
 - **Situation magnets:** Open sky above the terraces, loud magic, attacks, screams, grabbing the squid, and flying toward the young.
+```
+````
 
+````col
+```col-md
 ## Now
 
 The party starts 60 feet above the north lip of the old garden terraces. The [[Aruhe - Crown Squid]] is 30 feet north at the same height, braced through the last tree crowns. An adult [[Aruhe - Bloodhawk]] is diving out of the sun toward the squid. The young follow her line.
 
 East and 60 feet below, the river splits through eight-foot grass. A 60-foot Dash from open air reaches that grass; a normal 30-foot move does not. South, [[Aruhe - Beach|the beach]] and [[Uncertainty]] are 60 feet away across open sky. The adult [[Aruhe - Bloodhawk]] flies 160 feet. [[Talon Skarn]] is up-sun if anyone asks to look above the hawk.
 
-### Action cards
+The [[Aruhe - Crown Squid]] is fleeing through the last tree crowns.
+```
+
+```col-md
+flexGrow=2
+===
+## Action cards
 
 **Adult [[Aruhe - Bloodhawk]].** Her chosen meal is the [[Aruhe - Crown Squid]]. While the party escapes, use Hook Talons → Haul Aloft → Serrated Beak on the squid. If a party member is at least 60 feet below her, use Terminal Stoop to open instead.
 
@@ -56,8 +79,8 @@ East and 60 feet below, the river splits through eight-foot grass. A 60-foot Das
 - **Default rolls:** `AC 14`, `45 HP`, and Fly `80 feet`. Flyby lets a young Bloodhawk leave an enemy's reach without provoking an Opportunity Attack. Its Beak and Talon are `+6` to hit for `8` piercing and `7` slashing.
 - **Boundary:** They will not follow into eight-foot grass or closed canopy.
 - **Flush:** Flush Dive flies up to `80 feet` in a straight line toward one airborne creature and attacks with `+6`. On a hit, the young Bloodhawk drives that body `30 feet` straight down. A body already within `30 feet` of the terrace woods or another solid surface crash-lands, takes `2d6` bludgeoning damage, and falls **Prone**.
-
-The [[Aruhe - Crown Squid]] is fleeing through the last tree crowns.
+```
+````
 
 > [!narration] Initial Narration
 > You see a charcoal hawk falling out of the sun. Four wings pin tight against its body, crimson feathers flash on the black undersides, and a ragged red crest streams behind it. Its pale hook and boat-length talons open toward the clear purple squid thirty feet ahead of you, where bark-dark arms brace through the last tree crowns and thin hooked lines hang through the leaves. Smaller charcoal hawks drop on the same line.
@@ -68,6 +91,10 @@ The [[Aruhe - Crown Squid]] is fleeing through the last tree crowns.
 >
 > What do you do?
 
+````col
+```col-md
+flexGrow=2
+===
 ## Procedure
 
 **Escape mode.** After everyone acts, tick once if anyone is still exposed: high, loud, easy to see, glued to the squid, or flying at the young. Freezing still ticks once. Failed checks impose only the Be ready for ruling; failed checks do not advance the threat clock by themselves.
@@ -75,6 +102,14 @@ The [[Aruhe - Crown Squid]] is fleeing through the last tree crowns.
 If the party goes quiet and drops away from both animals, they land. The adult [[Aruhe - Bloodhawk]] stays on the [[Aruhe - Crown Squid]], and the clock does not tick into a grab. If the party attacks the adult hawk or stays close to the squid, she takes a party member if she can. If the party forces a line back to the beach, the adult hawk still hunts the squid across that air and hits anyone who remains exposed. Do not turn this into a fight to the death. When the party reaches grass, river, terrace woods, or beach, this beat is over.
 
 **Combat mode:** If the party commits to killing the adult [[Aruhe - Bloodhawk]], stop the clock and run the embedded Bloodhawk statblock.
+```
+
+```col-md
+## Secondary objective
+
+If the adult [[Aruhe - Bloodhawk]] is diverted for **two** threat beats, the [[Aruhe - Crown Squid]] reaches dense inland canopy and escapes. Later, a living Great Crown Squid still claims those crowns. Otherwise the adult Bloodhawk pins the Great Crown Squid at tick 3. Later, a carcass hangs in the last trees, and this animal gives no later help. Damage counts as a diversion only if it pulls the adult Bloodhawk off the Great Crown Squid for that beat.
+```
+````
 
 ## Zones
 
@@ -99,6 +134,10 @@ If the party goes quiet and drops away from both animals, they land. The adult [
 
 For any approach not listed here, keep the same question in view: does the party drop into grass or cover, stay high, make noise, or force the beach? The adult hawk is hunting the squid. A separated or exposed party member can become prey.
 
+````col
+```col-md
+flexGrow=3
+===
 ## Threat clock
 
 | Tick | What happens | Narration |
@@ -107,16 +146,16 @@ For any approach not listed here, keep the same question in view: does the party
 | 2 | The adult [[Aruhe - Bloodhawk]] wheels through open air above the terraces without leaving the squid. If anyone attacked, flared, screamed, grabbed the squid, or flew at the young this round, a young Bloodhawk uses Flush Dive against one airborne body, driving it `30 feet` down or crash-landing it for `2d6` bludgeoning and **Prone** near the terrace woods. If an exposed party member is at least 60 feet below the adult, she uses Terminal Stoop; otherwise she uses Hook Talons or Serrated Beak on an exposed body within reach. | ==_The hawk's four wings beat once through your height as it stays on the squid. Smaller charcoal hawks bank across the open air, and one drops toward any body that made itself easy to follow._== |
 | 3 | The adult [[Aruhe - Bloodhawk]] uses Terminal Stoop if the biggest or loudest party member is at least 60 feet below her; otherwise she uses Hook Talons (`+13` to hit, `23` slashing, **Grappled** escape `DC 19`, **Restrained**). She then uses Haul Aloft on a creature she has Grappled. If the [[Aruhe - Crown Squid]] has not been diverted for two beats, the adult Bloodhawk also pins it here. | ==_The adult hawk lifts its head from the squid and beats four wings for height. Boat-length talons open toward the biggest or loudest body still in the air. Below that rising shadow, the squid stays pinned in the shaking crowns._== |
 | 4 | Any party member still airborne and obvious is grabbed with Hook Talons or crash-landed in the terrace woods: `2d6` bludgeoning and **Prone**. | ==_If you are still obvious in the air, talons close out of the glare, or the terrace woods rush up in a blur of branches, stone, and fruit._== |
+```
 
+```col-md
 **Bloodied 124 HP.** The adult [[Aruhe - Bloodhawk]] releases a grabbed party member and climbs for the cloud line.
 
 **Cover reached.** The adult [[Aruhe - Bloodhawk]] will not dive into closed canopy or eight-foot grass. The clock stops.
 
 **Scene dials.** Easy: Multiattack only. Skip Terminal Stoop, Haul Aloft, and Break Turn.
-
-## Secondary objective
-
-If the adult [[Aruhe - Bloodhawk]] is diverted for **two** threat beats, the [[Aruhe - Crown Squid]] reaches dense inland canopy and escapes. Later, a living Great Crown Squid still claims those crowns. Otherwise the adult Bloodhawk pins the Great Crown Squid at tick 3. Later, a carcass hangs in the last trees, and this animal gives no later help. Damage counts as a diversion only if it pulls the adult Bloodhawk off the Great Crown Squid for that beat.
+```
+````
 
 ## How the Scene Resolves
 
@@ -138,15 +177,19 @@ If the party forced the beach, they are on the shingle. The hunt still crosses t
 
 ## Roster
 
+````col
+```col-md
 ![[Aruhe - Bloodhawk#Statblock]]
+```
 
----
-
+```col-md
 ![[Aruhe - Young Bloodhawk#Statblock]]
+```
 
----
-
+```col-md
 ![[Aruhe - Crown Squid#Statblock]]
+```
+````
 
 ## Backup
 
@@ -154,4 +197,4 @@ If the party forced the beach, they are on the shingle. The hunt still crosses t
 
 ## Battlemap
 
-![[attachments/shattered-sea/battlemaps/11-01-upscaled.jpg|Session 11-01 Angry Birds battlemap]]
+![[session-11-01-angry-birds-canopy-valley.jpg|Session 11-01 Angry Birds battlemap]]

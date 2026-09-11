@@ -40,7 +40,7 @@ write must preserve vault wikilinks, applicable callouts, and AGENTS properties.
 3. If `type: monster` → optional `## Statblock`, then the `statblock` fence.
 4. Leading `[!narration]` when the template expects it.
 5. Body: one topic/note; facts to run, say, or know; wikilink nearest index/MOC/`hot` as needed. Drop `## Do not` and other author-process bans.
-6. On session/run beats, DM truth and procedure are headings; the only callout is `[!narration]`. Do not put callouts inside table cells. Conditional spoken in a cell is `==_italic_==`. On owner pages, DM procedure / hidden truth → `[!mechanic]` or `[!secret]`. Use collapsed `[!secret]-` only on long-lived owner pages such as NPC/PC/faction pages.
+6. On session/run beats, procedure is a heading; the only callout is `[!narration]`. Do not add a `DM truth` section — the whole card is DM-facing. Layout uses `col` / `col-md` codeblock fences, not `[!col]`. Do not put callouts inside table cells. Conditional spoken in a cell is `==_italic_==`. On owner pages, DM procedure / hidden truth → `[!mechanic]` or `[!secret]`. Use collapsed `[!secret]-` only on long-lived owner pages such as NPC/PC/faction pages.
 7. In prose, lists, and callout bodies, type each line break as a real newline; do not serialize it as a backslash-`n` sequence.
 
 ## Syntax (day-to-day)
@@ -180,21 +180,35 @@ Types and tags: [references/PROPERTIES.md](references/PROPERTIES.md).
 
 ### Columns (obsidian-columns plugin)
 
-`[!col]` makes each top-level item a column. Nest `[!col-md]` to group items. Append a width multiplier: `[!col-md-3]` = three times wider.
+On session/run surfaces, use **codeblock** `col` / `col-md` fences so `[!narration]` stays a real callout. Do not wrap a session card in `[!col]` callouts.
 
-```markdown
-> [!col]
-> Left column content.
->
->> [!col-md-2]
->> Right column, twice as wide.
->>
->> More right-column content.
+Pair same-moment DM jobs. Leave spoken callouts and wide ruling tables full width.
+
+`````markdown
+````col
+```col-md
+## Scene ends when
+
+End condition, time budget, cut lines.
 ```
 
-Callout syntax preferred (live preview, pure CSS). Codeblock syntax (`col` / `col-md` fences) available when height limits or borders needed. Avoid columns on session/run surfaces — linear flow reads faster under pressure; use on reference pages, hubs, and owner pages.
+```col-md
+flexGrow=2
+===
+## At a Glance
 
-Full reference: [references/COLUMNS.md](references/COLUMNS.md).
+- **Stakes:**
+- **Goal / exit:**
+```
+````
+
+> [!narration] Initial Narration
+> Spoken scene-setting stays full width, outside the fence.
+`````
+
+Parent fences need more backticks than children. `flexGrow` sets relative width. Headings may sit inside `col-md` so the title stays with its body in Reading view.
+
+Owner pages may still use callout `[!col]` when no `[!narration]` sits in the same row. Full pairing catalog: [references/COLUMNS.md](references/COLUMNS.md).
 
 ### Also supported (use when needed)
 
@@ -208,7 +222,7 @@ Full reference: [references/COLUMNS.md](references/COLUMNS.md).
 | Frontmatter with only `title`/`date` | AGENTS `type` + campaign fields |
 | Prose monster stats / fence not first | `## Statblock` then `statblock` fence, or fence first |
 | Owner's full Multiattack/HP table retyped above the embed | `![[Monster#Statblock]]` at the bottom plus action-card compact numbers (`run-guide`) |
-| Secrets inside `[!narration]` | Session/run: DM truth as a heading. Owner pages: `[!secret]` / `[!secret]-` |
+| Secrets inside `[!narration]` | Session/run: a heading. Owner pages: `[!secret]` / `[!secret]-` |
 | `**DC 15**` or `**DC 15** *Perception*` | `**Wisdom (Perception) — \`DC 15\`**` |
 | `==highlight==` for a private DM note | Session/run: a heading. Owner page: `[!secret]` / `[!mechanic]`. Session/run table cells use `==_spoken_==` only for conditional player-facing prose |
 | Stacked variant `[!narration]` blocks for if/then outcomes | One unconditional `[!narration]`; likely options in a table with `==_text_==` (`run-guide`) |
@@ -217,3 +231,4 @@ Full reference: [references/COLUMNS.md](references/COLUMNS.md).
 | WotC book paste | paraphrase / house / SRD link in `source` |
 | `![](…)` / absolute disk paths for vault art | `![[attachments/…]]` / `[[attachments/…]]` |
 | Broken image wikilink | fix path or add file under `attachments/` |
+| `[!col]` / `[!col-md]` on a session/run card | `col` / `col-md` codeblock fences so `[!narration]` stays a callout |

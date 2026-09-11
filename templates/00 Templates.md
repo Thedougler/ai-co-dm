@@ -57,5 +57,5 @@ use them as vibe reference and make or request a new asset.
 
 ## Presentation
 
-- Session/run notes: `cssclasses: [session-surface]`, open callouts only, complete grammatical sentences, at-table scan grammar (`obsidian-markdown`).
+- Session/run notes: `cssclasses: [session-surface]`, open callouts only, complete grammatical sentences, at-table scan grammar (`obsidian-markdown`). Live cockpits pair same-moment sections with `col` / `col-md` codeblock fences; `[!narration]` stays a real callout.
 - Hierarchy doctrine: [[docs/obsidian-presentation]].

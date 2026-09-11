@@ -181,8 +181,8 @@ One downward pass of the cockpit in Reading view.
 7. **Table gate.** Completion: every item in **Table gate** below holds for
    this pass.
 
-8. **File.** `obsidian-markdown` (wikilinks, `session-surface`, real newlines, at-table scan).
-   The only callout on the card is `[!narration]`. 
+8. **File.** `obsidian-markdown` (wikilinks, `session-surface`, real newlines, at-table scan, codeblock columns).
+   The only callout on the card is `[!narration]`. Layout uses `col` / `col-md` fences, not `[!col]`.
    `./scripts/after-write` on named paths.
 
 ## Lean Surface
@@ -198,19 +198,27 @@ or words to speak. The stable spine is:
 Add other sections only as the beat needs them. Keep the order already present
 in an existing file unless moving a section makes the card easier to run.
 
+**Columns.** Session cards use obsidian-columns **codeblock** syntax
+(`col` / `col-md`) so `[!narration]` stays a real callout. Pair same-moment
+jobs; leave spoken blocks and wide tables full width. Catalog:
+`obsidian-markdown` [references/COLUMNS.md](../obsidian-markdown/references/COLUMNS.md).
+When both Procedure and Secondary objective exist, sit Secondary beside
+Procedure. When a Threat clock has Bloodied / cover / dials, sit those
+paragraphs beside the clock table.
+
 | Field | Keep when | Shape |
 |---|---|---|
 | **Scene ends when** | Every live beat needs a stop condition. | Heading is `## Scene ends when`. First line is the end condition. Then the time budget. Add **If behind:** and **If ahead:** only when the pacing choice is not obvious. |
 | **Glance** | Every live beat needs a short at-table scan. | Heading is `## At a Glance`. Bullets: stakes, goal or exit, danger, Silence, and situation magnets. Not a recap except on the session's first beat. |
 | **Overview image** | An exact overview or identity image exists. | Embed the image near the top of the file before the runnable sections, usually just after the title or frontmatter. Omit if none exists. |
 | **Now** | Positions, distances, speeds, current possession, or starting state would otherwise clutter Glance. | One paragraph. Who starts where, in **feet** when tactical distance matters. Use north, south, east, and west for orientation. Speeds that matter. What a move vs Dash reaches. Current situation once. Do not add a separate Starting state heading. |
-| **Action cards** | The DM will roll compact default-mode numbers or follow an opposition loop. | `### Action cards`. The operational loop and compact numbers you will roll in default mode: AC, hit points when needed, one attack, thresholds, grab, scatter, or bloodied rule. Use owner action names. |
+| **Action cards** | The DM will roll compact default-mode numbers or follow an opposition loop. | Heading `## Action cards` when paired beside Now. The operational loop and compact numbers you will roll in default mode: AC, hit points when needed, one attack, thresholds, grab, scatter, or bloodied rule. Use owner action names. |
 | **Initial Narration** | Every live beat needs the first spoken look. | Empty `> [!narration] Initial Narration` stub on pass 1. Pass 2 fills scene-setting, accessible scene stock, and the first real choice. If the owner already has an identity image, embed `![[attachments/…]]` near this block. |
 | **Battlemap** | A battlemap or exact-scene image exists. | Heading `## Battlemap` at the bottom of the file after the runnable card. Embed existing battlemap art from `attachments/`. Use the shared compass: top north, right east, bottom south, left west. Omit if none exists. |
 | **Procedure** | The beat has a named mode, fuse, clock trigger, combat switch, pursuit rule, or repeated resolution loop. | Heading `## Procedure`. Name the mode and this slice's trigger once. Not 5e turn order. Not a `[!mechanic]` callout. |
 | **Zones** | Positions, routes, cover, distance, search areas, or scene stock matter. | Table: place \| distance in feet \| cover \| narration. Same concrete distances and compass directions as Now. Each row names decision-useful scene stock in that zone. The **Narration** column carries conditional spoken prose as `==_italic_==`, not a callout. When the Narration column is absent, one empty `> [!narration] {Place}` stub per row after the table instead. |
 | **Be ready for** | Players are likely to attempt consequential actions, checks, tactics, or negotiations. | Selective ruling table — include only intents that change a ruling, risk, route, clock, resource, NPC response, or information the party gains. Omit ordinary, boring, or redundant actions; unforeseen approaches are ruled from procedure, zones, and clock. Table: intent \| approach \| DC \| success \| partial \| failure. Approach is **Ability (Skill)** when a check applies. DC column is `` `DC 14` ``. Dice and damage in cells are inline code. Applied conditions are **bold**. Name the creature, item, and place in every cell. Every cell is a *ruling*. Include **Assess the situation** only when success and failure both say what changes. No Partial definition on the card. |
-| **Threat clock** | A fuse or opposition turn changes the situation. | Heading `## Threat clock`. Table: tick \| what happens \| narration. Named ticks. 3-4 ticks. Each tick states what newly becomes visible, usable, threatened, blocked, or changed. The **Narration** column carries conditional spoken prose as `==_italic_==`. When the column is absent, one empty `> [!narration] Tick {n}` stub per tick after the table instead. Bloodied, cover-reached, and scene dials live as paragraphs after the table. |
+| **Threat clock** | A fuse or opposition turn changes the situation. | Heading `## Threat clock`. Table: tick \| what happens \| narration. Named ticks. 3-4 ticks. Each tick states what newly becomes visible, usable, threatened, blocked, or changed. The **Narration** column carries conditional spoken prose as `==_italic_==`. When the column is absent, one empty `> [!narration] Tick {n}` stub per tick after the table instead. Bloodied, cover-reached, and scene dials sit in the right `col-md` beside the clock table. |
 | **Secondary objective** | A second question runs in parallel and changes outcome or later consequence. | Heading `## Secondary objective`. One paragraph: beats required, ignore outcome, later consequence. Omit when there is no second objective. |
 | **How the Scene Resolves** | Every live beat needs the next state. | Heading is `## How the Scene Resolves`. Write only the most likely options, usually one or two. Each option hands off to a beat on this session's skeleton — it advances the scene, not exits it. Next state, damage already applied, relevant conditions, and what follows. One empty `> [!narration] How the Scene Resolves` for the unconditional spoken state, plus a table for those likely options (`If` \| `Next` \| `Narration`). Narration cells use `==_spoken_==`. Do not stack a titled callout per option. |
 | **Exit narration** | The next cockpit is already on this file. | Empty `> [!narration] Exit` on pass 1. Spoken transition on pass 2. Omit until that beat is ready. |
@@ -379,7 +387,7 @@ Completion — all of these hold, or the draft is not done:
 - No Partial lecture, 5e-default lecture, or writer note on the card.
 - `dnd5e-mechanics` was loaded for every check, save, DC, grapple, shove, attack, damage, quality ladder, or player action mapped to a roll.
 - Previous-session recap appears only on the first beat of the session. Every later beat starts from the immediate current situation.
-- `## Scene ends when` is the first heading; the end condition is the first line.
+- `## Scene ends when` is the first cockpit heading in Reading view (it may live inside a `col-md` fence); the end condition is the first line of that section.
 - Time budget is present. Cut lines appear only when they change a pacing choice.
 - If `## Now` is present, it states positions and speeds in feet; the zone table uses those distances.
 - Spatial and travel measurements use north, south, east, west, feet for tactical 5.5e distance, and days, hours, or minutes for travel time; no range bands or abstract distance labels stand in for measurement.
@@ -390,7 +398,7 @@ Completion — all of these hold, or the draft is not done:
 - Pass 2: `copy-writer` loaded after pass 1 completes; `theatre-of-the-mind` not loaded. DM-facing copy is usable, readable, useful, complete, and signal-only before spoken prose is filled. Every `[!narration]` body and Narration column cell is still empty.
 - Pass 3: `theatre-of-the-mind` loaded after pass 2 completes. Initial Narration concisely sets the scene with perceivable subjects, relationships, routes or cover, relative position, imminent pressure, actionable scene stock, drawable appearance, and a non-sight sense, then the first real player opening. Every stub is filled. Every Narration cell that is spoken is `==_italic_==`.
 - Pass 4: Reading view was checked top to bottom; no `[!narration]` body or Narration table cell that should be spoken is empty.
-- Action cards sit near the procedure or ruling they support. Bloodied, cover-reached, and scene dials are paragraphs after the Threat clock table when a Threat clock exists.
+- Action cards sit near the procedure or ruling they support. Bloodied, cover-reached, and scene dials sit beside the Threat clock table when a Threat clock exists.
 - Every consequence is a *ruling* (see Ruling).
 - Optional sections stay absent unless this beat spends them at the table.
 - Secondary objective, How the Scene Resolves, Roster, and Backup use `##` headings when present.
@@ -399,7 +407,8 @@ Completion — all of these hold, or the draft is not done:
 - Battlemap art is embedded at the bottom when exact-scene art exists. Omit if none exists.
 - Travel omitted, or one inlined complication with a failure endpoint.
 - One cockpit: Glance once, no second Run-now, no separate Ask callout, no Scene menu, no peer Round script.
-- The only `> [!` on the card is `[!narration]`. Conditional spoken in Narration table columns is `==_italic_==`, not a callout in the cell.
+- The only `> [!` on the card is `[!narration]`. Do not use `[!col]` / `[!col-md]` on session cards. Conditional spoken in Narration table columns is `==_italic_==`, not a callout in the cell.
+- Same-moment sections that exist are paired in `col` / `col-md` fences (dashboard, Now + action cards, Procedure + Secondary, clock + dials, roster embeds). Spoken `[!narration]` and the Zones / Be ready for tables stay full width.
 - Every DM-facing line is signal-only: it changes placement, a roll, spoken words, risk, route, clock, resource, or NPC response.
 - Every ruling, DC, and design choice on this card serves **fun** first. Change a DC, drop a constraint, or reshape a beat when the alternative is more fun — consistency, symmetry, and prior-beat precedent yield to fun.
 

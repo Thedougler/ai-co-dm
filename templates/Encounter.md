@@ -10,6 +10,8 @@ cssclasses: [session-surface]
 
 # {{title}}
 
+````col
+```col-md
 ## Scene ends when
 
 This beat is thirty minutes.
@@ -17,33 +19,52 @@ This beat is thirty minutes.
 **If behind:**
 
 **If ahead:**
+```
 
+```col-md
+flexGrow=2
+===
 ## At a Glance
 
 - **Stakes:**
 - **Goal / exit:**
 - **Danger:**
 - **Silence:** Present the situation, ask what they do, then wait.
-- **Situation magnets / scene stock:** Visible hazards, loot, monsters, routes,
-  clues, lore signs, and world details players can act on now.
-- **Language / media:** Descriptive, specific, plain language. Normal words
-  unless a normal word would be inaccurate. Distinct prose and distinct art or
-  battlemap for this owner/site/moment.
+- **Situation magnets / scene stock:** Visible hazards, loot, monsters, routes, clues, lore signs, and world details players can act on now.
+- **Language / media:** Descriptive, specific, plain language. Normal words unless the common word would be inaccurate. Distinct prose and distinct art or battlemap for this owner/site/moment.
+```
+````
 
+````col
+```col-md
 ## Now
 
-## DM truth
+```
 
-**Unrevealed:**
+```col-md
+flexGrow=2
+===
+## Action cards
 
-### Action cards
+```
+````
 
 > [!narration] Initial Narration
 >
 
-## Battlemap
-
+````col
+```col-md
+flexGrow=2
+===
 ## Procedure
+
+```
+
+```col-md
+## Secondary objective
+
+```
+````
 
 ## Zones
 
@@ -58,6 +79,10 @@ This beat is thirty minutes.
 | Assess the situation | **Wisdom (Perception)** | `DC 15` | | | |
 | | **Ability (Skill)** | `DC n` | | | |
 
+````col
+```col-md
+flexGrow=3
+===
 ## Threat clock
 
 | Tick | What happens | Narration |
@@ -66,14 +91,16 @@ This beat is thirty minutes.
 | 2 |  | |
 | 3 |  | |
 | 4 |  | |
+```
 
+```col-md
 **Bloodied (HP).**
 
 **Cover reached.**
 
 **Scene dials.**
-
-## Secondary objective
+```
+````
 
 ## How the Scene Resolves
 
@@ -88,9 +115,18 @@ Write only the most likely options. Each option hands off to a beat on the sessi
 
 ## Roster
 
+````col
+```col-md
 ![[Monster#Statblock]]
+```
+
+```col-md
+```
+````
 
 > [!narration] Monster
 >
 
 ## Backup
+
+## Battlemap

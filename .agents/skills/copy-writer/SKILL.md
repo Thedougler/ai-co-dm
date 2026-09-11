@@ -31,7 +31,7 @@ Theatre of the mind is the spoken `[!narration]` layer, not the whole job. Hook,
 
 **Session beats are four passes, each loading only its skills.** Pass 1 (`run-guide` + `dnd5e-mechanics`) leaves empty titled stubs — `copy-writer` is not loaded. You own pass 2: load this skill after pass 1 completes, then edit DM-facing copy for usability, readability, and table usefulness while the `[!narration]` stubs stay empty. Do not load `theatre-of-the-mind` on this pass. Pass 3 loads `theatre-of-the-mind` after pass 2 completes and fills **every** spoken stub. Pass 4 checks Reading view. The DM may skip a block at the table; construction may not leave one empty or useless. `Initial Narration` is the long *scene-setting* block (typically two to four short spoken paragraphs). Address the party as **you**: **you see**, **you hear**, **you feel** (physical), **you smell**. Weave drawable appearance and at least one non-sight sense into those sentences. Smaller stubs (zone, tick, How the Scene Resolves, creature-in-this-scene) are one to three sentences and do not restage the Open.
 
-**Callouts:** `[!narration]` is the only callout. Use it when the block is spoken to the players (`Initial Narration`, `{Place}`, `Tick n`, one `How the Scene Resolves`, `{Creature}`, `Exit`, boxed read-aloud). Conditional spoken (zone, tick, most-likely option) goes in the table cell as `==_italic_==` (`obsidian-markdown`). DM truth, procedure, clocks, rulings, and secrets are headings plus body copy, tables, and bold labels. They are not `[!secret]`, `[!mechanic]`, `[!note]`, `[!warning]`, or any other callout. Do not put callouts inside table cells. Completion: the only `> [!` on the note is `[!narration]`.
+**Callouts:** `[!narration]` is the only callout. Use it when the block is spoken to the players (`Initial Narration`, `{Place}`, `Tick n`, one `How the Scene Resolves`, `{Creature}`, `Exit`, boxed read-aloud). Conditional spoken (zone, tick, most-likely option) goes in the table cell as `==_italic_==` (`obsidian-markdown`). Procedure, clocks, rulings, and other DM-facing facts are headings plus body copy, tables, and bold labels. They are not `[!secret]`, `[!mechanic]`, `[!note]`, `[!warning]`, or any other callout. Do not add a `DM truth` section on session/run cards — the whole card is DM-facing. Do not put callouts inside table cells. Session layout uses `col` / `col-md` **codeblock** fences, not `[!col]`. Completion: the only `> [!` on the note is `[!narration]`.
 
 **Open once.** Spoken `Initial Narration` is the start of the beat. Do not also restage that beginning in Scene ends when, Glance, or Now. Smaller TotM stubs cover later camera moves, ticks, and how the scene resolves — they do not replay the Open. Pick up from the previous beat’s **How the Scene Resolves**; do not recap how the crew first arrived in the valley.
 
@@ -114,7 +114,7 @@ Grok Bot packets that name **Visualizer** stay TotM-scoped unless the packet ask
 
    Completion: all of the above hold, or the draft is not done.
 
-5. **File.** Wikilinks, template constraints, `[!narration]` for TotM only. `./scripts/after-write "why" -- path1 [path2…]` on named paths only. Completion: after-write succeeded, and the only callout on the note is `[!narration]`.
+5. **File.** Wikilinks, template constraints, `[!narration]` for TotM only. Session layout uses `col` / `col-md` fences, not `[!col]`. `./scripts/after-write "why" -- path1 [path2…]` on named paths only. Completion: after-write succeeded, and the only callout on the note is `[!narration]`.
 
 ## Bands
 

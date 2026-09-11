@@ -50,9 +50,6 @@ Playable scene cards — a menu, not a path. About one card per forty-five minut
 - Actors, exits, objects, hazards, loot, monsters, clues, lore signs, world
   details, and choices available now.
 
-**DM truth**
-The trigger and how it can surface.
-
 **Procedure**
 **Wisdom (Perception) — `DC 14`**
 - Success → Notices claw marks beneath the window.
@@ -80,9 +77,6 @@ The trigger and how it can surface.
 **On the table**
 - 
 
-**DM truth**
-
-
 **Procedure**
 
 
@@ -105,9 +99,6 @@ The trigger and how it can surface.
 
 **On the table**
 - 
-
-**DM truth**
-
 
 **Procedure**
 
@@ -153,6 +144,7 @@ Parcels if earned.
 
 - Write complete grammatical sentences on this surface — no telegram shorthand. Checks and saves use the at-table grammar in `obsidian-markdown`.
 - The only callout is `[!narration]`. Empty titled stubs on mechanical pass 1; TotM fills every stub on pass 2.
+- Live cockpits use `col` / `col-md` **codeblock** fences, not `[!col]`. Pair same-moment sections; keep spoken callouts and wide tables full width (`obsidian-markdown` COLUMNS).
 - Narration blocks must weave all accessible scene stock into flowing spoken
   prose before asking the table to act.
 - Use descriptive, specific, plain language everywhere; no opaque internal

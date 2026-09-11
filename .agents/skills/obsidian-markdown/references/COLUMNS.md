@@ -1,6 +1,6 @@
 # Columns (obsidian-columns plugin)
 
-Plugin: [obsidian-columns](https://github.com/tnichols217/obsidian-columns). Three syntaxes; callout is preferred (live-preview, pure CSS, no JS).
+Plugin: [obsidian-columns](https://github.com/tnichols217/obsidian-columns). Three syntaxes. **Session/run cards use codeblock syntax** so `[!narration]` stays a real callout. Owner pages may use callout syntax when the row has no spoken callout.
 
 ## Callout syntax (preferred)
 
@@ -173,9 +173,34 @@ Nesting works by putting another `- !!!col` inside a column.
 
 ## When to use columns
 
+- **Session/run cockpits** — pair same-moment DM jobs so the card scans as a dashboard. Use **codeblock** syntax only, so `[!narration]` keeps callout styling.
 - **Side-by-side comparison** (stat blocks, NPC pairs, before/after).
 - **Sidebar layout** (main content + quick-reference panel).
 - **Dense reference tables** where vertical space matters.
 - **Image + text** pairing on owner pages.
 
-Avoid columns on session/run surfaces where at-table scan speed matters — linear flow reads faster under pressure. Columns suit reference pages, hubs, and owner pages.
+### Session/run pairing (codeblock only)
+
+Put the `##` heading inside the `col-md` that holds its body. Reading view is the live surface; source outline may not list fenced headings.
+
+**Pair (same glance):**
+
+| Row | Left | Right | Width |
+|---|---|---|---|
+| Overview art | First identity/overview image | Second image | equal |
+| Dashboard | `## Scene ends when` | `## At a Glance` | Glance `flexGrow=2` |
+| Place + rolls | `## Now` | `## Action cards` | Action cards `flexGrow=2` |
+| Procedure | `## Procedure` | `## Secondary objective` when both exist | Procedure `flexGrow=2` |
+| Clock | `## Threat clock` table | Bloodied / cover-reached / scene dials | Clock `flexGrow=3` |
+| Roster | One `![[Name#Statblock]]` per column | Remaining combat-mode owners | equal |
+
+**Keep full width:**
+
+- `> [!narration] Initial Narration` and `> [!narration] How the Scene Resolves`
+- `## Zones` and `## Be ready for` (wide ruling tables)
+- `## How the Scene Resolves` body + options table
+- `## Backup` and `## Battlemap`
+
+Do not wrap a session card in `[!col]` callouts. A narration callout inside `col-md` codeblock fences does render, but spoken blocks stay full width so the DM can read them aloud.
+
+Owner pages may use callout `[!col]` when the row has no spoken callout. Session/run surfaces always use codeblock syntax.

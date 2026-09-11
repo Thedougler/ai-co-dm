@@ -10,6 +10,8 @@
 body {
   --font-text-size: 16px;
   --line-height-normal: 1.65;
+  --obsidian-columns-gap: 0px;
+  --obsidian-columns-padding: 0;
 }
 
 .markdown-preview-view p {
@@ -71,7 +73,7 @@ body {
   border: none !important;
   border-left: 2px solid var(--divider-color) !important;
   border-radius: 0 !important;
-  padding: 0 0 0 0.8em !important;
+  padding: 0 0 0 0.3em !important;
   margin: 0 !important;
   box-shadow: none !important;
 }
@@ -107,7 +109,7 @@ body {
 /* Embeds inside embeds — no double border, tighten further */
 .markdown-preview-view .internal-embed .internal-embed .markdown-embed {
   border-left-color: transparent !important;
-  padding-left: 0.4em !important;
+  padding-left: 0.15em !important;
 }
 
 /* Frontmatter in embeds — hide it */
@@ -174,6 +176,85 @@ body {
 .session-surface .markdown-preview-view table,
 .session-surface.markdown-preview-view table {
   margin-block: 0.6em;
+}
+
+/* ── columns (obsidian-columns) ─────────────────────────────────
+   One framed band per row, one gutter between children
+   ──────────────────────────────────────────────────────────────── */
+
+.columnParent {
+  display: flex !important;
+  flex-wrap: wrap;
+  align-items: stretch;
+  gap: 0 !important;
+  padding: 0 !important;
+  margin-block: 1.15em;
+  border: 1px solid var(--divider-color);
+  border-radius: 8px;
+  overflow: hidden;
+  background: var(--background-primary);
+}
+
+.columnChild {
+  box-sizing: border-box;
+  min-width: 0;
+  padding: 0.9em 1.15em 1.05em;
+  border-right: 1px solid var(--divider-color);
+  background: var(--background-primary);
+}
+
+.columnChild:last-child {
+  border-right: none;
+}
+
+.columnChild > :first-child,
+.columnChild h1:first-child,
+.columnChild h2:first-child,
+.columnChild h3:first-child,
+.columnChild p:first-child {
+  margin-top: 0 !important;
+}
+
+.columnChild h2,
+.columnChild h3 {
+  margin-top: 0.45em;
+  margin-bottom: 0.25em;
+  padding-bottom: 0.12em;
+}
+
+.columnChild table {
+  display: table;
+  width: 100%;
+  margin-block: 0.35em;
+}
+
+.columnChild .internal-embed {
+  margin-block: 0 !important;
+}
+
+.markdown-preview-view .columnChild .internal-embed .markdown-embed {
+  border: none !important;
+  border-left: none !important;
+  padding: 0 !important;
+}
+
+.columnChild img {
+  width: 100%;
+  height: auto;
+  box-shadow: none;
+  border-radius: 4px;
+}
+
+.columnChild p:has(> img:only-child) {
+  margin-block: 0;
+}
+
+.theme-dark .columnParent {
+  border-color: rgba(255, 255, 255, 0.12);
+}
+
+.theme-dark .columnChild {
+  border-right-color: rgba(255, 255, 255, 0.12);
 }
 
 /* ── NARRATION CALLOUT ───────────────────────────────────────────

@@ -40,7 +40,7 @@ Obsidian LLM wiki for Nick's home D&D. **Markdown is the product.**
 - Frontmatter: `type`, `campaign`, `status`, `tags`, `visibility: table | dm`, `summary`.
 - **Owner pages:** `> [!narration] Narration` where the template places it — empty until TotM fill.
 - **Session/run beats (four passes):** `run-guide` builds mechanics plus empty `[!narration]` stubs; `copy-writer` edits DM-facing copy for table use; `theatre-of-the-mind` fills every spoken stub last; final pass checks the ready beat has no empty `[!narration]` body.
-- On session/run surfaces the only callout is `[!narration]`. DM truth and procedure are headings. Callouts do not go inside table cells; titled stubs sit immediately after the Zones table and after the Threat clock table.
+- On session/run surfaces the only callout is `[!narration]`. Procedure is a heading. Do not add a `DM truth` section — the whole card is DM-facing. Callouts do not go inside table cells; titled stubs sit immediately after the Zones table and after the Threat clock table. Layout uses `col` / `col-md` codeblock fences, not `[!col]`.
 - Session: [[templates/Session prep]] → run → [[templates/Session log]]; move still-relevant prep forward.
 - Scraps → `inbox/`, then **Ingest** (`wiki-ingest`). Table recordings → `session-transcript-ingest` first, then Ingest if filing remains.
 - Canon owner remains **Co-DM** — Ingest compiles sources; does not silently invent table truth.
