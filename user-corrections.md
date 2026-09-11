@@ -815,13 +815,13 @@ Future `foundry-battlemap` upgrades should add a vehicle or deck-plan mode with 
 
 ### 2026-09-11 — Battlemap default zoom too tight
 
-**Error:** Session 11 beat 1 battlemaps were generated at a tight encounter zoom: a small landing spit, then a stacked collage of existing tight maps, then the same-size trees, grass, river, and ruins after a zoom-out request. The perceptual grid stayed large, so the canvas could not hold forests behind and a grassland river leading north. 9:20 was used after Nick wanted 9:16. Session 11 beat 4 Line Bank was generated the same way: a close-up fruiting strip filling the canvas, suggested `36×64`, no room to explore the scene. Session 11 beat 5 Slack Basin shipped the same miss: a river corridor and otter hole filling the canvas at `720×1280`. Nick: way too small; make it big enough.
+**Error:** Session 11 beat 1 battlemaps were generated at a tight encounter zoom: a small landing spit, then a stacked collage of existing tight maps, then the same-size trees, grass, river, and ruins after a zoom-out request. The perceptual grid stayed large, so the canvas could not hold forests behind and a grassland river leading north. 9:20 was used after Nick wanted 9:16. Session 11 beat 4 Line Bank was generated the same way: a close-up fruiting strip filling the canvas, suggested `36×64`, no room to explore the scene. Session 11 beat 5 Slack Basin shipped the same miss: a river corridor and otter hole filling the canvas at `720×1280`. Nick: way too small; make it big enough. Session 11 beat 9 Star Cut shipped the same miss: a tight Paper Mario aisle filling the canvas.
 
 **Correction:** Default Foundry battlemap scale is zoomed out unless Nick asks for a tight board. Do not default to the smallest SCALE in the table. Suggested grid smallest edge is `100` or larger. Shrink the perceptual grid so more of the place fits: more forest, more grass, more river, and more land left and right. Keep 9:16. Do not bake a grid. The board must be large enough to explore — a landmark in a valley, not a postcard of the hole. Nick upscales after. The accepted [[attachments/shattered-sea/battlemaps/session-11-01-angry-birds-canopy-valley.png]] is the scale bar.
 
 **Read:** `.agents/skills/foundry-battlemap/SKILL.md`; `.agents/skills/foundry-battlemap/references/design.md`; `.agents/skills/foundry-battlemap/references/slots.md`; `.agents/skills/foundry-battlemap/references/prompt.md`; `.agents/skills/foundry-battlemap/references/judge.md`; `.agents/skills/foundry-battlemap/references/repair.md`; `.agents/skills/foundry-battlemap/references/foundry.md`; `.agents/skills/visual-references/SKILL.md`; `.agents/references/image-hosts.md`; `campaigns/shattered-sea/sessions/11/Session-11-01-Angry-Birds.md`; `campaigns/shattered-sea/sessions/11/Session-11-03-Wolfrabbits.md`; `campaigns/shattered-sea/sessions/11/Session-11-04-What-They-Ate.md`; `campaigns/shattered-sea/sessions/11/Session-11-05-Otter-Hole.md`; `campaigns/shattered-sea/locations/Aruhe - Grasslands Torn Crossing.md`; `campaigns/shattered-sea/locations/Aruhe - River Line Bank.md`; `campaigns/shattered-sea/locations/Aruhe - River Slack Basin.md`; `attachments/shattered-sea/battlemaps/session-11-01-angry-birds-base.jpg`; `attachments/shattered-sea/battlemaps/session-11-01-angry-birds-canopy-valley.png`; `attachments/shattered-sea/battlemaps/session-11-01-angry-birds-river-landing-portrait.png`; `attachments/shattered-sea/battlemaps/session-11-03-wolfrabbits-base.jpg`; `attachments/shattered-sea/battlemaps/session-11-04-what-they-ate-base.jpg`; `attachments/shattered-sea/battlemaps/session-11-05-otter-hole-base.jpg`; `attachments/shattered-sea/battlemaps/aruhe-old-gardens-day.jpg`; `attachments/shattered-sea/battlemaps/aruhe-grasslands-day.jpg`; `attachments/shattered-sea/battlemaps/aruhe-river-day.jpg`
 
-**count:** 4
+**count:** 5
 
 **status:** open
 
@@ -899,14 +899,28 @@ Future `foundry-battlemap` upgrades should add a vehicle or deck-plan mode with 
 
 ### 2026-09-11 — Battlemap distorted perspective
 
-**Error:** Session 11 beat 6 Spoke Ring battlemaps were generated through `image_edit` with vault reference images passed as model input. The ground-level Spoke Ring identity photo pulled the camera into 3/4, with tilted mats, oval fire rings, and tree trunks as columns.
+**Error:** Session 11 beat 6 Spoke Ring and beat 9 Star Cut battlemaps were generated through `image_edit` with vault reference images passed as model input. Ground-level identity photos pulled the camera into 3/4 or first-person: vanishing-point aisles, tilted mats, oval fire rings, and tree trunks as columns.
 
 **Correction:** Do not pass reference images to the image model when generating a Foundry battlemap. Read owner pages, identity art, and prior maps yourself; put those facts into the text prompt. Generate text-only. A battlemap must be true orthographic top-down with no vanishing point: canopies as flat discs, mats as rectangles, the fire ring as a circle of stones.
 
-**Read:** `.agents/skills/foundry-battlemap/SKILL.md`; `.agents/skills/foundry-battlemap/references/prompt.md`; `.agents/skills/foundry-battlemap/references/judge.md`; `.agents/skills/foundry-battlemap/references/repair.md`; `.agents/skills/visual-references/SKILL.md`; `.agents/references/image-hosts.md`; `campaigns/shattered-sea/sessions/11/Session-11-06-Farthest-Camp.md`; `campaigns/shattered-sea/locations/Aruhe - Quiet Forest Spoke Ring.md`; `attachments/shattered-sea/places/aruhe-spoke-ring.jpg`; `attachments/shattered-sea/battlemaps/session-11-06-farthest-camp-base.jpg`; `attachments/shattered-sea/battlemaps/aruhe-spoke-ring-battlemap.jpg`
+**Read:** `.agents/skills/foundry-battlemap/SKILL.md`; `.agents/skills/foundry-battlemap/references/prompt.md`; `.agents/skills/foundry-battlemap/references/judge.md`; `.agents/skills/foundry-battlemap/references/repair.md`; `.agents/skills/visual-references/SKILL.md`; `.agents/references/image-hosts.md`; `campaigns/shattered-sea/sessions/11/Session-11-06-Farthest-Camp.md`; `campaigns/shattered-sea/sessions/11/Session-11-09-Theft-on-the-Watch.md`; `campaigns/shattered-sea/locations/Aruhe - Quiet Forest Spoke Ring.md`; `campaigns/shattered-sea/locations/Aruhe - Quiet Forest Star Cut.md`; `attachments/shattered-sea/places/aruhe-spoke-ring.jpg`; `attachments/shattered-sea/places/aruhe-star-cut.jpg`; `attachments/shattered-sea/items/aruhe-giants-guava.jpg`; `attachments/shattered-sea/battlemaps/session-11-06-farthest-camp-base.jpg`; `attachments/shattered-sea/battlemaps/session-11-09-theft-on-the-watch-base.jpg`; `attachments/shattered-sea/battlemaps/aruhe-spoke-ring-battlemap.jpg`; `attachments/shattered-sea/battlemaps/aruhe-star-cut-battlemap.jpg`
 
-**count:** 2
+**count:** 3
 
 **status:** open
 
 **Fix:** _No durable process fix in this turn._ Live beat 6 map was regenerated text-only. Durable change belongs in `foundry-battlemap` / `visual-references` / `image-hosts`: battlemap generate is text-only; references are read, not passed as image input.
+
+### 2026-09-11 — Star Cut as a star icon / Paper Mario board
+
+**Error:** Session 11 beat 9 Star Cut battlemap painted a five-pointed star-shaped pool at the north mouth, corner tree-stump cross-sections, giant pumpkin fruit, and a tight cartoon board-game scale.
+
+**Correction:** Star Cut is a linear slit in the leaf roof where night sky shows, not a star-shaped pond or icon. Generate a zoomed-out Czepeku painted overhead of a large Quiet rainforest with a thin packed-dirt aisle. Text-only. No Paper Mario, no cute cutouts, no geometric star.
+
+**Read:** `.agents/skills/foundry-battlemap/SKILL.md`; `.agents/skills/foundry-battlemap/references/prompt.md`; `.agents/skills/foundry-battlemap/references/judge.md`; `.agents/skills/foundry-battlemap/references/slots.md`; `campaigns/shattered-sea/sessions/11/Session-11-09-Theft-on-the-Watch.md`; `campaigns/shattered-sea/locations/Aruhe - Quiet Forest Star Cut.md`; `attachments/shattered-sea/battlemaps/session-11-01-angry-birds-canopy-valley.png`
+
+**count:** 1
+
+**status:** open
+
+**Fix:** _No durable process fix in this turn._ Live beat 9 map is being regenerated text-only at zoomed-out Czepeku scale.
