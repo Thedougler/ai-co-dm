@@ -14,6 +14,7 @@ summary: Tall high elf cleric of Tyr and the Dravosi Crown's reserved heresy hun
 ## Art
 
 ![[attachments/shattered-sea/character-references/aleksander-malone-reference-sheet.png|Aleksander Malone character reference sheet]]
+![[artifacts/tokens/aleksander-malone-token.png|Aleksander Malone FoundryVTT token]]
 
 > [!narration] Narration
 > Aleksander Malone is a tall high elf with swept-up ash-blond hair, pointed ears, and bright white lenses that hide his eyes. A long charcoal coat hangs over black shoulder scales and pale metal-edged panels, drawn tight with a belt and finished with rune-marked gloves and heavy black boots; a sword rests at his side with fine marks running along its blade. He studies each face as if weighing a name, then turns with the small click of buckles and metal scales toward the next person in his hunt.
