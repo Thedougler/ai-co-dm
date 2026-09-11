@@ -1,5 +1,5 @@
 ---
-summary: Nick's correction log. Writers append on #ERROR; ASD drains. Open: replaced-wrong Beat 1 image; token subject isolation; visual-references image-to-reference template.
+summary: Nick's correction log. Writers append on #ERROR; ASD drains. Open: replaced-wrong Beat 1 image; token subject isolation; visual-references image-to-reference template; TotM hawk-stoop force.
 ---
 
 # User corrections
@@ -840,3 +840,17 @@ Future `foundry-battlemap` upgrades should add a vehicle or deck-plan mode with 
 **status:** closed
 
 **Fix:** `.agents/skills/foundry-battlemap/SKILL.md`; `references/design.md`; `references/slots.md`; `references/judge.md`; `references/prompt.md`; `references/repair.md`; `assets/prompt-template.txt` — Intake loads the whole session beat; Design writes Beat jobs from type and purpose (Development puts things to explore and learn on the map); judge category 8 fails terrain-only boards. Measure: `## Beat jobs` heading in foundry-battlemap 0 → 1. Cheap check: `rg -l --glob '*.md' '## Beat jobs' .agents/skills/foundry-battlemap`. `after-write` SHA: `1ec9622`.
+
+### 2026-09-11 — TotM misses speed, impact, and force
+
+**Error:** [[Session-11-01-Angry-Birds]] theatre-of-the-mind text fails to communicate the speed, impact, and force of a very fast and violent action: the adult Bloodhawk swooping down and hitting the Crown Squid. Initial Narration and tick 1 describe pose and aim ("falling out of the sun", "pins all four wings and drops", "pale hook drives") without the hit landing as a fast, violent strike.
+
+**Correction:** TotM of a fast violent action must carry speed, impact, and force so the table feels the stoop and the hit, not only the pose.
+
+**Read:** `campaigns/shattered-sea/sessions/11/Session-11-01-Angry-Birds.md`
+
+**count:** 1
+
+**status:** open
+
+**Fix:** _No fix in this turn._ Durable change belongs in `theatre-of-the-mind`: spoken prose for a fast violent action must carry speed, impact, and force. Live rewrite of beat 1 is not this turn.
