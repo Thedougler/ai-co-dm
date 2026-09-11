@@ -13,7 +13,6 @@ Frame: {FRAME}.
 Style: {STYLE}.
 
 Readable at token thumbnail size. Strong subject silhouette. Coherent lighting,
-grounding, and material detail. No accidental cropping, duplicate limbs, extra
-weapons, labels, watermark, UI, or generation debris. Do not render a fake
-checkerboard or claim transparency; the finalizer supplies the transparent
-circular background.
+grounding, and material detail. Clean anatomy and consistent gear throughout.
+Render a finished painted background or frame; the finalizer supplies circular
+alpha.

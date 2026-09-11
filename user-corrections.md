@@ -637,9 +637,9 @@ Follow skill `agentic-system-designer` (Intake → Baseline → Fix → Prove �
 
 **count:** 1
 
-**status:** open
+**status:** closed
 
-**Fix:** `.agents/skills/foundry-token/SKILL.md`; `scripts/foundry-token`; add a reusable stand-image → circular-transparent-token workflow and validate it against the five supplied images.
+**Fix:** `.agents/skills/foundry-token/SKILL.md` v3.0; `references/prompt.md`; `references/slots.md` — rewritten with `writing-for-agents` constructions: leading words (stand, crop-safe, thumbnail-readable) anchor every step and completion criterion; negation replaced with positive targets; duplication with `references/foundry.md` pruned; output contract inlined as shape only. `scripts/foundry-token` already existed. Measure: negation instances in foundry-token skill files 4 → 0; leading-word completion criteria 0 → 3. Cheap check: `rg -c 'crop-safe\|thumbnail-readable' .agents/skills/foundry-token/SKILL.md`; `rg -c 'Do not' .agents/skills/foundry-token/`.
 
 ### 2026-09-10 — FWcxS5a professional battlemap quality bar
 

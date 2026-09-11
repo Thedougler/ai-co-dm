@@ -50,8 +50,7 @@ Keep the subject centered and safe for the crop:
 ## FACING
 
 Use \`front-facing\`, \`three-quarter left\`, \`head toward the lower edge\`, or
-\`not applicable\` according to the requested composition. Do not invent a
-rotation rule for portrait art.
+\`not applicable\` according to the requested composition.
 
 ## BACKGROUND
 

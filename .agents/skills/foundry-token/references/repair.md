@@ -9,5 +9,5 @@ Repair the source image, then judge it again. Finalize only after the art passes
 - Identity drift — \`Restore the established colors, marks, gear, and silhouette. Change only the requested repair.\`
 - Wrong camera — \`Use the requested camera and keep the subject readable inside a centered circular crop.\`
 - Unwanted labels or UI — \`Remove every label, watermark, interface element, and border artifact. Keep only the requested art.\`
-- Fake transparency — \`Render a finished image background or painted frame. Do not render a checkerboard; the finalizer creates alpha.\`
+- Fake transparency — \`Render a finished painted background or frame. The finalizer creates alpha.\`
 - Generation debris — \`Clean extra limbs, duplicate weapons, malformed anatomy, and stray marks while preserving the accepted identity.\`
