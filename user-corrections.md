@@ -742,3 +742,17 @@ Future `foundry-battlemap` upgrades should add a vehicle or deck-plan mode with 
 **status:** closed
 
 **Fix:** Shared root cause with FWcxS5a correction. `.agents/skills/foundry-battlemap/references/modes.md` adds vehicle/deck-plan mode with hull-and-deck inventory, room/threshold map, vertical transitions, dangerous edges, and playable-floor vs scenic-envelope distinction. See FWcxS5a Fix for measure and cheap check.
+
+### 2026-09-10 — Bloodhawk replacement owner
+
+**Error:** Treated the supplied `Aruhe - Bloodhawk - Revised.md` as an additive design layer over the existing adult Bloodhawk owner instead of as the adult's replacement revision.
+
+**Correction:** Use the supplied revised note as the adult Bloodhawk owner revision. Preserve only the live encounter references needed to keep Session 11 runnable; do not append a second adult design.
+
+**Read:** `/Users/nick/Downloads/Aruhe%20-%20Bloodhawk%20-%20Revised.md`; `campaigns/shattered-sea/monsters/Aruhe - Bloodhawk.md`; `.agents/skills/homebrew-monsters-5e/SKILL.md`; `.agents/skills/obsidian-markdown/SKILL.md`; `.agents/skills/qmd-retrieval/SKILL.md`; `.agents/skills/homebrew-monsters-5e/references/reference-gate.md`; `.agents/skills/homebrew-monsters-5e/references/chassis-and-budget.md`; `.agents/skills/homebrew-monsters-5e/references/audit-and-revise.md`; `.agents/skills/dnd5e-mechanics/SKILL.md`; `user-corrections.md`
+
+**count:** 1
+
+**status:** closed
+
+**Fix:** `campaigns/shattered-sea/monsters/Aruhe - Bloodhawk.md` — treat the supplied revised document as the adult owner replacement and keep the result single-owner and single-adult. No skill change in this turn.
