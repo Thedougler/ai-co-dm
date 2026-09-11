@@ -8,7 +8,6 @@ status: final
 date: 2026-08-02
 visibility: table
 tags: [session, recap]
-cssclasses: [session-surface]
 ---
 
 # Session 08 - Recap

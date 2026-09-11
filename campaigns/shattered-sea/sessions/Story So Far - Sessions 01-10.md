@@ -4,7 +4,6 @@ campaign: shattered-sea
 status: draft
 visibility: table
 tags: [recap, story-so-far]
-cssclasses: [session-surface]
 ---
 
 # Story So Far - Sessions 01-10

@@ -6,7 +6,6 @@ status: ready
 date: 2026-09-06
 visibility: dm
 tags: [session-prep, run-guide]
-cssclasses: [session-surface]
 summary: Climax theft on the Star Cut watch, or the column if they marched. [[Talon Skarn]] makes one committed attempt at the [[Fate Spinner]]; the watch answers into [[Session-11-10-Aftermath]].
 ---
 # Session 11 — Theft on the watch

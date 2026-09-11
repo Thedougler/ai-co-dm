@@ -6,7 +6,6 @@ status: ready
 date: 2026-09-06
 visibility: dm
 tags: [session-prep, session-beats]
-cssclasses: [session-surface]
 hours: 5
 beats: 10
 ---

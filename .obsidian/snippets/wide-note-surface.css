@@ -5,7 +5,7 @@
   --line-width: 100% !important;
 }
 
-.markdown-preview-view .markdown-preview-sizer,
+.markdown-preview-view > .markdown-preview-sizer,
 .markdown-source-view.mod-cm6 .cm-sizer,
 .markdown-source-view.mod-cm6 .cm-content {
   width: 92% !important;

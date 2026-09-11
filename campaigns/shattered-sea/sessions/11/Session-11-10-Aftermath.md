@@ -6,7 +6,6 @@ status: ready
 date: 2026-09-06
 visibility: dm
 tags: [session-prep, run-guide]
-cssclasses: [session-surface]
 summary: Resolution after the Star Cut theft. Hawks hunt [[Talon Skarn]] only if the [[Fate Spinner]] left this fire; otherwise the camp splits, the mark speaks once, and the night ends short of the garden.
 ---
 # Session 11 — Aftermath

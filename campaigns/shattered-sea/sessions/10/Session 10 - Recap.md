@@ -6,7 +6,6 @@ session_number: 10
 status: final
 visibility: table
 tags: [session, recap]
-cssclasses: [session-surface]
 ---
 
 # Session 10 - Recap

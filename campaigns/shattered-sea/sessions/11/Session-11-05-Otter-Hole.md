@@ -6,7 +6,6 @@ status: ready
 date: 2026-09-06
 visibility: dm
 tags: [session-prep, run-guide]
-cssclasses: [session-surface]
 summary: Cliffhanger rescue at Slack Basin. Two otters have taken a game of tag too far with a separated survivor; joining the game can pull them off him until they tire or get hungry.
 ---
 # Session 11 — Rescue at the otter hole

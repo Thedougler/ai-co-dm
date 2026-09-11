@@ -6,7 +6,6 @@ status: ready
 date: 2026-09-06
 visibility: dm
 tags: [session-prep, run-guide]
-cssclasses: [session-surface]
 summary: Night ambush at Spoke Ring. The [[Aruhe - Deerstalker]] uses the garden invitation to isolate one body; a grouped answer makes it leave, while any disorder becomes cover on [[Session-11-09-Theft-on-the-Watch]].
 ---
 # Session 11 — False help

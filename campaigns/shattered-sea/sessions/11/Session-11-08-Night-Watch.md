@@ -6,7 +6,6 @@ status: ready
 date: 2026-09-06
 visibility: dm
 tags: [session-prep, run-guide]
-cssclasses: [session-surface]
 summary: Development watch-posting at Spoke Ring. Actual precautions lock fortified, paired, or thin before [[Session-11-09-Theft-on-the-Watch]]; an excellent watch still brings [[Talon Skarn]].
 ---
 # Session 11 — Night watch

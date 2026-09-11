@@ -6,7 +6,6 @@ status: ready
 date: 2026-09-06
 visibility: dm
 tags: [session-prep, run-guide]
-cssclasses: [session-surface]
 summary: Development at Spoke Ring. Calveno wreck people split over the garden and the route back to [[Uncertainty]] under the last sun; the unfinished argument hands to [[Session-11-07-False-Help]].
 ---
 # Session 11 — The farthest camp
