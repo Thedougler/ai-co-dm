@@ -854,3 +854,17 @@ Future `foundry-battlemap` upgrades should add a vehicle or deck-plan mode with 
 **status:** open
 
 **Fix:** _No fix in this turn._ Durable change belongs in `theatre-of-the-mind`: spoken prose for a fast violent action must carry speed, impact, and force. Live rewrite of beat 1 is not this turn.
+
+### 2026-09-11 — PC token framing mismatch
+
+**Error:** Created Crissdalynn Khinriss as a full-body Foundry token without checking the framing of the other PC tokens, while Delmar Fisk's token is chest-up.
+
+**Correction:** Match the PC token set: regenerate Crissdalynn as a chest-up portrait token so it belongs with the other PCs.
+
+**Read:** `user-corrections.md`; `.agents/skills/foundry-token/SKILL.md`; `.agents/skills/foundry-token/references/foundry.md`; `.agents/skills/foundry-token/references/prompt.md`; `.agents/skills/foundry-token/references/slots.md`; `.agents/skills/foundry-token/references/repair.md`; `.agents/references/image-hosts.md`; `campaigns/shattered-sea/pcs/Crissdalynn Khinriss.md`; `attachments/shattered-sea/character-references/crissdalynn-khinriss-reference-sheet.png`; `attachments/shattered-sea/banners/crissdalynn-khinriss-banner.jpg`; `attachments/shattered-sea/pcs/crissdalynn-khinriss-banner-alt.jpg`
+
+**count:** 1
+
+**status:** open
+
+**Fix:** _No durable process fix in this turn._ Apply the chest-up framing correction to the live token work; future token work should check the owner's peer-token framing before generating new art.
