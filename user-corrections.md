@@ -1,5 +1,5 @@
 ---
-summary: Nick's correction log. Writers append on #ERROR; ASD drains. Open: replaced-wrong Beat 1 image; token subject isolation; visual-references image-to-reference template; TotM hawk-stoop force; battlemap prior-output as reference.
+summary: Nick's correction log. Writers append on #ERROR; ASD drains. Open: replaced-wrong Beat 1 image; token subject isolation; visual-references image-to-reference template; TotM hawk-stoop force; generate-new unless asked to edit.
 ---
 
 # User corrections
@@ -871,14 +871,14 @@ Future `foundry-battlemap` upgrades should add a vehicle or deck-plan mode with 
 
 ### 2026-09-11 — Battlemap prior output used as reference
 
-**Error:** On the Session 11 beat 2 Landing Bank redo, zoom-out and extra-space requests were sent through `image_edit` with the previous generated map as an input image. That locked the composition, so later frames stayed the same tight board.
+**Error:** On the Session 11 beat 2 Landing Bank redo, zoom-out and extra-space requests were sent through `image_edit` with the previous generated map as an input image. That locked the composition, so later frames stayed the same tight board. Default behavior was treat a follow-up as an edit of the last image.
 
-**Correction:** When the job is a new composition, a scale change, or a zoom-out, create a new image. Do not pass the last generated map as a reference.
+**Correction:** Default is to generate a new image. Do not edit an existing image unless Nick likes that image and asks for it to be edited.
 
 **Read:** `.agents/skills/foundry-battlemap/SKILL.md`; `.agents/skills/foundry-battlemap/references/prompt.md`; `.agents/skills/foundry-battlemap/references/repair.md`; `.agents/references/image-hosts.md`; `campaigns/shattered-sea/sessions/11/Session-11-02-Landing-Sign.md`; `campaigns/shattered-sea/locations/Aruhe - River Landing Bank.md`; `attachments/shattered-sea/battlemaps/session-11-02-landing-sign-base.jpg`
 
-**count:** 2
+**count:** 3
 
 **status:** open
 
-**Fix:** _No durable process fix in this turn._ Live work uses a fresh `image_gen` with no prior-output image.
+**Fix:** _No durable process fix in this turn._ Live work uses a fresh `image_gen` unless Nick likes a frame and asks for an edit.
