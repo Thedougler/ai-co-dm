@@ -25,8 +25,8 @@ source: "house (NPC-Designer; legacy Hierarch chassis adapted 2026-09-08)"
 | **Role**             | Trusted healer, occult patron, and hidden Hierarch                                      |
 | -------------------- | -------------------------------------------------------------------------------------- |
 | **Nature**           | Undead sorcerer-saint whose soul survives through blood-anchors                         |
-| **Home**             | [[Otel Karn]] by origin; currently moving through [[Calven and Calveno|Calveno]]        |
-| **Faction**          | [[Khlysty - the Flock|Khlysty / the Flock]] Korabl                                      |
+| **Home**             | [[Otel Karn]] by origin; currently moving through [[Calven and Calveno\|Calveno]]        |
+| **Faction**          | [[Khlysty - the Flock\|Khlysty / the Flock]] Korabl                                      |
 | **Wants**            | Dispersed noble blood-anchors, the [[Pearl of Souls]], and freedom from Crown certainty |
 | **Fears**            | Exposure before his anchor network is broad enough to survive him                       |
 | **Leverage**         | Healing, friendship with the crew, noble access, and warnings nobody else can give      |
@@ -145,7 +145,7 @@ During the night voyage in Session 10, Grigori appeared below deck with wine in 
 
 | Relationship                                | Meaning                                                                                  |
 | ------------------------------------------- | ---------------------------------------------------------------------------------------- |
-| [[Khlysty - the Flock|Khlysty / the Flock]] | Flock tradition he leads as Korabl and mistakenly believes he perfected                   |
+| [[Khlysty - the Flock\|Khlysty / the Flock]] | Flock tradition he leads as Korabl and mistakenly believes he perfected                   |
 | [[Otho]]                                    | Unrecognized source and former teacher of the blood-anchor method                        |
 | [[Aleksander Malone]]                       | Hound of Tyr hunting the noble-house pattern before formal Crown confirmation             |
 | [[Dravosi Crown]]                           | Accuser, target network, and political machine that can turn his mercy into public heresy |

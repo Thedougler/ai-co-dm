@@ -8,6 +8,7 @@ Checks (FAIL unless noted):
   forbidden_tree       — vault has wiki/ · concepts/ · sources/ dirs (scaffold anti-pattern)
   broken_image_link    — [[attachments/…]] / ![[…]] image target missing on disk
   literal_backslash_n  — prose contains literal `\n` instead of a real newline (outside fences/YAML)
+  table_wikilink_unescaped_pipe — unescaped | inside [[...]] in a Markdown table cell (splits the cell; write [[Note\\|alias]])
 
 Also prints a reminder to run ./scripts/lint-statblocks for monster fences.
 
@@ -75,6 +76,11 @@ IMAGE_WIKI = re.compile(
     r"!?\[\[([^\]|#]+?\.(?:png|jpe?g|gif|webp|svg|pdf|mp3|mp4|webm))(?:#[^\]|]*)?(?:\|[^\]]*)?\]\]",
     re.I,
 )
+WIKILINK = re.compile(
+    r"!?\[\[(.*?)\]\]",
+)
+UNESCAPED_PIPE = re.compile(r"(?<!\\)\|")
+TABLE_SEP = re.compile(r"^\s*\|[\s:|-]+\|\s*$")
 
 
 def resolve_media(target: str) -> Path | None:
@@ -93,6 +99,34 @@ def resolve_media(target: str) -> Path | None:
 
 def strip_fences(text: str) -> str:
     return FENCE.sub("\n", text)
+
+
+def blank_fences(text: str) -> str:
+    """Replace fenced regions with newlines so line numbers stay aligned.
+
+    Nested col fences (````col wrapping ```col-md) stay blanked because an
+    inner fence shorter than the opener does not close the outer fence.
+    """
+    out: list[str] = []
+    fence_len = 0
+    for line in text.splitlines(keepends=True):
+        stripped = line.lstrip()
+        ticks = re.match(r"`{3,}", stripped)
+        if ticks:
+            n = len(ticks.group(0))
+            if fence_len == 0:
+                fence_len = n
+                out.append("\n" if line.endswith("\n") else "")
+                continue
+            if n >= fence_len:
+                fence_len = 0
+                out.append("\n" if line.endswith("\n") else "")
+                continue
+        if fence_len:
+            out.append("\n" if line.endswith("\n") else "")
+        else:
+            out.append(line)
+    return "".join(out)
 
 
 def iter_notes() -> list[Path]:
@@ -194,6 +228,31 @@ def check_file(path: Path) -> list[dict]:
                     "path": rel,
                     "status": "broken_image_link",
                     "detail": f"missing media target: {target} (expected under attachments/)",
+                }
+            )
+
+    table_body = blank_fences(text)
+    for i, line in enumerate(table_body.splitlines(), 1):
+        stripped = line.lstrip()
+        if not stripped.startswith("|"):
+            continue
+        if TABLE_SEP.match(stripped):
+            continue
+        for m in WIKILINK.finditer(line):
+            inner = m.group(1)
+            if not UNESCAPED_PIPE.search(inner):
+                continue
+            shown = m.group(0)
+            if len(shown) > 80:
+                shown = shown[:77] + "..."
+            findings.append(
+                {
+                    "path": rel,
+                    "status": "table_wikilink_unescaped_pipe",
+                    "detail": (
+                        f"line {i}: {shown} — write the alias/size pipe as \\| "
+                        "so the table cell does not split"
+                    ),
                 }
             )
 

@@ -34,7 +34,7 @@ source: "house (session 11 beat 05; created 2026-09-09)"
 | **Wants** | Stay with living people and get away from the claimed water. |
 | **Fears** | Being left alone, being sent back toward the otter hole, and admitting he was wrong about the woman. |
 | **Knows** | The others climbed out of [[Aruhe - River Slack Basin]] and kept following the riverbank prints toward the smoke. |
-| **Limit** | He does not name [[Aruhe - Hinewai|the woman in the woods]], and he shuts down if pressed to explain her. |
+| **Limit** | He does not name [[Aruhe - Hinewai\|the woman in the woods]], and he shuts down if pressed to explain her. |
 
 > **DM thesis:** Matteo is the cost of choosing pride and separation on Aruhe: he can warn the party that the inland group is splitting, but only if they make him feel less like the next body in the water.
 

@@ -17,7 +17,7 @@ write must preserve vault wikilinks, applicable callouts, and AGENTS properties.
 
 ## Hard rules
 
-- **Wikilinks in-vault:** `[[Note]]` / `[[Note|text]]` / `[[Note#Heading]]`. Markdown links only for external `https://` URLs.
+- **Wikilinks in-vault:** `[[Note]]` / `[[Note|text]]` / `[[Note#Heading]]`. Markdown links only for external `https://` URLs. In a Markdown table cell, write the alias or size pipe as `\|` so the cell stays one cell: `[[Note\|text]]`, `![[image.png\|400]]`. Bare `[[Note]]` needs no escape.
 - **Frontmatter (AGENTS):** include when applicable — `type`, `campaign`, `status`, `tags`, `visibility: table | dm`, `summary`. Prefer AGENTS fields over generic `title`-only notes. `type` enum: `hub` | `campaign` | `session-prep` | `session` | `npc` | `pc` | `location` | `faction` | `quest` | `front` | `encounter` | `item` | `monster` | `lore` | `template` | `lexicon`.
 - **`summary` frontmatter:** one sentence — what the note is and anything non-obvious or unexpected. Use it to assess a note without reading the full file. Create on every new note; update whenever the note changes. Keep it concise, specific, and direct. Quote the value when it contains `: ` (colon-space) — unquoted `: ` breaks YAML.
 - **Player prose:** owner pages use leading `> [!narration] Narration` (empty until TotM fill). Session/run beats use mandatory `> [!narration] Initial Narration` plus titled stubs per `run-guide` TotM slots. Unconditional spoken stays in `[!narration]`. Conditional spoken lives in a table cell as `==_italic_==`. Empty on mechanical pass 1; fill on pass 2. No secrets/DCs/unearned names inside `[!narration]` or those highlighted cells.
@@ -54,6 +54,17 @@ write must preserve vault wikilinks, applicable callouts, and AGENTS properties.
 [[Note Name#^block-id]]
 [[#Heading in same note]]
 ```
+
+A Markdown table treats `|` as a new column. In a table cell, escape the alias or image-size pipe so the wikilink stays inside one cell:
+
+```markdown
+| Place | Cover |
+| --- | --- |
+| [[Aruhe - Old Gardens\|Terrace woods]] | Messy landing cover. |
+| ![[session-11-01-angry-birds-overview.jpg\|400]] | Width in a cell. |
+```
+
+Bare `[[Note]]` in a cell needs no escape. Prose outside tables keeps `[[Note|Display]]`.
 
 Block id on a paragraph: `text ^block-id`. For lists/quotes, put `^id` on its own line after the block.
 
@@ -219,6 +230,7 @@ Owner pages may still use callout `[!col]` when no `[!narration]` sits in the sa
 | Fail | Do instead |
 |---|---|
 | `[text](Campaign Note.md)` for vault notes | `[[Campaign Note]]` |
+| Wikilink alias or image-size pipe left raw in a table cell | `[[Note\|text]]` / `![[image.png\|400]]` |
 | Frontmatter with only `title`/`date` | AGENTS `type` + campaign fields |
 | Prose monster stats / fence not first | `## Statblock` then `statblock` fence, or fence first |
 | Owner's full Multiattack/HP table retyped above the embed | `![[Monster#Statblock]]` at the bottom plus action-card compact numbers (`run-guide`) |

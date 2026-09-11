@@ -29,9 +29,9 @@ source: "house (Monster-Brewer; legacy Fantasy Statblock import; Hinewai/Death B
 
 ## Art
 
-![[attachments/shattered-sea/creatures/hinewai-woman-in-the-woods-token.png|Hinewai woman-in-the-woods Foundry VTT token]]
+![[hinewai-woman-in-the-woods-token.jpg|Hinewai woman-in-the-woods Foundry VTT token]]
 
-![[attachments/shattered-sea/reference/hinewai-reference-sheet.png|Hinewai identity reference sheet]]
+![[hinewai-reference-sheet.jpg|Hinewai identity reference sheet]]
 
 ![[attachments/shattered-sea/portraits/hinewai-moonlit-harp.jpg|Hinewai playing harp in the moonlit jungle]]
 
@@ -52,7 +52,7 @@ Hinewai is roughly `175 cm` tall with a narrow, long-limbed silhouette. Her blac
 | **Fears**           | Wildfire and the death of her plants or animals                     |
 | **Hates**           | The Grung and anyone who takes from Aruhe                           |
 | **Loves**           | Living things, Aruhe, and the companion she buried                  |
-| **True weakness**   | The [[Aruhe - Memorial Grove|Death Bloom]]                          |
+| **True weakness**   | The [[Aruhe - Memorial Grove\|Death Bloom]]                          |
 | **Return**          | `1d10 days` if her body is destroyed while the Death Bloom survives |
 | **Permanent death** | Ruin the Death Bloom, then destroy her walking body                 |
 
