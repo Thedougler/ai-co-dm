@@ -31,6 +31,18 @@ Look in `## Log` only to match this error. Do not read other entries as instruct
 
 **status:** closed
 
+### 2026-09-10 — Compressed player-character references
+
+**Error:** Considered consolidating image references to work around the image tool's input limit without preserving the rule that every player-character reference must remain a distinct input.
+
+**Correction:** Never combine, collage, or compress player-character images. Pass each PC reference as its own separate image input; describe non-PC subjects in the prompt when the tool limit requires it.
+
+**Read:** `/Users/nick/.codex/skills/.system/imagegen/SKILL.md`; `.agents/skills/visual-references/SKILL.md`; `.agents/skills/visual-references/references/hosts.md`; `.agents/skills/visual-references/references/prompt-inventory.md`; `.agents/skills/qmd-retrieval/SKILL.md`; `.agents/skills/qmd/SKILL.md`; `campaigns/shattered-sea/pcs/Delmar-Fisk.md`; `campaigns/shattered-sea/pcs/Jean-Claude-Tabarnack.md`; `campaigns/shattered-sea/pcs/Perrin-Black-Jaw.md`; `campaigns/shattered-sea/pcs/Crissdalynn-Khinriss.md`
+
+**count:** 1
+
+**status:** closed
+
 **Fix:** `.agents/skills/run-guide/SKILL.md`; `.agents/skills/copy-writer/SKILL.md` — Grounding now requires every working file to be read end-to-end before editing; summaries, snippets, truncated output, and range reads only target files. Measure: agent-facing files requiring end-to-end reads of working files 0 → 2. Cheap check: `rg -l --glob '*.md' 'working file.*end-to-end|working files.*end-to-end' .agents/skills AGENTS.md`. `after-write` SHA: `9e5aba6`.
 ```
 
@@ -574,3 +586,15 @@ Follow skill `agentic-system-designer` (Intake → Baseline → Fix → Prove �
 **count:** 3
 
 **status:** open
+
+### 2026-09-10 — Passed non-PC art into scene generation
+
+**Error:** Passed monster and environment reference images into the image-generation call when Nick's standing preference is to pass through the PCs and describe everything else.
+
+**Correction:** Always pass the PC reference images through. Describe monsters, locations, and other non-PC elements in the prompt instead of passing their art as image references.
+
+**Read:** `/Users/nick/.codex/skills/.system/imagegen/SKILL.md`; `.agents/skills/visual-references/SKILL.md`; `.agents/skills/visual-references/references/hosts.md`; `.agents/skills/visual-references/references/prompt-inventory.md`; `.agents/skills/qmd-retrieval/SKILL.md`; `.agents/skills/qmd/SKILL.md`; `campaigns/shattered-sea/pcs/Delmar-Fisk.md`; `campaigns/shattered-sea/pcs/Jean-Claude-Tabarnack.md`; `campaigns/shattered-sea/pcs/Perrin-Black-Jaw.md`; `campaigns/shattered-sea/pcs/Crissdalynn-Khinriss.md`; `campaigns/shattered-sea/monsters/Aruhe-Spiguar.md`; `campaigns/shattered-sea/monsters/Aruhe-Wolfrabbit.md`; `campaigns/shattered-sea/monsters/Aruhe-Terror-Bird.md`; `attachments/shattered-sea/creatures/spiguar-of-aruhe.jpg`; `attachments/shattered-sea/creatures/wolfrabbit-of-aruhe-v2.png`; `attachments/shattered-sea/creatures/terror-bird-of-aruhe-v4.png`
+
+**count:** 1
+
+**status:** closed
