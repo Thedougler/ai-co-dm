@@ -20,7 +20,7 @@ import json
 from pathlib import Path
 
 try:
-    from PIL import Image, ImageChops, ImageDraw, ImageOps
+    from PIL import Image, ImageChops, ImageDraw, ImageFilter, ImageOps
 except ImportError as exc:  # pragma: no cover - exercised by the CLI environment
     raise SystemExit(
         "foundry-token: Pillow is required; install it in the workspace Python "
@@ -122,16 +122,18 @@ def working_key(
 
 
 def despill(px: np.ndarray, key: tuple[int, int, int]) -> None:
-    """Pull leftover key-channel tint out of the subject edge."""
+    """Pull leftover key-channel tint out of semi-transparent fringe only."""
     kr, kg, kb = key
     r = px[:, :, 0].astype(np.int16)
     g = px[:, :, 1].astype(np.int16)
     b = px[:, :, 2].astype(np.int16)
+    edge = px[:, :, 3] < 255
     if kg >= kr and kg >= kb:
-        px[:, :, 1] = np.clip(np.minimum(g, np.maximum(r, b)), 0, 255).astype(np.uint8)
+        capped = np.minimum(g, np.maximum(r, b))
+        px[:, :, 1] = np.clip(np.where(edge, capped, g), 0, 255).astype(np.uint8)
     elif kr >= kg and kb >= kg:
-        px[:, :, 0] = np.clip(np.minimum(r, g), 0, 255).astype(np.uint8)
-        px[:, :, 2] = np.clip(np.minimum(b, g), 0, 255).astype(np.uint8)
+        px[:, :, 0] = np.clip(np.where(edge, np.minimum(r, g), r), 0, 255).astype(np.uint8)
+        px[:, :, 2] = np.clip(np.where(edge, np.minimum(b, g), b), 0, 255).astype(np.uint8)
 
 
 def chroma_key(
@@ -144,7 +146,15 @@ def chroma_key(
     inner = max(tolerance * 0.6, 1.0)
     fade = np.clip((dist - inner) / max(tolerance - inner, 1.0), 0, 1)
     px[:, :, 3] = (px[:, :, 3].astype(np.float32) * fade).astype(np.uint8)
+    kr, kg, kb = key
+    if kr >= kg and kb >= kg:
+        magenta_tint = (np.minimum(rgb[:, :, 0], rgb[:, :, 2]) > rgb[:, :, 1] + 25) & (
+            np.abs(rgb[:, :, 0] - rgb[:, :, 2]) < 90
+        )
+        px[:, :, 3] = np.where(magenta_tint, 0, px[:, :, 3])
     despill(px, key)
+    alpha = Image.fromarray(px[:, :, 3]).filter(ImageFilter.MinFilter(3))
+    px[:, :, 3] = np.array(alpha)
     return Image.fromarray(px)
 
 
