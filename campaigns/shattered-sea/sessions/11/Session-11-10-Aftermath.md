@@ -37,7 +37,7 @@ The party is still on [[Aruhe - Quiet Forest Star Cut]] unless beat 8 sent them 
 
 **Held.** The steal was disrupted. The [[Fate Spinner]] is on [[Crissdalynn Khinriss]], on the packed dirt at this watch, or recovered. [[Talon Skarn]] is already in Quiet north of the star-cut, empty-handed and more than 60 feet away. No hawk stoop follows because nothing left this island. Start with Initial Narration.
 
-**Stolen.** [[Talon Skarn]] has the [[Fate Spinner]] in a hooked blade. He stands in the open at the north mouth, 40 feet from the coals and exposed beneath the star-cut. He has no fly speed. If they lived, the adult [[Aruhe - Bloodhawk]] and her young are already dropping on him, not on this camp. They try to haul him inland toward the darker wood, away from the party. The camp, the ship-versus-garden split, and the mark remain. Start with the Open sky zone Narration.
+**Stolen.** [[Talon Skarn]] has the [[Fate Spinner]] in a hooked blade. He stands in the open at the north mouth, 40 feet from the coals and exposed beneath the star-cut. He flies 90 feet. If they lived, the adult [[Aruhe - Bloodhawk]] and her young are already dropping on him, not on this camp. They still catch him; the adult flies 160 feet. They try to haul him inland toward the darker wood, away from the party. The camp, the ship-versus-garden split, and the mark remain. Start with the Open sky zone Narration.
 
 **Hawk dead.** If the adult [[Aruhe - Bloodhawk]] died on beat 1, there is no stoop. [[Talon Skarn]] still leaves with the [[Fate Spinner]] on Stolen. Start with Initial Narration and place him in the open at the north mouth. The party can stay or chase him without hawks.
 
@@ -57,7 +57,7 @@ The party is still on [[Aruhe - Quiet Forest Star Cut]] unless beat 8 sent them 
 
 **Young [[Aruhe - Bloodhawk|Bloodhawks]].** The young are smaller, four-winged charcoal hawks that follow the adult's dive. They strike whatever the adult flushes. Use them as pressure around the hunt, not as a second boss. A young hawk's dive drives a flushed body 30 feet down. They will not follow into eight-foot grass or closed canopy.
 
-**[[Talon Skarn]] on Stolen.** He is the isolated body in the open. AC 20. Use whatever hit points remained after beat 9. Walk 50 feet. No fly speed. His chained blades are still in hand. He wants to keep the [[Fate Spinner]] and break contact inland. He does not turn this camp into a second theft. Use the compact numbers on [[Session-11-09-Theft-on-the-Watch]] if someone hits him.
+**[[Talon Skarn]] on Stolen.** He is the isolated body in the open. AC 19. Use whatever hit points remained after beat 9. Walk 50 feet. Fly 90 feet. Katana, sai, and kusarigama are still in hand. He wants to keep the [[Fate Spinner]] and break contact inland. He does not turn this camp into a second theft. Use the compact numbers on [[Session-11-09-Theft-on-the-Watch]] if someone hits him.
 
 **Garden mouths.** Keep them unnamed. They listened, and they still want the garden. Sample: "She asked us to come admire her garden. This way. Leave the living plants."
 
