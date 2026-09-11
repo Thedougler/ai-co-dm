@@ -692,6 +692,7 @@ Future `foundry-battlemap` upgrades should require a pre-prompt zone and route p
 **Fix:** _Deferred by Nick's instruction; this turn records the new image's quality bar only and does not upgrade the skill._
 
 ### 2026-09-10 — XHC2P6q linked-layer battlemap quality bar
+
 **Error:** Foundry battlemap generation guidance treats each deliverable as one isolated 9:16 scene and does not capture the professional quality of `/Users/nick/Downloads/XHC2P6q.jpeg`: a coherent multi-level map set in which battlements, ground floor, and underground tunnels share one registered site footprint and communicate vertical topology.
 
 **Correction:** Treat this as a new, separate quality bar. No new image is requested or generated in this turn. The reference is strong because it solves a different problem from a single battlemap:
