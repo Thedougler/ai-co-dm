@@ -15,31 +15,31 @@ summary: Resolution after the Star Cut theft. Hawks hunt [[Talon Skarn]] only if
 
 ## Scene ends when
 
-The party can name what is different and what they want next. This is the aftermath of the watch at [[Aruhe - Quiet Forest Star Cut]], or on the column if they marched. It ends before [[Aruhe - Memorial Grove]] and does not create a second night.
+End when the party can name what changed and what they want next. This is the aftermath of the watch at [[Aruhe - Quiet Forest Star Cut]], or on the column if they marched. Stop before [[Aruhe - Memorial Grove]] and before a second night begins.
 
 This beat is thirty minutes.
 
-**If behind:** If [[Talon Skarn]] left with the [[Fate Spinner]], resolve one inland stoop on him, then end the night. If they held it, keep the [[Fate Spinner]] on [[Crissdalynn Khinriss]] or on this dirt, give one survivor line, then end the night.
+**If behind:** If [[Talon Skarn]] left with the [[Fate Spinner]], resolve one inland stoop on him, then end the night. If the party held it, keep the [[Fate Spinner]] on [[Crissdalynn Khinriss]] or on this dirt, give one survivor line, then end the night.
 
 **If ahead:** End here anyway. The garden invitation stays open, but the party does not reach [[Aruhe - Memorial Grove]] tonight.
 
 ## At a Glance
 
 - **Stakes:** The watch's result is visible now, and isolation is still how a body becomes prey.
-- **Goal / exit:** Name what is different and what they want next, then sleep or walk.
+- **Goal / exit:** Name what changed and what they want next, then sleep or walk.
 - **Danger:** If the [[Fate Spinner]] left this fire, the adult [[Aruhe - Bloodhawk]] hunts [[Talon Skarn]] in Open sky. Anyone who joins that air can become the meal. If the party held it, this camp still splits ship versus garden.
 - **Silence:** Present what changed, then wait. If the party freezes on Held, end the night with sleep. If the party freezes on Stolen while anyone remains in Open sky, tick the clock once at the end of the round.
 - **Situation magnets:** Anyone who climbs into Open sky. Anyone who walks a north trail alone. The [[Fate Spinner]] if it is in view.
 
 ## Now
 
-The party is still on [[Aruhe - Quiet Forest Star Cut]] unless beat 8 sent them onto the column or to a knot. [[Crissdalynn Khinriss]] and the watch partner stand at the east fire's north edge. Sleeping rolls lie along both jungle walls. The north mouth is 40 feet of packed dirt from the coals. A 30-foot move from the fire stays on the aisle. A 60-foot Dash does not reach [[Aruhe - Quiet Forest Spoke Ring|Spoke Ring]], the beach, or [[Uncertainty]]. This dirt is ordinary ground. [[Crissdalynn Khinriss]] uses her aarakocra fly speed from her sheet. The wood beyond either jungle wall is Difficult Terrain and heavily obscured beyond 10 feet. If the party pulled [[Matteo Scola]] free, he is still on this dirt.
+The party is still on [[Aruhe - Quiet Forest Star Cut]] unless beat 8 sent them onto the column or into a knot. [[Crissdalynn Khinriss]] and the watch partner stand at the east fire's north edge. Sleeping rolls line both jungle walls. The north mouth is 40 feet of packed dirt from the coals. A 30-foot move from the fire stays on the aisle. A 60-foot Dash does not reach [[Aruhe - Quiet Forest Spoke Ring|Spoke Ring]], the beach, or [[Uncertainty]]. This dirt is ordinary ground. [[Crissdalynn Khinriss]] uses her aarakocra fly speed from her sheet. The wood beyond either jungle wall is Difficult Terrain and heavily obscured beyond 10 feet. If the party pulled [[Matteo Scola]] free, he is still on this dirt.
 
-**Held.** The steal was disrupted. The [[Fate Spinner]] is on [[Crissdalynn Khinriss]], on the packed dirt at this watch, or recovered. [[Talon Skarn]] is already in Quiet north of the star-cut, empty-handed and more than 60 feet away. No hawk stoop follows because nothing left this island. Speak Initial Narration.
+**Held.** The steal was disrupted. The [[Fate Spinner]] is on [[Crissdalynn Khinriss]], on the packed dirt at this watch, or recovered. [[Talon Skarn]] is already in Quiet north of the star-cut, empty-handed and more than 60 feet away. No hawk stoop follows because nothing left this island. Start with Initial Narration.
 
-**Stolen.** [[Talon Skarn]] has the [[Fate Spinner]] in a hooked blade. He stands in the open at the north mouth, 40 feet of packed dirt from the coals and exposed beneath the star-cut. He has no fly speed. If they lived, the adult [[Aruhe - Bloodhawk]] and her young are already dropping on him, not on this camp. They try to haul him inland toward the darker wood, away from the party. The camp, the ship-versus-garden split, and the mark remain. Speak the Open sky zone Narration as the first look.
+**Stolen.** [[Talon Skarn]] has the [[Fate Spinner]] in a hooked blade. He stands in the open at the north mouth, 40 feet from the coals and exposed beneath the star-cut. He has no fly speed. If they lived, the adult [[Aruhe - Bloodhawk]] and her young are already dropping on him, not on this camp. They try to haul him inland toward the darker wood, away from the party. The camp, the ship-versus-garden split, and the mark remain. Start with the Open sky zone Narration.
 
-**Hawk dead.** If the adult [[Aruhe - Bloodhawk]] died on beat 1, there is no stoop. [[Talon Skarn]] still leaves with the [[Fate Spinner]] on Stolen. Speak Initial Narration with him in the open at the north mouth. The party can stay or chase him without hawks.
+**Hawk dead.** If the adult [[Aruhe - Bloodhawk]] died on beat 1, there is no stoop. [[Talon Skarn]] still leaves with the [[Fate Spinner]] on Stolen. Start with Initial Narration and place him in the open at the north mouth. The party can stay or chase him without hawks.
 
 **Column.** If beat 9 was the trail they were on, keep them on that trail. Do not move them to [[Aruhe - Quiet Forest Star Cut]]. Reuse the 40-foot lane and the 40-foot Open sky height.
 
@@ -53,11 +53,11 @@ The party is still on [[Aruhe - Quiet Forest Star Cut]] unless beat 8 sent them 
 
 **Aftermath.** Show what changed, what it cost, and what the party can still pursue. This is not a fight to the death. The party does not reach [[Aruhe - Memorial Grove]] tonight. Keep the [[Aruhe - Deerstalker]] off this card.
 
-**One adult [[Aruhe - Bloodhawk]] on Stolen only.** Run the loop as Canopy Dive, Talon Grab, then Haul Aloft inland. The four wings fold, and the crimson tips flash before the drop. [[Talon Skarn]] is the chosen meal. The party becomes prey only if someone hangs in Open sky, hits the hawk, makes loud magic, grabs him, or flies toward the young. At **124 HP or fewer**, the adult Bloodhawk keeps [[Talon Skarn]] if it has him and continues inland. The adult Bloodhawk will not dive into closed canopy or eight-foot grass. For the Easy dial, use Multiattack only and do not recharge Canopy Dive. Canopy Dive or Beak is +13 to hit. Beak deals 28 piercing. Talon Grab is +13 to hit, 23 slashing, **Grappled** (escape `DC 19`) and **Restrained**. Fly 120 feet.
+**One adult [[Aruhe - Bloodhawk]] on Stolen only.** Run the loop as Canopy Dive, Talon Grab, then Haul Aloft inland. [[Talon Skarn]] is the chosen meal. The party becomes prey only if someone hangs in Open sky, hits the hawk, makes loud magic, grabs him, or flies toward the young. At **124 HP or fewer**, the adult Bloodhawk keeps a grabbed [[Talon Skarn]] and continues inland. The adult Bloodhawk will not dive into closed canopy or eight-foot grass. For the Easy dial, use Multiattack only and do not recharge Canopy Dive. Canopy Dive or Beak is +13 to hit. Beak deals 28 piercing. Talon Grab is +13 to hit, 23 slashing, **Grappled** (escape `DC 19`) and **Restrained**. Fly 120 feet.
 
 **Young [[Aruhe - Bloodhawk|Bloodhawks]].** The young are smaller, four-winged charcoal hawks that follow the adult's dive. They strike whatever the adult flushes. Use them as pressure around the hunt, not as a second boss. A young hawk's dive drives a flushed body 30 feet down. They will not follow into eight-foot grass or closed canopy.
 
-**[[Talon Skarn]] on Stolen.** He is the isolated body in the open. AC 20. Use whatever hit points remained after beat 9. Walk 50 feet. No fly speed. His chained blades are still in hand. He wants to keep the [[Fate Spinner]] and break contact inland; he does not turn this camp into a second theft. Use the compact numbers on [[Session-11-09-Theft-on-the-Watch]] if someone hits him.
+**[[Talon Skarn]] on Stolen.** He is the isolated body in the open. AC 20. Use whatever hit points remained after beat 9. Walk 50 feet. No fly speed. His chained blades are still in hand. He wants to keep the [[Fate Spinner]] and break contact inland. He does not turn this camp into a second theft. Use the compact numbers on [[Session-11-09-Theft-on-the-Watch]] if someone hits him.
 
 **Garden mouths.** Keep them unnamed. They listened, and they still want the garden. Sample: "She asked us to come admire her garden. This way. Leave the living plants."
 
@@ -78,9 +78,9 @@ The party is still on [[Aruhe - Quiet Forest Star Cut]] unless beat 8 sent them 
 
 **Aftermath.** Failures impose the Be ready for ruling only. Failures never advance the threat clock.
 
-On Held, there is no threat clock. End the scene when the party names what is different and what they want next, sleeps, or walks.
+On Held, there is no threat clock. End the scene when the party names what changed and what they want next, sleeps, or walks.
 
-On Stolen, the inverted hunt is live only in Open sky. After everyone has acted, tick once if anyone remains in Open sky, then resolve that tick. Freeze in Open sky still ticks once. Several failed checks in one round still produce only one tick. If the whole party stays on this dirt, do not tick against them. Resolve the stoop on [[Talon Skarn]] in How the Scene Resolves.
+On Stolen, the inverted hunt is live only in Open sky. After everyone has acted, tick once if anyone remains in Open sky, then resolve that tick. Freezing in Open sky still ticks once. Several failed checks in one round still produce only one tick. If the whole party stays on this dirt, do not tick against them. Resolve the stoop on [[Talon Skarn]] in How the Scene Resolves.
 
 If the party climbs into that air after him, an obvious body in the open can become the meal. If everyone stays on the ground, the hawks remain his problem.
 
@@ -102,9 +102,9 @@ If the party climbs into that air after him, an obvious body in the open can bec
 
 | Intent | Approach | DC | Success | Partial | Failure |
 | --- | --- | --- | --- | --- | --- |
-| Assess the situation | **Wisdom (Perception)** or **Wisdom (Insight)** | `DC 10` | On Stolen, the looker sees that the adult [[Aruhe - Bloodhawk]] is hunting [[Talon Skarn]], not this camp, and that entering Open sky can make a body the meal. On Held, the looker sees that [[Talon Skarn]] is already north and empty-handed, that the camp still splits ship versus garden, and that the garden words came again without anyone following them. | The looker gets either the hawk-versus-thief split or the ship-versus-garden split, and spends the round doing so. | The looker misses the split. Open sky still makes a body prey, and a lone body on a north trail is still isolated. |
+| Assess the situation | **Wisdom (Perception)** or **Wisdom (Insight)** | `DC 10` | On Stolen, the looker sees that the adult [[Aruhe - Bloodhawk]] is hunting [[Talon Skarn]], not this camp, and that Open sky can make a body the meal. On Held, the looker sees that [[Talon Skarn]] is already north and empty-handed, the camp still splits ship versus garden, and the garden words came again without anyone following them. | The looker gets either the hawk-versus-thief split or the ship-versus-garden split and spends the round doing so. | The looker misses the split. Open sky still makes a body prey, and a lone body on a north trail is still isolated. |
 | Stay on this dirt | Committing to hold this fire and let the air resolve | Commit | On Stolen, the hawks remain [[Talon Skarn]]'s problem. The [[Fate Spinner]] leaves this fire, and the camp remains. On Held, the [[Fate Spinner]] stays on [[Crissdalynn Khinriss]] or on this dirt. The scene can end with sleep. | Binary; no partial. | Binary; no partial. Staying on this dirt ends the inverted hunt against the party. |
-| Chase into Open sky | Flying up the north mouth, or **Strength (Athletics) — `DC 10`** to climb the jungle wall into the crown split | Fly, or `DC 10` | That party member reaches Open sky, 40 feet up. An obvious body in the open can become the meal. The [[Fate Spinner]] may return on a hawk or with [[Talon Skarn]]. The party still does not reach [[Aruhe - Memorial Grove]] tonight. | The climber spends the round in hanging roots and remains on this floor. | The climber remains on this floor. A flyer who hangs exposed in Open sky draws the next threat tick. |
+| Chase into Open sky | Flying up the north mouth, or **Strength (Athletics) — `DC 10`** to climb the jungle wall into the crown split | Fly, or `DC 10` | That party member reaches Open sky, 40 feet up. An obvious body in the open can become the meal. The [[Fate Spinner]] may return on a hawk or with [[Talon Skarn]]. The party still does not reach [[Aruhe - Memorial Grove]] tonight. | The climber spends the round in hanging roots and remains on this floor. | The climber remains on this floor. A flyer who stays exposed in Open sky draws the next threat tick. |
 | Recover the [[Fate Spinner]] | Attack vs AC 15 against the adult [[Aruhe - Bloodhawk]], or **Strength (Athletics)** to tear the [[Fate Spinner]] from a talon or a hooked blade | Attack vs AC 15, or `DC 15` | The [[Fate Spinner]] comes free. It is a cool, thumb-sized quartz top with four worn faces. The adult [[Aruhe - Bloodhawk]] still has [[Talon Skarn]] if it already grabbed him. | The [[Fate Spinner]] stays in the talon or blade. That party member remains in Open sky, and the clock still ticks at the end of the round if anyone remains exposed. | The adult [[Aruhe - Bloodhawk]] treats that party member as flushed prey. Beak +13 to hit, 28 piercing, or a young hawk drives that body 30 feet down. |
 | Shoot the hawks | An attack roll against the adult [[Aruhe - Bloodhawk]] | Attack vs AC 15 | The adult [[Aruhe - Bloodhawk]] is retrieving [[Talon Skarn]], not hunting this camp. The attack makes the shooter obvious, and the adult Bloodhawk now treats that noisy party member as prey. | The noisy party member remains in Open sky. A young hawk drives that body 30 feet down. | The adult [[Aruhe - Bloodhawk]] uses Talon Grab (+13 to hit, 23 slashing, **Grappled** escape `DC 19`, **Restrained**) on the loudest party member still in the air. |
 | Hide under canopy or in grass | **Dexterity (Stealth)** | `DC 15` | The adult [[Aruhe - Bloodhawk]] will not follow, and the clock stops against that party member. | The landing is rough. That party member takes `1d6` bludgeoning and is **Prone** on the aisle or in the wood, as the fiction requires. | That party member remains visible in Open sky. |
@@ -141,7 +141,7 @@ Keep the [[Fate Spinner]] on [[Crissdalynn Khinriss]], or recover it from a talo
 
 ## How the Scene Resolves
 
-Night still holds this aisle. The garden invitation remains open, but the party does not reach [[Aruhe - Memorial Grove]] tonight. Apply any RAW damage and conditions already in effect. The party can name what is different and what they want next.
+Night still holds this aisle. The garden invitation remains open, but the party does not reach [[Aruhe - Memorial Grove]] tonight. Apply any RAW damage and conditions already in effect. The party can name what changed and what they want next.
 
 If the steal is disrupted, the [[Fate Spinner]] is on [[Crissdalynn Khinriss]], on the packed dirt, or recovered. [[Talon Skarn]] is in Quiet north, empty-handed. The camp still splits ship versus garden.
 
