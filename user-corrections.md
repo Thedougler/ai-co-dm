@@ -784,3 +784,17 @@ Future `foundry-battlemap` upgrades should add a vehicle or deck-plan mode with 
 **status:** open
 
 **Fix:** `.agents/skills/foundry-token/SKILL.md` v4.0; `references/prompt.md`; `references/slots.md`; `references/repair.md`; `references/foundry.md`; `assets/prompt-template.txt`; `scripts/foundry-token` — stands generate on a flat key color; the CLI chroma-keys that field (sampling imperfect screens, despilling the edge), refuses painted scenery, then circular-crops. Verify requires interior isolation, not corner transparency alone. Bloodhawk token re-keyed. Measure after drain. Cheap check: `rg -n 'key color|subject isolated' .agents/skills/foundry-token/SKILL.md scripts/foundry-token`.
+
+### 2026-09-11 — Image-reference prompt left unintegrated
+
+**Error:** Added `.agents/skills/visual-references/references/image-to-reference-sheet-prompt.md` with the supplied image-to-reference-sheet prompt, then stopped after creating and publishing the file. Did not update `.agents/skills/visual-references/SKILL.md` or its routing so a later agent knows when and how to use this template for converting an image into a reference image.
+
+**Correction:** In a later session, integrate the new template into the `visual-references` skill. Define its image-to-reference conversion trigger, add a clear workflow pointer, distinguish it from `references/prompt-inventory.md`, and verify the skill references the file. Preserve the supplied prompt verbatim.
+
+**Read:** `.agents/skills/visual-references/SKILL.md`; `.agents/skills/visual-references/references/prompt-inventory.md`; `.agents/skills/visual-references/references/image-to-reference-sheet-prompt.md`; `.agents/skills/writing-for-agents/SKILL.md`; `/Users/nick/.codex/attachments/d44bb194-dc6f-4ae0-9dff-9ebd5e2c4915/pasted-text.txt`; `user-corrections.md`
+
+**count:** 1
+
+**status:** open
+
+**Fix:** _No fix in this turn._ Future integration belongs in `.agents/skills/visual-references/SKILL.md` and its reference routing; the later agent should add a measurable trigger and usage pointer without rewriting the verbatim prompt.
