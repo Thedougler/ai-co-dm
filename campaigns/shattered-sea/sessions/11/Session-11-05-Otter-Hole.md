@@ -152,4 +152,4 @@ The party takes the bloody-bank detour toward the smoke on [[Aruhe - Quiet Fores
 
 ## Battlemap
 
-![[attachments/shattered-sea/battlemaps/session-11-05-otter-hole-foundry.png|Session 11-05 Slack Basin Foundry battlemap]]
+![[attachments/shattered-sea/battlemaps/session-11-05-otter-hole-foundry.jpg|Session 11-05 Slack Basin Foundry battlemap]]
