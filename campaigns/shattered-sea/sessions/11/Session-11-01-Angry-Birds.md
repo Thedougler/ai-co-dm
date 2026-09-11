@@ -149,4 +149,4 @@ If the party forced the beach, they are on the shingle. The hunt still crosses t
 
 ## Battlemap
 
-![[attachments/shattered-sea/battlemaps/session-11-01-angry-birds-base.jpg|Session 11-01 Angry Birds battlemap]]
+![[attachments/shattered-sea/battlemaps/session-11-01-angry-birds-river-landing-portrait.png|Session 11-01 Angry Birds battlemap]]
