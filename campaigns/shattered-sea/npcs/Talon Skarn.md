@@ -16,7 +16,9 @@ summary: Countless peregrine apprentice and CR 13 chain-weapon rival whose Rule 
 ![[attachments/shattered-sea/portraits/talon-skarn-portrait.jpg|Talon Skarn portrait]]
 
 > [!narration] Narration
-> A broad peregrine aarakocra stands about five feet tall, heavy wings lifted behind a dark robe. Pale chest feathers climb into a black-and-cream face; red-orange crown feathers flare above steady amber-gold eyes and a yellow beak tipped in black. Cloth wraps and loose metal chains cover his forearms, and each hand holds a curved hook-blade on a dangling chain that clicks when he shifts his grip.
+> A broad peregrine aarakocra stands about five feet tall, heavy wings lifted behind a dark robe. Pale chest feathers climb into a black-and-cream face; red-orange crown feathers flare above steady amber-gold eyes and a yellow beak tipped in black. The robe hangs in dark layers over wrapped ankles and bare talons, with patterned trim catching along the collar and down the front.
+>
+> Cloth wraps and loose metal chains cover his forearms. Each hand holds a curved hook-blade on a dangling chain, the blades bright against the dark cloth. When he shifts his grip, the chain links click once and settle against the wraps.
 
 
 ## Hook
