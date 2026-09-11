@@ -1,5 +1,5 @@
 ---
-summary: Nick's correction log. Writers append on #ERROR; ASD drains. Open: over-scoped `.agent` typo; token subject isolation.
+summary: Nick's correction log. Writers append on #ERROR; ASD drains. Open: over-scoped `.agent` typo; token subject isolation; battlemap default zoom; invented Aruhe claimed works.
 ---
 
 # User corrections
@@ -798,3 +798,31 @@ Future `foundry-battlemap` upgrades should add a vehicle or deck-plan mode with 
 **status:** open
 
 **Fix:** _No fix in this turn._ Future integration belongs in `.agents/skills/visual-references/SKILL.md` and its reference routing; the later agent should add a measurable trigger and usage pointer without rewriting the verbatim prompt.
+
+### 2026-09-11 — Battlemap default zoom too tight
+
+**Error:** Session 11 beat 1 battlemaps were generated at a tight encounter zoom: a small landing spit, then a stacked collage of existing tight maps, then the same-size trees, grass, river, and ruins after a zoom-out request. The perceptual grid stayed large, so the canvas could not hold forests behind and a grassland river leading north. 9:20 was used after Nick wanted 9:16.
+
+**Correction:** Default Foundry battlemap scale is zoomed out unless Nick asks for a tight board. Shrink the perceptual grid so more of the place fits: more forest, more grass, more river, and more land left and right. Keep 9:16. Do not bake a grid. Nick upscales after. The accepted [[attachments/shattered-sea/battlemaps/session-11-01-angry-birds-canopy-valley.png]] is the scale bar.
+
+**Read:** `.agents/skills/foundry-battlemap/SKILL.md`; `.agents/skills/foundry-battlemap/references/design.md`; `.agents/skills/foundry-battlemap/references/slots.md`; `.agents/skills/foundry-battlemap/references/prompt.md`; `.agents/skills/foundry-battlemap/references/judge.md`; `.agents/skills/foundry-battlemap/references/repair.md`; `.agents/skills/foundry-battlemap/references/foundry.md`; `.agents/skills/visual-references/SKILL.md`; `.agents/references/image-hosts.md`; `campaigns/shattered-sea/sessions/11/Session-11-01-Angry-Birds.md`; `attachments/shattered-sea/battlemaps/session-11-01-angry-birds-base.jpg`; `attachments/shattered-sea/battlemaps/session-11-01-angry-birds-river-landing-portrait.png`; `attachments/shattered-sea/battlemaps/aruhe-old-gardens-day.jpg`; `attachments/shattered-sea/battlemaps/aruhe-grasslands-day.jpg`; `attachments/shattered-sea/battlemaps/aruhe-river-day.jpg`
+
+**count:** 1
+
+**status:** open
+
+**Fix:** _No fix in this turn._ Durable change belongs in `foundry-battlemap` default SCALE/FRAME and judge: zoomed-out landscape unless asked otherwise; reject maps whose props fill the canvas at room scale when the site is a valley, canopy, or other large place.
+
+### 2026-09-11 — Invented claimed works on unclaimed Aruhe
+
+**Error:** The zoomed-out Session 11 beat 1 map invented a stone bridge and cobbled path, then a square paved courtyard ruin, on Aruhe.
+
+**Correction:** Aruhe is unclaimed jungle. Read the owner pages before placing architecture. [[Aruhe - Old Gardens]] are abandoned stacked fruiting terraces swallowed by canopy, not roads, bridges, or buildings. River crossings are wild fords over pale stone.
+
+**Read:** `campaigns/shattered-sea/locations/Aruhe-Old-Gardens.md`; `campaigns/shattered-sea/locations/Aruhe-Grasslands.md`; `campaigns/shattered-sea/locations/Aruhe-River.md`; `campaigns/shattered-sea/locations/Aruhe-River-Landing-Bank.md`; `campaigns/shattered-sea/sessions/11/Session-11-01-Angry-Birds.md`; `.agents/skills/foundry-battlemap/SKILL.md`; `.agents/skills/foundry-battlemap/references/slots.md`; `.agents/skills/foundry-battlemap/references/prompt.md`
+
+**count:** 1
+
+**status:** open
+
+**Fix:** _No fix in this turn._ Durable change belongs in `foundry-battlemap` identity/judge: vault-grounded architecture only; reject invented claimed works (bridges, roads, courtyards, buildings) on unclaimed sites.
