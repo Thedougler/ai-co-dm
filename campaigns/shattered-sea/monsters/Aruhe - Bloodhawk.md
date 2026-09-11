@@ -12,7 +12,7 @@ summary: CR 11 adult aerial skirmisher that telegraphs a stoop, seizes exposed p
 # Bloodhawk
 ![[attachments/shattered-sea/creatures/bloodhawk-of-aruhe-flight.png|Bloodhawk over Aruhe]]
 > [!narration] Narration
-> Nothing screams. Nothing circles low enough to see. Then: **THUMP-thump.** A pause. Wind over grass. **THUMP-thump.** Closer. The shadow reaches you before the bird does. When you find it against the cloud, four wings have already folded tight against a body big enough to make a whale look like prey.
+> Nothing screams. Nothing circles low enough to see. Then: **THUMP-thump.** A pause. Wind over grass. **THUMP-thump.** Closer. The shadow reaches you before the bird does. When you find it against the cloud, four wings have folded tight against a charcoal body broad enough to carry off a whale.
 
 ## Statblock
 
@@ -61,25 +61,26 @@ reactions:
 ---
 ## Biology
 
-Bloodhawks are not oversized hawks so much as an Aruhe branch of avian dinosaur that never surrendered some of its older predatory hardware. Recurved teeth hide behind the pale beak, the feet are built to close around heavy prey, and the lower wing-pair carries weight during the climb. The second pair also lets an adult change pitch and roll violently for its size. Adults can lift a whale clear of the water; they use the same motion on a lone body in open sky.
+Bloodhawks are four-winged Aruhe predators with hawk silhouettes and older, uglier hardware. Recurved teeth hide behind the pale beak, black talons close around prey like hooks, and the lower wing-pair carries weight during the climb. The second pair lets an adult roll hard in a dive despite its size. A full adult can lift a whale clear of the water; the same grip can take a lone body from open ground or open sky.
 
+---
 ## Behavior
 
-- **Habitat.** Bloodhawks own the open sky above [[Aruhe - Hungry Isle]], especially sea channels, lake bowls, reef gaps, river openings, cliff faces, canopy breaks, and grassland rims.
-- **Behavior.** At altitude, an adult is almost silent, riding lift in wide patient circles. Once it commits, the two wing-pairs beat out of phase. The paired **thump-thump** carries ahead of the dive, warning prey that the bird has chosen a line.
-- **Diet.** Whales are preferred coastal prey. Inland adults take [[Aruhe - Bear-Elk|Bear-Elk]], [[Aruhe - Terror-Bird|terror-birds]], large reptiles, and anything else forced into the open. Canoes and small boats are not meaningfully different from prey.
-- **Social Structure.** Solitary adults control enormous sky lanes. Juveniles sometimes shadow an adult hunt and take whatever the first strike flushes.
+- **Habitat.** Bloodhawks own the open sky above [[Aruhe - Hungry Isle]], especially sea channels, lake bowls, reef gaps, river mouths, cliff faces, canopy breaks, and grassland rims.
+- **Behavior.** At altitude, an adult rides lift in wide, quiet circles. When it commits, the two wing-pairs beat out of phase, and the paired **thump-thump** reaches the ground before the body does.
+- **Diet.** Whales are preferred coastal prey. Inland adults take [[Aruhe - Bear-Elk|Bear-Elk]], [[Aruhe - Terror-Bird|terror-birds]], large reptiles, and anything flushed into the open. Canoes and small boats count as prey.
+- **Social Structure.** Solitary adults hold enormous sky lanes. Juveniles sometimes shadow an adult hunt and drop on whatever the first strike drives out of cover.
 ---
 
 ## Tactics
 
-- **Signs.** A moving wing-shadow with no call, crushed grass circles with no exit trail, bear-elk bones on terrace stone with no approach tracks, whale blood in open water, crimson primary feathers, and the paired **thump-thump** during an active chase.
-- **Instincts.** It keys on height, noise, exposed movement, open water, and prey already flushed from cover. It breaks off when the target vanishes under closed canopy, deep grass, or protected water.
-- **Tactics.** Start high and outside ordinary weapon range. Let the table hear the **thump-thump** before Terminal Stoop. The Bloodhawk stoops on the most exposed large target, tries to seize it with Hook Talons, and uses Haul Aloft to turn altitude into the threat. On the next turn, it tears into the held body with Serrated Beak or releases the body to regain distance.
-- **Weaknesses.** Break the dive line with closed canopy, tall grass, a cliff overhang, ship rigging, or a broken sightline. Force low altitude, ready attacks for the committed pass, or ground it; its land speed is poor and Break Turn cannot answer an attack after it has spent its reaction. It will not put its feet into occupied [[Aruhe - River Otter|otter]] water.
-- **Aftermath.** A Bloodhawk strike leaves torn feathers, falling blood, cracked branches, dropped nest fiber from high canopy, and sometimes a carcass placed where no ground trail reaches it.
+- **Signs.** Use a moving wing-shadow with no call, crushed grass circles with no exit trail, bear-elk bones on terrace stone with no approach tracks, whale blood spreading in open water, crimson primary feathers, or the paired **thump-thump** during an active chase.
+- **Instincts.** It keys on height, noise, exposed movement, open water, and prey already flushed from cover. It breaks off when the target disappears under closed canopy, deep grass, rigging, overhang, or protected water.
+- **Tactics.** Start high and outside ordinary weapon range. Let the table hear the **thump-thump** before Terminal Stoop. The Bloodhawk stoops on the most exposed large target, seizes it with Hook Talons, then uses Haul Aloft to make altitude the danger. On the next turn, it tears into the held body with Serrated Beak or drops the body to regain distance.
+- **Weaknesses.** Break the dive line with closed canopy, tall grass, a cliff overhang, ship rigging, or any hard sightline break. Force low altitude, ready attacks for the committed pass, or ground it; its land speed is poor, and Break Turn cannot answer a second hit after it spends its reaction. It will not put its feet into occupied [[Aruhe - River Otter|otter]] water.
+- **Aftermath.** A Bloodhawk strike leaves torn feathers, falling blood, cracked branches, nest fiber dropped from high canopy, and sometimes a carcass placed where no ground trail reaches it.
 
 ---
 ## Art 
 
-![[attachments/shattered-sea/creatures/bloodhawk-token.jpg|Bloodhawk FoundryVTT token]]
+![[attachments/shattered-sea/creatures/bloodhawk-of-aruhe-token.png|Bloodhawk FoundryVTT token]]
