@@ -111,4 +111,4 @@ The party follows the north prints toward the smoke onto [[Aruhe - Grasslands To
 
 ## Battlemap
 
-![[attachments/shattered-sea/battlemaps/session-11-02-landing-sign-base.jpg|Session 11-02 Landing Sign battlemap]]
+![[attachments/shattered-sea/battlemaps/session-11-02-landing-sign-valley.jpg|Session 11-02 Landing Sign battlemap]]

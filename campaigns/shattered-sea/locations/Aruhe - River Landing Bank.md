@@ -14,9 +14,10 @@ tags:
   - river
   - grasslands
 source: "[[Aruhe - River]]"
+summary: First grassland mouth after the Old Gardens: eight-foot grass, a used stop, north prints, and a river that can be waded to a far bank.
 ---
 # Landing Bank
-![[session-11-02-landing-sign-base.jpg|Landing Bank, first river-cut grass mouth after the terraces]]
+![[session-11-02-landing-sign-valley.jpg|Landing Bank, first river-cut grass mouth after the terraces]]
 ## Overview
 > [!narration] Narration
 > Clear turquoise water runs the east side of a gold-green bank, pale stone showing under the current where submerged blades bend with the flow. Grass stands higher than a person, and a double muddy track of crushed stems cuts north up the bank. Fifteen feet west of the water a ring of stones holds grey ash beside a closed wooden crate, orange whole fruit, split skins, and a couple of bowls. Glossy red berries hang on short thick stems at the wet margin, water beading on ridged skin. Twenty feet west of the prints, mossy terrace walls and stacked garden stone rise out of the trees. The river knocks against the bank, and the burst skins smell sharp and sweet in the dirt.
@@ -33,6 +34,7 @@ Landing Bank is the first grassland mouth of [[Aruhe - River]] after [[Aruhe - O
 - **Climb the terrace stone 20 feet west of the prints:** [[Aruhe - Old Gardens]].
 - **Stay on the terrace edge and skip the cut:** The water, prints, and used stop are lost.
 - **Walk the eight-foot grass:** The grass is Difficult Terrain and heavily obscures beyond 10 feet. Movement leaves a crushed corridor. A 30-foot move stays on this bank. A Dash of 60 feet leaves it north along the prints or south toward the terrace return.
+- **Wade the pale-stone shallows:** The far grass bank on the east side of the water is reachable. The current is still [[Aruhe - River]].
 - **Search the crate and fire scrape:** **Intelligence (Investigation)** or **Wisdom (Perception) — `DC 10`** → The fire scrape is cold ash in cleared dirt, and the crate can be taken. Opening it does not name how many people passed or whether they claimed fruit. Do not invent contents. Failure → The searcher spends time at the stop and learns only that it is fresh.
 - **Take fruit along the wet margin:** Fallen fruit is receiving. Plucking a living plant makes surrounding life converge, hostile. [[Taking on Aruhe]]
   - **Intelligence (Nature) — identify**
@@ -61,7 +63,7 @@ Landing Bank is the first grassland mouth of [[Aruhe - River]] after [[Aruhe - O
 ## Where
 
 - **North:** To the north, [[Aruhe - Grasslands Torn Crossing]] is the next stretch upvalley. Following the prints 60 feet off this bank reaches that cut. Smoke stands farther north in this same valley, not on this bank.
-- **East:** To the east, [[Aruhe - River]] runs against this bank at once. Pale stone shows under the current.
+- **East:** To the east, [[Aruhe - River]] runs the length of this bank at once. Pale stone shows under the current. Shallows reach a far grass bank on the other side.
 - **South:** To the south, the terrace return is 40 feet. [[Aruhe - Old Gardens]] and [[Aruhe - Beach|Western Landing]] lie that way, with [[Uncertainty]] on the water beyond. No established day-count for that return yet.
 - **West:** To the west, mossy terrace woods stand 20 feet inland of the prints and climb into [[Aruhe - Old Gardens]].
 
@@ -73,4 +75,4 @@ Landing Bank is the first grassland mouth of [[Aruhe - River]] after [[Aruhe - O
 
 ---
 ## Art
-![[session-11-02-landing-sign-base.jpg|Landing Bank battlemap, prints, fire scrape, and river mouth]]
+![[session-11-02-landing-sign-valley.jpg|Landing Bank battlemap, prints, fire scrape, and river mouth]]

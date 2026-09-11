@@ -1,5 +1,5 @@
 ---
-summary: Nick's correction log. Writers append on #ERROR; ASD drains. Open: replaced-wrong Beat 1 image; token subject isolation; visual-references image-to-reference template; TotM hawk-stoop force.
+summary: Nick's correction log. Writers append on #ERROR; ASD drains. Open: replaced-wrong Beat 1 image; token subject isolation; visual-references image-to-reference template; TotM hawk-stoop force; battlemap prior-output as reference.
 ---
 
 # User corrections
@@ -821,11 +821,11 @@ Future `foundry-battlemap` upgrades should add a vehicle or deck-plan mode with 
 
 **Read:** `campaigns/shattered-sea/locations/Aruhe-Old-Gardens.md`; `campaigns/shattered-sea/locations/Aruhe-Grasslands.md`; `campaigns/shattered-sea/locations/Aruhe-River.md`; `campaigns/shattered-sea/locations/Aruhe-River-Landing-Bank.md`; `campaigns/shattered-sea/sessions/11/Session-11-01-Angry-Birds.md`; `.agents/skills/foundry-battlemap/SKILL.md`; `.agents/skills/foundry-battlemap/references/slots.md`; `.agents/skills/foundry-battlemap/references/prompt.md`
 
-**count:** 1
+**count:** 2
 
-**status:** closed
+**status:** open
 
-**Fix:** `.agents/skills/foundry-battlemap/SKILL.md`; `references/design.md`; `references/slots.md`; `references/judge.md`; `references/prompt.md`; `references/repair.md`; `assets/prompt-template.txt` — Intake reads the PLACE owner page; identity and judge place only architecture that page names; unclaimed land stays wild (terraces, canopy, grass, river, pale-stone fords). Measure: files requiring owner-page architecture 0 → 3. Cheap check: `rg -l --glob '*.md' 'Architecture and crossings are what that page names' .agents/skills/foundry-battlemap`. `after-write` SHA: `1ec9622`.
+**Fix:** `.agents/skills/foundry-battlemap/SKILL.md`; `references/design.md`; `references/slots.md`; `references/judge.md`; `references/prompt.md`; `references/repair.md`; `assets/prompt-template.txt` — Intake reads the PLACE owner page; identity and judge place only architecture that page names; unclaimed land stays wild (terraces, canopy, grass, river, pale-stone fords). Measure: files requiring owner-page architecture 0 → 3. Cheap check: `rg -l --glob '*.md' 'Architecture and crossings are what that page names' .agents/skills/foundry-battlemap`. `after-write` SHA: `1ec9622`. Reopened: Session 11 beat 2 map used twin wagon ruts and a mowed dirt lane instead of muddy footprints crushed through eight-foot unclaimed grass.
 
 ### 2026-09-11 — Battlemap from the whole session beat
 
@@ -868,3 +868,17 @@ Future `foundry-battlemap` upgrades should add a vehicle or deck-plan mode with 
 **status:** open
 
 **Fix:** _No durable process fix in this turn._ Apply the chest-up framing correction to the live token work; future token work should check the owner's peer-token framing before generating new art.
+
+### 2026-09-11 — Battlemap prior output used as reference
+
+**Error:** On the Session 11 beat 2 Landing Bank redo, zoom-out and extra-space requests were sent through `image_edit` with the previous generated map as an input image. That locked the composition, so later frames stayed the same tight board.
+
+**Correction:** When the job is a new composition, a scale change, or a zoom-out, create a new image. Do not pass the last generated map as a reference.
+
+**Read:** `.agents/skills/foundry-battlemap/SKILL.md`; `.agents/skills/foundry-battlemap/references/prompt.md`; `.agents/skills/foundry-battlemap/references/repair.md`; `.agents/references/image-hosts.md`; `campaigns/shattered-sea/sessions/11/Session-11-02-Landing-Sign.md`; `campaigns/shattered-sea/locations/Aruhe - River Landing Bank.md`; `attachments/shattered-sea/battlemaps/session-11-02-landing-sign-base.jpg`
+
+**count:** 2
+
+**status:** open
+
+**Fix:** _No durable process fix in this turn._ Live work uses a fresh `image_gen` with no prior-output image.
