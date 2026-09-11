@@ -217,7 +217,7 @@ flexGrow=2
 > Spoken scene-setting stays full width, outside the fence.
 `````
 
-Parent fences need more backticks than children. `flexGrow` sets relative width. Headings may sit inside `col-md` so the title stays with its body in Reading view.
+Parent fences need more backticks than children. `flexGrow` sets relative width. Headings may sit inside `col-md` so the title stays with its body in Reading view. Monster roster rows are two `![[Name#Statblock]]` columns max; extra monsters wrap to the next row. Other cockpit pairs are unaffected.
 
 Owner pages may still use callout `[!col]` when no `[!narration]` sits in the same row. Full pairing catalog: [references/COLUMNS.md](references/COLUMNS.md).
 

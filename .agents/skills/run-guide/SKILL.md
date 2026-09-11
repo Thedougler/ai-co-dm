@@ -199,12 +199,24 @@ Add other sections only as the beat needs them. Keep the order already present
 in an existing file unless moving a section makes the card easier to run.
 
 **Columns.** Session cards use obsidian-columns **codeblock** syntax
-(`col` / `col-md`) so `[!narration]` stays a real callout. Pair same-moment
-jobs; leave spoken blocks and wide tables full width. Catalog:
+(`col` / `col-md`) so `[!narration]` stays a real callout. Syntax:
 `obsidian-markdown` [references/COLUMNS.md](../obsidian-markdown/references/COLUMNS.md).
-When both Procedure and Secondary objective exist, sit Secondary beside
-Procedure. When a Threat clock has Bloodied / cover / dials, sit those
-paragraphs beside the clock table.
+Each row appears only when both sides exist. The right side of Mode and
+Clock rows may be a short paragraph, not a heading.
+
+| Row | Left | Right | flexGrow |
+|---|---|---|---|
+| Overview art | First overview/identity image | Second image | equal |
+| Dashboard | `## Scene ends when` | `## At a Glance` | Glance `flexGrow=2` |
+| Situation | `## Now` | `## Action cards` | Action cards `flexGrow=2` |
+| Mode | `## Procedure` | `## Secondary objective` | Procedure `flexGrow=3` |
+| Clock | `## Threat clock` table | Bloodied / cover / dials | Clock `flexGrow=3` |
+| Roster | Monster `![[Name#Statblock]]` (two columns max) | Second monster, or omit | equal |
+
+**Full width:** `[!narration]` callouts, Zones table, Be ready for table,
+How the Scene Resolves body + options, Backup, Battlemap. Monster roster rows
+never exceed two `![[Name#Statblock]]` columns; a leftover odd monster sits
+full width. The two-column cap is for monster statblocks only.
 
 | Field | Keep when | Shape |
 |---|---|---|
@@ -222,7 +234,7 @@ paragraphs beside the clock table.
 | **Secondary objective** | A second question runs in parallel and changes outcome or later consequence. | Heading `## Secondary objective`. One paragraph: beats required, ignore outcome, later consequence. Omit when there is no second objective. |
 | **How the Scene Resolves** | Every live beat needs the next state. | Heading is `## How the Scene Resolves`. Write only the most likely options, usually one or two. Each option hands off to a beat on this session's skeleton — it advances the scene, not exits it. Next state, damage already applied, relevant conditions, and what follows. One empty `> [!narration] How the Scene Resolves` for the unconditional spoken state, plus a table for those likely options (`If` \| `Next` \| `Narration`). Narration cells use `==_spoken_==`. Do not stack a titled callout per option. |
 | **Exit narration** | The next cockpit is already on this file. | Empty `> [!narration] Exit` on pass 1. Spoken transition on pass 2. Omit until that beat is ready. |
-| **Roster embeds** | The DM will roll a creature or item in this beat. | Heading `## Roster`. `![[Monster#Statblock]]` for opposition you will roll in combat mode. Keep the full fences; the DM scrolls. After each embed: empty `> [!narration] {Creature}`. Item embeds only if this slice spends charges or the item is the pressure. |
+| **Roster embeds** | The DM will roll a creature or item in this beat. | Heading `## Roster`. `![[Monster#Statblock]]` for opposition you will roll in combat mode. Monster statblocks use at most two columns per row; a third monster starts a new row or sits full width. Keep the full fences; the DM scrolls. After each embed: empty `> [!narration] {Creature}`. Item embeds only if this slice spends charges or the item is the pressure. |
 | **Backup** | Extra owner links would save table hunting. | Heading `## Backup`. Extra wikilinks only. Omit when all required owners are already embedded or linked above. |
 | **Previous-session recap** | Only this file is the first beat of the session. | Keep it brief and player-facing. Omit from every other beat file. |
 
@@ -402,13 +414,13 @@ Completion — all of these hold, or the draft is not done:
 - Every consequence is a *ruling* (see Ruling).
 - Optional sections stay absent unless this beat spends them at the table.
 - Secondary objective, How the Scene Resolves, Roster, and Backup use `##` headings when present.
-- Combat-mode owners are heading-embedded under Roster when the DM will roll them. Default-mode rolls have numbers on the action cards.
+- Combat-mode owners are heading-embedded under Roster when the DM will roll them. Default-mode rolls have numbers on the action cards. Monster `![[Name#Statblock]]` rows never exceed two columns.
 - Existing overview or identity image is embedded near the top when exact art exists. Omit if none exists.
 - Battlemap art is embedded at the bottom when exact-scene art exists. Omit if none exists.
 - Travel omitted, or one inlined complication with a failure endpoint.
 - One cockpit: Glance once, no second Run-now, no separate Ask callout, no Scene menu, no peer Round script.
 - The only `> [!` on the card is `[!narration]`. Do not use `[!col]` / `[!col-md]` on session cards. Conditional spoken in Narration table columns is `==_italic_==`, not a callout in the cell.
-- Same-moment sections that exist are paired in `col` / `col-md` fences (dashboard, Now + action cards, Procedure + Secondary, clock + dials, roster embeds). Spoken `[!narration]` and the Zones / Be ready for tables stay full width.
+- Every pair in the column layout table is fenced in `col` / `col-md` when both sides exist; `flexGrow` ratios match the table. Spoken `[!narration]` callouts, Zones, Be ready for, How the Scene Resolves, Backup, and Battlemap stay full width.
 - Every DM-facing line is signal-only: it changes placement, a roll, spoken words, risk, route, clock, resource, or NPC response.
 - Every ruling, DC, and design choice on this card serves **fun** first. Change a DC, drop a constraint, or reshape a beat when the alternative is more fun — consistency, symmetry, and prior-beat precedent yield to fun.
 

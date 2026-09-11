@@ -190,9 +190,11 @@ Put the `##` heading inside the `col-md` that holds its body. Reading view is th
 | Overview art | First identity/overview image | Second image | equal |
 | Dashboard | `## Scene ends when` | `## At a Glance` | Glance `flexGrow=2` |
 | Place + rolls | `## Now` | `## Action cards` | Action cards `flexGrow=2` |
-| Procedure | `## Procedure` | `## Secondary objective` when both exist | Procedure `flexGrow=2` |
+| Procedure | `## Procedure` | `## Secondary objective` when both exist | Procedure `flexGrow=3` |
 | Clock | `## Threat clock` table | Bloodied / cover-reached / scene dials | Clock `flexGrow=3` |
-| Roster | One `![[Name#Statblock]]` per column | Remaining combat-mode owners | equal |
+| Roster | Monster `![[Name#Statblock]]` (two columns max; extra wrap) | Second monster, or omit | equal |
+
+Monster roster rows never exceed two `![[Name#Statblock]]` columns. A third monster starts a new row; a leftover odd monster sits full width. The two-column cap is for monster statblocks only.
 
 **Keep full width:**
 
