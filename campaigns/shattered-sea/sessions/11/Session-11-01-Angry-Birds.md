@@ -14,6 +14,7 @@ summary: Hook stoop over the old terraces; the adult Bloodhawk hunts the Crown S
 ![[Session 10 - Recap#Recap]]
 
 ![[attachments/shattered-sea/sessions/session-11-01-angry-birds-overview.jpg|Session 11-01 Angry Birds overview]]
+![[attachments/shattered-sea/sessions/session-11-01-angry-birds-descent.png|Session 11-01 descent over Aruhe]]
 
 ## Scene ends when
 
