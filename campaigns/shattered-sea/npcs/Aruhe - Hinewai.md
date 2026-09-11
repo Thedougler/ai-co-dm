@@ -27,6 +27,10 @@ source: "house (Monster-Brewer; legacy Fantasy Statblock import; Hinewai/Death B
 
 *The Woman in the Woods*
 
+## Art
+
+![[attachments/shattered-sea/creatures/hinewai-woman-in-the-woods-token.png|Hinewai woman-in-the-woods Foundry VTT token]]
+
 ![[attachments/shattered-sea/reference/hinewai-reference-sheet.png|Hinewai identity reference sheet]]
 
 ![[attachments/shattered-sea/portraits/hinewai-moonlit-harp.jpg|Hinewai playing harp in the moonlit jungle]]
