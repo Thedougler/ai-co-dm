@@ -571,6 +571,6 @@ Follow skill `agentic-system-designer` (Intake → Baseline → Fix → Prove �
 
 **Read:** `campaigns/shattered-sea/sessions/11/Session-11-01-Angry-Birds.md`; `.agents/skills/visual-aids/SKILL.md`; `.agents/skills/obsidian-markdown/SKILL.md`; `user-corrections.md`; `attachments/shattered-sea/sessions/session-11-01-angry-birds-overview.jpg`.
 
-**count:** 1
+**count:** 3
 
 **status:** open
