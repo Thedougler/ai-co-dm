@@ -676,3 +676,29 @@ Future `foundry-battlemap` upgrades should require a pre-prompt zone and route p
 **status:** open
 
 **Fix:** _Deferred by Nick's instruction; this turn records the new image's quality bar only and does not upgrade the skill._
+
+### 2026-09-10 — XHC2P6q linked-layer battlemap quality bar
+
+**Error:** Foundry battlemap generation guidance treats each deliverable as one isolated 9:16 scene and does not capture the professional quality of `/Users/nick/Downloads/XHC2P6q.jpeg`: a coherent multi-level map set in which battlements, ground floor, and underground tunnels share one registered site footprint and communicate vertical topology.
+
+**Correction:** Treat this as a new, separate quality bar. No new image is requested or generated in this turn. The reference is strong because it solves a different problem from a single battlemap:
+
+- **Registered layers:** The shoreline, island silhouette, detached rocks, fortification footprint, towers, wall runs, and major openings recur in the same positions across the three states. A DM can move from one level to another without mentally redrawing the site. Future multi-level output should preserve anchor points and orientation exactly; a different floor must be a true layer of the same place, not a visually similar replacement.
+- **Clear layer roles:** The upper panel communicates exposed battlements and defensible wall-top space; the middle panel reveals the furnished ground floor and room functions; the lower panel reveals the dark underground tunnel network. Each layer adds information instead of repeating the previous image with a superficial paint change.
+- **Vertical topology:** The map makes above/below relationships legible through shared walls, courtyards, towers, shore edges, and the central rocky mass. Tunnels read as a deliberate network under the inhabited structure, with larger chambers, branching passages, constrictions, and exits that can support exploration, pursuit, ambush, and alternate routes.
+- **Tactical variety by level:** The battlements provide broad exposed floors, wall walks, towers, parapets, and approach lines; the ground floor provides furnished rooms, corridors, thresholds, and cover; the tunnels provide low-light chambers, irregular passages, hidden movement, and chokepoints. Each layer has its own combat grammar while remaining part of one encounter space.
+- **Information staging:** The faint site image behind the tunnel layer acts as an orientation reference: it preserves the surface footprint while visually demoting it beneath the subterranean information. A future map-set workflow should support a clean player-facing layer and, when useful, a separate DM orientation overlay or keyed reference sheet rather than forcing hidden topology into every battle layer.
+- **Tactical readability:** Walkable stone, grass, cliffs, beach, water, walls, doors or openings, furniture, and tunnel voids separate by value and texture. At thumbnail size the site shape and level identity are obvious; at ordinary VTT zoom, rooms, walls, routes, blockers, and transitions remain readable. Detail supports decisions instead of becoming a decorative collage.
+- **Consistent authored world:** The island water, pale rock, green vegetation, dark masonry, timber, and underground earth share one inked, hand-painted visual language. The same coastline and materials make the three panels feel like one place with different elevations, not three unrelated maps stacked together.
+- **Context and framing:** The irregular island and surrounding water give the fort a clear boundary and approach context. Natural shorelines, detached rocks, cliff faces, and wall geometry fill the frame with meaningful edge information while leaving playable areas open. The site reads as a place in the world before the viewer studies individual rooms.
+- **Presentation versus import:** The sample intentionally includes the labels `BATTLEMENTS`, `GROUND FLOOR`, and `UNDERGROUND TUNNELS`, separator rules, and Patreon marks to explain the map set. Those are presentation aids, not battlemap art. Individual Foundry layers must retain the existing clean-art contract: no baked grid, captions, watermark, UI, tokens, fog, or light overlay.
+
+Future `foundry-battlemap` upgrades should add an explicit multi-level or map-set mode: define a shared site footprint and north/orientation anchors; name each layer's tactical role; inventory vertical connections and shared landmarks; generate aligned clean layers as separate importable files; and provide an optional orientation/reference sheet outside the battle layers. Judge both each layer on its own and the registration of the set as a whole. Reject layers that drift in shoreline, wall, tower, room, or tunnel alignment; hide vertical connections; repeat the same tactical grammar on every level; lose readability at thumbnail or normal zoom; or use the collage's labels and branding as baked map content. This entry records the quality bar only; no skill upgrade is being made in this turn.
+
+**Read:** `user-corrections.md`; `/Users/nick/Downloads/XHC2P6q.jpeg`; `.agents/skills/foundry-battlemap/SKILL.md`; `.agents/skills/foundry-battlemap/references/foundry.md`; `.agents/skills/foundry-battlemap/references/judge.md`; `.agents/skills/foundry-battlemap/references/prompt.md`; `.agents/skills/foundry-battlemap/references/repair.md`; `.agents/skills/foundry-battlemap/references/slots.md`; `.agents/skills/obsidian-markdown/SKILL.md`
+
+**count:** 1
+
+**status:** open
+
+**Fix:** _Deferred by Nick's instruction; this turn records the new image's quality bar only and does not upgrade the skill._
