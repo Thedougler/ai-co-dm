@@ -11,16 +11,7 @@ tags: [monster, aruhe]
 # Bloodhark
 
 ## Statblock
-````col
-```col-md
-flexGrow=3
-===
-![[attachments/shattered-sea/creatures/bloodhawk-of-aruhe-portrait.png|Bloodhawk of Aruhe]]
-> [!narration] Narration
-> Seen against storm light, the Aruhe Bloodhawk fills the sky with four broad wings, two rising high and two spread low, their charcoal feathers edged and streaked with deep crimson. Its body is an enormous hawk's body, heavy through the chest, with a ragged red crest above a pale hooked beak and long scaled legs that end in black curved talons. It rides the open sky over Aruhe's water and grassland rims in wide, silent circles, and the light catches red across its wings before the dark shape passes on.
-```
 
-```col-md
 ```statblock
 layout: Basic 5e Layout
 name: Bloodhawk
@@ -66,16 +57,19 @@ reactions:
   - name: Wing Buffet
     desc: "Trigger: The bloodhawk is hit by a ranged attack while flying and isn't grappling a Gargantuan creature. Response: The attacker must reroll the attack and use the new roll."
 ```
-```
-````
 
+![[attachments/shattered-sea/creatures/bloodhawk-of-aruhe-portrait.png|Bloodhawk of Aruhe]]
+> [!narration] Narration
+> Seen against storm light, the Aruhe Bloodhawk fills the sky with four broad wings, two rising high and two spread low, their charcoal feathers edged and streaked with deep crimson. Its body is an enormous hawk's body, heavy through the chest, with a ragged red crest above a pale hooked beak and long scaled legs that end in black curved talons. It rides the open sky over Aruhe's water and grassland rims in wide, silent circles, and the light catches red across its wings before the dark shape passes on.
 
+---
 ## Behavior
 
 - **Habitat.** Bloodhawks own the open sky above [[Aruhe - Hungry Isle]], especially lake bowls, reef gaps, river openings, canopy breaks, and hard-lit grassland rims. They avoid closed canopy, eight-foot grass, charted shingle, and occupied [[Aruhe - River Otter|otter]] water.
 - **Behavior.** A Bloodhawk rides thermals in wide silent circles, watching for bodies that leave cover or cross open water. It does not scream over its territory. Over land, the warning is a moving bar of dark on the floor; over water, crimson underwings flashing against storm light.
 - **Diet.** It takes whales, canoes in open channel, [[Aruhe - Bear-Elk|Bear-Elk]] that step into open cuts, and [[Aruhe - Terror-Bird|terror-birds]] that hold a rim too long in hard noon.
 - **Social Structure.** Solitary adults hold inland sky lanes. Young Bloodhawks may follow what an adult flushes, but they are pressure around the hunt rather than equal rivals.
+---
 
 ## Tactics
 
@@ -85,5 +79,7 @@ reactions:
 - **Weaknesses.** It is slow and unhappy on the ground, bad under a sealed roof of leaves, and unwilling to put its feet into occupied otter water. Cover, low flight, tall grass, and broken sightlines rob the dive of its clean line.
 - **Aftermath.** A Bloodhawk strike leaves torn feathers, falling blood, cracked branches, dropped nest fiber from high canopy, a stinking wound that will not close until treated, and sometimes a carcass placed where no ground trail reaches it.
 
+---
 ## Art 
+![[attachments/shattered-sea/creatures/bloodhawk-of-aruhe-flight.png|Bloodhawk over Aruhe]]
 ![[bloodhawk-token.jpg|Bloodhawk FoundryVTT token]]
