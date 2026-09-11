@@ -88,7 +88,7 @@ Slot tables, style lock, and composition recipes live in [references/slots.md](r
 
 New slots from the brief: `{FRAME}`, `{ZONES}`, `{ROUTES_AND_COVER}`, `{MATERIALS}`, `{IDENTITY}`, `{BEAT_JOBS}`.
 
-If a reference map or sketch is attached, add this line after PLACE:
+If Nick attached a sketch or asked to keep a liked frame's layout, add this line after PLACE:
 
 `Keep this layout. Same walls, paths, and major props. Change only paint, light, and weather as specified.`
 
@@ -96,7 +96,7 @@ If a reference map or sketch is attached, add this line after PLACE:
 
 ### 4. Generate
 
-Send the filled prompt to the host image tool. Read [.agents/references/image-hosts.md](.agents/references/image-hosts.md) for the tool call on the current host.
+Send the filled prompt to the host image tool. Read [.agents/references/image-hosts.md](.agents/references/image-hosts.md) for the tool call on the current host. Generate a new image. Identity/owner refs only.
 
 - Set orientation to match the FRAME (portrait, landscape, or square). One image. Do not tile. Do not stitch.
 - Do not bake a grid. Do not ask the image tool for DPI. Do not constrain resolution — generate the most complete image possible.
@@ -126,7 +126,7 @@ Vehicle and multi-level modes add judge criteria — see [references/modes.md](r
 
 ### 6. Repair
 
-On reject, do not rewrite the prompt. Send one repair line from [references/repair.md](references/repair.md). Generate again. Cap at two repairs, then show the best frame and name what still fails.
+On reject, do not rewrite the prompt. Send one repair line from [references/repair.md](references/repair.md). Generate a new image (image-hosts Generate) with that line added. Cap at two repairs, then show the best frame and name what still fails.
 
 **Done when** the image passes, or two repairs are spent.
 

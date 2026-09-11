@@ -50,10 +50,11 @@ keeps it alive.
    central subject has its strongest available anchor attached.
 
 5. **Feed the host image tool.** Read [.agents/references/image-hosts.md](.agents/references/image-hosts.md)
-   for the tool call and parameter mapping on the current host. The image-input field must
-   hold the files or tokens — a filename in the prompt text is not the input. Read
+   for generate vs edit and the tool call on the current host. The image-input field must
+   hold the identity files or tokens — a filename in the prompt text is not the input. A
+   previous generated frame is not an identity anchor. Read
    `references/prompt-inventory.md` for the structured brief template. Completion: when
-   reference images exist, the tool call's image-input field contains them; when none exist,
+   identity anchors exist, the generate call's image-input field contains them; when none exist,
    the call is text-only.
 
 6. **Stop on missing anchors.** If a known entity has neither appearance prose nor a usable

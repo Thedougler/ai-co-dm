@@ -1,6 +1,6 @@
 # Source-art repair lines
 
-Repair the source image, then judge it again. Finalize only after the art passes.
+Send one line on a new generation, then judge it again. Finalize only after the art passes.
 
 - Important feature clipped — `Pull the camera back and keep the full silhouette inside a centered circular-safe frame.`
 - Subject too close to the rim — `Add even breathing room around the subject. Keep all identifying features inside the inner 90 percent.`

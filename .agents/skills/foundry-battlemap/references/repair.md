@@ -1,6 +1,6 @@
 # Repair lines
 
-Send one line. Keep the rest of the prompt.
+Send one line on a new generation. Keep the rest of the prompt.
 
 - First-person or hero shot — `Reject scene illustration. Orthographic top-down battlemap only. Camera straight down. No horizon.`
 - Isometric city tilt — `Flatten to true overhead. Roofs and tabletops as flat tops. No 30-degree isometric.`

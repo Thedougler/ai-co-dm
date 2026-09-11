@@ -38,7 +38,7 @@ image (or the need to generate one), intended output path, and target size (see
 
 When no accepted stand exists, generate the source image with the image tool.
 Read [.agents/references/image-hosts.md](.agents/references/image-hosts.md) for which
-tool to call on the current host.
+tool to call on the current host. Retries are new generations.
 Use [references/prompt.md](references/prompt.md) for the prompt template and
 [references/slots.md](references/slots.md) for slot guidance. Generate a square
 source whenever possible.

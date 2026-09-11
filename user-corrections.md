@@ -1,5 +1,5 @@
 ---
-summary: Nick's correction log. Writers append on #ERROR; ASD drains. Open: replaced-wrong Beat 1 image; token subject isolation; visual-references image-to-reference template; TotM hawk-stoop force; generate-new unless asked to edit.
+summary: Nick's correction log. Writers append on #ERROR; ASD drains. Open: replaced-wrong Beat 1 image; token subject isolation; visual-references image-to-reference template; claimed works on unclaimed Aruhe; TotM hawk-stoop force; PC token framing.
 ---
 
 # User corrections
@@ -879,6 +879,6 @@ Future `foundry-battlemap` upgrades should add a vehicle or deck-plan mode with 
 
 **count:** 3
 
-**status:** open
+**status:** closed
 
-**Fix:** _No durable process fix in this turn._ Live work uses a fresh `image_gen` unless Nick likes a frame and asks for an edit.
+**Fix:** `.agents/references/image-hosts.md` — Generate is the default (new image; identity anchors only). Edit a specific frame only when Nick likes that image and asks. Pointers: `foundry-battlemap` Generate+Repair and `references/repair.md`; `visual-references` feed step; `foundry-token` retries and repair. Measure: files stating Generate-is-the-default 0 → 1. Cheap check: `rg -n '\*\*Generate\*\* is the default' .agents/references/image-hosts.md`.
