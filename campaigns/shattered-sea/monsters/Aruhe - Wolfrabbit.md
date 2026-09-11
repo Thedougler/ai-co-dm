@@ -17,6 +17,7 @@ summary: CR 4 pack skirmisher that uses a 30-foot pounce to knock targets prone 
 flexGrow=3
 ===
 ![[attachments/shattered-sea/creatures/wolfrabbit-of-aruhe-v2.png|Wolfrabbit of Aruhe]]
+![[attachments/shattered-sea/creatures/wolfrabbit-of-aruhe-token.png|Wolfrabbit of Aruhe Foundry VTT token]]
 
 > [!narration] Narration
 > A dark-striped hunting cat crouches over the boat, its enormous ears pricked above a broad, furred head. Red eyes track you through the terrace brush, a twitching nose wet with saliva and hooked claws gripping the rim. Wolf-sized and built to spring, it can cross the gap before the boat clears the bank.
