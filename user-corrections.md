@@ -1,5 +1,5 @@
 ---
-summary: Nick's correction log. Writers append on #ERROR; ASD drains. Open: replaced-wrong Beat 1 image; token subject isolation; visual-references image-to-reference template; claimed works on unclaimed Aruhe; TotM hawk-stoop force; PC token framing; battlemap zoom too tight; battlemap distorted perspective.
+summary: Nick's correction log. Writers append on #ERROR; ASD drains. Open: replaced-wrong Beat 1 image; token subject isolation; visual-references image-to-reference template; claimed works on unclaimed Aruhe; TotM hawk-stoop force; PC token framing; battlemap zoom too tight; battlemap no image-input refs.
 ---
 
 # User corrections
@@ -899,14 +899,14 @@ Future `foundry-battlemap` upgrades should add a vehicle or deck-plan mode with 
 
 ### 2026-09-11 — Battlemap distorted perspective
 
-**Error:** Session 11 beat 6 Spoke Ring battlemaps were generated through `image_edit` with the ground-level Spoke Ring identity photo as input. The camera came out 3/4, with tilted mats, oval fire rings, and tree trunks as columns.
+**Error:** Session 11 beat 6 Spoke Ring battlemaps were generated through `image_edit` with vault reference images passed as model input. The ground-level Spoke Ring identity photo pulled the camera into 3/4, with tilted mats, oval fire rings, and tree trunks as columns.
 
-**Correction:** A Foundry battlemap must be true orthographic top-down with no vanishing point. Do not feed a ground-level or 3/4 identity illustration as image input for an overhead map. Generate a new image. Tree canopies read as flat discs; tabletops and mats read as rectangles; the fire ring reads as a circle of stones.
+**Correction:** Do not pass reference images to the image model when generating a Foundry battlemap. Read owner pages, identity art, and prior maps yourself; put those facts into the text prompt. Generate text-only. A battlemap must be true orthographic top-down with no vanishing point: canopies as flat discs, mats as rectangles, the fire ring as a circle of stones.
 
 **Read:** `.agents/skills/foundry-battlemap/SKILL.md`; `.agents/skills/foundry-battlemap/references/prompt.md`; `.agents/skills/foundry-battlemap/references/judge.md`; `.agents/skills/foundry-battlemap/references/repair.md`; `.agents/skills/visual-references/SKILL.md`; `.agents/references/image-hosts.md`; `campaigns/shattered-sea/sessions/11/Session-11-06-Farthest-Camp.md`; `campaigns/shattered-sea/locations/Aruhe - Quiet Forest Spoke Ring.md`; `attachments/shattered-sea/places/aruhe-spoke-ring.jpg`; `attachments/shattered-sea/battlemaps/session-11-06-farthest-camp-base.jpg`; `attachments/shattered-sea/battlemaps/aruhe-spoke-ring-battlemap.jpg`
 
-**count:** 1
+**count:** 2
 
 **status:** open
 
-**Fix:** _No durable process fix in this turn._ Live work regenerates the beat 6 map as text-only true overhead. Durable change belongs in `foundry-battlemap` / `visual-references`: ground-level identity photos are not battlemap image input.
+**Fix:** _No durable process fix in this turn._ Live beat 6 map was regenerated text-only. Durable change belongs in `foundry-battlemap` / `visual-references` / `image-hosts`: battlemap generate is text-only; references are read, not passed as image input.
