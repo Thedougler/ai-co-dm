@@ -83,6 +83,8 @@ traits:
     desc: "Difficult terrain doesn't cost Skarn extra movement. When a hostile creature Skarn can see moves away from him, Skarn can move up to 10 feet toward that creature. This movement does not provoke opportunity attacks and can occur only once per turn."
   - name: Legendary Resistance (3/Day)
     desc: "If Skarn fails a saving throw, he can choose to succeed instead."
+  - name: Fate Change
+    desc: "Once per turn, Skarn can give himself advantage on one d20 Test he makes."
   - name: Unbroken Hatred
     desc: "The first time Skarn is reduced to 85 hit points or fewer, he immediately ends the charmed, frightened, grappled, prone, and restrained conditions on himself and moves up to half his speed without provoking opportunity attacks."
 actions:
