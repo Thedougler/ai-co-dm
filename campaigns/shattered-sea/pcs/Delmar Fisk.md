@@ -5,11 +5,26 @@ player: tabalicious83
 status: active
 visibility: dm
 tags: [pc]
+summary: Human swashbuckler Rogue with a weathered, scarred face, ginger-red hair tied in a bun, and a crimson naval coat; self-appointed youngest admiral.
 ---
 # Delmar Atticus Fisk
 
+## Art
+![[attachments/shattered-sea/pcs/delmar-fisk-reference-sheet.png|Delmar Fisk character reference sheet]]
+
+## Visual reference
+
+Source-derived appearance anchors from the supplied player reference sheet. These notes keep Delmar's identity, silhouette, clothing, and signature equipment consistent; they add no mechanics or new campaign canon.
+
+- **Silhouette:** Broad, athletic human build with a tall, upright naval-officer presence.
+- **Face and hair:** Weathered, scarred face; ginger-red hair swept back into a bun; and a full reddish beard and mustache.
+- **Clothing:** Crimson-red naval coat with brass or gold epaulettes, trim, cuffs, and buttons; an open off-white shirt; charcoal vest and trousers; and a deep navy sash.
+- **Materials and palette:** Brown leather boots and straps, antique-gold or brass hardware, and silver jewelry over the red, charcoal, off-white, and navy clothing.
+- **Signature equipment shown:** A rapier at his hip and a musket over his shoulder, consistent with [[The Baroness]] and [[The Duchess]].
+- **Expressions and movement:** Neutral, subtly happy, serious, angry, surprised, and sad expression studies; relaxed standing, confident stance, walking, resting, adjusting his coat, and drawing his sword. These are reference poses, not separate current states.
+
 > [!narration] Narration
-> A human swashbuckler who styles himself the youngest admiral: scarlet coat, easy smile, and the habit of standing where wreckage and crew pressure meet. He carries a named musket and rapier — The Duchess and The Baroness — like pieces of the role he puts on when the crew needs an admiral.
+> A human swashbuckler with a weathered, scarred face, ginger-red hair tied into a bun, a full beard, and an easy smile under his scarlet naval coat. He styles himself the youngest admiral and stands where wreckage and crew pressure meet, carrying the named musket The Duchess and rapier The Baroness like pieces of the role he puts on when the crew needs an admiral.
 
 
 ## Player-facing summary
