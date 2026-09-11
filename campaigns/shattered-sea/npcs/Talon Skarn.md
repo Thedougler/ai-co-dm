@@ -16,7 +16,7 @@ summary: Countless peregrine apprentice and CR 13 chain-weapon rival whose Rule 
 ![[attachments/shattered-sea/portraits/talon-skarn-portrait.jpg|Talon Skarn portrait]]
 
 > [!narration] Narration
-> A man-sized peregrine in dark patterned robes stands with his wings half-folded around him. Red-orange crown feathers flare above a black-and-cream face, amber-gold eyes hold steady, and the tip of his yellow beak is black. Metal chains hang from wrapped forearms, each ending in a curved hooked blade.
+> A broad peregrine aarakocra stands about five feet tall, heavy wings lifted behind a dark robe. Pale chest feathers climb into a black-and-cream face; red-orange crown feathers flare above steady amber-gold eyes and a yellow beak tipped in black. Cloth wraps and loose metal chains cover his forearms, and each hand holds a curved hook-blade on a dangling chain that clicks when he shifts his grip.
 
 
 ## Hook
@@ -26,10 +26,10 @@ Vantyrus’s apprentice is openly testing the master he intends to kill, and wil
 Peregrine apprentice of [[Talon Vantyrus]] and a living expression of the [[Rule of Two]].
 
 ## Look / voice
-- **Visual:** Lean, knife-folded peregrine, about five feet tall; red-orange crown feathers; black-and-cream face feathers; amber-gold eyes; a yellow beak with a black tip; and broad, dark layered wings.
-- **Dress:** Dark robe with patterned trim, leather grips, and cloth wraps around the forearms and hands.
-- **Weapons:** Paired curved hook-blades on long metal chains, carried one in each hand and controlled through the wrapped forearms.
-- **Behavior:** Tests with stoop dives and chain-blade feints; when he commits, his wings pin close and the chains define the distance.
+- **Visual:** Broad peregrine aarakocra, about five feet tall; red-orange crown feathers; black-and-cream face feathers; amber-gold eyes; yellow beak with a black tip; pale chest feathers; and wide, dark layered wings.
+- **Dress:** Dark robe with patterned trim, leather grips, cloth forearm wraps, and taloned feet left bare.
+- **Weapons:** Paired curved hook-blades on long metal chains. He carries one in each hand, with extra chain looped across his wrapped forearms.
+- **Behavior:** Measures opponents from a still, confident stance. When he commits, the wings lift, the chains click, and the hook-blades set the distance.
 - **Voice principle:** Unknown; do not invent.
 - **Sample line:** Unknown; do not invent.
 
@@ -43,7 +43,7 @@ Peregrine apprentice of [[Talon Vantyrus]] and a living expression of the [[Rule
 Paired chained hook-blades, flight, Countless access, and the stoop dive technique.
 
 ## Next move / interrupt point
-Set stoop-dive tests along the approach, then enter the fight only when the crew physically reaches Midchain. Use the chained hook-blades to pull attention and punish exposed movement. Players can bait the ambush, protect the objective, or exploit the Rule of Two without assuming Skarn’s private motive.
+Set tests along the approach, then enter the fight only when the crew physically reaches Midchain. Use the chained hook-blades to pull attention, punish exposed movement, and make distance feel contested. Players can bait the ambush, protect the objective, or exploit the Rule of Two without assuming Skarn’s private motive.
 
 ## Statblock
 
