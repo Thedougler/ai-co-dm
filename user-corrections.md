@@ -1,5 +1,5 @@
 ---
-summary: Nick's correction log. Writers append on #ERROR; ASD drains. Open: over-scoped `.agent` typo.
+summary: Nick's correction log. Writers append on #ERROR; ASD drains. Open: over-scoped `.agent` typo; token subject isolation.
 ---
 
 # User corrections
@@ -770,3 +770,17 @@ Future `foundry-battlemap` upgrades should add a vehicle or deck-plan mode with 
 **status:** closed
 
 **Fix:** Apply the user's requested wiki shape and content directly in the young Bloodhawk owner task that follows. No skill change in this turn.
+
+### 2026-09-11 — Token subject isolation
+
+**Error:** Foundry token finalization treated a circular crop of painted scenery as a transparent token. The Bloodhawk token kept storm sky and cliff inside the circle; only the corners outside the circle were transparent.
+
+**Correction:** The finished token isolates the subject on full transparency. Remove the entire background — sky, ground, and scenery inside the circle — not only the pixels outside the circular mask.
+
+**Read:** `.agents/skills/foundry-token/SKILL.md`; `.agents/skills/foundry-token/references/prompt.md`; `.agents/skills/foundry-token/references/slots.md`; `.agents/skills/foundry-token/references/repair.md`; `.agents/skills/foundry-token/references/foundry.md`; `.agents/skills/foundry-token/assets/prompt-template.txt`; `scripts/foundry-token`; `.agents/skills/writing-for-agents/SKILL.md`; `artifacts/tokens/aruhe-bloodhawk-token.png`
+
+**count:** 1
+
+**status:** open
+
+**Fix:** `.agents/skills/foundry-token/SKILL.md` v4.0; `references/prompt.md`; `references/slots.md`; `references/repair.md`; `references/foundry.md`; `assets/prompt-template.txt`; `scripts/foundry-token` — stands generate on a flat key color; the CLI chroma-keys that field (sampling imperfect screens, despilling the edge), refuses painted scenery, then circular-crops. Verify requires interior isolation, not corner transparency alone. Bloodhawk token re-keyed. Measure after drain. Cheap check: `rg -n 'key color|subject isolated' .agents/skills/foundry-token/SKILL.md scripts/foundry-token`.

@@ -1,14 +1,17 @@
 #!/usr/bin/env python3
-"""Finalize accepted stand art as a circular transparent Foundry token.
+"""Finalize accepted stand art as a circular Foundry token.
 
-The source image is the art decision. This command only performs the repeatable
-pixel operations needed for import: centered square cover-crop, resize, and an
+The source image is the art decision. This command only performs the
+repeatable pixel operations needed for import: chroma-key a flat
+background onto transparency, centered square cover-crop, resize, and an
 anti-aliased circular alpha mask. It never overwrites the source.
 
 Examples:
   ./scripts/foundry-token creature.webp
   ./scripts/foundry-token creature.webp artifacts/tokens/creature-token.png
   ./scripts/foundry-token creature.webp --size 1024 --margin 0.03
+  ./scripts/foundry-token creature.webp --key lime
+  ./scripts/foundry-token already-isolated.png --key none
 """
 from __future__ import annotations
 
@@ -24,10 +27,27 @@ except ImportError as exc:  # pragma: no cover - exercised by the CLI environmen
         "environment before running this command."
     ) from exc
 
+try:
+    import numpy as np
+except ImportError as exc:  # pragma: no cover
+    raise SystemExit(
+        "foundry-token: numpy is required; install it in the workspace Python "
+        "environment before running this command."
+    ) from exc
+
 
 DEFAULT_SIZE = 512
+DEFAULT_KEY = "magenta"
+DEFAULT_TOLERANCE = 80
+FAMILY_DISTANCE = 140
 WORK_SCALE = 4
+MIN_INTERIOR_TRANSPARENCY = 0.08
 SUPPORTED_INPUTS = {".avif", ".jpeg", ".jpg", ".png", ".webp"}
+NAMED_KEYS = {
+    "magenta": (255, 0, 255),
+    "lime": (0, 255, 0),
+    "green": (0, 255, 0),
+}
 
 
 def default_output(source: Path) -> Path:
@@ -35,6 +55,23 @@ def default_output(source: Path) -> Path:
     if source.stem.endswith("-token"):
         return source.with_suffix(".png")
     return source.with_name(f"{source.stem}-token.png")
+
+
+def parse_key(value: str) -> tuple[int, int, int] | None:
+    """Return an RGB key color, or None when keying is skipped."""
+    raw = value.strip().lower()
+    if raw in {"none", "off", "false"}:
+        return None
+    if raw in NAMED_KEYS:
+        return NAMED_KEYS[raw]
+    if raw.startswith("#") and len(raw) == 7:
+        try:
+            return (int(raw[1:3], 16), int(raw[3:5], 16), int(raw[5:7], 16))
+        except ValueError as exc:
+            raise ValueError(f"invalid key color {value!r}") from exc
+    raise ValueError(
+        f"invalid --key {value!r}; use magenta, lime, #RRGGBB, or none"
+    )
 
 
 def circular_mask(size: int, margin: float) -> Image.Image:
@@ -47,7 +84,89 @@ def circular_mask(size: int, margin: float) -> Image.Image:
     return mask
 
 
-def validate_args(source: Path, output: Path, size: int, margin: float, force: bool) -> None:
+def corner_samples(art: Image.Image) -> list[tuple[int, int, int, int]]:
+    px = art.load()
+    w, h = art.size
+    return [px[0, 0], px[w - 1, 0], px[0, h - 1], px[w - 1, h - 1]]
+
+
+def near_key(pixel: tuple[int, ...], key: tuple[int, int, int], tolerance: int) -> bool:
+    dist = sum((int(pixel[i]) - key[i]) ** 2 for i in range(3)) ** 0.5
+    return dist < tolerance
+
+
+def mean_rgb(pixels: list[tuple[int, ...]]) -> tuple[int, int, int]:
+    return tuple(int(sum(pixel[i] for pixel in pixels) / len(pixels)) for i in range(3))
+
+
+def working_key(
+    art: Image.Image, key: tuple[int, int, int] | None, tolerance: int
+) -> tuple[int, int, int] | None:
+    """Return the RGB to chroma-key, or None to skip. Painted scenery fails closed."""
+    if key is None:
+        return None
+    corners = corner_samples(art)
+    if all(pixel[3] == 0 for pixel in corners):
+        return None
+    sampled = mean_rgb(corners)
+    flat = all(near_key(pixel, sampled, max(tolerance, 40)) for pixel in corners)
+    if flat and near_key((*sampled, 255), key, FAMILY_DISTANCE):
+        return sampled
+    if all(near_key(pixel, key, tolerance) for pixel in corners):
+        return key
+    hex_color = f"#{key[0]:02X}{key[1]:02X}{key[2]:02X}"
+    raise ValueError(
+        "source still has a painted background; replace it with a flat "
+        f"{hex_color} key color, or pass --key none"
+    )
+
+
+def despill(px: np.ndarray, key: tuple[int, int, int]) -> None:
+    """Pull leftover key-channel tint out of the subject edge."""
+    kr, kg, kb = key
+    r = px[:, :, 0].astype(np.int16)
+    g = px[:, :, 1].astype(np.int16)
+    b = px[:, :, 2].astype(np.int16)
+    if kg >= kr and kg >= kb:
+        px[:, :, 1] = np.clip(np.minimum(g, np.maximum(r, b)), 0, 255).astype(np.uint8)
+    elif kr >= kg and kb >= kg:
+        px[:, :, 0] = np.clip(np.minimum(r, g), 0, 255).astype(np.uint8)
+        px[:, :, 2] = np.clip(np.minimum(b, g), 0, 255).astype(np.uint8)
+
+
+def chroma_key(
+    art: Image.Image, key: tuple[int, int, int], tolerance: int
+) -> Image.Image:
+    """Set pixels near the key color to transparent, with a short color-distance fade."""
+    px = np.array(art)
+    rgb = px[:, :, :3].astype(np.int32)
+    dist = np.sqrt(np.sum((rgb - np.array(key, dtype=np.int32)) ** 2, axis=2))
+    inner = max(tolerance * 0.6, 1.0)
+    fade = np.clip((dist - inner) / max(tolerance - inner, 1.0), 0, 1)
+    px[:, :, 3] = (px[:, :, 3].astype(np.float32) * fade).astype(np.uint8)
+    despill(px, key)
+    return Image.fromarray(px)
+
+
+def interior_transparent_fraction(art: Image.Image, margin: float) -> float:
+    """Fraction of fully transparent pixels inside the circle, ignoring the AA rim."""
+    px = np.array(art)
+    height, width = px.shape[:2]
+    cy = (height - 1) / 2
+    cx = (width - 1) / 2
+    radius = (min(width, height) / 2) * (1 - margin) * 0.92
+    yy, xx = np.ogrid[:height, :width]
+    inside = (xx - cx) ** 2 + (yy - cy) ** 2 <= radius**2
+    count = int(np.count_nonzero(inside))
+    if count == 0:
+        return 0.0
+    transparent = px[:, :, 3] == 0
+    return float(np.count_nonzero(transparent & inside) / count)
+
+
+def validate_args(
+    source: Path, output: Path, size: int, margin: float, force: bool, tolerance: int
+) -> None:
     if not source.is_file():
         raise ValueError(f"source image not found: {source}")
     if source.suffix.lower() not in SUPPORTED_INPUTS:
@@ -61,16 +180,31 @@ def validate_args(source: Path, output: Path, size: int, margin: float, force: b
         raise ValueError("size must be between 64 and 4096 pixels")
     if not 0 <= margin < 0.5:
         raise ValueError("margin must be at least 0 and less than 0.5")
+    if not 0 <= tolerance <= 255:
+        raise ValueError("tolerance must be between 0 and 255")
     if output.exists() and not force:
         raise ValueError(f"output already exists: {output} (use --force to replace it)")
 
 
-def finalize(source: Path, output: Path, size: int, margin: float) -> dict[str, object]:
-    """Create and validate one circular transparent PNG."""
+def finalize(
+    source: Path,
+    output: Path,
+    size: int,
+    margin: float,
+    key: tuple[int, int, int] | None,
+    tolerance: int,
+) -> dict[str, object]:
+    """Create and validate one subject-isolated circular PNG."""
     working_size = size * WORK_SCALE
+    keyed = False
+    used_key = key
     with Image.open(source) as opened:
         source_size = opened.size
         art = opened.convert("RGBA")
+        used_key = working_key(art, key, tolerance)
+        if used_key is not None:
+            art = chroma_key(art, used_key, tolerance)
+            keyed = True
         art = ImageOps.fit(
             art,
             (working_size, working_size),
@@ -94,6 +228,12 @@ def finalize(source: Path, output: Path, size: int, margin: float) -> dict[str, 
             raise RuntimeError("final PNG failed circular transparency validation")
         if alpha_check.getbbox() is None:
             raise RuntimeError("final PNG contains no visible pixels")
+        isolated = interior_transparent_fraction(checked, margin)
+        if isolated < MIN_INTERIOR_TRANSPARENCY:
+            raise RuntimeError(
+                "final PNG still has a background inside the circle; "
+                "key the subject onto transparency and run again"
+            )
 
     return {
         "source": str(source),
@@ -103,19 +243,23 @@ def finalize(source: Path, output: Path, size: int, margin: float) -> dict[str, 
         "format": "PNG",
         "mode": "RGBA",
         "mask": "circular",
+        "keyed": keyed,
+        "key": None if used_key is None else f"#{used_key[0]:02X}{used_key[1]:02X}{used_key[2]:02X}",
         "margin": margin,
+        "interior_transparency": round(isolated, 4),
     }
 
 
 def build_parser() -> argparse.ArgumentParser:
     parser = argparse.ArgumentParser(
         description=(
-            "Turn accepted stand art into a centered, square, circular "
+            "Turn accepted stand art into a subject-isolated, square, circular "
             "transparent PNG for Foundry VTT. The source is never overwritten."
         ),
         epilog=(
-            "Workflow: generate and iterate the source image first; run this "
-            "command only after the art is accepted."
+            "Workflow: generate the stand on a flat key color; run this command "
+            "only after the art is accepted. The command keys that color to "
+            "transparency, then applies the circular mask."
         ),
     )
     parser.add_argument("source", type=Path, help="accepted stand image (.png, .webp, .jpg, or .avif)")
@@ -137,6 +281,17 @@ def build_parser() -> argparse.ArgumentParser:
         default=0.0,
         help="transparent margin around the circle as a fraction of the image (default: 0)",
     )
+    parser.add_argument(
+        "--key",
+        default=DEFAULT_KEY,
+        help="flat background color to key out: magenta, lime, #RRGGBB, or none (default: magenta)",
+    )
+    parser.add_argument(
+        "--tolerance",
+        type=int,
+        default=DEFAULT_TOLERANCE,
+        help=f"chroma-key color distance (default: {DEFAULT_TOLERANCE})",
+    )
     parser.add_argument("--force", action="store_true", help="replace an existing destination PNG")
     parser.add_argument("--json", action="store_true", help="print one machine-readable result object")
     return parser
@@ -149,8 +304,9 @@ def main(argv: list[str] | None = None) -> int:
     output = (args.output or default_output(source)).expanduser().resolve()
 
     try:
-        validate_args(source, output, args.size, args.margin, args.force)
-        result = finalize(source, output, args.size, args.margin)
+        key = parse_key(args.key)
+        validate_args(source, output, args.size, args.margin, args.force, args.tolerance)
+        result = finalize(source, output, args.size, args.margin, key, args.tolerance)
     except (OSError, ValueError, RuntimeError) as exc:
         parser.error(str(exc))
 
@@ -159,7 +315,10 @@ def main(argv: list[str] | None = None) -> int:
     else:
         print(f"created: {output}")
         print(f"source: {source} {tuple(result['source_size'])} → {args.size}x{args.size} PNG RGBA")
-        print(f"mask: circular alpha, margin={args.margin:g}")
+        print(
+            f"mask: circular alpha, margin={args.margin:g}, "
+            f"key={result['key'] or 'none'}, keyed={str(result['keyed']).lower()}"
+        )
     return 0
 
 

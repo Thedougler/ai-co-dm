@@ -1,9 +1,10 @@
 # Source-art prompt
 
 Use this prompt before finalization. Generate the source art first; the
-repository command creates alpha after the art is accepted.
+repository command keys the background and creates circular alpha after the
+art is accepted.
 
-\`\`\`
+```
 Foundry VTT token source art. Square 1:1 composition designed to remain readable
 inside a centered circular crop.
 
@@ -18,15 +19,15 @@ Background: {BACKGROUND}.
 Frame: {FRAME}.
 Style: {STYLE}.
 
-Readable at token thumbnail size. Strong subject silhouette. Coherent lighting,
-grounding, and material detail. Clean anatomy and consistent gear throughout.
-Render a finished painted background or frame; the finalizer supplies circular
-alpha.
-\`\`\`
+Readable at token thumbnail size. Strong subject silhouette. Coherent lighting
+and material detail. Clean anatomy and consistent gear throughout.
+Paint the subject on a flat key color that fills every corner; the finalizer
+keys that color to transparency and supplies circular alpha.
+```
 
 If the same owner has an existing identity reference, add:
 
-\`Keep this identity. Preserve the same colors, silhouette, marks, and gear; change only the requested composition or camera.\`
+`Keep this identity. Preserve the same colors, silhouette, marks, and gear; change only the requested composition or camera.`
 
 Use [../assets/prompt-template.txt](../assets/prompt-template.txt) as the
 copyable blank.
