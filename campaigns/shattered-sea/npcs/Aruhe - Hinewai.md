@@ -19,7 +19,7 @@ tags:
   - hinewai
   - grung-origin
   - land-fused
-summary: Elf druid lich fused to Aruhe, marked by blue-lit cracks and clothed in living bark, leaves, and vines.
+summary: Elf druid lich fused to Aruhe; her woman-in-the-woods form has pointed ears, amber eyes, long black hair, and a tattered black cloak.
 source: "house (Monster-Brewer; legacy Fantasy Statblock import; Hinewai/Death Bloom ingest 2026-09-05)"
 ---
 
@@ -32,11 +32,11 @@ source: "house (Monster-Brewer; legacy Fantasy Statblock import; Hinewai/Death B
 ![[attachments/shattered-sea/portraits/hinewai-moonlit-harp.jpg|Hinewai playing harp in the moonlit jungle]]
 
 > [!narration] Hinewai
-> Hinewai stands at the edge of the jungle like a woman grown from it. Long black hair falls down her back around pointed ears and bright blue eyes; fine luminous cracks branch across her pale skin, and sharp teeth show when she speaks. Bark, leaves, and trailing vines make a close-fitted bodice and layered skirt, with small white flowers at her chest and hips. She is slender, long-limbed, and barefoot.
+> Hinewai stands at the edge of the jungle like a woman cut from its deepest shadow. Long black hair falls around pointed ears and amber eyes; her pale, cool-gray skin and sharp teeth make her face unsettling even when she is still. A long, tattered black cloak hangs from her narrow, long-limbed frame and drags close to the ground above dark boots.
 
 ## Visual reference
 
-Hinewai is roughly `175 cm` tall with a narrow, long-limbed silhouette. Her black hair reaches down her back, and her pointed ears, bright blue eyes, fangs, and branching glow-cracks make her face unmistakable. Bark, leaves, roots, and vines form her clothing; small white flowers break up the dark greens and browns. She moves barefoot and keeps the same poised silhouette whether she is standing, walking, seated, reaching into the vines, or dropping into a low crouch.
+Hinewai is roughly `175 cm` tall with a narrow, long-limbed silhouette. Her black hair reaches down her back, and her pointed ears, amber-orange eyes, and fangs make her face unmistakable. She wears a dark, draped cloak with a ragged hem and layered sleeves; the cloth reads almost black, with subtle gray highlights in its folds. She keeps the same poised silhouette whether she is standing, walking, seated, reaching into the trees, or dropping into a low crouch.
 
 ## At a glance
 
