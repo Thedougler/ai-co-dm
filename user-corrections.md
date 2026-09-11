@@ -692,7 +692,6 @@ Future `foundry-battlemap` upgrades should require a pre-prompt zone and route p
 **Fix:** _Deferred by Nick's instruction; this turn records the new image's quality bar only and does not upgrade the skill._
 
 ### 2026-09-10 — XHC2P6q linked-layer battlemap quality bar
-
 **Error:** Foundry battlemap generation guidance treats each deliverable as one isolated 9:16 scene and does not capture the professional quality of `/Users/nick/Downloads/XHC2P6q.jpeg`: a coherent multi-level map set in which battlements, ground floor, and underground tunnels share one registered site footprint and communicate vertical topology.
 
 **Correction:** Treat this as a new, separate quality bar. No new image is requested or generated in this turn. The reference is strong because it solves a different problem from a single battlemap:
@@ -710,6 +709,32 @@ Future `foundry-battlemap` upgrades should require a pre-prompt zone and route p
 Future `foundry-battlemap` upgrades should add an explicit multi-level or map-set mode: define a shared site footprint and north/orientation anchors; name each layer's tactical role; inventory vertical connections and shared landmarks; generate aligned clean layers as separate importable files; and provide an optional orientation/reference sheet outside the battle layers. Judge both each layer on its own and the registration of the set as a whole. Reject layers that drift in shoreline, wall, tower, room, or tunnel alignment; hide vertical connections; repeat the same tactical grammar on every level; lose readability at thumbnail or normal zoom; or use the collage's labels and branding as baked map content. This entry records the quality bar only; no skill upgrade is being made in this turn.
 
 **Read:** `user-corrections.md`; `/Users/nick/Downloads/XHC2P6q.jpeg`; `.agents/skills/foundry-battlemap/SKILL.md`; `.agents/skills/foundry-battlemap/references/foundry.md`; `.agents/skills/foundry-battlemap/references/judge.md`; `.agents/skills/foundry-battlemap/references/prompt.md`; `.agents/skills/foundry-battlemap/references/repair.md`; `.agents/skills/foundry-battlemap/references/slots.md`; `.agents/skills/obsidian-markdown/SKILL.md`
+
+**count:** 1
+
+**status:** open
+
+**Fix:** _Deferred by Nick's instruction; this turn records the new image's quality bar only and does not upgrade the skill._
+
+### 2026-09-10 — SilY2cu airship battlemap quality bar
+
+**Error:** Foundry battlemap guidance does not yet capture the image-specific qualities that make `/Users/nick/Downloads/SilY2cu.jpeg` a professional, highly usable airship battlemap rather than a polished overhead vehicle illustration.
+
+**Correction:** Treat this as a new, separate quality bar. The reference is excellent because it turns a flying vessel into a readable encounter architecture:
+
+- **Vehicle as dungeon:** The hull is not just a silhouette. A continuous central deck axis runs through distinct playable zones: a broad open lower deck for staging and movement, a furnished midship enclosure, narrower upper rooms, and a raised circular mechanism or helm beneath a bright magical landmark. The footprint, walls, thresholds, and changes in floor material communicate how the ship is occupied and fought over.
+- **Tactical route grammar:** The central spine gives the fight an obvious toe-to-toe lane, while side cabins, lateral openings, edge platforms, and room thresholds create branching choices, cover pockets, and flanking pressure. Doors, steps, hatches, railings, and deck breaks are visible enough to become real movement decisions rather than decorative marks. Broad deck space remains available for tokens instead of being consumed by furniture.
+- **Playable floor versus contextual envelope:** The solid hull and deck read as the true play surface; sails, rigging, wing-like spars, lanterns, and outer framework expand the vessel's scale without pretending every translucent or delicate shape is walkable terrain. Future maps should distinguish playable surface, dangerous edge, and scenic silhouette through value, contour, and material—not labels.
+- **Layered verticality from overhead:** Raised superstructure, enclosed rooms, lower deck, circular machinery, mast or rigging, and deck openings create above/below and high/low information without tilting the camera. Thick painted boundaries, contact shadows, floor changes, and readable transitions make elevation and enclosure legible at imagined grid scale.
+- **Stable orientation with lived-in variation:** Strong bilateral organization makes the long craft easy to orient and keeps its tactical plan fair; small differences in props, furniture, rugs, crates, lamps, ropes, and fittings keep the vessel inhabited instead of mechanically mirrored. The ship reads as one coherent designed object, not repeated room stamps.
+- **Material and color hierarchy:** Warm timber planks and hull framing establish the walkable base. Burgundy carpets and upholstered areas mark important interiors; cool blue rooms separate enclosed functions; pale sails recede into the surrounding air; saturated blue-violet magic reserves the strongest contrast for a landmark. Wood grain, cloth, metal, glass, rope, and sail fabric have distinct texture scales while remaining one painted visual language.
+- **Scale and silhouette discipline:** The entire elongated craft fits the canvas with its bow, stern, lateral sails, and rigging intact, so the player can understand the vessel before studying individual rooms. Major furniture and architectural elements have believable multi-square footprints, route widths are consistent, and the ship's silhouette itself supplies orientation. Vehicle maps should choose the aspect ratio from the craft's tactical footprint instead of shrinking a long ship into a generic fixed rectangle.
+- **Environmental storytelling that serves play:** The wheel or mechanism, cabin furnishings, chart or table, bedding, lanterns, storage, vents or hatches, rigging, and magical propulsion imply command, crew life, navigation, and danger. Details are concentrated where they explain function and create cover; they reward closer inspection without obscuring the routes.
+- **Finish and presentation separation:** Consistent inked edges, soft grounded shadows, restrained translucency, clean material transitions, and full-bleed background integration make the image feel authored and finished. The visible square grid and `PATREON | CZEPEKU` mark are presentation overlays in the supplied reference, not part of the importable art; generated maps must retain the existing clean contract of no baked grid, labels, watermark, UI, tokens, fog, or light overlay.
+
+Future `foundry-battlemap` upgrades should add a vehicle or deck-plan mode with a hull-and-deck inventory, a central route plus alternate route plan, a room and threshold map, explicit vertical-transition and dangerous-edge reads, a reserved token-staging area, and a separate distinction between playable floor and scenic rigging or sail silhouette. Judge at thumbnail, ordinary VTT zoom, and imagined grid scale for vessel orientation, route widths, doors, stairs, cover, and usable open floor. Reject a map that is merely a ship-shaped illustration, has an unarticulated deck, hides its transitions, mistakes decorative sails for terrain, repeats generic cabins, or lets micro-detail bury movement. This entry records the quality bar only; no skill upgrade is being made in this turn.
+
+**Read:** `user-corrections.md`; `/Users/nick/Downloads/SilY2cu.jpeg`; `.agents/skills/foundry-battlemap/SKILL.md`; `.agents/skills/foundry-battlemap/references/prompt.md`; `.agents/skills/foundry-battlemap/references/slots.md`; `.agents/skills/foundry-battlemap/references/judge.md`; `.agents/skills/foundry-battlemap/references/repair.md`; `.agents/skills/foundry-battlemap/references/foundry.md`; `.agents/skills/obsidian-markdown/SKILL.md`
 
 **count:** 1
 
