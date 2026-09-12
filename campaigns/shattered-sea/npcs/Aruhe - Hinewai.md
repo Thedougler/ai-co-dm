@@ -86,7 +86,7 @@ Picking fruit from living branches, striking the tree, digging at a grave, uproo
 
 ## Blight form
 
-![[attachments/shattered-sea/portraits/hinewai-blight-overview.png|Hinewai Blight form overview]]
+![[attachments/shattered-sea/portraits/hinewai-blight-overview-v2.png|Hinewai Blight form overview]]
 
 ````col
 ```col-md
