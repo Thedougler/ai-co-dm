@@ -53,33 +53,10 @@ flexGrow=2
 ```col-md
 flexGrow=1
 ===
-## Visual reference
-
-Hinewai is roughly `175 cm` tall. Her dark cloak has layered sleeves, a ragged hem, and gray highlights in the folds. The reference sheet shows her standing, walking, sitting, reaching, and crouching without changing the same narrow, long-limbed silhouette.
-```
-````
-
 > [!narration] Hinewai
 > Hinewai is a tall, narrow elf with pointed ears, pale cool-gray skin, amber-orange eyes, and fangs that show when her mouth opens. Long black hair falls down her back over a dark, layered cloak, its ragged hem hanging almost to her dark boots. Gray highlights catch in the nearly black folds, and the uneven sleeves hang around her long limbs like strips of worn cloth. Whether she stands, walks, sits, or drops into a low crouch, she keeps the same poised, deliberate silhouette.
-
-## Art
-
-````col
-```col-md
-flexGrow=2
-===
-![[attachments/shattered-sea/reference/hinewai-reference-sheet.jpg|Hinewai identity reference sheet]]
-```
-
-```col-md
-flexGrow=1
-===
-![[attachments/shattered-sea/creatures/hinewai-woman-in-the-woods-token.jpg|Hinewai woman-in-the-woods Foundry VTT token]]
-![[attachments/shattered-sea/portraits/hinewai-moonlit-harp.jpg|Hinewai playing harp in the moonlit jungle]]
 ```
 ````
-
----
 
 ## Running Hinewai
 
@@ -111,8 +88,28 @@ Picking fruit from living branches, striking the tree, digging at a grave, uproo
 
 ![[attachments/shattered-sea/portraits/hinewai-portrait.jpg|Hinewai portrait]]
 
+````col
+```col-md
+flexGrow=2
+===
+## At a Glance
+
+| **Role**       | Hinewai's land-fused Blight form                         |
+| -------------- | --------------------------------------------------------- |
+| **Body**       | Large ivory skeleton wrapped in moss and rotted bark      |
+| **Eyes**       | Green fire burning in empty eye sockets                  |
+| **Growth**     | Fruiting vines in the hair and leafless branches at the shoulders |
+| **Arm**        | One forearm sheathed in dark wood and ending in a claw   |
+| **Silhouette** | A dead tree forced into a person's shape                  |
+```
+
+```col-md
+flexGrow=1
+===
 > [!narration] Blight Form
 > Hinewai's Blight form is a large ivory skeleton wrapped in moss, rotted bark, and long black hair. Green fire burns in the empty eye sockets, while fruiting vines knot through the hair and leafless branches rise from the shoulders. One forearm is sheathed in dark wood that narrows into a clawed hand. The branchlike shoulders and wooden arm make the upright skeleton resemble a dead tree forced into a person's shape.
+```
+````
 
 ---
 
@@ -358,3 +355,20 @@ actions:
   - name: "Acid Seep (Recharge 6)"
     desc: "A 10-foot-radius patch of ground the Blight can see within 30 feet wells up with acid. Each creature there must make a DC 12 Dexterity saving throw, taking 10 (3d6) acid damage on a failed save, or half as much damage on a successful one. The patch remains as a hazard for 1 minute, and any creature that enters it or starts its turn there for the first time on a turn must make the same save."
 ```
+
+## Alt Art
+
+````col
+```col-md
+flexGrow=2
+===
+![[attachments/shattered-sea/reference/hinewai-reference-sheet.jpg|Hinewai identity reference sheet]]
+```
+
+```col-md
+flexGrow=1
+===
+![[attachments/shattered-sea/creatures/hinewai-woman-in-the-woods-token.jpg|Hinewai woman-in-the-woods Foundry VTT token]]
+![[attachments/shattered-sea/portraits/hinewai-moonlit-harp.jpg|Hinewai playing harp in the moonlit jungle]]
+```
+````
