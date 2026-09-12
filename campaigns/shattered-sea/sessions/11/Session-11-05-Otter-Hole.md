@@ -6,12 +6,15 @@ status: ready
 date: 2026-09-06
 visibility: dm
 tags: [session-prep, run-guide]
+cssclasses: [session-surface]
 summary: Cliffhanger rescue at Slack Basin. Two otters have taken a game of tag too far with a separated survivor; joining the game can pull them off him until they tire or get hungry.
 ---
 # Session 11 — Rescue at the otter hole
 
 ![[aruhe-river-slack-basin.jpg|Slack Basin, still claimed pool behind the rock lip]]
 
+````col
+```col-md
 ## Scene ends when
 
 The party leaves this hole on the bloody-bank prints toward [[Session-11-06-Farthest-Camp]], with or without the man in the grey shirt.
@@ -21,7 +24,11 @@ This beat is thirty minutes.
 **If behind:** Show the slack, the man, the prints, and the smoke. Resolve rescue or departure, then hand off. Skip extra looting.
 
 **If ahead:** Still end on the detour or on Hunt resolved. Do not start night watch. Do not start the deer-stalker.
+```
 
+```col-md
+flexGrow=2
+===
 ## At a Glance
 
 - **Stakes:** One inland survivor is already it. If no one gets him onto this bank, the game drowns him. A party member can go down here too.
@@ -29,28 +36,46 @@ This beat is thirty minutes.
 - **Danger:** Twelve-foot otters are playing tag. Entering the water, throwing a toy, or chasing joins the game. Attacking, fishing, or pulling a dead body or pack starts Hunt.
 - **Silence:** Present the basin and the man in it, then wait. A freeze still ticks once because he remains in the hole.
 - **Situation magnets:** The man while he remains in this hole. Anyone in this basin, fishing, pulling a body or a pack, pulling the man, attacking from this bank, or playing tag in this water.
+```
+````
 
 ## Now
 
 The party stands on the wet sand of [[Aruhe - River Slack Basin]], facing east, just upvalley of [[Aruhe - River Line Bank|Line Bank]]. The slack begins 5 feet east. A thin cane stands in the blood smear at the waterline. The man in the grey shirt clings to hanging roots 20 feet north, hips in the slack. The closed pack sits 15 feet out in clear water. A face-down body lies 20 feet out, with maroon cloth 25 feet farther toward the hanging roots. White water breaks over the rock lip 30 feet east across the pool. Living prints and the blood trail climb 20 feet north into the jungle wall. Gold-green grass stands 10 feet west of the path. A 30-foot move reaches the water, the pack, the man, or the first trees. A Dash of 60 feet follows the bloody-bank detour north into the trees.
 
-### Action cards
+## Action cards
 
-**Loop.** Two [[Aruhe - River Otter]] have a Calveno wreck survivor in this hole. They are playing tag with him, and the game has gone too far. He became it when he went back for the pack, splashed at the waterline, or grabbed the chewed pole. They dunk and chase, but they do not Hunt until someone attacks, fishes this hole, or pulls a dead body or pack. Entering the water, throwing a toy, or chasing joins the game. The otters drop him and play with the new person or object. A throw from this bank keeps the game in the hole. A party member who enters or chases becomes it. If the game continues, the otters tire or get hungry and leave living people for the pack, a body, or rest.
+````col
+```col-md
+**Two [[Aruhe - River Otter]].** They have a Calveno wreck survivor in this hole. They are playing tag with him, and the game has gone too far. He became it when he went back for the pack, splashed at the waterline, or grabbed the chewed pole.
 
-**Easy.** Two play adults. A family of four to six is ecology, not this card's default. Do not spawn extra otters here.
+- **Play:** Dunk and chase. No Hunt until someone attacks, fishes this hole, or pulls a dead body or pack.
+- **Join:** Entering the water, throwing a toy, or chasing joins the game. The otters drop him and play with the new person or object. A throw from this bank keeps the game in the hole. A party member who enters or chases becomes it.
+- **Tire:** If the game continues, the otters tire or get hungry and leave living people for the pack, a body, or rest.
+- **Default rolls:** `AC 15`, `76 HP`, Speed `20 feet`, Swim `40 feet`. Hold Breath lasts 30 minutes on the owner.
+- **Play grab:** No Bite. **Grappled** (escape `DC 14`).
+- **Dunk (Recharge 5–6):** One creature **Grappled** by that otter is pulled up to 20 feet and shoved underwater, or held under if already in this water; that creature has the **Restrained** condition until the grapple ends.
+- **Tug Toy:** Contest Athletics or Sleight of Hand against a held or worn object within 5 feet. On a success, the otter takes the object and swims 10 feet without dealing damage.
+- **Hunt Multiattack:** Bite `+6` to hit, `14` piercing, reach 5 feet, and if the target is Medium or smaller, it has the **Grappled** condition (escape `DC 14`). Tail `+6` to hit, `11` bludgeoning, reach 10 feet.
+- **Watery Ambush:** Hunt only. The otter has advantage on attack rolls against a creature in this water if the other otter is within 10 feet of that target.
+- **Handles:** Once the table has seen the throat marks: Whorl-bib, Thin-streak. Do not invent extra named otters.
+- **Abort:** The otters hold this hole. They do not chase far overland or haul out onto [[Aruhe - Razer-Grass]]. A body on this sand is off the magnets. At tick 4 of play, they tire or get hungry and stop chasing living people.
+- **Easy dial:** Two play adults. A family of four to six is ecology, not this card's default. Do not spawn extra otters here.
+- **[[Taking on Aruhe]]:** Fishing this hole is Hunt, and it is a possible claim when you next roll. Carrying flesh from this hole is a claim. Do not invent pack contents.
+```
 
-**[[Matteo Scola]].** Until the party pulls him onto the bank, call him the man in the grey shirt. His lip is split, one boot is missing, and his shirt is grey and salt-stiff. He clings to hanging roots 20 feet north with his hips in the slack. He has no statblock. He deserted the inland group after rejecting the woman in the woods' garden advice, then went back for the pack after the group climbed out. That return started the game. He wants the bank and thinks the otters are killing him. He does not name the woman. Once he is on the bank, he gives his name as Matteo if he can speak. If he is **Unconscious**, he cannot give his name until he wakes.
+```col-md
+**[[Matteo Scola]].** Until the party pulls him onto the bank, call him the man in the grey shirt.
 
-**Compact numbers.** Each otter has AC 15 and 76 hit points. In play, a successful grab deals no Bite damage and imposes **Grappled** (escape `DC 14`). **Dunk (Recharge 5–6):** One creature **Grappled** by that otter is pulled up to 20 feet and shoved underwater, or held under if already in this water; that creature has the **Restrained** condition until the grapple ends. **Tug Toy:** Contest Athletics or Sleight of Hand against a held or worn object within 5 feet. On a success, the otter takes the object and swims 10 feet without dealing damage. **Hunt Multiattack:** Bite +6 to hit, `14` piercing, reach 5 feet, and if the target is Medium or smaller, it has the **Grappled** condition (escape `DC 14`). Tail +6 to hit, `11` bludgeoning, reach 10 feet. **Watery Ambush** is Hunt only: the otter has advantage on attack rolls against a creature in this water if the other otter is within 10 feet of that target. Speed 20 feet, swim 40 feet. Hold Breath lasts 30 minutes on the owner.
-
-**Handles.** Once the table has seen the throat marks: Whorl-bib, Thin-streak. Do not invent extra named otters.
-
-**Abort.** The otters hold this hole. They do not chase far overland or haul out onto [[Aruhe - Razer-Grass]]. A body on this sand is off the magnets. At tick 4 of play, they tire or get hungry and stop chasing living people.
-
-**Breath.** A dunked party member holds breath per 5.5e 2024, then begins drowning. The man has already spent his breath. If he is still under at tick 3, he drops to 0 hit points and is **Unconscious**. A party member who is it still has unused breath and does not drop to 0 hit points from play on tick 3. Stabilizing the man requires Help plus **Wisdom (Medicine) — `DC 10`**. He keeps making death saves until stabilized.
-
-**[[Taking on Aruhe]].** Fishing this hole is Hunt, and it is a possible claim when you next roll. Carrying flesh from this hole is a claim. Do not invent pack contents.
+- **Look:** His lip is split, one boot is missing, and his shirt is grey and salt-stiff. He clings to hanging roots 20 feet north with his hips in the slack.
+- **No statblock.**
+- **Why he is it:** He deserted the inland group after rejecting the woman in the woods' garden advice, then went back for the pack after the group climbed out. That return started the game.
+- **Want:** He wants the bank and thinks the otters are killing him. He does not name the woman.
+- **Name:** Once he is on the bank, he gives his name as Matteo if he can speak. If he is **Unconscious**, he cannot give his name until he wakes.
+- **Breath:** A dunked party member holds breath per 5.5e 2024, then begins drowning. The man has already spent his breath. If he is still under at tick 3, he drops to 0 hit points and is **Unconscious**. A party member who is it still has unused breath and does not drop to 0 hit points from play on tick 3.
+- **Stabilize:** Help plus **Wisdom (Medicine) — `DC 10`**. He keeps making death saves until stabilized.
+```
+````
 
 > [!narration] Initial Narration
 > You see a man in a grey salt-stiff shirt gripping thick jungle roots twenty feet north, one boot missing and blood running from a split in his lip. His hips are already in the still turquoise water. A twelve-foot chocolate-black otter circles his legs and cuts him off whenever he reaches for the roots, a thin pale streak bright at its throat. On the wet sand under your feet, another twelve-foot otter holds a chewed pole and a wet rope. A tight white whorl marks its pale chest; amber eyes stay on this bank, and water drips from its whiskers.
@@ -63,6 +88,10 @@ The party stands on the wet sand of [[Aruhe - River Slack Basin]], facing east, 
 >
 > What do you do?
 
+````col
+```col-md
+flexGrow=3
+===
 ## Procedure
 
 **Play mode.** After everyone has acted, advance the threat clock once if the man remains in this hole or anyone remains on the magnets. The magnets are this basin, fishing this basin, pulling a body, pack, or person, attacking from this bank, and playing tag in this water. A failed Be ready for roll imposes only that row's failure; it never advances the clock by itself. Watching from this bank does not start Hunt. A freeze still ticks once at the end of the round because the man remains in the hole.
@@ -72,6 +101,14 @@ If any party member joins the game this round by entering the water, throwing a 
 **Combat mode:** If the party commits to killing the [[Aruhe - River Otter]], or Hunt starts from an attack, fishing, or pulling a dead body or pack, stop the clock and run the embedded statblocks.
 
 If a party member takes open valley air, that party member leaves this hole for hawk sky. Point at a [[Aruhe - Young Bloodhawk]].
+```
+
+```col-md
+## Secondary objective
+
+Get the man onto this sand before tick 3. Joining the game makes the otters drop him while they chase whoever or whatever is it, giving the party a chance to pull him in. If the party ignores him, he becomes another body in this hole, and [[Session-11-06-Farthest-Camp]] has one fewer survivor than the tracks suggest. If he reaches this sand and can speak, he walks the detour, gives his name as Matteo, and says the others left while he went back for the pack. He does not name the woman.
+```
+````
 
 ## Zones
 
@@ -102,9 +139,11 @@ If a party member takes open valley air, that party member leaves this hole for 
 
 Unforeseen intents use the same want: this family owns this section, and they treat anything in this hole as a toy first. They Hunt if the party harms them or takes flesh or a pack from this hole. Rule from the zones, the clock, and whether the approach stays on this bank, joins the game, pulls the dead, or takes the forest-edge detour.
 
+````col
+```col-md
+flexGrow=3
+===
 ## Threat clock
-
-The play or Hunt turn happens after everyone has acted, and only if the man remains in this hole or anyone remains on the magnets. Table failures do not also tick.
 
 | Tick | What happens | Narration |
 | --- | --- | --- |
@@ -112,18 +151,16 @@ The play or Hunt turn happens after everyone has acted, and only if the man rema
 | 2 | **Play going bad, or Dunk.** Thin-streak rolls the man under. He has the **Grappled** condition (escape `DC 14`), but takes no Bite damage while the otters are still playing. He has already spent his breath. A party member who is it still has unused breath. If the otters are playing with a thrown object, they keep that object and do not dunk the man. If Hunt has started and a party member is **Grappled**, Dunk (Recharge 5–6) pulls that party member up to 20 feet and shoves or holds them under; they are **Restrained** until the grapple ends. If Dunk does not recharge, that otter uses Multiattack again. A party member does not drop to 0 hit points from play on this tick. | ==_The thin-streaked otter rolls the man in the grey shirt under the slack. Water closes over his face._== |
 | 3 | **Cost lands.** If the man is still under, he drops to 0 hit points and is **Unconscious**. A party member who is under begins drowning only after held breath is gone and does not drop to 0 hit points from play on this tick. If Hunt has started and a party member is in the water, the second [[Aruhe - River Otter]] stays within 10 feet and gains advantage from Watery Ambush. The otters can wait under a dragged body. | ==_The grey shirt hangs slack in the clear water and does not come up._== |
 | 4 | **Tire or hungry.** The otters stop chasing living people. They go to the pack, a body, or rest in this hole. Hunt does not start from this tick. They do not chase far overland. They do not haul out onto [[Aruhe - Razer-Grass]]. If Hunt has already started, they hold this hole instead. The man, if still here, is another body in this hole. Do not start [[Session-11-06-Farthest-Camp]] on this tick. | ==_The two otters leave the living people and circle the pack and the body instead. They do not follow far onto this bank._== |
+```
 
-**Bloodied.** Bloodied is 38 hit points on an [[Aruhe - River Otter]]. This card has no extra bloodied action. Keep Hunt.
+```col-md
+**Bloodied 38 HP.** This card has no extra bloodied action. Keep Hunt.
 
 **Cover reached.** Once a party member reaches the grass, jungle wall, or other overland cover, that [[Aruhe - River Otter]] breaks contact. The otters do not chase far overland. The man is off the magnets once he reaches this sand.
 
-**Scene dials.** Easy: two play adults. Do not spawn a family of four to six on this card.
-
-Do not spawn wolfrabbits, a hazards-table result, night watch, or the deer-stalker on this clock. Taking the bloody-bank detour while the man is already on this sand ends this scene with no further tick. Tick 4 of play ends the chase without a fight; the party can still pull the man or take the detour.
-
-## Secondary objective
-
-Get the man onto this sand before tick 3. Joining the game makes the otters drop him while they chase whoever or whatever is it, giving the party a chance to pull him in. If the party ignores him, he becomes another body in this hole, and [[Session-11-06-Farthest-Camp]] has one fewer survivor than the tracks suggest. If he reaches this sand and can speak, he walks the detour, gives his name as Matteo, and says the others left while he went back for the pack. He does not name the woman.
+**Scene dials.** Easy: two play adults. Do not spawn a family of four to six on this card. Do not spawn wolfrabbits, a hazards-table result, night watch, or the deer-stalker on this clock. Taking the bloody-bank detour while the man is already on this sand ends this scene with no further tick. Tick 4 of play ends the chase without a fight; the party can still pull the man or take the detour.
+```
+````
 
 ## How the Scene Resolves
 
