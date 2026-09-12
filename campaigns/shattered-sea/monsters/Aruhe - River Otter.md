@@ -7,6 +7,7 @@ cr: 4
 source: house (wiki creature.aruhe-river-otter; living-stock 2026-09-05; individual chassis provisional)
 visibility: dm
 tags: [monster, aruhe]
+summary: CR 4 controller that shifts from playful gear-tugging to coordinated underwater grapples; the visual reference anchors a wet dark-brown otter with a fingerprint-like pale chest mark.
 ---
 # Aruhe River Otter
 
@@ -61,6 +62,15 @@ bonus_actions:
 
 ```
 ````
+
+## Visual reference
+
+The user-supplied reference sheet establishes the Aruhe River Otter as a stocky, muscular, wet-furred animal with a dark chocolate-brown coat, amber-brown eyes, a dark nose, small rounded ears, long pale whiskers, webbed paws with sharp dark claws, and a thick tapered tail. Its pale cream throat and chest marking has a fingerprint-like pattern that remains the key individual identifier across the turnaround and pose studies.
+
+The sheet's expressions, proportions, material studies, and labeled poses support consistent depiction only. Its printed design notes are descriptive image content, not new mechanics or campaign canon.
+
+![[aruhe-river-otter-reference-sheet.jpg|Aruhe River Otter character reference sheet]]
+
 ## Behavior
 
 - **Habitat.** Aruhe River Otters hold [[Aruhe - River|the Long Reach]] and [[Aruhe - Clear Lake|the clear lake]], especially the open cuts where bank, shallows, and deep water let the family watch both land and current. [[Aruhe - River Slack Basin]] is one such cut. They keep the water gin-clear on purpose by culling grazers, dropping shade-trees, and patrolling the banks.
