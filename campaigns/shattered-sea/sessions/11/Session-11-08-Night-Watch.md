@@ -12,6 +12,8 @@ summary: Development watch-posting at Spoke Ring. Actual precautions lock fortif
 
 ![[attachments/shattered-sea/places/aruhe-spoke-ring.jpg|Spoke Ring, radial fire hub under Quiet leaves]]
 
+````col
+```col-md
 ## Scene ends when
 
 End this beat when the party locks three things: fortified, paired, or thin; quiet or messy; and whether [[Crissdalynn Khinriss]] is on watch. Hand to [[Session-11-09-Theft-on-the-Watch]] when those terms are clear, or rebuild if the party leaves the fire. This slice is watch-posting at [[Aruhe - Quiet Forest Spoke Ring]], not a fight, [[Aruhe - Memorial Grove]], or the theft.
@@ -21,7 +23,11 @@ This beat is thirty minutes.
 **If behind:** Ask who watches, where each person stands, how [[Crissdalynn Khinriss]] and the [[Fate Spinner]] are protected, and whether the fire is quiet or messy. Lock fortified, paired, or thin, then end the beat.
 
 **If ahead:** Still end on watch terms. Keep [[Talon Skarn]] and the [[Aruhe - Deerstalker]] off this card. The valley does not reach [[Aruhe - Memorial Grove]] tonight.
+```
 
+```col-md
+flexGrow=2
+===
 ## At a Glance
 
 - **Stakes:** Isolation on this hub turns a person into prey. The watch they post determines how [[Talon Skarn]] gets his opening. A fortified watch still brings him, but it changes who controls that opening.
@@ -29,6 +35,8 @@ This beat is thirty minutes.
 - **Danger:** A thin watch lets [[Talon Skarn]] start close with the first chain already set. A messy fire gives him cover. One person north is one person isolated.
 - **Silence:** Present the fire, the garden talk, and the need for a watch, then wait for the party to act.
 - **Situation magnets:** Anyone left alone can be taken. The marked person is exposed if that person takes a north trail alone. [[Crissdalynn Khinriss]] is exposed if she stands a thin watch.
+```
+````
 
 ## Now
 
@@ -38,8 +46,10 @@ Unnamed wreck people sit in the light, fewer than the crushed prints entering fr
 
 The south trail reaches gold-green grass between the last trunks in 20 feet. The west trail reaches the river through a root-cut in 30 feet. North trails enter darker wood in 20 feet. [[Aruhe - Quiet Forest Star Cut]] lies beyond those trails, farther than a Dash. A 30-foot move stays on the hub; a 60-foot Dash follows a trail off the ring.
 
-### Action cards
+## Action cards
 
+````col
+```col-md
 **Watch posting.** Run this as a Development. There is no fight on this card. Ask what the party actually does, where each person stands, how [[Crissdalynn Khinriss]] and the [[Fate Spinner]] are protected, what remains visible, and what deception or contingency they prepare. Do not reduce the watch to one check.
 
 **Watch states.** Fortified means the party sets positions, sight lines, and contingencies before [[Talon Skarn]] arrives. He still comes, but he must use a visible feint, a decoy approach, or an open entry, and he must expose himself enough to make one genuine attempt. Paired means opposed detection and a roughly even opening. Thin means [[Talon Skarn]] starts close, the first chain can already be set up, and the party reacts from disadvantage. Record whether the fire is quiet or messy and whether [[Crissdalynn Khinriss]] is on watch.
@@ -49,7 +59,9 @@ The south trail reaches gold-green grass between the last trunks in 20 feet. The
 **[[Fate Spinner]].** The thumb-sized quartz top is on [[Crissdalynn Khinriss]]. Ask which pouch, wrap, or hand holds it, and whether that hold is visible.
 
 **[[Aruhe - Deerstalker]] waits for another split.** Keep it off this card and off [[Session-11-09-Theft-on-the-Watch]].
+```
 
+```col-md
 **[[Matteo Scola]].** If the party pulled him from the hole and he can speak, use his name. If he is still **Unconscious**, call him the man until he wakes and says Matteo. He wants living people and will not walk a north trail alone. If the party left him in the hole, remove him from this card.
 
 **Garden mouths.** Keep these survivors unnamed. They listened and want to see the garden. The talk is worse now that everyone heard the same invitation. Sample: "She asked us to come admire her garden. This way. Leave the living plants."
@@ -59,6 +71,8 @@ The south trail reaches gold-green grass between the last trunks in 20 feet. The
 **[[Taking on Aruhe]].** Fallen [[Aruhe - Stonepear]] is receiving. Plucking a living plant is a claim. The camp notices, and Influence at this fire has Disadvantage. Do not bring surrounding life onto this card.
 
 **Fallen [[Aruhe - Stonepear]].** **Intelligence (Nature) — identify.** `DC 10` → edible, not poison. `DC 15` or *Identify* → eating one is a Bonus Action and grants **Resistance to all damage** for 1 minute.
+```
+````
 
 > [!narration] Initial Narration
 > You see the river-stone coals burning in the middle of this packed-dirt hub. Smoke gathers beneath the leaf roof, and the firelight stops at the trunks. Heat rises from the stones. The people gathered here keep repeating the garden words: admire her garden, this way, do not take the living plants. Several of them look north whenever a branch moves.
@@ -69,6 +83,10 @@ The south trail reaches gold-green grass between the last trunks in 20 feet. The
 >
 > What do you do?
 
+````col
+```col-md
+flexGrow=3
+===
 ## Procedure
 
 **Development.** Run this hub as a watch-posting slice. There is no fight on this card. End when the party posts a fortified, paired, or thin watch, sits awake in a knot, or starts walking. If they stall, keep the need for a watch visible and ask what they do.
@@ -86,6 +104,14 @@ If the party sends the marked person to [[Aruhe - Quiet Forest Star Cut]] alone,
 If a party member takes open valley air, move that person from this hub to Hawk sky. Do not repeat the bloodhawk stoop.
 
 **Combat mode:** If someone attacks this camp, stop this card and rebuild from the changed situation. The party loses the prize and still needs a watch.
+```
+
+```col-md
+## Secondary objective
+
+Keep the thumb-sized [[Fate Spinner]] hidden on [[Crissdalynn Khinriss]] while the watch is posted. The party must place it in a pouch, wrap, or hand that is not in view before anyone sleeps. If they ignore this objective, watch terms still lock. If the [[Fate Spinner]] is visible, [[Talon Skarn]] can read a target on her when beat 9 starts.
+```
+````
 
 ## Zones
 
@@ -115,10 +141,6 @@ If a party member takes open valley air, move that person from this hub to Hawk 
 | Leave this camp | Walking the south trail toward the last grass, the river, the terrace line, the beach, or [[Uncertainty]], or flying up into open valley air, without a watch | Walk | The party leaves this fire. Rebuild from the new route. The mark can still sit on the locked quarry. If a party member flies into open valley air, move that person to Hawk sky. | Binary — no partial. | Binary — no partial. Leaving this camp ends this scene. |
 
 For an unforeseen intent, use the same opposition want: [[Talon Skarn]] wants the carrier on a thin watch. Rule from the zones and whether the party fortifies, pairs, thins, sits awake, marches, or leaves.
-
-## Secondary objective
-
-Keep the thumb-sized [[Fate Spinner]] hidden on [[Crissdalynn Khinriss]] while the watch is posted. The party must place it in a pouch, wrap, or hand that is not in view before anyone sleeps. If they ignore this objective, watch terms still lock. If the [[Fate Spinner]] is visible, [[Talon Skarn]] can read a target on her when beat 9 starts.
 
 ## How the Scene Resolves
 
