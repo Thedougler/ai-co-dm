@@ -1,5 +1,5 @@
 ---
-summary: Nick's correction log. Writers append on #ERROR; ASD drains. Open: replaced-wrong Beat 1 image; token subject isolation; visual-references image-to-reference template; claimed works on unclaimed Aruhe; TotM hawk-stoop force; PC token framing; battlemap zoom too tight; battlemap no image-input refs.
+summary: Nick's correction log. Writers append on #ERROR; ASD drains. Open: replaced-wrong Beat 1 image; token subject isolation; visual-references image-to-reference template; claimed works on unclaimed Aruhe; TotM hawk-stoop force; PC token framing; battlemap zoom too tight; battlemap no image-input refs; session-surface cssclasses.
 ---
 
 # User corrections
@@ -938,3 +938,17 @@ Future `foundry-battlemap` upgrades should add a vehicle or deck-plan mode with 
 **status:** open
 
 **Fix:** _No durable process fix in this turn._ When refreshing battlemap references, map location ownership and existing file sufficiency before assuming one unique high-resolution asset per scene.
+
+### 2026-09-11 — session-surface cssclasses
+
+**Error:** Wrote `cssclasses: [session-surface]` on [[Session-11-05-Otter-Hole]] so session CSS would apply, copying the same frontmatter flag from [[Session-11-01-Angry-Birds]].
+
+**Correction:** CSS that requires a frontmatter value is a glitch waiting to happen. All vault CSS applies with normal CSS, not frontmatter values that enable it.
+
+**Read:** `AGENTS.md`; `.agents/skills/run-guide/SKILL.md`; `.agents/skills/obsidian-markdown/SKILL.md`; `.agents/skills/copy-writer/SKILL.md`; `.agents/skills/obsidian-markdown/references/COLUMNS.md`; `campaigns/shattered-sea/sessions/11/Session-11-01-Angry-Birds.md`; `campaigns/shattered-sea/sessions/11/Session-11-05-Otter-Hole.md`
+
+**count:** 1
+
+**status:** open
+
+**Fix:** _No durable process fix in this turn._ Do not strip `cssclasses` from live notes; that breaks the current CSS. Another agent rewires vault CSS to ordinary selectors, then the frontmatter flag can go.
