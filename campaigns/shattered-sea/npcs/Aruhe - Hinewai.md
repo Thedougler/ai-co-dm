@@ -27,6 +27,8 @@ source: "house (Monster-Brewer; legacy Fantasy Statblock import; Hinewai/Death B
 
 *The Woman in the Woods*
 
+![[attachments/shattered-sea/portraits/hinewai-woman-in-the-woods-overview.png|Hinewai in the rainforest]]
+
 ````col
 ```col-md
 flexGrow=2
