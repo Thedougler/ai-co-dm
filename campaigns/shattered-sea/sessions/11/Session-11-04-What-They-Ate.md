@@ -119,10 +119,6 @@ If anyone plucks living plants, traps, or kills to carry flesh on this bank, mar
 
 Unforeseen intents use the same rule: the group ahead has been living off fallen fruit and fish, and snapped living stems left the blood. Rule from zones and whether the approach lingers, picks live stems, or keeps the north prints.
 
-````col
-```col-md
-flexGrow=3
-===
 ## Threat clock
 
 | Tick | What happens | Narration |
@@ -130,16 +126,6 @@ flexGrow=3
 | 1 | The smoke thins. The column leans and breaks apart. The prints are still sharp. | ==_The inland column leans and thins. The same wind that moves the seed heads pulls the top of it sideways._== |
 | 2 | The trail starts going cold. Print edges lose their water and soften. The smoke is thinner. | ==_The footprints lose their sharp wet edges. North, the smoke is thinner than it was._== |
 | 3 | The fresh follow is gone. The smoke is a stain on the northern sky. The crushed corridor still leads north off the bank. | ==_North, the smoke is only a stain on the sky. The crushed corridor still runs up the bank, but the live sign has gone dull._== |
-```
-
-```col-md
-**Cover.** Eight-foot gold-green grass is Difficult Terrain and heavily obscures anything more than 10 feet away. Movement leaves a crushed corridor. The grass hides a standing body.
-
-**Hawk sky.** A party member who takes open valley air leaves this bank. Point at a [[Aruhe - Young Bloodhawk]].
-
-**Scene dials.** Behind: show the three piles, the pole, and the blood, then cut on the north commit or the south break. Ahead: inspect or forage is allowed. Living stems still count as a claim. Do not roll the hazards table. Do not start [[Aruhe - River Slack Basin]].
-```
-````
 
 ## How the Scene Resolves
 
