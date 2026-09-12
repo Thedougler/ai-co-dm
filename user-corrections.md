@@ -1008,3 +1008,17 @@ Future `foundry-battlemap` upgrades should add a vehicle or deck-plan mode with 
 **status:** closed
 
 **Fix:** Moved `## Art` below the identity and quick-reference content while preserving every embed, narration block, mechanic, and combat section. Measure: art-first heading order 1 → wiki identity-first heading order 1.
+
+### 2026-09-11 — Preserve same-file user WIP during scoped publish
+
+**Error:** Temporarily removed existing Hinewai owner-page changes to isolate a generated-art embed for scoped publishing, creating a risk of undoing the user's work.
+
+**Correction:** Never undo or suppress user changes to make a publish easier. Preserve same-file WIP in place; if a safe scoped commit cannot be made without temporarily changing it, stop and choose a non-destructive isolation method or ask.
+
+**Read:** `AGENTS.md`; `.agents/skills/obsidian-markdown/SKILL.md`; `scripts/after-write`; `campaigns/shattered-sea/npcs/Aruhe - Hinewai.md`; `user-corrections.md`
+
+**count:** 1
+
+**status:** open
+
+**Fix:** Restored the exact pre-existing Hinewai WIP patch and verified it remains unstaged alongside the new embed. Durable workflow correction remains for Agentic-System-Designer.
