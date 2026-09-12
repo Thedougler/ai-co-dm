@@ -12,18 +12,22 @@ summary: Climax theft on the Star Cut watch, or the column if they marched. [[Ta
 
 ![[attachments/shattered-sea/places/aruhe-star-cut.jpg|Star Cut, night-watch aisle under a slit of stars]]
 
+````col
+```col-md
 ## Scene ends when
 
-End the scene when [[Talon Skarn]]'s attempt is stopped, or when he has the [[Fate Spinner]] and the watch has answered. Hand to [[Session-11-10-Aftermath]].
+This beat ends when [[Talon Skarn]]'s attempt is stopped, or when he has the [[Fate Spinner]] and the watch has answered. Hand to [[Session-11-10-Aftermath]].
 
-This is the theft on the watch at [[Aruhe - Quiet Forest Star Cut]], or the same theft on the column if the party marched.
-
-This beat is thirty minutes.
+Plan for about thirty minutes.
 
 **If behind:** Resolve one Kusarigama pull on [[Crissdalynn Khinriss]] with the watch partner involved. [[Talon Skarn]] breaks contact down the star-cut, then hand to [[Session-11-10-Aftermath]].
 
 **If ahead:** Still end here. Do not add [[Talon Vantyrus]], [[Aruhe - Memorial Grove]], or bloodhawks.
+```
 
+```col-md
+flexGrow=2
+===
 ## At a Glance
 
 - **Stakes:** [[Talon Skarn]] came for the [[Fate Spinner]]. He turns the watch's thinnest body into the opening.
@@ -31,12 +35,16 @@ This beat is thirty minutes.
 - **Danger:** Hidden Spinner means he cuts [[Crissdalynn Khinriss]]'s gear until it shows. Visible Spinner means one Kusarigama pull, or a **Stunning Strike**, can end the theft. A messy camp gives him cover.
 - **Silence:** Show the north-mouth approach on this pair, then wait. If the party freezes, advance the clock once at the end of the round.
 - **Situation magnets:** [[Crissdalynn Khinriss]], her watch partner, the current carrier, anyone between [[Talon Skarn]] and the carrier, anyone who shows the [[Fate Spinner]], anyone in the 20-foot kusarigama lane, and anyone alone.
+```
+````
 
+````col
+```col-md
 ## Now
 
-The party is on [[Aruhe - Quiet Forest Star Cut]] unless beat 8 ended in a march or a knot. [[Crissdalynn Khinriss]] and one other watcher stand at the east fire's north edge, facing the star-cut. If she is not on watch, keep [[Talon Skarn]] on the carrier and place the nearest watcher with that carrier. If she is alone, the nearest watcher is already with her. The rest of the camp sleeps on rolls along both jungle walls.
+The party is on [[Aruhe - Quiet Forest Star Cut]] unless beat 8 ended in a march or a knot. [[Crissdalynn Khinriss]] and one other watcher stand at the east fire's north edge, facing the star-cut. If she is not on watch, keep [[Talon Skarn]] on the carrier and place the nearest watcher with that carrier. If she is alone, the nearest watcher is already with her. The rest of the camp sleeps on rolls along both jungle walls. The people at this fire stay unnamed.
 
-[[Talon Skarn]] starts at the north mouth, 40 feet from the fire. He walks 50 feet and flies 90 feet. The packed aisle under the leaf roof does not give him 30 feet straight down, so **Peregrine Dive** is available only from the north-mouth opening or star-cut sky. A 30-foot move from the fire stays on the aisle and does not reach him; a 50-foot move from the north mouth reaches the coals. Katana and Sai have 5-foot reach. Kusarigama has 20-foot reach. A 50-foot Dash from the fire reaches the star-cut or the west river-talk, but not [[Aruhe - Quiet Forest Spoke Ring]], the beach, or [[Uncertainty]]. The packed aisle is ordinary ground. The jungle walls are Difficult Terrain and heavily obscure beyond 10 feet.
+[[Talon Skarn]] starts at the north mouth, 40 feet from the fire. He walks 50 feet and flies 90 feet. The packed aisle under the leaf roof does not give him 30 feet straight down, so **Peregrine Dive** is available only from the north-mouth opening or star-cut sky. A 30-foot move from the fire stays on the aisle and does not reach him. A 50-foot move from the north mouth reaches the coals. Katana and Sai have 5-foot reach. Kusarigama has 20-foot reach. A 50-foot Dash from the fire reaches the star-cut or the west river-talk, but not [[Aruhe - Quiet Forest Spoke Ring]], the beach, or [[Uncertainty]]. The packed aisle is ordinary ground. The jungle walls are Difficult Terrain and heavily obscure beyond 10 feet.
 
 **Thin.** [[Talon Skarn]] starts 15 feet from [[Crissdalynn Khinriss]], with the first chain already lifted. The party has **Disadvantage** on attack rolls and ability checks against him until the end of round 1.
 
@@ -49,22 +57,27 @@ The party is on [[Aruhe - Quiet Forest Star Cut]] unless beat 8 ended in a march
 **Knot.** If they sat awake at [[Aruhe - Quiet Forest Spoke Ring]], start at that fire. A messy camp gives him cover.
 
 If beats 7 and 8 left the fire messy, shouting, running survivors, and a kicked-over fire all give [[Talon Skarn]] cover.
+```
 
-### Action cards
+```col-md
+flexGrow=2
+===
+## Action cards
 
-**One [[Talon Skarn]] on this watch.** Run combat/theft mode by default. His win condition is to break contact down the star-cut with the [[Fate Spinner]].
+**[[Talon Skarn]].** One committed attempt at the [[Fate Spinner]] tonight. An excellent watch does not cancel the showdown; it forces him into the open. His win is to break contact down the star-cut with the object.
 
-**Committed attempt.** He came to make one real attempt at the [[Fate Spinner]] tonight. An excellent watch does not cancel the showdown; it forces him to expose himself more. A fortified watch can become a trap, a capture, or a kill.
-
-**Loop.** Keep the action on the carrier and the watch partner, not the camp at large. [[Talon Skarn]] works [[Crissdalynn Khinriss]] until the [[Fate Spinner]] shows or an opening appears: a stun, a cut strap, a pinned wing, a shaken-out bag, or a Kusarigama pull that takes her from the partner. If the watch partner hits him, he spends one beat on that person only long enough to reopen the grab. Once the [[Fate Spinner]] shows, he stops fighting for anything else and takes the object, then breaks contact down the star-cut.
-
-**What his actions reveal.** [[Talon Skarn]] ignores survivors, fruit, and anyone who is not between him and [[Crissdalynn Khinriss]]. He cuts gear before he cuts throats. He uses the chains to isolate one body on this aisle. He watches her hands and hips, not her face. His voice is unknown.
-
-**Compact numbers.** AC 19; 195 hit points; walk 50 feet; fly 90 feet. Attacks are +11 to hit. Katana deals `17` slashing. Kusarigama deals `15` slashing at 20-foot reach and can pull a Large or smaller target 10 feet on a hit. Sai deals `13` piercing and gives Disadvantage on the target's next attack. **Stunning Strike (1/Turn)** is a **Constitution save — `DC 18`**. Bloodied is 97 hit points.
-
-**If they break his read.** If they Grapple him, he still plays the steal, then breaks contact. If they throw a fake object, he checks it once and returns to [[Crissdalynn Khinriss]]. If the [[Fate Spinner]] changed carriers before camp, he is wrong; that is the only reason he changes targets. If the pass happens during the fight, he reads it and goes to the new carrier.
-
-**End the attempt.** Whether he gets the grab or not, he breaks contact down the star-cut after the attempt.
+- **Loop:** Work [[Crissdalynn Khinriss]] until the [[Fate Spinner]] shows or an opening appears: a stun, a cut strap, a pinned wing, a shaken-out bag, or a Kusarigama pull that takes her from the partner. If the watch partner hits him, spend one beat on that person only long enough to reopen the grab. Once the [[Fate Spinner]] shows, take it and break contact.
+- **Tell:** He watches her hands and hips, not her face. He cuts gear before throats. He ignores survivors, fruit, and anyone who is not between him and [[Crissdalynn Khinriss]]. His voice is unknown.
+- **If they break his read:** If they Grapple him, he still plays the steal, then breaks contact. If they throw a fake object, he checks it once and returns to [[Crissdalynn Khinriss]]. If the [[Fate Spinner]] changed carriers before camp, he is wrong; that is the only reason he changes targets. If the pass happens during the fight, he reads it and goes to the new carrier.
+- **Bloodied 97 HP:** He still plays the steal, then breaks contact. He does not clear conditions for free.
+- **Easy dial:** Remove Legendary Resistance and start **Kusarigama Tempest** uncharged. Do not add a second attacker. Survivors who run are cover for him, not extra enemies.
+- **Default rolls:** `AC 19`, `195 HP`, walk `50 feet`, and fly `90 feet`. Attacks are `+11` to hit.
+- **Katana:** `+11` to hit for `17` slashing. Reach 5 feet.
+- **Kusarigama:** `+11` to hit for `15` slashing at 20-foot reach. On a hit, pull a Large or smaller target 10 feet.
+- **Sai:** `+11` to hit for `13` piercing. The target has Disadvantage on its next attack.
+- **Stunning Strike (1/Turn):** **Constitution save — `DC 18`** or **Stunned** until the start of his next turn.
+```
+````
 
 > [!narration] Initial Narration
 > You stand on wet packed dirt in an aisle between trunks close enough to touch. North, the leaf roof breaks and stars show through the opening. East, a low stone ring holds live coals beside clay bowls and two sleeping rolls. More rolls press the west jungle wall. Heavy, ribbed pink-gold fruit rests in the wet leaves, with more still hanging overhead.
@@ -75,13 +88,25 @@ If beats 7 and 8 left the fire messy, shouting, running survivors, and a kicked-
 >
 > What do you do?
 
+````col
+```col-md
+flexGrow=3
+===
 ## Procedure
 
-**Combat / theft mode.** Run the embedded [[Talon Skarn]] statblock. His win condition is to break contact down the star-cut.
+**Combat / theft mode.** Run the embedded [[Talon Skarn]] statblock. After everyone acts, tick once if he is still on this watch and the [[Fate Spinner]] remains hidden or remains on [[Crissdalynn Khinriss]]. Failed checks impose only the Be ready for ruling; they do not advance the threat clock. Resolve that tick as the action he spends on his combat turn. Do not give him a second Multiattack or a second Kusarigama pull for the same tick. Freezing still ticks once.
 
-Use only the ruling in **Be ready for** when a check fails. A failed check does not advance the threat clock. The clock is [[Talon Skarn]]'s steal loop: after everyone has acted, if he is still on this watch and the [[Fate Spinner]] remains hidden or remains on [[Crissdalynn Khinriss]], advance it once. Resolve that tick as the action he spends on his combat turn. Do not give him a second Multiattack or a second Kusarigama pull for the same tick. A freeze or "we watch" advances the clock once at the end of the round. Several failed checks in one round still produce one tick.
+If they force-marched at beat 8, keep them on the column. If they sat awake in a knot, keep them at [[Aruhe - Quiet Forest Spoke Ring]]. If the watch is fortified, he still comes, but he must cross the 40-foot aisle in the open.
 
-If they force-marched at beat 8, keep them on the column. If they sat awake in a knot, keep them at [[Aruhe - Quiet Forest Spoke Ring]]. If the watch is fortified, [[Talon Skarn]] still comes, but he must cross the 40-foot aisle in the open.
+When the attempt is stopped, or when he has the [[Fate Spinner]] and the watch has answered, this beat is over.
+```
+
+```col-md
+## Secondary objective
+
+Keep the [[Fate Spinner]] on [[Crissdalynn Khinriss]]. The required beat is disrupting the steal with the watch partner involved. If the party freezes, [[Talon Skarn]] still makes the attempt and the watch still answers. If he leaves with the [[Fate Spinner]], [[Session-11-10-Aftermath]] treats the result as Stolen; if the steal is disrupted, it treats the result as Held.
+```
+````
 
 ## Zones
 
@@ -100,7 +125,7 @@ If they force-marched at beat 8, keep them on the column. If they sat awake in a
 | Intent | Approach | DC | Success | Partial | Failure |
 | --- | --- | --- | --- | --- | --- |
 | Assess the situation | **Wisdom (Perception)** or **Wisdom (Insight)** | `DC 10` | The looker sees that [[Talon Skarn]] is working this pair, not the camp at large. He watches [[Crissdalynn Khinriss]]'s hands and hips, not her face, and cuts gear before throats. He ignores survivors, fruit, and anyone who is not between him and [[Crissdalynn Khinriss]]. The looker still does not know which pouch, wrap, or hand holds the [[Fate Spinner]] unless it is already visible. | The looker understands that [[Talon Skarn]] is targeting [[Crissdalynn Khinriss]], but the theft clock remains live. | The looker does not recognize the theft. [[Talon Skarn]] keeps cutting angles on [[Crissdalynn Khinriss]]. |
-| Protect [[Crissdalynn Khinriss]] / block the grab | Attack vs AC 19, Help, Ready, or **Constitution save — `DC 18`** if **Stunning Strike** already hits | Attack vs AC 19, or `DC 18` | The watch partner takes part in this exchange. [[Talon Skarn]] spends the next beat on that person only long enough to reopen the grab. The [[Fate Spinner]] stays with her. | The grab is blocked, but [[Talon Skarn]] stays on [[Crissdalynn Khinriss]]. A strap, pouch, or wrap is cut. The clock still ticks at the end of the round if he remains on this watch. | A Kusarigama hit pulls [[Crissdalynn Khinriss]] up to 10 feet toward [[Talon Skarn]]. If **Stunning Strike** also hits, she makes a **Constitution save — `DC 18`** or is **Stunned** until the start of his next turn. If a held or worn item comes free and is not the [[Fate Spinner]], he checks it once and returns to her. |
+| Protect [[Crissdalynn Khinriss]] / block the grab | Attack vs `AC 19`, Help, Ready, or **Constitution save — `DC 18`** if **Stunning Strike** already hits | Attack vs `AC 19`, or `DC 18` | The watch partner takes part in this exchange. [[Talon Skarn]] spends the next beat on that person only long enough to reopen the grab. The [[Fate Spinner]] stays with her. | The grab is blocked, but [[Talon Skarn]] stays on [[Crissdalynn Khinriss]]. A strap, pouch, or wrap is cut. The clock still ticks at the end of the round if he remains on this watch. | A Kusarigama hit pulls [[Crissdalynn Khinriss]] up to 10 feet toward [[Talon Skarn]]. If **Stunning Strike** also hits, she makes a **Constitution save — `DC 18`** or is **Stunned** until the start of his next turn. If a held or worn item comes free and is not the [[Fate Spinner]], he checks it once and returns to her. |
 | Keep the [[Fate Spinner]] hidden | **Dexterity (Sleight of Hand)**, or Utilize to keep the [[Fate Spinner]] in a pouch, wrap, or hand that is not in view | `DC 15` | The [[Fate Spinner]] stays hidden. [[Talon Skarn]] must keep [[Crissdalynn Khinriss]] in the fight, and he does not know which pouch, wrap, or hand holds it. | The [[Fate Spinner]] stays on [[Crissdalynn Khinriss]], but a strap or pouch is cut and he keeps looking. The clock still ticks at the end of the round if he remains on this watch. | The [[Fate Spinner]] comes into view. [[Talon Skarn]] goes for it and stops fighting for anything else. The theft can end in one Kusarigama pull. |
 | Grapple [[Talon Skarn]] | Grapple (Unarmed Strike). [[Talon Skarn]] makes a Strength or Dexterity save against that party member's grapple DC. He almost surely chooses Dexterity. | Grapple DC | [[Talon Skarn]] is **Grappled** on this aisle. He still plays the steal, then breaks contact. Speed 0 ends **Peregrine Dive**, **Skyhunter**, and **Step of the Falcon** Dash until the grapple ends. | [[Talon Skarn]] is slowed on this aisle, but **Wingbeat Step** remains available if he is not **Grappled**. | [[Talon Skarn]] spends **Step of the Falcon** or **Wingbeat Step** and stays on his feet toward [[Crissdalynn Khinriss]]. Apply only this listed cost. Do not also tick. |
 | Throw a fake object | Utilize a pouch, wrap, or decoy as if it were the [[Fate Spinner]] | Commit | [[Talon Skarn]] checks the fake once, then returns to [[Crissdalynn Khinriss]]. | Binary — no partial. | Binary — no partial. A fake object does not send [[Talon Skarn]] down the star-cut. |
@@ -111,9 +136,11 @@ If they force-marched at beat 8, keep them on the column. If they sat awake in a
 
 For an unforeseen intent, use the same want: [[Talon Skarn]] wants the [[Fate Spinner]] off [[Crissdalynn Khinriss]]. Rule from the zones, the clock, and whether the approach keeps the object hidden, shows it, Grapples him, or takes star-cut sky.
 
+````col
+```col-md
+flexGrow=3
+===
 ## Threat clock
-
-The steal turn happens after everyone has acted, but only while [[Talon Skarn]] remains on this watch and the [[Fate Spinner]] remains hidden or remains on [[Crissdalynn Khinriss]]. A failed check does not also tick the clock. Resolve each tick as the action he spends on his combat turn, and do not add a second grab if a Kusarigama pull already resolved this turn.
 
 | Tick | What happens | Narration |
 | --- | --- | --- |
@@ -121,18 +148,16 @@ The steal turn happens after everyone has acted, but only while [[Talon Skarn]] 
 | 2 | Grab attempt. [[Talon Skarn]] uses Kusarigama. On a hit, a Large or smaller target is pulled up to 10 feet toward him. He can also spend **Stunning Strike (1/Turn)**; **Constitution save — `DC 18`** or she is **Stunned** until the start of his next turn. He almost surely gets this attempt off. If he already spent the pull this turn, keep [[Crissdalynn Khinriss]] in the fight with Katana or Sai until he can pull again. | ==_A black chain hooks toward Crissdalynn Khinriss and draws taut. The peregrine pulls along the aisle, and her straps and pouches jerk toward the line._== |
 | 3 | Watch partner. If the second watcher hits [[Talon Skarn]], he spends this beat on that person only long enough to reopen the grab, using **Crossing Sai** if they stay or **Wingbeat Step** if he needs the lane. He does not switch to killing the camp. He almost surely gets disrupted before he leaves with the [[Fate Spinner]]. | ==_The peregrine turns from Crissdalynn Khinriss to the other watcher for one beat. A short forked dagger flashes, or the chain bends toward them. Then his eyes snap back to her hands and hips._== |
 | 4 | Break contact. [[Talon Skarn]] uses **Step of the Falcon** or **Wingbeat Step** and goes for the star-cut, with or without the [[Fate Spinner]]. If he is **Grappled**, he still plays the steal and then takes the cut. The watch has answered. Hand to [[Session-11-10-Aftermath]]. | ==_The peregrine breaks from the watch and takes the north mouth. Night air carries him into the star-cut, with a torn thing in a hooked blade or nothing at all._== |
+```
 
+```col-md
 **Bloodied 97 HP.** [[Talon Skarn]] still plays the steal, then breaks contact down the star-cut. He does not clear conditions for free.
 
 **Cover reached.** The star-cut is [[Talon Skarn]]'s exit. Jungle walls do not protect a party member who remains between him and [[Crissdalynn Khinriss]]. A messy camp gives him cover.
 
 **Scene dials.** Easy: remove Legendary Resistance and start **Kusarigama Tempest** uncharged. Do not add a second attacker. Survivors who run are cover for [[Talon Skarn]], not extra enemies.
-
-If the party freezes on this watch, advance the steal once.
-
-## Secondary objective
-
-Keep the [[Fate Spinner]] on [[Crissdalynn Khinriss]]. The required beat is disrupting the steal with the watch partner involved. If the party freezes, [[Talon Skarn]] still makes the attempt and the watch still answers. If he leaves with the [[Fate Spinner]], [[Session-11-10-Aftermath]] treats the result as Stolen; if the steal is disrupted, it treats the result as Held.
+```
+````
 
 ## How the Scene Resolves
 
@@ -149,8 +174,6 @@ If [[Talon Skarn]] leaves with the [[Fate Spinner]], the small quartz top is in 
 | --- | --- | --- |
 | The steal is disrupted | Held. [[Talon Skarn]] is in the star-cut or still on this aisle without a clean steal. The [[Fate Spinner]] is on [[Crissdalynn Khinriss]], recovered, or on the packed dirt. Hand to [[Session-11-10-Aftermath]]. | ==_The peregrine stands in the star-cut north of the fire, chains still in his fists. Crissdalynn Khinriss remains at the east ring, straps and pouches still on her, or a torn item lies on the packed dirt._== |
 | The [[Fate Spinner]] is taken | Stolen. The [[Fate Spinner]] is in a hooked blade as [[Talon Skarn]] takes the north mouth. Hand to [[Session-11-10-Aftermath]]. | ==_A small quartz top shows in a hooked blade as the peregrine takes the north mouth. Crissdalynn Khinriss remains at this watch. Night air comes down the cut, and the east coals keep burning._== |
-
-The people at this fire stay unnamed.
 
 ## Roster
 
