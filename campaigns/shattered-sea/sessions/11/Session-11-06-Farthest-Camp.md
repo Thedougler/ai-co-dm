@@ -12,6 +12,8 @@ summary: Development at Spoke Ring. Calveno wreck people split over the garden a
 
 ![[attachments/shattered-sea/places/aruhe-spoke-ring.jpg|Spoke Ring, radial fire hub under Quiet leaves]]
 
+````col
+```col-md
 ## Scene ends when
 
 End once the ship-versus-garden split at [[Aruhe - Quiet Forest Spoke Ring]] is clear and the party chooses how to handle this camp. Hand to [[Session-11-07-False-Help]] if they stay, play along, force a march, or leave someone isolated. Rebuild if they attack the camp or leave before hearing the invitation. This is the farthest inland Calveno camp, not night watch, not [[Aruhe - Memorial Grove]], and not [[Talon Skarn]] on the ground.
@@ -21,7 +23,11 @@ This beat is thirty minutes.
 **If behind:** Put [[Matteo Scola]] and the two camp stories in front of the party, then ask what they do.
 
 **If ahead:** Leave the argument unfinished and hand to beat 7. [[Talon Skarn]] stays in the sun. The garden stays out of reach tonight.
+```
 
+```col-md
+flexGrow=2
+===
 ## At a Glance
 
 - **Stakes:** [[Matteo Scola]] is here if they pulled him from the hole. This camp wants to see the garden, but not everyone wants to leave [[Uncertainty]].
@@ -29,6 +35,8 @@ This beat is thirty minutes.
 - **Danger:** Pushing for the ship tonight breaks the group. Playing along sends the night north. Leaving before the invitation removes beat 7's lure. Open valley air is hawk sky.
 - **Silence:** Put [[Matteo Scola]] and the two stories in view, then wait.
 - **Situation magnets:** [[Matteo Scola]] while he remains in the firelight, and anyone who walks a north trail alone.
+```
+````
 
 ## Now
 
@@ -36,8 +44,10 @@ The party stands on the packed-dirt hub of [[Aruhe - Quiet Forest Spoke Ring]] i
 
 Three or four other Calveno wreck people sit in the firelight. One watches the north trails whenever branches move. Another says anyone who listens to the woman is mad. Fallen [[Aruhe - Stonepear]] rests beside the coals while living stonepears hang above them. Crushed prints enter from the south. The south trail reaches gold-green grass in 20 feet. The west trail reaches the river through a root-cut in 30 feet. The north trails reach darker wood in 20 feet. A 30-foot move stays on the hub. A Dash of 60 feet follows one trail off the ring. [[Aruhe - Quiet Forest Star Cut]] and [[Aruhe - Memorial Grove]] are farther than a Dash. Stop hazard-table rolls once the party reaches this fire.
 
-### Action cards
+## Action cards
 
+````col
+```col-md
 **[[Matteo Scola]].** If the party pulled him onto the sand and he can speak, use his name. If he is still **Unconscious**, call him the man until he wakes and says Matteo. He is Friendly toward the people who pulled him and wants to stay with living people. He says the others left the water and kept walking toward the smoke. He deserted them after rejecting the woman in the woods' advice, then went back for the pack. He does not name the woman. He sits close to whoever pulled him, away from the north trails. His voice is short and wet. Sample: "Matteo. They kept walking. I went back for the pack." If he is **Unconscious**, the camp talk still runs. If the party left him in the hole, remove him from this card.
 
 **Garden group.** These unnamed survivors listened to the invitation. They are alive and want to see the garden. They look into the north trails whenever a branch moves and repeat the same words in half-voices. They are not under a spell; they want what she offered. Sample: "She asked us to come admire her garden. This way. Leave the living plants."
@@ -45,7 +55,9 @@ Three or four other Calveno wreck people sit in the firelight. One watches the n
 **Ship group.** These unnamed survivors call the listeners mad. They watch the south grass more than the north trails and talk over the invitation in hard, low voices. Sample: "She is leading you into danger. Anyone who listens is mad."
 
 **The [[Aruhe - Deerstalker]] is already listening in the north spokes.** It remains unseen.
+```
 
+```col-md
 **Clue 3.** Ask for optional **Wisdom (Perception) — `DC 27`** only if the party asks who the flyer is. [[Talon Skarn]] is the man-sized flyer up-sun over the leaf roof, with metallic or chained gear catching the gold and his eyes on [[Crissdalynn Khinriss]]. Then he is gone. After this glimpse, he is done with the sun. Do not prompt the check or interrupt the argument for it.
 
 **[[Taking on Aruhe]].** Fallen [[Aruhe - Stonepear]] is receiving. Plucking a living plant is a claim, and the surrounding life converges in response. This camp treats that taking as the wrong walk. Stop hazard-table rolls once the party reaches this fire.
@@ -57,6 +69,8 @@ Three or four other Calveno wreck people sit in the firelight. One watches the n
 - `DC 15` or *Identify* → eating a fallen [[Aruhe - Stonepear]] is a Bonus Action and grants **Resistance to all damage** for 1 minute.
 
 ![[attachments/shattered-sea/items/aruhe-stonepear.jpg|Stonepear]]
+```
+````
 
 > [!narration] Initial Narration
 > You hear three or four people arguing in low voices around a fire on packed dirt beneath the trees. One says a woman in the woods asked them to come admire her garden, this way, and not to take the living plants. Another says she is leading them into danger, and anyone who listens is mad.
