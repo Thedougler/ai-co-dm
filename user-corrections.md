@@ -1022,3 +1022,17 @@ Future `foundry-battlemap` upgrades should add a vehicle or deck-plan mode with 
 **status:** open
 
 **Fix:** Restored the exact pre-existing Hinewai WIP patch and verified it remains unstaged alongside the new embed. Durable workflow correction remains for Agentic-System-Designer.
+
+### 2026-09-11 — Talon page is incomplete work, not asset migration
+
+**Error:** Treated the incomplete Talon Skarn owner page as user WIP caused by the surrounding PNG-to-JPG asset changes, and stopped at a partial layout pass instead of completing the requested DM reference.
+
+**Correction:** The asset state is not a migration to preserve as an explanation for the page's incompleteness. Finish the Talon Skarn owner page completely for DM utility, usability, and readability using the Hinewai-style Obsidian column layout.
+
+**Read:** `AGENTS.md`; `.agents/skills/obsidian-markdown/SKILL.md`; `.agents/skills/copy-writer/SKILL.md`; `.agents/skills/qmd-retrieval/SKILL.md`; `.agents/skills/qmd/SKILL.md`; `templates/NPC.md`; `campaigns/shattered-sea/npcs/Talon Skarn.md`; `campaigns/shattered-sea/npcs/Aruhe - Hinewai.md`; `lexicon/House tone.md`
+
+**count:** 1
+
+**status:** closed
+
+**Fix:** Complete the Talon owner page, validate the rendered column/statblock structure and scoped diff, and publish only the requested live note plus this correction log. Measure: partial Talon page with loose repeated sections 1 → complete Hinewai-style DM reference with paired quick-reference and running guidance.
