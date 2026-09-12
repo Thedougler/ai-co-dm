@@ -7,46 +7,90 @@ location: Midchain
 faction: Countless
 visibility: dm
 tags: [npc, countless, schism]
-summary: Countless peregrine apprentice and CR 13 flying skirmisher whose katana, sai, and kusarigama kit, plus a stoop dive, point the Rule of Two at Talon Vantyrus.
+summary: Countless peregrine apprentice and CR 13 flying skirmisher; his stoop-and-chain combat kit supports the Rule of Two rivalry with Talon Vantyrus.
 ---
 # Talon Skarn
 
-## Art
-![[attachments/shattered-sea/character-references/talon-skarn-reference-sheet.png|Talon Skarn character reference sheet]]
-![[attachments/shattered-sea/portraits/talon-skarn-portrait.jpg|Talon Skarn portrait]]
-![[artifacts/tokens/talon-skarn-token.png|Talon Skarn FoundryVTT token]]
+![[attachments/shattered-sea/character-references/talon-skarn-reference-sheet.jpg|Talon Skarn character reference sheet]]
 
-> [!narration] Narration
+````col
+```col-md
+flexGrow=2
+===
+## At a Glance
+
+| **Role**      | Countless apprentice and CR `13` flying skirmisher                    |
+| ------------- | ---------------------------------------------------------------------- |
+| **Nature**    | Living expression of the [[Rule of Two]]                               |
+| **Home**      | Midchain                                                               |
+| **Wants**     | To kill [[Talon Vantyrus]] under Countless doctrine                    |
+| **Arrival**   | Enters only when the party physically reaches Midchain                |
+| **Fight**     | Pursues the current job; he does not stay for a duel to `0` hit points |
+| **Kit**       | Katana, two sai, and two kusarigama                                    |
+| **Signature** | A `30-foot` stoop, `20-foot` chain reach, and forced movement           |
+| **Weakness**  | No damage resistances; ground him, deny the stoop lane, and spread out |
+
+> **DM thesis:** Skarn is Vantyrus's standing threat made flesh. He is trying to kill his master because the [[Rule of Two]] demands it, not because he has abandoned Countless.
+```
+
+```col-md
+flexGrow=1
+===
+> [!narration] Talon Skarn
 > A broad peregrine aarakocra stands about five feet tall, heavy wings lifted behind a dark robe. Pale chest feathers climb into a black-and-cream face; red-orange crown feathers flare above steady amber-gold eyes and a yellow beak tipped in black. The robe hangs in dark layers over wrapped ankles and bare talons, with patterned trim catching along the collar and down the front.
 >
 > Cloth wraps and loose metal chains cover his forearms. One hand holds a long straight sword, the other a curved hook-blade on a dangling chain. When he shifts his grip, the chain links click once and settle against the wraps.
+```
+````
 
+## Running Talon Skarn
 
-## Hook
-Vantyrus’s apprentice is openly testing the master he intends to kill, and will only enter the fight once the crew physically reaches the Midchain.
+````col
+```col-md
+flexGrow=1
+===
+### Opening
 
-## Identity and public function
-Peregrine apprentice of [[Talon Vantyrus]] and a living expression of the [[Rule of Two]].
+Wings lift and chains click. If Skarn has a `30-foot` straight-down lane, open with **Peregrine Dive**. Otherwise, use **Kusarigama** to set the distance.
 
-## Look / voice
-- **Visual:** Broad peregrine aarakocra, about five feet tall; red-orange crown feathers; black-and-cream face feathers; amber-gold eyes; yellow beak with a black tip; pale chest feathers; and wide, dark layered wings.
-- **Dress:** Dark robe with patterned trim, leather grips, cloth forearm wraps, and taloned feet left bare.
-- **Weapons:** A long straight sword (katana), two hooked chain-sickles (kusarigama), and two short forked daggers (sai). Extra chain loops across his wrapped forearms.
-- **Behavior:** Measures opponents from a still, confident stance. When he commits, the wings lift, the chains click, and he sets the distance with the hooked sickle or closes with the sword.
-- **Voice principle:** Unknown; do not invent.
-- **Sample line:** Unknown; do not invent.
+### Default turn
 
-## Drive
-**Want:** Openly scheme to kill Vantyrus, as the Rule of Two requires. Personal want beyond the master’s goals is **unknown**.
+Use **Stunning Strike** once on his turn. Follow with **Kusarigama** to pull a target clear of its partner, or **Sai** to blunt the watcher's next attack.
 
-## Public face vs secret
-**Public:** Countless apprentice and ambush tester. **Secret:** The assassination scheme is not a betrayal of Countless doctrine; it is the doctrine’s standing threat.
+### Legendary actions
 
-## Resources
-Katana, two sai, two kusarigama, fly 90 feet, Countless access, and the stoop dive.
+After another creature's turn, use **Chain Snap** to reopen a pull, **Crossing Sai** to punish a watcher, or **Wingbeat Step** to change the lane. Use each option at most once before Skarn's next turn.
 
-## Next move / interrupt point
-Set tests along the approach, then enter the fight only when the crew physically reaches Midchain. Stoop when there is 30 feet of air; pull with the kusarigama when the lane is tight. Players can bait the ambush, protect the objective, ground him, or exploit the Rule of Two without assuming Skarn's private motive.
+### Stoop lane
+
+**Peregrine Dive** needs `30 feet` of straight-down movement. Use it from a roof-break, terrace, or open sky. A tight aisle under leaves is chain work, not a stoop.
+```
+
+```col-md
+flexGrow=1
+===
+### If pressured
+
+Use **Step of the Falcon** to Disengage, **Wingbeat Step** to change the lane, and **Deflect Attack** on the first solid hit. At `97` hit points or fewer, finish the current job if he can; otherwise, leave.
+
+### Target priority
+
+Take the object if one is at stake. Otherwise, attack the creature blocking the job, then the carrier, then anyone between Skarn and it. He cuts gear before throats.
+
+### Counterplay
+
+Ground him with Grapple or Restrain, or deny a `30-foot` straight-down lane. Beat the **Constitution save — `DC 18`** to avoid **Stunning Strike**. His AC is `19` and he has no damage resistances. Spread out against **Kusarigama Tempest**, deny clean pulls, or make him spend movement.
+
+### Kusarigama Tempest
+
+Use **Kusarigama Tempest** when two or more creatures are inside its `20-foot` Emanation and a pull or **Prone** condition changes the fight. On a failed save, choose pull or **Prone** for each creature; on a success, deal damage only.
+```
+````
+
+### Difficulty knobs
+
+- **Easier.** Remove **Legendary Resistance** and start **Kusarigama Tempest** uncharged.
+- **Harder.** Start him in the air with a stoop lane without raising his AC.
 
 # Combat
 
@@ -120,13 +164,7 @@ legendary_actions:
     desc: "Talon moves up to half his Speed without provoking Opportunity Attacks. He can't use Wingbeat Step again until the start of his next turn."
 ```
 
-## Running Talon Skarn
+## Alt Art
 
-- **Opening tell.** Wings lift, chains click, and he either stoops from open air or flicks a kusarigama line at the prize-carrier.
-- **Default choice.** Isolate the prize. **Stunning Strike** once on his turn, then **Kusarigama** or **Chain Snap** to pull that body off its partner. Mix in **Sai** on the watch partner so their next swing is worse.
-- **Stoop.** **Peregrine Dive** needs 30 feet straight down. Use it from a roof-break, terrace, or open sky. A tight aisle under leaves is chain work, not a stoop.
-- **If pressured.** **Step of the Falcon** to Disengage, **Wingbeat Step** to change the lane, **Deflect Attack** on the first solid hit. At 97 hit points or fewer he still plays the current job, then leaves.
-- **Target priority.** The object, then the carrier, then anyone between him and the carrier. He cuts gear before throats.
-- **Counterplay.** Ground him (Grapple, Restrain, or deny 30 feet of air). Beat the **Constitution save — `DC 18`** on the stun. Spread out against **Kusarigama Tempest**. Pass the object. Ready the grab. His AC is 19 and he has no damage resistances.
-- **Easy.** Remove Legendary Resistance and start **Kusarigama Tempest** uncharged.
-- **Hard.** Start him in the air with a stoop lane, without raising AC.
+![[attachments/shattered-sea/portraits/talon-skarn-portrait.jpg|Talon Skarn portrait]]
+![[artifacts/tokens/talon-skarn-token.png|Talon Skarn FoundryVTT token]]
