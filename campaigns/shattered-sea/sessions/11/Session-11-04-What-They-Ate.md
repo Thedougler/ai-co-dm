@@ -6,12 +6,15 @@ status: ready
 date: 2026-09-06
 visibility: dm
 tags: [session-prep, run-guide]
+cssclasses: [session-surface]
 summary: Development on Line Bank. Fallen fruit and fish remains are safe evidence; blood sits only under snapped living stems, and delay lets the smoke thin.
 ---
 # Session 11 — What they ate
 
 ![[aruhe-river-line-bank.jpg|Line Bank, three-pile fruiting margin and crude fishing line]]
 
+````col
+```col-md
 ## Scene ends when
 
 The scene ends when the party follows the north prints toward the smoke, handing to [[Session-11-05-Otter-Hole]], or breaks south toward [[Aruhe - Grasslands Torn Crossing]], the beach, or the downstream terraces.
@@ -21,7 +24,11 @@ This beat is thirty minutes.
 **If behind:** Show the three piles, the pole, and the blood under snapped living stems. Ask what the party does, then end on the north commit or the south break.
 
 **If ahead:** Let them inspect or forage, but still end on the north commit or the south break. Plucking living fruit is a [[Taking on Aruhe]] claim; the later hazards-table roll uses `2d8`, keeping the lower result. The trail and smoke remain.
+```
 
+```col-md
+flexGrow=2
+===
 ## At a Glance
 
 - **Stakes:** Easy food lies on the ground. Blood marks only snapped living stems. Delay makes the smoke and fresh prints harder to follow.
@@ -29,28 +36,36 @@ This beat is thirty minutes.
 - **Danger:** Plucking living plants turns this stop into a claim. Flying into open valley air puts that character in hawk sky.
 - **Silence:** Present the bank, then let the party choose. If they freeze here, thin the smoke once at the end of the round.
 - **Situation magnets:** Anyone who lingers on this bank or plucks living stems.
+```
+````
 
 ## Now
 
 The party is on [[Aruhe - River Line Bank]], facing north, just upvalley of [[Aruhe - Grasslands Torn Crossing]]. The river is immediately east. The prints start underfoot and run 60 feet north toward the smoke. The river-side pile, pole, and line sit 10 feet east at the water. The downstream pile sits 20 feet south. The inland pile sits 25 feet west toward the jungle wall. A 30-foot move stays on the bank. A 60-foot Dash follows the prints north off this card or reaches 40 feet south toward Torn Crossing. The smoke is a thin column on the northern horizon in this same valley, out of reach this slice. Apply any [[Taking on Aruhe]] claim already made.
 
-### Action cards
+## Action cards
 
+````col
+```col-md
 **This bank.** Eight-foot gold-green grass is Difficult Terrain and heavily obscures anything more than 10 feet away. Movement leaves a crushed corridor.
 
 The group ahead has survived on fallen fruit and fish. Snapped living stems are what left the blood. No named predator is present on this card. The smoke's distance and the number of people who passed remain unknown. Do not start [[Aruhe - River Slack Basin]]. Do not invent a new mechanical fruit.
 
-**[[Taking on Aruhe]] claim.** Fruit already on the ground has no blood under it. Taking only fallen fruit is not a claim. Plucking living plants, trapping, or killing to carry flesh is a claim. Do not roll the hazards table on this card. The later [[Session-11-00-Random-Tables]] roll uses `2d8`, keeping the lower result. The trail and smoke remain.
+**[[Taking on Aruhe]] claim.** Fruit already on the ground has no blood under it. Taking only fallen fruit is not a claim. Plucking living plants, trapping, or killing to carry flesh is a claim. Do not roll the hazards table on this card.
 
+**Clue 2.** Only if they ask who the flyer is, use **Wisdom (Perception) — `DC 27`**. [[Talon Skarn]] is up-sun, a man-sized peregrine body in the glare, then gone. Do not prompt this check.
+```
+
+```col-md
 **Fallen fruit.** The three bushes still hold tawny orange fruit. Eating a still-firm fallen fruit is a Bonus Action and regains `8d4 + 8` hit points, as [[Aruhe - Redheart Berry]]. Fermenting rinds and split skins have no listed healing. Blood under snapped living stems marks someone else's claim.
 
 **Intelligence (Nature) — identify the fruit**
 - `DC 10` → The still-firm fallen fruit is edible, not poison. Fermenting rinds are already down.
 - `DC 15` or *Identify* → Eating a still-firm fallen fruit is a Bonus Action and regains `8d4 + 8` hit points, as [[Aruhe - Redheart Berry]].
 
-**Clue 2.** Only if they ask who the flyer is, use **Wisdom (Perception) — `DC 27`**. [[Talon Skarn]] is up-sun, a man-sized peregrine body in the glare, then gone. Do not prompt this check.
-
 ![[aruhe-redheart-berry.jpg|Redheart Berry]]
+```
+````
 
 > [!narration] Initial Narration
 > You see three fruiting bushes along the wet margin, tawny orange globes still heavy on the living wood. Whole fruit and split skins lie in three piles at the roots: tawny orange ten feet toward the water, pale green twenty feet south along this bank, and a darker heap twenty-five feet west toward the jungle wall. The dirt under what has already fallen is clean. Dark red mud clings only to the living roots, where snapped stems hang over fruit still on the branch.
@@ -61,11 +76,23 @@ The group ahead has survived on fallen fruit and fish. Snapped living stems are 
 >
 > What do you do?
 
+````col
+```col-md
+flexGrow=3
+===
 ## Procedure
 
 **Clue.** This is a look-and-commit slice. There is no fight on this card. After everyone has acted, if anyone remains on the bank, advance the threat clock once. A frozen table still advances it once at the end of the round. Failed checks impose only the Be ready for ruling and never advance the clock. When the party follows the north prints or breaks south, the scene ends. Do not roll the hazards table here. Do not start [[Aruhe - River Slack Basin]].
 
 If a party member takes open valley air, that person leaves this bank. Point at a [[Aruhe - Young Bloodhawk]].
+```
+
+```col-md
+## Secondary objective
+
+If anyone plucks living plants, traps, or kills to carry flesh on this bank, mark [[Taking on Aruhe]]. Later, the hazards-table roll on [[Session-11-00-Random-Tables]] uses `2d8` and keeps the lower result. Fruit already on the ground is not a claim. The trail and smoke remain either way.
+```
+````
 
 ## Zones
 
@@ -92,6 +119,10 @@ If a party member takes open valley air, that person leaves this bank. Point at 
 
 Unforeseen intents use the same rule: the group ahead has been living off fallen fruit and fish, and snapped living stems left the blood. Rule from zones and whether the approach lingers, picks live stems, or keeps the north prints.
 
+````col
+```col-md
+flexGrow=3
+===
 ## Threat clock
 
 | Tick | What happens | Narration |
@@ -99,6 +130,16 @@ Unforeseen intents use the same rule: the group ahead has been living off fallen
 | 1 | The smoke thins. The column leans and breaks apart. The prints are still sharp. | ==_The inland column leans and thins. The same wind that moves the seed heads pulls the top of it sideways._== |
 | 2 | The trail starts going cold. Print edges lose their water and soften. The smoke is thinner. | ==_The footprints lose their sharp wet edges. North, the smoke is thinner than it was._== |
 | 3 | The fresh follow is gone. The smoke is a stain on the northern sky. The crushed corridor still leads north off the bank. | ==_North, the smoke is only a stain on the sky. The crushed corridor still runs up the bank, but the live sign has gone dull._== |
+```
+
+```col-md
+**Cover.** Eight-foot gold-green grass is Difficult Terrain and heavily obscures anything more than 10 feet away. Movement leaves a crushed corridor. The grass hides a standing body.
+
+**Hawk sky.** A party member who takes open valley air leaves this bank. Point at a [[Aruhe - Young Bloodhawk]].
+
+**Scene dials.** Behind: show the three piles, the pole, and the blood, then cut on the north commit or the south break. Ahead: inspect or forage is allowed. Living stems still count as a claim. Do not roll the hazards table. Do not start [[Aruhe - River Slack Basin]].
+```
+````
 
 ## How the Scene Resolves
 
