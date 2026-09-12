@@ -7,7 +7,7 @@ cr: 8
 source: house (wiki creature.deer-stalker, upgraded)
 visibility: dm
 tags: [monster, aruhe]
-summary: CR 8 assassin-style ambusher with a first-strike advantage, an isolated-target damage rider, a long-reach grab and drag, and a group-triggered escape.
+summary: CR 8 assassin-style ambusher with a first-strike advantage, an isolated-target damage rider, a long-reach grab and drag, and a group-triggered escape; reference sheet anchors its roughly eight-foot, shaggy brown-and-cream deer silhouette and blood-stained claws.
 ---
 
 # Deer-Stalker
@@ -19,7 +19,7 @@ flexGrow=3
 ===
 ![[deer-stalker-of-aruhe.jpg|Deer-Stalker of Aruhe]]
 > [!narration] Narration
-> The Deer-Stalker is a tall, starving deer dragged almost upright by overlong forelimbs, with thin hind legs tucked beneath a shaggy brown hide. Bone-pale arms hang past its knees and end in black claws, often dark with blood up to the wrists. Its antlers branch above a long white face, and pale forward eyes stare over a wet muzzle while blood and spit thread from its teeth into the leaf rot.
+> The Deer-Stalker stands roughly eight feet tall on long, cloven-hoofed hind legs, its shaggy brown coat broken by pale patches across the shoulders and back. A long white deer face and broad branching antlers rise above its front-heavy body, while overlong forelimbs hang past its knees and end in black, fingered claws stained dark with blood. Pale eyes stay fixed over a wet black muzzle, where blood and spit thread from its teeth into the leaf rot.
 ```
 
 ```col-md
@@ -71,6 +71,12 @@ reactions:
 
 
 
+
+## Visual reference
+
+The supplied character reference sheet establishes the Deer-Stalker at roughly eight feet tall, with a shaggy brown-and-cream coat, broad branching antlers, a long pale muzzle, pale forward eyes, blood-stained forelimbs, black clawed hands, and cloven hind hooves. Its front-heavy upright silhouette keeps the overlong arms reaching below the knees, with dark fur gathered around the torso and shoulders.
+
+![[attachments/shattered-sea/creatures/deer-stalker-of-aruhe-reference-sheet.png|Deer-Stalker character reference sheet]]
 
 ## Behavior
 
