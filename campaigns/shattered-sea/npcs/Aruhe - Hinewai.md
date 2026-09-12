@@ -27,26 +27,6 @@ source: "house (Monster-Brewer; legacy Fantasy Statblock import; Hinewai/Death B
 
 *The Woman in the Woods*
 
-## Art
-
-````col
-```col-md
-flexGrow=2
-===
-![[attachments/shattered-sea/reference/hinewai-reference-sheet.jpg|Hinewai identity reference sheet]]
-```
-
-```col-md
-flexGrow=1
-===
-![[attachments/shattered-sea/creatures/hinewai-woman-in-the-woods-token.jpg|Hinewai woman-in-the-woods Foundry VTT token]]
-![[attachments/shattered-sea/portraits/hinewai-moonlit-harp.jpg|Hinewai playing harp in the moonlit jungle]]
-```
-````
-
-> [!narration] Hinewai
-> Hinewai is a tall, narrow elf with pointed ears, pale cool-gray skin, amber-orange eyes, and fangs that show when her mouth opens. Long black hair falls down her back over a dark, layered cloak, its ragged hem hanging almost to her dark boots. Gray highlights catch in the nearly black folds, and the uneven sleeves hang around her long limbs like strips of worn cloth. Whether she stands, walks, sits, or drops into a low crouch, she keeps the same poised, deliberate silhouette.
-
 ````col
 ```col-md
 flexGrow=2
@@ -74,6 +54,26 @@ flexGrow=1
 ## Visual reference
 
 Hinewai is roughly `175 cm` tall. Her dark cloak has layered sleeves, a ragged hem, and gray highlights in the folds. The reference sheet shows her standing, walking, sitting, reaching, and crouching without changing the same narrow, long-limbed silhouette.
+```
+````
+
+> [!narration] Hinewai
+> Hinewai is a tall, narrow elf with pointed ears, pale cool-gray skin, amber-orange eyes, and fangs that show when her mouth opens. Long black hair falls down her back over a dark, layered cloak, its ragged hem hanging almost to her dark boots. Gray highlights catch in the nearly black folds, and the uneven sleeves hang around her long limbs like strips of worn cloth. Whether she stands, walks, sits, or drops into a low crouch, she keeps the same poised, deliberate silhouette.
+
+## Art
+
+````col
+```col-md
+flexGrow=2
+===
+![[attachments/shattered-sea/reference/hinewai-reference-sheet.jpg|Hinewai identity reference sheet]]
+```
+
+```col-md
+flexGrow=1
+===
+![[attachments/shattered-sea/creatures/hinewai-woman-in-the-woods-token.jpg|Hinewai woman-in-the-woods Foundry VTT token]]
+![[attachments/shattered-sea/portraits/hinewai-moonlit-harp.jpg|Hinewai playing harp in the moonlit jungle]]
 ```
 ````
 

@@ -994,3 +994,17 @@ Future `foundry-battlemap` upgrades should add a vehicle or deck-plan mode with 
 **status:** closed
 
 **Fix:** Reordered `campaigns/shattered-sea/npcs/Aruhe - Hinewai.md` so the wiki spine reads in play order and expanded both owner-page `[!narration]` blocks with drawable, player-safe sensory detail. Measure: compact cockpit-first layout 1 → readable owner-page spine with two full cold portraits.
+
+### 2026-09-11 — Hinewai art section placement
+
+**Error:** The revised Hinewai page still led with an `## Art` section, making the owner page feel image-first instead of like readable wiki content.
+
+**Correction:** Put the title, quick reference, visual reference, and player-safe identity narration before `## Art`; keep the art block available before the running and alternate-form guidance.
+
+**Read:** `user-corrections.md`; `.agents/skills/obsidian-markdown/SKILL.md`; `.agents/skills/copy-writer/SKILL.md`; `.agents/skills/npc-design/SKILL.md`; `campaigns/shattered-sea/npcs/Aruhe - Hinewai.md`
+
+**count:** 1
+
+**status:** closed
+
+**Fix:** Moved `## Art` below the identity and quick-reference content while preserving every embed, narration block, mechanic, and combat section. Measure: art-first heading order 1 → wiki identity-first heading order 1.
