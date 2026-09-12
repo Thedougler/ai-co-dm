@@ -1,145 +1,146 @@
 # Statblock → Foundry field mapping
 
-Vault statblocks use the Obsidian Fantasy Statblocks YAML format inside
-` ```statblock ` fences. This reference maps each field to the
-corresponding `dnd5e-create-npc` parameter or `dnd5e-add-feature` call.
+Vault statblocks use Obsidian Fantasy Statblocks YAML inside
+` ```statblock ` fences. This reference maps each field to
+`dnd5e-create-npc` parameters with concrete extraction patterns.
 
-## Identity fields → `dnd5e-create-npc`
+## Full example
 
-| Statblock YAML | Foundry parameter | Notes |
-|---|---|---|
-| `name` | `name` | |
-| `size` | `size` | Lowercase: tiny, small, medium, large, huge, gargantuan |
-| `type` | `creatureType` | Map to enum: humanoid, beast, monstrosity, etc. |
-| `alignment` | `alignment` | Pass through |
-| `cr` | `cr` | Accepts "1/4", "1/2", 0.25, 5, etc. |
-| `source` | `sourceBook` | |
+Given this statblock YAML:
 
-## Defenses → `dnd5e-create-npc`
+```yaml
+name: River Otter
+size: Small
+type: beast
+alignment: unaligned
+ac: 12 (natural armor)
+hp: 11 (2d6+4)
+stats: [10, 15, 14, 4, 12, 6]
+speed: 30 ft., swim 40 ft.
+senses: darkvision 30 ft.
+cr: 1/4
+skillsaves:
+  - perception: 3
+  - stealth: 4
+languages: "--"
+traits:
+  - name: Hold Breath
+    desc: "Can hold its breath for 10 minutes."
+actions:
+  - name: Bite
+    desc: "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 4 (1d4+2) piercing damage."
+```
 
-| Statblock YAML | Foundry parameter | Notes |
-|---|---|---|
-| `ac` | `acMode: "flat"`, `acValue: <number>` | Parse the number from "15 (natural armor)" |
-| `hp` | `hpAverage` | Parse the number before parentheses |
-| `hit_dice` | `hpFormula` | The parenthesized part, e.g. "3d8+6" |
+The `dnd5e-create-npc` call is:
 
-## Ability scores → `dnd5e-create-npc`
+```json
+{
+  "name": "River Otter",
+  "creatureType": "beast",
+  "size": "small",
+  "alignment": "unaligned",
+  "cr": "1/4",
+  "hpAverage": 11,
+  "hpFormula": "2d6+4",
+  "acMode": "flat",
+  "acValue": 12,
+  "abilities": {"str": 10, "dex": 15, "con": 14, "int": 4, "wis": 12, "cha": 6},
+  "walkSpeed": 30,
+  "swimSpeed": 40,
+  "darkvision": 30,
+  "skills": [
+    {"skill": "Perception", "proficiency": "proficient"},
+    {"skill": "Stealth", "proficiency": "proficient"}
+  ],
+  "sourceRules": "2024"
+}
+```
 
-| Statblock YAML | Foundry parameter |
-|---|---|
-| `stats: [STR, DEX, CON, INT, WIS, CHA]` | `abilities: {str, dex, con, int, wis, cha}` |
+## Extraction patterns
 
-The statblock array is positional: index 0=STR, 1=DEX, 2=CON, 3=INT,
-4=WIS, 5=CHA.
+### AC — always use flat mode
 
-## Movement → `dnd5e-create-npc`
+`ac: 14 (natural armor)` → `acMode: "flat"`, `acValue: 14`
 
-| Statblock YAML | Foundry parameter |
-|---|---|
-| `speed` | Parse into `walkSpeed`, `flySpeed`, `swimSpeed`, `burrowSpeed`, `climbSpeed` |
+Parse the number before any parenthesized description. Always use
+`acMode: "flat"` for creature imports.
 
-Format is usually `"30 ft., fly 60 ft., swim 30 ft."` — split on comma,
-parse each segment.
+### HP — split average from formula
 
-## Senses → `dnd5e-create-npc`
+`hp: 32 (5d8+10)` → `hpAverage: 32`, `hpFormula: "5d8+10"`
 
-| Statblock YAML | Foundry parameter |
-|---|---|
-| `senses` | Parse into `darkvision`, `blindsight`, `tremorsense`, `truesight` (feet) |
+The number before parens is average. The string inside parens is formula.
 
-Format: `"darkvision 60 ft., passive Perception 14"` — passive
-Perception is not a sense parameter (it's derived from skills).
+### Ability scores — positional array
 
-## Saves and skills → `dnd5e-create-npc`
+`stats: [STR, DEX, CON, INT, WIS, CHA]`
 
-| Statblock YAML | Foundry parameter | Notes |
-|---|---|---|
-| `saves` | `savingThrows` | Array of `{key, mod}` → extract just the ability keys |
-| `skillsaves` | `skills` | Array of `{key, mod}` → map to `{skill, proficiency}` |
+Index 0 = str, 1 = dex, 2 = con, 3 = int, 4 = wis, 5 = cha.
 
-For skills, the statblock uses short keys like `perception`, `stealth`.
-Map to title case for Foundry: "Perception", "Stealth". Determine
-proficiency vs expertise by comparing the modifier to the expected
-proficiency bonus for the CR.
+```json
+"abilities": {"str": 16, "dex": 14, "con": 14, "int": 3, "wis": 12, "cha": 6}
+```
 
-## Languages → `dnd5e-create-npc`
+### Speed — split on comma
 
-| Statblock YAML | Foundry parameter |
-|---|---|
-| `languages` | `languages` (array) + `languagesCustom` (telepathy etc.) |
+`speed: 30 ft., fly 60 ft., swim 30 ft.`
 
-## Immunities and resistances → `dnd5e-create-npc`
+- Bare number → `walkSpeed: 30`
+- "fly N ft." → `flySpeed: 60`
+- "swim N ft." → `swimSpeed: 30`
+- "burrow N ft." → `burrowSpeed: N`
+- "climb N ft." → `climbSpeed: N`
 
-| Statblock YAML | Foundry parameter |
-|---|---|
-| `damage_immunities` | `damageImmunities` |
-| `damage_resistances` | `damageResistances` |
-| `damage_vulnerabilities` | `damageVulnerabilities` |
-| `condition_immunities` | `conditionImmunities` |
+### Senses — split on comma, ignore passive Perception
 
-## Traits → `dnd5e-add-feature`
+`senses: darkvision 60 ft., passive Perception 14`
 
-Each entry in `traits:` is `{name, desc}`.
+- "darkvision N ft." → `darkvision: 60`
+- "blindsight N ft." → `blindsight: N`
+- "tremorsense N ft." → `tremorsense: N`
+- "truesight N ft." → `truesight: N`
+- "passive Perception" → skip (derived from skills)
 
-**Standard SRD traits** (Pack Tactics, Magic Resistance, Spider Climb,
-Keen Senses, etc.) — use `dnd5e-add-features-from-compendium` first. If
-not found, fall back to manual `dnd5e-add-feature` with
-`featureType: "passive"`.
+### Saves
 
-## Actions → `dnd5e-add-feature`
+`saves: [{ dex: 5 }, { wis: 3 }]`
 
-Each entry in `actions:` is `{name, desc}`. Parse the description to
-choose `featureType`:
+Extract just the ability keys: `savingThrows: ["dex", "wis"]`
 
-### Attack actions
+### Skills
 
-Look for: *Melee Weapon Attack:* or *Ranged Weapon Attack:*
+`skillsaves: [{ perception: 3 }, { stealth: 4 }]`
 
-Extract:
-- `attackType`: "melee" or "ranged"
-- Hit bonus → derive `abilityModifier` (compare to ability mods + PB)
-- Reach/range → `reachFt` or `rangeFt`/`longRangeFt`
-- Damage → `damageParts`: `{number, denomination, type}`
+Map to title case with proficiency level:
 
-If the description also contains a saving throw after the hit (e.g.
-"the target must succeed on a DC 13 Constitution saving throw or take
-2d6 poison damage"):
-- Use `featureType: "attack-with-save"`
-- `saveAbility`, `saveDC`, `saveDamageParts`
+```json
+"skills": [
+  {"skill": "Perception", "proficiency": "proficient"},
+  {"skill": "Stealth", "proficiency": "proficient"}
+]
+```
 
-### Save actions
+Use `"expert"` only when the modifier is significantly higher than
+proficiency bonus + ability modifier would produce (roughly double
+proficiency bonus).
 
-Look for: "DC \d+ (Strength|Dexterity|...) saving throw"
-No attack roll present.
+### Damage/condition arrays
 
-Extract:
-- `saveAbility`, `saveDC`
-- `damageParts` from the damage on failure
-- `halfOnSave` if "half as much" appears
-- `areaType`/`areaSize` if area described (cone, line, etc.)
-- `activationType` from action economy cues
+Direct pass-through as arrays of lowercase strings:
 
-### Passive actions
+```json
+"damageImmunities": ["fire", "poison"],
+"damageResistances": ["bludgeoning"],
+"damageVulnerabilities": ["cold"],
+"conditionImmunities": ["poisoned", "frightened"]
+```
 
-No attack roll, no saving throw. Use `featureType: "passive"` with
-appropriate `activationType` (action, bonus, reaction, legendary, lair).
+### Languages
 
-## Bonus actions → `dnd5e-add-feature`
+```json
+"languages": ["Common", "Draconic"],
+"languagesCustom": "telepathy 60 ft."
+```
 
-Same parsing as actions, but set `activationType: "bonus"` unless the
-description overrides it.
-
-## Multiattack
-
-Multiattack is always `featureType: "passive"` — it describes the
-attack routine in its description. The actual attacks are separate
-features.
-
-## Spellcasting
-
-If a trait named "Spellcasting" or "Innate Spellcasting" exists:
-
-1. Call `dnd5e-add-feature` with `featureType: "spellcasting"` —
-   `spellcastingClass`, `spellcastingLevel`, `spellcastingAbility`
-2. Call `dnd5e-add-feature` with `featureType: "spells"` —
-   `spellNames` array of all listed spells
+Split telepathy and other non-standard language entries into
+`languagesCustom`. A `"--"` means no languages — omit the parameter.
