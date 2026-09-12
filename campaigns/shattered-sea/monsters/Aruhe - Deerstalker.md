@@ -18,6 +18,7 @@ summary: CR 8 assassin-style ambusher with a first-strike advantage, an isolated
 flexGrow=3
 ===
 ![[deer-stalker-of-aruhe.jpg|Deer-Stalker of Aruhe]]
+![[attachments/shattered-sea/creatures/deer-stalker-of-aruhe-token.png|Deer-Stalker of Aruhe Foundry VTT token]]
 > [!narration] Narration
 > The Deer-Stalker stands roughly eight feet tall on long, cloven-hoofed hind legs, its shaggy brown coat broken by pale patches across the shoulders and back. A long white deer face and broad branching antlers rise above its front-heavy body, while overlong forelimbs hang past its knees and end in black, fingered claws stained dark with blood. Pale eyes stay fixed over a wet black muzzle, where blood and spit thread from its teeth into the leaf rot.
 ```
