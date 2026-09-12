@@ -12,16 +12,22 @@ summary: Resolution after the Star Cut theft. Hawks hunt [[Talon Skarn]] only if
 
 ![[attachments/shattered-sea/places/aruhe-star-cut.jpg|Star Cut, night-watch aisle under a slit of stars]]
 
+````col
+```col-md
 ## Scene ends when
 
 End when the party can name what changed and what they want next. This is the aftermath of the watch at [[Aruhe - Quiet Forest Star Cut]], or on the column if they marched. Stop before [[Aruhe - Memorial Grove]] and before a second night begins.
 
-This beat is thirty minutes.
+Plan for about thirty minutes.
 
 **If behind:** If [[Talon Skarn]] left with the [[Fate Spinner]], resolve one inland stoop on him, then end the night. If the party held it, keep the [[Fate Spinner]] on [[Crissdalynn Khinriss]] or on this dirt, give one survivor line, then end the night.
 
 **If ahead:** End here anyway. The garden invitation stays open, but the party does not reach [[Aruhe - Memorial Grove]] tonight.
+```
 
+```col-md
+flexGrow=2
+===
 ## At a Glance
 
 - **Stakes:** The watch's result is visible now, and isolation is still how a body becomes prey.
@@ -29,6 +35,8 @@ This beat is thirty minutes.
 - **Danger:** If the [[Fate Spinner]] left this fire, the adult [[Aruhe - Bloodhawk]] hunts [[Talon Skarn]] in Open sky. Anyone who joins that air can become the meal. If the party held it, this camp still splits ship versus garden.
 - **Silence:** Present what changed, then wait. If the party freezes on Held, end the night with sleep. If the party freezes on Stolen while anyone remains in Open sky, tick the clock once at the end of the round.
 - **Situation magnets:** Anyone who climbs into Open sky. Anyone who walks a north trail alone. The [[Fate Spinner]] if it is in view.
+```
+````
 
 ## Now
 
@@ -48,21 +56,41 @@ The party is still on [[Aruhe - Quiet Forest Star Cut]] unless beat 8 sent them 
 
 **Mark spent.** Cut that last paragraph. The people at this fire refuse to leave the firelight, and the living fruit hangs untouched.
 
-### Action cards
+## Action cards
 
-**Aftermath.** Show what changed, what it cost, and what the party can still pursue. This is not a fight to the death. The party does not reach [[Aruhe - Memorial Grove]] tonight. Keep the [[Aruhe - Deerstalker]] off this card.
+````col
+```col-md
+**Stolen hunt.** Use these numbers only if the [[Fate Spinner]] left this fire and the adult [[Aruhe - Bloodhawk]] still lives.
 
-**One adult [[Aruhe - Bloodhawk]] on Stolen only.** Run the loop as Canopy Dive, Talon Grab, then Haul Aloft inland. [[Talon Skarn]] is the chosen meal. The party becomes prey only if someone hangs in Open sky, hits the hawk, makes loud magic, grabs him, or flies toward the young. At **124 HP or fewer**, the adult Bloodhawk keeps a grabbed [[Talon Skarn]] and continues inland. The adult Bloodhawk will not dive into closed canopy or eight-foot grass. For the Easy dial, use Multiattack only and do not recharge Canopy Dive. Canopy Dive or Beak is +13 to hit. Beak deals 28 piercing. Talon Grab is +13 to hit, 23 slashing, **Grappled** (escape `DC 19`) and **Restrained**. Fly 120 feet.
+**One adult [[Aruhe - Bloodhawk]].** Run Canopy Dive, Talon Grab, then Haul Aloft inland. [[Talon Skarn]] is the chosen meal. The party becomes prey only if someone hangs in Open sky, hits the hawk, makes loud magic, grabs him, or flies toward the young.
 
-**Young [[Aruhe - Bloodhawk|Bloodhawks]].** The young are smaller, four-winged charcoal hawks that follow the adult's dive. They strike whatever the adult flushes. Use them as pressure around the hunt, not as a second boss. A young hawk's dive drives a flushed body 30 feet down. They will not follow into eight-foot grass or closed canopy.
+- **Boundary:** The adult Bloodhawk will not dive into closed canopy or eight-foot grass.
+- **Bloodied 124 HP or fewer:** She keeps a grabbed [[Talon Skarn]] and continues inland.
+- **Easy dial:** Use Multiattack only and do not recharge Canopy Dive.
+- **Default rolls:** Canopy Dive or Beak is `+13` to hit. Beak deals `28` piercing. Talon Grab is `+13` to hit, `23` slashing, **Grappled** (escape `DC 19`) and **Restrained**. Fly `120 feet`.
 
-**[[Talon Skarn]] on Stolen.** He is the isolated body in the open. AC 19. Use whatever hit points remained after beat 9. Walk 50 feet. Fly 90 feet. Katana, sai, and kusarigama are still in hand. He wants to keep the [[Fate Spinner]] and break contact inland. He does not turn this camp into a second theft. Use the compact numbers on [[Session-11-09-Theft-on-the-Watch]] if someone hits him.
+**Young [[Aruhe - Bloodhawk|Bloodhawks]].** Smaller four-winged charcoal hawks follow the adult's dive and strike whatever she flushes. Use them as pressure around the hunt, not as a second boss.
+
+- **Flush:** A young hawk's dive drives a flushed body `30 feet` down.
+- **Boundary:** They will not follow into eight-foot grass or closed canopy.
+
+**[[Talon Skarn]] on Stolen.** He is the isolated body in the open.
+
+- **Default rolls:** `AC 19`. Use whatever hit points remained after beat 9. Walk `50 feet`. Fly `90 feet`.
+- **Want:** Keep the [[Fate Spinner]] and break contact inland. He does not turn this camp into a second theft.
+- **Hits:** Katana, sai, and kusarigama are still in hand. Use the compact numbers on [[Session-11-09-Theft-on-the-Watch]] if someone hits him.
+```
+
+```col-md
+**Aftermath.** Show what changed, what it cost, and what the party can still pursue. This is not a fight to the death. Keep the [[Aruhe - Deerstalker]] off this card.
 
 **Garden mouths.** Keep them unnamed. They listened, and they still want the garden. Sample: "She asked us to come admire her garden. This way. Leave the living plants."
 
 **Ship mouths.** Keep them unnamed. They call the listeners mad. Sample: "She is leading you into danger. Anyone who listens is mad."
 
 **[[Taking on Aruhe]].** Fallen fruit counts as receiving. Plucking a living plant is a claim, and surrounding life converges in response.
+```
+````
 
 > [!narration] Initial Narration
 > You see the people who slept along these walls sitting up, fewer than the prints that entered this valley. Some look north. Others look back toward the last grass. At the fire, voices begin again: come admire her garden, this way, leave the living plants. Other mouths answer over them: she is leading you into danger, and anyone who listens is mad.
@@ -73,6 +101,10 @@ The party is still on [[Aruhe - Quiet Forest Star Cut]] unless beat 8 sent them 
 >
 > What do you do?
 
+````col
+```col-md
+flexGrow=3
+===
 ## Procedure
 
 **Aftermath.** Failures impose the Be ready for ruling only. Failures never advance the threat clock.
@@ -84,6 +116,14 @@ On Stolen, the inverted hunt is live only in Open sky. After everyone has acted,
 If the party climbs into that air after him, an obvious body in the open can become the meal. If everyone stays on the ground, the hawks remain his problem.
 
 **Combat mode:** If the party commits to killing the adult [[Aruhe - Bloodhawk]], stop the clock and run the embedded Bloodhawk statblock. Do not turn this into a fight to the death unless the party makes itself the meal.
+```
+
+```col-md
+## Secondary objective
+
+Keep the [[Fate Spinner]] on [[Crissdalynn Khinriss]], or recover it from a talon or hooked blade. On Held, the required beat is staying on this dirt. On Stolen, it is taking the object in Open sky without becoming the meal. If the party freezes on Held, the night still ends. If it freezes in Open sky, the hawks still haul inland. If the [[Fate Spinner]] leaves this fire, it is gone from this watch; if the party holds it, the garden invitation remains open.
+```
+````
 
 ## Zones
 
@@ -115,9 +155,13 @@ If the party climbs into that air after him, an obvious body in the open can bec
 
 Unforeseen intents use the same want: isolation is still how a body becomes prey, and the [[Fate Spinner]] either stayed or left. Rule from the zones and from whether the approach stays on this dirt, enters Open sky, addresses the camp, or ends in sleep.
 
+````col
+```col-md
+flexGrow=3
+===
 ## Threat clock
 
-The hunt turn happens after everyone has acted, but only while Stolen is live and someone remains in Open sky. Table failures do not also tick. If the whole party stayed on this dirt, skip this clock and use How the Scene Resolves.
+Tick this clock only on Stolen, and only while someone remains in Open sky. If the whole party stayed on this dirt, skip this clock.
 
 | Tick | What happens | Narration |
 | --- | --- | --- |
@@ -125,18 +169,18 @@ The hunt turn happens after everyone has acted, but only while Stolen is live an
 | 2 | The adult [[Aruhe - Bloodhawk]] wheels without leaving [[Talon Skarn]]. Anyone still in Open sky is driven 30 feet down. If anyone attacked, flared, screamed, grabbed him, or flew at the young this round, a young hawk dives at that flushed body instead, driving it 30 feet down, or the adult uses Beak (+13 to hit, 28 piercing) on the loudest of those bodies. | ==_The hawk beats all four wings once and holds its line on the peregrine. The buffet drives anyone still in that air toward the crowns. If someone made noise, a smaller hawk cuts toward them, or the pale beak turns._== |
 | 3 | The adult [[Aruhe - Bloodhawk]] uses Talon Grab (+13 to hit, 23 slashing, **Grappled** escape `DC 19`, **Restrained**), then Haul Aloft, on [[Talon Skarn]]. If a party member is still the loudest obvious body, the adult Bloodhawk uses Talon Grab on that party member instead. It hauls the catch inland toward the darker wood, away from this fire. | ==_Boat-length talons close on the peregrine, or on the loudest body still hanging in that air. Four wings beat for height as the catch rises toward the darker wood north of this cut._== |
 | 4 | [[Talon Skarn]] is hauled inland, or anyone still obvious in Open sky is grabbed or driven into the crowns (`2d6` bludgeoning, **Prone**). The [[Fate Spinner]] is on a hawk, on him, or already recovered. The scene can end. | ==_The hunt leaves this star-cut and heads inland. A small quartz top may flash in a talon or hooked blade, or it may already be in a hand on this dirt. The east coals keep burning._== |
+```
 
+```col-md
 **Bloodied 124 HP.** The adult [[Aruhe - Bloodhawk]] keeps a grabbed body and continues inland.
 
 **Cover reached.** The adult [[Aruhe - Bloodhawk]] will not dive into closed canopy or eight-foot grass. The clock stops against anyone who reaches that cover.
 
-**Scene dials.** On Easy, use Multiattack only and do not recharge Canopy Dive. Do not spawn a second adult. Survivors who run are not extra enemies.
+**Scene dials.** Easy: Multiattack only. Do not recharge Canopy Dive. Do not spawn a second adult. Survivors who run are not extra enemies.
 
 Keep the [[Aruhe - Deerstalker]], [[Talon Vantyrus]], and [[Aruhe - Memorial Grove]] off this clock. Freeze in Open sky still ticks the hunt once.
-
-## Secondary objective
-
-Keep the [[Fate Spinner]] on [[Crissdalynn Khinriss]], or recover it from a talon or hooked blade. On Held, the required beat is staying on this dirt. On Stolen, it is taking the object in Open sky without becoming the meal. If the party freezes on Held, the night still ends. If it freezes in Open sky, the hawks still haul inland. If the [[Fate Spinner]] leaves this fire, it is gone from this watch; if the party holds it, the garden invitation remains open.
+```
+````
 
 ## How the Scene Resolves
 
