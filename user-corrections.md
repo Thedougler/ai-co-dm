@@ -952,3 +952,17 @@ Future `foundry-battlemap` upgrades should add a vehicle or deck-plan mode with 
 **status:** closed
 
 **Fix:** Session-surface styles were already promoted to global selectors in `ttrpg-styles.css` (identical values). Removed `cssclasses: [session-surface]` from all templates (`Session prep`, `Session log`, `Encounter`), all live session notes (11-00 through 11-06), `templates/00 Templates.md`, `docs/obsidian-presentation.md`, and `.agents/skills/run-guide/SKILL.md`. Measure: files with active `session-surface` cssclass reference outside archive and correction log 14 → 0. Cheap check: `grep -rn 'session-surface' --include='*.md' --include='*.css' | grep -v snippet-archive | grep -v user-corrections`.
+
+### 2026-09-11 — Initial narration does not orient the table
+
+**Error:** Initial narration is not resetting the scene. It does not initially describe the environment so players can orient themselves in the space, which is necessary for theatre of the mind.
+
+**Correction:** Initial narration must reset the scene by describing the environment and spatial orientation before the players act, so the table can understand where they are and what surrounds them.
+
+**Read:** `user-corrections.md`
+
+**count:** 1
+
+**status:** open
+
+**Fix:** _No fix in this turn. Another agent will determine and implement the durable process fix from this report._
