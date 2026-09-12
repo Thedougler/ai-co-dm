@@ -12,6 +12,8 @@ summary: Night ambush at Spoke Ring. The [[Aruhe - Deerstalker]] uses the garden
 
 ![[session-11-07-false-help-overview.jpg|False Help overview: the fire against the empty north trail]]
 
+````col
+```col-md
 ## Scene ends when
 
 End when the party keeps everyone grouped at [[Aruhe - Quiet Forest Spoke Ring]], answers the whisper together until it dies, sends one person down a north trail and resolves that choice, or breaks from the hub. This is the borrowed-voice ambush; night watch, [[Aruhe - Memorial Grove]], and [[Talon Skarn]] belong to other beats.
@@ -21,7 +23,11 @@ This beat lasts thirty minutes.
 **If behind:** Put the fire and the north-trail whisper in front of the party. Take one meaningful choice, then hand to [[Session-11-08-Night-Watch]].
 
 **If ahead:** Let the voice push one clear commitment, then stop. Keep [[Session-11-08-Night-Watch]] on its own card.
+```
 
+```col-md
+flexGrow=2
+===
 ## At a Glance
 
 - **Stakes:** A survivor who follows the garden voice alone becomes prey. Disorder at this fire gives [[Talon Skarn]] cover on [[Session-11-09-Theft-on-the-Watch]].
@@ -29,6 +35,8 @@ This beat lasts thirty minutes.
 - **Danger:** One person on a north trail gets the face and then the attack. Two ready hostiles within 30 feet make the [[Aruhe - Deerstalker]] retreat.
 - **Silence:** Put the fire and the empty north trail in front of the players, then wait for their choice.
 - **Situation magnets:** Anyone who walks a north trail alone, and any survivor who believes the voice and steps off the hub.
+```
+````
 
 ## Now
 
@@ -38,8 +46,10 @@ Three or four other Calveno wreck people sit in the firelight. The garden mouths
 
 Deeper wood begins 50 feet north. A 30-foot move stays on the hub or reaches the first north-trail mouth. A 60-foot Dash follows a trail off the ring but does not reach [[Aruhe - Quiet Forest Star Cut]], [[Aruhe - Memorial Grove]], the beach, or the terraces. The [[Aruhe - Deerstalker]] has a speed of 40 feet and a climb speed of 20 feet. Two ready hostiles within 30 feet make it retreat.
 
-### Action cards
+## Action cards
 
+````col
+```col-md
 **Cliffhanger.** Run this as a look-and-commit slice. The garden voice is a lure, not an opening attack. If the party stays grouped, let the creature retreat without forcing a fight.
 
 **One [[Aruhe - Deerstalker]].** Use one creature and treat it as not Famished on this card. Keep it on this beat; [[Session-11-09-Theft-on-the-Watch]] has its own opposition.
@@ -53,7 +63,9 @@ Deeper wood begins 50 feet north. A 30-foot move stays on the hub or reaches the
 **Face.** When one person reaches the north trail alone, show the wrong movement first. Then the muzzle says, "You're not welcome here," and the creature attacks.
 
 **Abort.** Two ready hostiles within 30 feet make it retreat for now. The mark stays, and it waits for another split. It will not enter [[Aruhe - Razer-Grass]].
+```
 
+```col-md
 **Garden mouths.** These unnamed survivors listened to the invitation and want to see the garden. They stand when the whisper comes. Sample: "She asked us to come admire her garden. This way. Leave the living plants."
 
 **Ship mouths.** These unnamed survivors call the listeners mad. If the party holds the fire, they talk over any attempt to lure someone north.
@@ -61,6 +73,8 @@ Deeper wood begins 50 feet north. A 30-foot move stays on the hub or reaches the
 **[[Matteo Scola]].** If the party pulled him from the hole and he can speak, use his name. If he is still **Unconscious**, call him the man until he wakes and says Matteo. He wants living people and will not walk a north trail alone. If the party left him in the hole, remove him from this card.
 
 ![[attachments/shattered-sea/creatures/deer-stalker-of-aruhe.jpg|Deer-Stalker of Aruhe]]
+```
+````
 
 > [!narration] Initial Narration
 > You hear a whisper from the packed trail twenty feet north of this fire: come admire her garden, this way, leave the living plants. The same words come again from the darker wood, stretched thin. You see no matching feet on that dirt. Nothing shows with them.
@@ -71,6 +85,10 @@ Deeper wood begins 50 feet north. A 30-foot move stays on the hub or reaches the
 >
 > What do you do?
 
+````col
+```col-md
+flexGrow=3
+===
 ## Procedure
 
 **Peel turn.** After everyone has acted, advance the threat clock once if anyone remains isolated or a garden mouth is still walking toward the unanswered voice. A failed check applies its **Be ready for** ruling but does not also advance the clock. If the party waits while a garden mouth is standing or peeling away, advance the clock once at the end of the round.
@@ -88,6 +106,14 @@ If beat 6 ended without the invitation, this card has no woman-lure. Run only th
 If a party member takes open valley air, move that person to Hawk sky. The first beat does not repeat on this card.
 
 **Combat mode:** If one person is in the north trail and the [[Aruhe - Deerstalker]] attacks, stop the clock and run the embedded statblock. If the whole party comes up ready, the creature retreats. Hand to [[Session-11-08-Night-Watch]] only after this card resolves. Keep this creature off [[Session-11-09-Theft-on-the-Watch]].
+```
+
+```col-md
+## Secondary objective
+
+Stop a peeling survivor before tick 3. If the party ignores that person, they are lost into Quiet, and [[Session-11-08-Night-Watch]] begins with fewer mouths at the fire. Shouting, running survivors, or kicked-over coals leave the fire in disorder; that mess gives [[Talon Skarn]] cover on [[Session-11-09-Theft-on-the-Watch]].
+```
+````
 
 ## Zones
 
@@ -117,9 +143,11 @@ If a party member takes open valley air, move that person to Hawk sky. The first
 
 Unforeseen intents use the same want: the [[Aruhe - Deerstalker]] wants whoever walks a north trail alone or believes the voice and separates. Rule from the zones and whether the party stays on the hub, goes out alone, answers as a group, or leaves.
 
+````col
+```col-md
+flexGrow=3
+===
 ## Threat clock
-
-At the end of the round, advance the peel turn once if anyone remains isolated or a garden mouth is still walking toward the unanswered voice. A table failure does not also advance the clock.
 
 | Tick | What happens | Narration |
 | --- | --- | --- |
@@ -127,18 +155,16 @@ At the end of the round, advance the peel turn once if anyone remains isolated o
 | 2 | One unnamed garden mouth steps off the hub toward the north trail and is 10 feet from the trail mouth. That person is still on the packed dirt. | ==_One listener leaves the coals and takes the packed dirt toward the north dark. The whisper keeps those garden words, and the fire sits behind them._== |
 | 3 | The garden mouth walks the north trail alone and becomes isolated. If the isolated body is a party member, speak the face lines and let the [[Aruhe - Deerstalker]] attack. If it is a garden mouth and two ready hostiles are not within 30 feet, that person is lost into Quiet. The walk does not begin with Snatch from the Dim. | ==_The listener's back disappears between the big roots. The stretched garden words sit farther in that wood._== |
 | 4 | The [[Aruhe - Deerstalker]] has its quarry or has broken contact. The voices die, and the fire may be in disorder from shouting, running, or kicked coals. Hand to [[Session-11-08-Night-Watch]] only after this scene resolves. | ==_The north trail goes quiet. Smoke hangs under the leaf roof. Mats sit kicked aside, and the people still on this dirt look at the dark instead of the coals._== |
+```
 
+```col-md
 **Bloodied.** At 42 hit points, the [[Aruhe - Deerstalker]] has no extra bloodied action. It keeps the isolated quarry.
 
 **Cover reached.** When the creature reaches deeper wood or has two ready hostiles within 30 feet, it breaks contact. The mark stays, and it waits for another split.
 
-**Scene dials.** Set this card to Easy with one [[Aruhe - Deerstalker]] that is not Famished.
-
-Keep [[Talon Skarn]], night watch, and [[Aruhe - Memorial Grove]] off this clock. If every garden mouth remains on the packed dirt and the party stays grouped, end the scene without another tick.
-
-## Secondary objective
-
-Stop a peeling survivor before tick 3. If the party ignores that person, they are lost into Quiet, and [[Session-11-08-Night-Watch]] begins with fewer mouths at the fire. Shouting, running survivors, or kicked-over coals leave the fire in disorder; that mess gives [[Talon Skarn]] cover on [[Session-11-09-Theft-on-the-Watch]].
+**Scene dials.** Set this card to Easy with one [[Aruhe - Deerstalker]] that is not Famished. Keep [[Talon Skarn]], night watch, and [[Aruhe - Memorial Grove]] off this clock. If every garden mouth remains on the packed dirt and the party stays grouped, end the scene without another tick.
+```
+````
 
 ## How the Scene Resolves
 
