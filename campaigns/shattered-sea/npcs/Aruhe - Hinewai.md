@@ -31,13 +31,23 @@ source: "house (Monster-Brewer; legacy Fantasy Statblock import; Hinewai/Death B
 
 ````col
 ```col-md
-flexGrow=3
+flexGrow=2
 ===
-![[attachments/shattered-sea/creatures/hinewai-woman-in-the-woods-token.jpg|Hinewai woman-in-the-woods Foundry VTT token]]
 ![[attachments/shattered-sea/reference/hinewai-reference-sheet.jpg|Hinewai identity reference sheet]]
-![[attachments/shattered-sea/portraits/hinewai-moonlit-harp.jpg|Hinewai playing harp in the moonlit jungle]]
 ```
 
+```col-md
+flexGrow=1
+===
+![[attachments/shattered-sea/creatures/hinewai-woman-in-the-woods-token.jpg|Hinewai woman-in-the-woods Foundry VTT token]]
+![[attachments/shattered-sea/portraits/hinewai-moonlit-harp.jpg|Hinewai playing harp in the moonlit jungle]]
+```
+````
+
+> [!narration] Hinewai
+> Hinewai is a tall, narrow elf with pointed ears, pale cool-gray skin, amber-orange eyes, and fangs that show when her mouth opens. Long black hair falls down her back over a dark, layered cloak, its ragged hem hanging almost to her dark boots. Gray highlights catch in the nearly black folds, and the uneven sleeves hang around her long limbs like strips of worn cloth. Whether she stands, walks, sits, or drops into a low crouch, she keeps the same poised, deliberate silhouette.
+
+````col
 ```col-md
 flexGrow=2
 ===
@@ -57,14 +67,15 @@ flexGrow=2
 
 > **DM thesis:** Love did not cool in Hinewai; it metastasized. She loved life so fiercely that growth, reproduction, healing, adaptation, and rot lost their brakes. Aruhe is the successful preservation of one dead thing at the cost of a living country.
 ```
-````
 
-> [!narration] Hinewai
-> Hinewai stands at the edge of the jungle like a woman cut from its deepest shadow. Long black hair falls around pointed ears and amber eyes; her pale, cool-gray skin and sharp teeth make her face unsettling even when she is still. A long, tattered black cloak hangs from her narrow, long-limbed frame and drags close to the ground above dark boots.
-
+```col-md
+flexGrow=1
+===
 ## Visual reference
 
-Hinewai is roughly `175 cm` tall with a narrow, long-limbed silhouette. Her black hair reaches down her back, and her pointed ears, amber-orange eyes, and fangs make her face unmistakable. She wears a dark, draped cloak with a ragged hem and layered sleeves; the cloth reads almost black, with subtle gray highlights in its folds. She keeps the same poised silhouette whether she is standing, walking, seated, reaching into the trees, or dropping into a low crouch.
+Hinewai is roughly `175 cm` tall. Her dark cloak has layered sleeves, a ragged hem, and gray highlights in the folds. The reference sheet shows her standing, walking, sitting, reaching, and crouching without changing the same narrow, long-limbed silhouette.
+```
+````
 
 ---
 
@@ -99,7 +110,7 @@ Picking fruit from living branches, striking the tree, digging at a grave, uproo
 ![[attachments/shattered-sea/portraits/hinewai-portrait.jpg|Hinewai portrait]]
 
 > [!narration] Blight Form
-> Hinewai walks the Grove as a large ivory skeleton under a mantle of moss and rotted bark. Green fire burns in the eye sockets, and long black hair tangles with fruiting vines while leafless branches rise from the shoulders. One forearm is sheathed in dark wood that ends in a clawed hand.
+> Hinewai's Blight form is a large ivory skeleton wrapped in moss, rotted bark, and long black hair. Green fire burns in the empty eye sockets, while fruiting vines knot through the hair and leafless branches rise from the shoulders. One forearm is sheathed in dark wood that narrows into a clawed hand. The branchlike shoulders and wooden arm make the upright skeleton resemble a dead tree forced into a person's shape.
 
 ---
 

@@ -980,3 +980,17 @@ Future `foundry-battlemap` upgrades should add a vehicle or deck-plan mode with 
 **status:** open
 
 **Fix:** `scripts/foundry-stage` — deterministic compiler/checker for actor fields, biography, token path, and typed feature calls; live publication remains behind an explicit runtime adapter until a Foundry CRUD connector exists. Measure: repeatable source-to-plan check 0 → 1. Cheap check: `./scripts/foundry-stage --check 'campaigns/shattered-sea/monsters/Aruhe - River Otter.md'`.
+
+### 2026-09-11 — Hinewai owner page ordering and cold portraits
+
+**Error:** The Hinewai revision optimized the top of the note for a cockpit but left the wiki sections in an awkward order and kept the Theatre-of-the-Mind portrait blocks too short for the intended NPC quality bar.
+
+**Correction:** Order the owner page as a readable wiki: identity and quick reference, player-safe identity narration, running guidance, alternate form, signature Death Bloom rules, history, relationships, and combat. Expand the woman-in-the-woods and Blight-form narration into fuller cold portraits while keeping DM-only mechanics and secrets out of the spoken blocks.
+
+**Read:** `user-corrections.md`; `.agents/skills/obsidian-markdown/SKILL.md`; `.agents/skills/obsidian-markdown/references/COLUMNS.md`; `.agents/skills/copy-writer/SKILL.md`; `.agents/skills/npc-design/SKILL.md`; `campaigns/shattered-sea/npcs/Aruhe - Hinewai.md`; `campaigns/shattered-sea/locations/Aruhe - Memorial Grove.md`
+
+**count:** 1
+
+**status:** closed
+
+**Fix:** Reordered `campaigns/shattered-sea/npcs/Aruhe - Hinewai.md` so the wiki spine reads in play order and expanded both owner-page `[!narration]` blocks with drawable, player-safe sensory detail. Measure: compact cockpit-first layout 1 → readable owner-page spine with two full cold portraits.
