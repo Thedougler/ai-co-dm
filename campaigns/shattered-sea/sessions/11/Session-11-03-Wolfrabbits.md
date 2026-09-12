@@ -6,7 +6,6 @@ status: ready
 date: 2026-09-06
 visibility: dm
 tags: [session-prep, run-guide]
-cssclasses: [session-surface]
 summary: Cliffhanger hunt at Torn Crossing. Two flushed wolfrabbits cross the print lane while a Spiguar feeds nearby; the party stays safe only by avoiding the grass, the meal, and the escape lane.
 ---
 # Session 11 — Torn Crossing hunt

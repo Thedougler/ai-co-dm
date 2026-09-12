@@ -181,13 +181,13 @@ One downward pass of the cockpit in Reading view.
 7. **Table gate.** Completion: every item in **Table gate** below holds for
    this pass.
 
-8. **File.** `obsidian-markdown` (wikilinks, `session-surface`, real newlines, at-table scan, codeblock columns).
+8. **File.** `obsidian-markdown` (wikilinks, real newlines, at-table scan, codeblock columns).
    The only callout on the card is `[!narration]`. Layout uses `col` / `col-md` fences, not `[!col]`.
    `./scripts/after-write` on named paths.
 
 ## Lean Surface
 
-Frontmatter: `type: session-prep` (or `encounter`), `cssclasses: [session-surface]`,
+Frontmatter: `type: session-prep` (or `encounter`),
 `visibility: dm`.
 
 Use this as a section catalog, not a template to fill completely. A section

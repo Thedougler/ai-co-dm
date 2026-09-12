@@ -5,7 +5,6 @@ status: idea # idea | ready | run | shelved
 location: 
 visibility: dm
 tags: [encounter, run-guide]
-cssclasses: [session-surface]
 ---
 
 # {{title}}
@@ -54,7 +53,7 @@ flexGrow=2
 
 ````col
 ```col-md
-flexGrow=2
+flexGrow=3
 ===
 ## Procedure
 

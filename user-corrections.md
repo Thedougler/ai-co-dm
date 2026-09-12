@@ -1,5 +1,5 @@
 ---
-summary: Nick's correction log. Writers append on #ERROR; ASD drains. Open: replaced-wrong Beat 1 image; token subject isolation; visual-references image-to-reference template; claimed works on unclaimed Aruhe; TotM hawk-stoop force; PC token framing; battlemap zoom too tight; battlemap no image-input refs; session-surface cssclasses.
+summary: Nick's correction log. Writers append on #ERROR; ASD drains. Open: replaced-wrong Beat 1 image; token subject isolation; visual-references image-to-reference template; claimed works on unclaimed Aruhe; TotM hawk-stoop force; PC token framing; battlemap zoom too tight; battlemap no image-input refs.
 ---
 
 # User corrections
@@ -949,6 +949,6 @@ Future `foundry-battlemap` upgrades should add a vehicle or deck-plan mode with 
 
 **count:** 1
 
-**status:** open
+**status:** closed
 
-**Fix:** _No durable process fix in this turn._ Do not strip `cssclasses` from live notes; that breaks the current CSS. Another agent rewires vault CSS to ordinary selectors, then the frontmatter flag can go.
+**Fix:** Session-surface styles were already promoted to global selectors in `ttrpg-styles.css` (identical values). Removed `cssclasses: [session-surface]` from all templates (`Session prep`, `Session log`, `Encounter`), all live session notes (11-00 through 11-06), `templates/00 Templates.md`, `docs/obsidian-presentation.md`, and `.agents/skills/run-guide/SKILL.md`. Measure: files with active `session-surface` cssclass reference outside archive and correction log 14 → 0. Cheap check: `grep -rn 'session-surface' --include='*.md' --include='*.css' | grep -v snippet-archive | grep -v user-corrections`.

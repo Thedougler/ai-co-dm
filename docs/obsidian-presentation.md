@@ -30,8 +30,6 @@ Most wiki notes use the same disclosure bands. Empty sections are deleted, not f
 
 ## Session / run surfaces
 
-`cssclasses: [session-surface]` on session-prep, session logs, run guides, and beat cards.
-
 ### Session prep bands
 1. **At a Glance** — stakes, strong start, pressure, spotlights, roster + opening narration
 2. **At the table** — playable cards (not a railroad)

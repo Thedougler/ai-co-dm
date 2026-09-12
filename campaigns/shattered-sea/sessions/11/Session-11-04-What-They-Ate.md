@@ -6,7 +6,6 @@ status: ready
 date: 2026-09-06
 visibility: dm
 tags: [session-prep, run-guide]
-cssclasses: [session-surface]
 summary: Development on Line Bank. Fallen fruit and fish remains are safe evidence; blood sits only under snapped living stems, and delay lets the smoke thin.
 ---
 # Session 11 — What they ate

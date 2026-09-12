@@ -9,7 +9,6 @@ tags:
   - encounter
   - aruhe
   - session-11
-  - session-surface
 ---
 
 # Aruhe River / Grasslands Hazards

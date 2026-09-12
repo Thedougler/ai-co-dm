@@ -6,7 +6,6 @@ status: ready
 date: 2026-09-06
 visibility: dm
 tags: [session-prep, run-guide]
-cssclasses: [session-surface]
 summary: Adult Bloodhawk hunts the Crown Squid while young Bloodhawks flush exposed bodies; dropping into grass or river is how the party leaves that hunt.
 ---
 # Session 11 — Angry Birds

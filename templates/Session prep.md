@@ -6,7 +6,6 @@ status: ready # draft | ready | used
 date: 
 visibility: dm
 tags: [session-prep]
-cssclasses: [session-surface]
 ---
 
 # Prep — Session {{session}}

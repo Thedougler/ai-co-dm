@@ -6,7 +6,6 @@ status: draft # draft | final
 date: 
 visibility: dm
 tags: [session]
-cssclasses: [session-surface]
 ---
 
 # Session {{session}} — {{title}}
