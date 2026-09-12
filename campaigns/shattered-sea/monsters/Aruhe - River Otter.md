@@ -80,3 +80,4 @@ Aruhe River Otters are twelve-foot, stocky, wet-furred animals with a dark choco
 ---
 ## Art
 ![[aruhe-river-otter-reference-sheet.jpg|Aruhe River Otter character reference sheet]]
+![[aruhe-river-otter-token.png|Aruhe River Otter Foundry VTT token]]
