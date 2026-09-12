@@ -4,7 +4,7 @@ campaign: shattered-sea
 status: alive
 role: rival
 location:
-  - The Grove - Death Bloom
+  - "[[Aruhe - Memorial Grove]]"
 faction: none
 aliases:
   - Hinewai
@@ -29,20 +29,19 @@ source: "house (Monster-Brewer; legacy Fantasy Statblock import; Hinewai/Death B
 
 ## Art
 
-![[hinewai-woman-in-the-woods-token.jpg|Hinewai woman-in-the-woods Foundry VTT token]]
-
-![[hinewai-reference-sheet.jpg|Hinewai identity reference sheet]]
-
+````col
+```col-md
+flexGrow=3
+===
+![[attachments/shattered-sea/creatures/hinewai-woman-in-the-woods-token.jpg|Hinewai woman-in-the-woods Foundry VTT token]]
+![[attachments/shattered-sea/reference/hinewai-reference-sheet.jpg|Hinewai identity reference sheet]]
 ![[attachments/shattered-sea/portraits/hinewai-moonlit-harp.jpg|Hinewai playing harp in the moonlit jungle]]
+```
 
-> [!narration] Hinewai
-> Hinewai stands at the edge of the jungle like a woman cut from its deepest shadow. Long black hair falls around pointed ears and amber eyes; her pale, cool-gray skin and sharp teeth make her face unsettling even when she is still. A long, tattered black cloak hangs from her narrow, long-limbed frame and drags close to the ground above dark boots.
-
-## Visual reference
-
-Hinewai is roughly `175 cm` tall with a narrow, long-limbed silhouette. Her black hair reaches down her back, and her pointed ears, amber-orange eyes, and fangs make her face unmistakable. She wears a dark, draped cloak with a ragged hem and layered sleeves; the cloth reads almost black, with subtle gray highlights in its folds. She keeps the same poised silhouette whether she is standing, walking, seated, reaching into the trees, or dropping into a low crouch.
-
-## At a glance
+```col-md
+flexGrow=2
+===
+## At a Glance
 
 | **Role**            | Undead guardian fused to Aruhe's living systems                     |
 | ------------------- | ------------------------------------------------------------------- |
@@ -57,16 +56,41 @@ Hinewai is roughly `175 cm` tall with a narrow, long-limbed silhouette. Her blac
 | **Permanent death** | Ruin the Death Bloom, then destroy her walking body                 |
 
 > **DM thesis:** Love did not cool in Hinewai; it metastasized. She loved life so fiercely that growth, reproduction, healing, adaptation, and rot lost their brakes. Aruhe is the successful preservation of one dead thing at the cost of a living country.
+```
+````
+
+> [!narration] Hinewai
+> Hinewai stands at the edge of the jungle like a woman cut from its deepest shadow. Long black hair falls around pointed ears and amber eyes; her pale, cool-gray skin and sharp teeth make her face unsettling even when she is still. A long, tattered black cloak hangs from her narrow, long-limbed frame and drags close to the ground above dark boots.
+
+## Visual reference
+
+Hinewai is roughly `175 cm` tall with a narrow, long-limbed silhouette. Her black hair reaches down her back, and her pointed ears, amber-orange eyes, and fangs make her face unmistakable. She wears a dark, draped cloak with a ragged hem and layered sleeves; the cloth reads almost black, with subtle gray highlights in its folds. She keeps the same poised silhouette whether she is standing, walking, seated, reaching into the trees, or dropping into a low crouch.
 
 ---
 
 ## Running Hinewai
 
+````col
+```col-md
+flexGrow=1
+===
 ### First meeting
 
-Hinewai treats visitors as **guests until they behave like invaders**. She can be serene, calm, proud, and even seem at ease around those who do not harm nature. 
+Hinewai receives visitors as **guests** while they look, listen, map, or pay respect. Play her as calm, proud, old, and courteous. She asks what they want from Aruhe before she explains anything.
 
-If angered, she disappears into the forest, sending all nearby fauna and predatory flora are compelled to kill the aggressor at all costs. 
+**Sample line:** “You may look. You may not take.”
+```
+
+```col-md
+flexGrow=1
+===
+### When the welcome ends
+
+Picking fruit from living branches, striking the tree, digging at a grave, uprooting black flowers, or trying to carry the Bloom away ends her welcome. Hinewai states the consequence without raising her voice.
+
+**Next move:** She withdraws into the forest. Local plants and animals answer according to their own instincts and claims; they are not her puppets or a hive mind.
+```
+````
 
 ---
 
@@ -81,18 +105,34 @@ If angered, she disappears into the forest, sending all nearby fauna and predato
 
 # The Death Bloom
 
+````col
+```col-md
+flexGrow=2
+===
 ## Core rule
 
-**Hinewai's walking body is not the real target.** The Death Bloom is a **place**, not an object. It consists of:
+**Hinewai's walking body is not the real target.** The Death Bloom is a **place**, not an object. It consists of the central fruit tree, her companion's grave, Hinewai's grave, the black-flower ring, the bound soil, and the ritual relationship between them.
 
-* the central fruit tree;
-* her companion's grave;
-* Hinewai's grave;
-* the black-flower ring;
-* the bound soil;
-* the ritual relationship between all of them.
+Together they are Hinewai's body and **place-bound phylactery**. There is no detachable object to find and smash. The Bloom's boundary is uncertain, so damage that appears complete may still leave enough of it intact for Hinewai to return. See [[Aruhe - Memorial Grove]].
+```
 
-Together they are Hinewai's body and **place-bound phylactery**. There is no detachable object to find and smash. The Death Bloom's boundary is uncertain. It may be necessary to burn the entire memorial grove to the ground to ensure that every bound root and ritual connection is destroyed. No one knows how far the Bloom extends outward from the two graves, so damage that appears complete may still leave enough of it intact for Hinewai to return. See [[Aruhe - Memorial Grove]].
+```col-md
+flexGrow=1
+===
+## Weakening the Bloom
+
+Damage to the memorial weakens Hinewai. Damage to her walking body alone never changes stages.
+
+| Memorial state | Use |
+| --- | --- |
+| **Whole** | [[#Death Bloom Whole]] |
+| **Wounded** | [[#Death Bloom Wounded]] |
+| **Near ruin** | [[#Death Bloom Near Ruin]] |
+| **Ruined** | No rebirth; body destruction is permanent. |
+
+See [[Aruhe - Memorial Grove#Destruction timeline]].
+```
+````
 
 ### Rebirth
 
@@ -102,21 +142,7 @@ If Hinewai's walking body reaches **0 hit points** while the Death Bloom still h
 2. Hinewai reforms at the tree in `1d10 days`.
 3. She returns using the combat stage corresponding to the memorial's current condition.
 
-**Body-only victory buys time.** If the Death Bloom is ruined first, destruction of the walking body becomes permanent.
-
-### Weakening the Bloom
-
-Damage to the memorial weakens Hinewai.
-
-| Memorial State | Hinewai                                   |
-| -------------- | ----------------------------------------- |
-| **Whole**      | [[#Death Bloom WholeStage 1]]             |
-| **Wounded**    | [[#Death Bloom WoundedStage 2]]           |
-| **Near Ruin**  | [[#Death Bloom Near RuinStage 3]]         |
-| **Ruined**     | No rebirth; body destruction is permanent |
-
-
-See [[Aruhe - Memorial Grove#Destruction timeline]].
+**Body-only victory buys time.** If the Death Bloom is ruined before the walking body is destroyed, destruction of that body becomes permanent.
 
 ---
 
