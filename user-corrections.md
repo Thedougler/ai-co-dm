@@ -966,3 +966,17 @@ Future `foundry-battlemap` upgrades should add a vehicle or deck-plan mode with 
 **status:** open
 
 **Fix:** _No fix in this turn. Another agent will determine and implement the durable process fix from this report._
+
+### 2026-09-11 — Foundry monster staging needs deterministic automation
+
+**Error:** #ERROR: The Aruhe River Otter Foundry pass required a long, stateful UI sequence to create one actor, map the canonical statblock, configure AC/HP/speed/skills/senses, set the token, add eight feature descriptions, and reload-verify the result. This manual process is not deterministic or reusable and leaves too much room for omissions, duplicate actors, and drift from the Markdown owner.
+
+**Correction:** Build agent-shaped deterministic script(s) that compile the canonical monster owner into a complete Foundry staging plan, including actor fields, token path, biography, and typed feature payloads, with explicit `--check` completion criteria and an adapter boundary for live Foundry publication. Apply `writing-for-agents` principles in the design: one source of truth, progressive disclosure, positive steps, and checkable completion criteria.
+
+**Read:** `AGENTS.md`; `.agents/skills/writing-for-agents/SKILL.md`; `.agents/skills/foundry-stage/SKILL.md`; `.agents/skills/foundry-stage/references/field-mapping.md`; `.agents/skills/foundry-stage/references/feature-recipes.md`; `campaigns/shattered-sea/monsters/Aruhe - River Otter.md`; `scripts/foundry-token`; `user-corrections.md`
+
+**count:** 1
+
+**status:** open
+
+**Fix:** `scripts/foundry-stage` — deterministic compiler/checker for actor fields, biography, token path, and typed feature calls; live publication remains behind an explicit runtime adapter until a Foundry CRUD connector exists. Measure: repeatable source-to-plan check 0 → 1. Cheap check: `./scripts/foundry-stage --check 'campaigns/shattered-sea/monsters/Aruhe - River Otter.md'`.

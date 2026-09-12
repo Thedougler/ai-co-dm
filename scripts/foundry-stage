@@ -1,0 +1,414 @@
+#!/usr/bin/env python3
+"""Compile a vault monster statblock into a deterministic Foundry staging plan.
+
+The Markdown owner is the source of truth. This command reads its ``statblock``
+fence and emits the actor fields, token path, biography, and typed feature calls
+an adapter can publish through Foundry. It does not edit Foundry data directly.
+
+Steps:
+  1. Pass one canonical monster owner Markdown file.
+  2. Run ``--check`` until the plan is complete and internally consistent.
+  3. Send the JSON plan to an explicit Foundry runtime adapter.
+
+Completion criteria for ``--check``:
+  - the statblock has all required actor fields and six ability scores;
+  - speeds, senses, skills, token, and narration are mapped;
+  - every trait/action becomes one typed feature call;
+  - every weapon attack has an attack type, attack bonus, range, and damage;
+  - feature names are unique and no source text is silently discarded.
+
+The output is stable: no timestamps, random IDs, or live database writes.
+"""
+from __future__ import annotations
+
+import argparse
+import ast
+import json
+import re
+import sys
+from pathlib import Path
+from typing import Any
+
+
+ABILITY_KEYS = ("str", "dex", "con", "int", "wis", "cha")
+SENSE_KEYS = ("darkvision", "blindsight", "tremorsense", "truesight")
+SPEED_KEYS = ("walkSpeed", "flySpeed", "swimSpeed", "burrowSpeed", "climbSpeed")
+SAVE_ABILITIES = {
+    "strength": "str",
+    "dexterity": "dex",
+    "constitution": "con",
+    "intelligence": "int",
+    "wisdom": "wis",
+    "charisma": "cha",
+}
+
+
+class StageError(ValueError):
+    """A source document cannot produce a complete staging plan."""
+
+
+def scalar(raw: str) -> Any:
+    """Parse the small YAML scalar subset used by vault statblocks."""
+    value = raw.strip()
+    if not value:
+        return ""
+    if value.startswith(("\"", "'")):
+        try:
+            return ast.literal_eval(value)
+        except (SyntaxError, ValueError):
+            return value.strip("\"'")
+    if value.startswith("[") and value.endswith("]"):
+        try:
+            return ast.literal_eval(value)
+        except (SyntaxError, ValueError):
+            raise StageError(f"cannot parse list value: {raw}") from None
+    if re.fullmatch(r"-?\d+", value):
+        return int(value)
+    if re.fullmatch(r"-?\d+\.\d+", value):
+        return float(value)
+    return value
+
+
+def statblock_text(markdown: str) -> str:
+    match = re.search(r"```statblock\s*\n(.*?)\n```", markdown, re.DOTALL)
+    if not match:
+        raise StageError("source has no ```statblock fence")
+    return match.group(1)
+
+
+def top_level_fields(block: str) -> dict[str, Any]:
+    fields: dict[str, Any] = {}
+    for line in block.splitlines():
+        match = re.match(r"^([A-Za-z_][\w-]*):\s*(.*)$", line)
+        if match:
+            fields[match.group(1)] = scalar(match.group(2))
+    return fields
+
+
+def named_list(block: str, field_name: str) -> list[dict[str, str]]:
+    lines = block.splitlines()
+    start = next(
+        (index for index, line in enumerate(lines) if line == f"{field_name}:"),
+        None,
+    )
+    if start is None:
+        return []
+    result: list[dict[str, str]] = []
+    current: dict[str, str] | None = None
+    for line in lines[start + 1 :]:
+        if re.match(r"^[A-Za-z_][\w-]*:", line):
+            break
+        match = re.match(r"^\s*-\s+name:\s*(.*)$", line)
+        if match:
+            if current is not None:
+                result.append(current)
+            current = {"name": str(scalar(match.group(1)))}
+            continue
+        match = re.match(r"^\s+desc:\s*(.*)$", line)
+        if match and current is not None:
+            current["desc"] = str(scalar(match.group(1)))
+    if current is not None:
+        result.append(current)
+    return result
+
+
+def nested_number_map(block: str, field_name: str) -> dict[str, int]:
+    lines = block.splitlines()
+    start = next(
+        (index for index, line in enumerate(lines) if line == f"{field_name}:"),
+        None,
+    )
+    if start is None:
+        return {}
+    result: dict[str, int] = {}
+    for line in lines[start + 1 :]:
+        if re.match(r"^[A-Za-z_][\w-]*:", line):
+            break
+        match = re.match(r"^\s*-\s*([^:]+):\s*(-?\d+)\s*$", line)
+        if match:
+            result[match.group(1).strip().title()] = int(match.group(2))
+    return result
+
+
+def parse_speeds(raw: str) -> dict[str, int]:
+    result: dict[str, int] = {}
+    for part in str(raw).split(","):
+        match = re.search(r"(?:(walk|fly|swim|burrow|climb)\s+)?(\d+)\s*ft", part, re.I)
+        if not match:
+            continue
+        mode = (match.group(1) or "walk").lower()
+        result[f"{mode}Speed"] = int(match.group(2))
+    return result
+
+
+def parse_senses(raw: str) -> dict[str, int]:
+    result: dict[str, int] = {}
+    for sense in SENSE_KEYS:
+        match = re.search(rf"\b{sense}\s+(\d+)\s*ft", str(raw), re.I)
+        if match:
+            result[sense] = int(match.group(1))
+    return result
+
+
+def parse_damage(description: str) -> list[dict[str, Any]]:
+    pattern = re.compile(
+        r"(?P<number>\d+)d(?P<denomination>\d+)"
+        r"(?:\s*(?P<sign>[+-])\s*(?P<bonus>\d+))?\)\s*"
+        r"(?P<type>[a-z][a-z -]*?)(?=\s+damage\b|[.,])",
+        re.I,
+    )
+    parts: list[dict[str, Any]] = []
+    for match in pattern.finditer(description):
+        part: dict[str, Any] = {
+            "number": int(match.group("number")),
+            "denomination": int(match.group("denomination")),
+            "type": match.group("type").strip().lower(),
+        }
+        if match.group("bonus"):
+            part["bonus"] = int(match.group("bonus"))
+        parts.append(part)
+    return parts
+
+
+def feature_kind(description: str) -> str:
+    lowered = description.lower()
+    if "weapon attack:" in lowered and "saving throw" in lowered:
+        return "attack-with-save"
+    if "weapon attack:" in lowered:
+        return "attack"
+    if "dc " in lowered and "saving throw" in lowered:
+        return "save"
+    return "passive"
+
+
+def attack_call(actor_name: str, feature: dict[str, str], activation: str | None) -> dict[str, Any]:
+    description = feature["desc"]
+    match = re.search(r"\b(Melee|Ranged) Weapon Attack:\s*([+-]\d+) to hit", description, re.I)
+    if not match:
+        raise StageError(f"{feature['name']!r} is an attack but has no attack bonus/type")
+    call: dict[str, Any] = {
+        "featureType": feature_kind(description),
+        "actorIdentifier": actor_name,
+        "featureName": feature["name"],
+        "attackType": match.group(1).lower(),
+        "attackBonus": int(match.group(2)),
+        "damageParts": parse_damage(description),
+        "description": description,
+    }
+    reach = re.search(r"\breach\s+(\d+)\s*ft", description, re.I)
+    ranged = re.search(r"\brange\s+(\d+)(?:/(\d+))?\s*ft", description, re.I)
+    if reach:
+        call["reachFt"] = int(reach.group(1))
+    if ranged:
+        call["rangeFt"] = int(ranged.group(1))
+        if ranged.group(2):
+            call["longRangeFt"] = int(ranged.group(2))
+    if not call["damageParts"]:
+        raise StageError(f"{feature['name']!r} is an attack but has no damage formula")
+    if activation:
+        call["activationType"] = activation
+    return call
+
+
+def save_call(actor_name: str, feature: dict[str, str], activation: str | None) -> dict[str, Any]:
+    description = feature["desc"]
+    dc_match = re.search(r"\bDC\s+(\d+)", description, re.I)
+    ability_match = re.search(r"\b(Strength|Dexterity|Constitution|Intelligence|Wisdom|Charisma) saving throw", description, re.I)
+    if not dc_match or not ability_match:
+        raise StageError(f"{feature['name']!r} is a save but has no DC/ability")
+    call: dict[str, Any] = {
+        "featureType": "save",
+        "actorIdentifier": actor_name,
+        "featureName": feature["name"],
+        "saveAbility": SAVE_ABILITIES[ability_match.group(1).lower()],
+        "saveDC": int(dc_match.group(1)),
+        "damageParts": parse_damage(description),
+        "description": description,
+    }
+    if "half as much" in description.lower():
+        call["halfOnSave"] = True
+    area = re.search(r"(\d+)-foot(?:-radius)?\s+(cone|line|sphere|cube|cylinder)", description, re.I)
+    if area:
+        call["areaSize"] = int(area.group(1))
+        call["areaType"] = area.group(2).lower()
+    if activation:
+        call["activationType"] = activation
+    return call
+
+
+def passive_call(actor_name: str, feature: dict[str, str], activation: str | None) -> dict[str, Any]:
+    call: dict[str, Any] = {
+        "featureType": "passive",
+        "actorIdentifier": actor_name,
+        "featureName": feature["name"],
+        "description": feature["desc"],
+    }
+    if activation:
+        call["activationType"] = activation
+    return call
+
+
+def make_feature_calls(actor_name: str, groups: list[tuple[str, list[dict[str, str]]]]) -> list[dict[str, Any]]:
+    calls: list[dict[str, Any]] = []
+    for group_name, features in groups:
+        activation = {"actions": "action", "bonus_actions": "bonus"}.get(group_name)
+        for feature in features:
+            if not feature.get("name") or not feature.get("desc"):
+                raise StageError(f"{group_name} contains a feature without name/desc")
+            kind = feature_kind(feature["desc"])
+            if kind in {"attack", "attack-with-save"}:
+                call = attack_call(actor_name, feature, activation)
+                if kind == "attack-with-save":
+                    save = save_call(actor_name, feature, activation)
+                    call["saveAbility"] = save["saveAbility"]
+                    call["saveDC"] = save["saveDC"]
+                    call["saveDamageParts"] = save["damageParts"]
+            elif kind == "save":
+                call = save_call(actor_name, feature, activation)
+            else:
+                call = passive_call(actor_name, feature, activation)
+            calls.append(call)
+    return calls
+
+
+def narration(markdown: str) -> str:
+    lines = markdown.splitlines()
+    try:
+        start = next(i for i, line in enumerate(lines) if line.strip() == "> [!narration] Narration")
+    except StopIteration:
+        return ""
+    collected: list[str] = []
+    for line in lines[start + 1 :]:
+        if line.startswith(">"):
+            collected.append(line[1:].lstrip())
+        elif collected:
+            break
+    return " ".join(part for part in collected if part).strip()
+
+
+def token_basename(markdown: str) -> str:
+    matches = re.findall(r"!\[\[([^\]|]+)(?:\|[^\]]+)?\]\]", markdown)
+    tokens = [Path(value.strip()).name for value in matches if "token" in Path(value.strip()).name.lower()]
+    if not tokens:
+        raise StageError("source has no token embed")
+    return tokens[-1]
+
+
+def build_plan(source: Path) -> dict[str, Any]:
+    if not source.is_file():
+        raise StageError(f"source does not exist: {source}")
+    markdown = source.read_text(encoding="utf-8")
+    block = statblock_text(markdown)
+    fields = top_level_fields(block)
+    required = ("name", "size", "type", "alignment", "ac", "hp", "hit_dice", "speed", "stats", "cr")
+    missing = [field for field in required if field not in fields]
+    if missing:
+        raise StageError(f"statblock is missing: {', '.join(missing)}")
+    stats = fields["stats"]
+    if not isinstance(stats, (list, tuple)) or len(stats) != 6:
+        raise StageError("stats must contain exactly STR, DEX, CON, INT, WIS, and CHA")
+    ac_match = re.search(r"\d+", str(fields["ac"]))
+    if not ac_match:
+        raise StageError("ac has no numeric value")
+    speeds = parse_speeds(str(fields["speed"]))
+    if "walkSpeed" not in speeds:
+        raise StageError("speed has no walking speed")
+    skills = nested_number_map(block, "skillsaves")
+    traits = named_list(block, "traits")
+    actions = named_list(block, "actions")
+    bonus_actions = named_list(block, "bonus_actions")
+    groups = [("traits", traits), ("actions", actions), ("bonus_actions", bonus_actions)]
+    if not any(group for _, group in groups):
+        raise StageError("statblock has no traits, actions, or bonus_actions")
+    calls = make_feature_calls(str(fields["name"]), groups)
+    names = [call["featureName"].casefold() for call in calls]
+    if len(names) != len(set(names)):
+        raise StageError("feature names must be unique")
+    token = token_basename(markdown)
+    senses = parse_senses(str(fields.get("senses", "")))
+    languages = str(fields.get("languages", "")).strip()
+    actor: dict[str, Any] = {
+        "name": str(fields["name"]),
+        "creatureType": str(fields["type"]).lower(),
+        "size": str(fields["size"]).lower(),
+        "alignment": str(fields["alignment"]),
+        "cr": str(fields["cr"]),
+        "acMode": "flat",
+        "acValue": int(ac_match.group(0)),
+        "hpAverage": int(fields["hp"]),
+        "hpFormula": str(fields["hit_dice"]),
+        "abilities": dict(zip(ABILITY_KEYS, (int(value) for value in stats))),
+        "skills": [{"skill": name, "proficiency": "proficient"} for name in sorted(skills)],
+        "sourceRules": "2024",
+        "biography": narration(markdown),
+    }
+    actor.update(speeds)
+    actor.update(senses)
+    if languages and languages not in {"—", "--", "-"}:
+        actor["languages"] = [part.strip() for part in languages.split(",") if part.strip()]
+    if not actor["biography"]:
+        raise StageError("source has no narration callout for the actor biography")
+    return {
+        "schemaVersion": 1,
+        "source": str(source),
+        "runtime": {
+            "actorType": "npc",
+            "folder": "Foundry MCP Creatures",
+            "tokenPath": f"assets/tokens/{token}",
+            "publication": "adapter-required",
+        },
+        "actor": actor,
+        "featureCalls": calls,
+    }
+
+
+def check_plan(plan: dict[str, Any]) -> None:
+    actor = plan["actor"]
+    required_actor = ("name", "creatureType", "size", "alignment", "cr", "acValue", "hpAverage", "hpFormula", "abilities", "biography")
+    missing = [field for field in required_actor if not actor.get(field)]
+    if missing:
+        raise StageError(f"plan is missing actor fields: {', '.join(missing)}")
+    if set(actor["abilities"]) != set(ABILITY_KEYS):
+        raise StageError("plan abilities do not contain all six ability keys")
+    for key in SPEED_KEYS:
+        if key in actor and not isinstance(actor[key], int):
+            raise StageError(f"{key} must be an integer")
+    calls = plan["featureCalls"]
+    if not calls:
+        raise StageError("plan has no feature calls")
+    for call in calls:
+        if call["featureType"] in {"attack", "attack-with-save"}:
+            if not call.get("attackType") or not call.get("damageParts"):
+                raise StageError(f"attack feature is incomplete: {call['featureName']}")
+        if not call.get("description"):
+            raise StageError(f"feature has no description: {call['featureName']}")
+
+
+def main() -> int:
+    parser = argparse.ArgumentParser(
+        description="Compile one canonical monster Markdown owner into a deterministic Foundry staging plan.",
+        epilog="Use --check as the completion gate; publication is adapter-required and never an implicit database write.",
+    )
+    parser.add_argument("source", type=Path, help="canonical monster owner Markdown file")
+    parser.add_argument("--check", action="store_true", help="validate the complete plan and print a concise pass result")
+    parser.add_argument("--output", type=Path, help="write the deterministic JSON plan to this explicit path")
+    args = parser.parse_args()
+    try:
+        plan = build_plan(args.source)
+        check_plan(plan)
+    except (OSError, StageError, TypeError, ValueError) as exc:
+        print(f"foundry-stage: FAIL: {exc}", file=sys.stderr)
+        return 2
+    rendered = json.dumps(plan, ensure_ascii=False, indent=2, sort_keys=True) + "\n"
+    if args.output:
+        args.output.parent.mkdir(parents=True, exist_ok=True)
+        args.output.write_text(rendered, encoding="utf-8")
+    if args.check:
+        print(f"foundry-stage: PASS: {args.source} -> {len(plan['featureCalls'])} typed feature calls")
+    elif not args.output:
+        print(rendered, end="")
+    return 0
+
+
+if __name__ == "__main__":
+    raise SystemExit(main())
