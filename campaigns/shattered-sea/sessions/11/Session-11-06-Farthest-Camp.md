@@ -16,13 +16,15 @@ summary: Development at Spoke Ring. Calveno wreck people split over the garden a
 ```col-md
 ## Scene ends when
 
-End once the ship-versus-garden split at [[Aruhe - Quiet Forest Spoke Ring]] is clear and the party chooses how to handle this camp. Hand to [[Session-11-07-False-Help]] if they stay, play along, force a march, or leave someone isolated. Rebuild if they attack the camp or leave before hearing the invitation. This is the farthest inland Calveno camp, not night watch, not [[Aruhe - Memorial Grove]], and not [[Talon Skarn]] on the ground.
+This beat ends when the ship-versus-garden split at [[Aruhe - Quiet Forest Spoke Ring]] is clear and the party chooses how to handle this camp. Hand to [[Session-11-07-False-Help]] if they stay, play along, force a march, or leave someone isolated. Rebuild if they attack the camp or leave before hearing the invitation.
 
-This beat is thirty minutes.
+Plan for about thirty minutes.
 
 **If behind:** Put [[Matteo Scola]] and the two camp stories in front of the party, then ask what they do.
 
 **If ahead:** Leave the argument unfinished and hand to beat 7. [[Talon Skarn]] stays in the sun. The garden stays out of reach tonight.
+
+This is the farthest inland Calveno camp, not night watch, not [[Aruhe - Memorial Grove]], and not [[Talon Skarn]] on the ground.
 ```
 
 ```col-md
@@ -48,23 +50,44 @@ Three or four other Calveno wreck people sit in the firelight. One watches the n
 
 ````col
 ```col-md
-**[[Matteo Scola]].** If the party pulled him onto the sand and he can speak, use his name. If he is still **Unconscious**, call him the man until he wakes and says Matteo. He is Friendly toward the people who pulled him and wants to stay with living people. He says the others left the water and kept walking toward the smoke. He deserted them after rejecting the woman in the woods' advice, then went back for the pack. He does not name the woman. He sits close to whoever pulled him, away from the north trails. His voice is short and wet. Sample: "Matteo. They kept walking. I went back for the pack." If he is **Unconscious**, the camp talk still runs. If the party left him in the hole, remove him from this card.
+**[[Matteo Scola]].** If the party pulled him onto the sand and he can speak, use his name. If they left him in the hole, remove him from this card.
 
-**Garden group.** These unnamed survivors listened to the invitation. They are alive and want to see the garden. They look into the north trails whenever a branch moves and repeat the same words in half-voices. They are not under a spell; they want what she offered. Sample: "She asked us to come admire her garden. This way. Leave the living plants."
+- **Look:** He has a split, wet lip, one boot missing, and a grey salt-stiff shirt that is still damp. He sits 5 feet from the fire, close to whoever pulled him and away from the north trails.
+- **Want:** He is Friendly toward the people who pulled him and wants to stay with living people.
+- **Name:** If he is still **Unconscious**, call him the man until he wakes and says Matteo. Camp talk still runs while he is out.
+- **Talk:** He says the others left the water and kept walking toward the smoke. He deserted them after rejecting the woman in the woods' advice, then went back for the pack. He does not name the woman.
+- **Voice:** Short and wet. Sample: "Matteo. They kept walking. I went back for the pack."
 
-**Ship group.** These unnamed survivors call the listeners mad. They watch the south grass more than the north trails and talk over the invitation in hard, low voices. Sample: "She is leading you into danger. Anyone who listens is mad."
+**Garden group.** These unnamed survivors listened to the invitation. They are alive.
 
-**The [[Aruhe - Deerstalker]] is already listening in the north spokes.** It remains unseen.
+- **Want:** They want to see the garden. They are not under a spell.
+- **Tell:** They look into the north trails whenever a branch moves and repeat the same words in half-voices.
+- **Sample:** "She asked us to come admire her garden. This way. Leave the living plants."
+
+**Ship group.** These unnamed survivors call the listeners mad.
+
+- **Tell:** They watch the south grass more than the north trails and talk over the invitation in hard, low voices.
+- **Sample:** "She is leading you into danger. Anyone who listens is mad."
+
+**[[Aruhe - Deerstalker]].** It is already listening in the north spokes. It remains unseen.
 ```
 
 ```col-md
-**Clue 3.** Ask for optional **Wisdom (Perception) — `DC 27`** only if the party asks who the flyer is. [[Talon Skarn]] is the man-sized flyer up-sun over the leaf roof, with metallic or chained gear catching the gold and his eyes on [[Crissdalynn Khinriss]]. Then he is gone. After this glimpse, he is done with the sun. Do not prompt the check or interrupt the argument for it.
+**Clue 3.** Ask for optional **Wisdom (Perception) — `DC 27`** only if the party asks who the flyer is.
 
-**[[Taking on Aruhe]].** Fallen [[Aruhe - Stonepear]] is receiving. Plucking a living plant is a claim, and the surrounding life converges in response. This camp treats that taking as the wrong walk. Stop hazard-table rolls once the party reaches this fire.
+- **Tell:** [[Talon Skarn]] is the man-sized flyer up-sun over the leaf roof, with metallic or chained gear catching the gold and his eyes on [[Crissdalynn Khinriss]]. Then he is gone.
+- **After:** He is done with the sun. Do not prompt the check or interrupt the argument for it.
+
+**[[Taking on Aruhe]].** Fallen [[Aruhe - Stonepear]] is receiving.
+
+- **Take:** Plucking a living plant is a claim, and the surrounding life converges in response.
+- **Camp:** This camp treats that taking as the wrong walk.
+- **Hazards table:** Stop hazard-table rolls once the party reaches this fire.
 
 **Fallen [[Aruhe - Stonepear]].** Eating one is a Bonus Action and grants **Resistance to all damage** for 1 minute.
 
 **Identify.** **Intelligence (Nature) — Identify**
+
 - `DC 10` → edible, not poison.
 - `DC 15` or *Identify* → eating a fallen [[Aruhe - Stonepear]] is a Bonus Action and grants **Resistance to all damage** for 1 minute.
 
@@ -83,21 +106,25 @@ Three or four other Calveno wreck people sit in the firelight. One watches the n
 >
 > What do you do?
 
+````col
+```col-md
+flexGrow=3
+===
 ## Procedure
 
-**Warning.** Run this fire as a talk-and-commit slice. There is no fight on this card. End once the ship-versus-garden split is clear and the party stays, plays along, waits, or breaks. If they stall, keep [[Matteo Scola]] and the two camp stories in view, then ask what they do. Leave the argument unfinished on purpose.
+**Talk mode.** Run this fire as a talk-and-commit slice. There is no fight and no threat clock on this card. After everyone acts, if the ship-versus-garden split is still unclear, keep [[Matteo Scola]] and the two camp stories in view, then ask what they do. Freezing still leaves the argument unfinished. Failed checks impose only the Be ready for ruling.
 
-Use failures only for the ruling in **Be ready for**. There is no threat clock on this card. Do not start [[Session-11-07-False-Help]] until the handoff, and do not start night watch.
-
-If the party forces a march to the ship tonight, some survivors balk or slip into the north trails. Beat 7 may still fire on anyone who ends up isolated.
-
-If the party agrees to see the garden, they commit past this valley. The garden stays out of reach tonight. Still go to beat 7.
-
-If the party leaves without hearing the woman, beat 7 has no woman-lure. Drop beat 7 or recompute a weaker peel. The invitation is genuine.
-
-If a party member takes open valley air, that character leaves the hub for hawk sky. This is the last sun over the roof, not the bloodhawk stoop.
+If the party goes quiet and stays at the fire after the split is clear, hand to [[Session-11-07-False-Help]] on this hub. If they agree to see the garden, they commit past this valley; the garden stays out of reach tonight, and they still go to beat 7 on the first north trail. If they force a march to the ship tonight, some survivors balk or slip into the north trails, and beat 7 may still fire on anyone who ends up isolated. If they leave without hearing the woman, beat 7 has no woman-lure; drop beat 7 or recompute a weaker peel. The invitation is genuine. If a party member takes open valley air, that character leaves the hub for hawk sky. This is the last sun over the roof, not the bloodhawk stoop. Do not start [[Session-11-07-False-Help]] until the handoff, and do not start night watch.
 
 **Combat mode:** If someone attacks this camp, stop talking and rebuild. The prize is lost, but the party still has a night.
+```
+
+```col-md
+## Secondary objective
+
+Hear the garden invitation before anyone leaves this fire. If they hear it, [[Session-11-07-False-Help]] has the woman-lure. If they leave first, drop beat 7 or run a weaker peel. If they pulled [[Matteo Scola]], keep him on this dirt; he wants living people and will not take a north trail alone. If anyone plucks living stems at this fire, mark [[Taking on Aruhe]], and this camp treats that as the wrong walk.
+```
+````
 
 ## Zones
 
@@ -120,15 +147,15 @@ If a party member takes open valley air, that character leaves the hub for hawk 
 | Hear the two stories | Listening, or **Charisma (Persuasion)** to get them talking | Talk, or `DC 15` to draw out a hesitant survivor | The table hears both stories: a woman in the woods asked them to admire her garden and told them where to walk and what not to take; the other group says she is leading people into danger and anyone who listens is mad. This camp listened. They are alive. They want the garden. They can vouch, bargain, refuse evacuation, or help later, but they are not automatic allies. | They listen, then look at the trees. The round is spent, and the split remains live. | They look north and let the talk thin. The invitation remains half-heard. |
 | Test for a spell | **Wisdom (Insight)** | `DC 15` | They are not under a spell. They want the invitation. | The spell question stays unanswered. The two stories are still on the table. | That party member treats the garden-want as a spell or trick. The two stories are still on the table. |
 | Extract to [[Uncertainty]] | Influence: **Charisma (Persuasion)** to ask the survivors back to the ship | `DC 15` | Some survivors talk about [[Uncertainty]], but the garden group refuses. This camp does not all want to go. The split is on the table, night is coming, and waiting until morning still leaves beat 7 live. Pushing the walk tonight uses the forced-march row. | They listen, then look at the trees. The round is spent, and the split remains live. | They refuse. If the party keeps pushing a march tonight, use the forced-march row. |
-| Play along toward the garden | Agreeing to admire the garden, or to just see it | Commit | The party commits past this valley. The garden stays out of reach tonight. Dusk is gone. Hand to [[Session-11-07-False-Help]] on the first north trail. End this scene. | Binary — no partial. | Binary — no partial. |
-| Force a march tonight | Influence: **Charisma (Intimidation)**, or herding people off this fire toward [[Uncertainty]] tonight | `DC 15`, or Walk to start walking them | Some survivors balk or slip into the north trails. The only friendly inland group breaks. Beat 7 may still fire on anyone who ends up isolated. End this scene. | Binary — no partial. | They refuse and look into the trees. |
+| Play along toward the garden | Agreeing to admire the garden, or to just see it | Commit | The party commits past this valley. The garden stays out of reach tonight. Dusk is gone. Hand to [[Session-11-07-False-Help]] on the first north trail. End this scene. | There is no partial result. | There is no partial result. |
+| Force a march tonight | Influence: **Charisma (Intimidation)**, or herding people off this fire toward [[Uncertainty]] tonight | `DC 15`, or Walk to start walking them | Some survivors balk or slip into the north trails. The only friendly inland group breaks. Beat 7 may still fire on anyone who ends up isolated. End this scene. | There is no partial result. | They refuse and look into the trees. |
 | Look for the woman | **Wisdom (Perception)** among the trails around this fire, or walking a short way north | `DC 10` | The party finds no one on the trails around this fire. The garden group still looks into the trees when branches stir. Anyone who walks a north trail alone is isolated. | That party member spends the round at a trail mouth. The fire still has two stories. | That party member loses the fire's argument in the trails. If still alone, they are isolated. |
 | Search the mats and fruit | **Intelligence (Investigation)** or **Wisdom (Perception)** | `DC 10` | Four sleeping mats lie about 10 feet out, fewer than the crushed prints entering from the south. Fallen [[Aruhe - Stonepear]] rests by the coals, while living stonepears still hang above. Searching does not reveal the woman's name or how far away the garden is. | That party member remains at the ring and confirms that people sleep here. | That party member spends the round at the ring and learns only that people sleep here. |
 | Pick fruit at this fire | **Intelligence (Nature)** or **Wisdom (Survival)** to sort fallen fruit from living stems. **Utilize** if that party member plucks without sorting. Plucking living stems on purpose is a claim. | `DC 10` | That party member takes only fruit already on the ground by this fire. That is not a claim. Eating a fallen [[Aruhe - Stonepear]] is a Bonus Action and grants **Resistance to all damage** for 1 minute. | That party member takes some living stems at this fire. That is an [[Taking on Aruhe]] claim, and this camp notices. | That party member strips living fruit at this fire. That is an [[Taking on Aruhe]] claim, and this camp notices. The garden group treats the taking as the wrong walk. |
 | Look up-sun | **Wisdom (Perception)**, only if the party asks who the flyer is | `DC 27` | The looker sees [[Talon Skarn]] up-sun: a man-sized peregrine body, metallic or chained gear catching the gold, and eyes on [[Crissdalynn Khinriss]]. Then he is gone. | The looker catches last sun and a glint, then sees empty sky. They remain at the fire. | The looker sees last sun, then empty sky. They remain at the fire. |
-| Fly (hawk sky) | Fly up from this hub into open valley air | Take open valley air | That party member leaves the hub and enters open valley air. This is the last sun over this roof, not the bloodhawk stoop. End the scene for that flyer. | Binary — no partial. | Binary — no partial. |
-| Leave this camp | Walk the south trail toward the last grass, the river, the terrace line, the beach, or [[Uncertainty]] without hearing the woman | Walk | The party leaves this fire without hearing the invitation. Beat 7 has no woman-lure. Drop beat 7 or recompute a weaker peel. End this scene. | Binary — no partial. | Binary — no partial. |
-| Attack this camp | Attack, or draw a weapon on the people at this fire | Attack | The party loses the prize. These people scatter. Rebuild from that; they still have a night. End this scene. | Binary — no partial. | Binary — no partial. |
+| Fly (hawk sky) | Fly up from this hub into open valley air | Take open valley air | That party member leaves the hub and enters open valley air. This is the last sun over this roof, not the bloodhawk stoop. End the scene for that flyer. | There is no partial result. | There is no partial result. |
+| Leave this camp | Walk the south trail toward the last grass, the river, the terrace line, the beach, or [[Uncertainty]] without hearing the woman | Walk | The party leaves this fire without hearing the invitation. Beat 7 has no woman-lure. Drop beat 7 or recompute a weaker peel. End this scene. | There is no partial result. | There is no partial result. |
+| Attack this camp | Attack, or draw a weapon on the people at this fire | Attack | The party loses the prize. These people scatter. Rebuild from that; they still have a night. End this scene. | There is no partial result. | There is no partial result. |
 
 Unforeseen intents use the same wants: this camp wants the garden, while [[Matteo Scola]] wants living people. Rule from the two stories and whether the party stays, extracts, plays along, marches, or leaves.
 
