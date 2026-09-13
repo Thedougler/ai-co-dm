@@ -16,7 +16,7 @@ summary: CR 4 pack skirmisher that uses a 30-foot pounce to knock targets prone 
 ```col-md
 flexGrow=3
 ===
-![[attachments/shattered-sea/creatures/wolfrabbit-of-aruhe-v2.png|Wolfrabbit of Aruhe]]
+![[attachments/shattered-sea/creatures/wolfrabbit-of-aruhe-v2.jpg|Wolfrabbit of Aruhe]]
 ![[attachments/shattered-sea/creatures/wolfrabbit-of-aruhe-token.png|Wolfrabbit of Aruhe Foundry VTT token]]
 
 > [!narration] Narration
@@ -71,7 +71,7 @@ reactions:
 
 The supplied reference sheet establishes the Wolfrabbit as a tall, serval-like feline with very large upright ears, a tawny coat broken by dark stripes and spots, a pale muzzle and throat, red-orange eyes, dark nose and claws, and a long banded tail. Its low torso and long legs keep the silhouette spring-built rather than rabbit-shaped.
 
-![[attachments/shattered-sea/creatures/wolfrabbit-of-aruhe-reference-sheet.png|Wolfrabbit character reference sheet]]
+![[attachments/shattered-sea/creatures/wolfrabbit-of-aruhe-reference-sheet.jpg|Wolfrabbit character reference sheet]]
 
 ## Behavior
 
