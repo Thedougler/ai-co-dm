@@ -15,7 +15,7 @@ tags: [monster, aruhe, grasslands]
 ```col-md
 flexGrow=3
 ===
-![[spiguar-of-aruhe.jpg|Spiguar of Aruhe]]
+![[attachments/shattered-sea/creatures/spiguar-of-aruhe.jpg|Spiguar of Aruhe]]
 ![[attachments/shattered-sea/creatures/spiguar-of-aruhe-token.png|Spiguar of Aruhe Foundry VTT token]]
 
 > [!narration] Narration
