@@ -8,8 +8,11 @@ attunement: false
 owner: 
 visibility: dm
 tags: [item, aruhe, consumable]
+summary: Almost-black pupil-cluster berries from Aruhe's Grasslands; one eat as a Bonus Action grants haste for 1 minute with no Concentration.
 ---
 # Quickeye Berry
+
+![[attachments/shattered-sea/items/aruhe-quickeye-berry.jpg]]
 
 > [!narration] Narration
 > Almost-black berries shine like wet pupils in a tight cluster. Each berry is glossy and stains the fingers. The first taste is bitter on the tongue.
