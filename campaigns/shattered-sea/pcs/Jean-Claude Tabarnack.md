@@ -12,7 +12,7 @@ summary: Active blue Grung Gloom Stalker Ranger with a red beret, false moustach
 ## Art
 ![[jean-claude-tabarnack-banner.jpg]]
 ![[jean-claude-tabarnack-token.jpg|Jean-Claude Tabarnack FoundryVTT token]]
-![[attachments/shattered-sea/pcs/jean-claude-tabarnack-character-design-sheet.png|Jean-Claude Tabarnack character design reference]]
+![[jean-claude-tabarnack-character-design-sheet.jpg|Jean-Claude Tabarnack character design reference]]
 
 > [!narration] Narration
 > A three-foot electric-blue Grung, scarred and hard to mistake, in a red beret and false moustache he calls Corto di Velo. Kin can read the hat as a Twiceborn censure sign and walk past rather than claim him.
@@ -51,6 +51,7 @@ Exploration, ambushes, survival, route knowledge, and the collision between free
 
 ## Gear that matters
 - [[Truth Stone]] — a tool that has already forced truth into the open.
+- [[Grung - Authority Seal]] — gold-script papyrus taken from Solange's fall; still unused.
 - Twenty hidden vials of Simone toxin aboard [[Uncertainty]] — a liability, not a trusted tool.
 - Red beret — disguise and readable Twiceborn/censure sign.
 
