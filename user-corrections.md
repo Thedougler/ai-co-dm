@@ -342,7 +342,7 @@ Follow skill `agentic-system-designer` (Intake → Baseline → Fix → Prove �
 
 ### 2026-09-09 — Useless non-info on the card
 
-**Error:** Wrote this on a session card as if it were usable information: "**[[Aruhe - Hinewai]] is not standing at this fire.** The woman in their mouths is her. Her name, the graves, and how far the garden is stay unknown."
+**Error:** Wrote this on a session card as if it were usable information: "**[[Hinewai]] is not standing at this fire.** The woman in their mouths is her. Her name, the graves, and how far the garden is stay unknown."
 
 **Correction:** Do not write useless non-info. Do not tell the DM that someone is not present, that a name or distance stays unknown, or that "the woman in their mouths is her." If a line does not change a choice, ruling, risk, or words to speak, do not write it.
 
@@ -356,7 +356,7 @@ Follow skill `agentic-system-designer` (Intake → Baseline → Fix → Prove �
 
 ### 2026-09-09 — Off-stage NPC obsessed on the session card
 
-**Error:** Session 11 kept naming and stocking [[Aruhe - Hinewai]] even though she never appears this session.
+**Error:** Session 11 kept naming and stocking [[Hinewai]] even though she never appears this session.
 
 **Correction:** She does not show up this session. Mention her only if she does. She is a rumour about a woman in the woods. Do not obsess over people or things that do not show up in the session at all.
 
@@ -1036,3 +1036,17 @@ Future `foundry-battlemap` upgrades should add a vehicle or deck-plan mode with 
 **status:** closed
 
 **Fix:** Complete the Talon owner page, validate the rendered column/statblock structure and scoped diff, and publish only the requested live note plus this correction log. Measure: partial Talon page with loose repeated sections 1 → complete Hinewai-style DM reference with paired quick-reference and running guidance.
+
+### 2026-09-12 — Verify QMD before falling back to filesystem reads
+
+**Error:** #ERROR: Reported that QMD was unusable after one native-module ABI failure and switched to filesystem reads without retrying or verifying the command.
+
+**Correction:** Retry and verify QMD before declaring it unavailable. Use the canonical Markdown fallback only when the failure is confirmed, and state the concrete error rather than claiming QMD itself is broken.
+
+**Read:** `AGENTS.md`; `.agents/skills/qmd-retrieval/SKILL.md`; `.agents/skills/qmd/SKILL.md`; `user-corrections.md`
+
+**count:** 1
+
+**status:** open
+
+**Fix:** _No fix in this turn. Another agent will determine and implement the durable process fix from this report._
