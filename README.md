@@ -21,6 +21,18 @@ Local-only (gitignored): workspace layout, graph layout, plugin `data.json`, `.t
 
 See [AGENTS.md](AGENTS.md). Grok Bots also load [GROK-BOTS.md](GROK-BOTS.md), and agents running in oh-my-pi load [OMP.md](OMP.md). Short version: use wikilinks, keep notes small, update indexes when you add pages, never paste proprietary book text, no real player PII in this public repo. Agents ignore Obsidian UI chrome — markdown is the product.
 
+## Node / QMD
+
+Vault search is `./scripts/qmd`. Native addons in `@tobilu/qmd` must match the Node ABI pinned in [`.nvmrc`](.nvmrc) (Node 24). Do not run that CLI on Homebrew `node@26`.
+
+```bash
+nvm use
+./scripts/bootstrap
+./scripts/qmd --version
+```
+
+`./scripts/bootstrap` installs Node 24 when `nvm` is available, installs `@tobilu/qmd` if it is missing, rebuilds `better-sqlite3` on ABI mismatch, and smoke-tests a search. The launcher reads `.nvmrc` and prefers Homebrew `node@24`, then nvm 24, then a Node 24 binary on `PATH`.
+
 ## Layout
 
 | Path | Purpose |

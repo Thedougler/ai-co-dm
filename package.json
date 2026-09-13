@@ -1,0 +1,11 @@
+{
+  "name": "ai-co-dm",
+  "private": true,
+  "description": "Obsidian LLM wiki. Node is pinned in .nvmrc so ./scripts/qmd can load QMD native addons.",
+  "engines": {
+    "node": ">=24 <25"
+  },
+  "scripts": {
+    "bootstrap": "./scripts/bootstrap"
+  }
+}

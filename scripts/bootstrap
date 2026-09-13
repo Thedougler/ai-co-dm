@@ -1,0 +1,159 @@
+#!/bin/sh
+
+# Pin Node from .nvmrc, make sure QMD can open its sqlite index, and smoke-test
+# ./scripts/qmd. Native addons must be rebuilt against that Node ABI.
+set -eu
+
+ROOT=$(CDPATH= cd -P "$(dirname "$0")/.." && pwd -P)
+cd "$ROOT"
+
+canonical_path() {
+  target=$1
+
+  case $target in
+    /*) ;;
+    *) target=$PWD/$target ;;
+  esac
+
+  while [ -L "$target" ]; do
+    link=$(readlink "$target") || return 1
+    case $link in
+      /*) target=$link ;;
+      *) target=$(dirname "$target")/$link ;;
+    esac
+  done
+
+  directory=$(
+    CDPATH=
+    export CDPATH
+    cd -P "$(dirname "$target")" 2>/dev/null && pwd -P
+  ) || return 1
+  printf '%s/%s\n' "$directory" "$(basename "$target")"
+}
+
+node_major_of() {
+  version=$("$1" --version 2>/dev/null) || return 1
+  version=${version#v}
+  printf '%s\n' "${version%%.*}"
+}
+
+die() {
+  printf '%s\n' "ai-co-dm: $*" >&2
+  exit 1
+}
+
+NODE_MAJOR=24
+if [ -f "$ROOT/.nvmrc" ]; then
+  raw=$(tr -d ' \t\r' <"$ROOT/.nvmrc" | sed -n '1p')
+  case $raw in
+    v*) raw=${raw#v} ;;
+  esac
+  NODE_MAJOR=${raw%%.*}
+fi
+
+[ -n "$NODE_MAJOR" ] || die '.nvmrc did not yield a Node major version.'
+
+if [ -z "${NVM_DIR:-}" ]; then
+  NVM_DIR=$HOME/.nvm
+fi
+
+if [ -s "$NVM_DIR/nvm.sh" ]; then
+  # nvm is a set of shell functions; it must be sourced.
+  # shellcheck disable=SC1091
+  . "$NVM_DIR/nvm.sh"
+  nvm install
+  nvm use
+fi
+
+node_bin=$(command -v node 2>/dev/null || true)
+if [ -z "$node_bin" ] || [ "$(node_major_of "$node_bin")" != "$NODE_MAJOR" ]; then
+  for candidate in \
+    "/opt/homebrew/opt/node@${NODE_MAJOR}/bin/node" \
+    "/usr/local/opt/node@${NODE_MAJOR}/bin/node"
+  do
+    if [ -x "$candidate" ] && [ "$(node_major_of "$candidate")" = "$NODE_MAJOR" ]; then
+      node_bin=$candidate
+      export PATH="$(dirname "$candidate")${PATH:+:$PATH}"
+      break
+    fi
+  done
+fi
+
+[ -n "$node_bin" ] || die "Node.js ${NODE_MAJOR} was not found. Install nvm or Homebrew node@${NODE_MAJOR}."
+[ "$(node_major_of "$node_bin")" = "$NODE_MAJOR" ] || die "active node is $($node_bin --version); need ${NODE_MAJOR}.x (see .nvmrc)."
+
+npm_bin=$(dirname "$node_bin")/npm
+[ -x "$npm_bin" ] || npm_bin=$(command -v npm 2>/dev/null || true)
+[ -n "$npm_bin" ] || die "npm was not found next to $node_bin."
+
+qmd_bin=
+if [ -x "$ROOT/node_modules/.bin/qmd" ]; then
+  qmd_bin=$ROOT/node_modules/.bin/qmd
+else
+  saved_ifs=$IFS
+  IFS=:
+  for directory in ${PATH:-}; do
+    [ -n "$directory" ] || directory=.
+    candidate="$directory/qmd"
+    [ -x "$candidate" ] || continue
+    candidate_path=$(canonical_path "$candidate") || continue
+    case $candidate_path in
+      "$ROOT/scripts/qmd") continue ;;
+    esac
+    qmd_bin=$candidate
+    break
+  done
+  IFS=$saved_ifs
+fi
+
+if [ -z "$qmd_bin" ]; then
+  printf '%s\n' "ai-co-dm: installing @tobilu/qmd with Node ${NODE_MAJOR}."
+  "$npm_bin" install -g @tobilu/qmd
+  qmd_bin=$(command -v qmd 2>/dev/null || true)
+  [ -n "$qmd_bin" ] || die 'qmd is still missing after npm install -g @tobilu/qmd.'
+  qmd_path=$(canonical_path "$qmd_bin")
+  [ "$qmd_path" != "$ROOT/scripts/qmd" ] || die 'qmd on PATH is still the repo launcher; install @tobilu/qmd globally.'
+fi
+
+qmd_pkg=
+qmd_path=$(canonical_path "$qmd_bin")
+case $qmd_path in
+  */node_modules/@tobilu/qmd/bin/qmd)
+    qmd_pkg=$(
+      CDPATH=
+      export CDPATH
+      cd -P "$(dirname "$qmd_path")/.." && pwd -P
+    )
+    ;;
+  *)
+    prefix=$(
+      CDPATH=
+      export CDPATH
+      cd -P "$(dirname "$qmd_path")/.." && pwd -P
+    )
+    if [ -f "$prefix/lib/node_modules/@tobilu/qmd/package.json" ]; then
+      qmd_pkg=$prefix/lib/node_modules/@tobilu/qmd
+    fi
+    ;;
+esac
+
+rebuild_qmd_natives() {
+  [ -n "$qmd_pkg" ] || die "could not resolve @tobilu/qmd package from $qmd_bin"
+  printf '%s\n' "ai-co-dm: rebuilding QMD native addons in $qmd_pkg with $($node_bin --version)."
+  (
+    cd "$qmd_pkg"
+    "$npm_bin" rebuild better-sqlite3
+  )
+}
+
+smoke() {
+  "$ROOT/scripts/qmd" --version >/dev/null
+  "$ROOT/scripts/qmd" search "Matteo Scola" -c shattered-sea -n 1 >/dev/null
+}
+
+if ! smoke; then
+  rebuild_qmd_natives
+  smoke || die 'qmd still cannot open its index after native rebuild. Check Node ABI vs better-sqlite3.'
+fi
+
+printf '%s\n' "ai-co-dm: bootstrap ok — $($node_bin --version), $($ROOT/scripts/qmd --version | sed -n '1p')"

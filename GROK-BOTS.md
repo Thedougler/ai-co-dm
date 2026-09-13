@@ -19,7 +19,7 @@ Fleet wiring for **Grok Bots** only. Vault schema, write rules, skills, and `typ
 
 1. [[AGENTS]] + [[00 Home]] + [[campaigns/shattered-sea/hot]] (not the whole tree). Then this file.
 2. **Mac host gate (fail-closed):** vault reads/writes/commits only on **macbook.lan** (`machineId` `4aa16cad-1621-4103-953d-a800b4772ba5`), cwd = vault root. If Mac is disconnected **or** ListMachines says `connected: true` but Shell/Read still fails (“temporarily unreachable” / false-connected) → **stop** after 1–2 spawn attempts, ask Nick to reconnect or open [Update Grok Bot's Computer](grokbot://app/v1/settings?id=update-computer). Do **not** retry-thrash, clone the vault onto the Linux box, use alternate checkouts, or push without `./scripts/after-write`.
-3. After-write, qmd, Node 26, and markdown format stay in [[AGENTS]].
+3. After-write, qmd, and markdown format stay in [[AGENTS]]. Node for `./scripts/qmd` is pinned in `.nvmrc`; run `./scripts/bootstrap` on a fresh Mac.
 
 Completion: Shell is on macbook.lan with cwd = vault root, or the wake has stopped.
 
