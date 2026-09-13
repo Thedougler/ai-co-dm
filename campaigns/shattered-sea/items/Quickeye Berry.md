@@ -15,32 +15,15 @@ summary: Almost-black pupil-cluster berries from Aruhe's Grasslands; one eat as 
 ![[attachments/shattered-sea/items/aruhe-quickeye-berry.jpg]]
 
 > [!narration] Narration
-> Almost-black berries shine like wet pupils in a tight cluster. Each berry is glossy and stains the fingers. The first taste is bitter on the tongue.
+> A tight cluster of small glossy berries hangs from a mossy branch, each fruit no bigger than a fingertip and almost black. Wet light sits on several skins as pale rings around darker centers, so the bunch looks like a handful of pupils. Dew beads on the fruit, and the juice stains the fingers bitter.
 
+Consumable, Very Rare
 
+As a Bonus Action, eat this berry. You gain the effects of *haste* for **1 minute**, with no Concentration required. One berry, one use. Rare in the Grasslands. Eating it is not poison.
 
-## Look
-Almost-black glossy berry; bitter flesh; clusters like pupils.
+**Intelligence (Nature)** or **Wisdom (Medicine)** — Study, 1 minute
+- `DC 13` → Speed and alertness, one use.
+- `DC 15` → *Haste* for 1 minute, no Concentration.
+- Failure → Bitter stimulant fruit; no function.
 
-## What it does (table)
-**Fruit (consumable).** Bonus Action to eat. Gain the effects of *haste* for **1 minute**, with no Concentration required.
-
-Genuinely beneficial — no secret poison. Plucking living fruit from Aruhe draws notice — local life may converge on the taker (DM adjudicates; not a hive mind, not a timed island OS). Passage, watching, and spring water stay quiet.
-
-## Charges / limits
-- One fruit, one use.
-- Rare in the Grasslands; a rare find rather than a standing supply.
-
-## Story hooks
-A creature that eats one bolts at impossible speed. The berry is a pursuit-breaker, a patrol-timing tool, and an obvious export prize.
-
-## Provenance
-Grasslands fruit, most often found where river valleys break the canopy. Its alertness comes from bitter stimulants and pupil-like pigment clusters amplified by the Blight.
-
-## Identification
-DC 13 Nature/Medicine (1 min): broad speed-and-alertness function. DC 15 or *Identify*: *haste* effects for 1 minute, no Concentration.
-
-## Design notes (DM)
-- **Chassis:** Potion of Speed, reskinned as fruit ([D&D Beyond](https://www.dndbeyond.com/magic-items/4714-potion-of-speed)); the published chassis is Very Rare and its no-Concentration minute is retained. The 2014 Action → 2024 Bonus Action potion update is intentional ([2024 Basic Rules — Potions](https://www.dndbeyond.com/sources/dnd/br-2024/magic-items#Potions)).
-- **Trade:** Very Rare burst mobility and offense are paid for by one use, one minute, rare supply, and the garden's notice; no attunement.
-- **Knob:** If the party stockpiles Quickeyes, make the berry unique to a Grasslands route or remove the next harvest rather than weakening *haste*.
+*Identify* grants the `DC 15` result.
